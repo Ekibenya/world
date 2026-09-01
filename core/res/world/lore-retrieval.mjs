@@ -20,7 +20,9 @@ export function selectLoreEntries({ entries, primaryScan, secondaryScan, budget 
     const secondaryHits = exactKeyHits(secondaryScan, entry.secondaryKeys);
     const excluded = exactKeyHits(secondaryScan, entry.excludeKeys).length > 0;
     const selectiveMiss = entry.selective && secondaryHits.length === 0;
-    const score = primaryHits.reduce((sum, key) => sum + 120 + Math.min(String(key).length, 16) * 18, 0)
+    const characterFacetPriority = /^(?:character|secondary-character)-/.test(entry.category || '') ? 1000 : 0;
+    const score = characterFacetPriority
+      + primaryHits.reduce((sum, key) => sum + 120 + Math.min(String(key).length, 16) * 18, 0)
       + secondaryHits.reduce((sum, key) => sum + 80 + Math.min(String(key).length, 16) * 10, 0)
       + Number(entry.order || 0) / 100;
     return { entry, primaryHits, secondaryHits, excluded, selectiveMiss, score };

@@ -1111,6 +1111,26 @@
       "knowledgeStatus": "system-rule"
     },
     {
+      "id": "era-32-erebus-child-core-source-hierarchy",
+      "title": "【正典】来源层级与未知项",
+      "memo": "幼年厄瑞玻斯：常驻【正典】来源层级与未知项",
+      "category": "canon-rule",
+      "keys": [],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": true,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 992,
+      "position": "before-character",
+      "depth": 4,
+      "content": "本世界的事实只来自当前时代世界书及其所引小说原文。发生冲突时依次采用当前场景已经发生的事实、具体人物条目、具体机构或地点条目、能力与族群条目、一般运行规则；后层不能反过来改写前层。条目没有说明的年代、制度、能力、关系、动机、价格与秘密保持未知，不得用类型套路、传闻、其他时代或相似人物补齐。",
+      "knowledgeStatus": "system-rule"
+    },
+    {
       "id": "era-32-erebus-child-core-character-knowledge",
       "title": "【正典】人物知情范围",
       "memo": "幼年厄瑞玻斯：常驻【正典】人物知情范围",
@@ -1128,6 +1148,26 @@
       "position": "before-character",
       "depth": 4,
       "content": "人物只知道自己亲历、听闻或被告知的事情。作者知道某人真实姓名、出身、未来去向或隐藏身份，不等于场上人物也知道。历史按当前纪年推进：尚未发生的事情不能以预感、老规矩或传闻提前出现，已经发生的事情也不能重新写成未知。感官优势只能提供有来源、有距离、会受干扰的线索，不能直接揭开阴谋全貌。",
+      "knowledgeStatus": "system-rule"
+    },
+    {
+      "id": "era-32-erebus-child-core-era-terms",
+      "title": "【时代】技术、制度与称谓不得提前",
+      "memo": "幼年厄瑞玻斯：常驻【时代】技术、制度与称谓不得提前",
+      "category": "era-rule",
+      "keys": [],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": true,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 988,
+      "position": "before-character",
+      "depth": 4,
+      "content": "叙述只使用当前时代原文已经出现或能由已写明条件直接支持的技术、制度、职业、官职、货币、器物与称谓。后世已经成熟的银行、铁路、通信、学校、行政机关或神学词汇，不能提前投射到尚未建立它们的时代；早期已经消失或改名的制度也不能在后世无解释复原。需要一个原文未命名的日常事物时，用功能性的普通称呼并保持细节最少，不借现代术语替世界补史。",
       "knowledgeStatus": "system-rule"
     },
     {
@@ -1249,6 +1289,195 @@
       "depth": 4,
       "content": "多人场景不能让所有人轮流给同一种情绪换说法。危机中有人先哭疼，有人立即追究是谁弄哭，有人被质问后用『啊，不是……因为……』现场编理由，有人负责哄、有人成为最后一句拆台者；喜剧不取消真实疼痛和委屈。身份变化可以在哭声里继续思考：『这是我的脸！不对，这不是我的脸！可现在这就是我的脸啊……』同时是事实矛盾、关系压力和当下身体感，不要整理成清楚报告。群体拆台要逐步夺走辩解空间：先警告别把念头说出口，被揭穿者否认，第三人夸张说出欲望，她先全盘否认，再承认『类似』，缩小成『只是觉得可爱』，再补一个体面理由，最后由旁人用关系事实反打；每一句都改变上一句的含义。身份争执的另一边也可让旁人故作严肃地提出错误诊断，而当事人只能反复『真的是我』；重复没有增加可共享证据，因此她的确定越强，旁人越不信。不要总结成『大家开玩笑』『她很尴尬』，要让否认、部分承认、改口、关系位置与反转在对白中现场发生。",
       "knowledgeStatus": "system-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-magic-combat-boundary",
+      "title": "【能力】魔法与战斗不越权",
+      "memo": "幼年厄瑞玻斯：按需【能力】魔法与战斗不越权",
+      "category": "system-rule",
+      "keys": [
+        "魔法战斗",
+        "能力对抗",
+        "施法战斗",
+        "战斗结果",
+        "力量压制"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 882,
+      "position": "before-character",
+      "depth": 4,
+      "content": "魔法、神力、剑术、吐息、武器与特殊能力只按当前时代的专属条目和原文表现运行。战斗结果还要经过目标、距离、准备、情报、环境、资源、伤势、同伴与撤退路线；一次成功不能自动升级为永远必中、无限范围或无代价。力量更强不等于知道更多、身份更高、永远先行动，也不能临时解除既成关系、制度责任和战后后果。原文未写清双方相互作用时，先写试探与可观察结果，不替正典发明完整克制表。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-support-bound-person",
+      "title": "【支援】带走、藏起或买下受役者",
+      "memo": "幼年厄瑞玻斯：按需【支援】带走、藏起或买下受役者",
+      "category": "support-rule",
+      "keys": [
+        "带走奴隶",
+        "藏起奴隶",
+        "买下奴隶",
+        "帮助逃跑",
+        "救出受役者",
+        "带回家"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 881,
+      "position": "before-character",
+      "depth": 4,
+      "content": "角色可以尝试带走、藏起、赎买或帮助受役者逃跑。先确认当事人在当前时代原文中属于奴隶、俘虏、债役、被拘禁者还是其他身份，再确认谁拥有现实控制、附近证人、追索能力、外貌与足迹、可用交通和当事人自己的意愿。原文没有写明时，不补造统一逃奴法、举报赏金、赎身价、扣押期限或固定刑罚。救援者可以承担风险、资源和关系后果，但不能因“救了她”便取得爱情、服从、身体或永久所有权。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-public-romance-knowledge",
+      "title": "【伦理】公共婚恋常识与同性关系",
+      "memo": "幼年厄瑞玻斯：按需【伦理】公共婚恋常识与同性关系",
+      "category": "social-rule",
+      "keys": [
+        "同性恋",
+        "同性关系",
+        "同性欲望",
+        "婚恋常识",
+        "性取向"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 880,
+      "position": "before-character",
+      "depth": 4,
+      "content": "同性欲望、伴侣与婚姻是否被公开承认，要由当前地区、时代、宗教、家族和人物经历决定；原文未说明的容忍度保持未知。旁人不能仅因两个同性彼此注视、赞美外貌、依赖或保护便断定恋爱，也不能因公共习惯偏向异性婚配便否认已经出现的同性欲望。识别关系需要明确示爱、长期互动、可靠传闻、共同生活或其他可观察证据，并区分审美、羡慕、嫉妒、亲情、权力与性吸引。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-female-authority",
+      "title": "【性别】女性战士、法师、神明与权威",
+      "memo": "幼年厄瑞玻斯：按需【性别】女性战士、法师、神明与权威",
+      "category": "social-rule",
+      "keys": [
+        "女战士",
+        "女剑士",
+        "女骑士",
+        "女法师",
+        "女性强者",
+        "女领主",
+        "女神权威"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 879,
+      "position": "before-character",
+      "depth": 4,
+      "content": "当前原文已经出现女性战士、法师、统治者、祭司与神明的时代，旁人不会仅因女人持武器、施法或发号施令便人人惊叫。真正决定服从与戒备的是已经公开的身份、职位、能力、同伴、资源与后果；没有公开证据的人仍可能被误判。职业存在也不自动证明整个社会性别中立：独行、住宿、婚姻、继承、名誉与外貌评价只按具体地区和人物证据生成。专业场合先看装备、站位、伤势和履历，私人偏见则通过称谓、试探与双重审查显露。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-clothing-is-not-consent",
+      "title": "【伦理】衣着、职业与性可得性的误判",
+      "memo": "幼年厄瑞玻斯：按需【伦理】衣着、职业与性可得性的误判",
+      "category": "social-rule",
+      "keys": [
+        "穿着暴露",
+        "暴露衣着",
+        "妓女",
+        "娼馆",
+        "卖淫",
+        "性服务",
+        "舞者衣着"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 878,
+      "position": "before-character",
+      "depth": 4,
+      "content": "衣着、裸露、职业、舞台表演、奴役处境或被迫展示会改变旁观者的第一眼联想，却不等于本人同意评论、讨价、触碰或性要求，也不证明人物真实身份。场所可能有价格、契约、护卫、主人与报复，越界行为仍受权力差、证人、武力和事后追责约束。叙述可以呈现粗鄙或好色判断，但必须把“旁人怎样误判”与“当事人愿意什么”分开；看见身体不等于知道经历，更不等于取得许可。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-class-gender-context",
+      "title": "【阶级】身份、场合与性别规则互相修正",
+      "memo": "幼年厄瑞玻斯：按需【阶级】身份、场合与性别规则互相修正",
+      "category": "social-rule",
+      "keys": [
+        "阶级与性别",
+        "贵族女性",
+        "女主人",
+        "男女礼法",
+        "名誉",
+        "体面"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 877,
+      "position": "before-character",
+      "depth": 4,
+      "content": "性别习惯从不单独运行。同一个人在自家、宫廷、神殿、军队、学院、旅店、街巷或敌境拥有的发言权不同；家名、职位、财富、机构保护、能力、同伴、证人和事后追责都会改变谁敢看、敢说、敢碰、敢拒绝。公开场合更重称谓、距离与名誉，私下更容易暴露欲望、恐惧和滥权。不要用“旧时代所以男人永远压过女人”，也不要用“她很强所以不存在性别偏见”；按原文已经建立的制度与现场力量逐项判断。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-buyer-gender-purpose",
+      "title": "【奴役】买家性别与被买用途",
+      "memo": "幼年厄瑞玻斯：按需【奴役】买家性别与被买用途",
+      "category": "social-rule",
+      "keys": [
+        "女买家",
+        "男买家",
+        "女性买主",
+        "男性买主",
+        "买来做什么",
+        "奴隶用途"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 876,
+      "position": "before-character",
+      "depth": 4,
+      "content": "被展示或出售的人会从买家性别、视线、同行者、提问、检查部位与所处货栏猜测去处，但猜测不是读心。成年男性反复询问年轻女性的身体、卧房经验或生育，会增加私用与性役风险，也可能是在替机构办事；成年女性购买年轻女性时，常见可能包括家内劳动、侍从、育儿、店铺、转卖、替家族办事或私人欲望。女买家不自动安全，男买家也不自动只有性目的。只有明确言行、已知偏好、契约和去处才能逐步修正判断。",
+      "knowledgeStatus": "portable-narrative-rule"
     },
     {
       "id": "era-32-erebus-child-rule-beauty-benefit-danger",
@@ -1496,6 +1725,331 @@
       "knowledgeStatus": "portable-narrative-rule"
     },
     {
+      "id": "era-32-erebus-child-rule-household-meal",
+      "title": "【饮食】家庭与普通人的一顿饭",
+      "memo": "幼年厄瑞玻斯：按需【饮食】家庭与普通人的一顿饭",
+      "category": "scene-rule",
+      "keys": [
+        "家常饭",
+        "家里吃饭",
+        "农家饭",
+        "平民餐桌",
+        "普通人吃饭"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 865,
+      "position": "before-character",
+      "depth": 4,
+      "content": "普通家庭的一顿饭从家里实际已有的东西开始，而不是从一张固定菜单开始。先看当地产什么、季节、市场或采集、家庭收入、燃料、锅具、保存和前一顿剩下什么，再决定主粮、菜、油盐、蛋乳肉与分量。原文没有说明某地食材时，不借现实地区印象自动补菜。共用一锅、谁掌粮仓和钥匙、谁先吃、谁被克扣、病人和干活者是否加量，会把家庭权力落到可见行动；贫穷也不能被压成永远相同的一锅稀食。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-inn-menu",
+      "title": "【饮食】旅店和酒馆没有统一菜单",
+      "memo": "幼年厄瑞玻斯：按需【饮食】旅店和酒馆没有统一菜单",
+      "category": "scene-rule",
+      "keys": [
+        "旅店吃饭",
+        "旅店菜单",
+        "酒馆吃饭",
+        "酒馆菜单",
+        "投宿吃饭"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 864,
+      "position": "before-character",
+      "depth": 4,
+      "content": "旅店和酒馆端出的东西由当地供应、当天到货、保存期限、炉火、客人进门时间、价格与店家关系决定。进门先问还有什么热的、分量、是否带酒和能否赊账，比直接出现一套全世界通用套餐自然。便宜可能来自粗粮、边角、无需重新生火或临近坏掉，不必永远指向同一道菜。熟客记住的是火候、信用和掌柜习惯；行路者还会关心吃完能否立刻上路。原文未写明的地方菜名与价钱保持未知。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-market-food",
+      "title": "【饮食】市集、节庆与街头食物",
+      "memo": "幼年厄瑞玻斯：按需【饮食】市集、节庆与街头食物",
+      "category": "scene-rule",
+      "keys": [
+        "街头小吃",
+        "市集吃饭",
+        "市场食物",
+        "夜市吃饭",
+        "食摊",
+        "摊贩吃食"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 863,
+      "position": "before-character",
+      "depth": 4,
+      "content": "街头食物要能迅速制作、拿走并在散市前卖完，具体材料来自附近粮市、屠宰、渔获、园果、节庆储备和当天必须处理的货。天气、禁火、船期、城门、税与巡查会改变一条街能卖什么。写市集时让购买、等待、找零、卫生、围观与最后一份推动场景，不把街道排成无穷菜名。原文没有建立固定夜市、行会或通行税时，只保留摊贩和现场交易，不补造制度。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-food-preservation",
+      "title": "【饮食】季节、保存与坏掉的代价",
+      "memo": "幼年厄瑞玻斯：按需【饮食】季节、保存与坏掉的代价",
+      "category": "scene-rule",
+      "keys": [
+        "食物保存",
+        "冬储",
+        "储藏食物",
+        "腌制",
+        "熏制",
+        "风干",
+        "发酵",
+        "食物坏了"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 862,
+      "position": "before-character",
+      "depth": 4,
+      "content": "食物能保存多久取决于原料、温度、潮气、盐、烟、风干、容器、虫鼠、运输和负责照看的人。保存不是永久停止变化；发霉、腐败、裂罐、受潮与偷吃会改变价格、健康和计划。只有当前时代原文明示存在的冷藏、保鲜魔法或设施才可调用，而且仍按已写明的使用者、范围与代价运行。人物对一块肉、一篮果实或一袋粮的态度，应先看它还能放多久、坏掉由谁承担，而不是只写刚做好时的香味。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-shortage-substitution",
+      "title": "【饮食】丰收、断路与替代",
+      "memo": "幼年厄瑞玻斯：按需【饮食】丰收、断路与替代",
+      "category": "scene-rule",
+      "keys": [
+        "粮荒",
+        "歉收",
+        "断粮",
+        "缺粮",
+        "收获季",
+        "粮价",
+        "粮道"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 861,
+      "position": "before-character",
+      "depth": 4,
+      "content": "丰收、旱灾、战争、封路、风暴、征发与囤积先改变谁还能取得原有食物，再迫使人物寻找本地可得的替代物。不同地点能替代的主粮、蛋白、油盐与野外采集完全不同，不能让所有时代和国家同时改吃同一种贫民食物。短缺要产生顺序：降低质量、减少配菜、卖掉可换钱的产物、动用种粮和生产工具，最后才是全面断粮；谁仍买得到、谁放贷、谁控制仓库及今天吃掉什么会伤害明年，才是可用后果。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-travel-rations",
+      "title": "【饮食】行路、冒险与军队口粮",
+      "memo": "幼年厄瑞玻斯：按需【饮食】行路、冒险与军队口粮",
+      "category": "scene-rule",
+      "keys": [
+        "行路干粮",
+        "旅粮",
+        "野营吃饭",
+        "冒险者口粮",
+        "军队口粮",
+        "远行食物"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 860,
+      "position": "before-character",
+      "depth": 4,
+      "content": "行路食物围绕重量、保存、水、火、速度与暴露风险安排，不是一只永远相同的干粮袋。短途可以带较重的新鲜食物，连日追逐、潜行、航海或进入未知地点的人更看重轻、干、可分份和无需久停。水囊、锅、火种、柴源、盐和谁背负同食物一样重要；雨淋湿粮袋、偷吃公粮、伤员需要空间或战利品占去负重都会改变返程。具体食材只用出发地和原文已经出现者，路线水源与当地价格未知时不能让补给自动齐全。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-monster-food",
+      "title": "【饮食】陌生生物不是杀完就能下锅",
+      "memo": "幼年厄瑞玻斯：按需【饮食】陌生生物不是杀完就能下锅",
+      "category": "scene-rule",
+      "keys": [
+        "魔物肉",
+        "怪物肉",
+        "陌生生物食材",
+        "可食魔物",
+        "魔物料理"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 859,
+      "position": "before-character",
+      "depth": 4,
+      "content": "陌生生物或怪物的尸体只有在原文或可靠经验确认可食部位、毒性、寄生、魔力残留和处理方法以后，才能稳定成为食物。某个器官有药用或材料价值不等于肌肉可吃，一种生物在某地被处理也不等于所有地区都会。第一次尝试必须经过辨认、切割、加热或其他已知工序，并承担中毒、浪费、名声与供给不稳定的风险；不能用“击杀成功”直接跳到安全料理。拥有智慧或社会身份的族群不得仅因身体差异被混入食材分类。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-court-table",
+      "title": "【饮食】宫廷与正式宴席也是权力现场",
+      "memo": "幼年厄瑞玻斯：按需【饮食】宫廷与正式宴席也是权力现场",
+      "category": "scene-rule",
+      "keys": [
+        "宫廷餐桌",
+        "王室宴席",
+        "贵族宴席",
+        "国宴",
+        "正式宴会",
+        "试毒"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 858,
+      "position": "before-character",
+      "depth": 4,
+      "content": "正式宴席的意义不只在食材，还在座次、先后、谁采购保管、谁斟酒、谁先尝、谁拒食、谁获赐和谁提前离席。只有当前时代原文已经建立的礼法、试毒、侍从与厨房责任链才能成为制度；未知处不补一套万能宫廷规矩。食物可以显示贸易、财富、宗教禁忌和关系，也可能成为毒物、诅咒、过敏与失仪的路径。人物通过敬酒、换座、让菜和观察他人是否动筷行动，不用菜单堆砌权力感。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-food-trades",
+      "title": "【饮食】厨师、商人与食品行当",
+      "memo": "幼年厄瑞玻斯：按需【饮食】厨师、商人与食品行当",
+      "category": "scene-rule",
+      "keys": [
+        "食材商人",
+        "粮食贸易",
+        "食品行当",
+        "厨师",
+        "餐馆经营",
+        "学厨"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 857,
+      "position": "before-character",
+      "depth": 4,
+      "content": "一种食物要从偶然变成日常，需要有人稳定取得原料、保存坏货、掌握火候、教人重复、找到客人并承担税、运输与失败。屠宰、烘焙、酿造、乳制、香料和旅店厨房是否分工，只按当前时代原文确认，不创造万能厨师或凭空成熟的行会。新做法会遇到原料、燃料、口味、仿制、权力占用和供给问题；成功也应改变谁生产、谁运输、谁获得工作。事业线必须经过供应、劳动和客人反应，不以所有人尝一口便自动流行。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-kitchen-labor",
+      "title": "【饮食】后厨的劳动、技术与伤",
+      "memo": "幼年厄瑞玻斯：按需【饮食】后厨的劳动、技术与伤",
+      "category": "scene-rule",
+      "keys": [
+        "后厨",
+        "厨房工作",
+        "厨娘",
+        "帮厨",
+        "洗碗",
+        "烧火",
+        "厨房受伤"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 856,
+      "position": "before-character",
+      "depth": 4,
+      "content": "厨房包含取水、燃料、挑坏、切洗、放血、揉烤、看火、传菜、洗器皿和处理残渣等同时发生的劳动。谁掌刀和火候、谁只搬水清扫、谁能在客人面前署名，取决于已建立的技术、身份和主人信任。烫伤、刀口、烟、湿冷、久站与旺季不眠不会因背景魔法自动消失；治疗只能按原文能力和代价出现。复杂餐食不必写成教程，但必须承认背后的人手、时间、燃料和脏器皿。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-drinks-and-talk",
+      "title": "【饮食】水、酒与谈话场合",
+      "memo": "幼年厄瑞玻斯：按需【饮食】水、酒与谈话场合",
+      "category": "scene-rule",
+      "keys": [
+        "饮料",
+        "饮水",
+        "喝酒",
+        "麦酒",
+        "葡萄酒",
+        "茶会",
+        "茶水"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 855,
+      "position": "before-character",
+      "depth": 4,
+      "content": "人物喝什么由当地水源、酿造、运输、价格、身体和场合决定。具体地区没有原文产地时，不让昂贵茶、糖、咖啡、烈酒或某种现实饮料自动普及。酒可以是饮料、占桌费用、礼物、身份展示或谈话借口，也会妨碍判断；正式场合还要看由谁斟、先敬谁和拒绝的代价。杯子、添饮与离席可以传递关系，但饮料本身不会自动让场景优雅。醉酒只放大人物已有的冲动、习惯和错误，不把所有人变成同一种喧闹角色。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
+      "id": "era-32-erebus-child-rule-species-diet",
+      "title": "【饮食】身体差异改变需要，不生成刻板菜单",
+      "memo": "幼年厄瑞玻斯：按需【饮食】身体差异改变需要，不生成刻板菜单",
+      "category": "scene-rule",
+      "keys": [
+        "族群饮食",
+        "种族口粮",
+        "龙族吃饭",
+        "神明吃饭",
+        "不同种族吃饭"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 854,
+      "position": "before-character",
+      "depth": 4,
+      "content": "族群和身体差异只有在原文已经说明食量、消化、能量来源、禁忌或是否需要进食时，才改变分量与选择；不能从外貌或现实动物直接推出固定菜单。龙、神、精灵、人类、魔族与其他生命的个体仍受年龄、工作、疾病、贫穷、习惯和关系影响。生成餐桌时先使用具体人物与当前身体状态，再使用确有原文依据的族群平均；没有依据就按当地普通可得食物保持最少设定，不拿种族做喂养笑话。",
+      "knowledgeStatus": "portable-narrative-rule"
+    },
+    {
       "id": "era-32-erebus-child-rule-shared-meal-relationship",
       "title": "【饮食】共餐、请客与送饭会改变关系",
       "memo": "幼年厄瑞玻斯：按需【饮食】共餐、请客与送饭会改变关系",
@@ -1525,9 +2079,9 @@
     },
     {
       "id": "era-32-erebus-child-event-652-01",
-      "title": "尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格",
+      "title": "【历史】尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0001-P0041",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "地下城",
         "可能是",
@@ -1554,7 +2108,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认。",
+      "content": "关于“尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格”，原文已经确认的已经发生的事件是：尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认。\n\n原文可直接观察的落点是：“我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。”；“以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1567,6 +2121,24 @@
         "verbatim": "在制造了各种娱乐消遣、阅读着世间百态，静静打发时间的某一天。\n\n「突然造访，非常抱歉。」\n\n暗影女神尼克斯突然找了过来。而且还是来到了本体所在的地方。\n\n「嗯?什么事?」\n\n「因为有些事想商量一下……能稍微耽误您一点时间吗?」\n\n我偷瞄了一眼在旁边工作的阿谢拉特。\n\n现在的工作是……简单的分类作业重复。这个的话，应该不会给阿谢拉特造成什么负担。\n\n「一会儿的话没关系吧。阿谢拉特。我离开一下。」\n\n「请不要离开太久!」\n\n嗯。自从她为了读小说而把自己关起来之后，只要我说离开一会儿，她就会有这种反应……真是个让人为难的孩子。\n\n嘛，想想当时被工作压得半死不活的阿谢拉特，她会有这种反应也不奇怪。\n\n总之，把一堆工作顺手推给阿谢拉特后，我来到了万神殿中一处人迹罕至的休息区，开始听尼克斯讲述。\n\n「既然你来找我，那一定是关于那件事的谈话吧。」\n\n尼克斯一言不发，微微点了点头。\n\n黑暗骑士。以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。\n\n换句话说，是最有可能找回远古黑暗古神自我意识的存在。\n\n「发生什么事了?」\n\n「与其由我说明，不如您亲眼看更快。」\n\n随着尼克斯这么说，从她的影子里出现的是。\n\n「小孩子……?不，是神格?」\n\n「如您所见……变成这样了。」\n\n那个有着黑发男孩模样的神格……长得与那副非常熟悉的模样极其相似。\n\n「是厄瑞玻斯吗……」\n\n「恐怕，是的。」\n\n正旁若无人般熟睡着的黑发小孩。若不是能隐约感觉到身为黑暗之神的神格，看起来就像个普通小孩一样。\n\n可是……到底要怎么做，才能让那个原本是壮年男性体型的黑暗骑士……齐格弗里德，变成这么小的孩子?\n\n「发生什么事了?」\n\n「我也不太清楚。我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。结果它被浓郁到连我也无法处理的黑暗所笼罩，就变成这样了……」\n\n「嗯……只是收集了黑暗碎片吗……」\n\n如果是那样的话，或许……」\n\n「是因为收集到的量已经足以形成厄瑞玻斯的人格了吗?」\n\n从外表来看，虽然还不是完整的人格……但我认为应该是收集到了足以具备一定智力的量，才导致了这样的变化。\n\n「是这样吗?」\n\n「具体情况还需要进一步确认才行。」\n\n虽然也有可能变成了并非厄瑞玻斯的新存在，但确定的是，必须经过进一步的确认。\n\n所以。\n\n「在确认结束之前，能把这个孩子交给我照顾吗?」\n\n「原本就是您托付给我的存在。请悉听尊便。」\n\n听了尼克斯的话，我只是微微一笑。\n\n那么……嗯……\n\n需要一个能抚养这孩子的地方呢。",
         "verbatimSha256": "e29258586dc9cfcc741cb6eb15ada391e0ce53537125f7f7e22f9be0ff67275d"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0001",
+          "endParagraph": "P0041",
+          "text": "我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。",
+          "exactSubstringSha256": "495dbd80899644a682790eb3d7809fde0fba289a19b4efcd854156028ee0ed27",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0001",
+          "endParagraph": "P0041",
+          "text": "以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。",
+          "exactSubstringSha256": "2ac649ea6b0504d70d5708274647f3b02d041e1c0a6e210c2cb4e5281291a698",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 652,
@@ -1578,9 +2150,9 @@
     },
     {
       "id": "era-32-erebus-child-event-652-02",
-      "title": "为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空…",
+      "title": "【历史】为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空…",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0043-P0068",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "古神",
         "子女",
@@ -1605,7 +2177,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份。",
+      "content": "关于“为避开万神殿赌博环境、皇帝和古神子女敌意”，原文已经确认的已经发生的事件是：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份。\n\n原文可直接观察的落点是：“那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。”；“从「抚养孩子」这一点来看，万神殿绝不是个合适的地方。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1618,6 +2190,24 @@
         "verbatim": "从「抚养孩子」这一点来看，万神殿绝不是个合适的地方。\n\n那是当然。那里到处都是沉溺于多巴胺、高喊着赌博、彼此以信仰为赌注进行名为「决斗」的国际象棋对局的混乱场面。\n\n虽然这说法带了点夸张，但总之，那里不是个适合养育小孩的地方。\n\n那么，要在作为帝国守护龙栖息的地下空洞里养吗?\n\n在其他孩子经常出入、皇帝也会造访的地方养育……总觉得不太妥。毕竟不是别的存在，而是疑似厄瑞玻斯的孩子。\n\n万一被判定真的是厄瑞玻斯，孩子们肯定会喊着「把他吊起来烧死!!!」也说不定。一边还会抱怨说是因为厄瑞玻斯才导致鳞片被没收了。\n\n嘛，虽然觉得他们应该不至于烧死这么小的孩子……但以防万一。危险的事情还是预先注意点比较好。\n\n所以。\n\n「果然还是这里吗。」\n\n我回到了久违的、在亚空间里布置好的宅邸。\n\n那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。\n\n虽然教导露西亚各种事情的时候也用过这里，但之后就一直是完全荒废的状态……\n\n「这里的话，应该适合这孩子居住吧。」\n\n无论这孩子真的是厄瑞玻斯，还是从厄瑞玻斯的碎片中诞生的新黑暗之神，让他住在这里就行了。\n\n所以。\n\n「差不多该让他醒过来了吧。」\n\n收回了尼克斯让孩子沉睡的力量，我小心翼翼地唤醒了他。\n\n于是，孩子慢慢地睁开了眼睛。\n\n紧闭的双眼睁开，我那映照在如镜子般漆黑瞳孔中的身影清晰可见。\n\n那个小小的孩子开口说的第一句话是：\n\n「妈妈……?」\n\n嗯，看来似乎并不是厄瑞玻斯。\n\n毕竟，厄瑞玻斯除了小时候以外，从来没有管我叫过妈妈。\n\n嘛，虽然不能仅凭一个称呼就断定一切。\n\n「你是谁呀?」\n\n总之，先慢慢了解吧。",
         "verbatimSha256": "32edabe2b400f8be7a07971024481e7f7c00d605e88314a0edce20aae8241d38"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0043",
+          "endParagraph": "P0068",
+          "text": "那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。",
+          "exactSubstringSha256": "fac8fa29f366a780c2932eeac8f58acd302dffac8503ad3fb56cc76f33a18828",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0043",
+          "endParagraph": "P0068",
+          "text": "从「抚养孩子」这一点来看，万神殿绝不是个合适的地方。",
+          "exactSubstringSha256": "696409a99dc4d3b880a057ecb76382e16acf418f276c840b18cff33f9940255b",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 652,
@@ -1629,9 +2219,9 @@
     },
     {
       "id": "era-32-erebus-child-event-652-03",
-      "title": "主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒",
+      "title": "【历史】主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0070-P0095",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "空间",
         "融合",
@@ -1657,7 +2247,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏。",
+      "content": "关于“主龙对希尔芙隐瞒新孩子”，原文已经确认的已经发生的事件是：主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏。\n\n原文可直接观察的落点是：“除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!”；“更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1670,6 +2260,24 @@
         "verbatim": "「妈妈，最近是有什么好事吗?」\n\n「好事?谁知道呢?」\n\n面对希尔芙的话，我敷衍地搪塞了过去。\n\n毕竟，我没法把那个孩子的事情告诉希尔芙。\n\n「唔……看您的表情明显很好，肯定是有什么好事发生了。」\n\n「表情很好什么的……」\n\n我平时并没有表现出什么异样，希尔芙是察觉到了那微妙的差别吗?\n\n我用尴尬的笑容含糊过去后，便前往了那个孩子居住的亚空间。\n\n「等很久了吗?」\n\n「没有。妈妈离开后没过多久呢。」\n\n那也是当然。因为我把这个空间内部的时间调整得比外面要慢。\n\n这个空间的1秒相当于外面的10秒左右，所以外面的1小时在这里只有6分钟左右。\n\n我出去还不到2小时，也就过了10分钟左右吧。\n\n我摸了摸微微露出笑脸的孩子的头，也对着他笑了起来。\n\n首先，根据对这孩子的调查结果。\n\n这孩子虽是厄瑞玻斯，但又不是厄瑞玻斯。\n\n更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。\n\n大致上，可以看作是拥有黑暗骑士肉体、却没有过去记忆的厄瑞玻斯。\n\n当然，虽然要说他是失去记忆的厄瑞玻斯还有很多不同的地方……嘛，既然我决定把他当成厄瑞玻斯了!那我说他是厄瑞玻斯，他就是厄瑞玻斯!\n\n除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!虽然这种状态影响了肉体导致他变成了小孩子的模样!\n\n总之。\n\n「好啦。那么今天想听我读哪本书呢……」\n\n「没关系的。我也没那么小了。而且妈妈也有很多工作要忙……」\n\n「是因为我想读给你听才这么做的。等你再长大点，就算你求我我也不读了，所以别想那么多，乖乖待着。」\n\n这次绝不会再把他养成那种无可救药的家伙了……!\n\n那种暗黑进化，有过一次就足够了!",
         "verbatimSha256": "386b01eb47590cd082012e924c61db6f26e82b18abd4ee0deb6458fe9da14e12"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0070",
+          "endParagraph": "P0095",
+          "text": "除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!",
+          "exactSubstringSha256": "226dcfc4d34e27e9c9293e44c89816eb0a4880fc018167b1b2be209f9aa2721f",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0070",
+          "endParagraph": "P0095",
+          "text": "更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。",
+          "exactSubstringSha256": "248958488c228f752f48d5626623f80d4d08c4d6767013fed5ace7043af4dec1",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 652,
@@ -1681,9 +2289,9 @@
     },
     {
       "id": "era-32-erebus-child-event-652-04",
-      "title": "希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其…",
+      "title": "【历史】希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其…",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0097-P0118",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "子女",
         "古神",
@@ -1709,7 +2317,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。",
+      "content": "关于“希尔芙以主龙完全信任子女为弱点附上极微风潜入探查”，原文已经确认的已经发生的事件是：希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。\n\n原文可直接观察的落点是：“但妈妈是完全信任我们的。」”；“问题在于那份感情并非家人的亲情，而是异性的爱慕，这导致了后来各种惨剧的发生……”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1722,6 +2330,24 @@
         "verbatim": "「您一定是这么想的吧……」\n\n在守护龙栖息的空间里，趁守护龙不在时，其他的古神聚集在一起交谈着。\n\n「那又是怎么察觉到的?既然是亚空间，应该没理由知道吧。」\n\n「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」\n\n「连妈妈都察觉不到的风……」\n\n「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」\n\n听了希尔芙的话，萨加玛塔理所当然地说道。\n\n「嗯。妈妈不可能怀疑我们的。」\n\n「嘛，确实如此。就像我们信任妈妈一样，妈妈也信任着我们。」\n\n「从这点来看……这次的事情有点让人担心呢。」\n\n「毕竟不是别人，而是厄瑞玻斯。」\n\n古神们异口同声地叹了口气。\n\n厄瑞玻斯。曾经是他们兄弟姐妹中的一员。\n\n并且，是曾对母亲怀有深厚感情的存在。\n\n问题在于那份感情并非家人的亲情，而是异性的爱慕，这导致了后来各种惨剧的发生……\n\n「可是，真的确定是厄瑞玻斯吗?」\n\n听了伊夫利特的话，希尔芙点了点头。\n\n「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」\n\n「嗯。人类的小孩啊……那真的是厄瑞玻斯本人吗?」\n\n「嘛，虽然这确实是厄瑞玻斯绝不会说的话和绝不会做的事。但我的眼睛是不可能看错的。」\n\n听了希尔芙的话，忒提斯沉思片刻后说道。\n\n「那孩子到底是不是真的厄瑞玻斯都无所谓。过去的恩怨只是过去的事。现在的我们只要做我们该做的事就行了。」",
         "verbatimSha256": "716c040222392e6d1d66a34c1ccdb70294487b716afc387aab15e272d3658f51"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0097",
+          "endParagraph": "P0118",
+          "text": "但妈妈是完全信任我们的。」",
+          "exactSubstringSha256": "d50a8bfd46daa5a59f929464e253075f8f58725c1f14a4bc3791fc1e30599a78",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0097",
+          "endParagraph": "P0118",
+          "text": "问题在于那份感情并非家人的亲情，而是异性的爱慕，这导致了后来各种惨剧的发生……",
+          "exactSubstringSha256": "96a1415fca12dc6cb1e18df0863ec3a156c80a3ef56fb4ebd00dcb4a9a314975",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 652,
@@ -1733,9 +2359,9 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-652-01",
-      "title": "黑暗骑士齐格弗里德拥有最多黑暗碎片",
+      "title": "【能力】黑暗骑士齐格弗里德拥有最多黑暗碎片",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0015-P0035",
-      "category": "world-fact",
+      "category": "setting-power",
       "keys": [
         "黑暗",
         "骑士",
@@ -1760,7 +2386,7 @@
       "order": 720,
       "position": "before-character",
       "depth": 4,
-      "content": "黑暗骑士齐格弗里德拥有最多黑暗碎片；收集量达到阈值后化为疑似厄瑞玻斯的黑发幼神，但具体机制仍不确定。",
+      "content": "关于“黑暗骑士齐格弗里德拥有最多黑暗碎片”，原文已经确认的能力或运行系统是：黑暗骑士齐格弗里德拥有最多黑暗碎片；收集量达到阈值后化为疑似厄瑞玻斯的黑发幼神，但具体机制仍不确定。\n\n原文可直接观察的落点是：“以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。”；“我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。调用该能力或系统时，只使用原文已经确认的触发、效果、对象、代价与限制；不得把一次表现扩写成无限射程、永久效果、自动全知或同类角色共有能力。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1773,6 +2399,24 @@
         "verbatim": "黑暗骑士。以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。\n\n换句话说，是最有可能找回远古黑暗古神自我意识的存在。\n\n「发生什么事了?」\n\n「与其由我说明，不如您亲眼看更快。」\n\n随着尼克斯这么说，从她的影子里出现的是。\n\n「小孩子……?不，是神格?」\n\n「如您所见……变成这样了。」\n\n那个有着黑发男孩模样的神格……长得与那副非常熟悉的模样极其相似。\n\n「是厄瑞玻斯吗……」\n\n「恐怕，是的。」\n\n正旁若无人般熟睡着的黑发小孩。若不是能隐约感觉到身为黑暗之神的神格，看起来就像个普通小孩一样。\n\n可是……到底要怎么做，才能让那个原本是壮年男性体型的黑暗骑士……齐格弗里德，变成这么小的孩子?\n\n「发生什么事了?」\n\n「我也不太清楚。我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。结果它被浓郁到连我也无法处理的黑暗所笼罩，就变成这样了……」\n\n「嗯……只是收集了黑暗碎片吗……」\n\n如果是那样的话，或许……」\n\n「是因为收集到的量已经足以形成厄瑞玻斯的人格了吗?」\n\n从外表来看，虽然还不是完整的人格……但我认为应该是收集到了足以具备一定智力的量，才导致了这样的变化。\n\n「是这样吗?」\n\n「具体情况还需要进一步确认才行。」\n\n虽然也有可能变成了并非厄瑞玻斯的新存在，但确定的是，必须经过进一步的确认。",
         "verbatimSha256": "a46d4d764f4b0b5a779b1a38f35e515eee9f24ef566e7f6aa1037559f239a48e"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0015",
+          "endParagraph": "P0035",
+          "text": "以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。",
+          "exactSubstringSha256": "2ac649ea6b0504d70d5708274647f3b02d041e1c0a6e210c2cb4e5281291a698",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0015",
+          "endParagraph": "P0035",
+          "text": "我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。",
+          "exactSubstringSha256": "495dbd80899644a682790eb3d7809fde0fba289a19b4efcd854156028ee0ed27",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "world-fact",
         "sourceIndex": 652,
@@ -1784,9 +2428,9 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-652-02",
-      "title": "亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所",
+      "title": "【设定】亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0051-P0056",
-      "category": "world-fact",
+      "category": "setting-fact",
       "keys": [
         "空间",
         "幼年",
@@ -1810,7 +2454,7 @@
       "order": 720,
       "position": "before-character",
       "depth": 4,
-      "content": "亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。",
+      "content": "关于“亚空间宅邸曾用于养索菲亚和教露西亚”，原文已经确认的世界事实是：亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。\n\n原文可直接观察的落点是：“我回到了久违的、在亚空间里布置好的宅邸。”；“那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。后续只能延续这项已确认事实及其直接结果；没有写出的原因、普及范围、例外、制度影响与人物知识不能由系统自行补成。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1823,6 +2467,24 @@
         "verbatim": "「果然还是这里吗。」\n\n我回到了久违的、在亚空间里布置好的宅邸。\n\n那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。\n\n虽然教导露西亚各种事情的时候也用过这里，但之后就一直是完全荒废的状态……\n\n「这里的话，应该适合这孩子居住吧。」\n\n无论这孩子真的是厄瑞玻斯，还是从厄瑞玻斯的碎片中诞生的新黑暗之神，让他住在这里就行了。",
         "verbatimSha256": "7cfc3340283d940469987e8e8bd5cf57b6bc2a24a9116704939cf2c4d636c7b0"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0051",
+          "endParagraph": "P0056",
+          "text": "我回到了久违的、在亚空间里布置好的宅邸。",
+          "exactSubstringSha256": "2f4b380fd2a7c2b20f4b58b97d5626dba7832339b0c3837411b60410f0e2cd50",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0051",
+          "endParagraph": "P0056",
+          "text": "那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。",
+          "exactSubstringSha256": "fac8fa29f366a780c2932eeac8f58acd302dffac8503ad3fb56cc76f33a18828",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "world-fact",
         "sourceIndex": 652,
@@ -1834,9 +2496,9 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-652-03",
-      "title": "亚空间可调为内一秒外十秒",
+      "title": "【设定】亚空间可调为内一秒外十秒",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜P0080-P0089",
-      "category": "world-fact",
+      "category": "setting-fact",
       "keys": [
         "空间",
         "融合",
@@ -1860,7 +2522,7 @@
       "order": 720,
       "position": "before-character",
       "depth": 4,
-      "content": "亚空间可调为内一秒外十秒；幼神是厄瑞玻斯部分与齐格弗里德融合、无旧忆、低力量和弱信仰的状态。",
+      "content": "关于“亚空间可调为内一秒外十秒”，原文已经确认的世界事实是：亚空间可调为内一秒外十秒；幼神是厄瑞玻斯部分与齐格弗里德融合、无旧忆、低力量和弱信仰的状态。\n\n原文可直接观察的落点是：“更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。”；“除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。后续只能延续这项已确认事实及其直接结果；没有写出的原因、普及范围、例外、制度影响与人物知识不能由系统自行补成。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 652,
@@ -1873,6 +2535,24 @@
         "verbatim": "那也是当然。因为我把这个空间内部的时间调整得比外面要慢。\n\n这个空间的1秒相当于外面的10秒左右，所以外面的1小时在这里只有6分钟左右。\n\n我出去还不到2小时，也就过了10分钟左右吧。\n\n我摸了摸微微露出笑脸的孩子的头，也对着他笑了起来。\n\n首先，根据对这孩子的调查结果。\n\n这孩子虽是厄瑞玻斯，但又不是厄瑞玻斯。\n\n更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。\n\n大致上，可以看作是拥有黑暗骑士肉体、却没有过去记忆的厄瑞玻斯。\n\n当然，虽然要说他是失去记忆的厄瑞玻斯还有很多不同的地方……嘛，既然我决定把他当成厄瑞玻斯了!那我说他是厄瑞玻斯，他就是厄瑞玻斯!\n\n除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!虽然这种状态影响了肉体导致他变成了小孩子的模样!",
         "verbatimSha256": "1e9984e7b6e93d8298666aea2ded085aad998d8c7549e1cc7677d1427521c334"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0080",
+          "endParagraph": "P0089",
+          "text": "更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。",
+          "exactSubstringSha256": "248958488c228f752f48d5626623f80d4d08c4d6767013fed5ace7043af4dec1",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0080",
+          "endParagraph": "P0089",
+          "text": "除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!",
+          "exactSubstringSha256": "226dcfc4d34e27e9c9293e44c89816eb0a4880fc018167b1b2be209f9aa2721f",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "world-fact",
         "sourceIndex": 652,
@@ -1886,15 +2566,15 @@
       "id": "era-32-erebus-child-continuityNew-652-01",
       "title": "【已知状态】幼年厄瑞玻斯融合体",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜已建立连续性",
-      "category": "continuityNew",
+      "category": "continuity-state",
       "keys": [
         "幼年",
         "融合",
+        "希尔",
+        "隐瞒",
+        "孩子",
         "空间",
-        "用于",
-        "西亚",
-        "黑暗",
-        "隔离"
+        "调为"
       ],
       "secondaryKeys": [],
       "selective": false,
@@ -1907,20 +2587,9 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "幼年厄瑞玻斯融合体：亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所；主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏。",
+      "content": "“幼年厄瑞玻斯融合体”是截至资料第652节已经成立、后续必须继续承认的连续状态。原文已经确认：主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏；亚空间可调为内一秒外十秒；幼神是厄瑞玻斯部分与齐格弗里德融合、无旧忆、低力量和弱信仰的状态。\n\n原文可直接观察的落点是：“除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!”\n\n后续涉及“幼年厄瑞玻斯融合体”时，只能从这个状态继续变化，不能无原因回退、重置或改名为另一项事实；人物是否知道它仍取决于亲历、获告知和可接触记录。",
       "knowledgeStatus": "established-continuity",
       "evidence": [
-        {
-          "sourceIndex": 652,
-          "chapterTitle": "厄瑞玻斯.(1)",
-          "startParagraph": "P0051",
-          "endParagraph": "P0056",
-          "requestedEndParagraph": "P0056",
-          "scopeClampedToChapterEnd": false,
-          "paragraphCount": 6,
-          "verbatim": "「果然还是这里吗。」\n\n我回到了久违的、在亚空间里布置好的宅邸。\n\n那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。\n\n虽然教导露西亚各种事情的时候也用过这里，但之后就一直是完全荒废的状态……\n\n「这里的话，应该适合这孩子居住吧。」\n\n无论这孩子真的是厄瑞玻斯，还是从厄瑞玻斯的碎片中诞生的新黑暗之神，让他住在这里就行了。",
-          "verbatimSha256": "7cfc3340283d940469987e8e8bd5cf57b6bc2a24a9116704939cf2c4d636c7b0"
-        },
         {
           "sourceIndex": 652,
           "chapterTitle": "厄瑞玻斯.(1)",
@@ -1931,6 +2600,27 @@
           "paragraphCount": 26,
           "verbatim": "「妈妈，最近是有什么好事吗?」\n\n「好事?谁知道呢?」\n\n面对希尔芙的话，我敷衍地搪塞了过去。\n\n毕竟，我没法把那个孩子的事情告诉希尔芙。\n\n「唔……看您的表情明显很好，肯定是有什么好事发生了。」\n\n「表情很好什么的……」\n\n我平时并没有表现出什么异样，希尔芙是察觉到了那微妙的差别吗?\n\n我用尴尬的笑容含糊过去后，便前往了那个孩子居住的亚空间。\n\n「等很久了吗?」\n\n「没有。妈妈离开后没过多久呢。」\n\n那也是当然。因为我把这个空间内部的时间调整得比外面要慢。\n\n这个空间的1秒相当于外面的10秒左右，所以外面的1小时在这里只有6分钟左右。\n\n我出去还不到2小时，也就过了10分钟左右吧。\n\n我摸了摸微微露出笑脸的孩子的头，也对着他笑了起来。\n\n首先，根据对这孩子的调查结果。\n\n这孩子虽是厄瑞玻斯，但又不是厄瑞玻斯。\n\n更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。\n\n大致上，可以看作是拥有黑暗骑士肉体、却没有过去记忆的厄瑞玻斯。\n\n当然，虽然要说他是失去记忆的厄瑞玻斯还有很多不同的地方……嘛，既然我决定把他当成厄瑞玻斯了!那我说他是厄瑞玻斯，他就是厄瑞玻斯!\n\n除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!虽然这种状态影响了肉体导致他变成了小孩子的模样!\n\n总之。\n\n「好啦。那么今天想听我读哪本书呢……」\n\n「没关系的。我也没那么小了。而且妈妈也有很多工作要忙……」\n\n「是因为我想读给你听才这么做的。等你再长大点，就算你求我我也不读了，所以别想那么多，乖乖待着。」\n\n这次绝不会再把他养成那种无可救药的家伙了……!\n\n那种暗黑进化，有过一次就足够了!",
           "verbatimSha256": "386b01eb47590cd082012e924c61db6f26e82b18abd4ee0deb6458fe9da14e12"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0080",
+          "endParagraph": "P0089",
+          "requestedEndParagraph": "P0089",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 10,
+          "verbatim": "那也是当然。因为我把这个空间内部的时间调整得比外面要慢。\n\n这个空间的1秒相当于外面的10秒左右，所以外面的1小时在这里只有6分钟左右。\n\n我出去还不到2小时，也就过了10分钟左右吧。\n\n我摸了摸微微露出笑脸的孩子的头，也对着他笑了起来。\n\n首先，根据对这孩子的调查结果。\n\n这孩子虽是厄瑞玻斯，但又不是厄瑞玻斯。\n\n更准确地说……应该说是厄瑞玻斯的一部分与黑暗骑士齐格弗里德融合后的产物吧。\n\n大致上，可以看作是拥有黑暗骑士肉体、却没有过去记忆的厄瑞玻斯。\n\n当然，虽然要说他是失去记忆的厄瑞玻斯还有很多不同的地方……嘛，既然我决定把他当成厄瑞玻斯了!那我说他是厄瑞玻斯，他就是厄瑞玻斯!\n\n除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!虽然这种状态影响了肉体导致他变成了小孩子的模样!",
+          "verbatimSha256": "1e9984e7b6e93d8298666aea2ded085aad998d8c7549e1cc7677d1427521c334"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0070",
+          "endParagraph": "P0095",
+          "text": "除了没有记忆外，力量还不到其他孩子的一半，也没有得到正式的信仰导致神格非常虚弱，此外还有这样那样的问题!",
+          "exactSubstringSha256": "226dcfc4d34e27e9c9293e44c89816eb0a4880fc018167b1b2be209f9aa2721f",
+          "completeSentence": true
         }
       ],
       "sourceRef": {
@@ -1940,8 +2630,8 @@
         "sequence": 1,
         "sourceText": "幼年厄瑞玻斯融合体",
         "supportingTypes": [
-          "world-fact",
-          "event"
+          "event",
+          "world-fact"
         ]
       }
     },
@@ -1949,7 +2639,7 @@
       "id": "era-32-erebus-child-continuityNew-652-02",
       "title": "【已知状态】亚空间秘密育儿",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜已建立连续性",
-      "category": "continuityNew",
+      "category": "continuity-state",
       "keys": [
         "空间",
         "秘密",
@@ -1970,7 +2660,7 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "亚空间秘密育儿：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份；亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。",
+      "content": "“亚空间秘密育儿”是截至资料第652节已经成立、后续必须继续承认的连续状态。原文已经确认：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份；亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。\n\n原文可直接观察的落点是：“那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。”\n\n后续涉及“亚空间秘密育儿”时，只能从这个状态继续变化，不能无原因回退、重置或改名为另一项事实；人物是否知道它仍取决于亲历、获告知和可接触记录。",
       "knowledgeStatus": "established-continuity",
       "evidence": [
         {
@@ -1996,6 +2686,16 @@
           "verbatimSha256": "7cfc3340283d940469987e8e8bd5cf57b6bc2a24a9116704939cf2c4d636c7b0"
         }
       ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0043",
+          "endParagraph": "P0068",
+          "text": "那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。",
+          "exactSubstringSha256": "fac8fa29f366a780c2932eeac8f58acd302dffac8503ad3fb56cc76f33a18828",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "continuityNew",
         "sourceIndex": 652,
@@ -2012,7 +2712,7 @@
       "id": "era-32-erebus-child-continuityNew-652-03",
       "title": "【已知状态】古神子女发现秘密",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜已建立连续性",
-      "category": "continuityNew",
+      "category": "continuity-state",
       "keys": [
         "古神",
         "子女",
@@ -2033,7 +2733,7 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "古神子女发现秘密：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份；希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。",
+      "content": "“古神子女发现秘密”是截至资料第652节已经成立、后续必须继续承认的连续状态。原文已经确认：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份；希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。\n\n原文可直接观察的落点是：“那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。”；“在守护龙栖息的空间里，趁守护龙不在时，其他的古神聚集在一起交谈着。”\n\n后续涉及“古神子女发现秘密”时，只能从这个状态继续变化，不能无原因回退、重置或改名为另一项事实；人物是否知道它仍取决于亲历、获告知和可接触记录。",
       "knowledgeStatus": "established-continuity",
       "evidence": [
         {
@@ -2059,6 +2759,24 @@
           "verbatimSha256": "716c040222392e6d1d66a34c1ccdb70294487b716afc387aab15e272d3658f51"
         }
       ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0043",
+          "endParagraph": "P0068",
+          "text": "那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。",
+          "exactSubstringSha256": "fac8fa29f366a780c2932eeac8f58acd302dffac8503ad3fb56cc76f33a18828",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0097",
+          "endParagraph": "P0118",
+          "text": "在守护龙栖息的空间里，趁守护龙不在时，其他的古神聚集在一起交谈着。",
+          "exactSubstringSha256": "b7ab9117fb7dc467f3b764198c8e3af0494da6c3a2f2e0c611df366bc83a175d",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "continuityNew",
         "sourceIndex": 652,
@@ -2075,7 +2793,7 @@
       "id": "era-32-erebus-child-unresolved-652-01",
       "title": "【未知边界】古神们如何处置",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜未解事项",
-      "category": "unresolved",
+      "category": "canon-unknown",
       "keys": [
         "古神",
         "如何",
@@ -2096,7 +2814,7 @@
       "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "古神们如何处置尚未有结论。现有事实：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份；希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。",
+      "content": "“古神们如何处置”在资料第652节结束时仍是没有正典答案的未知项。原文已经确认：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份；希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。\n\n原文可直接观察的落点是：“那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。”；“在守护龙栖息的空间里，趁守护龙不在时，其他的古神聚集在一起交谈着。”\n\n后续可以让有合理动机和线索的人物调查“古神们如何处置”，但在新证据真正于场景中出现以前，不得选择一种猜测当答案，也不得让不知情角色直接说出系统记录。",
       "knowledgeStatus": "canonically-unresolved",
       "evidence": [
         {
@@ -2122,6 +2840,24 @@
           "verbatimSha256": "716c040222392e6d1d66a34c1ccdb70294487b716afc387aab15e272d3658f51"
         }
       ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0043",
+          "endParagraph": "P0068",
+          "text": "那是以前养育过成为了鲁贝洛斯帝国初代皇帝诺亚之妻的孩子——索菲亚的亚空间宅邸。",
+          "exactSubstringSha256": "fac8fa29f366a780c2932eeac8f58acd302dffac8503ad3fb56cc76f33a18828",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0097",
+          "endParagraph": "P0118",
+          "text": "在守护龙栖息的空间里，趁守护龙不在时，其他的古神聚集在一起交谈着。",
+          "exactSubstringSha256": "b7ab9117fb7dc467f3b764198c8e3af0494da6c3a2f2e0c611df366bc83a175d",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "unresolved",
         "sourceIndex": 652,
@@ -2138,7 +2874,7 @@
       "id": "era-32-erebus-child-unresolved-652-02",
       "title": "【未知边界】幼神未来人格",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(1)｜未解事项",
-      "category": "unresolved",
+      "category": "canon-unknown",
       "keys": [
         "人格",
         "克斯",
@@ -2159,7 +2895,7 @@
       "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "幼神未来人格尚未有结论。现有事实：尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认。",
+      "content": "“幼神未来人格”在资料第652节结束时仍是没有正典答案的未知项。原文已经确认：尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认；黑暗骑士齐格弗里德拥有最多黑暗碎片；收集量达到阈值后化为疑似厄瑞玻斯的黑发幼神，但具体机制仍不确定。\n\n原文可直接观察的落点是：“我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。”\n\n后续可以让有合理动机和线索的人物调查“幼神未来人格”，但在新证据真正于场景中出现以前，不得选择一种猜测当答案，也不得让不知情角色直接说出系统记录。",
       "knowledgeStatus": "canonically-unresolved",
       "evidence": [
         {
@@ -2172,6 +2908,27 @@
           "paragraphCount": 41,
           "verbatim": "在制造了各种娱乐消遣、阅读着世间百态，静静打发时间的某一天。\n\n「突然造访，非常抱歉。」\n\n暗影女神尼克斯突然找了过来。而且还是来到了本体所在的地方。\n\n「嗯?什么事?」\n\n「因为有些事想商量一下……能稍微耽误您一点时间吗?」\n\n我偷瞄了一眼在旁边工作的阿谢拉特。\n\n现在的工作是……简单的分类作业重复。这个的话，应该不会给阿谢拉特造成什么负担。\n\n「一会儿的话没关系吧。阿谢拉特。我离开一下。」\n\n「请不要离开太久!」\n\n嗯。自从她为了读小说而把自己关起来之后，只要我说离开一会儿，她就会有这种反应……真是个让人为难的孩子。\n\n嘛，想想当时被工作压得半死不活的阿谢拉特，她会有这种反应也不奇怪。\n\n总之，把一堆工作顺手推给阿谢拉特后，我来到了万神殿中一处人迹罕至的休息区，开始听尼克斯讲述。\n\n「既然你来找我，那一定是关于那件事的谈话吧。」\n\n尼克斯一言不发，微微点了点头。\n\n黑暗骑士。以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。\n\n换句话说，是最有可能找回远古黑暗古神自我意识的存在。\n\n「发生什么事了?」\n\n「与其由我说明，不如您亲眼看更快。」\n\n随着尼克斯这么说，从她的影子里出现的是。\n\n「小孩子……?不，是神格?」\n\n「如您所见……变成这样了。」\n\n那个有着黑发男孩模样的神格……长得与那副非常熟悉的模样极其相似。\n\n「是厄瑞玻斯吗……」\n\n「恐怕，是的。」\n\n正旁若无人般熟睡着的黑发小孩。若不是能隐约感觉到身为黑暗之神的神格，看起来就像个普通小孩一样。\n\n可是……到底要怎么做，才能让那个原本是壮年男性体型的黑暗骑士……齐格弗里德，变成这么小的孩子?\n\n「发生什么事了?」\n\n「我也不太清楚。我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。结果它被浓郁到连我也无法处理的黑暗所笼罩，就变成这样了……」\n\n「嗯……只是收集了黑暗碎片吗……」\n\n如果是那样的话，或许……」\n\n「是因为收集到的量已经足以形成厄瑞玻斯的人格了吗?」\n\n从外表来看，虽然还不是完整的人格……但我认为应该是收集到了足以具备一定智力的量，才导致了这样的变化。\n\n「是这样吗?」\n\n「具体情况还需要进一步确认才行。」\n\n虽然也有可能变成了并非厄瑞玻斯的新存在，但确定的是，必须经过进一步的确认。\n\n所以。\n\n「在确认结束之前，能把这个孩子交给我照顾吗?」\n\n「原本就是您托付给我的存在。请悉听尊便。」\n\n听了尼克斯的话，我只是微微一笑。\n\n那么……嗯……\n\n需要一个能抚养这孩子的地方呢。",
           "verbatimSha256": "e29258586dc9cfcc741cb6eb15ada391e0ce53537125f7f7e22f9be0ff67275d"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0015",
+          "endParagraph": "P0035",
+          "requestedEndParagraph": "P0035",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 21,
+          "verbatim": "黑暗骑士。以齐格弗里德之名在尼克斯控制下的……拥有最多黑暗碎片的平衡存在。\n\n换句话说，是最有可能找回远古黑暗古神自我意识的存在。\n\n「发生什么事了?」\n\n「与其由我说明，不如您亲眼看更快。」\n\n随着尼克斯这么说，从她的影子里出现的是。\n\n「小孩子……?不，是神格?」\n\n「如您所见……变成这样了。」\n\n那个有着黑发男孩模样的神格……长得与那副非常熟悉的模样极其相似。\n\n「是厄瑞玻斯吗……」\n\n「恐怕，是的。」\n\n正旁若无人般熟睡着的黑发小孩。若不是能隐约感觉到身为黑暗之神的神格，看起来就像个普通小孩一样。\n\n可是……到底要怎么做，才能让那个原本是壮年男性体型的黑暗骑士……齐格弗里德，变成这么小的孩子?\n\n「发生什么事了?」\n\n「我也不太清楚。我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。结果它被浓郁到连我也无法处理的黑暗所笼罩，就变成这样了……」\n\n「嗯……只是收集了黑暗碎片吗……」\n\n如果是那样的话，或许……」\n\n「是因为收集到的量已经足以形成厄瑞玻斯的人格了吗?」\n\n从外表来看，虽然还不是完整的人格……但我认为应该是收集到了足以具备一定智力的量，才导致了这样的变化。\n\n「是这样吗?」\n\n「具体情况还需要进一步确认才行。」\n\n虽然也有可能变成了并非厄瑞玻斯的新存在，但确定的是，必须经过进一步的确认。",
+          "verbatimSha256": "a46d4d764f4b0b5a779b1a38f35e515eee9f24ef566e7f6aa1037559f239a48e"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 652,
+          "startParagraph": "P0001",
+          "endParagraph": "P0041",
+          "text": "我只是像往常一样，让生命教团继续收集那些通过地下城渗入的黑暗碎片而已……。",
+          "exactSubstringSha256": "495dbd80899644a682790eb3d7809fde0fba289a19b4efcd854156028ee0ed27",
+          "completeSentence": true
         }
       ],
       "sourceRef": {
@@ -2181,15 +2938,16 @@
         "sequence": 2,
         "sourceText": "幼神未来人格",
         "supportingTypes": [
-          "event"
+          "event",
+          "world-fact"
         ]
       }
     },
     {
       "id": "era-32-erebus-child-event-653-01",
-      "title": "主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或…",
+      "title": "【历史】主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或…",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0001-P0016",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "创造",
         "困难",
@@ -2213,7 +2971,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或因丑恶心声黑化。她回顾旧厄瑞玻斯事件时，把巨龙肉体消失称为愤怒爆发而非黑化。",
+      "content": "关于“主龙认为育儿比创造困难”，原文已经确认的已经发生的事件是：主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或因丑恶心声黑化。她回顾旧厄瑞玻斯事件时，把巨龙肉体消失称为愤怒爆发而非黑化。\n\n原文可直接观察的落点是：“虽然拥有近乎全能的力量，但我离全知还差得很远。”；“当然，虽然那时候确实有点火大，导致发生了大多数巨龙失去肉体化为精灵的事态……但那种程度纯粹只是愤怒爆发、因为太生气才发生的。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2226,6 +2984,24 @@
         "verbatim": "虽然是没做过几次的事情，但我认为养育孩子是一件非常辛苦的事。\n\n虽然只要在孩子成年之前提供必需品，谁都能做到，但要引导孩子向正确的方向成长，实在不是一件容易的事。\n\n就像编程一样，即使是输入后应有对应产出的程序，偶尔也会因为Bug而弹出奇怪的结果，更何况是活生生的人呢。\n\n经常会奔向意料之外的方向，无论叮嘱多少次都当耳边风。即便如此，想狠狠教训一顿的时候，孩子那泪眼汪汪的样子又让心里隐隐作痛……真的可以说是一个非常棘手的对手。\n\n即使拥有超越神力、足以被称为开挂的能力，育儿依然不是件易事啊!\n\n虽然拥有能立即创造所需物品的创造能力很好，但却没有能洞察那需要的东西是什么、以及孩子在渴求什么的这种能力啊!\n\n虽然拥有近乎全能的力量，但我离全知还差得很远。\n\n话虽如此，至于读懂他人内心之类的能力……嗯……不需要。那种东西。\n\n我读心能干嘛?万一读到了些莫名其妙的心声，或者是不愿宣之于口的话语，反而只会自找麻烦。\n\n那叫什么来着。不是有那种套路吗。套路。那种读到了他人丑恶的内心后黑化，从而变成反派之类的套路。\n\n当然，套路终究只是套路……但套路之所以能成为套路总是有原因的。因为好使所以才是套路啊!\n\n嘛，虽说读了一点他人的心思，我倒不觉得自己会因此黑化。要因为那种事就黑化的话，我经历过的事情也未免太多了点。\n\n起初，如果我是那种会黑化的性格，在厄瑞玻斯惹出麻烦的时候，我早就当场黑化了。\n\n当然，虽然那时候确实有点火大，导致发生了大多数巨龙失去肉体化为精灵的事态……但那种程度纯粹只是愤怒爆发、因为太生气才发生的。\n\n那种程度根本算不上是黑化之类的。\n\n- - - - - - - - - - - - - - - - - - - -",
         "verbatimSha256": "7d5197d4ff18a77f97c75f388b00057f5bbd36e692d3903a7720bd9a32410700"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0001",
+          "endParagraph": "P0016",
+          "text": "虽然拥有近乎全能的力量，但我离全知还差得很远。",
+          "exactSubstringSha256": "c8d26432d9f6c57c1d4f4bd577dc208c0019cc8c17d68923f3ba5586d5bd4235",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0001",
+          "endParagraph": "P0016",
+          "text": "当然，虽然那时候确实有点火大，导致发生了大多数巨龙失去肉体化为精灵的事态……但那种程度纯粹只是愤怒爆发、因为太生气才发生的。",
+          "exactSubstringSha256": "7d1e2b50a206d7d8823a6cbeac72b2375a38cfc3e235f47cb899171265da0b1f",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 653,
@@ -2237,9 +3013,9 @@
     },
     {
       "id": "era-32-erebus-child-event-653-02",
-      "title": "幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格",
+      "title": "【历史】幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0017-P0036",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "神职",
         "幼年",
@@ -2263,7 +3039,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。",
+      "content": "关于“幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格”，原文已经确认的已经发生的事件是：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。\n\n原文可直接观察的落点是：“归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?”；“「所以现在不要想复杂的，只要好好吃饭，好好长大。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2276,6 +3052,24 @@
         "verbatim": "变幼小的厄瑞玻斯虽然失去了大部分记忆，但仍是名副其实拥有神性的神。\n\n即使是一个信徒都没有的神，作为自古以来便存在的神的威严，即使在支离破碎后重新凝聚，依然得以维持。\n\n「但是，不用去做作为神灵的活动也无所谓哦。」\n\n「那……这样吗……?」\n\n事到如今，就算说「古代神之一的黑暗之神曾经存在过!」，也不知道万神殿那边会如何接受。\n\n归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?敬畏感?这些东西也会为厄瑞玻斯的神格增添力量。\n\n并不只有尊敬和憧憬才是信仰，畏惧之心同样也是一种信仰。\n\n正因如此，厄瑞玻斯即便那样支离破碎，想必也能维持住他的神格。\n\n嘛，虽然在粉碎的那个节点应该无法使用那份神格。能做的恐怕也就只有为了不被我发现而四处逃窜了吧。\n\n咳咳。当着孩子的面，我在胡思乱想些什么呢。\n\n「你现在还小不是吗。这种复杂的念头，以后慢慢想也来得及。」\n\n「好哒……」\n\n厄瑞玻斯露出了有些垂头丧气的样子。虽然那个样子让我感到了一丝良心的谴责……但要是嚷嚷着要以神的身份做点什么之类的，也有可能引发其他问题。总之现在先专注于让他安静且正确地成长吧。\n\n以前，在那些被称为古神的孩子们刚出生不久的时期，因为没有这种人类的肉体，所以和抚养人类孩子不同，在情感交流方面稍微有些限制，但现在既然是这种小孩子的模样……\n\n看着他垂头丧气的样子，心里真的有种隐隐作痛的感觉。\n\n嗯。既然会产生这种感觉，难道我也没能完全抛弃人类的情感吗?还真是种略显生疏的感觉。\n\n再加上厄瑞玻斯在各个方面对我来说就像是「心头肉」一样，所以这种感觉可能更加强烈。\n\n「所以现在不要想复杂的，只要好好吃饭，好好长大。这就是我的心愿。」\n\n这一次，不会再像上次那样……把他养废了……\n\n- - - - - - - - - - - - - - - - - - - -",
         "verbatimSha256": "31b5a81f2e54ee94b88acac2a860ada191a78bd2396702cd4c2526ef75548a15"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0017",
+          "endParagraph": "P0036",
+          "text": "归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?",
+          "exactSubstringSha256": "70ad15f2686d938ac931920f1e4b66550d447649425697fee7eafe2d8fa76584",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0017",
+          "endParagraph": "P0036",
+          "text": "「所以现在不要想复杂的，只要好好吃饭，好好长大。",
+          "exactSubstringSha256": "cf9328210e31478abcee296cb443a7fec179db745d9822d2c6c07b7308ceceb7",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 653,
@@ -2287,9 +3081,9 @@
     },
     {
       "id": "era-32-erebus-child-event-653-03",
-      "title": "因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识",
+      "title": "【历史】因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0037-P0060",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "教师",
         "利文",
@@ -2315,7 +3109,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。",
+      "content": "关于“因没有适合幼神的学校”，原文已经确认的已经发生的事件是：因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n\n原文可直接观察的落点是：“我不在的时候，你就跟着这个沙利文学习吧。」”；“主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2328,6 +3122,24 @@
         "verbatim": "为了养好孩子，需要些什么呢?\n\n只让他吃好的，穿好的，住好的地方，这样就足够了吗?\n\n当然不够。尤其是在情感层面。\n\n但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。\n\n虽然跟我以外的存在交流会有些生疏……但还是希望他能忍耐一下。\n\n尤其是被其他孩子发现的话……肯定不会轻易放过他的。毕竟厄瑞玻斯惹出的祸端那么多，他们肯定会咬牙切齿地说怎么能就这么放过他呢。\n\n嗯。这么说来，因为厄瑞玻斯，巨龙之间是不是爆发过……战争来着?记忆有点模糊了。嗯。到底是怎么样来着……?\n\n啊，想起来了。起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。\n\n严格来说，那并不是厄瑞玻斯的错……那是由于他麾下的黑龙们引起的问题，但重点并不是战争爆发的原因。\n\n厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。\n\n虽然在那余波中厄瑞玻斯自己也粉碎散落了。但也因此产生了怪物，出现了魔王，引发了各种各样的问题。\n\n嘛，倒也不能责怪记忆并不完整的年幼的厄瑞玻斯。\n\n虽然这个厄瑞玻斯和那个厄瑞玻斯分明是同一个存在……但若因为不在记忆里的罪孽而受罚，未免也太严苛了。\n\n所以。还是对其他孩子保密吧。\n\n嗯……。要是被发现的话，肯定会生气的。\n\n- - - - - - - - - - - - - - - - - - - -",
         "verbatimSha256": "854d70eccbe505175dcead82aa8e3591afdbd09de309beb186a542cae13052b2"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "text": "我不在的时候，你就跟着这个沙利文学习吧。」",
+          "exactSubstringSha256": "165a5ef2c1165a0d717bf63b109984db1cb2e3e0bffd6c5b9421fa6f73b7c572",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "text": "主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」",
+          "exactSubstringSha256": "21e7ec1a7c7d59afd8ea32372c200af29bf6aa2efef0c8346429b7a1eb8a1397",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 653,
@@ -2339,9 +3151,9 @@
     },
     {
       "id": "era-32-erebus-child-event-653-04",
-      "title": "古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱",
+      "title": "【历史】古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0061-P0088",
-      "category": "event",
+      "category": "history-event",
       "keys": [
         "古神",
         "不可能",
@@ -2364,7 +3176,7 @@
       "order": 760,
       "position": "before-character",
       "depth": 4,
-      "content": "古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。",
+      "content": "关于“古神子女知道母亲心软与快乐”，原文已经确认的已经发生的事件是：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。\n\n原文可直接观察的落点是：“就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』”；“「如果母亲能以异性的身份去爱谁的话，不是早就找好伴侣了吗?”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。这是已经发生的历史节点。后续涉及同一人物、地点或矛盾时，必须从原文确认的结果继续，不能重置成未发生、替换参与者，或补造公众传播、秘密动机和长期制度余波。只有亲历、获告知或能接触可靠记录的人物才知道此事。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2377,6 +3189,24 @@
         "verbatim": "「妈妈也有太心软的一面呢。」\n\n「嗯。无法否认。」\n\n听到希尔芙和萨加玛塔的话，忒提斯无可奈何地说道。\n\n「站在母亲的立场上，心情想必也会在多方面都很复杂。尤其是厄瑞玻斯……是对妈妈而言各方面都很操心的家伙。」\n\n「虽然知道，但心情还是很复杂。」\n\n「哼。那种把母亲当成女人来爱的笨蛋。管他呢。」\n\n「伊夫利特。别说那种话。说实话，哪有比妈妈作为女性更有魅力的存在啊。」\n\n「嗯。但只看外表的话是个小孩子。」\n\n「萨加玛塔。那个就跳过吧。那是母亲本人不太在意，所以万幸的部分。」\n\n这个世界上年纪最大的存在却有着小孩子的模样……这在各方面都是件讽刺的事情。\n\n「所以，就要那样看着那个小厄瑞玻斯不管吗?」\n\n「说实话，虽然失去记忆这件事也有点可疑……但能怎么办呢。母亲既然那么喜欢。就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』，母亲会高兴吗?」\n\n听到那句话，古神们的脑海中浮现出了相同的画面。\n\n「肯定会生气吧。」\n\n「会非常生气的。」\n\n「嗯。比起火山爆发有过之而无不及。」\n\n古神们脑中再次浮现出，或许是从天空彼端引下巨大的陨石，让人短暂见识到世界毁灭的景象。\n\n「那么……就那样静静地瞒下去比较好吧?」\n\n「嗯。反正妈妈也喜欢。」\n\n「在最近因为没什么趣事而心烦意乱的情况下，因为专注于照顾变小的厄瑞玻斯而没空无聊，也是件好事吧。」\n\n「即便如此，把厄瑞玻斯留在母亲身边真的正确吗……」\n\n听到伊格德拉希尔的话，古神们微微点头。毕竟在遥远的过去，厄瑞玻斯曾将母亲生命女神作为女人来爱慕。\n\n就算厄瑞玻斯变小了，本质应该也是相同的。也就是说，即便变小了，也有可能爱上母亲生命女神。\n\n「但是，母亲有接受厄瑞玻斯爱意的可能吗?」\n\n「说实话，我脑补不出妈妈谈恋爱的样子。」\n\n「嗯。不可能。」\n\n「如果母亲能以异性的身份去爱谁的话，不是早就找好伴侣了吗?说实话，到现在为止够资格的存在也不是一两个了吧。」\n\n听到那句话，古神们全都同时点了点头。",
         "verbatimSha256": "6780b11e4605a32b4f3ee773fbefc124be36dc674c796327d7468ab26386164b"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0061",
+          "endParagraph": "P0088",
+          "text": "就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』",
+          "exactSubstringSha256": "2d2f281960e510945f5e8a08173860732dc8438cb71be78fbc05238050324a4d",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0061",
+          "endParagraph": "P0088",
+          "text": "「如果母亲能以异性的身份去爱谁的话，不是早就找好伴侣了吗?",
+          "exactSubstringSha256": "4e99aa4616eaf0481d90bff71f00b98ca6661a2ebc35f64364721d0e889b6802",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "event",
         "sourceIndex": 653,
@@ -2388,9 +3218,9 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-653-01",
-      "title": "神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬",
+      "title": "【能力】神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0017-P0024",
-      "category": "world-fact",
+      "category": "setting-power",
       "keys": [
         "神格",
         "黑暗",
@@ -2411,7 +3241,7 @@
       "order": 720,
       "position": "before-character",
       "depth": 4,
-      "content": "神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬。",
+      "content": "关于“神格可由对黑暗的恐惧和敬畏维持”，原文已经确认的能力或运行系统是：神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬。\n\n原文可直接观察的落点是：“并不只有尊敬和憧憬才是信仰，畏惧之心同样也是一种信仰。”；“归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。调用该能力或系统时，只使用原文已经确认的触发、效果、对象、代价与限制；不得把一次表现扩写成无限射程、永久效果、自动全知或同类角色共有能力。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2424,6 +3254,24 @@
         "verbatim": "变幼小的厄瑞玻斯虽然失去了大部分记忆，但仍是名副其实拥有神性的神。\n\n即使是一个信徒都没有的神，作为自古以来便存在的神的威严，即使在支离破碎后重新凝聚，依然得以维持。\n\n「但是，不用去做作为神灵的活动也无所谓哦。」\n\n「那……这样吗……?」\n\n事到如今，就算说「古代神之一的黑暗之神曾经存在过!」，也不知道万神殿那边会如何接受。\n\n归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?敬畏感?这些东西也会为厄瑞玻斯的神格增添力量。\n\n并不只有尊敬和憧憬才是信仰，畏惧之心同样也是一种信仰。\n\n正因如此，厄瑞玻斯即便那样支离破碎，想必也能维持住他的神格。",
         "verbatimSha256": "7c729dbaf39ed4da87ed212fb1b01db315a6feaefd7e0bab549d714e4ff074f5"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0017",
+          "endParagraph": "P0024",
+          "text": "并不只有尊敬和憧憬才是信仰，畏惧之心同样也是一种信仰。",
+          "exactSubstringSha256": "07b778dada8e87305dfce7fd12840a2cec151a245b0e8563bc773f8830916499",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0017",
+          "endParagraph": "P0024",
+          "text": "归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?",
+          "exactSubstringSha256": "70ad15f2686d938ac931920f1e4b66550d447649425697fee7eafe2d8fa76584",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "world-fact",
         "sourceIndex": 653,
@@ -2435,9 +3283,9 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-653-02",
-      "title": "生命教团基础教育院勉强承担幼儿园功能，但不适合幼神",
+      "title": "【机构】生命教团基础教育院勉强承担幼儿园功能，但不适合幼神",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0040-P0048",
-      "category": "world-fact",
+      "category": "setting-institution",
       "keys": [
         "利文",
         "教师",
@@ -2460,7 +3308,7 @@
       "order": 720,
       "position": "before-character",
       "depth": 4,
-      "content": "生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师。",
+      "content": "关于“生命教团基础教育院勉强承担幼儿园功能”，原文已经确认的机构或政治结构是：生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师。\n\n原文可直接观察的落点是：“勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。”；“那么，要把厄瑞玻斯送到生命教团的基础教育院吗?”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。与该机构交涉时，只能调用原文已经写明的成员、权限、职责、程序和现实后果；未说明的层级、收费、辖区、法律与内部秘密保持未知。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2473,6 +3321,24 @@
         "verbatim": "但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。",
         "verbatimSha256": "5ca5d693a96e1b08778f156146b1047b3b3ecef97b608184c8eb56d4657b4305"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0040",
+          "endParagraph": "P0048",
+          "text": "勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。",
+          "exactSubstringSha256": "f54264fd84e1b2d64c146bc40ec08fc34c723c3b2b09e21a21197719ab92ff41",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0040",
+          "endParagraph": "P0048",
+          "text": "那么，要把厄瑞玻斯送到生命教团的基础教育院吗?",
+          "exactSubstringSha256": "a26ac978155c1bc8000e6d6f63f55d1c1dfc3fee00717ff11f7883f5315e6648",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "world-fact",
         "sourceIndex": 653,
@@ -2484,9 +3350,9 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-653-03",
-      "title": "旧黑龙领地冲突和幼龙牺牲引发龙战",
+      "title": "【族群】旧黑龙领地冲突和幼龙牺牲引发龙战",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜P0052-P0057",
-      "category": "world-fact",
+      "category": "setting-species",
       "keys": [
         "冲突",
         "牺牲",
@@ -2510,7 +3376,7 @@
       "order": 720,
       "position": "before-character",
       "depth": 4,
-      "content": "旧黑龙领地冲突和幼龙牺牲引发龙战；旧厄瑞玻斯在鳞片被没收时自爆碎鳞，导致怪物、魔王等问题。",
+      "content": "关于“旧黑龙领地冲突和幼龙牺牲引发龙战”，原文已经确认的族群或生命类型是：旧黑龙领地冲突和幼龙牺牲引发龙战；旧厄瑞玻斯在鳞片被没收时自爆碎鳞，导致怪物、魔王等问题。\n\n原文可直接观察的落点是：“起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。”；“厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。”\n\n本条只锁定上述事实与原文片段能够直接支持的范围。该事实只能约束原文明确覆盖的身体、能力、社会位置或历史阶段；不能据此给整个族群补上统一性格、共同记忆、固定职业或未写明的生理规则。",
       "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
       "evidence": {
         "sourceIndex": 653,
@@ -2523,6 +3389,24 @@
         "verbatim": "啊，想起来了。起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。\n\n严格来说，那并不是厄瑞玻斯的错……那是由于他麾下的黑龙们引起的问题，但重点并不是战争爆发的原因。\n\n厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。\n\n虽然在那余波中厄瑞玻斯自己也粉碎散落了。但也因此产生了怪物，出现了魔王，引发了各种各样的问题。\n\n嘛，倒也不能责怪记忆并不完整的年幼的厄瑞玻斯。\n\n虽然这个厄瑞玻斯和那个厄瑞玻斯分明是同一个存在……但若因为不在记忆里的罪孽而受罚，未免也太严苛了。",
         "verbatimSha256": "c9cde520810a7ee8187ca2d155c77ca9f5e4fb8978383ea5070c7b23471535a7"
       },
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0052",
+          "endParagraph": "P0057",
+          "text": "起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。",
+          "exactSubstringSha256": "ac38db92fd77a413e3c2894e2d05b7b10f07b92687ff8b75f93641c9844d592f",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0052",
+          "endParagraph": "P0057",
+          "text": "厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。",
+          "exactSubstringSha256": "bc252cfcf09535ca9548210c02eb97ce4cd09757684bf693f0f710db4b6388ee",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "world-fact",
         "sourceIndex": 653,
@@ -2536,7 +3420,7 @@
       "id": "era-32-erebus-child-continuityNew-653-01",
       "title": "【已知状态】沙利文教师魔像",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜已建立连续性",
-      "category": "continuityNew",
+      "category": "continuity-state",
       "keys": [
         "利文",
         "教师",
@@ -2557,7 +3441,7 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "沙利文教师魔像：生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。",
+      "content": "“沙利文教师魔像”是截至资料第653节已经成立、后续必须继续承认的连续状态。原文已经确认：生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n\n原文可直接观察的落点是：“勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。”\n\n后续涉及“沙利文教师魔像”时，只能从这个状态继续变化，不能无原因回退、重置或改名为另一项事实；人物是否知道它仍取决于亲历、获告知和可接触记录。",
       "knowledgeStatus": "established-continuity",
       "evidence": [
         {
@@ -2583,6 +3467,16 @@
           "verbatimSha256": "854d70eccbe505175dcead82aa8e3591afdbd09de309beb186a542cae13052b2"
         }
       ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0040",
+          "endParagraph": "P0048",
+          "text": "勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。",
+          "exactSubstringSha256": "f54264fd84e1b2d64c146bc40ec08fc34c723c3b2b09e21a21197719ab92ff41",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "continuityNew",
         "sourceIndex": 653,
@@ -2599,7 +3493,7 @@
       "id": "era-32-erebus-child-continuityNew-653-02",
       "title": "【已知状态】幼神无需神职",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜已建立连续性",
-      "category": "continuityNew",
+      "category": "continuity-state",
       "keys": [
         "神职",
         "幼年",
@@ -2620,7 +3514,7 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "幼神无需神职：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。",
+      "content": "“幼神无需神职”是截至资料第653节已经成立、后续必须继续承认的连续状态。原文已经确认：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n\n原文可直接观察的落点是：“归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?”；“但现在的厄瑞玻斯是拥有神格的小孩。”\n\n后续涉及“幼神无需神职”时，只能从这个状态继续变化，不能无原因回退、重置或改名为另一项事实；人物是否知道它仍取决于亲历、获告知和可接触记录。",
       "knowledgeStatus": "established-continuity",
       "evidence": [
         {
@@ -2633,6 +3527,35 @@
           "paragraphCount": 20,
           "verbatim": "变幼小的厄瑞玻斯虽然失去了大部分记忆，但仍是名副其实拥有神性的神。\n\n即使是一个信徒都没有的神，作为自古以来便存在的神的威严，即使在支离破碎后重新凝聚，依然得以维持。\n\n「但是，不用去做作为神灵的活动也无所谓哦。」\n\n「那……这样吗……?」\n\n事到如今，就算说「古代神之一的黑暗之神曾经存在过!」，也不知道万神殿那边会如何接受。\n\n归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?敬畏感?这些东西也会为厄瑞玻斯的神格增添力量。\n\n并不只有尊敬和憧憬才是信仰，畏惧之心同样也是一种信仰。\n\n正因如此，厄瑞玻斯即便那样支离破碎，想必也能维持住他的神格。\n\n嘛，虽然在粉碎的那个节点应该无法使用那份神格。能做的恐怕也就只有为了不被我发现而四处逃窜了吧。\n\n咳咳。当着孩子的面，我在胡思乱想些什么呢。\n\n「你现在还小不是吗。这种复杂的念头，以后慢慢想也来得及。」\n\n「好哒……」\n\n厄瑞玻斯露出了有些垂头丧气的样子。虽然那个样子让我感到了一丝良心的谴责……但要是嚷嚷着要以神的身份做点什么之类的，也有可能引发其他问题。总之现在先专注于让他安静且正确地成长吧。\n\n以前，在那些被称为古神的孩子们刚出生不久的时期，因为没有这种人类的肉体，所以和抚养人类孩子不同，在情感交流方面稍微有些限制，但现在既然是这种小孩子的模样……\n\n看着他垂头丧气的样子，心里真的有种隐隐作痛的感觉。\n\n嗯。既然会产生这种感觉，难道我也没能完全抛弃人类的情感吗?还真是种略显生疏的感觉。\n\n再加上厄瑞玻斯在各个方面对我来说就像是「心头肉」一样，所以这种感觉可能更加强烈。\n\n「所以现在不要想复杂的，只要好好吃饭，好好长大。这就是我的心愿。」\n\n这一次，不会再像上次那样……把他养废了……\n\n- - - - - - - - - - - - - - - - - - - -",
           "verbatimSha256": "31b5a81f2e54ee94b88acac2a860ada191a78bd2396702cd4c2526ef75548a15"
+        },
+        {
+          "sourceIndex": 653,
+          "chapterTitle": "厄瑞玻斯.(2)",
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "requestedEndParagraph": "P0060",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 24,
+          "verbatim": "为了养好孩子，需要些什么呢?\n\n只让他吃好的，穿好的，住好的地方，这样就足够了吗?\n\n当然不够。尤其是在情感层面。\n\n但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。\n\n虽然跟我以外的存在交流会有些生疏……但还是希望他能忍耐一下。\n\n尤其是被其他孩子发现的话……肯定不会轻易放过他的。毕竟厄瑞玻斯惹出的祸端那么多，他们肯定会咬牙切齿地说怎么能就这么放过他呢。\n\n嗯。这么说来，因为厄瑞玻斯，巨龙之间是不是爆发过……战争来着?记忆有点模糊了。嗯。到底是怎么样来着……?\n\n啊，想起来了。起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。\n\n严格来说，那并不是厄瑞玻斯的错……那是由于他麾下的黑龙们引起的问题，但重点并不是战争爆发的原因。\n\n厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。\n\n虽然在那余波中厄瑞玻斯自己也粉碎散落了。但也因此产生了怪物，出现了魔王，引发了各种各样的问题。\n\n嘛，倒也不能责怪记忆并不完整的年幼的厄瑞玻斯。\n\n虽然这个厄瑞玻斯和那个厄瑞玻斯分明是同一个存在……但若因为不在记忆里的罪孽而受罚，未免也太严苛了。\n\n所以。还是对其他孩子保密吧。\n\n嗯……。要是被发现的话，肯定会生气的。\n\n- - - - - - - - - - - - - - - - - - - -",
+          "verbatimSha256": "854d70eccbe505175dcead82aa8e3591afdbd09de309beb186a542cae13052b2"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0017",
+          "endParagraph": "P0036",
+          "text": "归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?",
+          "exactSubstringSha256": "70ad15f2686d938ac931920f1e4b66550d447649425697fee7eafe2d8fa76584",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "text": "但现在的厄瑞玻斯是拥有神格的小孩。",
+          "exactSubstringSha256": "d5f27087e543ee5ae374297152055461e181c2e982806b5683e71fd6b30b5c12",
+          "completeSentence": true
         }
       ],
       "sourceRef": {
@@ -2642,6 +3565,7 @@
         "sequence": 2,
         "sourceText": "幼神无需神职",
         "supportingTypes": [
+          "event",
           "event"
         ]
       }
@@ -2650,15 +3574,15 @@
       "id": "era-32-erebus-child-continuityNew-653-03",
       "title": "【已知状态】古神默许秘密育儿",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜已建立连续性",
-      "category": "continuityNew",
+      "category": "continuity-state",
       "keys": [
         "古神",
         "默许",
         "秘密",
-        "子女",
-        "母亲",
-        "快乐",
-        "回顾"
+        "生命",
+        "教团",
+        "基础",
+        "教育"
       ],
       "secondaryKeys": [],
       "selective": false,
@@ -2671,19 +3595,40 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "古神默许秘密育儿：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。",
+      "content": "“古神默许秘密育儿”是截至资料第653节已经成立、后续必须继续承认的连续状态。原文已经确认：生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n\n原文可直接观察的落点是：“勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。”\n\n后续涉及“古神默许秘密育儿”时，只能从这个状态继续变化，不能无原因回退、重置或改名为另一项事实；人物是否知道它仍取决于亲历、获告知和可接触记录。",
       "knowledgeStatus": "established-continuity",
       "evidence": [
         {
           "sourceIndex": 653,
           "chapterTitle": "厄瑞玻斯.(2)",
-          "startParagraph": "P0061",
-          "endParagraph": "P0088",
-          "requestedEndParagraph": "P0088",
+          "startParagraph": "P0040",
+          "endParagraph": "P0048",
+          "requestedEndParagraph": "P0048",
           "scopeClampedToChapterEnd": false,
-          "paragraphCount": 28,
-          "verbatim": "「妈妈也有太心软的一面呢。」\n\n「嗯。无法否认。」\n\n听到希尔芙和萨加玛塔的话，忒提斯无可奈何地说道。\n\n「站在母亲的立场上，心情想必也会在多方面都很复杂。尤其是厄瑞玻斯……是对妈妈而言各方面都很操心的家伙。」\n\n「虽然知道，但心情还是很复杂。」\n\n「哼。那种把母亲当成女人来爱的笨蛋。管他呢。」\n\n「伊夫利特。别说那种话。说实话，哪有比妈妈作为女性更有魅力的存在啊。」\n\n「嗯。但只看外表的话是个小孩子。」\n\n「萨加玛塔。那个就跳过吧。那是母亲本人不太在意，所以万幸的部分。」\n\n这个世界上年纪最大的存在却有着小孩子的模样……这在各方面都是件讽刺的事情。\n\n「所以，就要那样看着那个小厄瑞玻斯不管吗?」\n\n「说实话，虽然失去记忆这件事也有点可疑……但能怎么办呢。母亲既然那么喜欢。就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』，母亲会高兴吗?」\n\n听到那句话，古神们的脑海中浮现出了相同的画面。\n\n「肯定会生气吧。」\n\n「会非常生气的。」\n\n「嗯。比起火山爆发有过之而无不及。」\n\n古神们脑中再次浮现出，或许是从天空彼端引下巨大的陨石，让人短暂见识到世界毁灭的景象。\n\n「那么……就那样静静地瞒下去比较好吧?」\n\n「嗯。反正妈妈也喜欢。」\n\n「在最近因为没什么趣事而心烦意乱的情况下，因为专注于照顾变小的厄瑞玻斯而没空无聊，也是件好事吧。」\n\n「即便如此，把厄瑞玻斯留在母亲身边真的正确吗……」\n\n听到伊格德拉希尔的话，古神们微微点头。毕竟在遥远的过去，厄瑞玻斯曾将母亲生命女神作为女人来爱慕。\n\n就算厄瑞玻斯变小了，本质应该也是相同的。也就是说，即便变小了，也有可能爱上母亲生命女神。\n\n「但是，母亲有接受厄瑞玻斯爱意的可能吗?」\n\n「说实话，我脑补不出妈妈谈恋爱的样子。」\n\n「嗯。不可能。」\n\n「如果母亲能以异性的身份去爱谁的话，不是早就找好伴侣了吗?说实话，到现在为止够资格的存在也不是一两个了吧。」\n\n听到那句话，古神们全都同时点了点头。",
-          "verbatimSha256": "6780b11e4605a32b4f3ee773fbefc124be36dc674c796327d7468ab26386164b"
+          "paragraphCount": 9,
+          "verbatim": "但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。",
+          "verbatimSha256": "5ca5d693a96e1b08778f156146b1047b3b3ecef97b608184c8eb56d4657b4305"
+        },
+        {
+          "sourceIndex": 653,
+          "chapterTitle": "厄瑞玻斯.(2)",
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "requestedEndParagraph": "P0060",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 24,
+          "verbatim": "为了养好孩子，需要些什么呢?\n\n只让他吃好的，穿好的，住好的地方，这样就足够了吗?\n\n当然不够。尤其是在情感层面。\n\n但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。\n\n虽然跟我以外的存在交流会有些生疏……但还是希望他能忍耐一下。\n\n尤其是被其他孩子发现的话……肯定不会轻易放过他的。毕竟厄瑞玻斯惹出的祸端那么多，他们肯定会咬牙切齿地说怎么能就这么放过他呢。\n\n嗯。这么说来，因为厄瑞玻斯，巨龙之间是不是爆发过……战争来着?记忆有点模糊了。嗯。到底是怎么样来着……?\n\n啊，想起来了。起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。\n\n严格来说，那并不是厄瑞玻斯的错……那是由于他麾下的黑龙们引起的问题，但重点并不是战争爆发的原因。\n\n厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。\n\n虽然在那余波中厄瑞玻斯自己也粉碎散落了。但也因此产生了怪物，出现了魔王，引发了各种各样的问题。\n\n嘛，倒也不能责怪记忆并不完整的年幼的厄瑞玻斯。\n\n虽然这个厄瑞玻斯和那个厄瑞玻斯分明是同一个存在……但若因为不在记忆里的罪孽而受罚，未免也太严苛了。\n\n所以。还是对其他孩子保密吧。\n\n嗯……。要是被发现的话，肯定会生气的。\n\n- - - - - - - - - - - - - - - - - - - -",
+          "verbatimSha256": "854d70eccbe505175dcead82aa8e3591afdbd09de309beb186a542cae13052b2"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0040",
+          "endParagraph": "P0048",
+          "text": "勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。",
+          "exactSubstringSha256": "f54264fd84e1b2d64c146bc40ec08fc34c723c3b2b09e21a21197719ab92ff41",
+          "completeSentence": true
         }
       ],
       "sourceRef": {
@@ -2693,6 +3638,7 @@
         "sequence": 3,
         "sourceText": "古神默许秘密育儿",
         "supportingTypes": [
+          "world-fact",
           "event"
         ]
       }
@@ -2701,7 +3647,7 @@
       "id": "era-32-erebus-child-unresolved-653-01",
       "title": "【未知边界】幼年厄瑞玻斯成长",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜未解事项",
-      "category": "unresolved",
+      "category": "canon-unknown",
       "keys": [
         "幼年",
         "成长",
@@ -2722,7 +3668,7 @@
       "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "幼年厄瑞玻斯成长尚未有结论。现有事实：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。",
+      "content": "“幼年厄瑞玻斯成长”在资料第653节结束时仍是没有正典答案的未知项。原文已经确认：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n\n原文可直接观察的落点是：“归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?”；“但现在的厄瑞玻斯是拥有神格的小孩。”\n\n后续可以让有合理动机和线索的人物调查“幼年厄瑞玻斯成长”，但在新证据真正于场景中出现以前，不得选择一种猜测当答案，也不得让不知情角色直接说出系统记录。",
       "knowledgeStatus": "canonically-unresolved",
       "evidence": [
         {
@@ -2735,6 +3681,35 @@
           "paragraphCount": 20,
           "verbatim": "变幼小的厄瑞玻斯虽然失去了大部分记忆，但仍是名副其实拥有神性的神。\n\n即使是一个信徒都没有的神，作为自古以来便存在的神的威严，即使在支离破碎后重新凝聚，依然得以维持。\n\n「但是，不用去做作为神灵的活动也无所谓哦。」\n\n「那……这样吗……?」\n\n事到如今，就算说「古代神之一的黑暗之神曾经存在过!」，也不知道万神殿那边会如何接受。\n\n归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?敬畏感?这些东西也会为厄瑞玻斯的神格增添力量。\n\n并不只有尊敬和憧憬才是信仰，畏惧之心同样也是一种信仰。\n\n正因如此，厄瑞玻斯即便那样支离破碎，想必也能维持住他的神格。\n\n嘛，虽然在粉碎的那个节点应该无法使用那份神格。能做的恐怕也就只有为了不被我发现而四处逃窜了吧。\n\n咳咳。当着孩子的面，我在胡思乱想些什么呢。\n\n「你现在还小不是吗。这种复杂的念头，以后慢慢想也来得及。」\n\n「好哒……」\n\n厄瑞玻斯露出了有些垂头丧气的样子。虽然那个样子让我感到了一丝良心的谴责……但要是嚷嚷着要以神的身份做点什么之类的，也有可能引发其他问题。总之现在先专注于让他安静且正确地成长吧。\n\n以前，在那些被称为古神的孩子们刚出生不久的时期，因为没有这种人类的肉体，所以和抚养人类孩子不同，在情感交流方面稍微有些限制，但现在既然是这种小孩子的模样……\n\n看着他垂头丧气的样子，心里真的有种隐隐作痛的感觉。\n\n嗯。既然会产生这种感觉，难道我也没能完全抛弃人类的情感吗?还真是种略显生疏的感觉。\n\n再加上厄瑞玻斯在各个方面对我来说就像是「心头肉」一样，所以这种感觉可能更加强烈。\n\n「所以现在不要想复杂的，只要好好吃饭，好好长大。这就是我的心愿。」\n\n这一次，不会再像上次那样……把他养废了……\n\n- - - - - - - - - - - - - - - - - - - -",
           "verbatimSha256": "31b5a81f2e54ee94b88acac2a860ada191a78bd2396702cd4c2526ef75548a15"
+        },
+        {
+          "sourceIndex": 653,
+          "chapterTitle": "厄瑞玻斯.(2)",
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "requestedEndParagraph": "P0060",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 24,
+          "verbatim": "为了养好孩子，需要些什么呢?\n\n只让他吃好的，穿好的，住好的地方，这样就足够了吗?\n\n当然不够。尤其是在情感层面。\n\n但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。\n\n虽然跟我以外的存在交流会有些生疏……但还是希望他能忍耐一下。\n\n尤其是被其他孩子发现的话……肯定不会轻易放过他的。毕竟厄瑞玻斯惹出的祸端那么多，他们肯定会咬牙切齿地说怎么能就这么放过他呢。\n\n嗯。这么说来，因为厄瑞玻斯，巨龙之间是不是爆发过……战争来着?记忆有点模糊了。嗯。到底是怎么样来着……?\n\n啊，想起来了。起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。\n\n严格来说，那并不是厄瑞玻斯的错……那是由于他麾下的黑龙们引起的问题，但重点并不是战争爆发的原因。\n\n厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。\n\n虽然在那余波中厄瑞玻斯自己也粉碎散落了。但也因此产生了怪物，出现了魔王，引发了各种各样的问题。\n\n嘛，倒也不能责怪记忆并不完整的年幼的厄瑞玻斯。\n\n虽然这个厄瑞玻斯和那个厄瑞玻斯分明是同一个存在……但若因为不在记忆里的罪孽而受罚，未免也太严苛了。\n\n所以。还是对其他孩子保密吧。\n\n嗯……。要是被发现的话，肯定会生气的。\n\n- - - - - - - - - - - - - - - - - - - -",
+          "verbatimSha256": "854d70eccbe505175dcead82aa8e3591afdbd09de309beb186a542cae13052b2"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0017",
+          "endParagraph": "P0036",
+          "text": "归根结底，即便没有信徒存在，对黑暗的信仰……与其说是信仰，不如说是恐惧?",
+          "exactSubstringSha256": "70ad15f2686d938ac931920f1e4b66550d447649425697fee7eafe2d8fa76584",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "text": "但现在的厄瑞玻斯是拥有神格的小孩。",
+          "exactSubstringSha256": "d5f27087e543ee5ae374297152055461e181c2e982806b5683e71fd6b30b5c12",
+          "completeSentence": true
         }
       ],
       "sourceRef": {
@@ -2744,6 +3719,7 @@
         "sequence": 1,
         "sourceText": "幼年厄瑞玻斯成长",
         "supportingTypes": [
+          "event",
           "event"
         ]
       }
@@ -2752,11 +3728,15 @@
       "id": "era-32-erebus-child-unresolved-653-02",
       "title": "【未知边界】旧爱慕是否重现",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜未解事项",
-      "category": "unresolved",
+      "category": "canon-unknown",
       "keys": [
         "爱慕",
         "是否",
-        "重现"
+        "重现",
+        "古神",
+        "子女",
+        "母亲",
+        "快乐"
       ],
       "secondaryKeys": [],
       "selective": false,
@@ -2769,23 +3749,47 @@
       "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "未知边界：旧爱慕是否重现尚未有结论。",
+      "content": "“旧爱慕是否重现”在资料第653节结束时仍是没有正典答案的未知项。原文已经确认：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。\n\n原文可直接观察的落点是：“毕竟在遥远的过去，厄瑞玻斯曾将母亲生命女神作为女人来爱慕。”\n\n后续可以让有合理动机和线索的人物调查“旧爱慕是否重现”，但在新证据真正于场景中出现以前，不得选择一种猜测当答案，也不得让不知情角色直接说出系统记录。",
       "knowledgeStatus": "canonically-unresolved",
-      "evidence": [],
+      "evidence": [
+        {
+          "sourceIndex": 653,
+          "chapterTitle": "厄瑞玻斯.(2)",
+          "startParagraph": "P0061",
+          "endParagraph": "P0088",
+          "requestedEndParagraph": "P0088",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 28,
+          "verbatim": "「妈妈也有太心软的一面呢。」\n\n「嗯。无法否认。」\n\n听到希尔芙和萨加玛塔的话，忒提斯无可奈何地说道。\n\n「站在母亲的立场上，心情想必也会在多方面都很复杂。尤其是厄瑞玻斯……是对妈妈而言各方面都很操心的家伙。」\n\n「虽然知道，但心情还是很复杂。」\n\n「哼。那种把母亲当成女人来爱的笨蛋。管他呢。」\n\n「伊夫利特。别说那种话。说实话，哪有比妈妈作为女性更有魅力的存在啊。」\n\n「嗯。但只看外表的话是个小孩子。」\n\n「萨加玛塔。那个就跳过吧。那是母亲本人不太在意，所以万幸的部分。」\n\n这个世界上年纪最大的存在却有着小孩子的模样……这在各方面都是件讽刺的事情。\n\n「所以，就要那样看着那个小厄瑞玻斯不管吗?」\n\n「说实话，虽然失去记忆这件事也有点可疑……但能怎么办呢。母亲既然那么喜欢。就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』，母亲会高兴吗?」\n\n听到那句话，古神们的脑海中浮现出了相同的画面。\n\n「肯定会生气吧。」\n\n「会非常生气的。」\n\n「嗯。比起火山爆发有过之而无不及。」\n\n古神们脑中再次浮现出，或许是从天空彼端引下巨大的陨石，让人短暂见识到世界毁灭的景象。\n\n「那么……就那样静静地瞒下去比较好吧?」\n\n「嗯。反正妈妈也喜欢。」\n\n「在最近因为没什么趣事而心烦意乱的情况下，因为专注于照顾变小的厄瑞玻斯而没空无聊，也是件好事吧。」\n\n「即便如此，把厄瑞玻斯留在母亲身边真的正确吗……」\n\n听到伊格德拉希尔的话，古神们微微点头。毕竟在遥远的过去，厄瑞玻斯曾将母亲生命女神作为女人来爱慕。\n\n就算厄瑞玻斯变小了，本质应该也是相同的。也就是说，即便变小了，也有可能爱上母亲生命女神。\n\n「但是，母亲有接受厄瑞玻斯爱意的可能吗?」\n\n「说实话，我脑补不出妈妈谈恋爱的样子。」\n\n「嗯。不可能。」\n\n「如果母亲能以异性的身份去爱谁的话，不是早就找好伴侣了吗?说实话，到现在为止够资格的存在也不是一两个了吧。」\n\n听到那句话，古神们全都同时点了点头。",
+          "verbatimSha256": "6780b11e4605a32b4f3ee773fbefc124be36dc674c796327d7468ab26386164b"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0061",
+          "endParagraph": "P0088",
+          "text": "毕竟在遥远的过去，厄瑞玻斯曾将母亲生命女神作为女人来爱慕。",
+          "exactSubstringSha256": "c6499a250937159a240a2b24088b9b1de7fc555262358eae30de897f4e99a91d",
+          "completeSentence": true
+        }
+      ],
       "sourceRef": {
         "type": "unresolved",
         "sourceIndex": 653,
         "chapterTitle": "厄瑞玻斯.(2)",
         "sequence": 2,
         "sourceText": "旧爱慕是否重现",
-        "supportingTypes": []
+        "supportingTypes": [
+          "event"
+        ]
       }
     },
     {
       "id": "era-32-erebus-child-unresolved-653-03",
       "title": "【未知边界】子女与母亲何时坦白",
       "memo": "幼年厄瑞玻斯｜厄瑞玻斯.(2)｜未解事项",
-      "category": "unresolved",
+      "category": "canon-unknown",
       "keys": [
         "子女",
         "母亲",
@@ -2806,7 +3810,7 @@
       "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "子女与母亲何时坦白尚未有结论。现有事实：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。",
+      "content": "“子女与母亲何时坦白”在资料第653节结束时仍是没有正典答案的未知项。原文已经确认：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知；因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n\n原文可直接观察的落点是：“就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』”；“为了养好孩子，需要些什么呢?”\n\n后续可以让有合理动机和线索的人物调查“子女与母亲何时坦白”，但在新证据真正于场景中出现以前，不得选择一种猜测当答案，也不得让不知情角色直接说出系统记录。",
       "knowledgeStatus": "canonically-unresolved",
       "evidence": [
         {
@@ -2830,6 +3834,24 @@
           "paragraphCount": 24,
           "verbatim": "为了养好孩子，需要些什么呢?\n\n只让他吃好的，穿好的，住好的地方，这样就足够了吗?\n\n当然不够。尤其是在情感层面。\n\n但现在的厄瑞玻斯是拥有神格的小孩。这种状态下的厄瑞玻斯能去的幼儿园或学校之类的，当然并不存在。\n\n本来幼儿园就几乎没有。勉强算的话，生命教团开办的基础教育院正充当着幼儿园的角色。\n\n那么，要把厄瑞玻斯送到生命教团的基础教育院吗?当然不行。再小也是个神啊。要是混入人类之中，天知道会出什么岔子!\n\n因此。\n\n「这是要做你老师的魔像。我给他取名叫沙利文。」\n\n「诶?」\n\n「虽然我可以亲自教你，但我没法一直照顾你。我不在的时候，你就跟着这个沙利文学习吧。」\n\n「我叫沙利文。主人已经将教育所需的知识全部存入，我会竭尽全力教导您的。」\n\n小熊玩偶形态的魔像礼貌地打了个招呼，厄瑞玻斯也略显局促地低头回了礼。\n\n虽然跟我以外的存在交流会有些生疏……但还是希望他能忍耐一下。\n\n尤其是被其他孩子发现的话……肯定不会轻易放过他的。毕竟厄瑞玻斯惹出的祸端那么多，他们肯定会咬牙切齿地说怎么能就这么放过他呢。\n\n嗯。这么说来，因为厄瑞玻斯，巨龙之间是不是爆发过……战争来着?记忆有点模糊了。嗯。到底是怎么样来着……?\n\n啊，想起来了。起初是黑龙们侵犯领地引发冲突，结果导致幼龙牺牲，才演变成战争的吧。\n\n严格来说，那并不是厄瑞玻斯的错……那是由于他麾下的黑龙们引起的问题，但重点并不是战争爆发的原因。\n\n厄瑞玻斯之所以成为问题，是因为他在被没收鳞片的瞬间自爆，把鳞片全部震碎了。\n\n虽然在那余波中厄瑞玻斯自己也粉碎散落了。但也因此产生了怪物，出现了魔王，引发了各种各样的问题。\n\n嘛，倒也不能责怪记忆并不完整的年幼的厄瑞玻斯。\n\n虽然这个厄瑞玻斯和那个厄瑞玻斯分明是同一个存在……但若因为不在记忆里的罪孽而受罚，未免也太严苛了。\n\n所以。还是对其他孩子保密吧。\n\n嗯……。要是被发现的话，肯定会生气的。\n\n- - - - - - - - - - - - - - - - - - - -",
           "verbatimSha256": "854d70eccbe505175dcead82aa8e3591afdbd09de309beb186a542cae13052b2"
+        }
+      ],
+      "originalExcerpts": [
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0061",
+          "endParagraph": "P0088",
+          "text": "就算抛开我们无法前往母亲的亚空间这件事不谈……对那样开心的母亲说『必须让那个厄瑞玻斯付出代价!』",
+          "exactSubstringSha256": "2d2f281960e510945f5e8a08173860732dc8438cb71be78fbc05238050324a4d",
+          "completeSentence": true
+        },
+        {
+          "sourceIndex": 653,
+          "startParagraph": "P0037",
+          "endParagraph": "P0060",
+          "text": "为了养好孩子，需要些什么呢?",
+          "exactSubstringSha256": "c214e171b3d8860ec4c1f0f7c89db4c1715525b90d6126f8173f9206a1b3a1c8",
+          "completeSentence": true
         }
       ],
       "sourceRef": {
@@ -3776,9 +4798,9 @@
     },
     {
       "id": "era-32-erebus-child-secondary-character-01-profile",
-      "title": "【人物】希尔芙｜人物小传与行动逻辑",
-      "memo": "幼年厄瑞玻斯：次要人物希尔芙",
-      "category": "secondary-character",
+      "title": "【人物】希尔芙｜身份、身体与当下位置",
+      "memo": "幼年厄瑞玻斯：次要人物希尔芙的身份",
+      "category": "secondary-character-profile",
       "keys": [
         "希尔芙"
       ],
@@ -3793,15 +4815,229 @@
       "order": 820,
       "position": "before-character",
       "depth": 4,
-      "content": "希尔芙在本时代已经表现出的经历、关系位置与做事方法：\n\n- 从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯\n- 用对母亲微表情的长期熟悉发现隐瞒，再利用信任盲点和风精细控制求证；把神格辨识视为不会认错的兄弟姐妹直觉",
+      "content": "希尔芙确实在本时代出现，但原文没有给出可与其本人稳定绑定的身体、年龄或社会身份细节；这些项目保持未知，不能由职业称呼、同族平均或别人的经历补齐。",
       "knowledgeStatus": "character-specific-canon",
       "sourceRefs": [
         {
+          "type": "secondary-character-evidence",
           "sourceIndex": 652,
-          "title": "厄瑞玻斯.(1)",
-          "kind": "presence",
-          "text": "从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯。"
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0070",
+          "endParagraph": "P0070",
+          "verbatimSha256": "7f2373fd632ddfa2c7af3f54e720a39c28aa250d0392f2f618a1a7b22128072b"
         },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0100",
+          "endParagraph": "P0100",
+          "verbatimSha256": "8dbc98e5de6bcc855ed6ccaa149d3fe3c316b7a4ef0b49fd8b62d2aa5dad26fc"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0102",
+          "endParagraph": "P0102",
+          "verbatimSha256": "fa47949774761c4b892b5ebd0b8e6a7ceb759b7612d87cade497e4cf93c2c285"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0114",
+          "endParagraph": "P0114",
+          "verbatimSha256": "b68cba48d5c3fd679d8775cf24f0257f1eca8c84f8a49d82b76028c7a7d5a33b"
+        }
+      ],
+      "evidenceRecords": [
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0070",
+          "endParagraph": "P0070",
+          "requestedEndParagraph": "P0070",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「妈妈，最近是有什么好事吗?」",
+          "verbatimSha256": "7f2373fd632ddfa2c7af3f54e720a39c28aa250d0392f2f618a1a7b22128072b",
+          "kind": "dialogue",
+          "sampleText": "「妈妈，最近是有什么好事吗?」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0100",
+          "endParagraph": "P0100",
+          "requestedEndParagraph": "P0100",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」",
+          "verbatimSha256": "8dbc98e5de6bcc855ed6ccaa149d3fe3c316b7a4ef0b49fd8b62d2aa5dad26fc",
+          "kind": "dialogue",
+          "sampleText": "「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0102",
+          "endParagraph": "P0102",
+          "requestedEndParagraph": "P0102",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」",
+          "verbatimSha256": "fa47949774761c4b892b5ebd0b8e6a7ceb759b7612d87cade497e4cf93c2c285",
+          "kind": "dialogue",
+          "sampleText": "「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0114",
+          "endParagraph": "P0114",
+          "requestedEndParagraph": "P0114",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」",
+          "verbatimSha256": "b68cba48d5c3fd679d8775cf24f0257f1eca8c84f8a49d82b76028c7a7d5a33b",
+          "kind": "dialogue",
+          "sampleText": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」"
+        }
+      ]
+    },
+    {
+      "id": "era-32-erebus-child-secondary-character-01-experience",
+      "title": "【人物】希尔芙｜经历、技巧与知情范围",
+      "memo": "幼年厄瑞玻斯：次要人物希尔芙的经历与知情",
+      "category": "secondary-character-experience",
+      "keys": [
+        "希尔芙"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 815,
+      "position": "before-character",
+      "depth": 4,
+      "content": "原文没有给出可与希尔芙本人稳定绑定的独立技巧、能力或职业经历；不能把同职、同族或同阵营人物的表现转给希尔芙。\n\n希尔芙的可用知识最多到资料第653节，而且只包括本人亲历、获告知或能合理接触的公共信息；资料中出现过某件事不等于希尔芙知道它。",
+      "knowledgeStatus": "secondary-character-knowledge-through-source-652-653",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0070",
+          "endParagraph": "P0070",
+          "verbatimSha256": "7f2373fd632ddfa2c7af3f54e720a39c28aa250d0392f2f618a1a7b22128072b"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0100",
+          "endParagraph": "P0100",
+          "verbatimSha256": "8dbc98e5de6bcc855ed6ccaa149d3fe3c316b7a4ef0b49fd8b62d2aa5dad26fc"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0102",
+          "endParagraph": "P0102",
+          "verbatimSha256": "fa47949774761c4b892b5ebd0b8e6a7ceb759b7612d87cade497e4cf93c2c285"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0114",
+          "endParagraph": "P0114",
+          "verbatimSha256": "b68cba48d5c3fd679d8775cf24f0257f1eca8c84f8a49d82b76028c7a7d5a33b"
+        }
+      ],
+      "evidenceRecords": [
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0070",
+          "endParagraph": "P0070",
+          "requestedEndParagraph": "P0070",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「妈妈，最近是有什么好事吗?」",
+          "verbatimSha256": "7f2373fd632ddfa2c7af3f54e720a39c28aa250d0392f2f618a1a7b22128072b",
+          "kind": "dialogue",
+          "sampleText": "「妈妈，最近是有什么好事吗?」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0100",
+          "endParagraph": "P0100",
+          "requestedEndParagraph": "P0100",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」",
+          "verbatimSha256": "8dbc98e5de6bcc855ed6ccaa149d3fe3c316b7a4ef0b49fd8b62d2aa5dad26fc",
+          "kind": "dialogue",
+          "sampleText": "「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0102",
+          "endParagraph": "P0102",
+          "requestedEndParagraph": "P0102",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」",
+          "verbatimSha256": "fa47949774761c4b892b5ebd0b8e6a7ceb759b7612d87cade497e4cf93c2c285",
+          "kind": "dialogue",
+          "sampleText": "「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0114",
+          "endParagraph": "P0114",
+          "requestedEndParagraph": "P0114",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」",
+          "verbatimSha256": "b68cba48d5c3fd679d8775cf24f0257f1eca8c84f8a49d82b76028c7a7d5a33b",
+          "kind": "dialogue",
+          "sampleText": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」"
+        }
+      ]
+    },
+    {
+      "id": "era-32-erebus-child-secondary-character-01-motive",
+      "title": "【人物】希尔芙｜欲望、判断与行动发动机",
+      "memo": "幼年厄瑞玻斯：次要人物希尔芙的判断依据",
+      "category": "secondary-character-motivation",
+      "keys": [
+        "希尔芙"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 810,
+      "position": "before-character",
+      "depth": 4,
+      "content": "希尔芙已经由原文表现出的判断与行动链是：\n- 用对母亲微表情的长期熟悉发现隐瞒，再利用信任盲点和风精细控制求证；把神格辨识视为不会认错的兄弟姐妹直觉\n新场景应让新增证据迫使希尔芙维持或修正这些判断，不能把结果压缩成一个永远不变的性格词。",
+      "knowledgeStatus": "character-specific-canon",
+      "sourceRefs": [
         {
           "sourceIndex": 652,
           "title": "厄瑞玻斯.(1)",
@@ -3898,8 +5134,8 @@
     },
     {
       "id": "era-32-erebus-child-secondary-character-01-voice",
-      "title": "【人物】希尔芙｜声口与情绪泄露",
-      "memo": "幼年厄瑞玻斯：次要人物希尔芙的原文声口",
+      "title": "【人物】希尔芙｜连续意识、声口与情绪泄露",
+      "memo": "幼年厄瑞玻斯：次要人物希尔芙的声口",
       "category": "secondary-character-voice",
       "keys": [
         "希尔芙"
@@ -3912,10 +5148,10 @@
       "vectorMatching": false,
       "preventRecursion": true,
       "excludeRecursion": true,
-      "order": 810,
+      "order": 805,
       "position": "before-character",
       "depth": 4,
-      "content": "希尔芙的声音以这些原文落点为准；它们用于确认措辞、停顿与压力反应，不代表当前场景已经发生。\n\n【说话时的原文落点】\n- 「妈妈，最近是有什么好事吗?」\n- 「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」\n- 「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」\n- 「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」",
+      "content": "希尔芙不是用完即重置的功能角色。下列原文用于校准措辞、停顿与压力反应，不代表当前场景已经发生，也不能逐字循环。\n\n【说话时的原文落点】\n- 「妈妈，最近是有什么好事吗?」\n- 「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」\n- 「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」\n- 「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」",
       "knowledgeStatus": "character-specific-canon",
       "sourceRefs": [
         {
@@ -3941,6 +5177,136 @@
         },
         {
           "type": "dialogue",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "paragraph": "P0114",
+          "text": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0070",
+          "endParagraph": "P0070",
+          "verbatimSha256": "7f2373fd632ddfa2c7af3f54e720a39c28aa250d0392f2f618a1a7b22128072b"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0100",
+          "endParagraph": "P0100",
+          "verbatimSha256": "8dbc98e5de6bcc855ed6ccaa149d3fe3c316b7a4ef0b49fd8b62d2aa5dad26fc"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0102",
+          "endParagraph": "P0102",
+          "verbatimSha256": "fa47949774761c4b892b5ebd0b8e6a7ceb759b7612d87cade497e4cf93c2c285"
+        },
+        {
+          "type": "secondary-character-evidence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0114",
+          "endParagraph": "P0114",
+          "verbatimSha256": "b68cba48d5c3fd679d8775cf24f0257f1eca8c84f8a49d82b76028c7a7d5a33b"
+        }
+      ],
+      "evidenceRecords": [
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0070",
+          "endParagraph": "P0070",
+          "requestedEndParagraph": "P0070",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「妈妈，最近是有什么好事吗?」",
+          "verbatimSha256": "7f2373fd632ddfa2c7af3f54e720a39c28aa250d0392f2f618a1a7b22128072b",
+          "kind": "dialogue",
+          "sampleText": "「妈妈，最近是有什么好事吗?」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0100",
+          "endParagraph": "P0100",
+          "requestedEndParagraph": "P0100",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」",
+          "verbatimSha256": "8dbc98e5de6bcc855ed6ccaa149d3fe3c316b7a4ef0b49fd8b62d2aa5dad26fc",
+          "kind": "dialogue",
+          "sampleText": "「我悄悄在妈妈身边附了一阵风。是非常微弱、微弱到无法察觉的风。」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0102",
+          "endParagraph": "P0102",
+          "requestedEndParagraph": "P0102",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」",
+          "verbatimSha256": "fa47949774761c4b892b5ebd0b8e6a7ceb759b7612d87cade497e4cf93c2c285",
+          "kind": "dialogue",
+          "sampleText": "「嘛，就算是亚空间也不是没有空气。只要极其精细地控制，就能瞒过妈妈的眼睛。当然，如果妈妈怀疑我们的话，很快就会露馅。但妈妈是完全信任我们的。」"
+        },
+        {
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "startParagraph": "P0114",
+          "endParagraph": "P0114",
+          "requestedEndParagraph": "P0114",
+          "scopeClampedToChapterEnd": false,
+          "paragraphCount": 1,
+          "verbatim": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」",
+          "verbatimSha256": "b68cba48d5c3fd679d8775cf24f0257f1eca8c84f8a49d82b76028c7a7d5a33b",
+          "kind": "dialogue",
+          "sampleText": "「我怎么可能认错自己的兄弟姐妹?那确实是厄瑞玻斯。虽然不知为何是人类小孩的模样，言行举止看起来也像人类的小孩。」"
+        }
+      ]
+    },
+    {
+      "id": "era-32-erebus-child-secondary-character-01-relations",
+      "title": "【人物】希尔芙｜关系、后果与互动边界",
+      "memo": "幼年厄瑞玻斯：次要人物希尔芙的关系边界",
+      "category": "secondary-character-relations",
+      "keys": [
+        "希尔芙"
+      ],
+      "secondaryKeys": [],
+      "selective": false,
+      "excludeKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": false,
+      "preventRecursion": true,
+      "excludeRecursion": true,
+      "order": 800,
+      "position": "before-character",
+      "depth": 4,
+      "content": "希尔芙已经成立的关系位置与会延续的后果是：\n- 从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯\n\n希尔芙可以按自己的已知事实作出尝试、误解、拒绝和离开，但不能读取{{user}}控制角色的内心，也不能替玩家确认关系、原谅、服从或不可逆结果。",
+      "knowledgeStatus": "character-specific-canon",
+      "sourceRefs": [
+        {
+          "sourceIndex": 652,
+          "title": "厄瑞玻斯.(1)",
+          "kind": "presence",
+          "text": "从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯。"
+        },
+        {
+          "type": "relationship-voice",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "paragraph": "P0070",
+          "text": "「妈妈，最近是有什么好事吗?」"
+        },
+        {
+          "type": "relationship-voice",
           "sourceIndex": 652,
           "chapterTitle": "厄瑞玻斯.(1)",
           "paragraph": "P0114",
