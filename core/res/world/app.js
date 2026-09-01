@@ -16,7 +16,7 @@ const agency = [
 ];
 
 const state = {
-  index: null, customization: null, era: null, eraIndex: 0, step: 'loc', route: 'preset',
+  index: null, customization: null, intros: null, era: null, eraIndex: 0, step: 'loc', route: 'preset',
   cardId: null, companions: new Map(), custom: {}, player: null, history: [], busy: false, error: '',
 };
 
@@ -45,6 +45,8 @@ function annalsRows() {
     ys: era.sourceRange[0],
     t: era.name,
     s: era.arcTitles?.length ? era.arcTitles.join(' · ') : `${era.presetCount} 个预设角色 · ${era.secondaryCharacterCount} 个次要人物记录`,
+    recap: era.recap,
+    synopsis: era.synopsis,
     r: 1.5,
   }));
 }
@@ -216,9 +218,10 @@ addEventListener('keydown', (event) => { if (event.key === 'Escape') { if ($('#d
 
 async function init() {
   try {
-    const [a, b, c] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`), fetch(`${DATA_ROOT}timeline-arcs.json`)]); if (!a.ok || !b.ok || !c.ok) throw new Error('正典资料索引读取失败。');
-    state.index = await a.json(); state.customization = await b.json(); const timeline = await c.json();
+    const [a, b, c, d] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`), fetch(`${DATA_ROOT}timeline-arcs.json`), fetch(`${DATA_ROOT}era-intros.json`)]); if (!a.ok || !b.ok || !c.ok || !d.ok) throw new Error('正典资料索引读取失败。');
+    state.index = await a.json(); state.customization = await b.json(); const timeline = await c.json(); state.intros = await d.json();
     const arcById = new Map(timeline.eras.map((era) => [era.id, era.arcTitles])); state.index.eras.forEach((era) => { era.arcTitles = arcById.get(era.id) || []; });
+    const introById = new Map(state.intros.entries.map((entry) => [entry.id, entry])); state.index.eras.forEach((era) => { const intro = introById.get(era.id); era.recap = intro?.recap || ''; era.synopsis = intro?.synopsis || ''; });
     window.WORLD_ANNALS = annalsRows();
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },

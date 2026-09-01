@@ -18,7 +18,7 @@ function esBuild(){
 
       b.addEventListener('pointerup',function(){
         if(ES.moved>ES.dead)return;
-        if(n!==ES.i){esGo(n);return;}
+        if(n!==ES.i)esGo(n);
         esEngage();
       });
       tr.appendChild(b);ES.pls.push(b);
@@ -257,7 +257,7 @@ function esEngage(){
   if(!d||d.i==null||d.i<=0)return;
 
   try{
-    if(window.FELERA){FELERA.ask(d,function(){esEnter(d);},null);return;}
+    if(window.WORLD_ERA){WORLD_ERA.ask(d,function(){esEnter(d);},null);return;}
   }catch(_){}
   esEnter(d);
 }
