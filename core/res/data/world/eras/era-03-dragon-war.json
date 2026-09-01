@@ -24,6 +24,7 @@
     {
       "id": "era-03-dragon-war-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-03-dragon-war",
@@ -688,6 +689,7 @@
     {
       "id": "era-03-dragon-war-card-02",
       "name": "西尔菲德",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",
@@ -852,6 +854,7 @@
     {
       "id": "era-03-dragon-war-card-03",
       "name": "伊弗利特",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",
@@ -920,6 +923,7 @@
     {
       "id": "era-03-dragon-war-card-04",
       "name": "伊格德拉西尔",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",
@@ -1001,6 +1005,7 @@
     {
       "id": "era-03-dragon-war-card-05",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",
@@ -1122,6 +1127,7 @@
     {
       "id": "era-03-dragon-war-card-06",
       "name": "萨加玛塔",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",
@@ -1197,6 +1203,7 @@
     {
       "id": "era-03-dragon-war-card-07",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",
@@ -1278,6 +1285,7 @@
     {
       "id": "era-03-dragon-war-card-08",
       "name": "厄瑞玻斯",
+      "portrait": "/art/portraits/era-03-dragon-war/era-03-dragon-war-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-03-dragon-war",

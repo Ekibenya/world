@@ -24,6 +24,7 @@
     {
       "id": "era-10-pantheon-card-01",
       "name": "主角龙／盖亚",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-10-pantheon",
@@ -1460,6 +1461,7 @@
     {
       "id": "era-10-pantheon-card-02",
       "name": "巴尔",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -1928,6 +1930,7 @@
     {
       "id": "era-10-pantheon-card-03",
       "name": "尼克斯",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -2246,6 +2249,7 @@
     {
       "id": "era-10-pantheon-card-04",
       "name": "萨加玛塔",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -2606,6 +2610,7 @@
     {
       "id": "era-10-pantheon-card-05",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -2870,6 +2875,7 @@
     {
       "id": "era-10-pantheon-card-06",
       "name": "希尔芙",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -3056,6 +3062,7 @@
     {
       "id": "era-10-pantheon-card-07",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -3218,6 +3225,7 @@
     {
       "id": "era-10-pantheon-card-08",
       "name": "哈迪斯",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",
@@ -3308,6 +3316,7 @@
     {
       "id": "era-10-pantheon-card-09",
       "name": "天狼星／原初兽神",
+      "portrait": "/art/portraits/era-10-pantheon/era-10-pantheon-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-10-pantheon",

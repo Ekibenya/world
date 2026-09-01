@@ -24,6 +24,7 @@
     {
       "id": "era-22-enoch-card-01",
       "name": "洛伦／蒂雅／主角龙",
+      "portrait": "/art/portraits/era-22-enoch/era-22-enoch-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-22-enoch",
@@ -1350,6 +1351,7 @@
     {
       "id": "era-22-enoch-card-02",
       "name": "以诺",
+      "portrait": "/art/portraits/era-22-enoch/era-22-enoch-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-22-enoch",
@@ -1832,6 +1834,7 @@
     {
       "id": "era-22-enoch-card-03",
       "name": "杰里亚·伊德里斯",
+      "portrait": "/art/portraits/era-22-enoch/era-22-enoch-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-22-enoch",
@@ -2224,6 +2227,7 @@
     {
       "id": "era-22-enoch-card-04",
       "name": "阿尔忒西亚·德拉格玛",
+      "portrait": "/art/portraits/era-22-enoch/era-22-enoch-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-22-enoch",
@@ -2572,6 +2576,7 @@
     {
       "id": "era-22-enoch-card-05",
       "name": "以莉亚·伊德里斯",
+      "portrait": "/art/portraits/era-22-enoch/era-22-enoch-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-22-enoch",
@@ -2735,6 +2740,7 @@
     {
       "id": "era-22-enoch-card-06",
       "name": "贝洛·伊德里斯",
+      "portrait": "/art/portraits/era-22-enoch/era-22-enoch-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-22-enoch",

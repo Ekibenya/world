@@ -24,6 +24,7 @@
     {
       "id": "era-19-six-gods-card-01",
       "name": "蒂雅／创世龙神／主角龙",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-19-six-gods",
@@ -1743,6 +1744,7 @@
     {
       "id": "era-19-six-gods-card-02",
       "name": "爱丽丝",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -2526,6 +2528,7 @@
     {
       "id": "era-19-six-gods-card-03",
       "name": "埃里克",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -3068,6 +3071,7 @@
     {
       "id": "era-19-six-gods-card-04",
       "name": "库茨",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -3614,6 +3618,7 @@
     {
       "id": "era-19-six-gods-card-05",
       "name": "芬娜",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -4242,6 +4247,7 @@
     {
       "id": "era-19-six-gods-card-06",
       "name": "尤里卡",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -4711,6 +4717,7 @@
     {
       "id": "era-19-six-gods-card-07",
       "name": "莉莉",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -5146,6 +5153,7 @@
     {
       "id": "era-19-six-gods-card-08",
       "name": "佩尔",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -5585,6 +5593,7 @@
     {
       "id": "era-19-six-gods-card-09",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -5933,6 +5942,7 @@
     {
       "id": "era-19-six-gods-card-10",
       "name": "亚哈",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-10.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -6239,6 +6249,7 @@
     {
       "id": "era-19-six-gods-card-11",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-11.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",
@@ -6572,6 +6583,7 @@
     {
       "id": "era-19-six-gods-card-12",
       "name": "阿尔伯特",
+      "portrait": "/art/portraits/era-19-six-gods/era-19-six-gods-card-12.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-19-six-gods",

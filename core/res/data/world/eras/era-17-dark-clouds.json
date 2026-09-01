@@ -24,6 +24,7 @@
     {
       "id": "era-17-dark-clouds-card-01",
       "name": "蒂雅／龙族巫女／主角龙",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-17-dark-clouds",
@@ -1889,6 +1890,7 @@
     {
       "id": "era-17-dark-clouds-card-02",
       "name": "康茂德",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -2198,6 +2200,7 @@
     {
       "id": "era-17-dark-clouds-card-03",
       "name": "首位人类祭司长",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -2591,6 +2594,7 @@
     {
       "id": "era-17-dark-clouds-card-04",
       "name": "矮人代表",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -2969,6 +2973,7 @@
     {
       "id": "era-17-dark-clouds-card-05",
       "name": "精灵代表",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -3290,6 +3295,7 @@
     {
       "id": "era-17-dark-clouds-card-06",
       "name": "西娅",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -3542,6 +3548,7 @@
     {
       "id": "era-17-dark-clouds-card-07",
       "name": "兜帽老导师",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -3668,6 +3675,7 @@
     {
       "id": "era-17-dark-clouds-card-08",
       "name": "瓦拉几亚老国王",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -3856,6 +3864,7 @@
     {
       "id": "era-17-dark-clouds-card-09",
       "name": "未具名龙族祭司长",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",
@@ -3967,6 +3976,7 @@
     {
       "id": "era-17-dark-clouds-card-10",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-17-dark-clouds/era-17-dark-clouds-card-10.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-17-dark-clouds",

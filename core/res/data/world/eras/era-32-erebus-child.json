@@ -24,6 +24,7 @@
     {
       "id": "era-32-erebus-child-card-01",
       "name": "洛伦／主角龙",
+      "portrait": "/art/portraits/era-32-erebus-child/era-32-erebus-child-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-32-erebus-child",
@@ -505,6 +506,7 @@
     {
       "id": "era-32-erebus-child-card-02",
       "name": "幼年厄瑞玻斯／齐格弗里德融合体",
+      "portrait": "/art/portraits/era-32-erebus-child/era-32-erebus-child-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-32-erebus-child",
@@ -641,6 +643,7 @@
     {
       "id": "era-32-erebus-child-card-03",
       "name": "沙利文",
+      "portrait": "/art/portraits/era-32-erebus-child/era-32-erebus-child-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-32-erebus-child",
@@ -713,6 +716,7 @@
     {
       "id": "era-32-erebus-child-card-04",
       "name": "尼克斯",
+      "portrait": "/art/portraits/era-32-erebus-child/era-32-erebus-child-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-32-erebus-child",
@@ -947,6 +951,7 @@
     {
       "id": "era-32-erebus-child-card-05",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-32-erebus-child/era-32-erebus-child-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-32-erebus-child",

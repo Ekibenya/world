@@ -24,6 +24,7 @@
     {
       "id": "era-30-homecoming-card-01",
       "name": "洛伦／主角龙",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-30-homecoming",
@@ -1458,6 +1459,7 @@
     {
       "id": "era-30-homecoming-card-02",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-30-homecoming",
@@ -1821,6 +1823,7 @@
     {
       "id": "era-30-homecoming-card-03",
       "name": "萨加玛塔",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-30-homecoming",
@@ -2209,6 +2212,7 @@
     {
       "id": "era-30-homecoming-card-04",
       "name": "帝国皇帝",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-30-homecoming",
@@ -2483,6 +2487,7 @@
     {
       "id": "era-30-homecoming-card-05",
       "name": "伽拉忒亚II",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-30-homecoming",
@@ -2744,6 +2749,7 @@
     {
       "id": "era-30-homecoming-card-06",
       "name": "生命教团祭司长",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-30-homecoming",
@@ -2951,6 +2957,7 @@
     {
       "id": "era-30-homecoming-card-07",
       "name": "德武夫大锻造师",
+      "portrait": "/art/portraits/era-30-homecoming/era-30-homecoming-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-30-homecoming",

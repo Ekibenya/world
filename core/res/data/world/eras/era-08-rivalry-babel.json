@@ -24,6 +24,7 @@
     {
       "id": "era-08-rivalry-babel-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-08-rivalry-babel",
@@ -904,6 +905,7 @@
     {
       "id": "era-08-rivalry-babel-card-02",
       "name": "首位英雄",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-08-rivalry-babel",
@@ -1312,6 +1314,7 @@
     {
       "id": "era-08-rivalry-babel-card-03",
       "name": "精灵代表",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-08-rivalry-babel",
@@ -1450,6 +1453,7 @@
     {
       "id": "era-08-rivalry-babel-card-04",
       "name": "矮人代表",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-08-rivalry-babel",
@@ -1666,6 +1670,7 @@
     {
       "id": "era-08-rivalry-babel-card-05",
       "name": "巴别城主／首个恶魔",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-08-rivalry-babel",
@@ -1944,6 +1949,7 @@
     {
       "id": "era-08-rivalry-babel-card-06",
       "name": "巴别神殿红龙幼崽",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-08-rivalry-babel",
@@ -2043,6 +2049,7 @@
     {
       "id": "era-08-rivalry-babel-card-07",
       "name": "原初之兽",
+      "portrait": "/art/portraits/era-08-rivalry-babel/era-08-rivalry-babel-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-08-rivalry-babel",

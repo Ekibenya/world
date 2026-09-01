@@ -24,6 +24,7 @@
     {
       "id": "era-28-rebellion-card-01",
       "name": "洛伦／旅行中的主角龙",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-28-rebellion",
@@ -2760,6 +2761,7 @@
     {
       "id": "era-28-rebellion-card-02",
       "name": "德莫尼卡／魔贤者",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-28-rebellion",
@@ -3122,6 +3124,7 @@
     {
       "id": "era-28-rebellion-card-03",
       "name": "帝国二皇子",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-28-rebellion",
@@ -3411,6 +3414,7 @@
     {
       "id": "era-28-rebellion-card-04",
       "name": "西蒙",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-28-rebellion",
@@ -3757,6 +3761,7 @@
     {
       "id": "era-28-rebellion-card-05",
       "name": "新皇",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-28-rebellion",
@@ -3971,6 +3976,7 @@
     {
       "id": "era-28-rebellion-card-06",
       "name": "S级冒险者",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-28-rebellion",
@@ -4181,6 +4187,7 @@
     {
       "id": "era-28-rebellion-card-07",
       "name": "垂老皇帝",
+      "portrait": "/art/portraits/era-28-rebellion/era-28-rebellion-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-28-rebellion",

@@ -24,6 +24,7 @@
     {
       "id": "era-15-arthur-gaia-card-01",
       "name": "蒂雅／盖亚／主角龙",
+      "portrait": "/art/portraits/era-15-arthur-gaia/era-15-arthur-gaia-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-15-arthur-gaia",
@@ -1737,6 +1738,7 @@
     {
       "id": "era-15-arthur-gaia-card-02",
       "name": "亚瑟",
+      "portrait": "/art/portraits/era-15-arthur-gaia/era-15-arthur-gaia-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-15-arthur-gaia",
@@ -2290,6 +2292,7 @@
     {
       "id": "era-15-arthur-gaia-card-03",
       "name": "薇薇",
+      "portrait": "/art/portraits/era-15-arthur-gaia/era-15-arthur-gaia-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-15-arthur-gaia",
@@ -2853,6 +2856,7 @@
     {
       "id": "era-15-arthur-gaia-card-04",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-15-arthur-gaia/era-15-arthur-gaia-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-15-arthur-gaia",
@@ -3096,6 +3100,7 @@
     {
       "id": "era-15-arthur-gaia-card-05",
       "name": "哈迪斯",
+      "portrait": "/art/portraits/era-15-arthur-gaia/era-15-arthur-gaia-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-15-arthur-gaia",
@@ -3267,6 +3272,7 @@
     {
       "id": "era-15-arthur-gaia-card-06",
       "name": "圣德芬／云鲸",
+      "portrait": "/art/portraits/era-15-arthur-gaia/era-15-arthur-gaia-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-15-arthur-gaia",

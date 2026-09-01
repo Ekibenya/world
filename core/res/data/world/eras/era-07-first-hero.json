@@ -24,6 +24,7 @@
     {
       "id": "era-07-first-hero-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-07-first-hero",
@@ -1048,6 +1049,7 @@
     {
       "id": "era-07-first-hero-card-02",
       "name": "首位英雄",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",
@@ -1657,6 +1659,7 @@
     {
       "id": "era-07-first-hero-card-03",
       "name": "塞班村村长之女",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",
@@ -1960,6 +1963,7 @@
     {
       "id": "era-07-first-hero-card-04",
       "name": "奥库斯",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",
@@ -2149,6 +2153,7 @@
     {
       "id": "era-07-first-hero-card-05",
       "name": "什图尔",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",
@@ -2299,6 +2304,7 @@
     {
       "id": "era-07-first-hero-card-06",
       "name": "鲨卡尔",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",
@@ -2374,6 +2380,7 @@
     {
       "id": "era-07-first-hero-card-07",
       "name": "杰克",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",
@@ -2449,6 +2456,7 @@
     {
       "id": "era-07-first-hero-card-08",
       "name": "康纳",
+      "portrait": "/art/portraits/era-07-first-hero/era-07-first-hero-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-07-first-hero",

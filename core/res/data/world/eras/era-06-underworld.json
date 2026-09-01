@@ -24,6 +24,7 @@
     {
       "id": "era-06-underworld-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-06-underworld",
@@ -1226,6 +1227,7 @@
     {
       "id": "era-06-underworld-card-02",
       "name": "海姆",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -1586,6 +1588,7 @@
     {
       "id": "era-06-underworld-card-03",
       "name": "当代龙族领主",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -1815,6 +1818,7 @@
     {
       "id": "era-06-underworld-card-04",
       "name": "塔罗斯",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -1881,6 +1885,7 @@
     {
       "id": "era-06-underworld-card-05",
       "name": "塞雷斯／刻瑞斯",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -2066,6 +2071,7 @@
     {
       "id": "era-06-underworld-card-06",
       "name": "塔纳托斯",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -2165,6 +2171,7 @@
     {
       "id": "era-06-underworld-card-07",
       "name": "阎魔／摩罗斯",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -2294,6 +2301,7 @@
     {
       "id": "era-06-underworld-card-08",
       "name": "云鲸",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -2365,6 +2373,7 @@
     {
       "id": "era-06-underworld-card-09",
       "name": "克鲁特",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -2464,6 +2473,7 @@
     {
       "id": "era-06-underworld-card-10",
       "name": "奥内特",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-10.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",
@@ -2519,6 +2529,7 @@
     {
       "id": "era-06-underworld-card-11",
       "name": "厄瑞玻斯核心残片",
+      "portrait": "/art/portraits/era-06-underworld/era-06-underworld-card-11.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-06-underworld",

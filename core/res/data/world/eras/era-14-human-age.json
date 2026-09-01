@@ -24,6 +24,7 @@
     {
       "id": "era-14-human-age-card-01",
       "name": "蒂雅／主角龙",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-14-human-age",
@@ -1187,6 +1188,7 @@
     {
       "id": "era-14-human-age-card-02",
       "name": "卢修斯",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-14-human-age",
@@ -1591,6 +1593,7 @@
     {
       "id": "era-14-human-age-card-03",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-14-human-age",
@@ -1777,6 +1780,7 @@
     {
       "id": "era-14-human-age-card-04",
       "name": "萨加玛塔",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-14-human-age",
@@ -2041,6 +2045,7 @@
     {
       "id": "era-14-human-age-card-05",
       "name": "莱特基尼亚盾牌军团长",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-14-human-age",
@@ -2116,6 +2121,7 @@
     {
       "id": "era-14-human-age-card-06",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-14-human-age",
@@ -2353,6 +2359,7 @@
     {
       "id": "era-14-human-age-card-07",
       "name": "芙蕾雅",
+      "portrait": "/art/portraits/era-14-human-age/era-14-human-age-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-14-human-age",

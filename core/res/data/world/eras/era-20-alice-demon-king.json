@@ -24,6 +24,7 @@
     {
       "id": "era-20-alice-demon-king-card-01",
       "name": "蒂雅／萝蕾娜／主角龙",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-20-alice-demon-king",
@@ -1349,6 +1350,7 @@
     {
       "id": "era-20-alice-demon-king-card-02",
       "name": "爱丽丝／新魔王",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -2120,6 +2122,7 @@
     {
       "id": "era-20-alice-demon-king-card-03",
       "name": "埃里克",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -2647,6 +2650,7 @@
     {
       "id": "era-20-alice-demon-king-card-04",
       "name": "魔贤者／洛基",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -3176,6 +3180,7 @@
     {
       "id": "era-20-alice-demon-king-card-05",
       "name": "原魔王",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -3450,6 +3455,7 @@
     {
       "id": "era-20-alice-demon-king-card-06",
       "name": "库茨",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -3736,6 +3742,7 @@
     {
       "id": "era-20-alice-demon-king-card-07",
       "name": "巫妖",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -3862,6 +3869,7 @@
     {
       "id": "era-20-alice-demon-king-card-08",
       "name": "生命教团祭司长",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",
@@ -3985,6 +3993,7 @@
     {
       "id": "era-20-alice-demon-king-card-09",
       "name": "佩尔",
+      "portrait": "/art/portraits/era-20-alice-demon-king/era-20-alice-demon-king-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-20-alice-demon-king",

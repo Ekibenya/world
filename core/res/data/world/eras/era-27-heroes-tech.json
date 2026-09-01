@@ -24,6 +24,7 @@
     {
       "id": "era-27-heroes-tech-card-01",
       "name": "洛伦／生命女神／主角龙",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-27-heroes-tech",
@@ -963,6 +964,7 @@
     {
       "id": "era-27-heroes-tech-card-02",
       "name": "露西亚·马格努斯",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -1547,6 +1549,7 @@
     {
       "id": "era-27-heroes-tech-card-03",
       "name": "伽拉忒亚II",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -2068,6 +2071,7 @@
     {
       "id": "era-27-heroes-tech-card-04",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -2401,6 +2405,7 @@
     {
       "id": "era-27-heroes-tech-card-05",
       "name": "睡眼惺忪少女",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -2674,6 +2679,7 @@
     {
       "id": "era-27-heroes-tech-card-06",
       "name": "转生者A",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -2952,6 +2958,7 @@
     {
       "id": "era-27-heroes-tech-card-07",
       "name": "贝尔穆特伯爵",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -3198,6 +3205,7 @@
     {
       "id": "era-27-heroes-tech-card-08",
       "name": "西娅蒂雅／希雅",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",
@@ -3432,6 +3440,7 @@
     {
       "id": "era-27-heroes-tech-card-09",
       "name": "赤塔新教授",
+      "portrait": "/art/portraits/era-27-heroes-tech/era-27-heroes-tech-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-27-heroes-tech",

@@ -24,6 +24,7 @@
     {
       "id": "era-05-gods-law-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-05-gods-law",
@@ -787,6 +788,7 @@
     {
       "id": "era-05-gods-law-card-02",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-05-gods-law",
@@ -1047,6 +1049,7 @@
     {
       "id": "era-05-gods-law-card-03",
       "name": "伊格德拉西尔",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-05-gods-law",
@@ -1242,6 +1245,7 @@
     {
       "id": "era-05-gods-law-card-04",
       "name": "当代蜥蜴人伟大首领",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-05-gods-law",
@@ -1376,6 +1380,7 @@
     {
       "id": "era-05-gods-law-card-05",
       "name": "首届大萨满",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-05-gods-law",
@@ -1431,6 +1436,7 @@
     {
       "id": "era-05-gods-law-card-06",
       "name": "首届伟大战士",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-05-gods-law",
@@ -1486,6 +1492,7 @@
     {
       "id": "era-05-gods-law-card-07",
       "name": "未来女蜥蜴人首席魔法师兼祭司",
+      "portrait": "/art/portraits/era-05-gods-law/era-05-gods-law-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-05-gods-law",

@@ -24,6 +24,7 @@
     {
       "id": "era-29-great-heroes-card-01",
       "name": "洛伦／生命女神／主角龙",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-29-great-heroes",
@@ -1942,6 +1943,7 @@
     {
       "id": "era-29-great-heroes-card-02",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",
@@ -2320,6 +2322,7 @@
     {
       "id": "era-29-great-heroes-card-03",
       "name": "露西亚",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",
@@ -2705,6 +2708,7 @@
     {
       "id": "era-29-great-heroes-card-04",
       "name": "伽拉忒亚II",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",
@@ -3108,6 +3112,7 @@
     {
       "id": "era-29-great-heroes-card-05",
       "name": "魔贤者／洛基",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",
@@ -3633,6 +3638,7 @@
     {
       "id": "era-29-great-heroes-card-06",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",
@@ -3927,6 +3933,7 @@
     {
       "id": "era-29-great-heroes-card-07",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",
@@ -4113,6 +4120,7 @@
     {
       "id": "era-29-great-heroes-card-08",
       "name": "水之勇者",
+      "portrait": "/art/portraits/era-29-great-heroes/era-29-great-heroes-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-29-great-heroes",

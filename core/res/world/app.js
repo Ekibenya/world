@@ -25,6 +25,7 @@ function apiSettings() {
 }
 function meta() { return state.index.eras[state.eraIndex]; }
 function card(id = state.cardId) { return state.era?.cards.find((item) => item.id === id) || null; }
+function cardPortrait(item) { return item?.portrait || (item?.id ? `/art/portraits/${state.era.id}/${item.id}.png` : ''); }
 function rangeText(range) { return `第 ${range[0]}–${range[1]} 源章`; }
 function hideAll() { $('#menu').classList.remove('show'); $('#eraSel').classList.remove('on'); $('#feWrap').classList.remove('on'); $('#game').classList.remove('show'); if (window.WORLD_MVU) window.WORLD_MVU.stop(); }
 function showMenu() { hideAll(); window.MENU.on = true; $('#menu').classList.add('show'); if (window.mosStart) window.mosStart(); }
@@ -105,7 +106,7 @@ function renderRoute() {
 function selectCard(id) { state.cardId = id; renderPersona(); }
 function renderPersona() {
   const selected = card(); $('#fePreList').innerHTML = state.era.cards.map((item) => `<button class="fePre ${item.id === state.cardId ? 'on' : ''}" data-card="${esc(item.id)}"><b>${esc(item.name)}</b><span>${item.isMainDragon ? '主角龙 · 本时代形态' : '正典可选角色'} · ${item.eraSafeDialogueSamples.length} 条本期对白</span></button>`).join('');
-  turnPortrait(selected.portrait, selected.name, selected.name); $('#fePerT').textContent = state.route === 'preset' ? '人物档案' : '存在条件锚点';
+  turnPortrait(cardPortrait(selected), selected.name, selected.name); $('#fePerT').textContent = state.route === 'preset' ? '人物档案' : '存在条件锚点';
   $('#fePerDoss').innerHTML = cardDossier(selected);
   $('#fePerNote').textContent = state.route === 'preset' ? '对白、心声、思考方式与知识边界均来自原文证据。' : '锚点只限制自定义角色能否在本时代存在；不会把玩家变成该正典人物。';
   $('#fePerForm').innerHTML = state.route === 'custom' ? customFields() : '';

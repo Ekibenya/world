@@ -24,6 +24,7 @@
     {
       "id": "era-09-arcadia-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-09-arcadia",
@@ -1264,6 +1265,7 @@
     {
       "id": "era-09-arcadia-card-02",
       "name": "约哈南／首位英雄",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -1989,6 +1991,7 @@
     {
       "id": "era-09-arcadia-card-03",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -2226,6 +2229,7 @@
     {
       "id": "era-09-arcadia-card-04",
       "name": "塞班村女孩／村长",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -2433,6 +2437,7 @@
     {
       "id": "era-09-arcadia-card-05",
       "name": "阿卡德二王子／受诅者",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -2686,6 +2691,7 @@
     {
       "id": "era-09-arcadia-card-06",
       "name": "玛凯罗杜斯／什图尔",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -3125,6 +3131,7 @@
     {
       "id": "era-09-arcadia-card-07",
       "name": "英雄之女",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -3386,6 +3393,7 @@
     {
       "id": "era-09-arcadia-card-08",
       "name": "玛凯王后",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -3536,6 +3544,7 @@
     {
       "id": "era-09-arcadia-card-09",
       "name": "原初之兽",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -3612,6 +3621,7 @@
     {
       "id": "era-09-arcadia-card-10",
       "name": "刻瑞斯",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-10.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -3762,6 +3772,7 @@
     {
       "id": "era-09-arcadia-card-11",
       "name": "塔纳托斯",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-11.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",
@@ -3912,6 +3923,7 @@
     {
       "id": "era-09-arcadia-card-12",
       "name": "阎魔／摩罗斯",
+      "portrait": "/art/portraits/era-09-arcadia/era-09-arcadia-card-12.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-09-arcadia",

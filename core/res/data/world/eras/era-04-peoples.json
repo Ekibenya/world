@@ -24,6 +24,7 @@
     {
       "id": "era-04-peoples-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-04-peoples",
@@ -976,6 +977,7 @@
     {
       "id": "era-04-peoples-card-02",
       "name": "伊格德拉西尔",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",
@@ -1263,6 +1265,7 @@
     {
       "id": "era-04-peoples-card-03",
       "name": "龙领主",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",
@@ -1318,6 +1321,7 @@
     {
       "id": "era-04-peoples-card-04",
       "name": "首代人类部落首领",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",
@@ -1387,6 +1391,7 @@
     {
       "id": "era-04-peoples-card-05",
       "name": "第二代人类部落首领",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",
@@ -1514,6 +1519,7 @@
     {
       "id": "era-04-peoples-card-06",
       "name": "首只猫人",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",
@@ -1583,6 +1589,7 @@
     {
       "id": "era-04-peoples-card-07",
       "name": "独臂矿工",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",
@@ -1670,6 +1677,7 @@
     {
       "id": "era-04-peoples-card-08",
       "name": "未来女精灵讲解者",
+      "portrait": "/art/portraits/era-04-peoples/era-04-peoples-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-04-peoples",

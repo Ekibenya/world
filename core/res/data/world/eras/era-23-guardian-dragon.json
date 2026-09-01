@@ -24,6 +24,7 @@
     {
       "id": "era-23-guardian-dragon-card-01",
       "name": "洛伦／蒂雅／生命女神／主角龙",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-23-guardian-dragon",
@@ -1793,6 +1794,7 @@
     {
       "id": "era-23-guardian-dragon-card-02",
       "name": "以诺",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",
@@ -2281,6 +2283,7 @@
     {
       "id": "era-23-guardian-dragon-card-03",
       "name": "诺亚·德拉格玛·伊德里斯",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",
@@ -2582,6 +2585,7 @@
     {
       "id": "era-23-guardian-dragon-card-04",
       "name": "阿谢拉特",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",
@@ -2852,6 +2856,7 @@
     {
       "id": "era-23-guardian-dragon-card-05",
       "name": "伊格尼斯",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",
@@ -3098,6 +3103,7 @@
     {
       "id": "era-23-guardian-dragon-card-06",
       "name": "德林格伯爵",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",
@@ -3221,6 +3227,7 @@
     {
       "id": "era-23-guardian-dragon-card-07",
       "name": "泽斯特祭司",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",
@@ -3392,6 +3399,7 @@
     {
       "id": "era-23-guardian-dragon-card-08",
       "name": "未具名青年",
+      "portrait": "/art/portraits/era-23-guardian-dragon/era-23-guardian-dragon-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-23-guardian-dragon",

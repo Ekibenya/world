@@ -24,6 +24,7 @@
     {
       "id": "era-12-god-war-card-01",
       "name": "蒂雅／主角龙",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-12-god-war",
@@ -1178,6 +1179,7 @@
     {
       "id": "era-12-god-war-card-02",
       "name": "宙斯",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -1513,6 +1515,7 @@
     {
       "id": "era-12-god-war-card-03",
       "name": "阿斯忒里俄斯",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -1780,6 +1783,7 @@
     {
       "id": "era-12-god-war-card-04",
       "name": "高马",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -1933,6 +1937,7 @@
     {
       "id": "era-12-god-war-card-05",
       "name": "虎幻",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -2198,6 +2203,7 @@
     {
       "id": "era-12-god-war-card-06",
       "name": "雅典娜",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -2321,6 +2327,7 @@
     {
       "id": "era-12-god-war-card-07",
       "name": "赫尔墨斯",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -2509,6 +2516,7 @@
     {
       "id": "era-12-god-war-card-08",
       "name": "因陀罗",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -2733,6 +2741,7 @@
     {
       "id": "era-12-god-war-card-09",
       "name": "深林贤者",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",
@@ -2856,6 +2865,7 @@
     {
       "id": "era-12-god-war-card-10",
       "name": "后世人类研究者",
+      "portrait": "/art/portraits/era-12-god-war/era-12-god-war-card-10.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-12-god-war",

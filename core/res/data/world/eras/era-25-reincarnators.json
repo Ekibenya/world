@@ -24,6 +24,7 @@
     {
       "id": "era-25-reincarnators-card-01",
       "name": "洛伦／蒂雅／生命女神／创世神龙／主角龙",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-25-reincarnators",
@@ -1701,6 +1702,7 @@
     {
       "id": "era-25-reincarnators-card-02",
       "name": "露西亚·马格努斯",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -2969,6 +2971,7 @@
     {
       "id": "era-25-reincarnators-card-03",
       "name": "西蒙",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -3730,6 +3733,7 @@
     {
       "id": "era-25-reincarnators-card-04",
       "name": "拉皮斯",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -4319,6 +4323,7 @@
     {
       "id": "era-25-reincarnators-card-05",
       "name": "维罗妮卡",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -4780,6 +4785,7 @@
     {
       "id": "era-25-reincarnators-card-06",
       "name": "西比拉",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -5333,6 +5339,7 @@
     {
       "id": "era-25-reincarnators-card-07",
       "name": "诺亚·德拉格玛·伊德里斯",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -5694,6 +5701,7 @@
     {
       "id": "era-25-reincarnators-card-08",
       "name": "生命教团祭司长",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",
@@ -5910,6 +5918,7 @@
     {
       "id": "era-25-reincarnators-card-09",
       "name": "炼金学派副首领",
+      "portrait": "/art/portraits/era-25-reincarnators/era-25-reincarnators-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-25-reincarnators",

@@ -24,6 +24,7 @@
     {
       "id": "era-21-dungeons-card-01",
       "name": "蒂雅／萝蕾娜／主角龙",
+      "portrait": "/art/portraits/era-21-dungeons/era-21-dungeons-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-21-dungeons",
@@ -862,6 +863,7 @@
     {
       "id": "era-21-dungeons-card-02",
       "name": "魔贤者／洛基",
+      "portrait": "/art/portraits/era-21-dungeons/era-21-dungeons-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-21-dungeons",
@@ -1240,6 +1242,7 @@
     {
       "id": "era-21-dungeons-card-03",
       "name": "齐格弗里德",
+      "portrait": "/art/portraits/era-21-dungeons/era-21-dungeons-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-21-dungeons",
@@ -1317,6 +1320,7 @@
     {
       "id": "era-21-dungeons-card-04",
       "name": "亚瑟（中年冒险者）",
+      "portrait": "/art/portraits/era-21-dungeons/era-21-dungeons-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-21-dungeons",
@@ -1751,6 +1755,7 @@
     {
       "id": "era-21-dungeons-card-05",
       "name": "卢克",
+      "portrait": "/art/portraits/era-21-dungeons/era-21-dungeons-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-21-dungeons",
@@ -2009,6 +2014,7 @@
     {
       "id": "era-21-dungeons-card-06",
       "name": "冒险者公会接待员",
+      "portrait": "/art/portraits/era-21-dungeons/era-21-dungeons-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-21-dungeons",

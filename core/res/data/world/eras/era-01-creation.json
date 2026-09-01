@@ -24,6 +24,7 @@
     {
       "id": "era-01-creation-card-01",
       "name": "主角龙",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-01-creation",
@@ -485,6 +486,7 @@
     {
       "id": "era-01-creation-card-02",
       "name": "无名创世神",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -610,6 +612,7 @@
     {
       "id": "era-01-creation-card-03",
       "name": "西尔菲德",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -748,6 +751,7 @@
     {
       "id": "era-01-creation-card-04",
       "name": "伊弗利特",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -817,6 +821,7 @@
     {
       "id": "era-01-creation-card-05",
       "name": "伊格德拉西尔",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -898,6 +903,7 @@
     {
       "id": "era-01-creation-card-06",
       "name": "沙玛什",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -967,6 +973,7 @@
     {
       "id": "era-01-creation-card-07",
       "name": "萨加玛塔",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -1036,6 +1043,7 @@
     {
       "id": "era-01-creation-card-08",
       "name": "忒提斯",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",
@@ -1105,6 +1113,7 @@
     {
       "id": "era-01-creation-card-09",
       "name": "厄瑞玻斯",
+      "portrait": "/art/portraits/era-01-creation/era-01-creation-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-01-creation",

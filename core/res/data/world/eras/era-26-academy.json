@@ -24,6 +24,7 @@
     {
       "id": "era-26-academy-card-01",
       "name": "洛伦／守护龙／主角龙",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-26-academy",
@@ -1090,6 +1091,7 @@
     {
       "id": "era-26-academy-card-02",
       "name": "露西亚·马格努斯",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",
@@ -1686,6 +1688,7 @@
     {
       "id": "era-26-academy-card-03",
       "name": "伽拉忒亚II",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",
@@ -2240,6 +2243,7 @@
     {
       "id": "era-26-academy-card-04",
       "name": "转生者A",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",
@@ -2419,6 +2423,7 @@
     {
       "id": "era-26-academy-card-05",
       "name": "贝尔穆特伯爵",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",
@@ -2617,6 +2622,7 @@
     {
       "id": "era-26-academy-card-06",
       "name": "老皇帝／学院创办者",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",
@@ -2917,6 +2923,7 @@
     {
       "id": "era-26-academy-card-07",
       "name": "洛希安·艾尔梅斯",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",
@@ -3028,6 +3035,7 @@
     {
       "id": "era-26-academy-card-08",
       "name": "帕拉塞尔苏斯·霍恩海姆",
+      "portrait": "/art/portraits/era-26-academy/era-26-academy-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-26-academy",

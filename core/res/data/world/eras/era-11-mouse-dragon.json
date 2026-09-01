@@ -24,6 +24,7 @@
     {
       "id": "era-11-mouse-dragon-card-01",
       "name": "蒂雅／主角龙",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-11-mouse-dragon",
@@ -1277,6 +1278,7 @@
     {
       "id": "era-11-mouse-dragon-card-02",
       "name": "梅贝尔",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-11-mouse-dragon",
@@ -2021,6 +2023,7 @@
     {
       "id": "era-11-mouse-dragon-card-03",
       "name": "艾拉",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-11-mouse-dragon",
@@ -2265,6 +2268,7 @@
     {
       "id": "era-11-mouse-dragon-card-04",
       "name": "村庄祭司",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-11-mouse-dragon",
@@ -2454,6 +2458,7 @@
     {
       "id": "era-11-mouse-dragon-card-05",
       "name": "阿斯忒里俄斯",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-11-mouse-dragon",
@@ -2757,6 +2762,7 @@
     {
       "id": "era-11-mouse-dragon-card-06",
       "name": "米诺亚国王",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-11-mouse-dragon",
@@ -2883,6 +2889,7 @@
     {
       "id": "era-11-mouse-dragon-card-07",
       "name": "米诺亚王后",
+      "portrait": "/art/portraits/era-11-mouse-dragon/era-11-mouse-dragon-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-11-mouse-dragon",

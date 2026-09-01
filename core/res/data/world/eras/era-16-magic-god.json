@@ -24,6 +24,7 @@
     {
       "id": "era-16-magic-god-card-01",
       "name": "蒂雅／主角龙",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-01.png",
       "selectable": true,
       "isMainDragon": true,
       "eraId": "era-16-magic-god",
@@ -1462,6 +1463,7 @@
     {
       "id": "era-16-magic-god-card-02",
       "name": "安西娅",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-02.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -2100,6 +2102,7 @@
     {
       "id": "era-16-magic-god-card-03",
       "name": "塞西尔",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-03.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -2336,6 +2339,7 @@
     {
       "id": "era-16-magic-god-card-04",
       "name": "亚瑟",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-04.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -2652,6 +2656,7 @@
     {
       "id": "era-16-magic-god-card-05",
       "name": "尤利乌斯",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-05.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -2981,6 +2986,7 @@
     {
       "id": "era-16-magic-god-card-06",
       "name": "奎奥·特兰",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-06.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -3223,6 +3229,7 @@
     {
       "id": "era-16-magic-god-card-07",
       "name": "困倦少女",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-07.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -3501,6 +3508,7 @@
     {
       "id": "era-16-magic-god-card-08",
       "name": "卢克",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-08.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -3690,6 +3698,7 @@
     {
       "id": "era-16-magic-god-card-09",
       "name": "西娅蒂雅",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-09.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
@@ -3828,6 +3837,7 @@
     {
       "id": "era-16-magic-god-card-10",
       "name": "希尔芙",
+      "portrait": "/art/portraits/era-16-magic-god/era-16-magic-god-card-10.png",
       "selectable": true,
       "isMainDragon": false,
       "eraId": "era-16-magic-god",
