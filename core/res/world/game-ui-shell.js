@@ -81,14 +81,102 @@
     if(action==='delete'&&slots[slot]){delete slots[slot];writeSlots(slots);renderSaves();}
   }
   function renderBook(){
-    var lore=window.WORLD_UI&&window.WORLD_UI.lore?window.WORLD_UI.lore():[],tops=$('#cxTops'),cats=$('#cxCats'),ents=$('#cxEnts');if(!tops||!cats||!ents)return;
-    var labels={'event':'原文事件','world-fact':'原文世界设定','secondary-character':'原文次要人物','premise':'时代运行边界'};
-    var order=['event','world-fact','secondary-character','premise'];
-    var groups={};lore.forEach(function(entry,i){var cat=entry.category||'未分类';(groups[cat]=groups[cat]||[]).push({entry:entry,i:i});});var names=Object.keys(groups).sort(function(a,b){var ai=order.indexOf(a),bi=order.indexOf(b);return(ai<0?999:ai)-(bi<0?999:bi);});
-    tops.innerHTML='<div class="cxTop on">当前时代<i>'+lore.length+'</i></div>';cats.innerHTML=names.map(function(name,i){return '<div class="cxCat'+(i?'':' on')+'" data-cat="'+esc(name)+'">'+esc(labels[name]||name)+' · '+groups[name].length+'</div>';}).join('');
-    function showCat(name){var list=groups[name]||[];ents.innerHTML=list.map(function(item,i){var title=item.entry.title||item.entry.keys&&item.entry.keys[0]||('条目 '+(item.i+1));return '<div class="cxEnt'+(i?'':' on')+'" data-entry="'+item.i+'">'+esc(title)+'</div>';}).join('');if(list[0])showEntry(list[0].i);else{$('#cxTtl').textContent='本类暂无条目';$('#cxTxt').textContent='';}}
-    function showEntry(i){var entry=lore[i];if(!entry)return;$('#cxTtl').textContent=entry.title||entry.keys&&entry.keys[0]||('条目 '+(i+1));$('#cxTxt').textContent=entry.content||'';ents.querySelectorAll('.cxEnt').forEach(function(x){x.classList.toggle('on',Number(x.getAttribute('data-entry'))===i);});var body=$('#dlgBook .cxBody');if(body)body.scrollTop=0;}
-    cats.onclick=function(e){var el=e.target.closest('[data-cat]');if(!el)return;cats.querySelectorAll('.cxCat').forEach(function(x){x.classList.toggle('on',x===el);});showCat(el.getAttribute('data-cat'));};ents.onclick=function(e){var el=e.target.closest('[data-entry]');if(el)showEntry(Number(el.getAttribute('data-entry')));};if(names[0])showCat(names[0]);else{$('#cxTtl').textContent='尚未进入时代';$('#cxTxt').textContent='进入任一时代后显示该节点世界书。';}
+    var lore=window.WORLD_UI&&window.WORLD_UI.lore?window.WORLD_UI.lore():[],tops=$('#cxTops'),cats=$('#cxCats'),ents=$('#cxEnts'),dialog=$('#dlgBook');if(!tops||!cats||!ents||!dialog)return;
+    var sections=[
+      {id:'characters',label:'人物档案'},
+      {id:'world',label:'世界结构'},
+      {id:'mechanics',label:'能力与物件'},
+      {id:'history',label:'历史与连续性'},
+      {id:'rules',label:'运行规则'}
+    ];
+    var groups=[
+      {id:'preset',section:'characters',label:'预设角色',categories:['character-profile','character-experience','character-motivation','character-voice','character-relations']},
+      {id:'secondary',section:'characters',label:'次要人物',categories:['secondary-character-profile','secondary-character-experience','secondary-character-motivation','secondary-character-voice','secondary-character-relations']},
+      {id:'dragon-timeline',section:'characters',label:'主龙时间线',categories:['character-timeline']},
+      {id:'setting-fact',section:'world',label:'综合设定',categories:['setting-fact']},
+      {id:'setting-place',section:'world',label:'地点与环境',categories:['setting-place']},
+      {id:'setting-institution',section:'world',label:'机构与势力',categories:['setting-institution']},
+      {id:'setting-society',section:'world',label:'社会与身份',categories:['setting-society']},
+      {id:'setting-species',section:'world',label:'族群与生命',categories:['setting-species']},
+      {id:'setting-economy',section:'world',label:'经济与生活',categories:['setting-economy']},
+      {id:'setting-power',section:'mechanics',label:'能力与系统',categories:['setting-power']},
+      {id:'setting-object',section:'mechanics',label:'物件与资源',categories:['setting-object']},
+      {id:'history-event',section:'history',label:'正典事件',categories:['history-event']},
+      {id:'continuity-state',section:'history',label:'已建立状态',categories:['continuity-state']},
+      {id:'canon-unknown',section:'history',label:'未解事项',categories:['canon-unknown']},
+      {id:'premise',section:'rules',label:'时代边界',categories:['premise']},
+      {id:'canon-rule',section:'rules',label:'正典规则',categories:['canon-rule']},
+      {id:'era-rule',section:'rules',label:'时代限制',categories:['era-rule']},
+      {id:'narrative-rule',section:'rules',label:'叙事规则',categories:['narrative-rule']},
+      {id:'system-rule',section:'rules',label:'系统规则',categories:['system-rule']},
+      {id:'support-rule',section:'rules',label:'支援规则',categories:['support-rule']},
+      {id:'social-rule',section:'rules',label:'社会伦理',categories:['social-rule']},
+      {id:'scene-rule',section:'rules',label:'场景生活',categories:['scene-rule']},
+      {id:'other',section:'world',label:'其他条目',categories:[]}
+    ];
+    var categoryGroup={};groups.forEach(function(group){group.categories.forEach(function(category){categoryGroup[category]=group.id;});});
+    var groupById={};groups.forEach(function(group){groupById[group.id]=group;});
+    var sectionById={};sections.forEach(function(section){sectionById[section.id]=section;});
+    function groupOf(entry){return groupById[categoryGroup[entry.category]||'other'];}
+    function chineseTitle(value){
+      return String(value||'')
+        .replace(/伽拉忒亚II/g,'伽拉忒亚二号')
+        .replace(/重要NPC/g,'重要非玩家人物').replace(/普通NPC/g,'普通非玩家人物')
+        .replace(/转生者A/g,'匿名转生者甲')
+        .replace(/F-S等级/g,'冒险者全等级').replace(/等级F至S/g,'等级从末级至特级').replace(/S级/g,'特级').replace(/A级/g,'甲级').replace(/B级/g,'乙级').replace(/C级/g,'丙级').replace(/F级/g,'末级')
+        .replace(/Boss/g,'首领').replace(/DP/g,'地下城点数').replace(/LD/g,'人生体验器')
+        .replace(/WWE式/g,'摔角式').replace(/Gate/g,'异界门灾害').replace(/JQK/g,'人头牌')
+        .replace(/Ante、Be…/g,'底注、下注等规则…').replace(/Ante/g,'底注').replace(/Bet/g,'下注').replace(/Raise/g,'加注').replace(/Fold/g,'弃牌').replace(/Check/g,'让牌').replace(/Call/g,'跟注').replace(/All-?In/gi,'全押').replace(/Meta/g,'策略风向')
+        .replace(/伊伦・M・普莱奥内/g,'伊伦・普莱奥内').replace(/V角/g,'双叉角');
+    }
+    function fullTitle(entry,index){var value=entry.title||entry.keys&&entry.keys[0]||('条目 '+(index+1));if(/…$/.test(value)&&entry.sourceRef&&entry.sourceRef.sourceText){var prefix=(value.match(/^【[^】]+】/)||[''])[0];value=prefix+entry.sourceRef.sourceText;}value=chineseTitle(value);return value.length>72?value.slice(0,72)+'…':value;}
+    function shortTitle(entry,index){return fullTitle(entry,index).replace(/^【[^】]+】/,'');}
+    function subjectOf(entry,index){return shortTitle(entry,index).split('｜')[0].trim();}
+    function facetRank(category){return ({'character-profile':0,'secondary-character-profile':0,'character-experience':1,'secondary-character-experience':1,'character-motivation':2,'secondary-character-motivation':2,'character-voice':3,'secondary-character-voice':3,'character-relations':4,'secondary-character-relations':4,'character-timeline':5})[category]||0;}
+    function searchable(entry,index){return chineseTitle([entry.title,entry.memo,(entry.keys||[]).join(' '),entry.content].join('\n')).toLocaleLowerCase();}
+    function groupItems(group,query){
+      var list=[];lore.forEach(function(entry,index){if(groupOf(entry).id!==group.id)return;if(query&&searchable(entry,index).indexOf(query)<0)return;list.push({entry:entry,i:index});});
+      return list.sort(function(a,b){
+        if(group.section==='characters'){var sa=subjectOf(a.entry,a.i),sb=subjectOf(b.entry,b.i),subjectOrder=sa.localeCompare(sb,'zh-CN');return subjectOrder||facetRank(a.entry.category)-facetRank(b.entry.category)||a.i-b.i;}
+        if(group.section==='history'){var ai=a.entry.sourceRef&&a.entry.sourceRef.sourceIndex||0,bi=b.entry.sourceRef&&b.entry.sourceRef.sourceIndex||0;return ai-bi||((a.entry.sourceRef&&a.entry.sourceRef.sequence||0)-(b.entry.sourceRef&&b.entry.sourceRef.sequence||0))||a.i-b.i;}
+        if(group.section==='rules')return (b.entry.order||0)-(a.entry.order||0)||fullTitle(a.entry,a.i).localeCompare(fullTitle(b.entry,b.i),'zh-CN');
+        return fullTitle(a.entry,a.i).localeCompare(fullTitle(b.entry,b.i),'zh-CN');
+      });
+    }
+    var tab=dialog.querySelector('.cxTab'),tag=dialog.querySelector('.tag'),heading=dialog.querySelector('h2'),wrap=dialog.querySelector('.cxWrap');
+    if(tab)tab.textContent='当前时代正典';if(tag)tag.textContent='世界书';if(heading)heading.textContent='资料库 · 世界书';
+    var search=dialog.querySelector('#cxSearch');if(!search&&wrap){var bar=document.createElement('div');bar.className='cxSearchBar';bar.innerHTML='<input id="cxSearch" type="search" placeholder="搜索人物、地点、事件、关键词或正文"><span id="cxSearchCount"></span>';wrap.parentNode.insertBefore(bar,wrap);search=bar.querySelector('#cxSearch');}
+    var body=dialog.querySelector('.cxBody'),meta=dialog.querySelector('#cxMeta');if(!meta&&body){meta=document.createElement('div');meta.id='cxMeta';meta.className='cxMeta';body.insertBefore(meta,$('#cxTxt'));}
+    var activeSection='characters',activeGroup='preset',query='';
+    function countGroup(group){return groupItems(group,query).length;}
+    function visibleGroups(sectionId){return groups.filter(function(group){return group.section===sectionId&&countGroup(group)>0;});}
+    function visibleSections(){return sections.filter(function(section){return visibleGroups(section.id).length>0;});}
+    function sectionCount(sectionId){return visibleGroups(sectionId).reduce(function(sum,group){return sum+countGroup(group);},0);}
+    function showEntry(index){
+      var entry=lore[index];if(!entry)return;var group=groupOf(entry),keys=(entry.keys||[]).slice(0,8),source=entry.sourceRef&&entry.sourceRef.chapterTitle?entry.sourceRef.chapterTitle+(entry.sourceRef.sourceIndex?' · 第'+entry.sourceRef.sourceIndex+'节':''):'';
+      $('#cxTtl').textContent=fullTitle(entry,index);$('#cxTxt').textContent=entry.content||'';
+      if(meta)meta.innerHTML='<span>'+esc(sectionById[group.section].label)+'／'+esc(group.label)+'</span>'+(keys.length?'<span>触发词：'+esc(keys.join('、'))+'</span>':'<span>常驻条目</span>')+(source?'<span>原文来源：'+esc(source)+'</span>':'');
+      ents.querySelectorAll('.cxEnt').forEach(function(item){item.classList.toggle('on',Number(item.getAttribute('data-entry'))===index);});if(body)body.scrollTop=0;
+    }
+    function renderEntries(){
+      var group=groupById[activeGroup],list=group?groupItems(group,query):[];
+      ents.innerHTML=list.map(function(item,i){return '<div class="cxEnt'+(i?'':' on')+'" data-entry="'+item.i+'">'+esc(shortTitle(item.entry,item.i))+'</div>';}).join('');
+      if(list[0])showEntry(list[0].i);else{$('#cxTtl').textContent=query?'没有匹配条目':'本类暂无条目';$('#cxTxt').textContent=query?'换一个人物名、地点名或关键词再试。':'';if(meta)meta.textContent='';}
+    }
+    function renderGroups(preferred){
+      var available=visibleGroups(activeSection);if(!available.some(function(group){return group.id===preferred;}))preferred=available[0]&&available[0].id;activeGroup=preferred||'';
+      cats.innerHTML=available.map(function(group){return '<div class="cxCat'+(group.id===activeGroup?' on':'')+'" data-group="'+group.id+'">'+esc(group.label)+'<i>'+countGroup(group)+'</i></div>';}).join('');renderEntries();
+    }
+    function renderSections(preferred){
+      var available=visibleSections();if(!available.some(function(section){return section.id===preferred;}))preferred=available[0]&&available[0].id;activeSection=preferred||'';
+      tops.innerHTML=available.map(function(section){return '<div class="cxTop'+(section.id===activeSection?' on':'')+'" data-section="'+section.id+'">'+esc(section.label)+'<i>'+sectionCount(section.id)+'</i></div>';}).join('');renderGroups(activeGroup);
+      var count=$('#cxSearchCount');if(count)count.textContent=query?'找到 '+available.reduce(function(sum,section){return sum+sectionCount(section.id);},0)+' 条':'共 '+lore.length+' 条';
+    }
+    tops.onclick=function(event){var item=event.target.closest('[data-section]');if(!item)return;activeSection=item.getAttribute('data-section');activeGroup='';renderSections(activeSection);};
+    cats.onclick=function(event){var item=event.target.closest('[data-group]');if(!item)return;activeGroup=item.getAttribute('data-group');renderGroups(activeGroup);};
+    ents.onclick=function(event){var item=event.target.closest('[data-entry]');if(item)showEntry(Number(item.getAttribute('data-entry')));};
+    if(search){search.value='';search.oninput=function(){query=chineseTitle(search.value.trim()).toLocaleLowerCase();activeSection='characters';activeGroup='';renderSections(activeSection);};}
+    if(lore.length)renderSections(activeSection);else{$('#cxTtl').textContent='尚未进入时代';$('#cxTxt').textContent='进入任一时代后显示该节点世界书。';if(meta)meta.textContent='';}
   }
   function download(name,data){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([data],{type:'application/json'}));a.download=name;a.click();setTimeout(function(){URL.revokeObjectURL(a.href);},0);}
   function speech(){var w=world(),text=w&&w.history&&w.history.length?w.history[w.history.length-1].content:'';if(!text||!window.speechSynthesis)return;window.speechSynthesis.cancel();window.speechSynthesis.speak(new SpeechSynthesisUtterance(text));}
