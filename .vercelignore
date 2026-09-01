@@ -1,0 +1,16 @@
+# 上线的只有能跑的那一份。以下都不必进公开站点：
+#   tools/     组装脚本与作业流程（含韩语见本与语料），是工作台不是成品
+#   st/        卡资料的来源；成品已经由 cardbuild.py 注入主文档，站点不读它
+#   rwserve.py 本地起服务用的，线上有 vercel.json 的重写规则
+#
+# 前面那道斜杠不能省。写成裸的 st/ 会匹配任何一层同名的目录——
+# 当初实测连 core/res/data/ 底下同名的那一份也一并挡掉了。只挡仓库根下的这几样。
+/tools/
+/st/
+/rwserve.py
+/.gitignore
+
+# 远端构建只上传游戏实际会复制进 _site 的最终资产。
+/art/sheets/
+/art/portraits/*.png
+/art/*.json

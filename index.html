@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131d">
+  <meta name="description" content="以完整原文正典为边界的跨时代角色扮演游戏">
+  <link rel="icon" href="data:,">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/core/res/world/app.css">
+  <title>守护龙纪事</title>
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+  <header class="topbar">
+    <button class="brand" type="button" data-action="home" aria-label="返回时代选择">
+      <span class="brand-mark">眠</span>
+      <span><b>守护龙纪事</b><small>原文正典角色扮演</small></span>
+    </button>
+    <div class="top-actions">
+      <span class="source-state" id="sourceState">正在核对正典资料…</span>
+      <button class="ghost" type="button" data-action="settings">API 设置</button>
+    </div>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <dialog id="settingsDialog" class="settings-dialog">
+    <form method="dialog" id="settingsForm">
+      <div class="dialog-head">
+        <div><p class="eyebrow">PLAYER API</p><h2>玩家自己的生成接口</h2></div>
+        <button class="icon-button" value="cancel" aria-label="关闭">×</button>
+      </div>
+      <p class="muted">自定义开局与后续游戏由这里填写的接口生成。密钥只保存在当前浏览器。</p>
+      <label>接口地址<input name="endpoint" autocomplete="url" placeholder="https://api.example.com/v1/chat/completions"></label>
+      <label>模型<input name="model" autocomplete="off" placeholder="模型名称"></label>
+      <label>API 密钥<input name="apiKey" type="password" autocomplete="off" placeholder="sk-…"></label>
+      <div class="form-grid">
+        <label>温度<input name="temperature" type="number" min="0" max="2" step="0.1" value="0.8"></label>
+        <label>最大输出<input name="maxTokens" type="number" min="256" max="8192" step="128" value="1600"></label>
+      </div>
+      <p class="form-error" id="settingsError" role="alert"></p>
+      <div class="dialog-actions">
+        <button class="ghost" value="cancel">取消</button>
+        <button class="primary" value="default" data-action="save-settings">保存</button>
+      </div>
+    </form>
+  </dialog>
+
+  <template id="loadingTemplate">
+    <section class="loading"><span class="spinner"></span><p>正在整理这一时代的原文证据…</p></section>
+  </template>
+
+  <script type="module" src="/core/res/world/app.js"></script>
+  <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
+</body>
+</html>

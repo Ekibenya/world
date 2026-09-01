@@ -1,0 +1,9 @@
+{
+  "name": "守护龙纪事",
+  "short_name": "守护龙",
+  "description": "以完整原文正典为边界的跨时代角色扮演游戏",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d14",
+  "theme_color": "#10131d"
+}

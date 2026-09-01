@@ -1,0 +1,694 @@
+{
+  "title": "无论你是否称呼我为守护龙，我都要去睡觉",
+  "sourceCoverage": {
+    "firstSourceIndex": 5,
+    "lastSourceIndex": 653,
+    "storyChapters": 649,
+    "readingLedgerValidated": true
+  },
+  "rules": {
+    "eraCount": 32,
+    "presetMinimum": 5,
+    "presetMaximum": 20,
+    "mainDragonSelectableEveryEra": true,
+    "defaultOpeningMode": "single-contiguous-verbatim-source-range",
+    "customOpeningMode": "player-api-generated-with-era-canon-packet",
+    "catNarrativeMethodsReused": false,
+    "newCanonAllowed": false
+  },
+  "eraCount": 32,
+  "eras": [
+    {
+      "id": "era-01-creation",
+      "name": "创世与第一批生命",
+      "ordinal": 1,
+      "sourceRange": [
+        5,
+        10
+      ],
+      "presetCount": 9,
+      "secondaryCharacterCount": 3,
+      "opening": {
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "startParagraph": "P0003",
+        "endParagraph": "P0037",
+        "paragraphCount": 35,
+        "verbatimSha256": "c0735ff7583783108f4b38bdc334e9feeb29b500fd0b3f7444ca93a23a46aab9"
+      },
+      "bundle": "eras/era-01-creation.json",
+      "image": "/art/eras/era-01-creation.png"
+    },
+    {
+      "id": "era-02-dragons",
+      "name": "龙之时代",
+      "ordinal": 2,
+      "sourceRange": [
+        11,
+        17
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 2,
+      "opening": {
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "startParagraph": "P0001",
+        "endParagraph": "P0024",
+        "paragraphCount": 24,
+        "verbatimSha256": "1ef55a35a67b66f53ab7b8b6b51afc71371507dab1e7f16cf27381c0d80c5503"
+      },
+      "bundle": "eras/era-02-dragons.json",
+      "image": "/art/eras/era-02-dragons.png"
+    },
+    {
+      "id": "era-03-dragon-war",
+      "name": "龙之战与龙时代终结",
+      "ordinal": 3,
+      "sourceRange": [
+        18,
+        23
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 18,
+        "chapterTitle": "龙之战",
+        "startParagraph": "P0020",
+        "endParagraph": "P0048",
+        "paragraphCount": 29,
+        "verbatimSha256": "c36d38159e4dffb9b0557cb9da5a2d9e50efa88e9924f6028eb7c4b896845c41"
+      },
+      "bundle": "eras/era-03-dragon-war.json",
+      "image": "/art/eras/era-03-dragon-war.png"
+    },
+    {
+      "id": "era-04-peoples",
+      "name": "人类曙光与诸族形成",
+      "ordinal": 4,
+      "sourceRange": [
+        24,
+        40
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 13,
+      "opening": {
+        "sourceIndex": 24,
+        "chapterTitle": "人类生命的曙光（1）",
+        "startParagraph": "P0052",
+        "endParagraph": "P0095",
+        "paragraphCount": 44,
+        "verbatimSha256": "1fa515eb9281048632f2247b1ee01ce0232ca7e6b871146f7bc02cdba550ff0f"
+      },
+      "bundle": "eras/era-04-peoples.json",
+      "image": "/art/eras/era-04-peoples.png"
+    },
+    {
+      "id": "era-05-gods-law",
+      "name": "神明、化身与成文法",
+      "ordinal": 5,
+      "sourceRange": [
+        41,
+        49
+      ],
+      "presetCount": 7,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "startParagraph": "P0001",
+        "endParagraph": "P0035",
+        "paragraphCount": 35,
+        "verbatimSha256": "71f54571a42e11310d22479d121743210dd68a5239ed2d9dc67302c20065ad42"
+      },
+      "bundle": "eras/era-05-gods-law.json",
+      "image": "/art/eras/era-05-gods-law.png"
+    },
+    {
+      "id": "era-06-underworld",
+      "name": "死亡、来世与冥界",
+      "ordinal": 6,
+      "sourceRange": [
+        50,
+        77
+      ],
+      "presetCount": 11,
+      "secondaryCharacterCount": 14,
+      "opening": {
+        "sourceIndex": 50,
+        "chapterTitle": "关于死亡（1）",
+        "startParagraph": "P0024",
+        "endParagraph": "P0068",
+        "paragraphCount": 45,
+        "verbatimSha256": "59d595d8bfb54759a64ca409b6b8163ebb65433d39a3aa0fb6b7c3ad0fe0e070"
+      },
+      "bundle": "eras/era-06-underworld.json",
+      "image": "/art/eras/era-06-underworld.png"
+    },
+    {
+      "id": "era-07-first-hero",
+      "name": "英雄之剑与首位英雄",
+      "ordinal": 7,
+      "sourceRange": [
+        78,
+        98
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 6,
+      "opening": {
+        "sourceIndex": 81,
+        "chapterTitle": "第七十六章：英雄之剑（4）",
+        "startParagraph": "P0029",
+        "endParagraph": "P0068",
+        "paragraphCount": 40,
+        "verbatimSha256": "db3f5286707e6ee680b415c376310c5ebc48eb1c497a28cd64f3fecce5a4b798"
+      },
+      "bundle": "eras/era-07-first-hero.json",
+      "image": "/art/eras/era-07-first-hero.png"
+    },
+    {
+      "id": "era-08-rivalry-babel",
+      "name": "精灵矮人竞技与巴别塔",
+      "ordinal": 8,
+      "sourceRange": [
+        99,
+        111
+      ],
+      "presetCount": 7,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 102,
+        "chapterTitle": "第九十七章：精灵与矮人种族之争（1）",
+        "startParagraph": "P0031",
+        "endParagraph": "P0067",
+        "paragraphCount": 37,
+        "verbatimSha256": "55ad29ab053bc5dc6d3edb31a9d57ac77497660b1e3aaaf60828b9b755c4c4f3"
+      },
+      "bundle": "eras/era-08-rivalry-babel.json",
+      "image": "/art/eras/era-08-rivalry-babel.png"
+    },
+    {
+      "id": "era-09-arcadia",
+      "name": "英雄的伴侣、阿卡迪亚与天堂",
+      "ordinal": 9,
+      "sourceRange": [
+        112,
+        144
+      ],
+      "presetCount": 12,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 116,
+        "chapterTitle": "第一百一十一章：英雄的伴侣（2）",
+        "startParagraph": "P0058",
+        "endParagraph": "P0099",
+        "paragraphCount": 42,
+        "verbatimSha256": "9e44637a7db96101e6a9b7dbbb951b89f9478398141053f000afae20911edfba"
+      },
+      "bundle": "eras/era-09-arcadia.json",
+      "image": "/art/eras/era-09-arcadia.png"
+    },
+    {
+      "id": "era-10-pantheon",
+      "name": "诸神时代与万神殿",
+      "ordinal": 10,
+      "sourceRange": [
+        145,
+        170
+      ],
+      "presetCount": 9,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 157,
+        "chapterTitle": "万神殿.(1)",
+        "startParagraph": "P0068",
+        "endParagraph": "P0095",
+        "paragraphCount": 28,
+        "verbatimSha256": "d7b57e99970fc64d15922cefdb80118dcfdab030ef1f65a3f6a36989a8023784"
+      },
+      "bundle": "eras/era-10-pantheon.json",
+      "image": "/art/eras/era-10-pantheon.png"
+    },
+    {
+      "id": "era-11-mouse-dragon",
+      "name": "老鼠与龙、十二动物神巡游",
+      "ordinal": 11,
+      "sourceRange": [
+        171,
+        194
+      ],
+      "presetCount": 7,
+      "secondaryCharacterCount": 1,
+      "opening": {
+        "sourceIndex": 171,
+        "chapterTitle": "老鼠与龙.(1)",
+        "startParagraph": "P0051",
+        "endParagraph": "P0122",
+        "paragraphCount": 72,
+        "verbatimSha256": "48099e0aca3e2eeca84644c8b8c0b5cea65fc0bb4d17e33be85e27e6f2f5f0ad"
+      },
+      "bundle": "eras/era-11-mouse-dragon.json",
+      "image": "/art/eras/era-11-mouse-dragon.png"
+    },
+    {
+      "id": "era-12-god-war",
+      "name": "神座空位与诸神之战",
+      "ordinal": 12,
+      "sourceRange": [
+        195,
+        218
+      ],
+      "presetCount": 10,
+      "secondaryCharacterCount": 11,
+      "opening": {
+        "sourceIndex": 215,
+        "chapterTitle": "供养.(2)",
+        "startParagraph": "P0071",
+        "endParagraph": "P0115",
+        "paragraphCount": 45,
+        "verbatimSha256": "fb86db5c827c8407d79b0ebf03118100d6ac3bac5a4b17e9f64db9841bb04fde"
+      },
+      "bundle": "eras/era-12-god-war.json",
+      "image": "/art/eras/era-12-god-war.png"
+    },
+    {
+      "id": "era-13-ragnarok",
+      "name": "诸神黄昏与莱克伦",
+      "ordinal": 13,
+      "sourceRange": [
+        219,
+        236
+      ],
+      "presetCount": 10,
+      "secondaryCharacterCount": 4,
+      "opening": {
+        "sourceIndex": 220,
+        "chapterTitle": "诸神黄昏.(1)",
+        "startParagraph": "P0090",
+        "endParagraph": "P0103",
+        "paragraphCount": 14,
+        "verbatimSha256": "74824f776d2d4f0cceb5173b712b1ac0672f9b0ae59d574ebf6febad0a6905fc"
+      },
+      "bundle": "eras/era-13-ragnarok.json",
+      "image": "/art/eras/era-13-ragnarok.png"
+    },
+    {
+      "id": "era-14-human-age",
+      "name": "人类时代与第一次联合战争",
+      "ordinal": 14,
+      "sourceRange": [
+        237,
+        253
+      ],
+      "presetCount": 7,
+      "secondaryCharacterCount": 1,
+      "opening": {
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "startParagraph": "P0052",
+        "endParagraph": "P0104",
+        "paragraphCount": 53,
+        "verbatimSha256": "86c37099822a0b28200ad7e11ead58d07403612aafd66efc70b466031e73d9e2"
+      },
+      "bundle": "eras/era-14-human-age.json",
+      "image": "/art/eras/era-14-human-age.png"
+    },
+    {
+      "id": "era-15-arthur-gaia",
+      "name": "帝国、亚瑟与盖亚",
+      "ordinal": 15,
+      "sourceRange": [
+        254,
+        273
+      ],
+      "presetCount": 6,
+      "secondaryCharacterCount": 0,
+      "opening": {
+        "sourceIndex": 258,
+        "chapterTitle": "师父与弟子们.(1)",
+        "startParagraph": "P0058",
+        "endParagraph": "P0114",
+        "paragraphCount": 57,
+        "verbatimSha256": "69ac199b009978a064dc2740f794b24bcfd1a4a40cc4ff9f6796a4f42ffc9c72"
+      },
+      "bundle": "eras/era-15-arthur-gaia.json",
+      "image": "/art/eras/era-15-arthur-gaia.png"
+    },
+    {
+      "id": "era-16-magic-god",
+      "name": "安西娅与魔法之神",
+      "ordinal": 16,
+      "sourceRange": [
+        274,
+        317
+      ],
+      "presetCount": 10,
+      "secondaryCharacterCount": 7,
+      "opening": {
+        "sourceIndex": 285,
+        "chapterTitle": "创建冒险家公会的方法.(6)",
+        "startParagraph": "P0046",
+        "endParagraph": "P0077",
+        "paragraphCount": 32,
+        "verbatimSha256": "6b5cba3dc594580d23f0d5491b4133c4b54c4d296c16eacc5c9d90cecd581711"
+      },
+      "bundle": "eras/era-16-magic-god.json",
+      "image": "/art/eras/era-16-magic-god.png"
+    },
+    {
+      "id": "era-17-dark-clouds",
+      "name": "三百年后、昏君与暗云",
+      "ordinal": 17,
+      "sourceRange": [
+        318,
+        352
+      ],
+      "presetCount": 10,
+      "secondaryCharacterCount": 21,
+      "opening": {
+        "sourceIndex": 333,
+        "chapterTitle": "昏君.(3)",
+        "startParagraph": "P0041",
+        "endParagraph": "P0055",
+        "paragraphCount": 15,
+        "verbatimSha256": "93a72931b7a566cc20fdbef1c6438b0f576c74e24a0947e1a2901f72da1e8407"
+      },
+      "bundle": "eras/era-17-dark-clouds.json",
+      "image": "/art/eras/era-17-dark-clouds.png"
+    },
+    {
+      "id": "era-18-new-hero",
+      "name": "魔王、爱丽丝与勇者埃里克",
+      "ordinal": 18,
+      "sourceRange": [
+        353,
+        374
+      ],
+      "presetCount": 10,
+      "secondaryCharacterCount": 1,
+      "opening": {
+        "sourceIndex": 361,
+        "chapterTitle": "新的勇者.(3)",
+        "startParagraph": "P0020",
+        "endParagraph": "P0055",
+        "paragraphCount": 36,
+        "verbatimSha256": "d5aa5f2fb858f18dc4d8b3ca1cd649dee09f7ca9328a83a0a1deb17110878563"
+      },
+      "bundle": "eras/era-18-new-hero.json",
+      "image": "/art/eras/era-18-new-hero.png"
+    },
+    {
+      "id": "era-19-six-gods",
+      "name": "六神祝福之旅",
+      "ordinal": 19,
+      "sourceRange": [
+        375,
+        419
+      ],
+      "presetCount": 12,
+      "secondaryCharacterCount": 16,
+      "opening": {
+        "sourceIndex": 375,
+        "chapterTitle": "魔王倒下后.(4)",
+        "startParagraph": "P0038",
+        "endParagraph": "P0069",
+        "paragraphCount": 32,
+        "verbatimSha256": "a96bab7ae65a95fb9accddbe73d820e865f01a82f9c2b2f0b7de7f3a35658297"
+      },
+      "bundle": "eras/era-19-six-gods.json",
+      "image": "/art/eras/era-19-six-gods.png"
+    },
+    {
+      "id": "era-20-alice-demon-king",
+      "name": "爱丽丝成为魔王与救援",
+      "ordinal": 20,
+      "sourceRange": [
+        420,
+        439
+      ],
+      "presetCount": 9,
+      "secondaryCharacterCount": 3,
+      "opening": {
+        "sourceIndex": 420,
+        "chapterTitle": "所谓魔王.(1)",
+        "startParagraph": "P0051",
+        "endParagraph": "P0084",
+        "paragraphCount": 34,
+        "verbatimSha256": "15c2aea53f3fb3f5afaf3c381a59f2a91f393fabc4dbde9a4b45cba7e5f93d17"
+      },
+      "bundle": "eras/era-20-alice-demon-king.json",
+      "image": "/art/eras/era-20-alice-demon-king.png"
+    },
+    {
+      "id": "era-21-dungeons",
+      "name": "黑暗骑士与地下城时代",
+      "ordinal": 21,
+      "sourceRange": [
+        440,
+        452
+      ],
+      "presetCount": 6,
+      "secondaryCharacterCount": 4,
+      "opening": {
+        "sourceIndex": 446,
+        "chapterTitle": "地下城与冒险者.(4)",
+        "startParagraph": "P0025",
+        "endParagraph": "P0060",
+        "paragraphCount": 36,
+        "verbatimSha256": "76d5e972a699f91e1791f9ae10a4324b024340f502df9d32e89a7383dbbc8e06"
+      },
+      "bundle": "eras/era-21-dungeons.json",
+      "image": "/art/eras/era-21-dungeons.png"
+    },
+    {
+      "id": "era-22-enoch",
+      "name": "以诺、鲁贝洛斯与诺亚诞生",
+      "ordinal": 22,
+      "sourceRange": [
+        453,
+        472
+      ],
+      "presetCount": 6,
+      "secondaryCharacterCount": 1,
+      "opening": {
+        "sourceIndex": 453,
+        "chapterTitle": "勇者埃里克的死.(2)",
+        "startParagraph": "P0049",
+        "endParagraph": "P0086",
+        "paragraphCount": 38,
+        "verbatimSha256": "312915cee657eb126701382e1fdf9eec812964c14b697ec420d5b0aee5c99460"
+      },
+      "bundle": "eras/era-22-enoch.json",
+      "image": "/art/eras/era-22-enoch.png"
+    },
+    {
+      "id": "era-23-guardian-dragon",
+      "name": "帝国崩落与守护龙",
+      "ordinal": 23,
+      "sourceRange": [
+        473,
+        492
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 2,
+      "opening": {
+        "sourceIndex": 483,
+        "chapterTitle": "守护龙.(1)",
+        "startParagraph": "P0035",
+        "endParagraph": "P0073",
+        "paragraphCount": 39,
+        "verbatimSha256": "8ed4d7676e70905f6541efc2c43b799ddbeaf4658a762333de8ea7518b1f7130"
+      },
+      "bundle": "eras/era-23-guardian-dragon.json",
+      "image": "/art/eras/era-23-guardian-dragon.png"
+    },
+    {
+      "id": "era-24-prosperity",
+      "name": "帝国繁荣、索菲亚与预言",
+      "ordinal": 24,
+      "sourceRange": [
+        493,
+        515
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 7,
+      "opening": {
+        "sourceIndex": 499,
+        "chapterTitle": "培养皇后.(1)",
+        "startParagraph": "P0020",
+        "endParagraph": "P0045",
+        "paragraphCount": 26,
+        "verbatimSha256": "87489d649dff396c00a848c492052a9fab5dc0c1bdecccf417daae75f2c78028"
+      },
+      "bundle": "eras/era-24-prosperity.json",
+      "image": "/art/eras/era-24-prosperity.png"
+    },
+    {
+      "id": "era-25-reincarnators",
+      "name": "转生者、露西亚与炼金术",
+      "ordinal": 25,
+      "sourceRange": [
+        516,
+        548
+      ],
+      "presetCount": 9,
+      "secondaryCharacterCount": 19,
+      "opening": {
+        "sourceIndex": 517,
+        "chapterTitle": "转生神所做的事!.(1)",
+        "startParagraph": "P0039",
+        "endParagraph": "P0064",
+        "paragraphCount": 26,
+        "verbatimSha256": "7a47218cf2e57867fbccfabd27238885b04d5f9e25db8ffab29f77c3591c2fd7"
+      },
+      "bundle": "eras/era-25-reincarnators.json",
+      "image": "/art/eras/era-25-reincarnators.png"
+    },
+    {
+      "id": "era-26-academy",
+      "name": "帝国学院与有轨电车",
+      "ordinal": 26,
+      "sourceRange": [
+        549,
+        568
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 550,
+        "chapterTitle": "帝国学院.(1)",
+        "startParagraph": "P0024",
+        "endParagraph": "P0048",
+        "paragraphCount": 25,
+        "verbatimSha256": "001268126e905276c2fdcab44e25ad6235bbfb97f1d1feab3289fea3367dfa7c"
+      },
+      "bundle": "eras/era-26-academy.json",
+      "image": "/art/eras/era-26-academy.png"
+    },
+    {
+      "id": "era-27-heroes-tech",
+      "name": "勇者们与魔导信息技术",
+      "ordinal": 27,
+      "sourceRange": [
+        569,
+        583
+      ],
+      "presetCount": 9,
+      "secondaryCharacterCount": 3,
+      "opening": {
+        "sourceIndex": 569,
+        "chapterTitle": "勇者们的时代.(1)",
+        "startParagraph": "P0044",
+        "endParagraph": "P0068",
+        "paragraphCount": 25,
+        "verbatimSha256": "d139b1cad34edaad52c35f30c7d491737d7a95f3749349f985bff68844d9dd62"
+      },
+      "bundle": "eras/era-27-heroes-tech.json",
+      "image": "/art/eras/era-27-heroes-tech.png"
+    },
+    {
+      "id": "era-28-rebellion",
+      "name": "魔族国家、世界旅行与谋反",
+      "ordinal": 28,
+      "sourceRange": [
+        584,
+        604
+      ],
+      "presetCount": 7,
+      "secondaryCharacterCount": 15,
+      "opening": {
+        "sourceIndex": 584,
+        "chapterTitle": "魔族的国家.(1)",
+        "startParagraph": "P0015",
+        "endParagraph": "P0055",
+        "paragraphCount": 41,
+        "verbatimSha256": "c1560b538b015807a43424846d20754475180e735bb6f7f27ee4311a3dd161e8"
+      },
+      "bundle": "eras/era-28-rebellion.json",
+      "image": "/art/eras/era-28-rebellion.png"
+    },
+    {
+      "id": "era-29-great-heroes",
+      "name": "大勇者时代与露西亚远行",
+      "ordinal": 29,
+      "sourceRange": [
+        605,
+        622
+      ],
+      "presetCount": 8,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 605,
+        "chapterTitle": "魔王雷斯.(1)",
+        "startParagraph": "P0021",
+        "endParagraph": "P0050",
+        "paragraphCount": 30,
+        "verbatimSha256": "e993bd972725d4a42ef43d3f1fb9fb32db8e75cd06f0fdd2679e83c83b231254"
+      },
+      "bundle": "eras/era-29-great-heroes.json",
+      "image": "/art/eras/era-29-great-heroes.png"
+    },
+    {
+      "id": "era-30-homecoming",
+      "name": "铁路与归乡",
+      "ordinal": 30,
+      "sourceRange": [
+        623,
+        632
+      ],
+      "presetCount": 7,
+      "secondaryCharacterCount": 0,
+      "opening": {
+        "sourceIndex": 628,
+        "chapterTitle": "归乡.(1)",
+        "startParagraph": "P0028",
+        "endParagraph": "P0068",
+        "paragraphCount": 41,
+        "verbatimSha256": "1e86cc1ee0ad3004512d27286c8b9aeee0986eca4a16da319309e4eb1839811c"
+      },
+      "bundle": "eras/era-30-homecoming.json",
+      "image": "/art/eras/era-30-homecoming.png"
+    },
+    {
+      "id": "era-31-entertainment",
+      "name": "娱乐、银行与报纸",
+      "ordinal": 31,
+      "sourceRange": [
+        633,
+        651
+      ],
+      "presetCount": 14,
+      "secondaryCharacterCount": 5,
+      "opening": {
+        "sourceIndex": 633,
+        "chapterTitle": "娱乐.(1)",
+        "startParagraph": "P0041",
+        "endParagraph": "P0058",
+        "paragraphCount": 18,
+        "verbatimSha256": "4159f765c9206d806b9e6aef98c4b351700f24c5a61bb5d1ed3a333628010512"
+      },
+      "bundle": "eras/era-31-entertainment.json",
+      "image": "/art/eras/era-31-entertainment.png"
+    },
+    {
+      "id": "era-32-erebus-child",
+      "name": "幼年厄瑞玻斯",
+      "ordinal": 32,
+      "sourceRange": [
+        652,
+        653
+      ],
+      "presetCount": 5,
+      "secondaryCharacterCount": 1,
+      "opening": {
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "startParagraph": "P0043",
+        "endParagraph": "P0068",
+        "paragraphCount": 26,
+        "verbatimSha256": "32edabe2b400f8be7a07971024481e7f7c00d605e88314a0edce20aae8241d38"
+      },
+      "bundle": "eras/era-32-erebus-child.json",
+      "image": "/art/eras/era-32-erebus-child.png"
+    }
+  ]
+}

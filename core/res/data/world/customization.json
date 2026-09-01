@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "status": "implemented-and-runtime-validated",
+  "designSources": [
+    {
+      "authority": "韩国内容振兴院 EduKOCCA",
+      "url": "https://edu.kocca.kr/edu/bbs/B0000048/view.do?menuNo=500203&nttId=75373&pageIndex=1",
+      "borrowedPrincipleOnly": "角色由欲望、人物关系和故事背景共同构成；本项目只借组织原则，不借任何剧情或设定。"
+    },
+    {
+      "authority": "黑色沙漠韩国官方冒险者指南",
+      "url": "https://www.kr.playblackdesert.com/ko-KR/Wiki",
+      "borrowedPrincipleOnly": "职业、外观、知识、亲密度和协作是可分离的角色层；本项目改为逐时代正典许可层。"
+    },
+    {
+      "authority": "黑色沙漠韩国官方亲密度指南",
+      "url": "https://www.kr.playblackdesert.com/ko-KR/Wiki?wikiNo=31",
+      "borrowedPrincipleOnly": "关系变化受已知话题和具体行为影响；未掌握的知识不能被当作对话筹码。"
+    },
+    {
+      "authority": "冒险岛韩国官方角色创建指南",
+      "url": "https://maplestory.nexon.com/Guide/N23GameInformation/Articles/373",
+      "borrowedPrincipleOnly": "职业选择与姓名、性别、面部、发色等外观设置分层；本项目进一步拆成时代、身份、知识和关系许可。"
+    }
+  ],
+  "routes": {
+    "preset": {
+      "label": "默认正典开局",
+      "characterSource": "era.canonRoster",
+      "openingSource": "default-openings.json",
+      "openingPolicy": "直接显示所选时代的一段连续原文；不得改字、拼接、补写或为不同角色另造开局。",
+      "apiGeneration": false
+    },
+    "custom": {
+      "label": "自定义 API 开局",
+      "characterSource": "player choices constrained by the selected era canon packet",
+      "openingSource": "player-configured API at play time",
+      "openingPolicy": "仓库不保存助手创作的自定义开局。运行时把时代正典包、玩家选择和禁止事项交给玩家自己的 API 生成。",
+      "apiGeneration": true
+    }
+  },
+  "customizationLayers": [
+    {
+      "id": "era",
+      "label": "时代节点",
+      "required": true,
+      "source": "era-plan.json",
+      "rule": "先锁定时代，再计算一切可选项；任何后世种族、制度、称号、技术和知识都不得逆流进入。"
+    },
+    {
+      "id": "entry_route",
+      "label": "开局方式",
+      "required": true,
+      "options": [
+        "默认正典开局",
+        "自定义 API 开局"
+      ]
+    },
+    {
+      "id": "play_identity",
+      "label": "扮演身份",
+      "required": true,
+      "presetRule": "从该时代 5–20 个正典预设中选择。",
+      "customRule": "玩家可创建个人身份，但物种、社会位置、能力来源和所在地点必须来自该时代原文许可表。"
+    },
+    {
+      "id": "species_and_form",
+      "label": "种族与身体形态",
+      "required": true,
+      "rule": "只提供该时代已经出现的种族和形态。主角龙在每个时代固定提供，并绑定该期形态证据。",
+      "freeFields": [
+        "不改变物种规则的姓名",
+        "原文未限定部分的细部外观",
+        "不制造新能力的衣着偏好"
+      ]
+    },
+    {
+      "id": "social_embedding",
+      "label": "社会位置",
+      "required": true,
+      "rule": "从该时代真实存在的家庭、聚落、国家、神殿、职业、队伍或机构中选；选项自世界书生成。"
+    },
+    {
+      "id": "public_hidden_identity",
+      "label": "公开身份与隐瞒事实",
+      "required": false,
+      "rule": "只有原文在该时代确实存在伪装、化身、秘密血统、附体或身份误解时才开放；不能凭空添加秘密。"
+    },
+    {
+      "id": "knowledge_envelope",
+      "label": "开局知识边界",
+      "required": true,
+      "rule": "分别选择亲历、被告知、公共传闻和未知；隐藏真相默认不可选，除非该预设在开局前已知。"
+    },
+    {
+      "id": "capability_envelope",
+      "label": "能力与限制",
+      "required": true,
+      "rule": "能力、代价、触发条件和上限成组选择；禁止只拿能力不拿原文限制，也禁止跨时代技能。"
+    },
+    {
+      "id": "immediate_want",
+      "label": "眼前目标",
+      "required": true,
+      "rule": "默认预设使用原文该节点正在追求的目标；自定义角色由玩家选择与原文事件兼容的实际目标，API 不得替玩家暗改。"
+    },
+    {
+      "id": "mental_engine",
+      "label": "思考方式",
+      "required": true,
+      "rule": "正典角色由跨章对白、心声、判断和行动证据提取；自定义角色由玩家选择欲望、惯常解释、盲点、修正方式和压力反应，不能借此获得额外正典知识。"
+    },
+    {
+      "id": "dialogue_signature",
+      "label": "说话方式",
+      "required": true,
+      "rule": "正典角色绑定原文直接对白样本；自定义角色由玩家选择开口、轮次、注意点、认错修正、泄露动机和收尾方式。不得复制其他正典角色的专属台词。"
+    },
+    {
+      "id": "relationship_position",
+      "label": "关系位置",
+      "required": true,
+      "rule": "正典预设只显示原文已成立的关系。自定义角色只能选择公开立场、初次相遇或原文制度允许的隶属关系，不能凭空宣称与正典人物有私交、血缘、恋爱或旧债。"
+    },
+    {
+      "id": "companion_contract",
+      "label": "同伴选择",
+      "required": false,
+      "rule": "选择的是本次游戏希望同行、求助、追踪或避免的人，不自动写成既有亲密关系。正典同伴关系仅对对应预设开放。",
+      "states": [
+        "原文已同行",
+        "开局现场可接触",
+        "希望争取同行",
+        "任务上必须接触",
+        "主动保持距离"
+      ]
+    },
+    {
+      "id": "agency_boundaries",
+      "label": "玩家主权边界",
+      "required": true,
+      "rule": "选择哪些行为、关系推进、身体变化和重大决定必须由玩家明确输入；API 不得代替玩家选择、告白、服从、原谅、杀人或接受不可逆转化。"
+    },
+    {
+      "id": "risk_and_cost",
+      "label": "风险与代价",
+      "required": true,
+      "rule": "从时代真实危机和身份真实弱点中选；风险不会自动变成必然结局，也不能新增灾难抬高刺激。"
+    }
+  ],
+  "runtimePacket": {
+    "alwaysInclude": [
+      "selected era source range",
+      "verbatim default opening only on preset route",
+      "selected character card",
+      "era constant lore",
+      "current knowledge envelope",
+      "player agency boundaries",
+      "no-new-canon prohibitions"
+    ],
+    "retrieveConditionally": [
+      "named character entries",
+      "relationship entries",
+      "places",
+      "institutions and factions",
+      "systems and powers",
+      "objects",
+      "events and rumors"
+    ],
+    "neverGenerateOrStore": [
+      "assistant-authored default opening",
+      "invented canon character",
+      "invented country, history, institution, power or hidden truth",
+      "unearned relationship",
+      "knowledge from future eras",
+      "player dialogue or irreversible choice"
+    ]
+  }
+}
