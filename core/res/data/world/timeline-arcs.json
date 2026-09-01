@@ -1,0 +1,548 @@
+{
+  "version": 1,
+  "sourceCoverage": {
+    "firstSourceIndex": 5,
+    "lastSourceIndex": 653,
+    "storyChapters": 649,
+    "readingLedgerValidated": true
+  },
+  "eraCount": 32,
+  "eras": [
+    {
+      "id": "era-01-creation",
+      "ordinal": 1,
+      "sourceRange": [
+        5,
+        10
+      ],
+      "chapterCount": 6,
+      "arcTitles": [
+        "序言",
+        "你好，世界！"
+      ]
+    },
+    {
+      "id": "era-02-dragons",
+      "ordinal": 2,
+      "sourceRange": [
+        11,
+        17
+      ],
+      "chapterCount": 7,
+      "arcTitles": [
+        "龙之时代",
+        "龙的时代"
+      ]
+    },
+    {
+      "id": "era-03-dragon-war",
+      "ordinal": 3,
+      "sourceRange": [
+        18,
+        23
+      ],
+      "chapterCount": 6,
+      "arcTitles": [
+        "龙之战",
+        "龙之时代的终结"
+      ]
+    },
+    {
+      "id": "era-04-peoples",
+      "ordinal": 4,
+      "sourceRange": [
+        24,
+        40
+      ],
+      "chapterCount": 17,
+      "arcTitles": [
+        "人类生命的曙光",
+        "种族"
+      ]
+    },
+    {
+      "id": "era-05-gods-law",
+      "ordinal": 5,
+      "sourceRange": [
+        41,
+        49
+      ],
+      "chapterCount": 9,
+      "arcTitles": [
+        "神明"
+      ]
+    },
+    {
+      "id": "era-06-underworld",
+      "ordinal": 6,
+      "sourceRange": [
+        50,
+        77
+      ],
+      "chapterCount": 28,
+      "arcTitles": [
+        "关于死亡",
+        "生与死",
+        "北极",
+        "云鲸",
+        "敬神者",
+        "冥界浅思",
+        "一隅黑暗"
+      ]
+    },
+    {
+      "id": "era-07-first-hero",
+      "ordinal": 7,
+      "sourceRange": [
+        78,
+        98
+      ],
+      "chapterCount": 21,
+      "arcTitles": [
+        "英雄之剑",
+        "神罚",
+        "造就英雄",
+        "英雄冒险传说",
+        "死者复活"
+      ]
+    },
+    {
+      "id": "era-08-rivalry-babel",
+      "ordinal": 8,
+      "sourceRange": [
+        99,
+        111
+      ],
+      "chapterCount": 13,
+      "arcTitles": [
+        "精灵与矮人",
+        "精灵与矮人种族之争",
+        "精灵与矮人部族之争",
+        "巴别塔"
+      ]
+    },
+    {
+      "id": "era-09-arcadia",
+      "ordinal": 9,
+      "sourceRange": [
+        112,
+        144
+      ],
+      "chapterCount": 33,
+      "arcTitles": [
+        "忒提丝",
+        "英雄的伴侣",
+        "阿卡迪亚",
+        "初代英雄 —— 冒险的终章",
+        "英雄血脉",
+        "受诅者",
+        "天堂",
+        "英雄之死"
+      ]
+    },
+    {
+      "id": "era-10-pantheon",
+      "ordinal": 10,
+      "sourceRange": [
+        145,
+        170
+      ],
+      "chapterCount": 26,
+      "arcTitles": [
+        "英雄之后的世界",
+        "诸神时代",
+        "众神的试炼",
+        "众神的考验",
+        "万神殿",
+        "众神之王",
+        "被创造的神",
+        "山讨厌天空"
+      ]
+    },
+    {
+      "id": "era-11-mouse-dragon",
+      "ordinal": 11,
+      "sourceRange": [
+        171,
+        194
+      ],
+      "chapterCount": 24,
+      "arcTitles": [
+        "老鼠与龙",
+        "鼠与龙之旅",
+        "鼠兽人的村庄",
+        "母女重逢",
+        "献给神的祭品",
+        "鼠之神",
+        "米诺亚的牛"
+      ]
+    },
+    {
+      "id": "era-12-god-war",
+      "ordinal": 12,
+      "sourceRange": [
+        195,
+        218
+      ],
+      "chapterCount": 24,
+      "arcTitles": [
+        "神座空位",
+        "弑神之法",
+        "弑神名单",
+        "向东",
+        "熊与虎",
+        "深林贤者",
+        "供养",
+        "诸神之战"
+      ]
+    },
+    {
+      "id": "era-13-ragnarok",
+      "ordinal": 13,
+      "sourceRange": [
+        219,
+        236
+      ],
+      "chapterCount": 18,
+      "arcTitles": [
+        "莱克伦",
+        "诸神黄昏",
+        "飞升"
+      ]
+    },
+    {
+      "id": "era-14-human-age",
+      "ordinal": 14,
+      "sourceRange": [
+        237,
+        253
+      ],
+      "chapterCount": 17,
+      "arcTitles": [
+        "人类的时代",
+        "哥布林",
+        "兽人",
+        "食人魔",
+        "第一次联合战争"
+      ]
+    },
+    {
+      "id": "era-15-arthur-gaia",
+      "ordinal": 15,
+      "sourceRange": [
+        254,
+        273
+      ],
+      "chapterCount": 20,
+      "arcTitles": [
+        "帝国",
+        "师父与弟子们",
+        "夺回皇位",
+        "临终倒计时",
+        "盖亚",
+        "众神的游戏"
+      ]
+    },
+    {
+      "id": "era-16-magic-god",
+      "ordinal": 16,
+      "sourceRange": [
+        274,
+        317
+      ],
+      "chapterCount": 44,
+      "arcTitles": [
+        "蜥蜴人与大海",
+        "矮人和精灵...又来了?",
+        "创建冒险家公会的方法",
+        "为了年幼的魔法师",
+        "魔法基础",
+        "魔法师的弟子",
+        "变革之风",
+        "重逢",
+        "魔法之神",
+        "西娅蒂雅",
+        "有翼者种",
+        "异世界"
+      ]
+    },
+    {
+      "id": "era-17-dark-clouds",
+      "ordinal": 17,
+      "sourceRange": [
+        318,
+        352
+      ],
+      "chapterCount": 35,
+      "arcTitles": [
+        "300年后",
+        "流浪法官",
+        "漫长的假期",
+        "吸血鬼",
+        "两个帝国",
+        "昏君",
+        "暗中活动",
+        "暗云",
+        "魔力回路",
+        "短暂的平静"
+      ]
+    },
+    {
+      "id": "era-18-new-hero",
+      "ordinal": 18,
+      "sourceRange": [
+        353,
+        374
+      ],
+      "chapterCount": 22,
+      "arcTitles": [
+        "魔王",
+        "新的勇者",
+        "勇者埃里克",
+        "前往魔王城",
+        "魔王城·玉座的房间",
+        "魔王倒下后"
+      ]
+    },
+    {
+      "id": "era-19-six-gods",
+      "ordinal": 19,
+      "sourceRange": [
+        375,
+        419
+      ],
+      "chapterCount": 45,
+      "arcTitles": [
+        "魔王倒下后",
+        "矮人少女",
+        "神圣的火焰山",
+        "光明与正义之神",
+        "精灵与狐狸兽人",
+        "战斗种族蜥蜴人",
+        "特奥卡利·蜥蜴人之城",
+        "贝特尔吉乌斯",
+        "荣耀的奖杯",
+        "黑暗精灵",
+        "前往萨加玛塔",
+        "人鱼与大海",
+        "深海圣地",
+        "魔法海螺",
+        "风神",
+        "白夜",
+        "乌特加德"
+      ]
+    },
+    {
+      "id": "era-20-alice-demon-king",
+      "ordinal": 20,
+      "sourceRange": [
+        420,
+        439
+      ],
+      "chapterCount": 20,
+      "arcTitles": [
+        "所谓魔王",
+        "旅程的尽头",
+        "旅程的延续",
+        "礼物",
+        "驯服魔王",
+        "地下城城主",
+        "结束后的故事"
+      ]
+    },
+    {
+      "id": "era-21-dungeons",
+      "ordinal": 21,
+      "sourceRange": [
+        440,
+        452
+      ],
+      "chapterCount": 13,
+      "arcTitles": [
+        "黑暗骑士",
+        "暗黑骑士",
+        "地下城与冒险者",
+        "地下城里有Boss不是常识吗？",
+        "勇者埃里克的死"
+      ]
+    },
+    {
+      "id": "era-22-enoch",
+      "ordinal": 22,
+      "sourceRange": [
+        453,
+        472
+      ],
+      "chapterCount": 20,
+      "arcTitles": [
+        "勇者埃里克的死",
+        "银龙之爪团",
+        "掌权者",
+        "鲁贝洛斯",
+        "首都西里乌斯",
+        "德拉格玛帝国",
+        "作为父亲的愿望"
+      ]
+    },
+    {
+      "id": "era-23-guardian-dragon",
+      "ordinal": 23,
+      "sourceRange": [
+        473,
+        492
+      ],
+      "chapterCount": 20,
+      "arcTitles": [
+        "崩落",
+        "灾民",
+        "守护龙",
+        "爆炸中心",
+        "女神像"
+      ]
+    },
+    {
+      "id": "era-24-prosperity",
+      "ordinal": 24,
+      "sourceRange": [
+        493,
+        515
+      ],
+      "chapterCount": 23,
+      "arcTitles": [
+        "帝国的繁荣",
+        "培养皇后",
+        "为了不让她离开",
+        "女神的试验场",
+        "预言学派",
+        "临终前"
+      ]
+    },
+    {
+      "id": "era-25-reincarnators",
+      "ordinal": 25,
+      "sourceRange": [
+        516,
+        548
+      ],
+      "chapterCount": 33,
+      "arcTitles": [
+        "临终前",
+        "转生神所做的事!",
+        "盟约与守护龙",
+        "另一个我",
+        "未能成为龙之巫女的少女",
+        "炼金术",
+        "炼金学派",
+        "预言学派",
+        "紫色魔塔"
+      ]
+    },
+    {
+      "id": "era-26-academy",
+      "ordinal": 26,
+      "sourceRange": [
+        549,
+        568
+      ],
+      "chapterCount": 20,
+      "arcTitles": [
+        "守护龙在注视着",
+        "帝国学院",
+        "入学考试",
+        "社团",
+        "路面电车",
+        "地下城",
+        "有轨电车"
+      ]
+    },
+    {
+      "id": "era-27-heroes-tech",
+      "ordinal": 27,
+      "sourceRange": [
+        569,
+        583
+      ],
+      "chapterCount": 15,
+      "arcTitles": [
+        "勇者们的时代",
+        "新的素材，新的发明",
+        "魔像炼金术士",
+        "历史探究社团"
+      ]
+    },
+    {
+      "id": "era-28-rebellion",
+      "ordinal": 28,
+      "sourceRange": [
+        584,
+        604
+      ],
+      "chapterCount": 21,
+      "arcTitles": [
+        "魔族的国家",
+        "巨龙之鳞",
+        "回归者",
+        "世界旅行",
+        "谋反",
+        "重建",
+        "我是谁?"
+      ]
+    },
+    {
+      "id": "era-29-great-heroes",
+      "ordinal": 29,
+      "sourceRange": [
+        605,
+        622
+      ],
+      "chapterCount": 18,
+      "arcTitles": [
+        "魔王雷斯",
+        "旅行",
+        "勇者的时代"
+      ]
+    },
+    {
+      "id": "era-30-homecoming",
+      "ordinal": 30,
+      "sourceRange": [
+        623,
+        632
+      ],
+      "chapterCount": 10,
+      "arcTitles": [
+        "铁路",
+        "归乡"
+      ]
+    },
+    {
+      "id": "era-31-entertainment",
+      "ordinal": 31,
+      "sourceRange": [
+        633,
+        651
+      ],
+      "chapterCount": 19,
+      "arcTitles": [
+        "娱乐",
+        "赌场",
+        "艺术家公会",
+        "银行",
+        "更多的娱乐",
+        "报纸"
+      ]
+    },
+    {
+      "id": "era-32-erebus-child",
+      "ordinal": 32,
+      "sourceRange": [
+        652,
+        653
+      ],
+      "chapterCount": 2,
+      "arcTitles": [
+        "厄瑞玻斯"
+      ]
+    }
+  ]
+}

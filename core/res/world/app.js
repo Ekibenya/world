@@ -43,7 +43,7 @@ function annalsRows() {
     y: rangeText(era.sourceRange),
     ys: era.sourceRange[0],
     t: era.name,
-    s: `${era.presetCount} 个预设角色 · ${era.secondaryCharacterCount} 个次要人物记录`,
+    s: era.arcTitles?.length ? era.arcTitles.join(' · ') : `${era.presetCount} 个预设角色 · ${era.secondaryCharacterCount} 个次要人物记录`,
     r: 1.5,
   }));
 }
@@ -199,8 +199,9 @@ addEventListener('keydown', (event) => { if (event.key === 'Escape') { if ($('#d
 
 async function init() {
   try {
-    const [a, b] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`)]); if (!a.ok || !b.ok) throw new Error('正典资料索引读取失败。');
-    state.index = await a.json(); state.customization = await b.json();
+    const [a, b, c] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`), fetch(`${DATA_ROOT}timeline-arcs.json`)]); if (!a.ok || !b.ok || !c.ok) throw new Error('正典资料索引读取失败。');
+    state.index = await a.json(); state.customization = await b.json(); const timeline = await c.json();
+    const arcById = new Map(timeline.eras.map((era) => [era.id, era.arcTitles])); state.index.eras.forEach((era) => { era.arcTitles = arcById.get(era.id) || []; });
     window.WORLD_ANNALS = annalsRows();
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },

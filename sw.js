@@ -15,6 +15,7 @@ const CORE = [
   '/core/res/world/runtime.mjs',
   '/core/res/data/world/index.json',
   '/core/res/data/world/customization.json',
+  '/core/res/data/world/timeline-arcs.json',
   '/core/res/data/world/vn-images.json',
 ];
 
