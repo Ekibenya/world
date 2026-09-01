@@ -135,10 +135,10 @@ function readCustom() {
 function renderCompanions() {
   const selected = card(); const others = state.era.cards.filter((item) => item.id !== selected.id);
   $('#feSocList').innerHTML = others.map((item) => `<button class="feCard ${state.companions.has(item.id) ? 'on' : ''}" data-companion="${esc(item.id)}"><b>${esc(item.name)}</b><i>${state.companions.get(item.id) || '希望争取同行'}</i><span>${esc(item.canonIdentityEvidence?.[0]?.text || '本时代正典人物')}</span></button>`).join('');
-  $('#feSocCount').textContent = `${state.companions.size} / 5`; $('#feDoss').innerHTML = `<b>${esc(selected.name)}</b><br><br>同伴选择只是本局希望同行、求助、追踪或避免的意向，不自动写成旧交、血缘或恋爱。`;
+  $('#feDoss').innerHTML = `<b>${esc(selected.name)}</b><br><br>已选择 ${state.companions.size} / 5。同行选择只是本局希望同行、求助、追踪或避免的意向，不自动写成旧交、血缘或恋爱。`;
 }
 function renderOpening() {
-  const isPreset = state.route === 'preset'; $('#feSit').style.display = isPreset ? 'none' : 'block'; $('#feSitHelp').textContent = isPreset ? '下方是该节点选定的连续原文。不会按角色另写，也不会重述。' : '填写玩家希望发生在本时代正典边界内的眼前场面。内容将交给玩家自己的 API。';
+  const isPreset = state.route === 'preset'; $('#feSit').style.display = isPreset ? 'none' : 'block'; const help = document.querySelector('#fePanL .feSec[data-s="sit"] .sub'); if (help) help.textContent = isPreset ? '下方是该节点选定的连续原文。不会按角色另写，也不会重述。' : '填写玩家希望发生在本时代正典边界内的眼前场面。内容将交给玩家自己的 API。';
   $('#feSit').placeholder = '只写玩家身份、眼前目标和可见场面；不要新增世界设定。';
   $('#feSum').innerHTML = isPreset ? `<b>${esc(state.era.opening.chapterTitle)} · ${esc(state.era.opening.startParagraph)}–${esc(state.era.opening.endParagraph)}</b><div class="world-opening">${esc(state.era.opening.verbatim)}</div>` : `<b>PLAYER API</b> 自定义开局不会写入仓库，也不会被标记为原文。`;
 }
@@ -156,21 +156,17 @@ async function beginGame() {
 function showGame() {
   hideAll(); $('#game').classList.add('show'); $('#gLoc').textContent = `${state.era.name} · ${state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name}`;
   $('#gNarr').innerHTML = `<p class="sys">▚&nbsp;ACTVS&nbsp;I</p>${state.error ? `<p class="world-error">${esc(state.error)}</p>` : ''}${state.history.map((message) => `<p class="${message.role === 'user' ? 'me' : ''}"><span class="world-label">${esc(message.label)}</span>${esc(message.content)}</p>`).join('')}${state.busy ? '<p class="sys">ORACVLVM · 玩家 API 正在生成…</p>' : ''}<div class="gEot">·&nbsp;&nbsp;·&nbsp;&nbsp;EOT&nbsp;&nbsp;·&nbsp;&nbsp;·</div>`;
-  const portrait = state.player.mode === 'preset' ? state.player.card.portrait : state.player.anchor.portrait; const name = state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name;
-  const anchor = state.player.mode === 'preset' ? state.player.card : state.player.anchor;
-  const identity = anchor.canonIdentityEvidence?.[0]?.text || '原文未另作说明';
-  const thought = anchor.thoughtEngine?.privateEngineEvidence?.[0]?.text || anchor.thoughtEngine?.absenceRule || '原文未提供可直接归属的心声';
-  $('#gMfd').innerHTML = `<div class="mSec world-persona"><img src="${esc(portrait)}" alt="${esc(name)}"><div><div class="mHead"><i>◆</i>&nbsp;PERSONA</div><b>${esc(name)}</b><span>${state.player.mode === 'preset' ? '正典预设' : '玩家自定义'}</span></div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;AETAS&nbsp;·&nbsp;时代</div><div class="mRow"><span>${esc(state.era.name)}</span><b>${String(state.era.ordinal).padStart(2, '0')}</b></div><div class="mRow"><span>原文范围</span><b>${rangeText(state.era.sourceRange)}</b></div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;PRAESENTES&nbsp;·&nbsp;在场人物</div>${state.player.companions.length ? state.player.companions.map((item) => `<div class="mLead"><i>◆</i>&nbsp;${esc(item.name)} · ${esc(item.relation)}</div>`).join('') : '<div class="mLead">尚无同行意向</div>'}</div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;INDICIA&nbsp;·&nbsp;人物证据</div><div class="mLead">${esc(identity)}</div><div class="mMind">${esc(thought)}</div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;ANNALES&nbsp;·&nbsp;节点编年</div><div class="mRow"><span>${esc(state.era.opening.chapterTitle)}</span><b>${esc(state.era.opening.startParagraph)}–${esc(state.era.opening.endParagraph)}</b></div><div class="mLead">默认开局为 ${state.era.opening.paragraphCount} 段连续原文</div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;LEX&nbsp;·&nbsp;正典边界</div><div class="mLead">只使用第 ${state.era.sourceRange[0]}–${state.era.sourceRange[1]} 源章及已读取的前置正典</div><div class="mLead">不补造人物、国家、历史、能力、物品与地点</div></div>`;
-  $('#gIn').disabled = state.busy; $('#gSend').classList.toggle('off', state.busy); if (window.WORLD_GAME_UI) window.WORLD_GAME_UI.show(); requestAnimationFrame(() => { $('#gNarr').scrollTop = $('#gNarr').scrollHeight; });
+  if (window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.render(state);
+  $('#gIn').disabled = state.busy; $('#gSend').classList.toggle('off', state.busy); if (window.WORLD_GAME_UI) window.WORLD_GAME_UI.show(); if (window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.hydrate(); requestAnimationFrame(() => { $('#gNarr').scrollTop = $('#gNarr').scrollHeight; });
   if (window.WORLD_UI?.saveAuto) window.WORLD_UI.saveAuto();
 }
 
 function queryTerms(text) { const clean = String(text).replace(/[\s\p{P}\p{S}]+/gu, ''); const terms = new Set(); for (let i = 0; i < clean.length - 1; i += 1) terms.add(clean.slice(i, i + 2)); return [...terms]; }
 function retrieveLore(query) {
-  const always = state.era.lorebook.filter((entry) => entry.constant).map((entry) => entry.content); const terms = queryTerms(query);
+  const manualMemory = window.WORLD_MVU_CONTENT?.memoryPrompt?.(); const always = state.era.lorebook.filter((entry) => entry.constant).map((entry) => entry.content); const terms = queryTerms(query);
   const scored = state.era.lorebook.filter((entry) => !entry.constant).flatMap((entry) => entry.content.split('\n').map((line) => ({ line, score: terms.reduce((sum, term) => sum + (line.includes(term) ? 1 : 0), entry.keys.some((key) => query.includes(key)) ? 8 : 0) }))).filter((item) => item.line.trim()).sort((a, b) => b.score - a.score);
   const chosen = []; const seen = new Set(); for (const item of scored) { if (chosen.length >= 90 || (item.score <= 0 && chosen.length >= 28)) break; if (!seen.has(item.line)) { seen.add(item.line); chosen.push(item.line); } }
-  return [...always, chosen.join('\n')].filter(Boolean).join('\n\n');
+  return [manualMemory, ...always, chosen.join('\n')].filter(Boolean).join('\n\n');
 }
 function compactCard(item) { return item ? { name: item.name, identityEvidence: item.canonIdentityEvidence, eraDragonChronology: item.eraDragonChronology, thoughtEngine: item.thoughtEngine, dialogueSamples: item.cumulativeVoiceArchiveThroughEraEnd.dialogue, innerThoughtSamples: item.cumulativeVoiceArchiveThroughEraEnd.innerThought, knowledgeBoundary: item.knowledgeBoundary, playerAgencyRule: item.playerAgencyRule, canonClosureRule: item.canonClosureRule } : null; }
 function buildSystem(query, customOpening) {
@@ -206,9 +202,9 @@ async function init() {
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },
       showMenu,
-      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, savedAt: new Date().toISOString() }; },
+      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
       saveAuto() { if (state.player) { localStorage.setItem('guardianDragonAutoSave', JSON.stringify(this.snapshot())); $('#miCont').style.display = ''; } },
-      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; showGame(); },
+      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
       async loadAuto() { const raw = localStorage.getItem('guardianDragonAutoSave'); if (raw) await this.restore(JSON.parse(raw)); },
       lore() { return state.era?.lorebook || []; },
       undo() { if (state.busy || !state.history.length) return; const assistant = state.history.pop(); const user = state.history.at(-1)?.role === 'user' ? state.history.pop() : null; state.lastUndone = { assistant, user }; showGame(); },

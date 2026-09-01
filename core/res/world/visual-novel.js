@@ -481,7 +481,7 @@
     
   }
   function init(){
-    fetch('/core/res/data/world/vn-images.json?v=6').then(function(r){if(!r.ok)throw new Error('image index '+r.status);return r.json();}).then(function(data){
+    fetch('/core/res/data/world/vn-images.json?v=8').then(function(r){if(!r.ok)throw new Error('image index '+r.status);return r.json();}).then(function(data){
       V.manifest=data;V.ready=true;tick();
       setInterval(tick,600);
     }).catch(function(err){try{console.warn('[visual-novel]',err);}catch(_){}});

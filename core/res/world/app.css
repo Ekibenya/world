@@ -19,10 +19,6 @@ button{border:0}
 #game .gNarr p{white-space:pre-wrap}
 .world-label{display:block;margin-bottom:8px;color:var(--gold-hi);font-family:var(--mono);font-size:10px;letter-spacing:.18em}
 .world-error{padding:10px;border:1px solid rgba(156,48,40,.45);color:#7c211d}
-.world-persona{display:grid;grid-template-columns:110px 1fr;align-items:end;gap:12px;border-bottom:1px solid rgba(19,18,13,.14)}
-.world-persona img{display:block;width:110px;height:160px;object-fit:contain;object-position:center bottom}
-.world-persona b,.world-persona span{display:block;margin:6px 0;font-size:12px}
-.world-persona span{color:var(--mut);font-size:9px}
 #gSend.off{opacity:.35;pointer-events:none}
 #gmMapIn{width:100%;height:100%}
 #gmMapIn>img{inset:0;width:100%;height:100%;object-fit:cover;opacity:.34;filter:saturate(.6) contrast(.85)}
