@@ -25,39 +25,32 @@ function apiSettings() {
 function meta() { return state.index.eras[state.eraIndex]; }
 function card(id = state.cardId) { return state.era?.cards.find((item) => item.id === id) || null; }
 function rangeText(range) { return `第 ${range[0]}–${range[1]} 源章`; }
-function hideAll() { $('#menu').classList.remove('show'); $('#eraSel').classList.remove('on'); $('#feWrap').classList.remove('on'); $('#game').classList.remove('show'); }
+function hideAll() { $('#menu').classList.remove('show'); $('#eraSel').classList.remove('on'); $('#feWrap').classList.remove('on'); $('#game').classList.remove('show'); if (window.WORLD_MVU) window.WORLD_MVU.stop(); }
 function showMenu() { hideAll(); window.MENU.on = true; $('#menu').classList.add('show'); if (window.mosStart) window.mosStart(); }
 function openSettings(message = '') {
   const saved = apiSettings();
-  for (const key of ['endpoint', 'model', 'apiKey', 'temperature', 'maxTokens']) if ($('#settingsForm').elements[key]) $('#settingsForm').elements[key].value = saved[key] ?? (key === 'temperature' ? .8 : key === 'maxTokens' ? 1600 : '');
-  $('#settingsError').textContent = message;
+  $('#apiBase').value = saved.endpoint || ''; $('#apiModel').value = saved.model || ''; $('#apiKey').value = saved.apiKey || '';
+  $('#apiMsg').textContent = message;
   $('#dlgApi').style.display = 'flex';
 }
 function closeSettings() { $('#dlgApi').style.display = 'none'; }
 
-function buildEraSelector() {
-  const track = $('#esTrack'); const bar = $('#esBar'); const pips = $('#esPips'); const bands = $('#esBands');
-  track.innerHTML = ''; bar.innerHTML = ''; pips.innerHTML = ''; bands.innerHTML = '';
-  state.index.eras.forEach((era, index) => {
-    const plate = document.createElement('button'); plate.className = 'pl'; plate.type = 'button'; plate.dataset.eraIndex = index; plate.innerHTML = `<img src="${esc(era.image)}" alt="${esc(era.name)}">`; track.append(plate);
-    const cell = document.createElement('button'); cell.className = 'esCell'; cell.type = 'button'; cell.dataset.eraIndex = index; cell.innerHTML = `<img src="${esc(era.image)}" alt="">`; bar.append(cell);
-    const pip = document.createElement('button'); pip.className = `pip${index % 4 === 0 ? ' mark' : ''}`; pip.type = 'button'; pip.dataset.eraIndex = index; pip.innerHTML = `<i style="background-image:url(${esc(era.image)})"></i><b>${String(index + 1).padStart(2, '0')}</b>`; pips.append(pip);
-  });
-  const band = document.createElement('div'); band.style.flex = '32 1 0'; const label = document.createElement('b'); label.textContent = '守护龙纪事'; band.append(label); bands.append(band);
+function annalsRows() {
+  return state.index.eras.map((era) => ({
+    i: era.ordinal,
+    src: era.image,
+    era: era.name.split(/[、，与]/, 1)[0],
+    y: rangeText(era.sourceRange),
+    ys: era.sourceRange[0],
+    t: era.name,
+    s: `${era.presetCount} 个预设角色 · ${era.secondaryCharacterCount} 个次要人物记录`,
+    r: 1.5,
+  }));
 }
-function renderEra() {
-  const era = meta();
-  $$('#eraSel .pl,#eraSel .pip,#eraSel .esCell').forEach((element) => element.classList.toggle('on', Number(element.dataset.eraIndex) === state.eraIndex));
-  $('#esNum').textContent = String(era.ordinal).padStart(2, '0');
-  $('#esTtl').innerHTML = `<span>${esc(era.name)}</span><span>${rangeText(era.sourceRange)}</span>`;
-  $('#esEra').textContent = `${era.presetCount} 个预设角色 · ${era.secondaryCharacterCount} 个次要人物记录`;
-  const reel = $('#esReel'); const plates = $$('#esTrack .pl'); const narrow = innerWidth <= 760; const height = reel.clientHeight || 420; const gap = narrow ? Math.round(innerWidth * .10) : 6; const max = narrow ? innerWidth : innerWidth * .62;
-  $('#esTrack').style.gap = `${gap}px`; let before = 0; let selectedWidth = 0;
-  plates.forEach((plate, index) => { const image = state.index.eras[index]; const ratio = 1.5; const width = index === state.eraIndex || narrow ? Math.min(max, height * ratio) : 92; plate.style.width = `${width}px`; plate.style.height = `${Math.min(height, width / ratio)}px`; if (index < state.eraIndex) before += width + gap; if (index === state.eraIndex) selectedWidth = width; });
-  $('#esTrack').style.transform = `translateX(${-Math.max(0, before + selectedWidth / 2 - reel.clientWidth / 2)}px)`;
-  requestAnimationFrame(() => $$('#esBar .esCell')[state.eraIndex]?.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' }));
+function showEras() {
+  hideAll(); window.MENU.on = false; if (window.mosStop) window.mosStop();
+  window.esOpen('world');
 }
-function showEras() { hideAll(); window.MENU.on = false; if (window.mosStop) window.mosStop(); $('#eraSel').classList.add('on'); renderEra(); }
 
 async function chooseEra() {
   const chosen = meta();
@@ -70,12 +63,28 @@ async function chooseEra() {
 
 function openForge() {
   hideAll(); const wrap = $('#feWrap'); wrap.classList.add('on'); $('#fePanR').classList.add('locArtOn'); $('#feMapImg').src = state.era.image; $('#feMapImg').alt = state.era.name; $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
-  renderForge();
+  state.step = ''; setStep('loc', false, true);
 }
-function setStep(next, backwards = false) {
+function applyStep(next) {
   if (state.step === 'per' && state.route === 'custom') state.custom = readCustom();
-  const stage = $('#feStage'); stage.classList.toggle('feBack', backwards); stage.classList.add('feTurn');
-  setTimeout(() => { state.step = next; renderForge(); stage.classList.add('feEnter'); stage.classList.remove('feTurn'); requestAnimationFrame(() => requestAnimationFrame(() => stage.classList.remove('feEnter', 'feBack'))); }, 180);
+  state.step = next; renderForge();
+}
+const FE_TURN = 190;
+function enterStep(stage) {
+  stage.classList.remove('feTurn'); stage.classList.add('feEnter');
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    stage.classList.remove('feEnter');
+    state._btmr = setTimeout(() => { state._btmr = 0; stage.classList.remove('feBack'); }, 400);
+  }));
+}
+function setStep(next, backwards = false, instant = false) {
+  const stage = $('#feStage'); if (!stage) { applyStep(next); return; }
+  if (state._tmr) { clearTimeout(state._tmr); state._tmr = 0; }
+  if (state._btmr) { clearTimeout(state._btmr); state._btmr = 0; }
+  stage.classList.toggle('feBack', Boolean(backwards));
+  if (instant || !state.step) { applyStep(next); enterStep(stage); return; }
+  stage.classList.remove('feEnter'); stage.classList.add('feTurn');
+  state._tmr = setTimeout(() => { state._tmr = 0; applyStep(next); enterStep(stage); }, FE_TURN);
 }
 function renderForge() {
   const wrap = $('#feWrap'); wrap.dataset.step = state.step; $('#feStName').textContent = stepNames[state.step];
@@ -93,10 +102,20 @@ function renderRoute() {
 function selectCard(id) { state.cardId = id; renderPersona(); }
 function renderPersona() {
   const selected = card(); $('#fePreList').innerHTML = state.era.cards.map((item) => `<button class="fePre ${item.id === state.cardId ? 'on' : ''}" data-card="${esc(item.id)}"><b>${esc(item.name)}</b><span>${item.isMainDragon ? '主角龙 · 本时代形态' : '正典可选角色'} · ${item.eraSafeDialogueSamples.length} 条本期对白</span></button>`).join('');
-  const portrait = $('#fePerPortraitImg'); portrait.src = selected.portrait; portrait.alt = selected.name; portrait.classList.add('ready'); $('#fePerPortraitCap').textContent = selected.name; $('#fePerT').textContent = state.route === 'preset' ? '人物档案' : '存在条件锚点';
+  turnPortrait(selected.portrait, selected.name, selected.name); $('#fePerT').textContent = state.route === 'preset' ? '人物档案' : '存在条件锚点';
   $('#fePerDoss').innerHTML = cardDossier(selected);
   $('#fePerNote').textContent = state.route === 'preset' ? '对白、心声、思考方式与知识边界均来自原文证据。' : '锚点只限制自定义角色能否在本时代存在；不会把玩家变成该正典人物。';
   $('#fePerForm').innerHTML = state.route === 'custom' ? customFields() : '';
+}
+const FE_PTURN = 190;
+function turnPortrait(src, alt, capText) {
+  const box = $('#fePerPortrait'), img = $('#fePerPortraitImg'), cap = $('#fePerPortraitCap'); if (!box || !img) return;
+  if (img.getAttribute('src') === src) { img.alt = alt; img.classList.add('ready'); if (cap) cap.textContent = capText; return; }
+  const run = box._run = (box._run || 0) + 1; if (box._t) clearTimeout(box._t); if (box._g) clearTimeout(box._g);
+  let loaded = false, turned = false;
+  const done = () => { if (box._run !== run || !loaded || !turned) return; if (box._g) clearTimeout(box._g); img.src = src; img.alt = alt; img.classList.add('ready'); if (cap) cap.textContent = capText; box.classList.remove('pTurn'); box.classList.add('pEnter'); requestAnimationFrame(() => requestAnimationFrame(() => { if (box._run === run) box.classList.remove('pEnter'); })); };
+  const preload = new Image(); preload.onload = () => { loaded = true; done(); }; preload.onerror = () => { if (box._run !== run) return; img.removeAttribute('src'); img.classList.remove('ready'); if (cap) cap.textContent = capText; box.classList.remove('pTurn', 'pEnter'); };
+  box.classList.add('pTurn'); box._t = setTimeout(() => { box._t = 0; turned = true; done(); }, FE_PTURN); box._g = setTimeout(() => { box._g = 0; if (box._run === run && !loaded) box.classList.remove('pTurn', 'pEnter'); }, 2600); preload.src = src;
 }
 function evidence(items, limit = 4) { return (items || []).slice(0, limit).map((item) => `${esc(item.text)}<small>第 ${item.sourceIndex} 源章</small>`).join(''); }
 function cardDossier(item) {
@@ -138,8 +157,12 @@ function showGame() {
   hideAll(); $('#game').classList.add('show'); $('#gLoc').textContent = `${state.era.name} · ${state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name}`;
   $('#gNarr').innerHTML = `<p class="sys">▚&nbsp;ACTVS&nbsp;I</p>${state.error ? `<p class="world-error">${esc(state.error)}</p>` : ''}${state.history.map((message) => `<p class="${message.role === 'user' ? 'me' : ''}"><span class="world-label">${esc(message.label)}</span>${esc(message.content)}</p>`).join('')}${state.busy ? '<p class="sys">ORACVLVM · 玩家 API 正在生成…</p>' : ''}<div class="gEot">·&nbsp;&nbsp;·&nbsp;&nbsp;EOT&nbsp;&nbsp;·&nbsp;&nbsp;·</div>`;
   const portrait = state.player.mode === 'preset' ? state.player.card.portrait : state.player.anchor.portrait; const name = state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name;
-  $('#gMfd').innerHTML = `<div class="mSec world-persona"><img src="${esc(portrait)}" alt="${esc(name)}"><div><div class="mHead"><i>◆</i>&nbsp;PERSONA</div><b>${esc(name)}</b><span>${state.player.mode === 'preset' ? '正典预设' : '玩家自定义'}</span></div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;AETAS&nbsp;·&nbsp;时代</div><div class="mRow"><span>${esc(state.era.name)}</span><b>${String(state.era.ordinal).padStart(2, '0')}</b></div><div class="mRow"><span>原文范围</span><b>${rangeText(state.era.sourceRange)}</b></div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;SOCII&nbsp;·&nbsp;同行意向</div>${state.player.companions.length ? state.player.companions.map((item) => `<div class="mLead"><i>◆</i>&nbsp;${esc(item.name)} · ${esc(item.relation)}</div>`).join('') : '<div class="mLead">未选择</div>'}</div>`;
-  $('#gIn').disabled = state.busy; $('#gSend').classList.toggle('off', state.busy); requestAnimationFrame(() => { $('#gNarr').scrollTop = $('#gNarr').scrollHeight; });
+  const anchor = state.player.mode === 'preset' ? state.player.card : state.player.anchor;
+  const identity = anchor.canonIdentityEvidence?.[0]?.text || '原文未另作说明';
+  const thought = anchor.thoughtEngine?.privateEngineEvidence?.[0]?.text || anchor.thoughtEngine?.absenceRule || '原文未提供可直接归属的心声';
+  $('#gMfd').innerHTML = `<div class="mSec world-persona"><img src="${esc(portrait)}" alt="${esc(name)}"><div><div class="mHead"><i>◆</i>&nbsp;PERSONA</div><b>${esc(name)}</b><span>${state.player.mode === 'preset' ? '正典预设' : '玩家自定义'}</span></div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;AETAS&nbsp;·&nbsp;时代</div><div class="mRow"><span>${esc(state.era.name)}</span><b>${String(state.era.ordinal).padStart(2, '0')}</b></div><div class="mRow"><span>原文范围</span><b>${rangeText(state.era.sourceRange)}</b></div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;PRAESENTES&nbsp;·&nbsp;在场人物</div>${state.player.companions.length ? state.player.companions.map((item) => `<div class="mLead"><i>◆</i>&nbsp;${esc(item.name)} · ${esc(item.relation)}</div>`).join('') : '<div class="mLead">尚无同行意向</div>'}</div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;INDICIA&nbsp;·&nbsp;人物证据</div><div class="mLead">${esc(identity)}</div><div class="mMind">${esc(thought)}</div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;ANNALES&nbsp;·&nbsp;节点编年</div><div class="mRow"><span>${esc(state.era.opening.chapterTitle)}</span><b>${esc(state.era.opening.startParagraph)}–${esc(state.era.opening.endParagraph)}</b></div><div class="mLead">默认开局为 ${state.era.opening.paragraphCount} 段连续原文</div></div><div class="mSec"><div class="mHead"><i>◆</i>&nbsp;LEX&nbsp;·&nbsp;正典边界</div><div class="mLead">只使用第 ${state.era.sourceRange[0]}–${state.era.sourceRange[1]} 源章及已读取的前置正典</div><div class="mLead">不补造人物、国家、历史、能力、物品与地点</div></div>`;
+  $('#gIn').disabled = state.busy; $('#gSend').classList.toggle('off', state.busy); if (window.WORLD_GAME_UI) window.WORLD_GAME_UI.show(); requestAnimationFrame(() => { $('#gNarr').scrollTop = $('#gNarr').scrollHeight; });
+  if (window.WORLD_UI?.saveAuto) window.WORLD_UI.saveAuto();
 }
 
 function queryTerms(text) { const clean = String(text).replace(/[\s\p{P}\p{S}]+/gu, ''); const terms = new Set(); for (let i = 0; i < clean.length - 1; i += 1) terms.add(clean.slice(i, i + 2)); return [...terms]; }
@@ -156,25 +179,45 @@ function buildSystem(query, customOpening) {
   return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面提供的原文证据。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。证据不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成原文人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与时代证据冲突时必须停下列出来源内可选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的原文样本与决策证据，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于原文。' : '默认开局已逐字提供，不得重写。'}\n\n【当前时代】\n${state.era.name}，${rangeText(state.era.sourceRange)}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按请求检索到的世界书】\n${retrieveLore(`${query}\n${JSON.stringify(player)}\n${JSON.stringify(companions)}`)}`;
 }
 async function generate(text, customOpening = false) { const config = apiSettings(); if (!config.endpoint || !config.model || !config.apiKey) throw new Error('请先填写接口、模型和密钥。'); return requestChatCompletion(config, [{ role: 'system', content: buildSystem(text, customOpening) }, ...state.history.map(({ role, content }) => ({ role, content })), { role: 'user', content: text }]); }
-async function sendMessage() { const input = $('#gIn'); const text = input.value.trim(); if (!text || state.busy) return; input.value = ''; state.error = ''; state.history.push({ role: 'user', content: text, label: '玩家' }); state.busy = true; showGame(); try { state.history.push({ role: 'assistant', content: await generate(text), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); } }
+async function sendMessageText(text) { if (!text || state.busy) return; state.error = ''; state.history.push({ role: 'user', content: text, label: '玩家' }); state.busy = true; showGame(); try { state.history.push({ role: 'assistant', content: await generate(text), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); } }
+async function sendMessage() { const input = $('#gIn'); const text = input.value.trim(); if (!text || state.busy) return; input.value = ''; await sendMessageText(text); }
 
 document.addEventListener('click', (event) => {
-  const eraTarget = event.target.closest('[data-era-index]'); if (eraTarget) { const index = Number(eraTarget.dataset.eraIndex); if (index === state.eraIndex && eraTarget.classList.contains('pl')) chooseEra(); else { state.eraIndex = index; renderEra(); } return; }
   const route = event.target.closest('[data-route]'); if (route) { state.route = route.dataset.route; renderRoute(); return; }
   const persona = event.target.closest('[data-card]'); if (persona) { selectCard(persona.dataset.card); return; }
   const companion = event.target.closest('[data-companion]'); if (companion) { const id = companion.dataset.companion; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); return; }
 });
-$('#miMiss').addEventListener('pointerup', showEras); $('#miOrac').addEventListener('pointerup', () => openSettings()); $('#esBack').addEventListener('pointerup', showMenu);
+$('#miMiss').addEventListener('pointerup', showEras); $('#miOrac').addEventListener('pointerup', () => openSettings());
 $('#feGo').addEventListener('pointerup', () => { const index = steps.indexOf(state.step); if (index < steps.length - 1) setStep(steps[index + 1]); else beginGame(); });
 $('#feBack').addEventListener('pointerup', () => { const index = steps.indexOf(state.step); if (index > 0) setStep(steps[index - 1], true); else showEras(); });
-$('#gtApi').addEventListener('pointerup', () => openSettings()); $('#gtExit').addEventListener('pointerup', showMenu); $('#gSend').addEventListener('pointerup', sendMessage); $('#gIn').addEventListener('keydown', (event) => { if (event.key === 'Enter') { event.preventDefault(); sendMessage(); } });
-$('#apiCancel').addEventListener('pointerup', closeSettings); $('#dlgApi').addEventListener('pointerup', (event) => { if (event.target === $('#dlgApi')) closeSettings(); });
-$('#settingsForm').addEventListener('submit', (event) => { event.preventDefault(); const data = Object.fromEntries(new FormData(event.currentTarget).entries()); if (!data.endpoint || !data.model || !data.apiKey) { $('#settingsError').textContent = '接口地址、模型和密钥都需要填写。'; return; } localStorage.setItem('guardianDragonApi', JSON.stringify(data)); closeSettings(); });
-addEventListener('keydown', (event) => { if (event.key === 'Escape') { if ($('#dlgApi').style.display === 'flex') closeSettings(); else if ($('#game').classList.contains('show')) showMenu(); else if ($('#feWrap').classList.contains('on')) { const index = steps.indexOf(state.step); if (index > 0) setStep(steps[index - 1], true); else showEras(); } else if ($('#eraSel').classList.contains('on')) showMenu(); } if ($('#eraSel').classList.contains('on') && ['ArrowLeft', 'ArrowRight'].includes(event.key)) { state.eraIndex = Math.max(0, Math.min(state.index.eras.length - 1, state.eraIndex + (event.key === 'ArrowRight' ? 1 : -1))); renderEra(); } });
-addEventListener('resize', () => { if ($('#eraSel').classList.contains('on')) renderEra(); });
+$('#gtApi').addEventListener('pointerup', () => openSettings()); $('#gSend').addEventListener('pointerup', sendMessage); $('#gIn').addEventListener('keydown', (event) => { if (event.key === 'Enter') { event.preventDefault(); sendMessage(); } });
+$('#dlgApi').addEventListener('pointerup', (event) => { if (event.target === $('#dlgApi')) closeSettings(); });
+$('#apiSave').addEventListener('pointerup', () => { const data = { endpoint: $('#apiBase').value.trim(), model: $('#apiModel').value.trim(), apiKey: $('#apiKey').value.trim(), temperature: .8, maxTokens: 1600 }; if (!data.endpoint || !data.model) { $('#apiMsg').textContent = '接口地址和模型需要填写。'; return; } localStorage.setItem('guardianDragonApi', JSON.stringify(data)); closeSettings(); });
+$('#apiClear').addEventListener('pointerup', () => { localStorage.removeItem('guardianDragonApi'); $('#apiBase').value = ''; $('#apiModel').value = ''; $('#apiKey').value = ''; $('#apiMsg').textContent = '已清除本机接口配置。'; });
+$('#apiEye').addEventListener('pointerup', () => { $('#apiKey').type = $('#apiKey').type === 'password' ? 'text' : 'password'; });
+addEventListener('keydown', (event) => { if (event.key === 'Escape') { if ($('#dlgApi').style.display === 'flex') closeSettings(); else if ($('#game').classList.contains('show')) showMenu(); else if ($('#feWrap').classList.contains('on')) { const index = steps.indexOf(state.step); if (index > 0) setStep(steps[index - 1], true); else showEras(); } } });
 
 async function init() {
-  try { const [a, b] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`)]); if (!a.ok || !b.ok) throw new Error('正典资料索引读取失败。'); state.index = await a.json(); state.customization = await b.json(); buildEraSelector(); showMenu(); }
+  try {
+    const [a, b] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`)]); if (!a.ok || !b.ok) throw new Error('正典资料索引读取失败。');
+    state.index = await a.json(); state.customization = await b.json();
+    window.WORLD_ANNALS = annalsRows();
+    window.WORLD_UI = {
+      enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },
+      showMenu,
+      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, savedAt: new Date().toISOString() }; },
+      saveAuto() { if (state.player) { localStorage.setItem('guardianDragonAutoSave', JSON.stringify(this.snapshot())); $('#miCont').style.display = ''; } },
+      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; showGame(); },
+      async loadAuto() { const raw = localStorage.getItem('guardianDragonAutoSave'); if (raw) await this.restore(JSON.parse(raw)); },
+      lore() { return state.era?.lorebook || []; },
+      undo() { if (state.busy || !state.history.length) return; const assistant = state.history.pop(); const user = state.history.at(-1)?.role === 'user' ? state.history.pop() : null; state.lastUndone = { assistant, user }; showGame(); },
+      async redo() { if (state.busy || !state.lastUndone?.user) return; const text = state.lastUndone.user.content; state.lastUndone = null; await sendMessageText(text); },
+    };
+    window.WORLD_UI_STATE = () => state;
+    window.__FELVN_STATE__ = () => ({ panel: { npcs: (state.player?.companions || []).map((item) => ({ name: item.name, role: item.relation })), world: { '纪年': state.era?.name || '', '时地': state.era?.name || '' } }, op: { era: state.era?.name || '', scene: state.era?.name || '', year: state.era?.ordinal || 1 }, text: state.history.at(-1)?.content || '', hero: state.player?.mode === 'preset' ? state.player?.card?.name : state.player?.custom?.name });
+    if (localStorage.getItem('guardianDragonAutoSave')) $('#miCont').style.display = '';
+    showMenu();
+  }
   catch (error) { $('#menu .mFoot').textContent = error.message; }
 }
 init();

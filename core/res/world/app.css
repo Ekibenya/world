@@ -16,7 +16,6 @@ button{border:0}
 .dlgActions{display:flex;justify-content:flex-end;gap:24px}
 .dlgActions .eBtn{margin-top:10px;background:transparent;color:var(--txt);font-family:var(--mono);cursor:pointer}
 #settingsError{min-height:18px;color:#9c3028}
-#game .gMain{left:0}
 #game .gNarr p{white-space:pre-wrap}
 .world-label{display:block;margin-bottom:8px;color:var(--gold-hi);font-family:var(--mono);font-size:10px;letter-spacing:.18em}
 .world-error{padding:10px;border:1px solid rgba(156,48,40,.45);color:#7c211d}
@@ -25,4 +24,9 @@ button{border:0}
 .world-persona b,.world-persona span{display:block;margin:6px 0;font-size:12px}
 .world-persona span{color:var(--mut);font-size:9px}
 #gSend.off{opacity:.35;pointer-events:none}
-@media(max-width:760px){#game .gMain{right:0}.gMfd{display:none!important}.world-opening{font-size:12px}.dlgActions{gap:12px}}
+#gmMapIn{width:100%;height:100%}
+#gmMapIn>img{inset:0;width:100%;height:100%;object-fit:cover;opacity:.34;filter:saturate(.6) contrast(.85)}
+.world-map-ledger{position:absolute;left:8%;right:8%;top:16%;display:grid;gap:8px;padding:18px;background:rgba(237,231,217,.80);border:1px solid rgba(19,18,13,.2);color:var(--mut);font-size:10px;line-height:1.8}
+.world-map-ledger b{color:var(--gold-hi);letter-spacing:.16em;font-weight:400}
+.world-map-ledger button{padding:7px 10px;background:rgba(255,255,255,.26);border:1px solid rgba(19,18,13,.18);text-align:left;cursor:pointer}
+@media(max-width:760px){.world-opening{font-size:12px}.dlgActions{gap:12px}}
