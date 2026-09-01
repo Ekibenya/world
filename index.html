@@ -1,56 +1,60 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" class="lux">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ede7d9">
-  <meta name="description" content="以完整原文正典为边界的跨时代角色扮演游戏">
-  <link rel="icon" href="data:,">
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="stylesheet" href="/core/res/world/app.css?v=4">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ede7d9"><meta name="description" content="以完整原文正典为边界的跨时代角色扮演游戏">
+  <link rel="icon" href="data:,"><link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=5"><link rel="stylesheet" href="/core/res/world/app.css?v=5">
   <title>守护龙纪事</title>
 </head>
 <body>
-  <header class="topbar">
-    <button class="brand" type="button" data-action="home" aria-label="返回主界面">
-      <span class="brand-mark">眠</span>
-      <span><b>守护龙纪事</b><small>CHRONICA DRACONIS</small></span>
-    </button>
-    <div class="top-actions">
-      <span class="source-state" id="sourceState">正在核对正典资料…</span>
-      <button class="ghost top-api" type="button" data-action="settings">ORACVLVM · 连接 AI</button>
+  <div id="eraSel">
+    <div id="esBrand"><b>ANNALES</b>&nbsp;·&nbsp;纪年选择</div><div id="esBar"></div>
+    <div id="esReel"><div id="esTrack"></div></div>
+    <div id="esMission"><div class="m-tag"><span class="tag">纪年</span></div><div><span class="num" id="esNum">01</span></div><div class="ttl" id="esTtl"><span></span><span></span></div><div class="era" id="esEra"></div></div>
+    <div id="esChron"><div id="esBands"></div><div id="esPips"></div></div>
+    <div id="esFoot"><span class="l"><span class="go back" id="esBack">返回<span class="key">ESC</span></span><span class="lbl">CLICK / DRAG / ← → TO MOVE</span></span></div>
+  </div>
+  <canvas id="grain"></canvas>
+
+  <div id="menu" class="show">
+    <canvas id="menuCv"></canvas><canvas id="mosCv"></canvas><div id="mosRiso"></div><div id="luxTg">☀</div>
+    <div class="mItems"><span class="mItem" id="miCont" style="display:none">REDIRE&nbsp;<i>·</i>&nbsp;继续游戏</span><span class="mItem" id="miMiss">INITIVM&nbsp;<i>·</i>&nbsp;开始</span><span class="mItem" id="miOrac">ORACVLVM&nbsp;<i>·</i>&nbsp;连接AI</span></div>
+    <div id="eraHud"><b id="ehYear"></b><span>拖动旋转&nbsp;·&nbsp;点击时代进入角色编辑&nbsp;·&nbsp;ESC&nbsp;返回</span></div>
+    <div class="mFoot">CHRONICA&nbsp;DRACONIS&nbsp;//&nbsp;WORLD.SYS&nbsp;&nbsp;·&nbsp;&nbsp;XXXII&nbsp;AETATES</div>
+  </div>
+
+  <div id="feWrap" data-step="loc">
+    <div id="feBg"><div id="feMap"><div id="feMapIn"><img id="feMapImg" alt=""></div></div></div>
+    <div id="feHead"><span><b>WORLD</b>&nbsp;·&nbsp;<span class="st" id="feStName">模式</span></span><span id="feSteps"><i data-i="loc">MODVS&nbsp;模式</i><i data-i="per">PERSONA&nbsp;人物</i><i data-i="soc">SOCII&nbsp;同伴</i><i data-i="sit">SITVS&nbsp;开场</i></span><span class="er" id="feEraLbl"></span></div>
+    <div id="feStage">
+      <div id="feArtVeil"></div><button id="feArtX" type="button">✕</button><button id="feArtP" type="button">‹</button><button id="feArtN" type="button">›</button>
+      <div id="fePerPortrait"><img id="fePerPortraitImg" alt=""><div id="fePerPortraitCap"></div><button id="feArtOk" type="button">确认</button></div>
+      <div class="fePan" id="fePanL"><div class="feGl"></div><div class="feIn">
+        <div class="feSec" data-s="loc"><div class="feColH">开局方式</div><div id="feLocList"></div><div class="feNote">默认开局直接使用原文；自定义开局交给玩家自己的 API。</div></div>
+        <div class="feSec" data-s="per"><div class="feColH">预设角色&nbsp;·&nbsp;此代在册者</div><div id="fePreList"></div></div>
+        <div class="feSec" data-s="soc"><div class="feRow"><span class="t">本时代人物</span><span id="feSocCount"></span></div><div class="feNote" style="margin:0 0 12px">点选希望同行或接触的人物；选择不会自动创造关系。</div><div id="feSocList"></div></div>
+        <div class="feSec" data-s="sit"><div class="feColH">此刻的场面</div><div class="sub" id="feSitHelp"></div></div>
+      </div></div>
+      <div class="fePan" id="fePanR"><div class="feGl"></div><div class="feIn">
+        <div class="feSec" data-s="loc"><div id="feLocInfo"><div class="lt"><span id="feLocN">01</span><b id="feLocCn">默认正典开局</b></div><div class="ld" id="feLocD"></div><div class="lw" id="feLocW"></div></div></div>
+        <div class="feSec" data-s="per"><div class="feRow"><span class="t" id="fePerT">人物档案</span><span></span></div><div class="feGrid" id="fePerForm"></div><div id="fePerDoss"></div><div class="feNote" id="fePerNote"></div></div>
+        <div class="feSec" data-s="soc"><div class="feColH">档案</div><div id="feDoss">点左边任意一位，这里出档案。</div></div>
+        <div class="feSec" data-s="sit"><textarea id="feSit" aria-label="自定义开局要求"></textarea><div id="feSum"></div></div>
+      </div></div>
     </div>
-  </header>
+    <div id="feFoot"><span class="l"><span class="go back" id="feBack">返回<span class="key">ESC</span></span><span id="feHint">● WORLD</span></span><span><span class="go" id="feGo">下一步<span class="key">NEXT ⏎</span></span></span></div>
+  </div>
 
-  <main id="app" aria-live="polite"></main>
+  <div id="game">
+    <canvas id="gTerr"></canvas><div class="gTop"><span class="gBrand">CHRONICA&nbsp;DRACONIS&nbsp;//&nbsp;WORLD.SYS</span><span class="gLoc" id="gLoc"></span><span class="gTools"><span class="gt" id="gtApi">ORACVLVM</span><span class="gt" id="gtExit">EXIT</span></span></div>
+    <div class="gMain"><div class="gNarr" id="gNarr"></div><div class="gInput"><div class="gLine"><span class="gmBtn" id="gModeBtn"><i class="ms">◆</i><b>说话／行动</b></span><input id="gIn" autocomplete="off" spellcheck="false" placeholder="写下你说的话或要做的事"><span class="gSend" id="gSend">➤</span></div></div></div>
+    <aside class="gMfd" id="gMfd"></aside>
+  </div>
 
-  <dialog id="settingsDialog" class="settings-dialog">
-    <form method="dialog" id="settingsForm">
-      <div class="dialog-head">
-        <div><p class="eyebrow">ORACVLVM · PLAYER API</p><h2>玩家自己的生成接口</h2></div>
-        <button class="icon-button" value="cancel" aria-label="关闭">×</button>
-      </div>
-      <p class="muted">自定义开局与后续游戏由这里填写的接口生成。密钥只保存在当前浏览器。</p>
-      <label>接口地址<input name="endpoint" autocomplete="url" placeholder="https://api.example.com/v1/chat/completions"></label>
-      <label>模型<input name="model" autocomplete="off" placeholder="模型名称"></label>
-      <label>API 密钥<input name="apiKey" type="password" autocomplete="off" placeholder="sk-…"></label>
-      <div class="form-grid">
-        <label>温度<input name="temperature" type="number" min="0" max="2" step="0.1" value="0.8"></label>
-        <label>最大输出<input name="maxTokens" type="number" min="256" max="8192" step="128" value="1600"></label>
-      </div>
-      <p class="form-error" id="settingsError" role="alert"></p>
-      <div class="dialog-actions">
-        <button class="ghost" value="cancel">RETVRN · 取消</button>
-        <button class="primary" value="default" data-action="save-settings">SERVARE · 保存</button>
-      </div>
-    </form>
-  </dialog>
+  <div class="gDlg" id="dlgApi"><form class="box" id="settingsForm"><span class="tag">ORACVLVM</span><h2>玩家自己的生成接口</h2><p class="sub">自定义开局与后续游戏由这里填写的接口生成。密钥只保存在当前浏览器。</p><label>接口地址<input name="endpoint" autocomplete="url"></label><label>模型<input name="model" autocomplete="off"></label><label>API 密钥<input name="apiKey" type="password" autocomplete="off"></label><div class="feGrid"><label>温度<input name="temperature" type="number" min="0" max="2" step="0.1" value="0.8"></label><label>最大输出<input name="maxTokens" type="number" min="256" max="8192" step="128" value="1600"></label></div><p id="settingsError" class="sub"></p><div class="dlgActions"><span class="eBtn" id="apiCancel">返回</span><button class="eBtn" type="submit">保存</button></div></form></div>
 
-  <template id="loadingTemplate">
-    <section class="loading"><span class="spinner"></span><p>正在整理这一时代的原文证据…</p></section>
-  </template>
-
-  <script type="module" src="/core/res/world/app.js?v=4"></script>
+  <script>window.$=(s)=>document.querySelector(s);window.MENU={on:true};</script><script src="/core/res/world/menu-shell.js?v=5"></script><script type="module" src="/core/res/world/app.js?v=5"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
 </body>
 </html>
