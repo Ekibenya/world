@@ -167,14 +167,16 @@ function retrieveLore(query, context = '') {
   const enabled = state.era.lorebook.filter((entry) => entry.enabled !== false);
   const always = enabled.filter((entry) => entry.constant).map((entry) => entry.content);
   const terms = queryTerms(query);
-  const contextTerms = queryTerms(context);
+  const recentHistory = state.history.slice(-8).map(({ role, content }) => `${role}: ${content}`).join('\n');
+  const contextTerms = queryTerms(`${context}\n${recentHistory}`);
   const scored = enabled.filter((entry) => !entry.constant).map((entry) => {
     const searchable = `${entry.title || ''}\n${entry.content || ''}`;
     const termHits = terms.reduce((sum, term) => sum + (searchable.includes(term) ? 1 : 0), 0);
     const contextHits = contextTerms.reduce((sum, term) => sum + (searchable.includes(term) ? 1 : 0), 0);
     const keyHits = (entry.keys || []).reduce((sum, key) => sum + (key && query.includes(key) ? 1 : 0), 0);
     const secondaryHits = (entry.secondaryKeys || []).reduce((sum, key) => sum + (key && query.includes(key) ? 1 : 0), 0);
-    return { entry, score: keyHits * 240 + secondaryHits * 90 + termHits * 8 + contextHits * .15 };
+    const sourceEvidenceBonus = entry.category === 'source-verbatim' && (keyHits || termHits >= 3) ? 45 : 0;
+    return { entry, score: keyHits * 240 + secondaryHits * 90 + termHits * 8 + contextHits * .15 + sourceEvidenceBonus };
   }).filter((item) => item.score > 0).sort((a, b) => b.score - a.score || (b.entry.order || 0) - (a.entry.order || 0));
   const budget = Math.max(3000, Number($('#loreBud')?.value || 9000));
   const chosen = []; let used = 0;
