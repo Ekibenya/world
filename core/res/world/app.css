@@ -25,4 +25,13 @@ button{border:0}
 .world-map-ledger{position:absolute;left:8%;right:8%;top:16%;display:grid;gap:8px;padding:18px;background:rgba(237,231,217,.80);border:1px solid rgba(19,18,13,.2);color:var(--mut);font-size:10px;line-height:1.8}
 .world-map-ledger b{color:var(--gold-hi);letter-spacing:.16em;font-weight:400}
 .world-map-ledger button{padding:7px 10px;background:rgba(255,255,255,.26);border:1px solid rgba(19,18,13,.18);text-align:left;cursor:pointer}
+#dlgBook{background:rgba(239,233,219,.86)}
+#dlgBook .box{background:rgba(237,231,217,.97);box-shadow:0 18px 48px rgba(19,18,13,.24);color:#25241d}
+#dlgBook .cxWrap{border:1px solid rgba(19,18,13,.14);background:rgba(255,255,255,.22)}
+#dlgBook .cxTops,#dlgBook .cxCats,#dlgBook .cxEnts,#dlgBook .cxBody{min-height:0}
+#dlgBook .cxTop,#dlgBook .cxCat,#dlgBook .cxEnt{color:#5f5c53}
+#dlgBook .cxTop.on,#dlgBook .cxCat.on{color:#e9e3d6}
+#dlgBook .cxEnt.on{color:#523000}
+#dlgBook .cxBody h3{color:#523000}
+#dlgBook .cxBody p{color:#2e2d25}
 @media(max-width:760px){.world-opening{font-size:12px}.dlgActions{gap:12px}}
