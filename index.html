@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#10131d">
+  <meta name="theme-color" content="#ede7d9">
   <meta name="description" content="以完整原文正典为边界的跨时代角色扮演游戏">
   <link rel="icon" href="data:,">
   <link rel="manifest" href="/manifest.webmanifest">
@@ -11,15 +11,14 @@
   <title>守护龙纪事</title>
 </head>
 <body>
-  <div class="sky" aria-hidden="true"></div>
   <header class="topbar">
-    <button class="brand" type="button" data-action="home" aria-label="返回时代选择">
+    <button class="brand" type="button" data-action="home" aria-label="返回主界面">
       <span class="brand-mark">眠</span>
-      <span><b>守护龙纪事</b><small>原文正典角色扮演</small></span>
+      <span><b>守护龙纪事</b><small>CHRONICA DRACONIS</small></span>
     </button>
     <div class="top-actions">
       <span class="source-state" id="sourceState">正在核对正典资料…</span>
-      <button class="ghost" type="button" data-action="settings">API 设置</button>
+      <button class="ghost top-api" type="button" data-action="settings">ORACVLVM · 连接 AI</button>
     </div>
   </header>
 
@@ -28,7 +27,7 @@
   <dialog id="settingsDialog" class="settings-dialog">
     <form method="dialog" id="settingsForm">
       <div class="dialog-head">
-        <div><p class="eyebrow">PLAYER API</p><h2>玩家自己的生成接口</h2></div>
+        <div><p class="eyebrow">ORACVLVM · PLAYER API</p><h2>玩家自己的生成接口</h2></div>
         <button class="icon-button" value="cancel" aria-label="关闭">×</button>
       </div>
       <p class="muted">自定义开局与后续游戏由这里填写的接口生成。密钥只保存在当前浏览器。</p>
@@ -41,8 +40,8 @@
       </div>
       <p class="form-error" id="settingsError" role="alert"></p>
       <div class="dialog-actions">
-        <button class="ghost" value="cancel">取消</button>
-        <button class="primary" value="default" data-action="save-settings">保存</button>
+        <button class="ghost" value="cancel">RETVRN · 取消</button>
+        <button class="primary" value="default" data-action="save-settings">SERVARE · 保存</button>
       </div>
     </form>
   </dialog>

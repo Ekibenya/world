@@ -15,6 +15,7 @@ const state = {
   cardId: null,
   companions: new Map(),
   history: [],
+  eraFocus: null,
   phase: 'loading',
   busy: false,
   error: '',
@@ -58,35 +59,58 @@ function formatRange(range) {
   return `第 ${range[0]}–${range[1]} 源章`;
 }
 
-function renderEras() {
-  state.phase = 'eras';
+function setPhase(phase) {
+  state.phase = phase;
+  document.body.dataset.phase = phase;
+}
+
+function renderMenu() {
+  setPhase('menu');
   state.era = null;
   state.route = null;
   state.history = [];
-  const totalPresets = state.index.eras.reduce((sum, era) => sum + era.presetCount, 0);
   app.innerHTML = `
-    <section class="hero">
-      <div>
-        <p class="eyebrow">A CLOSED CANON ACROSS AGES</p>
-        <h1>从创世，到重新养育厄瑞玻斯。</h1>
-      </div>
-      <div class="hero-copy">
-        <p>先选择一个时代。默认开局直接取自原文章节；自定义开局只会交给玩家自己的 API，并接受该时代正典许可表检查。</p>
-        <div class="stat-row"><span class="stat">${state.index.eraCount} 个时代</span><span class="stat">${totalPresets} 个正典预设</span><span class="stat">全书顺序校验完成</span></div>
-      </div>
-    </section>
-    <section class="era-grid">
+    <section class="main-menu">
+      <div class="menu-field" aria-hidden="true"></div>
+      <nav class="menu-actions" aria-label="主菜单">
+        <button type="button" data-action="open-eras"><b>INITIVM</b><i>·</i><span>开始</span></button>
+        <button type="button" data-action="settings"><b>ORACVLVM</b><i>·</i><span>连接 AI</span></button>
+      </nav>
+      <p class="menu-foot">CHRONICA DRACONIS // WORLD.SYS <i>·</i> ${state.index.sourceCoverage.storyChapters} CAPITVLA <i>·</i> ${state.index.eraCount} AETATES</p>
+    </section>`;
+}
+
+function renderEras() {
+  setPhase('eras');
+  state.era = null;
+  state.route = null;
+  state.history = [];
+  const focused = eraById(state.eraFocus) || state.index.eras[0];
+  state.eraFocus = focused.id;
+  app.innerHTML = `
+    <section class="annals-screen">
+      <header class="annals-head"><button class="text-return" type="button" data-action="home">RETVRN · 返回</button><p>ANNALES · 纪年选择</p><span>${state.index.eraCount} AETATES</span></header>
+      <div class="era-grid" role="listbox" aria-label="时代">
       ${state.index.eras.map((era) => `
-        <button class="era-card" type="button" data-action="choose-era" data-era="${esc(era.id)}">
+        <button class="era-card ${era.id === focused.id ? 'focused' : ''}" type="button" role="option" aria-selected="${era.id === focused.id}" data-action="focus-era" data-era="${esc(era.id)}">
           <img class="era-card-art" src="${esc(era.image)}" alt="${esc(era.name)}时代插画" loading="lazy">
           <span class="era-card-shade" aria-hidden="true"></span>
           <span class="era-card-copy">
-          <span class="era-num">ERA ${String(era.ordinal).padStart(2, '0')}</span>
+          <span class="era-num">AETAS ${String(era.ordinal).padStart(2, '0')}</span>
           <h2>${esc(era.name)}</h2>
-          <div class="era-meta">${formatRange(era.sourceRange)}<br>${era.presetCount} 个预设 · ${era.secondaryCharacterCount} 个次要人物记录</div>
+          <div class="era-meta">${formatRange(era.sourceRange)} · ${era.presetCount} 个预设</div>
           </span>
         </button>`).join('')}
+      </div>
+      <div class="annals-focus">
+        <span class="annals-kicker">AETAS · 纪年</span>
+        <strong>${String(focused.ordinal).padStart(2, '0')}</strong>
+        <div><h1>${esc(focused.name)}</h1><p>${formatRange(focused.sourceRange)} · ${focused.presetCount} 个预设 · ${focused.secondaryCharacterCount} 个次要人物记录</p></div>
+        <button class="enter-era" type="button" data-action="choose-era" data-era="${esc(focused.id)}">PERGERE · 进入该时代</button>
+      </div>
+      <div class="annals-line" aria-hidden="true">${state.index.eras.map((era) => `<i class="${era.id === focused.id ? 'on' : ''}"></i>`).join('')}</div>
     </section>`;
+  requestAnimationFrame(() => app.querySelector('.era-card.focused')?.scrollIntoView({ block: 'nearest', inline: 'center' }));
 }
 
 async function chooseEra(id) {
@@ -107,14 +131,20 @@ async function chooseEra(id) {
 }
 
 function eraHeader(backAction = 'home') {
-  return `<div class="crumb"><button class="ghost" type="button" data-action="${backAction}">← 返回</button><span>ERA ${String(state.era.ordinal).padStart(2, '0')}</span><span>·</span><span>${esc(state.era.name)}</span></div>`;
+  return `<div class="crumb"><button class="text-return" type="button" data-action="${backAction}">RETVRN · 返回</button><span>AETAS ${String(state.era.ordinal).padStart(2, '0')}</span><span>·</span><span>${esc(state.era.name)}</span></div>`;
+}
+
+function flowSteps(active) {
+  const steps = [['aetas', 'AETAS', '时代'], ['persona', 'PERSONA', '人物'], ['socii', 'SOCII', '同伴'], ['initium', 'INITIVM', '开场']];
+  return `<nav class="flow-steps" aria-label="开局流程">${steps.map(([id, latin, zh], index) => `<span class="${id === active ? 'active' : ''}"><i>${String(index + 1).padStart(2, '0')}</i><b>${latin}</b><em>${zh}</em></span>`).join('')}</nav>`;
 }
 
 function renderRoute() {
-  state.phase = 'route';
+  setPhase('route');
   app.innerHTML = `
-    ${eraHeader('home')}
-    <figure class="era-banner"><img src="${esc(state.era.image)}" alt="${esc(state.era.name)}时代插画"><figcaption>ERA ${String(state.era.ordinal).padStart(2, '0')} · ${esc(state.era.name)}</figcaption></figure>
+    ${eraHeader('back-eras')}
+    ${flowSteps('aetas')}
+    <figure class="era-banner"><img src="${esc(state.era.image)}" alt="${esc(state.era.name)}时代插画"><figcaption>AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${esc(state.era.name)}</figcaption></figure>
     <section class="section-head">
       <div><p class="eyebrow">ENTRY ROUTE</p><h1>${esc(state.era.name)}</h1></div>
       <div class="evidence-strip"><span>${formatRange(state.era.sourceRange)}</span><span>${state.era.cards.length} 个可选角色</span><span>主角龙本期形态已锁定</span></div>
@@ -134,10 +164,11 @@ function renderRoute() {
 }
 
 function renderPresetSetup() {
-  state.phase = 'preset';
+  setPhase('preset');
   const selected = cardById(state.cardId);
   app.innerHTML = `
     ${eraHeader('back-route')}
+    ${flowSteps('persona')}
     <section class="section-head"><div><p class="eyebrow">CANON PRESET</p><h1>选择正典角色</h1></div><p class="muted">每张卡只使用本时代结束前的证据。后世对白不会提前泄露。</p></section>
     <section class="workspace">
       <div class="panel"><h2>本时代预设</h2><div class="preset-list">
@@ -205,10 +236,11 @@ function renderAgency() {
 }
 
 function renderCustomSetup() {
-  state.phase = 'custom';
+  setPhase('custom');
   const anchors = state.era.cards;
   app.innerHTML = `
     ${eraHeader('back-route')}
+    ${flowSteps('persona')}
     <section class="section-head"><div><p class="eyebrow">CUSTOM · PLAYER API</p><h1>在正典边界内自定义</h1></div><p class="muted">身份锚点提供时代许可，不会把你变成该正典角色。</p></section>
     <form class="panel custom-form" id="customForm">
       <div class="rule-box">先选一个本时代人物作为“存在条件锚点”。自定义角色可以有自己的姓名和不改变设定的外观，但不能继承锚点的特殊血缘、专属神器、私交、神格或剧情功绩。</div>
@@ -286,14 +318,25 @@ function companionPacket() {
 }
 
 function renderGame() {
-  state.phase = 'game';
+  setPhase('game');
   const playerName = state.player?.mode === 'preset' ? state.player.card.name : state.player?.custom?.name;
+  const playerPortrait = state.player?.mode === 'preset' ? state.player.card.portrait : '';
   app.innerHTML = `<section class="game">
     ${eraHeader(state.player?.mode === 'preset' ? 'back-preset' : 'back-custom')}
-    <div class="game-head"><div class="game-identity">${state.player?.mode === 'preset' ? `<img class="game-portrait" src="${esc(state.player.card.portrait)}" alt="${esc(playerName)}立绘">` : ''}<div><p class="eyebrow">${state.player?.mode === 'preset' ? 'CANON OPENING' : 'CUSTOM API OPENING'}</p><h2>${esc(playerName || '')}</h2></div></div><span class="badge">${esc(state.era.name)}</span></div>
-    ${state.error ? `<div class="error-box">${esc(state.error)}</div>` : ''}
-    <div class="messages">${state.history.map((message) => `<article class="message ${message.role}"><span class="message-label">${esc(message.label || (message.role === 'user' ? '玩家' : '叙事'))}</span>${esc(message.content)}</article>`).join('')}${state.busy ? '<section class="message assistant"><span class="spinner"></span> 玩家 API 正在生成…</section>' : ''}</div>
-    <form class="composer" id="composer"><textarea name="message" required placeholder="写下你的行动或对白。游戏不会替你决定。" ${state.busy ? 'disabled' : ''}></textarea><button class="primary" ${state.busy ? 'disabled' : ''}>继续</button></form>
+    <div class="game-shell">
+      <div class="game-story">
+        <div class="game-head"><p><span>NARRATIO · 叙事</span><b>${esc(state.era.name)}</b></p><span class="badge">AETAS ${String(state.era.ordinal).padStart(2, '0')}</span></div>
+        ${state.error ? `<div class="error-box">${esc(state.error)}</div>` : ''}
+        <div class="messages">${state.history.map((message) => `<article class="message ${message.role}"><span class="message-label">${esc(message.label || (message.role === 'user' ? '玩家' : '叙事'))}</span>${esc(message.content)}</article>`).join('')}${state.busy ? '<section class="message assistant"><span class="spinner"></span> 玩家 API 正在生成…</section>' : ''}</div>
+        <form class="composer" id="composer"><textarea name="message" required placeholder="写下你的行动或对白。游戏不会替你决定。" ${state.busy ? 'disabled' : ''}></textarea><button class="primary" ${state.busy ? 'disabled' : ''}>PERGERE · 继续</button></form>
+      </div>
+      <aside class="game-console">
+        <header><span>TABVLARIVM</span><b>情报台</b></header>
+        <div class="game-identity">${playerPortrait ? `<img class="game-portrait" src="${esc(playerPortrait)}" alt="${esc(playerName)}立绘">` : '<span class="custom-sigil" aria-hidden="true">◇</span>'}<div><p>${state.player?.mode === 'preset' ? 'PERSONA CANONICA' : 'PERSONA CUSTOM'}</p><h2>${esc(playerName || '')}</h2><small>${state.player?.mode === 'preset' ? '正典预设' : '玩家自定义'}</small></div></div>
+        <dl><div><dt>时代</dt><dd>${esc(state.era.name)}</dd></div><div><dt>原文范围</dt><dd>${formatRange(state.era.sourceRange)}</dd></div><div><dt>同行意向</dt><dd>${state.player?.companions?.length || 0}</dd></div><div><dt>开局</dt><dd>${state.player?.mode === 'preset' ? '原文逐字' : '玩家 API'}</dd></div></dl>
+        <button class="console-api" type="button" data-action="settings">ORACVLVM · API 设置</button>
+      </aside>
+    </div>
   </section>`;
   requestAnimationFrame(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }));
 }
@@ -432,9 +475,12 @@ document.addEventListener('click', (event) => {
   const target = event.target.closest('[data-action]');
   if (!target) return;
   const action = target.dataset.action;
-  if (action === 'home') renderEras();
+  if (action === 'home') renderMenu();
+  if (action === 'open-eras') renderEras();
+  if (action === 'back-eras') renderEras();
   if (action === 'settings') openSettings();
   if (action === 'save-settings') { event.preventDefault(); saveSettings(); }
+  if (action === 'focus-era') { state.eraFocus = target.dataset.era; renderEras(); }
   if (action === 'choose-era') chooseEra(target.dataset.era);
   if (action === 'back-route') renderRoute();
   if (action === 'select-route') {
@@ -484,7 +530,7 @@ async function init() {
     state.index = await indexResponse.json();
     state.customization = await customizationResponse.json();
     sourceState.textContent = `${state.index.sourceCoverage.storyChapters} 章原文 · ${state.index.eraCount} 个时代 · 已校验`;
-    renderEras();
+    renderMenu();
   } catch (error) {
     app.innerHTML = `<section class="error-box">${esc(error.message)}</section>`;
     sourceState.textContent = '资料未载入';
