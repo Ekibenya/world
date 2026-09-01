@@ -1,4 +1,5 @@
 import { requestChatCompletion } from './runtime.mjs';
+import { selectLoreEntries } from './lore-retrieval.mjs';
 
 const DATA_ROOT = '/core/res/data/world/';
 const $ = (selector) => document.querySelector(selector);
@@ -161,38 +162,38 @@ function showGame() {
   if (window.WORLD_UI?.saveAuto) window.WORLD_UI.saveAuto();
 }
 
-function queryTerms(text) { const clean = String(text).replace(/[\s\p{P}\p{S}]+/gu, ''); const terms = new Set(); for (let i = 0; i < clean.length - 1; i += 1) terms.add(clean.slice(i, i + 2)); return [...terms]; }
-function retrieveLore(query, context = '') {
+function stateAnchors() {
+  if (!state.era) return '';
+  const playerName = state.player?.mode === 'preset' ? state.player.card?.name : state.player?.custom?.name;
+  const companionNames = (state.player?.companions || []).map((entry) => entry.name).filter(Boolean);
+  return [
+    `【时代：${state.era.id}】`,
+    `【时代名：${state.era.name}】`,
+    `【路线：${state.route === 'preset' ? '默认正典开局' : '自定义API开局'}】`,
+    `【开局节点：${state.era.opening.chapterTitle}】`,
+    `【源章上限：${state.era.sourceRange[1]}】`,
+    playerName && `【玩家：${playerName}】`,
+    ...companionNames.map((name) => `【同伴：${name}】`),
+  ].filter(Boolean).join('\n');
+}
+function retrieveLore(query) {
   const manualMemory = window.WORLD_MVU_CONTENT?.memoryPrompt?.();
   const enabled = state.era.lorebook.filter((entry) => entry.enabled !== false);
   const always = enabled.filter((entry) => entry.constant).map((entry) => entry.content);
-  const terms = queryTerms(query);
-  const recentHistory = state.history.slice(-8).map(({ role, content }) => `${role}: ${content}`).join('\n');
-  const contextTerms = queryTerms(`${context}\n${recentHistory}`);
-  const scored = enabled.filter((entry) => !entry.constant).map((entry) => {
-    const searchable = `${entry.title || ''}\n${entry.content || ''}`;
-    const termHits = terms.reduce((sum, term) => sum + (searchable.includes(term) ? 1 : 0), 0);
-    const contextHits = contextTerms.reduce((sum, term) => sum + (searchable.includes(term) ? 1 : 0), 0);
-    const keyHits = (entry.keys || []).reduce((sum, key) => sum + (key && query.includes(key) ? 1 : 0), 0);
-    const secondaryHits = (entry.secondaryKeys || []).reduce((sum, key) => sum + (key && query.includes(key) ? 1 : 0), 0);
-    const sourceEvidenceBonus = entry.category === 'source-verbatim' && (keyHits || termHits >= 3) ? 45 : 0;
-    return { entry, score: keyHits * 240 + secondaryHits * 90 + termHits * 8 + contextHits * .15 + sourceEvidenceBonus };
-  }).filter((item) => item.score > 0).sort((a, b) => b.score - a.score || (b.entry.order || 0) - (a.entry.order || 0));
+  const recentHistory = state.history.filter(({ role }) => role === 'user').slice(-4).map(({ content }) => `玩家: ${content}`).join('\n');
+  const primaryScan = `${query}\n${recentHistory}\n${manualMemory || ''}`;
+  const secondaryScan = `${primaryScan}\n${stateAnchors()}`;
   const budget = Math.max(3000, Number($('#loreBud')?.value || 9000));
-  const chosen = []; let used = 0;
-  for (const { entry } of scored) {
-    const packet = `【${entry.title || entry.memo || entry.id}】\n${entry.content}`;
-    if (chosen.length && used + packet.length > budget) continue;
-    chosen.push(packet); used += packet.length;
-    if (used >= budget || chosen.length >= 80) break;
-  }
-  return [manualMemory, ...always, chosen.join('\n\n')].filter(Boolean).join('\n\n');
+  const result = selectLoreEntries({ entries: enabled, primaryScan, secondaryScan, budget, maxEntries: 24 });
+  const activations = result.chosen.map(({ entry, primaryHits, secondaryHits }) => ({ id: entry.id, title: entry.title, primaryHits, secondaryHits }));
+  state.lastLoreActivation = { anchors: stateAnchors(), activations, usedCharacters: result.usedCharacters, candidateCount: result.candidateCount, scannedEntryCount: enabled.length - always.length };
+  return [manualMemory, ...always, result.chosen.map((item) => item.packet).join('\n\n')].filter(Boolean).join('\n\n');
 }
 function compactCard(item) { return item ? { name: item.name, identityEvidence: item.canonIdentityEvidence, eraDragonChronology: item.eraDragonChronology, thoughtEngine: item.thoughtEngine, dialogueSamples: item.cumulativeVoiceArchiveThroughEraEnd.dialogue, innerThoughtSamples: item.cumulativeVoiceArchiveThroughEraEnd.innerThought, knowledgeBoundary: item.knowledgeBoundary, playerAgencyRule: item.playerAgencyRule, canonClosureRule: item.canonClosureRule } : null; }
 function buildSystem(query, customOpening) {
   const player = state.player.mode === 'preset' ? { route: 'preset', card: compactCard(state.player.card) } : { route: 'custom', settings: state.player.custom, anchorEvidenceOnly: compactCard(state.player.anchor) };
   const companions = state.player.companions.map((entry) => ({ ...entry, card: compactCard(state.era.cards.find((item) => item.name === entry.name)) }));
-  return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面提供的原文证据。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。证据不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成原文人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与时代证据冲突时必须停下列出来源内可选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的原文样本与决策证据，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于原文。' : '默认开局已逐字提供，不得重写。'}\n\n【当前时代】\n${state.era.name}，${rangeText(state.era.sourceRange)}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按请求检索到的世界书】\n${retrieveLore(query, `${JSON.stringify(player)}\n${JSON.stringify(companions)}`)}`;
+  return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面提供的原文证据。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。证据不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成原文人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与时代证据冲突时必须停下列出来源内可选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的原文样本与决策证据，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于原文。' : '默认开局已逐字提供，不得重写。'}\n\n【当前时代】\n${state.era.name}，${rangeText(state.era.sourceRange)}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按请求检索到的世界书】\n${retrieveLore(query)}`;
 }
 async function generate(text, customOpening = false) { const config = apiSettings(); if (!config.endpoint || !config.model || !config.apiKey) throw new Error('请先填写接口、模型和密钥。'); return requestChatCompletion(config, [{ role: 'system', content: buildSystem(text, customOpening) }, ...state.history.map(({ role, content }) => ({ role, content })), { role: 'user', content: text }]); }
 async function sendMessageText(text) { if (!text || state.busy) return; state.error = ''; state.history.push({ role: 'user', content: text, label: '玩家' }); state.busy = true; showGame(); try { state.history.push({ role: 'assistant', content: await generate(text), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); } }
@@ -227,6 +228,7 @@ async function init() {
       async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
       async loadAuto() { const raw = localStorage.getItem('guardianDragonAutoSave'); if (raw) await this.restore(JSON.parse(raw)); },
       lore() { return state.era?.lorebook || []; },
+      loreDebug(query = '') { const packet = state.era && state.player ? retrieveLore(query) : ''; return { packet, ...(state.lastLoreActivation || {}), sourceArchiveScanned: false }; },
       undo() { if (state.busy || !state.history.length) return; const assistant = state.history.pop(); const user = state.history.at(-1)?.role === 'user' ? state.history.pop() : null; state.lastUndone = { assistant, user }; showGame(); },
       async redo() { if (state.busy || !state.lastUndone?.user) return; const text = state.lastUndone.user.content; state.lastUndone = null; await sendMessageText(text); },
     };

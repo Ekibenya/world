@@ -82,8 +82,8 @@
   }
   function renderBook(){
     var lore=window.WORLD_UI&&window.WORLD_UI.lore?window.WORLD_UI.lore():[],tops=$('#cxTops'),cats=$('#cxCats'),ents=$('#cxEnts');if(!tops||!cats||!ents)return;
-    var labels={'source-verbatim':'原文全文','event':'事件','world-fact':'世界设定','continuity':'连续性','unresolved':'未解决事项','character-state':'主角龙状态','knowledge-boundary':'知识边界','secondary-character':'次要人物','premise':'时代边界'};
-    var order=['source-verbatim','event','world-fact','continuity','unresolved','character-state','knowledge-boundary','secondary-character','premise'];
+    var labels={'event':'原文事件','world-fact':'原文世界设定','secondary-character':'原文次要人物','premise':'时代运行边界'};
+    var order=['event','world-fact','secondary-character','premise'];
     var groups={};lore.forEach(function(entry,i){var cat=entry.category||'未分类';(groups[cat]=groups[cat]||[]).push({entry:entry,i:i});});var names=Object.keys(groups).sort(function(a,b){var ai=order.indexOf(a),bi=order.indexOf(b);return(ai<0?999:ai)-(bi<0?999:bi);});
     tops.innerHTML='<div class="cxTop on">当前时代<i>'+lore.length+'</i></div>';cats.innerHTML=names.map(function(name,i){return '<div class="cxCat'+(i?'':' on')+'" data-cat="'+esc(name)+'">'+esc(labels[name]||name)+' · '+groups[name].length+'</div>';}).join('');
     function showCat(name){var list=groups[name]||[];ents.innerHTML=list.map(function(item,i){var title=item.entry.title||item.entry.keys&&item.entry.keys[0]||('条目 '+(item.i+1));return '<div class="cxEnt'+(i?'':' on')+'" data-entry="'+item.i+'">'+esc(title)+'</div>';}).join('');if(list[0])showEntry(list[0].i);else{$('#cxTtl').textContent='本类暂无条目';$('#cxTxt').textContent='';}}
