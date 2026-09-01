@@ -18,7 +18,7 @@ function esBuild(){
 
       b.addEventListener('pointerup',function(){
         if(ES.moved>ES.dead)return;
-        if(n!==ES.i)esGo(n);
+        if(n!==ES.i){esGo(n);return;}
         esEngage();
       });
       tr.appendChild(b);ES.pls.push(b);

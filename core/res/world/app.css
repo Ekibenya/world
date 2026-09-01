@@ -20,6 +20,15 @@ button{border:0}
 .world-label{display:block;margin-bottom:8px;color:var(--gold-hi);font-family:var(--mono);font-size:10px;letter-spacing:.18em}
 .world-error{padding:10px;border:1px solid rgba(156,48,40,.45);color:#7c211d}
 #gSend.off{opacity:.35;pointer-events:none}
+
+/* WORLD 只保留已经接通的正文工具。Cat 的曲库、密语和浅字参谋没有在本项目
+   接入运行层，继续露出只会形成能点却无结果的假按钮。 */
+#game #gtSnd,#game #gtVoc,#game #gSug,#dlgBook #cxAdd,#dlgBook #cxImp{display:none!important}
+
+/* 情报卡左下角的两位序号属于 Cat 调试式卡列标记；在 WORLD 正文层会孤零零
+   露成一个“1”，与卡片标题和底栏的完整页码重复。 */
+#game .gMfd.mvDeck .mvCard .ic{display:none!important}
+.gDlg .esc2{cursor:pointer}
 #gmMapIn{width:100%;height:100%}
 #gmMapIn>img{inset:0;width:100%;height:100%;object-fit:cover;opacity:.34;filter:saturate(.6) contrast(.85)}
 .world-map-ledger{position:absolute;left:8%;right:8%;top:16%;display:grid;gap:8px;padding:18px;background:rgba(237,231,217,.80);border:1px solid rgba(19,18,13,.2);color:var(--mut);font-size:10px;line-height:1.8}

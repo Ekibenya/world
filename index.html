@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/core/res/font/world-fonts.css?v=10">
   <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=10">
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
-  <link rel="stylesheet" href="/core/res/world/app.css?v=13">
+  <link rel="stylesheet" href="/core/res/world/app.css?v=15">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -180,17 +180,13 @@
     <span class="tag">OPTIONES</span>
     <h2>设置&nbsp;·&nbsp;控制中枢</h2>
     <div class="cfgTabs" id="cfgTabs">
-      <span class="on" data-cp="disp">显示</span><span data-cp="img">生图</span><span data-cp="voice">语音</span><span data-cp="lore">世界书</span><span data-cp="rx">正则</span><span data-cp="js">脚本</span><span data-cp="api">AI接口</span><span data-cp="engine">生成引擎</span><span data-cp="preset">预设</span><span data-cp="mem">记忆</span><span data-cp="bak">备份</span><span data-cp="imgc">图库</span>
+      <span class="on" data-cp="disp">正文界面</span>
     </div>
     <div class="cfgPane" id="cp_disp">
-      <div class="sRow"><span>SONVS&nbsp;·&nbsp;音效</span><input type="range" id="cfgVol" min="0" max="100" value="70"></div>
-      <div class="sRow"><span>MVSICA&nbsp;·&nbsp;配乐</span><input type="range" id="cfgBgm" min="0" max="100" value="55"></div>
       <div class="sRow"><span>MOTVS&nbsp;·&nbsp;动效</span><span class="sSeg" id="sgMotus"><span class="on">全开</span><span>减弱（低配）</span></span></div>
-      <div class="sRow"><span>VELOCITAS&nbsp;·&nbsp;文字速度</span><span class="sSeg" id="sgVelo"><span>缓</span><span class="on">中</span><span>疾</span><span>瞬</span></span></div>
       <div class="sRow"><span>LITTERAE&nbsp;·&nbsp;正文字体</span><span style="display:flex;gap:10px;align-items:center;flex:1;justify-content:flex-end"><input type="number" id="cfgNarr" min="12" max="30" step="1" value="17" inputmode="numeric" style="width:84px;text-align:right;background:rgba(19,18,13,.04);border:1px solid rgba(19,18,13,.25);color:var(--txt);padding:6px 8px;font-family:var(--mono);font-size:13px"><b id="cfgNarrVal" style="font-weight:400;font-size:10px;letter-spacing:.1em;color:var(--gold-hi);min-width:3.6em;text-align:right">17px</b></span></div><div class="sub">只改叙事正文那一栏的字号，单位像素，12–30，17 为默认。界面其余部分不动。</div><div class="sRow"><span>INTERFACIES&nbsp;·&nbsp;界面字体</span><span style="display:flex;gap:10px;align-items:center;flex:1;justify-content:flex-end"><input type="number" id="cfgUi" min="0" max="100" step="1" value="22" inputmode="numeric" style="width:84px;text-align:right;background:rgba(19,18,13,.04);border:1px solid rgba(19,18,13,.25);color:var(--txt);padding:6px 8px;font-family:var(--mono);font-size:13px"><b id="cfgUiVal" style="font-weight:400;font-size:10px;letter-spacing:.1em;color:var(--gold-hi);min-width:3.6em;text-align:right">22%</b></span></div><div class="sub">填 0-100 的整数整体缩放界面——情报台状态栏、顶栏、输入区与全部弹窗（含本设置与世界书）一同放大缩小；正文另有上面那一档，三维场景不受影响。0 最小、100 最大，22 为原始尺寸；输入后回车或点开生效，上下箭头可 1% 微调。</div><div class="sRow"><span>LVX&nbsp;·&nbsp;白昼模式</span><span style="flex:1;text-align:right"><input type="checkbox" id="cfgLux" style="accent-color:var(--gold);width:15px;height:15px;cursor:pointer"></span></div><div class="sub">把全站换成浅色（白昼）配色，正文黑字白底更近纸面；三维画面与配图保持原貌。主菜单右上角的&nbsp;☀/☾&nbsp;也能随时切换，两处同步。</div><div class="sRow"><span>CONSILIVM&nbsp;·&nbsp;浅字提示</span><span style="flex:1;text-align:right"><input type="checkbox" id="cfgSugg" checked style="accent-color:var(--gold);width:15px;height:15px;cursor:pointer"></span></div><div class="sub">开启后，每一幕落定就由参谋按当下局势在输入框里用浅字提一句你可能想打的话。按&nbsp;Tab&nbsp;（或&nbsp;→）收下来——只是填进框里，不会替你发出去，收下来还能再改；不想要直接打字就盖掉了。输入模式那张单子最底下那枚「浅字提示」也能随时开关，两处同步。</div>
-      <div class="sub">透明度：拖动即时生效——拉到最左＝完全透明（直接看穿到后面的动态背景）；拉到最右＝完全不透明（纯色纸底，彻底看不穿）。开低配模式时模糊被关闭。版式：自动依屏幕宽窄选择版式，也可强制使用电脑或手机布局。</div>
+      <div class="sub">透明度拖动即时生效：最左最通透，最右最接近纸面。开低配模式时会同时减弱正文界面的动效。</div>
       <div class="sRow"><span>OBSCVRITAS&nbsp;·&nbsp;面板透明度</span><input type="range" id="cfgGlass" min="0" max="100" value="80"></div>
-      <div class="sRow"><span>FORMA&nbsp;·&nbsp;版式</span><span class="sSeg" id="sgForma"><span class="on">自动</span><span>桌面</span><span>手机</span></span></div>
       <div class="sRow"><span>TABVLARIVM&nbsp;·&nbsp;情报台</span><span class="sSeg" id="sgMvu"><span>列表</span><span class="on">卡叠</span><span>环</span></span></div>
       <div class="sub">情报台的排法。「列表」是一栏到底的老样子。「卡叠」把每一段立成一张卡，正前那张平着摊开，其余的往后一层层压住、只露出各自的抬头，像切换视窗——面是平的，不歪不弯。「环」是围成一圈绕横轴转的那一版，面会随角度斜过去，晕的话别选。<b>换段一律靠点：点上面或下面那一条抬头，它就翻上来；上下滑动只滚正前那张卡里的正文，两件事互不相干。</b>底条的&nbsp;▲▼&nbsp;与右侧刻度也能翻。底条上的「列表」可随时切回。</div>
       <div class="sRow"><span>字体</span><span style="display:flex;gap:8px;align-items:center"><span class="sSeg" id="sgFace"><span class="on">等宽</span><span>衬线</span><span>系统</span></span><span class="gt" id="fontUp">自定义字体</span><input type="file" id="fontFile" accept=".ttf,.otf,.woff,.woff2" style="display:none"></span></div>
@@ -788,11 +784,11 @@
 </div>
   <script>window.$=(s)=>document.querySelector(s);window.MENU={on:true};</script>
   <script src="/core/res/world/menu-shell.js?v=10"></script>
-  <script src="/core/res/world/annals-shell.js?v=14"></script>
+  <script src="/core/res/world/annals-shell.js?v=15"></script>
   <script src="/core/res/world/world-era-intro.js?v=14"></script>
   <script src="/core/res/world/mvu-shell.js?v=10"></script>
   <script src="/core/res/world/world-mvu-content.js?v=10"></script>
-  <script src="/core/res/world/game-ui-shell.js?v=13"></script>
+  <script src="/core/res/world/game-ui-shell.js?v=15"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
   <script type="module" src="/core/res/world/app.js?v=14"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
