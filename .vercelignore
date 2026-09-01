@@ -9,6 +9,12 @@
 /st/
 /rwserve.py
 /.gitignore
+/.git/
+/.vercel/
+/.env*
+/.DS_Store
+/_site*/
+/_work/
 
 # 远端构建只上传游戏实际会复制进 _site 的最终资产。
 /art/sheets/
