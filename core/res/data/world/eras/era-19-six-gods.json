@@ -6783,7 +6783,7 @@
   "lorebook": [
     {
       "id": "era-19-six-gods-core",
-      "title": "六神祝福之旅｜时代边界",
+      "title": "六神祝福之旅",
       "memo": "六神祝福之旅：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -6798,7 +6798,7 @@
     },
     {
       "id": "era-19-six-gods-event-375-01",
-      "title": "事件｜第375源章｜1",
+      "title": "抵达塞梅里姆后爱丽丝想体验旅馆，埃里克因资金，隐身和她目前安全坚持住教团分部",
       "memo": "六神祝福之旅：事件（第375源章第1条）",
       "category": "event",
       "keys": [
@@ -6825,7 +6825,7 @@
     },
     {
       "id": "era-19-six-gods-event-375-02",
-      "title": "事件｜第375源章｜2",
+      "title": "爱丽丝先选较易定位的伊芙利特，但维持隔热时不能兼顾战斗",
       "memo": "六神祝福之旅：事件（第375源章第2条）",
       "category": "event",
       "keys": [
@@ -6853,7 +6853,7 @@
     },
     {
       "id": "era-19-six-gods-event-375-03",
-      "title": "事件｜第375源章｜3",
+      "title": "二人要招能共同战斗并保护爱丽丝、直到六神旅程结束的同伴",
       "memo": "六神祝福之旅：事件（第375源章第3条）",
       "category": "event",
       "keys": [
@@ -6880,7 +6880,7 @@
     },
     {
       "id": "era-19-six-gods-event-375-04",
-      "title": "事件｜第375源章｜4",
+      "title": "酒馆角落出现娇小成年矮人少女，高价寻找愿穿越灼热沙漠见神圣之火者，与二人目标相合",
       "memo": "六神祝福之旅：事件（第375源章第4条）",
       "category": "event",
       "keys": [
@@ -6905,7 +6905,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-375-01",
-      "title": "世界设定事实｜第375源章｜1",
+      "title": "社会把龙族巫女现身视为重大事件已发生或即将发生的信号，公开旅行会引发骚动与求助",
       "memo": "六神祝福之旅：世界设定事实（第375源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6931,7 +6931,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-375-02",
-      "title": "世界设定事实｜第375源章｜2",
+      "title": "伊芙利特位于普罗西亚南方灼热沙漠，沙漠本身可能就是其试炼",
       "memo": "六神祝福之旅：世界设定事实（第375源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6957,7 +6957,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-375-03",
-      "title": "世界设定事实｜第375源章｜3",
+      "title": "弱化爱丽丝维持隔热魔法时无法兼用其他魔法",
       "memo": "六神祝福之旅：世界设定事实（第375源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6984,7 +6984,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-375-01",
-      "title": "新建立连续性｜第375源章｜1",
+      "title": "塞梅里姆停留",
       "memo": "六神祝福之旅：新建立连续性（第375源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7009,7 +7009,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-375-02",
-      "title": "新建立连续性｜第375源章｜2",
+      "title": "伊芙利特首目标",
       "memo": "六神祝福之旅：新建立连续性（第375源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7035,7 +7035,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-375-03",
-      "title": "新建立连续性｜第375源章｜3",
+      "title": "长期同伴筛选",
       "memo": "六神祝福之旅：新建立连续性（第375源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7060,7 +7060,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-375-04",
-      "title": "新建立连续性｜第375源章｜4",
+      "title": "矮人少女出现",
       "memo": "六神祝福之旅：新建立连续性（第375源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7085,7 +7085,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-375-01",
-      "title": "未解决事项｜第375源章｜1",
+      "title": "矮人身份能力",
       "memo": "六神祝福之旅：未解决事项（第375源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7110,7 +7110,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-375-02",
-      "title": "未解决事项｜第375源章｜2",
+      "title": "队伍加入条件",
       "memo": "六神祝福之旅：未解决事项（第375源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7135,7 +7135,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-375-03",
-      "title": "未解决事项｜第375源章｜3",
+      "title": "沙漠穿越方案",
       "memo": "六神祝福之旅：未解决事项（第375源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7160,7 +7160,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-375-01",
-      "title": "主角龙形态｜第375源章｜1",
+      "title": "主角龙形态｜魔王倒下后.(4)｜弱化爱丽丝用斗篷兜帽遮角和大半张脸，只能使用普通魔法师级力量",
       "memo": "六神祝福之旅：主角龙形态（第375源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7186,7 +7186,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-375-01",
-      "title": "主角龙状态｜第375源章｜1",
+      "title": "主角龙状态｜魔王倒下后.(4)｜在塞梅里姆寻找第一位长期同伴和前往伊芙利特沙漠的准备",
       "memo": "六神祝福之旅：主角龙状态（第375源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7212,7 +7212,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-375-01",
-      "title": "主角龙知识边界｜第375源章｜1",
+      "title": "主角龙知识边界｜魔王倒下后.(4)｜爱丽丝不具普通金钱和旅馆生活经验",
       "memo": "六神祝福之旅：主角龙知识边界（第375源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7238,7 +7238,7 @@
     },
     {
       "id": "era-19-six-gods-event-376-01",
-      "title": "事件｜第376源章｜1",
+      "title": "成年矮人少女以隔热复合布和卷轴方案委托穿越灼热沙漠，被冒险者当孩子拒绝",
       "memo": "六神祝福之旅：事件（第376源章第1条）",
       "category": "event",
       "keys": [
@@ -7265,7 +7265,7 @@
     },
     {
       "id": "era-19-six-gods-event-376-02",
-      "title": "事件｜第376源章｜2",
+      "title": "埃里克搭话，少女宣称名为芬娜",
       "memo": "六神祝福之旅：事件（第376源章第2条）",
       "category": "event",
       "keys": [
@@ -7292,7 +7292,7 @@
     },
     {
       "id": "era-19-six-gods-event-376-03",
-      "title": "事件｜第376源章｜3",
+      "title": "芬娜以连珠炮表达对火焰之美和伊芙利特的痴迷，正式与埃里克、爱丽丝交换名字",
       "memo": "六神祝福之旅：事件（第376源章第3条）",
       "category": "event",
       "keys": [
@@ -7322,7 +7322,7 @@
     },
     {
       "id": "era-19-six-gods-event-376-04",
-      "title": "事件｜第376源章｜4",
+      "title": "芬娜主动要求同行，凭阿加特拉姆和精灵高级皮袍判断二人非普通冒险者，展示优秀装备眼力",
       "memo": "六神祝福之旅：事件（第376源章第4条）",
       "category": "event",
       "keys": [
@@ -7348,7 +7348,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-376-01",
-      "title": "世界设定事实｜第376源章｜1",
+      "title": "芬娜隔热方案是一面金属丝编织、一面棉布的特殊布料，配合魔法卷轴，但尚未经沙漠实证",
       "memo": "六神祝福之旅：世界设定事实（第376源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7374,7 +7374,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-376-02",
-      "title": "世界设定事实｜第376源章｜2",
+      "title": "芬娜全名菲洛蒂娅·恩维尔加德，父亲格隆达尔是矮人巨匠候选",
       "memo": "六神祝福之旅：世界设定事实（第376源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7402,7 +7402,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-376-03",
-      "title": "世界设定事实｜第376源章｜3",
+      "title": "芬娜判断银甲超越当代矮人锻造，爱丽丝长袍使用精灵高级皮革与独特收边工艺",
       "memo": "六神祝福之旅：世界设定事实（第376源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7429,7 +7429,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-376-01",
-      "title": "新建立连续性｜第376源章｜1",
+      "title": "芬娜",
       "memo": "六神祝福之旅：新建立连续性（第376源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7455,7 +7455,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-376-02",
-      "title": "新建立连续性｜第376源章｜2",
+      "title": "恩维尔加德铁匠家",
       "memo": "六神祝福之旅：新建立连续性（第376源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7480,7 +7480,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-376-03",
-      "title": "新建立连续性｜第376源章｜3",
+      "title": "隔热复合布",
       "memo": "六神祝福之旅：新建立连续性（第376源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7505,7 +7505,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-376-04",
-      "title": "新建立连续性｜第376源章｜4",
+      "title": "首位同伴候选",
       "memo": "六神祝福之旅：新建立连续性（第376源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7530,7 +7530,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-376-01",
-      "title": "未解决事项｜第376源章｜1",
+      "title": "芬娜正式加入",
       "memo": "六神祝福之旅：未解决事项（第376源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7556,7 +7556,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-376-02",
-      "title": "未解决事项｜第376源章｜2",
+      "title": "身份披露",
       "memo": "六神祝福之旅：未解决事项（第376源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7581,7 +7581,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-376-03",
-      "title": "未解决事项｜第376源章｜3",
+      "title": "装备与战斗职责",
       "memo": "六神祝福之旅：未解决事项（第376源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7606,7 +7606,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-376-01",
-      "title": "主角龙形态｜第376源章｜1",
+      "title": "主角龙形态｜矮人少女.(1)｜弱化爱丽丝披斗篷兜帽遮住大半脸，内穿精灵高级皮革长袍",
       "memo": "六神祝福之旅：主角龙形态（第376源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7632,7 +7632,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-376-01",
-      "title": "主角龙状态｜第376源章｜1",
+      "title": "主角龙状态｜矮人少女.(1)｜与埃里克发现第一位可能长期同行的矮人铁匠芬娜",
       "memo": "六神祝福之旅：主角龙状态（第376源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7659,7 +7659,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-376-01",
-      "title": "主角龙知识边界｜第376源章｜1",
+      "title": "主角龙知识边界｜矮人少女.(1)｜后世旁白确认芬娜将成为同伴，但当前三人尚未完成条件谈判",
       "memo": "六神祝福之旅：主角龙知识边界（第376源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7685,7 +7685,7 @@
     },
     {
       "id": "era-19-six-gods-event-377-01",
-      "title": "事件｜第377源章｜1",
+      "title": "芬娜知道火焰山是莱克伦记录的禁地，询问二人目的",
       "memo": "六神祝福之旅：事件（第377源章第1条）",
       "category": "event",
       "keys": [
@@ -7714,7 +7714,7 @@
     },
     {
       "id": "era-19-six-gods-event-377-02",
-      "title": "事件｜第377源章｜2",
+      "title": "途中遭哥布林，芬娜以长柄铁砧大锤粉碎前锋，埃里克护爱丽丝",
       "memo": "六神祝福之旅：事件（第377源章第2条）",
       "category": "event",
       "keys": [
@@ -7742,7 +7742,7 @@
     },
     {
       "id": "era-19-six-gods-event-377-03",
-      "title": "事件｜第377源章｜3",
+      "title": "芬娜的武器兼作移动铁砧，另带珍爱铁匠锤，可沿途打铁赚盘缠",
       "memo": "六神祝福之旅：事件（第377源章第3条）",
       "category": "event",
       "keys": [
@@ -7769,7 +7769,7 @@
     },
     {
       "id": "era-19-six-gods-event-377-04",
-      "title": "事件｜第377源章｜4",
+      "title": "芬娜饮冰啤酒才让二人得知她已成年且比他们年长",
       "memo": "六神祝福之旅：事件（第377源章第4条）",
       "category": "event",
       "keys": [
@@ -7796,7 +7796,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-377-01",
-      "title": "世界设定事实｜第377源章｜1",
+      "title": "灼热沙漠昼夜高温无水、沙下有感震怪物，中央火山越近越会自燃",
       "memo": "六神祝福之旅：世界设定事实（第377源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7822,7 +7822,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-377-02",
-      "title": "世界设定事实｜第377源章｜2",
+      "title": "芬娜武器是带长柄黑钢铁砧，另有长期使用的单手铁匠锤",
       "memo": "六神祝福之旅：世界设定事实（第377源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7848,7 +7848,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-377-03",
-      "title": "世界设定事实｜第377源章｜3",
+      "title": "爱丽丝能抽取尸体残魔，经再处理净化利用，并把主体物质化为土渣",
       "memo": "六神祝福之旅：世界设定事实（第377源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7874,7 +7874,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-377-04",
-      "title": "世界设定事实｜第377源章｜4",
+      "title": "矮人与人类成年认定年龄相同",
       "memo": "六神祝福之旅：世界设定事实（第377源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7900,7 +7900,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-377-01",
-      "title": "新建立连续性｜第377源章｜1",
+      "title": "芬娜正式加入",
       "memo": "六神祝福之旅：新建立连续性（第377源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7926,7 +7926,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-377-02",
-      "title": "新建立连续性｜第377源章｜2",
+      "title": "移动铁匠铺",
       "memo": "六神祝福之旅：新建立连续性（第377源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7951,7 +7951,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-377-03",
-      "title": "新建立连续性｜第377源章｜3",
+      "title": "三人战术",
       "memo": "六神祝福之旅：新建立连续性（第377源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7976,7 +7976,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-377-04",
-      "title": "新建立连续性｜第377源章｜4",
+      "title": "爱丽丝五岁",
       "memo": "六神祝福之旅：新建立连续性（第377源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8002,7 +8002,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-377-01",
-      "title": "未解决事项｜第377源章｜1",
+      "title": "芬娜身份获知",
       "memo": "六神祝福之旅：未解决事项（第377源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8028,7 +8028,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-377-02",
-      "title": "未解决事项｜第377源章｜2",
+      "title": "火焰山考验",
       "memo": "六神祝福之旅：未解决事项（第377源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8053,7 +8053,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-377-01",
-      "title": "主角龙形态｜第377源章｜1",
+      "title": "主角龙形态｜矮人少女.(2)｜五岁但肉体成熟的弱化爱丽丝，持生命之树施高精度光箭和物质处理",
       "memo": "六神祝福之旅：主角龙形态（第377源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8079,7 +8079,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-377-01",
-      "title": "主角龙状态｜第377源章｜1",
+      "title": "主角龙状态｜矮人少女.(2)｜芬娜正式加入，三人建立前锋芬娜与埃里克、后排爱丽丝的基本互补",
       "memo": "六神祝福之旅：主角龙状态（第377源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8107,7 +8107,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-377-01",
-      "title": "主角龙知识边界｜第377源章｜1",
+      "title": "主角龙知识边界｜矮人少女.(2)｜芬娜仍不知道二人真实身份与六神全程目标",
       "memo": "六神祝福之旅：主角龙知识边界（第377源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8134,7 +8134,7 @@
     },
     {
       "id": "era-19-six-gods-event-378-01",
-      "title": "事件｜第378源章｜1",
+      "title": "芬娜发现二人在普罗西亚生命教团获宾客房，结合兜帽，同名与神级装备已可猜身份",
       "memo": "六神祝福之旅：事件（第378源章第1条）",
       "category": "event",
       "keys": [
@@ -8160,7 +8160,7 @@
     },
     {
       "id": "era-19-six-gods-event-378-02",
-      "title": "事件｜第378源章｜2",
+      "title": "芬娜追问二人是否恋人或私奔，爱丽丝从脸到耳尖红透并回避",
       "memo": "六神祝福之旅：事件（第378源章第2条）",
       "category": "event",
       "keys": [
@@ -8187,7 +8187,7 @@
     },
     {
       "id": "era-19-six-gods-event-378-03",
-      "title": "事件｜第378源章｜3",
+      "title": "指南将神圣火焰山列世界七大禁地，周边沙漠生存率不足1%，山火会焚尽即便有魔法工具者",
       "memo": "六神祝福之旅：事件（第378源章第3条）",
       "category": "event",
       "keys": [
@@ -8212,7 +8212,7 @@
     },
     {
       "id": "era-19-six-gods-event-378-04",
-      "title": "事件｜第378源章｜4",
+      "title": "三人进入沙漠，爱丽丝维持敌意探测、为怕热埃里克造冰颈袋",
       "memo": "六神祝福之旅：事件（第378源章第4条）",
       "category": "event",
       "keys": [
@@ -8240,7 +8240,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-378-01",
-      "title": "世界设定事实｜第378源章｜1",
+      "title": "神圣火焰山是世界七大禁地之一，周边沙漠也常被算入",
       "memo": "六神祝福之旅：世界设定事实（第378源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8265,7 +8265,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-378-02",
-      "title": "世界设定事实｜第378源章｜2",
+      "title": "沙下怪物难预测，爱丽丝以持续探测周围敌意警戒",
       "memo": "六神祝福之旅：世界设定事实（第378源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8291,7 +8291,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-378-03",
-      "title": "世界设定事实｜第378源章｜3",
+      "title": "莱克伦记录未留确切位置",
       "memo": "六神祝福之旅：世界设定事实（第378源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8317,7 +8317,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-378-01",
-      "title": "新建立连续性｜第378源章｜1",
+      "title": "芬娜近乎识破身份",
       "memo": "六神祝福之旅：新建立连续性（第378源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8343,7 +8343,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-378-02",
-      "title": "新建立连续性｜第378源章｜2",
+      "title": "恋人误会",
       "memo": "六神祝福之旅：新建立连续性（第378源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8368,7 +8368,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-378-03",
-      "title": "新建立连续性｜第378源章｜3",
+      "title": "火焰山禁地",
       "memo": "六神祝福之旅：新建立连续性（第378源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8393,7 +8393,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-378-04",
-      "title": "新建立连续性｜第378源章｜4",
+      "title": "沙漠行军",
       "memo": "六神祝福之旅：新建立连续性（第378源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8418,7 +8418,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-378-01",
-      "title": "未解决事项｜第378源章｜1",
+      "title": "正式披露",
       "memo": "六神祝福之旅：未解决事项（第378源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8443,7 +8443,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-378-02",
-      "title": "未解决事项｜第378源章｜2",
+      "title": "山火承受",
       "memo": "六神祝福之旅：未解决事项（第378源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8468,7 +8468,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-378-01",
-      "title": "主角龙形态｜第378源章｜1",
+      "title": "主角龙形态｜神圣的火焰山.(1)｜兜帽弱化爱丽丝穿精灵皮袍，在沙漠仍能维持探测、造水冻结冰袋",
       "memo": "六神祝福之旅：主角龙形态（第378源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8494,7 +8494,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-378-01",
-      "title": "主角龙状态｜第378源章｜1",
+      "title": "主角龙状态｜神圣的火焰山.(1)｜与埃里克、芬娜开始约三日沙漠穿越，身份尚未对芬娜明说",
       "memo": "六神祝福之旅：主角龙状态（第378源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8521,7 +8521,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-378-01",
-      "title": "主角龙知识边界｜第378源章｜1",
+      "title": "主角龙知识边界｜神圣的火焰山.(1)｜芬娜只是通过证据猜测身份，未获确认",
       "memo": "六神祝福之旅：主角龙知识边界（第378源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8548,7 +8548,7 @@
     },
     {
       "id": "era-19-six-gods-event-379-01",
-      "title": "事件｜第379源章｜1",
+      "title": "埃里克脱水逼近死亡仍拒绝额外魔法",
       "memo": "六神祝福之旅：事件（第379源章第1条）",
       "category": "event",
       "keys": [
@@ -8575,7 +8575,7 @@
     },
     {
       "id": "era-19-six-gods-event-379-02",
-      "title": "事件｜第379源章｜2",
+      "title": "探测缩小导致偷袭但三人解决",
       "memo": "六神祝福之旅：事件（第379源章第2条）",
       "category": "event",
       "keys": [
@@ -8602,7 +8602,7 @@
     },
     {
       "id": "era-19-six-gods-event-379-03",
-      "title": "事件｜第379源章｜3",
+      "title": "第三日山前出现不死军，爱丽丝与埃里克认出死亡支配者",
       "memo": "六神祝福之旅：事件（第379源章第3条）",
       "category": "event",
       "keys": [
@@ -8631,7 +8631,7 @@
     },
     {
       "id": "era-19-six-gods-event-379-04",
-      "title": "事件｜第379源章｜4",
+      "title": "死灵术士要求归还体内魔王，爱丽丝凭生命属性和光箭清除不死军",
       "memo": "六神祝福之旅：事件（第379源章第4条）",
       "category": "event",
       "keys": [
@@ -8660,7 +8660,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-379-01",
-      "title": "世界设定事实｜第379源章｜1",
+      "title": "爱丽丝作为魔王肉体能靠庞大魔力无意识改变皮肤表面数厘米环境，耐极寒酷热",
       "memo": "六神祝福之旅：世界设定事实（第379源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8687,7 +8687,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-379-02",
-      "title": "世界设定事实｜第379源章｜2",
+      "title": "爱丽丝可聚沙凝石造遮阴，但沙漠仍使做饭和睡眠困难，只能吃干粮短睡",
       "memo": "六神祝福之旅：世界设定事实（第379源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8713,7 +8713,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-379-03",
-      "title": "世界设定事实｜第379源章｜3",
+      "title": "残党能感知爱丽丝体内魔王",
       "memo": "六神祝福之旅：世界设定事实（第379源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8741,7 +8741,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-379-01",
-      "title": "新建立连续性｜第379源章｜1",
+      "title": "残党首次追踪",
       "memo": "六神祝福之旅：新建立连续性（第379源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8766,7 +8766,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-379-02",
-      "title": "新建立连续性｜第379源章｜2",
+      "title": "魔王肉体耐候机制",
       "memo": "六神祝福之旅：新建立连续性（第379源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8792,7 +8792,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-379-03",
-      "title": "新建立连续性｜第379源章｜3",
+      "title": "芬娜身份疑问",
       "memo": "六神祝福之旅：新建立连续性（第379源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8818,7 +8818,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-379-01",
-      "title": "未解决事项｜第379源章｜1",
+      "title": "死亡支配者是否又复生",
       "memo": "六神祝福之旅：未解决事项（第379源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8844,7 +8844,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-379-02",
-      "title": "未解决事项｜第379源章｜2",
+      "title": "芬娜反应",
       "memo": "六神祝福之旅：未解决事项（第379源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8870,7 +8870,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-379-01",
-      "title": "主角龙形态｜第379源章｜1",
+      "title": "主角龙形态｜神圣的火焰山.(2)｜弱化爱丽丝仍具魔王肉体的环境适应和生命属性，战斗用低输出高操控光箭",
       "memo": "六神祝福之旅：主角龙形态（第379源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8897,7 +8897,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-379-01",
-      "title": "主角龙状态｜第379源章｜1",
+      "title": "主角龙状态｜神圣的火焰山.(2)｜击溃追踪残党并到达火焰山脚，身份即将向芬娜披露",
       "memo": "六神祝福之旅：主角龙状态（第379源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8923,7 +8923,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-379-01",
-      "title": "主角龙知识边界｜第379源章｜1",
+      "title": "主角龙知识边界｜神圣的火焰山.(2)｜芬娜只从巫妖称呼产生怀疑，埃里克尚未说明",
       "memo": "六神祝福之旅：主角龙知识边界（第379源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8953,7 +8953,7 @@
     },
     {
       "id": "era-19-six-gods-event-380-01",
-      "title": "事件｜第380源章｜1",
+      "title": "火焰山温度约沙漠两倍，芬娜拒绝防热帮助，坚持凭自己完成见圣火",
       "memo": "六神祝福之旅：事件（第380源章第1条）",
       "category": "event",
       "keys": [
@@ -8979,7 +8979,7 @@
     },
     {
       "id": "era-19-six-gods-event-380-02",
-      "title": "事件｜第380源章｜2",
+      "title": "三人与伊芙利特谈话未传世，爱丽丝获祝福喘息，埃里克拒绝大奖只获耐火",
       "memo": "六神祝福之旅：事件（第380源章第2条）",
       "category": "event",
       "keys": [
@@ -9008,7 +9008,7 @@
     },
     {
       "id": "era-19-six-gods-event-380-03",
-      "title": "事件｜第380源章｜3",
+      "title": "伊芙利特承认芬娜凭活人之躯抵达具资格，也想近看冒险",
       "memo": "六神祝福之旅：事件（第380源章第3条）",
       "category": "event",
       "keys": [
@@ -9038,7 +9038,7 @@
     },
     {
       "id": "era-19-six-gods-event-380-04",
-      "title": "事件｜第380源章｜4",
+      "title": "获祝福的芬娜正式继续六神之旅，但因离家出走怕去萨加玛塔、又因矮精灵宿怨怕世界树",
       "memo": "六神祝福之旅：事件（第380源章第4条）",
       "category": "event",
       "keys": [
@@ -9068,7 +9068,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-380-01",
-      "title": "世界设定事实｜第380源章｜1",
+      "title": "伊芙利特祝福使爱丽丝短暂缓解、埃里克免疫火焰高温",
       "memo": "六神祝福之旅：世界设定事实（第380源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9097,7 +9097,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-380-02",
-      "title": "世界设定事实｜第380源章｜2",
+      "title": "三人与伊芙利特具体谈话未流传，后世称芬娜为不灭之火，锻造守护神",
       "memo": "六神祝福之旅：世界设定事实（第380源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9124,7 +9124,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-380-03",
-      "title": "世界设定事实｜第380源章｜3",
+      "title": "普罗西亚审判所刻剑与天平纹样，流浪法官是沙玛什祭司兼战士，可能掌握其行踪",
       "memo": "六神祝福之旅：世界设定事实（第380源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9150,7 +9150,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-380-01",
-      "title": "新建立连续性｜第380源章｜1",
+      "title": "第一古神祝福",
       "memo": "六神祝福之旅：新建立连续性（第380源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9175,7 +9175,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-380-02",
-      "title": "新建立连续性｜第380源章｜2",
+      "title": "芬娜心火种",
       "memo": "六神祝福之旅：新建立连续性（第380源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9201,7 +9201,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-380-03",
-      "title": "新建立连续性｜第380源章｜3",
+      "title": "不灭之火未来",
       "memo": "六神祝福之旅：新建立连续性（第380源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9226,7 +9226,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-380-04",
-      "title": "新建立连续性｜第380源章｜4",
+      "title": "沙玛什线索",
       "memo": "六神祝福之旅：新建立连续性（第380源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9252,7 +9252,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-380-01",
-      "title": "未解决事项｜第380源章｜1",
+      "title": "另五神",
       "memo": "六神祝福之旅：未解决事项（第380源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9277,7 +9277,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-380-02",
-      "title": "未解决事项｜第380源章｜2",
+      "title": "爱丽丝最终结局",
       "memo": "六神祝福之旅：未解决事项（第380源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9303,7 +9303,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-380-03",
-      "title": "未解决事项｜第380源章｜3",
+      "title": "流浪法官位置",
       "memo": "六神祝福之旅：未解决事项（第380源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9328,7 +9328,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-380-01",
-      "title": "主角龙形态｜第380源章｜1",
+      "title": "主角龙形态｜神圣的火焰山.(3)｜弱化爱丽丝获得伊芙利特部分火焰祝福后暂获喘息",
       "memo": "六神祝福之旅：主角龙形态（第380源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9356,7 +9356,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-380-01",
-      "title": "主角龙状态｜第380源章｜1",
+      "title": "主角龙状态｜神圣的火焰山.(3)｜完成第一古神祝福，芬娜知道身份并正式全程入队，下一目标转为沙玛什线索",
       "memo": "六神祝福之旅：主角龙状态（第380源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9383,7 +9383,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-380-01",
-      "title": "主角龙知识边界｜第380源章｜1",
+      "title": "主角龙知识边界｜神圣的火焰山.(3)｜伊芙利特对话未在后世公开",
       "memo": "六神祝福之旅：主角龙知识边界（第380源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9411,7 +9411,7 @@
     },
     {
       "id": "era-19-six-gods-event-381-01",
-      "title": "事件｜第381源章｜1",
+      "title": "三人到普罗西亚审判所寻找流浪法官，却因魔王倒下后难民与当地人为资源冲突",
       "memo": "六神祝福之旅：事件（第381源章第1条）",
       "category": "event",
       "keys": [
@@ -9438,7 +9438,7 @@
     },
     {
       "id": "era-19-six-gods-event-381-02",
-      "title": "事件｜第381源章｜2",
+      "title": "犯罪者记录说明流浪法官兼具沙玛什祭司，圣骑士，审判官身份，以神圣魔法和武力执法",
       "memo": "六神祝福之旅：事件（第381源章第2条）",
       "category": "event",
       "keys": [
@@ -9464,7 +9464,7 @@
     },
     {
       "id": "era-19-six-gods-event-381-03",
-      "title": "事件｜第381源章｜3",
+      "title": "疲惫的流浪法官阿尔伯特回所，虽想下班仍接见等待者",
       "memo": "六神祝福之旅：事件（第381源章第3条）",
       "category": "event",
       "keys": [
@@ -9490,7 +9490,7 @@
     },
     {
       "id": "era-19-six-gods-event-381-04",
-      "title": "事件｜第381源章｜4",
+      "title": "阿尔伯特以真实之眼认出勇者和龙巫女，经祈祷联系沙玛什",
       "memo": "六神祝福之旅：事件（第381源章第4条）",
       "category": "event",
       "keys": [
@@ -9517,7 +9517,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-381-01",
-      "title": "世界设定事实｜第381源章｜1",
+      "title": "魔王倒下后，北方难民与南方居民争夺有限资源导致偷窃、抢劫和杀人，流浪法官工作反而激增",
       "memo": "六神祝福之旅：世界设定事实（第381源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9543,7 +9543,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-381-02",
-      "title": "世界设定事实｜第381源章｜2",
+      "title": "流浪法官兼沙玛什祭司，圣骑士和审判官，能以信仰施神圣魔法并以法典，圣光和武力执法",
       "memo": "六神祝福之旅：世界设定事实（第381源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9569,7 +9569,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-381-03",
-      "title": "世界设定事实｜第381源章｜3",
+      "title": "真实之眼可看穿对象大致本质但非全部，是流浪法官辨识与审判能力之一",
       "memo": "六神祝福之旅：世界设定事实（第381源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9594,7 +9594,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-381-01",
-      "title": "新建立连续性｜第381源章｜1",
+      "title": "阿尔伯特",
       "memo": "六神祝福之旅：新建立连续性（第381源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9620,7 +9620,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-381-02",
-      "title": "新建立连续性｜第381源章｜2",
+      "title": "真实之眼",
       "memo": "六神祝福之旅：新建立连续性（第381源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9645,7 +9645,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-381-03",
-      "title": "新建立连续性｜第381源章｜3",
+      "title": "沙玛什请求交易",
       "memo": "六神祝福之旅：新建立连续性（第381源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9671,7 +9671,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-381-04",
-      "title": "新建立连续性｜第381源章｜4",
+      "title": "战后社会犯罪",
       "memo": "六神祝福之旅：新建立连续性（第381源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9696,7 +9696,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-381-01",
-      "title": "未解决事项｜第381源章｜1",
+      "title": "小请求内容",
       "memo": "六神祝福之旅：未解决事项（第381源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9721,7 +9721,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-381-02",
-      "title": "未解决事项｜第381源章｜2",
+      "title": "沙玛什位置｜光明与正义之神",
       "memo": "六神祝福之旅：未解决事项（第381源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9747,7 +9747,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-381-01",
-      "title": "主角龙形态｜第381源章｜1",
+      "title": "主角龙形态｜光明与正义之神｜弱化爱丽丝仍隐藏外貌身份进入审判所",
       "memo": "六神祝福之旅：主角龙形态（第381源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9773,7 +9773,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-381-01",
-      "title": "主角龙状态｜第381源章｜1",
+      "title": "主角龙状态｜光明与正义之神｜完成第一祝福后寻找沙玛什，开始修正对和平与人类社会的理解",
       "memo": "六神祝福之旅：主角龙状态（第381源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9799,7 +9799,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-381-01",
-      "title": "主角龙知识边界｜第381源章｜1",
+      "title": "主角龙知识边界｜光明与正义之神｜真实之眼只能看大致本质，阿尔伯特未必知道爱丽丝体内魔王全部真相",
       "memo": "六神祝福之旅：主角龙知识边界（第381源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9828,7 +9828,7 @@
     },
     {
       "id": "era-19-six-gods-event-382-01",
-      "title": "事件｜第382源章｜1",
+      "title": "阿尔伯特的小请求是把难判的精灵莉莉与狐狸兽人尤里卡加入勇者旅程",
       "memo": "六神祝福之旅：事件（第382源章第1条）",
       "category": "event",
       "keys": [
@@ -9856,7 +9856,7 @@
     },
     {
       "id": "era-19-six-gods-event-382-02",
-      "title": "事件｜第382源章｜2",
+      "title": "未满百岁的年轻精灵莉莉因魔王倒下得以出森林，见外界破败后自认负有纠正世界的命运",
       "memo": "六神祝福之旅：事件（第382源章第2条）",
       "category": "event",
       "keys": [
@@ -9883,7 +9883,7 @@
     },
     {
       "id": "era-19-six-gods-event-382-03",
-      "title": "事件｜第382源章｜3",
+      "title": "孤儿尤里卡从偷面包求生成为盗贼和冒险者，见战乱孤儿如过去自己后倾尽财产",
       "memo": "六神祝福之旅：事件（第382源章第3条）",
       "category": "event",
       "keys": [
@@ -9909,7 +9909,7 @@
     },
     {
       "id": "era-19-six-gods-event-382-04",
-      "title": "事件｜第382源章｜4",
+      "title": "莉莉以善意和浅薄判断造成伤害，尤里卡以恶行实践善意，审判所难判",
       "memo": "六神祝福之旅：事件（第382源章第4条）",
       "category": "event",
       "keys": [
@@ -9937,7 +9937,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-382-01",
-      "title": "世界设定事实｜第382源章｜1",
+      "title": "莉莉来自世界树庇护大森林，具远超其他精灵的元素精灵亲和与箭术",
       "memo": "六神祝福之旅：世界设定事实（第382源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9964,7 +9964,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-382-02",
-      "title": "世界设定事实｜第382源章｜2",
+      "title": "尤里卡能隐匿气息身形，用短剑作战，曾险被卷入贝特尔吉乌斯统治权种族大战",
       "memo": "六神祝福之旅：世界设定事实（第382源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9990,7 +9990,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-382-03",
-      "title": "世界设定事实｜第382源章｜3",
+      "title": "审判所把莉莉归为善意导致恶果、尤里卡归为以恶行善，两者均属难以简单裁决的善恶边界",
       "memo": "六神祝福之旅：世界设定事实（第382源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10017,7 +10017,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-382-01",
-      "title": "新建立连续性｜第382源章｜1",
+      "title": "莉莉",
       "memo": "六神祝福之旅：新建立连续性（第382源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10043,7 +10043,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-382-02",
-      "title": "新建立连续性｜第382源章｜2",
+      "title": "尤里卡",
       "memo": "六神祝福之旅：新建立连续性（第382源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10069,7 +10069,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-382-03",
-      "title": "新建立连续性｜第382源章｜3",
+      "title": "善恶模糊判决",
       "memo": "六神祝福之旅：新建立连续性（第382源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10094,7 +10094,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-382-04",
-      "title": "新建立连续性｜第382源章｜4",
+      "title": "五人队伍",
       "memo": "六神祝福之旅：新建立连续性（第382源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10119,7 +10119,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-382-01",
-      "title": "未解决事项｜第382源章｜1",
+      "title": "两人知情同意",
       "memo": "六神祝福之旅：未解决事项（第382源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10144,7 +10144,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-382-02",
-      "title": "未解决事项｜第382源章｜2",
+      "title": "芬娜莉莉磨合",
       "memo": "六神祝福之旅：未解决事项（第382源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10171,7 +10171,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-382-03",
-      "title": "未解决事项｜第382源章｜3",
+      "title": "沙玛什位置｜精灵与狐狸兽人.(1)",
       "memo": "六神祝福之旅：未解决事项（第382源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10197,7 +10197,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-382-01",
-      "title": "主角龙形态｜第382源章｜1",
+      "title": "主角龙形态｜精灵与狐狸兽人.(1)｜弱化爱丽丝继续以隐藏身份与审判所谈判",
       "memo": "六神祝福之旅：主角龙形态（第382源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10223,7 +10223,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-382-01",
-      "title": "主角龙状态｜第382源章｜1",
+      "title": "主角龙状态｜精灵与狐狸兽人.(1)｜被要求接收莉莉和尤里卡，五人队伍即将形成",
       "memo": "六神祝福之旅：主角龙状态（第382源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10250,7 +10250,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-382-01",
-      "title": "主角龙知识边界｜第382源章｜1",
+      "title": "主角龙知识边界｜精灵与狐狸兽人.(1)｜后世旁白给出若未加入的死亡可能性，但当前角色不知",
       "memo": "六神祝福之旅：主角龙知识边界（第382源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10277,7 +10277,7 @@
     },
     {
       "id": "era-19-six-gods-event-383-01",
-      "title": "事件｜第383源章｜1",
+      "title": "莉莉和尤里卡得知二人真实身份后把同行惩罚视为奖励",
       "memo": "六神祝福之旅：事件（第383源章第1条）",
       "category": "event",
       "keys": [
@@ -10305,7 +10305,7 @@
     },
     {
       "id": "era-19-six-gods-event-383-02",
-      "title": "事件｜第383源章｜2",
+      "title": "芬娜说明火焰山旅程曾心停，两人真正知晓风险",
       "memo": "六神祝福之旅：事件（第383源章第2条）",
       "category": "event",
       "keys": [
@@ -10334,7 +10334,7 @@
     },
     {
       "id": "era-19-six-gods-event-383-03",
-      "title": "事件｜第383源章｜3",
+      "title": "阿尔伯特提供白夜线索：北方冻原由冰、强光、光精灵和怪物构成，与火焰山同列世界七大禁地",
       "memo": "六神祝福之旅：事件（第383源章第3条）",
       "category": "event",
       "keys": [
@@ -10360,7 +10360,7 @@
     },
     {
       "id": "era-19-six-gods-event-383-04",
-      "title": "事件｜第383源章｜4",
+      "title": "因萨加玛塔、世界树、沙玛什都在遥远北方且希尔芙不定，爱丽丝先选海神",
       "memo": "六神祝福之旅：事件（第383源章第4条）",
       "category": "event",
       "keys": [
@@ -10390,7 +10390,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-383-01",
-      "title": "世界设定事实｜第383源章｜1",
+      "title": "沙玛什所在白夜位于北方冻原，冰原强光、光元素精灵、适寒怪物和刺骨严寒使其成为七大禁地",
       "memo": "六神祝福之旅：世界设定事实（第383源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10416,7 +10416,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-383-02",
-      "title": "世界设定事实｜第383源章｜2",
+      "title": "见忒提斯需船和人鱼指引",
       "memo": "六神祝福之旅：世界设定事实（第383源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10443,7 +10443,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-383-01",
-      "title": "新建立连续性｜第383源章｜1",
+      "title": "五人队正式成立",
       "memo": "六神祝福之旅：新建立连续性（第383源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10468,7 +10468,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-383-02",
-      "title": "新建立连续性｜第383源章｜2",
+      "title": "白夜",
       "memo": "六神祝福之旅：新建立连续性（第383源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10493,7 +10493,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-383-03",
-      "title": "新建立连续性｜第383源章｜3",
+      "title": "比斯蒂亚海路目标",
       "memo": "六神祝福之旅：新建立连续性（第383源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10518,7 +10518,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-383-01",
-      "title": "未解决事项｜第383源章｜1",
+      "title": "船只取得",
       "memo": "六神祝福之旅：未解决事项（第383源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10543,7 +10543,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-383-02",
-      "title": "未解决事项｜第383源章｜2",
+      "title": "新人磨合",
       "memo": "六神祝福之旅：未解决事项（第383源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10568,7 +10568,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-383-03",
-      "title": "未解决事项｜第383源章｜3",
+      "title": "海神引路",
       "memo": "六神祝福之旅：未解决事项（第383源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10593,7 +10593,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-383-01",
-      "title": "主角龙形态｜第383源章｜1",
+      "title": "主角龙形态｜精灵与狐狸兽人.(2)｜弱化爱丽丝继续作为五人队伍决策核心，无新形态",
       "memo": "六神祝福之旅：主角龙形态（第383源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10619,7 +10619,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-383-01",
-      "title": "主角龙状态｜第383源章｜1",
+      "title": "主角龙状态｜精灵与狐狸兽人.(2)｜莉莉和尤里卡正式知情加入，队伍下个方向为比斯蒂亚与海神",
       "memo": "六神祝福之旅：主角龙状态（第383源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10646,7 +10646,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-383-01",
-      "title": "主角龙知识边界｜第383源章｜1",
+      "title": "主角龙知识边界｜精灵与狐狸兽人.(2)｜新人知道旅程危险和二人身份，但是否知道爱丽丝体内魔王完整真相尚未明确",
       "memo": "六神祝福之旅：主角龙知识边界（第383源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10674,7 +10674,7 @@
     },
     {
       "id": "era-19-six-gods-event-384-01",
-      "title": "事件｜第384源章｜1",
+      "title": "五人西北行，遭黄金哥布林军雷击",
       "memo": "六神祝福之旅：事件（第384源章第1条）",
       "category": "event",
       "keys": [
@@ -10702,7 +10702,7 @@
     },
     {
       "id": "era-19-six-gods-event-384-02",
-      "title": "事件｜第384源章｜2",
+      "title": "进入蜥蜴人领地后无怪物却被好战居民逐一切磋",
       "memo": "六神祝福之旅：事件（第384源章第2条）",
       "category": "event",
       "keys": [
@@ -10728,7 +10728,7 @@
     },
     {
       "id": "era-19-six-gods-event-384-03",
-      "title": "事件｜第384源章｜3",
+      "title": "黄金哥布林追来，蜥蜴人因能挑战强敌欢呼出击并准备抗魔咒术",
       "memo": "六神祝福之旅：事件（第384源章第3条）",
       "category": "event",
       "keys": [
@@ -10754,7 +10754,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-384-01",
-      "title": "世界设定事实｜第384源章｜1",
+      "title": "黄金哥布林雷击近必中、带麻痹并会烧毁皮肤肌肉神经",
       "memo": "六神祝福之旅：世界设定事实（第384源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10780,7 +10780,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-384-02",
-      "title": "世界设定事实｜第384源章｜2",
+      "title": "蜥蜴人体强鳞硬、崇强好战，大战士选拔近死斗",
       "memo": "六神祝福之旅：世界设定事实（第384源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10805,7 +10805,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-384-03",
-      "title": "世界设定事实｜第384源章｜3",
+      "title": "蜥蜴人发现黄金哥布林后主动使用魔抗咒术并争抢挑战，显示其反魔战斗准备",
       "memo": "六神祝福之旅：世界设定事实（第384源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10831,7 +10831,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-384-01",
-      "title": "新建立连续性｜第384源章｜1",
+      "title": "五人首次黄金哥布林战",
       "memo": "六神祝福之旅：新建立连续性（第384源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10857,7 +10857,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-384-02",
-      "title": "新建立连续性｜第384源章｜2",
+      "title": "蜥蜴人领地",
       "memo": "六神祝福之旅：新建立连续性（第384源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10882,7 +10882,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-384-03",
-      "title": "新建立连续性｜第384源章｜3",
+      "title": "大萨满可能帮助",
       "memo": "六神祝福之旅：新建立连续性（第384源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10907,7 +10907,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-384-04",
-      "title": "新建立连续性｜第384源章｜4",
+      "title": "纳鲁之锤名",
       "memo": "六神祝福之旅：新建立连续性（第384源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10932,7 +10932,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-384-01",
-      "title": "未解决事项｜第384源章｜1",
+      "title": "第二次战果",
       "memo": "六神祝福之旅：未解决事项（第384源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10957,7 +10957,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-384-02",
-      "title": "未解决事项｜第384源章｜2",
+      "title": "蜥蜴机制",
       "memo": "六神祝福之旅：未解决事项（第384源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10982,7 +10982,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-384-03",
-      "title": "未解决事项｜第384源章｜3",
+      "title": "前往比斯蒂亚",
       "memo": "六神祝福之旅：未解决事项（第384源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11007,7 +11007,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-384-01",
-      "title": "主角龙形态｜第384源章｜1",
+      "title": "主角龙形态｜战斗种族蜥蜴人.(1)｜弱化爱丽丝能为五人施雷抗与防御，但法力流动受阻可被蜥蜴大萨满感知",
       "memo": "六神祝福之旅：主角龙形态（第384源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11033,7 +11033,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-384-01",
-      "title": "主角龙状态｜第384源章｜1",
+      "title": "主角龙状态｜战斗种族蜥蜴人.(1)｜五人前往比斯蒂亚途中进入蜥蜴领地，被追踪的黄金哥布林再度逼战",
       "memo": "六神祝福之旅：主角龙状态（第384源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11059,7 +11059,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-384-01",
-      "title": "主角龙知识边界｜第384源章｜1",
+      "title": "主角龙知识边界｜战斗种族蜥蜴人.(1)｜蜥蜴信念强化武器机制连蒂雅也不明，不能断言是创世龙神赐福",
       "memo": "六神祝福之旅：主角龙知识边界（第384源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11086,7 +11086,7 @@
     },
     {
       "id": "era-19-six-gods-event-385-01",
-      "title": "事件｜第385源章｜1",
+      "title": "十余蜥蜴人把数百哥布林碾碎，蒂雅无法确定其从生存型战士变得末日式好战的单一原因",
       "memo": "六神祝福之旅：事件（第385源章第1条）",
       "category": "event",
       "keys": [
@@ -11112,7 +11112,7 @@
     },
     {
       "id": "era-19-six-gods-event-385-02",
-      "title": "事件｜第385源章｜2",
+      "title": "黄金哥布林现身并以雷电逐渐压制皮肤需湿润的蜥蜴人",
       "memo": "六神祝福之旅：事件（第385源章第2条）",
       "category": "event",
       "keys": [
@@ -11139,7 +11139,7 @@
     },
     {
       "id": "era-19-six-gods-event-385-03",
-      "title": "事件｜第385源章｜3",
+      "title": "爱丽丝先感到强者接近而阻止同伴",
       "memo": "六神祝福之旅：事件（第385源章第3条）",
       "category": "event",
       "keys": [
@@ -11165,7 +11165,7 @@
     },
     {
       "id": "era-19-six-gods-event-385-04",
-      "title": "事件｜第385源章｜4",
+      "title": "大战士从无差别雷束中找到唯一通路，以快过黄金哥布林反应的突刺斩落左臂",
       "memo": "六神祝福之旅：事件（第385源章第4条）",
       "category": "event",
       "keys": [
@@ -11191,7 +11191,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-385-01",
-      "title": "世界设定事实｜第385源章｜1",
+      "title": "十余蜥蜴人可碾压数百普通哥布林，单个强者具数十至百余人类战力",
       "memo": "六神祝福之旅：世界设定事实（第385源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11216,7 +11216,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-385-02",
-      "title": "世界设定事实｜第385源章｜2",
+      "title": "蜥蜴人需皮肤湿润，黄金哥布林雷电会沿湿气传播并积累神经伤害，形成明确属性克制",
       "memo": "六神祝福之旅：世界设定事实（第385源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11242,7 +11242,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-385-03",
-      "title": "世界设定事实｜第385源章｜3",
+      "title": "蜥蜴人战士选拔赛胜者获得创世龙神祝福，祝福期间其特殊矛绝不会断裂",
       "memo": "六神祝福之旅：世界设定事实（第385源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11267,7 +11267,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-385-01",
-      "title": "新建立连续性｜第385源章｜1",
+      "title": "库茨登场",
       "memo": "六神祝福之旅：新建立连续性（第385源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11293,7 +11293,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-385-02",
-      "title": "新建立连续性｜第385源章｜2",
+      "title": "黄金哥布林失左臂",
       "memo": "六神祝福之旅：新建立连续性（第385源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11319,7 +11319,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-385-03",
-      "title": "新建立连续性｜第385源章｜3",
+      "title": "大战士不折之矛",
       "memo": "六神祝福之旅：新建立连续性（第385源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11344,7 +11344,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-385-01",
-      "title": "未解决事项｜第385源章｜1",
+      "title": "黄金哥布林再次逃亡",
       "memo": "六神祝福之旅：未解决事项（第385源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11370,7 +11370,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-385-02",
-      "title": "未解决事项｜第385源章｜2",
+      "title": "库茨目的",
       "memo": "六神祝福之旅：未解决事项（第385源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11396,7 +11396,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-385-01",
-      "title": "主角龙形态｜第385源章｜1",
+      "title": "主角龙形态｜战斗种族蜥蜴人.(2)｜弱化爱丽丝仍具远距强者感知和战场属性分析",
       "memo": "六神祝福之旅：主角龙形态（第385源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11422,7 +11422,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-385-01",
-      "title": "主角龙状态｜第385源章｜1",
+      "title": "主角龙状态｜战斗种族蜥蜴人.(2)｜暂缓队伍介入，见证大战士库茨重创黄金哥布林",
       "memo": "六神祝福之旅：主角龙状态（第385源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11449,7 +11449,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-385-01",
-      "title": "主角龙知识边界｜第385源章｜1",
+      "title": "主角龙知识边界｜战斗种族蜥蜴人.(2)｜蒂雅不知道蜥蜴人好战化的准确原因",
       "memo": "六神祝福之旅：主角龙知识边界（第385源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11477,7 +11477,7 @@
     },
     {
       "id": "era-19-six-gods-event-386-01",
-      "title": "事件｜第386源章｜1",
+      "title": "冒险指南系统说明蜥蜴人的强体，湿度弱点，善良与好战性",
       "memo": "六神祝福之旅：事件（第386源章第1条）",
       "category": "event",
       "keys": [
@@ -11502,7 +11502,7 @@
     },
     {
       "id": "era-19-six-gods-event-386-02",
-      "title": "事件｜第386源章｜2",
+      "title": "库茨以能继续对战黄金哥布林和四天王为由请求入队，自信实力不输勇者龙巫女并已识破身份",
       "memo": "六神祝福之旅：事件（第386源章第2条）",
       "category": "event",
       "keys": [
@@ -11530,7 +11530,7 @@
     },
     {
       "id": "era-19-six-gods-event-386-03",
-      "title": "事件｜第386源章｜3",
+      "title": "莉莉、芬娜与埃里克赞成，尤里卡主张慎重保留，爱丽丝交埃里克决定",
       "memo": "六神祝福之旅：事件（第386源章第3条）",
       "category": "event",
       "keys": [
@@ -11561,7 +11561,7 @@
     },
     {
       "id": "era-19-six-gods-event-386-04",
-      "title": "事件｜第386源章｜4",
+      "title": "芬娜提出离开湿地问题，萝蕾娜经爱丽丝传话称有办法",
       "memo": "六神祝福之旅：事件（第386源章第4条）",
       "category": "event",
       "keys": [
@@ -11589,7 +11589,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-386-01",
-      "title": "世界设定事实｜第386源章｜1",
+      "title": "蜥蜴人强体、锐感、鳞爪、耐力优秀，需水和湿度但可用水精灵咒术缓解",
       "memo": "六神祝福之旅：世界设定事实（第386源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11614,7 +11614,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-386-02",
-      "title": "世界设定事实｜第386源章｜2",
+      "title": "学界视创世龙神为生命女神信仰变体",
       "memo": "六神祝福之旅：世界设定事实（第386源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11639,7 +11639,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-386-03",
-      "title": "世界设定事实｜第386源章｜3",
+      "title": "蜥蜴人有难被外族知晓的离开湿地应对法，萝蕾娜确认库茨可旅行",
       "memo": "六神祝福之旅：世界设定事实（第386源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11665,7 +11665,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-386-01",
-      "title": "新建立连续性｜第386源章｜1",
+      "title": "库茨正式入队",
       "memo": "六神祝福之旅：新建立连续性（第386源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11691,7 +11691,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-386-02",
-      "title": "新建立连续性｜第386源章｜2",
+      "title": "蜥蜴信仰演变",
       "memo": "六神祝福之旅：新建立连续性（第386源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11716,7 +11716,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-386-03",
-      "title": "新建立连续性｜第386源章｜3",
+      "title": "湿度解决承诺",
       "memo": "六神祝福之旅：新建立连续性（第386源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11741,7 +11741,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-386-01",
-      "title": "未解决事项｜第386源章｜1",
+      "title": "具体湿度术式",
       "memo": "六神祝福之旅：未解决事项（第386源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11766,7 +11766,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-386-02",
-      "title": "未解决事项｜第386源章｜2",
+      "title": "最大聚落",
       "memo": "六神祝福之旅：未解决事项（第386源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11791,7 +11791,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-386-01",
-      "title": "主角龙形态｜第386源章｜1",
+      "title": "主角龙形态｜战斗种族蜥蜴人.(3)｜爱丽丝以微弱意识继续担任队伍成员并转达萝蕾娜",
       "memo": "六神祝福之旅：主角龙形态（第386源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11817,7 +11817,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-386-01",
-      "title": "主角龙状态｜第386源章｜1",
+      "title": "主角龙状态｜战斗种族蜥蜴人.(3)｜库茨正式成为第六位队员，队伍前排与本地导航能力增强",
       "memo": "六神祝福之旅：主角龙状态（第386源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11843,7 +11843,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-386-01",
-      "title": "主角龙知识边界｜第386源章｜1",
+      "title": "主角龙知识边界｜战斗种族蜥蜴人.(3)｜队伍不知道库茨如何识破身份",
       "memo": "六神祝福之旅：主角龙知识边界（第386源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11869,7 +11869,7 @@
     },
     {
       "id": "era-19-six-gods-event-387-01",
-      "title": "事件｜第387源章｜1",
+      "title": "六人抵达巨大湖泊中央的特奥卡利，外来者乘芦苇船",
       "memo": "六神祝福之旅：事件（第387源章第1条）",
       "category": "event",
       "keys": [
@@ -11898,7 +11898,7 @@
     },
     {
       "id": "era-19-six-gods-event-387-02",
-      "title": "事件｜第387源章｜2",
+      "title": "特奥卡利是蜥蜴人把芦苇船持续连结扩建成的湖上人工岛大城，以白花祭创世龙神",
       "memo": "六神祝福之旅：事件（第387源章第2条）",
       "category": "event",
       "keys": [
@@ -11923,7 +11923,7 @@
     },
     {
       "id": "era-19-six-gods-event-387-03",
-      "title": "事件｜第387源章｜3",
+      "title": "大萨满佩尔西·托茨当众训斥偷跑的库茨，得知客人身份后迅速恢复首领礼仪并欢迎队伍",
       "memo": "六神祝福之旅：事件（第387源章第3条）",
       "category": "event",
       "keys": [
@@ -11950,7 +11950,7 @@
     },
     {
       "id": "era-19-six-gods-event-387-04",
-      "title": "事件｜第387源章｜4",
+      "title": "库茨宣布加入旅行，佩尔揭露他是严重路痴且曾需术法找回",
       "memo": "六神祝福之旅：事件（第387源章第4条）",
       "category": "event",
       "keys": [
@@ -11977,7 +11977,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-387-01",
-      "title": "世界设定事实｜第387源章｜1",
+      "title": "特奥卡利位于巨大湖中、规模堪比大城市，蜥蜴人可游入，外族需码头芦苇船",
       "memo": "六神祝福之旅：世界设定事实（第387源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12002,7 +12002,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-387-02",
-      "title": "世界设定事实｜第387源章｜2",
+      "title": "白花之城由芦苇船不断连结扩建为人工浮岛，是非神力的蜥蜴工程奇迹",
       "memo": "六神祝福之旅：世界设定事实（第387源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12027,7 +12027,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-387-03",
-      "title": "世界设定事实｜第387源章｜3",
+      "title": "蜥蜴人三大首领包括大萨满佩尔和大战士库茨",
       "memo": "六神祝福之旅：世界设定事实（第387源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12054,7 +12054,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-387-04",
-      "title": "世界设定事实｜第387源章｜4",
+      "title": "佩尔掌握一旦施放终身不可解除、双方持续互知位置的术式",
       "memo": "六神祝福之旅：世界设定事实（第387源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12080,7 +12080,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-387-01",
-      "title": "新建立连续性｜第387源章｜1",
+      "title": "特奥卡利",
       "memo": "六神祝福之旅：新建立连续性（第387源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12105,7 +12105,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-387-02",
-      "title": "新建立连续性｜第387源章｜2",
+      "title": "佩尔",
       "memo": "六神祝福之旅：新建立连续性（第387源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12131,7 +12131,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-387-03",
-      "title": "新建立连续性｜第387源章｜3",
+      "title": "永久定位术式",
       "memo": "六神祝福之旅：新建立连续性（第387源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12156,7 +12156,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-387-04",
-      "title": "新建立连续性｜第387源章｜4",
+      "title": "库茨路痴",
       "memo": "六神祝福之旅：新建立连续性（第387源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12182,7 +12182,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-387-01",
-      "title": "未解决事项｜第387源章｜1",
+      "title": "佩尔是否批准",
       "memo": "六神祝福之旅：未解决事项（第387源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12208,7 +12208,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-387-02",
-      "title": "未解决事项｜第387源章｜2",
+      "title": "白花节",
       "memo": "六神祝福之旅：未解决事项（第387源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12233,7 +12233,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-387-01",
-      "title": "主角龙形态｜第387源章｜1",
+      "title": "主角龙形态｜特奥卡利·蜥蜴人之城.(1)｜弱化爱丽丝进入创世龙神主神殿城市",
       "memo": "六神祝福之旅：主角龙形态（第387源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12259,7 +12259,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-387-01",
-      "title": "主角龙状态｜第387源章｜1",
+      "title": "主角龙状态｜特奥卡利·蜥蜴人之城.(1)｜随队暂抵特奥卡利并见证库茨与佩尔协商离城",
       "memo": "六神祝福之旅：主角龙状态（第387源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12286,7 +12286,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-387-01",
-      "title": "主角龙知识边界｜第387源章｜1",
+      "title": "主角龙知识边界｜特奥卡利·蜥蜴人之城.(1)｜队员能看出佩尔反应含私人意味但爱丽丝本人不理解",
       "memo": "六神祝福之旅：主角龙知识边界（第387源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12314,7 +12314,7 @@
     },
     {
       "id": "era-19-six-gods-event-388-01",
-      "title": "事件｜第388源章｜1",
+      "title": "佩尔强烈反对库茨旅行，库茨称想扩展视野",
       "memo": "六神祝福之旅：事件（第388源章第1条）",
       "category": "event",
       "keys": [
@@ -12342,7 +12342,7 @@
     },
     {
       "id": "era-19-six-gods-event-388-02",
-      "title": "事件｜第388源章｜2",
+      "title": "因佩尔需要被说服且白花节将至，队伍决定留城观光",
       "memo": "六神祝福之旅：事件（第388源章第2条）",
       "category": "event",
       "keys": [
@@ -12370,7 +12370,7 @@
     },
     {
       "id": "era-19-six-gods-event-388-03",
-      "title": "事件｜第388源章｜3",
+      "title": "白花节以任意白花承载心意、洗净罪孽和平息龙神怒火",
       "memo": "六神祝福之旅：事件（第388源章第3条）",
       "category": "event",
       "keys": [
@@ -12395,7 +12395,7 @@
     },
     {
       "id": "era-19-six-gods-event-388-04",
-      "title": "事件｜第388源章｜4",
+      "title": "佩尔指出库茨已连续十五年任大战士、远超2.5年平均且阻碍后辈",
       "memo": "六神祝福之旅：事件（第388源章第4条）",
       "category": "event",
       "keys": [
@@ -12422,7 +12422,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-388-01",
-      "title": "世界设定事实｜第388源章｜1",
+      "title": "白花节从年末持续到新年，知名度类似精灵大元素精灵祭，吸引外族远来",
       "memo": "六神祝福之旅：世界设定事实（第388源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12447,7 +12447,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-388-02",
-      "title": "世界设定事实｜第388源章｜2",
+      "title": "庆典允许任意白花，重心是心意",
       "memo": "六神祝福之旅：世界设定事实（第388源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12472,7 +12472,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-388-03",
-      "title": "世界设定事实｜第388源章｜3",
+      "title": "库茨已连续十五年任大战士，平均任期仅2.5年、此前最长四年",
       "memo": "六神祝福之旅：世界设定事实（第388源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12499,7 +12499,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-388-01",
-      "title": "新建立连续性｜第388源章｜1",
+      "title": "白花节",
       "memo": "六神祝福之旅：新建立连续性（第388源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12524,7 +12524,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-388-02",
-      "title": "新建立连续性｜第388源章｜2",
+      "title": "库茨十五年冠军",
       "memo": "六神祝福之旅：新建立连续性（第388源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12550,7 +12550,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-388-03",
-      "title": "新建立连续性｜第388源章｜3",
+      "title": "胜赛换旅行",
       "memo": "六神祝福之旅：新建立连续性（第388源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12575,7 +12575,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-388-04",
-      "title": "新建立连续性｜第388源章｜4",
+      "title": "佩尔未来请求",
       "memo": "六神祝福之旅：新建立连续性（第388源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12601,7 +12601,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-388-01",
-      "title": "未解决事项｜第388源章｜1",
+      "title": "本届武斗结果",
       "memo": "六神祝福之旅：未解决事项（第388源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12626,7 +12626,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-388-02",
-      "title": "未解决事项｜第388源章｜2",
+      "title": "请求内容",
       "memo": "六神祝福之旅：未解决事项（第388源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12651,7 +12651,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-388-03",
-      "title": "未解决事项｜第388源章｜3",
+      "title": "定位术式实施",
       "memo": "六神祝福之旅：未解决事项（第388源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12676,7 +12676,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-388-01",
-      "title": "主角龙形态｜第388源章｜1",
+      "title": "主角龙形态｜特奥卡利·蜥蜴人之城.(2)｜弱化爱丽丝在伊芙利特祝福后内部争夺稍缓，足以留城度过庆典",
       "memo": "六神祝福之旅：主角龙形态（第388源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12703,7 +12703,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-388-01",
-      "title": "主角龙状态｜第388源章｜1",
+      "title": "主角龙状态｜特奥卡利·蜥蜴人之城.(2)｜六人暂住特奥卡利，等待白花节和库茨参赛决定",
       "memo": "六神祝福之旅：主角龙状态（第388源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12729,7 +12729,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-388-01",
-      "title": "主角龙知识边界｜第388源章｜1",
+      "title": "主角龙知识边界｜特奥卡利·蜥蜴人之城.(2)｜佩尔回程请求尚未公开，不能提前定义为求婚或其他具体内容",
       "memo": "六神祝福之旅：主角龙知识边界（第388源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12755,7 +12755,7 @@
     },
     {
       "id": "era-19-six-gods-event-389-01",
-      "title": "事件｜第389源章｜1",
+      "title": "队伍参加白花节",
       "memo": "六神祝福之旅：事件（第389源章第1条）",
       "category": "event",
       "keys": [
@@ -12782,7 +12782,7 @@
     },
     {
       "id": "era-19-six-gods-event-389-02",
-      "title": "事件｜第389源章｜2",
+      "title": "佩尔警告海神难寻、人鱼警戒且爱美，建议以金银镶宝石首饰而非人鱼常见珍珠建立好感",
       "memo": "六神祝福之旅：事件（第389源章第2条）",
       "category": "event",
       "keys": [
@@ -12808,7 +12808,7 @@
     },
     {
       "id": "era-19-six-gods-event-389-03",
-      "title": "事件｜第389源章｜3",
+      "title": "芬娜仍怕回萨加玛塔受罚，莉莉提出先去世界树并称其和善",
       "memo": "六神祝福之旅：事件（第389源章第3条）",
       "category": "event",
       "keys": [
@@ -12837,7 +12837,7 @@
     },
     {
       "id": "era-19-six-gods-event-389-04",
-      "title": "事件｜第389源章｜4",
+      "title": "佩尔提出从世界树借精灵王族圣物和谐之枝，强化风精灵以定位希尔芙",
       "memo": "六神祝福之旅：事件（第389源章第4条）",
       "category": "event",
       "keys": [
@@ -12866,7 +12866,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-389-01",
-      "title": "世界设定事实｜第389源章｜1",
+      "title": "精灵以契约借元素力，蜥蜴人视元素精灵为朋友交流借力，两种体系各有优缺点",
       "memo": "六神祝福之旅：世界设定事实（第389源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12891,7 +12891,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-389-02",
-      "title": "世界设定事实｜第389源章｜2",
+      "title": "人鱼远距警戒且喜爱深海稀缺美物，金银镶陆地宝石首饰可增好感",
       "memo": "六神祝福之旅：世界设定事实（第389源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12916,7 +12916,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-389-03",
-      "title": "世界设定事实｜第389源章｜3",
+      "title": "和谐之枝由世界树枝，元素精华结晶宝石和魔杖工艺制成，能最大化元素精灵力量",
       "memo": "六神祝福之旅：世界设定事实（第389源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12942,7 +12942,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-389-01",
-      "title": "新建立连续性｜第389源章｜1",
+      "title": "人鱼宝石礼物",
       "memo": "六神祝福之旅：新建立连续性（第389源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12967,7 +12967,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-389-02",
-      "title": "新建立连续性｜第389源章｜2",
+      "title": "和谐之枝",
       "memo": "六神祝福之旅：新建立连续性（第389源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12992,7 +12992,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-389-03",
-      "title": "新建立连续性｜第389源章｜3",
+      "title": "风神定位仪式",
       "memo": "六神祝福之旅：新建立连续性（第389源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13017,7 +13017,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-389-04",
-      "title": "新建立连续性｜第389源章｜4",
+      "title": "佩尔援助承诺",
       "memo": "六神祝福之旅：新建立连续性（第389源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13043,7 +13043,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-389-01",
-      "title": "未解决事项｜第389源章｜1",
+      "title": "圣物借出",
       "memo": "六神祝福之旅：未解决事项（第389源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13068,7 +13068,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-389-02",
-      "title": "未解决事项｜第389源章｜2",
+      "title": "芬娜返乡",
       "memo": "六神祝福之旅：未解决事项（第389源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13094,7 +13094,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-389-03",
-      "title": "未解决事项｜第389源章｜3",
+      "title": "人鱼交涉",
       "memo": "六神祝福之旅：未解决事项（第389源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13119,7 +13119,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-389-01",
-      "title": "主角龙形态｜第389源章｜1",
+      "title": "主角龙形态｜特奥卡利·蜥蜴人之城.(3)｜弱化爱丽丝仍受蜥蜴人如幼者照顾并被塞零食",
       "memo": "六神祝福之旅：主角龙形态（第389源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13145,7 +13145,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-389-01",
-      "title": "主角龙状态｜第389源章｜1",
+      "title": "主角龙状态｜特奥卡利·蜥蜴人之城.(3)｜古神路线从单点目标转为需要和谐之枝、人鱼礼物与跨族外交的组合计划",
       "memo": "六神祝福之旅：主角龙状态（第389源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13170,7 +13170,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-389-01",
-      "title": "主角龙知识边界｜第389源章｜1",
+      "title": "主角龙知识边界｜特奥卡利·蜥蜴人之城.(3)｜人鱼礼物只是佩尔基于传统的高概率建议，不保证必获引路",
       "memo": "六神祝福之旅：主角龙知识边界（第389源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13197,7 +13197,7 @@
     },
     {
       "id": "era-19-six-gods-event-390-01",
-      "title": "事件｜第390源章｜1",
+      "title": "路线确定先世界树借和谐之枝，佩尔以风精灵传话锁定希尔芙",
       "memo": "六神祝福之旅：事件（第390源章第1条）",
       "category": "event",
       "keys": [
@@ -13226,7 +13226,7 @@
     },
     {
       "id": "era-19-six-gods-event-390-02",
-      "title": "事件｜第390源章｜2",
+      "title": "队伍把萨加玛塔作为极寒装备准备点，再去白夜沙玛什，之后定位希尔芙并最后找忒提斯",
       "memo": "六神祝福之旅：事件（第390源章第2条）",
       "category": "event",
       "keys": [
@@ -13256,7 +13256,7 @@
     },
     {
       "id": "era-19-six-gods-event-390-03",
-      "title": "事件｜第390源章｜3",
+      "title": "库茨第十六次赢得年度大战士，获年度龙人和不折枪祝福",
       "memo": "六神祝福之旅：事件（第390源章第3条）",
       "category": "event",
       "keys": [
@@ -13285,7 +13285,7 @@
     },
     {
       "id": "era-19-six-gods-event-390-04",
-      "title": "事件｜第390源章｜4",
+      "title": "库茨公开宣布不再竞逐、要以同伴身份见世界",
       "memo": "六神祝福之旅：事件（第390源章第4条）",
       "category": "event",
       "keys": [
@@ -13314,7 +13314,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-390-01",
-      "title": "世界设定事实｜第390源章｜1",
+      "title": "白夜在魔王城东北，西北为冥界入口",
       "memo": "六神祝福之旅：世界设定事实（第390源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13340,7 +13340,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-390-02",
-      "title": "世界设定事实｜第390源章｜2",
+      "title": "年度武斗胜者成为龙人并获创世龙神祝福，其枪转为不易折断",
       "memo": "六神祝福之旅：世界设定事实（第390源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13365,7 +13365,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-390-03",
-      "title": "世界设定事实｜第390源章｜3",
+      "title": "库茨获唯一终身荣誉大战士特权，新大战士产生后其自身与武器祝福仍持续",
       "memo": "六神祝福之旅：世界设定事实（第390源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13391,7 +13391,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-390-01",
-      "title": "新建立连续性｜第390源章｜1",
+      "title": "库茨十六冠",
       "memo": "六神祝福之旅：新建立连续性（第390源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13417,7 +13417,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-390-02",
-      "title": "新建立连续性｜第390源章｜2",
+      "title": "荣誉大战士",
       "memo": "六神祝福之旅：新建立连续性（第390源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13442,7 +13442,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-390-03",
-      "title": "新建立连续性｜第390源章｜3",
+      "title": "终身祝福",
       "memo": "六神祝福之旅：新建立连续性（第390源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13467,7 +13467,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-390-04",
-      "title": "新建立连续性｜第390源章｜4",
+      "title": "完整六神路线",
       "memo": "六神祝福之旅：新建立连续性（第390源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13492,7 +13492,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-390-01",
-      "title": "未解决事项｜第390源章｜1",
+      "title": "佩尔未来请求",
       "memo": "六神祝福之旅：未解决事项（第390源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13518,7 +13518,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-390-02",
-      "title": "未解决事项｜第390源章｜2",
+      "title": "和谐之枝实际借取",
       "memo": "六神祝福之旅：未解决事项（第390源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13543,7 +13543,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-390-01",
-      "title": "主角龙形态｜第390源章｜1",
+      "title": "主角龙形态｜特奥卡利·蜥蜴人之城.(4)｜爱丽丝仍是弱化龙巫女",
       "memo": "六神祝福之旅：主角龙形态（第390源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13570,7 +13570,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-390-01",
-      "title": "主角龙状态｜第390源章｜1",
+      "title": "主角龙状态｜特奥卡利·蜥蜴人之城.(4)｜库茨完成离城条件并获终身祝福，六人旅程准备离开特奥卡利",
       "memo": "六神祝福之旅：主角龙状态（第390源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13596,7 +13596,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-390-01",
-      "title": "主角龙知识边界｜第390源章｜1",
+      "title": "主角龙知识边界｜特奥卡利·蜥蜴人之城.(4)｜蜥蜴人误认为赐福有深意，爱丽丝猜是心血来潮最接近事实",
       "memo": "六神祝福之旅：主角龙知识边界（第390源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13622,7 +13622,7 @@
     },
     {
       "id": "era-19-six-gods-event-391-01",
-      "title": "事件｜第391源章｜1",
+      "title": "库茨获祝福后告别佩尔，队伍本欲去世界树，却因大森林精灵失踪",
       "memo": "六神祝福之旅：事件（第391源章第1条）",
       "category": "event",
       "keys": [
@@ -13650,7 +13650,7 @@
     },
     {
       "id": "era-19-six-gods-event-391-02",
-      "title": "事件｜第391源章｜2",
+      "title": "库茨年龄约150、佩尔约60",
       "memo": "六神祝福之旅：事件（第391源章第2条）",
       "category": "event",
       "keys": [
@@ -13680,7 +13680,7 @@
     },
     {
       "id": "era-19-six-gods-event-391-03",
-      "title": "事件｜第391源章｜3",
+      "title": "爱丽丝厌恶仗身份硬闯",
       "memo": "六神祝福之旅：事件（第391源章第3条）",
       "category": "event",
       "keys": [
@@ -13708,7 +13708,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-391-01",
-      "title": "世界设定事实｜第391源章｜1",
+      "title": "大森林因精灵连续失踪被王族完全封锁，只有获许可者可入，连返乡精灵也被拒",
       "memo": "六神祝福之旅：世界设定事实（第391源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13733,7 +13733,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-391-02",
-      "title": "世界设定事实｜第391源章｜2",
+      "title": "库茨约150岁、佩尔约60",
       "memo": "六神祝福之旅：世界设定事实（第391源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13760,7 +13760,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-391-03",
-      "title": "世界设定事实｜第391源章｜3",
+      "title": "上次种族大战由精灵获胜，贝特尔吉乌斯处于精灵统治，按惯例驻有精灵王族管理者",
       "memo": "六神祝福之旅：世界设定事实（第391源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13785,7 +13785,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-391-01",
-      "title": "新建立连续性｜第391源章｜1",
+      "title": "大森林封锁",
       "memo": "六神祝福之旅：新建立连续性（第391源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13810,7 +13810,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-391-02",
-      "title": "新建立连续性｜第391源章｜2",
+      "title": "精灵失踪",
       "memo": "六神祝福之旅：新建立连续性（第391源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13835,7 +13835,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-391-03",
-      "title": "新建立连续性｜第391源章｜3",
+      "title": "贝特尔吉乌斯改道",
       "memo": "六神祝福之旅：新建立连续性（第391源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13860,7 +13860,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-391-01",
-      "title": "未解决事项｜第391源章｜1",
+      "title": "失踪真相",
       "memo": "六神祝福之旅：未解决事项（第391源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13885,7 +13885,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-391-02",
-      "title": "未解决事项｜第391源章｜2",
+      "title": "王族许可",
       "memo": "六神祝福之旅：未解决事项（第391源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13910,7 +13910,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-391-01",
-      "title": "主角龙形态｜第391源章｜1",
+      "title": "主角龙形态｜贝特尔吉乌斯.(1)｜弱化爱丽丝继续秘密旅行",
       "memo": "六神祝福之旅：主角龙形态（第391源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13936,7 +13936,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-391-01",
-      "title": "主角龙状态｜第391源章｜1",
+      "title": "主角龙状态｜贝特尔吉乌斯.(1)｜离开特奥卡利，因森林封锁把目的地改为贝特尔吉乌斯",
       "memo": "六神祝福之旅：主角龙状态（第391源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13961,7 +13961,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-391-01",
-      "title": "主角龙知识边界｜第391源章｜1",
+      "title": "主角龙知识边界｜贝特尔吉乌斯.(1)｜精灵失踪真凶尚未确认，魔贤者只是队伍基于残党作风的可能判断",
       "memo": "六神祝福之旅：主角龙知识边界（第391源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13987,7 +13987,7 @@
     },
     {
       "id": "era-19-six-gods-event-392-01",
-      "title": "事件｜第392源章｜1",
+      "title": "队伍北行见白骨、荒田和亡村，只有首次出领地的库茨震撼并为亡者祈祷",
       "memo": "六神祝福之旅：事件（第392源章第1条）",
       "category": "event",
       "keys": [
@@ -14013,7 +14013,7 @@
     },
     {
       "id": "era-19-six-gods-event-392-02",
-      "title": "事件｜第392源章｜2",
+      "title": "抵达贝特尔吉乌斯，城仍以永恒竞技场与多族参赛繁荣",
       "memo": "六神祝福之旅：事件（第392源章第2条）",
       "category": "event",
       "keys": [
@@ -14038,7 +14038,7 @@
     },
     {
       "id": "era-19-six-gods-event-392-03",
-      "title": "事件｜第392源章｜3",
+      "title": "众人讨论暴君结局，爱丽丝因无人告诉而不知道",
       "memo": "六神祝福之旅：事件（第392源章第3条）",
       "category": "event",
       "keys": [
@@ -14066,7 +14066,7 @@
     },
     {
       "id": "era-19-six-gods-event-392-04",
-      "title": "事件｜第392源章｜4",
+      "title": "埃里克组织队伍先住店预约统治者，为避免暴露借用库茨大战士名号",
       "memo": "六神祝福之旅：事件（第392源章第4条）",
       "category": "event",
       "keys": [
@@ -14094,7 +14094,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-392-01",
-      "title": "世界设定事实｜第392源章｜1",
+      "title": "北罗马尼亚仍有白骨、荒田和亡村，贵族、祭司、幸存者及外国援助共同修复，需长期恢复",
       "memo": "六神祝福之旅：世界设定事实（第392源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14119,7 +14119,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-392-02",
-      "title": "世界设定事实｜第392源章｜2",
+      "title": "贝特尔吉乌斯受生命女神祝福，竞技场永不消亡",
       "memo": "六神祝福之旅：世界设定事实（第392源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14144,7 +14144,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-392-03",
-      "title": "世界设定事实｜第392源章｜3",
+      "title": "城中有前代龙巫女骑白马、持旗杖并以荆棘拖暴君的最高级大理石纪念像，保存无损",
       "memo": "六神祝福之旅：世界设定事实（第392源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14169,7 +14169,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-392-04",
-      "title": "世界设定事实｜第392源章｜4",
+      "title": "真实暴君在逃亡中死去，灵魂后来成为魔王军黑暗骑士材料",
       "memo": "六神祝福之旅：世界设定事实（第392源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -14197,7 +14197,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-392-01",
-      "title": "新建立连续性｜第392源章｜1",
+      "title": "北方修复景象",
       "memo": "六神祝福之旅：新建立连续性（第392源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14222,7 +14222,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-392-02",
-      "title": "新建立连续性｜第392源章｜2",
+      "title": "贝特尔吉乌斯纪念像",
       "memo": "六神祝福之旅：新建立连续性（第392源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14247,7 +14247,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-392-03",
-      "title": "新建立连续性｜第392源章｜3",
+      "title": "黑暗骑士灵魂真相",
       "memo": "六神祝福之旅：新建立连续性（第392源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14273,7 +14273,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-392-04",
-      "title": "新建立连续性｜第392源章｜4",
+      "title": "库茨名义预约",
       "memo": "六神祝福之旅：新建立连续性（第392源章第4条）",
       "category": "continuity",
       "keys": [
@@ -14299,7 +14299,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-392-01",
-      "title": "未解决事项｜第392源章｜1",
+      "title": "精灵统治者会面",
       "memo": "六神祝福之旅：未解决事项（第392源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14324,7 +14324,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-392-02",
-      "title": "未解决事项｜第392源章｜2",
+      "title": "森林失踪案",
       "memo": "六神祝福之旅：未解决事项（第392源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14349,7 +14349,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-392-01",
-      "title": "主角龙形态｜第392源章｜1",
+      "title": "主角龙形态｜贝特尔吉乌斯.(2)｜弱化爱丽丝外貌与古代龙巫女石像同样年轻美丽，但体力已明显落后队伍",
       "memo": "六神祝福之旅：主角龙形态（第392源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14376,7 +14376,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-392-01",
-      "title": "主角龙状态｜第392源章｜1",
+      "title": "主角龙状态｜贝特尔吉乌斯.(2)｜抵达竞技城并以库茨名义准备预约精灵统治者",
       "memo": "六神祝福之旅：主角龙状态（第392源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14402,7 +14402,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-392-01",
-      "title": "主角龙知识边界｜第392源章｜1",
+      "title": "主角龙知识边界｜贝特尔吉乌斯.(2)｜爱丽丝不知道前代暴君结局，蒂雅知道但未共享",
       "memo": "六神祝福之旅：主角龙知识边界（第392源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14429,7 +14429,7 @@
     },
     {
       "id": "era-19-six-gods-event-393-01",
-      "title": "事件｜第393源章｜1",
+      "title": "队伍借库茨名号会见管理者艾洛伊德·里文戴尔",
       "memo": "六神祝福之旅：事件（第393源章第1条）",
       "category": "event",
       "keys": [
@@ -14456,7 +14456,7 @@
     },
     {
       "id": "era-19-six-gods-event-393-02",
-      "title": "事件｜第393源章｜2",
+      "title": "艾洛伊德次日要求兑现人情",
       "memo": "六神祝福之旅：事件（第393源章第2条）",
       "category": "event",
       "keys": [
@@ -14482,7 +14482,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-393-01",
-      "title": "世界设定事实｜第393源章｜1",
+      "title": "荣耀的奖杯是贝特尔吉乌斯竞技胜利和统治权的象征，并承载生命女神祝福",
       "memo": "六神祝福之旅：世界设定事实（第393源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14507,7 +14507,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-393-02",
-      "title": "世界设定事实｜第393源章｜2",
+      "title": "盗贼同时绕过精灵感官与元素精灵感知",
       "memo": "六神祝福之旅：世界设定事实（第393源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14533,7 +14533,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-393-01",
-      "title": "新建立连续性｜第393源章｜1",
+      "title": "艾洛伊德",
       "memo": "六神祝福之旅：新建立连续性（第393源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14559,7 +14559,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-393-02",
-      "title": "新建立连续性｜第393源章｜2",
+      "title": "大森林通行信",
       "memo": "六神祝福之旅：新建立连续性（第393源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14584,7 +14584,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-393-03",
-      "title": "新建立连续性｜第393源章｜3",
+      "title": "荣耀的奖杯失窃",
       "memo": "六神祝福之旅：新建立连续性（第393源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14609,7 +14609,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-393-01",
-      "title": "未解决事项｜第393源章｜1",
+      "title": "窃贼身份",
       "memo": "六神祝福之旅：未解决事项（第393源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14634,7 +14634,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-393-02",
-      "title": "未解决事项｜第393源章｜2",
+      "title": "奖杯与失踪事件关联",
       "memo": "六神祝福之旅：未解决事项（第393源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14659,7 +14659,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-393-01",
-      "title": "主角龙形态｜第393源章｜1",
+      "title": "主角龙形态｜贝特尔吉乌斯.(3)｜弱化爱丽丝随队参与会面",
       "memo": "六神祝福之旅：主角龙形态（第393源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14685,7 +14685,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-393-01",
-      "title": "主角龙状态｜第393源章｜1",
+      "title": "主角龙状态｜贝特尔吉乌斯.(3)｜队伍取得进入大森林所需的王族管理者信件，却因报恩暂缓出发调查奖杯",
       "memo": "六神祝福之旅：主角龙状态（第393源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14710,7 +14710,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-393-01",
-      "title": "主角龙知识边界｜第393源章｜1",
+      "title": "主角龙知识边界｜贝特尔吉乌斯.(3)｜奖杯窃贼和精灵失踪真相尚未知",
       "memo": "六神祝福之旅：主角龙知识边界（第393源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14737,7 +14737,7 @@
     },
     {
       "id": "era-19-six-gods-event-394-01",
-      "title": "事件｜第394源章｜1",
+      "title": "队伍排除普通守卫空档与贿赂元素精灵等方案，确认能同时欺骗两类感知的窃贼极不寻常",
       "memo": "六神祝福之旅：事件（第394源章第1条）",
       "category": "event",
       "keys": [
@@ -14762,7 +14762,7 @@
     },
     {
       "id": "era-19-six-gods-event-394-02",
-      "title": "事件｜第394源章｜2",
+      "title": "尤里卡把私人情绪放下梳理动机",
       "memo": "六神祝福之旅：事件（第394源章第2条）",
       "category": "event",
       "keys": [
@@ -14788,7 +14788,7 @@
     },
     {
       "id": "era-19-six-gods-event-394-03",
-      "title": "事件｜第394源章｜3",
+      "title": "普通销赃动机与高超潜入能力不相称，队伍因影子魔法怀疑魔贤者",
       "memo": "六神祝福之旅：事件（第394源章第3条）",
       "category": "event",
       "keys": [
@@ -14815,7 +14815,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-394-01",
-      "title": "世界设定事实｜第394源章｜1",
+      "title": "守卫换班时奖杯旁仍有人",
       "memo": "六神祝福之旅：世界设定事实（第394源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14840,7 +14840,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-394-02",
-      "title": "世界设定事实｜第394源章｜2",
+      "title": "奖杯含生命女神权威的延寿祝福，这种延寿连掌管死亡的诸神也必须认可",
       "memo": "六神祝福之旅：世界设定事实（第394源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14865,7 +14865,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-394-03",
-      "title": "世界设定事实｜第394源章｜3",
+      "title": "魔贤者能以影子魔法欺骗感知",
       "memo": "六神祝福之旅：世界设定事实（第394源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14891,7 +14891,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-394-01",
-      "title": "新建立连续性｜第394源章｜1",
+      "title": "生命女神延寿祝福",
       "memo": "六神祝福之旅：新建立连续性（第394源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14916,7 +14916,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-394-02",
-      "title": "新建立连续性｜第394源章｜2",
+      "title": "广域祝福追踪方案",
       "memo": "六神祝福之旅：新建立连续性（第394源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14941,7 +14941,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-394-01",
-      "title": "未解决事项｜第394源章｜1",
+      "title": "爱丽丝能否承受追踪",
       "memo": "六神祝福之旅：未解决事项（第394源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14967,7 +14967,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-394-02",
-      "title": "未解决事项｜第394源章｜2",
+      "title": "魔贤者是否为窃贼",
       "memo": "六神祝福之旅：未解决事项（第394源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14993,7 +14993,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-394-01",
-      "title": "主角龙形态｜第394源章｜1",
+      "title": "主角龙形态｜荣耀的奖杯.(1)｜弱化爱丽丝仍能辨认并计划追踪生命女神祝福",
       "memo": "六神祝福之旅：主角龙形态（第394源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15019,7 +15019,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-394-01",
-      "title": "主角龙状态｜第394源章｜1",
+      "title": "主角龙状态｜荣耀的奖杯.(1)｜常规调查失败，准备以广域神性祝福感知定位奖杯",
       "memo": "六神祝福之旅：主角龙状态（第394源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15044,7 +15044,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-394-01",
-      "title": "主角龙知识边界｜第394源章｜1",
+      "title": "主角龙知识边界｜荣耀的奖杯.(1)｜魔贤者只是基于能力匹配的嫌疑人",
       "memo": "六神祝福之旅：主角龙知识边界（第394源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15070,7 +15070,7 @@
     },
     {
       "id": "era-19-six-gods-event-395-01",
-      "title": "事件｜第395源章｜1",
+      "title": "爱丽丝判断奖杯祝福可能被用于复活魔王，明知身体虚弱仍坚持立刻追踪",
       "memo": "六神祝福之旅：事件（第395源章第1条）",
       "category": "event",
       "keys": [
@@ -15097,7 +15097,7 @@
     },
     {
       "id": "era-19-six-gods-event-395-02",
-      "title": "事件｜第395源章｜2",
+      "title": "爱丽丝定位奖杯在城市地下后力竭沉睡",
       "memo": "六神祝福之旅：事件（第395源章第2条）",
       "category": "event",
       "keys": [
@@ -15125,7 +15125,7 @@
     },
     {
       "id": "era-19-six-gods-event-395-03",
-      "title": "事件｜第395源章｜3",
+      "title": "队伍在下水道击败魔贤者及部下，救下约二十名遭黑暗改造的失踪精灵但未恢复其身体",
       "memo": "六神祝福之旅：事件（第395源章第3条）",
       "category": "event",
       "keys": [
@@ -15151,7 +15151,7 @@
     },
     {
       "id": "era-19-six-gods-event-395-04",
-      "title": "事件｜第395源章｜4",
+      "title": "多年后荣耀奖杯案被改编成《魔法侦探荷马罗斯》新书，真实战斗被包装为前段推理",
       "memo": "六神祝福之旅：事件（第395源章第4条）",
       "category": "event",
       "keys": [
@@ -15176,7 +15176,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-395-01",
-      "title": "世界设定事实｜第395源章｜1",
+      "title": "魔贤者可从地面阴影成形并把奖杯藏于影中",
       "memo": "六神祝福之旅：世界设定事实（第395源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15203,7 +15203,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-395-02",
-      "title": "世界设定事实｜第395源章｜2",
+      "title": "大森林失踪精灵被魔贤者改造成黑暗形态并在地下驱使",
       "memo": "六神祝福之旅：世界设定事实（第395源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15229,7 +15229,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-395-03",
-      "title": "世界设定事实｜第395源章｜3",
+      "title": "真实历史后来可被改编为通俗小说，作品会改变事件结构，不能把书中改编反推为当时原貌",
       "memo": "六神祝福之旅：世界设定事实（第395源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15254,7 +15254,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-395-01",
-      "title": "新建立连续性｜第395源章｜1",
+      "title": "魔贤者地下据点",
       "memo": "六神祝福之旅：新建立连续性（第395源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15280,7 +15280,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-395-02",
-      "title": "新建立连续性｜第395源章｜2",
+      "title": "黑银气息注入",
       "memo": "六神祝福之旅：新建立连续性（第395源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15305,7 +15305,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-395-03",
-      "title": "新建立连续性｜第395源章｜3",
+      "title": "约二十名黑暗精灵",
       "memo": "六神祝福之旅：新建立连续性（第395源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15330,7 +15330,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-395-04",
-      "title": "新建立连续性｜第395源章｜4",
+      "title": "奖杯案文学改编",
       "memo": "六神祝福之旅：新建立连续性（第395源章第4条）",
       "category": "continuity",
       "keys": [
@@ -15355,7 +15355,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-395-01",
-      "title": "未解决事项｜第395源章｜1",
+      "title": "爱丽丝体内对抗恶化",
       "memo": "六神祝福之旅：未解决事项（第395源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15381,7 +15381,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-395-02",
-      "title": "未解决事项｜第395源章｜2",
+      "title": "黑暗精灵身体恢复",
       "memo": "六神祝福之旅：未解决事项（第395源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15406,7 +15406,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-395-03",
-      "title": "未解决事项｜第395源章｜3",
+      "title": "魔贤者逃亡",
       "memo": "六神祝福之旅：未解决事项（第395源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -15432,7 +15432,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-395-01",
-      "title": "主角龙形态｜第395源章｜1",
+      "title": "主角龙形态｜荣耀的奖杯.(2)｜爱丽丝仍为虚弱人形龙巫女，完成广域追踪后沉睡",
       "memo": "六神祝福之旅：主角龙形态（第395源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15459,7 +15459,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-395-01",
-      "title": "主角龙状态｜第395源章｜1",
+      "title": "主角龙状态｜荣耀的奖杯.(2)｜爱丽丝体内的对抗因魔贤者注入黑银气息而被暗中改变",
       "memo": "六神祝福之旅：主角龙状态（第395源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15486,7 +15486,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-395-01",
-      "title": "主角龙知识边界｜第395源章｜1",
+      "title": "主角龙知识边界｜荣耀的奖杯.(2)｜魔贤者的仪式发生在队伍离开且爱丽丝昏睡时，队内无人知道",
       "memo": "六神祝福之旅：主角龙知识边界（第395源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15513,7 +15513,7 @@
     },
     {
       "id": "era-19-six-gods-event-396-01",
-      "title": "事件｜第396源章｜1",
+      "title": "后世《环球冒险家指南》将黑暗精灵界定为受恶意扭曲的受害者",
       "memo": "六神祝福之旅：事件（第396源章第1条）",
       "category": "event",
       "keys": [
@@ -15539,7 +15539,7 @@
     },
     {
       "id": "era-19-six-gods-event-396-02",
-      "title": "事件｜第396源章｜2",
+      "title": "队伍护送黑暗精灵前往森林",
       "memo": "六神祝福之旅：事件（第396源章第2条）",
       "category": "event",
       "keys": [
@@ -15566,7 +15566,7 @@
     },
     {
       "id": "era-19-six-gods-event-396-03",
-      "title": "事件｜第396源章｜3",
+      "title": "大森林内对归来者发生激烈歧视争论",
       "memo": "六神祝福之旅：事件（第396源章第3条）",
       "category": "event",
       "keys": [
@@ -15592,7 +15592,7 @@
     },
     {
       "id": "era-19-six-gods-event-396-04",
-      "title": "事件｜第396源章｜4",
+      "title": "加拉德瑞尔实际是世界树以精灵躯体活动",
       "memo": "六神祝福之旅：事件（第396源章第4条）",
       "category": "event",
       "keys": [
@@ -15619,7 +15619,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-396-01",
-      "title": "世界设定事实｜第396源章｜1",
+      "title": "黑暗精灵肌肉成长约为普通精灵两倍，身体更强壮",
       "memo": "六神祝福之旅：世界设定事实（第396源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15644,7 +15644,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-396-02",
-      "title": "世界设定事实｜第396源章｜2",
+      "title": "部分精灵因肤色与元素亲和力排斥黑暗精灵",
       "memo": "六神祝福之旅：世界设定事实（第396源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15670,7 +15670,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-396-03",
-      "title": "世界设定事实｜第396源章｜3",
+      "title": "精灵原本由人类变异而来，历史上还发生过高精灵等多次肉体变异",
       "memo": "六神祝福之旅：世界设定事实（第396源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15696,7 +15696,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-396-01",
-      "title": "新建立连续性｜第396源章｜1",
+      "title": "黑暗精灵族群",
       "memo": "六神祝福之旅：新建立连续性（第396源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15721,7 +15721,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-396-02",
-      "title": "新建立连续性｜第396源章｜2",
+      "title": "精灵女王加拉德瑞尔",
       "memo": "六神祝福之旅：新建立连续性（第396源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15746,7 +15746,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-396-03",
-      "title": "新建立连续性｜第396源章｜3",
+      "title": "世界树借精灵躯体活动",
       "memo": "六神祝福之旅：新建立连续性（第396源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15772,7 +15772,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-396-04",
-      "title": "新建立连续性｜第396源章｜4",
+      "title": "爱丽丝体内劣势",
       "memo": "六神祝福之旅：新建立连续性（第396源章第4条）",
       "category": "continuity",
       "keys": [
@@ -15798,7 +15798,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-396-01",
-      "title": "未解决事项｜第396源章｜1",
+      "title": "黑暗精灵能否复原",
       "memo": "六神祝福之旅：未解决事项（第396源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15823,7 +15823,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-396-02",
-      "title": "未解决事项｜第396源章｜2",
+      "title": "森林内部如何安置",
       "memo": "六神祝福之旅：未解决事项（第396源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15848,7 +15848,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-396-03",
-      "title": "未解决事项｜第396源章｜3",
+      "title": "爱丽丝侵蚀何时爆发",
       "memo": "六神祝福之旅：未解决事项（第396源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -15874,7 +15874,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-396-01",
-      "title": "主角龙形态｜第396源章｜1",
+      "title": "主角龙形态｜黑暗精灵.(1)｜爱丽丝是行动困难的虚弱人形龙巫女",
       "memo": "六神祝福之旅：主角龙形态（第396源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15902,7 +15902,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-396-01",
-      "title": "主角龙状态｜第396源章｜1",
+      "title": "主角龙状态｜黑暗精灵.(1)｜爱丽丝体内魔王开始占上风但无人察觉",
       "memo": "六神祝福之旅：主角龙状态（第396源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15930,7 +15930,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-396-01",
-      "title": "主角龙知识边界｜第396源章｜1",
+      "title": "主角龙知识边界｜黑暗精灵.(1)｜队友只以为爱丽丝因勉强搜索而恶化",
       "memo": "六神祝福之旅：主角龙知识边界（第396源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15958,7 +15958,7 @@
     },
     {
       "id": "era-19-six-gods-event-397-01",
-      "title": "事件｜第397源章｜1",
+      "title": "女王公开承认并未消除私下歧视",
       "memo": "六神祝福之旅：事件（第397源章第1条）",
       "category": "event",
       "keys": [
@@ -15984,7 +15984,7 @@
     },
     {
       "id": "era-19-six-gods-event-397-02",
-      "title": "事件｜第397源章｜2",
+      "title": "蒂雅考虑恢复外貌、抹除记忆或强管生命，却逐项怀疑其正当性",
       "memo": "六神祝福之旅：事件（第397源章第2条）",
       "category": "event",
       "keys": [
@@ -16011,7 +16011,7 @@
     },
     {
       "id": "era-19-six-gods-event-397-03",
-      "title": "事件｜第397源章｜3",
+      "title": "世界树在根系盘踞的地下开辟聚居地并赋予照料根系的重任",
       "memo": "六神祝福之旅：事件（第397源章第3条）",
       "category": "event",
       "keys": [
@@ -16037,7 +16037,7 @@
     },
     {
       "id": "era-19-six-gods-event-397-04",
-      "title": "事件｜第397源章｜4",
+      "title": "加拉德瑞尔感谢队伍救回同胞",
       "memo": "六神祝福之旅：事件（第397源章第4条）",
       "category": "event",
       "keys": [
@@ -16065,7 +16065,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-397-01",
-      "title": "世界设定事实｜第397源章｜1",
+      "title": "黑暗精灵聚居地位于大森林地下、世界树根系之间",
       "memo": "六神祝福之旅：世界设定事实（第397源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16091,7 +16091,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-397-02",
-      "title": "世界设定事实｜第397源章｜2",
+      "title": "地下生活使黑暗精灵适应黑暗寂静、获得夜视和敏锐感官",
       "memo": "六神祝福之旅：世界设定事实（第397源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16116,7 +16116,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-397-03",
-      "title": "世界设定事实｜第397源章｜3",
+      "title": "和谐之枝既是精灵王族象征又是世界树赐宝",
       "memo": "六神祝福之旅：世界设定事实（第397源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -16143,7 +16143,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-397-01",
-      "title": "新建立连续性｜第397源章｜1",
+      "title": "黑暗精灵地下聚居地",
       "memo": "六神祝福之旅：新建立连续性（第397源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16168,7 +16168,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-397-02",
-      "title": "新建立连续性｜第397源章｜2",
+      "title": "根系守护职责",
       "memo": "六神祝福之旅：新建立连续性（第397源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16193,7 +16193,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-397-03",
-      "title": "新建立连续性｜第397源章｜3",
+      "title": "和谐之枝正式借出",
       "memo": "六神祝福之旅：新建立连续性（第397源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16218,7 +16218,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-397-01",
-      "title": "未解决事项｜第397源章｜1",
+      "title": "隔离安置的长期代价",
       "memo": "六神祝福之旅：未解决事项（第397源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16243,7 +16243,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-397-02",
-      "title": "未解决事项｜第397源章｜2",
+      "title": "世界树正式祝福",
       "memo": "六神祝福之旅：未解决事项（第397源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16269,7 +16269,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-397-01",
-      "title": "主角龙形态｜第397源章｜1",
+      "title": "主角龙形态｜黑暗精灵.(2)｜蒂雅以不可见神视角旁观世界树治理",
       "memo": "六神祝福之旅：主角龙形态（第397源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16297,7 +16297,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-397-01",
-      "title": "主角龙状态｜第397源章｜1",
+      "title": "主角龙状态｜黑暗精灵.(2)｜队伍取得和谐之枝并获正式觐见世界树安排",
       "memo": "六神祝福之旅：主角龙状态（第397源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16323,7 +16323,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-397-01",
-      "title": "主角龙知识边界｜第397源章｜1",
+      "title": "主角龙知识边界｜黑暗精灵.(2)｜地下聚居降低冲突是后续结果，并不证明最初隔离方案没有伤害",
       "memo": "六神祝福之旅：主角龙知识边界（第397源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16349,7 +16349,7 @@
     },
     {
       "id": "era-19-six-gods-event-398-01",
-      "title": "事件｜第398源章｜1",
+      "title": "世界树向爱丽丝输送力量并赐埃里克生命，再生，肉体与树皮防御祝福",
       "memo": "六神祝福之旅：事件（第398源章第1条）",
       "category": "event",
       "keys": [
@@ -16378,7 +16378,7 @@
     },
     {
       "id": "era-19-six-gods-event-398-02",
-      "title": "事件｜第398源章｜2",
+      "title": "离开森林后爱丽丝亲自向同伴公开魔王争夺身体和收集古神祝福的理由",
       "memo": "六神祝福之旅：事件（第398源章第2条）",
       "category": "event",
       "keys": [
@@ -16406,7 +16406,7 @@
     },
     {
       "id": "era-19-six-gods-event-398-03",
-      "title": "事件｜第398源章｜3",
+      "title": "埃里克因新祝福过度自信导致爱丽丝受轻伤，触发最终决战后未能保护她的负债感",
       "memo": "六神祝福之旅：事件（第398源章第3条）",
       "category": "event",
       "keys": [
@@ -16435,7 +16435,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-398-01",
-      "title": "世界设定事实｜第398源章｜1",
+      "title": "世界树祝福使埃里克生命、再生与肉体增强，皮肤可如树木坚硬并以阳光维持数日",
       "memo": "六神祝福之旅：世界设定事实（第398源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16464,7 +16464,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-398-02",
-      "title": "世界设定事实｜第398源章｜2",
+      "title": "世界树树液可凝为拳头大小透明黄色琥珀，能由矮人加工为首饰",
       "memo": "六神祝福之旅：世界设定事实（第398源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16490,7 +16490,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-398-03",
-      "title": "世界设定事实｜第398源章｜3",
+      "title": "爱丽丝收集古神祝福是为增强肉体控制、压制体内魔王",
       "memo": "六神祝福之旅：世界设定事实（第398源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -16517,7 +16517,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-398-01",
-      "title": "新建立连续性｜第398源章｜1",
+      "title": "世界树生命祝福",
       "memo": "六神祝福之旅：新建立连续性（第398源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16543,7 +16543,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-398-02",
-      "title": "新建立连续性｜第398源章｜2",
+      "title": "世界树琥珀",
       "memo": "六神祝福之旅：新建立连续性（第398源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16569,7 +16569,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-398-03",
-      "title": "新建立连续性｜第398源章｜3",
+      "title": "队伍知晓魔王寄宿",
       "memo": "六神祝福之旅：新建立连续性（第398源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16595,7 +16595,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-398-04",
-      "title": "新建立连续性｜第398源章｜4",
+      "title": "埃里克盾牌需求",
       "memo": "六神祝福之旅：新建立连续性（第398源章第4条）",
       "category": "continuity",
       "keys": [
@@ -16621,7 +16621,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-398-01",
-      "title": "未解决事项｜第398源章｜1",
+      "title": "魔王仍占优势",
       "memo": "六神祝福之旅：未解决事项（第398源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16647,7 +16647,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-398-02",
-      "title": "未解决事项｜第398源章｜2",
+      "title": "爱丽丝自毁倾向",
       "memo": "六神祝福之旅：未解决事项（第398源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16673,7 +16673,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-398-03",
-      "title": "未解决事项｜第398源章｜3",
+      "title": "萨加玛塔觐见",
       "memo": "六神祝福之旅：未解决事项（第398源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -16699,7 +16699,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-398-01",
-      "title": "主角龙形态｜第398源章｜1",
+      "title": "主角龙形态｜前往萨加玛塔.(1)｜弱化人形爱丽丝获世界树力量但仍处劣势",
       "memo": "六神祝福之旅：主角龙形态（第398源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16727,7 +16727,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-398-01",
-      "title": "主角龙状态｜第398源章｜1",
+      "title": "主角龙状态｜前往萨加玛塔.(1)｜队伍核心秘密向当前同行者公开，行动速度提升并转往萨加玛塔",
       "memo": "六神祝福之旅：主角龙状态（第398源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16753,7 +16753,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-398-01",
-      "title": "主角龙知识边界｜第398源章｜1",
+      "title": "主角龙知识边界｜前往萨加玛塔.(1)｜芬娜，莉莉，库茨和尤里卡知道体内魔王与古神祝福目标",
       "memo": "六神祝福之旅：主角龙知识边界（第398源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16784,7 +16784,7 @@
     },
     {
       "id": "era-19-six-gods-event-399-01",
-      "title": "事件｜第399源章｜1",
+      "title": "沿途怪物和周期性巫妖减少、各地治安恢复，队伍顺利抵达矮人圣地萨加玛塔",
       "memo": "六神祝福之旅：事件（第399源章第1条）",
       "category": "event",
       "keys": [
@@ -16811,7 +16811,7 @@
     },
     {
       "id": "era-19-six-gods-event-399-02",
-      "title": "事件｜第399源章｜2",
+      "title": "芬娜之父格隆达尔严厉训斥其离家冒险",
       "memo": "六神祝福之旅：事件（第399源章第2条）",
       "category": "event",
       "keys": [
@@ -16838,7 +16838,7 @@
     },
     {
       "id": "era-19-six-gods-event-399-03",
-      "title": "事件｜第399源章｜3",
+      "title": "格隆达尔答应向大冶匠提交觐见圣山请求，并识破埃里克身份、承诺打造装备",
       "memo": "六神祝福之旅：事件（第399源章第3条）",
       "category": "event",
       "keys": [
@@ -16866,7 +16866,7 @@
     },
     {
       "id": "era-19-six-gods-event-399-04",
-      "title": "事件｜第399源章｜4",
+      "title": "格隆达尔因亡妻与父亲责任拒绝让芬娜继续涉险，并请求队伍共同劝退她",
       "memo": "六神祝福之旅：事件（第399源章第4条）",
       "category": "event",
       "keys": [
@@ -16894,7 +16894,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-399-01",
-      "title": "世界设定事实｜第399源章｜1",
+      "title": "魔王战后怪物频率、周期性巫妖和地方治安逐步恢复，萨加玛塔仍是矮人圣地与神圣之山",
       "memo": "六神祝福之旅：世界设定事实（第399源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16922,7 +16922,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-399-02",
-      "title": "世界设定事实｜第399源章｜2",
+      "title": "铁砧守护者家族在萨加玛塔有声望",
       "memo": "六神祝福之旅：世界设定事实（第399源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16949,7 +16949,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-399-03",
-      "title": "世界设定事实｜第399源章｜3",
+      "title": "埃里克的非凡银甲与佩剑足以让熟悉锻造者识破勇者身份，两件装备是蒂雅亲手锻造",
       "memo": "六神祝福之旅：世界设定事实（第399源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -16976,7 +16976,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-399-01",
-      "title": "新建立连续性｜第399源章｜1",
+      "title": "格隆达尔",
       "memo": "六神祝福之旅：新建立连续性（第399源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17002,7 +17002,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-399-02",
-      "title": "新建立连续性｜第399源章｜2",
+      "title": "铁砧守护者家族",
       "memo": "六神祝福之旅：新建立连续性（第399源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17027,7 +17027,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-399-03",
-      "title": "新建立连续性｜第399源章｜3",
+      "title": "芬娜退队危机",
       "memo": "六神祝福之旅：新建立连续性（第399源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17053,7 +17053,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-399-04",
-      "title": "新建立连续性｜第399源章｜4",
+      "title": "大冶匠审批",
       "memo": "六神祝福之旅：新建立连续性（第399源章第4条）",
       "category": "continuity",
       "keys": [
@@ -17078,7 +17078,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-399-01",
-      "title": "未解决事项｜第399源章｜1",
+      "title": "芬娜是否继续同行",
       "memo": "六神祝福之旅：未解决事项（第399源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17104,7 +17104,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-399-02",
-      "title": "未解决事项｜第399源章｜2",
+      "title": "觐见萨加玛塔",
       "memo": "六神祝福之旅：未解决事项（第399源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17130,7 +17130,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-399-03",
-      "title": "未解决事项｜第399源章｜3",
+      "title": "盾牌锻造",
       "memo": "六神祝福之旅：未解决事项（第399源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -17155,7 +17155,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-399-01",
-      "title": "主角龙形态｜第399源章｜1",
+      "title": "主角龙形态｜前往萨加玛塔.(2)｜弱化人形爱丽丝随队抵达萨加玛塔",
       "memo": "六神祝福之旅：主角龙形态（第399源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17182,7 +17182,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-399-01",
-      "title": "主角龙状态｜第399源章｜1",
+      "title": "主角龙状态｜前往萨加玛塔.(2)｜古神会面请求进入矮人审批，但芬娜继续同行受到父亲阻止",
       "memo": "六神祝福之旅：主角龙状态（第399源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17208,7 +17208,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-399-01",
-      "title": "主角龙知识边界｜第399源章｜1",
+      "title": "主角龙知识边界｜前往萨加玛塔.(2)｜格隆达尔不知道爱丽丝体内魔王的具体情况",
       "memo": "六神祝福之旅：主角龙知识边界（第399源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17236,7 +17236,7 @@
     },
     {
       "id": "era-19-six-gods-event-400-01",
-      "title": "事件｜第400源章｜1",
+      "title": "芬娜坚决拒绝退队",
       "memo": "六神祝福之旅：事件（第400源章第1条）",
       "category": "event",
       "keys": [
@@ -17263,7 +17263,7 @@
     },
     {
       "id": "era-19-six-gods-event-400-02",
-      "title": "事件｜第400源章｜2",
+      "title": "队伍不愿因偏袒芬娜伤害格隆达尔或觐见机会",
       "memo": "六神祝福之旅：事件（第400源章第2条）",
       "category": "event",
       "keys": [
@@ -17291,7 +17291,7 @@
     },
     {
       "id": "era-19-six-gods-event-400-03",
-      "title": "事件｜第400源章｜3",
+      "title": "库茨提出让父女打一架，埃里克将其转化为用战力证明芬娜能自保的方案",
       "memo": "六神祝福之旅：事件（第400源章第3条）",
       "category": "event",
       "keys": [
@@ -17319,7 +17319,7 @@
     },
     {
       "id": "era-19-six-gods-event-400-04",
-      "title": "事件｜第400源章｜4",
+      "title": "萨加玛塔向蒂雅解释竞技文化源于她建立竞技场避免战争，却被矮人理解为堂正比试皆可",
       "memo": "六神祝福之旅：事件（第400源章第4条）",
       "category": "event",
       "keys": [
@@ -17346,7 +17346,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-400-01",
-      "title": "世界设定事实｜第400源章｜1",
+      "title": "芬娜受神圣之火祝福后可与库茨并列承担机动前线",
       "memo": "六神祝福之旅：世界设定事实（第400源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17373,7 +17373,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-400-02",
-      "title": "世界设定事实｜第400源章｜2",
+      "title": "矮人有恩必报、长期记仇",
       "memo": "六神祝福之旅：世界设定事实（第400源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17398,7 +17398,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-400-03",
-      "title": "世界设定事实｜第400源章｜3",
+      "title": "蒂雅建竞技场的原意是阻止战争，矮人文化将其内化为堂正比试皆可",
       "memo": "六神祝福之旅：世界设定事实（第400源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17424,7 +17424,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-400-01",
-      "title": "新建立连续性｜第400源章｜1",
+      "title": "芬娜格隆达尔公开决斗",
       "memo": "六神祝福之旅：新建立连续性（第400源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17451,7 +17451,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-400-02",
-      "title": "新建立连续性｜第400源章｜2",
+      "title": "萨加玛塔现身",
       "memo": "六神祝福之旅：新建立连续性（第400源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17477,7 +17477,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-400-03",
-      "title": "新建立连续性｜第400源章｜3",
+      "title": "矮人竞技文化来源",
       "memo": "六神祝福之旅：新建立连续性（第400源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17502,7 +17502,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-400-01",
-      "title": "未解决事项｜第400源章｜1",
+      "title": "父女对决结果",
       "memo": "六神祝福之旅：未解决事项（第400源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17527,7 +17527,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-400-02",
-      "title": "未解决事项｜第400源章｜2",
+      "title": "正式觐见",
       "memo": "六神祝福之旅：未解决事项（第400源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17552,7 +17552,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-400-03",
-      "title": "未解决事项｜第400源章｜3",
+      "title": "芬娜去留",
       "memo": "六神祝福之旅：未解决事项（第400源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -17578,7 +17578,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-400-01",
-      "title": "主角龙形态｜第400源章｜1",
+      "title": "主角龙形态｜前往萨加玛塔.(3)｜蒂雅以不可见神视角与萨加玛塔交谈",
       "memo": "六神祝福之旅：主角龙形态（第400源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17606,7 +17606,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-400-01",
-      "title": "主角龙状态｜第400源章｜1",
+      "title": "主角龙状态｜前往萨加玛塔.(3)｜芬娜能否同行将由公开父女对决决定",
       "memo": "六神祝福之旅：主角龙状态（第400源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17633,7 +17633,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-400-01",
-      "title": "主角龙知识边界｜第400源章｜1",
+      "title": "主角龙知识边界｜前往萨加玛塔.(3)｜队伍不知道萨加玛塔已出现并与蒂雅交谈",
       "memo": "六神祝福之旅：主角龙知识边界（第400源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17660,7 +17660,7 @@
     },
     {
       "id": "era-19-six-gods-event-401-01",
-      "title": "事件｜第401源章｜1",
+      "title": "芬娜确信自己凭旅行经验和火神祝福已强过父亲",
       "memo": "六神祝福之旅：事件（第401源章第1条）",
       "category": "event",
       "keys": [
@@ -17686,7 +17686,7 @@
     },
     {
       "id": "era-19-six-gods-event-401-02",
-      "title": "事件｜第401源章｜2",
+      "title": "父女以相同锤法全力交锋，格隆达尔凭长期经验占优，芬娜以伊芙利特火焰弥补",
       "memo": "六神祝福之旅：事件（第401源章第2条）",
       "category": "event",
       "keys": [
@@ -17714,7 +17714,7 @@
     },
     {
       "id": "era-19-six-gods-event-401-03",
-      "title": "事件｜第401源章｜3",
+      "title": "萨加玛塔认可两人都是出色战士并罕见地因碰撞声表现欢喜",
       "memo": "六神祝福之旅：事件（第401源章第3条）",
       "category": "event",
       "keys": [
@@ -17741,7 +17741,7 @@
     },
     {
       "id": "era-19-six-gods-event-401-04",
-      "title": "事件｜第401源章｜4",
+      "title": "双方武器因高温与撞击同时损毁而平局",
       "memo": "六神祝福之旅：事件（第401源章第4条）",
       "category": "event",
       "keys": [
@@ -17768,7 +17768,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-401-01",
-      "title": "世界设定事实｜第401源章｜1",
+      "title": "矮人成年资格不依年龄，而依铁匠、战士等职业上能否独当一面",
       "memo": "六神祝福之旅：世界设定事实（第401源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17793,7 +17793,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-401-02",
-      "title": "世界设定事实｜第401源章｜2",
+      "title": "格隆达尔与芬娜战法几乎相同",
       "memo": "六神祝福之旅：世界设定事实（第401源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17820,7 +17820,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-401-03",
-      "title": "世界设定事实｜第401源章｜3",
+      "title": "高温下反复撞击使两把坚固锤子同时熔毁",
       "memo": "六神祝福之旅：世界设定事实（第401源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17846,7 +17846,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-401-01",
-      "title": "新建立连续性｜第401源章｜1",
+      "title": "父女平局",
       "memo": "六神祝福之旅：新建立连续性（第401源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17871,7 +17871,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-401-02",
-      "title": "新建立连续性｜第401源章｜2",
+      "title": "芬娜成年战士认可",
       "memo": "六神祝福之旅：新建立连续性（第401源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17897,7 +17897,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-401-03",
-      "title": "新建立连续性｜第401源章｜3",
+      "title": "无炉锻造挑战",
       "memo": "六神祝福之旅：新建立连续性（第401源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17922,7 +17922,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-401-01",
-      "title": "未解决事项｜第401源章｜1",
+      "title": "模鲁锤重铸",
       "memo": "六神祝福之旅：未解决事项（第401源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17947,7 +17947,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-401-02",
-      "title": "未解决事项｜第401源章｜2",
+      "title": "萨加玛塔正式祝福",
       "memo": "六神祝福之旅：未解决事项（第401源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17973,7 +17973,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-401-01",
-      "title": "主角龙形态｜第401源章｜1",
+      "title": "主角龙形态｜前往萨加玛塔.(4)｜蒂雅以不可见神视角旁观",
       "memo": "六神祝福之旅：主角龙形态（第401源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18001,7 +18001,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-401-01",
-      "title": "主角龙状态｜第401源章｜1",
+      "title": "主角龙状态｜前往萨加玛塔.(4)｜芬娜获准继续旅行，但队伍需留在萨加玛塔等待其武器重铸",
       "memo": "六神祝福之旅：主角龙状态（第401源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18028,7 +18028,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-401-01",
-      "title": "主角龙知识边界｜第401源章｜1",
+      "title": "主角龙知识边界｜前往萨加玛塔.(4)｜萨加玛塔的认可与私下喜悦只有蒂雅知道",
       "memo": "六神祝福之旅：主角龙知识边界（第401源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18056,7 +18056,7 @@
     },
     {
       "id": "era-19-six-gods-event-402-01",
-      "title": "事件｜第402源章｜1",
+      "title": "矮人工匠为争夺加工世界树琥珀的资格公开比试，队伍免费获得人鱼礼物首饰和琥珀王冠",
       "memo": "六神祝福之旅：事件（第402源章第1条）",
       "category": "event",
       "keys": [
@@ -18083,7 +18083,7 @@
     },
     {
       "id": "era-19-six-gods-event-402-02",
-      "title": "事件｜第402源章｜2",
+      "title": "萨加玛塔准许只与爱丽丝单独会面",
       "memo": "六神祝福之旅：事件（第402源章第2条）",
       "category": "event",
       "keys": [
@@ -18111,7 +18111,7 @@
     },
     {
       "id": "era-19-six-gods-event-402-03",
-      "title": "事件｜第402源章｜3",
+      "title": "萨加玛塔赐福爱丽丝，既支援体内争夺又强化虚弱肉体",
       "memo": "六神祝福之旅：事件（第402源章第3条）",
       "category": "event",
       "keys": [
@@ -18140,7 +18140,7 @@
     },
     {
       "id": "era-19-six-gods-event-402-04",
-      "title": "事件｜第402源章｜4",
+      "title": "队伍因白夜危险决定先南行，回特奥卡利检查风神仪式",
       "memo": "六神祝福之旅：事件（第402源章第4条）",
       "category": "event",
       "keys": [
@@ -18165,7 +18165,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-402-01",
-      "title": "世界设定事实｜第402源章｜1",
+      "title": "世界树琥珀被萨加玛塔工匠视为足以载入史册的材料",
       "memo": "六神祝福之旅：世界设定事实（第402源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18192,7 +18192,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-402-02",
-      "title": "世界设定事实｜第402源章｜2",
+      "title": "萨加玛塔祝福既支援爱丽丝体内争夺又强化肉体，使其可稍微调动原本力量",
       "memo": "六神祝福之旅：世界设定事实（第402源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18220,7 +18220,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-402-03",
-      "title": "世界设定事实｜第402源章｜3",
+      "title": "比斯蒂亚位于贸易要地，兽人水手感官敏锐，善于观测风向天气，适合远海航行",
       "memo": "六神祝福之旅：世界设定事实（第402源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -18245,7 +18245,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-402-01",
-      "title": "新建立连续性｜第402源章｜1",
+      "title": "萨加玛塔祝福",
       "memo": "六神祝福之旅：新建立连续性（第402源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18271,7 +18271,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-402-02",
-      "title": "新建立连续性｜第402源章｜2",
+      "title": "琥珀王冠",
       "memo": "六神祝福之旅：新建立连续性（第402源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18296,7 +18296,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-402-03",
-      "title": "新建立连续性｜第402源章｜3",
+      "title": "埃里克盾牌",
       "memo": "六神祝福之旅：新建立连续性（第402源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18322,7 +18322,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-402-04",
-      "title": "新建立连续性｜第402源章｜4",
+      "title": "比斯蒂亚航海计划",
       "memo": "六神祝福之旅：新建立连续性（第402源章第4条）",
       "category": "continuity",
       "keys": [
@@ -18347,7 +18347,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-402-01",
-      "title": "未解决事项｜第402源章｜1",
+      "title": "风神仪式进度",
       "memo": "六神祝福之旅：未解决事项（第402源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18372,7 +18372,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-402-02",
-      "title": "未解决事项｜第402源章｜2",
+      "title": "海神怒火｜前往萨加玛塔.(5)",
       "memo": "六神祝福之旅：未解决事项（第402源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -18397,7 +18397,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-402-03",
-      "title": "未解决事项｜第402源章｜3",
+      "title": "白夜延后",
       "memo": "六神祝福之旅：未解决事项（第402源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -18422,7 +18422,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-402-01",
-      "title": "主角龙形态｜第402源章｜1",
+      "title": "主角龙形态｜前往萨加玛塔.(5)｜爱丽丝仍是虚弱人形，但获萨加玛塔祝福后可少量调动旧力",
       "memo": "六神祝福之旅：主角龙形态（第402源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18450,7 +18450,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-402-01",
-      "title": "主角龙状态｜第402源章｜1",
+      "title": "主角龙状态｜前往萨加玛塔.(5)｜三位古神祝福已取得，队伍装备更新并转向风神或海神路线",
       "memo": "六神祝福之旅：主角龙状态（第402源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18475,7 +18475,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-402-01",
-      "title": "主角龙知识边界｜第402源章｜1",
+      "title": "主角龙知识边界｜前往萨加玛塔.(5)｜萨加玛塔只见爱丽丝的理由未说明",
       "memo": "六神祝福之旅：主角龙知识边界（第402源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18502,7 +18502,7 @@
     },
     {
       "id": "era-19-six-gods-event-403-01",
-      "title": "事件｜第403源章｜1",
+      "title": "队伍回特奥卡利早于佩尔预期",
       "memo": "六神祝福之旅：事件（第403源章第1条）",
       "category": "event",
       "keys": [
@@ -18530,7 +18530,7 @@
     },
     {
       "id": "era-19-six-gods-event-403-02",
-      "title": "事件｜第403源章｜2",
+      "title": "米诺亚港水手因人鱼奴役事件与海神怒火拒绝载队",
       "memo": "六神祝福之旅：事件（第403源章第2条）",
       "category": "event",
       "keys": [
@@ -18556,7 +18556,7 @@
     },
     {
       "id": "era-19-six-gods-event-403-03",
-      "title": "事件｜第403源章｜3",
+      "title": "芬娜提出先用和谐之枝强化库茨的水之精灵，在外海向海神承诺寻找并归还仍生或已死的人鱼",
       "memo": "六神祝福之旅：事件（第403源章第3条）",
       "category": "event",
       "keys": [
@@ -18584,7 +18584,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-403-01",
-      "title": "世界设定事实｜第403源章｜1",
+      "title": "定位风神的仪式需含南方热风的砂或北方寒风的雪，和谐之枝仅在末段强化元素精灵",
       "memo": "六神祝福之旅：世界设定事实（第403源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18609,7 +18609,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-403-02",
-      "title": "世界设定事实｜第403源章｜2",
+      "title": "比斯蒂亚最大港口是米诺亚岛",
       "memo": "六神祝福之旅：世界设定事实（第403源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18635,7 +18635,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-403-03",
-      "title": "世界设定事实｜第403源章｜3",
+      "title": "和谐之枝可尝试强化库茨身边水之精灵，用其力量寻找或接触海神，但效果尚未验证",
       "memo": "六神祝福之旅：世界设定事实（第403源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -18662,7 +18662,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-403-01",
-      "title": "新建立连续性｜第403源章｜1",
+      "title": "风砂或风雪材料",
       "memo": "六神祝福之旅：新建立连续性（第403源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18687,7 +18687,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-403-02",
-      "title": "新建立连续性｜第403源章｜2",
+      "title": "三个月仪式期",
       "memo": "六神祝福之旅：新建立连续性（第403源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18712,7 +18712,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-403-03",
-      "title": "新建立连续性｜第403源章｜3",
+      "title": "米诺亚港",
       "memo": "六神祝福之旅：新建立连续性（第403源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18738,7 +18738,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-403-04",
-      "title": "新建立连续性｜第403源章｜4",
+      "title": "人鱼奴役旧案",
       "memo": "六神祝福之旅：新建立连续性（第403源章第4条）",
       "category": "continuity",
       "keys": [
@@ -18763,7 +18763,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-403-05",
-      "title": "新建立连续性｜第403源章｜5",
+      "title": "海神怒火",
       "memo": "六神祝福之旅：新建立连续性（第403源章第5条）",
       "category": "continuity",
       "keys": [
@@ -18788,7 +18788,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-403-01",
-      "title": "未解决事项｜第403源章｜1",
+      "title": "船只",
       "memo": "六神祝福之旅：未解决事项（第403源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18813,7 +18813,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-403-02",
-      "title": "未解决事项｜第403源章｜2",
+      "title": "人鱼奴隶下落",
       "memo": "六神祝福之旅：未解决事项（第403源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -18838,7 +18838,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-403-03",
-      "title": "未解决事项｜第403源章｜3",
+      "title": "海神会面｜人鱼与大海.(1)",
       "memo": "六神祝福之旅：未解决事项（第403源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -18863,7 +18863,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-403-01",
-      "title": "主角龙形态｜第403源章｜1",
+      "title": "主角龙形态｜人鱼与大海.(1)｜萨加玛塔祝福后的爱丽丝随队",
       "memo": "六神祝福之旅：主角龙形态（第403源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18890,7 +18890,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-403-01",
-      "title": "主角龙状态｜第403源章｜1",
+      "title": "主角龙状态｜人鱼与大海.(1)｜风神仪式需等待，队伍转赴海神线，却因海神对人鱼奴役的怒火无法租船",
       "memo": "六神祝福之旅：主角龙状态（第403源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18915,7 +18915,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-403-01",
-      "title": "主角龙知识边界｜第403源章｜1",
+      "title": "主角龙知识边界｜人鱼与大海.(1)｜芬娜方案只是无替代时的尝试",
       "memo": "六神祝福之旅：主角龙知识边界（第403源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18941,7 +18941,7 @@
     },
     {
       "id": "era-19-six-gods-event-404-01",
-      "title": "事件｜第404源章｜1",
+      "title": "队伍因公开目的而无人载船",
       "memo": "六神祝福之旅：事件（第404源章第1条）",
       "category": "event",
       "keys": [
@@ -18967,7 +18967,7 @@
     },
     {
       "id": "era-19-six-gods-event-404-02",
-      "title": "事件｜第404源章｜2",
+      "title": "莉莉向酒馆老人泄露队伍奉生命女神之命",
       "memo": "六神祝福之旅：事件（第404源章第2条）",
       "category": "event",
       "keys": [
@@ -18993,7 +18993,7 @@
     },
     {
       "id": "era-19-six-gods-event-404-03",
-      "title": "事件｜第404源章｜3",
+      "title": "老人亚哈揭露抓人鱼贩奴者是自己侄子，自己曾拥有船队却自此不出海",
       "memo": "六神祝福之旅：事件（第404源章第3条）",
       "category": "event",
       "keys": [
@@ -19019,7 +19019,7 @@
     },
     {
       "id": "era-19-six-gods-event-404-04",
-      "title": "事件｜第404源章｜4",
+      "title": "亚哈驾驶巨大单帆柯克船，以截然不同于酒馆醉汉的威严召集老船员",
       "memo": "六神祝福之旅：事件（第404源章第4条）",
       "category": "event",
       "keys": [
@@ -19045,7 +19045,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-404-01",
-      "title": "世界设定事实｜第404源章｜1",
+      "title": "初代勇者时代曾由龙族巫女造船、天狼星领航",
       "memo": "六神祝福之旅：世界设定事实（第404源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19073,7 +19073,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-404-02",
-      "title": "世界设定事实｜第404源章｜2",
+      "title": "生命教团拥有可用船只，但调用会暴露爱丽丝与教团高层关系",
       "memo": "六神祝福之旅：世界设定事实（第404源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19099,7 +19099,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-404-03",
-      "title": "世界设定事实｜第404源章｜3",
+      "title": "亚哈使用宽高船身、巨大桅杆和方形单帆的柯克船，较少依赖船员",
       "memo": "六神祝福之旅：世界设定事实（第404源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -19125,7 +19125,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-404-01",
-      "title": "新建立连续性｜第404源章｜1",
+      "title": "亚哈",
       "memo": "六神祝福之旅：新建立连续性（第404源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19151,7 +19151,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-404-02",
-      "title": "新建立连续性｜第404源章｜2",
+      "title": "柯克船",
       "memo": "六神祝福之旅：新建立连续性（第404源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19176,7 +19176,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-404-03",
-      "title": "新建立连续性｜第404源章｜3",
+      "title": "老船队复出",
       "memo": "六神祝福之旅：新建立连续性（第404源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19201,7 +19201,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-404-04",
-      "title": "新建立连续性｜第404源章｜4",
+      "title": "生命教团船后备",
       "memo": "六神祝福之旅：新建立连续性（第404源章第4条）",
       "category": "continuity",
       "keys": [
@@ -19226,7 +19226,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-404-01",
-      "title": "未解决事项｜第404源章｜1",
+      "title": "海神会面｜人鱼与大海.(2)",
       "memo": "六神祝福之旅：未解决事项（第404源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19251,7 +19251,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-404-02",
-      "title": "未解决事项｜第404源章｜2",
+      "title": "人鱼奴隶追踪",
       "memo": "六神祝福之旅：未解决事项（第404源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19276,7 +19276,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-404-03",
-      "title": "未解决事项｜第404源章｜3",
+      "title": "航海风险",
       "memo": "六神祝福之旅：未解决事项（第404源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -19301,7 +19301,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-404-01",
-      "title": "主角龙形态｜第404源章｜1",
+      "title": "主角龙形态｜人鱼与大海.(2)｜萨加玛塔祝福后的弱化爱丽丝，仍不足以长期施展海上大型魔法",
       "memo": "六神祝福之旅：主角龙形态（第404源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19329,7 +19329,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-404-01",
-      "title": "主角龙状态｜第404源章｜1",
+      "title": "主角龙状态｜人鱼与大海.(2)｜队伍获得亚哈、精锐船员和柯克船，终于从米诺亚港出海",
       "memo": "六神祝福之旅：主角龙状态（第404源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19356,7 +19356,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-404-01",
-      "title": "主角龙知识边界｜第404源章｜1",
+      "title": "主角龙知识边界｜人鱼与大海.(2)｜亚哈只知道队伍与生命女神使命有关，不知道爱丽丝全部身份与体内魔王",
       "memo": "六神祝福之旅：主角龙知识边界（第404源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19384,7 +19384,7 @@
     },
     {
       "id": "era-19-six-gods-event-405-01",
-      "title": "事件｜第405源章｜1",
+      "title": "海神怒火使离港越远风暴越强",
       "memo": "六神祝福之旅：事件（第405源章第1条）",
       "category": "event",
       "keys": [
@@ -19411,7 +19411,7 @@
     },
     {
       "id": "era-19-six-gods-event-405-02",
-      "title": "事件｜第405源章｜2",
+      "title": "库茨受晕船与鳞片干裂双重折磨、尤里卡为其重涂药膏",
       "memo": "六神祝福之旅：事件（第405源章第2条）",
       "category": "event",
       "keys": [
@@ -19440,7 +19440,7 @@
     },
     {
       "id": "era-19-six-gods-event-405-03",
-      "title": "事件｜第405源章｜3",
+      "title": "数日后发现人鱼，人鱼因怕被抓和海神再怒立刻逃跑",
       "memo": "六神祝福之旅：事件（第405源章第3条）",
       "category": "event",
       "keys": [
@@ -19467,7 +19467,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-405-01",
-      "title": "世界设定事实｜第405源章｜1",
+      "title": "海神风暴集中阻止近海船只远航",
       "memo": "六神祝福之旅：世界设定事实（第405源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19493,7 +19493,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-405-02",
-      "title": "世界设定事实｜第405源章｜2",
+      "title": "队中只有莉莉与爱丽丝不晕船",
       "memo": "六神祝福之旅：世界设定事实（第405源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19521,7 +19521,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-405-03",
-      "title": "世界设定事实｜第405源章｜3",
+      "title": "人鱼因奴役旧案把陆地船只视为抓捕威胁，并认为再有一人被抓便可能使海神淹没陆地",
       "memo": "六神祝福之旅：世界设定事实（第405源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -19546,7 +19546,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-405-01",
-      "title": "新建立连续性｜第405源章｜1",
+      "title": "海神近海风暴封锁",
       "memo": "六神祝福之旅：新建立连续性（第405源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19571,7 +19571,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-405-02",
-      "title": "新建立连续性｜第405源章｜2",
+      "title": "全队晕船差异",
       "memo": "六神祝福之旅：新建立连续性（第405源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19596,7 +19596,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-405-03",
-      "title": "新建立连续性｜第405源章｜3",
+      "title": "首饰钓人鱼方案",
       "memo": "六神祝福之旅：新建立连续性（第405源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19621,7 +19621,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-405-01",
-      "title": "未解决事项｜第405源章｜1",
+      "title": "人鱼接触",
       "memo": "六神祝福之旅：未解决事项（第405源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19646,7 +19646,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-405-02",
-      "title": "未解决事项｜第405源章｜2",
+      "title": "海神怒火｜人鱼与大海.(3)",
       "memo": "六神祝福之旅：未解决事项（第405源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19671,7 +19671,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-405-03",
-      "title": "未解决事项｜第405源章｜3",
+      "title": "莉莉体力恢复",
       "memo": "六神祝福之旅：未解决事项（第405源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -19697,7 +19697,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-405-01",
-      "title": "主角龙形态｜第405源章｜1",
+      "title": "主角龙形态｜人鱼与大海.(3)｜萨加玛塔祝福后的弱化爱丽丝能与和谐之枝莉莉协力护船，仍需保留魔力",
       "memo": "六神祝福之旅：主角龙形态（第405源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19725,7 +19725,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-405-01",
-      "title": "主角龙状态｜第405源章｜1",
+      "title": "主角龙状态｜人鱼与大海.(3)｜队伍穿过海神封锁风暴并发现人鱼，但正常沟通失败",
       "memo": "六神祝福之旅：主角龙状态（第405源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19751,7 +19751,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-405-01",
-      "title": "主角龙知识边界｜第405源章｜1",
+      "title": "主角龙知识边界｜人鱼与大海.(3)｜平静远海只是队伍推测海神没有让整片海域持续风暴",
       "memo": "六神祝福之旅：主角龙知识边界（第405源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19776,7 +19776,7 @@
     },
     {
       "id": "era-19-six-gods-event-406-01",
-      "title": "事件｜第406源章｜1",
+      "title": "小人鱼因不肯松开银镯被风精灵钓上船，坚信陆地人会贩卖自己并使海神更怒，拒绝普通誓言",
       "memo": "六神祝福之旅：事件（第406源章第1条）",
       "category": "event",
       "keys": [
@@ -19802,7 +19802,7 @@
     },
     {
       "id": "era-19-six-gods-event-406-02",
-      "title": "事件｜第406源章｜2",
+      "title": "爱丽丝摘兜帽公开龙族巫女身份",
       "memo": "六神祝福之旅：事件（第406源章第2条）",
       "category": "event",
       "keys": [
@@ -19829,7 +19829,7 @@
     },
     {
       "id": "era-19-six-gods-event-406-03",
-      "title": "事件｜第406源章｜3",
+      "title": "蒂雅知道被卖人鱼线索已指向南罗马尼亚贵族，但爱丽丝并不知道",
       "memo": "六神祝福之旅：事件（第406源章第3条）",
       "category": "event",
       "keys": [
@@ -19858,7 +19858,7 @@
     },
     {
       "id": "era-19-six-gods-event-406-04",
-      "title": "事件｜第406源章｜4",
+      "title": "人鱼带船抵达海神所在巨型漩涡后离开",
       "memo": "六神祝福之旅：事件（第406源章第4条）",
       "category": "event",
       "keys": [
@@ -19884,7 +19884,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-406-01",
-      "title": "世界设定事实｜第406源章｜1",
+      "title": "人鱼在水中受海神庇护，缺少自然威胁，普遍乐天且危险意识弱",
       "memo": "六神祝福之旅：世界设定事实（第406源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19909,7 +19909,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-406-02",
-      "title": "世界设定事实｜第406源章｜2",
+      "title": "被贩卖人鱼的调查已指向南罗马尼亚贵族，但具体购买者、时间、地点和现藏处尚待查清",
       "memo": "六神祝福之旅：世界设定事实（第406源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19934,7 +19934,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-406-03",
-      "title": "世界设定事实｜第406源章｜3",
+      "title": "海神居所位于支配洋流的巨大漩涡下",
       "memo": "六神祝福之旅：世界设定事实（第406源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -19960,7 +19960,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-406-01",
-      "title": "新建立连续性｜第406源章｜1",
+      "title": "小人鱼引路者",
       "memo": "六神祝福之旅：新建立连续性（第406源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19986,7 +19986,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-406-02",
-      "title": "新建立连续性｜第406源章｜2",
+      "title": "南罗马尼亚人鱼线索",
       "memo": "六神祝福之旅：新建立连续性（第406源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20011,7 +20011,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-406-03",
-      "title": "新建立连续性｜第406源章｜3",
+      "title": "海神漩涡",
       "memo": "六神祝福之旅：新建立连续性（第406源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20036,7 +20036,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-406-04",
-      "title": "新建立连续性｜第406源章｜4",
+      "title": "全船屏障",
       "memo": "六神祝福之旅：新建立连续性（第406源章第4条）",
       "category": "continuity",
       "keys": [
@@ -20061,7 +20061,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-406-01",
-      "title": "未解决事项｜第406源章｜1",
+      "title": "爱丽丝对人鱼承诺",
       "memo": "六神祝福之旅：未解决事项（第406源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20087,7 +20087,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-406-02",
-      "title": "未解决事项｜第406源章｜2",
+      "title": "海神接见",
       "memo": "六神祝福之旅：未解决事项（第406源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -20112,7 +20112,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-406-03",
-      "title": "未解决事项｜第406源章｜3",
+      "title": "漩涡下航行",
       "memo": "六神祝福之旅：未解决事项（第406源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -20137,7 +20137,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-406-01",
-      "title": "主角龙形态｜第406源章｜1",
+      "title": "主角龙形态｜人鱼与大海.(4)｜爱丽丝摘下兜帽显露龙角，以弱化龙族巫女身份交涉",
       "memo": "六神祝福之旅：主角龙形态（第406源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20164,7 +20164,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-406-01",
-      "title": "主角龙状态｜第406源章｜1",
+      "title": "主角龙状态｜人鱼与大海.(4)｜队伍抵达海神漩涡并进入海底",
       "memo": "六神祝福之旅：主角龙状态（第406源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20190,7 +20190,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-406-01",
-      "title": "主角龙知识边界｜第406源章｜1",
+      "title": "主角龙知识边界｜人鱼与大海.(4)｜爱丽丝不知道人鱼奴隶已追到南罗马尼亚贵族",
       "memo": "六神祝福之旅：主角龙知识边界（第406源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20216,7 +20216,7 @@
     },
     {
       "id": "era-19-six-gods-event-407-01",
-      "title": "事件｜第407源章｜1",
+      "title": "爱丽丝以屏障，生命之树和光球带船穿过漩涡下潜，队伍在深海观察鱼群，水母和资源",
       "memo": "六神祝福之旅：事件（第407源章第1条）",
       "category": "event",
       "keys": [
@@ -20242,7 +20242,7 @@
     },
     {
       "id": "era-19-six-gods-event-407-02",
-      "title": "事件｜第407源章｜2",
+      "title": "船抵达被蓝光照亮的深海神殿与人鱼城市萨达梅利克",
       "memo": "六神祝福之旅：事件（第407源章第2条）",
       "category": "event",
       "keys": [
@@ -20267,7 +20267,7 @@
     },
     {
       "id": "era-19-six-gods-event-407-03",
-      "title": "事件｜第407源章｜3",
+      "title": "海神忒提斯在水下蓝焰神殿现身，容貌无法被完整认知",
       "memo": "六神祝福之旅：事件（第407源章第3条）",
       "category": "event",
       "keys": [
@@ -20293,7 +20293,7 @@
     },
     {
       "id": "era-19-six-gods-event-407-04",
-      "title": "事件｜第407源章｜4",
+      "title": "亚哈为侄子贩卖人鱼跪地谢罪",
       "memo": "六神祝福之旅：事件（第407源章第4条）",
       "category": "event",
       "keys": [
@@ -20320,7 +20320,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-407-01",
-      "title": "世界设定事实｜第407源章｜1",
+      "title": "深海圣地萨达梅利克由中央神殿梅利克及周边人鱼城市组成，只有获海神许可的陆地生灵能进入",
       "memo": "六神祝福之旅：世界设定事实（第407源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -20345,7 +20345,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-407-02",
-      "title": "世界设定事实｜第407源章｜2",
+      "title": "神殿由水下燃烧的蓝焰照明",
       "memo": "六神祝福之旅：世界设定事实（第407源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -20371,7 +20371,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-407-03",
-      "title": "世界设定事实｜第407源章｜3",
+      "title": "神殿蓝焰以人类灵魂为燃料",
       "memo": "六神祝福之旅：世界设定事实（第407源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -20396,7 +20396,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-407-01",
-      "title": "新建立连续性｜第407源章｜1",
+      "title": "萨达梅利克",
       "memo": "六神祝福之旅：新建立连续性（第407源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20421,7 +20421,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-407-02",
-      "title": "新建立连续性｜第407源章｜2",
+      "title": "梅利克神殿",
       "memo": "六神祝福之旅：新建立连续性（第407源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20446,7 +20446,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-407-03",
-      "title": "新建立连续性｜第407源章｜3",
+      "title": "海神忒提斯",
       "memo": "六神祝福之旅：新建立连续性（第407源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20472,7 +20472,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-407-04",
-      "title": "新建立连续性｜第407源章｜4",
+      "title": "灵魂蓝焰",
       "memo": "六神祝福之旅：新建立连续性（第407源章第4条）",
       "category": "continuity",
       "keys": [
@@ -20497,7 +20497,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-407-01",
-      "title": "未解决事项｜第407源章｜1",
+      "title": "亚哈侄子灵魂结局",
       "memo": "六神祝福之旅：未解决事项（第407源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20523,7 +20523,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-407-02",
-      "title": "未解决事项｜第407源章｜2",
+      "title": "海神祝福",
       "memo": "六神祝福之旅：未解决事项（第407源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -20548,7 +20548,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-407-03",
-      "title": "未解决事项｜第407源章｜3",
+      "title": "风暴解除",
       "memo": "六神祝福之旅：未解决事项（第407源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -20573,7 +20573,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-407-01",
-      "title": "主角龙形态｜第407源章｜1",
+      "title": "主角龙形态｜深海圣地.(1)｜弱化爱丽丝维持包覆柯克船的屏障并以光球照明深海",
       "memo": "六神祝福之旅：主角龙形态（第407源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20601,7 +20601,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-407-01",
-      "title": "主角龙状态｜第407源章｜1",
+      "title": "主角龙状态｜深海圣地.(1)｜队伍进入深海圣地并获海神发言机会，亚哈侄子的灵魂被揭示为蓝焰燃料",
       "memo": "六神祝福之旅：主角龙状态（第407源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20627,7 +20627,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-407-01",
-      "title": "主角龙知识边界｜第407源章｜1",
+      "title": "主角龙知识边界｜深海圣地.(1)｜队伍此时尚不知道海神持有溺亡灵魂的契约细节",
       "memo": "六神祝福之旅：主角龙知识边界（第407源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20653,7 +20653,7 @@
     },
     {
       "id": "era-19-six-gods-event-408-01",
-      "title": "事件｜第408源章｜1",
+      "title": "蓝焰燃烧记忆与人格，灵魂正是亚哈视如亲子的侄子阿哈西亚",
       "memo": "六神祝福之旅：事件（第408源章第1条）",
       "category": "event",
       "keys": [
@@ -20680,7 +20680,7 @@
     },
     {
       "id": "era-19-six-gods-event-408-02",
-      "title": "事件｜第408源章｜2",
+      "title": "亚哈不顾海神隐怒为侄子求情并愿献上一切",
       "memo": "六神祝福之旅：事件（第408源章第2条）",
       "category": "event",
       "keys": [
@@ -20707,7 +20707,7 @@
     },
     {
       "id": "era-19-six-gods-event-408-03",
-      "title": "事件｜第408源章｜3",
+      "title": "忒提斯认出爱丽丝后撤去压力、以母亲使者的贵客礼节接待",
       "memo": "六神祝福之旅：事件（第408源章第3条）",
       "category": "event",
       "keys": [
@@ -20734,7 +20734,7 @@
     },
     {
       "id": "era-19-six-gods-event-408-04",
-      "title": "事件｜第408源章｜4",
+      "title": "忒提斯听完情况便分力给爱丽丝，挫败魔王气焰，又祝福库茨可操水保湿",
       "memo": "六神祝福之旅：事件（第408源章第4条）",
       "category": "event",
       "keys": [
@@ -20764,7 +20764,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-408-01",
-      "title": "世界设定事实｜第408源章｜1",
+      "title": "溺亡灵魂随海流归忒提斯所有",
       "memo": "六神祝福之旅：世界设定事实（第408源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -20790,7 +20790,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-408-02",
-      "title": "世界设定事实｜第408源章｜2",
+      "title": "海神与冥界契约连忒提斯也不能单方改变",
       "memo": "六神祝福之旅：世界设定事实（第408源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -20816,7 +20816,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-408-03",
-      "title": "世界设定事实｜第408源章｜3",
+      "title": "忒提斯祝福增强爱丽丝肉体争夺能力",
       "memo": "六神祝福之旅：世界设定事实（第408源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -20845,7 +20845,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-408-01",
-      "title": "新建立连续性｜第408源章｜1",
+      "title": "阿哈西亚灵魂",
       "memo": "六神祝福之旅：新建立连续性（第408源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20870,7 +20870,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-408-02",
-      "title": "新建立连续性｜第408源章｜2",
+      "title": "海神冥界契约",
       "memo": "六神祝福之旅：新建立连续性（第408源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20895,7 +20895,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-408-03",
-      "title": "新建立连续性｜第408源章｜3",
+      "title": "忒提斯祝福",
       "memo": "六神祝福之旅：新建立连续性（第408源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20921,7 +20921,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-408-04",
-      "title": "新建立连续性｜第408源章｜4",
+      "title": "库茨操水祝福",
       "memo": "六神祝福之旅：新建立连续性（第408源章第4条）",
       "category": "continuity",
       "keys": [
@@ -20947,7 +20947,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-408-01",
-      "title": "未解决事项｜第408源章｜1",
+      "title": "被贩人鱼归还",
       "memo": "六神祝福之旅：未解决事项（第408源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20972,7 +20972,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-408-02",
-      "title": "未解决事项｜第408源章｜2",
+      "title": "阿哈西亚受罚期限",
       "memo": "六神祝福之旅：未解决事项（第408源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -20997,7 +20997,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-408-03",
-      "title": "未解决事项｜第408源章｜3",
+      "title": "海神风暴是否完全解除",
       "memo": "六神祝福之旅：未解决事项（第408源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -21022,7 +21022,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-408-01",
-      "title": "主角龙形态｜第408源章｜1",
+      "title": "主角龙形态｜深海圣地.(2)｜弱化爱丽丝以龙族巫女贵客身份进入海神殿，获忒提斯分力后体内魔王受挫",
       "memo": "六神祝福之旅：主角龙形态（第408源章第1条）",
       "category": "character-state",
       "keys": [
@@ -21051,7 +21051,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-408-01",
-      "title": "主角龙状态｜第408源章｜1",
+      "title": "主角龙状态｜深海圣地.(2)｜第四位古神祝福取得，库茨获得海神祝福",
       "memo": "六神祝福之旅：主角龙状态（第408源章第1条）",
       "category": "character-state",
       "keys": [
@@ -21077,7 +21077,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-408-01",
-      "title": "主角龙知识边界｜第408源章｜1",
+      "title": "主角龙知识边界｜深海圣地.(2)｜会谈细节只明确祝福结果",
       "memo": "六神祝福之旅：主角龙知识边界（第408源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -21104,7 +21104,7 @@
     },
     {
       "id": "era-19-six-gods-event-409-01",
-      "title": "事件｜第409源章｜1",
+      "title": "忒提斯极喜欢世界树琥珀王冠，认为仅给祝福不足以匹配回礼，遂取出淡紫海螺",
       "memo": "六神祝福之旅：事件（第409源章第1条）",
       "category": "event",
       "keys": [
@@ -21131,7 +21131,7 @@
     },
     {
       "id": "era-19-six-gods-event-409-02",
-      "title": "事件｜第409源章｜2",
+      "title": "童话中懒惰渔夫捕获会说话、曾侍奉海神的大鱼，以互向海神起誓换取实现愿望海螺",
       "memo": "六神祝福之旅：事件（第409源章第2条）",
       "category": "event",
       "keys": [
@@ -21156,7 +21156,7 @@
     },
     {
       "id": "era-19-six-gods-event-409-03",
-      "title": "事件｜第409源章｜3",
+      "title": "渔夫利用誓言措辞再次网住并卖鱼，许愿海螺不断产盐",
       "memo": "六神祝福之旅：事件（第409源章第3条）",
       "category": "event",
       "keys": [
@@ -21181,7 +21181,7 @@
     },
     {
       "id": "era-19-six-gods-event-409-04",
-      "title": "事件｜第409源章｜4",
+      "title": "童话尾声中善良渔夫买下并释放大鱼",
       "memo": "六神祝福之旅：事件（第409源章第4条）",
       "category": "event",
       "keys": [
@@ -21206,7 +21206,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-409-01",
-      "title": "世界设定事实｜第409源章｜1",
+      "title": "忒提斯赠出的魔法海螺呈淡紫光泽、可托掌心，后世被称为实现愿望的神器",
       "memo": "六神祝福之旅：世界设定事实（第409源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -21232,7 +21232,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-409-02",
-      "title": "世界设定事实｜第409源章｜2",
+      "title": "本章大部分是《儿童童话·魔法海螺》，属于世界内故事",
       "memo": "六神祝福之旅：世界设定事实（第409源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -21257,7 +21257,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-409-01",
-      "title": "新建立连续性｜第409源章｜1",
+      "title": "魔法海螺",
       "memo": "六神祝福之旅：新建立连续性（第409源章第1条）",
       "category": "continuity",
       "keys": [
@@ -21282,7 +21282,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-409-02",
-      "title": "新建立连续性｜第409源章｜2",
+      "title": "世界内童话版本",
       "memo": "六神祝福之旅：新建立连续性（第409源章第2条）",
       "category": "continuity",
       "keys": [
@@ -21307,7 +21307,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-409-01",
-      "title": "未解决事项｜第409源章｜1",
+      "title": "真实许愿边界",
       "memo": "六神祝福之旅：未解决事项（第409源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -21332,7 +21332,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-409-02",
-      "title": "未解决事项｜第409源章｜2",
+      "title": "海螺保管与使用",
       "memo": "六神祝福之旅：未解决事项（第409源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -21357,7 +21357,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-409-01",
-      "title": "主角龙形态｜第409源章｜1",
+      "title": "主角龙形态｜魔法海螺.(1)｜爱丽丝和蒂雅未在本章主体直接行动",
       "memo": "六神祝福之旅：主角龙形态（第409源章第1条）",
       "category": "character-state",
       "keys": [
@@ -21384,7 +21384,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-409-01",
-      "title": "主角龙状态｜第409源章｜1",
+      "title": "主角龙状态｜魔法海螺.(1)｜队伍因回礼获得魔法海螺，具体真实限制留待后章说明",
       "memo": "六神祝福之旅：主角龙状态（第409源章第1条）",
       "category": "character-state",
       "keys": [
@@ -21409,7 +21409,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-409-01",
-      "title": "主角龙知识边界｜第409源章｜1",
+      "title": "主角龙知识边界｜魔法海螺.(1)｜童话叙事与神器真实机制必须分开",
       "memo": "六神祝福之旅：主角龙知识边界（第409源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -21434,7 +21434,7 @@
     },
     {
       "id": "era-19-six-gods-event-410-01",
-      "title": "事件｜第410源章｜1",
+      "title": "忒提斯把海螺交给埃里克，说明可实现其能力范围内愿望",
       "memo": "六神祝福之旅：事件（第410源章第1条）",
       "category": "event",
       "keys": [
@@ -21462,7 +21462,7 @@
     },
     {
       "id": "era-19-six-gods-event-410-02",
-      "title": "事件｜第410源章｜2",
+      "title": "后世酒馆老人以各族神器的使用限制论证魔法海螺最便利",
       "memo": "六神祝福之旅：事件（第410源章第2条）",
       "category": "event",
       "keys": [
@@ -21487,7 +21487,7 @@
     },
     {
       "id": "era-19-six-gods-event-410-03",
-      "title": "事件｜第410源章｜3",
+      "title": "多数冒险者因无定金和生计拒绝寻海螺，只有一队接受",
       "memo": "六神祝福之旅：事件（第410源章第3条）",
       "category": "event",
       "keys": [
@@ -21513,7 +21513,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-410-01",
-      "title": "世界设定事实｜第410源章｜1",
+      "title": "魔法海螺由忒提斯注力，可实现其能力范围内愿望",
       "memo": "六神祝福之旅：世界设定事实（第410源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -21540,7 +21540,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-410-02",
-      "title": "世界设定事实｜第410源章｜2",
+      "title": "世界内知名神器常有持有者限制，英雄之剑限勇者，生命之树限龙巫女",
       "memo": "六神祝福之旅：世界设定事实（第410源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -21565,7 +21565,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-410-03",
-      "title": "世界设定事实｜第410源章｜3",
+      "title": "后世线索称约150年前黄铜镜资助的考古学家曾获得魔法海螺三次许愿机会中的一次",
       "memo": "六神祝福之旅：世界设定事实（第410源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -21590,7 +21590,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-410-01",
-      "title": "新建立连续性｜第410源章｜1",
+      "title": "海螺能力边界",
       "memo": "六神祝福之旅：新建立连续性（第410源章第1条）",
       "category": "continuity",
       "keys": [
@@ -21615,7 +21615,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-410-02",
-      "title": "新建立连续性｜第410源章｜2",
+      "title": "黄铜镜线索",
       "memo": "六神祝福之旅：新建立连续性（第410源章第2条）",
       "category": "continuity",
       "keys": [
@@ -21640,7 +21640,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-410-03",
-      "title": "新建立连续性｜第410源章｜3",
+      "title": "后世寻螺队伍",
       "memo": "六神祝福之旅：新建立连续性（第410源章第3条）",
       "category": "continuity",
       "keys": [
@@ -21665,7 +21665,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-410-01",
-      "title": "未解决事项｜第410源章｜1",
+      "title": "本次愿望用途",
       "memo": "六神祝福之旅：未解决事项（第410源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -21690,7 +21690,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-410-02",
-      "title": "未解决事项｜第410源章｜2",
+      "title": "后世海螺流转",
       "memo": "六神祝福之旅：未解决事项（第410源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -21715,7 +21715,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-410-01",
-      "title": "主角龙形态｜第410源章｜1",
+      "title": "主角龙形态｜魔法海螺.(2)｜爱丽丝仍是接受四神祝福后的弱化龙巫女",
       "memo": "六神祝福之旅：主角龙形态（第410源章第1条）",
       "category": "character-state",
       "keys": [
@@ -21741,7 +21741,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-410-01",
-      "title": "主角龙状态｜第410源章｜1",
+      "title": "主角龙状态｜魔法海螺.(2)｜海螺无法直接终结体内争夺，队伍继续保留愿望并推进剩余古神路线",
       "memo": "六神祝福之旅：主角龙状态（第410源章第1条）",
       "category": "character-state",
       "keys": [
@@ -21766,7 +21766,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-410-01",
-      "title": "主角龙知识边界｜第410源章｜1",
+      "title": "主角龙知识边界｜魔法海螺.(2)｜后世老人故事是线索与传闻，不等于已证实海螺有固定三次愿望",
       "memo": "六神祝福之旅：主角龙知识边界（第410源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -21791,7 +21791,7 @@
     },
     {
       "id": "era-19-six-gods-event-411-01",
-      "title": "事件｜第411源章｜1",
+      "title": "队伍未决定魔法海螺愿望",
       "memo": "六神祝福之旅：事件（第411源章第1条）",
       "category": "event",
       "keys": [
@@ -21818,7 +21818,7 @@
     },
     {
       "id": "era-19-six-gods-event-411-02",
-      "title": "事件｜第411源章｜2",
+      "title": "众人接受无法帮助阿哈西亚，返回特奥卡利",
       "memo": "六神祝福之旅：事件（第411源章第2条）",
       "category": "event",
       "keys": [
@@ -21845,7 +21845,7 @@
     },
     {
       "id": "era-19-six-gods-event-411-03",
-      "title": "事件｜第411源章｜3",
+      "title": "佩尔仪式成功召来轻浮友善的风神希尔芙",
       "memo": "六神祝福之旅：事件（第411源章第3条）",
       "category": "event",
       "keys": [
@@ -21875,7 +21875,7 @@
     },
     {
       "id": "era-19-six-gods-event-411-04",
-      "title": "事件｜第411源章｜4",
+      "title": "尤里卡选择踏风能力，获风神赐姓风行者",
       "memo": "六神祝福之旅：事件（第411源章第4条）",
       "category": "event",
       "keys": [
@@ -21901,7 +21901,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-411-01",
-      "title": "世界设定事实｜第411源章｜1",
+      "title": "生命教团已关押一名南罗马尼亚伯爵并救出虚弱但存活的人鱼",
       "memo": "六神祝福之旅：世界设定事实（第411源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -21926,7 +21926,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-411-02",
-      "title": "世界设定事实｜第411源章｜2",
+      "title": "六位古神可分别为六名队员赐福，芬娜火，埃里克世界树，爱丽丝萨加玛塔，库茨海",
       "memo": "六神祝福之旅：世界设定事实（第411源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -21959,7 +21959,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-411-03",
-      "title": "世界设定事实｜第411源章｜3",
+      "title": "希尔芙祝福可在速度、风化身体、风刃、踏风等能力中择一",
       "memo": "六神祝福之旅：世界设定事实（第411源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -21986,7 +21986,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-411-01",
-      "title": "新建立连续性｜第411源章｜1",
+      "title": "人鱼获救",
       "memo": "六神祝福之旅：新建立连续性（第411源章第1条）",
       "category": "continuity",
       "keys": [
@@ -22011,7 +22011,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-411-02",
-      "title": "新建立连续性｜第411源章｜2",
+      "title": "希尔芙祝福",
       "memo": "六神祝福之旅：新建立连续性（第411源章第2条）",
       "category": "continuity",
       "keys": [
@@ -22037,7 +22037,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-411-03",
-      "title": "新建立连续性｜第411源章｜3",
+      "title": "尤里卡·风行者",
       "memo": "六神祝福之旅：新建立连续性（第411源章第3条）",
       "category": "continuity",
       "keys": [
@@ -22063,7 +22063,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-411-01",
-      "title": "未解决事项｜第411源章｜1",
+      "title": "魔法海螺愿望",
       "memo": "六神祝福之旅：未解决事项（第411源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -22088,7 +22088,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-411-02",
-      "title": "未解决事项｜第411源章｜2",
+      "title": "沙玛什",
       "memo": "六神祝福之旅：未解决事项（第411源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -22114,7 +22114,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-411-03",
-      "title": "未解决事项｜第411源章｜3",
+      "title": "魔贤者残党",
       "memo": "六神祝福之旅：未解决事项（第411源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -22140,7 +22140,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-411-01",
-      "title": "主角龙形态｜第411源章｜1",
+      "title": "主角龙形态｜风神.(1)｜获四神祝福的爱丽丝状态大幅好转",
       "memo": "六神祝福之旅：主角龙形态（第411源章第1条）",
       "category": "character-state",
       "keys": [
@@ -22167,7 +22167,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-411-01",
-      "title": "主角龙状态｜第411源章｜1",
+      "title": "主角龙状态｜风神.(1)｜只剩光明神沙玛什，尤里卡进入风行者形态",
       "memo": "六神祝福之旅：主角龙状态（第411源章第1条）",
       "category": "character-state",
       "keys": [
@@ -22194,7 +22194,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-411-01",
-      "title": "主角龙知识边界｜第411源章｜1",
+      "title": "主角龙知识边界｜风神.(1)｜爱丽丝是否一定完美恢复是队伍预期",
       "memo": "六神祝福之旅：主角龙知识边界（第411源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -22221,7 +22221,7 @@
     },
     {
       "id": "era-19-six-gods-event-412-01",
-      "title": "事件｜第412源章｜1",
+      "title": "希尔芙得知白夜遥远危险后主动联系佐伊族，安排两顶四人飞行轿分批把六人送往北方",
       "memo": "六神祝福之旅：事件（第412源章第1条）",
       "category": "event",
       "keys": [
@@ -22247,7 +22247,7 @@
     },
     {
       "id": "era-19-six-gods-event-412-02",
-      "title": "事件｜第412源章｜2",
+      "title": "数日后飞行队长艾尔丁率八名鸟人抵达",
       "memo": "六神祝福之旅：事件（第412源章第2条）",
       "category": "event",
       "keys": [
@@ -22274,7 +22274,7 @@
     },
     {
       "id": "era-19-six-gods-event-412-03",
-      "title": "事件｜第412源章｜3",
+      "title": "后世读者质疑推理小说用鸟人载人逃塔",
       "memo": "六神祝福之旅：事件（第412源章第3条）",
       "category": "event",
       "keys": [
@@ -22300,7 +22300,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-412-01",
-      "title": "世界设定事实｜第412源章｜1",
+      "title": "佐伊族是希尔芙眷族，部分在生命教团工作",
       "memo": "六神祝福之旅：世界设定事实（第412源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -22326,7 +22326,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-412-02",
-      "title": "世界设定事实｜第412源章｜2",
+      "title": "飞行队长艾尔丁统领教团所属鸟人",
       "memo": "六神祝福之旅：世界设定事实（第412源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -22353,7 +22353,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-412-03",
-      "title": "世界设定事实｜第412源章｜3",
+      "title": "古代优秀鸟人配合强化魔法可承载一人",
       "memo": "六神祝福之旅：世界设定事实（第412源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -22378,7 +22378,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-412-01",
-      "title": "新建立连续性｜第412源章｜1",
+      "title": "佐伊族飞行轿",
       "memo": "六神祝福之旅：新建立连续性（第412源章第1条）",
       "category": "continuity",
       "keys": [
@@ -22403,7 +22403,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-412-02",
-      "title": "新建立连续性｜第412源章｜2",
+      "title": "艾尔丁重逢",
       "memo": "六神祝福之旅：新建立连续性（第412源章第2条）",
       "category": "continuity",
       "keys": [
@@ -22429,7 +22429,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-412-03",
-      "title": "新建立连续性｜第412源章｜3",
+      "title": "白夜空运",
       "memo": "六神祝福之旅：新建立连续性（第412源章第3条）",
       "category": "continuity",
       "keys": [
@@ -22454,7 +22454,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-412-01",
-      "title": "未解决事项｜第412源章｜1",
+      "title": "白夜抵达",
       "memo": "六神祝福之旅：未解决事项（第412源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -22479,7 +22479,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-412-02",
-      "title": "未解决事项｜第412源章｜2",
+      "title": "沙玛什祝福",
       "memo": "六神祝福之旅：未解决事项（第412源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -22505,7 +22505,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-412-03",
-      "title": "未解决事项｜第412源章｜3",
+      "title": "座位安排",
       "memo": "六神祝福之旅：未解决事项（第412源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -22530,7 +22530,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-412-01",
-      "title": "主角龙形态｜第412源章｜1",
+      "title": "主角龙形态｜风神.(2)｜五神祝福后的爱丽丝自述差不多完全康复，仍为人形并携近无限魔法袋",
       "memo": "六神祝福之旅：主角龙形态（第412源章第1条）",
       "category": "character-state",
       "keys": [
@@ -22556,7 +22556,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-412-01",
-      "title": "主角龙状态｜第412源章｜1",
+      "title": "主角龙状态｜风神.(2)｜最后的白夜路线获得佐伊族空运，队伍将在次日北上",
       "memo": "六神祝福之旅：主角龙状态（第412源章第1条）",
       "category": "character-state",
       "keys": [
@@ -22581,7 +22581,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-412-01",
-      "title": "主角龙知识边界｜第412源章｜1",
+      "title": "主角龙知识边界｜风神.(2)｜爱丽丝说差不多康复不等于体内魔王已彻底消失",
       "memo": "六神祝福之旅：主角龙知识边界（第412源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -22609,7 +22609,7 @@
     },
     {
       "id": "era-19-six-gods-event-413-01",
-      "title": "事件｜第413源章｜1",
+      "title": "佐伊飞行轿受高空寒风，摇晃与飞行怪物影响，爱丽丝以五神祝福后的保温，防御",
       "memo": "六神祝福之旅：事件（第413源章第1条）",
       "category": "event",
       "keys": [
@@ -22635,7 +22635,7 @@
     },
     {
       "id": "era-19-six-gods-event-413-02",
-      "title": "事件｜第413源章｜2",
+      "title": "北方霜雪使鸟人翅膀接近冻结极限，艾尔丁因教团人手空缺拒绝无期限等候或继续同行",
       "memo": "六神祝福之旅：事件（第413源章第2条）",
       "category": "event",
       "keys": [
@@ -22662,7 +22662,7 @@
     },
     {
       "id": "era-19-six-gods-event-413-03",
-      "title": "事件｜第413源章｜3",
+      "title": "队伍在爱丽丝高阶温控结界下轻松穿越巨兽雪原，爱丽丝自述状态变好但未万全，距白夜约一日",
       "memo": "六神祝福之旅：事件（第413源章第3条）",
       "category": "event",
       "keys": [
@@ -22688,7 +22688,7 @@
     },
     {
       "id": "era-19-six-gods-event-413-04",
-      "title": "事件｜第413源章｜4",
+      "title": "爱丽丝发现敌军逼近",
       "memo": "六神祝福之旅：事件（第413源章第4条）",
       "category": "event",
       "keys": [
@@ -22715,7 +22715,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-413-01",
-      "title": "世界设定事实｜第413源章｜1",
+      "title": "霜雪会使佐伊族翅膀冻结坠落，此处是其常规北飞极限",
       "memo": "六神祝福之旅：世界设定事实（第413源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -22740,7 +22740,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-413-02",
-      "title": "世界设定事实｜第413源章｜2",
+      "title": "五神祝福后的爱丽丝可构筑维持内部温度，阻隔雪花却允许人和空气进出的精密结界",
       "memo": "六神祝福之旅：世界设定事实（第413源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -22766,7 +22766,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-413-03",
-      "title": "世界设定事实｜第413源章｜3",
+      "title": "魔王残党在通往白夜的必经地集结并伏击，兵力规模远超普通骚扰",
       "memo": "六神祝福之旅：世界设定事实（第413源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -22792,7 +22792,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-413-01",
-      "title": "新建立连续性｜第413源章｜1",
+      "title": "佐伊北飞界限",
       "memo": "六神祝福之旅：新建立连续性（第413源章第1条）",
       "category": "continuity",
       "keys": [
@@ -22817,7 +22817,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-413-02",
-      "title": "新建立连续性｜第413源章｜2",
+      "title": "五神爱丽丝温控结界",
       "memo": "六神祝福之旅：新建立连续性（第413源章第2条）",
       "category": "continuity",
       "keys": [
@@ -22843,7 +22843,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-413-03",
-      "title": "新建立连续性｜第413源章｜3",
+      "title": "白夜伏击",
       "memo": "六神祝福之旅：新建立连续性（第413源章第3条）",
       "category": "continuity",
       "keys": [
@@ -22868,7 +22868,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-413-01",
-      "title": "未解决事项｜第413源章｜1",
+      "title": "敌军构成",
       "memo": "六神祝福之旅：未解决事项（第413源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -22893,7 +22893,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-413-02",
-      "title": "未解决事项｜第413源章｜2",
+      "title": "沙玛什会面",
       "memo": "六神祝福之旅：未解决事项（第413源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -22919,7 +22919,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-413-03",
-      "title": "未解决事项｜第413源章｜3",
+      "title": "残党总攻",
       "memo": "六神祝福之旅：未解决事项（第413源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -22944,7 +22944,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-413-01",
-      "title": "主角龙形态｜第413源章｜1",
+      "title": "主角龙形态｜白夜.(1)｜五神祝福后接近康复的人形爱丽丝，能提供飞行支援",
       "memo": "六神祝福之旅：主角龙形态（第413源章第1条）",
       "category": "character-state",
       "keys": [
@@ -22970,7 +22970,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-413-01",
-      "title": "主角龙状态｜第413源章｜1",
+      "title": "主角龙状态｜白夜.(1)｜队伍脱离鸟人载运、步行接近白夜，在营地遭魔王大军总伏击",
       "memo": "六神祝福之旅：主角龙状态（第413源章第1条）",
       "category": "character-state",
       "keys": [
@@ -22996,7 +22996,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-413-01",
-      "title": "主角龙知识边界｜第413源章｜1",
+      "title": "主角龙知识边界｜白夜.(1)｜队伍只从行为推断残党早有埋伏",
       "memo": "六神祝福之旅：主角龙知识边界（第413源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -23023,7 +23023,7 @@
     },
     {
       "id": "era-19-six-gods-event-414-01",
-      "title": "事件｜第414源章｜1",
+      "title": "约百只霜冻哥布林及更广援军包围队伍",
       "memo": "六神祝福之旅：事件（第414源章第1条）",
       "category": "event",
       "keys": [
@@ -23054,7 +23054,7 @@
     },
     {
       "id": "era-19-six-gods-event-414-02",
-      "title": "事件｜第414源章｜2",
+      "title": "黄金哥布林抓住爱丽丝连锁闪电并反击",
       "memo": "六神祝福之旅：事件（第414源章第2条）",
       "category": "event",
       "keys": [
@@ -23082,7 +23082,7 @@
     },
     {
       "id": "era-19-six-gods-event-414-03",
-      "title": "事件｜第414源章｜3",
+      "title": "狼群、甲虫、飞蛾与自爆螨虫等涌来",
       "memo": "六神祝福之旅：事件（第414源章第3条）",
       "category": "event",
       "keys": [
@@ -23110,7 +23110,7 @@
     },
     {
       "id": "era-19-six-gods-event-414-04",
-      "title": "事件｜第414源章｜4",
+      "title": "巫妖登场即被爱丽丝改良祭司法术的范围驱散不死生物化为骨灰，但命匣仍藏在别处",
       "memo": "六神祝福之旅：事件（第414源章第4条）",
       "category": "event",
       "keys": [
@@ -23137,7 +23137,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-414-01",
-      "title": "世界设定事实｜第414源章｜1",
+      "title": "霜冻哥布林是适应极寒、以白皮厚毛保温的普通哥布林变体，体型接近但略小于霍布哥布林",
       "memo": "六神祝福之旅：世界设定事实（第414源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -23162,7 +23162,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-414-02",
-      "title": "世界设定事实｜第414源章｜2",
+      "title": "黄金哥布林能抓住并操纵强雷电，上次与库茨交手使其断左臂",
       "memo": "六神祝福之旅：世界设定事实（第414源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -23189,7 +23189,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-414-03",
-      "title": "世界设定事实｜第414源章｜3",
+      "title": "爱丽丝改良的驱散不死生物可范围把不死者变回尸体并摧毁巫妖重组身躯",
       "memo": "六神祝福之旅：世界设定事实（第414源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -23216,7 +23216,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-414-01",
-      "title": "新建立连续性｜第414源章｜1",
+      "title": "霜冻哥布林",
       "memo": "六神祝福之旅：新建立连续性（第414源章第1条）",
       "category": "continuity",
       "keys": [
@@ -23241,7 +23241,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-414-02",
-      "title": "新建立连续性｜第414源章｜2",
+      "title": "黄金哥布林再战",
       "memo": "六神祝福之旅：新建立连续性（第414源章第2条）",
       "category": "continuity",
       "keys": [
@@ -23267,7 +23267,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-414-03",
-      "title": "新建立连续性｜第414源章｜3",
+      "title": "范围驱散不死生物",
       "memo": "六神祝福之旅：新建立连续性（第414源章第3条）",
       "category": "continuity",
       "keys": [
@@ -23292,7 +23292,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-414-04",
-      "title": "新建立连续性｜第414源章｜4",
+      "title": "踏风追击别西卜",
       "memo": "六神祝福之旅：新建立连续性（第414源章第4条）",
       "category": "continuity",
       "keys": [
@@ -23317,7 +23317,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-414-01",
-      "title": "未解决事项｜第414源章｜1",
+      "title": "强敌追击结果",
       "memo": "六神祝福之旅：未解决事项（第414源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -23342,7 +23342,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-414-02",
-      "title": "未解决事项｜第414源章｜2",
+      "title": "魔贤者现身",
       "memo": "六神祝福之旅：未解决事项（第414源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -23368,7 +23368,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-414-03",
-      "title": "未解决事项｜第414源章｜3",
+      "title": "持续援军",
       "memo": "六神祝福之旅：未解决事项（第414源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -23393,7 +23393,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-414-01",
-      "title": "主角龙形态｜第414源章｜1",
+      "title": "主角龙形态｜白夜.(2)｜五神人形爱丽丝展现敌我识别连锁闪电，空间转移备选",
       "memo": "六神祝福之旅：主角龙形态（第414源章第1条）",
       "category": "character-state",
       "keys": [
@@ -23419,7 +23419,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-414-01",
-      "title": "主角龙状态｜第414源章｜1",
+      "title": "主角龙状态｜白夜.(2)｜队伍以完整战术压制多波魔军，但黄金哥布林、别西卜和更大后援使成员分散",
       "memo": "六神祝福之旅：主角龙状态（第414源章第1条）",
       "category": "character-state",
       "keys": [
@@ -23445,7 +23445,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-414-01",
-      "title": "主角龙知识边界｜第414源章｜1",
+      "title": "主角龙知识边界｜白夜.(2)｜黄金哥布林与别西卜尚未在本章确认被击杀",
       "memo": "六神祝福之旅：主角龙知识边界（第414源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -23472,7 +23472,7 @@
     },
     {
       "id": "era-19-six-gods-event-415-01",
-      "title": "事件｜第415源章｜1",
+      "title": "库茨，芬娜，尤里卡追强敌导致前线分散，埃里克，爱丽丝，莉莉三人应对约五百怪物",
       "memo": "六神祝福之旅：事件（第415源章第1条）",
       "category": "event",
       "keys": [
@@ -23503,7 +23503,7 @@
     },
     {
       "id": "era-19-six-gods-event-415-02",
-      "title": "事件｜第415源章｜2",
+      "title": "爱丽丝试验低耗狂暴魔法“血之渴望”，使强怪物敌我不分互杀",
       "memo": "六神祝福之旅：事件（第415源章第2条）",
       "category": "event",
       "keys": [
@@ -23531,7 +23531,7 @@
     },
     {
       "id": "era-19-six-gods-event-415-03",
-      "title": "事件｜第415源章｜3",
+      "title": "库茨带回折颈的黄金哥布林尸体，确认能追上其闪电逃跑",
       "memo": "六神祝福之旅：事件（第415源章第3条）",
       "category": "event",
       "keys": [
@@ -23560,7 +23560,7 @@
     },
     {
       "id": "era-19-six-gods-event-415-04",
-      "title": "事件｜第415源章｜4",
+      "title": "爱丽丝判断持续击退会落入消耗战，魔贤者承认自始潜伏且被狂暴术迫出",
       "memo": "六神祝福之旅：事件（第415源章第4条）",
       "category": "event",
       "keys": [
@@ -23588,7 +23588,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-415-01",
-      "title": "世界设定事实｜第415源章｜1",
+      "title": "血之渴望是低耗暗红狂暴魔法，选择怪群强个体使其敌我不分至死",
       "memo": "六神祝福之旅：世界设定事实（第415源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -23613,7 +23613,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-415-02",
-      "title": "世界设定事实｜第415源章｜2",
+      "title": "黄金哥布林持有远古衰落之神精髓，因此死亡后尸体不化粉",
       "memo": "六神祝福之旅：世界设定事实（第415源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -23640,7 +23640,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-415-03",
-      "title": "世界设定事实｜第415源章｜3",
+      "title": "魔贤者能从开战起潜伏于影中不被队伍察觉，并带来身披漆黑盔甲、持黑暗无形剑的黑暗骑士",
       "memo": "六神祝福之旅：世界设定事实（第415源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -23667,7 +23667,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-415-01",
-      "title": "新建立连续性｜第415源章｜1",
+      "title": "血之渴望",
       "memo": "六神祝福之旅：新建立连续性（第415源章第1条）",
       "category": "continuity",
       "keys": [
@@ -23692,7 +23692,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-415-02",
-      "title": "新建立连续性｜第415源章｜2",
+      "title": "黄金哥布林尸体",
       "memo": "六神祝福之旅：新建立连续性（第415源章第2条）",
       "category": "continuity",
       "keys": [
@@ -23718,7 +23718,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-415-03",
-      "title": "新建立连续性｜第415源章｜3",
+      "title": "魔贤者总攻",
       "memo": "六神祝福之旅：新建立连续性（第415源章第3条）",
       "category": "continuity",
       "keys": [
@@ -23744,7 +23744,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-415-04",
-      "title": "新建立连续性｜第415源章｜4",
+      "title": "黑暗骑士再现",
       "memo": "六神祝福之旅：新建立连续性（第415源章第4条）",
       "category": "continuity",
       "keys": [
@@ -23770,7 +23770,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-415-01",
-      "title": "未解决事项｜第415源章｜1",
+      "title": "黑暗骑士战斗",
       "memo": "六神祝福之旅：未解决事项（第415源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -23796,7 +23796,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-415-02",
-      "title": "未解决事项｜第415源章｜2",
+      "title": "持续怪潮",
       "memo": "六神祝福之旅：未解决事项（第415源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -23821,7 +23821,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-415-03",
-      "title": "未解决事项｜第415源章｜3",
+      "title": "白夜突破",
       "memo": "六神祝福之旅：未解决事项（第415源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -23846,7 +23846,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-415-01",
-      "title": "主角龙形态｜第415源章｜1",
+      "title": "主角龙形态｜白夜.(3)｜五神爱丽丝以生命之树魔力刃近战，并首次展示血之渴望狂暴术",
       "memo": "六神祝福之旅：主角龙形态（第415源章第1条）",
       "category": "character-state",
       "keys": [
@@ -23872,7 +23872,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-415-01",
-      "title": "主角龙状态｜第415源章｜1",
+      "title": "主角龙状态｜白夜.(3)｜黄金哥布林确认死亡、别西卜暂退，残党主力魔贤者与黑暗骑士正式入场",
       "memo": "六神祝福之旅：主角龙状态（第415源章第1条）",
       "category": "character-state",
       "keys": [
@@ -23900,7 +23900,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-415-01",
-      "title": "主角龙知识边界｜第415源章｜1",
+      "title": "主角龙知识边界｜白夜.(3)｜别西卜只暂时灰飞烟灭",
       "memo": "六神祝福之旅：主角龙知识边界（第415源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -23927,7 +23927,7 @@
     },
     {
       "id": "era-19-six-gods-event-416-01",
-      "title": "事件｜第416源章｜1",
+      "title": "埃里克令芬娜库茨抢攻，魔贤者影墙与黑暗骑士黑暗剑阻止空间撤离",
       "memo": "六神祝福之旅：事件（第416源章第1条）",
       "category": "event",
       "keys": [
@@ -23957,7 +23957,7 @@
     },
     {
       "id": "era-19-six-gods-event-416-02",
-      "title": "事件｜第416源章｜2",
+      "title": "怪潮与魔贤者持续消耗装备，黑暗骑士无体力衰弱而库茨渐疲",
       "memo": "六神祝福之旅：事件（第416源章第2条）",
       "category": "event",
       "keys": [
@@ -23985,7 +23985,7 @@
     },
     {
       "id": "era-19-six-gods-event-416-03",
-      "title": "事件｜第416源章｜3",
+      "title": "库茨在海神祝福下让水之精灵进入胸膛，完成不会被夺体的完全附体，形成冰鳞盔甲与冰刃长矛",
       "memo": "六神祝福之旅：事件（第416源章第3条）",
       "category": "event",
       "keys": [
@@ -24013,7 +24013,7 @@
     },
     {
       "id": "era-19-six-gods-event-416-04",
-      "title": "事件｜第416源章｜4",
+      "title": "沙玛什神圣光束灼烧魔贤者，迫使其与首次点头表达意志的黑暗骑士撤退",
       "memo": "六神祝福之旅：事件（第416源章第4条）",
       "category": "event",
       "keys": [
@@ -24041,7 +24041,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-416-01",
-      "title": "世界设定事实｜第416源章｜1",
+      "title": "通常无萨满辅助的元素附体会让精灵夺取蜥蜴人肉体",
       "memo": "六神祝福之旅：世界设定事实（第416源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -24067,7 +24067,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-416-02",
-      "title": "世界设定事实｜第416源章｜2",
+      "title": "神圣光是操影魔贤者的天敌",
       "memo": "六神祝福之旅：世界设定事实（第416源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -24094,7 +24094,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-416-03",
-      "title": "世界设定事实｜第416源章｜3",
+      "title": "沙玛什是金发女性形象的光明、律法与正义之神，可用神圣光瞬间消灭大范围怪物",
       "memo": "六神祝福之旅：世界设定事实（第416源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -24120,7 +24120,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-416-01",
-      "title": "新建立连续性｜第416源章｜1",
+      "title": "库茨完全附体冰甲",
       "memo": "六神祝福之旅：新建立连续性（第416源章第1条）",
       "category": "continuity",
       "keys": [
@@ -24146,7 +24146,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-416-02",
-      "title": "新建立连续性｜第416源章｜2",
+      "title": "黑暗骑士首次表意",
       "memo": "六神祝福之旅：新建立连续性（第416源章第2条）",
       "category": "continuity",
       "keys": [
@@ -24172,7 +24172,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-416-03",
-      "title": "新建立连续性｜第416源章｜3",
+      "title": "沙玛什现身",
       "memo": "六神祝福之旅：新建立连续性（第416源章第3条）",
       "category": "continuity",
       "keys": [
@@ -24198,7 +24198,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-416-01",
-      "title": "未解决事项｜第416源章｜1",
+      "title": "最后祝福",
       "memo": "六神祝福之旅：未解决事项（第416源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -24223,7 +24223,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-416-02",
-      "title": "未解决事项｜第416源章｜2",
+      "title": "爱丽丝体内决战",
       "memo": "六神祝福之旅：未解决事项（第416源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -24249,7 +24249,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-416-03",
-      "title": "未解决事项｜第416源章｜3",
+      "title": "残党撤退后动向",
       "memo": "六神祝福之旅：未解决事项（第416源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -24274,7 +24274,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-416-01",
-      "title": "主角龙形态｜第416源章｜1",
+      "title": "主角龙形态｜白夜.(4)｜五神爱丽丝在战斗中用白色光束配合库茨，尚未获得沙玛什祝福",
       "memo": "六神祝福之旅：主角龙形态（第416源章第1条）",
       "category": "character-state",
       "keys": [
@@ -24303,7 +24303,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-416-01",
-      "title": "主角龙状态｜第416源章｜1",
+      "title": "主角龙状态｜白夜.(4)｜魔王军总攻被光明神介入击退，最后古神正式现身",
       "memo": "六神祝福之旅：主角龙状态（第416源章第1条）",
       "category": "character-state",
       "keys": [
@@ -24329,7 +24329,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-416-01",
-      "title": "主角龙知识边界｜第416源章｜1",
+      "title": "主角龙知识边界｜白夜.(4)｜黑暗骑士仅首次显露意志，身份仍未知",
       "memo": "六神祝福之旅：主角龙知识边界（第416源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -24357,7 +24357,7 @@
     },
     {
       "id": "era-19-six-gods-event-417-01",
-      "title": "事件｜第417源章｜1",
+      "title": "沙玛什清除残怪并把疲惫队伍瞬移到巨人村庄乌特加德休整",
       "memo": "六神祝福之旅：事件（第417源章第1条）",
       "category": "event",
       "keys": [
@@ -24383,7 +24383,7 @@
     },
     {
       "id": "era-19-six-gods-event-417-02",
-      "title": "事件｜第417源章｜2",
+      "title": "指南说明沙玛什曾教巨人组建群体，乌特加德成为首个巨人村",
       "memo": "六神祝福之旅：事件（第417源章第2条）",
       "category": "event",
       "keys": [
@@ -24409,7 +24409,7 @@
     },
     {
       "id": "era-19-six-gods-event-417-03",
-      "title": "事件｜第417源章｜3",
+      "title": "沙玛什让最后未获同伴祝福的莉莉获得光元素亲和并契约光之精灵",
       "memo": "六神祝福之旅：事件（第417源章第3条）",
       "category": "event",
       "keys": [
@@ -24437,7 +24437,7 @@
     },
     {
       "id": "era-19-six-gods-event-417-04",
-      "title": "事件｜第417源章｜4",
+      "title": "沙玛什请其他人离开，单独警告爱丽丝即将站在必须由自己决定的抉择十字路口",
       "memo": "六神祝福之旅：事件（第417源章第4条）",
       "category": "event",
       "keys": [
@@ -24464,7 +24464,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-417-01",
-      "title": "世界设定事实｜第417源章｜1",
+      "title": "乌特加德位于巨峡谷与温泉地带，是沙玛什教导下形成的最初巨人村",
       "memo": "六神祝福之旅：世界设定事实（第417源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -24490,7 +24490,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-417-02",
-      "title": "世界设定事实｜第417源章｜2",
+      "title": "巨人约普通人三倍高大，动作相对迟钝且常看不清脚下，小型访客可能被无意踢伤",
       "memo": "六神祝福之旅：世界设定事实（第417源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -24515,7 +24515,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-417-03",
-      "title": "世界设定事实｜第417源章｜3",
+      "title": "沙玛什祝福可提高光元素亲和并允许契约光精灵",
       "memo": "六神祝福之旅：世界设定事实（第417源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -24541,7 +24541,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-417-01",
-      "title": "新建立连续性｜第417源章｜1",
+      "title": "乌特加德",
       "memo": "六神祝福之旅：新建立连续性（第417源章第1条）",
       "category": "continuity",
       "keys": [
@@ -24566,7 +24566,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-417-02",
-      "title": "新建立连续性｜第417源章｜2",
+      "title": "莉莉光精灵契约",
       "memo": "六神祝福之旅：新建立连续性（第417源章第2条）",
       "category": "continuity",
       "keys": [
@@ -24592,7 +24592,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-417-03",
-      "title": "新建立连续性｜第417源章｜3",
+      "title": "爱丽丝未来抉择警告",
       "memo": "六神祝福之旅：新建立连续性（第417源章第3条）",
       "category": "continuity",
       "keys": [
@@ -24618,7 +24618,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-417-01",
-      "title": "未解决事项｜第417源章｜1",
+      "title": "沙玛什对爱丽丝祝福",
       "memo": "六神祝福之旅：未解决事项（第417源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -24645,7 +24645,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-417-02",
-      "title": "未解决事项｜第417源章｜2",
+      "title": "选择内容",
       "memo": "六神祝福之旅：未解决事项（第417源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -24670,7 +24670,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-417-03",
-      "title": "未解决事项｜第417源章｜3",
+      "title": "光精灵服从",
       "memo": "六神祝福之旅：未解决事项（第417源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -24695,7 +24695,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-417-01",
-      "title": "主角龙形态｜第417源章｜1",
+      "title": "主角龙形态｜乌特加德.(1)｜获得六神祝福前夕的人形爱丽丝，与沙玛什单独会谈",
       "memo": "六神祝福之旅：主角龙形态（第417源章第1条）",
       "category": "character-state",
       "keys": [
@@ -24722,7 +24722,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-417-01",
-      "title": "主角龙状态｜第417源章｜1",
+      "title": "主角龙状态｜乌特加德.(1)｜六名队员的古神同伴祝福由莉莉光精灵契约补齐",
       "memo": "六神祝福之旅：主角龙状态（第417源章第1条）",
       "category": "character-state",
       "keys": [
@@ -24749,7 +24749,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-417-01",
-      "title": "主角龙知识边界｜第417源章｜1",
+      "title": "主角龙知识边界｜乌特加德.(1)｜沙玛什明确不是预言神，也未说明选择内容",
       "memo": "六神祝福之旅：主角龙知识边界（第417源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -24775,7 +24775,7 @@
     },
     {
       "id": "era-19-six-gods-event-418-01",
-      "title": "事件｜第418源章｜1",
+      "title": "沙玛什拒绝透露选择，强调只能由爱丽丝本人决定",
       "memo": "六神祝福之旅：事件（第418源章第1条）",
       "category": "event",
       "keys": [
@@ -24803,7 +24803,7 @@
     },
     {
       "id": "era-19-six-gods-event-418-02",
-      "title": "事件｜第418源章｜2",
+      "title": "六神祝福完成后爱丽丝从胸口拔出英雄之剑，确认肉体争夺已结束并把剑还埃里克",
       "memo": "六神祝福之旅：事件（第418源章第2条）",
       "category": "event",
       "keys": [
@@ -24830,7 +24830,7 @@
     },
     {
       "id": "era-19-six-gods-event-418-03",
-      "title": "事件｜第418源章｜3",
+      "title": "沙玛什说明魔王本体仍潜伏，可能在爱丽丝死后复活",
       "memo": "六神祝福之旅：事件（第418源章第3条）",
       "category": "event",
       "keys": [
@@ -24858,7 +24858,7 @@
     },
     {
       "id": "era-19-six-gods-event-418-04",
-      "title": "事件｜第418源章｜4",
+      "title": "恢复完整力量的爱丽丝判断残党重创且四天王半数无法战斗，主张趁机攻入魔王城彻底终结孽缘",
       "memo": "六神祝福之旅：事件（第418源章第4条）",
       "category": "event",
       "keys": [
@@ -24886,7 +24886,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-418-01",
-      "title": "世界设定事实｜第418源章｜1",
+      "title": "六神祝福使爱丽丝赢得肉体争夺并拔出体内英雄之剑",
       "memo": "六神祝福之旅：世界设定事实（第418源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -24913,7 +24913,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-418-02",
-      "title": "世界设定事实｜第418源章｜2",
+      "title": "肉体争夺结束不等于魔王消灭",
       "memo": "六神祝福之旅：世界设定事实（第418源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -24941,7 +24941,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-418-03",
-      "title": "世界设定事实｜第418源章｜3",
+      "title": "封印计划须进入魔王城",
       "memo": "六神祝福之旅：世界设定事实（第418源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -24969,7 +24969,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-418-01",
-      "title": "新建立连续性｜第418源章｜1",
+      "title": "英雄之剑归还",
       "memo": "六神祝福之旅：新建立连续性（第418源章第1条）",
       "category": "continuity",
       "keys": [
@@ -24994,7 +24994,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-418-02",
-      "title": "新建立连续性｜第418源章｜2",
+      "title": "六神全盛爱丽丝",
       "memo": "六神祝福之旅：新建立连续性（第418源章第2条）",
       "category": "continuity",
       "keys": [
@@ -25020,7 +25020,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-418-03",
-      "title": "新建立连续性｜第418源章｜3",
+      "title": "魔王城封印计划",
       "memo": "六神祝福之旅：新建立连续性（第418源章第3条）",
       "category": "continuity",
       "keys": [
@@ -25046,7 +25046,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-418-01",
-      "title": "未解决事项｜第418源章｜1",
+      "title": "魔王本体封印",
       "memo": "六神祝福之旅：未解决事项（第418源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -25072,7 +25072,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-418-02",
-      "title": "未解决事项｜第418源章｜2",
+      "title": "个人选择",
       "memo": "六神祝福之旅：未解决事项（第418源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -25097,7 +25097,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-418-03",
-      "title": "未解决事项｜第418源章｜3",
+      "title": "魔王城攻坚",
       "memo": "六神祝福之旅：未解决事项（第418源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -25123,7 +25123,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-418-01",
-      "title": "主角龙形态｜第418源章｜1",
+      "title": "主角龙形态｜乌特加德.(2)｜六神祝福完成的全盛人形爱丽丝，可拔出英雄之剑并运转完整魔力",
       "memo": "六神祝福之旅：主角龙形态（第418源章第1条）",
       "category": "character-state",
       "keys": [
@@ -25149,7 +25149,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-418-01",
-      "title": "主角龙状态｜第418源章｜1",
+      "title": "主角龙状态｜乌特加德.(2)｜肉体控制已获胜但魔王仍潜伏",
       "memo": "六神祝福之旅：主角龙状态（第418源章第1条）",
       "category": "character-state",
       "keys": [
@@ -25176,7 +25176,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-418-01",
-      "title": "主角龙知识边界｜第418源章｜1",
+      "title": "主角龙知识边界｜乌特加德.(2)｜六神祝福只证明争夺结束，未证明魔王消失",
       "memo": "六神祝福之旅：主角龙知识边界（第418源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -25203,7 +25203,7 @@
     },
     {
       "id": "era-19-six-gods-event-419-01",
-      "title": "事件｜第419源章｜1",
+      "title": "队伍在巨人尺度市场艰难补充弓弦、短剑和修装工具，普通人用品稀少且昂贵",
       "memo": "六神祝福之旅：事件（第419源章第1条）",
       "category": "event",
       "keys": [
@@ -25228,7 +25228,7 @@
     },
     {
       "id": "era-19-six-gods-event-419-02",
-      "title": "事件｜第419源章｜2",
+      "title": "生命教团在巨人社会因伤病、登记、教育需求低而势弱",
       "memo": "六神祝福之旅：事件（第419源章第2条）",
       "category": "event",
       "keys": [
@@ -25254,7 +25254,7 @@
     },
     {
       "id": "era-19-six-gods-event-419-03",
-      "title": "事件｜第419源章｜3",
+      "title": "后世发火石开发使乌特加德获投资扩建：其类似高魔煤炭，需魔力点燃、可长燃并调火",
       "memo": "六神祝福之旅：事件（第419源章第3条）",
       "category": "event",
       "keys": [
@@ -25279,7 +25279,7 @@
     },
     {
       "id": "era-19-six-gods-event-419-04",
-      "title": "事件｜第419源章｜4",
+      "title": "残党强敌均在死亡或恢复中且爱丽丝完整复原，队伍数日抵达魔王城，沿路无有效阻拦",
       "memo": "六神祝福之旅：事件（第419源章第4条）",
       "category": "event",
       "keys": [
@@ -25306,7 +25306,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-419-01",
-      "title": "世界设定事实｜第419源章｜1",
+      "title": "乌特加德商品按巨人尺度制造，普通人装备极少且常数倍溢价",
       "memo": "六神祝福之旅：世界设定事实（第419源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -25331,7 +25331,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-419-02",
-      "title": "世界设定事实｜第419源章｜2",
+      "title": "巨人强健、分散、少登记且拒绝教育，使生命教团影响微弱",
       "memo": "六神祝福之旅：世界设定事实（第419源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -25356,7 +25356,7 @@
     },
     {
       "id": "era-19-six-gods-world-fact-419-03",
-      "title": "世界设定事实｜第419源章｜3",
+      "title": "发火石是地底魔力与高温形成的类似煤炭物，需魔力点燃，长燃且可调火",
       "memo": "六神祝福之旅：世界设定事实（第419源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -25381,7 +25381,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-419-01",
-      "title": "新建立连续性｜第419源章｜1",
+      "title": "乌特加德发火石后世",
       "memo": "六神祝福之旅：新建立连续性（第419源章第1条）",
       "category": "continuity",
       "keys": [
@@ -25406,7 +25406,7 @@
     },
     {
       "id": "era-19-six-gods-continuity-new-419-02",
-      "title": "新建立连续性｜第419源章｜2",
+      "title": "攻城补给完成",
       "memo": "六神祝福之旅：新建立连续性（第419源章第2条）",
       "category": "continuity",
       "keys": [
@@ -25431,7 +25431,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-419-01",
-      "title": "未解决事项｜第419源章｜1",
+      "title": "魔王城内部",
       "memo": "六神祝福之旅：未解决事项（第419源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -25457,7 +25457,7 @@
     },
     {
       "id": "era-19-six-gods-unresolved-419-02",
-      "title": "未解决事项｜第419源章｜2",
+      "title": "封印实施",
       "memo": "六神祝福之旅：未解决事项（第419源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -25482,7 +25482,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-form-419-01",
-      "title": "主角龙形态｜第419源章｜1",
+      "title": "主角龙形态｜乌特加德.(3)｜完整恢复的爱丽丝随队出发，叙述明确其足以粉碎挡路的魔贤者或黑暗骑士",
       "memo": "六神祝福之旅：主角龙形态（第419源章第1条）",
       "category": "character-state",
       "keys": [
@@ -25510,7 +25510,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-state-419-01",
-      "title": "主角龙状态｜第419源章｜1",
+      "title": "主角龙状态｜乌特加德.(3)｜队伍补给完成并抵达魔王城外围，残党无法再有效阻截",
       "memo": "六神祝福之旅：主角龙状态（第419源章第1条）",
       "category": "character-state",
       "keys": [
@@ -25536,7 +25536,7 @@
     },
     {
       "id": "era-19-six-gods-protagonist-knowledge-419-01",
-      "title": "主角龙知识边界｜第419源章｜1",
+      "title": "主角龙知识边界｜乌特加德.(3)｜沿路无阻拦是基于敌方伤亡与爱丽丝威慑的推断",
       "memo": "六神祝福之旅：主角龙知识边界（第419源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -25563,7 +25563,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-01",
-      "title": "次要人物｜萨加玛塔",
+      "title": "萨加玛塔",
       "memo": "六神祝福之旅：次要人物 萨加玛塔",
       "category": "secondary-character",
       "keys": [
@@ -25595,7 +25595,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-02",
-      "title": "次要人物｜希尔芙",
+      "title": "希尔芙",
       "memo": "六神祝福之旅：次要人物 希尔芙",
       "category": "secondary-character",
       "keys": [
@@ -25627,7 +25627,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-03",
-      "title": "次要人物｜魔贤者",
+      "title": "魔贤者",
       "memo": "六神祝福之旅：次要人物 魔贤者",
       "category": "secondary-character",
       "keys": [
@@ -25665,7 +25665,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-04",
-      "title": "次要人物｜伊芙利特",
+      "title": "伊芙利特",
       "memo": "六神祝福之旅：次要人物 伊芙利特",
       "category": "secondary-character",
       "keys": [
@@ -25691,7 +25691,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-05",
-      "title": "次要人物｜格隆达尔",
+      "title": "格隆达尔",
       "memo": "六神祝福之旅：次要人物 格隆达尔",
       "category": "secondary-character",
       "keys": [
@@ -25729,7 +25729,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-06",
-      "title": "次要人物｜艾尔丁",
+      "title": "艾尔丁",
       "memo": "六神祝福之旅：次要人物 艾尔丁",
       "category": "secondary-character",
       "keys": [
@@ -25761,7 +25761,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-07",
-      "title": "次要人物｜黄金哥布林",
+      "title": "黄金哥布林",
       "memo": "六神祝福之旅：次要人物 黄金哥布林",
       "category": "secondary-character",
       "keys": [
@@ -25787,7 +25787,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-08",
-      "title": "次要人物｜伊格德拉希尔／世界树",
+      "title": "伊格德拉希尔／世界树",
       "memo": "六神祝福之旅：次要人物 伊格德拉希尔／世界树",
       "category": "secondary-character",
       "keys": [
@@ -25819,7 +25819,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-09",
-      "title": "次要人物｜艾洛伊德",
+      "title": "艾洛伊德",
       "memo": "六神祝福之旅：次要人物 艾洛伊德",
       "category": "secondary-character",
       "keys": [
@@ -25845,7 +25845,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-10",
-      "title": "次要人物｜光之精灵",
+      "title": "光之精灵",
       "memo": "六神祝福之旅：次要人物 光之精灵",
       "category": "secondary-character",
       "keys": [
@@ -25871,7 +25871,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-11",
-      "title": "次要人物｜加拉德瑞尔／世界树",
+      "title": "加拉德瑞尔／世界树",
       "memo": "六神祝福之旅：次要人物 加拉德瑞尔／世界树",
       "category": "secondary-character",
       "keys": [
@@ -25897,7 +25897,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-12",
-      "title": "次要人物｜死亡支配者",
+      "title": "死亡支配者",
       "memo": "六神祝福之旅：次要人物 死亡支配者",
       "category": "secondary-character",
       "keys": [
@@ -25923,7 +25923,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-13",
-      "title": "次要人物｜童话中的大鱼",
+      "title": "童话中的大鱼",
       "memo": "六神祝福之旅：次要人物 童话中的大鱼",
       "category": "secondary-character",
       "keys": [
@@ -25949,7 +25949,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-14",
-      "title": "次要人物｜童话中的懒惰渔夫",
+      "title": "童话中的懒惰渔夫",
       "memo": "六神祝福之旅：次要人物 童话中的懒惰渔夫",
       "category": "secondary-character",
       "keys": [
@@ -25975,7 +25975,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-15",
-      "title": "次要人物｜小人鱼",
+      "title": "小人鱼",
       "memo": "六神祝福之旅：次要人物 小人鱼",
       "category": "secondary-character",
       "keys": [
@@ -26001,7 +26001,7 @@
     },
     {
       "id": "era-19-six-gods-secondary-character-16",
-      "title": "次要人物｜寻海螺老人",
+      "title": "寻海螺老人",
       "memo": "六神祝福之旅：次要人物 寻海螺老人",
       "category": "secondary-character",
       "keys": [

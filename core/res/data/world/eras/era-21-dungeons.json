@@ -2139,7 +2139,7 @@
   "lorebook": [
     {
       "id": "era-21-dungeons-core",
-      "title": "黑暗骑士与地下城时代｜时代边界",
+      "title": "黑暗骑士与地下城时代",
       "memo": "黑暗骑士与地下城时代：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -2154,7 +2154,7 @@
     },
     {
       "id": "era-21-dungeons-event-440-01",
-      "title": "事件｜第440源章｜1",
+      "title": "禁书史料把厄瑞玻斯列为诞生于深邃黑暗、被隐匿姓名的另一位古代神",
       "memo": "黑暗骑士与地下城时代：事件（第440源章第1条）",
       "category": "event",
       "keys": [
@@ -2180,7 +2180,7 @@
     },
     {
       "id": "era-21-dungeons-event-440-02",
-      "title": "事件｜第440源章｜2",
+      "title": "蒂雅凭黑暗骑士逃避自己确认厄瑞玻斯意识残存，但直接呼名无反应",
       "memo": "黑暗骑士与地下城时代：事件（第440源章第2条）",
       "category": "event",
       "keys": [
@@ -2208,7 +2208,7 @@
     },
     {
       "id": "era-21-dungeons-event-440-03",
-      "title": "事件｜第440源章｜3",
+      "title": "黑暗骑士能响应自身称呼",
       "memo": "黑暗骑士与地下城时代：事件（第440源章第3条）",
       "category": "event",
       "keys": [
@@ -2237,7 +2237,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-440-01",
-      "title": "世界设定事实｜第440源章｜1",
+      "title": "古代神通常列光、火、海、高山、风与苍翠树木六位",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第440源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2263,7 +2263,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-440-02",
-      "title": "世界设定事实｜第440源章｜2",
+      "title": "厄瑞玻斯逃亡时破坏蒂雅下巴一片鳞，蒂雅故意不修复以保留怨气",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第440源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2290,7 +2290,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-440-03",
-      "title": "世界设定事实｜第440源章｜3",
+      "title": "皇帝灵魂移除导致龙骨与黑暗碎片间失衡是蒂雅的推测",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第440源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -2318,7 +2318,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-440-04",
-      "title": "世界设定事实｜第440源章｜4",
+      "title": "姓名被视为独立存在与自我认知根基",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第440源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -2345,7 +2345,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-440-01",
-      "title": "新建立连续性｜第440源章｜1",
+      "title": "禁书厄瑞玻斯",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第440源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2371,7 +2371,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-440-02",
-      "title": "新建立连续性｜第440源章｜2",
+      "title": "蒂雅逆鳞伤痕",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第440源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2397,7 +2397,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-440-03",
-      "title": "新建立连续性｜第440源章｜3",
+      "title": "齐格弗里德命名",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第440源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2423,7 +2423,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-440-04",
-      "title": "新建立连续性｜第440源章｜4",
+      "title": "赋魂交易",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第440源章第4条）",
       "category": "continuity",
       "keys": [
@@ -2448,7 +2448,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-440-05",
-      "title": "新建立连续性｜第440源章｜5",
+      "title": "自动狩猎装置职责",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第440源章第5条）",
       "category": "continuity",
       "keys": [
@@ -2473,7 +2473,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-440-01",
-      "title": "未解决事项｜第440源章｜1",
+      "title": "厄瑞玻斯完整记忆人格所在",
       "memo": "黑暗骑士与地下城时代：未解决事项（第440源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2499,7 +2499,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-440-02",
-      "title": "未解决事项｜第440源章｜2",
+      "title": "齐格弗里德赋魂步骤",
       "memo": "黑暗骑士与地下城时代：未解决事项（第440源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2525,7 +2525,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-440-03",
-      "title": "未解决事项｜第440源章｜3",
+      "title": "狩猎目标范围",
       "memo": "黑暗骑士与地下城时代：未解决事项（第440源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -2550,7 +2550,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-440-01",
-      "title": "主角龙形态｜第440源章｜1",
+      "title": "主角龙形态｜黑暗骑士.(1)｜蒂雅为人形守护龙，回忆银龙下巴缺失一片鳞的逆鳞特征",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第440源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2577,7 +2577,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-440-01",
-      "title": "主角龙状态｜第440源章｜1",
+      "title": "主角龙状态｜黑暗骑士.(1)｜守护龙与黑暗骑士达成赋予自我、协助抓捕厄瑞玻斯的交换，命名齐格弗里德",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第440源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2605,7 +2605,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-440-01",
-      "title": "主角龙知识边界｜第440源章｜1",
+      "title": "主角龙知识边界｜黑暗骑士.(1)｜齐格弗里德尚未完成赋魂和身体调整",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第440源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2633,7 +2633,7 @@
     },
     {
       "id": "era-21-dungeons-event-441-01",
-      "title": "事件｜第441源章｜1",
+      "title": "蒂雅定义齐格弗里德的自动狩猎职责，在精英怪物中搜集疑似由地底进入体内的黑暗碎片",
       "memo": "黑暗骑士与地下城时代：事件（第441源章第1条）",
       "category": "event",
       "keys": [
@@ -2660,7 +2660,7 @@
     },
     {
       "id": "era-21-dungeons-event-441-02",
-      "title": "事件｜第441源章｜2",
+      "title": "魔贤者要求齐格弗里德兼任亚种怪物检验与DP定价，按能力、原种差异等记录权重",
       "memo": "黑暗骑士与地下城时代：事件（第441源章第2条）",
       "category": "event",
       "keys": [
@@ -2689,7 +2689,7 @@
     },
     {
       "id": "era-21-dungeons-event-441-03",
-      "title": "事件｜第441源章｜3",
+      "title": "失格神城主招募顺利，但冒险者追踪激增怪物发现并破坏地下城",
       "memo": "黑暗骑士与地下城时代：事件（第441源章第3条）",
       "category": "event",
       "keys": [
@@ -2716,7 +2716,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-441-01",
-      "title": "世界设定事实｜第441源章｜1",
+      "title": "精英怪物通常体内有黑暗碎片，碎片来自地底并导致变异只是蒂雅当前推测",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第441源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2742,7 +2742,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-441-02",
-      "title": "世界设定事实｜第441源章｜2",
+      "title": "亚种怪物DP价值需区别原种，可按皮革、抗性等能力变化加权",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第441源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2768,7 +2768,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-441-03",
-      "title": "世界设定事实｜第441源章｜3",
+      "title": "怪物异常增多使冒险者找到地下城并造成损失，德莫尼卡最初没有成熟的冒险者应对制度",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第441源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -2793,7 +2793,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-441-01",
-      "title": "新建立连续性｜第441源章｜1",
+      "title": "自动狩猎功能",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第441源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2818,7 +2818,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-441-02",
-      "title": "新建立连续性｜第441源章｜2",
+      "title": "亚种DP定价功能",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第441源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2843,7 +2843,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-441-03",
-      "title": "新建立连续性｜第441源章｜3",
+      "title": "冒险者发现地下城",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第441源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2868,7 +2868,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-441-01",
-      "title": "未解决事项｜第441源章｜1",
+      "title": "齐格弗里德人格形成",
       "memo": "黑暗骑士与地下城时代：未解决事项（第441源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2894,7 +2894,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-441-02",
-      "title": "未解决事项｜第441源章｜2",
+      "title": "地下城冒险者制度",
       "memo": "黑暗骑士与地下城时代：未解决事项（第441源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2919,7 +2919,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-441-01",
-      "title": "主角龙形态｜第441源章｜1",
+      "title": "主角龙形态｜黑暗骑士.(2)｜蒂雅为人形守护龙／生命女神，亲自改造齐格弗里德",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第441源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2947,7 +2947,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-441-01",
-      "title": "主角龙状态｜第441源章｜1",
+      "title": "主角龙状态｜黑暗骑士.(2)｜守护龙把厄瑞玻斯追踪嵌入地下城生态与定价系统",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第441源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2973,7 +2973,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-441-01",
-      "title": "主角龙知识边界｜第441源章｜1",
+      "title": "主角龙知识边界｜黑暗骑士.(2)｜黑暗碎片从地底进入怪物是蒂雅未证实推测",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第441源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3000,7 +3000,7 @@
     },
     {
       "id": "era-21-dungeons-event-442-01",
-      "title": "事件｜第442源章｜1",
+      "title": "齐格弗里德获得独立存在、自动修复与防黑暗暴走准备",
       "memo": "黑暗骑士与地下城时代：事件（第442源章第1条）",
       "category": "event",
       "keys": [
@@ -3028,7 +3028,7 @@
     },
     {
       "id": "era-21-dungeons-event-442-02",
-      "title": "事件｜第442源章｜2",
+      "title": "蒂雅说明厄瑞玻斯是惹祸叛逃的孩子",
       "memo": "黑暗骑士与地下城时代：事件（第442源章第2条）",
       "category": "event",
       "keys": [
@@ -3057,7 +3057,7 @@
     },
     {
       "id": "era-21-dungeons-event-442-03",
-      "title": "事件｜第442源章｜3",
+      "title": "齐格弗里德成为兼具黑暗骑士与死亡骑士能力、具初生自我的个体，并完成亚种估值功能",
       "memo": "黑暗骑士与地下城时代：事件（第442源章第3条）",
       "category": "event",
       "keys": [
@@ -3085,7 +3085,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-442-01",
-      "title": "世界设定事实｜第442源章｜1",
+      "title": "尼克斯神殿以单人床房供人安睡，睡眠被视作献给夜神的祈祷，因此信徒少仍有强信仰",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第442源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3111,7 +3111,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-442-02",
-      "title": "世界设定事实｜第442源章｜2",
+      "title": "尼克斯在巴尔解决沙玛什难题时诞生",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第442源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3140,7 +3140,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-442-03",
-      "title": "世界设定事实｜第442源章｜3",
+      "title": "齐格弗里德内部被彻底重构，可运用龙骨死亡气息，成为黑暗／死亡骑士",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第442源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3166,7 +3166,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-442-01",
-      "title": "新建立连续性｜第442源章｜1",
+      "title": "尼克斯睡眠祈祷",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第442源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3192,7 +3192,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-442-02",
-      "title": "新建立连续性｜第442源章｜2",
+      "title": "黑暗死亡骑士齐格弗里德",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第442源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3218,7 +3218,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-442-03",
-      "title": "新建立连续性｜第442源章｜3",
+      "title": "备用黑暗控制",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第442源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3243,7 +3243,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-442-04",
-      "title": "新建立连续性｜第442源章｜4",
+      "title": "初生人工人格",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第442源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3268,7 +3268,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-442-01",
-      "title": "未解决事项｜第442源章｜1",
+      "title": "齐格弗里德长期人格",
       "memo": "黑暗骑士与地下城时代：未解决事项（第442源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3294,7 +3294,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-442-02",
-      "title": "未解决事项｜第442源章｜2",
+      "title": "德莫尼卡缺员原因",
       "memo": "黑暗骑士与地下城时代：未解决事项（第442源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3319,7 +3319,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-442-01",
-      "title": "主角龙形态｜第442源章｜1",
+      "title": "主角龙形态｜暗黑骑士.(3)｜蒂雅为人形守护龙，与黑夜女神共同重构齐格弗里德",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第442源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3347,7 +3347,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-442-01",
-      "title": "主角龙状态｜第442源章｜1",
+      "title": "主角龙状态｜暗黑骑士.(3)｜守护龙完成齐格弗里德人格与功能创造，建立尼克斯备用约束",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第442源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3374,7 +3374,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-442-01",
-      "title": "主角龙知识边界｜第442源章｜1",
+      "title": "主角龙知识边界｜暗黑骑士.(3)｜蒂雅再次做人间龙巫女只是可能性、尚未决定",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第442源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3400,7 +3400,7 @@
     },
     {
       "id": "era-21-dungeons-event-443-01",
-      "title": "事件｜第443源章｜1",
+      "title": "冒险者闯地下城猎杀培育怪物并引发城主抱怨",
       "memo": "黑暗骑士与地下城时代：事件（第443源章第1条）",
       "category": "event",
       "keys": [
@@ -3426,7 +3426,7 @@
     },
     {
       "id": "era-21-dungeons-event-443-02",
-      "title": "事件｜第443源章｜2",
+      "title": "地下城可用怪物与陷阱击退冒险者，按冒险者强度获得DP",
       "memo": "黑暗骑士与地下城时代：事件（第443源章第2条）",
       "category": "event",
       "keys": [
@@ -3451,7 +3451,7 @@
     },
     {
       "id": "era-21-dungeons-event-443-03",
-      "title": "事件｜第443源章｜3",
+      "title": "蒂雅将制度视作可迭代测试，允许城主选择全力塔防或入口陷阱牧场",
       "memo": "黑暗骑士与地下城时代：事件（第443源章第3条）",
       "category": "event",
       "keys": [
@@ -3478,7 +3478,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-443-01",
-      "title": "世界设定事实｜第443源章｜1",
+      "title": "城主可用怪物和陷阱击退冒险者",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第443源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3503,7 +3503,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-443-02",
-      "title": "世界设定事实｜第443源章｜2",
+      "title": "地下城保险通常赔付冒险者造成损失的一半",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第443源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3528,7 +3528,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-443-03",
-      "title": "世界设定事实｜第443源章｜3",
+      "title": "冒险家公会与生命教团已有治疗联系和折扣，蒂雅意图降低冒险者死亡",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第443源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3554,7 +3554,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-443-04",
-      "title": "世界设定事实｜第443源章｜4",
+      "title": "史莱姆与哥布林作为免费基础怪物：史莱姆清洁，哥布林做杂务和基础防御",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第443源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -3579,7 +3579,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-443-01",
-      "title": "新建立连续性｜第443源章｜1",
+      "title": "地下城冒险者奖励",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第443源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3604,7 +3604,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-443-02",
-      "title": "新建立连续性｜第443源章｜2",
+      "title": "半额保险",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第443源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3629,7 +3629,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-443-03",
-      "title": "新建立连续性｜第443源章｜3",
+      "title": "活驱优先",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第443源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3654,7 +3654,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-443-04",
-      "title": "新建立连续性｜第443源章｜4",
+      "title": "免费基础怪物",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第443源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3679,7 +3679,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-443-01",
-      "title": "未解决事项｜第443源章｜1",
+      "title": "试运行结果",
       "memo": "黑暗骑士与地下城时代：未解决事项（第443源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3704,7 +3704,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-443-02",
-      "title": "未解决事项｜第443源章｜2",
+      "title": "保险覆盖缺口",
       "memo": "黑暗骑士与地下城时代：未解决事项（第443源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3729,7 +3729,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-443-01",
-      "title": "主角龙形态｜第443源章｜1",
+      "title": "主角龙形态｜地下城与冒险者.(1)｜蒂雅以人形守护龙／生命女神制定地下城冒险规则",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第443源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3756,7 +3756,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-443-01",
-      "title": "主角龙状态｜第443源章｜1",
+      "title": "主角龙状态｜地下城与冒险者.(1)｜守护龙把冒险者从系统外损害转为可计价的地下城挑战者",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第443源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3781,7 +3781,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-443-01",
-      "title": "主角龙知识边界｜第443源章｜1",
+      "title": "主角龙知识边界｜地下城与冒险者.(1)｜制度并不保证零死亡或零破产",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第443源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3806,7 +3806,7 @@
     },
     {
       "id": "era-21-dungeons-event-444-01",
-      "title": "事件｜第444源章｜1",
+      "title": "击退冒险者的循环减少城主抱怨，但未投保地下城被强者打破后只能重养基础怪",
       "memo": "黑暗骑士与地下城时代：事件（第444源章第1条）",
       "category": "event",
       "keys": [
@@ -3832,7 +3832,7 @@
     },
     {
       "id": "era-21-dungeons-event-444-02",
-      "title": "事件｜第444源章｜2",
+      "title": "冒险者拾取遗物后口碑引来更多人，蒂雅提出用物品作为诱饵",
       "memo": "黑暗骑士与地下城时代：事件（第444源章第2条）",
       "category": "event",
       "keys": [
@@ -3858,7 +3858,7 @@
     },
     {
       "id": "era-21-dungeons-event-444-03",
-      "title": "事件｜第444源章｜3",
+      "title": "德莫尼卡开始售卖宝箱用武器、防具和消耗品",
       "memo": "黑暗骑士与地下城时代：事件（第444源章第3条）",
       "category": "event",
       "keys": [
@@ -3884,7 +3884,7 @@
     },
     {
       "id": "era-21-dungeons-event-444-04",
-      "title": "事件｜第444源章｜4",
+      "title": "蒂雅又设计地下城以手巧哥布林生产低品质货，用宝箱品质调节冒险者流量",
       "memo": "黑暗骑士与地下城时代：事件（第444源章第4条）",
       "category": "event",
       "keys": [
@@ -3910,7 +3910,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-444-01",
-      "title": "世界设定事实｜第444源章｜1",
+      "title": "未投保城主无赔偿",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第444源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3935,7 +3935,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-444-02",
-      "title": "世界设定事实｜第444源章｜2",
+      "title": "地下城遗落物与宝箱会通过口碑增加冒险者来访，可用奖励品质吸引相应风险",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第444源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3960,7 +3960,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-444-03",
-      "title": "世界设定事实｜第444源章｜3",
+      "title": "魔族商会带能隐藏身份的纹章，生命教团已被告知",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第444源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3986,7 +3986,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-444-04",
-      "title": "世界设定事实｜第444源章｜4",
+      "title": "地下城可用哥布林造低品质货，商会采购高品质货",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第444源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4011,7 +4011,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-444-01",
-      "title": "新建立连续性｜第444源章｜1",
+      "title": "强制最低保险",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第444源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4036,7 +4036,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-444-02",
-      "title": "新建立连续性｜第444源章｜2",
+      "title": "宝箱诱饵",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第444源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4061,7 +4061,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-444-03",
-      "title": "新建立连续性｜第444源章｜3",
+      "title": "魔族商会",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第444源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4086,7 +4086,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-444-04",
-      "title": "新建立连续性｜第444源章｜4",
+      "title": "地下城商品生产",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第444源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4111,7 +4111,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-444-05",
-      "title": "新建立连续性｜第444源章｜5",
+      "title": "德莫尼卡交易垄断",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第444源章第5条）",
       "category": "continuity",
       "keys": [
@@ -4136,7 +4136,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-444-01",
-      "title": "未解决事项｜第444源章｜1",
+      "title": "制度副作用",
       "memo": "黑暗骑士与地下城时代：未解决事项（第444源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4161,7 +4161,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-444-02",
-      "title": "未解决事项｜第444源章｜2",
+      "title": "长期制造人手",
       "memo": "黑暗骑士与地下城时代：未解决事项（第444源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4186,7 +4186,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-444-03",
-      "title": "未解决事项｜第444源章｜3",
+      "title": "具体费率",
       "memo": "黑暗骑士与地下城时代：未解决事项（第444源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4211,7 +4211,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-444-01",
-      "title": "主角龙形态｜第444源章｜1",
+      "title": "主角龙形态｜地下城与冒险者.(2)｜蒂雅以人形守护龙／生命女神亲自用魔力制造初期装备",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第444源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4238,7 +4238,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-444-01",
-      "title": "主角龙状态｜第444源章｜1",
+      "title": "主角龙状态｜地下城与冒险者.(2)｜守护龙把地下城体系扩展为保险、诱饵、商会、生产与垄断市场",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第444源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4263,7 +4263,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-444-01",
-      "title": "主角龙知识边界｜第444源章｜1",
+      "title": "主角龙知识边界｜地下城与冒险者.(2)｜保险费率、商品产能和流量调节仍在迭代",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第444源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4289,7 +4289,7 @@
     },
     {
       "id": "era-21-dungeons-event-445-01",
-      "title": "事件｜第445源章｜1",
+      "title": "参加过魔王战争的中年B级冒险者亚瑟厌恶年轻人把地下城当安全刷怪福利",
       "memo": "黑暗骑士与地下城时代：事件（第445源章第1条）",
       "category": "event",
       "keys": [
@@ -4316,7 +4316,7 @@
     },
     {
       "id": "era-21-dungeons-event-445-02",
-      "title": "事件｜第445源章｜2",
+      "title": "怪物在魔王战争中锐减，地下城于各类地貌出现并让部分怪物外逃野化，从而维持冒险者生计",
       "memo": "黑暗骑士与地下城时代：事件（第445源章第2条）",
       "category": "event",
       "keys": [
@@ -4342,7 +4342,7 @@
     },
     {
       "id": "era-21-dungeons-event-445-03",
-      "title": "事件｜第445源章｜3",
+      "title": "公会为首次登记地下城的亚瑟说明多种地下城环境与怪物分类，介绍巴尔格，卢卡尔科尔",
       "memo": "黑暗骑士与地下城时代：事件（第445源章第3条）",
       "category": "event",
       "keys": [
@@ -4369,7 +4369,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-445-01",
-      "title": "世界设定事实｜第445源章｜1",
+      "title": "魔王战争令野外怪物与冒险者人口一同锐减",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第445源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4395,7 +4395,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-445-02",
-      "title": "世界设定事实｜第445源章｜2",
+      "title": "地下城可为洞穴、森林、建筑、水下等环境，入口外观通常能大致提示内部环境",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第445源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4420,7 +4420,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-445-03",
-      "title": "世界设定事实｜第445源章｜3",
+      "title": "巴尔格为狼型总类",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第445源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4446,7 +4446,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-445-01",
-      "title": "新建立连续性｜第445源章｜1",
+      "title": "老兵亚瑟",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第445源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4472,7 +4472,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-445-02",
-      "title": "新建立连续性｜第445源章｜2",
+      "title": "公会地下城登记",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第445源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4497,7 +4497,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-445-03",
-      "title": "新建立连续性｜第445源章｜3",
+      "title": "怪物分类普及",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第445源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4522,7 +4522,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-445-01",
-      "title": "未解决事项｜第445源章｜1",
+      "title": "亚瑟首次入城",
       "memo": "黑暗骑士与地下城时代：未解决事项（第445源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4548,7 +4548,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-445-02",
-      "title": "未解决事项｜第445源章｜2",
+      "title": "地下城真实危险",
       "memo": "黑暗骑士与地下城时代：未解决事项（第445源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4573,7 +4573,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-445-01",
-      "title": "主角龙形态｜第445源章｜1",
+      "title": "主角龙形态｜地下城与冒险者.(3)｜蒂雅／守护龙不直接出场",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第445源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4602,7 +4602,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-445-01",
-      "title": "主角龙状态｜第445源章｜1",
+      "title": "主角龙状态｜地下城与冒险者.(3)｜守护龙所建地下城开始从普通冒险者视角塑造战后社会",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第445源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4627,7 +4627,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-445-01",
-      "title": "主角龙知识边界｜第445源章｜1",
+      "title": "主角龙知识边界｜地下城与冒险者.(3)｜民间关于魔王复活种子、生命女神帮助冒险者等均是猜测",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第445源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4654,7 +4654,7 @@
     },
     {
       "id": "era-21-dungeons-event-446-01",
-      "title": "事件｜第446源章｜1",
+      "title": "公会劝独行亚瑟不要单人进高密度地下城，并为他匹配临时队伍以提高存活率与培养新人",
       "memo": "黑暗骑士与地下城时代：事件（第446源章第1条）",
       "category": "event",
       "keys": [
@@ -4680,7 +4680,7 @@
     },
     {
       "id": "era-21-dungeons-event-446-02",
-      "title": "事件｜第446源章｜2",
+      "title": "亚瑟与詹姆斯、安娜、法师卢克组队",
       "memo": "黑暗骑士与地下城时代：事件（第446源章第2条）",
       "category": "event",
       "keys": [
@@ -4707,7 +4707,7 @@
     },
     {
       "id": "era-21-dungeons-event-446-03",
-      "title": "事件｜第446源章｜3",
+      "title": "队伍进入洞穴地下城，亚瑟发现怪物数量异常偏少，凭老兵直觉决定立即撤退",
       "memo": "黑暗骑士与地下城时代：事件（第446源章第3条）",
       "category": "event",
       "keys": [
@@ -4734,7 +4734,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-446-01",
-      "title": "世界设定事实｜第446源章｜1",
+      "title": "地下城怪物密度高且常成群，公会原则建议组队",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第446源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4759,7 +4759,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-446-02",
-      "title": "世界设定事实｜第446源章｜2",
+      "title": "临时队伍成员为老兵亚瑟、詹姆斯、弓手安娜、法师卢克",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第446源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4786,7 +4786,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-446-03",
-      "title": "世界设定事实｜第446源章｜3",
+      "title": "该洞穴潮湿、苔藓湿滑，内有哥布林、史莱姆、玛塔戈特与巴尔格",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第446源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4813,7 +4813,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-446-01",
-      "title": "新建立连续性｜第446源章｜1",
+      "title": "亚瑟临时四人队",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第446源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4839,7 +4839,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-446-02",
-      "title": "新建立连续性｜第446源章｜2",
+      "title": "公会配队",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第446源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4864,7 +4864,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-446-03",
-      "title": "新建立连续性｜第446源章｜3",
+      "title": "地下城异常巨响",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第446源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4889,7 +4889,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-446-01",
-      "title": "未解决事项｜第446源章｜1",
+      "title": "巨响来源",
       "memo": "黑暗骑士与地下城时代：未解决事项（第446源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4914,7 +4914,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-446-02",
-      "title": "未解决事项｜第446源章｜2",
+      "title": "撤退能否成功",
       "memo": "黑暗骑士与地下城时代：未解决事项（第446源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4939,7 +4939,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-446-01",
-      "title": "主角龙形态｜第446源章｜1",
+      "title": "主角龙形态｜地下城与冒险者.(4)｜守护龙与爱丽丝均不直接出场",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第446源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4965,7 +4965,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-446-01",
-      "title": "主角龙状态｜第446源章｜1",
+      "title": "主角龙状态｜地下城与冒险者.(4)｜其地下城制度出现首个被完整跟随的普通冒险队，异常正在形成",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第446源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4990,7 +4990,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-446-01",
-      "title": "主角龙知识边界｜第446源章｜1",
+      "title": "主角龙知识边界｜地下城与冒险者.(4)｜异常仅由怪物数量偏少与巨响提示，原因尚未知",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第446源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5016,7 +5016,7 @@
     },
     {
       "id": "era-21-dungeons-event-447-01",
-      "title": "事件｜第447源章｜1",
+      "title": "亚瑟判断深处巨响属于中大型怪物且与公会情报不符，压住自身恐惧，重复安全第一并带队撤退",
       "memo": "黑暗骑士与地下城时代：事件（第447源章第1条）",
       "category": "event",
       "keys": [
@@ -5042,7 +5042,7 @@
     },
     {
       "id": "era-21-dungeons-event-447-02",
-      "title": "事件｜第447源章｜2",
+      "title": "出口被一只兽人、三只霍布哥布林和两只巴尔格封锁",
       "memo": "黑暗骑士与地下城时代：事件（第447源章第2条）",
       "category": "event",
       "keys": [
@@ -5069,7 +5069,7 @@
     },
     {
       "id": "era-21-dungeons-event-447-03",
-      "title": "事件｜第447源章｜3",
+      "title": "亚瑟询问卢克火球和安娜射速，制定火球致盲扰乱，箭射巴尔格，詹姆斯背脱力卢克",
       "memo": "黑暗骑士与地下城时代：事件（第447源章第3条）",
       "category": "event",
       "keys": [
@@ -5097,7 +5097,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-447-01",
-      "title": "世界设定事实｜第447源章｜1",
+      "title": "异常组合为兽人一、霍布哥布林三、巴尔格二",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第447源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5124,7 +5124,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-447-02",
-      "title": "世界设定事实｜第447源章｜2",
+      "title": "卢克最大火球会耗尽魔力和体力",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第447源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5150,7 +5150,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-447-03",
-      "title": "世界设定事实｜第447源章｜3",
+      "title": "兽人能抗箭、贯穿伤与火球，眼球被烧也会短时再生",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第447源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5175,7 +5175,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-447-01",
-      "title": "新建立连续性｜第447源章｜1",
+      "title": "兽人封路",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第447源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5200,7 +5200,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-447-02",
-      "title": "新建立连续性｜第447源章｜2",
+      "title": "火球撤离方案",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第447源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5225,7 +5225,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-447-03",
-      "title": "新建立连续性｜第447源章｜3",
+      "title": "亚瑟殿后",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第447源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5251,7 +5251,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-447-01",
-      "title": "未解决事项｜第447源章｜1",
+      "title": "攻击成效",
       "memo": "黑暗骑士与地下城时代：未解决事项（第447源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5276,7 +5276,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-447-02",
-      "title": "未解决事项｜第447源章｜2",
+      "title": "全队生还",
       "memo": "黑暗骑士与地下城时代：未解决事项（第447源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5301,7 +5301,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-447-01",
-      "title": "主角龙形态｜第447源章｜1",
+      "title": "主角龙形态｜地下城与冒险者.(5)｜守护龙与爱丽丝均不出场",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第447源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5327,7 +5327,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-447-01",
-      "title": "主角龙状态｜第447源章｜1",
+      "title": "主角龙状态｜地下城与冒险者.(5)｜守护龙制度下的地下城出现超出公会预期的高阶怪物组合",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第447源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5352,7 +5352,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-447-01",
-      "title": "主角龙知识边界｜第447源章｜1",
+      "title": "主角龙知识边界｜地下城与冒险者.(5)｜队伍只知道变化异常，不知道城主的奖励规则与不杀策略",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第447源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5377,7 +5377,7 @@
     },
     {
       "id": "era-21-dungeons-event-448-01",
-      "title": "事件｜第448源章｜1",
+      "title": "火球和箭制造撤离空隙",
       "memo": "黑暗骑士与地下城时代：事件（第448源章第1条）",
       "category": "event",
       "keys": [
@@ -5403,7 +5403,7 @@
     },
     {
       "id": "era-21-dungeons-event-448-02",
-      "title": "事件｜第448源章｜2",
+      "title": "与此同时魔贤者报告该地下城故意把冒险者重伤后扔到出口以获得较高DP",
       "memo": "黑暗骑士与地下城时代：事件（第448源章第2条）",
       "category": "event",
       "keys": [
@@ -5430,7 +5430,7 @@
     },
     {
       "id": "era-21-dungeons-event-448-03",
-      "title": "事件｜第448源章｜3",
+      "title": "亚瑟醒来发现怪物尸体与财物被取走，拖重伤回村接受生命教团治疗",
       "memo": "黑暗骑士与地下城时代：事件（第448源章第3条）",
       "category": "event",
       "keys": [
@@ -5456,7 +5456,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-448-01",
-      "title": "世界设定事实｜第448源章｜1",
+      "title": "该大型地下城分开放区和难入区，培育多类怪物并使哥布林、霍布哥布林、兽人进化",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第448源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5481,7 +5481,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-448-02",
-      "title": "世界设定事实｜第448源章｜2",
+      "title": "普通生命教团治疗室有统一规格",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第448源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5506,7 +5506,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-448-03",
-      "title": "世界设定事实｜第448源章｜3",
+      "title": "冒险者公会会综合幸存者证词动态上调地下城危险等级与怪物预警",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第448源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5531,7 +5531,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-448-01",
-      "title": "新建立连续性｜第448源章｜1",
+      "title": "亚瑟重伤幸存",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第448源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5557,7 +5557,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-448-02",
-      "title": "新建立连续性｜第448源章｜2",
+      "title": "城主活捉放生套利",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第448源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5582,7 +5582,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-448-03",
-      "title": "新建立连续性｜第448源章｜3",
+      "title": "公会危险等级上调",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第448源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5607,7 +5607,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-448-01",
-      "title": "未解决事项｜第448源章｜1",
+      "title": "三名年轻人后续",
       "memo": "黑暗骑士与地下城时代：未解决事项（第448源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5632,7 +5632,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-448-02",
-      "title": "未解决事项｜第448源章｜2",
+      "title": "地下城是否越线",
       "memo": "黑暗骑士与地下城时代：未解决事项（第448源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5657,7 +5657,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-448-03",
-      "title": "未解决事项｜第448源章｜3",
+      "title": "亚瑟康复",
       "memo": "黑暗骑士与地下城时代：未解决事项（第448源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5683,7 +5683,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-448-01",
-      "title": "主角龙形态｜第448源章｜1",
+      "title": "主角龙形态｜地下城与冒险者.(6)｜蒂雅以人形守护龙／生命女神从德莫尼卡文件审查事件",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第448源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5710,7 +5710,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-448-01",
-      "title": "主角龙状态｜第448源章｜1",
+      "title": "主角龙状态｜地下城与冒险者.(6)｜守护龙允许地下城在规则内重伤放生，普通社会通过公会情报自行校正风险",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第448源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5735,7 +5735,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-448-01",
-      "title": "主角龙知识边界｜第448源章｜1",
+      "title": "主角龙知识边界｜地下城与冒险者.(6)｜亚瑟不知道城主和DP规则，推测兽人上级存在但未确认",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第448源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5762,7 +5762,7 @@
     },
     {
       "id": "era-21-dungeons-event-449-01",
-      "title": "事件｜第449源章｜1",
+      "title": "地下城出现五年后已分化为基础洞穴，自然环境，复杂迷宫，哥布林村庄等类型，各有种族克制",
       "memo": "黑暗骑士与地下城时代：事件（第449源章第1条）",
       "category": "event",
       "keys": [
@@ -5787,7 +5787,7 @@
     },
     {
       "id": "era-21-dungeons-event-449-02",
-      "title": "事件｜第449源章｜2",
+      "title": "蒂雅优化魔贤者按城主请求制作的地下城限定定点传送魔法",
       "memo": "黑暗骑士与地下城时代：事件（第449源章第2条）",
       "category": "event",
       "keys": [
@@ -5814,7 +5814,7 @@
     },
     {
       "id": "era-21-dungeons-event-449-03",
-      "title": "事件｜第449源章｜3",
+      "title": "两颗魔石记录传送出入口，能按人数、物品变化、开箱、破坏或停留时长触发",
       "memo": "黑暗骑士与地下城时代：事件（第449源章第3条）",
       "category": "event",
       "keys": [
@@ -5840,7 +5840,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-449-01",
-      "title": "世界设定事实｜第449源章｜1",
+      "title": "地下城制度运行五年后类型多样，多数至少破产一次",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第449源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5865,7 +5865,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-449-02",
-      "title": "世界设定事实｜第449源章｜2",
+      "title": "传送魔法只能在城主触及范围、靠地下城内部魔力补充，能分层、隔离培育区或按多种条件触发",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第449源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5890,7 +5890,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-449-03",
-      "title": "世界设定事实｜第449源章｜3",
+      "title": "首创Boss结构的城主会杀死发现秘密门者以保密，造成较大DP损失",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第449源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5915,7 +5915,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-449-01",
-      "title": "新建立连续性｜第449源章｜1",
+      "title": "五年地下城分化",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第449源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5940,7 +5940,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-449-02",
-      "title": "新建立连续性｜第449源章｜2",
+      "title": "伪终点Boss房",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第449源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5965,7 +5965,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-449-03",
-      "title": "新建立连续性｜第449源章｜3",
+      "title": "地下城限定传送",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第449源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5990,7 +5990,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-449-04",
-      "title": "新建立连续性｜第449源章｜4",
+      "title": "传送陷阱",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第449源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6015,7 +6015,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-449-01",
-      "title": "未解决事项｜第449源章｜1",
+      "title": "城主实际滥用",
       "memo": "黑暗骑士与地下城时代：未解决事项（第449源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6040,7 +6040,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-449-02",
-      "title": "未解决事项｜第449源章｜2",
+      "title": "官方Boss系统",
       "memo": "黑暗骑士与地下城时代：未解决事项（第449源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6065,7 +6065,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-449-01",
-      "title": "主角龙形态｜第449源章｜1",
+      "title": "主角龙形态｜地下城里有Boss不是常识吗？.(1)｜蒂雅以人形守护龙／生命女神参与地下城魔法产品设计",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第449源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6092,7 +6092,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-449-01",
-      "title": "主角龙状态｜第449源章｜1",
+      "title": "主角龙状态｜地下城里有Boss不是常识吗？.(1)｜守护龙在地下城五年节点推动传送与Boss房结构",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第449源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6117,7 +6117,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-449-01",
-      "title": "主角龙知识边界｜第449源章｜1",
+      "title": "主角龙知识边界｜地下城里有Boss不是常识吗？.(1)｜地下城Boss概念先由一位城主创造，蒂雅随后系统化",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第449源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6143,7 +6143,7 @@
     },
     {
       "id": "era-21-dungeons-event-450-01",
-      "title": "事件｜第450源章｜1",
+      "title": "城主广泛用传送陷阱把冒险者扔进瀑布、无出口迷宫或集火区",
       "memo": "黑暗骑士与地下城时代：事件（第450源章第1条）",
       "category": "event",
       "keys": [
@@ -6168,7 +6168,7 @@
     },
     {
       "id": "era-21-dungeons-event-450-02",
-      "title": "事件｜第450源章｜2",
+      "title": "地下城入口获得人数上限自动封闭功能",
       "memo": "黑暗骑士与地下城时代：事件（第450源章第2条）",
       "category": "event",
       "keys": [
@@ -6194,7 +6194,7 @@
     },
     {
       "id": "era-21-dungeons-event-450-03",
-      "title": "事件｜第450源章｜3",
+      "title": "蒂雅推出可选Boss系统，地下城魔力使房间内怪物定向进化，强度与规模成正比",
       "memo": "黑暗骑士与地下城时代：事件（第450源章第3条）",
       "category": "event",
       "keys": [
@@ -6220,7 +6220,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-450-01",
-      "title": "世界设定事实｜第450源章｜1",
+      "title": "传送陷阱可致伤、困人或集火",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第450源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6245,7 +6245,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-450-02",
-      "title": "世界设定事实｜第450源章｜2",
+      "title": "Boss怪物靠Boss房持续吸收地下城魔力定向进化，只能在该房维持",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第450源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6270,7 +6270,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-450-03",
-      "title": "世界设定事实｜第450源章｜3",
+      "title": "Boss维持费按强度收DP并作为击败奖励，使用为推荐非强制",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第450源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6295,7 +6295,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-450-01",
-      "title": "新建立连续性｜第450源章｜1",
+      "title": "人数入口限制",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第450源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6320,7 +6320,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-450-02",
-      "title": "新建立连续性｜第450源章｜2",
+      "title": "Boss定向进化",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第450源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6345,7 +6345,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-450-03",
-      "title": "新建立连续性｜第450源章｜3",
+      "title": "Boss维持费奖励",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第450源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6370,7 +6370,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-450-01",
-      "title": "未解决事项｜第450源章｜1",
+      "title": "城主接受率",
       "memo": "黑暗骑士与地下城时代：未解决事项（第450源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6395,7 +6395,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-450-02",
-      "title": "未解决事项｜第450源章｜2",
+      "title": "Boss生态结果",
       "memo": "黑暗骑士与地下城时代：未解决事项（第450源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6420,7 +6420,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-450-01",
-      "title": "主角龙形态｜第450源章｜1",
+      "title": "主角龙形态｜地下城里有Boss不是常识吗？.(2)｜蒂雅以人形守护龙／生命女神设计Boss制度",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第450源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6447,7 +6447,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-450-01",
-      "title": "主角龙状态｜第450源章｜1",
+      "title": "主角龙状态｜地下城里有Boss不是常识吗？.(2)｜守护龙把个别城主Boss创意正式纳入德莫尼卡系统",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第450源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6472,7 +6472,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-450-01",
-      "title": "主角龙知识边界｜第450源章｜1",
+      "title": "主角龙知识边界｜地下城里有Boss不是常识吗？.(2)｜Boss不能离房部分既有魔力维持原因也有蒂雅个人美学",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第450源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6498,7 +6498,7 @@
     },
     {
       "id": "era-21-dungeons-event-451-01",
-      "title": "事件｜第451源章｜1",
+      "title": "多数城主采用Boss系统，蜘蛛，霍布哥布林武士，巨型植物，水元素般存在等定向进化",
       "memo": "黑暗骑士与地下城时代：事件（第451源章第1条）",
       "category": "event",
       "keys": [
@@ -6523,7 +6523,7 @@
     },
     {
       "id": "era-21-dungeons-event-451-02",
-      "title": "事件｜第451源章｜2",
+      "title": "后世冒险指南把地下城误传为魔王碎片产物，确立Boss、宝箱、环境推断和公会许可常识",
       "memo": "黑暗骑士与地下城时代：事件（第451源章第2条）",
       "category": "event",
       "keys": [
@@ -6549,7 +6549,7 @@
     },
     {
       "id": "era-21-dungeons-event-451-03",
-      "title": "事件｜第451源章｜3",
+      "title": "德莫尼卡稳定后蒂雅逐步放手，只留紧急联络",
       "memo": "黑暗骑士与地下城时代：事件（第451源章第3条）",
       "category": "event",
       "keys": [
@@ -6575,7 +6575,7 @@
     },
     {
       "id": "era-21-dungeons-event-451-04",
-      "title": "事件｜第451源章｜4",
+      "title": "蒂雅回万神殿想休息，被代办生命女神职责的分灵阿谢拉特揭穿玩乐并以罢工迫其工作",
       "memo": "黑暗骑士与地下城时代：事件（第451源章第4条）",
       "category": "event",
       "keys": [
@@ -6602,7 +6602,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-451-01",
-      "title": "世界设定事实｜第451源章｜1",
+      "title": "怪物进化由魔力促使个体朝自身期望变化，城主期望与个体期望未必一致",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第451源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6627,7 +6627,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-451-02",
-      "title": "世界设定事实｜第451源章｜2",
+      "title": "已知Boss例有卵囊巨蛛，斩杀旧Boss的霍布哥布林武士，全域根系巨植",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第451源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6652,7 +6652,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-451-03",
-      "title": "世界设定事实｜第451源章｜3",
+      "title": "冒险指南中的魔王碎片起源是流行说法而非真相",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第451源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6678,7 +6678,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-451-04",
-      "title": "世界设定事实｜第451源章｜4",
+      "title": "德莫尼卡通过DP提供物品，幼崽，扩建和陷阱服务",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第451源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6703,7 +6703,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-451-01",
-      "title": "新建立连续性｜第451源章｜1",
+      "title": "多样Boss实例",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第451源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6728,7 +6728,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-451-02",
-      "title": "新建立连续性｜第451源章｜2",
+      "title": "地下城后世常识",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第451源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6753,7 +6753,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-451-03",
-      "title": "新建立连续性｜第451源章｜3",
+      "title": "蒂雅百年工作期",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第451源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6779,7 +6779,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-451-01",
-      "title": "未解决事项｜第451源章｜1",
+      "title": "百年后世界",
       "memo": "黑暗骑士与地下城时代：未解决事项（第451源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6804,7 +6804,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-451-02",
-      "title": "未解决事项｜第451源章｜2",
+      "title": "埃里克爱丽丝寿命进程",
       "memo": "黑暗骑士与地下城时代：未解决事项（第451源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6831,7 +6831,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-451-01",
-      "title": "主角龙形态｜第451源章｜1",
+      "title": "主角龙形态｜地下城里有Boss不是常识吗？.(3)｜蒂雅以生命女神／守护龙身份结束地下城项目并回万神殿",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第451源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6858,7 +6858,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-451-01",
-      "title": "主角龙状态｜第451源章｜1",
+      "title": "主角龙状态｜地下城里有Boss不是常识吗？.(3)｜守护龙暂离地上地下城事务，开始约百年神职工作期",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第451源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6883,7 +6883,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-451-01",
-      "title": "主角龙知识边界｜第451源章｜1",
+      "title": "主角龙知识边界｜地下城里有Boss不是常识吗？.(3)｜指南的地下城起源属于后世误传",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第451源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6908,7 +6908,7 @@
     },
     {
       "id": "era-21-dungeons-event-452-01",
-      "title": "事件｜第452源章｜1",
+      "title": "地下城经济稳定怪物素材与冒险者收入",
       "memo": "黑暗骑士与地下城时代：事件（第452源章第1条）",
       "category": "event",
       "keys": [
@@ -6933,7 +6933,7 @@
     },
     {
       "id": "era-21-dungeons-event-452-02",
-      "title": "事件｜第452源章｜2",
+      "title": "埃里克八十多岁中段，在外貌约三十出头的爱丽丝、数十子孙围绕下寿终",
       "memo": "黑暗骑士与地下城时代：事件（第452源章第2条）",
       "category": "event",
       "keys": [
@@ -6960,7 +6960,7 @@
     },
     {
       "id": "era-21-dungeons-event-452-03",
-      "title": "事件｜第452源章｜3",
+      "title": "埃里克灵魂恢复年轻形态，蒂雅亲迎",
       "memo": "黑暗骑士与地下城时代：事件（第452源章第3条）",
       "category": "event",
       "keys": [
@@ -6987,7 +6987,7 @@
     },
     {
       "id": "era-21-dungeons-event-452-04",
-      "title": "事件｜第452源章｜4",
+      "title": "爱丽丝感知隐身蒂雅并与埃里克灵魂告别",
       "memo": "黑暗骑士与地下城时代：事件（第452源章第4条）",
       "category": "event",
       "keys": [
@@ -7016,7 +7016,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-452-01",
-      "title": "世界设定事实｜第452源章｜1",
+      "title": "地下城经济让怪物素材、魔石、冒险者收入稳定",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第452源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7041,7 +7041,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-452-02",
-      "title": "世界设定事实｜第452源章｜2",
+      "title": "埃里克活至八十多岁中段，与爱丽丝有许多子女孙辈",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第452源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7068,7 +7068,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-452-03",
-      "title": "世界设定事实｜第452源章｜3",
+      "title": "勇者灵魂由蒂雅亲自带往天堂，不经冥界审判，魂与魄完整保留以保存经验",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第452源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7094,7 +7094,7 @@
     },
     {
       "id": "era-21-dungeons-world-fact-452-04",
-      "title": "世界设定事实｜第452源章｜4",
+      "title": "爱丽丝仅有魄、难以转生但能维持魄进入天堂",
       "memo": "黑暗骑士与地下城时代：世界设定事实（第452源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7121,7 +7121,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-452-01",
-      "title": "新建立连续性｜第452源章｜1",
+      "title": "埃里克寿终",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第452源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7147,7 +7147,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-452-02",
-      "title": "新建立连续性｜第452源章｜2",
+      "title": "年轻灵魂埃里克",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第452源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7173,7 +7173,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-452-03",
-      "title": "新建立连续性｜第452源章｜3",
+      "title": "爱丽丝天堂资格",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第452源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7199,7 +7199,7 @@
     },
     {
       "id": "era-21-dungeons-continuity-new-452-04",
-      "title": "新建立连续性｜第452源章｜4",
+      "title": "北罗马尼亚地下城经济",
       "memo": "黑暗骑士与地下城时代：新建立连续性（第452源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7224,7 +7224,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-452-01",
-      "title": "未解决事项｜第452源章｜1",
+      "title": "爱丽丝余生与死亡",
       "memo": "黑暗骑士与地下城时代：未解决事项（第452源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7250,7 +7250,7 @@
     },
     {
       "id": "era-21-dungeons-unresolved-452-02",
-      "title": "未解决事项｜第452源章｜2",
+      "title": "埃里克死后契约工作",
       "memo": "黑暗骑士与地下城时代：未解决事项（第452源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7276,7 +7276,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-form-452-01",
-      "title": "主角龙形态｜第452源章｜1",
+      "title": "主角龙形态｜勇者埃里克的死.(1)｜蒂雅以隐身飞龙／守护龙临终守望并以引魂者身份显现",
       "memo": "黑暗骑士与地下城时代：主角龙形态（第452源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7303,7 +7303,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-state-452-01",
-      "title": "主角龙状态｜第452源章｜1",
+      "title": "主角龙状态｜勇者埃里克的死.(1)｜守护龙完成对埃里克一生的守护并送其天堂，承诺继续守到爱丽丝死亡",
       "memo": "黑暗骑士与地下城时代：主角龙状态（第452源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7330,7 +7330,7 @@
     },
     {
       "id": "era-21-dungeons-protagonist-knowledge-452-01",
-      "title": "主角龙知识边界｜第452源章｜1",
+      "title": "主角龙知识边界｜勇者埃里克的死.(1)｜爱丽丝不老只是外貌与活化结果，不等于不死",
       "memo": "黑暗骑士与地下城时代：主角龙知识边界（第452源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7356,7 +7356,7 @@
     },
     {
       "id": "era-21-dungeons-secondary-character-01",
-      "title": "次要人物｜埃里克",
+      "title": "埃里克",
       "memo": "黑暗骑士与地下城时代：次要人物 埃里克",
       "category": "secondary-character",
       "keys": [
@@ -7382,7 +7382,7 @@
     },
     {
       "id": "era-21-dungeons-secondary-character-02",
-      "title": "次要人物｜爱丽丝",
+      "title": "爱丽丝",
       "memo": "黑暗骑士与地下城时代：次要人物 爱丽丝",
       "category": "secondary-character",
       "keys": [
@@ -7408,7 +7408,7 @@
     },
     {
       "id": "era-21-dungeons-secondary-character-03",
-      "title": "次要人物｜阿谢拉特",
+      "title": "阿谢拉特",
       "memo": "黑暗骑士与地下城时代：次要人物 阿谢拉特",
       "category": "secondary-character",
       "keys": [
@@ -7434,7 +7434,7 @@
     },
     {
       "id": "era-21-dungeons-secondary-character-04",
-      "title": "次要人物｜尼克斯",
+      "title": "尼克斯",
       "memo": "黑暗骑士与地下城时代：次要人物 尼克斯",
       "category": "secondary-character",
       "keys": [

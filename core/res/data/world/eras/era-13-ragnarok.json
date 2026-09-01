@@ -3442,7 +3442,7 @@
   "lorebook": [
     {
       "id": "era-13-ragnarok-core",
-      "title": "诸神黄昏与莱克伦｜时代边界",
+      "title": "诸神黄昏与莱克伦",
       "memo": "诸神黄昏与莱克伦：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3457,7 +3457,7 @@
     },
     {
       "id": "era-13-ragnarok-event-219-01",
-      "title": "事件｜第219源章｜1",
+      "title": "蒂雅拒绝把神战当可复用清理手段，判断幸存者已受相互毁灭震慑",
       "memo": "诸神黄昏与莱克伦：事件（第219源章第1条）",
       "category": "event",
       "keys": [
@@ -3484,7 +3484,7 @@
     },
     {
       "id": "era-13-ragnarok-event-219-02",
-      "title": "事件｜第219源章｜2",
+      "title": "莱克伦以神魂、宙斯祝福肉体快速学尽多位导师知识",
       "memo": "诸神黄昏与莱克伦：事件（第219源章第2条）",
       "category": "event",
       "keys": [
@@ -3514,7 +3514,7 @@
     },
     {
       "id": "era-13-ragnarok-event-219-03",
-      "title": "事件｜第219源章｜3",
+      "title": "二十年后的阿斯忒里俄斯确认莱克伦优秀但急躁易怒",
       "memo": "诸神黄昏与莱克伦：事件（第219源章第3条）",
       "category": "event",
       "keys": [
@@ -3543,7 +3543,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-219-01",
-      "title": "世界设定事实｜第219源章｜1",
+      "title": "蒂雅认为神战结果不可精确预知且幸存者已形成相互保证毁灭式创伤",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第219源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3569,7 +3569,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-219-02",
-      "title": "世界设定事实｜第219源章｜2",
+      "title": "奥丁若失去巴尔智慧之眼会成愚昧盲神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第219源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3597,7 +3597,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-219-03",
-      "title": "世界设定事实｜第219源章｜3",
+      "title": "阿斯忒里俄斯旅行归国后成为米诺亚王，并可用因陀罗祝福操纵雷电",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第219源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3625,7 +3625,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-219-01",
-      "title": "新建立连续性｜第219源章｜1",
+      "title": "莱克伦十五六岁",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第219源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3651,7 +3651,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-219-02",
-      "title": "新建立连续性｜第219源章｜2",
+      "title": "阿斯忒里俄斯国王导师",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第219源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3677,7 +3677,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-219-03",
-      "title": "新建立连续性｜第219源章｜3",
+      "title": "世界树武器与耶弓术计划",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第219源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3703,7 +3703,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-219-01",
-      "title": "未解决事项｜第219源章｜1",
+      "title": "莱克伦英雄试炼",
       "memo": "诸神黄昏与莱克伦：未解决事项（第219源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3729,7 +3729,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-219-02",
-      "title": "未解决事项｜第219源章｜2",
+      "title": "奥丁行动",
       "memo": "诸神黄昏与莱克伦：未解决事项（第219源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3755,7 +3755,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-219-03",
-      "title": "未解决事项｜第219源章｜3",
+      "title": "宙斯献冠",
       "memo": "诸神黄昏与莱克伦：未解决事项（第219源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3781,7 +3781,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-219-01",
-      "title": "主角龙形态｜第219源章｜1",
+      "title": "主角龙形态｜莱克伦.(1)｜大角银发少女本体，在生命神殿远观并亲访米诺亚训练场",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第219源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3807,7 +3807,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-219-01",
-      "title": "主角龙状态｜第219源章｜1",
+      "title": "主角龙状态｜莱克伦.(1)｜由清算众神转入保护莱克伦成长与有限英雄教育",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第219源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3833,7 +3833,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-219-01",
-      "title": "主角龙知识边界｜第219源章｜1",
+      "title": "主角龙知识边界｜莱克伦.(1)｜知道奥丁可能采取别的保全方式但尚不知结果",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第219源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3860,7 +3860,7 @@
     },
     {
       "id": "era-13-ragnarok-event-220-01",
-      "title": "事件｜第220源章｜1",
+      "title": "莱克伦继续学习统率、棍棒与弓箭",
       "memo": "诸神黄昏与莱克伦：事件（第220源章第1条）",
       "category": "event",
       "keys": [
@@ -3890,7 +3890,7 @@
     },
     {
       "id": "era-13-ragnarok-event-220-02",
-      "title": "事件｜第220源章｜2",
+      "title": "回溯奥丁最早与贤者交谈：他经历否认、愤怒、威胁谈判、忧郁和接受",
       "memo": "诸神黄昏与莱克伦：事件（第220源章第2条）",
       "category": "event",
       "keys": [
@@ -3917,7 +3917,7 @@
     },
     {
       "id": "era-13-ragnarok-event-220-03",
-      "title": "事件｜第220源章｜3",
+      "title": "数十年后奥丁成果偏离预期",
       "memo": "诸神黄昏与莱克伦：事件（第220源章第3条）",
       "category": "event",
       "keys": [
@@ -3945,7 +3945,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-220-01",
-      "title": "世界设定事实｜第220源章｜1",
+      "title": "因陀罗献心约十九年，莱克伦在三年后出生",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第220源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3974,7 +3974,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-220-02",
-      "title": "世界设定事实｜第220源章｜2",
+      "title": "奥丁神器冈格尼尔由杰出矮人锻造并受神祝福",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第220源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4000,7 +4000,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-220-03",
-      "title": "世界设定事实｜第220源章｜3",
+      "title": "天堂本是蒂雅打造的死后世界，正常入口仅在冥界",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第220源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4026,7 +4026,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-220-01",
-      "title": "新建立连续性｜第220源章｜1",
+      "title": "奥丁五阶段崩溃",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第220源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4052,7 +4052,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-220-02",
-      "title": "新建立连续性｜第220源章｜2",
+      "title": "异世界诱导",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第220源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4077,7 +4077,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-220-03",
-      "title": "新建立连续性｜第220源章｜3",
+      "title": "天堂遭入侵",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第220源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4102,7 +4102,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-220-01",
-      "title": "未解决事项｜第220源章｜1",
+      "title": "入侵者身份",
       "memo": "诸神黄昏与莱克伦：未解决事项（第220源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4127,7 +4127,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-220-02",
-      "title": "未解决事项｜第220源章｜2",
+      "title": "奥丁成果",
       "memo": "诸神黄昏与莱克伦：未解决事项（第220源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4153,7 +4153,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-220-03",
-      "title": "未解决事项｜第220源章｜3",
+      "title": "剩余碎片",
       "memo": "诸神黄昏与莱克伦：未解决事项（第220源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4178,7 +4178,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-220-01",
-      "title": "主角龙形态｜第220源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(1)｜前半以蒙布贤者石魔像与奥丁交谈",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第220源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4204,7 +4204,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-220-01",
-      "title": "主角龙状态｜第220源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(1)｜等待碎片持有者行动期间发现天堂被入侵",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第220源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4229,7 +4229,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-220-01",
-      "title": "主角龙知识边界｜第220源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(1)｜给奥丁建议时不知道他数十年后会做出何物",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第220源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4255,7 +4255,7 @@
     },
     {
       "id": "era-13-ragnarok-event-221-01",
-      "title": "事件｜第221源章｜1",
+      "title": "蒂雅在天堂发现彩虹隧道与桥，埃西尔女武神由此入侵",
       "memo": "诸神黄昏与莱克伦：事件（第221源章第1条）",
       "category": "event",
       "keys": [
@@ -4282,7 +4282,7 @@
     },
     {
       "id": "era-13-ragnarok-event-221-02",
-      "title": "事件｜第221源章｜2",
+      "title": "蒂雅因自己拖延龙族死后世界而不惩罚刻瑞斯，承诺事后立即建造",
       "memo": "诸神黄昏与莱克伦：事件（第221源章第2条）",
       "category": "event",
       "keys": [
@@ -4309,7 +4309,7 @@
     },
     {
       "id": "era-13-ragnarok-event-221-03",
-      "title": "事件｜第221源章｜3",
+      "title": "女武神搬运武器石材将新区域堡垒化为瓦尔哈拉",
       "memo": "诸神黄昏与莱克伦：事件（第221源章第3条）",
       "category": "event",
       "keys": [
@@ -4337,7 +4337,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-221-01",
-      "title": "世界设定事实｜第221源章｜1",
+      "title": "天堂原仅由冥界审判许可进入",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第221源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4363,7 +4363,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-221-02",
-      "title": "世界设定事实｜第221源章｜2",
+      "title": "蒂雅曾答应为近乎不死的龙族建死后世界但长期拖延",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第221源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4390,7 +4390,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-221-03",
-      "title": "世界设定事实｜第221源章｜3",
+      "title": "女武神为埃西尔低阶神或神血族",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第221源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4415,7 +4415,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-221-04",
-      "title": "世界设定事实｜第221源章｜4",
+      "title": "奥丁逃亡计划包含让女武神偷取亡魂，具体规模与机制本章尚未揭示",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第221源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4441,7 +4441,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-221-01",
-      "title": "新建立连续性｜第221源章｜1",
+      "title": "彩虹桥",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第221源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4466,7 +4466,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-221-02",
-      "title": "新建立连续性｜第221源章｜2",
+      "title": "瓦尔哈拉堡垒化",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第221源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4491,7 +4491,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-221-03",
-      "title": "新建立连续性｜第221源章｜3",
+      "title": "女武神偷魂",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第221源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4516,7 +4516,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-221-04",
-      "title": "新建立连续性｜第221源章｜4",
+      "title": "龙族死后世界承诺",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第221源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4541,7 +4541,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-221-01",
-      "title": "未解决事项｜第221源章｜1",
+      "title": "芙蕾雅供述",
       "memo": "诸神黄昏与莱克伦：未解决事项（第221源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4567,7 +4567,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-221-02",
-      "title": "未解决事项｜第221源章｜2",
+      "title": "奥丁位置",
       "memo": "诸神黄昏与莱克伦：未解决事项（第221源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4593,7 +4593,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-221-03",
-      "title": "未解决事项｜第221源章｜3",
+      "title": "偷魂受害者",
       "memo": "诸神黄昏与莱克伦：未解决事项（第221源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4618,7 +4618,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-221-01",
-      "title": "主角龙形态｜第221源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(2)｜大角银发少女本体",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第221源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4644,7 +4644,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-221-01",
-      "title": "主角龙状态｜第221源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(2)｜确认埃西尔侵入天堂且涉嫌偷魂，开始直接追责",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第221源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4669,7 +4669,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-221-01",
-      "title": "主角龙知识边界｜第221源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(2)｜尚不知道偷取了哪些灵魂、奥丁完整计划和巴尔眼睛所在",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第221源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4696,7 +4696,7 @@
     },
     {
       "id": "era-13-ragnarok-event-222-01",
-      "title": "事件｜第222源章｜1",
+      "title": "芙蕾雅确认奥丁早在末日传闻前便命女武神偷魂",
       "memo": "诸神黄昏与莱克伦：事件（第222源章第1条）",
       "category": "event",
       "keys": [
@@ -4724,7 +4724,7 @@
     },
     {
       "id": "era-13-ragnarok-event-222-02",
-      "title": "事件｜第222源章｜2",
+      "title": "奥丁把战场上本不该死的优秀战士暗杀偷魂，制成可复活的英灵军并抽取信仰",
       "memo": "诸神黄昏与莱克伦：事件（第222源章第2条）",
       "category": "event",
       "keys": [
@@ -4750,7 +4750,7 @@
     },
     {
       "id": "era-13-ragnarok-event-222-03",
-      "title": "事件｜第222源章｜3",
+      "title": "芙蕾雅承认自己下令并求生，同时请求饶过视同女儿的女武神",
       "memo": "诸神黄昏与莱克伦：事件（第222源章第3条）",
       "category": "event",
       "keys": [
@@ -4778,7 +4778,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-222-01",
-      "title": "世界设定事实｜第222源章｜1",
+      "title": "英灵战士由被盗灵魂制造，可肉体毁灭后复活、以数量消耗神并向奥丁提供信仰",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第222源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4804,7 +4804,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-222-02",
-      "title": "世界设定事实｜第222源章｜2",
+      "title": "死神在大规模战场结束后集中回收灵魂",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第222源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4829,7 +4829,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-222-01",
-      "title": "新建立连续性｜第222源章｜1",
+      "title": "英灵战士机制",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第222源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4854,7 +4854,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-222-02",
-      "title": "新建立连续性｜第222源章｜2",
+      "title": "战场偷魂手法",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第222源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4879,7 +4879,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-222-03",
-      "title": "新建立连续性｜第222源章｜3",
+      "title": "芙蕾雅倒戈",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第222源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4905,7 +4905,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-222-01",
-      "title": "未解决事项｜第222源章｜1",
+      "title": "奥丁惩罚｜诸神黄昏.(3)",
       "memo": "诸神黄昏与莱克伦：未解决事项（第222源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4931,7 +4931,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-222-02",
-      "title": "未解决事项｜第222源章｜2",
+      "title": "天堂入侵详情",
       "memo": "诸神黄昏与莱克伦：未解决事项（第222源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4956,7 +4956,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-222-03",
-      "title": "未解决事项｜第222源章｜3",
+      "title": "后续工作",
       "memo": "诸神黄昏与莱克伦：未解决事项（第222源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4981,7 +4981,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-222-01",
-      "title": "主角龙形态｜第222源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(3)｜大角银发少女本体，在瓦尔哈拉向芙蕾雅问讯",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第222源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5007,7 +5007,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-222-01",
-      "title": "主角龙状态｜第222源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(3)｜取得奥丁犯罪方式和参与名单，收编芙蕾雅与女武神为惩罚计划工具",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第222源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5034,7 +5034,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-222-01",
-      "title": "主角龙知识边界｜第222源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(3)｜尚未追问非法入侵天堂的完整过程，也未决定女武神具体工作",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第222源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5059,7 +5059,7 @@
     },
     {
       "id": "era-13-ragnarok-event-223-01",
-      "title": "事件｜第223源章｜1",
+      "title": "蒂雅继续追问蓄意入侵，确认奥丁明知天堂性质仍先堡垒化再迁徙",
       "memo": "诸神黄昏与莱克伦：事件（第223源章第1条）",
       "category": "event",
       "keys": [
@@ -5087,7 +5087,7 @@
     },
     {
       "id": "era-13-ragnarok-event-223-02",
-      "title": "事件｜第223源章｜2",
+      "title": "埃西尔迁入瓦尔哈拉宴饮，自以为逃脱",
       "memo": "诸神黄昏与莱克伦：事件（第223源章第2条）",
       "category": "event",
       "keys": [
@@ -5112,7 +5112,7 @@
     },
     {
       "id": "era-13-ragnarok-event-223-03",
-      "title": "事件｜第223源章｜3",
+      "title": "萨加玛塔指出蒂雅一人即可毁灭埃西尔",
       "memo": "诸神黄昏与莱克伦：事件（第223源章第3条）",
       "category": "event",
       "keys": [
@@ -5139,7 +5139,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-223-01",
-      "title": "世界设定事实｜第223源章｜1",
+      "title": "瓦尔哈拉有次日复活的食用猪与岩山羊蜂蜜酒",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第223源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5165,7 +5165,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-223-02",
-      "title": "世界设定事实｜第223源章｜2",
+      "title": "讨伐军包含冥界全体、龙族、巨型魔像、巨人、芬里尔、奥林匹斯夺眼使者及其他埃西尔仇敌",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第223源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5190,7 +5190,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-223-01",
-      "title": "新建立连续性｜第223源章｜1",
+      "title": "诸神黄昏联合军",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第223源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5215,7 +5215,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-223-02",
-      "title": "新建立连续性｜第223源章｜2",
+      "title": "瓦尔哈拉牢笼",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第223源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5240,7 +5240,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-223-03",
-      "title": "新建立连续性｜第223源章｜3",
+      "title": "龙族震怒",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第223源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5265,7 +5265,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-223-01",
-      "title": "未解决事项｜第223源章｜1",
+      "title": "芙蕾雅战中任务",
       "memo": "诸神黄昏与莱克伦：未解决事项（第223源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5291,7 +5291,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-223-02",
-      "title": "未解决事项｜第223源章｜2",
+      "title": "奥丁之眼",
       "memo": "诸神黄昏与莱克伦：未解决事项（第223源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5317,7 +5317,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-223-03",
-      "title": "未解决事项｜第223源章｜3",
+      "title": "埃西尔幸存者",
       "memo": "诸神黄昏与莱克伦：未解决事项（第223源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5342,7 +5342,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-223-01",
-      "title": "主角龙形态｜第223源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(4)｜大角银发少女本体，先审问芙蕾雅，后在瓦尔哈拉外检阅联合军",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第223源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5368,7 +5368,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-223-01",
-      "title": "主角龙状态｜第223源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(4)｜已启动诸神黄昏并保留芙蕾雅、女武神的生路",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第223源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5394,7 +5394,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-223-01",
-      "title": "主角龙知识边界｜第223源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(4)｜知道奥丁蓄意侵入和偷魂",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第223源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5420,7 +5420,7 @@
     },
     {
       "id": "era-13-ragnarok-event-224-01",
-      "title": "事件｜第224源章｜1",
+      "title": "巨人战歌预示覆灭",
       "memo": "诸神黄昏与莱克伦：事件（第224源章第1条）",
       "category": "event",
       "keys": [
@@ -5449,7 +5449,7 @@
     },
     {
       "id": "era-13-ragnarok-event-224-02",
-      "title": "事件｜第224源章｜2",
+      "title": "芙蕾雅确认绝对劣势后执行倒戈，先从奥丁取得全体女武神与半数英灵控制权",
       "memo": "诸神黄昏与莱克伦：事件（第224源章第2条）",
       "category": "event",
       "keys": [
@@ -5477,7 +5477,7 @@
     },
     {
       "id": "era-13-ragnarok-event-224-03",
-      "title": "事件｜第224源章｜3",
+      "title": "失去半数兵力的埃西尔迅速崩溃",
       "memo": "诸神黄昏与莱克伦：事件（第224源章第3条）",
       "category": "event",
       "keys": [
@@ -5504,7 +5504,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-224-01",
-      "title": "世界设定事实｜第224源章｜1",
+      "title": "阿瑞斯十年恢复信仰后以不同神性和马尔斯之名重获自我，仍为战争之神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第224源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5531,7 +5531,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-224-02",
-      "title": "世界设定事实｜第224源章｜2",
+      "title": "冥界塔罗斯略逊主神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第224源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5557,7 +5557,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-224-03",
-      "title": "世界设定事实｜第224源章｜3",
+      "title": "奥丁可通过手势将全体女武神与半数英灵战士的臣服连接转交芙蕾雅",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第224源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5584,7 +5584,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-224-01",
-      "title": "新建立连续性｜第224源章｜1",
+      "title": "马尔斯重生",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第224源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5610,7 +5610,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-224-02",
-      "title": "新建立连续性｜第224源章｜2",
+      "title": "芙蕾雅带兵撤离",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第224源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5636,7 +5636,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-224-03",
-      "title": "新建立连续性｜第224源章｜3",
+      "title": "托尔倒下",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第224源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5662,7 +5662,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-224-01",
-      "title": "未解决事项｜第224源章｜1",
+      "title": "奥丁之眼归属",
       "memo": "诸神黄昏与莱克伦：未解决事项（第224源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5688,7 +5688,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-224-02",
-      "title": "未解决事项｜第224源章｜2",
+      "title": "埃西尔最终处置",
       "memo": "诸神黄昏与莱克伦：未解决事项（第224源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5713,7 +5713,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-224-01",
-      "title": "主角龙形态｜第224源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(5)｜本章不直接出场，以天堂主人、联合军组织者和芙蕾雅新契约方影响全局",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第224源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5739,7 +5739,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-224-01",
-      "title": "主角龙状态｜第224源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(5)｜倒戈计划生效，埃西尔防线崩溃",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第224源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5764,7 +5764,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-224-01",
-      "title": "主角龙知识边界｜第224源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(5)｜赫尔墨斯不知道蒂雅会否把夺眼算作奥林匹斯献还",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第224源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5793,7 +5793,7 @@
     },
     {
       "id": "era-13-ragnarok-event-225-01",
-      "title": "事件｜第225源章｜1",
+      "title": "巨人传说与一名英灵视角展现终末",
       "memo": "诸神黄昏与莱克伦：事件（第225源章第1条）",
       "category": "event",
       "keys": [
@@ -5821,7 +5821,7 @@
     },
     {
       "id": "era-13-ragnarok-event-225-02",
-      "title": "事件｜第225源章｜2",
+      "title": "亡魂无限再生、塔罗斯与元素巨像破城、龙息制空，英灵即使失去武器四肢也持续抵抗",
       "memo": "诸神黄昏与莱克伦：事件（第225源章第2条）",
       "category": "event",
       "keys": [
@@ -5847,7 +5847,7 @@
     },
     {
       "id": "era-13-ragnarok-event-225-03",
-      "title": "事件｜第225源章｜3",
+      "title": "蒂雅在瓦尔哈拉顶端面对奥丁，坦言根本原因是厌恶寄生生命却高高在上的神",
       "memo": "诸神黄昏与莱克伦：事件（第225源章第3条）",
       "category": "event",
       "keys": [
@@ -5875,7 +5875,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-225-01",
-      "title": "世界设定事实｜第225源章｜1",
+      "title": "瓦尔哈拉对英灵呈现温暖丰饶天堂，英灵每日宴饮战斗且死亡后复活",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第225源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5900,7 +5900,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-225-02",
-      "title": "世界设定事实｜第225源章｜2",
+      "title": "普通武器无法杀死无肉体亡魂",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第225源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5925,7 +5925,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-225-03",
-      "title": "世界设定事实｜第225源章｜3",
+      "title": "巴尔之眼具有看见即认知、认知即理解的智慧属性",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第225源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5951,7 +5951,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-225-01",
-      "title": "新建立连续性｜第225源章｜1",
+      "title": "托尔最后动员",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第225源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5977,7 +5977,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-225-02",
-      "title": "新建立连续性｜第225源章｜2",
+      "title": "巴尔之眼取回",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第225源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6003,7 +6003,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-225-01",
-      "title": "未解决事项｜第225源章｜1",
+      "title": "奥丁惩罚｜诸神黄昏.(6)",
       "memo": "诸神黄昏与莱克伦：未解决事项（第225源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6029,7 +6029,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-225-02",
-      "title": "未解决事项｜第225源章｜2",
+      "title": "奥林匹斯宽限",
       "memo": "诸神黄昏与莱克伦：未解决事项（第225源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6054,7 +6054,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-225-03",
-      "title": "未解决事项｜第225源章｜3",
+      "title": "战后善后",
       "memo": "诸神黄昏与莱克伦：未解决事项（第225源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6079,7 +6079,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-225-01",
-      "title": "主角龙形态｜第225源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(6)｜大角银发少女本体，终战后登上瓦尔哈拉顶端",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第225源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6104,7 +6104,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-225-01",
-      "title": "主角龙状态｜第225源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(6)｜取得巴尔智慧之眼，埃西尔主力覆灭",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第225源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6130,7 +6130,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-225-01",
-      "title": "主角龙知识边界｜第225源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(6)｜尚未决定奥丁生死与幸存诸神后续，也未处理奥林匹斯使者",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第225源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6156,7 +6156,7 @@
     },
     {
       "id": "era-13-ragnarok-event-226-01",
-      "title": "事件｜第226源章｜1",
+      "title": "蒂雅收好巴尔之眼，主动将赫尔墨斯和马尔斯拉来",
       "memo": "诸神黄昏与莱克伦：事件（第226源章第1条）",
       "category": "event",
       "keys": [
@@ -6185,7 +6185,7 @@
     },
     {
       "id": "era-13-ragnarok-event-226-02",
-      "title": "事件｜第226源章｜2",
+      "title": "奥丁求死被拒",
       "memo": "诸神黄昏与莱克伦：事件（第226源章第2条）",
       "category": "event",
       "keys": [
@@ -6212,7 +6212,7 @@
     },
     {
       "id": "era-13-ragnarok-event-226-03",
-      "title": "事件｜第226源章｜3",
+      "title": "后世框架中蒂雅解释埃西尔大多灭亡、少数改名或依附幸存",
       "memo": "诸神黄昏与莱克伦：事件（第226源章第3条）",
       "category": "event",
       "keys": [
@@ -6239,7 +6239,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-226-01",
-      "title": "世界设定事实｜第226源章｜1",
+      "title": "原本不存在洛基之神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第226源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6266,7 +6266,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-226-02",
-      "title": "世界设定事实｜第226源章｜2",
+      "title": "冈格尼尔被蒂雅回收",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第226源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6292,7 +6292,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-226-03",
-      "title": "世界设定事实｜第226源章｜3",
+      "title": "巨人神以参战奖励获得托尔的部分雷神神格",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第226源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6318,7 +6318,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-226-01",
-      "title": "新建立连续性｜第226源章｜1",
+      "title": "奥丁改名洛基",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第226源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6344,7 +6344,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-226-02",
-      "title": "新建立连续性｜第226源章｜2",
+      "title": "奥林匹斯十年宽限",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第226源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6369,7 +6369,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-226-03",
-      "title": "新建立连续性｜第226源章｜3",
+      "title": "莱克伦终结奥林匹斯预告",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第226源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6395,7 +6395,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-226-01",
-      "title": "未解决事项｜第226源章｜1",
+      "title": "莱克伦具体选择",
       "memo": "诸神黄昏与莱克伦：未解决事项（第226源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6421,7 +6421,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-226-02",
-      "title": "未解决事项｜第226源章｜2",
+      "title": "宙斯冠冕",
       "memo": "诸神黄昏与莱克伦：未解决事项（第226源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6447,7 +6447,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-226-03",
-      "title": "未解决事项｜第226源章｜3",
+      "title": "龙族死后世界完成",
       "memo": "诸神黄昏与莱克伦：未解决事项（第226源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6472,7 +6472,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-226-01",
-      "title": "主角龙形态｜第226源章｜1",
+      "title": "主角龙形态｜诸神黄昏.(7)｜神战时为大角银发少女本体",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第226源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6498,7 +6498,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-226-01",
-      "title": "主角龙状态｜第226源章｜1",
+      "title": "主角龙状态｜诸神黄昏.(7)｜完成埃西尔清算、取得巴尔眼、给奥林匹斯十年，准备转入莱克伦史",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第226源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6525,7 +6525,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-226-01",
-      "title": "主角龙知识边界｜第226源章｜1",
+      "title": "主角龙知识边界｜诸神黄昏.(7)｜后世研究者尚不知道蒂雅真实身份",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第226源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6551,7 +6551,7 @@
     },
     {
       "id": "era-13-ragnarok-event-227-01",
-      "title": "事件｜第227源章｜1",
+      "title": "史论称英雄核心是助人、义愤与奉献，并承认莱克伦狂暴与醉杀友人",
       "memo": "诸神黄昏与莱克伦：事件（第227源章第1条）",
       "category": "event",
       "keys": [
@@ -6577,7 +6577,7 @@
     },
     {
       "id": "era-13-ragnarok-event-227-02",
-      "title": "事件｜第227源章｜2",
+      "title": "后世研究者得知莱克伦有巴尔灵魂，因各地功绩版本冲突请求蒂雅讲述真实事迹",
       "memo": "诸神黄昏与莱克伦：事件（第227源章第2条）",
       "category": "event",
       "keys": [
@@ -6605,7 +6605,7 @@
     },
     {
       "id": "era-13-ragnarok-event-227-03",
-      "title": "事件｜第227源章｜3",
+      "title": "莱克伦归还村庄物资，为报答耗尽家产培养自己的父母前往阿尔门求财",
       "memo": "诸神黄昏与莱克伦：事件（第227源章第3条）",
       "category": "event",
       "keys": [
@@ -6632,7 +6632,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-227-01",
-      "title": "世界设定事实｜第227源章｜1",
+      "title": "莱克伦父母耗尽当地富裕家产聘请名师并送他赴米诺亚学习",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第227源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6659,7 +6659,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-227-02",
-      "title": "世界设定事实｜第227源章｜2",
+      "title": "阿尔门首富奥库斯是十二杰出候选之一，以放贷取息致富，曾在某日彻底改变",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第227源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6685,7 +6685,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-227-03",
-      "title": "世界设定事实｜第227源章｜3",
+      "title": "银币仓故事保留了早期明确体积测量记录，但相关面积体积知识当时本已存在",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第227源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6710,7 +6710,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-227-01",
-      "title": "新建立连续性｜第227源章｜1",
+      "title": "莱克伦成年首战",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第227源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6736,7 +6736,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-227-02",
-      "title": "新建立连续性｜第227源章｜2",
+      "title": "奥库斯资助",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第227源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6762,7 +6762,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-227-03",
-      "title": "新建立连续性｜第227源章｜3",
+      "title": "英雄缺陷明示",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第227源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6787,7 +6787,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-227-01",
-      "title": "未解决事项｜第227源章｜1",
+      "title": "其余英雄功绩",
       "memo": "诸神黄昏与莱克伦：未解决事项（第227源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6812,7 +6812,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-227-02",
-      "title": "未解决事项｜第227源章｜2",
+      "title": "醉杀友人",
       "memo": "诸神黄昏与莱克伦：未解决事项（第227源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6837,7 +6837,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-227-03",
-      "title": "未解决事项｜第227源章｜3",
+      "title": "奥林匹斯终局",
       "memo": "诸神黄昏与莱克伦：未解决事项（第227源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6862,7 +6862,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-227-01",
-      "title": "主角龙形态｜第227源章｜1",
+      "title": "主角龙形态｜莱克伦.(2)｜后世银发有角龙族巫女口述者",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第227源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6889,7 +6889,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-227-01",
-      "title": "主角龙状态｜第227源章｜1",
+      "title": "主角龙状态｜莱克伦.(2)｜向研究者筛选可公开的莱克伦真实史",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第227源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6915,7 +6915,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-227-01",
-      "title": "主角龙知识边界｜第227源章｜1",
+      "title": "主角龙知识边界｜莱克伦.(2)｜研究者只知公共功绩，不知道蒂雅为何能亲历般分辨",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第227源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6942,7 +6942,7 @@
     },
     {
       "id": "era-13-ragnarok-event-228-01",
-      "title": "事件｜第228源章｜1",
+      "title": "莱克伦获奥库斯资助，改善父母生活，击杀能蜕皮复原的不死蛇",
       "memo": "诸神黄昏与莱克伦：事件（第228源章第1条）",
       "category": "event",
       "keys": [
@@ -6969,7 +6969,7 @@
     },
     {
       "id": "era-13-ragnarok-event-228-02",
-      "title": "事件｜第228源章｜2",
+      "title": "蒂雅纠正火焰狮只是获神力普通狮",
       "memo": "诸神黄昏与莱克伦：事件（第228源章第2条）",
       "category": "event",
       "keys": [
@@ -6996,7 +6996,7 @@
     },
     {
       "id": "era-13-ragnarok-event-228-03",
-      "title": "事件｜第228源章｜3",
+      "title": "莱克伦与中年阿斯忒里俄斯共同征服约百层无尽迷宫",
       "memo": "诸神黄昏与莱克伦：事件（第228源章第3条）",
       "category": "event",
       "keys": [
@@ -7024,7 +7024,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-228-01",
-      "title": "世界设定事实｜第228源章｜1",
+      "title": "不死蛇偷食长生药变异，铁鳞、神毒且每周蜕皮治愈",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第228源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7049,7 +7049,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-228-02",
-      "title": "世界设定事实｜第228源章｜2",
+      "title": "艾波那骑兵团与天狼星神殿守护阿卡迪亚王冠，败给莱克伦后认可并提出效力",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第228源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7075,7 +7075,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-228-03",
-      "title": "世界设定事实｜第228源章｜3",
+      "title": "龙之墓场原为生命神殿禁地，死亡气息阻绝生命",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第228源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7101,7 +7101,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-228-04",
-      "title": "世界设定事实｜第228源章｜4",
+      "title": "漩涡下的海神深海宫殿由人鱼女王忒提斯统治",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第228源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7127,7 +7127,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-228-01",
-      "title": "新建立连续性｜第228源章｜1",
+      "title": "不死蛇",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第228源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7152,7 +7152,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-228-02",
-      "title": "新建立连续性｜第228源章｜2",
+      "title": "艾波那决斗",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第228源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7177,7 +7177,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-228-03",
-      "title": "新建立连续性｜第228源章｜3",
+      "title": "龙墓首探",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第228源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7202,7 +7202,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-228-04",
-      "title": "新建立连续性｜第228源章｜4",
+      "title": "深海宫殿",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第228源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7227,7 +7227,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-228-05",
-      "title": "新建立连续性｜第228源章｜5",
+      "title": "百层迷宫",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第228源章第5条）",
       "category": "continuity",
       "keys": [
@@ -7252,7 +7252,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-228-01",
-      "title": "未解决事项｜第228源章｜1",
+      "title": "冥界冒险",
       "memo": "诸神黄昏与莱克伦：未解决事项（第228源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7277,7 +7277,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-228-02",
-      "title": "未解决事项｜第228源章｜2",
+      "title": "醉杀朋友",
       "memo": "诸神黄昏与莱克伦：未解决事项（第228源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7302,7 +7302,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-228-03",
-      "title": "未解决事项｜第228源章｜3",
+      "title": "巴尔公布时机",
       "memo": "诸神黄昏与莱克伦：未解决事项（第228源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7328,7 +7328,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-228-01",
-      "title": "主角龙形态｜第228源章｜1",
+      "title": "主角龙形态｜莱克伦.(3)｜后世银发有角龙族巫女",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第228源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7354,7 +7354,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-228-01",
-      "title": "主角龙状态｜第228源章｜1",
+      "title": "主角龙状态｜莱克伦.(3)｜继续提供经她验证的英雄史，同时守住巴尔公开时机",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第228源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7380,7 +7380,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-228-01",
-      "title": "主角龙知识边界｜第228源章｜1",
+      "title": "主角龙知识边界｜莱克伦.(3)｜研究者已怀疑她身份但主动停止",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第228源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7406,7 +7406,7 @@
     },
     {
       "id": "era-13-ragnarok-event-229-01",
-      "title": "事件｜第229源章｜1",
+      "title": "莱克伦在原因不明的醉酒暴走中误杀朋友，冰封尸体防腐，因复活传闻寻找深林贤者",
       "memo": "诸神黄昏与莱克伦：事件（第229源章第1条）",
       "category": "event",
       "keys": [
@@ -7433,7 +7433,7 @@
     },
     {
       "id": "era-13-ragnarok-event-229-02",
-      "title": "事件｜第229源章｜2",
+      "title": "生命祭司预先指路",
       "memo": "诸神黄昏与莱克伦：事件（第229源章第2条）",
       "category": "event",
       "keys": [
@@ -7460,7 +7460,7 @@
     },
     {
       "id": "era-13-ragnarok-event-229-03",
-      "title": "事件｜第229源章｜3",
+      "title": "莱克伦遍体鳞伤穿过七层地狱与三死神审判厅，被引入镜面黑石走廊",
       "memo": "诸神黄昏与莱克伦：事件（第229源章第3条）",
       "category": "event",
       "keys": [
@@ -7486,7 +7486,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-229-01",
-      "title": "世界设定事实｜第229源章｜1",
+      "title": "世界北端冰封海彼岸有黑桥和冥界门",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第229源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7511,7 +7511,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-229-02",
-      "title": "世界设定事实｜第229源章｜2",
+      "title": "黑曜石塔罗斯是冥界第一守护者，会斩杀未经许可者",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第229源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7537,7 +7537,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-229-03",
-      "title": "世界设定事实｜第229源章｜3",
+      "title": "冥界有七层地狱，第三层守卫尤其强",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第229源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7562,7 +7562,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-229-04",
-      "title": "世界设定事实｜第229源章｜4",
+      "title": "三管理者为塔纳托斯、摩罗斯、刻瑞斯，分别持死镰、命簿明镜、灵魂天平与审判剑",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第229源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7589,7 +7589,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-229-01",
-      "title": "新建立连续性｜第229源章｜1",
+      "title": "亡友误杀",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第229源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7614,7 +7614,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-229-02",
-      "title": "新建立连续性｜第229源章｜2",
+      "title": "活人闯七层冥界",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第229源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7639,7 +7639,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-229-03",
-      "title": "新建立连续性｜第229源章｜3",
+      "title": "镜中黑发少女",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第229源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7664,7 +7664,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-229-01",
-      "title": "未解决事项｜第229源章｜1",
+      "title": "少女身份",
       "memo": "诸神黄昏与莱克伦：未解决事项（第229源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7689,7 +7689,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-229-02",
-      "title": "未解决事项｜第229源章｜2",
+      "title": "朋友复活条件",
       "memo": "诸神黄昏与莱克伦：未解决事项（第229源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7714,7 +7714,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-229-03",
-      "title": "未解决事项｜第229源章｜3",
+      "title": "莱克伦能否返回",
       "memo": "诸神黄昏与莱克伦：未解决事项（第229源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7740,7 +7740,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-229-01",
-      "title": "主角龙形态｜第229源章｜1",
+      "title": "主角龙形态｜莱克伦.(4)｜远程操控的蒙布贤者石魔像，仅在回述中行动",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第229源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7765,7 +7765,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-229-01",
-      "title": "主角龙状态｜第229源章｜1",
+      "title": "主角龙状态｜莱克伦.(4)｜已把莱克伦引至冥界最深处的镜廊",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第229源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7791,7 +7791,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-229-01",
-      "title": "主角龙知识边界｜第229源章｜1",
+      "title": "主角龙知识边界｜莱克伦.(4)｜莱克伦不知道祭司与冥界管理者已获安排，也不知道镜中少女是谁",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第229源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7817,7 +7817,7 @@
     },
     {
       "id": "era-13-ragnarok-event-230-01",
-      "title": "事件｜第230源章｜1",
+      "title": "镜中黑发少女自称蒂雅分灵哈迪斯，治疗莱克伦，确认现世未见但与其前世有关",
       "memo": "诸神黄昏与莱克伦：事件（第230源章第1条）",
       "category": "event",
       "keys": [
@@ -7846,7 +7846,7 @@
     },
     {
       "id": "era-13-ragnarok-event-230-02",
-      "title": "事件｜第230源章｜2",
+      "title": "莱克伦得知自己是巴尔转世，明确坚持前世与今生分离",
       "memo": "诸神黄昏与莱克伦：事件（第230源章第2条）",
       "category": "event",
       "keys": [
@@ -7875,7 +7875,7 @@
     },
     {
       "id": "era-13-ragnarok-event-230-03",
-      "title": "事件｜第230源章｜3",
+      "title": "哈迪斯揭示宙斯祝福是为了利用莱克伦",
       "memo": "诸神黄昏与莱克伦：事件（第230源章第3条）",
       "category": "event",
       "keys": [
@@ -7904,7 +7904,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-230-01",
-      "title": "世界设定事实｜第230源章｜1",
+      "title": "哈迪斯是生命女神死亡职权分灵，辅助审判、押送合格魂、处置事故和召唤本体",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第230源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7930,7 +7930,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-230-02",
-      "title": "世界设定事实｜第230源章｜2",
+      "title": "巴尔名迹被争夺神王位置的神刻意抹去",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第230源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7957,7 +7957,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-230-01",
-      "title": "新建立连续性｜第230源章｜1",
+      "title": "哈迪斯身份",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第230源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7983,7 +7983,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-230-02",
-      "title": "新建立连续性｜第230源章｜2",
+      "title": "莱克伦知晓巴尔",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第230源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8010,7 +8010,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-230-03",
-      "title": "新建立连续性｜第230源章｜3",
+      "title": "宙斯利用动机",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第230源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8036,7 +8036,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-230-01",
-      "title": "未解决事项｜第230源章｜1",
+      "title": "众神清算详情",
       "memo": "诸神黄昏与莱克伦：未解决事项（第230源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8061,7 +8061,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-230-02",
-      "title": "未解决事项｜第230源章｜2",
+      "title": "莱克伦选择",
       "memo": "诸神黄昏与莱克伦：未解决事项（第230源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8087,7 +8087,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-230-03",
-      "title": "未解决事项｜第230源章｜3",
+      "title": "朋友灵魂",
       "memo": "诸神黄昏与莱克伦：未解决事项（第230源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8112,7 +8112,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-230-01",
-      "title": "主角龙形态｜第230源章｜1",
+      "title": "主角龙形态｜莱克伦.(5)｜黑发、黑衣、仅存在于镜面中的死亡分灵哈迪斯",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第230源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8138,7 +8138,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-230-01",
-      "title": "主角龙状态｜第230源章｜1",
+      "title": "主角龙状态｜莱克伦.(5)｜通过冥界安全环境向莱克伦披露正典",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第230源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8164,7 +8164,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-230-01",
-      "title": "主角龙知识边界｜第230源章｜1",
+      "title": "主角龙知识边界｜莱克伦.(5)｜莱克伦只知巴尔前世与预言开端，尚不知碎片清算和需要作出的选择",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第230源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8191,7 +8191,7 @@
     },
     {
       "id": "era-13-ragnarok-event-231-01",
-      "title": "事件｜第231源章｜1",
+      "title": "哈迪斯说明众神考虑神子、活祭升神并以三碎片换三十年",
       "memo": "诸神黄昏与莱克伦：事件（第231源章第1条）",
       "category": "event",
       "keys": [
@@ -8218,7 +8218,7 @@
     },
     {
       "id": "era-13-ragnarok-event-231-02",
-      "title": "事件｜第231源章｜2",
+      "title": "莱克伦认为成神会保留有害神并重蹈前世，明确拒绝神位、主张彻底清理",
       "memo": "诸神黄昏与莱克伦：事件（第231源章第2条）",
       "category": "event",
       "keys": [
@@ -8245,7 +8245,7 @@
     },
     {
       "id": "era-13-ragnarok-event-231-03",
-      "title": "事件｜第231源章｜3",
+      "title": "哈迪斯交还朋友灵魂并承认改写其原本冻死命运为被莱克伦打死，以召他入冥界",
       "memo": "诸神黄昏与莱克伦：事件（第231源章第3条）",
       "category": "event",
       "keys": [
@@ -8273,7 +8273,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-231-01",
-      "title": "世界设定事实｜第231源章｜1",
+      "title": "巴尔情感、肉体、智慧三碎片各换十年",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第231源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8301,7 +8301,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-231-02",
-      "title": "世界设定事实｜第231源章｜2",
+      "title": "哈迪斯可改写死亡命运并特例延寿",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第231源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8328,7 +8328,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-231-01",
-      "title": "新建立连续性｜第231源章｜1",
+      "title": "莱克伦拒绝神位",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第231源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8354,7 +8354,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-231-02",
-      "title": "新建立连续性｜第231源章｜2",
+      "title": "命运改写真相",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第231源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8379,7 +8379,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-231-03",
-      "title": "新建立连续性｜第231源章｜3",
+      "title": "朋友灵魂归还",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第231源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8404,7 +8404,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-231-01",
-      "title": "未解决事项｜第231源章｜1",
+      "title": "奥林匹斯如何强制",
       "memo": "诸神黄昏与莱克伦：未解决事项（第231源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8429,7 +8429,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-231-02",
-      "title": "未解决事项｜第231源章｜2",
+      "title": "清理执行",
       "memo": "诸神黄昏与莱克伦：未解决事项（第231源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8454,7 +8454,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-231-01",
-      "title": "主角龙形态｜第231源章｜1",
+      "title": "主角龙形态｜莱克伦.(6)｜镜中黑发分灵哈迪斯，代表本体执行密谈与命运改写",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第231源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8480,7 +8480,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-231-01",
-      "title": "主角龙状态｜第231源章｜1",
+      "title": "主角龙状态｜莱克伦.(6)｜获得莱克伦不成神的明确选择，将据此启动最终清理",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第231源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8506,7 +8506,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-231-01",
-      "title": "主角龙知识边界｜第231源章｜1",
+      "title": "主角龙知识边界｜莱克伦.(6)｜莱克伦不知道哈迪斯接下来的具体准备",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第231源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8533,7 +8533,7 @@
     },
     {
       "id": "era-13-ragnarok-event-232-01",
-      "title": "事件｜第232源章｜1",
+      "title": "后世蒂雅解释冥界密谈与公共版本差异",
       "memo": "诸神黄昏与莱克伦：事件（第232源章第1条）",
       "category": "event",
       "keys": [
@@ -8560,7 +8560,7 @@
     },
     {
       "id": "era-13-ragnarok-event-232-02",
-      "title": "事件｜第232源章｜2",
+      "title": "莱克伦成为首位活人进万神殿者，拒绝宴会与神位，坚持作为人类生死",
       "memo": "诸神黄昏与莱克伦：事件（第232源章第2条）",
       "category": "event",
       "keys": [
@@ -8587,7 +8587,7 @@
     },
     {
       "id": "era-13-ragnarok-event-232-03",
-      "title": "事件｜第232源章｜3",
+      "title": "奥林匹斯众神钳制莱克伦，以信徒自我牺牲的信仰强制改造其灵魂",
       "memo": "诸神黄昏与莱克伦：事件（第232源章第3条）",
       "category": "event",
       "keys": [
@@ -8615,7 +8615,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-232-01",
-      "title": "世界设定事实｜第232源章｜1",
+      "title": "莱克伦万神殿记录是最早相关著作",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第232源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8641,7 +8641,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-232-02",
-      "title": "世界设定事实｜第232源章｜2",
+      "title": "大量生命自我牺牲产生信仰，可不顾本人意愿将灵魂升格为神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第232源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8666,7 +8666,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-232-01",
-      "title": "新建立连续性｜第232源章｜1",
+      "title": "强制飞升仪式",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第232源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8691,7 +8691,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-232-02",
-      "title": "新建立连续性｜第232源章｜2",
+      "title": "莱克伦公开拒神",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第232源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8717,7 +8717,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-232-01",
-      "title": "未解决事项｜第232源章｜1",
+      "title": "蒂雅介入",
       "memo": "诸神黄昏与莱克伦：未解决事项（第232源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8743,7 +8743,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-232-02",
-      "title": "未解决事项｜第232源章｜2",
+      "title": "活祭命运",
       "memo": "诸神黄昏与莱克伦：未解决事项（第232源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8768,7 +8768,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-232-01",
-      "title": "主角龙形态｜第232源章｜1",
+      "title": "主角龙形态｜飞升.(1)｜后世龙族巫女口述",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第232源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8794,7 +8794,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-232-01",
-      "title": "主角龙状态｜第232源章｜1",
+      "title": "主角龙状态｜飞升.(1)｜预先通过哈迪斯得知莱克伦选择，强制仪式触发介入条件",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第232源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8821,7 +8821,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-232-01",
-      "title": "主角龙知识边界｜第232源章｜1",
+      "title": "主角龙知识边界｜飞升.(1)｜莱克伦与众神不知道蒂雅何时及如何介入",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第232源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8848,7 +8848,7 @@
     },
     {
       "id": "era-13-ragnarok-event-233-01",
-      "title": "事件｜第233源章｜1",
+      "title": "被强制神化的莱克伦感知信徒死亡，忍受骨肉金石化痛苦挣脱，以世界树棍棒击碎波塞冬头颅",
       "memo": "诸神黄昏与莱克伦：事件（第233源章第1条）",
       "category": "event",
       "keys": [
@@ -8875,7 +8875,7 @@
     },
     {
       "id": "era-13-ragnarok-event-233-02",
-      "title": "事件｜第233源章｜2",
+      "title": "宙斯识别世界树枝并终于推断生命女神从预言到神战都可能是在操纵众神自毁",
       "memo": "诸神黄昏与莱克伦：事件（第233源章第2条）",
       "category": "event",
       "keys": [
@@ -8902,7 +8902,7 @@
     },
     {
       "id": "era-13-ragnarok-event-233-03",
-      "title": "事件｜第233源章｜3",
+      "title": "莱克伦以棍棒吸引众神目光，给短剑涂不死蛇毒抵住自己喉咙，因曾入冥界不惧死亡",
       "memo": "诸神黄昏与莱克伦：事件（第233源章第3条）",
       "category": "event",
       "keys": [
@@ -8929,7 +8929,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-233-01",
-      "title": "世界设定事实｜第233源章｜1",
+      "title": "强制神化把骨骼变金属、血肉变岩石、信仰代替血液，过程极度痛苦",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第233源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8954,7 +8954,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-233-02",
-      "title": "世界设定事实｜第233源章｜2",
+      "title": "世界树尤克特拉希尔是万神殿前七大神之一，其枝武器可重创普通神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第233源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8981,7 +8981,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-233-03",
-      "title": "世界设定事实｜第233源章｜3",
+      "title": "不死蛇毒足以让神痛苦，可制成具有弑神威胁的毒刃",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第233源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9006,7 +9006,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-233-01",
-      "title": "新建立连续性｜第233源章｜1",
+      "title": "波塞冬被击碎",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第233源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9031,7 +9031,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-233-02",
-      "title": "新建立连续性｜第233源章｜2",
+      "title": "莱克伦毒刃自尽",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第233源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9057,7 +9057,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-233-03",
-      "title": "新建立连续性｜第233源章｜3",
+      "title": "宙斯识破部分计划",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第233源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9083,7 +9083,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-233-01",
-      "title": "未解决事项｜第233源章｜1",
+      "title": "自尽结果",
       "memo": "诸神黄昏与莱克伦：未解决事项（第233源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9108,7 +9108,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-233-02",
-      "title": "未解决事项｜第233源章｜2",
+      "title": "信徒是否获救",
       "memo": "诸神黄昏与莱克伦：未解决事项（第233源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9133,7 +9133,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-233-01",
-      "title": "主角龙形态｜第233源章｜1",
+      "title": "主角龙形态｜飞升.(2)｜本章未直接出现",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第233源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9160,7 +9160,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-233-01",
-      "title": "主角龙状态｜第233源章｜1",
+      "title": "主角龙状态｜飞升.(2)｜莱克伦自尽即将触发本体介入",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第233源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9186,7 +9186,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-233-01",
-      "title": "主角龙知识边界｜第233源章｜1",
+      "title": "主角龙知识边界｜飞升.(2)｜宙斯只形成假说，不知道蒂雅能逆转时间",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第233源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9214,7 +9214,7 @@
     },
     {
       "id": "era-13-ragnarok-event-234-01",
-      "title": "事件｜第234源章｜1",
+      "title": "毒刃触颈瞬间全世界静止",
       "memo": "诸神黄昏与莱克伦：事件（第234源章第1条）",
       "category": "event",
       "keys": [
@@ -9239,7 +9239,7 @@
     },
     {
       "id": "era-13-ragnarok-event-234-02",
-      "title": "事件｜第234源章｜2",
+      "title": "大角银发蒂雅本体出现，莱克伦无意识叫出盖亚",
       "memo": "诸神黄昏与莱克伦：事件（第234源章第2条）",
       "category": "event",
       "keys": [
@@ -9266,7 +9266,7 @@
     },
     {
       "id": "era-13-ragnarok-event-234-03",
-      "title": "事件｜第234源章｜3",
+      "title": "蒂雅只给宙斯发言权，确认莱克伦自愿成神本可满足条件但拒绝即结束，斥责强迫和活祭",
       "memo": "诸神黄昏与莱克伦：事件（第234源章第3条）",
       "category": "event",
       "keys": [
@@ -9294,7 +9294,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-234-01",
-      "title": "世界设定事实｜第234源章｜1",
+      "title": "蜥蜴人龙神信仰认为创世与毁灭龙神是同一存在两面，创造、维系并最终毁灭世界",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第234源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9319,7 +9319,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-234-02",
-      "title": "世界设定事实｜第234源章｜2",
+      "title": "蒂雅可借小装置使局部乃至现场时间逆转，复原肉体、信仰、死亡与行为",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第234源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9345,7 +9345,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-234-01",
-      "title": "新建立连续性｜第234源章｜1",
+      "title": "时间倒流",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第234源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9370,7 +9370,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-234-02",
-      "title": "新建立连续性｜第234源章｜2",
+      "title": "盖亚灵魂残痕",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第234源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9395,7 +9395,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-234-03",
-      "title": "新建立连续性｜第234源章｜3",
+      "title": "强制仪式完全撤销",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第234源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9420,7 +9420,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-234-01",
-      "title": "未解决事项｜第234源章｜1",
+      "title": "宙斯刑罚",
       "memo": "诸神黄昏与莱克伦：未解决事项（第234源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9446,7 +9446,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-234-02",
-      "title": "未解决事项｜第234源章｜2",
+      "title": "其余众神处置",
       "memo": "诸神黄昏与莱克伦：未解决事项（第234源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9471,7 +9471,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-234-01",
-      "title": "主角龙形态｜第234源章｜1",
+      "title": "主角龙形态｜飞升.(3)｜大角银发少女本体，外观与龙族巫女相同",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第234源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9497,7 +9497,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-234-01",
-      "title": "主角龙状态｜第234源章｜1",
+      "title": "主角龙状态｜飞升.(3)｜撤销强制飞升，开始收回宙斯冠冕",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第234源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9523,7 +9523,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-234-01",
-      "title": "主角龙知识边界｜第234源章｜1",
+      "title": "主角龙知识边界｜飞升.(3)｜莱克伦首次确认龙族巫女外观其实源自生命女神",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第234源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9550,7 +9550,7 @@
     },
     {
       "id": "era-13-ragnarok-event-235-01",
-      "title": "事件｜第235源章｜1",
+      "title": "蒂雅压服冠冕雷霆、捏碎黄金限制外壳，取回纯闪电月桂冠并收箱",
       "memo": "诸神黄昏与莱克伦：事件（第235源章第1条）",
       "category": "event",
       "keys": [
@@ -9576,7 +9576,7 @@
     },
     {
       "id": "era-13-ragnarok-event-235-02",
-      "title": "事件｜第235源章｜2",
+      "title": "众神推责并以慈悲求饶",
       "memo": "诸神黄昏与莱克伦：事件（第235源章第2条）",
       "category": "event",
       "keys": [
@@ -9604,7 +9604,7 @@
     },
     {
       "id": "era-13-ragnarok-event-235-03",
-      "title": "事件｜第235源章｜3",
+      "title": "蒂雅认为宙斯连做人都奢侈，将其肉体瓦解",
       "memo": "诸神黄昏与莱克伦：事件（第235源章第3条）",
       "category": "event",
       "keys": [
@@ -9631,7 +9631,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-235-01",
-      "title": "世界设定事实｜第235源章｜1",
+      "title": "黄金月桂冠只是限制器",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第235源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9657,7 +9657,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-235-02",
-      "title": "世界设定事实｜第235源章｜2",
+      "title": "宙斯是巴尔失联分灵独立后的神，其肉体主要靠巴尔权柄维持",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第235源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9684,7 +9684,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-235-03",
-      "title": "世界设定事实｜第235源章｜3",
+      "title": "宙斯的诅咒与蒂雅赐名同时发生",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第235源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9711,7 +9711,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-235-01",
-      "title": "新建立连续性｜第235源章｜1",
+      "title": "神王冠冕归还",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第235源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9736,7 +9736,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-235-02",
-      "title": "新建立连续性｜第235源章｜2",
+      "title": "宙斯化别西卜",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第235源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9762,7 +9762,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-235-03",
-      "title": "新建立连续性｜第235源章｜3",
+      "title": "生命世界禁入诅咒",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第235源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9787,7 +9787,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-235-01",
-      "title": "未解决事项｜第235源章｜1",
+      "title": "诅咒效力",
       "memo": "诸神黄昏与莱克伦：未解决事项（第235源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9812,7 +9812,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-235-02",
-      "title": "未解决事项｜第235源章｜2",
+      "title": "众神集体处置",
       "memo": "诸神黄昏与莱克伦：未解决事项（第235源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9837,7 +9837,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-235-01",
-      "title": "主角龙形态｜第235源章｜1",
+      "title": "主角龙形态｜飞升.(4)｜大角银发生命女神本体，手持闪电冠冕",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第235源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9862,7 +9862,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-235-01",
-      "title": "主角龙状态｜第235源章｜1",
+      "title": "主角龙状态｜飞升.(4)｜集齐巴尔外在碎片并完成宙斯个人清算",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第235源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9889,7 +9889,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-235-01",
-      "title": "主角龙知识边界｜第235源章｜1",
+      "title": "主角龙知识边界｜飞升.(4)｜宙斯诅咒是否有效本章未验证",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第235源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9915,7 +9915,7 @@
     },
     {
       "id": "era-13-ragnarok-event-236-01",
-      "title": "事件｜第236源章｜1",
+      "title": "蒂雅放走失忆苍蝇别西卜，召来数十名伪装生命巡礼者的龙族，将众神分别囚禁回各神殿",
       "memo": "诸神黄昏与莱克伦：事件（第236源章第1条）",
       "category": "event",
       "keys": [
@@ -9941,7 +9941,7 @@
     },
     {
       "id": "era-13-ragnarok-event-236-02",
-      "title": "事件｜第236源章｜2",
+      "title": "蒂雅承认莱克伦提前被召和自尽打乱原定提坦之战，需自己填补信仰空白",
       "memo": "诸神黄昏与莱克伦：事件（第236源章第2条）",
       "category": "event",
       "keys": [
@@ -9968,7 +9968,7 @@
     },
     {
       "id": "era-13-ragnarok-event-236-03",
-      "title": "事件｜第236源章｜3",
+      "title": "后世公共史为蒂雅复活自尽莱克伦",
       "memo": "诸神黄昏与莱克伦：事件（第236源章第3条）",
       "category": "event",
       "keys": [
@@ -9996,7 +9996,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-236-01",
-      "title": "世界设定事实｜第236源章｜1",
+      "title": "多数纯血龙以生命朝圣者身份活动或隐居，仅凭肉体和魔力即可比肩普通神",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第236源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10021,7 +10021,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-236-02",
-      "title": "世界设定事实｜第236源章｜2",
+      "title": "蒂雅修改莱克伦记忆与其书写倾向结合，制造复活英雄的公共史并把神信仰转向自己",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第236源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10048,7 +10048,7 @@
     },
     {
       "id": "era-13-ragnarok-world-fact-236-03",
-      "title": "世界设定事实｜第236源章｜3",
+      "title": "三愿魔法海螺是故事原型，可实现蒂雅能力范围内的三个愿望",
       "memo": "诸神黄昏与莱克伦：世界设定事实（第236源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10074,7 +10074,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-236-01",
-      "title": "新建立连续性｜第236源章｜1",
+      "title": "众神分殿囚禁",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第236源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10099,7 +10099,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-236-02",
-      "title": "新建立连续性｜第236源章｜2",
+      "title": "莱克伦记忆编辑",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第236源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10125,7 +10125,7 @@
     },
     {
       "id": "era-13-ragnarok-continuity-new-236-03",
-      "title": "新建立连续性｜第236源章｜3",
+      "title": "三愿海螺交换",
       "memo": "诸神黄昏与莱克伦：新建立连续性（第236源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10150,7 +10150,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-236-01",
-      "title": "未解决事项｜第236源章｜1",
+      "title": "人类时代治理",
       "memo": "诸神黄昏与莱克伦：未解决事项（第236源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10175,7 +10175,7 @@
     },
     {
       "id": "era-13-ragnarok-unresolved-236-02",
-      "title": "未解决事项｜第236源章｜2",
+      "title": "巴尔多世回归",
       "memo": "诸神黄昏与莱克伦：未解决事项（第236源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10201,7 +10201,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-form-236-01",
-      "title": "主角龙形态｜第236源章｜1",
+      "title": "主角龙形态｜飞升.(5)｜神代终局为大角银发本体",
       "memo": "诸神黄昏与莱克伦：主角龙形态（第236源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10227,7 +10227,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-state-236-01",
-      "title": "主角龙状态｜第236源章｜1",
+      "title": "主角龙状态｜飞升.(5)｜完成奥林匹斯拘禁、编辑公开史并维持巴尔秘密",
       "memo": "诸神黄昏与莱克伦：主角龙状态（第236源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10253,7 +10253,7 @@
     },
     {
       "id": "era-13-ragnarok-protagonist-knowledge-236-01",
-      "title": "主角龙知识边界｜第236源章｜1",
+      "title": "主角龙知识边界｜飞升.(5)｜研究者已接近真实身份但主动停止",
       "memo": "诸神黄昏与莱克伦：主角龙知识边界（第236源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10280,7 +10280,7 @@
     },
     {
       "id": "era-13-ragnarok-secondary-character-01",
-      "title": "次要人物｜萨加玛塔",
+      "title": "萨加玛塔",
       "memo": "诸神黄昏与莱克伦：次要人物 萨加玛塔",
       "category": "secondary-character",
       "keys": [
@@ -10306,7 +10306,7 @@
     },
     {
       "id": "era-13-ragnarok-secondary-character-02",
-      "title": "次要人物｜阿斯忒里俄斯",
+      "title": "阿斯忒里俄斯",
       "memo": "诸神黄昏与莱克伦：次要人物 阿斯忒里俄斯",
       "category": "secondary-character",
       "keys": [
@@ -10332,7 +10332,7 @@
     },
     {
       "id": "era-13-ragnarok-secondary-character-03",
-      "title": "次要人物｜后世人类研究者",
+      "title": "后世人类研究者",
       "memo": "诸神黄昏与莱克伦：次要人物 后世人类研究者",
       "category": "secondary-character",
       "keys": [
@@ -10370,7 +10370,7 @@
     },
     {
       "id": "era-13-ragnarok-secondary-character-04",
-      "title": "次要人物｜奥库斯",
+      "title": "奥库斯",
       "memo": "诸神黄昏与莱克伦：次要人物 奥库斯",
       "category": "secondary-character",
       "keys": [

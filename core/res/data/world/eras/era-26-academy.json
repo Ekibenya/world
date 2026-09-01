@@ -3244,7 +3244,7 @@
   "lorebook": [
     {
       "id": "era-26-academy-core",
-      "title": "帝国学院与有轨电车｜时代边界",
+      "title": "帝国学院与有轨电车",
       "memo": "帝国学院与有轨电车：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3259,7 +3259,7 @@
     },
     {
       "id": "era-26-academy-event-549-01",
-      "title": "事件｜第549源章｜1",
+      "title": "视角回到主龙：西比拉对露西亚的记忆抹除只在表层暂时成功",
       "memo": "帝国学院与有轨电车：事件（第549源章第1条）",
       "category": "event",
       "keys": [
@@ -3286,7 +3286,7 @@
     },
     {
       "id": "era-26-academy-event-549-02",
-      "title": "事件｜第549源章｜2",
+      "title": "主龙获知银灰灭世预言，怀疑自己是否会因厌倦，回地球机会或幻灭而毁界",
       "memo": "帝国学院与有轨电车：事件（第549源章第2条）",
       "category": "event",
       "keys": [
@@ -3312,7 +3312,7 @@
     },
     {
       "id": "era-26-academy-event-549-03",
-      "title": "事件｜第549源章｜3",
+      "title": "鲁贝洛斯经守护龙选帝保持稳健，重建天狼星并扩张",
       "memo": "帝国学院与有轨电车：事件（第549源章第3条）",
       "category": "event",
       "keys": [
@@ -3337,7 +3337,7 @@
     },
     {
       "id": "era-26-academy-event-549-04",
-      "title": "事件｜第549源章｜4",
+      "title": "现任老皇帝提出把天狼星建成跨国家种族的天才教育城市",
       "memo": "帝国学院与有轨电车：事件（第549源章第4条）",
       "category": "event",
       "keys": [
@@ -3362,7 +3362,7 @@
     },
     {
       "id": "era-26-academy-world-fact-549-01",
-      "title": "世界设定事实｜第549源章｜1",
+      "title": "露西亚灵魂黑匣子记录全部见闻，睡眠时经角帽传给本体，并能诱导潜意识",
       "memo": "帝国学院与有轨电车：世界设定事实（第549源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3389,7 +3389,7 @@
     },
     {
       "id": "era-26-academy-world-fact-549-02",
-      "title": "世界设定事实｜第549源章｜2",
+      "title": "守护龙跨代选帝使皇帝能力持续充足，帝国重建天狼星并蚕食南罗马尼亚领土",
       "memo": "帝国学院与有轨电车：世界设定事实（第549源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3414,7 +3414,7 @@
     },
     {
       "id": "era-26-academy-world-fact-549-03",
-      "title": "世界设定事实｜第549源章｜3",
+      "title": "丰饶女神像力量移至地下城造成全球地力下降，重农业南罗马尼亚迅速衰败至王国规模",
       "memo": "帝国学院与有轨电车：世界设定事实（第549源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3439,7 +3439,7 @@
     },
     {
       "id": "era-26-academy-world-fact-549-04",
-      "title": "世界设定事实｜第549源章｜4",
+      "title": "世界仍有地下城，冒险者，宗教，魔族，魔王，族群冲突及参宿四四年一届种族大战",
       "memo": "帝国学院与有轨电车：世界设定事实（第549源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -3465,7 +3465,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-549-01",
-      "title": "新建立连续性｜第549源章｜1",
+      "title": "露西亚灵魂黑匣子",
       "memo": "帝国学院与有轨电车：新建立连续性（第549源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3491,7 +3491,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-549-02",
-      "title": "新建立连续性｜第549源章｜2",
+      "title": "本体获知真相",
       "memo": "帝国学院与有轨电车：新建立连续性（第549源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3516,7 +3516,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-549-03",
-      "title": "新建立连续性｜第549源章｜3",
+      "title": "全球地力下降",
       "memo": "帝国学院与有轨电车：新建立连续性（第549源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3541,7 +3541,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-549-04",
-      "title": "新建立连续性｜第549源章｜4",
+      "title": "教育城市构想",
       "memo": "帝国学院与有轨电车：新建立连续性（第549源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3566,7 +3566,7 @@
     },
     {
       "id": "era-26-academy-unresolved-549-01",
-      "title": "未解决事项｜第549源章｜1",
+      "title": "灭世原因",
       "memo": "帝国学院与有轨电车：未解决事项（第549源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3591,7 +3591,7 @@
     },
     {
       "id": "era-26-academy-unresolved-549-02",
-      "title": "未解决事项｜第549源章｜2",
+      "title": "学院具体协助",
       "memo": "帝国学院与有轨电车：未解决事项（第549源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3616,7 +3616,7 @@
     },
     {
       "id": "era-26-academy-unresolved-549-03",
-      "title": "未解决事项｜第549源章｜3",
+      "title": "肥料研发",
       "memo": "帝国学院与有轨电车：未解决事项（第549源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3641,7 +3641,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-549-01",
-      "title": "主角龙形态｜第549源章｜1",
+      "title": "主角龙形态｜守护龙在注视着｜主龙本体意识通过黑匣子观察露西亚",
       "memo": "帝国学院与有轨电车：主角龙形态（第549源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3667,7 +3667,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-549-01",
-      "title": "主角龙状态｜第549源章｜1",
+      "title": "主角龙状态｜守护龙在注视着｜主龙已经获知白塔真相和自身灭世预言",
       "memo": "帝国学院与有轨电车：主角龙状态（第549源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3693,7 +3693,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-549-01",
-      "title": "主角龙知识边界｜第549源章｜1",
+      "title": "主角龙知识边界｜守护龙在注视着｜灭世预言真伪与原因未证",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第549源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3718,7 +3718,7 @@
     },
     {
       "id": "era-26-academy-event-550-01",
-      "title": "事件｜第550源章｜1",
+      "title": "皇帝计划在重建天狼星跨国跨族招收天才，表面提供顶尖教育",
       "memo": "帝国学院与有轨电车：事件（第550源章第1条）",
       "category": "event",
       "keys": [
@@ -3743,7 +3743,7 @@
     },
     {
       "id": "era-26-academy-event-550-02",
-      "title": "事件｜第550源章｜2",
+      "title": "天狼星因陷落史难吸引居民",
       "memo": "帝国学院与有轨电车：事件（第550源章第2条）",
       "category": "event",
       "keys": [
@@ -3768,7 +3768,7 @@
     },
     {
       "id": "era-26-academy-event-550-03",
-      "title": "事件｜第550源章｜3",
+      "title": "反帝传单准确揭露学院制造亲帝派的软实力目标，并引述第一届新生见银龙飞越后的敬畏",
       "memo": "帝国学院与有轨电车：事件（第550源章第3条）",
       "category": "event",
       "keys": [
@@ -3793,7 +3793,7 @@
     },
     {
       "id": "era-26-academy-event-550-04",
-      "title": "事件｜第550源章｜4",
+      "title": "十年间主龙持续转生地球灵魂并扩大通道，期望将来送回灵魂重塑肉身实现西蒙归乡愿望",
       "memo": "帝国学院与有轨电车：事件（第550源章第4条）",
       "category": "event",
       "keys": [
@@ -3819,7 +3819,7 @@
     },
     {
       "id": "era-26-academy-world-fact-550-01",
-      "title": "世界设定事实｜第550源章｜1",
+      "title": "帝国学院公开宗旨为顶尖教育，隐藏目标是塑造各国未来精英亲帝网络",
       "memo": "帝国学院与有轨电车：世界设定事实（第550源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3844,7 +3844,7 @@
     },
     {
       "id": "era-26-academy-world-fact-550-02",
-      "title": "世界设定事实｜第550源章｜2",
+      "title": "十年筹建期内蜥蜴人偶然赢得参宿四种族大战",
       "memo": "帝国学院与有轨电车：世界设定事实（第550源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3869,7 +3869,7 @@
     },
     {
       "id": "era-26-academy-world-fact-550-03",
-      "title": "世界设定事实｜第550源章｜3",
+      "title": "天狼星十年后竣工，帝国学院拟教授战技、七塔魔法、精灵术、矮人附魔和蜥蜴人咒术",
       "memo": "帝国学院与有轨电车：世界设定事实（第550源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3894,7 +3894,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-550-01",
-      "title": "新建立连续性｜第550源章｜1",
+      "title": "帝国学院计划",
       "memo": "帝国学院与有轨电车：新建立连续性（第550源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3919,7 +3919,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-550-02",
-      "title": "新建立连续性｜第550源章｜2",
+      "title": "天狼星教育城",
       "memo": "帝国学院与有轨电车：新建立连续性（第550源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3944,7 +3944,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-550-03",
-      "title": "新建立连续性｜第550源章｜3",
+      "title": "首届银龙飞越",
       "memo": "帝国学院与有轨电车：新建立连续性（第550源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3969,7 +3969,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-550-04",
-      "title": "新建立连续性｜第550源章｜4",
+      "title": "西蒙归乡通道",
       "memo": "帝国学院与有轨电车：新建立连续性（第550源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3995,7 +3995,7 @@
     },
     {
       "id": "era-26-academy-unresolved-550-01",
-      "title": "未解决事项｜第550源章｜1",
+      "title": "学院招生与师资",
       "memo": "帝国学院与有轨电车：未解决事项（第550源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4020,7 +4020,7 @@
     },
     {
       "id": "era-26-academy-unresolved-550-02",
-      "title": "未解决事项｜第550源章｜2",
+      "title": "秘传课程合作",
       "memo": "帝国学院与有轨电车：未解决事项（第550源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4045,7 +4045,7 @@
     },
     {
       "id": "era-26-academy-unresolved-550-03",
-      "title": "未解决事项｜第550源章｜3",
+      "title": "西蒙愿望实现时间",
       "memo": "帝国学院与有轨电车：未解决事项（第550源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4071,7 +4071,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-550-01",
-      "title": "主角龙形态｜第550源章｜1",
+      "title": "主角龙形态｜帝国学院.(1)｜主龙在学院首届入学仪式以巨大完整银龙形态划过天际",
       "memo": "帝国学院与有轨电车：主角龙形态（第550源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4096,7 +4096,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-550-01",
-      "title": "主角龙状态｜第550源章｜1",
+      "title": "主角龙状态｜帝国学院.(1)｜她的存在被帝国主动用作跨国教育与软实力象征",
       "memo": "帝国学院与有轨电车：主角龙状态（第550源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4122,7 +4122,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-550-01",
-      "title": "主角龙知识边界｜第550源章｜1",
+      "title": "主角龙知识边界｜帝国学院.(1)｜学院最终能否获得各族秘传师资尚未确定",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第550源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4147,7 +4147,7 @@
     },
     {
       "id": "era-26-academy-event-551-01",
-      "title": "事件｜第551源章｜1",
+      "title": "数十年后学院请求紫塔教授，露西亚主动请任",
       "memo": "帝国学院与有轨电车：事件（第551源章第1条）",
       "category": "event",
       "keys": [
@@ -4173,7 +4173,7 @@
     },
     {
       "id": "era-26-academy-event-551-02",
-      "title": "事件｜第551源章｜2",
+      "title": "露西亚以两件礼物促成交接，可窥异世界知识的单片眼镜，以及事故中诞生",
       "memo": "帝国学院与有轨电车：事件（第551源章第2条）",
       "category": "event",
       "keys": [
@@ -4200,7 +4200,7 @@
     },
     {
       "id": "era-26-academy-event-551-03",
-      "title": "事件｜第551源章｜3",
+      "title": "贤者之石成为历代紫塔主传承、无人复刻的最终课题",
       "memo": "帝国学院与有轨电车：事件（第551源章第3条）",
       "category": "event",
       "keys": [
@@ -4226,7 +4226,7 @@
     },
     {
       "id": "era-26-academy-event-551-04",
-      "title": "事件｜第551源章｜4",
+      "title": "露西亚抵达天狼星，计划把城市提升到普罗西亚水准",
       "memo": "帝国学院与有轨电车：事件（第551源章第4条）",
       "category": "event",
       "keys": [
@@ -4252,7 +4252,7 @@
     },
     {
       "id": "era-26-academy-world-fact-551-01",
-      "title": "世界设定事实｜第551源章｜1",
+      "title": "紫塔成立已数十年，露西亚容貌仍如少女，引发其为长生种传闻",
       "memo": "帝国学院与有轨电车：世界设定事实（第551源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4278,7 +4278,7 @@
     },
     {
       "id": "era-26-academy-world-fact-551-02",
-      "title": "世界设定事实｜第551源章｜2",
+      "title": "露西亚造出异世界知识单片眼镜与唯一贤者之石",
       "memo": "帝国学院与有轨电车：世界设定事实（第551源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4304,7 +4304,7 @@
     },
     {
       "id": "era-26-academy-world-fact-551-03",
-      "title": "世界设定事实｜第551源章｜3",
+      "title": "贤者之石后来作为历代紫塔主传承宝物与终极复刻课题，展厅展示及售卖仿制装饰品",
       "memo": "帝国学院与有轨电车：世界设定事实（第551源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4329,7 +4329,7 @@
     },
     {
       "id": "era-26-academy-world-fact-551-04",
-      "title": "世界设定事实｜第551源章｜4",
+      "title": "露西亚被称紫塔宝贝，是炼金术师偶像，憧憬，梦想与希望，长期收大量来信，礼物",
       "memo": "帝国学院与有轨电车：世界设定事实（第551源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4355,7 +4355,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-551-01",
-      "title": "新建立连续性｜第551源章｜1",
+      "title": "帕拉塞尔苏斯继任",
       "memo": "帝国学院与有轨电车：新建立连续性（第551源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4380,7 +4380,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-551-02",
-      "title": "新建立连续性｜第551源章｜2",
+      "title": "贤者之石",
       "memo": "帝国学院与有轨电车：新建立连续性（第551源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4405,7 +4405,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-551-03",
-      "title": "新建立连续性｜第551源章｜3",
+      "title": "异世界知识单片镜",
       "memo": "帝国学院与有轨电车：新建立连续性（第551源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4430,7 +4430,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-551-04",
-      "title": "新建立连续性｜第551源章｜4",
+      "title": "露西亚卸任",
       "memo": "帝国学院与有轨电车：新建立连续性（第551源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4456,7 +4456,7 @@
     },
     {
       "id": "era-26-academy-unresolved-551-01",
-      "title": "未解决事项｜第551源章｜1",
+      "title": "贤者之石事故成因",
       "memo": "帝国学院与有轨电车：未解决事项（第551源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4481,7 +4481,7 @@
     },
     {
       "id": "era-26-academy-unresolved-551-02",
-      "title": "未解决事项｜第551源章｜2",
+      "title": "学院教授生活",
       "memo": "帝国学院与有轨电车：未解决事项（第551源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4506,7 +4506,7 @@
     },
     {
       "id": "era-26-academy-unresolved-551-03",
-      "title": "未解决事项｜第551源章｜3",
+      "title": "紫塔无露西亚后的发展",
       "memo": "帝国学院与有轨电车：未解决事项（第551源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4532,7 +4532,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-551-01",
-      "title": "主角龙形态｜第551源章｜1",
+      "title": "主角龙形态｜帝国学院.(2)｜露西亚以数十年不老的银发少女，前紫塔主",
       "memo": "帝国学院与有轨电车：主角龙形态（第551源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4558,7 +4558,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-551-01",
-      "title": "主角龙状态｜第551源章｜1",
+      "title": "主角龙状态｜帝国学院.(2)｜她完成首领传承并恢复自由行动，携炼金文明积累回到鲁贝洛斯",
       "memo": "帝国学院与有轨电车：主角龙状态（第551源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4583,7 +4583,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-551-01",
-      "title": "主角龙知识边界｜第551源章｜1",
+      "title": "主角龙知识边界｜帝国学院.(2)｜贤者之石部分由事故偶然诞生且本人无法复刻",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第551源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4608,7 +4608,7 @@
     },
     {
       "id": "era-26-academy-event-552-01",
-      "title": "事件｜第552源章｜1",
+      "title": "露西亚以炼金术强化并加高天狼星建筑至五层，发现学院设施优先而居民住宅未建",
       "memo": "帝国学院与有轨电车：事件（第552源章第1条）",
       "category": "event",
       "keys": [
@@ -4635,7 +4635,7 @@
     },
     {
       "id": "era-26-academy-event-552-02",
-      "title": "事件｜第552源章｜2",
+      "title": "拉皮斯循商团消息赶来责骂露西亚不告而别，强调她个人价值大于整个无她紫塔",
       "memo": "帝国学院与有轨电车：事件（第552源章第2条）",
       "category": "event",
       "keys": [
@@ -4663,7 +4663,7 @@
     },
     {
       "id": "era-26-academy-event-552-03",
-      "title": "事件｜第552源章｜3",
+      "title": "露西亚计划给零基础学生体验式炼金课，用魔石回路让专门材料按意图形变",
       "memo": "帝国学院与有轨电车：事件（第552源章第3条）",
       "category": "event",
       "keys": [
@@ -4689,7 +4689,7 @@
     },
     {
       "id": "era-26-academy-event-552-04",
-      "title": "事件｜第552源章｜4",
+      "title": "拉皮斯从地球儿童史莱姆玩具提出教材材料",
       "memo": "帝国学院与有轨电车：事件（第552源章第4条）",
       "category": "event",
       "keys": [
@@ -4716,7 +4716,7 @@
     },
     {
       "id": "era-26-academy-world-fact-552-01",
-      "title": "世界设定事实｜第552源章｜1",
+      "title": "露西亚将天狼星既有建筑由一两层扩为五层并强化耐久，城市开始超过一般繁华程度",
       "memo": "帝国学院与有轨电车：世界设定事实（第552源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4742,7 +4742,7 @@
     },
     {
       "id": "era-26-academy-world-fact-552-02",
-      "title": "世界设定事实｜第552源章｜2",
+      "title": "拉皮斯商团参与天狼星重建材料供应",
       "memo": "帝国学院与有轨电车：世界设定事实（第552源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4769,7 +4769,7 @@
     },
     {
       "id": "era-26-academy-world-fact-552-03",
-      "title": "世界设定事实｜第552源章｜3",
+      "title": "学院基础炼金装置拟用魔石回路与可随意念变形的安全材料",
       "memo": "帝国学院与有轨电车：世界设定事实（第552源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4794,7 +4794,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-552-01",
-      "title": "新建立连续性｜第552源章｜1",
+      "title": "天狼星五层扩建",
       "memo": "帝国学院与有轨电车：新建立连续性（第552源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4819,7 +4819,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-552-02",
-      "title": "新建立连续性｜第552源章｜2",
+      "title": "体验式炼金课",
       "memo": "帝国学院与有轨电车：新建立连续性（第552源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4844,7 +4844,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-552-03",
-      "title": "新建立连续性｜第552源章｜3",
+      "title": "史莱姆教材构想",
       "memo": "帝国学院与有轨电车：新建立连续性（第552源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4869,7 +4869,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-552-04",
-      "title": "新建立连续性｜第552源章｜4",
+      "title": "拉皮斯追到学院",
       "memo": "帝国学院与有轨电车：新建立连续性（第552源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4895,7 +4895,7 @@
     },
     {
       "id": "era-26-academy-unresolved-552-01",
-      "title": "未解决事项｜第552源章｜1",
+      "title": "基础装置成品",
       "memo": "帝国学院与有轨电车：未解决事项（第552源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4920,7 +4920,7 @@
     },
     {
       "id": "era-26-academy-unresolved-552-02",
-      "title": "未解决事项｜第552源章｜2",
+      "title": "学院开学",
       "memo": "帝国学院与有轨电车：未解决事项（第552源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4945,7 +4945,7 @@
     },
     {
       "id": "era-26-academy-unresolved-552-03",
-      "title": "未解决事项｜第552源章｜3",
+      "title": "露西亚与学生关系",
       "memo": "帝国学院与有轨电车：未解决事项（第552源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4971,7 +4971,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-552-01",
-      "title": "主角龙形态｜第552源章｜1",
+      "title": "主角龙形态｜帝国学院.(3)｜露西亚以不老银发少女",
       "memo": "帝国学院与有轨电车：主角龙形态（第552源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4997,7 +4997,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-552-01",
-      "title": "主角龙状态｜第552源章｜1",
+      "title": "主角龙状态｜帝国学院.(3)｜她试图脱离紫塔人脉获得自由，却保留与拉皮斯的长期互助",
       "memo": "帝国学院与有轨电车：主角龙状态（第552源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5023,7 +5023,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-552-01",
-      "title": "主角龙知识边界｜第552源章｜1",
+      "title": "主角龙知识边界｜帝国学院.(3)｜基础教学材料尚在构想",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第552源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5048,7 +5048,7 @@
     },
     {
       "id": "era-26-academy-event-553-01",
-      "title": "事件｜第553源章｜1",
+      "title": "帝国为灾区选址、恢复经济、全球招师生和政治游说投入巨资",
       "memo": "帝国学院与有轨电车：事件（第553源章第1条）",
       "category": "event",
       "keys": [
@@ -5073,7 +5073,7 @@
     },
     {
       "id": "era-26-academy-event-553-02",
-      "title": "事件｜第553源章｜2",
+      "title": "学院集结七塔魔法师、精灵、矮人、蜥蜴人与兽人、埃波纳骑士和万神殿祭司",
       "memo": "帝国学院与有轨电车：事件（第553源章第2条）",
       "category": "event",
       "keys": [
@@ -5100,7 +5100,7 @@
     },
     {
       "id": "era-26-academy-event-553-03",
-      "title": "事件｜第553源章｜3",
+      "title": "首届各国只送可弃但有一定天赋的适度人才",
       "memo": "帝国学院与有轨电车：事件（第553源章第3条）",
       "category": "event",
       "keys": [
@@ -5125,7 +5125,7 @@
     },
     {
       "id": "era-26-academy-event-553-04",
-      "title": "事件｜第553源章｜4",
+      "title": "露西亚完成基础炼金铁板和人工史莱姆教具",
       "memo": "帝国学院与有轨电车：事件（第553源章第4条）",
       "category": "event",
       "keys": [
@@ -5152,7 +5152,7 @@
     },
     {
       "id": "era-26-academy-world-fact-553-01",
-      "title": "世界设定事实｜第553源章｜1",
+      "title": "南罗马尼亚已正式降称罗马尼亚王国",
       "memo": "帝国学院与有轨电车：世界设定事实（第553源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5177,7 +5177,7 @@
     },
     {
       "id": "era-26-academy-world-fact-553-02",
-      "title": "世界设定事实｜第553源章｜2",
+      "title": "学院师资含埃波纳骑士、万神殿祭司、各塔魔法师、精灵、矮人、蜥蜴人和兽人",
       "memo": "帝国学院与有轨电车：世界设定事实（第553源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5204,7 +5204,7 @@
     },
     {
       "id": "era-26-academy-world-fact-553-03",
-      "title": "世界设定事实｜第553源章｜3",
+      "title": "露西亚基础教具由小炼金铁板和人工史莱姆组成",
       "memo": "帝国学院与有轨电车：世界设定事实（第553源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5230,7 +5230,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-553-01",
-      "title": "新建立连续性｜第553源章｜1",
+      "title": "全球教师阵容",
       "memo": "帝国学院与有轨电车：新建立连续性（第553源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5255,7 +5255,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-553-02",
-      "title": "新建立连续性｜第553源章｜2",
+      "title": "首届适度人才",
       "memo": "帝国学院与有轨电车：新建立连续性（第553源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5280,7 +5280,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-553-03",
-      "title": "新建立连续性｜第553源章｜3",
+      "title": "女仆型魔像构想",
       "memo": "帝国学院与有轨电车：新建立连续性（第553源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5305,7 +5305,7 @@
     },
     {
       "id": "era-26-academy-unresolved-553-01",
-      "title": "未解决事项｜第553源章｜1",
+      "title": "开学典礼",
       "memo": "帝国学院与有轨电车：未解决事项（第553源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5330,7 +5330,7 @@
     },
     {
       "id": "era-26-academy-unresolved-553-02",
-      "title": "未解决事项｜第553源章｜2",
+      "title": "第一堂炼金课",
       "memo": "帝国学院与有轨电车：未解决事项（第553源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5355,7 +5355,7 @@
     },
     {
       "id": "era-26-academy-unresolved-553-03",
-      "title": "未解决事项｜第553源章｜3",
+      "title": "魔像完成度",
       "memo": "帝国学院与有轨电车：未解决事项（第553源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5380,7 +5380,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-553-01",
-      "title": "主角龙形态｜第553源章｜1",
+      "title": "主角龙形态｜帝国学院.(4)｜主龙本体为学院幕后守护者",
       "memo": "帝国学院与有轨电车：主角龙形态（第553源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5406,7 +5406,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-553-01",
-      "title": "主角龙状态｜第553源章｜1",
+      "title": "主角龙状态｜帝国学院.(4)｜主龙把学院日常安全默默托付给自己的分身，同时只以典礼完整龙形公开现身",
       "memo": "帝国学院与有轨电车：主角龙状态（第553源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5431,7 +5431,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-553-01",
-      "title": "主角龙知识边界｜第553源章｜1",
+      "title": "主角龙知识边界｜帝国学院.(4)｜首届学生不是各国顶尖，只是适度人才",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第553源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5456,7 +5456,7 @@
     },
     {
       "id": "era-26-academy-event-554-01",
-      "title": "事件｜第554源章｜1",
+      "title": "首届入学者回忆守护龙巨型银躯划过晴空，存在感压倒总长，教授和城市成就",
       "memo": "帝国学院与有轨电车：事件（第554源章第1条）",
       "category": "event",
       "keys": [
@@ -5481,7 +5481,7 @@
     },
     {
       "id": "era-26-academy-event-554-02",
-      "title": "事件｜第554源章｜2",
+      "title": "露西亚首课以沉稳教授身份自介，女仆石像魔像分发教具并引发伽拉忒亚联想",
       "memo": "帝国学院与有轨电车：事件（第554源章第2条）",
       "category": "event",
       "keys": [
@@ -5507,7 +5507,7 @@
     },
     {
       "id": "era-26-academy-event-554-03",
-      "title": "事件｜第554源章｜3",
+      "title": "学生按蓝圈嵌魔石，黑圈放粉液材料，黄圈双手注入意图",
       "memo": "帝国学院与有轨电车：事件（第554源章第3条）",
       "category": "event",
       "keys": [
@@ -5532,7 +5532,7 @@
     },
     {
       "id": "era-26-academy-event-554-04",
-      "title": "事件｜第554源章｜4",
+      "title": "露西亚把人工史莱姆依次变长方，薄纸，巨龙并凝固，解释物质操控到性质变化的炼金起源",
       "memo": "帝国学院与有轨电车：事件（第554源章第4条）",
       "category": "event",
       "keys": [
@@ -5558,7 +5558,7 @@
     },
     {
       "id": "era-26-academy-world-fact-554-01",
-      "title": "世界设定事实｜第554源章｜1",
+      "title": "守护龙首次学院飞越给学生与教授造成现实冲击，一年后仍为多数入学者最深印象",
       "memo": "帝国学院与有轨电车：世界设定事实（第554源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5583,7 +5583,7 @@
     },
     {
       "id": "era-26-academy-world-fact-554-02",
-      "title": "世界设定事实｜第554源章｜2",
+      "title": "露西亚首个女仆装石像魔像初期仅具搬运功能，形象让学生联想到爱丽丝的伽拉忒亚",
       "memo": "帝国学院与有轨电车：世界设定事实（第554源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5610,7 +5610,7 @@
     },
     {
       "id": "era-26-academy-world-fact-554-03",
-      "title": "世界设定事实｜第554源章｜3",
+      "title": "教具以蓝圈魔石，黑圈材料，黄圈意念输入工作",
       "memo": "帝国学院与有轨电车：世界设定事实（第554源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5635,7 +5635,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-554-01",
-      "title": "新建立连续性｜第554源章｜1",
+      "title": "首届守护龙飞越",
       "memo": "帝国学院与有轨电车：新建立连续性（第554源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5660,7 +5660,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-554-02",
-      "title": "新建立连续性｜第554源章｜2",
+      "title": "女仆石像魔像",
       "memo": "帝国学院与有轨电车：新建立连续性（第554源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5685,7 +5685,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-554-03",
-      "title": "新建立连续性｜第554源章｜3",
+      "title": "人工史莱姆首课",
       "memo": "帝国学院与有轨电车：新建立连续性（第554源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5710,7 +5710,7 @@
     },
     {
       "id": "era-26-academy-unresolved-554-01",
-      "title": "未解决事项｜第554源章｜1",
+      "title": "学生长期选择",
       "memo": "帝国学院与有轨电车：未解决事项（第554源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5735,7 +5735,7 @@
     },
     {
       "id": "era-26-academy-unresolved-554-02",
-      "title": "未解决事项｜第554源章｜2",
+      "title": "魔像后续改良",
       "memo": "帝国学院与有轨电车：未解决事项（第554源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5760,7 +5760,7 @@
     },
     {
       "id": "era-26-academy-unresolved-554-03",
-      "title": "未解决事项｜第554源章｜3",
+      "title": "第二届是否再现身",
       "memo": "帝国学院与有轨电车：未解决事项（第554源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5785,7 +5785,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-554-01",
-      "title": "主角龙形态｜第554源章｜1",
+      "title": "主角龙形态｜帝国学院.(5)｜同一时代主龙有两种可选表现，开学典礼天空中的巨大银龙",
       "memo": "帝国学院与有轨电车：主角龙形态（第554源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5811,7 +5811,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-554-01",
-      "title": "主角龙状态｜第554源章｜1",
+      "title": "主角龙状态｜帝国学院.(5)｜本体用一次公开飞越塑造帝国学院神话，分身用可操作教具塑造炼金学习体验",
       "memo": "帝国学院与有轨电车：主角龙状态（第554源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5836,7 +5836,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-554-01",
-      "title": "主角龙知识边界｜第554源章｜1",
+      "title": "主角龙知识边界｜帝国学院.(5)｜首届学生只见银龙高空形态，不知道露西亚与守护龙同源",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第554源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5862,7 +5862,7 @@
     },
     {
       "id": "era-26-academy-event-555-01",
-      "title": "事件｜第555源章｜1",
+      "title": "第二学期炼金进阶人数降到约十人，因炼金仍需最低魔法天赋",
       "memo": "帝国学院与有轨电车：事件（第555源章第1条）",
       "category": "event",
       "keys": [
@@ -5888,7 +5888,7 @@
     },
     {
       "id": "era-26-academy-event-555-02",
-      "title": "事件｜第555源章｜2",
+      "title": "紫塔财富超过其余六塔总和",
       "memo": "帝国学院与有轨电车：事件（第555源章第2条）",
       "category": "event",
       "keys": [
@@ -5914,7 +5914,7 @@
     },
     {
       "id": "era-26-academy-event-555-03",
-      "title": "事件｜第555源章｜3",
+      "title": "主龙拒绝第二次入学飞越，认为稀有才有价值且自己要睡觉",
       "memo": "帝国学院与有轨电车：事件（第555源章第3条）",
       "category": "event",
       "keys": [
@@ -5940,7 +5940,7 @@
     },
     {
       "id": "era-26-academy-event-555-04",
-      "title": "事件｜第555源章｜4",
+      "title": "学院一年教育使非顶尖学生显著成长并增加炼金志向，各国由人质怀疑转为考虑送更优秀",
       "memo": "帝国学院与有轨电车：事件（第555源章第4条）",
       "category": "event",
       "keys": [
@@ -5966,7 +5966,7 @@
     },
     {
       "id": "era-26-academy-world-fact-555-01",
-      "title": "世界设定事实｜第555源章｜1",
+      "title": "学院第二学期炼金进阶约十人，赤塔志向者逾五十",
       "memo": "帝国学院与有轨电车：世界设定事实（第555源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5991,7 +5991,7 @@
     },
     {
       "id": "era-26-academy-world-fact-555-02",
-      "title": "世界设定事实｜第555源章｜2",
+      "title": "紫塔财富超过其他六塔总和",
       "memo": "帝国学院与有轨电车：世界设定事实（第555源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6017,7 +6017,7 @@
     },
     {
       "id": "era-26-academy-world-fact-555-03",
-      "title": "世界设定事实｜第555源章｜3",
+      "title": "学院一年使适度人才显著成长，各国开始愿送更好更年幼学生，皇帝因此设立入学考试",
       "memo": "帝国学院与有轨电车：世界设定事实（第555源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6042,7 +6042,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-555-01",
-      "title": "新建立连续性｜第555源章｜1",
+      "title": "炼金精英班",
       "memo": "帝国学院与有轨电车：新建立连续性（第555源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6067,7 +6067,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-555-02",
-      "title": "新建立连续性｜第555源章｜2",
+      "title": "人工魔石奖励",
       "memo": "帝国学院与有轨电车：新建立连续性（第555源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6092,7 +6092,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-555-03",
-      "title": "新建立连续性｜第555源章｜3",
+      "title": "第二次飞越被拒",
       "memo": "帝国学院与有轨电车：新建立连续性（第555源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6117,7 +6117,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-555-04",
-      "title": "新建立连续性｜第555源章｜4",
+      "title": "入学考试",
       "memo": "帝国学院与有轨电车：新建立连续性（第555源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6142,7 +6142,7 @@
     },
     {
       "id": "era-26-academy-unresolved-555-01",
-      "title": "未解决事项｜第555源章｜1",
+      "title": "考试难度",
       "memo": "帝国学院与有轨电车：未解决事项（第555源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6167,7 +6167,7 @@
     },
     {
       "id": "era-26-academy-unresolved-555-02",
-      "title": "未解决事项｜第555源章｜2",
+      "title": "西蒙归乡时间",
       "memo": "帝国学院与有轨电车：未解决事项（第555源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6193,7 +6193,7 @@
     },
     {
       "id": "era-26-academy-unresolved-555-03",
-      "title": "未解决事项｜第555源章｜3",
+      "title": "学院扩招｜帝国学院.(6)",
       "memo": "帝国学院与有轨电车：未解决事项（第555源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6218,7 +6218,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-555-01",
-      "title": "主角龙形态｜第555源章｜1",
+      "title": "主角龙形态｜帝国学院.(6)｜主龙保持沉眠银龙形态拒绝再飞",
       "memo": "帝国学院与有轨电车：主角龙形态（第555源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6244,7 +6244,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-555-01",
-      "title": "主角龙状态｜第555源章｜1",
+      "title": "主角龙状态｜帝国学院.(6)｜主龙为学院设置不可无限调用的公开边界，同时分身用日常资源维持教育影响",
       "memo": "帝国学院与有轨电车：主角龙状态（第555源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6269,7 +6269,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-555-01",
-      "title": "主角龙知识边界｜第555源章｜1",
+      "title": "主角龙知识边界｜帝国学院.(6)｜主龙只说通道目标是在西蒙死后复活，尚未达到可送力地球的程度",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第555源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6295,7 +6295,7 @@
     },
     {
       "id": "era-26-academy-event-556-01",
-      "title": "事件｜第556源章｜1",
+      "title": "首次入学考试总体有效，但露西亚按紫塔新人水平出题，部分正确率零且教授也无法解",
       "memo": "帝国学院与有轨电车：事件（第556源章第1条）",
       "category": "event",
       "keys": [
@@ -6321,7 +6321,7 @@
     },
     {
       "id": "era-26-academy-event-556-02",
-      "title": "事件｜第556源章｜2",
+      "title": "匿名转生者A具智力与魔法红利仍无法解炼金专业题，决定避开露西亚课程",
       "memo": "帝国学院与有轨电车：事件（第556源章第2条）",
       "category": "event",
       "keys": [
@@ -6347,7 +6347,7 @@
     },
     {
       "id": "era-26-academy-event-556-03",
-      "title": "事件｜第556源章｜3",
+      "title": "第二年分骑士、魔法、文科、制作、神圣、精灵等方向",
       "memo": "帝国学院与有轨电车：事件（第556源章第3条）",
       "category": "event",
       "keys": [
@@ -6372,7 +6372,7 @@
     },
     {
       "id": "era-26-academy-event-556-04",
-      "title": "事件｜第556源章｜4",
+      "title": "露西亚抱怨三倍教材工作，女仆魔像伽拉忒亚II已能说话，理解语言",
       "memo": "帝国学院与有轨电车：事件（第556源章第4条）",
       "category": "event",
       "keys": [
@@ -6399,7 +6399,7 @@
     },
     {
       "id": "era-26-academy-world-fact-556-01",
-      "title": "世界设定事实｜第556源章｜1",
+      "title": "露西亚首次考试以紫塔新人为基准，出现零正确率和教授不能解",
       "memo": "帝国学院与有轨电车：世界设定事实（第556源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6425,7 +6425,7 @@
     },
     {
       "id": "era-26-academy-world-fact-556-02",
-      "title": "世界设定事实｜第556源章｜2",
+      "title": "学院一年级用于基础统一和志向发现，二年级分专业与三水平，期中和期末考试由此产生",
       "memo": "帝国学院与有轨电车：世界设定事实（第556源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6450,7 +6450,7 @@
     },
     {
       "id": "era-26-academy-world-fact-556-03",
-      "title": "世界设定事实｜第556源章｜3",
+      "title": "炼金二年级优秀者不再依赖装置，学习普通铁形态和性质变化",
       "memo": "帝国学院与有轨电车：世界设定事实（第556源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6475,7 +6475,7 @@
     },
     {
       "id": "era-26-academy-world-fact-556-04",
-      "title": "世界设定事实｜第556源章｜4",
+      "title": "伽拉忒亚II以爱丽丝原魔像命名，经持续改良获得语言、理解和家务能力",
       "memo": "帝国学院与有轨电车：世界设定事实（第556源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6502,7 +6502,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-556-01",
-      "title": "新建立连续性｜第556源章｜1",
+      "title": "分层考试制度",
       "memo": "帝国学院与有轨电车：新建立连续性（第556源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6527,7 +6527,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-556-02",
-      "title": "新建立连续性｜第556源章｜2",
+      "title": "转生者A",
       "memo": "帝国学院与有轨电车：新建立连续性（第556源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6552,7 +6552,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-556-03",
-      "title": "新建立连续性｜第556源章｜3",
+      "title": "伽拉忒亚II语言与家务",
       "memo": "帝国学院与有轨电车：新建立连续性（第556源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6578,7 +6578,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-556-04",
-      "title": "新建立连续性｜第556源章｜4",
+      "title": "露西亚母女感｜入学考试.(1)",
       "memo": "帝国学院与有轨电车：新建立连续性（第556源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6604,7 +6604,7 @@
     },
     {
       "id": "era-26-academy-unresolved-556-01",
-      "title": "未解决事项｜第556源章｜1",
+      "title": "魔像意识性质",
       "memo": "帝国学院与有轨电车：未解决事项（第556源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6629,7 +6629,7 @@
     },
     {
       "id": "era-26-academy-unresolved-556-02",
-      "title": "未解决事项｜第556源章｜2",
+      "title": "次年试题改进",
       "memo": "帝国学院与有轨电车：未解决事项（第556源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6654,7 +6654,7 @@
     },
     {
       "id": "era-26-academy-unresolved-556-03",
-      "title": "未解决事项｜第556源章｜3",
+      "title": "入学扩招结果",
       "memo": "帝国学院与有轨电车：未解决事项（第556源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6679,7 +6679,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-556-01",
-      "title": "主角龙形态｜第556源章｜1",
+      "title": "主角龙形态｜入学考试.(1)｜露西亚以学院教授和伽拉忒亚II创造者形态工作，主龙本体未直接出现",
       "memo": "帝国学院与有轨电车：主角龙形态（第556源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6706,7 +6706,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-556-01",
-      "title": "主角龙状态｜第556源章｜1",
+      "title": "主角龙状态｜入学考试.(1)｜她开始在教学反馈中修正自己的非人尺度",
       "memo": "帝国学院与有轨电车：主角龙状态（第556源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6731,7 +6731,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-556-01",
-      "title": "主角龙知识边界｜第556源章｜1",
+      "title": "主角龙知识边界｜入学考试.(1)｜伽拉忒亚II是否具真正独立意识尚未说明，只能记录其功能与对话",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第556源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6757,7 +6757,7 @@
     },
     {
       "id": "era-26-academy-event-557-01",
-      "title": "事件｜第557源章｜1",
+      "title": "首次入学考试有效筛选人才，但露西亚按紫塔新人尺度出的炼金题难倒教授",
       "memo": "帝国学院与有轨电车：事件（第557源章第1条）",
       "category": "event",
       "keys": [
@@ -6783,7 +6783,7 @@
     },
     {
       "id": "era-26-academy-event-557-02",
-      "title": "事件｜第557源章｜2",
+      "title": "生命教团教育过的匿名转生者A靠转生智力与魔法天赋应考，仍只能蒙炼金题并决定避开露西亚",
       "memo": "帝国学院与有轨电车：事件（第557源章第2条）",
       "category": "event",
       "keys": [
@@ -6809,7 +6809,7 @@
     },
     {
       "id": "era-26-academy-event-557-03",
-      "title": "事件｜第557源章｜3",
+      "title": "学院第二年明确分科，一年级统一基础并发现志向，二年级按三个水平分层",
       "memo": "帝国学院与有轨电车：事件（第557源章第3条）",
       "category": "event",
       "keys": [
@@ -6834,7 +6834,7 @@
     },
     {
       "id": "era-26-academy-event-557-04",
-      "title": "事件｜第557源章｜4",
+      "title": "露西亚一面抱怨分层让教材作业工作变三倍，一面继续出题",
       "memo": "帝国学院与有轨电车：事件（第557源章第4条）",
       "category": "event",
       "keys": [
@@ -6861,7 +6861,7 @@
     },
     {
       "id": "era-26-academy-world-fact-557-01",
-      "title": "世界设定事实｜第557源章｜1",
+      "title": "入学考试使用潜力水晶球，首届因数量不足积压，露西亚计划一年内增制并记录方法",
       "memo": "帝国学院与有轨电车：世界设定事实（第557源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6887,7 +6887,7 @@
     },
     {
       "id": "era-26-academy-world-fact-557-02",
-      "title": "世界设定事实｜第557源章｜2",
+      "title": "一年级承担基础统一与志向发现，二年级分专业和三水平",
       "memo": "帝国学院与有轨电车：世界设定事实（第557源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6912,7 +6912,7 @@
     },
     {
       "id": "era-26-academy-world-fact-557-03",
-      "title": "世界设定事实｜第557源章｜3",
+      "title": "炼金二年级用普通铁教授形态和性质改变，掌握者已可凭炼金术谋生",
       "memo": "帝国学院与有轨电车：世界设定事实（第557源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6937,7 +6937,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-557-01",
-      "title": "新建立连续性｜第557源章｜1",
+      "title": "三水平分层",
       "memo": "帝国学院与有轨电车：新建立连续性（第557源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6962,7 +6962,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-557-02",
-      "title": "新建立连续性｜第557源章｜2",
+      "title": "期中期末考试",
       "memo": "帝国学院与有轨电车：新建立连续性（第557源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6987,7 +6987,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-557-03",
-      "title": "新建立连续性｜第557源章｜3",
+      "title": "伽拉忒亚II主动照顾",
       "memo": "帝国学院与有轨电车：新建立连续性（第557源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7013,7 +7013,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-557-04",
-      "title": "新建立连续性｜第557源章｜4",
+      "title": "露西亚母女感｜入学考试.(2)",
       "memo": "帝国学院与有轨电车：新建立连续性（第557源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7039,7 +7039,7 @@
     },
     {
       "id": "era-26-academy-unresolved-557-01",
-      "title": "未解决事项｜第557源章｜1",
+      "title": "魔像意识",
       "memo": "帝国学院与有轨电车：未解决事项（第557源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7064,7 +7064,7 @@
     },
     {
       "id": "era-26-academy-unresolved-557-02",
-      "title": "未解决事项｜第557源章｜2",
+      "title": "次年考试改良",
       "memo": "帝国学院与有轨电车：未解决事项（第557源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7089,7 +7089,7 @@
     },
     {
       "id": "era-26-academy-unresolved-557-03",
-      "title": "未解决事项｜第557源章｜3",
+      "title": "学院扩招｜入学考试.(2)",
       "memo": "帝国学院与有轨电车：未解决事项（第557源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7114,7 +7114,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-557-01",
-      "title": "主角龙形态｜第557源章｜1",
+      "title": "主角龙形态｜入学考试.(2)｜露西亚是不老银发少女教授形态，主龙本体本篇不在场",
       "memo": "帝国学院与有轨电车：主角龙形态（第557源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7140,7 +7140,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-557-01",
-      "title": "主角龙状态｜第557源章｜1",
+      "title": "主角龙状态｜入学考试.(2)｜分身体已进入学院长期教学与伽拉忒亚II养育期",
       "memo": "帝国学院与有轨电车：主角龙状态（第557源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7166,7 +7166,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-557-01",
-      "title": "主角龙知识边界｜第557源章｜1",
+      "title": "主角龙知识边界｜入学考试.(2)｜学生和普通教授不知道露西亚与守护龙同源",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第557源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7193,7 +7193,7 @@
     },
     {
       "id": "era-26-academy-event-558-01",
-      "title": "事件｜第558源章｜1",
+      "title": "老皇帝要求学院增进学生亲睦",
       "memo": "帝国学院与有轨电车：事件（第558源章第1条）",
       "category": "event",
       "keys": [
@@ -7222,7 +7222,7 @@
     },
     {
       "id": "era-26-academy-event-558-02",
-      "title": "事件｜第558源章｜2",
+      "title": "伽拉忒亚II主动指出群体会与外群体冲突",
       "memo": "帝国学院与有轨电车：事件（第558源章第2条）",
       "category": "event",
       "keys": [
@@ -7249,7 +7249,7 @@
     },
     {
       "id": "era-26-academy-event-558-03",
-      "title": "事件｜第558源章｜3",
+      "title": "同好会制度后来演化出以非致命武器和魔法进行的晋级战",
       "memo": "帝国学院与有轨电车：事件（第558源章第3条）",
       "category": "event",
       "keys": [
@@ -7274,7 +7274,7 @@
     },
     {
       "id": "era-26-academy-world-fact-558-01",
-      "title": "世界设定事实｜第558源章｜1",
+      "title": "巴别塔倒塌、普罗西亚建立和魔法之神诞生前，魔法师曾组织非利益性的魔法研究会",
       "memo": "帝国学院与有轨电车：世界设定事实（第558源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7299,7 +7299,7 @@
     },
     {
       "id": "era-26-academy-world-fact-558-02",
-      "title": "世界设定事实｜第558源章｜2",
+      "title": "学院同好会后来分级并举行禁止杀伤性武器和魔法的晋级战",
       "memo": "帝国学院与有轨电车：世界设定事实（第558源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7324,7 +7324,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-558-01",
-      "title": "新建立连续性｜第558源章｜1",
+      "title": "同好会构想",
       "memo": "帝国学院与有轨电车：新建立连续性（第558源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7349,7 +7349,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-558-02",
-      "title": "新建立连续性｜第558源章｜2",
+      "title": "伽拉忒亚II制度推演",
       "memo": "帝国学院与有轨电车：新建立连续性（第558源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7375,7 +7375,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-558-03",
-      "title": "新建立连续性｜第558源章｜3",
+      "title": "历史探究社团",
       "memo": "帝国学院与有轨电车：新建立连续性（第558源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7400,7 +7400,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-558-04",
-      "title": "新建立连续性｜第558源章｜4",
+      "title": "爱马骑士之会",
       "memo": "帝国学院与有轨电车：新建立连续性（第558源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7425,7 +7425,7 @@
     },
     {
       "id": "era-26-academy-unresolved-558-01",
-      "title": "未解决事项｜第558源章｜1",
+      "title": "同好会正式规则",
       "memo": "帝国学院与有轨电车：未解决事项（第558源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7450,7 +7450,7 @@
     },
     {
       "id": "era-26-academy-unresolved-558-02",
-      "title": "未解决事项｜第558源章｜2",
+      "title": "露西亚是否任指导",
       "memo": "帝国学院与有轨电车：未解决事项（第558源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7476,7 +7476,7 @@
     },
     {
       "id": "era-26-academy-unresolved-558-03",
-      "title": "未解决事项｜第558源章｜3",
+      "title": "两名少女身份",
       "memo": "帝国学院与有轨电车：未解决事项（第558源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7501,7 +7501,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-558-01",
-      "title": "主角龙形态｜第558源章｜1",
+      "title": "主角龙形态｜社团.(1)｜露西亚教授形态在场",
       "memo": "帝国学院与有轨电车：主角龙形态（第558源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7527,7 +7527,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-558-01",
-      "title": "主角龙状态｜第558源章｜1",
+      "title": "主角龙状态｜社团.(1)｜露西亚从功能性工作进入塑造学院社交制度的阶段",
       "memo": "帝国学院与有轨电车：主角龙状态（第558源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7553,7 +7553,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-558-01",
-      "title": "主角龙知识边界｜第558源章｜1",
+      "title": "主角龙知识边界｜社团.(1)｜她不知道自己就是主龙分身，故其父母式判断必须保留为露西亚主观关系认知",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第558源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7579,7 +7579,7 @@
     },
     {
       "id": "era-26-academy-event-559-01",
-      "title": "事件｜第559源章｜1",
+      "title": "学院确立同好会三条件：至少五人、明确且无问题的主题、一名监督教授",
       "memo": "帝国学院与有轨电车：事件（第559源章第1条）",
       "category": "event",
       "keys": [
@@ -7605,7 +7605,7 @@
     },
     {
       "id": "era-26-academy-event-559-02",
-      "title": "事件｜第559源章｜2",
+      "title": "大量学生争抢露西亚指导权并打成一团",
       "memo": "帝国学院与有轨电车：事件（第559源章第2条）",
       "category": "event",
       "keys": [
@@ -7632,7 +7632,7 @@
     },
     {
       "id": "era-26-academy-event-559-03",
-      "title": "事件｜第559源章｜3",
+      "title": "转生者A发现学院卫生、医疗、教育、魔石工具、炼金发明和饮食已接近现代",
       "memo": "帝国学院与有轨电车：事件（第559源章第3条）",
       "category": "event",
       "keys": [
@@ -7658,7 +7658,7 @@
     },
     {
       "id": "era-26-academy-world-fact-559-01",
-      "title": "世界设定事实｜第559源章｜1",
+      "title": "正式同好会必须至少五名不重复成员、主题明确且获学院认可、由一名教授监督",
       "memo": "帝国学院与有轨电车：世界设定事实（第559源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7683,7 +7683,7 @@
     },
     {
       "id": "era-26-academy-world-fact-559-02",
-      "title": "世界设定事实｜第559源章｜2",
+      "title": "帝国学院所在生活圈的卫生，医疗，教育，魔石工具，炼金发明",
       "memo": "帝国学院与有轨电车：世界设定事实（第559源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7708,7 +7708,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-559-01",
-      "title": "新建立连续性｜第559源章｜1",
+      "title": "同好会三条件",
       "memo": "帝国学院与有轨电车：新建立连续性（第559源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7733,7 +7733,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-559-02",
-      "title": "新建立连续性｜第559源章｜2",
+      "title": "露西亚学生人气",
       "memo": "帝国学院与有轨电车：新建立连续性（第559源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7759,7 +7759,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-559-03",
-      "title": "新建立连续性｜第559源章｜3",
+      "title": "转生者A社团计划",
       "memo": "帝国学院与有轨电车：新建立连续性（第559源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7784,7 +7784,7 @@
     },
     {
       "id": "era-26-academy-unresolved-559-01",
-      "title": "未解决事项｜第559源章｜1",
+      "title": "露西亚指导归属",
       "memo": "帝国学院与有轨电车：未解决事项（第559源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7810,7 +7810,7 @@
     },
     {
       "id": "era-26-academy-unresolved-559-02",
-      "title": "未解决事项｜第559源章｜2",
+      "title": "学生秘密协定",
       "memo": "帝国学院与有轨电车：未解决事项（第559源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7835,7 +7835,7 @@
     },
     {
       "id": "era-26-academy-unresolved-559-03",
-      "title": "未解决事项｜第559源章｜3",
+      "title": "转生者A来年行动",
       "memo": "帝国学院与有轨电车：未解决事项（第559源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7860,7 +7860,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-559-01",
-      "title": "主角龙形态｜第559源章｜1",
+      "title": "主角龙形态｜社团.(2)｜露西亚以娇小银发教授形态出现",
       "memo": "帝国学院与有轨电车：主角龙形态（第559源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7886,7 +7886,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-559-01",
-      "title": "主角龙状态｜第559源章｜1",
+      "title": "主角龙状态｜社团.(2)｜她成为学院学生集体憧憬对象却全然不自知",
       "memo": "帝国学院与有轨电车：主角龙状态（第559源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7911,7 +7911,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-559-01",
-      "title": "主角龙知识边界｜第559源章｜1",
+      "title": "主角龙知识边界｜社团.(2)｜转生者A只做女主角式猜想，不知道露西亚真实身份",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第559源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7937,7 +7937,7 @@
     },
     {
       "id": "era-26-academy-event-560-01",
-      "title": "事件｜第560源章｜1",
+      "title": "学生秘密约定除非露西亚主动，否则谁也不得请求她指导",
       "memo": "帝国学院与有轨电车：事件（第560源章第1条）",
       "category": "event",
       "keys": [
@@ -7964,7 +7964,7 @@
     },
     {
       "id": "era-26-academy-event-560-02",
-      "title": "事件｜第560源章｜2",
+      "title": "同好会以少量补助成功促进友谊，露西亚因创意奖金兴奋",
       "memo": "帝国学院与有轨电车：事件（第560源章第2条）",
       "category": "event",
       "keys": [
@@ -7992,7 +7992,7 @@
     },
     {
       "id": "era-26-academy-event-560-03",
-      "title": "事件｜第560源章｜3",
+      "title": "伽拉忒亚II从人类奴隶买卖推问魔像能否被售卖",
       "memo": "帝国学院与有轨电车：事件（第560源章第3条）",
       "category": "event",
       "keys": [
@@ -8019,7 +8019,7 @@
     },
     {
       "id": "era-26-academy-event-560-04",
-      "title": "事件｜第560源章｜4",
+      "title": "时间推进后伽拉忒亚II已成为学院教授、历史探究社团指导老师，并用电车收入私人赞助社团",
       "memo": "帝国学院与有轨电车：事件（第560源章第4条）",
       "category": "event",
       "keys": [
@@ -8045,7 +8045,7 @@
     },
     {
       "id": "era-26-academy-world-fact-560-01",
-      "title": "世界设定事实｜第560源章｜1",
+      "title": "露西亚已向学院提供水晶球，墨水，纸张溶剂，储墨羽毛笔，四则运算辅助计算器",
       "memo": "帝国学院与有轨电车：世界设定事实（第560源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8071,7 +8071,7 @@
     },
     {
       "id": "era-26-academy-world-fact-560-02",
-      "title": "世界设定事实｜第560源章｜2",
+      "title": "人类奴隶仍合法但有保护法，绑架贩奴罕见",
       "memo": "帝国学院与有轨电车：世界设定事实（第560源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8096,7 +8096,7 @@
     },
     {
       "id": "era-26-academy-world-fact-560-03",
-      "title": "世界设定事实｜第560源章｜3",
+      "title": "露西亚以一定期限电车收入上交学院换取伽拉忒亚II主权和教职",
       "memo": "帝国学院与有轨电车：世界设定事实（第560源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8123,7 +8123,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-560-01",
-      "title": "新建立连续性｜第560源章｜1",
+      "title": "学生秘密协定",
       "memo": "帝国学院与有轨电车：新建立连续性（第560源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8148,7 +8148,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-560-02",
-      "title": "新建立连续性｜第560源章｜2",
+      "title": "伽拉忒亚II情感记录",
       "memo": "帝国学院与有轨电车：新建立连续性（第560源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8174,7 +8174,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-560-03",
-      "title": "新建立连续性｜第560源章｜3",
+      "title": "有轨电车",
       "memo": "帝国学院与有轨电车：新建立连续性（第560源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8199,7 +8199,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-560-04",
-      "title": "新建立连续性｜第560源章｜4",
+      "title": "伽拉忒亚II主权与教授身份",
       "memo": "帝国学院与有轨电车：新建立连续性（第560源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8225,7 +8225,7 @@
     },
     {
       "id": "era-26-academy-unresolved-560-01",
-      "title": "未解决事项｜第560源章｜1",
+      "title": "情感后续发展",
       "memo": "帝国学院与有轨电车：未解决事项（第560源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8250,7 +8250,7 @@
     },
     {
       "id": "era-26-academy-unresolved-560-02",
-      "title": "未解决事项｜第560源章｜2",
+      "title": "转生者A社团计划",
       "memo": "帝国学院与有轨电车：未解决事项（第560源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8275,7 +8275,7 @@
     },
     {
       "id": "era-26-academy-unresolved-560-03",
-      "title": "未解决事项｜第560源章｜3",
+      "title": "历史探究社团两少女姓名",
       "memo": "帝国学院与有轨电车：未解决事项（第560源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8300,7 +8300,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-560-01",
-      "title": "主角龙形态｜第560源章｜1",
+      "title": "主角龙形态｜社团.(3)｜露西亚教授形态在场",
       "memo": "帝国学院与有轨电车：主角龙形态（第560源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8326,7 +8326,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-560-01",
-      "title": "主角龙状态｜第560源章｜1",
+      "title": "主角龙状态｜社团.(3)｜分身体开始以发明收益改变非人造物的法律与社会身份",
       "memo": "帝国学院与有轨电车：主角龙状态（第560源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8351,7 +8351,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-560-01",
-      "title": "主角龙知识边界｜第560源章｜1",
+      "title": "主角龙知识边界｜社团.(3)｜伽拉忒亚II的情感仅由她自己感到并记录，露西亚本篇不知道该瞬间",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第560源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8378,7 +8378,7 @@
     },
     {
       "id": "era-26-academy-event-561-01",
-      "title": "事件｜第561源章｜1",
+      "title": "路面电车试运行日，伽拉忒亚II担任驾驶员",
       "memo": "帝国学院与有轨电车：事件（第561源章第1条）",
       "category": "event",
       "keys": [
@@ -8405,7 +8405,7 @@
     },
     {
       "id": "era-26-academy-event-561-02",
-      "title": "事件｜第561源章｜2",
+      "title": "首条线路直连天狼星入口与学院本馆，中途设站",
       "memo": "帝国学院与有轨电车：事件（第561源章第2条）",
       "category": "event",
       "keys": [
@@ -8430,7 +8430,7 @@
     },
     {
       "id": "era-26-academy-event-561-03",
-      "title": "事件｜第561源章｜3",
+      "title": "票价和魔石成本成为核心限制",
       "memo": "帝国学院与有轨电车：事件（第561源章第3条）",
       "category": "event",
       "keys": [
@@ -8457,7 +8457,7 @@
     },
     {
       "id": "era-26-academy-event-561-04",
-      "title": "事件｜第561源章｜4",
+      "title": "改良石收集空气魔力、承载思考回路和记忆，却失去造金、长生与治疗功能",
       "memo": "帝国学院与有轨电车：事件（第561源章第4条）",
       "category": "event",
       "keys": [
@@ -8483,7 +8483,7 @@
     },
     {
       "id": "era-26-academy-world-fact-561-01",
-      "title": "世界设定事实｜第561源章｜1",
+      "title": "首条电车线路连接天狼星入口与学院本馆，速度略快于马车",
       "memo": "帝国学院与有轨电车：世界设定事实（第561源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8508,7 +8508,7 @@
     },
     {
       "id": "era-26-academy-world-fact-561-02",
-      "title": "世界设定事实｜第561源章｜2",
+      "title": "伽拉忒亚II核心是改良型贤者之石，兼任心脏，思考记忆核心与空气魔力收集器，不具造金",
       "memo": "帝国学院与有轨电车：世界设定事实（第561源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8534,7 +8534,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-561-01",
-      "title": "新建立连续性｜第561源章｜1",
+      "title": "电车试运行",
       "memo": "帝国学院与有轨电车：新建立连续性（第561源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8559,7 +8559,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-561-02",
-      "title": "新建立连续性｜第561源章｜2",
+      "title": "魔导工学萌芽",
       "memo": "帝国学院与有轨电车：新建立连续性（第561源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8584,7 +8584,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-561-03",
-      "title": "新建立连续性｜第561源章｜3",
+      "title": "改良型贤者之石核心",
       "memo": "帝国学院与有轨电车：新建立连续性（第561源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8609,7 +8609,7 @@
     },
     {
       "id": "era-26-academy-unresolved-561-01",
-      "title": "未解决事项｜第561源章｜1",
+      "title": "电车动力成本",
       "memo": "帝国学院与有轨电车：未解决事项（第561源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8634,7 +8634,7 @@
     },
     {
       "id": "era-26-academy-unresolved-561-02",
-      "title": "未解决事项｜第561源章｜2",
+      "title": "自动驾驶",
       "memo": "帝国学院与有轨电车：未解决事项（第561源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8659,7 +8659,7 @@
     },
     {
       "id": "era-26-academy-unresolved-561-03",
-      "title": "未解决事项｜第561源章｜3",
+      "title": "情感来源",
       "memo": "帝国学院与有轨电车：未解决事项（第561源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8684,7 +8684,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-561-01",
-      "title": "主角龙形态｜第561源章｜1",
+      "title": "主角龙形态｜路面电车.(1)｜露西亚教授兼发明家形态在场，主龙本体未直接出现",
       "memo": "帝国学院与有轨电车：主角龙形态（第561源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8710,7 +8710,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-561-01",
-      "title": "主角龙状态｜第561源章｜1",
+      "title": "主角龙状态｜路面电车.(1)｜分身体以贤者之石制造出具有长期记忆和情感迹象的伽拉忒亚II",
       "memo": "帝国学院与有轨电车：主角龙状态（第561源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8736,7 +8736,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-561-01",
-      "title": "主角龙知识边界｜第561源章｜1",
+      "title": "主角龙知识边界｜路面电车.(1)｜伽拉忒亚II自己此前不知道核心存在，外界更不得知",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第561源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8762,7 +8762,7 @@
     },
     {
       "id": "era-26-academy-event-562-01",
-      "title": "事件｜第562源章｜1",
+      "title": "试运行暴露行人，逃票等问题，露西亚用探测，紧急制动，内部缓冲，防御障壁",
       "memo": "帝国学院与有轨电车：事件（第562源章第1条）",
       "category": "event",
       "keys": [
@@ -8788,7 +8788,7 @@
     },
     {
       "id": "era-26-academy-event-562-02",
-      "title": "事件｜第562源章｜2",
+      "title": "露西亚拒绝以魔法师司机或量产贤者之石解决动力，担忧越过生命教团界限",
       "memo": "帝国学院与有轨电车：事件（第562源章第2条）",
       "category": "event",
       "keys": [
@@ -8814,7 +8814,7 @@
     },
     {
       "id": "era-26-academy-event-562-03",
-      "title": "事件｜第562源章｜3",
+      "title": "她提出魔法师、学生或地脉三种充电源",
       "memo": "帝国学院与有轨电车：事件（第562源章第3条）",
       "category": "event",
       "keys": [
@@ -8839,7 +8839,7 @@
     },
     {
       "id": "era-26-academy-event-562-04",
-      "title": "事件｜第562源章｜4",
+      "title": "现票价仅贵族富人承受",
       "memo": "帝国学院与有轨电车：事件（第562源章第4条）",
       "category": "event",
       "keys": [
@@ -8865,7 +8865,7 @@
     },
     {
       "id": "era-26-academy-world-fact-562-01",
-      "title": "世界设定事实｜第562源章｜1",
+      "title": "魔像化电车配有探测、紧急制动、乘客冲击缓解、外部防御障壁、检票闸杆和逃票冲击装置",
       "memo": "帝国学院与有轨电车：世界设定事实（第562源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8890,7 +8890,7 @@
     },
     {
       "id": "era-26-academy-world-fact-562-02",
-      "title": "世界设定事实｜第562源章｜2",
+      "title": "丰饶女神祝福曾令罗马尼亚全境丰饶",
       "memo": "帝国学院与有轨电车：世界设定事实（第562源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8915,7 +8915,7 @@
     },
     {
       "id": "era-26-academy-world-fact-562-03",
-      "title": "世界设定事实｜第562源章｜3",
+      "title": "电车能源方案是车库地脉仪式阵给可更换电池充能，再将耗尽电池轮换",
       "memo": "帝国学院与有轨电车：世界设定事实（第562源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8940,7 +8940,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-562-01",
-      "title": "新建立连续性｜第562源章｜1",
+      "title": "电车安全系统",
       "memo": "帝国学院与有轨电车：新建立连续性（第562源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8965,7 +8965,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-562-02",
-      "title": "新建立连续性｜第562源章｜2",
+      "title": "魔力电池构想",
       "memo": "帝国学院与有轨电车：新建立连续性（第562源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8990,7 +8990,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-562-03",
-      "title": "新建立连续性｜第562源章｜3",
+      "title": "地脉充能方案",
       "memo": "帝国学院与有轨电车：新建立连续性（第562源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9015,7 +9015,7 @@
     },
     {
       "id": "era-26-academy-unresolved-562-01",
-      "title": "未解决事项｜第562源章｜1",
+      "title": "电池实现",
       "memo": "帝国学院与有轨电车：未解决事项（第562源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9040,7 +9040,7 @@
     },
     {
       "id": "era-26-academy-unresolved-562-02",
-      "title": "未解决事项｜第562源章｜2",
+      "title": "生命教团许可",
       "memo": "帝国学院与有轨电车：未解决事项（第562源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9065,7 +9065,7 @@
     },
     {
       "id": "era-26-academy-unresolved-562-03",
-      "title": "未解决事项｜第562源章｜3",
+      "title": "天狼星地脉可用性",
       "memo": "帝国学院与有轨电车：未解决事项（第562源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9090,7 +9090,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-562-01",
-      "title": "主角龙形态｜第562源章｜1",
+      "title": "主角龙形态｜路面电车.(2)｜露西亚发明家形态在场，主龙本体未出现",
       "memo": "帝国学院与有轨电车：主角龙形态（第562源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9116,7 +9116,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-562-01",
-      "title": "主角龙状态｜第562源章｜1",
+      "title": "主角龙状态｜路面电车.(2)｜她把地球电池概念重新实现为魔力储能体系",
       "memo": "帝国学院与有轨电车：主角龙状态（第562源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9141,7 +9141,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-562-01",
-      "title": "主角龙知识边界｜第562源章｜1",
+      "title": "主角龙知识边界｜路面电车.(2)｜露西亚不知道生命教团实际不会刁难她",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第562源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9167,7 +9167,7 @@
     },
     {
       "id": "era-26-academy-event-563-01",
-      "title": "事件｜第563源章｜1",
+      "title": "露西亚在未炸实验室的混乱试验后做出模块化魔力电池，容量约同体积魔石一半，可反复充放",
       "memo": "帝国学院与有轨电车：事件（第563源章第1条）",
       "category": "event",
       "keys": [
@@ -9193,7 +9193,7 @@
     },
     {
       "id": "era-26-academy-event-563-02",
-      "title": "事件｜第563源章｜2",
+      "title": "后世投稿信把学院路面电车称为魔导列车原型，认为从旧物发展新物是魔导工程学本质",
       "memo": "帝国学院与有轨电车：事件（第563源章第2条）",
       "category": "event",
       "keys": [
@@ -9218,7 +9218,7 @@
     },
     {
       "id": "era-26-academy-event-563-03",
-      "title": "事件｜第563源章｜3",
+      "title": "生命教团迅速批准，拉皮斯商团建生产流程",
       "memo": "帝国学院与有轨电车：事件（第563源章第3条）",
       "category": "event",
       "keys": [
@@ -9245,7 +9245,7 @@
     },
     {
       "id": "era-26-academy-event-563-04",
-      "title": "事件｜第563源章｜4",
+      "title": "调查发现天狼星地脉魔力甚至高于丰饶时代罗马尼亚",
       "memo": "帝国学院与有轨电车：事件（第563源章第4条）",
       "category": "event",
       "keys": [
@@ -9271,7 +9271,7 @@
     },
     {
       "id": "era-26-academy-world-fact-563-01",
-      "title": "世界设定事实｜第563源章｜1",
+      "title": "魔力电池为蓝光正方体，容量约同体积魔石一半，充放或带能存储会折寿，空置不折寿",
       "memo": "帝国学院与有轨电车：世界设定事实（第563源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9296,7 +9296,7 @@
     },
     {
       "id": "era-26-academy-world-fact-563-02",
-      "title": "世界设定事实｜第563源章｜2",
+      "title": "后世魔导列车以学院路面电车为根基，魔导工程学把研究过去和改造旧事物视作本质",
       "memo": "帝国学院与有轨电车：世界设定事实（第563源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9321,7 +9321,7 @@
     },
     {
       "id": "era-26-academy-world-fact-563-03",
-      "title": "世界设定事实｜第563源章｜3",
+      "title": "十辆循环电车每日可由二十名魔法科学生充能维持",
       "memo": "帝国学院与有轨电车：世界设定事实（第563源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9346,7 +9346,7 @@
     },
     {
       "id": "era-26-academy-world-fact-563-04",
-      "title": "世界设定事实｜第563源章｜4",
+      "title": "天狼星地下地脉魔力异常高于古籍中的丰饶罗马尼亚，帝国保有灾后营救与地道管理记录",
       "memo": "帝国学院与有轨电车：世界设定事实（第563源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9371,7 +9371,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-563-01",
-      "title": "新建立连续性｜第563源章｜1",
+      "title": "模块化魔力电池",
       "memo": "帝国学院与有轨电车：新建立连续性（第563源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9396,7 +9396,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-563-02",
-      "title": "新建立连续性｜第563源章｜2",
+      "title": "魔导列车后世",
       "memo": "帝国学院与有轨电车：新建立连续性（第563源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9421,7 +9421,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-563-03",
-      "title": "新建立连续性｜第563源章｜3",
+      "title": "学生充能兼职",
       "memo": "帝国学院与有轨电车：新建立连续性（第563源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9446,7 +9446,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-563-04",
-      "title": "新建立连续性｜第563源章｜4",
+      "title": "天狼星异常地脉",
       "memo": "帝国学院与有轨电车：新建立连续性（第563源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9471,7 +9471,7 @@
     },
     {
       "id": "era-26-academy-unresolved-563-01",
-      "title": "未解决事项｜第563源章｜1",
+      "title": "地下调查许可",
       "memo": "帝国学院与有轨电车：未解决事项（第563源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9496,7 +9496,7 @@
     },
     {
       "id": "era-26-academy-unresolved-563-02",
-      "title": "未解决事项｜第563源章｜2",
+      "title": "异常来源",
       "memo": "帝国学院与有轨电车：未解决事项（第563源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9521,7 +9521,7 @@
     },
     {
       "id": "era-26-academy-unresolved-563-03",
-      "title": "未解决事项｜第563源章｜3",
+      "title": "地脉阵实现",
       "memo": "帝国学院与有轨电车：未解决事项（第563源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9546,7 +9546,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-563-01",
-      "title": "主角龙形态｜第563源章｜1",
+      "title": "主角龙形态｜路面电车.(3)｜露西亚教授兼工程师形态在场，主龙本体未直接出现",
       "memo": "帝国学院与有轨电车：主角龙形态（第563源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9572,7 +9572,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-563-01",
-      "title": "主角龙状态｜第563源章｜1",
+      "title": "主角龙状态｜路面电车.(3)｜分身体的技术已被后世定义为魔导工程根基",
       "memo": "帝国学院与有轨电车：主角龙状态（第563源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9597,7 +9597,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-563-01",
-      "title": "主角龙知识边界｜第563源章｜1",
+      "title": "主角龙知识边界｜路面电车.(3)｜露西亚尚不知道地下城，只知道地脉和旧地道记录",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第563源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9623,7 +9623,7 @@
     },
     {
       "id": "era-26-academy-event-564-01",
-      "title": "事件｜第564源章｜1",
+      "title": "学院总长贝尔穆特伯爵拒绝露西亚进入天狼星地下，只肯在必要时上书皇室",
       "memo": "帝国学院与有轨电车：事件（第564源章第1条）",
       "category": "event",
       "keys": [
@@ -9650,7 +9650,7 @@
     },
     {
       "id": "era-26-academy-event-564-02",
-      "title": "事件｜第564源章｜2",
+      "title": "保守皇室无法忽视生命教团与普罗西亚紫塔的联合请求",
       "memo": "帝国学院与有轨电车：事件（第564源章第2条）",
       "category": "event",
       "keys": [
@@ -9676,7 +9676,7 @@
     },
     {
       "id": "era-26-academy-event-564-03",
-      "title": "事件｜第564源章｜3",
+      "title": "天狼星地下是皇室封禁的『女神的试验场』，藏丰饶女神像原件",
       "memo": "帝国学院与有轨电车：事件（第564源章第3条）",
       "category": "event",
       "keys": [
@@ -9701,7 +9701,7 @@
     },
     {
       "id": "era-26-academy-event-564-04",
-      "title": "事件｜第564源章｜4",
+      "title": "主龙迟一步想到伽拉忒亚II具有无上限输出，自动修复和恐怖战力",
       "memo": "帝国学院与有轨电车：事件（第564源章第4条）",
       "category": "event",
       "keys": [
@@ -9728,7 +9728,7 @@
     },
     {
       "id": "era-26-academy-world-fact-564-01",
-      "title": "世界设定事实｜第564源章｜1",
+      "title": "帝国皇室保守维持现状，但无法忽视覆盖百姓的生命教团和汇聚绝大多数魔法师的普罗西亚",
       "memo": "帝国学院与有轨电车：世界设定事实（第564源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9753,7 +9753,7 @@
     },
     {
       "id": "era-26-academy-world-fact-564-02",
-      "title": "世界设定事实｜第564源章｜2",
+      "title": "天狼星地下『女神的试验场』由皇室封禁，藏丰饶女神像原件",
       "memo": "帝国学院与有轨电车：世界设定事实（第564源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9778,7 +9778,7 @@
     },
     {
       "id": "era-26-academy-world-fact-564-03",
-      "title": "世界设定事实｜第564源章｜3",
+      "title": "伽拉忒亚II具有输出无上限、自动修复和多种内置战斗装置",
       "memo": "帝国学院与有轨电车：世界设定事实（第564源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9804,7 +9804,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-564-01",
-      "title": "新建立连续性｜第564源章｜1",
+      "title": "贝尔穆特伯爵",
       "memo": "帝国学院与有轨电车：新建立连续性（第564源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9830,7 +9830,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-564-02",
-      "title": "新建立连续性｜第564源章｜2",
+      "title": "女神的试验场",
       "memo": "帝国学院与有轨电车：新建立连续性（第564源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9855,7 +9855,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-564-03",
-      "title": "新建立连续性｜第564源章｜3",
+      "title": "丰饶女神像原件",
       "memo": "帝国学院与有轨电车：新建立连续性（第564源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9880,7 +9880,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-564-04",
-      "title": "新建立连续性｜第564源章｜4",
+      "title": "调查许可将获批",
       "memo": "帝国学院与有轨电车：新建立连续性（第564源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9905,7 +9905,7 @@
     },
     {
       "id": "era-26-academy-unresolved-564-01",
-      "title": "未解决事项｜第564源章｜1",
+      "title": "露西亚进入范围",
       "memo": "帝国学院与有轨电车：未解决事项（第564源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9931,7 +9931,7 @@
     },
     {
       "id": "era-26-academy-unresolved-564-02",
-      "title": "未解决事项｜第564源章｜2",
+      "title": "地下城真相",
       "memo": "帝国学院与有轨电车：未解决事项（第564源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9956,7 +9956,7 @@
     },
     {
       "id": "era-26-academy-unresolved-564-03",
-      "title": "未解决事项｜第564源章｜3",
+      "title": "伽拉忒亚II战力后果",
       "memo": "帝国学院与有轨电车：未解决事项（第564源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9982,7 +9982,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-564-01",
-      "title": "主角龙形态｜第564源章｜1",
+      "title": "主角龙形态｜地下城.(1)｜主龙以守护龙意识在宫中答复皇帝，随后熄灭该意识并转回生命女神本体",
       "memo": "帝国学院与有轨电车：主角龙形态（第564源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10008,7 +10008,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-564-01",
-      "title": "主角龙状态｜第564源章｜1",
+      "title": "主角龙状态｜地下城.(1)｜本体同时处理地球连接，生命女神职责和分身观察",
       "memo": "帝国学院与有轨电车：主角龙状态（第564源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10033,7 +10033,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-564-01",
-      "title": "主角龙知识边界｜第564源章｜1",
+      "title": "主角龙知识边界｜地下城.(1)｜露西亚不知道地下城与主龙／生命女神的关系",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第564源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10059,7 +10059,7 @@
     },
     {
       "id": "era-26-academy-event-565-01",
-      "title": "事件｜第565源章｜1",
+      "title": "皇室正式许可露西亚调查地下",
       "memo": "帝国学院与有轨电车：事件（第565源章第1条）",
       "category": "event",
       "keys": [
@@ -10086,7 +10086,7 @@
     },
     {
       "id": "era-26-academy-event-565-02",
-      "title": "事件｜第565源章｜2",
+      "title": "露西亚与伽拉忒亚II到外围兵营，由埃波纳普通骑士洛希安·艾尔梅斯核验总长信件",
       "memo": "帝国学院与有轨电车：事件（第565源章第2条）",
       "category": "event",
       "keys": [
@@ -10114,7 +10114,7 @@
     },
     {
       "id": "era-26-academy-event-565-03",
-      "title": "事件｜第565源章｜3",
+      "title": "两人穿过黑暗营救洞穴抵达人工石阶与大门",
       "memo": "帝国学院与有轨电车：事件（第565源章第3条）",
       "category": "event",
       "keys": [
@@ -10140,7 +10140,7 @@
     },
     {
       "id": "era-26-academy-event-565-04",
-      "title": "事件｜第565源章｜4",
+      "title": "地脉魔力源指向地下城深处的女神像",
       "memo": "帝国学院与有轨电车：事件（第565源章第4条）",
       "category": "event",
       "keys": [
@@ -10167,7 +10167,7 @@
     },
     {
       "id": "era-26-academy-world-fact-565-01",
-      "title": "世界设定事实｜第565源章｜1",
+      "title": "地下入口位于天狼星外围兵营旧仓库内，藏在干草、木板与矮人锁具下",
       "memo": "帝国学院与有轨电车：世界设定事实（第565源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10192,7 +10192,7 @@
     },
     {
       "id": "era-26-academy-world-fact-565-02",
-      "title": "世界设定事实｜第565源章｜2",
+      "title": "入口石碑载明地下城用于觐见丰饶女神的试炼，奖励为丰饶女神像，并保证挑战者不会真正死亡",
       "memo": "帝国学院与有轨电车：世界设定事实（第565源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10217,7 +10217,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-565-01",
-      "title": "新建立连续性｜第565源章｜1",
+      "title": "洛希安·艾尔梅斯",
       "memo": "帝国学院与有轨电车：新建立连续性（第565源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10243,7 +10243,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-565-02",
-      "title": "新建立连续性｜第565源章｜2",
+      "title": "隐藏入口",
       "memo": "帝国学院与有轨电车：新建立连续性（第565源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10268,7 +10268,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-565-03",
-      "title": "新建立连续性｜第565源章｜3",
+      "title": "无死亡试炼规则",
       "memo": "帝国学院与有轨电车：新建立连续性（第565源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10293,7 +10293,7 @@
     },
     {
       "id": "era-26-academy-unresolved-565-01",
-      "title": "未解决事项｜第565源章｜1",
+      "title": "地下城攻略",
       "memo": "帝国学院与有轨电车：未解决事项（第565源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10318,7 +10318,7 @@
     },
     {
       "id": "era-26-academy-unresolved-565-02",
-      "title": "未解决事项｜第565源章｜2",
+      "title": "女神像",
       "memo": "帝国学院与有轨电车：未解决事项（第565源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10343,7 +10343,7 @@
     },
     {
       "id": "era-26-academy-unresolved-565-03",
-      "title": "未解决事项｜第565源章｜3",
+      "title": "地脉接入",
       "memo": "帝国学院与有轨电车：未解决事项（第565源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10368,7 +10368,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-565-01",
-      "title": "主角龙形态｜第565源章｜1",
+      "title": "主角龙形态｜地下城.(2)｜露西亚银发炼金术师形态在场",
       "memo": "帝国学院与有轨电车：主角龙形态（第565源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10394,7 +10394,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-565-01",
-      "title": "主角龙状态｜第565源章｜1",
+      "title": "主角龙状态｜地下城.(2)｜分身体开始亲自探索本体曾建造或关联的地下城",
       "memo": "帝国学院与有轨电车：主角龙状态（第565源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10419,7 +10419,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-565-01",
-      "title": "主角龙知识边界｜第565源章｜1",
+      "title": "主角龙知识边界｜地下城.(2)｜露西亚只是觉得知道建造者并联想到守护龙，未恢复本体记忆",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第565源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10445,7 +10445,7 @@
     },
     {
       "id": "era-26-academy-event-566-01",
-      "title": "事件｜第566源章｜1",
+      "title": "地下城为明亮大理石通道",
       "memo": "帝国学院与有轨电车：事件（第566源章第1条）",
       "category": "event",
       "keys": [
@@ -10472,7 +10472,7 @@
     },
     {
       "id": "era-26-academy-event-566-02",
-      "title": "事件｜第566源章｜2",
+      "title": "露西亚察觉地下城管理者只评估进入者身体与魔力量，未把伽拉忒亚II计入",
       "memo": "帝国学院与有轨电车：事件（第566源章第2条）",
       "category": "event",
       "keys": [
@@ -10499,7 +10499,7 @@
     },
     {
       "id": "era-26-academy-event-566-03",
-      "title": "事件｜第566源章｜3",
+      "title": "Boss房原是天狼星神殿",
       "memo": "帝国学院与有轨电车：事件（第566源章第3条）",
       "category": "event",
       "keys": [
@@ -10524,7 +10524,7 @@
     },
     {
       "id": "era-26-academy-event-566-04",
-      "title": "事件｜第566源章｜4",
+      "title": "随露西亚强度被弱化的Boss是小狗形天狼星",
       "memo": "帝国学院与有轨电车：事件（第566源章第4条）",
       "category": "event",
       "keys": [
@@ -10551,7 +10551,7 @@
     },
     {
       "id": "era-26-academy-world-fact-566-01",
-      "title": "世界设定事实｜第566源章｜1",
+      "title": "女神的试验场管理存在会依据进入者身体能力与魔力量调整难度，但未计入同行魔像",
       "memo": "帝国学院与有轨电车：世界设定事实（第566源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10576,7 +10576,7 @@
     },
     {
       "id": "era-26-academy-world-fact-566-02",
-      "title": "世界设定事实｜第566源章｜2",
+      "title": "露西亚可为地下城魔像加入吸收环境魔力功能并接管控制，逐步建立魔像军团",
       "memo": "帝国学院与有轨电车：世界设定事实（第566源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10602,7 +10602,7 @@
     },
     {
       "id": "era-26-academy-world-fact-566-03",
-      "title": "世界设定事实｜第566源章｜3",
+      "title": "Boss房由旧天狼星神殿改造",
       "memo": "帝国学院与有轨电车：世界设定事实（第566源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10627,7 +10627,7 @@
     },
     {
       "id": "era-26-academy-world-fact-566-04",
-      "title": "世界设定事实｜第566源章｜4",
+      "title": "最低难度Boss为小狗形天狼星魂分身，失去战意也能开启通关门",
       "memo": "帝国学院与有轨电车：世界设定事实（第566源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10653,7 +10653,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-566-01",
-      "title": "新建立连续性｜第566源章｜1",
+      "title": "难度评估漏洞",
       "memo": "帝国学院与有轨电车：新建立连续性（第566源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10678,7 +10678,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-566-02",
-      "title": "新建立连续性｜第566源章｜2",
+      "title": "露西亚魔像军团",
       "memo": "帝国学院与有轨电车：新建立连续性（第566源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10704,7 +10704,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-566-03",
-      "title": "新建立连续性｜第566源章｜3",
+      "title": "小狗天狼星Boss",
       "memo": "帝国学院与有轨电车：新建立连续性（第566源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10729,7 +10729,7 @@
     },
     {
       "id": "era-26-academy-unresolved-566-01",
-      "title": "未解决事项｜第566源章｜1",
+      "title": "丰饶女神像愿望",
       "memo": "帝国学院与有轨电车：未解决事项（第566源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10754,7 +10754,7 @@
     },
     {
       "id": "era-26-academy-unresolved-566-02",
-      "title": "未解决事项｜第566源章｜2",
+      "title": "天狼星是否离开",
       "memo": "帝国学院与有轨电车：未解决事项（第566源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10779,7 +10779,7 @@
     },
     {
       "id": "era-26-academy-unresolved-566-03",
-      "title": "未解决事项｜第566源章｜3",
+      "title": "主龙是否干预",
       "memo": "帝国学院与有轨电车：未解决事项（第566源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10804,7 +10804,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-566-01",
-      "title": "主角龙形态｜第566源章｜1",
+      "title": "主角龙形态｜地下城.(3)｜露西亚分身以娇小炼金术师形态攻略",
       "memo": "帝国学院与有轨电车：主角龙形态（第566源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10830,7 +10830,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-566-01",
-      "title": "主角龙状态｜第566源章｜1",
+      "title": "主角龙状态｜地下城.(3)｜分身体利用本体旧地下城的评估漏洞，无意间以本体面貌获得天狼星亲近",
       "memo": "帝国学院与有轨电车：主角龙状态（第566源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10855,7 +10855,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-566-01",
-      "title": "主角龙知识边界｜第566源章｜1",
+      "title": "主角龙知识边界｜地下城.(3)｜露西亚不知道管理AI未评估伽拉忒亚II的完整设计原因，只做机制推测",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第566源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10882,7 +10882,7 @@
     },
     {
       "id": "era-26-academy-event-567-01",
-      "title": "事件｜第567源章｜1",
+      "title": "露西亚邀小狗天狼星去地上并承诺争取神殿、保护电车",
       "memo": "帝国学院与有轨电车：事件（第567源章第1条）",
       "category": "event",
       "keys": [
@@ -10908,7 +10908,7 @@
     },
     {
       "id": "era-26-academy-event-567-02",
-      "title": "事件｜第567源章｜2",
+      "title": "丰饶女神像魔力足以在灵魂尚存时复活死者",
       "memo": "帝国学院与有轨电车：事件（第567源章第2条）",
       "category": "event",
       "keys": [
@@ -10934,7 +10934,7 @@
     },
     {
       "id": "era-26-academy-event-567-03",
-      "title": "事件｜第567源章｜3",
+      "title": "露西亚选择把愿望用于赋予伽拉忒亚II生命，拒绝增强自身魔力",
       "memo": "帝国学院与有轨电车：事件（第567源章第3条）",
       "category": "event",
       "keys": [
@@ -10961,7 +10961,7 @@
     },
     {
       "id": "era-26-academy-event-567-04",
-      "title": "事件｜第567源章｜4",
+      "title": "露西亚把巨量生命力注入贤者之石，定义生命为自主选择的意志并塑成心脏形核心",
       "memo": "帝国学院与有轨电车：事件（第567源章第4条）",
       "category": "event",
       "keys": [
@@ -10987,7 +10987,7 @@
     },
     {
       "id": "era-26-academy-world-fact-567-01",
-      "title": "世界设定事实｜第567源章｜1",
+      "title": "丰饶女神像可按接触者意志实现愿望，魔力量足以在灵魂未被冥界带走时复活死者",
       "memo": "帝国学院与有轨电车：世界设定事实（第567源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11012,7 +11012,7 @@
     },
     {
       "id": "era-26-academy-world-fact-567-02",
-      "title": "世界设定事实｜第567源章｜2",
+      "title": "巨量生命力注入改良贤者之石后，核心由小宝石塑成比拳头大的心脏形",
       "memo": "帝国学院与有轨电车：世界设定事实（第567源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11038,7 +11038,7 @@
     },
     {
       "id": "era-26-academy-world-fact-567-03",
-      "title": "世界设定事实｜第567源章｜3",
+      "title": "女神像余力被用于以天狼星城墙为媒介、阻止怀有敌意存在进入的结界",
       "memo": "帝国学院与有轨电车：世界设定事实（第567源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11063,7 +11063,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-567-01",
-      "title": "新建立连续性｜第567源章｜1",
+      "title": "丰饶女神像许愿",
       "memo": "帝国学院与有轨电车：新建立连续性（第567源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11088,7 +11088,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-567-02",
-      "title": "新建立连续性｜第567源章｜2",
+      "title": "伽拉忒亚II赋生",
       "memo": "帝国学院与有轨电车：新建立连续性（第567源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11114,7 +11114,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-567-03",
-      "title": "新建立连续性｜第567源章｜3",
+      "title": "心脏形核心",
       "memo": "帝国学院与有轨电车：新建立连续性（第567源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11139,7 +11139,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-567-04",
-      "title": "新建立连续性｜第567源章｜4",
+      "title": "天狼星敌意结界",
       "memo": "帝国学院与有轨电车：新建立连续性（第567源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11164,7 +11164,7 @@
     },
     {
       "id": "era-26-academy-unresolved-567-01",
-      "title": "未解决事项｜第567源章｜1",
+      "title": "自由意志是否成功",
       "memo": "帝国学院与有轨电车：未解决事项（第567源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11189,7 +11189,7 @@
     },
     {
       "id": "era-26-academy-unresolved-567-02",
-      "title": "未解决事项｜第567源章｜2",
+      "title": "天狼星地上神殿",
       "memo": "帝国学院与有轨电车：未解决事项（第567源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11214,7 +11214,7 @@
     },
     {
       "id": "era-26-academy-unresolved-567-03",
-      "title": "未解决事项｜第567源章｜3",
+      "title": "赋生收尾",
       "memo": "帝国学院与有轨电车：未解决事项（第567源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11239,7 +11239,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-567-01",
-      "title": "主角龙形态｜第567源章｜1",
+      "title": "主角龙形态｜地下城.(4)｜露西亚分身作为许愿者在场",
       "memo": "帝国学院与有轨电车：主角龙形态（第567源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11265,7 +11265,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-567-01",
-      "title": "主角龙状态｜第567源章｜1",
+      "title": "主角龙状态｜地下城.(4)｜同一主体的分身借本体旧力量尝试创造自由意志，却仍真心认为自己不是神",
       "memo": "帝国学院与有轨电车：主角龙状态（第567源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11290,7 +11290,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-567-01",
-      "title": "主角龙知识边界｜第567源章｜1",
+      "title": "主角龙知识边界｜地下城.(4)｜露西亚不知道自己就是生命女神本体",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第567源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11317,7 +11317,7 @@
     },
     {
       "id": "era-26-academy-event-568-01",
-      "title": "事件｜第568源章｜1",
+      "title": "两人带赋生核心、城墙结界和小狗离开",
       "memo": "帝国学院与有轨电车：事件（第568源章第1条）",
       "category": "event",
       "keys": [
@@ -11343,7 +11343,7 @@
     },
     {
       "id": "era-26-academy-event-568-02",
-      "title": "事件｜第568源章｜2",
+      "title": "露西亚在持续供能轨道与终点充电设施间权衡预算、工期、储能和停运风险",
       "memo": "帝国学院与有轨电车：事件（第568源章第2条）",
       "category": "event",
       "keys": [
@@ -11370,7 +11370,7 @@
     },
     {
       "id": "era-26-academy-event-568-03",
-      "title": "事件｜第568源章｜3",
+      "title": "多年后电车仍是天狼星生活必需品",
       "memo": "帝国学院与有轨电车：事件（第568源章第3条）",
       "category": "event",
       "keys": [
@@ -11396,7 +11396,7 @@
     },
     {
       "id": "era-26-academy-world-fact-568-01",
-      "title": "世界设定事实｜第568源章｜1",
+      "title": "丰饶女神像使用时会快速补充，约数年可再用",
       "memo": "帝国学院与有轨电车：世界设定事实（第568源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11421,7 +11421,7 @@
     },
     {
       "id": "era-26-academy-world-fact-568-02",
-      "title": "世界设定事实｜第568源章｜2",
+      "title": "地脉供能可走终点换电或沿线供能轨两条路线，最终形成先终点设施",
       "memo": "帝国学院与有轨电车：世界设定事实（第568源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11446,7 +11446,7 @@
     },
     {
       "id": "era-26-academy-world-fact-568-03",
-      "title": "世界设定事实｜第568源章｜3",
+      "title": "多年后学院电车成为天狼星必需交通",
       "memo": "帝国学院与有轨电车：世界设定事实（第568源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11471,7 +11471,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-568-01",
-      "title": "新建立连续性｜第568源章｜1",
+      "title": "地脉供能双路线",
       "memo": "帝国学院与有轨电车：新建立连续性（第568源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11496,7 +11496,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-568-02",
-      "title": "新建立连续性｜第568源章｜2",
+      "title": "换电运营",
       "memo": "帝国学院与有轨电车：新建立连续性（第568源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11521,7 +11521,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-568-03",
-      "title": "新建立连续性｜第568源章｜3",
+      "title": "不停运施工",
       "memo": "帝国学院与有轨电车：新建立连续性（第568源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11546,7 +11546,7 @@
     },
     {
       "id": "era-26-academy-continuity-new-568-04",
-      "title": "新建立连续性｜第568源章｜4",
+      "title": "多年后电车常态化",
       "memo": "帝国学院与有轨电车：新建立连续性（第568源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11571,7 +11571,7 @@
     },
     {
       "id": "era-26-academy-unresolved-568-01",
-      "title": "未解决事项｜第568源章｜1",
+      "title": "伽拉忒亚II赋生完成",
       "memo": "帝国学院与有轨电车：未解决事项（第568源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11597,7 +11597,7 @@
     },
     {
       "id": "era-26-academy-unresolved-568-02",
-      "title": "未解决事项｜第568源章｜2",
+      "title": "小狗神殿",
       "memo": "帝国学院与有轨电车：未解决事项（第568源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11622,7 +11622,7 @@
     },
     {
       "id": "era-26-academy-unresolved-568-03",
-      "title": "未解决事项｜第568源章｜3",
+      "title": "两少女真实身份",
       "memo": "帝国学院与有轨电车：未解决事项（第568源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11647,7 +11647,7 @@
     },
     {
       "id": "era-26-academy-protagonist-form-568-01",
-      "title": "主角龙形态｜第568源章｜1",
+      "title": "主角龙形态｜有轨电车.(4)｜露西亚分身以学院工程师形态推进电车",
       "memo": "帝国学院与有轨电车：主角龙形态（第568源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11673,7 +11673,7 @@
     },
     {
       "id": "era-26-academy-protagonist-state-568-01",
-      "title": "主角龙状态｜第568源章｜1",
+      "title": "主角龙状态｜有轨电车.(4)｜地下城探索结果被转化为天狼星长期能源基础设施",
       "memo": "帝国学院与有轨电车：主角龙状态（第568源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11698,7 +11698,7 @@
     },
     {
       "id": "era-26-academy-protagonist-knowledge-568-01",
-      "title": "主角龙知识边界｜第568源章｜1",
+      "title": "主角龙知识边界｜有轨电车.(4)｜艾尔梅斯与贝尔穆特只知地脉来自地下城，不知她已经通关",
       "memo": "帝国学院与有轨电车：主角龙知识边界（第568源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11723,7 +11723,7 @@
     },
     {
       "id": "era-26-academy-secondary-character-01",
-      "title": "次要人物｜拉皮斯",
+      "title": "拉皮斯",
       "memo": "帝国学院与有轨电车：次要人物 拉皮斯",
       "category": "secondary-character",
       "keys": [
@@ -11749,7 +11749,7 @@
     },
     {
       "id": "era-26-academy-secondary-character-02",
-      "title": "次要人物｜历史探究社团两名少女（均未命名）",
+      "title": "历史探究社团两名少女（均未命名）",
       "memo": "帝国学院与有轨电车：次要人物 历史探究社团两名少女（均未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -11785,7 +11785,7 @@
     },
     {
       "id": "era-26-academy-secondary-character-03",
-      "title": "次要人物｜现任鲁贝洛斯皇帝（未命名）",
+      "title": "现任鲁贝洛斯皇帝（未命名）",
       "memo": "帝国学院与有轨电车：次要人物 现任鲁贝洛斯皇帝（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -11815,7 +11815,7 @@
     },
     {
       "id": "era-26-academy-secondary-character-04",
-      "title": "次要人物｜首届入学者（未命名）",
+      "title": "首届入学者（未命名）",
       "memo": "帝国学院与有轨电车：次要人物 首届入学者（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -11839,7 +11839,7 @@
     },
     {
       "id": "era-26-academy-secondary-character-05",
-      "title": "次要人物｜天狼星魂分身",
+      "title": "天狼星魂分身",
       "memo": "帝国学院与有轨电车：次要人物 天狼星魂分身",
       "category": "secondary-character",
       "keys": [

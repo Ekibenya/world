@@ -1097,7 +1097,7 @@
   "lorebook": [
     {
       "id": "era-32-erebus-child-core",
-      "title": "幼年厄瑞玻斯｜时代边界",
+      "title": "幼年厄瑞玻斯",
       "memo": "幼年厄瑞玻斯：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1112,7 +1112,7 @@
     },
     {
       "id": "era-32-erebus-child-event-652-01",
-      "title": "事件｜第652源章｜1",
+      "title": "尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格",
       "memo": "幼年厄瑞玻斯：事件（第652源章第1条）",
       "category": "event",
       "keys": [
@@ -1141,7 +1141,7 @@
     },
     {
       "id": "era-32-erebus-child-event-652-02",
-      "title": "事件｜第652源章｜2",
+      "title": "为避开万神殿赌博环境，皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚",
       "memo": "幼年厄瑞玻斯：事件（第652源章第2条）",
       "category": "event",
       "keys": [
@@ -1167,7 +1167,7 @@
     },
     {
       "id": "era-32-erebus-child-event-652-03",
-      "title": "事件｜第652源章｜3",
+      "title": "主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒",
       "memo": "幼年厄瑞玻斯：事件（第652源章第3条）",
       "category": "event",
       "keys": [
@@ -1195,7 +1195,7 @@
     },
     {
       "id": "era-32-erebus-child-event-652-04",
-      "title": "事件｜第652源章｜4",
+      "title": "希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归",
       "memo": "幼年厄瑞玻斯：事件（第652源章第4条）",
       "category": "event",
       "keys": [
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-652-01",
-      "title": "世界设定事实｜第652源章｜1",
+      "title": "黑暗骑士齐格弗里德拥有最多黑暗碎片",
       "memo": "幼年厄瑞玻斯：世界设定事实（第652源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -1252,7 +1252,7 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-652-02",
-      "title": "世界设定事实｜第652源章｜2",
+      "title": "亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所",
       "memo": "幼年厄瑞玻斯：世界设定事实（第652源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -1278,7 +1278,7 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-652-03",
-      "title": "世界设定事实｜第652源章｜3",
+      "title": "亚空间可调为内一秒外十秒",
       "memo": "幼年厄瑞玻斯：世界设定事实（第652源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -1305,7 +1305,7 @@
     },
     {
       "id": "era-32-erebus-child-continuity-new-652-01",
-      "title": "新建立连续性｜第652源章｜1",
+      "title": "幼年厄瑞玻斯融合体",
       "memo": "幼年厄瑞玻斯：新建立连续性（第652源章第1条）",
       "category": "continuity",
       "keys": [
@@ -1332,7 +1332,7 @@
     },
     {
       "id": "era-32-erebus-child-continuity-new-652-02",
-      "title": "新建立连续性｜第652源章｜2",
+      "title": "亚空间秘密育儿",
       "memo": "幼年厄瑞玻斯：新建立连续性（第652源章第2条）",
       "category": "continuity",
       "keys": [
@@ -1357,7 +1357,7 @@
     },
     {
       "id": "era-32-erebus-child-continuity-new-652-03",
-      "title": "新建立连续性｜第652源章｜3",
+      "title": "古神子女发现秘密",
       "memo": "幼年厄瑞玻斯：新建立连续性（第652源章第3条）",
       "category": "continuity",
       "keys": [
@@ -1382,7 +1382,7 @@
     },
     {
       "id": "era-32-erebus-child-unresolved-652-01",
-      "title": "未解决事项｜第652源章｜1",
+      "title": "古神们如何处置",
       "memo": "幼年厄瑞玻斯：未解决事项（第652源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -1407,7 +1407,7 @@
     },
     {
       "id": "era-32-erebus-child-unresolved-652-02",
-      "title": "未解决事项｜第652源章｜2",
+      "title": "幼神未来人格",
       "memo": "幼年厄瑞玻斯：未解决事项（第652源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -1432,7 +1432,7 @@
     },
     {
       "id": "era-32-erebus-child-protagonist-form-652-01",
-      "title": "主角龙形态｜第652源章｜1",
+      "title": "主角龙形态｜厄瑞玻斯.(1)｜亚空间宅邸中照顾黑发幼神、为他读书的母亲形态",
       "memo": "幼年厄瑞玻斯：主角龙形态（第652源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1457,7 +1457,7 @@
     },
     {
       "id": "era-32-erebus-child-protagonist-state-652-01",
-      "title": "主角龙状态｜第652源章｜1",
+      "title": "主角龙状态｜厄瑞玻斯.(1)｜无聊被秘密育儿取代，重新获得明显快乐",
       "memo": "幼年厄瑞玻斯：主角龙状态（第652源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1482,7 +1482,7 @@
     },
     {
       "id": "era-32-erebus-child-protagonist-knowledge-652-01",
-      "title": "主角龙知识边界｜第652源章｜1",
+      "title": "主角龙知识边界｜厄瑞玻斯.(1)｜幼神身份是融合体解释并由主龙选择称为厄瑞玻斯",
       "memo": "幼年厄瑞玻斯：主角龙知识边界（第652源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -1508,7 +1508,7 @@
     },
     {
       "id": "era-32-erebus-child-event-653-01",
-      "title": "事件｜第653源章｜1",
+      "title": "主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心",
       "memo": "幼年厄瑞玻斯：事件（第653源章第1条）",
       "category": "event",
       "keys": [
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "era-32-erebus-child-event-653-02",
-      "title": "事件｜第653源章｜2",
+      "title": "幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格",
       "memo": "幼年厄瑞玻斯：事件（第653源章第2条）",
       "category": "event",
       "keys": [
@@ -1561,7 +1561,7 @@
     },
     {
       "id": "era-32-erebus-child-event-653-03",
-      "title": "事件｜第653源章｜3",
+      "title": "因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识",
       "memo": "幼年厄瑞玻斯：事件（第653源章第3条）",
       "category": "event",
       "keys": [
@@ -1589,7 +1589,7 @@
     },
     {
       "id": "era-32-erebus-child-event-653-04",
-      "title": "事件｜第653源章｜4",
+      "title": "古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱",
       "memo": "幼年厄瑞玻斯：事件（第653源章第4条）",
       "category": "event",
       "keys": [
@@ -1615,7 +1615,7 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-653-01",
-      "title": "世界设定事实｜第653源章｜1",
+      "title": "神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬",
       "memo": "幼年厄瑞玻斯：世界设定事实（第653源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -1640,7 +1640,7 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-653-02",
-      "title": "世界设定事实｜第653源章｜2",
+      "title": "生命教团基础教育院勉强承担幼儿园功能，但不适合幼神",
       "memo": "幼年厄瑞玻斯：世界设定事实（第653源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -1666,7 +1666,7 @@
     },
     {
       "id": "era-32-erebus-child-world-fact-653-03",
-      "title": "世界设定事实｜第653源章｜3",
+      "title": "旧黑龙领地冲突和幼龙牺牲引发龙战",
       "memo": "幼年厄瑞玻斯：世界设定事实（第653源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -1693,7 +1693,7 @@
     },
     {
       "id": "era-32-erebus-child-continuity-new-653-01",
-      "title": "新建立连续性｜第653源章｜1",
+      "title": "沙利文教师魔像",
       "memo": "幼年厄瑞玻斯：新建立连续性（第653源章第1条）",
       "category": "continuity",
       "keys": [
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "era-32-erebus-child-continuity-new-653-02",
-      "title": "新建立连续性｜第653源章｜2",
+      "title": "幼神无需神职",
       "memo": "幼年厄瑞玻斯：新建立连续性（第653源章第2条）",
       "category": "continuity",
       "keys": [
@@ -1744,7 +1744,7 @@
     },
     {
       "id": "era-32-erebus-child-continuity-new-653-03",
-      "title": "新建立连续性｜第653源章｜3",
+      "title": "古神默许秘密育儿",
       "memo": "幼年厄瑞玻斯：新建立连续性（第653源章第3条）",
       "category": "continuity",
       "keys": [
@@ -1769,7 +1769,7 @@
     },
     {
       "id": "era-32-erebus-child-unresolved-653-01",
-      "title": "未解决事项｜第653源章｜1",
+      "title": "幼年厄瑞玻斯成长",
       "memo": "幼年厄瑞玻斯：未解决事项（第653源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -1796,7 +1796,7 @@
     },
     {
       "id": "era-32-erebus-child-unresolved-653-02",
-      "title": "未解决事项｜第653源章｜2",
+      "title": "旧爱慕是否重现",
       "memo": "幼年厄瑞玻斯：未解决事项（第653源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -1821,7 +1821,7 @@
     },
     {
       "id": "era-32-erebus-child-unresolved-653-03",
-      "title": "未解决事项｜第653源章｜3",
+      "title": "子女与母亲何时坦白",
       "memo": "幼年厄瑞玻斯：未解决事项（第653源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -1846,7 +1846,7 @@
     },
     {
       "id": "era-32-erebus-child-protagonist-form-653-01",
-      "title": "主角龙形态｜第653源章｜1",
+      "title": "主角龙形态｜厄瑞玻斯.(2)｜亚空间中抚养幼神、创造小熊教师的母亲形态",
       "memo": "幼年厄瑞玻斯：主角龙形态（第653源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1871,7 +1871,7 @@
     },
     {
       "id": "era-32-erebus-child-protagonist-state-653-01",
-      "title": "主角龙状态｜第653源章｜1",
+      "title": "主角龙状态｜厄瑞玻斯.(2)｜以第二次育儿替代无聊，并把不读心、不给旧罪惩罚确立为当前原则",
       "memo": "幼年厄瑞玻斯：主角龙状态（第653源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1896,7 +1896,7 @@
     },
     {
       "id": "era-32-erebus-child-protagonist-knowledge-653-01",
-      "title": "主角龙知识边界｜第653源章｜1",
+      "title": "主角龙知识边界｜厄瑞玻斯.(2)｜古神子女知道秘密但主龙不知道他们知道",
       "memo": "幼年厄瑞玻斯：主角龙知识边界（第653源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -1921,7 +1921,7 @@
     },
     {
       "id": "era-32-erebus-child-secondary-character-01",
-      "title": "次要人物｜希尔芙",
+      "title": "希尔芙",
       "memo": "幼年厄瑞玻斯：次要人物 希尔芙",
       "category": "secondary-character",
       "keys": [

@@ -2138,7 +2138,7 @@
   "lorebook": [
     {
       "id": "era-08-rivalry-babel-core",
-      "title": "精灵矮人竞技与巴别塔｜时代边界",
+      "title": "精灵矮人竞技与巴别塔",
       "memo": "精灵矮人竞技与巴别塔：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -2153,7 +2153,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-99-01",
-      "title": "事件｜第99源章｜1",
+      "title": "精灵和矮人使者在客栈争抢英雄",
       "memo": "精灵矮人竞技与巴别塔：事件（第99源章第1条）",
       "category": "event",
       "keys": [
@@ -2179,7 +2179,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-99-02",
-      "title": "事件｜第99源章｜2",
+      "title": "回溯两族首次直接外交，矮人欲以世界树木装饰萨加玛特哈之眼钻石作为友谊礼物",
       "memo": "精灵矮人竞技与巴别塔：事件（第99源章第2条）",
       "category": "event",
       "keys": [
@@ -2206,7 +2206,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-99-03",
-      "title": "事件｜第99源章｜3",
+      "title": "主角判断冲突源于精灵亲属观与矮人资源观不同，决定先咨询伊格德拉西尔和萨加玛特哈",
       "memo": "精灵矮人竞技与巴别塔：事件（第99源章第3条）",
       "category": "event",
       "keys": [
@@ -2233,7 +2233,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-99-01",
-      "title": "世界设定事实｜第99源章｜1",
+      "title": "精灵守护世界树居森林，矮人与金属为伴居高山，两族此前只经人类信使间接沟通",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第99源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2259,7 +2259,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-99-02",
-      "title": "世界设定事实｜第99源章｜2",
+      "title": "萨加玛特哈之眼钻石是矮人至宝",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第99源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2286,7 +2286,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-99-01",
-      "title": "新建立连续性｜第99源章｜1",
+      "title": "精灵矮人外交破裂真因",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第99源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2311,7 +2311,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-99-02",
-      "title": "新建立连续性｜第99源章｜2",
+      "title": "萨加玛特哈之眼钻石",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第99源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2337,7 +2337,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-99-01",
-      "title": "未解决事项｜第99源章｜1",
+      "title": "两族是否开战",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第99源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2362,7 +2362,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-99-02",
-      "title": "未解决事项｜第99源章｜2",
+      "title": "种族神明态度",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第99源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2387,7 +2387,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-99-01",
-      "title": "主角龙形态｜第99源章｜1",
+      "title": "主角龙形态｜第九十四章：精灵与矮人（1）｜带角少女同行者，承接银发白袍龙族巫女",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第99源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2413,7 +2413,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-99-01",
-      "title": "主角龙状态｜第99源章｜1",
+      "title": "主角龙状态｜第九十四章：精灵与矮人（1）｜精灵矮人冲突的调查与仲裁者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第99源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2438,7 +2438,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-99-01",
-      "title": "主角龙知识边界｜第99源章｜1",
+      "title": "主角龙知识边界｜第九十四章：精灵与矮人（1）｜只听双方所述和历史回溯，尚未听伊格德拉西尔与萨加玛特哈本人",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第99源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2465,7 +2465,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-100-01",
-      "title": "事件｜第100源章｜1",
+      "title": "主角认为英雄使命不应被两族利用，联络伊格德拉西尔与萨加玛特哈",
       "memo": "精灵矮人竞技与巴别塔：事件（第100源章第1条）",
       "category": "event",
       "keys": [
@@ -2492,7 +2492,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-100-02",
-      "title": "事件｜第100源章｜2",
+      "title": "伊格德拉西尔认为枝条如头发可赠，主角思考精灵植物沟通导致的发展困境",
       "memo": "精灵矮人竞技与巴别塔：事件（第100源章第2条）",
       "category": "event",
       "keys": [
@@ -2518,7 +2518,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-100-03",
-      "title": "事件｜第100源章｜3",
+      "title": "主角向两族使者宣布禁战并要求传话",
       "memo": "精灵矮人竞技与巴别塔：事件（第100源章第3条）",
       "category": "event",
       "keys": [
@@ -2543,7 +2543,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-100-01",
-      "title": "世界设定事实｜第100源章｜1",
+      "title": "精灵因能与植物沟通而把砍树视为伤亲，这也限制了对木材、果实等广泛资源的使用和发展",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第100源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2568,7 +2568,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-100-01",
-      "title": "新建立连续性｜第100源章｜1",
+      "title": "禁战与非致死竞技方案",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第100源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2593,7 +2593,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-100-02",
-      "title": "新建立连续性｜第100源章｜2",
+      "title": "两族神明未参与",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第100源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2618,7 +2618,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-100-01",
-      "title": "未解决事项｜第100源章｜1",
+      "title": "两族军队是否接受",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第100源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2643,7 +2643,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-100-02",
-      "title": "未解决事项｜第100源章｜2",
+      "title": "竞技形式",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第100源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2668,7 +2668,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-100-01",
-      "title": "主角龙形态｜第100源章｜1",
+      "title": "主角龙形态｜第九十五章：精灵与矮人（2）｜银发龙角少女/龙族巫女形态延续",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第100源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2694,7 +2694,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-100-01",
-      "title": "主角龙状态｜第100源章｜1",
+      "title": "主角龙状态｜第九十五章：精灵与矮人（2）｜跨种族冲突制度设计者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第100源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2719,7 +2719,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-100-01",
-      "title": "主角龙知识边界｜第100源章｜1",
+      "title": "主角龙知识边界｜第九十五章：精灵与矮人（2）｜已确认两族神明不知情",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第100源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2744,7 +2744,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-101-01",
-      "title": "事件｜第101源章｜1",
+      "title": "回补说明一只由兽人起源信仰催生，可变万兽但心智如野兽的新神被英雄击败",
       "memo": "精灵矮人竞技与巴别塔：事件（第101源章第1条）",
       "category": "event",
       "keys": [
@@ -2769,7 +2769,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-101-02",
-      "title": "事件｜第101源章｜2",
+      "title": "精灵与矮人已经两军对垒",
       "memo": "精灵矮人竞技与巴别塔：事件（第101源章第2条）",
       "category": "event",
       "keys": [
@@ -2794,7 +2794,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-101-03",
-      "title": "事件｜第101源章｜3",
+      "title": "老精灵从银发白袍龙角认出昔日精灵魔法传授者",
       "memo": "精灵矮人竞技与巴别塔：事件（第101源章第3条）",
       "category": "event",
       "keys": [
@@ -2820,7 +2820,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-101-01",
-      "title": "世界设定事实｜第101源章｜1",
+      "title": "兽人关于原初之兽爱上人类的口传神话催生新神",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第101源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2846,7 +2846,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-101-02",
-      "title": "世界设定事实｜第101源章｜2",
+      "title": "矮人战士重甲、战斧、盾牌",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第101源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2871,7 +2871,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-101-03",
-      "title": "世界设定事实｜第101源章｜3",
+      "title": "矮人传说把曾点化他们的智者称为白银智慧",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第101源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -2897,7 +2897,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-101-01",
-      "title": "新建立连续性｜第101源章｜1",
+      "title": "原初之兽宠物",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第101源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2923,7 +2923,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-101-02",
-      "title": "新建立连续性｜第101源章｜2",
+      "title": "两军被强制停战",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第101源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2948,7 +2948,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-101-03",
-      "title": "新建立连续性｜第101源章｜3",
+      "title": "历代龙族巫女公开叙事",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第101源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2974,7 +2974,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-101-04",
-      "title": "新建立连续性｜第101源章｜4",
+      "title": "白银智慧关联",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第101源章第4条）",
       "category": "continuity",
       "keys": [
@@ -2999,7 +2999,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-101-01",
-      "title": "未解决事项｜第101源章｜1",
+      "title": "非致死竞技结果",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第101源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3024,7 +3024,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-101-02",
-      "title": "未解决事项｜第101源章｜2",
+      "title": "身份秘密扩散后果",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第101源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3049,7 +3049,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-101-01",
-      "title": "主角龙形态｜第101源章｜1",
+      "title": "主角龙形态｜第九十六章：精灵与矮人（3）｜银发、龙角、白袍的龙族巫女/生命女神使者形态",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第101源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3075,7 +3075,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-101-01",
-      "title": "主角龙状态｜第101源章｜1",
+      "title": "主角龙状态｜第九十六章：精灵与矮人（3）｜被两族历史共同识别并形成独立传说的跨种族仲裁者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第101源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3100,7 +3100,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-101-01",
-      "title": "主角龙知识边界｜第101源章｜1",
+      "title": "主角龙知识边界｜第九十六章：精灵与矮人（3）｜明知历代不同化身说法是自己现场编造",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第101源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3125,7 +3125,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-102-01",
-      "title": "事件｜第102源章｜1",
+      "title": "主角制定双方各五人，五局三胜，百米见方场地，只禁杀人的竞技规则",
       "memo": "精灵矮人竞技与巴别塔：事件（第102源章第1条）",
       "category": "event",
       "keys": [
@@ -3150,7 +3150,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-102-02",
-      "title": "事件｜第102源章｜2",
+      "title": "三日后竞技开幕",
       "memo": "精灵矮人竞技与巴别塔：事件（第102源章第2条）",
       "category": "event",
       "keys": [
@@ -3175,7 +3175,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-102-03",
-      "title": "事件｜第102源章｜3",
+      "title": "首战持盾掷斧矮人胜弓手精灵",
       "memo": "精灵矮人竞技与巴别塔：事件（第102源章第3条）",
       "category": "event",
       "keys": [
@@ -3200,7 +3200,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-102-01",
-      "title": "世界设定事实｜第102源章｜1",
+      "title": "竞技场临时保护魔法可抵挡一次致死攻击并令中招者昏迷",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第102源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3225,7 +3225,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-102-02",
-      "title": "世界设定事实｜第102源章｜2",
+      "title": "首两战显示持盾掷斧可克制弓箭，无盾重甲强攻则可能被持续箭雨耗尽",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第102源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3250,7 +3250,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-102-01",
-      "title": "新建立连续性｜第102源章｜1",
+      "title": "五局三胜赛制",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第102源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3275,7 +3275,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-102-02",
-      "title": "新建立连续性｜第102源章｜2",
+      "title": "百米竞技场",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第102源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3300,7 +3300,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-102-03",
-      "title": "新建立连续性｜第102源章｜3",
+      "title": "一次致死保护",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第102源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3325,7 +3325,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-102-04",
-      "title": "新建立连续性｜第102源章｜4",
+      "title": "英雄裁判",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第102源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3350,7 +3350,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-102-01",
-      "title": "未解决事项｜第102源章｜1",
+      "title": "后三场结果",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第102源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3375,7 +3375,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-102-02",
-      "title": "未解决事项｜第102源章｜2",
+      "title": "胜负能否化解战争",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第102源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3400,7 +3400,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-102-01",
-      "title": "主角龙形态｜第102源章｜1",
+      "title": "主角龙形态｜第九十七章：精灵与矮人种族之争（1）｜银发龙角白袍龙族巫女",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第102源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3426,7 +3426,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-102-01",
-      "title": "主角龙状态｜第102源章｜1",
+      "title": "主角龙状态｜第九十七章：精灵与矮人种族之争（1）｜首届非致死种族竞技的规则制定者和主持者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第102源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3451,7 +3451,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-102-01",
-      "title": "主角龙知识边界｜第102源章｜1",
+      "title": "主角龙知识边界｜第九十七章：精灵与矮人种族之争（1）｜赛前只按常见战法推测强弱，不知道代表隐藏武器与能力",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第102源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3476,7 +3476,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-103-01",
-      "title": "事件｜第103源章｜1",
+      "title": "第三战风元素精灵耗尽箭与魔力后被重盾重斧矮人近身击败",
       "memo": "精灵矮人竞技与巴别塔：事件（第103源章第1条）",
       "category": "event",
       "keys": [
@@ -3501,7 +3501,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-103-02",
-      "title": "事件｜第103源章｜2",
+      "title": "第四战持剑精灵以火元素附剑、专攻甲缝，击败战锤矮人",
       "memo": "精灵矮人竞技与巴别塔：事件（第103源章第2条）",
       "category": "event",
       "keys": [
@@ -3527,7 +3527,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-103-03",
-      "title": "事件｜第103源章｜3",
+      "title": "决胜局矮人代表以巨盾架设发射短矛的大弩，一击使精灵代表昏迷，矮人获胜",
       "memo": "精灵矮人竞技与巴别塔：事件（第103源章第3条）",
       "category": "event",
       "keys": [
@@ -3552,7 +3552,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-103-01",
-      "title": "世界设定事实｜第103源章｜1",
+      "title": "火元素精灵因怕引燃森林改练金属剑，先后用石剑、青铜剑、矮人铁剑，形成元素之剑战法",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第103源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3577,7 +3577,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-103-02",
-      "title": "世界设定事实｜第103源章｜2",
+      "title": "矮人大弩可发射短矛，速度破坏力远超精灵箭矢",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第103源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3602,7 +3602,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-103-01",
-      "title": "新建立连续性｜第103源章｜1",
+      "title": "元素之剑精灵",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第103源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3627,7 +3627,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-103-02",
-      "title": "新建立连续性｜第103源章｜2",
+      "title": "矮人大弩",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第103源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3652,7 +3652,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-103-03",
-      "title": "新建立连续性｜第103源章｜3",
+      "title": "矮人三比二胜",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第103源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3677,7 +3677,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-103-01",
-      "title": "未解决事项｜第103源章｜1",
+      "title": "精灵是否接受",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第103源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3702,7 +3702,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-103-02",
-      "title": "未解决事项｜第103源章｜2",
+      "title": "英雄与剑精灵切磋",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第103源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3727,7 +3727,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-103-01",
-      "title": "主角龙形态｜第103源章｜1",
+      "title": "主角龙形态｜第九十八章：精灵与矮人种族之争（2）｜银发龙角白袍龙族巫女",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第103源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3753,7 +3753,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-103-01",
-      "title": "主角龙状态｜第103源章｜1",
+      "title": "主角龙状态｜第九十八章：精灵与矮人种族之争（2）｜赛事治疗者与战法评鉴者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第103源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3778,7 +3778,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-103-01",
-      "title": "主角龙知识边界｜第103源章｜1",
+      "title": "主角龙知识边界｜第九十八章：精灵与矮人种族之争（2）｜直到揭布才知道矮人大弩",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第103源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3803,7 +3803,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-104-01",
-      "title": "事件｜第104源章｜1",
+      "title": "精灵代表指责大弩偷袭",
       "memo": "精灵矮人竞技与巴别塔：事件（第104源章第1条）",
       "category": "event",
       "keys": [
@@ -3828,7 +3828,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-104-02",
-      "title": "事件｜第104源章｜2",
+      "title": "主角将赛事固定为每十年五场，给竞技场永久不死与不可摧毁魔法",
       "memo": "精灵矮人竞技与巴别塔：事件（第104源章第2条）",
       "category": "event",
       "keys": [
@@ -3853,7 +3853,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-104-03",
-      "title": "事件｜第104源章｜3",
+      "title": "主角取伊格德拉西尔树枝，切割萨加玛特哈之眼钻石，制成精灵矮人共同托钻的不可毁",
       "memo": "精灵矮人竞技与巴别塔：事件（第104源章第3条）",
       "category": "event",
       "keys": [
@@ -3880,7 +3880,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-104-01",
-      "title": "世界设定事实｜第104源章｜1",
+      "title": "首制安排每十年五战，竞技场内无人能被杀、只会剧痛昏迷，建筑不可摧毁",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第104源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3905,7 +3905,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-104-02",
-      "title": "世界设定事实｜第104源章｜2",
+      "title": "奖杯以圆形明亮式切割萨加玛特哈之眼，伊格德拉西尔枝与秘银制成，造型为两族共同托钻",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第104源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3932,7 +3932,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-104-01",
-      "title": "新建立连续性｜第104源章｜1",
+      "title": "十年赛事",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第104源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3957,7 +3957,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-104-02",
-      "title": "新建立连续性｜第104源章｜2",
+      "title": "永久不死竞技场",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第104源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3982,7 +3982,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-104-03",
-      "title": "新建立连续性｜第104源章｜3",
+      "title": "胜族管理权",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第104源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4007,7 +4007,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-104-04",
-      "title": "新建立连续性｜第104源章｜4",
+      "title": "共同奖杯",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第104源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4032,7 +4032,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-104-01",
-      "title": "未解决事项｜第104源章｜1",
+      "title": "个人胜者奖励",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第104源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4057,7 +4057,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-104-02",
-      "title": "未解决事项｜第104源章｜2",
+      "title": "制度长期演变",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第104源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4082,7 +4082,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-104-01",
-      "title": "主角龙形态｜第104源章｜1",
+      "title": "主角龙形态｜第九十九章：精灵与矮人种族之争（3）｜银发龙角白袍龙族巫女",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第104源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4108,7 +4108,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-104-01",
-      "title": "主角龙状态｜第104源章｜1",
+      "title": "主角龙状态｜第九十九章：精灵与矮人种族之争（3）｜永久竞技制度与共同奖杯的创造者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第104源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4133,7 +4133,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-104-01",
-      "title": "主角龙知识边界｜第104源章｜1",
+      "title": "主角龙知识边界｜第九十九章：精灵与矮人种族之争（3）｜只能预期制度未来作用，尚不知道城市与多族赛事的后世发展",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第104源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4158,7 +4158,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-105-01",
-      "title": "事件｜第105源章｜1",
+      "title": "当前时间线：英雄提醒应奖励直接获胜者",
       "memo": "精灵矮人竞技与巴别塔：事件（第105源章第1条）",
       "category": "event",
       "keys": [
@@ -4183,7 +4183,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-105-02",
-      "title": "事件｜第105源章｜2",
+      "title": "未来某英雄小队记录描述竞技场发展成参宿四巨城，周期改四年",
       "memo": "精灵矮人竞技与巴别塔：事件（第105源章第2条）",
       "category": "event",
       "keys": [
@@ -4208,7 +4208,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-105-01",
-      "title": "世界设定事实｜第105源章｜1",
+      "title": "旺盛生命力祝福持续十年，延寿、加速愈合、增强抵抗力与体能",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第105源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4233,7 +4233,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-105-02",
-      "title": "世界设定事实｜第105源章｜2",
+      "title": "后世资料称竞技城参宿四由原竞技场发展，赛事周期后改四年并扩为精灵，矮人，蜥蜴人",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第105源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4258,7 +4258,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-105-01",
-      "title": "新建立连续性｜第105源章｜1",
+      "title": "个人胜者旺盛生命祝福",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第105源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4283,7 +4283,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-105-02",
-      "title": "新建立连续性｜第105源章｜2",
+      "title": "不义者诅咒",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第105源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4308,7 +4308,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-105-01",
-      "title": "未解决事项｜第105源章｜1",
+      "title": "未来竞技城发展仅为后世资料",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第105源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4333,7 +4333,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-105-02",
-      "title": "未解决事项｜第105源章｜2",
+      "title": "奖杯失踪属另一未来事件",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第105源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4358,7 +4358,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-105-01",
-      "title": "主角龙形态｜第105源章｜1",
+      "title": "主角龙形态｜第一百章：精灵与矮人部族之争（4）｜当前为银发龙角白袍龙族巫女",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第105源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4384,7 +4384,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-105-01",
-      "title": "主角龙状态｜第105源章｜1",
+      "title": "主角龙状态｜第一百章：精灵与矮人部族之争（4）｜当前完成奖杯祝福",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第105源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4409,7 +4409,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-105-01",
-      "title": "主角龙知识边界｜第105源章｜1",
+      "title": "主角龙知识边界｜第一百章：精灵与矮人部族之争（4）｜当前不知道参宿四、多族赛制和未来奖杯失踪",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第105源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4434,7 +4434,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-106-01",
-      "title": "事件｜第106源章｜1",
+      "title": "主角、英雄和兽神继续周游，抵达沙漠边法师城巴别",
       "memo": "精灵矮人竞技与巴别塔：事件（第106源章第1条）",
       "category": "event",
       "keys": [
@@ -4459,7 +4459,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-106-02",
-      "title": "事件｜第106源章｜2",
+      "title": "生命神殿红龙幼崽报告多年上交碎片异常减少，城主称发现频率下降",
       "memo": "精灵矮人竞技与巴别塔：事件（第106源章第2条）",
       "category": "event",
       "keys": [
@@ -4484,7 +4484,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-106-03",
-      "title": "事件｜第106源章｜3",
+      "title": "红龙质疑低效的旅行游戏",
       "memo": "精灵矮人竞技与巴别塔：事件（第106源章第3条）",
       "category": "event",
       "keys": [
@@ -4509,7 +4509,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-106-04",
-      "title": "事件｜第106源章｜4",
+      "title": "英雄坚持陪主角进入巴别塔",
       "memo": "精灵矮人竞技与巴别塔：事件（第106源章第4条）",
       "category": "event",
       "keys": [
@@ -4534,7 +4534,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-106-01",
-      "title": "世界设定事实｜第106源章｜1",
+      "title": "巴别是毗邻灼热沙漠的法师城，依靠魔法卷轴与庇护受迫害法师繁荣，并建巨塔",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第106源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4559,7 +4559,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-106-02",
-      "title": "世界设定事实｜第106源章｜2",
+      "title": "巴别生命神殿由红龙幼崽管理，并与法师约定筛出含暗之碎片魔石交神殿",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第106源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4584,7 +4584,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-106-01",
-      "title": "新建立连续性｜第106源章｜1",
+      "title": "巴别法师城",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第106源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4609,7 +4609,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-106-02",
-      "title": "新建立连续性｜第106源章｜2",
+      "title": "碎片上交异常",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第106源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4634,7 +4634,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-106-03",
-      "title": "新建立连续性｜第106源章｜3",
+      "title": "红龙质疑旅行",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第106源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4659,7 +4659,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-106-01",
-      "title": "未解决事项｜第106源章｜1",
+      "title": "城主解释",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第106源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4684,7 +4684,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-106-02",
-      "title": "未解决事项｜第106源章｜2",
+      "title": "碎片去向",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第106源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4709,7 +4709,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-106-01",
-      "title": "主角龙形态｜第106源章｜1",
+      "title": "主角龙形态｜第一百零一章：巴别塔（1）｜龙族巫女人类少女形态",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第106源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4735,7 +4735,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-106-01",
-      "title": "主角龙状态｜第106源章｜1",
+      "title": "主角龙状态｜第一百零一章：巴别塔（1）｜英雄同伴兼巴别碎片契约调查者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第106源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4760,7 +4760,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-106-01",
-      "title": "主角龙知识边界｜第106源章｜1",
+      "title": "主角龙知识边界｜第一百零一章：巴别塔（1）｜只怀疑私吞或利用黑暗，尚未取得证据",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第106源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4785,7 +4785,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-107-01",
-      "title": "事件｜第107源章｜1",
+      "title": "二人从清晨等到午后，主角愤怒到想拆塔但以三明治压怒",
       "memo": "精灵矮人竞技与巴别塔：事件（第107源章第1条）",
       "category": "event",
       "keys": [
@@ -4810,7 +4810,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-107-02",
-      "title": "事件｜第107源章｜2",
+      "title": "城主称城市扩张，私下交易，检测工具损坏导致筛查困难，十台约仅三台可用",
       "memo": "精灵矮人竞技与巴别塔：事件（第107源章第2条）",
       "category": "event",
       "keys": [
@@ -4835,7 +4835,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-107-03",
-      "title": "事件｜第107源章｜3",
+      "title": "主角现场制作并演示自动分拣暗碎片魔石的机器，最终交付五台并要求保证神殿供给",
       "memo": "精灵矮人竞技与巴别塔：事件（第107源章第3条）",
       "category": "event",
       "keys": [
@@ -4860,7 +4860,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-107-01",
-      "title": "世界设定事实｜第107源章｜1",
+      "title": "新检测箱顶部批量进料，底部出纯净石，侧口弹出含暗碎片石，以纯净魔石供能",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第107源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4885,7 +4885,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-107-01",
-      "title": "新建立连续性｜第107源章｜1",
+      "title": "五台自动检测箱",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第107源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4910,7 +4910,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-107-02",
-      "title": "新建立连续性｜第107源章｜2",
+      "title": "城主表面解释",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第107源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4935,7 +4935,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-107-01",
-      "title": "未解决事项｜第107源章｜1",
+      "title": "机器实际产出",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第107源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4960,7 +4960,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-107-02",
-      "title": "未解决事项｜第107源章｜2",
+      "title": "城主是否守约",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第107源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4985,7 +4985,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-107-01",
-      "title": "主角龙形态｜第107源章｜1",
+      "title": "主角龙形态｜第一百零二章：巴别塔（2）｜龙族巫女少女形态",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第107源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5011,7 +5011,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-107-01",
-      "title": "主角龙状态｜第107源章｜1",
+      "title": "主角龙状态｜第一百零二章：巴别塔（2）｜自动碎片检测设备创造者，暂时接受城主解释",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第107源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5036,7 +5036,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-107-01",
-      "title": "主角龙知识边界｜第107源章｜1",
+      "title": "主角龙知识边界｜第一百零二章：巴别塔（2）｜没有证据知道城主说谎",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第107源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5061,7 +5061,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-108-01",
-      "title": "事件｜第108源章｜1",
+      "title": "主角以人类为被欲望推动、即使前方深渊仍追逐渴望的短命存在作开篇思考",
       "memo": "精灵矮人竞技与巴别塔：事件（第108源章第1条）",
       "category": "event",
       "keys": [
@@ -5086,7 +5086,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-108-02",
-      "title": "事件｜第108源章｜2",
+      "title": "一年后主角回巴别，依据机器秘密计数确认应上交量是实际五倍以上，决定不预约",
       "memo": "精灵矮人竞技与巴别塔：事件（第108源章第2条）",
       "category": "event",
       "keys": [
@@ -5111,7 +5111,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-108-03",
-      "title": "事件｜第108源章｜3",
+      "title": "塔顶城主自白骗取设备、私藏数十箱问题魔石并吸食黑暗碎片",
       "memo": "精灵矮人竞技与巴别塔：事件（第108源章第3条）",
       "category": "event",
       "keys": [
@@ -5136,7 +5136,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-108-04",
-      "title": "事件｜第108源章｜4",
+      "title": "城主吸收大量碎片，宣称黑暗命其合一并想成神，身体开始膨胀变异",
       "memo": "精灵矮人竞技与巴别塔：事件（第108源章第4条）",
       "category": "event",
       "keys": [
@@ -5161,7 +5161,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-108-01",
-      "title": "世界设定事实｜第108源章｜1",
+      "title": "主角在检测设备中暗装了含碎片魔石计数与远程汇报，显示应有数量超过上交量五倍",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第108源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5186,7 +5186,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-108-02",
-      "title": "世界设定事实｜第108源章｜2",
+      "title": "城主能以魔力把暗碎片从魔石引出并经鼻吸入，获得力量与快感",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第108源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5211,7 +5211,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-108-01",
-      "title": "新建立连续性｜第108源章｜1",
+      "title": "秘密计数证据",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第108源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5236,7 +5236,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-108-02",
-      "title": "新建立连续性｜第108源章｜2",
+      "title": "城主吸食碎片",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第108源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5261,7 +5261,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-108-03",
-      "title": "新建立连续性｜第108源章｜3",
+      "title": "成神妄想",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第108源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5286,7 +5286,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-108-04",
-      "title": "新建立连续性｜第108源章｜4",
+      "title": "人体变异开始",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第108源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5311,7 +5311,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-108-01",
-      "title": "未解决事项｜第108源章｜1",
+      "title": "城主变异形态",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第108源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5336,7 +5336,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-108-02",
-      "title": "未解决事项｜第108源章｜2",
+      "title": "碎片回收｜第一百零三章：巴别塔（3）",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第108源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5361,7 +5361,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-108-03",
-      "title": "未解决事项｜第108源章｜3",
+      "title": "塔内人员安全",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第108源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5386,7 +5386,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-108-01",
-      "title": "主角龙形态｜第108源章｜1",
+      "title": "主角龙形态｜第一百零三章：巴别塔（3）｜隐匿气息的龙族巫女少女形态",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第108源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5412,7 +5412,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-108-01",
-      "title": "主角龙状态｜第108源章｜1",
+      "title": "主角龙状态｜第一百零三章：巴别塔（3）｜巴别欺诈的秘密调查者与契约终止者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第108源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5437,7 +5437,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-108-01",
-      "title": "主角龙知识边界｜第108源章｜1",
+      "title": "主角龙知识边界｜第一百零三章：巴别塔（3）｜知道城主听见黑暗，但认为只是残片记忆而非独立意志",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第108源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5462,7 +5462,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-109-01",
-      "title": "事件｜第109源章｜1",
+      "title": "城主变为三米以上黑毛、角尾利齿怪物，自称巴别魔法之神并要主角当神后",
       "memo": "精灵矮人竞技与巴别塔：事件（第109源章第1条）",
       "category": "event",
       "keys": [
@@ -5487,7 +5487,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-109-02",
-      "title": "事件｜第109源章｜2",
+      "title": "主角先广播命塔内无辜者撤离并公布塔顶者盗神力，再以光柱轰击试逃变异者，摧毁巴别塔",
       "memo": "精灵矮人竞技与巴别塔：事件（第109源章第2条）",
       "category": "event",
       "keys": [
@@ -5512,7 +5512,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-109-03",
-      "title": "事件｜第109源章｜3",
+      "title": "英雄到达后得知怪物曾是人类",
       "memo": "精灵矮人竞技与巴别塔：事件（第109源章第3条）",
       "category": "event",
       "keys": [
@@ -5537,7 +5537,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-109-04",
-      "title": "事件｜第109源章｜4",
+      "title": "主角让英雄回收聚集碎片，英雄因对方曾是人类犹豫",
       "memo": "精灵矮人竞技与巴别塔：事件（第109源章第4条）",
       "category": "event",
       "keys": [
@@ -5562,7 +5562,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-109-01",
-      "title": "世界设定事实｜第109源章｜1",
+      "title": "人类大量主动吸收暗碎片可变为巨型角尾翼兽，力量与生命力被强化、理智受侵蚀",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第109源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5587,7 +5587,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-109-02",
-      "title": "世界设定事实｜第109源章｜2",
+      "title": "主角把本具智慧却主动被黑暗吞噬、堕落成魔的存在命名为恶魔",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第109源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5612,7 +5612,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-109-01",
-      "title": "新建立连续性｜第109源章｜1",
+      "title": "巴别塔毁灭",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第109源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5637,7 +5637,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-109-02",
-      "title": "新建立连续性｜第109源章｜2",
+      "title": "首个恶魔",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第109源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5662,7 +5662,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-109-03",
-      "title": "新建立连续性｜第109源章｜3",
+      "title": "智慧种主动堕落风险",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第109源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5687,7 +5687,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-109-04",
-      "title": "新建立连续性｜第109源章｜4",
+      "title": "恶魔命名",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第109源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5712,7 +5712,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-109-01",
-      "title": "未解决事项｜第109源章｜1",
+      "title": "恶魔研究与处置",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第109源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5737,7 +5737,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-109-02",
-      "title": "未解决事项｜第109源章｜2",
+      "title": "碎片回收｜第一百零四章：巴别塔（4）",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第109源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5762,7 +5762,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-109-03",
-      "title": "未解决事项｜第109源章｜3",
+      "title": "巴别城后果",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第109源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5787,7 +5787,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-109-01",
-      "title": "主角龙形态｜第109源章｜1",
+      "title": "主角龙形态｜第一百零四章：巴别塔（4）｜人类少女形龙族巫女，释放部分生命神信仰、魔法、神力与威压",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第109源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5813,7 +5813,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-109-01",
-      "title": "主角龙状态｜第109源章｜1",
+      "title": "主角龙状态｜第一百零四章：巴别塔（4）｜巴别塔毁灭者、恶魔概念命名者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第109源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5838,7 +5838,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-109-01",
-      "title": "主角龙知识边界｜第109源章｜1",
+      "title": "主角龙知识边界｜第一百零四章：巴别塔（4）｜只确认首例人类变异，其他种族可能性仍是推测",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第109源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5863,7 +5863,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-110-01",
-      "title": "事件｜第110源章｜1",
+      "title": "主角活体解剖首个恶魔，发现心后魔石把暗碎片溶入血液驱动变异",
       "memo": "精灵矮人竞技与巴别塔：事件（第110源章第1条）",
       "category": "event",
       "keys": [
@@ -5888,7 +5888,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-110-02",
-      "title": "事件｜第110源章｜2",
+      "title": "恶魔神智短暂恢复并求生、释放弱魔力吐息",
       "memo": "精灵矮人竞技与巴别塔：事件（第110源章第2条）",
       "category": "event",
       "keys": [
@@ -5913,7 +5913,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-110-03",
-      "title": "事件｜第110源章｜3",
+      "title": "后世《何为恶魔部族",
       "memo": "精灵矮人竞技与巴别塔：事件（第110源章第3条）",
       "category": "event",
       "keys": [
@@ -5938,7 +5938,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-110-01",
-      "title": "世界设定事实｜第110源章｜1",
+      "title": "恶魔肌肉内脏仍基于人类结构",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第110源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5963,7 +5963,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-110-02",
-      "title": "世界设定事实｜第110源章｜2",
+      "title": "恶魔死后灵魂保留原人形，却大部被黑暗污染",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第110源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5988,7 +5988,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-110-01",
-      "title": "新建立连续性｜第110源章｜1",
+      "title": "心后魔石机制",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第110源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6013,7 +6013,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-110-02",
-      "title": "新建立连续性｜第110源章｜2",
+      "title": "英雄第一次杀人",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第110源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6038,7 +6038,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-110-03",
-      "title": "新建立连续性｜第110源章｜3",
+      "title": "灵魂黑暗污染",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第110源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6063,7 +6063,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-110-01",
-      "title": "未解决事项｜第110源章｜1",
+      "title": "恶魔是否会再出现",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第110源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6088,7 +6088,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-110-02",
-      "title": "未解决事项｜第110源章｜2",
+      "title": "污染灵魂归宿",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第110源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6113,7 +6113,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-110-01",
-      "title": "主角龙形态｜第110源章｜1",
+      "title": "主角龙形态｜第一百零五章：巴别塔（5）｜龙族巫女少女形态",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第110源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6139,7 +6139,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-110-01",
-      "title": "主角龙状态｜第110源章｜1",
+      "title": "主角龙状态｜第一百零五章：巴别塔（5）｜恶魔生理研究者与首例处置决策者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第110源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6164,7 +6164,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-110-01",
-      "title": "主角龙知识边界｜第110源章｜1",
+      "title": "主角龙知识边界｜第一百零五章：巴别塔（5）｜只确认魔力使用者可能变异",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第110源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6189,7 +6189,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-111-01",
-      "title": "事件｜第111源章｜1",
+      "title": "居民把塔毁视为神罚，主角认定其本无罪",
       "memo": "精灵矮人竞技与巴别塔：事件（第111源章第1条）",
       "category": "event",
       "keys": [
@@ -6214,7 +6214,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-111-02",
-      "title": "事件｜第111源章｜2",
+      "title": "主角把魔石管理交生命神殿，并提出分区限时代表组成议会，避免一人长期掌权",
       "memo": "精灵矮人竞技与巴别塔：事件（第111源章第2条）",
       "category": "event",
       "keys": [
@@ -6239,7 +6239,7 @@
     },
     {
       "id": "era-08-rivalry-babel-event-111-03",
-      "title": "事件｜第111源章｜3",
+      "title": "未来会议记录描述普罗西亚七色魔法塔议会及紫塔银发少女塔主",
       "memo": "精灵矮人竞技与巴别塔：事件（第111源章第3条）",
       "category": "event",
       "keys": [
@@ -6264,7 +6264,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-111-01",
-      "title": "世界设定事实｜第111源章｜1",
+      "title": "巴别当期正式更名普罗西亚，提出分区限时代表议会与生命神殿管理魔石",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第111源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6289,7 +6289,7 @@
     },
     {
       "id": "era-08-rivalry-babel-world-fact-111-02",
-      "title": "世界设定事实｜第111源章｜2",
+      "title": "后世资料称普罗西亚由红橙黄绿蓝靛紫七塔主共治，各专元素，契约，强化，生命，幻术，灵魂",
       "memo": "精灵矮人竞技与巴别塔：世界设定事实（第111源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6314,7 +6314,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-111-01",
-      "title": "新建立连续性｜第111源章｜1",
+      "title": "普罗西亚新名",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第111源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6339,7 +6339,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-111-02",
-      "title": "新建立连续性｜第111源章｜2",
+      "title": "生命神殿魔石监管",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第111源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6364,7 +6364,7 @@
     },
     {
       "id": "era-08-rivalry-babel-continuity-new-111-03",
-      "title": "新建立连续性｜第111源章｜3",
+      "title": "限时代表议会",
       "memo": "精灵矮人竞技与巴别塔：新建立连续性（第111源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6389,7 +6389,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-111-01",
-      "title": "未解决事项｜第111源章｜1",
+      "title": "英雄剑是否受碎片影响",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第111源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6414,7 +6414,7 @@
     },
     {
       "id": "era-08-rivalry-babel-unresolved-111-02",
-      "title": "未解决事项｜第111源章｜2",
+      "title": "当期议会落实",
       "memo": "精灵矮人竞技与巴别塔：未解决事项（第111源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6439,7 +6439,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-form-111-01",
-      "title": "主角龙形态｜第111源章｜1",
+      "title": "主角龙形态｜第一百零六章：巴别塔（6）｜龙族巫女少女形态",
       "memo": "精灵矮人竞技与巴别塔：主角龙形态（第111源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6465,7 +6465,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-state-111-01",
-      "title": "主角龙状态｜第111源章｜1",
+      "title": "主角龙状态｜第一百零六章：巴别塔（6）｜普罗西亚命名者与灾后治理设计者",
       "memo": "精灵矮人竞技与巴别塔：主角龙状态（第111源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6490,7 +6490,7 @@
     },
     {
       "id": "era-08-rivalry-babel-protagonist-knowledge-111-01",
-      "title": "主角龙知识边界｜第111源章｜1",
+      "title": "主角龙知识边界｜第一百零六章：巴别塔（6）｜七塔制度与银发紫塔主属于未来会议节录",
       "memo": "精灵矮人竞技与巴别塔：主角龙知识边界（第111源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6515,7 +6515,7 @@
     },
     {
       "id": "era-08-rivalry-babel-secondary-character-01",
-      "title": "次要人物｜伊格德拉西尔",
+      "title": "伊格德拉西尔",
       "memo": "精灵矮人竞技与巴别塔：次要人物 伊格德拉西尔",
       "category": "secondary-character",
       "keys": [
@@ -6541,7 +6541,7 @@
     },
     {
       "id": "era-08-rivalry-babel-secondary-character-02",
-      "title": "次要人物｜萨加玛特哈",
+      "title": "萨加玛特哈",
       "memo": "精灵矮人竞技与巴别塔：次要人物 萨加玛特哈",
       "category": "secondary-character",
       "keys": [
@@ -6567,7 +6567,7 @@
     },
     {
       "id": "era-08-rivalry-babel-secondary-character-03",
-      "title": "次要人物｜矮人使者",
+      "title": "矮人使者",
       "memo": "精灵矮人竞技与巴别塔：次要人物 矮人使者",
       "category": "secondary-character",
       "keys": [
@@ -6593,7 +6593,7 @@
     },
     {
       "id": "era-08-rivalry-babel-secondary-character-04",
-      "title": "次要人物｜持剑精灵",
+      "title": "持剑精灵",
       "memo": "精灵矮人竞技与巴别塔：次要人物 持剑精灵",
       "category": "secondary-character",
       "keys": [
@@ -6619,7 +6619,7 @@
     },
     {
       "id": "era-08-rivalry-babel-secondary-character-05",
-      "title": "次要人物｜精灵使者",
+      "title": "精灵使者",
       "memo": "精灵矮人竞技与巴别塔：次要人物 精灵使者",
       "category": "secondary-character",
       "keys": [

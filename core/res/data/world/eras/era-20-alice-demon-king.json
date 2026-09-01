@@ -4816,7 +4816,7 @@
   "lorebook": [
     {
       "id": "era-20-alice-demon-king-core",
-      "title": "爱丽丝成为魔王与救援｜时代边界",
+      "title": "爱丽丝成为魔王与救援",
       "memo": "爱丽丝成为魔王与救援：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4831,7 +4831,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-420-01",
-      "title": "事件｜第420源章｜1",
+      "title": "全盛爱丽丝与埃里克比较魔王统治期城堡，当前阳光已能照入且压迫减弱",
       "memo": "爱丽丝成为魔王与救援：事件（第420源章第1条）",
       "category": "event",
       "keys": [
@@ -4859,7 +4859,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-420-02",
-      "title": "事件｜第420源章｜2",
+      "title": "城内没有任何怪物或残党，爱丽丝以完整感知确认只剩六人",
       "memo": "爱丽丝成为魔王与救援：事件（第420源章第2条）",
       "category": "event",
       "keys": [
@@ -4886,7 +4886,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-420-03",
-      "title": "事件｜第420源章｜3",
+      "title": "爱丽丝因沙玛什警告要求独处，并瞬移五名同伴出门、用高速再生屏障封门",
       "memo": "爱丽丝成为魔王与救援：事件（第420源章第3条）",
       "category": "event",
       "keys": [
@@ -4915,7 +4915,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-420-04",
-      "title": "事件｜第420源章｜4",
+      "title": "爱丽丝独自触摸被剑贯穿的水晶玉座，反复追问魔王本体、夺体动机与个人选择却一无所知",
       "memo": "爱丽丝成为魔王与救援：事件（第420源章第4条）",
       "category": "event",
       "keys": [
@@ -4942,7 +4942,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-420-01",
-      "title": "世界设定事实｜第420源章｜1",
+      "title": "魔王在位时城堡乌云遮日且远观即可使普通人晕厥，魔力能压垮常规军队",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第420源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4968,7 +4968,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-420-02",
-      "title": "世界设定事实｜第420源章｜2",
+      "title": "全盛爱丽丝能感知整座魔王城无其他生命或怪物",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第420源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4995,7 +4995,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-420-03",
-      "title": "世界设定事实｜第420源章｜3",
+      "title": "全盛爱丽丝可瞬间短距转移五人，并构筑魔力被英雄剑吸收后立即再生的高速屏障",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第420源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5021,7 +5021,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-420-01",
-      "title": "新建立连续性｜第420源章｜1",
+      "title": "空无一物的魔王城",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第420源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5047,7 +5047,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-420-02",
-      "title": "新建立连续性｜第420源章｜2",
+      "title": "玉座室独处",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第420源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5072,7 +5072,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-420-03",
-      "title": "新建立连续性｜第420源章｜3",
+      "title": "魔王首次主动开口",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第420源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5098,7 +5098,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-420-01",
-      "title": "未解决事项｜第420源章｜1",
+      "title": "选择内容",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第420源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5123,7 +5123,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-420-02",
-      "title": "未解决事项｜第420源章｜2",
+      "title": "魔王真实起源与动机",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第420源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5149,7 +5149,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-420-03",
-      "title": "未解决事项｜第420源章｜3",
+      "title": "同伴门外等待",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第420源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5174,7 +5174,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-420-01",
-      "title": "主角龙形态｜第420源章｜1",
+      "title": "主角龙形态｜所谓魔王.(1)｜完整全盛人形爱丽丝，展示整城感知、五人瞬移和超高速再生屏障",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第420源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5200,7 +5200,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-420-01",
-      "title": "主角龙状态｜第420源章｜1",
+      "title": "主角龙状态｜所谓魔王.(1)｜独自留在魔王玉座室面对个人选择，体内魔王首次开口",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第420源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5226,7 +5226,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-420-01",
-      "title": "主角龙知识边界｜第420源章｜1",
+      "title": "主角龙知识边界｜所谓魔王.(1)｜爱丽丝仍不知道玉座是否真是魔王本体、夺体动机或选择内容",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第420源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5253,7 +5253,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-421-01",
-      "title": "事件｜第421源章｜1",
+      "title": "爱丽丝被带入自己精神构筑、外界时间近似静止的心象世界",
       "memo": "爱丽丝成为魔王与救援：事件（第421源章第1条）",
       "category": "event",
       "keys": [
@@ -5280,7 +5280,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-421-02",
-      "title": "事件｜第421源章｜2",
+      "title": "魔王说明心象世界只允许爱丽丝、自己与生命女神进入，声称只想活下去",
       "memo": "爱丽丝成为魔王与救援：事件（第421源章第2条）",
       "category": "event",
       "keys": [
@@ -5307,7 +5307,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-421-03",
-      "title": "事件｜第421源章｜3",
+      "title": "爱丽丝坚持自己一直是龙族巫女",
       "memo": "爱丽丝成为魔王与救援：事件（第421源章第3条）",
       "category": "event",
       "keys": [
@@ -5335,7 +5335,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-421-04",
-      "title": "事件｜第421源章｜4",
+      "title": "魔王用生命教团魂与魄理论解释自己是先天魂、爱丽丝是肉体出生后形成的魄",
       "memo": "爱丽丝成为魔王与救援：事件（第421源章第4条）",
       "category": "event",
       "keys": [
@@ -5362,7 +5362,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-421-01",
-      "title": "世界设定事实｜第421源章｜1",
+      "title": "爱丽丝精神可构筑心象世界，外界身体近乎静止",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第421源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5389,7 +5389,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-421-02",
-      "title": "世界设定事实｜第421源章｜2",
+      "title": "生命教团教义认为灵魂由明亮轻暖的魂与黑暗沉冷的魄结合",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第421源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5415,7 +5415,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-421-03",
-      "title": "世界设定事实｜第421源章｜3",
+      "title": "魔王声称已与爱丽丝融合，消失后爱丽丝所坐玉座出现与魔王旧玉座一致的贯穿痕迹",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第421源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5442,7 +5442,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-421-01",
-      "title": "新建立连续性｜第421源章｜1",
+      "title": "心象世界",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第421源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5467,7 +5467,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-421-02",
-      "title": "新建立连续性｜第421源章｜2",
+      "title": "黑发无角魔王形态",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第421源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5493,7 +5493,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-421-03",
-      "title": "新建立连续性｜第421源章｜3",
+      "title": "魂魄同源主张",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第421源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5518,7 +5518,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-421-04",
-      "title": "新建立连续性｜第421源章｜4",
+      "title": "融合主张",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第421源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5543,7 +5543,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-421-01",
-      "title": "未解决事项｜第421源章｜1",
+      "title": "同源真实性",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第421源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5568,7 +5568,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-421-02",
-      "title": "未解决事项｜第421源章｜2",
+      "title": "生命女神当初行为",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第421源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5593,7 +5593,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-421-03",
-      "title": "未解决事项｜第421源章｜3",
+      "title": "成为魔王选择",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第421源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5619,7 +5619,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-421-01",
-      "title": "主角龙形态｜第421源章｜1",
+      "title": "主角龙形态｜所谓魔王.(2)｜全盛爱丽丝的心象形态持生命之树入场但武器被移除",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第421源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5646,7 +5646,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-421-01",
-      "title": "主角龙状态｜第421源章｜1",
+      "title": "主角龙状态｜所谓魔王.(2)｜爱丽丝被迫进入同源与成为魔王的对话，仍拒绝相信并要求证据",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第421源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5673,7 +5673,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-421-01",
-      "title": "主角龙知识边界｜第421源章｜1",
+      "title": "主角龙知识边界｜所谓魔王.(2)｜同体、魂魄分割、生命女神夺体等均来自魔王陈述",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第421源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5700,7 +5700,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-422-01",
-      "title": "事件｜第422源章｜1",
+      "title": "魔王称融合不改外在身体，目标是完整合一",
       "memo": "爱丽丝成为魔王与救援：事件（第422源章第1条）",
       "category": "event",
       "keys": [
@@ -5727,7 +5727,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-422-02",
-      "title": "事件｜第422源章｜2",
+      "title": "魔王说明魔贤者注入的生命女神祝福与爱丽丝收集的古神力量使其灵魂安全融解",
       "memo": "爱丽丝成为魔王与救援：事件（第422源章第2条）",
       "category": "event",
       "keys": [
@@ -5755,7 +5755,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-422-03",
-      "title": "事件｜第422源章｜3",
+      "title": "爱丽丝说只想剥离魔王后辞去龙巫女、作为普通人活",
       "memo": "爱丽丝成为魔王与救援：事件（第422源章第3条）",
       "category": "event",
       "keys": [
@@ -5782,7 +5782,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-422-04",
-      "title": "事件｜第422源章｜4",
+      "title": "魔王宣称魔王必须存在以集中怪物、阻止人类内斗并维持生命女神兴趣",
       "memo": "爱丽丝成为魔王与救援：事件（第422源章第4条）",
       "category": "event",
       "keys": [
@@ -5810,7 +5810,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-422-01",
-      "title": "世界设定事实｜第422源章｜1",
+      "title": "魔王称其可推动爱丽丝产生被误认作直觉的冲动，并借古神力量与魔贤者注入的女神祝福熔入她",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第422源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5838,7 +5838,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-422-02",
-      "title": "世界设定事实｜第422源章｜2",
+      "title": "魔王声称融合后除撕裂灵魂无法分离，爱丽丝死亡会使其支配尸体复活",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第422源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5865,7 +5865,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-422-03",
-      "title": "世界设定事实｜第422源章｜3",
+      "title": "魔王把自身功能解释为统率敌视生命的怪物、提供人类共同敌人并维持生命女神兴趣",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第422源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5891,7 +5891,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-422-01",
-      "title": "新建立连续性｜第422源章｜1",
+      "title": "魔贤者融合阴谋",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第422源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5917,7 +5917,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-422-02",
-      "title": "新建立连续性｜第422源章｜2",
+      "title": "爱丽丝普通人愿望",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第422源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5943,7 +5943,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-422-03",
-      "title": "新建立连续性｜第422源章｜3",
+      "title": "魔王二选一",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第422源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5969,7 +5969,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-422-04",
-      "title": "新建立连续性｜第422源章｜4",
+      "title": "死亡复活封堵",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第422源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5994,7 +5994,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-422-01",
-      "title": "未解决事项｜第422源章｜1",
+      "title": "爱丽丝最终决定内容",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第422源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6020,7 +6020,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-422-02",
-      "title": "未解决事项｜第422源章｜2",
+      "title": "融合是否可逆",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第422源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6045,7 +6045,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-422-03",
-      "title": "未解决事项｜第422源章｜3",
+      "title": "蒂雅是否介入",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第422源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6071,7 +6071,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-422-01",
-      "title": "主角龙形态｜第422源章｜1",
+      "title": "主角龙形态｜所谓魔王.(3)｜爱丽丝外在身体无变化，精神内部被魔王声称已不可逆融合",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第422源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6098,7 +6098,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-422-01",
-      "title": "主角龙状态｜第422源章｜1",
+      "title": "主角龙状态｜所谓魔王.(3)｜爱丽丝排除交身和死亡，做出尚未公开的决定",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第422源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6124,7 +6124,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-422-01",
-      "title": "主角龙知识边界｜第422源章｜1",
+      "title": "主角龙知识边界｜所谓魔王.(3)｜魔王承认操控冲动，降低其其他论述可信度",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第422源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6151,7 +6151,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-423-01",
-      "title": "事件｜第423源章｜1",
+      "title": "后世睡眼少女让眼镜少女自行读书研究魔王，强调魔法师须亲近书本而非只索取答案",
       "memo": "爱丽丝成为魔王与救援：事件（第423源章第1条）",
       "category": "event",
       "keys": [
@@ -6178,7 +6178,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-423-02",
-      "title": "事件｜第423源章｜2",
+      "title": "学术书列出魔王为怪物控制装置、共同敌人、时代转折等理论",
       "memo": "爱丽丝成为魔王与救援：事件（第423源章第2条）",
       "category": "event",
       "keys": [
@@ -6204,7 +6204,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-423-03",
-      "title": "事件｜第423源章｜3",
+      "title": "眼镜少女发现第二位魔王记录似被系统沉默，睡眼少女明确警告知道会有危险并拒绝透露",
       "memo": "爱丽丝成为魔王与救援：事件（第423源章第3条）",
       "category": "event",
       "keys": [
@@ -6231,7 +6231,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-423-04",
-      "title": "事件｜第423源章｜4",
+      "title": "爱丽丝向五名同伴宣布自己变成魔王",
       "memo": "爱丽丝成为魔王与救援：事件（第423源章第4条）",
       "category": "event",
       "keys": [
@@ -6258,7 +6258,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-423-01",
-      "title": "世界设定事实｜第423源章｜1",
+      "title": "后世学界把魔王视为怪物控制装置、共同敌人或时代转折",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第423源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6284,7 +6284,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-423-02",
-      "title": "世界设定事实｜第423源章｜2",
+      "title": "第二位魔王的记录被广泛噤声，知情者认为继续调查会带来现实危险",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第423源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6310,7 +6310,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-423-03",
-      "title": "世界设定事实｜第423源章｜3",
+      "title": "爱丽丝成为新的可自控魔王，并声称获得不老不死与怪物支配潜力",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第423源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6337,7 +6337,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-423-01",
-      "title": "新建立连续性｜第423源章｜1",
+      "title": "第二位魔王记录禁忌",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第423源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6363,7 +6363,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-423-02",
-      "title": "新建立连续性｜第423源章｜2",
+      "title": "爱丽丝公开成魔王",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第423源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6390,7 +6390,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-423-01",
-      "title": "未解决事项｜第423源章｜1",
+      "title": "同伴是否接受",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第423源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6415,7 +6415,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-423-02",
-      "title": "未解决事项｜第423源章｜2",
+      "title": "魔王形态与统治方式",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第423源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6441,7 +6441,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-423-03",
-      "title": "未解决事项｜第423源章｜3",
+      "title": "蒂雅态度",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第423源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6467,7 +6467,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-423-01",
-      "title": "主角龙形态｜第423源章｜1",
+      "title": "主角龙形态｜所谓魔王.(4)｜爱丽丝已选择魔王身份，但本章尚未描述外观变化",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第423源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6494,7 +6494,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-423-01",
-      "title": "主角龙状态｜第423源章｜1",
+      "title": "主角龙状态｜所谓魔王.(4)｜她向同伴宣布成为魔王并将共同旅行定义为自己的终点",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第423源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6520,7 +6520,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-423-01",
-      "title": "主角龙知识边界｜第423源章｜1",
+      "title": "主角龙知识边界｜所谓魔王.(4)｜古神和蒂雅是否预谋让爱丽丝成魔王只是同伴猜测",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第423源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6548,7 +6548,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-424-01",
-      "title": "事件｜第424源章｜1",
+      "title": "埃里克与全队拒绝接受，库茨越过大道理询问爱丽丝真实意愿",
       "memo": "爱丽丝成为魔王与救援：事件（第424源章第1条）",
       "category": "event",
       "keys": [
@@ -6576,7 +6576,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-424-02",
-      "title": "事件｜第424源章｜2",
+      "title": "爱丽丝把生命之树交埃里克送回教团，称自己不再有龙巫女资格",
       "memo": "爱丽丝成为魔王与救援：事件（第424源章第2条）",
       "category": "event",
       "keys": [
@@ -6604,7 +6604,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-424-03",
-      "title": "事件｜第424源章｜3",
+      "title": "爱丽丝以完整魔力使魔王城及邻近土地升空为浮空岛，自我隔离并承诺牵制飞行怪物与残党",
       "memo": "爱丽丝成为魔王与救援：事件（第424源章第3条）",
       "category": "event",
       "keys": [
@@ -6631,7 +6631,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-424-04",
-      "title": "事件｜第424源章｜4",
+      "title": "后世浮空岛成为飞行怪物巢穴，登陆者无人生还",
       "memo": "爱丽丝成为魔王与救援：事件（第424源章第4条）",
       "category": "event",
       "keys": [
@@ -6656,7 +6656,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-424-01",
-      "title": "世界设定事实｜第424源章｜1",
+      "title": "成为新魔王的爱丽丝衣服由纯白染黑",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第424源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6683,7 +6683,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-424-02",
-      "title": "世界设定事实｜第424源章｜2",
+      "title": "爱丽丝用远距空间转移把同伴送回不同目的地，自己留在浮空城，生命之树交埃里克送回教团",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第424源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6710,7 +6710,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-424-03",
-      "title": "世界设定事实｜第424源章｜3",
+      "title": "后世浮空岛吸引飞行怪物，A级及S级冒险者登陆后失踪",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第424源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6735,7 +6735,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-424-01",
-      "title": "新建立连续性｜第424源章｜1",
+      "title": "黑衣新魔王爱丽丝",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第424源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6762,7 +6762,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-424-02",
-      "title": "新建立连续性｜第424源章｜2",
+      "title": "浮空魔王城",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第424源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6788,7 +6788,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-424-03",
-      "title": "新建立连续性｜第424源章｜3",
+      "title": "生命之树归还",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第424源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6813,7 +6813,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-424-04",
-      "title": "新建立连续性｜第424源章｜4",
+      "title": "世界七大禁地",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第424源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6838,7 +6838,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-424-01",
-      "title": "未解决事项｜第424源章｜1",
+      "title": "爱丽丝长期生活",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第424源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6864,7 +6864,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-424-02",
-      "title": "未解决事项｜第424源章｜2",
+      "title": "同伴去向",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第424源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6889,7 +6889,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-424-03",
-      "title": "未解决事项｜第424源章｜3",
+      "title": "魔贤者与飞怪控制",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第424源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6915,7 +6915,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-424-01",
-      "title": "主角龙形态｜第424源章｜1",
+      "title": "主角龙形态｜旅程的尽头.(1)｜爱丽丝成为新魔王，纯白衣装逐渐染黑，仍保持年轻人形",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第424源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6942,7 +6942,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-424-01",
-      "title": "主角龙状态｜第424源章｜1",
+      "title": "主角龙状态｜旅程的尽头.(1)｜她把魔王城升为空中禁地，送走所有同伴并开始长期独居、牵制怪物与残党",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第424源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6968,7 +6968,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-424-01",
-      "title": "主角龙知识边界｜第424源章｜1",
+      "title": "主角龙知识边界｜旅程的尽头.(1)｜后世说登陆者无人生还，不等于正文已说明均被爱丽丝杀死",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第424源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6994,7 +6994,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-425-01",
-      "title": "事件｜第425源章｜1",
+      "title": "埃里克被送回生命教团后断食失常、抱生命之树徘徊",
       "memo": "爱丽丝成为魔王与救援：事件（第425源章第1条）",
       "category": "event",
       "keys": [
@@ -7021,7 +7021,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-425-02",
-      "title": "事件｜第425源章｜2",
+      "title": "蒂雅回应埃里克祈祷，承认能把魔王剥离却不愿直接介入，理由是舞台装置不应登台解决",
       "memo": "爱丽丝成为魔王与救援：事件（第425源章第2条）",
       "category": "event",
       "keys": [
@@ -7050,7 +7050,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-425-03",
-      "title": "事件｜第425源章｜3",
+      "title": "蒂雅指出仍有正当介入余地，连续询问埃里克是否愿放弃一切，让爱丽丝变普通人",
       "memo": "爱丽丝成为魔王与救援：事件（第425源章第3条）",
       "category": "event",
       "keys": [
@@ -7079,7 +7079,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-425-01",
-      "title": "世界设定事实｜第425源章｜1",
+      "title": "生命教团高层对新魔王爱丽丝没有统一立场，出现怜悯，神圣牺牲，女神安排等数十派",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第425源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7106,7 +7106,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-425-02",
-      "title": "世界设定事实｜第425源章｜2",
+      "title": "蒂雅明确声称自己有能力剥离魔王却选择不做，理由是尊重角色决心和已完成故事",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第425源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7133,7 +7133,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-425-03",
-      "title": "世界设定事实｜第425源章｜3",
+      "title": "蒂雅认为埃里克自愿支付重大代价可构成她介入的正当余地",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第425源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7160,7 +7160,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-425-01",
-      "title": "新建立连续性｜第425源章｜1",
+      "title": "埃里克救援决心",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第425源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7186,7 +7186,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-425-02",
-      "title": "新建立连续性｜第425源章｜2",
+      "title": "蒂雅故事不干预原则",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第425源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7212,7 +7212,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-425-03",
-      "title": "新建立连续性｜第425源章｜3",
+      "title": "教团分裂",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第425源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7237,7 +7237,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-425-01",
-      "title": "未解决事项｜第425源章｜1",
+      "title": "救援代价与手段",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第425源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7262,7 +7262,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-425-02",
-      "title": "未解决事项｜第425源章｜2",
+      "title": "爱丽丝意愿冲突",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第425源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7288,7 +7288,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-425-01",
-      "title": "主角龙形态｜第425源章｜1",
+      "title": "主角龙形态｜旅程的尽头.(2)｜新魔王爱丽丝不直接出场",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第425源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7317,7 +7317,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-425-01",
-      "title": "主角龙状态｜第425源章｜1",
+      "title": "主角龙状态｜旅程的尽头.(2)｜爱丽丝仍独居浮空城，埃里克决定以一切换取救援",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第425源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7344,7 +7344,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-425-01",
-      "title": "主角龙知识边界｜第425源章｜1",
+      "title": "主角龙知识边界｜旅程的尽头.(2)｜教团关于古神共同安排的说法只是内部派别推论",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第425源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7372,7 +7372,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-426-01",
-      "title": "事件｜第426源章｜1",
+      "title": "蒂雅点破埃里克爱情，说明救援手段是海螺与英雄剑",
       "memo": "爱丽丝成为魔王与救援：事件（第426源章第1条）",
       "category": "event",
       "keys": [
@@ -7400,7 +7400,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-426-02",
-      "title": "事件｜第426源章｜2",
+      "title": "失去勇者资格的埃里克向教团长说明银光海螺可向生命女神许愿救爱丽丝",
       "memo": "爱丽丝成为魔王与救援：事件（第426源章第2条）",
       "category": "event",
       "keys": [
@@ -7427,7 +7427,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-426-03",
-      "title": "事件｜第426源章｜3",
+      "title": "后世老鸟人指出生命教团记录把事件改写成埃里克重组队伍再打不完全魔王",
       "memo": "爱丽丝成为魔王与救援：事件（第426源章第3条）",
       "category": "event",
       "keys": [
@@ -7455,7 +7455,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-426-01",
-      "title": "世界设定事实｜第426源章｜1",
+      "title": "埃里克献出海螺，英雄之剑，勇者资格，勇者所得与死后灵魂处置权",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第426源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7483,7 +7483,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-426-02",
-      "title": "世界设定事实｜第426源章｜2",
+      "title": "改造海螺流淡银光，可向生命女神许愿，理论能力包含永恒生命",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第426源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7511,7 +7511,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-426-03",
-      "title": "世界设定事实｜第426源章｜3",
+      "title": "生命教团官方史与佐伊族口述史对埃里克后续不同",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第426源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7537,7 +7537,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-426-01",
-      "title": "新建立连续性｜第426源章｜1",
+      "title": "非勇者埃里克",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第426源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7563,7 +7563,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-426-02",
-      "title": "新建立连续性｜第426源章｜2",
+      "title": "生命女神许愿海螺",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第426源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7588,7 +7588,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-426-03",
-      "title": "新建立连续性｜第426源章｜3",
+      "title": "埃里克死后契约",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第426源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7614,7 +7614,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-426-04",
-      "title": "新建立连续性｜第426源章｜4",
+      "title": "史料分歧",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第426源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7639,7 +7639,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-426-01",
-      "title": "未解决事项｜第426源章｜1",
+      "title": "许愿内容与实现",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第426源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7664,7 +7664,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-426-02",
-      "title": "未解决事项｜第426源章｜2",
+      "title": "浮空城重返",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第426源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7689,7 +7689,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-426-01",
-      "title": "主角龙形态｜第426源章｜1",
+      "title": "主角龙形态｜旅程的尽头.(3)｜爱丽丝仍为浮空城黑衣新魔王",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第426源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7717,7 +7717,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-426-01",
-      "title": "主角龙状态｜第426源章｜1",
+      "title": "主角龙状态｜旅程的尽头.(3)｜埃里克失去勇者身份，获得生命女神版海螺并开始寻找浮空城交通",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第426源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7743,7 +7743,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-426-01",
-      "title": "主角龙知识边界｜第426源章｜1",
+      "title": "主角龙知识边界｜旅程的尽头.(3)｜埃里克以为古神共同决定爱丽丝成魔王，但此前没有证据",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第426源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7771,7 +7771,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-427-01",
-      "title": "事件｜第427源章｜1",
+      "title": "芬娜、莉莉、尤里卡、库茨迅速重聚",
       "memo": "爱丽丝成为魔王与救援：事件（第427源章第1条）",
       "category": "event",
       "keys": [
@@ -7803,7 +7803,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-427-02",
-      "title": "事件｜第427源章｜2",
+      "title": "因爱丽丝缺席导致后排薄弱，队伍讨论后请大萨满佩尔同行",
       "memo": "爱丽丝成为魔王与救援：事件（第427源章第2条）",
       "category": "event",
       "keys": [
@@ -7831,7 +7831,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-427-03",
-      "title": "事件｜第427源章｜3",
+      "title": "队伍获佐伊协助登上浮空魔王城，遇四天王",
       "memo": "爱丽丝成为魔王与救援：事件（第427源章第3条）",
       "category": "event",
       "keys": [
@@ -7858,7 +7858,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-427-04",
-      "title": "事件｜第427源章｜4",
+      "title": "魔贤者拒绝埃里克见爱丽丝并以其无英雄剑、无龙巫女威胁",
       "memo": "爱丽丝成为魔王与救援：事件（第427源章第4条）",
       "category": "event",
       "keys": [
@@ -7886,7 +7886,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-427-01",
-      "title": "世界设定事实｜第427源章｜1",
+      "title": "浮空城高度超出尤里卡尚不熟练的踏风能力，佐伊族仍是可靠登岛方式",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第427源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7912,7 +7912,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-427-02",
-      "title": "世界设定事实｜第427源章｜2",
+      "title": "浮空城周围有飞行怪物",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第427源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7940,7 +7940,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-427-03",
-      "title": "世界设定事实｜第427源章｜3",
+      "title": "卡拉德波加本应归教团，但祭司长默许埃里克保留，成为失去英雄剑后的个人武器",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第427源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7966,7 +7966,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-427-01",
-      "title": "新建立连续性｜第427源章｜1",
+      "title": "佩尔救援队员",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第427源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7992,7 +7992,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-427-02",
-      "title": "新建立连续性｜第427源章｜2",
+      "title": "浮空城四天王休战",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第427源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8017,7 +8017,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-427-03",
-      "title": "新建立连续性｜第427源章｜3",
+      "title": "埃里克获单独觐见",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第427源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8043,7 +8043,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-427-01",
-      "title": "未解决事项｜第427源章｜1",
+      "title": "许愿对话",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第427源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8068,7 +8068,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-427-02",
-      "title": "未解决事项｜第427源章｜2",
+      "title": "同伴门外局势",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第427源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8093,7 +8093,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-427-01",
-      "title": "主角龙形态｜第427源章｜1",
+      "title": "主角龙形态｜旅程的延续.(1)｜浮空城中的黑衣新魔王爱丽丝，以远距声音统御四天王",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第427源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8120,7 +8120,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-427-01",
-      "title": "主角龙状态｜第427源章｜1",
+      "title": "主角龙状态｜旅程的延续.(1)｜旧队伍加佩尔登岛，爱丽丝允许埃里克单独觐见",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第427源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8148,7 +8148,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-427-01",
-      "title": "主角龙知识边界｜第427源章｜1",
+      "title": "主角龙知识边界｜旅程的延续.(1)｜四天王说完全体目标实现是其阵营理解",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第427源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8174,7 +8174,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-428-01",
-      "title": "事件｜第428源章｜1",
+      "title": "埃里克独入玉座室，其他人和不战四天王尴尬等候",
       "memo": "爱丽丝成为魔王与救援：事件（第428源章第1条）",
       "category": "event",
       "keys": [
@@ -8203,7 +8203,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-428-02",
-      "title": "事件｜第428源章｜2",
+      "title": "水晶玉座正吞噬爱丽丝四肢",
       "memo": "爱丽丝成为魔王与救援：事件（第428源章第2条）",
       "category": "event",
       "keys": [
@@ -8230,7 +8230,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-428-03",
-      "title": "事件｜第428源章｜3",
+      "title": "埃里克展示改造海螺并向生命女神许愿帮助爱丽丝",
       "memo": "爱丽丝成为魔王与救援：事件（第428源章第3条）",
       "category": "event",
       "keys": [
@@ -8259,7 +8259,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-428-04",
-      "title": "事件｜第428源章｜4",
+      "title": "爱丽丝一度想到让蒂雅吸收魔王，蒂雅因魔王有趣拒绝使其消失，改用阻魔屏障停止吸收",
       "memo": "爱丽丝成为魔王与救援：事件（第428源章第4条）",
       "category": "event",
       "keys": [
@@ -8287,7 +8287,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-428-01",
-      "title": "世界设定事实｜第428源章｜1",
+      "title": "新魔王玉座的水晶正覆盖爱丽丝双手双脚，呈逐渐吞噬形态",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第428源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8314,7 +8314,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-428-02",
-      "title": "世界设定事实｜第428源章｜2",
+      "title": "生命女神海螺可召来蒂雅部分力量",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第428源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8342,7 +8342,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-428-03",
-      "title": "世界设定事实｜第428源章｜3",
+      "title": "蒂雅可用透明屏障完全阻断魔力流动，并以耀眼银发、龙角、与爱丽丝相似的少女形态显现",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第428源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8369,7 +8369,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-428-01",
-      "title": "新建立连续性｜第428源章｜1",
+      "title": "魔王玉座吞噬",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第428源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8395,7 +8395,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-428-02",
-      "title": "新建立连续性｜第428源章｜2",
+      "title": "生命女神真身显现",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第428源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8420,7 +8420,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-428-03",
-      "title": "新建立连续性｜第428源章｜3",
+      "title": "阻魔屏障",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第428源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8445,7 +8445,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-428-04",
-      "title": "新建立连续性｜第428源章｜4",
+      "title": "三方协商",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第428源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8470,7 +8470,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-428-01",
-      "title": "未解决事项｜第428源章｜1",
+      "title": "最终愿望方案",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第428源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8495,7 +8495,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-428-02",
-      "title": "未解决事项｜第428源章｜2",
+      "title": "魔王空位问题",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第428源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8521,7 +8521,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-428-03",
-      "title": "未解决事项｜第428源章｜3",
+      "title": "爱丽丝是否离岛",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第428源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8547,7 +8547,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-428-01",
-      "title": "主角龙形态｜第428源章｜1",
+      "title": "主角龙形态｜旅程的延续.(2)｜黑衣新魔王爱丽丝被水晶玉座部分吞噬",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第428源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8576,7 +8576,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-428-01",
-      "title": "主角龙状态｜第428源章｜1",
+      "title": "主角龙状态｜旅程的延续.(2)｜埃里克已成功触发生命女神援助，但爱丽丝拒绝简单分离",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第428源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8603,7 +8603,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-428-01",
-      "title": "主角龙知识边界｜第428源章｜1",
+      "title": "主角龙知识边界｜旅程的延续.(2)｜爱丽丝认为古神全体决定其成魔王仍是误解",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第428源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8631,7 +8631,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-429-01",
-      "title": "事件｜第429源章｜1",
+      "title": "蒂雅主持爱丽丝与埃里克的愿望协调",
       "memo": "爱丽丝成为魔王与救援：事件（第429源章第1条）",
       "category": "event",
       "keys": [
@@ -8660,7 +8660,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-429-02",
-      "title": "事件｜第429源章｜2",
+      "title": "蒂雅提出魔王不必由爱丽丝担任，选择把已与爱丽丝融合的原魔王分离并放回原身体",
       "memo": "爱丽丝成为魔王与救援：事件（第429源章第2条）",
       "category": "event",
       "keys": [
@@ -8689,7 +8689,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-429-03",
-      "title": "事件｜第429源章｜3",
+      "title": "蒂雅以恢复身体并施加约束控制原魔王，同时为爱丽丝造普通人身体",
       "memo": "爱丽丝成为魔王与救援：事件（第429源章第3条）",
       "category": "event",
       "keys": [
@@ -8719,7 +8719,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-429-01",
-      "title": "世界设定事实｜第429源章｜1",
+      "title": "蒂雅基于亲历的宗教，肤色，文化差异屠杀",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第429源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8746,7 +8746,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-429-02",
-      "title": "世界设定事实｜第429源章｜2",
+      "title": "原魔王利用蒂雅祝福使自身灵魂与爱丽丝完全融合，分离困难但并非不可能",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第429源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8775,7 +8775,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-429-03",
-      "title": "世界设定事实｜第429源章｜3",
+      "title": "抽离爱丽丝灵魂后由蒂雅间接操控，植入人工灵魂",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第429源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8804,7 +8804,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-429-04",
-      "title": "世界设定事实｜第429源章｜4",
+      "title": "原魔王暴走的核心目标是找回肉体",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第429源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8832,7 +8832,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-429-01",
-      "title": "新建立连续性｜第429源章｜1",
+      "title": "原魔王替代方案",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第429源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8859,7 +8859,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-429-02",
-      "title": "新建立连续性｜第429源章｜2",
+      "title": "普通人爱丽丝方案",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第429源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8885,7 +8885,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-429-03",
-      "title": "新建立连续性｜第429源章｜3",
+      "title": "可控魔王治理逻辑",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第429源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8911,7 +8911,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-429-01",
-      "title": "未解决事项｜第429源章｜1",
+      "title": "灵魂分离是否成功",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第429源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8936,7 +8936,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-429-02",
-      "title": "未解决事项｜第429源章｜2",
+      "title": "原魔王约束形式",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第429源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8963,7 +8963,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-429-01",
-      "title": "主角龙形态｜第429源章｜1",
+      "title": "主角龙形态｜旅程的延续.(3)｜蒂雅以银发龙角少女神体调停",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第429源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8991,7 +8991,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-429-01",
-      "title": "主角龙状态｜第429源章｜1",
+      "title": "主角龙状态｜旅程的延续.(3)｜爱丽丝同意进入分离与新身体流程，预定失去龙巫女身份成为普通人",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第429源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9017,7 +9017,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-429-01",
-      "title": "主角龙知识边界｜第429源章｜1",
+      "title": "主角龙知识边界｜旅程的延续.(3)｜魔王必须存在是蒂雅的世界治理结论，不可绝对化为未经视角限定的宇宙法则",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第429源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9044,7 +9044,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-430-01",
-      "title": "事件｜第430源章｜1",
+      "title": "后世材料称埃里克个人战力不突出，核心是为队伍指明方向且选择最终总导向最佳结果",
       "memo": "爱丽丝成为魔王与救援：事件（第430源章第1条）",
       "category": "event",
       "keys": [
@@ -9070,7 +9070,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-430-02",
-      "title": "事件｜第430源章｜2",
+      "title": "蒂雅以化身魔法造出无角银发、与爱丽丝相似的普通人少女身体，保留正常成长可能",
       "memo": "爱丽丝成为魔王与救援：事件（第430源章第2条）",
       "category": "event",
       "keys": [
@@ -9098,7 +9098,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-430-03",
-      "title": "事件｜第430源章｜3",
+      "title": "蒂雅承诺分离后爱丽丝会在新身体醒来，继续普通人的人生",
       "memo": "爱丽丝成为魔王与救援：事件（第430源章第3条）",
       "category": "event",
       "keys": [
@@ -9126,7 +9126,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-430-04",
-      "title": "事件｜第430源章｜4",
+      "title": "蒂雅移除屏障，停止自动吸收，并用自己的魔力逐步替换构成魔王的魔力",
       "memo": "爱丽丝成为魔王与救援：事件（第430源章第4条）",
       "category": "event",
       "keys": [
@@ -9153,7 +9153,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-430-01",
-      "title": "世界设定事实｜第430源章｜1",
+      "title": "埃里克的最优选择能力存在神助、直觉、好运等后世竞争解释，不可选一项写成确证",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第430源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9179,7 +9179,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-430-02",
-      "title": "世界设定事实｜第430源章｜2",
+      "title": "化身魔法放弃控制权可形成普通人身体",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第430源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9205,7 +9205,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-430-03",
-      "title": "世界设定事实｜第430源章｜3",
+      "title": "新身体可通过营养和睡眠正常成长，而非继续停滞",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第430源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9230,7 +9230,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-430-04",
-      "title": "世界设定事实｜第430源章｜4",
+      "title": "融合魂魄的分离超出其他神明能力，蒂雅自称全世界最擅长灵魂操纵",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第430源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9256,7 +9256,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-430-05",
-      "title": "世界设定事实｜第430源章｜5",
+      "title": "蒂雅通过在魔王魔力间隙注入自身魔力逐块替换，避免自动吸收并测试控制权",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第430源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -9283,7 +9283,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-430-01",
-      "title": "新建立连续性｜第430源章｜1",
+      "title": "无角银发普通人爱丽丝身体",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第430源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9309,7 +9309,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-430-02",
-      "title": "新建立连续性｜第430源章｜2",
+      "title": "正常成长机制",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第430源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9334,7 +9334,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-430-03",
-      "title": "新建立连续性｜第430源章｜3",
+      "title": "忒修斯式魔力替换",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第430源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9359,7 +9359,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-430-01",
-      "title": "未解决事项｜第430源章｜1",
+      "title": "魂魄转移结果",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第430源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9384,7 +9384,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-430-02",
-      "title": "未解决事项｜第430源章｜2",
+      "title": "替换后的原魔王性质",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第430源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9411,7 +9411,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-430-01",
-      "title": "主角龙形态｜第430源章｜1",
+      "title": "主角龙形态｜旅程的延续.(4)｜蒂雅仍为银发龙角少女",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第430源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9439,7 +9439,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-430-01",
-      "title": "主角龙状态｜第430源章｜1",
+      "title": "主角龙状态｜旅程的延续.(4)｜爱丽丝已入睡等待魂魄转移",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第430源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9466,7 +9466,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-430-01",
-      "title": "主角龙知识边界｜第430源章｜1",
+      "title": "主角龙知识边界｜旅程的延续.(4)｜新身体的成长结果尚未发生",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第430源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9491,7 +9491,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-431-01",
-      "title": "事件｜第431源章｜1",
+      "title": "蒂雅确认灵魂由先天轮回的魂与后天记忆经验形成的魄构成，爱丽丝对应原魔王的魄",
       "memo": "爱丽丝成为魔王与救援：事件（第431源章第1条）",
       "category": "event",
       "keys": [
@@ -9520,7 +9520,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-431-02",
-      "title": "事件｜第431源章｜2",
+      "title": "蒂雅把沉睡爱丽丝交给埃里克，给传送羽毛，并要求他用只有他知道的假名萝蕾娜称呼自己",
       "memo": "爱丽丝成为魔王与救援：事件（第431源章第2条）",
       "category": "event",
       "keys": [
@@ -9548,7 +9548,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-431-03",
-      "title": "事件｜第431源章｜3",
+      "title": "蒂雅向埃里克展示缩小至填满玉座室的银龙形态，并以萝蕾娜之名祝福埃里克",
       "memo": "爱丽丝成为魔王与救援：事件（第431源章第3条）",
       "category": "event",
       "keys": [
@@ -9576,7 +9576,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-431-01",
-      "title": "世界设定事实｜第431源章｜1",
+      "title": "本章理论把魂定义为明亮温暖理性，先天并参与轮回的部分，把魄定义为黑暗冰冷感性",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第431源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9604,7 +9604,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-431-02",
-      "title": "世界设定事实｜第431源章｜2",
+      "title": "蒂雅用脑部魂和心脏魄作为基准，反向利用自己的祝福拆分融合，并限制爱丽丝多余魔力",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第431源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9631,7 +9631,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-431-03",
-      "title": "世界设定事实｜第431源章｜3",
+      "title": "蒂雅真身是闪耀银龙",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第431源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9659,7 +9659,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-431-04",
-      "title": "世界设定事实｜第431源章｜4",
+      "title": "萝蕾娜祝福保护知名者远离危险与疾病并平安生活，范围延伸到埃里克与爱丽丝的直系后代",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第431源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9686,7 +9686,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-431-01",
-      "title": "新建立连续性｜第431源章｜1",
+      "title": "魂魄分离完成",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第431源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9711,7 +9711,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-431-02",
-      "title": "新建立连续性｜第431源章｜2",
+      "title": "普通人爱丽丝",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第431源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9737,7 +9737,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-431-03",
-      "title": "新建立连续性｜第431源章｜3",
+      "title": "萝蕾娜守护龙契约",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第431源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9762,7 +9762,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-431-04",
-      "title": "新建立连续性｜第431源章｜4",
+      "title": "银龙真身目击",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第431源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9787,7 +9787,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-431-01",
-      "title": "未解决事项｜第431源章｜1",
+      "title": "原魔王苏醒后的约束",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第431源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9814,7 +9814,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-431-02",
-      "title": "未解决事项｜第431源章｜2",
+      "title": "爱丽丝醒来后的生活",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第431源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9840,7 +9840,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-431-01",
-      "title": "主角龙形态｜第431源章｜1",
+      "title": "主角龙形态｜礼物｜蒂雅首次向人类展示银色巨龙真身的缩小形态，仍足以填满玉座房间",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第431源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9867,7 +9867,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-431-01",
-      "title": "主角龙状态｜第431源章｜1",
+      "title": "主角龙状态｜礼物｜爱丽丝成功从原魔王分离并植入新身体",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第431源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9896,7 +9896,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-431-01",
-      "title": "主角龙知识边界｜第431源章｜1",
+      "title": "主角龙知识边界｜礼物｜萝蕾娜是假名且真实身份须保密",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第431源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9921,7 +9921,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-432-01",
-      "title": "事件｜第432源章｜1",
+      "title": "蒂雅把爱丽丝交给埃里克并用羽毛送全队回生命教团，困住试图逃走的黑暗骑士",
       "memo": "爱丽丝成为魔王与救援：事件（第432源章第1条）",
       "category": "event",
       "keys": [
@@ -9952,7 +9952,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-432-02",
-      "title": "事件｜第432源章｜2",
+      "title": "原魔王因恢复身体满足并接受充当蒂雅部下",
       "memo": "爱丽丝成为魔王与救援：事件（第432源章第2条）",
       "category": "event",
       "keys": [
@@ -9980,7 +9980,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-432-03",
-      "title": "事件｜第432源章｜3",
+      "title": "受爱丽丝记忆影响，原魔王请求体验普通人一生",
       "memo": "爱丽丝成为魔王与救援：事件（第432源章第3条）",
       "category": "event",
       "keys": [
@@ -10009,7 +10009,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-432-01",
-      "title": "世界设定事实｜第432源章｜1",
+      "title": "原魔王在魂魄融合期间读取爱丽丝记忆，形成间接体验其人生的感觉",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第432源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10037,7 +10037,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-432-02",
-      "title": "世界设定事实｜第432源章｜2",
+      "title": "蒂雅允许人类内部争纷与国家领土战争",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第432源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10065,7 +10065,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-432-03",
-      "title": "世界设定事实｜第432源章｜3",
+      "title": "原魔王原有魔力已全部替换为蒂雅魔力，处于完全支配之下，接受职务并非自由平等契约",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第432源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10093,7 +10093,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-432-04",
-      "title": "世界设定事实｜第432源章｜4",
+      "title": "约百年一次降临、适度作乱后被封印，是蒂雅为兼容一段普通人寿命而提出的周期方案",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第432源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10119,7 +10119,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-432-01",
-      "title": "新建立连续性｜第432源章｜1",
+      "title": "受控原魔王",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第432源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10146,7 +10146,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-432-02",
-      "title": "新建立连续性｜第432源章｜2",
+      "title": "极端屠杀警告职责",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第432源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10171,7 +10171,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-432-03",
-      "title": "新建立连续性｜第432源章｜3",
+      "title": "普通人生愿望",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第432源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10196,7 +10196,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-432-04",
-      "title": "新建立连续性｜第432源章｜4",
+      "title": "拟议百年降临循环",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第432源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10221,7 +10221,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-432-01",
-      "title": "未解决事项｜第432源章｜1",
+      "title": "周期最终条款",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第432源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10246,7 +10246,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-432-02",
-      "title": "未解决事项｜第432源章｜2",
+      "title": "黑暗骑士处置",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第432源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10272,7 +10272,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-432-03",
-      "title": "未解决事项｜第432源章｜3",
+      "title": "原魔王人类身份",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第432源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10299,7 +10299,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-432-01",
-      "title": "主角龙形态｜第432源章｜1",
+      "title": "主角龙形态｜驯服魔王.(1)｜蒂雅从银龙形态转回人类形态处理原魔王",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第432源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10329,7 +10329,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-432-01",
-      "title": "主角龙状态｜第432源章｜1",
+      "title": "主角龙状态｜驯服魔王.(1)｜守护龙开始直接支配复位原魔王，拟定魔王降临循环",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第432源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10356,7 +10356,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-432-01",
-      "title": "主角龙知识边界｜第432源章｜1",
+      "title": "主角龙知识边界｜驯服魔王.(1)｜百年只是按当前人类寿命提出的可调周期，不是固定宇宙规则",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第432源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10383,7 +10383,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-433-01",
-      "title": "事件｜第433源章｜1",
+      "title": "原魔王不再追加愿望，但请求立刻体验人类生活",
       "memo": "爱丽丝成为魔王与救援：事件（第433源章第1条）",
       "category": "event",
       "keys": [
@@ -10411,7 +10411,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-433-02",
-      "title": "事件｜第433源章｜2",
+      "title": "蒂雅召集四天王，识别黑暗骑士为厄瑞玻斯碎片",
       "memo": "爱丽丝成为魔王与救援：事件（第433源章第2条）",
       "category": "event",
       "keys": [
@@ -10439,7 +10439,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-433-03",
-      "title": "事件｜第433源章｜3",
+      "title": "蒂雅向四天王正式宣布魔王为其部下，百年周期担任人类外部威胁",
       "memo": "爱丽丝成为魔王与救援：事件（第433源章第3条）",
       "category": "event",
       "keys": [
@@ -10467,7 +10467,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-433-01",
-      "title": "世界设定事实｜第433源章｜1",
+      "title": "原魔王需维持怪物种群数量平衡并提供适度威胁",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第433源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10494,7 +10494,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-433-02",
-      "title": "世界设定事实｜第433源章｜2",
+      "title": "黑暗骑士以龙骨、近乎磨损殆尽的皇帝灵魂和厄瑞玻斯黑暗碎片构成",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第433源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10521,7 +10521,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-433-03",
-      "title": "世界设定事实｜第433源章｜3",
+      "title": "蒂雅给黑暗骑士施加不可触碰、不可斩断、可跨空间召回的魔力锁链",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第433源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10548,7 +10548,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-433-04",
-      "title": "世界设定事实｜第433源章｜4",
+      "title": "魔王军百年降临制度允许有限伤亡，禁止数十万至数百万级屠杀以及毁灭国家或城市",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第433源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10574,7 +10574,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-433-01",
-      "title": "新建立连续性｜第433源章｜1",
+      "title": "魔王怪物种群管理职务",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第433源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10600,7 +10600,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-433-02",
-      "title": "新建立连续性｜第433源章｜2",
+      "title": "百年降临暴力红线",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第433源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10625,7 +10625,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-433-03",
-      "title": "新建立连续性｜第433源章｜3",
+      "title": "66%厄瑞玻斯黑暗骑士",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第433源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10652,7 +10652,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-433-01",
-      "title": "未解决事项｜第433源章｜1",
+      "title": "人类生活安排",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第433源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10677,7 +10677,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-433-02",
-      "title": "未解决事项｜第433源章｜2",
+      "title": "厄瑞玻斯意识恢复",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第433源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10703,7 +10703,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-433-03",
-      "title": "未解决事项｜第433源章｜3",
+      "title": "怪物敌视生命内情",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第433源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10728,7 +10728,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-433-01",
-      "title": "主角龙形态｜第433源章｜1",
+      "title": "主角龙形态｜驯服魔王.(2)｜蒂雅以人类形态管理魔王城，但其萝蕾娜／银龙身份已成立",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第433源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10756,7 +10756,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-433-01",
-      "title": "主角龙状态｜第433源章｜1",
+      "title": "主角龙状态｜驯服魔王.(2)｜守护龙正式成为原魔王与四天王上级，百年降临及暴力边界落地",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第433源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10783,7 +10783,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-433-01",
-      "title": "主角龙知识边界｜第433源章｜1",
+      "title": "主角龙知识边界｜驯服魔王.(2)｜怪物敌视生命的内情只被预告，不能在该节点提前填入后文真相",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第433源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10809,7 +10809,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-434-01",
-      "title": "事件｜第434源章｜1",
+      "title": "魔贤者指出战争、互相捕食使怪物锐减，而怪物作为生物无法迅速补充",
       "memo": "爱丽丝成为魔王与救援：事件（第434源章第1条）",
       "category": "event",
       "keys": [
@@ -10836,7 +10836,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-434-02",
-      "title": "事件｜第434源章｜2",
+      "title": "蒂雅从怪物牧场联想到无尽迷宫，但识别出单一地点，巨型怪物，环境适应",
       "memo": "爱丽丝成为魔王与救援：事件（第434源章第2条）",
       "category": "event",
       "keys": [
@@ -10863,7 +10863,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-434-03",
-      "title": "事件｜第434源章｜3",
+      "title": "蒂雅设计分布式地下城，让失去神格，受土地束缚的旧神担任管理者，以点数经营",
       "memo": "爱丽丝成为魔王与救援：事件（第434源章第3条）",
       "category": "event",
       "keys": [
@@ -10890,7 +10890,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-434-01",
-      "title": "世界设定事实｜第434源章｜1",
+      "title": "战争期间怪物聚集、互相捕食并与人类交战，数量急剧下降",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第434源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10915,7 +10915,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-434-02",
-      "title": "世界设定事实｜第434源章｜2",
+      "title": "无尽迷宫面积大于普通城市，层数超过三位数且空间扭曲，但单点培育存在巨型怪物，物种单一",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第434源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10940,7 +10940,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-434-03",
-      "title": "世界设定事实｜第434源章｜3",
+      "title": "拟议地下城由失格缚地神担任管理者，培育当地适应怪物，迎战冒险者，以点数扩建",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第434源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10965,7 +10965,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-434-01",
-      "title": "新建立连续性｜第434源章｜1",
+      "title": "怪物数量危机",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第434源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10990,7 +10990,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-434-02",
-      "title": "新建立连续性｜第434源章｜2",
+      "title": "分布式地下城构想",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第434源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11015,7 +11015,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-434-03",
-      "title": "新建立连续性｜第434源章｜3",
+      "title": "失格神管理者",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第434源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11040,7 +11040,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-434-04",
-      "title": "新建立连续性｜第434源章｜4",
+      "title": "点数与神性激励",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第434源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11065,7 +11065,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-434-01",
-      "title": "未解决事项｜第434源章｜1",
+      "title": "招募是否可行",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第434源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11090,7 +11090,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-434-02",
-      "title": "未解决事项｜第434源章｜2",
+      "title": "物流与总部",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第434源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11115,7 +11115,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-434-03",
-      "title": "未解决事项｜第434源章｜3",
+      "title": "具体契约",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第434源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11140,7 +11140,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-434-01",
-      "title": "主角龙形态｜第434源章｜1",
+      "title": "主角龙形态｜驯服魔王.(3)｜蒂雅以人形生命女神／守护龙身份设计地下城制度",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第434源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11167,7 +11167,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-434-01",
-      "title": "主角龙状态｜第434源章｜1",
+      "title": "主角龙状态｜驯服魔王.(3)｜守护龙从魔王控制进一步介入怪物生态与地下城基础制度",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第434源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11193,7 +11193,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-434-01",
-      "title": "主角龙知识边界｜第434源章｜1",
+      "title": "主角龙知识边界｜驯服魔王.(3)｜本章仍是方案设计，地下城管理者、DP和神性兑换尚未实际运行",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第434源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11218,7 +11218,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-435-01",
-      "title": "事件｜第435源章｜1",
+      "title": "蒂雅明确地下城用于恢复并多样化怪物种群",
       "memo": "爱丽丝成为魔王与救援：事件（第435源章第1条）",
       "category": "event",
       "keys": [
@@ -11245,7 +11245,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-435-02",
-      "title": "事件｜第435源章｜2",
+      "title": "魔贤者坦言曾想利用魔王复仇，如今承认世界因蒂雅允许才存在，舍弃旧名与旧怨",
       "memo": "爱丽丝成为魔王与救援：事件（第435源章第2条）",
       "category": "event",
       "keys": [
@@ -11273,7 +11273,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-435-03",
-      "title": "事件｜第435源章｜3",
+      "title": "原文给出地下城城主招募册：德莫尼卡总部提供怪物、扩建、陷阱和保险",
       "memo": "爱丽丝成为魔王与救援：事件（第435源章第3条）",
       "category": "event",
       "keys": [
@@ -11299,7 +11299,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-435-01",
-      "title": "世界设定事实｜第435源章｜1",
+      "title": "哥布林以孢子传播、史莱姆分裂繁殖",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第435源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11324,7 +11324,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-435-02",
-      "title": "世界设定事实｜第435源章｜2",
+      "title": "魔族是战争中被魔贤者黑暗侵蚀而堕落的人类，类似但不同于古巴别魔族",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第435源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11350,7 +11350,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-435-03",
-      "title": "世界设定事实｜第435源章｜3",
+      "title": "拟议物流枢纽利用无尽迷宫空间扭曲连接各地下城，供普通魔族运输怪物与物资",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第435源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11375,7 +11375,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-435-04",
-      "title": "世界设定事实｜第435源章｜4",
+      "title": "正式招募册把总部命名德莫尼卡，DP可由交付怪物和地下城战斗获取，用于服务",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第435源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11401,7 +11401,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-435-01",
-      "title": "新建立连续性｜第435源章｜1",
+      "title": "魔族物流执行层",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第435源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11426,7 +11426,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-435-02",
-      "title": "新建立连续性｜第435源章｜2",
+      "title": "德莫尼卡",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第435源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11451,7 +11451,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-435-03",
-      "title": "新建立连续性｜第435源章｜3",
+      "title": "地下城保险",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第435源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11476,7 +11476,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-435-04",
-      "title": "新建立连续性｜第435源章｜4",
+      "title": "DP神性兑换",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第435源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11501,7 +11501,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-435-05",
-      "title": "新建立连续性｜第435源章｜5",
+      "title": "洛基放弃复仇",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第435源章第5条）",
       "category": "continuity",
       "keys": [
@@ -11526,7 +11526,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-435-01",
-      "title": "未解决事项｜第435源章｜1",
+      "title": "城主签约流程",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第435源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11551,7 +11551,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-435-02",
-      "title": "未解决事项｜第435源章｜2",
+      "title": "德莫尼卡实际建设",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第435源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11576,7 +11576,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-435-01",
-      "title": "主角龙形态｜第435源章｜1",
+      "title": "主角龙形态｜地下城城主.(1)｜蒂雅以人形守护龙／生命女神主持制度",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第435源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11603,7 +11603,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-435-01",
-      "title": "主角龙状态｜第435源章｜1",
+      "title": "主角龙状态｜地下城城主.(1)｜守护龙搭建德莫尼卡和全球地下城物流框架",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第435源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11628,7 +11628,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-435-01",
-      "title": "主角龙知识边界｜第435源章｜1",
+      "title": "主角龙知识边界｜地下城城主.(1)｜招募册内容是制度宣传与条款，不保证每项服务已投入运行",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第435源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11653,7 +11653,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-436-01",
-      "title": "事件｜第436源章｜1",
+      "title": "魔贤者质疑失格神会怨恨蒂雅",
       "memo": "爱丽丝成为魔王与救援：事件（第436源章第1条）",
       "category": "event",
       "keys": [
@@ -11680,7 +11680,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-436-02",
-      "title": "事件｜第436源章｜2",
+      "title": "蒂雅把小册子兼作契约，强制防范城主与人类勾结或放怪物灭世",
       "memo": "爱丽丝成为魔王与救援：事件（第436源章第2条）",
       "category": "event",
       "keys": [
@@ -11709,7 +11709,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-436-03",
-      "title": "事件｜第436源章｜3",
+      "title": "魔贤者负责唤醒候选、签约与连接入口",
       "memo": "爱丽丝成为魔王与救援：事件（第436源章第3条）",
       "category": "event",
       "keys": [
@@ -11735,7 +11735,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-436-01",
-      "title": "世界设定事实｜第436源章｜1",
+      "title": "普通土地神或自然神失去信仰与神格后会回归原自然物、失去自我",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第436源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11761,7 +11761,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-436-02",
-      "title": "世界设定事实｜第436源章｜2",
+      "title": "城主小册子含概要与契约",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第436源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11786,7 +11786,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-436-03",
-      "title": "世界设定事实｜第436源章｜3",
+      "title": "亚瑟和西娅感知蒂雅大规模魔力后赶到，双重攻势使魔王城半毁，随后两人参与修复",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第436源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11815,7 +11815,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-436-04",
-      "title": "世界设定事实｜第436源章｜4",
+      "title": "小册子以蒂雅极微量信仰暂时恢复候选自我，签约后变为城主身份证",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第436源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11841,7 +11841,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-436-01",
-      "title": "新建立连续性｜第436源章｜1",
+      "title": "失格神退化真相",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第436源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11866,7 +11866,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-436-02",
-      "title": "新建立连续性｜第436源章｜2",
+      "title": "城主身份证",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第436源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11891,7 +11891,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-436-03",
-      "title": "新建立连续性｜第436源章｜3",
+      "title": "DP账户与消费",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第436源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11916,7 +11916,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-436-04",
-      "title": "新建立连续性｜第436源章｜4",
+      "title": "亚瑟西娅抵达",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第436源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11943,7 +11943,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-436-01",
-      "title": "未解决事项｜第436源章｜1",
+      "title": "实际首批城主",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第436源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11968,7 +11968,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-436-02",
-      "title": "未解决事项｜第436源章｜2",
+      "title": "魔王人类生活",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第436源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11994,7 +11994,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-436-03",
-      "title": "未解决事项｜第436源章｜3",
+      "title": "弟子后续处理",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第436源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12019,7 +12019,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-436-01",
-      "title": "主角龙形态｜第436源章｜1",
+      "title": "主角龙形态｜地下城城主.(2)｜蒂雅以人形守护龙／生命女神行动",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第436源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12046,7 +12046,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-436-01",
-      "title": "主角龙状态｜第436源章｜1",
+      "title": "主角龙状态｜地下城城主.(2)｜守护龙完成地下城城主的招募，契约，身份与DP运行框架",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第436源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12071,7 +12071,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-436-01",
-      "title": "主角龙知识边界｜第436源章｜1",
+      "title": "主角龙知识边界｜地下城城主.(2)｜候选形式上拥有拒绝权，但原文明确几乎无人能承受拒绝后的自我消失",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第436源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12096,7 +12096,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-437-01",
-      "title": "事件｜第437源章｜1",
+      "title": "蒂雅与魔贤者完善城主卡和总部联动，发现德莫尼卡员工人口不足",
       "memo": "爱丽丝成为魔王与救援：事件（第437源章第1条）",
       "category": "event",
       "keys": [
@@ -12123,7 +12123,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-437-02",
-      "title": "事件｜第437源章｜2",
+      "title": "蒂雅以受契约约束的高智怪物补充魔族劳动力，创造怪物从属契约魔法",
       "memo": "爱丽丝成为魔王与救援：事件（第437源章第2条）",
       "category": "event",
       "keys": [
@@ -12149,7 +12149,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-437-03",
-      "title": "事件｜第437源章｜3",
+      "title": "德莫尼卡开始实际运作，首批失格神接受城主职位",
       "memo": "爱丽丝成为魔王与救援：事件（第437源章第3条）",
       "category": "event",
       "keys": [
@@ -12177,7 +12177,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-437-01",
-      "title": "世界设定事实｜第437源章｜1",
+      "title": "旧魔族由战俘、濒死者交易、受骗穷人及残酷平原游牧民腐化而来",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第437源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12202,7 +12202,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-437-02",
-      "title": "世界设定事实｜第437源章｜2",
+      "title": "蒂雅创造的怪物契约在智力越低、关系越好、怪物魔力越少时越易成立",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第437源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12228,7 +12228,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-437-03",
-      "title": "世界设定事实｜第437源章｜3",
+      "title": "后世橙色魔法塔以契约召唤物形成召唤学派，起源有阿卡迪亚蜂怪，解剖法师",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第437源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12253,7 +12253,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-437-04",
-      "title": "世界设定事实｜第437源章｜4",
+      "title": "德莫尼卡已开始运营并签下数位城主",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第437源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12278,7 +12278,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-437-01",
-      "title": "新建立连续性｜第437源章｜1",
+      "title": "怪物契约魔法",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第437源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12303,7 +12303,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-437-02",
-      "title": "新建立连续性｜第437源章｜2",
+      "title": "橙色召唤学派源流",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第437源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12328,7 +12328,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-437-03",
-      "title": "新建立连续性｜第437源章｜3",
+      "title": "德莫尼卡实际运作",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第437源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12353,7 +12353,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-437-04",
-      "title": "新建立连续性｜第437源章｜4",
+      "title": "人类原魔王已转生",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第437源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12380,7 +12380,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-437-01",
-      "title": "未解决事项｜第437源章｜1",
+      "title": "原魔王人类形态细节",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第437源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12407,7 +12407,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-437-02",
-      "title": "未解决事项｜第437源章｜2",
+      "title": "魔族人口长期稳定",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第437源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12432,7 +12432,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-437-01",
-      "title": "主角龙形态｜第437源章｜1",
+      "title": "主角龙形态｜地下城城主.(3)｜蒂雅以人形守护龙／生命女神运营德莫尼卡",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第437源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12459,7 +12459,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-437-01",
-      "title": "主角龙状态｜第437源章｜1",
+      "title": "主角龙状态｜地下城城主.(3)｜守护龙建立怪物契约与魔族过渡劳动力，确认原魔王的人类生活已启动",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第437源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12486,7 +12486,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-437-01",
-      "title": "主角龙知识边界｜第437源章｜1",
+      "title": "主角龙知识边界｜地下城城主.(3)｜后世召唤学派的具体起源不可定论",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第437源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12512,7 +12512,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-438-01",
-      "title": "事件｜第438源章｜1",
+      "title": "原魔王肉体封在玉座，精神封印魔王记忆与力量后转生为莱特基尼亚东部乡村的鼠兽人少女",
       "memo": "爱丽丝成为魔王与救援：事件（第438源章第1条）",
       "category": "event",
       "keys": [
@@ -12539,7 +12539,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-438-02",
-      "title": "事件｜第438源章｜2",
+      "title": "爱丽丝与埃里克在祭司长支持下离开教团，退回大部分补偿和无限袋，定居南罗马尼亚小村",
       "memo": "爱丽丝成为魔王与救援：事件（第438源章第2条）",
       "category": "event",
       "keys": [
@@ -12567,7 +12567,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-438-03",
-      "title": "事件｜第438源章｜3",
+      "title": "普通人爱丽丝绕过先天魔力限制，通过吸收外部魔力重新成长为普通法师，造加拉提亚务农",
       "memo": "爱丽丝成为魔王与救援：事件（第438源章第3条）",
       "category": "event",
       "keys": [
@@ -12594,7 +12594,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-438-04",
-      "title": "事件｜第438源章｜4",
+      "title": "生命教团联合多国找到埃里克失散父母和妹妹，治愈伤病与父亲断臂",
       "memo": "爱丽丝成为魔王与救援：事件（第438源章第4条）",
       "category": "event",
       "keys": [
@@ -12621,7 +12621,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-438-01",
-      "title": "世界设定事实｜第438源章｜1",
+      "title": "原魔王精神可脱离封印于玉座的肉体转生",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第438源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12648,7 +12648,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-438-02",
-      "title": "世界设定事实｜第438源章｜2",
+      "title": "首个人类转生是莱特基尼亚东部普通乡村的鼠兽人少女，生活幸福",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第438源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12673,7 +12673,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-438-03",
-      "title": "世界设定事实｜第438源章｜3",
+      "title": "爱丽丝与埃里克定居南罗马尼亚村庄并结婚",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第438源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12701,7 +12701,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-438-04",
-      "title": "世界设定事实｜第438源章｜4",
+      "title": "爱丽丝先天魔力仍被限制，但能像普通魔法师吸收外界魔力积蓄于心脏",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第438源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12727,7 +12727,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-438-05",
-      "title": "世界设定事实｜第438源章｜5",
+      "title": "生命教团，多教团和多国沿逃亡路线找回埃里克父母和妹妹",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第438源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -12753,7 +12753,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-438-01",
-      "title": "新建立连续性｜第438源章｜1",
+      "title": "鼠兽人魔王转生",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第438源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12779,7 +12779,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-438-02",
-      "title": "新建立连续性｜第438源章｜2",
+      "title": "百年转生冷却",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第438源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12804,7 +12804,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-438-03",
-      "title": "新建立连续性｜第438源章｜3",
+      "title": "爱丽丝埃里克婚姻",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第438源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12831,7 +12831,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-438-04",
-      "title": "新建立连续性｜第438源章｜4",
+      "title": "村居魔法师爱丽丝",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第438源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12857,7 +12857,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-438-05",
-      "title": "新建立连续性｜第438源章｜5",
+      "title": "埃里克家人重聚",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第438源章第5条）",
       "category": "continuity",
       "keys": [
@@ -12883,7 +12883,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-438-01",
-      "title": "未解决事项｜第438源章｜1",
+      "title": "这一代后代",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第438源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12908,7 +12908,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-438-02",
-      "title": "未解决事项｜第438源章｜2",
+      "title": "原魔王人生终点",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第438源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12935,7 +12935,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-438-01",
-      "title": "主角龙形态｜第438源章｜1",
+      "title": "主角龙形态｜结束后的故事.(1)｜蒂雅／萝蕾娜不显形，以暗中注视并投下银戒的守护龙身份存在",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第438源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12963,7 +12963,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-438-01",
-      "title": "主角龙状态｜第438源章｜1",
+      "title": "主角龙状态｜结束后的故事.(1)｜守护龙见证爱丽丝与埃里克婚姻、村居生活与家族重聚",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第438源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12992,7 +12992,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-438-01",
-      "title": "主角龙知识边界｜第438源章｜1",
+      "title": "主角龙知识边界｜结束后的故事.(1)｜本章未给鼠兽人少女姓名、外貌细节或具体家庭，不可补造",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第438源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13018,7 +13018,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-439-01",
-      "title": "事件｜第439源章｜1",
+      "title": "芬娜回萨加玛塔获不灭之火称号并追求首位女性大冶匠",
       "memo": "爱丽丝成为魔王与救援：事件（第439源章第1条）",
       "category": "event",
       "keys": [
@@ -13047,7 +13047,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-439-02",
-      "title": "事件｜第439源章｜2",
+      "title": "库茨由佩尔带回特奥卡利",
       "memo": "爱丽丝成为魔王与救援：事件（第439源章第2条）",
       "category": "event",
       "keys": [
@@ -13074,7 +13074,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-439-03",
-      "title": "事件｜第439源章｜3",
+      "title": "亚瑟与西娅重建浮空岛城堡并轮流监视蒂雅防逃",
       "memo": "爱丽丝成为魔王与救援：事件（第439源章第3条）",
       "category": "event",
       "keys": [
@@ -13104,7 +13104,7 @@
     },
     {
       "id": "era-20-alice-demon-king-event-439-04",
-      "title": "事件｜第439源章｜4",
+      "title": "蒂雅终于转向被封锁和锁链束缚的黑暗骑士，确认其是最大厄瑞玻斯碎片，准备重逢与审问",
       "memo": "爱丽丝成为魔王与救援：事件（第439源章第4条）",
       "category": "event",
       "keys": [
@@ -13132,7 +13132,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-439-01",
-      "title": "世界设定事实｜第439源章｜1",
+      "title": "芬娜在萨加玛塔以伊芙利特火焰锻造并追求首位女性大冶匠",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第439源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13163,7 +13163,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-439-02",
-      "title": "世界设定事实｜第439源章｜2",
+      "title": "佩尔对库茨使用麻痹饮料并在其不能行动、抵抗的情况下强迫发生关系",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第439源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13190,7 +13190,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-439-03",
-      "title": "世界设定事实｜第439源章｜3",
+      "title": "魔王城重建后称浮空岛，苍蝇大王与巫妖驻守",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第439源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13218,7 +13218,7 @@
     },
     {
       "id": "era-20-alice-demon-king-world-fact-439-04",
-      "title": "世界设定事实｜第439源章｜4",
+      "title": "黑暗骑士是由龙骨和英雄剑等来源碎片融合，现存最大厄瑞玻斯碎片",
       "memo": "爱丽丝成为魔王与救援：世界设定事实（第439源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13245,7 +13245,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-439-01",
-      "title": "新建立连续性｜第439源章｜1",
+      "title": "勇者同伴后日谈",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第439源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13270,7 +13270,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-439-02",
-      "title": "新建立连续性｜第439源章｜2",
+      "title": "亚瑟西娅轮值",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第439源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13297,7 +13297,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-439-03",
-      "title": "新建立连续性｜第439源章｜3",
+      "title": "浮空岛驻军",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第439源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13322,7 +13322,7 @@
     },
     {
       "id": "era-20-alice-demon-king-continuity-new-439-04",
-      "title": "新建立连续性｜第439源章｜4",
+      "title": "厄瑞玻斯审问开始",
       "memo": "爱丽丝成为魔王与救援：新建立连续性（第439源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13348,7 +13348,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-439-01",
-      "title": "未解决事项｜第439源章｜1",
+      "title": "黑暗骑士意识与记忆",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第439源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13374,7 +13374,7 @@
     },
     {
       "id": "era-20-alice-demon-king-unresolved-439-02",
-      "title": "未解决事项｜第439源章｜2",
+      "title": "蒂雅厄瑞玻斯旧怨",
       "memo": "爱丽丝成为魔王与救援：未解决事项（第439源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13401,7 +13401,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-form-439-01",
-      "title": "主角龙形态｜第439源章｜1",
+      "title": "主角龙形态｜结束后的故事.(2)｜蒂雅以人形守护龙活动，亚瑟或西娅之一始终跟随",
       "memo": "爱丽丝成为魔王与救援：主角龙形态（第439源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13430,7 +13430,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-state-439-01",
-      "title": "主角龙状态｜第439源章｜1",
+      "title": "主角龙状态｜结束后的故事.(2)｜守护龙完成战后同伴观察与制度安置，开始审问厄瑞玻斯碎片",
       "memo": "爱丽丝成为魔王与救援：主角龙状态（第439源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13456,7 +13456,7 @@
     },
     {
       "id": "era-20-alice-demon-king-protagonist-knowledge-439-01",
-      "title": "主角龙知识边界｜第439源章｜1",
+      "title": "主角龙知识边界｜结束后的故事.(2)｜本章叙述者用喜剧口吻概括佩尔与库茨，但事件文本明确缺乏当场同意",
       "memo": "爱丽丝成为魔王与救援：主角龙知识边界（第439源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13485,7 +13485,7 @@
     },
     {
       "id": "era-20-alice-demon-king-secondary-character-01",
-      "title": "次要人物｜亚瑟",
+      "title": "亚瑟",
       "memo": "爱丽丝成为魔王与救援：次要人物 亚瑟",
       "category": "secondary-character",
       "keys": [
@@ -13511,7 +13511,7 @@
     },
     {
       "id": "era-20-alice-demon-king-secondary-character-02",
-      "title": "次要人物｜尤里卡",
+      "title": "尤里卡",
       "memo": "爱丽丝成为魔王与救援：次要人物 尤里卡",
       "category": "secondary-character",
       "keys": [
@@ -13537,7 +13537,7 @@
     },
     {
       "id": "era-20-alice-demon-king-secondary-character-03",
-      "title": "次要人物｜睡眼少女",
+      "title": "睡眼少女",
       "memo": "爱丽丝成为魔王与救援：次要人物 睡眼少女",
       "category": "secondary-character",
       "keys": [

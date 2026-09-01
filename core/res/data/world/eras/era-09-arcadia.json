@@ -4811,7 +4811,7 @@
   "lorebook": [
     {
       "id": "era-09-arcadia-core",
-      "title": "英雄的伴侣、阿卡迪亚与天堂｜时代边界",
+      "title": "英雄的伴侣、阿卡迪亚与天堂",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4826,7 +4826,7 @@
     },
     {
       "id": "era-09-arcadia-event-112-01",
-      "title": "事件｜第112源章｜1",
+      "title": "为缓和英雄首次杀人后的困扰，主角把旅程改为探索并带他看海",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第112源章第1条）",
       "category": "event",
       "keys": [
@@ -4851,7 +4851,7 @@
     },
     {
       "id": "era-09-arcadia-event-112-02",
-      "title": "事件｜第112源章｜2",
+      "title": "兽神化海豚与巨鲸牵引主角造船出海",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第112源章第2条）",
       "category": "event",
       "keys": [
@@ -4876,7 +4876,7 @@
     },
     {
       "id": "era-09-arcadia-event-112-03",
-      "title": "事件｜第112源章｜3",
+      "title": "美人鱼围船，主角联络忒提丝",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第112源章第3条）",
       "category": "event",
       "keys": [
@@ -4902,7 +4902,7 @@
     },
     {
       "id": "era-09-arcadia-event-112-04",
-      "title": "事件｜第112源章｜4",
+      "title": "忒提丝首次用海蓝长发女性化身，与银发龙角少女主角相见，并调侃母亲喜欢培养孩子",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第112源章第4条）",
       "category": "event",
       "keys": [
@@ -4928,7 +4928,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-112-01",
-      "title": "世界设定事实｜第112源章｜1",
+      "title": "海域有人鱼族，自称忒提丝为伟大的洋流",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第112源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4954,7 +4954,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-112-02",
-      "title": "世界设定事实｜第112源章｜2",
+      "title": "忒提丝化身为海蓝长发女子",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第112源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4980,7 +4980,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-112-01",
-      "title": "新建立连续性｜第112源章｜1",
+      "title": "英雄杀人后困扰",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第112源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5005,7 +5005,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-112-02",
-      "title": "新建立连续性｜第112源章｜2",
+      "title": "人鱼",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第112源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5030,7 +5030,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-112-03",
-      "title": "新建立连续性｜第112源章｜3",
+      "title": "忒提丝化身",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第112源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5056,7 +5056,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-112-04",
-      "title": "新建立连续性｜第112源章｜4",
+      "title": "海上旅程",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第112源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5081,7 +5081,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-112-01",
-      "title": "未解决事项｜第112源章｜1",
+      "title": "人鱼起源",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第112源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5106,7 +5106,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-112-02",
-      "title": "未解决事项｜第112源章｜2",
+      "title": "剑中碎片风险",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第112源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5131,7 +5131,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-112-01",
-      "title": "主角龙形态｜第112源章｜1",
+      "title": "主角龙形态｜第一百零七章：忒提丝（1）｜不可彻底改变的长角银发少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第112源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5156,7 +5156,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-112-01",
-      "title": "主角龙状态｜第112源章｜1",
+      "title": "主角龙状态｜第一百零七章：忒提丝（1）｜英雄创伤照料者、忒提丝母亲与来访者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第112源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5182,7 +5182,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-112-01",
-      "title": "主角龙知识边界｜第112源章｜1",
+      "title": "主角龙知识边界｜第一百零七章：忒提丝（1）｜只确认剑暂时无特殊影响",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第112源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5207,7 +5207,7 @@
     },
     {
       "id": "era-09-arcadia-event-113-01",
-      "title": "事件｜第113源章｜1",
+      "title": "忒提丝说明救助落水人类引起鱼模仿人形，她多次指导调整成半人半鱼",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第113源章第1条）",
       "category": "event",
       "keys": [
@@ -5233,7 +5233,7 @@
     },
     {
       "id": "era-09-arcadia-event-113-02",
-      "title": "事件｜第113源章｜2",
+      "title": "英雄醒来与忒提丝相识",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第113源章第2条）",
       "category": "event",
       "keys": [
@@ -5259,7 +5259,7 @@
     },
     {
       "id": "era-09-arcadia-event-113-03",
-      "title": "事件｜第113源章｜3",
+      "title": "海鲜宴后海蛇出现，主角命英雄入水战斗，给水下呼吸并保证在场不会输",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第113源章第3条）",
       "category": "event",
       "keys": [
@@ -5284,7 +5284,7 @@
     },
     {
       "id": "era-09-arcadia-event-113-04",
-      "title": "事件｜第113源章｜4",
+      "title": "未来人鱼记载概述其传说和食肉可长生的迷信",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第113源章第4条）",
       "category": "event",
       "keys": [
@@ -5309,7 +5309,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-113-01",
-      "title": "世界设定事实｜第113源章｜1",
+      "title": "忒提丝能感知相连海域",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第113源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5335,7 +5335,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-113-02",
-      "title": "世界设定事实｜第113源章｜2",
+      "title": "后世有人鱼肉可青春长寿的迷信并非当前已发生事实",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第113源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5360,7 +5360,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-113-01",
-      "title": "新建立连续性｜第113源章｜1",
+      "title": "人鱼起源",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第113源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5385,7 +5385,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-113-02",
-      "title": "新建立连续性｜第113源章｜2",
+      "title": "英雄水下呼吸",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第113源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5410,7 +5410,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-113-03",
-      "title": "新建立连续性｜第113源章｜3",
+      "title": "首次海战",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第113源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5435,7 +5435,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-113-01",
-      "title": "未解决事项｜第113源章｜1",
+      "title": "海蛇来源",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第113源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5460,7 +5460,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-113-02",
-      "title": "未解决事项｜第113源章｜2",
+      "title": "水下战果",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第113源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5485,7 +5485,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-113-01",
-      "title": "主角龙形态｜第113源章｜1",
+      "title": "主角龙形态｜第一百零八章：忒提丝（2）｜长角银发少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第113源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5510,7 +5510,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-113-01",
-      "title": "主角龙状态｜第113源章｜1",
+      "title": "主角龙状态｜第一百零八章：忒提丝（2）｜海神访客与英雄水下训练安排者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第113源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5535,7 +5535,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-113-01",
-      "title": "主角龙知识边界｜第113源章｜1",
+      "title": "主角龙知识边界｜第一百零八章：忒提丝（2）｜不知道海蛇是否自然出现",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第113源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5560,7 +5560,7 @@
     },
     {
       "id": "era-09-arcadia-event-114-01",
-      "title": "事件｜第114源章｜1",
+      "title": "英雄在三维海战中重伤海蛇",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第114源章第1条）",
       "category": "event",
       "keys": [
@@ -5586,7 +5586,7 @@
     },
     {
       "id": "era-09-arcadia-event-114-02",
-      "title": "事件｜第114源章｜2",
+      "title": "海蛇逃走，英雄获胜并坦承若无水下呼吸会败",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第114源章第2条）",
       "category": "event",
       "keys": [
@@ -5612,7 +5612,7 @@
     },
     {
       "id": "era-09-arcadia-event-114-03",
-      "title": "事件｜第114源章｜3",
+      "title": "返程中希尔芙透露忒提丝本想利用母亲愧疚用尽手段留住她，主角决定下次小心",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第114源章第3条）",
       "category": "event",
       "keys": [
@@ -5639,7 +5639,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-114-01",
-      "title": "世界设定事实｜第114源章｜1",
+      "title": "忒提丝治理原则：海洋原生者按捕猎自然循环不偏袒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第114源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5665,7 +5665,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-114-01",
-      "title": "新建立连续性｜第114源章｜1",
+      "title": "忒提丝海洋治理原则",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第114源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5691,7 +5691,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-114-02",
-      "title": "新建立连续性｜第114源章｜2",
+      "title": "海蛇被逼退",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第114源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5716,7 +5716,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-114-03",
-      "title": "新建立连续性｜第114源章｜3",
+      "title": "忒提丝留母计划",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第114源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5742,7 +5742,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-114-01",
-      "title": "未解决事项｜第114源章｜1",
+      "title": "人类未来捕猎风险",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第114源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5767,7 +5767,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-114-02",
-      "title": "未解决事项｜第114源章｜2",
+      "title": "忒提丝关系后续",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第114源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5793,7 +5793,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-114-01",
-      "title": "主角龙形态｜第114源章｜1",
+      "title": "主角龙形态｜第一百零九章：忒提丝（3）｜长角银发少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第114源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5818,7 +5818,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-114-01",
-      "title": "主角龙状态｜第114源章｜1",
+      "title": "主角龙状态｜第一百零九章：忒提丝（3）｜英雄海战监护者与海神伦理质询者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第114源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5843,7 +5843,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-114-01",
-      "title": "主角龙知识边界｜第114源章｜1",
+      "title": "主角龙知识边界｜第一百零九章：忒提丝（3）｜强推断海蛇为忒提丝召唤并从希尔芙间接获计划，仍不知道具体『手段』",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第114源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5870,7 +5870,7 @@
     },
     {
       "id": "era-09-arcadia-event-115-01",
-      "title": "事件｜第115源章｜1",
+      "title": "两人周游已十年，英雄近三十岁",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第115源章第1条）",
       "category": "event",
       "keys": [
@@ -5895,7 +5895,7 @@
     },
     {
       "id": "era-09-arcadia-event-115-02",
-      "title": "事件｜第115源章｜2",
+      "title": "二人经过阿卡德荒原，主角首次亲见神罚后果并反省，却因奥库斯未悔拒绝解咒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第115源章第2条）",
       "category": "event",
       "keys": [
@@ -5921,7 +5921,7 @@
     },
     {
       "id": "era-09-arcadia-event-115-03",
-      "title": "事件｜第115源章｜3",
+      "title": "阿卡德后裔骑兵巡逻故土，认出英雄并误称龙族巫女为英雄伴侣",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第115源章第3条）",
       "category": "event",
       "keys": [
@@ -5947,7 +5947,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-115-01",
-      "title": "世界设定事实｜第115源章｜1",
+      "title": "两人周游十年后巨型怪物基本清除，新怪物多可由人类军队勉强应对，英雄近三十",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第115源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5972,7 +5972,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-115-02",
-      "title": "世界设定事实｜第115源章｜2",
+      "title": "奥库斯仍未悔改，受饥饿、厄运、排斥与阳光灼烧，只能夜行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第115源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5998,7 +5998,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-115-01",
-      "title": "新建立连续性｜第115源章｜1",
+      "title": "十年周游终点",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第115源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6023,7 +6023,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-115-02",
-      "title": "新建立连续性｜第115源章｜2",
+      "title": "英雄婚姻规划",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第115源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6048,7 +6048,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-115-03",
-      "title": "新建立连续性｜第115源章｜3",
+      "title": "阿卡德后裔巡逻",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第115源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6073,7 +6073,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-115-04",
-      "title": "新建立连续性｜第115源章｜4",
+      "title": "伴侣谣言",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第115源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6098,7 +6098,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-115-01",
-      "title": "未解决事项｜第115源章｜1",
+      "title": "英雄真正心意",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第115源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6123,7 +6123,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-115-02",
-      "title": "未解决事项｜第115源章｜2",
+      "title": "神罚是否解除",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第115源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6148,7 +6148,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-115-03",
-      "title": "未解决事项｜第115源章｜3",
+      "title": "骑兵所属国家",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第115源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6173,7 +6173,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-115-01",
-      "title": "主角龙形态｜第115源章｜1",
+      "title": "主角龙形态｜第一百一十章：英雄的伴侣（1）｜外貌仍为年轻长角银发少女龙族巫女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第115源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6199,7 +6199,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-115-01",
-      "title": "主角龙状态｜第115源章｜1",
+      "title": "主角龙状态｜第一百一十章：英雄的伴侣（1）｜英雄退休规划者、首次反省阿卡德神罚的施咒者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第115源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6224,7 +6224,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-115-01",
-      "title": "主角龙知识边界｜第115源章｜1",
+      "title": "主角龙知识边界｜第一百一十章：英雄的伴侣（1）｜只推测阿卡德人民已迁走和奥库斯可能遗忘",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第115源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6250,7 +6250,7 @@
     },
     {
       "id": "era-09-arcadia-event-116-01",
-      "title": "事件｜第116源章｜1",
+      "title": "主角反思男性意识在女神女性身份中仍维持数万年",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第116源章第1条）",
       "category": "event",
       "keys": [
@@ -6276,7 +6276,7 @@
     },
     {
       "id": "era-09-arcadia-event-116-02",
-      "title": "事件｜第116源章｜2",
+      "title": "骑兵邀请两人前往阿卡迪亚，主角因已无强怪目标接受同行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第116源章第2条）",
       "category": "event",
       "keys": [
@@ -6301,7 +6301,7 @@
     },
     {
       "id": "era-09-arcadia-event-116-03",
-      "title": "事件｜第116源章｜3",
+      "title": "主角追问伴侣谣言",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第116源章第3条）",
       "category": "event",
       "keys": [
@@ -6326,7 +6326,7 @@
     },
     {
       "id": "era-09-arcadia-event-116-04",
-      "title": "事件｜第116源章｜4",
+      "title": "英雄请求主角成为伴侣，直言从初见爱上她，并揭示早知她是生命女神",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第116源章第4条）",
       "category": "event",
       "keys": [
@@ -6351,7 +6351,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-116-01",
-      "title": "世界设定事实｜第116源章｜1",
+      "title": "阿卡德后裔把诅咒荒原视为故土并持续巡逻，期待有朝一日返乡",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第116源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6376,7 +6376,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-116-01",
-      "title": "新建立连续性｜第116源章｜1",
+      "title": "阿卡迪亚",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第116源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6401,7 +6401,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-116-02",
-      "title": "新建立连续性｜第116源章｜2",
+      "title": "英雄公开告白",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第116源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6426,7 +6426,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-116-03",
-      "title": "新建立连续性｜第116源章｜3",
+      "title": "英雄知生命女神身份",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第116源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6451,7 +6451,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-116-01",
-      "title": "未解决事项｜第116源章｜1",
+      "title": "主角回应",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第116源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6476,7 +6476,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-116-02",
-      "title": "未解决事项｜第116源章｜2",
+      "title": "识破时间与依据",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第116源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6501,7 +6501,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-116-01",
-      "title": "主角龙形态｜第116源章｜1",
+      "title": "主角龙形态｜第一百一十一章：英雄的伴侣（2）｜长角银发女性神躯",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第116源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6526,7 +6526,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-116-01",
-      "title": "主角龙状态｜第116源章｜1",
+      "title": "主角龙状态｜第一百一十一章：英雄的伴侣（2）｜英雄告白对象与被识破的生命女神",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第116源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6551,7 +6551,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-116-01",
-      "title": "主角龙知识边界｜第116源章｜1",
+      "title": "主角龙知识边界｜第一百一十一章：英雄的伴侣（2）｜本章结尾只知英雄表白与知道身份，尚不知从何时、如何识破",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第116源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6576,7 +6576,7 @@
     },
     {
       "id": "era-09-arcadia-event-117-01",
-      "title": "事件｜第117源章｜1",
+      "title": "英雄称从拔剑初见便知主角是女神",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第117源章第1条）",
       "category": "event",
       "keys": [
@@ -6601,7 +6601,7 @@
     },
     {
       "id": "era-09-arcadia-event-117-02",
-      "title": "事件｜第117源章｜2",
+      "title": "英雄解释最初因她美得非人而认定女神，后由复活、交谈诸神、创造事物等持续证实",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第117源章第2条）",
       "category": "event",
       "keys": [
@@ -6626,7 +6626,7 @@
     },
     {
       "id": "era-09-arcadia-event-117-03",
-      "title": "事件｜第117源章｜3",
+      "title": "英雄承认告白半出绝望，不求独占或回应，只拒绝让爱无声消失",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第117源章第3条）",
       "category": "event",
       "keys": [
@@ -6651,7 +6651,7 @@
     },
     {
       "id": "era-09-arcadia-event-117-04",
-      "title": "事件｜第117源章｜4",
+      "title": "主角考虑创造女性人格分身相伴，英雄拒绝替代，爱的是会犯错仍为众生尽力的真正主角",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第117源章第4条）",
       "category": "event",
       "keys": [
@@ -6676,7 +6676,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-117-01",
-      "title": "世界设定事实｜第117源章｜1",
+      "title": "主角在本章首次提出为英雄灵魂创造脱离轮回、铭记于史的天堂归宿",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第117源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6701,7 +6701,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-117-01",
-      "title": "新建立连续性｜第117源章｜1",
+      "title": "英雄从初见知身份",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第117源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6726,7 +6726,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-117-02",
-      "title": "新建立连续性｜第117源章｜2",
+      "title": "拒绝分身替代",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第117源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6751,7 +6751,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-117-03",
-      "title": "新建立连续性｜第117源章｜3",
+      "title": "家人相伴终生承诺",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第117源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6776,7 +6776,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-117-04",
-      "title": "新建立连续性｜第117源章｜4",
+      "title": "天堂构想",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第117源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6801,7 +6801,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-117-01",
-      "title": "未解决事项｜第117源章｜1",
+      "title": "英雄伴侣人选",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第117源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6826,7 +6826,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-117-02",
-      "title": "未解决事项｜第117源章｜2",
+      "title": "阿卡迪亚行程",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第117源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6851,7 +6851,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-117-03",
-      "title": "未解决事项｜第117源章｜3",
+      "title": "天堂实现",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第117源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6876,7 +6876,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-117-01",
-      "title": "主角龙形态｜第117源章｜1",
+      "title": "主角龙形态｜第一百一十二章：英雄的伴侣（3）｜长角银发女神人形",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第117源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6901,7 +6901,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-117-01",
-      "title": "主角龙状态｜第117源章｜1",
+      "title": "主角龙状态｜第一百一十二章：英雄的伴侣（3）｜身份已被英雄确认，明确家人相伴承诺并开始构想天堂",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第117源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6926,7 +6926,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-117-01",
-      "title": "主角龙知识边界｜第117源章｜1",
+      "title": "主角龙知识边界｜第一百一十二章：英雄的伴侣（3）｜知道英雄从初见认定且由多年证据确认",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第117源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6951,7 +6951,7 @@
     },
     {
       "id": "era-09-arcadia-event-118-01",
-      "title": "事件｜第118源章｜1",
+      "title": "主角随巡逻骑兵进入阿卡迪亚，阿卡德幸存者以王冠抵押换土地粮食，与当地兽族结盟",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第118源章第1条）",
       "category": "event",
       "keys": [
@@ -6976,7 +6976,7 @@
     },
     {
       "id": "era-09-arcadia-event-118-02",
-      "title": "事件｜第118源章｜2",
+      "title": "狼耳骑兵埃普娜带二人见不足四十却自称老夫的国王玛凯罗杜斯",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第118源章第2条）",
       "category": "event",
       "keys": [
@@ -7003,7 +7003,7 @@
     },
     {
       "id": "era-09-arcadia-event-118-03",
-      "title": "事件｜第118源章｜3",
+      "title": "国王确认女神仍拒绝解除诅咒，指出阿卡德幸存者既恨女神也恨愚蠢幼弟",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第118源章第3条）",
       "category": "event",
       "keys": [
@@ -7028,7 +7028,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-118-01",
-      "title": "世界设定事实｜第118源章｜1",
+      "title": "阿卡迪亚由阿卡德幸存者与借地原住民部落结盟而成，以帐篷迁徙、畜牧牛马羊为核心",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第118源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7053,7 +7053,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-118-01",
-      "title": "新建立连续性｜第118源章｜1",
+      "title": "阿卡迪亚游牧国",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第118源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7078,7 +7078,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-118-02",
-      "title": "新建立连续性｜第118源章｜2",
+      "title": "埃普娜",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第118源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7104,7 +7104,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-118-03",
-      "title": "新建立连续性｜第118源章｜3",
+      "title": "玛凯罗杜斯即大王子",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第118源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7130,7 +7130,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-118-01",
-      "title": "未解决事项｜第118源章｜1",
+      "title": "诅咒答复",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第118源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7155,7 +7155,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-118-02",
-      "title": "未解决事项｜第118源章｜2",
+      "title": "阿卡迪亚请求",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第118源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7180,7 +7180,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-118-01",
-      "title": "主角龙形态｜第118源章｜1",
+      "title": "主角龙形态｜第一百一十三章：阿卡迪亚（1）｜长角银发龙族巫女少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第118源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7206,7 +7206,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-118-01",
-      "title": "主角龙状态｜第118源章｜1",
+      "title": "主角龙状态｜第一百一十三章：阿卡迪亚（1）｜面对神罚受害国新王的女神使者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第118源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7231,7 +7231,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-118-01",
-      "title": "主角龙知识边界｜第118源章｜1",
+      "title": "主角龙知识边界｜第一百一十三章：阿卡迪亚（1）｜本章末才确认玛凯为奥库斯兄长",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第118源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7257,7 +7257,7 @@
     },
     {
       "id": "era-09-arcadia-event-119-01",
-      "title": "事件｜第119源章｜1",
+      "title": "主角内心承认神罚草率却以神之尊严拒绝解咒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第119源章第1条）",
       "category": "event",
       "keys": [
@@ -7283,7 +7283,7 @@
     },
     {
       "id": "era-09-arcadia-event-119-02",
-      "title": "事件｜第119源章｜2",
+      "title": "玛凯请求国家集体防卫力量以避免被迫掠夺战争",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第119源章第2条）",
       "category": "event",
       "keys": [
@@ -7308,7 +7308,7 @@
     },
     {
       "id": "era-09-arcadia-event-119-03",
-      "title": "事件｜第119源章｜3",
+      "title": "主角赋旗士气不崩，直属军巅峰体力，可再生远程心意布条，自动修复与矛头武器功能",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第119源章第3条）",
       "category": "event",
       "keys": [
@@ -7333,7 +7333,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-119-01",
-      "title": "世界设定事实｜第119源章｜1",
+      "title": "不败之旗银面黑边、中央黑剑齿虎",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第119源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7358,7 +7358,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-119-01",
-      "title": "新建立连续性｜第119源章｜1",
+      "title": "什图尔舍名为玛凯",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第119源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7384,7 +7384,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-119-02",
-      "title": "新建立连续性｜第119源章｜2",
+      "title": "阿卡德人口损失",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第119源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7409,7 +7409,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-119-03",
-      "title": "新建立连续性｜第119源章｜3",
+      "title": "不败之旗",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第119源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7434,7 +7434,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-119-01",
-      "title": "未解决事项｜第119源章｜1",
+      "title": "神器实际使用",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第119源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7459,7 +7459,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-119-02",
-      "title": "未解决事项｜第119源章｜2",
+      "title": "奥库斯悔改",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第119源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7485,7 +7485,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-119-01",
-      "title": "主角龙形态｜第119源章｜1",
+      "title": "主角龙形态｜第一百一十四章 阿卡迪亚（2）｜长角银发龙族巫女/生命女神使者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第119源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7511,7 +7511,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-119-01",
-      "title": "主角龙状态｜第119源章｜1",
+      "title": "主角龙状态｜第一百一十四章 阿卡迪亚（2）｜不败之旗创造者，以防御神器补偿神罚受害国",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第119源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7536,7 +7536,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-119-01",
-      "title": "主角龙知识边界｜第119源章｜1",
+      "title": "主角龙知识边界｜第一百一十四章 阿卡迪亚（2）｜不知道后世旗帜战绩",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第119源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7561,7 +7561,7 @@
     },
     {
       "id": "era-09-arcadia-event-120-01",
-      "title": "事件｜第120源章｜1",
+      "title": "未来《传奇武器百科》概述不败之旗后世地位与一次败绩",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第120源章第1条）",
       "category": "event",
       "keys": [
@@ -7586,7 +7586,7 @@
     },
     {
       "id": "era-09-arcadia-event-120-02",
-      "title": "事件｜第120源章｜2",
+      "title": "当前玛凯感知旗与不朽王冠相似气息",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第120源章第2条）",
       "category": "event",
       "keys": [
@@ -7612,7 +7612,7 @@
     },
     {
       "id": "era-09-arcadia-event-120-03",
-      "title": "事件｜第120源章｜3",
+      "title": "玛凯王后为马型兽人，敏锐看出龙族巫女远强于英雄，并与猫形兽神亲近",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第120源章第3条）",
       "category": "event",
       "keys": [
@@ -7639,7 +7639,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-120-01",
-      "title": "世界设定事实｜第120源章｜1",
+      "title": "主角赠调整过的兵法书和改良土豆",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第120源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7664,7 +7664,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-120-01",
-      "title": "新建立连续性｜第120源章｜1",
+      "title": "兵书",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第120源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7689,7 +7689,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-120-02",
-      "title": "新建立连续性｜第120源章｜2",
+      "title": "改良土豆",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第120源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7714,7 +7714,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-120-03",
-      "title": "新建立连续性｜第120源章｜3",
+      "title": "马兽人王后",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第120源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7739,7 +7739,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-120-04",
-      "title": "新建立连续性｜第120源章｜4",
+      "title": "押送奥库斯计划",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第120源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7765,7 +7765,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-120-01",
-      "title": "未解决事项｜第120源章｜1",
+      "title": "兽神与王后联系",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第120源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7790,7 +7790,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-120-01",
-      "title": "主角龙形态｜第120源章｜1",
+      "title": "主角龙形态｜第一百一十五章：阿卡迪亚（3）｜长角银发龙族巫女少女，实际强度被王后直觉识破",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第120源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7816,7 +7816,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-120-01",
-      "title": "主角龙状态｜第120源章｜1",
+      "title": "主角龙状态｜第一百一十五章：阿卡迪亚（3）｜阿卡迪亚综合补偿者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第120源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7841,7 +7841,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-120-01",
-      "title": "主角龙知识边界｜第120源章｜1",
+      "title": "主角龙知识边界｜第一百一十五章：阿卡迪亚（3）｜未来不败之旗百科不能回填",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第120源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7867,7 +7867,7 @@
     },
     {
       "id": "era-09-arcadia-event-121-01",
-      "title": "事件｜第121源章｜1",
+      "title": "兽神前所未有地黏着玛凯王后",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第121源章第1条）",
       "category": "event",
       "keys": [
@@ -7893,7 +7893,7 @@
     },
     {
       "id": "era-09-arcadia-event-121-02",
-      "title": "事件｜第121源章｜2",
+      "title": "王后以朴素奶炖菜款待",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第121源章第2条）",
       "category": "event",
       "keys": [
@@ -7918,7 +7918,7 @@
     },
     {
       "id": "era-09-arcadia-event-121-03",
-      "title": "事件｜第121源章｜3",
+      "title": "经典民间故事《感恩犬》开端把流浪者托狗给贫困善心夫妇",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第121源章第3条）",
       "category": "event",
       "keys": [
@@ -7943,7 +7943,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-121-01",
-      "title": "世界设定事实｜第121源章｜1",
+      "title": "兽神正式留在阿卡迪亚由王后及后代侍奉，作为长生不老的部族守护神",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第121源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7968,7 +7968,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-121-01",
-      "title": "新建立连续性｜第121源章｜1",
+      "title": "王后疑似兽神神使",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第121源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7993,7 +7993,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-121-02",
-      "title": "新建立连续性｜第121源章｜2",
+      "title": "兽神定居阿卡迪亚",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第121源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8018,7 +8018,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-121-01",
-      "title": "未解决事项｜第121源章｜1",
+      "title": "兽神信仰成长",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第121源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8043,7 +8043,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-121-01",
-      "title": "主角龙形态｜第121源章｜1",
+      "title": "主角龙形态｜第一百一十六章：阿卡迪亚（4）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第121源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8069,7 +8069,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-121-01",
-      "title": "主角龙状态｜第121源章｜1",
+      "title": "主角龙状态｜第一百一十六章：阿卡迪亚（4）｜解除兽神坐骑关系并完成神使安置",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第121源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8094,7 +8094,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-121-01",
-      "title": "主角龙知识边界｜第121源章｜1",
+      "title": "主角龙知识边界｜第一百一十六章：阿卡迪亚（4）｜王后神使身份是强推断而非神谕明示",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第121源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8119,7 +8119,7 @@
     },
     {
       "id": "era-09-arcadia-event-122-01",
-      "title": "事件｜第122源章｜1",
+      "title": "国王夫妇以几乎倾尽储备的朴素餐食款待",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第122源章第1条）",
       "category": "event",
       "keys": [
@@ -8144,7 +8144,7 @@
     },
     {
       "id": "era-09-arcadia-event-122-02",
-      "title": "事件｜第122源章｜2",
+      "title": "二人见到严密看守的轮式帐巢，拳头大、镰刀前肢和粗毒刺的黄黑杀人蜂飞进飞出",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第122源章第2条）",
       "category": "event",
       "keys": [
@@ -8169,7 +8169,7 @@
     },
     {
       "id": "era-09-arcadia-event-122-03",
-      "title": "事件｜第122源章｜3",
+      "title": "《感恩犬》继续描述狗带贫困夫妇找到需去芽去毒的地下块茎",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第122源章第3条）",
       "category": "event",
       "keys": [
@@ -8194,7 +8194,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-122-01",
-      "title": "世界设定事实｜第122源章｜1",
+      "title": "阿卡迪亚杀人蜂帐巢严密守卫，成蜂拳头大、黄黑、螳螂镰肢与粗毒刺，巢口有迁徙用结构",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第122源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8219,7 +8219,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-122-01",
-      "title": "新建立连续性｜第122源章｜1",
+      "title": "怪物蜂蜜",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第122源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8244,7 +8244,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-122-02",
-      "title": "新建立连续性｜第122源章｜2",
+      "title": "杀人蜂群",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第122源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8269,7 +8269,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-122-01",
-      "title": "未解决事项｜第122源章｜1",
+      "title": "驯化方法",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第122源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8294,7 +8294,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-122-02",
-      "title": "未解决事项｜第122源章｜2",
+      "title": "蜂后特性",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第122源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8319,7 +8319,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-122-01",
-      "title": "主角龙形态｜第122源章｜1",
+      "title": "主角龙形态｜第一百一十七章：阿卡迪亚（5）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第122源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8345,7 +8345,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-122-01",
-      "title": "主角龙状态｜第122源章｜1",
+      "title": "主角龙状态｜第一百一十七章：阿卡迪亚（5）｜阿卡迪亚秘密驯怪产业观察者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第122源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8370,7 +8370,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-122-01",
-      "title": "主角龙知识边界｜第122源章｜1",
+      "title": "主角龙知识边界｜第一百一十七章：阿卡迪亚（5）｜尚未见蜂后或听完整驯化经过",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第122源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8395,7 +8395,7 @@
     },
     {
       "id": "era-09-arcadia-event-123-01",
-      "title": "事件｜第123源章｜1",
+      "title": "玛凯以自身气味先安抚警戒杀人蜂，带二人进入装轮子的巨大蜂箱帐",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第123源章第1条）",
       "category": "event",
       "keys": [
@@ -8420,7 +8420,7 @@
     },
     {
       "id": "era-09-arcadia-event-123-02",
-      "title": "事件｜第123源章｜2",
+      "title": "无翅蜂后嗜蜂蜜面粉点心",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第123源章第2条）",
       "category": "event",
       "keys": [
@@ -8445,7 +8445,7 @@
     },
     {
       "id": "era-09-arcadia-event-123-03",
-      "title": "事件｜第123源章｜3",
+      "title": "《感恩犬》把兽神带夫妇救伤蜂后写为童话",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第123源章第3条）",
       "category": "event",
       "keys": [
@@ -8470,7 +8470,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-123-01",
-      "title": "世界设定事实｜第123源章｜1",
+      "title": "阿卡迪亚为迁徙蜂巢在巨大木蜂箱底部装轮，形成可随游牧移动的设施",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第123源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8495,7 +8495,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-123-01",
-      "title": "新建立连续性｜第123源章｜1",
+      "title": "无翅蜂后",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第123源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8520,7 +8520,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-123-02",
-      "title": "新建立连续性｜第123源章｜2",
+      "title": "杀人蜂温顺遗传",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第123源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8545,7 +8545,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-123-03",
-      "title": "新建立连续性｜第123源章｜3",
+      "title": "轮式蜂箱",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第123源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8570,7 +8570,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-123-01",
-      "title": "未解决事项｜第123源章｜1",
+      "title": "蜂后为何惧主角",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第123源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8595,7 +8595,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-123-01",
-      "title": "主角龙形态｜第123源章｜1",
+      "title": "主角龙形态｜第一百一十八章：阿卡迪亚（6）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第123源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8621,7 +8621,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-123-01",
-      "title": "主角龙状态｜第123源章｜1",
+      "title": "主角龙状态｜第一百一十八章：阿卡迪亚（6）｜人类驯怪案例的见证者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第123源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8646,7 +8646,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-123-01",
-      "title": "主角龙知识边界｜第123源章｜1",
+      "title": "主角龙知识边界｜第一百一十八章：阿卡迪亚（6）｜不知道温顺遗传的普遍机制",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第123源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8671,7 +8671,7 @@
     },
     {
       "id": "era-09-arcadia-event-124-01",
-      "title": "事件｜第124源章｜1",
+      "title": "玛凯试图让主角托蜂后，主角强烈生理拒绝",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第124源章第1条）",
       "category": "event",
       "keys": [
@@ -8696,7 +8696,7 @@
     },
     {
       "id": "era-09-arcadia-event-124-02",
-      "title": "事件｜第124源章｜2",
+      "title": "《感恩犬》继续把夫妇坚持照料蜂后，蜂群变温顺",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第124源章第2条）",
       "category": "event",
       "keys": [
@@ -8721,7 +8721,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-124-01",
-      "title": "世界设定事实｜第124源章｜1",
+      "title": "初代蜂后能对主角产生明确距离相关恐惧，原因可能是野兽本能，怪物感知或驯化后灵智",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第124源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8746,7 +8746,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-124-01",
-      "title": "新建立连续性｜第124源章｜1",
+      "title": "蜂后畏惧神性",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第124源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8771,7 +8771,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-124-02",
-      "title": "新建立连续性｜第124源章｜2",
+      "title": "主角未来减少直接干预愿望",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第124源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8796,7 +8796,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-124-01",
-      "title": "未解决事项｜第124源章｜1",
+      "title": "怪物分类",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第124源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8821,7 +8821,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-124-01",
-      "title": "主角龙形态｜第124源章｜1",
+      "title": "主角龙形态｜第一百一十九章：阿卡迪亚（7）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第124源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8847,7 +8847,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-124-01",
-      "title": "主角龙状态｜第124源章｜1",
+      "title": "主角龙状态｜第一百一十九章：阿卡迪亚（7）｜被蜂后本能畏惧的神明",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第124源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8872,7 +8872,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-124-01",
-      "title": "主角龙知识边界｜第124源章｜1",
+      "title": "主角龙知识边界｜第一百一十九章：阿卡迪亚（7）｜不能把蜂后恐惧原因写死",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第124源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8897,7 +8897,7 @@
     },
     {
       "id": "era-09-arcadia-event-125-01",
-      "title": "事件｜第125源章｜1",
+      "title": "《感恩犬》描述恶意朋友以传家宝换借狗并逐渐虐待",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第125源章第1条）",
       "category": "event",
       "keys": [
@@ -8922,7 +8922,7 @@
     },
     {
       "id": "era-09-arcadia-event-125-02",
-      "title": "事件｜第125源章｜2",
+      "title": "当前主角结束阿卡迪亚观光，正式把兽神托给王后神使，与英雄步行离开并回忆最初二人同行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第125源章第2条）",
       "category": "event",
       "keys": [
@@ -8947,7 +8947,7 @@
     },
     {
       "id": "era-09-arcadia-event-125-03",
-      "title": "事件｜第125源章｜3",
+      "title": "主角再次逼英雄择偶，提朝圣者全球招亲令其惨白",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第125源章第3条）",
       "category": "event",
       "keys": [
@@ -8972,7 +8972,7 @@
     },
     {
       "id": "era-09-arcadia-event-125-04",
-      "title": "事件｜第125源章｜4",
+      "title": "《感恩犬》后段描述贪心者因狗不带来所求财富而虐待",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第125源章第4条）",
       "category": "event",
       "keys": [
@@ -8997,7 +8997,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-125-01",
-      "title": "世界设定事实｜第125源章｜1",
+      "title": "兽神因部族神明需要定居聚信仰而留阿卡迪亚，王后被主角认作神使",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第125源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9022,7 +9022,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-125-01",
-      "title": "新建立连续性｜第125源章｜1",
+      "title": "兽神离队",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第125源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9047,7 +9047,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-125-02",
-      "title": "新建立连续性｜第125源章｜2",
+      "title": "二人徒步重启",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第125源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9072,7 +9072,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-125-03",
-      "title": "新建立连续性｜第125源章｜3",
+      "title": "塞班村调查决定",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第125源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9097,7 +9097,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-125-01",
-      "title": "未解决事项｜第125源章｜1",
+      "title": "村长之女现况",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第125源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9122,7 +9122,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-125-02",
-      "title": "未解决事项｜第125源章｜2",
+      "title": "英雄伴侣",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第125源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9147,7 +9147,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-125-01",
-      "title": "主角龙形态｜第125源章｜1",
+      "title": "主角龙形态｜第一百二十章：阿卡迪亚（8）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第125源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9173,7 +9173,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-125-01",
-      "title": "主角龙状态｜第125源章｜1",
+      "title": "主角龙状态｜第一百二十章：阿卡迪亚（8）｜重新与英雄二人徒步旅行，执行伴侣筛选计划",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第125源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9198,7 +9198,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-125-01",
-      "title": "主角龙知识边界｜第125源章｜1",
+      "title": "主角龙知识边界｜第一百二十章：阿卡迪亚（8）｜不知道塞班村女子是否婚嫁",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第125源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9223,7 +9223,7 @@
     },
     {
       "id": "era-09-arcadia-event-126-01",
-      "title": "事件｜第126源章｜1",
+      "title": "未来学生讨论《感恩犬》的历史原型与托付兽神者身份",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第126源章第1条）",
       "category": "event",
       "keys": [
@@ -9248,7 +9248,7 @@
     },
     {
       "id": "era-09-arcadia-event-126-02",
-      "title": "事件｜第126源章｜2",
+      "title": "主角查得塞班村女孩数十年未嫁，以公开招亲相逼，令英雄同意去见旧日恋人",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第126源章第2条）",
       "category": "event",
       "keys": [
@@ -9273,7 +9273,7 @@
     },
     {
       "id": "era-09-arcadia-event-126-03",
-      "title": "事件｜第126源章｜3",
+      "title": "二人飞抵村落",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第126源章第3条）",
       "category": "event",
       "keys": [
@@ -9298,7 +9298,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-126-01",
-      "title": "世界设定事实｜第126源章｜1",
+      "title": "被复活的村民不再衰老，但寿命未必延长",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第126源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9323,7 +9323,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-126-01",
-      "title": "新建立连续性｜第126源章｜1",
+      "title": "塞班村女孩成为村长",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第126源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9348,7 +9348,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-126-02",
-      "title": "新建立连续性｜第126源章｜2",
+      "title": "复活者停止衰老但仍有寿命",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第126源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9373,7 +9373,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-126-03",
-      "title": "新建立连续性｜第126源章｜3",
+      "title": "英雄决定成家",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第126源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9398,7 +9398,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-126-01",
-      "title": "未解决事项｜第126源章｜1",
+      "title": "女孩失忆后的选择",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第126源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9423,7 +9423,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-126-02",
-      "title": "未解决事项｜第126源章｜2",
+      "title": "英雄婚姻",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第126源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9448,7 +9448,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-126-01",
-      "title": "主角龙形态｜第126源章｜1",
+      "title": "主角龙形态｜第一百二十一章：初代英雄 —— 冒险的终章（1）｜长角银发龙族巫女少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第126源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9474,7 +9474,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-126-01",
-      "title": "主角龙状态｜第126源章｜1",
+      "title": "主角龙状态｜第一百二十一章：初代英雄 —— 冒险的终章（1）｜英雄伴侣计划的强势推动者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第126源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9499,7 +9499,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-126-01",
-      "title": "主角龙知识边界｜第126源章｜1",
+      "title": "主角龙知识边界｜第一百二十一章：初代英雄 —— 冒险的终章（1）｜知道女孩未嫁及复活后状态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第126源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9524,7 +9524,7 @@
     },
     {
       "id": "era-09-arcadia-event-127-01",
-      "title": "事件｜第127源章｜1",
+      "title": "主角想起女孩复活时丢失记忆，不顾英雄阻止如实说明旧情，也暴露自己当年暗中监视",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第127源章第1条）",
       "category": "event",
       "keys": [
@@ -9549,7 +9549,7 @@
     },
     {
       "id": "era-09-arcadia-event-127-02",
-      "title": "事件｜第127源章｜2",
+      "title": "女孩得知自己曾与英雄相恋后激动晕倒，主角为她治伤",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第127源章第2条）",
       "category": "event",
       "keys": [
@@ -9574,7 +9574,7 @@
     },
     {
       "id": "era-09-arcadia-event-127-03",
-      "title": "事件｜第127源章｜3",
+      "title": "英雄承认不讨厌女孩但怀疑自己能否成家",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第127源章第3条）",
       "category": "event",
       "keys": [
@@ -9599,7 +9599,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-127-01",
-      "title": "世界设定事实｜第127源章｜1",
+      "title": "复活可能造成部分记忆缺失",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第127源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9624,7 +9624,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-127-01",
-      "title": "新建立连续性｜第127源章｜1",
+      "title": "女孩遗失旧情记忆",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第127源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9649,7 +9649,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-127-02",
-      "title": "新建立连续性｜第127源章｜2",
+      "title": "英雄愿意尝试成家",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第127源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9674,7 +9674,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-127-01",
-      "title": "未解决事项｜第127源章｜1",
+      "title": "女孩同意与否",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第127源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9699,7 +9699,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-127-02",
-      "title": "未解决事项｜第127源章｜2",
+      "title": "二人相处结果",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第127源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9724,7 +9724,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-127-01",
-      "title": "主角龙形态｜第127源章｜1",
+      "title": "主角龙形态｜第一百二十二章：初代英雄 —— 冒险的终章（2）｜长角银发龙族巫女少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第127源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9750,7 +9750,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-127-01",
-      "title": "主角龙状态｜第127源章｜1",
+      "title": "主角龙状态｜第一百二十二章：初代英雄 —— 冒险的终章（2）｜婚恋事实披露者与调停者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第127源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9775,7 +9775,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-127-01",
-      "title": "主角龙知识边界｜第127源章｜1",
+      "title": "主角龙知识边界｜第一百二十二章：初代英雄 —— 冒险的终章（2）｜知道二人旧情和女孩缺失记忆",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第127源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9800,7 +9800,7 @@
     },
     {
       "id": "era-09-arcadia-event-128-01",
-      "title": "事件｜第128源章｜1",
+      "title": "主角以制造独处和准备猎物推动相处",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第128源章第1条）",
       "category": "event",
       "keys": [
@@ -9825,7 +9825,7 @@
     },
     {
       "id": "era-09-arcadia-event-128-02",
-      "title": "事件｜第128源章｜2",
+      "title": "二人在三十日内相恋、订婚、成婚",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第128源章第2条）",
       "category": "event",
       "keys": [
@@ -9850,7 +9850,7 @@
     },
     {
       "id": "era-09-arcadia-event-128-03",
-      "title": "事件｜第128源章｜3",
+      "title": "主角为英雄婚礼制戒指、海边场地、礼服、宴席与跨族邀请，避免邀请人类国家以免政治争夺",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第128源章第3条）",
       "category": "event",
       "keys": [
@@ -9875,7 +9875,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-128-01",
-      "title": "世界设定事实｜第128源章｜1",
+      "title": "婚礼宾客限定为英雄实际结识的神明、王室与各族代表",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第128源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9900,7 +9900,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-128-01",
-      "title": "新建立连续性｜第128源章｜1",
+      "title": "英雄与村长成婚",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第128源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9925,7 +9925,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-128-02",
-      "title": "新建立连续性｜第128源章｜2",
+      "title": "海边婚礼",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第128源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9950,7 +9950,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-128-03",
-      "title": "新建立连续性｜第128源章｜3",
+      "title": "钻石秘银婚戒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第128源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9975,7 +9975,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-128-01",
-      "title": "未解决事项｜第128源章｜1",
+      "title": "婚礼举行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第128源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10000,7 +10000,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-128-02",
-      "title": "未解决事项｜第128源章｜2",
+      "title": "英雄婚后生活",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第128源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10025,7 +10025,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-128-01",
-      "title": "主角龙形态｜第128源章｜1",
+      "title": "主角龙形态｜第一百二十三章：初代英雄 —— 冒险的终章（3）｜筹备阶段仍为平日宽松白袍的龙族巫女少女形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第128源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10051,7 +10051,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-128-01",
-      "title": "主角龙状态｜第128源章｜1",
+      "title": "主角龙状态｜第一百二十三章：初代英雄 —— 冒险的终章（3）｜英雄婚礼的主办者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第128源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10076,7 +10076,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-128-01",
-      "title": "主角龙知识边界｜第128源章｜1",
+      "title": "主角龙知识边界｜第一百二十三章：初代英雄 —— 冒险的终章（3）｜只按本人经历理解恋爱，明确承认自己没有恋爱和成家经验",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第128源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10101,7 +10101,7 @@
     },
     {
       "id": "era-09-arcadia-event-129-01",
-      "title": "事件｜第129源章｜1",
+      "title": "海边婚礼举行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第129源章第1条）",
       "category": "event",
       "keys": [
@@ -10126,7 +10126,7 @@
     },
     {
       "id": "era-09-arcadia-event-129-02",
-      "title": "事件｜第129源章｜2",
+      "title": "英雄隐退与妻子定居村落",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第129源章第2条）",
       "category": "event",
       "keys": [
@@ -10151,7 +10151,7 @@
     },
     {
       "id": "era-09-arcadia-event-129-03",
-      "title": "事件｜第129源章｜3",
+      "title": "一年后妻子早产，女婴无呼吸",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第129源章第3条）",
       "category": "event",
       "keys": [
@@ -10176,7 +10176,7 @@
     },
     {
       "id": "era-09-arcadia-event-129-04",
-      "title": "事件｜第129源章｜4",
+      "title": "女儿长大后银发酷似主角",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第129源章第4条）",
       "category": "event",
       "keys": [
@@ -10201,7 +10201,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-129-01",
-      "title": "世界设定事实｜第129源章｜1",
+      "title": "主角可把神力化作比头发更细的丝线，修复早产儿未成熟器官并重启呼吸",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第129源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10226,7 +10226,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-129-01",
-      "title": "新建立连续性｜第129源章｜1",
+      "title": "英雄退休",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第129源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10251,7 +10251,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-129-02",
-      "title": "新建立连续性｜第129源章｜2",
+      "title": "主角邻居",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第129源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10276,7 +10276,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-129-03",
-      "title": "新建立连续性｜第129源章｜3",
+      "title": "英雄银发女儿",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第129源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10301,7 +10301,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-129-04",
-      "title": "新建立连续性｜第129源章｜4",
+      "title": "神力重塑身体",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第129源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10326,7 +10326,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-129-01",
-      "title": "未解决事项｜第129源章｜1",
+      "title": "女儿神力后果",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第129源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10351,7 +10351,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-129-01",
-      "title": "主角龙形态｜第129源章｜1",
+      "title": "主角龙形态｜第一百二十四章：初代英雄 —— 冒险的终章（4）｜婚礼为精致长裙礼服形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第129源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10376,7 +10376,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-129-01",
-      "title": "主角龙状态｜第129源章｜1",
+      "title": "主角龙状态｜第一百二十四章：初代英雄 —— 冒险的终章（4）｜英雄家人的近邻、女儿救命者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第129源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10401,7 +10401,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-129-01",
-      "title": "主角龙知识边界｜第129源章｜1",
+      "title": "主角龙知识边界｜第一百二十四章：初代英雄 —— 冒险的终章（4）｜只推测女孩可能逐渐非人，尚未确认后果或可选方案",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第129源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10426,7 +10426,7 @@
     },
     {
       "id": "era-09-arcadia-event-130-01",
-      "title": "事件｜第130源章｜1",
+      "title": "近五十岁的英雄因强健仍似三十余岁",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第130源章第1条）",
       "category": "event",
       "keys": [
@@ -10451,7 +10451,7 @@
     },
     {
       "id": "era-09-arcadia-event-130-02",
-      "title": "事件｜第130源章｜2",
+      "title": "主角提出教她驾驭神力或封印神力两案，前者使她强大长寿而趋于非人",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第130源章第2条）",
       "category": "event",
       "keys": [
@@ -10476,7 +10476,7 @@
     },
     {
       "id": "era-09-arcadia-event-130-03",
-      "title": "事件｜第130源章｜3",
+      "title": "英雄选择先封印待女儿成年自行决定",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第130源章第3条）",
       "category": "event",
       "keys": [
@@ -10501,7 +10501,7 @@
     },
     {
       "id": "era-09-arcadia-event-130-04",
-      "title": "事件｜第130源章｜4",
+      "title": "未来历史学者因女儿银发外貌争论英雄妻子身份",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第130源章第4条）",
       "category": "event",
       "keys": [
@@ -10526,7 +10526,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-130-01",
-      "title": "世界设定事实｜第130源章｜1",
+      "title": "神力驾驭可带来千年以上寿命与非人身体",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第130源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10551,7 +10551,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-130-01",
-      "title": "新建立连续性｜第130源章｜1",
+      "title": "英雄取得未透露的新名字",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第130源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10576,7 +10576,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-130-02",
-      "title": "新建立连续性｜第130源章｜2",
+      "title": "女儿神力两方案",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第130源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10601,7 +10601,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-130-03",
-      "title": "新建立连续性｜第130源章｜3",
+      "title": "后代联结兜底",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第130源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10626,7 +10626,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-130-01",
-      "title": "未解决事项｜第130源章｜1",
+      "title": "女儿本人选择",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第130源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10651,7 +10651,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-130-02",
-      "title": "未解决事项｜第130源章｜2",
+      "title": "神力遗传",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第130源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10676,7 +10676,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-130-01",
-      "title": "主角龙形态｜第130源章｜1",
+      "title": "主角龙形态｜第一百二十五章：英雄血脉（1）｜长角银发龙族巫女少女，与英雄之女外貌相似但有角",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第130源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10703,7 +10703,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-130-01",
-      "title": "主角龙状态｜第130源章｜1",
+      "title": "主角龙状态｜第一百二十五章：英雄血脉（1）｜英雄血脉神力问题的责任人和方案提供者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第130源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10728,7 +10728,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-130-01",
-      "title": "主角龙知识边界｜第130源章｜1",
+      "title": "主角龙知识边界｜第一百二十五章：英雄血脉（1）｜无法确定早产与神力遗传的具体因果，也不知道后代何时会觉醒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第130源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10753,7 +10753,7 @@
     },
     {
       "id": "era-09-arcadia-event-131-01",
-      "title": "事件｜第131源章｜1",
+      "title": "主角拒绝英雄对妻子隐瞒，让父母共同向女儿说明神力问题",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第131源章第1条）",
       "category": "event",
       "keys": [
@@ -10778,7 +10778,7 @@
     },
     {
       "id": "era-09-arcadia-event-131-02",
-      "title": "事件｜第131源章｜2",
+      "title": "女儿畏惧神力，明确拒绝成为像姑姑那样的长生强者，只想与家人幸福且不愿承担英雄身份",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第131源章第2条）",
       "category": "event",
       "keys": [
@@ -10803,7 +10803,7 @@
     },
     {
       "id": "era-09-arcadia-event-131-03",
-      "title": "事件｜第131源章｜3",
+      "title": "主角尊重其心意，先暂时封印至成年再问",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第131源章第3条）",
       "category": "event",
       "keys": [
@@ -10828,7 +10828,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-131-01",
-      "title": "世界设定事实｜第131源章｜1",
+      "title": "暂封后新生头发会恢复原色，既有银发不变",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第131源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10853,7 +10853,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-131-01",
-      "title": "新建立连续性｜第131源章｜1",
+      "title": "女儿拒绝长生力量",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第131源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10878,7 +10878,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-131-02",
-      "title": "新建立连续性｜第131源章｜2",
+      "title": "暂时封印",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第131源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10903,7 +10903,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-131-03",
-      "title": "新建立连续性｜第131源章｜3",
+      "title": "成年复选",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第131源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10928,7 +10928,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-131-01",
-      "title": "未解决事项｜第131源章｜1",
+      "title": "成年选择",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第131源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10953,7 +10953,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-131-02",
-      "title": "未解决事项｜第131源章｜2",
+      "title": "银发变化",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第131源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10978,7 +10978,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-131-01",
-      "title": "主角龙形态｜第131源章｜1",
+      "title": "主角龙形态｜第一百二十六章：英雄血脉（2）｜长角银发龙族巫女少女，被女儿视为整日在家的姑姑",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第131源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11004,7 +11004,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-131-01",
-      "title": "主角龙状态｜第131源章｜1",
+      "title": "主角龙状态｜第一百二十六章：英雄血脉（2）｜尊重侄女选择的神力封印者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第131源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11029,7 +11029,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-131-01",
-      "title": "主角龙知识边界｜第131源章｜1",
+      "title": "主角龙知识边界｜第一百二十六章：英雄血脉（2）｜不知道孩子成年后想法是否改变",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第131源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11054,7 +11054,7 @@
     },
     {
       "id": "era-09-arcadia-event-132-01",
-      "title": "事件｜第132源章｜1",
+      "title": "英雄近六十、生命力衰退",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第132源章第1条）",
       "category": "event",
       "keys": [
@@ -11079,7 +11079,7 @@
     },
     {
       "id": "era-09-arcadia-event-132-02",
-      "title": "事件｜第132源章｜2",
+      "title": "主角劝溺爱女儿的英雄放手，准备寻找可靠夫婿",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第132源章第2条）",
       "category": "event",
       "keys": [
@@ -11105,7 +11105,7 @@
     },
     {
       "id": "era-09-arcadia-event-132-03",
-      "title": "事件｜第132源章｜3",
+      "title": "阿卡迪亚借土豆，不败之旗，骑兵通信，补给线和无主废土漏洞七日灭敌",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第132源章第3条）",
       "category": "event",
       "keys": [
@@ -11130,7 +11130,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-132-01",
-      "title": "世界设定事实｜第132源章｜1",
+      "title": "阿卡迪亚以土豆扩张人口，以不败之旗调度骑兵断粮，再由无主阿卡德废土绕袭都城",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第132源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11156,7 +11156,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-132-01",
-      "title": "新建立连续性｜第132源章｜1",
+      "title": "女儿彻底封印神力",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第132源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11181,7 +11181,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-132-02",
-      "title": "新建立连续性｜第132源章｜2",
+      "title": "阿卡迪亚三王子婚约",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第132源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11207,7 +11207,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-132-03",
-      "title": "新建立连续性｜第132源章｜3",
+      "title": "阿卡迪亚成为强国",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第132源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11232,7 +11232,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-132-01",
-      "title": "未解决事项｜第132源章｜1",
+      "title": "三王子婚姻动机",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第132源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11257,7 +11257,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-132-02",
-      "title": "未解决事项｜第132源章｜2",
+      "title": "英雄晚年",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第132源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11282,7 +11282,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-132-01",
-      "title": "主角龙形态｜第132源章｜1",
+      "title": "主角龙形态｜第一百二十七章：英雄血脉（3）｜长角银发少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第132源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11308,7 +11308,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-132-01",
-      "title": "主角龙状态｜第132源章｜1",
+      "title": "主角龙状态｜第一百二十七章：英雄血脉（3）｜女儿成人选择的执行者与英雄放手的劝导者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第132源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11333,7 +11333,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-132-01",
-      "title": "主角龙知识边界｜第132源章｜1",
+      "title": "主角龙知识边界｜第一百二十七章：英雄血脉（3）｜只从传闻得知战争细节",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第132源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11358,7 +11358,7 @@
     },
     {
       "id": "era-09-arcadia-event-133-01",
-      "title": "事件｜第133源章｜1",
+      "title": "三王子与英雄之女认出童年旧缘",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第133源章第1条）",
       "category": "event",
       "keys": [
@@ -11384,7 +11384,7 @@
     },
     {
       "id": "era-09-arcadia-event-133-02",
-      "title": "事件｜第133源章｜2",
+      "title": "女儿因无理阻挠与父亲争吵",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第133源章第2条）",
       "category": "event",
       "keys": [
@@ -11409,7 +11409,7 @@
     },
     {
       "id": "era-09-arcadia-event-133-03",
-      "title": "事件｜第133源章｜3",
+      "title": "小型婚礼后女儿生下健康男孩",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第133源章第3条）",
       "category": "event",
       "keys": [
@@ -11434,7 +11434,7 @@
     },
     {
       "id": "era-09-arcadia-event-133-04",
-      "title": "事件｜第133源章｜4",
+      "title": "约七十岁的英雄自认人生极好且知足",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第133源章第4条）",
       "category": "event",
       "keys": [
@@ -11459,7 +11459,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-133-01",
-      "title": "世界设定事实｜第133源章｜1",
+      "title": "封印后的神力仍向下一代遗传但显著减少",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第133源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11484,7 +11484,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-133-01",
-      "title": "新建立连续性｜第133源章｜1",
+      "title": "三王子与女儿童年旧缘",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第133源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11509,7 +11509,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-133-02",
-      "title": "新建立连续性｜第133源章｜2",
+      "title": "英雄外孙",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第133源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11534,7 +11534,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-133-03",
-      "title": "新建立连续性｜第133源章｜3",
+      "title": "英雄认可自己的一生",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第133源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11559,7 +11559,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-133-01",
-      "title": "未解决事项｜第133源章｜1",
+      "title": "不速之客",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第133源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11584,7 +11584,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-133-02",
-      "title": "未解决事项｜第133源章｜2",
+      "title": "英雄死亡",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第133源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11609,7 +11609,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-133-03",
-      "title": "未解决事项｜第133源章｜3",
+      "title": "神力跨代消退",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第133源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11634,7 +11634,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-133-01",
-      "title": "主角龙形态｜第133源章｜1",
+      "title": "主角龙形态｜第一百二十七章：英雄血脉（4）｜长角银发龙族巫女少女，容貌不随英雄老去",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第133源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11660,7 +11660,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-133-01",
-      "title": "主角龙状态｜第133源章｜1",
+      "title": "主角龙状态｜第一百二十七章：英雄血脉（4）｜英雄家庭的姑姑、婚姻调停者与晚年见证者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第133源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11685,7 +11685,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-133-01",
-      "title": "主角龙知识边界｜第133源章｜1",
+      "title": "主角龙知识边界｜第一百二十七章：英雄血脉（4）｜只怀疑国王有巩固王权算盘，不能写成已证实",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第133源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11710,7 +11710,7 @@
     },
     {
       "id": "era-09-arcadia-event-134-01",
-      "title": "事件｜第134源章｜1",
+      "title": "黑衣人以血剑挑战年迈英雄",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第134源章第1条）",
       "category": "event",
       "keys": [
@@ -11735,7 +11735,7 @@
     },
     {
       "id": "era-09-arcadia-event-134-02",
-      "title": "事件｜第134源章｜2",
+      "title": "二王子求死并抱怨诸神折磨",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第134源章第2条）",
       "category": "event",
       "keys": [
@@ -11760,7 +11760,7 @@
     },
     {
       "id": "era-09-arcadia-event-134-03",
-      "title": "事件｜第134源章｜3",
+      "title": "二王子持剑威胁主角解咒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第134源章第3条）",
       "category": "event",
       "keys": [
@@ -11785,7 +11785,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-134-01",
-      "title": "世界设定事实｜第134源章｜1",
+      "title": "二王子的赤红剑刃覆有由生命力操控的血液薄膜，可如液态活物变形追击",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第134源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11810,7 +11810,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-134-01",
-      "title": "新建立连续性｜第134源章｜1",
+      "title": "二王子血剑",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第134源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11835,7 +11835,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-134-02",
-      "title": "新建立连续性｜第134源章｜2",
+      "title": "二王子求死",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第134源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11860,7 +11860,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-134-03",
-      "title": "新建立连续性｜第134源章｜3",
+      "title": "英雄晚年剑术",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第134源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11885,7 +11885,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-134-01",
-      "title": "未解决事项｜第134源章｜1",
+      "title": "二王子为何来访",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第134源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11910,7 +11910,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-134-02",
-      "title": "未解决事项｜第134源章｜2",
+      "title": "是否忏悔",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第134源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11935,7 +11935,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-134-01",
-      "title": "主角龙形态｜第134源章｜1",
+      "title": "主角龙形态｜第一百二十九章：受诅者（1）｜长角银发龙族巫女少女，外貌数十年未变",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第134源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11961,7 +11961,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-134-01",
-      "title": "主角龙状态｜第134源章｜1",
+      "title": "主角龙状态｜第一百二十九章：受诅者（1）｜受诅者的施咒者与最后裁决者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第134源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11986,7 +11986,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-134-01",
-      "title": "主角龙知识边界｜第134源章｜1",
+      "title": "主角龙知识边界｜第一百二十九章：受诅者（1）｜只知道二王子长期受苦和血剑能力，尚不知道他数十年间救过何人",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第134源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12011,7 +12011,7 @@
     },
     {
       "id": "era-09-arcadia-event-135-01",
-      "title": "事件｜第135源章｜1",
+      "title": "主角承认诅咒全国过火，立下未来只惩罪魁祸首的原则",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第135源章第1条）",
       "category": "event",
       "keys": [
@@ -12036,7 +12036,7 @@
     },
     {
       "id": "era-09-arcadia-event-135-02",
-      "title": "事件｜第135源章｜2",
+      "title": "英雄女儿带来与二王子同行的中年女人",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第135源章第2条）",
       "category": "event",
       "keys": [
@@ -12061,7 +12061,7 @@
     },
     {
       "id": "era-09-arcadia-event-135-03",
-      "title": "事件｜第135源章｜3",
+      "title": "女人说明自己儿时被遗弃在雪地，二王子分给她生命力治病，又因怕诅咒连累她而拒绝同行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第135源章第3条）",
       "category": "event",
       "keys": [
@@ -12086,7 +12086,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-135-01",
-      "title": "世界设定事实｜第135源章｜1",
+      "title": "不朽诅咒会使被五十倍重力粉碎的四肢如时光倒流般迅速复原，死亡和永久伤残皆不可得",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第135源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12111,7 +12111,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-135-01",
-      "title": "新建立连续性｜第135源章｜1",
+      "title": "主角反省国家连坐",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第135源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12136,7 +12136,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-135-02",
-      "title": "新建立连续性｜第135源章｜2",
+      "title": "二王子救下弃儿",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第135源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12161,7 +12161,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-135-03",
-      "title": "新建立连续性｜第135源章｜3",
+      "title": "受诅者长期同行者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第135源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12186,7 +12186,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-135-01",
-      "title": "未解决事项｜第135源章｜1",
+      "title": "追随者完整证词",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第135源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12211,7 +12211,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-135-02",
-      "title": "未解决事项｜第135源章｜2",
+      "title": "解咒裁决",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第135源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12236,7 +12236,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-135-01",
-      "title": "主角龙形态｜第135源章｜1",
+      "title": "主角龙形态｜第一百三十章：受诅者（2）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第135源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12262,7 +12262,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-135-01",
-      "title": "主角龙状态｜第135源章｜1",
+      "title": "主角龙状态｜第一百三十章：受诅者（2）｜开始重新评估受诅者数十年行为的施咒者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第135源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12287,7 +12287,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-135-01",
-      "title": "主角龙知识边界｜第135源章｜1",
+      "title": "主角龙知识边界｜第一百三十章：受诅者（2）｜只听到追随者相遇开端，尚不知道完整流浪善行与二王子的原罪是否被她知晓",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第135源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12312,7 +12312,7 @@
     },
     {
       "id": "era-09-arcadia-event-136-01",
-      "title": "事件｜第136源章｜1",
+      "title": "女人说明二王子流浪助人、聚百余追随者、独自阻止觊觎不朽的暴君并从未真正甩掉她",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第136源章第1条）",
       "category": "event",
       "keys": [
@@ -12337,7 +12337,7 @@
     },
     {
       "id": "era-09-arcadia-event-136-02",
-      "title": "事件｜第136源章｜2",
+      "title": "女人通过他醉后提及英雄与巫女、刻意避开英雄路线，查出最后希望并带他来求助",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第136源章第2条）",
       "category": "event",
       "keys": [
@@ -12362,7 +12362,7 @@
     },
     {
       "id": "era-09-arcadia-event-136-03",
-      "title": "事件｜第136源章｜3",
+      "title": "主角再三明示生命神殿忏悔是唯一解法",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第136源章第3条）",
       "category": "event",
       "keys": [
@@ -12387,7 +12387,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-136-01",
-      "title": "世界设定事实｜第136源章｜1",
+      "title": "二王子追随者超过百人并建立安全村庄",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第136源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12412,7 +12412,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-136-01",
-      "title": "新建立连续性｜第136源章｜1",
+      "title": "受诅者百余追随者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第136源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12437,7 +12437,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-136-02",
-      "title": "新建立连续性｜第136源章｜2",
+      "title": "暴君事件",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第136源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12462,7 +12462,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-136-03",
-      "title": "新建立连续性｜第136源章｜3",
+      "title": "刻意避开英雄",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第136源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12487,7 +12487,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-136-01",
-      "title": "未解决事项｜第136源章｜1",
+      "title": "是否公开原罪",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第136源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12512,7 +12512,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-136-02",
-      "title": "未解决事项｜第136源章｜2",
+      "title": "是否悔改",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第136源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12537,7 +12537,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-136-01",
-      "title": "主角龙形态｜第136源章｜1",
+      "title": "主角龙形态｜第一百三十一章：受诅者（3）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第136源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12563,7 +12563,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-136-01",
-      "title": "主角龙状态｜第136源章｜1",
+      "title": "主角龙状态｜第一百三十一章：受诅者（3）｜一面认可善行、一面要求原罪忏悔的裁决者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第136源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12588,7 +12588,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-136-01",
-      "title": "主角龙知识边界｜第136源章｜1",
+      "title": "主角龙知识边界｜第一百三十一章：受诅者（3）｜已知二王子行善但没有直接读取其动机",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第136源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12613,7 +12613,7 @@
     },
     {
       "id": "era-09-arcadia-event-137-01",
-      "title": "事件｜第137源章｜1",
+      "title": "英雄与主角向女人公开二王子亵渎神殿、觊觎巫女与神剑并导致阿卡德覆灭的原罪",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第137源章第1条）",
       "category": "event",
       "keys": [
@@ -12638,7 +12638,7 @@
     },
     {
       "id": "era-09-arcadia-event-137-02",
-      "title": "事件｜第137源章｜2",
+      "title": "主角拒绝以时间回溯抹掉包含英雄家庭在内的全部历史，转而准备抹杀二王子",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第137源章第2条）",
       "category": "event",
       "keys": [
@@ -12663,7 +12663,7 @@
     },
     {
       "id": "era-09-arcadia-event-137-03",
-      "title": "事件｜第137源章｜3",
+      "title": "女人得知真相仍以救命之恩和最重要之人相护，主角不愿伤她而停手",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第137源章第3条）",
       "category": "event",
       "keys": [
@@ -12688,7 +12688,7 @@
     },
     {
       "id": "era-09-arcadia-event-137-04",
-      "title": "事件｜第137源章｜4",
+      "title": "主角给出最后机会：二王子若诚心去生命神殿道歉便不杀，否则彻底抹除",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第137源章第4条）",
       "category": "event",
       "keys": [
@@ -12713,7 +12713,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-137-01",
-      "title": "世界设定事实｜第137源章｜1",
+      "title": "未被宽恕的罪魂死亡后仍会在地狱受审与折磨，死亡不能自动终止神罚",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第137源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12738,7 +12738,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-137-01",
-      "title": "新建立连续性｜第137源章｜1",
+      "title": "受诅者原罪公开",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第137源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12763,7 +12763,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-137-02",
-      "title": "新建立连续性｜第137源章｜2",
+      "title": "七日前最终通牒",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第137源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12788,7 +12788,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-137-03",
-      "title": "新建立连续性｜第137源章｜3",
+      "title": "追随者知情仍保护",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第137源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12813,7 +12813,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-137-01",
-      "title": "未解决事项｜第137源章｜1",
+      "title": "七日后的选择",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第137源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12838,7 +12838,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-137-01",
-      "title": "主角龙形态｜第137源章｜1",
+      "title": "主角龙形态｜第一百三十二章：受诅者（4）｜长角银发少女，掌中凝聚带湮灭力量的银白魔力球",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第137源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12863,7 +12863,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-137-01",
-      "title": "主角龙状态｜第137源章｜1",
+      "title": "主角龙状态｜第一百三十二章：受诅者（4）｜在杀意与避免伤及无辜之间做最后裁决",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第137源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12888,7 +12888,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-137-01",
-      "title": "主角龙知识边界｜第137源章｜1",
+      "title": "主角龙知识边界｜第一百三十二章：受诅者（4）｜不知道二王子会否在七日期限内真心悔改",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第137源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12913,7 +12913,7 @@
     },
     {
       "id": "era-09-arcadia-event-138-01",
-      "title": "事件｜第138源章｜1",
+      "title": "主角与英雄等待七日",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第138源章第1条）",
       "category": "event",
       "keys": [
@@ -12938,7 +12938,7 @@
     },
     {
       "id": "era-09-arcadia-event-138-02",
-      "title": "事件｜第138源章｜2",
+      "title": "二王子终于在生命女神像前真心忏悔",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第138源章第2条）",
       "category": "event",
       "keys": [
@@ -12963,7 +12963,7 @@
     },
     {
       "id": "era-09-arcadia-event-138-03",
-      "title": "事件｜第138源章｜3",
+      "title": "主角解除不朽与吸收生命力能力，却恶作剧式留下种族改造",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第138源章第3条）",
       "category": "event",
       "keys": [
@@ -12988,7 +12988,7 @@
     },
     {
       "id": "era-09-arcadia-event-138-04",
-      "title": "事件｜第138源章｜4",
+      "title": "未来《神话中的古代史》记载吸血种起源和神权解释，并注明观点非主流",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第138源章第4条）",
       "category": "event",
       "keys": [
@@ -13013,7 +13013,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-138-01",
-      "title": "世界设定事实｜第138源章｜1",
+      "title": "初代吸血种以血为媒吸收或传递生命力，畏阳光与流水",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第138源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13038,7 +13038,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-138-01",
-      "title": "新建立连续性｜第138源章｜1",
+      "title": "不朽诅咒解除",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第138源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13063,7 +13063,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-138-02",
-      "title": "新建立连续性｜第138源章｜2",
+      "title": "初代吸血种",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第138源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13088,7 +13088,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-138-03",
-      "title": "新建立连续性｜第138源章｜3",
+      "title": "主角原世界乡愁",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第138源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13113,7 +13113,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-138-01",
-      "title": "未解决事项｜第138源章｜1",
+      "title": "吸血种后续",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第138源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13138,7 +13138,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-138-02",
-      "title": "未解决事项｜第138源章｜2",
+      "title": "主角能否归乡",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第138源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13163,7 +13163,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-138-01",
-      "title": "主角龙形态｜第138源章｜1",
+      "title": "主角龙形态｜第一百三十三章：受诅者（5）｜长角银发龙族巫女少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第138源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13189,7 +13189,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-138-01",
-      "title": "主角龙状态｜第138源章｜1",
+      "title": "主角龙状态｜第一百三十三章：受诅者（5）｜解除阿卡德二王子不朽并创造吸血种者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第138源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13214,7 +13214,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-138-01",
-      "title": "主角龙知识边界｜第138源章｜1",
+      "title": "主角龙知识边界｜第一百三十三章：受诅者（5）｜当前不知道后世吸血种自称与史学解释",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第138源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13239,7 +13239,7 @@
     },
     {
       "id": "era-09-arcadia-event-139-01",
-      "title": "事件｜第139源章｜1",
+      "title": "百岁以上、临终卧床的英雄询问死后去处",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第139源章第1条）",
       "category": "event",
       "keys": [
@@ -13264,7 +13264,7 @@
     },
     {
       "id": "era-09-arcadia-event-139-02",
-      "title": "事件｜第139源章｜2",
+      "title": "英雄拒绝主角延命",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第139源章第2条）",
       "category": "event",
       "keys": [
@@ -13289,7 +13289,7 @@
     },
     {
       "id": "era-09-arcadia-event-139-03",
-      "title": "事件｜第139源章｜3",
+      "title": "英雄提出依灵魂意愿打造天堂，却因妻子不在那里而选择转世寻找她",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第139源章第3条）",
       "category": "event",
       "keys": [
@@ -13314,7 +13314,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-139-01",
-      "title": "世界设定事实｜第139源章｜1",
+      "title": "阿卡迪亚开国王的审判因善恶与功绩难判而暂缓",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第139源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13339,7 +13339,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-139-01",
-      "title": "新建立连续性｜第139源章｜1",
+      "title": "英雄拒绝延命",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第139源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13364,7 +13364,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-139-02",
-      "title": "新建立连续性｜第139源章｜2",
+      "title": "英雄百岁血脉成村",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第139源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13389,7 +13389,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-139-03",
-      "title": "新建立连续性｜第139源章｜3",
+      "title": "英雄选择转世",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第139源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13414,7 +13414,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-139-04",
-      "title": "新建立连续性｜第139源章｜4",
+      "title": "天堂首位居民约定",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第139源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13439,7 +13439,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-139-01",
-      "title": "未解决事项｜第139源章｜1",
+      "title": "天堂制度",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第139源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13464,7 +13464,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-139-02",
-      "title": "未解决事项｜第139源章｜2",
+      "title": "英雄死亡与审判",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第139源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13489,7 +13489,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-139-01",
-      "title": "主角龙形态｜第139源章｜1",
+      "title": "主角龙形态｜第一百三十四章：天堂（1）｜长角银发少女，坐在百岁英雄床边照料",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第139源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13514,7 +13514,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-139-01",
-      "title": "主角龙状态｜第139源章｜1",
+      "title": "主角龙状态｜第一百三十四章：天堂（1）｜不舍凡人家人死亡的天堂设计者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第139源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13539,7 +13539,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-139-01",
-      "title": "主角龙知识边界｜第139源章｜1",
+      "title": "主角龙知识边界｜第一百三十四章：天堂（1）｜天堂只有初步概念，尚未决定形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第139源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13564,7 +13564,7 @@
     },
     {
       "id": "era-09-arcadia-event-140-01",
-      "title": "事件｜第140源章｜1",
+      "title": "主角提出将魂魄拆分：先天灵魂转世，承载记忆的精魄留天堂，来世死后净化再融合",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第140源章第1条）",
       "category": "event",
       "keys": [
@@ -13589,7 +13589,7 @@
     },
     {
       "id": "era-09-arcadia-event-140-02",
-      "title": "事件｜第140源章｜2",
+      "title": "主角继续照料英雄，两人挑选冒险故事讲给后代",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第140源章第2条）",
       "category": "event",
       "keys": [
@@ -13614,7 +13614,7 @@
     },
     {
       "id": "era-09-arcadia-event-140-03",
-      "title": "事件｜第140源章｜3",
+      "title": "主角将长期扩建的异空间选作天堂，拟定精神永存，自动扩容，满足愿望，模拟故人",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第140源章第3条）",
       "category": "event",
       "keys": [
@@ -13639,7 +13639,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-140-01",
-      "title": "世界设定事实｜第140源章｜1",
+      "title": "魂魄由先天灵魂与承载后天记忆的精魄构成",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第140源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13664,7 +13664,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-140-02",
-      "title": "世界设定事实｜第140源章｜2",
+      "title": "天堂基于主角创造的广阔异空间，拟允许精神永存，随居民扩容，愿望实现，记忆模拟故人",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第140源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13689,7 +13689,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-140-01",
-      "title": "新建立连续性｜第140源章｜1",
+      "title": "魂魄拆分转世",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第140源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13714,7 +13714,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-140-02",
-      "title": "新建立连续性｜第140源章｜2",
+      "title": "异空间天堂",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第140源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13739,7 +13739,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-140-03",
-      "title": "新建立连续性｜第140源章｜3",
+      "title": "自愿服务与离开权",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第140源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13764,7 +13764,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-140-01",
-      "title": "未解决事项｜第140源章｜1",
+      "title": "英雄能否成为首位居民",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第140源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13789,7 +13789,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-140-02",
-      "title": "未解决事项｜第140源章｜2",
+      "title": "天堂实际运行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第140源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13814,7 +13814,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-140-01",
-      "title": "主角龙形态｜第140源章｜1",
+      "title": "主角龙形态｜第一百三十五章：天堂（2）｜长角银发少女，临终照护与异空间创世两种状态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第140源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13839,7 +13839,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-140-01",
-      "title": "主角龙状态｜第140源章｜1",
+      "title": "主角龙状态｜第一百三十五章：天堂（2）｜把天堂从概念推进为规则系统",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第140源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13864,7 +13864,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-140-01",
-      "title": "主角龙知识边界｜第140源章｜1",
+      "title": "主角龙知识边界｜第一百三十五章：天堂（2）｜制度仍是初步设想，未经过首位灵魂实际验证",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第140源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13889,7 +13889,7 @@
     },
     {
       "id": "era-09-arcadia-event-141-01",
-      "title": "事件｜第141源章｜1",
+      "title": "英雄在睡梦中安然死亡，灵魂看见子孙围绕遗体",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第141源章第1条）",
       "category": "event",
       "keys": [
@@ -13914,7 +13914,7 @@
     },
     {
       "id": "era-09-arcadia-event-141-02",
-      "title": "事件｜第141源章｜2",
+      "title": "小型兜帽死神来接引",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第141源章第2条）",
       "category": "event",
       "keys": [
@@ -13939,7 +13939,7 @@
     },
     {
       "id": "era-09-arcadia-event-141-03",
-      "title": "事件｜第141源章｜3",
+      "title": "死神带英雄越过世界尽头地狱之门，见第一重黑曜巨像塔洛斯，继续深入地狱",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第141源章第3条）",
       "category": "event",
       "keys": [
@@ -13964,7 +13964,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-141-01",
-      "title": "世界设定事实｜第141源章｜1",
+      "title": "死神允许亡者留遗言后以影之绳束魂快速传送",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第141源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13989,7 +13989,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-141-02",
-      "title": "世界设定事实｜第141源章｜2",
+      "title": "地狱第一重由黑曜巨像塔洛斯守护，属于各层顶尖管理者，历史上曾被诡计攻破一次",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第141源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14014,7 +14014,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-141-01",
-      "title": "新建立连续性｜第141源章｜1",
+      "title": "首位英雄死亡",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第141源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14040,7 +14040,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-141-02",
-      "title": "新建立连续性｜第141源章｜2",
+      "title": "英雄灵魂入地狱",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第141源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14065,7 +14065,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-141-03",
-      "title": "新建立连续性｜第141源章｜3",
+      "title": "小型死神",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第141源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14090,7 +14090,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-141-04",
-      "title": "新建立连续性｜第141源章｜4",
+      "title": "黑曜巨像塔洛斯",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第141源章第4条）",
       "category": "continuity",
       "keys": [
@@ -14115,7 +14115,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-141-01",
-      "title": "未解决事项｜第141源章｜1",
+      "title": "地狱审判",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第141源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14140,7 +14140,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-141-02",
-      "title": "未解决事项｜第141源章｜2",
+      "title": "主角与英雄剑去向",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第141源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14165,7 +14165,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-141-03",
-      "title": "未解决事项｜第141源章｜3",
+      "title": "天堂首位居民",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第141源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14190,7 +14190,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-141-01",
-      "title": "主角龙形态｜第141源章｜1",
+      "title": "主角龙形态｜第一百三十六章：英雄之死（1）｜本章未现身",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第141源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14216,7 +14216,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-141-01",
-      "title": "主角龙状态｜第141源章｜1",
+      "title": "主角龙状态｜第一百三十六章：英雄之死（1）｜预知英雄死期并提前离场，带走英雄剑",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第141源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14241,7 +14241,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-141-01",
-      "title": "主角龙知识边界｜第141源章｜1",
+      "title": "主角龙知识边界｜第一百三十六章：英雄之死（1）｜英雄只能推断她知情",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第141源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14266,7 +14266,7 @@
     },
     {
       "id": "era-09-arcadia-event-142-01",
-      "title": "事件｜第142源章｜1",
+      "title": "未来英雄小队到商业化的英雄村参观，银发少女同行",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第142源章第1条）",
       "category": "event",
       "keys": [
@@ -14291,7 +14291,7 @@
     },
     {
       "id": "era-09-arcadia-event-142-02",
-      "title": "事件｜第142源章｜2",
+      "title": "当前英雄之魂过冥河，主角预置的无限袋倾出银山付船费",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第142源章第2条）",
       "category": "event",
       "keys": [
@@ -14316,7 +14316,7 @@
     },
     {
       "id": "era-09-arcadia-event-142-03",
-      "title": "事件｜第142源章｜3",
+      "title": "塔纳托斯、阎魔与刻瑞斯审视其一生",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第142源章第3条）",
       "category": "event",
       "keys": [
@@ -14343,7 +14343,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-142-01",
-      "title": "世界设定事实｜第142源章｜1",
+      "title": "无辜孩童无需审判直接转世",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第142源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14368,7 +14368,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-142-02",
-      "title": "世界设定事实｜第142源章｜2",
+      "title": "阎魔以镜卷审生平，刻瑞斯从魂中取罪孽微光置天平称重，塔纳托斯共同制衡",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第142源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14395,7 +14395,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-142-01",
-      "title": "新建立连续性｜第142源章｜1",
+      "title": "英雄实名约哈南",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第142源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14420,7 +14420,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-142-02",
-      "title": "新建立连续性｜第142源章｜2",
+      "title": "享年103岁",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第142源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14445,7 +14445,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-142-03",
-      "title": "新建立连续性｜第142源章｜3",
+      "title": "三冥神审判",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第142源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14470,7 +14470,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-142-04",
-      "title": "新建立连续性｜第142源章｜4",
+      "title": "凡躯独占神明罪",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第142源章第4条）",
       "category": "continuity",
       "keys": [
@@ -14495,7 +14495,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-142-01",
-      "title": "未解决事项｜第142源章｜1",
+      "title": "罪名表决",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第142源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14520,7 +14520,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-142-02",
-      "title": "未解决事项｜第142源章｜2",
+      "title": "天堂去向",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第142源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14545,7 +14545,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-142-01",
-      "title": "主角龙形态｜第142源章｜1",
+      "title": "主角龙形态｜第一百三十七章：英雄之死（2）｜当前未现身",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第142源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14570,7 +14570,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-142-01",
-      "title": "主角龙状态｜第142源章｜1",
+      "title": "主角龙状态｜第一百三十七章：英雄之死（2）｜预先把装满银币的无限袋交给英雄作为渡资",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第142源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14595,7 +14595,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-142-01",
-      "title": "主角龙知识边界｜第142源章｜1",
+      "title": "主角龙知识边界｜第一百三十七章：英雄之死（2）｜英雄与冥神尚不知道主角是否会接受新增罪名",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第142源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14620,7 +14620,7 @@
     },
     {
       "id": "era-09-arcadia-event-143-01",
-      "title": "事件｜第143源章｜1",
+      "title": "阎魔认为英雄占用女神数十年妨害世界",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第143源章第1条）",
       "category": "event",
       "keys": [
@@ -14647,7 +14647,7 @@
     },
     {
       "id": "era-09-arcadia-event-143-02",
-      "title": "事件｜第143源章｜2",
+      "title": "未来课堂讲解三冥神互相制衡并猜测地狱创造者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第143源章第2条）",
       "category": "event",
       "keys": [
@@ -14672,7 +14672,7 @@
     },
     {
       "id": "era-09-arcadia-event-143-03",
-      "title": "事件｜第143源章｜3",
+      "title": "天堂呈英雄晚年村落",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第143源章第3条）",
       "category": "event",
       "keys": [
@@ -14697,7 +14697,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-143-01",
-      "title": "世界设定事实｜第143源章｜1",
+      "title": "地狱三神以多数表决互相制衡：塔纳托斯与刻瑞斯反对，阎魔的新增罪名即告撤销",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第143源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14724,7 +14724,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-143-01",
-      "title": "新建立连续性｜第143源章｜1",
+      "title": "约哈南无罪",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第143源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14749,7 +14749,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-143-02",
-      "title": "新建立连续性｜第143源章｜2",
+      "title": "天堂首位居民",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第143源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14774,7 +14774,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-143-03",
-      "title": "新建立连续性｜第143源章｜3",
+      "title": "妻子重逢礼物",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第143源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14799,7 +14799,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-143-01",
-      "title": "未解决事项｜第143源章｜1",
+      "title": "妻子是否本体",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第143源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14824,7 +14824,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-143-02",
-      "title": "未解决事项｜第143源章｜2",
+      "title": "主角得知审判争议",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第143源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14849,7 +14849,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-143-01",
-      "title": "主角龙形态｜第143源章｜1",
+      "title": "主角龙形态｜第一百三十八章：英雄之死（3）｜天堂中的银发龙角少女，以英雄熟悉的姐姐形象出现",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第143源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14874,7 +14874,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-143-01",
-      "title": "主角龙状态｜第143源章｜1",
+      "title": "主角龙状态｜第一百三十八章：英雄之死（3）｜天堂建成后的迎接者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第143源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14899,7 +14899,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-143-01",
-      "title": "主角龙知识边界｜第143源章｜1",
+      "title": "主角龙知识边界｜第一百三十八章：英雄之死（3）｜此时英雄不知道妻子形态的性质",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第143源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14924,7 +14924,7 @@
     },
     {
       "id": "era-09-arcadia-event-144-01",
-      "title": "事件｜第144源章｜1",
+      "title": "主角解释妻子本体已转世，眼前分身由英雄记忆和地狱残留灵魂碎片拼成",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第144源章第1条）",
       "category": "event",
       "keys": [
@@ -14949,7 +14949,7 @@
     },
     {
       "id": "era-09-arcadia-event-144-02",
-      "title": "事件｜第144源章｜2",
+      "title": "主角不给英雄强制任务，仅邀请其自愿向后来者简单介绍天堂，随后离开",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第144源章第2条）",
       "category": "event",
       "keys": [
@@ -14974,7 +14974,7 @@
     },
     {
       "id": "era-09-arcadia-event-144-03",
-      "title": "事件｜第144源章｜3",
+      "title": "主角得知审判争议后痛打阎魔，警告三冥神不得冤判无辜者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第144源章第3条）",
       "category": "event",
       "keys": [
@@ -14999,7 +14999,7 @@
     },
     {
       "id": "era-09-arcadia-event-144-04",
-      "title": "事件｜第144源章｜4",
+      "title": "未来天堂召魂故事讲述法师召七英雄、拟牺牲六魂开一人通道，最终混战",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：事件（第144源章第4条）",
       "category": "event",
       "keys": [
@@ -15024,7 +15024,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-144-01",
-      "title": "世界设定事实｜第144源章｜1",
+      "title": "天堂可依居民记忆拼接地狱残留灵魂碎片成无魂分身",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第144源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15049,7 +15049,7 @@
     },
     {
       "id": "era-09-arcadia-world-fact-144-02",
-      "title": "世界设定事实｜第144源章｜2",
+      "title": "未来死灵术故事称七英雄可被召回肉身，六魂才能开启仅一人可过的天堂门",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：世界设定事实（第144源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15074,7 +15074,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-144-01",
-      "title": "新建立连续性｜第144源章｜1",
+      "title": "妻子无魂分身",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第144源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15099,7 +15099,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-144-02",
-      "title": "新建立连续性｜第144源章｜2",
+      "title": "英雄巅峰天堂形态",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第144源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15124,7 +15124,7 @@
     },
     {
       "id": "era-09-arcadia-continuity-new-144-03",
-      "title": "新建立连续性｜第144源章｜3",
+      "title": "阎魔受罚",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：新建立连续性（第144源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15149,7 +15149,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-144-01",
-      "title": "未解决事项｜第144源章｜1",
+      "title": "天堂后续居民",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第144源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15174,7 +15174,7 @@
     },
     {
       "id": "era-09-arcadia-unresolved-144-02",
-      "title": "未解决事项｜第144源章｜2",
+      "title": "未来召魂事件真相",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：未解决事项（第144源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15199,7 +15199,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-form-144-01",
-      "title": "主角龙形态｜第144源章｜1",
+      "title": "主角龙形态｜第一百三十九章：天堂（3）｜天堂银发龙角少女",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙形态（第144源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15224,7 +15224,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-state-144-01",
-      "title": "主角龙状态｜第144源章｜1",
+      "title": "主角龙状态｜第一百三十九章：天堂（3）｜天堂系统维护者与地狱审判监督者",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙状态（第144源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15249,7 +15249,7 @@
     },
     {
       "id": "era-09-arcadia-protagonist-knowledge-144-01",
-      "title": "主角龙知识边界｜第144源章｜1",
+      "title": "主角龙知识边界｜第一百三十九章：天堂（3）｜未来七英雄故事尚非当前事件，不可回填",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：主角龙知识边界（第144源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15274,7 +15274,7 @@
     },
     {
       "id": "era-09-arcadia-secondary-character-01",
-      "title": "次要人物｜希尔芙",
+      "title": "希尔芙",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：次要人物 希尔芙",
       "category": "secondary-character",
       "keys": [
@@ -15300,7 +15300,7 @@
     },
     {
       "id": "era-09-arcadia-secondary-character-02",
-      "title": "次要人物｜杀人蜂后",
+      "title": "杀人蜂后",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：次要人物 杀人蜂后",
       "category": "secondary-character",
       "keys": [
@@ -15332,7 +15332,7 @@
     },
     {
       "id": "era-09-arcadia-secondary-character-03",
-      "title": "次要人物｜阿卡迪亚三王子",
+      "title": "阿卡迪亚三王子",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：次要人物 阿卡迪亚三王子",
       "category": "secondary-character",
       "keys": [
@@ -15358,7 +15358,7 @@
     },
     {
       "id": "era-09-arcadia-secondary-character-04",
-      "title": "次要人物｜埃普娜",
+      "title": "埃普娜",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：次要人物 埃普娜",
       "category": "secondary-character",
       "keys": [
@@ -15384,7 +15384,7 @@
     },
     {
       "id": "era-09-arcadia-secondary-character-05",
-      "title": "次要人物｜接引死神",
+      "title": "接引死神",
       "memo": "英雄的伴侣、阿卡迪亚与天堂：次要人物 接引死神",
       "category": "secondary-character",
       "keys": [

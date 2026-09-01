@@ -3553,7 +3553,7 @@
   "lorebook": [
     {
       "id": "era-27-heroes-tech-core",
-      "title": "勇者们与魔导信息技术｜时代边界",
+      "title": "勇者们与魔导信息技术",
       "memo": "勇者们与魔导信息技术：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3568,7 +3568,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-569-01",
-      "title": "事件｜第569源章｜1",
+      "title": "露西亚完成电车魔像化、地脉供能轨、低票价和货运厢，电车成为天狼星主要交通",
       "memo": "勇者们与魔导信息技术：事件（第569源章第1条）",
       "category": "event",
       "keys": [
@@ -3594,7 +3594,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-569-02",
-      "title": "事件｜第569源章｜2",
+      "title": "生命女神本体因高出生率、治愈加护和广泛教义承受不断增长的祈祷",
       "memo": "勇者们与魔导信息技术：事件（第569源章第2条）",
       "category": "event",
       "keys": [
@@ -3620,7 +3620,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-569-03",
-      "title": "事件｜第569源章｜3",
+      "title": "其他神请求解除勇者垄断",
       "memo": "勇者们与魔导信息技术：事件（第569源章第3条）",
       "category": "event",
       "keys": [
@@ -3645,7 +3645,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-569-04",
-      "title": "事件｜第569源章｜4",
+      "title": "主龙认为神明借勇者代入人类人生会获得LD的新内容、减少不满",
       "memo": "勇者们与魔导信息技术：事件（第569源章第4条）",
       "category": "event",
       "keys": [
@@ -3670,7 +3670,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-569-01",
-      "title": "世界设定事实｜第569源章｜1",
+      "title": "电车经地脉充能、魔像化、供能轨和货厢完善后，普通人可负担并取代部分马车",
       "memo": "勇者们与魔导信息技术：世界设定事实（第569源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3695,7 +3695,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-569-02",
-      "title": "世界设定事实｜第569源章｜2",
+      "title": "其他神可册封带神名或属性前缀的勇者",
       "memo": "勇者们与魔导信息技术：世界设定事实（第569源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3720,7 +3720,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-569-03",
-      "title": "世界设定事实｜第569源章｜3",
+      "title": "万神殿神明通过人生体验机LD从人类视角生活，勇者身份被视作新增体验内容",
       "memo": "勇者们与魔导信息技术：世界设定事实（第569源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3745,7 +3745,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-569-01",
-      "title": "新建立连续性｜第569源章｜1",
+      "title": "诸神勇者许可",
       "memo": "勇者们与魔导信息技术：新建立连续性（第569源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3770,7 +3770,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-569-02",
-      "title": "新建立连续性｜第569源章｜2",
+      "title": "生命勇者",
       "memo": "勇者们与魔导信息技术：新建立连续性（第569源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3795,7 +3795,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-569-03",
-      "title": "新建立连续性｜第569源章｜3",
+      "title": "勇者命名边界",
       "memo": "勇者们与魔导信息技术：新建立连续性（第569源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3820,7 +3820,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-569-04",
-      "title": "新建立连续性｜第569源章｜4",
+      "title": "勇者们时代",
       "memo": "勇者们与魔导信息技术：新建立连续性（第569源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3845,7 +3845,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-569-01",
-      "title": "未解决事项｜第569源章｜1",
+      "title": "各神如何选人",
       "memo": "勇者们与魔导信息技术：未解决事项（第569源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3870,7 +3870,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-569-02",
-      "title": "未解决事项｜第569源章｜2",
+      "title": "学院是否成为培养地",
       "memo": "勇者们与魔导信息技术：未解决事项（第569源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3895,7 +3895,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-569-03",
-      "title": "未解决事项｜第569源章｜3",
+      "title": "勇者竞争后果",
       "memo": "勇者们与魔导信息技术：未解决事项（第569源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3920,7 +3920,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-569-01",
-      "title": "主角龙形态｜第569源章｜1",
+      "title": "主角龙形态｜勇者们的时代.(1)｜本体为万神殿生命女神，地上守护龙分身沉睡提供精神休息",
       "memo": "勇者们与魔导信息技术：主角龙形态（第569源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3946,7 +3946,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-569-01",
-      "title": "主角龙状态｜第569源章｜1",
+      "title": "主角龙状态｜勇者们的时代.(1)｜本体第一次把勇者制度由单一真勇者扩展为诸神各自勇者",
       "memo": "勇者们与魔导信息技术：主角龙状态（第569源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3971,7 +3971,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-569-01",
-      "title": "主角龙知识边界｜第569源章｜1",
+      "title": "主角龙知识边界｜勇者们的时代.(1)｜她预计会有问题却不知道具体后果，只把观察有趣变化作为目标",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第569源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3996,7 +3996,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-570-01",
-      "title": "事件｜第570源章｜1",
+      "title": "诸神难以挑出现成勇者",
       "memo": "勇者们与魔导信息技术：事件（第570源章第1条）",
       "category": "event",
       "keys": [
@@ -4022,7 +4022,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-570-02",
-      "title": "事件｜第570源章｜2",
+      "title": "诸神从信徒中选孩子送学院或家教",
       "memo": "勇者们与魔导信息技术：事件（第570源章第2条）",
       "category": "event",
       "keys": [
@@ -4047,7 +4047,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-570-03",
-      "title": "事件｜第570源章｜3",
+      "title": "阿谢拉特求主龙给自己的勇者造武器遭明确拒绝",
       "memo": "勇者们与魔导信息技术：事件（第570源章第3条）",
       "category": "event",
       "keys": [
@@ -4073,7 +4073,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-570-04",
-      "title": "事件｜第570源章｜4",
+      "title": "学院新生翻倍且大量持神殿推荐信，露西亚过劳又不愿公开前紫塔主身份",
       "memo": "勇者们与魔导信息技术：事件（第570源章第4条）",
       "category": "event",
       "keys": [
@@ -4100,7 +4100,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-570-01",
-      "title": "世界设定事实｜第570源章｜1",
+      "title": "学院出现前没有大众教育机构，知识主要限于师徒、父子、祭司与信徒关系",
       "memo": "勇者们与魔导信息技术：世界设定事实（第570源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4125,7 +4125,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-570-02",
-      "title": "世界设定事实｜第570源章｜2",
+      "title": "诸神可资助候选入学院或家教培养，但生命女神严禁以育种为名强迫天赋者结合",
       "memo": "勇者们与魔导信息技术：世界设定事实（第570源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4150,7 +4150,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-570-03",
-      "title": "世界设定事实｜第570源章｜3",
+      "title": "勇者候选涌入使学院新生同比翻倍，学院以跨国天才竞争和世界顶尖教授统一课程",
       "memo": "勇者们与魔导信息技术：世界设定事实（第570源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4175,7 +4175,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-570-01",
-      "title": "新建立连续性｜第570源章｜1",
+      "title": "勇者养成潮",
       "memo": "勇者们与魔导信息技术：新建立连续性（第570源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4200,7 +4200,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-570-02",
-      "title": "新建立连续性｜第570源章｜2",
+      "title": "神殿推荐生翻倍",
       "memo": "勇者们与魔导信息技术：新建立连续性（第570源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4225,7 +4225,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-570-03",
-      "title": "新建立连续性｜第570源章｜3",
+      "title": "伽拉忒亚II炼金提议",
       "memo": "勇者们与魔导信息技术：新建立连续性（第570源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4251,7 +4251,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-570-01",
-      "title": "未解决事项｜第570源章｜1",
+      "title": "伽拉忒亚II能否施法",
       "memo": "勇者们与魔导信息技术：未解决事项（第570源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4277,7 +4277,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-570-02",
-      "title": "未解决事项｜第570源章｜2",
+      "title": "勇者候选身份",
       "memo": "勇者们与魔导信息技术：未解决事项（第570源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4302,7 +4302,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-570-03",
-      "title": "未解决事项｜第570源章｜3",
+      "title": "扩招承载",
       "memo": "勇者们与魔导信息技术：未解决事项（第570源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4327,7 +4327,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-570-01",
-      "title": "主角龙形态｜第570源章｜1",
+      "title": "主角龙形态｜勇者们的时代.(2)｜本体为生命女神管理诸神勇者",
       "memo": "勇者们与魔导信息技术：主角龙形态（第570源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4353,7 +4353,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-570-01",
-      "title": "主角龙状态｜第570源章｜1",
+      "title": "主角龙状态｜勇者们的时代.(2)｜本体认为几乎独立的学院分身不会引发问题",
       "memo": "勇者们与魔导信息技术：主角龙状态（第570源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4378,7 +4378,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-570-01",
-      "title": "主角龙知识边界｜第570源章｜1",
+      "title": "主角龙知识边界｜勇者们的时代.(2)｜露西亚不知道扩招源自本体开放诸神勇者",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第570源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4404,7 +4404,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-571-01",
-      "title": "事件｜第571源章｜1",
+      "title": "伽拉忒亚II成为首个拥有自我、自由意志且能使用魔法的魔像，并任学院炼金术教授",
       "memo": "勇者们与魔导信息技术：事件（第571源章第1条）",
       "category": "event",
       "keys": [
@@ -4430,7 +4430,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-571-02",
-      "title": "事件｜第571源章｜2",
+      "title": "露西亚认为魔力、知识和使用意志齐备便能学魔法",
       "memo": "勇者们与魔导信息技术：事件（第571源章第2条）",
       "category": "event",
       "keys": [
@@ -4457,7 +4457,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-571-03",
-      "title": "事件｜第571源章｜3",
+      "title": "露西亚从神殿勇者候补推回古神使徒传统，正确猜到生命女神高层许可",
       "memo": "勇者们与魔导信息技术：事件（第571源章第3条）",
       "category": "event",
       "keys": [
@@ -4483,7 +4483,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-571-04",
-      "title": "事件｜第571源章｜4",
+      "title": "露西亚以百年魔王城周期推算：距上次92年，候选五年毕业、三年成名，正好迎上八年后魔王",
       "memo": "勇者们与魔导信息技术：事件（第571源章第4条）",
       "category": "event",
       "keys": [
@@ -4510,7 +4510,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-571-01",
-      "title": "世界设定事实｜第571源章｜1",
+      "title": "伽拉忒亚II成为拥有自我与自由意志，能使用魔法并任炼金术教授的魔像",
       "memo": "勇者们与魔导信息技术：世界设定事实（第571源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4536,7 +4536,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-571-02",
-      "title": "世界设定事实｜第571源章｜2",
+      "title": "生命教团承担基层照护、基础教育、出生死亡、疾病伤痛治疗、卫生、治安和行政辅助",
       "memo": "勇者们与魔导信息技术：世界设定事实（第571源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4561,7 +4561,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-571-03",
-      "title": "世界设定事实｜第571源章｜3",
+      "title": "浮游魔王城约每百年降临",
       "memo": "勇者们与魔导信息技术：世界设定事实（第571源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4587,7 +4587,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-571-01",
-      "title": "新建立连续性｜第571源章｜1",
+      "title": "伽拉忒亚II施法与教授身份",
       "memo": "勇者们与魔导信息技术：新建立连续性（第571源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4613,7 +4613,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-571-02",
-      "title": "新建立连续性｜第571源章｜2",
+      "title": "魔法主体争论",
       "memo": "勇者们与魔导信息技术：新建立连续性（第571源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4638,7 +4638,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-571-03",
-      "title": "新建立连续性｜第571源章｜3",
+      "title": "八年魔王窗口",
       "memo": "勇者们与魔导信息技术：新建立连续性（第571源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4664,7 +4664,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-571-01",
-      "title": "未解决事项｜第571源章｜1",
+      "title": "诸神真实动机",
       "memo": "勇者们与魔导信息技术：未解决事项（第571源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4689,7 +4689,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-571-02",
-      "title": "未解决事项｜第571源章｜2",
+      "title": "候选名单",
       "memo": "勇者们与魔导信息技术：未解决事项（第571源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4714,7 +4714,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-571-03",
-      "title": "未解决事项｜第571源章｜3",
+      "title": "魔王讨伐竞赛",
       "memo": "勇者们与魔导信息技术：未解决事项（第571源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4740,7 +4740,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-571-01",
-      "title": "主角龙形态｜第571源章｜1",
+      "title": "主角龙形态｜勇者们的时代.(3)｜露西亚分身在学院推理，生命女神本体作为旁观意识回应",
       "memo": "勇者们与魔导信息技术：主角龙形态（第571源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4766,7 +4766,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-571-01",
-      "title": "主角龙状态｜第571源章｜1",
+      "title": "主角龙状态｜勇者们的时代.(3)｜分身的推理反向促使本体审查诸神动机，两个意识层形成信息反馈",
       "memo": "勇者们与魔导信息技术：主角龙状态（第571源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4791,7 +4791,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-571-01",
-      "title": "主角龙知识边界｜第571源章｜1",
+      "title": "主角龙知识边界｜勇者们的时代.(3)｜露西亚不知道本体未谋划八年窗口",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第571源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4817,7 +4817,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-572-01",
-      "title": "事件｜第572源章｜1",
+      "title": "阿谢拉特调查确认诸神未算计魔王周期，只想靠勇者增信仰",
       "memo": "勇者们与魔导信息技术：事件（第572源章第1条）",
       "category": "event",
       "keys": [
@@ -4844,7 +4844,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-572-02",
-      "title": "事件｜第572源章｜2",
+      "title": "转生者A与高年级生羡慕神殿资助的新生，庆幸自己不参加排名",
       "memo": "勇者们与魔导信息技术：事件（第572源章第2条）",
       "category": "event",
       "keys": [
@@ -4870,7 +4870,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-572-03",
-      "title": "事件｜第572源章｜3",
+      "title": "炼金志愿少令露西亚身份更像学院工程师",
       "memo": "勇者们与魔导信息技术：事件（第572源章第3条）",
       "category": "event",
       "keys": [
@@ -4897,7 +4897,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-572-04",
-      "title": "事件｜第572源章｜4",
+      "title": "矮人因熔岩喷发烧毁图书馆和族群恩怨记录，委托制作『存在却不存在的书』",
       "memo": "勇者们与魔导信息技术：事件（第572源章第4条）",
       "category": "event",
       "keys": [
@@ -4923,7 +4923,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-572-01",
-      "title": "世界设定事实｜第572源章｜1",
+      "title": "勇者候选排名先计划按骑士、魔法等学科分别进行",
       "memo": "勇者们与魔导信息技术：世界设定事实（第572源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4948,7 +4948,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-572-02",
-      "title": "世界设定事实｜第572源章｜2",
+      "title": "学院天才多偏向骑士和传统魔法",
       "memo": "勇者们与魔导信息技术：世界设定事实（第572源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4973,7 +4973,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-572-03",
-      "title": "世界设定事实｜第572源章｜3",
+      "title": "萨加玛塔的熔岩灾害和高温环境烧毁多座图书馆及族史，催生『存在却不存在的书』需求",
       "memo": "勇者们与魔导信息技术：世界设定事实（第572源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4999,7 +4999,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-572-01",
-      "title": "新建立连续性｜第572源章｜1",
+      "title": "分科排名",
       "memo": "勇者们与魔导信息技术：新建立连续性（第572源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5024,7 +5024,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-572-02",
-      "title": "新建立连续性｜第572源章｜2",
+      "title": "外置存储",
       "memo": "勇者们与魔导信息技术：新建立连续性（第572源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5049,7 +5049,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-572-03",
-      "title": "新建立连续性｜第572源章｜3",
+      "title": "不可燃非实体书委托",
       "memo": "勇者们与魔导信息技术：新建立连续性（第572源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5074,7 +5074,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-572-01",
-      "title": "未解决事项｜第572源章｜1",
+      "title": "跨科评价",
       "memo": "勇者们与魔导信息技术：未解决事项（第572源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5099,7 +5099,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-572-02",
-      "title": "未解决事项｜第572源章｜2",
+      "title": "书的实现",
       "memo": "勇者们与魔导信息技术：未解决事项（第572源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5124,7 +5124,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-572-03",
-      "title": "未解决事项｜第572源章｜3",
+      "title": "伽拉忒亚II学习决定",
       "memo": "勇者们与魔导信息技术：未解决事项（第572源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5150,7 +5150,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-572-01",
-      "title": "主角龙形态｜第572源章｜1",
+      "title": "主角龙形态｜勇者们的时代.(4)｜生命女神本体设计勇者排名",
       "memo": "勇者们与魔导信息技术：主角龙形态（第572源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5176,7 +5176,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-572-01",
-      "title": "主角龙状态｜第572源章｜1",
+      "title": "主角龙状态｜勇者们的时代.(4)｜本体把诸神竞争制度化，分身开始迈向外部存储和非实体书技术",
       "memo": "勇者们与魔导信息技术：主角龙状态（第572源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5201,7 +5201,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-572-01",
-      "title": "主角龙知识边界｜第572源章｜1",
+      "title": "主角龙知识边界｜勇者们的时代.(4)｜露西亚还未理解矮人委托具体实现",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第572源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5228,7 +5228,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-573-01",
-      "title": "事件｜第573源章｜1",
+      "title": "矮人展示以特殊轻质板承载、以魔力记录且物理上不存在的书",
       "memo": "勇者们与魔导信息技术：事件（第573源章第1条）",
       "category": "event",
       "keys": [
@@ -5254,7 +5254,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-573-02",
-      "title": "事件｜第573源章｜2",
+      "title": "露西亚计划把不燃书技术用作伽拉忒亚II外置记忆",
       "memo": "勇者们与魔导信息技术：事件（第573源章第2条）",
       "category": "event",
       "keys": [
@@ -5281,7 +5281,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-573-03",
-      "title": "事件｜第573源章｜3",
+      "title": "伽拉忒亚II平日拒绝非公务接触，却罕见主动与睡眼少女谈话、询问她学院生活是否快乐",
       "memo": "勇者们与魔导信息技术：事件（第573源章第3条）",
       "category": "event",
       "keys": [
@@ -5308,7 +5308,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-573-01",
-      "title": "世界设定事实｜第573源章｜1",
+      "title": "魔力书的信息与物理载体可分离，可由精细操控者读取，压缩，重排为卷轴",
       "memo": "勇者们与魔导信息技术：世界设定事实（第573源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5333,7 +5333,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-573-02",
-      "title": "世界设定事实｜第573源章｜2",
+      "title": "塑料来自石油多重加工，轻，平滑，易加工，有适度强度，但受热融化",
       "memo": "勇者们与魔导信息技术：世界设定事实（第573源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5358,7 +5358,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-573-01",
-      "title": "新建立连续性｜第573源章｜1",
+      "title": "魔力书原型",
       "memo": "勇者们与魔导信息技术：新建立连续性（第573源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5383,7 +5383,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-573-02",
-      "title": "新建立连续性｜第573源章｜2",
+      "title": "塑料",
       "memo": "勇者们与魔导信息技术：新建立连续性（第573源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5408,7 +5408,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-573-03",
-      "title": "新建立连续性｜第573源章｜3",
+      "title": "伽拉忒亚II特殊问候",
       "memo": "勇者们与魔导信息技术：新建立连续性（第573源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5434,7 +5434,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-573-01",
-      "title": "未解决事项｜第573源章｜1",
+      "title": "普通人交互",
       "memo": "勇者们与魔导信息技术：未解决事项（第573源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5459,7 +5459,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-573-02",
-      "title": "未解决事项｜第573源章｜2",
+      "title": "外置存储",
       "memo": "勇者们与魔导信息技术：未解决事项（第573源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5484,7 +5484,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-573-03",
-      "title": "未解决事项｜第573源章｜3",
+      "title": "睡眼少女身份｜新的素材，新的发明.(1)",
       "memo": "勇者们与魔导信息技术：未解决事项（第573源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5510,7 +5510,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-573-01",
-      "title": "主角龙形态｜第573源章｜1",
+      "title": "主角龙形态｜新的素材，新的发明.(1)｜露西亚分身作为媒介发明者在场",
       "memo": "勇者们与魔导信息技术：主角龙形态（第573源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5536,7 +5536,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-573-01",
-      "title": "主角龙状态｜第573源章｜1",
+      "title": "主角龙状态｜新的素材，新的发明.(1)｜分身体进入魔力信息技术期",
       "memo": "勇者们与魔导信息技术：主角龙状态（第573源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5563,7 +5563,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-573-01",
-      "title": "主角龙知识边界｜第573源章｜1",
+      "title": "主角龙知识边界｜新的素材，新的发明.(1)｜不得从白狗亲近、伽拉忒亚II问候和少女冷汗提前揭示她身份",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第573源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5589,7 +5589,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-574-01",
-      "title": "事件｜第574源章｜1",
+      "title": "露西亚把信息压缩进微量魔力，以水晶球技术制成可识别使用者",
       "memo": "勇者们与魔导信息技术：事件（第574源章第1条）",
       "category": "event",
       "keys": [
@@ -5615,7 +5615,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-574-02",
-      "title": "事件｜第574源章｜2",
+      "title": "原型仍缺稳定存储材料",
       "memo": "勇者们与魔导信息技术：事件（第574源章第2条）",
       "category": "event",
       "keys": [
@@ -5644,7 +5644,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-574-03",
-      "title": "事件｜第574源章｜3",
+      "title": "主龙把项目告知知识神希雅",
       "memo": "勇者们与魔导信息技术：事件（第574源章第3条）",
       "category": "event",
       "keys": [
@@ -5670,7 +5670,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-574-04",
-      "title": "事件｜第574源章｜4",
+      "title": "次日知识神祭司正式向露西亚提供资源换技术",
       "memo": "勇者们与魔导信息技术：事件（第574源章第4条）",
       "category": "event",
       "keys": [
@@ -5696,7 +5696,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-574-01",
-      "title": "世界设定事实｜第574源章｜1",
+      "title": "魔力信息显示板能以使用者魔力唤醒、显示文字并滚动",
       "memo": "勇者们与魔导信息技术：世界设定事实（第574源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5721,7 +5721,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-574-02",
-      "title": "世界设定事实｜第574源章｜2",
+      "title": "万神殿大图书馆持续扩建，藏书和管理规模大到需塞西尔及其他神协助，以希雅信仰维持",
       "memo": "勇者们与魔导信息技术：世界设定事实（第574源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5747,7 +5747,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-574-03",
-      "title": "世界设定事实｜第574源章｜3",
+      "title": "知识神并非全知，只知道以书籍留存并进入图书馆的信息",
       "memo": "勇者们与魔导信息技术：世界设定事实（第574源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5772,7 +5772,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-574-01",
-      "title": "新建立连续性｜第574源章｜1",
+      "title": "魔力信息显示板",
       "memo": "勇者们与魔导信息技术：新建立连续性（第574源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5797,7 +5797,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-574-02",
-      "title": "新建立连续性｜第574源章｜2",
+      "title": "知识神后台",
       "memo": "勇者们与魔导信息技术：新建立连续性（第574源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5822,7 +5822,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-574-03",
-      "title": "新建立连续性｜第574源章｜3",
+      "title": "掌中图书馆目标",
       "memo": "勇者们与魔导信息技术：新建立连续性（第574源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5847,7 +5847,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-574-01",
-      "title": "未解决事项｜第574源章｜1",
+      "title": "稳定存储",
       "memo": "勇者们与魔导信息技术：未解决事项（第574源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5872,7 +5872,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-574-02",
-      "title": "未解决事项｜第574源章｜2",
+      "title": "信息传输",
       "memo": "勇者们与魔导信息技术：未解决事项（第574源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5897,7 +5897,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-574-03",
-      "title": "未解决事项｜第574源章｜3",
+      "title": "普通人写入",
       "memo": "勇者们与魔导信息技术：未解决事项（第574源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5922,7 +5922,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-574-01",
-      "title": "主角龙形态｜第574源章｜1",
+      "title": "主角龙形态｜新的素材，新的发明.(2)｜露西亚分身制作显示板",
       "memo": "勇者们与魔导信息技术：主角龙形态（第574源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5948,7 +5948,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-574-01",
-      "title": "主角龙状态｜第574源章｜1",
+      "title": "主角龙状态｜新的素材，新的发明.(2)｜本体为分身建立神殿资源通道，但保持露西亚不知情的独立生活",
       "memo": "勇者们与魔导信息技术：主角龙状态（第574源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5974,7 +5974,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-574-01",
-      "title": "主角龙知识边界｜第574源章｜1",
+      "title": "主角龙知识边界｜新的素材，新的发明.(2)｜露西亚只知道知识神看中研究，不知道是本体主动撮合",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第574源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6000,7 +6000,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-575-01",
-      "title": "事件｜第575源章｜1",
+      "title": "信息魔力本身成功，但传输中与环境魔力干涉产生乱码",
       "memo": "勇者们与魔导信息技术：事件（第575源章第1条）",
       "category": "event",
       "keys": [
@@ -6026,7 +6026,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-575-02",
-      "title": "事件｜第575源章｜2",
+      "title": "秘银芯镀精金可完美传输却价格不可接受",
       "memo": "勇者们与魔导信息技术：事件（第575源章第2条）",
       "category": "event",
       "keys": [
@@ -6052,7 +6052,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-575-03",
-      "title": "事件｜第575源章｜3",
+      "title": "知识神殿提供万神殿大图书馆临时借阅",
       "memo": "勇者们与魔导信息技术：事件（第575源章第3条）",
       "category": "event",
       "keys": [
@@ -6078,7 +6078,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-575-04",
-      "title": "事件｜第575源章｜4",
+      "title": "她从矮人记录找到银黄铜，秘药与废魔石粉合金，以特制沥青包覆，得到便宜",
       "memo": "勇者们与魔导信息技术：事件（第575源章第4条）",
       "category": "event",
       "keys": [
@@ -6103,7 +6103,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-575-01",
-      "title": "世界设定事实｜第575源章｜1",
+      "title": "无意志工具驱动的信息魔力会被环境魔力干涉而变质",
       "memo": "勇者们与魔导信息技术：世界设定事实（第575源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6128,7 +6128,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-575-02",
-      "title": "世界设定事实｜第575源章｜2",
+      "title": "秘银芯镀精金可完美传输信息魔力但成本过高",
       "memo": "勇者们与魔导信息技术：世界设定事实（第575源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6153,7 +6153,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-575-03",
-      "title": "世界设定事实｜第575源章｜3",
+      "title": "魔力线由银黄铜，秘药，废魔石粉合金与特制沥青包覆构成，兼具外魔力隔绝，部分吸收",
       "memo": "勇者们与魔导信息技术：世界设定事实（第575源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6178,7 +6178,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-575-01",
-      "title": "新建立连续性｜第575源章｜1",
+      "title": "信息乱码",
       "memo": "勇者们与魔导信息技术：新建立连续性（第575源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6203,7 +6203,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-575-02",
-      "title": "新建立连续性｜第575源章｜2",
+      "title": "魔力线",
       "memo": "勇者们与魔导信息技术：新建立连续性（第575源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6228,7 +6228,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-575-03",
-      "title": "新建立连续性｜第575源章｜3",
+      "title": "天狼星大图书馆构想",
       "memo": "勇者们与魔导信息技术：新建立连续性（第575源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6253,7 +6253,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-575-01",
-      "title": "未解决事项｜第575源章｜1",
+      "title": "密封读取",
       "memo": "勇者们与魔导信息技术：未解决事项（第575源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6278,7 +6278,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-575-02",
-      "title": "未解决事项｜第575源章｜2",
+      "title": "设备成品",
       "memo": "勇者们与魔导信息技术：未解决事项（第575源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6303,7 +6303,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-575-03",
-      "title": "未解决事项｜第575源章｜3",
+      "title": "大图书馆落地",
       "memo": "勇者们与魔导信息技术：未解决事项（第575源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6328,7 +6328,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-575-01",
-      "title": "主角龙形态｜第575源章｜1",
+      "title": "主角龙形态｜新的素材，新的发明.(3)｜露西亚分身以耐极端环境的银发炼金术师身体工作",
       "memo": "勇者们与魔导信息技术：主角龙形态（第575源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6354,7 +6354,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-575-01",
-      "title": "主角龙状态｜第575源章｜1",
+      "title": "主角龙状态｜新的素材，新的发明.(3)｜分身体把不坏的龙体用于实验求证，却坚持通过普通世界可复制材料完成产品",
       "memo": "勇者们与魔导信息技术：主角龙状态（第575源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6379,7 +6379,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-575-01",
-      "title": "主角龙知识边界｜第575源章｜1",
+      "title": "主角龙知识边界｜新的素材，新的发明.(3)｜魔力线仅解决传输隔离，完整设备和写入问题仍未最终验收",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第575源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6404,7 +6404,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-576-01",
-      "title": "事件｜第576源章｜1",
+      "title": "沥青密封回路让信息长期保存",
       "memo": "勇者们与魔导信息技术：事件（第576源章第1条）",
       "category": "event",
       "keys": [
@@ -6430,7 +6430,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-576-02",
-      "title": "事件｜第576源章｜2",
+      "title": "矮人满意成品，计划用自身不惧重量的石壳，露西亚交付内部回路与信息生成处理技术",
       "memo": "勇者们与魔导信息技术：事件（第576源章第2条）",
       "category": "event",
       "keys": [
@@ -6456,7 +6456,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-576-03",
-      "title": "事件｜第576源章｜3",
+      "title": "希雅幻想压缩全部图书馆，主龙指出单本转换一小时，五位数藏书与未来格式迁移成本",
       "memo": "勇者们与魔导信息技术：事件（第576源章第3条）",
       "category": "event",
       "keys": [
@@ -6481,7 +6481,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-576-04",
-      "title": "事件｜第576源章｜4",
+      "title": "多年后伽拉忒亚II对琐碎问题无所不答，眼镜少女形容她脑中有图书馆",
       "memo": "勇者们与魔导信息技术：事件（第576源章第4条）",
       "category": "event",
       "keys": [
@@ -6508,7 +6508,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-576-01",
-      "title": "世界设定事实｜第576源章｜1",
+      "title": "密封书在设备内借知识神纹章和神殿支柱构成微型图书馆",
       "memo": "勇者们与魔导信息技术：世界设定事实（第576源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6533,7 +6533,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-576-02",
-      "title": "世界设定事实｜第576源章｜2",
+      "title": "当前一板一本，最终目标为单板访问图书馆全部知识并向大众提供",
       "memo": "勇者们与魔导信息技术：世界设定事实（第576源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6558,7 +6558,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-576-03",
-      "title": "世界设定事实｜第576源章｜3",
+      "title": "主龙明确预见可插拔卡带、多书大容量存储和中心档案库远程读取三种升级路线",
       "memo": "勇者们与魔导信息技术：世界设定事实（第576源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6583,7 +6583,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-576-04",
-      "title": "世界设定事实｜第576源章｜4",
+      "title": "伽拉忒亚II后来通过私人图书馆实时获取外置信息",
       "memo": "勇者们与魔导信息技术：世界设定事实（第576源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6609,7 +6609,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-576-01",
-      "title": "新建立连续性｜第576源章｜1",
+      "title": "微型神殿读取",
       "memo": "勇者们与魔导信息技术：新建立连续性（第576源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6634,7 +6634,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-576-02",
-      "title": "新建立连续性｜第576源章｜2",
+      "title": "一板一本成品",
       "memo": "勇者们与魔导信息技术：新建立连续性（第576源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6659,7 +6659,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-576-03",
-      "title": "新建立连续性｜第576源章｜3",
+      "title": "三种后续架构",
       "memo": "勇者们与魔导信息技术：新建立连续性（第576源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6684,7 +6684,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-576-04",
-      "title": "新建立连续性｜第576源章｜4",
+      "title": "伽拉忒亚II私人图书馆",
       "memo": "勇者们与魔导信息技术：新建立连续性（第576源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6710,7 +6710,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-576-01",
-      "title": "未解决事项｜第576源章｜1",
+      "title": "全馆访问",
       "memo": "勇者们与魔导信息技术：未解决事项（第576源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6735,7 +6735,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-576-02",
-      "title": "未解决事项｜第576源章｜2",
+      "title": "批量迁移",
       "memo": "勇者们与魔导信息技术：未解决事项（第576源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6760,7 +6760,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-576-03",
-      "title": "未解决事项｜第576源章｜3",
+      "title": "睡眼少女身份｜新的素材，新的发明.(4)",
       "memo": "勇者们与魔导信息技术：未解决事项（第576源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6786,7 +6786,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-576-01",
-      "title": "主角龙形态｜第576源章｜1",
+      "title": "主角龙形态｜新的素材，新的发明.(4)｜露西亚分身完成电子书式原型",
       "memo": "勇者们与魔导信息技术：主角龙形态（第576源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6813,7 +6813,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-576-01",
-      "title": "主角龙状态｜第576源章｜1",
+      "title": "主角龙状态｜新的素材，新的发明.(4)｜分身建立魔导信息设备第一代，本体明确看见未来三种迭代",
       "memo": "勇者们与魔导信息技术：主角龙状态（第576源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6838,7 +6838,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-576-01",
-      "title": "主角龙知识边界｜第576源章｜1",
+      "title": "主角龙知识边界｜新的素材，新的发明.(4)｜睡眼少女身份仍未揭晓",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第576源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6865,7 +6865,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-577-01",
-      "title": "事件｜第577源章｜1",
+      "title": "露西亚以云存储为终极目标，但无线距离越远、时间越长，信息无规律畸变越重",
       "memo": "勇者们与魔导信息技术：事件（第577源章第1条）",
       "category": "event",
       "keys": [
@@ -6891,7 +6891,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-577-02",
-      "title": "事件｜第577源章｜2",
+      "title": "伽拉忒亚II因脑内微型知识神殿担心思想外流",
       "memo": "勇者们与魔导信息技术：事件（第577源章第2条）",
       "category": "event",
       "keys": [
@@ -6918,7 +6918,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-577-03",
-      "title": "事件｜第577源章｜3",
+      "title": "成为炼金教授后的伽拉忒亚II因新赤塔教授否认魔像人权而决斗，以黑手套空手拆解地狱火",
       "memo": "勇者们与魔导信息技术：事件（第577源章第3条）",
       "category": "event",
       "keys": [
@@ -6945,7 +6945,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-577-01",
-      "title": "世界设定事实｜第577源章｜1",
+      "title": "远距离无线魔力信息会无规律畸变，不能逆推原文",
       "memo": "勇者们与魔导信息技术：世界设定事实（第577源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6970,7 +6970,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-577-02",
-      "title": "世界设定事实｜第577源章｜2",
+      "title": "伽拉忒亚II可用黑手套空手崩解多种高阶元素魔法，并以身体力量轻易重伤魔法教授",
       "memo": "勇者们与魔导信息技术：世界设定事实（第577源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6996,7 +6996,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-577-01",
-      "title": "新建立连续性｜第577源章｜1",
+      "title": "无线畸变",
       "memo": "勇者们与魔导信息技术：新建立连续性（第577源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7021,7 +7021,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-577-02",
-      "title": "新建立连续性｜第577源章｜2",
+      "title": "炼金学习协议",
       "memo": "勇者们与魔导信息技术：新建立连续性（第577源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7046,7 +7046,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-577-03",
-      "title": "新建立连续性｜第577源章｜3",
+      "title": "教授决斗",
       "memo": "勇者们与魔导信息技术：新建立连续性（第577源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7071,7 +7071,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-577-01",
-      "title": "未解决事项｜第577源章｜1",
+      "title": "接班成功",
       "memo": "勇者们与魔导信息技术：未解决事项（第577源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7096,7 +7096,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-577-02",
-      "title": "未解决事项｜第577源章｜2",
+      "title": "睡眼少女秘密",
       "memo": "勇者们与魔导信息技术：未解决事项（第577源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7122,7 +7122,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-577-03",
-      "title": "未解决事项｜第577源章｜3",
+      "title": "无线完整性",
       "memo": "勇者们与魔导信息技术：未解决事项（第577源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7147,7 +7147,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-577-01",
-      "title": "主角龙形态｜第577源章｜1",
+      "title": "主角龙形态｜魔像炼金术士.(1)｜露西亚分身作为技术导师在场",
       "memo": "勇者们与魔导信息技术：主角龙形态（第577源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7173,7 +7173,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-577-01",
-      "title": "主角龙状态｜第577源章｜1",
+      "title": "主角龙状态｜魔像炼金术士.(1)｜分身体正式培养伽拉忒亚II为接班人",
       "memo": "勇者们与魔导信息技术：主角龙状态（第577源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7200,7 +7200,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-577-01",
-      "title": "主角龙知识边界｜第577源章｜1",
+      "title": "主角龙知识边界｜魔像炼金术士.(1)｜不能把睡眼少女的回避解释为已确认身份",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第577源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7227,7 +7227,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-578-01",
-      "title": "事件｜第578源章｜1",
+      "title": "伽拉忒亚II发现普通魔法可由工具补足魔量与控制，反而觉得炼金更难",
       "memo": "勇者们与魔导信息技术：事件（第578源章第1条）",
       "category": "event",
       "keys": [
@@ -7254,7 +7254,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-578-02",
-      "title": "事件｜第578源章｜2",
+      "title": "伽拉忒亚II凭机械级精密控制和外部知识迅速达到示范助教水平",
       "memo": "勇者们与魔导信息技术：事件（第578源章第2条）",
       "category": "event",
       "keys": [
@@ -7281,7 +7281,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-578-03",
-      "title": "事件｜第578源章｜3",
+      "title": "西蒙一百五十岁、压制衰老到极限，赤塔弟子返塔处理继承",
       "memo": "勇者们与魔导信息技术：事件（第578源章第3条）",
       "category": "event",
       "keys": [
@@ -7308,7 +7308,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-578-01",
-      "title": "世界设定事实｜第578源章｜1",
+      "title": "炼金最低条件是魔法天赋、细腻魔力感官和物质知识",
       "memo": "勇者们与魔导信息技术：世界设定事实（第578源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7333,7 +7333,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-578-02",
-      "title": "世界设定事实｜第578源章｜2",
+      "title": "西蒙以庞大魔力压制衰老活到约一百五十岁，已到人类寿命极限",
       "memo": "勇者们与魔导信息技术：世界设定事实（第578源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7359,7 +7359,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-578-01",
-      "title": "新建立连续性｜第578源章｜1",
+      "title": "露西亚创造者慈爱",
       "memo": "勇者们与魔导信息技术：新建立连续性（第578源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7385,7 +7385,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-578-02",
-      "title": "新建立连续性｜第578源章｜2",
+      "title": "西蒙临终",
       "memo": "勇者们与魔导信息技术：新建立连续性（第578源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7411,7 +7411,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-578-03",
-      "title": "新建立连续性｜第578源章｜3",
+      "title": "赤塔继承",
       "memo": "勇者们与魔导信息技术：新建立连续性（第578源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7436,7 +7436,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-578-01",
-      "title": "未解决事项｜第578源章｜1",
+      "title": "西蒙地球复活",
       "memo": "勇者们与魔导信息技术：未解决事项（第578源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7462,7 +7462,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-578-02",
-      "title": "未解决事项｜第578源章｜2",
+      "title": "信与法杖作用",
       "memo": "勇者们与魔导信息技术：未解决事项（第578源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7487,7 +7487,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-578-03",
-      "title": "未解决事项｜第578源章｜3",
+      "title": "新塔主",
       "memo": "勇者们与魔导信息技术：未解决事项（第578源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7512,7 +7512,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-578-01",
-      "title": "主角龙形态｜第578源章｜1",
+      "title": "主角龙形态｜魔像炼金术士.(2)｜露西亚分身保持多年不变的幼年银发形态，主龙本体未出现",
       "memo": "勇者们与魔导信息技术：主角龙形态（第578源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7538,7 +7538,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-578-01",
-      "title": "主角龙状态｜第578源章｜1",
+      "title": "主角龙状态｜魔像炼金术士.(2)｜分身体面对西蒙即将死亡的讯号，同时确认自己对伽拉忒亚II的创造者亲情",
       "memo": "勇者们与魔导信息技术：主角龙状态（第578源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7565,7 +7565,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-578-01",
-      "title": "主角龙知识边界｜第578源章｜1",
+      "title": "主角龙知识边界｜魔像炼金术士.(2)｜赤塔弟子只怀疑露西亚超越时间，不知道她与守护龙同源",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第578源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7591,7 +7591,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-579-01",
-      "title": "事件｜第579源章｜1",
+      "title": "伽拉忒亚II达到正式炼金师水平，教学过程反向改善课程",
       "memo": "勇者们与魔导信息技术：事件（第579源章第1条）",
       "category": "event",
       "keys": [
@@ -7618,7 +7618,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-579-02",
-      "title": "事件｜第579源章｜2",
+      "title": "伽拉忒亚II代理教授表现无失误",
       "memo": "勇者们与魔导信息技术：事件（第579源章第2条）",
       "category": "event",
       "keys": [
@@ -7645,7 +7645,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-579-03",
-      "title": "事件｜第579源章｜3",
+      "title": "露西亚申请正式教授遭贝尔穆特以炼金学科过小拒绝，只获讲师资格",
       "memo": "勇者们与魔导信息技术：事件（第579源章第3条）",
       "category": "event",
       "keys": [
@@ -7671,7 +7671,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-579-04",
-      "title": "事件｜第579源章｜4",
+      "title": "睡眼少女能读懂伽拉忒亚II细微表情，被邀请转炼金，却称自己无法用魔力",
       "memo": "勇者们与魔导信息技术：事件（第579源章第4条）",
       "category": "event",
       "keys": [
@@ -7698,7 +7698,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-579-01",
-      "title": "世界设定事实｜第579源章｜1",
+      "title": "伽拉忒亚II因有真实试错历史，比完美执行的露西亚更能教授初学者失败补救",
       "memo": "勇者们与魔导信息技术：世界设定事实（第579源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7725,7 +7725,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-579-02",
-      "title": "世界设定事实｜第579源章｜2",
+      "title": "学院按学科规模配置教授",
       "memo": "勇者们与魔导信息技术：世界设定事实（第579源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7751,7 +7751,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-579-01",
-      "title": "新建立连续性｜第579源章｜1",
+      "title": "伽拉忒亚II独当一面",
       "memo": "勇者们与魔导信息技术：新建立连续性（第579源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7777,7 +7777,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-579-02",
-      "title": "新建立连续性｜第579源章｜2",
+      "title": "讲师注册",
       "memo": "勇者们与魔导信息技术：新建立连续性（第579源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7802,7 +7802,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-579-03",
-      "title": "新建立连续性｜第579源章｜3",
+      "title": "睡眼少女无魔力限制",
       "memo": "勇者们与魔导信息技术：新建立连续性（第579源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7828,7 +7828,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-579-01",
-      "title": "未解决事项｜第579源章｜1",
+      "title": "正式教授名额",
       "memo": "勇者们与魔导信息技术：未解决事项（第579源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7853,7 +7853,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-579-02",
-      "title": "未解决事项｜第579源章｜2",
+      "title": "少女真实身份",
       "memo": "勇者们与魔导信息技术：未解决事项（第579源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7878,7 +7878,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-579-03",
-      "title": "未解决事项｜第579源章｜3",
+      "title": "炼金扩科",
       "memo": "勇者们与魔导信息技术：未解决事项（第579源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7903,7 +7903,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-579-01",
-      "title": "主角龙形态｜第579源章｜1",
+      "title": "主角龙形态｜魔像炼金术士.(3)｜露西亚分身与可能相关的隐藏学生形态并存，但原文仍未确认后者，必须分开",
       "memo": "勇者们与魔导信息技术：主角龙形态（第579源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7929,7 +7929,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-579-01",
-      "title": "主角龙状态｜第579源章｜1",
+      "title": "主角龙状态｜魔像炼金术士.(3)｜露西亚把教授职责逐步交给伽拉忒亚II，隐藏学生线显示无魔力限制",
       "memo": "勇者们与魔导信息技术：主角龙状态（第579源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7956,7 +7956,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-579-01",
-      "title": "主角龙知识边界｜第579源章｜1",
+      "title": "主角龙知识边界｜魔像炼金术士.(3)｜不得把睡眼少女称为主龙或任何已知神，直到原文明示",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第579源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7982,7 +7982,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-580-01",
-      "title": "事件｜第580源章｜1",
+      "title": "大图书馆、电车与学院已构成天狼星教育都市",
       "memo": "勇者们与魔导信息技术：事件（第580源章第1条）",
       "category": "event",
       "keys": [
@@ -8009,7 +8009,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-580-02",
-      "title": "事件｜第580源章｜2",
+      "title": "露西亚减少新发明，把外部工作推给伽拉忒亚II磨炼",
       "memo": "勇者们与魔导信息技术：事件（第580源章第2条）",
       "category": "event",
       "keys": [
@@ -8036,7 +8036,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-580-03",
-      "title": "事件｜第580源章｜3",
+      "title": "希雅推动数据板经卡带、薄卡压成芯片，并调节神殿魔力保存",
       "memo": "勇者们与魔导信息技术：事件（第580源章第3条）",
       "category": "event",
       "keys": [
@@ -8062,7 +8062,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-580-04",
-      "title": "事件｜第580源章｜4",
+      "title": "处理器无线仅限天狼星",
       "memo": "勇者们与魔导信息技术：事件（第580源章第4条）",
       "category": "event",
       "keys": [
@@ -8088,7 +8088,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-580-01",
-      "title": "世界设定事实｜第580源章｜1",
+      "title": "信息载体从平板经卡带、薄卡发展为芯片",
       "memo": "勇者们与魔导信息技术：世界设定事实（第580源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8113,7 +8113,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-580-02",
-      "title": "世界设定事实｜第580源章｜2",
+      "title": "伽拉忒亚II的联动处理器是神权与技术共同完成、难以复制的神迹，只在天狼星接入学院馆藏",
       "memo": "勇者们与魔导信息技术：世界设定事实（第580源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8139,7 +8139,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-580-03",
-      "title": "世界设定事实｜第580源章｜3",
+      "title": "矮人规划中心信息库有线入户、室内无线",
       "memo": "勇者们与魔导信息技术：世界设定事实（第580源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8164,7 +8164,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-580-01",
-      "title": "新建立连续性｜第580源章｜1",
+      "title": "伽拉忒亚II发明要求",
       "memo": "勇者们与魔导信息技术：新建立连续性（第580源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8190,7 +8190,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-580-02",
-      "title": "新建立连续性｜第580源章｜2",
+      "title": "大图书馆联动处理器",
       "memo": "勇者们与魔导信息技术：新建立连续性（第580源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8215,7 +8215,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-580-03",
-      "title": "新建立连续性｜第580源章｜3",
+      "title": "芯片与局域网络",
       "memo": "勇者们与魔导信息技术：新建立连续性（第580源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8240,7 +8240,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-580-01",
-      "title": "未解决事项｜第580源章｜1",
+      "title": "伽拉忒亚II首项发明",
       "memo": "勇者们与魔导信息技术：未解决事项（第580源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8266,7 +8266,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-580-02",
-      "title": "未解决事项｜第580源章｜2",
+      "title": "露西亚为何退居",
       "memo": "勇者们与魔导信息技术：未解决事项（第580源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8292,7 +8292,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-580-03",
-      "title": "未解决事项｜第580源章｜3",
+      "title": "离开学院可能",
       "memo": "勇者们与魔导信息技术：未解决事项（第580源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8317,7 +8317,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-580-01",
-      "title": "主角龙形态｜第580源章｜1",
+      "title": "主角龙形态｜魔像炼金术士.(4)｜露西亚分身作为母亲式导师在场",
       "memo": "勇者们与魔导信息技术：主角龙形态（第580源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8343,7 +8343,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-580-01",
-      "title": "主角龙状态｜第580源章｜1",
+      "title": "主角龙状态｜魔像炼金术士.(4)｜分身体减少外部活动并准备让伽拉忒亚II继承教育与发明职责",
       "memo": "勇者们与魔导信息技术：主角龙状态（第580源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8369,7 +8369,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-580-01",
-      "title": "主角龙知识边界｜第580源章｜1",
+      "title": "主角龙知识边界｜魔像炼金术士.(4)｜处理器范围限天狼星，真正全球无线尚在数百年以上的预测层",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第580源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8394,7 +8394,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-581-01",
-      "title": "事件｜第581源章｜1",
+      "title": "贝尔穆特要求已把多数教学交给伽拉忒亚II的露西亚承担社团，并破例让她按个人兴趣创建",
       "memo": "勇者们与魔导信息技术：事件（第581源章第1条）",
       "category": "event",
       "keys": [
@@ -8421,7 +8421,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-581-02",
-      "title": "事件｜第581源章｜2",
+      "title": "伽拉忒亚II透露自己在他人面前伪装无自我以收集牢骚和情报",
       "memo": "勇者们与魔导信息技术：事件（第581源章第2条）",
       "category": "event",
       "keys": [
@@ -8448,7 +8448,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-581-03",
-      "title": "事件｜第581源章｜3",
+      "title": "露西亚发现除炼金外唯一兴趣是守护龙从创世起讲述的历史",
       "memo": "勇者们与魔导信息技术：事件（第581源章第3条）",
       "category": "event",
       "keys": [
@@ -8474,7 +8474,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-581-01",
-      "title": "世界设定事实｜第581源章｜1",
+      "title": "守护龙向露西亚讲过从创世巨龙，生命女神灭龙，人类诞生到部族，国家，勇者",
       "memo": "勇者们与魔导信息技术：世界设定事实（第581源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8501,7 +8501,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-581-02",
-      "title": "世界设定事实｜第581源章｜2",
+      "title": "历史探究社团定位为以故事或童话传承历史，而非生硬历史学",
       "memo": "勇者们与魔导信息技术：世界设定事实（第581源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8526,7 +8526,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-581-01",
-      "title": "新建立连续性｜第581源章｜1",
+      "title": "历史探究社团",
       "memo": "勇者们与魔导信息技术：新建立连续性（第581源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8551,7 +8551,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-581-02",
-      "title": "新建立连续性｜第581源章｜2",
+      "title": "孩子兼继承人确认",
       "memo": "勇者们与魔导信息技术：新建立连续性（第581源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8576,7 +8576,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-581-03",
-      "title": "新建立连续性｜第581源章｜3",
+      "title": "伽拉忒亚II情报网络",
       "memo": "勇者们与魔导信息技术：新建立连续性（第581源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8602,7 +8602,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-581-01",
-      "title": "未解决事项｜第581源章｜1",
+      "title": "人权交涉",
       "memo": "勇者们与魔导信息技术：未解决事项（第581源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8627,7 +8627,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-581-02",
-      "title": "未解决事项｜第581源章｜2",
+      "title": "社团招募",
       "memo": "勇者们与魔导信息技术：未解决事项（第581源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8652,7 +8652,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-581-03",
-      "title": "未解决事项｜第581源章｜3",
+      "title": "历史记录范围",
       "memo": "勇者们与魔导信息技术：未解决事项（第581源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8677,7 +8677,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-581-01",
-      "title": "主角龙形态｜第581源章｜1",
+      "title": "主角龙形态｜历史探究社团.(1)｜露西亚分身创建社团",
       "memo": "勇者们与魔导信息技术：主角龙形态（第581源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8703,7 +8703,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-581-01",
-      "title": "主角龙状态｜第581源章｜1",
+      "title": "主角龙状态｜历史探究社团.(1)｜主龙口述的完整世界史通过分身进入学院传承链",
       "memo": "勇者们与魔导信息技术：主角龙状态（第581源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8728,7 +8728,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-581-01",
-      "title": "主角龙知识边界｜第581源章｜1",
+      "title": "主角龙知识边界｜历史探究社团.(1)｜露西亚只知道主龙对她讲过的部分，不是全知历史",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第581源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8754,7 +8754,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-582-01",
-      "title": "事件｜第582源章｜1",
+      "title": "社团消息由伽拉忒亚II意外泄露，引来过量申请",
       "memo": "勇者们与魔导信息技术：事件（第582源章第1条）",
       "category": "event",
       "keys": [
@@ -8780,7 +8780,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-582-02",
-      "title": "事件｜第582源章｜2",
+      "title": "露西亚的常识远超现存史学，阿卡德第一帝国因亵渎生命女神灭亡",
       "memo": "勇者们与魔导信息技术：事件（第582源章第2条）",
       "category": "event",
       "keys": [
@@ -8806,7 +8806,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-582-03",
-      "title": "事件｜第582源章｜3",
+      "title": "露西亚说明学院没有历史教授很可惜，想把守护龙亲述的正确历史传给别人并推动正式历史教育",
       "memo": "勇者们与魔导信息技术：事件（第582源章第3条）",
       "category": "event",
       "keys": [
@@ -8832,7 +8832,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-582-01",
-      "title": "世界设定事实｜第582源章｜1",
+      "title": "阿卡德为最初勇者前的第一帝国，因亵渎生命女神灭亡",
       "memo": "勇者们与魔导信息技术：世界设定事实（第582源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8857,7 +8857,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-582-02",
-      "title": "世界设定事实｜第582源章｜2",
+      "title": "阿卡迪亚是史前国家和乐园原型，首都为天狼星",
       "memo": "勇者们与魔导信息技术：世界设定事实（第582源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8882,7 +8882,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-582-03",
-      "title": "世界设定事实｜第582源章｜3",
+      "title": "历史探究社团考试20题：简单6、普通8、困难6",
       "memo": "勇者们与魔导信息技术：世界设定事实（第582源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8907,7 +8907,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-582-01",
-      "title": "新建立连续性｜第582源章｜1",
+      "title": "社团考试",
       "memo": "勇者们与魔导信息技术：新建立连续性（第582源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8932,7 +8932,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-582-02",
-      "title": "新建立连续性｜第582源章｜2",
+      "title": "阿卡德",
       "memo": "勇者们与魔导信息技术：新建立连续性（第582源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8957,7 +8957,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-582-03",
-      "title": "新建立连续性｜第582源章｜3",
+      "title": "阿卡迪亚首都天狼星",
       "memo": "勇者们与魔导信息技术：新建立连续性（第582源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8982,7 +8982,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-582-01",
-      "title": "未解决事项｜第582源章｜1",
+      "title": "录取者",
       "memo": "勇者们与魔导信息技术：未解决事项（第582源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9007,7 +9007,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-582-02",
-      "title": "未解决事项｜第582源章｜2",
+      "title": "正式历史课",
       "memo": "勇者们与魔导信息技术：未解决事项（第582源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9032,7 +9032,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-582-03",
-      "title": "未解决事项｜第582源章｜3",
+      "title": "敏感历史发表",
       "memo": "勇者们与魔导信息技术：未解决事项（第582源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9057,7 +9057,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-582-01",
-      "title": "主角龙形态｜第582源章｜1",
+      "title": "主角龙形态｜历史探究社团.(2)｜露西亚分身作为守护龙口述历史的第二代讲述者",
       "memo": "勇者们与魔导信息技术：主角龙形态（第582源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9083,7 +9083,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-582-01",
-      "title": "主角龙状态｜第582源章｜1",
+      "title": "主角龙状态｜历史探究社团.(2)｜她把本体记忆中的历史转为考试与未来书面课程",
       "memo": "勇者们与魔导信息技术：主角龙状态（第582源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9108,7 +9108,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-582-01",
-      "title": "主角龙知识边界｜第582源章｜1",
+      "title": "主角龙知识边界｜历史探究社团.(2)｜露西亚明确不知所有历史，且公开档案与她的口述知识存在巨大差距",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第582源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9134,7 +9134,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-583-01",
-      "title": "事件｜第583源章｜1",
+      "title": "伽拉忒亚II把露西亚原本会造成约20分平均的秘史试题校准",
       "memo": "勇者们与魔导信息技术：事件（第583源章第1条）",
       "category": "event",
       "keys": [
@@ -9161,7 +9161,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-583-02",
-      "title": "事件｜第583源章｜2",
+      "title": "五年级转生者A一直没入社团，凭真诚历史兴趣通过历史探究社团考试",
       "memo": "勇者们与魔导信息技术：事件（第583源章第2条）",
       "category": "event",
       "keys": [
@@ -9187,7 +9187,7 @@
     },
     {
       "id": "era-27-heroes-tech-event-583-03",
-      "title": "事件｜第583源章｜3",
+      "title": "露西亚看不出转生者A企图，伽拉忒亚II再次评价她迟钝",
       "memo": "勇者们与魔导信息技术：事件（第583源章第3条）",
       "category": "event",
       "keys": [
@@ -9214,7 +9214,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-583-01",
-      "title": "世界设定事实｜第583源章｜1",
+      "title": "长寿精灵矮人偏依赖记忆以避免无穷记录",
       "memo": "勇者们与魔导信息技术：世界设定事实（第583源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9239,7 +9239,7 @@
     },
     {
       "id": "era-27-heroes-tech-world-fact-583-02",
-      "title": "世界设定事实｜第583源章｜2",
+      "title": "学院通常五年制，社团主要在前两年加入，五年级仍无社团极罕见",
       "memo": "勇者们与魔导信息技术：世界设定事实（第583源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9264,7 +9264,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-583-01",
-      "title": "新建立连续性｜第583源章｜1",
+      "title": "转生者A合格",
       "memo": "勇者们与魔导信息技术：新建立连续性（第583源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9289,7 +9289,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-583-02",
-      "title": "新建立连续性｜第583源章｜2",
+      "title": "社团编书",
       "memo": "勇者们与魔导信息技术：新建立连续性（第583源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9314,7 +9314,7 @@
     },
     {
       "id": "era-27-heroes-tech-continuity-new-583-03",
-      "title": "新建立连续性｜第583源章｜3",
+      "title": "诸族记录缺陷",
       "memo": "勇者们与魔导信息技术：新建立连续性（第583源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9339,7 +9339,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-583-01",
-      "title": "未解决事项｜第583源章｜1",
+      "title": "社团首课",
       "memo": "勇者们与魔导信息技术：未解决事项（第583源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9364,7 +9364,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-583-02",
-      "title": "未解决事项｜第583源章｜2",
+      "title": "转生者A毕业",
       "memo": "勇者们与魔导信息技术：未解决事项（第583源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9389,7 +9389,7 @@
     },
     {
       "id": "era-27-heroes-tech-unresolved-583-03",
-      "title": "未解决事项｜第583源章｜3",
+      "title": "书籍内容",
       "memo": "勇者们与魔导信息技术：未解决事项（第583源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9414,7 +9414,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-form-583-01",
-      "title": "主角龙形态｜第583源章｜1",
+      "title": "主角龙形态｜历史探究社团.(3)｜本体审视历史治理，露西亚分身编写社团史书",
       "memo": "勇者们与魔导信息技术：主角龙形态（第583源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9440,7 +9440,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-state-583-01",
-      "title": "主角龙状态｜第583源章｜1",
+      "title": "主角龙状态｜历史探究社团.(3)｜本体口述知识被分身和学生转成可跨代保存的新正典记录",
       "memo": "勇者们与魔导信息技术：主角龙状态（第583源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9465,7 +9465,7 @@
     },
     {
       "id": "era-27-heroes-tech-protagonist-knowledge-583-01",
-      "title": "主角龙知识边界｜第583源章｜1",
+      "title": "主角龙知识边界｜历史探究社团.(3)｜社团收集正史、野史、秘史仍需考证，不能把学生传闻自动判定正典",
       "memo": "勇者们与魔导信息技术：主角龙知识边界（第583源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9490,7 +9490,7 @@
     },
     {
       "id": "era-27-heroes-tech-secondary-character-01",
-      "title": "次要人物｜矮人工匠（未命名）",
+      "title": "矮人工匠（未命名）",
       "memo": "勇者们与魔导信息技术：次要人物 矮人工匠（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -9520,7 +9520,7 @@
     },
     {
       "id": "era-27-heroes-tech-secondary-character-02",
-      "title": "次要人物｜赤塔资深教授／西蒙弟子（未命名）",
+      "title": "赤塔资深教授／西蒙弟子（未命名）",
       "memo": "勇者们与魔导信息技术：次要人物 赤塔资深教授／西蒙弟子（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -9544,7 +9544,7 @@
     },
     {
       "id": "era-27-heroes-tech-secondary-character-03",
-      "title": "次要人物｜眼镜少女（未命名）",
+      "title": "眼镜少女（未命名）",
       "memo": "勇者们与魔导信息技术：次要人物 眼镜少女（未命名）",
       "category": "secondary-character",
       "keys": [],

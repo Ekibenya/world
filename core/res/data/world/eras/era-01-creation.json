@@ -1184,7 +1184,7 @@
   "lorebook": [
     {
       "id": "era-01-creation-core",
-      "title": "创世与第一批生命｜时代边界",
+      "title": "创世与第一批生命",
       "memo": "创世与第一批生命：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1199,7 +1199,7 @@
     },
     {
       "id": "era-01-creation-event-5-01",
-      "title": "事件｜第5源章｜1",
+      "title": "一位被称为守护龙的第一人称叙述者在睡眠中被人反复唤醒",
       "memo": "创世与第一批生命：事件（第5源章第1条）",
       "category": "event",
       "keys": [
@@ -1224,7 +1224,7 @@
     },
     {
       "id": "era-01-creation-event-5-02",
-      "title": "事件｜第5源章｜2",
+      "title": "叙述者说明自己受神诱惑而转世成异世界之龙，故事始于创世不久",
       "memo": "创世与第一批生命：事件（第5源章第2条）",
       "category": "event",
       "keys": [
@@ -1249,7 +1249,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-5-01",
-      "title": "新建立连续性｜第5源章｜1",
+      "title": "守护龙身份",
       "memo": "创世与第一批生命：新建立连续性（第5源章第1条）",
       "category": "continuity",
       "keys": [
@@ -1274,7 +1274,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-5-02",
-      "title": "新建立连续性｜第5源章｜2",
+      "title": "千年以上守护",
       "memo": "创世与第一批生命：新建立连续性（第5源章第2条）",
       "category": "continuity",
       "keys": [
@@ -1299,7 +1299,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-5-03",
-      "title": "新建立连续性｜第5源章｜3",
+      "title": "异世界转世",
       "memo": "创世与第一批生命：新建立连续性（第5源章第3条）",
       "category": "continuity",
       "keys": [
@@ -1324,7 +1324,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-5-04",
-      "title": "新建立连续性｜第5源章｜4",
+      "title": "创世不久为故事起点",
       "memo": "创世与第一批生命：新建立连续性（第5源章第4条）",
       "category": "continuity",
       "keys": [
@@ -1349,7 +1349,7 @@
     },
     {
       "id": "era-01-creation-unresolved-5-01",
-      "title": "未解决事项｜第5源章｜1",
+      "title": "唤醒者身份",
       "memo": "创世与第一批生命：未解决事项（第5源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -1374,7 +1374,7 @@
     },
     {
       "id": "era-01-creation-unresolved-5-02",
-      "title": "未解决事项｜第5源章｜2",
+      "title": "守护对象",
       "memo": "创世与第一批生命：未解决事项（第5源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -1399,7 +1399,7 @@
     },
     {
       "id": "era-01-creation-unresolved-5-03",
-      "title": "未解决事项｜第5源章｜3",
+      "title": "转世条件的完整内容",
       "memo": "创世与第一批生命：未解决事项（第5源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -1424,7 +1424,7 @@
     },
     {
       "id": "era-01-creation-protagonist-form-5-01",
-      "title": "主角龙形态｜第5源章｜1",
+      "title": "主角龙形态｜第 0 章：序言｜守护龙",
       "memo": "创世与第一批生命：主角龙形态（第5源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1449,7 +1449,7 @@
     },
     {
       "id": "era-01-creation-protagonist-state-5-01",
-      "title": "主角龙状态｜第5源章｜1",
+      "title": "主角龙状态｜第 0 章：序言｜已守护某对象上千年，嗜睡且厌烦被唤醒",
       "memo": "创世与第一批生命：主角龙状态（第5源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "era-01-creation-protagonist-knowledge-5-01",
-      "title": "主角龙知识边界｜第5源章｜1",
+      "title": "主角龙知识边界｜第 0 章：序言｜这是回顾式序言，知识显著晚于创世篇",
       "memo": "创世与第一批生命：主角龙知识边界（第5源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -1499,7 +1499,7 @@
     },
     {
       "id": "era-01-creation-event-6-01",
-      "title": "事件｜第6源章｜1",
+      "title": "无名创世神告知主角前世睡眠中死于心肌梗死，提出转世",
       "memo": "创世与第一批生命：事件（第6源章第1条）",
       "category": "event",
       "keys": [
@@ -1525,7 +1525,7 @@
     },
     {
       "id": "era-01-creation-event-6-02",
-      "title": "事件｜第6源章｜2",
+      "title": "未来史料称守护龙是神的第一个造物和第一个智慧生物，且连她也不知道创世神目的",
       "memo": "创世与第一批生命：事件（第6源章第2条）",
       "category": "event",
       "keys": [
@@ -1550,7 +1550,7 @@
     },
     {
       "id": "era-01-creation-event-6-03",
-      "title": "事件｜第6源章｜3",
+      "title": "主角破壳出生，成为银鳞幼龙：头相对较大、背生小翅膀、长角",
       "memo": "创世与第一批生命：事件（第6源章第3条）",
       "category": "event",
       "keys": [
@@ -1575,7 +1575,7 @@
     },
     {
       "id": "era-01-creation-event-6-04",
-      "title": "事件｜第6源章｜4",
+      "title": "神聊来信说明三项奖励，创造之力，查看其他世界信息，受限制的时间控制",
       "memo": "创世与第一批生命：事件（第6源章第4条）",
       "category": "event",
       "keys": [
@@ -1600,7 +1600,7 @@
     },
     {
       "id": "era-01-creation-event-6-05",
-      "title": "事件｜第6源章｜5",
+      "title": "主角获得能力知识并成功打开类似前世浏览器和搜索引擎的信息窗口",
       "memo": "创世与第一批生命：事件（第6源章第5条）",
       "category": "event",
       "keys": [
@@ -1625,7 +1625,7 @@
     },
     {
       "id": "era-01-creation-world-fact-6-01",
-      "title": "世界设定事实｜第6源章｜1",
+      "title": "创世初期洞穴外只有矮小植物，未听见昆虫或鸟类，主角判断几乎没有生命",
       "memo": "创世与第一批生命：世界设定事实（第6源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -1650,7 +1650,7 @@
     },
     {
       "id": "era-01-creation-world-fact-6-02",
-      "title": "世界设定事实｜第6源章｜2",
+      "title": "神聊目前只有主角与创世神使用",
       "memo": "创世与第一批生命：世界设定事实（第6源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -1675,7 +1675,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-6-01",
-      "title": "新建立连续性｜第6源章｜1",
+      "title": "转世契约",
       "memo": "创世与第一批生命：新建立连续性（第6源章第1条）",
       "category": "continuity",
       "keys": [
@@ -1700,7 +1700,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-6-02",
-      "title": "新建立连续性｜第6源章｜2",
+      "title": "银鳞幼龙形态",
       "memo": "创世与第一批生命：新建立连续性（第6源章第2条）",
       "category": "continuity",
       "keys": [
@@ -1725,7 +1725,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-6-03",
-      "title": "新建立连续性｜第6源章｜3",
+      "title": "三项奖励",
       "memo": "创世与第一批生命：新建立连续性（第6源章第3条）",
       "category": "continuity",
       "keys": [
@@ -1750,7 +1750,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-6-04",
-      "title": "新建立连续性｜第6源章｜4",
+      "title": "神聊",
       "memo": "创世与第一批生命：新建立连续性（第6源章第4条）",
       "category": "continuity",
       "keys": [
@@ -1775,7 +1775,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-6-05",
-      "title": "新建立连续性｜第6源章｜5",
+      "title": "创世初期空世界",
       "memo": "创世与第一批生命：新建立连续性（第6源章第5条）",
       "category": "continuity",
       "keys": [
@@ -1800,7 +1800,7 @@
     },
     {
       "id": "era-01-creation-unresolved-6-01",
-      "title": "未解决事项｜第6源章｜1",
+      "title": "满意成就的判定",
       "memo": "创世与第一批生命：未解决事项（第6源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -1825,7 +1825,7 @@
     },
     {
       "id": "era-01-creation-unresolved-6-02",
-      "title": "未解决事项｜第6源章｜2",
+      "title": "时间控制的具体限制",
       "memo": "创世与第一批生命：未解决事项（第6源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -1850,7 +1850,7 @@
     },
     {
       "id": "era-01-creation-unresolved-6-03",
-      "title": "未解决事项｜第6源章｜3",
+      "title": "神的目的",
       "memo": "创世与第一批生命：未解决事项（第6源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -1875,7 +1875,7 @@
     },
     {
       "id": "era-01-creation-protagonist-form-6-01",
-      "title": "主角龙形态｜第6源章｜1",
+      "title": "主角龙形态｜第 1 章：你好，世界！｜刚破壳的银鳞幼龙，头大、小翼、有角",
       "memo": "创世与第一批生命：主角龙形态（第6源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1900,7 +1900,7 @@
     },
     {
       "id": "era-01-creation-protagonist-state-6-01",
-      "title": "主角龙状态｜第6源章｜1",
+      "title": "主角龙状态｜第 1 章：你好，世界！｜刚转世、尚未建立生态，也未掌握新身体",
       "memo": "创世与第一批生命：主角龙状态（第6源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1925,7 +1925,7 @@
     },
     {
       "id": "era-01-creation-protagonist-knowledge-6-01",
-      "title": "主角龙知识边界｜第6源章｜1",
+      "title": "主角龙知识边界｜第 1 章：你好，世界！｜只知道神主动告知的能力说明和前世知识，不知道神的真实目的或后世历史",
       "memo": "创世与第一批生命：主角龙知识边界（第6源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -1950,7 +1950,7 @@
     },
     {
       "id": "era-01-creation-event-7-01",
-      "title": "事件｜第7源章｜1",
+      "title": "主角实测信息窗口可用意念输入、注视滚动、意念关闭，只能阅读",
       "memo": "创世与第一批生命：事件（第7源章第1条）",
       "category": "event",
       "keys": [
@@ -1975,7 +1975,7 @@
     },
     {
       "id": "era-01-creation-event-7-02",
-      "title": "事件｜第7源章｜2",
+      "title": "时间能力通过怀表操作，可暂停、加速、减速和倒流",
       "memo": "创世与第一批生命：事件（第7源章第2条）",
       "category": "event",
       "keys": [
@@ -2000,7 +2000,7 @@
     },
     {
       "id": "era-01-creation-event-7-03",
-      "title": "事件｜第7源章｜3",
+      "title": "主角加速数日而不饥饿，判断自己已不属于普通生物",
       "memo": "创世与第一批生命：事件（第7源章第3条）",
       "category": "event",
       "keys": [
@@ -2025,7 +2025,7 @@
     },
     {
       "id": "era-01-creation-event-7-04",
-      "title": "事件｜第7源章｜4",
+      "title": "主角为建立生态，决定不直接创造人类，而先创造高适应，短寿，自繁殖，高变异的简单生物",
       "memo": "创世与第一批生命：事件（第7源章第4条）",
       "category": "event",
       "keys": [
@@ -2050,7 +2050,7 @@
     },
     {
       "id": "era-01-creation-world-fact-7-01",
-      "title": "世界设定事实｜第7源章｜1",
+      "title": "主角在时间快速流逝中不饥饿，且自认寿命与存在方式已超出普通生物",
       "memo": "创世与第一批生命：世界设定事实（第7源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2075,7 +2075,7 @@
     },
     {
       "id": "era-01-creation-world-fact-7-02",
-      "title": "世界设定事实｜第7源章｜2",
+      "title": "创造界面允许详细设定生物",
       "memo": "创世与第一批生命：世界设定事实（第7源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2100,7 +2100,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-7-01",
-      "title": "新建立连续性｜第7源章｜1",
+      "title": "时间怀表操作规则",
       "memo": "创世与第一批生命：新建立连续性（第7源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2125,7 +2125,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-7-02",
-      "title": "新建立连续性｜第7源章｜2",
+      "title": "过去时间点同意限制",
       "memo": "创世与第一批生命：新建立连续性（第7源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-7-03",
-      "title": "新建立连续性｜第7源章｜3",
+      "title": "共同祖先生命被创造",
       "memo": "创世与第一批生命：新建立连续性（第7源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2175,7 +2175,7 @@
     },
     {
       "id": "era-01-creation-unresolved-7-01",
-      "title": "未解决事项｜第7源章｜1",
+      "title": "过去时间点是谁或何物",
       "memo": "创世与第一批生命：未解决事项（第7源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2200,7 +2200,7 @@
     },
     {
       "id": "era-01-creation-unresolved-7-02",
-      "title": "未解决事项｜第7源章｜2",
+      "title": "进化能否按预期发展",
       "memo": "创世与第一批生命：未解决事项（第7源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2225,7 +2225,7 @@
     },
     {
       "id": "era-01-creation-protagonist-form-7-01",
-      "title": "主角龙形态｜第7源章｜1",
+      "title": "主角龙形态｜第 2 章：你好，世界！（2）｜银鳞幼龙，外形未新增变化",
       "memo": "创世与第一批生命：主角龙形态（第7源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2250,7 +2250,7 @@
     },
     {
       "id": "era-01-creation-protagonist-state-7-01",
-      "title": "主角龙状态｜第7源章｜1",
+      "title": "主角龙状态｜第 2 章：你好，世界！（2）｜完成能力初测，开始亲手建立生态",
       "memo": "创世与第一批生命：主角龙状态（第7源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2275,7 +2275,7 @@
     },
     {
       "id": "era-01-creation-protagonist-knowledge-7-01",
-      "title": "主角龙知识边界｜第7源章｜1",
+      "title": "主角龙知识边界｜第 2 章：你好，世界！（2）｜尚无其他智慧生命陪伴",
       "memo": "创世与第一批生命：主角龙知识边界（第7源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2300,7 +2300,7 @@
     },
     {
       "id": "era-01-creation-event-8-01",
-      "title": "事件｜第8源章｜1",
+      "title": "主角离开洞穴，依靠微弱魔力与翅膀首次飞行",
       "memo": "创世与第一批生命：事件（第8源章第1条）",
       "category": "event",
       "keys": [
@@ -2325,7 +2325,7 @@
     },
     {
       "id": "era-01-creation-event-8-02",
-      "title": "事件｜第8源章｜2",
+      "title": "创世神来信称生态基础已预备、魔力浓度会随时间增加，龙能本能借魔法飞行并喷吐",
       "memo": "创世与第一批生命：事件（第8源章第2条）",
       "category": "event",
       "keys": [
@@ -2350,7 +2350,7 @@
     },
     {
       "id": "era-01-creation-event-8-03",
-      "title": "事件｜第8源章｜3",
+      "title": "主角飞遍世界散播自创生命",
       "memo": "创世与第一批生命：事件（第8源章第3条）",
       "category": "event",
       "keys": [
@@ -2375,7 +2375,7 @@
     },
     {
       "id": "era-01-creation-event-8-04",
-      "title": "事件｜第8源章｜4",
+      "title": "未来教授主张黏液化石证明其为所有生物起源，随后被教会和万神殿宣布为异端并失踪",
       "memo": "创世与第一批生命：事件（第8源章第4条）",
       "category": "event",
       "keys": [
@@ -2400,7 +2400,7 @@
     },
     {
       "id": "era-01-creation-event-8-05",
-      "title": "事件｜第8源章｜5",
+      "title": "不同环境的黏液产生差异进化",
       "memo": "创世与第一批生命：事件（第8源章第5条）",
       "category": "event",
       "keys": [
@@ -2425,7 +2425,7 @@
     },
     {
       "id": "era-01-creation-world-fact-8-01",
-      "title": "世界设定事实｜第8源章｜1",
+      "title": "原始黏液能自繁殖、适应、吸收空气能量、变异、吞噬小物体、分解废物，死亡后成为肥料",
       "memo": "创世与第一批生命：世界设定事实（第8源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2450,7 +2450,7 @@
     },
     {
       "id": "era-01-creation-world-fact-8-02",
-      "title": "世界设定事实｜第8源章｜2",
+      "title": "沼泽、寒地、火山、森林、矿区和水域各自形成不同黏液分支",
       "memo": "创世与第一批生命：世界设定事实（第8源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2475,7 +2475,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-8-01",
-      "title": "新建立连续性｜第8源章｜1",
+      "title": "魔力辅助飞行",
       "memo": "创世与第一批生命：新建立连续性（第8源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2500,7 +2500,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-8-02",
-      "title": "新建立连续性｜第8源章｜2",
+      "title": "全球黏液生态",
       "memo": "创世与第一批生命：新建立连续性（第8源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2525,7 +2525,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-8-03",
-      "title": "新建立连续性｜第8源章｜3",
+      "title": "未来教会与万神殿史料",
       "memo": "创世与第一批生命：新建立连续性（第8源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2550,7 +2550,7 @@
     },
     {
       "id": "era-01-creation-unresolved-8-01",
-      "title": "未解决事项｜第8源章｜1",
+      "title": "未来教授失踪真相",
       "memo": "创世与第一批生命：未解决事项（第8源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2575,7 +2575,7 @@
     },
     {
       "id": "era-01-creation-unresolved-8-02",
-      "title": "未解决事项｜第8源章｜2",
+      "title": "守护龙是否涉入",
       "memo": "创世与第一批生命：未解决事项（第8源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2600,7 +2600,7 @@
     },
     {
       "id": "era-01-creation-protagonist-form-8-01",
-      "title": "主角龙形态｜第8源章｜1",
+      "title": "主角龙形态｜第 3 章：你好，世界！（3）｜会飞的银鳞幼龙",
       "memo": "创世与第一批生命：主角龙形态（第8源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2625,7 +2625,7 @@
     },
     {
       "id": "era-01-creation-protagonist-state-8-01",
-      "title": "主角龙状态｜第8源章｜1",
+      "title": "主角龙状态｜第 3 章：你好，世界！（3）｜从洞穴出生点转为全球播种与观察者",
       "memo": "创世与第一批生命：主角龙状态（第8源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2650,7 +2650,7 @@
     },
     {
       "id": "era-01-creation-protagonist-knowledge-8-01",
-      "title": "主角龙知识边界｜第8源章｜1",
+      "title": "主角龙知识边界｜第 3 章：你好，世界！（3）｜仍处世界最早期，只能凭前世常识解释演化",
       "memo": "创世与第一批生命：主角龙知识边界（第8源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2675,7 +2675,7 @@
     },
     {
       "id": "era-01-creation-event-9-01",
-      "title": "事件｜第9源章｜1",
+      "title": "主角探索海洋，确认龙体可在水下呼吸、睁眼和自由游动",
       "memo": "创世与第一批生命：事件（第9源章第1条）",
       "category": "event",
       "keys": [
@@ -2700,7 +2700,7 @@
     },
     {
       "id": "era-01-creation-event-9-02",
-      "title": "事件｜第9源章｜2",
+      "title": "魔力浓度持续增加",
       "memo": "创世与第一批生命：事件（第9源章第2条）",
       "category": "event",
       "keys": [
@@ -2725,7 +2725,7 @@
     },
     {
       "id": "era-01-creation-event-9-03",
-      "title": "事件｜第9源章｜3",
+      "title": "高浓度魔力使龙卷风等自然现象萌生意识",
       "memo": "创世与第一批生命：事件（第9源章第3条）",
       "category": "event",
       "keys": [
@@ -2751,7 +2751,7 @@
     },
     {
       "id": "era-01-creation-event-9-04",
-      "title": "事件｜第9源章｜4",
+      "title": "火山、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒也出现各不相同的意识",
       "memo": "创世与第一批生命：事件（第9源章第4条）",
       "category": "event",
       "keys": [
@@ -2776,7 +2776,7 @@
     },
     {
       "id": "era-01-creation-world-fact-9-01",
-      "title": "世界设定事实｜第9源章｜1",
+      "title": "魔力随时间增强，能依照意图改变现象",
       "memo": "创世与第一批生命：世界设定事实（第9源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2801,7 +2801,7 @@
     },
     {
       "id": "era-01-creation-world-fact-9-02",
-      "title": "世界设定事实｜第9源章｜2",
+      "title": "七类属性不同的自然现象获得意识，是否被刻意安排尚不确定",
       "memo": "创世与第一批生命：世界设定事实（第9源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2826,7 +2826,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-9-01",
-      "title": "新建立连续性｜第9源章｜1",
+      "title": "西尔菲德诞生与命名",
       "memo": "创世与第一批生命：新建立连续性（第9源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2852,7 +2852,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-9-02",
-      "title": "新建立连续性｜第9源章｜2",
+      "title": "其余六个自然意识",
       "memo": "创世与第一批生命：新建立连续性（第9源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2877,7 +2877,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-9-03",
-      "title": "新建立连续性｜第9源章｜3",
+      "title": "多属性吐息",
       "memo": "创世与第一批生命：新建立连续性（第9源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2902,7 +2902,7 @@
     },
     {
       "id": "era-01-creation-unresolved-9-01",
-      "title": "未解决事项｜第9源章｜1",
+      "title": "七意识是否被刻意安排",
       "memo": "创世与第一批生命：未解决事项（第9源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2927,7 +2927,7 @@
     },
     {
       "id": "era-01-creation-unresolved-9-02",
-      "title": "未解决事项｜第9源章｜2",
+      "title": "其余名称",
       "memo": "创世与第一批生命：未解决事项（第9源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2952,7 +2952,7 @@
     },
     {
       "id": "era-01-creation-protagonist-form-9-01",
-      "title": "主角龙形态｜第9源章｜1",
+      "title": "主角龙形态｜第 4 章：你好，世界！（4）｜银色龙体",
       "memo": "创世与第一批生命：主角龙形态（第9源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2977,7 +2977,7 @@
     },
     {
       "id": "era-01-creation-protagonist-state-9-01",
-      "title": "主角龙状态｜第9源章｜1",
+      "title": "主角龙状态｜第 4 章：你好，世界！（4）｜从生态播种者进一步成为新生智慧意识的命名与照料者",
       "memo": "创世与第一批生命：主角龙状态（第9源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3002,7 +3002,7 @@
     },
     {
       "id": "era-01-creation-protagonist-knowledge-9-01",
-      "title": "主角龙知识边界｜第9源章｜1",
+      "title": "主角龙知识边界｜第 4 章：你好，世界！（4）｜尚未给其余六个意识命名，也不知道它们未来形态",
       "memo": "创世与第一批生命：主角龙知识边界（第9源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3027,7 +3027,7 @@
     },
     {
       "id": "era-01-creation-event-10-01",
-      "title": "事件｜第10源章｜1",
+      "title": "主角确认七个自然意识并命名，西尔菲德，伊夫利特，泰菲达，萨加玛塔，尤克特拉希尔",
       "memo": "创世与第一批生命：事件（第10源章第1条）",
       "category": "event",
       "keys": [
@@ -3059,7 +3059,7 @@
     },
     {
       "id": "era-01-creation-event-10-02",
-      "title": "事件｜第10源章｜2",
+      "title": "七个意识一致把主角视为母亲",
       "memo": "创世与第一批生命：事件（第10源章第2条）",
       "category": "event",
       "keys": [
@@ -3084,7 +3084,7 @@
     },
     {
       "id": "era-01-creation-event-10-03",
-      "title": "事件｜第10源章｜3",
+      "title": "主角不确定龙体性别",
       "memo": "创世与第一批生命：事件（第10源章第3条）",
       "category": "event",
       "keys": [
@@ -3110,7 +3110,7 @@
     },
     {
       "id": "era-01-creation-event-10-04",
-      "title": "事件｜第10源章｜4",
+      "title": "过往伊夫利特因好奇烧死首批登陆生物，主角斥责后他不再焚烧其他生命",
       "memo": "创世与第一批生命：事件（第10源章第4条）",
       "category": "event",
       "keys": [
@@ -3136,7 +3136,7 @@
     },
     {
       "id": "era-01-creation-event-10-05",
-      "title": "事件｜第10源章｜5",
+      "title": "几十年后生态进入类似恐龙时代",
       "memo": "创世与第一批生命：事件（第10源章第5条）",
       "category": "event",
       "keys": [
@@ -3161,7 +3161,7 @@
     },
     {
       "id": "era-01-creation-world-fact-10-01",
-      "title": "世界设定事实｜第10源章｜1",
+      "title": "七个自然意识分别来自风、永恒火焰、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒",
       "memo": "创世与第一批生命：世界设定事实（第10源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3186,7 +3186,7 @@
     },
     {
       "id": "era-01-creation-world-fact-10-02",
-      "title": "世界设定事实｜第10源章｜2",
+      "title": "首批生命经快速进化形成充满大型生物的恐龙时代",
       "memo": "创世与第一批生命：世界设定事实（第10源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3211,7 +3211,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-10-01",
-      "title": "新建立连续性｜第10源章｜1",
+      "title": "七个孩子全名与属性",
       "memo": "创世与第一批生命：新建立连续性（第10源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3236,7 +3236,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-10-02",
-      "title": "新建立连续性｜第10源章｜2",
+      "title": "主角女性",
       "memo": "创世与第一批生命：新建立连续性（第10源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3261,7 +3261,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-10-03",
-      "title": "新建立连续性｜第10源章｜3",
+      "title": "恐龙时代",
       "memo": "创世与第一批生命：新建立连续性（第10源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3286,7 +3286,7 @@
     },
     {
       "id": "era-01-creation-continuity-new-10-04",
-      "title": "新建立连续性｜第10源章｜4",
+      "title": "主角的教育责任",
       "memo": "创世与第一批生命：新建立连续性（第10源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3311,7 +3311,7 @@
     },
     {
       "id": "era-01-creation-unresolved-10-01",
-      "title": "未解决事项｜第10源章｜1",
+      "title": "泰菲达等译名后续是否变化",
       "memo": "创世与第一批生命：未解决事项（第10源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3337,7 +3337,7 @@
     },
     {
       "id": "era-01-creation-unresolved-10-02",
-      "title": "未解决事项｜第10源章｜2",
+      "title": "魔力增强真正原因",
       "memo": "创世与第一批生命：未解决事项（第10源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3362,7 +3362,7 @@
     },
     {
       "id": "era-01-creation-protagonist-form-10-01",
-      "title": "主角龙形态｜第10源章｜1",
+      "title": "主角龙形态｜第 5 章：你好，世界！（5）｜成年程度未明确的银色母龙",
       "memo": "创世与第一批生命：主角龙形态（第10源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3387,7 +3387,7 @@
     },
     {
       "id": "era-01-creation-protagonist-state-10-01",
-      "title": "主角龙状态｜第10源章｜1",
+      "title": "主角龙状态｜第 5 章：你好，世界！（5）｜承担生态照料和七个孩子的教育，被它们视作母亲",
       "memo": "创世与第一批生命：主角龙状态（第10源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3412,7 +3412,7 @@
     },
     {
       "id": "era-01-creation-protagonist-knowledge-10-01",
-      "title": "主角龙知识边界｜第10源章｜1",
+      "title": "主角龙知识边界｜第 5 章：你好，世界！（5）｜不应知道未来后世将恐龙化石误认作古龙的具体博物馆叙事",
       "memo": "创世与第一批生命：主角龙知识边界（第10源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3437,7 +3437,7 @@
     },
     {
       "id": "era-01-creation-secondary-character-01",
-      "title": "次要人物｜帝国大学某古生物研究教授（姓名未给）",
+      "title": "帝国大学某古生物研究教授（姓名未给）",
       "memo": "创世与第一批生命：次要人物 帝国大学某古生物研究教授（姓名未给）",
       "category": "secondary-character",
       "keys": [],
@@ -3461,7 +3461,7 @@
     },
     {
       "id": "era-01-creation-secondary-character-02",
-      "title": "次要人物｜唤醒者（身份未明）",
+      "title": "唤醒者（身份未明）",
       "memo": "创世与第一批生命：次要人物 唤醒者（身份未明）",
       "category": "secondary-character",
       "keys": [
@@ -3487,7 +3487,7 @@
     },
     {
       "id": "era-01-creation-secondary-character-03",
-      "title": "次要人物｜历史学家爱德华・罗胡斯",
+      "title": "历史学家爱德华・罗胡斯",
       "memo": "创世与第一批生命：次要人物 历史学家爱德华・罗胡斯",
       "category": "secondary-character",
       "keys": [

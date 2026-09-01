@@ -3490,7 +3490,7 @@
   "lorebook": [
     {
       "id": "era-23-guardian-dragon-core",
-      "title": "帝国崩落与守护龙｜时代边界",
+      "title": "帝国崩落与守护龙",
       "memo": "帝国崩落与守护龙：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3505,7 +3505,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-473-01",
-      "title": "事件｜第473源章｜1",
+      "title": "西里乌斯幸存传令兵抵达后，以诺不等完整情报，决定率骑兵精锐先行、物资步兵随后",
       "memo": "帝国崩落与守护龙：事件（第473源章第1条）",
       "category": "event",
       "keys": [
@@ -3531,7 +3531,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-473-02",
-      "title": "事件｜第473源章｜2",
+      "title": "以诺携隐形不败旗和公国最强精锐出征，以收拾混乱、救人并防趁乱夺利为目标",
       "memo": "帝国崩落与守护龙：事件（第473源章第2条）",
       "category": "event",
       "keys": [
@@ -3558,7 +3558,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-473-03",
-      "title": "事件｜第473源章｜3",
+      "title": "洛伦切换到万神殿本体询问阿谢拉特，得知皇城爆炸利用了生命女神力量",
       "memo": "帝国崩落与守护龙：事件（第473源章第3条）",
       "category": "event",
       "keys": [
@@ -3584,7 +3584,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-473-01",
-      "title": "世界设定事实｜第473源章｜1",
+      "title": "鲁贝洛斯精锐含最强骑士团、冒险者时代魔法师和按职责优化部队",
       "memo": "帝国崩落与守护龙：世界设定事实（第473源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3610,7 +3610,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-473-02",
-      "title": "世界设定事实｜第473源章｜2",
+      "title": "先前由生命教团共同培养的聪明儿童已长成合格文官，显著提高公国后勤行政效率",
       "memo": "帝国崩落与守护龙：世界设定事实（第473源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3635,7 +3635,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-473-03",
-      "title": "世界设定事实｜第473源章｜3",
+      "title": "西里乌斯皇城为爆炸中心，爆炸利用生命女神力量，可压制多数神力",
       "memo": "帝国崩落与守护龙：世界设定事实（第473源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3660,7 +3660,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-473-04",
-      "title": "世界设定事实｜第473源章｜4",
+      "title": "生命教团灾发即在地下集结与治疗，教团总部运粮药",
       "memo": "帝国崩落与守护龙：世界设定事实（第473源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -3685,7 +3685,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-473-01",
-      "title": "新建立连续性｜第473源章｜1",
+      "title": "西里乌斯爆炸塌陷",
       "memo": "帝国崩落与守护龙：新建立连续性（第473源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3710,7 +3710,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-473-02",
-      "title": "新建立连续性｜第473源章｜2",
+      "title": "鲁贝洛斯救援出征",
       "memo": "帝国崩落与守护龙：新建立连续性（第473源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3735,7 +3735,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-473-03",
-      "title": "新建立连续性｜第473源章｜3",
+      "title": "生命女神力量被盗用",
       "memo": "帝国崩落与守护龙：新建立连续性（第473源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3760,7 +3760,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-473-04",
-      "title": "新建立连续性｜第473源章｜4",
+      "title": "皇城中心极高死亡风险",
       "memo": "帝国崩落与守护龙：新建立连续性（第473源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3785,7 +3785,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-473-01",
-      "title": "未解决事项｜第473源章｜1",
+      "title": "杰里亚阿尔忒西亚生死",
       "memo": "帝国崩落与守护龙：未解决事项（第473源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3811,7 +3811,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-473-02",
-      "title": "未解决事项｜第473源章｜2",
+      "title": "爆炸者",
       "memo": "帝国崩落与守护龙：未解决事项（第473源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3836,7 +3836,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-473-03",
-      "title": "未解决事项｜第473源章｜3",
+      "title": "救援结果",
       "memo": "帝国崩落与守护龙：未解决事项（第473源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3861,7 +3861,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-473-01",
-      "title": "主角龙形态｜第473源章｜1",
+      "title": "主角龙形态｜崩落.(1)｜地上以银发牛兽人家庭教师洛伦公开处理后勤，神界同时运行生命女神本体",
       "memo": "帝国崩落与守护龙：主角龙形态（第473源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3886,7 +3886,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-473-01",
-      "title": "主角龙状态｜第473源章｜1",
+      "title": "主角龙状态｜崩落.(1)｜守护诺亚的公开形态首次承担公国宰相级事务",
       "memo": "帝国崩落与守护龙：主角龙状态（第473源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3912,7 +3912,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-473-01",
-      "title": "主角龙知识边界｜第473源章｜1",
+      "title": "主角龙知识边界｜崩落.(1)｜爆炸施行者、利用方法与完整死伤尚不明",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第473源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3938,7 +3938,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-474-01",
-      "title": "事件｜第474源章｜1",
+      "title": "洛伦拒绝生命女神直接介入，只准众神保护信徒生命并支援其自行重建",
       "memo": "帝国崩落与守护龙：事件（第474源章第1条）",
       "category": "event",
       "keys": [
@@ -3964,7 +3964,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-474-02",
-      "title": "事件｜第474源章｜2",
+      "title": "以诺抵达时各地贵族已聚集且争论救援、再爆炸与皇室优先",
       "memo": "帝国崩落与守护龙：事件（第474源章第2条）",
       "category": "event",
       "keys": [
@@ -3990,7 +3990,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-474-03",
-      "title": "事件｜第474源章｜3",
+      "title": "以诺理由是祭司能探测生命、提高全体救援速度",
       "memo": "帝国崩落与守护龙：事件（第474源章第3条）",
       "category": "event",
       "keys": [
@@ -4016,7 +4016,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-474-04",
-      "title": "事件｜第474源章｜4",
+      "title": "后世记录官方死亡不多，地下旧城成为遗迹兼危险地下城，上方建新都要塞守入口并探索",
       "memo": "帝国崩落与守护龙：事件（第474源章第4条）",
       "category": "event",
       "keys": [
@@ -4041,7 +4041,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-474-01",
-      "title": "世界设定事实｜第474源章｜1",
+      "title": "到场贵族包括南部粮仓莱因霍尔特侯爵，西境贸易圣特尔特伯爵，首都邻近德雷克男爵",
       "memo": "帝国崩落与守护龙：世界设定事实（第474源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4068,7 +4068,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-474-02",
-      "title": "世界设定事实｜第474源章｜2",
+      "title": "生命教团有衡量生命力、原用于伤情分级的神圣魔法，可改用为地下生命探测",
       "memo": "帝国崩落与守护龙：世界设定事实（第474源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4093,7 +4093,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-474-03",
-      "title": "世界设定事实｜第474源章｜3",
+      "title": "地下旧西里乌斯后来受强魔力影响成为遗迹与地下城",
       "memo": "帝国崩落与守护龙：世界设定事实（第474源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4118,7 +4118,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-474-04",
-      "title": "世界设定事实｜第474源章｜4",
+      "title": "灾难后出现女神惩罚、魔王追随者、灭世阴谋等互斥说法",
       "memo": "帝国崩落与守护龙：世界设定事实（第474源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4144,7 +4144,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-474-01",
-      "title": "新建立连续性｜第474源章｜1",
+      "title": "以诺接管救援",
       "memo": "帝国崩落与守护龙：新建立连续性（第474源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4170,7 +4170,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-474-02",
-      "title": "新建立连续性｜第474源章｜2",
+      "title": "祭司优先策略",
       "memo": "帝国崩落与守护龙：新建立连续性（第474源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4195,7 +4195,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-474-03",
-      "title": "新建立连续性｜第474源章｜3",
+      "title": "地下古都未来",
       "memo": "帝国崩落与守护龙：新建立连续性（第474源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4220,7 +4220,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-474-04",
-      "title": "新建立连续性｜第474源章｜4",
+      "title": "帝国学院前身",
       "memo": "帝国崩落与守护龙：新建立连续性（第474源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4245,7 +4245,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-474-01",
-      "title": "未解决事项｜第474源章｜1",
+      "title": "皇城人员",
       "memo": "帝国崩落与守护龙：未解决事项（第474源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4270,7 +4270,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-474-02",
-      "title": "未解决事项｜第474源章｜2",
+      "title": "灾变真相",
       "memo": "帝国崩落与守护龙：未解决事项（第474源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4295,7 +4295,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-474-03",
-      "title": "未解决事项｜第474源章｜3",
+      "title": "当下救援进展",
       "memo": "帝国崩落与守护龙：未解决事项（第474源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4320,7 +4320,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-474-01",
-      "title": "主角龙形态｜第474源章｜1",
+      "title": "主角龙形态｜崩落.(2)｜生命女神本体在万神殿限定神界支援",
       "memo": "帝国崩落与守护龙：主角龙形态（第474源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4346,7 +4346,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-474-01",
-      "title": "主角龙状态｜第474源章｜1",
+      "title": "主角龙状态｜崩落.(2)｜守护龙以不直接干预原则让后裔与人类承担救援主体",
       "memo": "帝国崩落与守护龙：主角龙状态（第474源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4371,7 +4371,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-474-01",
-      "title": "主角龙知识边界｜第474源章｜1",
+      "title": "主角龙知识边界｜崩落.(2)｜后世官方史只能确认地下城与新都结果，元凶依然未知",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第474源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4396,7 +4396,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-475-01",
-      "title": "事件｜第475源章｜1",
+      "title": "垂直挖掘因地基如枝上覆土而会二次塌方，德林格改为加固小隧道",
       "memo": "帝国崩落与守护龙：事件（第475源章第1条）",
       "category": "event",
       "keys": [
@@ -4422,7 +4422,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-475-02",
-      "title": "事件｜第475源章｜2",
+      "title": "生命女神再次拒绝直接救出地下信徒，把灾难视作人类减少对神盲目依赖的契机",
       "memo": "帝国崩落与守护龙：事件（第475源章第2条）",
       "category": "event",
       "keys": [
@@ -4447,7 +4447,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-475-03",
-      "title": "事件｜第475源章｜3",
+      "title": "圣女可直接与神相连并使用其力量意志，直接降临成本高",
       "memo": "帝国崩落与守护龙：事件（第475源章第3条）",
       "category": "event",
       "keys": [
@@ -4472,7 +4472,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-475-01",
-      "title": "世界设定事实｜第475源章｜1",
+      "title": "地下旧城地基极不稳定，需小型加固隧道、木柱坑木和风箱送气",
       "memo": "帝国崩落与守护龙：世界设定事实（第475源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4497,7 +4497,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-475-02",
-      "title": "世界设定事实｜第475源章｜2",
+      "title": "灾变实际有数百人死亡，相对于西里乌斯数十万级人口仍属少数",
       "memo": "帝国崩落与守护龙：世界设定事实（第475源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4522,7 +4522,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-475-03",
-      "title": "世界设定事实｜第475源章｜3",
+      "title": "众神为保信徒大量耗费信仰，兽神天狼星尤甚并维持约一半建筑原形",
       "memo": "帝国崩落与守护龙：世界设定事实（第475源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4547,7 +4547,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-475-04",
-      "title": "世界设定事实｜第475源章｜4",
+      "title": "圣女制度将允许许可对象直接接神并使用神力意志，直接降临成本高",
       "memo": "帝国崩落与守护龙：世界设定事实（第475源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4572,7 +4572,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-475-01",
-      "title": "新建立连续性｜第475源章｜1",
+      "title": "人神直接干预缩减",
       "memo": "帝国崩落与守护龙：新建立连续性（第475源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4597,7 +4597,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-475-02",
-      "title": "新建立连续性｜第475源章｜2",
+      "title": "圣女许可制度",
       "memo": "帝国崩落与守护龙：新建立连续性（第475源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4622,7 +4622,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-475-03",
-      "title": "新建立连续性｜第475源章｜3",
+      "title": "生命教团缩编方向",
       "memo": "帝国崩落与守护龙：新建立连续性（第475源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4647,7 +4647,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-475-01",
-      "title": "未解决事项｜第475源章｜1",
+      "title": "制度落地",
       "memo": "帝国崩落与守护龙：未解决事项（第475源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4672,7 +4672,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-475-02",
-      "title": "未解决事项｜第475源章｜2",
+      "title": "元凶追责",
       "memo": "帝国崩落与守护龙：未解决事项（第475源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4697,7 +4697,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-475-03",
-      "title": "未解决事项｜第475源章｜3",
+      "title": "皇城救援",
       "memo": "帝国崩落与守护龙：未解决事项（第475源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4722,7 +4722,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-475-01",
-      "title": "主角龙形态｜第475源章｜1",
+      "title": "主角龙形态｜崩落.(3)｜本章以生命女神本体与阿谢拉特对话，地上洛伦形态未直接参与挖掘",
       "memo": "帝国崩落与守护龙：主角龙形态（第475源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4748,7 +4748,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-475-01",
-      "title": "主角龙状态｜第475源章｜1",
+      "title": "主角龙状态｜崩落.(3)｜守护龙的神格层面开始重写整个时代的人神关系，而不直接替后裔解决灾难",
       "memo": "帝国崩落与守护龙：主角龙状态（第475源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4773,7 +4773,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-475-01",
-      "title": "主角龙知识边界｜第475源章｜1",
+      "title": "主角龙知识边界｜崩落.(3)｜圣女制度此刻是计划，尚未看到地上具体圣女",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第475源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4798,7 +4798,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-476-01",
-      "title": "事件｜第476源章｜1",
+      "title": "救援队挖到生命教团支部，老祭司泽斯特独自维持所有人假死数日以渡过断粮断水",
       "memo": "帝国崩落与守护龙：事件（第476源章第1条）",
       "category": "event",
       "keys": [
@@ -4823,7 +4823,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-476-02",
-      "title": "事件｜第476源章｜2",
+      "title": "苏醒祭司用生命探测加快搜救",
       "memo": "帝国崩落与守护龙：事件（第476源章第2条）",
       "category": "event",
       "keys": [
@@ -4850,7 +4850,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-476-03",
-      "title": "事件｜第476源章｜3",
+      "title": "数百死者绝大多数位于皇城爆炸附近且许多为红发皇族",
       "memo": "帝国崩落与守护龙：事件（第476源章第3条）",
       "category": "event",
       "keys": [
@@ -4876,7 +4876,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-476-01",
-      "title": "世界设定事实｜第476源章｜1",
+      "title": "生命教团假死魔法将生命活动降近停止，可延长无粮水存活但稍有差错即死，且需祭司持续维持",
       "memo": "帝国崩落与守护龙：世界设定事实（第476源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4901,7 +4901,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-476-02",
-      "title": "世界设定事实｜第476源章｜2",
+      "title": "祭司加入后生命探测加速搜救",
       "memo": "帝国崩落与守护龙：世界设定事实（第476源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4926,7 +4926,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-476-03",
-      "title": "世界设定事实｜第476源章｜3",
+      "title": "死亡约数百人",
       "memo": "帝国崩落与守护龙：世界设定事实（第476源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4951,7 +4951,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-476-04",
-      "title": "世界设定事实｜第476源章｜4",
+      "title": "德拉格玛女皇阿尔忒西亚与丈夫杰里亚确认死亡",
       "memo": "帝国崩落与守护龙：世界设定事实（第476源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4978,7 +4978,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-476-01",
-      "title": "新建立连续性｜第476源章｜1",
+      "title": "泽斯特救出祭司",
       "memo": "帝国崩落与守护龙：新建立连续性（第476源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5003,7 +5003,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-476-02",
-      "title": "新建立连续性｜第476源章｜2",
+      "title": "皇城几乎无幸存者",
       "memo": "帝国崩落与守护龙：新建立连续性（第476源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5028,7 +5028,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-476-03",
-      "title": "新建立连续性｜第476源章｜3",
+      "title": "阿尔忒西亚死亡",
       "memo": "帝国崩落与守护龙：新建立连续性（第476源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5053,7 +5053,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-476-04",
-      "title": "新建立连续性｜第476源章｜4",
+      "title": "杰里亚死亡",
       "memo": "帝国崩落与守护龙：新建立连续性（第476源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5079,7 +5079,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-476-05",
-      "title": "新建立连续性｜第476源章｜5",
+      "title": "乱世开启",
       "memo": "帝国崩落与守护龙：新建立连续性（第476源章第5条）",
       "category": "continuity",
       "keys": [
@@ -5104,7 +5104,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-476-01",
-      "title": "未解决事项｜第476源章｜1",
+      "title": "帝国继承",
       "memo": "帝国崩落与守护龙：未解决事项（第476源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5129,7 +5129,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-476-02",
-      "title": "未解决事项｜第476源章｜2",
+      "title": "诺亚安全",
       "memo": "帝国崩落与守护龙：未解决事项（第476源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5155,7 +5155,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-476-03",
-      "title": "未解决事项｜第476源章｜3",
+      "title": "灾变元凶",
       "memo": "帝国崩落与守护龙：未解决事项（第476源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5180,7 +5180,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-476-01",
-      "title": "主角龙形态｜第476源章｜1",
+      "title": "主角龙形态｜崩落.(4)｜本章主要随以诺有限视角推进，洛伦未在现场直接发言",
       "memo": "帝国崩落与守护龙：主角龙形态（第476源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5206,7 +5206,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-476-01",
-      "title": "主角龙状态｜第476源章｜1",
+      "title": "主角龙状态｜崩落.(4)｜守护龙所见的新帝国核心突然断绝",
       "memo": "帝国崩落与守护龙：主角龙状态（第476源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5232,7 +5232,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-476-01",
-      "title": "主角龙知识边界｜第476源章｜1",
+      "title": "主角龙知识边界｜崩落.(4)｜遗体确认意味着二人已死，不得复活或写成失踪",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第476源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5257,7 +5257,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-477-01",
-      "title": "事件｜第477源章｜1",
+      "title": "西里乌斯善后历时近一年，大部分幸存者前三个月获救",
       "memo": "帝国崩落与守护龙：事件（第477源章第1条）",
       "category": "event",
       "keys": [
@@ -5283,7 +5283,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-477-02",
-      "title": "事件｜第477源章｜2",
+      "title": "以诺不愿让幼小诺亚承担皇位，写信承认自己的智慧不足，请洛伦带家人来西里乌斯共同处理",
       "memo": "帝国崩落与守护龙：事件（第477源章第2条）",
       "category": "event",
       "keys": [
@@ -5310,7 +5310,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-477-03",
-      "title": "事件｜第477源章｜3",
+      "title": "洛伦判断无皇帝会导致贵族内战与外部介入，诺亚即位已难避免",
       "memo": "帝国崩落与守护龙：事件（第477源章第3条）",
       "category": "event",
       "keys": [
@@ -5336,7 +5336,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-477-01",
-      "title": "世界设定事实｜第477源章｜1",
+      "title": "灾后善后近一年，前三个月基本救出幸存者，后续处理死者、皇城与遗留事务",
       "memo": "帝国崩落与守护龙：世界设定事实（第477源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5361,7 +5361,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-477-02",
-      "title": "世界设定事实｜第477源章｜2",
+      "title": "灾日皇城举行仅皇族知晓的开国红龙人形降临纪念活动，使多数有继承权者集中死亡",
       "memo": "帝国崩落与守护龙：世界设定事实（第477源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5386,7 +5386,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-477-03",
-      "title": "世界设定事实｜第477源章｜3",
+      "title": "阿尔忒西亚、杰里亚和皇族遗体由生命教团神术防腐，等待未来皇帝加冕相关葬礼",
       "memo": "帝国崩落与守护龙：世界设定事实（第477源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5412,7 +5412,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-477-04",
-      "title": "世界设定事实｜第477源章｜4",
+      "title": "诺亚是仅存完整皇帝继承权持有者，帝位若长期空缺将导致帝国解体",
       "memo": "帝国崩落与守护龙：世界设定事实（第477源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5438,7 +5438,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-477-01",
-      "title": "新建立连续性｜第477源章｜1",
+      "title": "诺亚唯一合法继承",
       "memo": "帝国崩落与守护龙：新建立连续性（第477源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5464,7 +5464,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-477-02",
-      "title": "新建立连续性｜第477源章｜2",
+      "title": "以诺求援",
       "memo": "帝国崩落与守护龙：新建立连续性（第477源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5490,7 +5490,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-477-03",
-      "title": "新建立连续性｜第477源章｜3",
+      "title": "洛伦怀疑阿尔忒西亚布局",
       "memo": "帝国崩落与守护龙：新建立连续性（第477源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5515,7 +5515,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-477-01",
-      "title": "未解决事项｜第477源章｜1",
+      "title": "幼帝与摄政方案",
       "memo": "帝国崩落与守护龙：未解决事项（第477源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5540,7 +5540,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-477-02",
-      "title": "未解决事项｜第477源章｜2",
+      "title": "始祖红龙选择",
       "memo": "帝国崩落与守护龙：未解决事项（第477源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5565,7 +5565,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-477-03",
-      "title": "未解决事项｜第477源章｜3",
+      "title": "皇位即位",
       "memo": "帝国崩落与守护龙：未解决事项（第477源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5590,7 +5590,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-477-01",
-      "title": "主角龙形态｜第477源章｜1",
+      "title": "主角龙形态｜崩落.(5)｜银发牛兽人家庭教师洛伦留在鲁贝洛斯，处理内政并守护诺亚",
       "memo": "帝国崩落与守护龙：主角龙形态（第477源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5616,7 +5616,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-477-01",
-      "title": "主角龙状态｜第477源章｜1",
+      "title": "主角龙状态｜崩落.(5)｜守护对象诺亚被唯一合法继承权推向帝位",
       "memo": "帝国崩落与守护龙：主角龙状态（第477源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5642,7 +5642,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-477-01",
-      "title": "主角龙知识边界｜第477源章｜1",
+      "title": "主角龙知识边界｜崩落.(5)｜‘被算计’仍是洛伦推测，不等于已证实阿尔忒西亚策划爆炸",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第477源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5667,7 +5667,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-478-01",
-      "title": "事件｜第478源章｜1",
+      "title": "洛伦未直接读阿尔忒西亚记忆，而在冥界洗忆前经交易取出她与杰里亚的灵魂珠",
       "memo": "帝国崩落与守护龙：事件（第478源章第1条）",
       "category": "event",
       "keys": [
@@ -5693,7 +5693,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-478-02",
-      "title": "事件｜第478源章｜2",
+      "title": "洛伦带诺亚和以莉亚抵达灾后西里乌斯",
       "memo": "帝国崩落与守护龙：事件（第478源章第2条）",
       "category": "event",
       "keys": [
@@ -5720,7 +5720,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-478-03",
-      "title": "事件｜第478源章｜3",
+      "title": "临时行政楼同时处理领地战、矮人罢工、皇位质询、粮援和盗匪",
       "memo": "帝国崩落与守护龙：事件（第478源章第3条）",
       "category": "event",
       "keys": [
@@ -5746,7 +5746,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-478-04",
-      "title": "事件｜第478源章｜4",
+      "title": "诺亚坚持坐在老师身边，洛伦把他抱在膝上开始审视整个西里乌斯恢复方案",
       "memo": "帝国崩落与守护龙：事件（第478源章第4条）",
       "category": "event",
       "keys": [
@@ -5772,7 +5772,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-478-01",
-      "title": "世界设定事实｜第478源章｜1",
+      "title": "阿尔忒西亚和杰里亚灵魂在冥界洗忆前被生命女神以与冥界诸神交易方式取出，分别封入珠中",
       "memo": "帝国崩落与守护龙：世界设定事实（第478源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5798,7 +5798,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-478-02",
-      "title": "世界设定事实｜第478源章｜2",
+      "title": "灾后近一年西里乌斯仍以临时木楼和帐篷区运转",
       "memo": "帝国崩落与守护龙：世界设定事实（第478源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5823,7 +5823,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-478-03",
-      "title": "世界设定事实｜第478源章｜3",
+      "title": "现实问题包括贵族领地战、矮人因啤酒短缺罢工、皇位质询、粮食补给和逃兵盗匪",
       "memo": "帝国崩落与守护龙：世界设定事实（第478源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5848,7 +5848,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-478-04",
-      "title": "世界设定事实｜第478源章｜4",
+      "title": "洛伦赴西里乌斯途中遇盗贼，首领被斩、存活者被卖作奴隶",
       "memo": "帝国崩落与守护龙：世界设定事实（第478源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5873,7 +5873,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-478-01",
-      "title": "新建立连续性｜第478源章｜1",
+      "title": "阿尔忒西亚杰里亚灵魂珠",
       "memo": "帝国崩落与守护龙：新建立连续性（第478源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5899,7 +5899,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-478-02",
-      "title": "新建立连续性｜第478源章｜2",
+      "title": "洛伦诺亚抵达西里乌斯",
       "memo": "帝国崩落与守护龙：新建立连续性（第478源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5925,7 +5925,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-478-03",
-      "title": "新建立连续性｜第478源章｜3",
+      "title": "行政总危机",
       "memo": "帝国崩落与守护龙：新建立连续性（第478源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5950,7 +5950,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-478-01",
-      "title": "未解决事项｜第478源章｜1",
+      "title": "读取记忆",
       "memo": "帝国崩落与守护龙：未解决事项（第478源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5975,7 +5975,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-478-02",
-      "title": "未解决事项｜第478源章｜2",
+      "title": "皇位决定",
       "memo": "帝国崩落与守护龙：未解决事项（第478源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6000,7 +6000,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-478-03",
-      "title": "未解决事项｜第478源章｜3",
+      "title": "灾民与贵族处理",
       "memo": "帝国崩落与守护龙：未解决事项（第478源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6025,7 +6025,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-478-01",
-      "title": "主角龙形态｜第478源章｜1",
+      "title": "主角龙形态｜崩落.(6)｜公开的银发牛兽人家庭教师洛伦，带诺亚进入灾后临时行政中心",
       "memo": "帝国崩落与守护龙：主角龙形态（第478源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6051,7 +6051,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-478-01",
-      "title": "主角龙状态｜第478源章｜1",
+      "title": "主角龙状态｜崩落.(6)｜守护龙开始同时充当幼帝导师与帝国行政救火者",
       "memo": "帝国崩落与守护龙：主角龙状态（第478源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6076,7 +6076,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-478-01",
-      "title": "主角龙知识边界｜第478源章｜1",
+      "title": "主角龙知识边界｜崩落.(6)｜灵魂被保存不等于复活",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第478源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6101,7 +6101,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-479-01",
-      "title": "事件｜第479源章｜1",
+      "title": "洛伦把堆积政务细分给专业文官和友好组织，建立首领平庸时也能运行的分工系统",
       "memo": "帝国崩落与守护龙：事件（第479源章第1条）",
       "category": "event",
       "keys": [
@@ -6127,7 +6127,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-479-02",
-      "title": "事件｜第479源章｜2",
+      "title": "洛伦诊断现况后降低地下财产挖掘优先级，主张先结束皇位空缺",
       "memo": "帝国崩落与守护龙：事件（第479源章第2条）",
       "category": "event",
       "keys": [
@@ -6153,7 +6153,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-479-03",
-      "title": "事件｜第479源章｜3",
+      "title": "将帝国交给南罗马尼亚等外力等同卖国，以诺拒绝",
       "memo": "帝国崩落与守护龙：事件（第479源章第3条）",
       "category": "event",
       "keys": [
@@ -6179,7 +6179,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-479-01",
-      "title": "世界设定事实｜第479源章｜1",
+      "title": "洛伦建立专业文官分工、逐级上报和最终决策最小化体系，三天将可处理文件削减约九成",
       "memo": "帝国崩落与守护龙：世界设定事实（第479源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6204,7 +6204,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-479-02",
-      "title": "世界设定事实｜第479源章｜2",
+      "title": "幸存者已基本救出后，继续挖地下建筑主要服务财产与宝物，不再是即时救命任务",
       "memo": "帝国崩落与守护龙：世界设定事实（第479源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6229,7 +6229,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-479-03",
-      "title": "世界设定事实｜第479源章｜3",
+      "title": "诺亚继承权明确，其他候选名分不清会引发群雄模仿",
       "memo": "帝国崩落与守护龙：世界设定事实（第479源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6255,7 +6255,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-479-04",
-      "title": "世界设定事实｜第479源章｜4",
+      "title": "南罗马尼亚仍是强国但交国等同卖国",
       "memo": "帝国崩落与守护龙：世界设定事实（第479源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6280,7 +6280,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-479-01",
-      "title": "新建立连续性｜第479源章｜1",
+      "title": "文官系统重构",
       "memo": "帝国崩落与守护龙：新建立连续性（第479源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6305,7 +6305,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-479-02",
-      "title": "新建立连续性｜第479源章｜2",
+      "title": "诺亚即位确定为最优方案",
       "memo": "帝国崩落与守护龙：新建立连续性（第479源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6331,7 +6331,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-479-01",
-      "title": "未解决事项｜第479源章｜1",
+      "title": "以诺最终同意",
       "memo": "帝国崩落与守护龙：未解决事项（第479源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6357,7 +6357,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-479-02",
-      "title": "未解决事项｜第479源章｜2",
+      "title": "首都",
       "memo": "帝国崩落与守护龙：未解决事项（第479源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6382,7 +6382,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-479-03",
-      "title": "未解决事项｜第479源章｜3",
+      "title": "灾民安置｜崩落.(7)",
       "memo": "帝国崩落与守护龙：未解决事项（第479源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6407,7 +6407,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-479-04",
-      "title": "未解决事项｜第479源章｜4",
+      "title": "即位仪式｜崩落.(7)",
       "memo": "帝国崩落与守护龙：未解决事项（第479源章第4条）",
       "category": "unresolved",
       "keys": [
@@ -6432,7 +6432,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-479-01",
-      "title": "主角龙形态｜第479源章｜1",
+      "title": "主角龙形态｜崩落.(7)｜银发牛兽人家庭教师洛伦兼行政顾问，诺亚被以莉亚暂带离办公现场",
       "memo": "帝国崩落与守护龙：主角龙形态（第479源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6459,7 +6459,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-479-01",
-      "title": "主角龙状态｜第479源章｜1",
+      "title": "主角龙状态｜崩落.(7)｜守护龙从个人辅佐推进到设计幼帝所需的常设文官系统",
       "memo": "帝国崩落与守护龙：主角龙状态（第479源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6484,7 +6484,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-479-01",
-      "title": "主角龙知识边界｜第479源章｜1",
+      "title": "主角龙知识边界｜崩落.(7)｜诺亚尚未即位",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第479源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6510,7 +6510,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-480-01",
-      "title": "事件｜第480源章｜1",
+      "title": "以诺同意诺亚即位",
       "memo": "帝国崩落与守护龙：事件（第480源章第1条）",
       "category": "event",
       "keys": [
@@ -6537,7 +6537,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-480-02",
-      "title": "事件｜第480源章｜2",
+      "title": "旧西里乌斯不能再做首都，阿尔门只适合贸易交通且难管理，最终决定迁都鲁贝洛斯",
       "memo": "帝国崩落与守护龙：事件（第480源章第2条）",
       "category": "event",
       "keys": [
@@ -6562,7 +6562,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-480-03",
-      "title": "事件｜第480源章｜3",
+      "title": "洛伦停止低优先地下挖掘，引发德林格和矮人抗议",
       "memo": "帝国崩落与守护龙：事件（第480源章第3条）",
       "category": "event",
       "keys": [
@@ -6587,7 +6587,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-480-04",
-      "title": "事件｜第480源章｜4",
+      "title": "其他反对者基本被说服，灾民安置仍是最大未决问题",
       "memo": "帝国崩落与守护龙：事件（第480源章第4条）",
       "category": "event",
       "keys": [
@@ -6612,7 +6612,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-480-01",
-      "title": "世界设定事实｜第480源章｜1",
+      "title": "诺亚即位预计只立即平息约三成混乱",
       "memo": "帝国崩落与守护龙：世界设定事实（第480源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6639,7 +6639,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-480-02",
-      "title": "世界设定事实｜第480源章｜2",
+      "title": "旧西里乌斯只剩外墙且地基不稳",
       "memo": "帝国崩落与守护龙：世界设定事实（第480源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6664,7 +6664,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-480-03",
-      "title": "世界设定事实｜第480源章｜3",
+      "title": "即位仪式要在西里乌斯局势整理和灾民安置后举行",
       "memo": "帝国崩落与守护龙：世界设定事实（第480源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6689,7 +6689,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-480-04",
-      "title": "世界设定事实｜第480源章｜4",
+      "title": "矮人矿工获三个月撤离期，可转入鲁贝洛斯矿山与建筑工作",
       "memo": "帝国崩落与守护龙：世界设定事实（第480源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6714,7 +6714,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-480-01",
-      "title": "新建立连续性｜第480源章｜1",
+      "title": "以诺同意幼帝",
       "memo": "帝国崩落与守护龙：新建立连续性（第480源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6740,7 +6740,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-480-02",
-      "title": "新建立连续性｜第480源章｜2",
+      "title": "内外分工",
       "memo": "帝国崩落与守护龙：新建立连续性（第480源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6765,7 +6765,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-480-03",
-      "title": "新建立连续性｜第480源章｜3",
+      "title": "迁都鲁贝洛斯",
       "memo": "帝国崩落与守护龙：新建立连续性（第480源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6790,7 +6790,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-480-04",
-      "title": "新建立连续性｜第480源章｜4",
+      "title": "停止低优先挖掘",
       "memo": "帝国崩落与守护龙：新建立连续性（第480源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6815,7 +6815,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-480-01",
-      "title": "未解决事项｜第480源章｜1",
+      "title": "灾民安置｜崩落.(8)",
       "memo": "帝国崩落与守护龙：未解决事项（第480源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6840,7 +6840,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-480-02",
-      "title": "未解决事项｜第480源章｜2",
+      "title": "即位仪式｜崩落.(8)",
       "memo": "帝国崩落与守护龙：未解决事项（第480源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6865,7 +6865,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-480-03",
-      "title": "未解决事项｜第480源章｜3",
+      "title": "贵族反对",
       "memo": "帝国崩落与守护龙：未解决事项（第480源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6890,7 +6890,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-480-01",
-      "title": "主角龙形态｜第480源章｜1",
+      "title": "主角龙形态｜崩落.(8)｜银发牛兽人家庭教师洛伦，以行政顾问身份公开执行幼帝与迁都方案",
       "memo": "帝国崩落与守护龙：主角龙形态（第480源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6915,7 +6915,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-480-01",
-      "title": "主角龙状态｜第480源章｜1",
+      "title": "主角龙状态｜崩落.(8)｜守护龙正式承担幼帝内政，开始把诺亚的鲁贝洛斯基地改造为帝国新首都",
       "memo": "帝国崩落与守护龙：主角龙状态（第480源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6941,7 +6941,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-480-01",
-      "title": "主角龙知识边界｜第480源章｜1",
+      "title": "主角龙知识边界｜崩落.(8)｜诺亚此时只是准备即位，尚未加冕",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第480源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6967,7 +6967,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-481-01",
-      "title": "事件｜第481源章｜1",
+      "title": "数十万灾民中约四分之三肯移民、约两成拒绝、其他不足5%",
       "memo": "帝国崩落与守护龙：事件（第481源章第1条）",
       "category": "event",
       "keys": [
@@ -6992,7 +6992,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-481-02",
-      "title": "事件｜第481源章｜2",
+      "title": "拒迁者在旧城外自建木棚，粮食、猎物和兵力均不足",
       "memo": "帝国崩落与守护龙：事件（第481源章第2条）",
       "category": "event",
       "keys": [
@@ -7018,7 +7018,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-481-03",
-      "title": "事件｜第481源章｜3",
+      "title": "文官再次确认诺亚即位是恢复皇帝领地授予没收权的答案",
       "memo": "帝国崩落与守护龙：事件（第481源章第3条）",
       "category": "event",
       "keys": [
@@ -7044,7 +7044,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-481-01",
-      "title": "世界设定事实｜第481源章｜1",
+      "title": "排除贵族后，灾民约75%以上肯移民、约20%拒迁、其他不足5%",
       "memo": "帝国崩落与守护龙：世界设定事实（第481源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7069,7 +7069,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-481-02",
-      "title": "世界设定事实｜第481源章｜2",
+      "title": "移民支援包括粮财、生命教团朝圣者护送、鲁贝洛斯临时村、工匠商人技能分流和普通农业安置",
       "memo": "帝国崩落与守护龙：世界设定事实（第481源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7094,7 +7094,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-481-03",
-      "title": "世界设定事实｜第481源章｜3",
+      "title": "一年后贵族名望型支援衰减，神殿支援较稳定",
       "memo": "帝国崩落与守护龙：世界设定事实（第481源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7119,7 +7119,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-481-04",
-      "title": "世界设定事实｜第481源章｜4",
+      "title": "无皇帝时领地授予与没收权空缺，以诺只能制止领地战",
       "memo": "帝国崩落与守护龙：世界设定事实（第481源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7145,7 +7145,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-481-05",
-      "title": "世界设定事实｜第481源章｜5",
+      "title": "诺亚无德拉格玛血缘却有继承权，始祖红龙可能反对",
       "memo": "帝国崩落与守护龙：世界设定事实（第481源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -7171,7 +7171,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-481-01",
-      "title": "新建立连续性｜第481源章｜1",
+      "title": "灾民分流方案",
       "memo": "帝国崩落与守护龙：新建立连续性（第481源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7196,7 +7196,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-481-02",
-      "title": "新建立连续性｜第481源章｜2",
+      "title": "始祖红龙交涉准备",
       "memo": "帝国崩落与守护龙：新建立连续性（第481源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7221,7 +7221,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-481-01",
-      "title": "未解决事项｜第481源章｜1",
+      "title": "拒迁者",
       "memo": "帝国崩落与守护龙：未解决事项（第481源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7246,7 +7246,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-481-02",
-      "title": "未解决事项｜第481源章｜2",
+      "title": "始祖龙回应",
       "memo": "帝国崩落与守护龙：未解决事项（第481源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7271,7 +7271,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-481-03",
-      "title": "未解决事项｜第481源章｜3",
+      "title": "即位",
       "memo": "帝国崩落与守护龙：未解决事项（第481源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7296,7 +7296,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-481-01",
-      "title": "主角龙形态｜第481源章｜1",
+      "title": "主角龙形态｜灾民.(1)｜公开牛兽人洛伦处理灾民行政，内在准备以创世神龙本体权限面对始祖红龙",
       "memo": "帝国崩落与守护龙：主角龙形态（第481源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7321,7 +7321,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-481-01",
-      "title": "主角龙状态｜第481源章｜1",
+      "title": "主角龙状态｜灾民.(1)｜守护龙为诺亚即位清理人口与合法性前置问题",
       "memo": "帝国崩落与守护龙：主角龙状态（第481源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7347,7 +7347,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-481-01",
-      "title": "主角龙知识边界｜第481源章｜1",
+      "title": "主角龙知识边界｜灾民.(1)｜红龙尚未出现，洛伦认为可以说服只是准备和判断",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第481源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7372,7 +7372,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-482-01",
-      "title": "事件｜第482源章｜1",
+      "title": "拒迁灾民最终通过武力封锁、劝说、饥饿压力、灵魂传闻及其他不全合法手段全部遣散",
       "memo": "帝国崩落与守护龙：事件（第482源章第1条）",
       "category": "event",
       "keys": [
@@ -7397,7 +7397,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-482-02",
-      "title": "事件｜第482源章｜2",
+      "title": "以诺因天狼星居中便于平息领地纠纷而要求留下",
       "memo": "帝国崩落与守护龙：事件（第482源章第2条）",
       "category": "event",
       "keys": [
@@ -7425,7 +7425,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-482-03",
-      "title": "事件｜第482源章｜3",
+      "title": "洛伦强制要求以诺参加半年后的诺亚即位，并详细警告投毒暗杀",
       "memo": "帝国崩落与守护龙：事件（第482源章第3条）",
       "category": "event",
       "keys": [
@@ -7452,7 +7452,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-482-01",
-      "title": "世界设定事实｜第482源章｜1",
+      "title": "拒迁者由封锁、劝迁、资源条件、鬼魂传闻及未详合法性手段遣散",
       "memo": "帝国崩落与守护龙：世界设定事实（第482源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7477,7 +7477,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-482-02",
-      "title": "世界设定事实｜第482源章｜2",
+      "title": "旧西里乌斯地处帝国中心，适合作为以诺巡回平乱基地",
       "memo": "帝国崩落与守护龙：世界设定事实（第482源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7503,7 +7503,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-482-03",
-      "title": "世界设定事实｜第482源章｜3",
+      "title": "幼年诺亚容易被贵族视为可控制帝国的王冠，但鲁贝洛斯精锐与持不败旗的以诺构成主要威慑",
       "memo": "帝国崩落与守护龙：世界设定事实（第482源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7530,7 +7530,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-482-04",
-      "title": "世界设定事实｜第482源章｜4",
+      "title": "洛伦守护盟约保证诺亚生命，不自动保证其不被控制或不受政治损害",
       "memo": "帝国崩落与守护龙：世界设定事实（第482源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7557,7 +7557,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-482-01",
-      "title": "新建立连续性｜第482源章｜1",
+      "title": "灾民全部遣散",
       "memo": "帝国崩落与守护龙：新建立连续性（第482源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7582,7 +7582,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-482-02",
-      "title": "新建立连续性｜第482源章｜2",
+      "title": "以诺驻守旧都",
       "memo": "帝国崩落与守护龙：新建立连续性（第482源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7608,7 +7608,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-482-03",
-      "title": "新建立连续性｜第482源章｜3",
+      "title": "半年即位期限",
       "memo": "帝国崩落与守护龙：新建立连续性（第482源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7633,7 +7633,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-482-01",
-      "title": "未解决事项｜第482源章｜1",
+      "title": "以诺能否按时返回",
       "memo": "帝国崩落与守护龙：未解决事项（第482源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7659,7 +7659,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-482-02",
-      "title": "未解决事项｜第482源章｜2",
+      "title": "鲁贝洛斯防御",
       "memo": "帝国崩落与守护龙：未解决事项（第482源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7684,7 +7684,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-482-03",
-      "title": "未解决事项｜第482源章｜3",
+      "title": "红龙承认｜灾民.(2)",
       "memo": "帝国崩落与守护龙：未解决事项（第482源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7709,7 +7709,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-482-01",
-      "title": "主角龙形态｜第482源章｜1",
+      "title": "主角龙形态｜灾民.(2)｜公开牛兽人洛伦，以秘书口吻办公、私下以守护者身份训诫以诺",
       "memo": "帝国崩落与守护龙：主角龙形态（第482源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7735,7 +7735,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-482-01",
-      "title": "主角龙状态｜第482源章｜1",
+      "title": "主角龙状态｜灾民.(2)｜守护龙带诺亚返回鲁贝洛斯准备即位",
       "memo": "帝国崩落与守护龙：主角龙状态（第482源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7762,7 +7762,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-482-01",
-      "title": "主角龙知识边界｜第482源章｜1",
+      "title": "主角龙知识边界｜灾民.(2)｜半年后即位尚未发生",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第482源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7787,7 +7787,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-483-01",
-      "title": "事件｜第483源章｜1",
+      "title": "领主在即位前加剧骚动，以诺疲于巡回",
       "memo": "帝国崩落与守护龙：事件（第483源章第1条）",
       "category": "event",
       "keys": [
@@ -7813,7 +7813,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-483-02",
-      "title": "事件｜第483源章｜2",
+      "title": "即位前日以诺仍因德雷克男爵等拥戴皇室旁系、宣称诺亚是假皇帝而未抵达",
       "memo": "帝国崩落与守护龙：事件（第483源章第2条）",
       "category": "event",
       "keys": [
@@ -7840,7 +7840,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-483-03",
-      "title": "事件｜第483源章｜3",
+      "title": "后世确认诺亚·德拉格玛·伊德里斯即位、德拉格玛帝国更名卢贝罗斯帝国并繁荣",
       "memo": "帝国崩落与守护龙：事件（第483源章第3条）",
       "category": "event",
       "keys": [
@@ -7867,7 +7867,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-483-04",
-      "title": "事件｜第483源章｜4",
+      "title": "开国红龙伊格尼斯降临，以龙威质问非血裔僭位",
       "memo": "帝国崩落与守护龙：事件（第483源章第4条）",
       "category": "event",
       "keys": [
@@ -7894,7 +7894,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-483-01",
-      "title": "世界设定事实｜第483源章｜1",
+      "title": "鲁贝洛斯机动兵力为步兵三万、骑兵三千、弓兵五千、其他约两千，多为训练不久新兵",
       "memo": "帝国崩落与守护龙：世界设定事实（第483源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7919,7 +7919,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-483-02",
-      "title": "世界设定事实｜第483源章｜2",
+      "title": "矮人工匠与洛伦制出钢板弹簧缓冲试验马车，可在行驶中睡眠，尚难量产",
       "memo": "帝国崩落与守护龙：世界设定事实（第483源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7944,7 +7944,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-483-03",
-      "title": "世界设定事实｜第483源章｜3",
+      "title": "德雷克男爵一派借其皇室旁系妻子血统反对无德拉格玛血的诺亚，其他贵族观望",
       "memo": "帝国崩落与守护龙：世界设定事实（第483源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7971,7 +7971,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-483-04",
-      "title": "世界设定事实｜第483源章｜4",
+      "title": "诺亚加姓德拉格玛，全名诺亚·德拉格玛·伊德里斯",
       "memo": "帝国崩落与守护龙：世界设定事实（第483源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7998,7 +7998,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-483-05",
-      "title": "世界设定事实｜第483源章｜5",
+      "title": "生命教团高级祭司主持加冕，银色冠冕实际为不朽之冠，当时无人识别",
       "memo": "帝国崩落与守护龙：世界设定事实（第483源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -8025,7 +8025,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-483-01",
-      "title": "新建立连续性｜第483源章｜1",
+      "title": "诺亚加冕",
       "memo": "帝国崩落与守护龙：新建立连续性（第483源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8051,7 +8051,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-483-02",
-      "title": "新建立连续性｜第483源章｜2",
+      "title": "不朽之冠复现",
       "memo": "帝国崩落与守护龙：新建立连续性（第483源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8076,7 +8076,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-483-03",
-      "title": "新建立连续性｜第483源章｜3",
+      "title": "伊格尼斯登场",
       "memo": "帝国崩落与守护龙：新建立连续性（第483源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8102,7 +8102,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-483-04",
-      "title": "新建立连续性｜第483源章｜4",
+      "title": "守护龙谈判",
       "memo": "帝国崩落与守护龙：新建立连续性（第483源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8127,7 +8127,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-483-01",
-      "title": "未解决事项｜第483源章｜1",
+      "title": "红龙承认｜守护龙.(1)",
       "memo": "帝国崩落与守护龙：未解决事项（第483源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8152,7 +8152,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-483-02",
-      "title": "未解决事项｜第483源章｜2",
+      "title": "以诺缺席",
       "memo": "帝国崩落与守护龙：未解决事项（第483源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8178,7 +8178,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-483-03",
-      "title": "未解决事项｜第483源章｜3",
+      "title": "反对贵族",
       "memo": "帝国崩落与守护龙：未解决事项（第483源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8203,7 +8203,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-483-01",
-      "title": "主角龙形态｜第483源章｜1",
+      "title": "主角龙形态｜守护龙.(1)｜公开牛兽人洛伦在即位现场与开国红龙对峙",
       "memo": "帝国崩落与守护龙：主角龙形态（第483源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8228,7 +8228,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-483-01",
-      "title": "主角龙状态｜第483源章｜1",
+      "title": "主角龙状态｜守护龙.(1)｜主龙在幼帝时代的政治身份由家庭教师升级为帝国守护龙的公开前夜",
       "memo": "帝国崩落与守护龙：主角龙状态（第483源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8253,7 +8253,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-483-01",
-      "title": "主角龙知识边界｜第483源章｜1",
+      "title": "主角龙知识边界｜守护龙.(1)｜后世称帝国更名与繁荣是未来结果",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第483源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8281,7 +8281,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-484-01",
-      "title": "事件｜第484源章｜1",
+      "title": "洛伦以恐惧但勇敢的兽人姿态辩护诺亚正统，指出人类国家不应由超越龙直接操控",
       "memo": "帝国崩落与守护龙：事件（第484源章第1条）",
       "category": "event",
       "keys": [
@@ -8308,7 +8308,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-484-02",
-      "title": "事件｜第484源章｜2",
+      "title": "洛伦释放银光、显为比伊格尼斯更巨大的银龙本体",
       "memo": "帝国崩落与守护龙：事件（第484源章第2条）",
       "category": "event",
       "keys": [
@@ -8334,7 +8334,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-484-03",
-      "title": "事件｜第484源章｜3",
+      "title": "伊格尼斯把帝国交给神龙处置并拒绝愿望交换",
       "memo": "帝国崩落与守护龙：事件（第484源章第3条）",
       "category": "event",
       "keys": [
@@ -8361,7 +8361,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-484-01",
-      "title": "世界设定事实｜第484源章｜1",
+      "title": "洛伦释放独属银色气息并由少女形态变为银色巨龙分身体型，虽小于本体但远大于伊格尼斯",
       "memo": "帝国崩落与守护龙：世界设定事实（第484源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8387,7 +8387,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-484-02",
-      "title": "世界设定事实｜第484源章｜2",
+      "title": "洛伦可瞬间召银色魔力锁链束缚伊格尼斯翅、尾、身与颈",
       "memo": "帝国崩落与守护龙：世界设定事实（第484源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8413,7 +8413,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-484-03",
-      "title": "世界设定事实｜第484源章｜3",
+      "title": "伊格尼斯明确放弃对德拉格玛帝国处置权并逃离",
       "memo": "帝国崩落与守护龙：世界设定事实（第484源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8439,7 +8439,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-484-04",
-      "title": "世界设定事实｜第484源章｜4",
+      "title": "即位现场近处只剩洛伦与戴不朽之冠的诺亚清醒，远处可能有人窥视",
       "memo": "帝国崩落与守护龙：世界设定事实（第484源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8465,7 +8465,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-484-01",
-      "title": "新建立连续性｜第484源章｜1",
+      "title": "创世神龙显形",
       "memo": "帝国崩落与守护龙：新建立连续性（第484源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8490,7 +8490,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-484-02",
-      "title": "新建立连续性｜第484源章｜2",
+      "title": "伊格尼斯让渡帝国",
       "memo": "帝国崩落与守护龙：新建立连续性（第484源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8516,7 +8516,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-484-03",
-      "title": "新建立连续性｜第484源章｜3",
+      "title": "诺亚皇位获龙族承认",
       "memo": "帝国崩落与守护龙：新建立连续性（第484源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8542,7 +8542,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-484-01",
-      "title": "未解决事项｜第484源章｜1",
+      "title": "即位现场后续",
       "memo": "帝国崩落与守护龙：未解决事项（第484源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8567,7 +8567,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-484-02",
-      "title": "未解决事项｜第484源章｜2",
+      "title": "反对贵族反应",
       "memo": "帝国崩落与守护龙：未解决事项（第484源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8592,7 +8592,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-484-03",
-      "title": "未解决事项｜第484源章｜3",
+      "title": "以诺到达",
       "memo": "帝国崩落与守护龙：未解决事项（第484源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8618,7 +8618,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-484-01",
-      "title": "主角龙形态｜第484源章｜1",
+      "title": "主角龙形态｜守护龙.(2)｜由银发牛兽人女性显露为庞大银色创世神龙分身",
       "memo": "帝国崩落与守护龙：主角龙形态（第484源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8644,7 +8644,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-484-01",
-      "title": "主角龙状态｜第484源章｜1",
+      "title": "主角龙状态｜守护龙.(2)｜守护龙公开压服德拉格玛始祖，取得帝国合法守护地位并保住诺亚皇位",
       "memo": "帝国崩落与守护龙：主角龙状态（第484源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8670,7 +8670,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-484-01",
-      "title": "主角龙知识边界｜第484源章｜1",
+      "title": "主角龙知识边界｜守护龙.(2)｜显形的是分身而非完整创世本体",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第484源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8696,7 +8696,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-485-01",
-      "title": "事件｜第485源章｜1",
+      "title": "即位现场只有诺亚保持清醒",
       "memo": "帝国崩落与守护龙：事件（第485源章第1条）",
       "category": "event",
       "keys": [
@@ -8722,7 +8722,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-485-02",
-      "title": "事件｜第485源章｜2",
+      "title": "后世传闻把红银双龙解释为真实战斗或两王朝权力隐喻",
       "memo": "帝国崩落与守护龙：事件（第485源章第2条）",
       "category": "event",
       "keys": [
@@ -8747,7 +8747,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-485-03",
-      "title": "事件｜第485源章｜3",
+      "title": "银龙驱走红龙的故事迅速传播，支持德拉格玛残血者失去向心力",
       "memo": "帝国崩落与守护龙：事件（第485源章第3条）",
       "category": "event",
       "keys": [
@@ -8773,7 +8773,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-485-01",
-      "title": "世界设定事实｜第485源章｜1",
+      "title": "洛伦在现场显露的银龙仍非原本体型，已为避免破坏仪式场缩小许多",
       "memo": "帝国崩落与守护龙：世界设定事实（第485源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8798,7 +8798,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-485-02",
-      "title": "世界设定事实｜第485源章｜2",
+      "title": "后世红银双龙传说有真实战斗与王朝隐喻两类",
       "memo": "帝国崩落与守护龙：世界设定事实（第485源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8823,7 +8823,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-485-03",
-      "title": "世界设定事实｜第485源章｜3",
+      "title": "红龙败退、银龙守护皇帝的传闻削弱德拉格玛血统派，成为诺亚帝位正统性和暗杀威慑",
       "memo": "帝国崩落与守护龙：世界设定事实（第485源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8849,7 +8849,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-485-01",
-      "title": "新建立连续性｜第485源章｜1",
+      "title": "诺亚知晓老师龙身",
       "memo": "帝国崩落与守护龙：新建立连续性（第485源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8875,7 +8875,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-485-02",
-      "title": "新建立连续性｜第485源章｜2",
+      "title": "守护龙秘密传承",
       "memo": "帝国崩落与守护龙：新建立连续性（第485源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8900,7 +8900,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-485-03",
-      "title": "新建立连续性｜第485源章｜3",
+      "title": "红银双龙传说",
       "memo": "帝国崩落与守护龙：新建立连续性（第485源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8925,7 +8925,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-485-01",
-      "title": "未解决事项｜第485源章｜1",
+      "title": "意外来访者",
       "memo": "帝国崩落与守护龙：未解决事项（第485源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8950,7 +8950,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-485-02",
-      "title": "未解决事项｜第485源章｜2",
+      "title": "以诺战况",
       "memo": "帝国崩落与守护龙：未解决事项（第485源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8976,7 +8976,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-485-01",
-      "title": "主角龙形态｜第485源章｜1",
+      "title": "主角龙形态｜守护龙.(3)｜银色巨龙分身供诺亚近距离触摸，随后恢复银发牛兽人女性教师形态",
       "memo": "帝国崩落与守护龙：主角龙形态（第485源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9002,7 +9002,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-485-01",
-      "title": "主角龙状态｜第485源章｜1",
+      "title": "主角龙状态｜守护龙.(3)｜守护龙真实身份成为皇帝与其父亲共享的家族秘密，公众只知独立银龙传说",
       "memo": "帝国崩落与守护龙：主角龙状态（第485源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9027,7 +9027,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-485-01",
-      "title": "主角龙知识边界｜第485源章｜1",
+      "title": "主角龙知识边界｜守护龙.(3)｜公众不知牛兽人洛伦就是银龙",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第485源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9052,7 +9052,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-486-01",
-      "title": "事件｜第486源章｜1",
+      "title": "诺亚以皇帝口吻对苏醒宾客宣布银龙赶走红龙，远处目击补足传闻",
       "memo": "帝国崩落与守护龙：事件（第486源章第1条）",
       "category": "event",
       "keys": [
@@ -9079,7 +9079,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-486-02",
-      "title": "事件｜第486源章｜2",
+      "title": "以诺为击溃反对幼帝的领主联军继续冲锋，失去左臂但低死亡取胜并斩德雷克",
       "memo": "帝国崩落与守护龙：事件（第486源章第2条）",
       "category": "event",
       "keys": [
@@ -9105,7 +9105,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-486-03",
-      "title": "事件｜第486源章｜3",
+      "title": "四名蜥蜴人因银龙传闻到访，识出洛伦疑似龙之巫女，判断显形者是创世神龙分身",
       "memo": "帝国崩落与守护龙：事件（第486源章第3条）",
       "category": "event",
       "keys": [
@@ -9130,7 +9130,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-486-01",
-      "title": "世界设定事实｜第486源章｜1",
+      "title": "以诺左臂在乱战中断失且无法找回，治疗完成但普通治疗不能再生",
       "memo": "帝国崩落与守护龙：世界设定事实（第486源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9156,7 +9156,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-486-02",
-      "title": "世界设定事实｜第486源章｜2",
+      "title": "德雷克男爵与反幼帝领主联军被击溃，德雷克被斩",
       "memo": "帝国崩落与守护龙：世界设定事实（第486源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9182,7 +9182,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-486-03",
-      "title": "世界设定事实｜第486源章｜3",
+      "title": "四名蜥蜴人包含疑似两术士两战士",
       "memo": "帝国崩落与守护龙：世界设定事实（第486源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9207,7 +9207,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-486-04",
-      "title": "世界设定事实｜第486源章｜4",
+      "title": "蜥蜴人将神龙分身降临地视作圣地，并主动寻求与诺亚政权友好、协助神龙意志",
       "memo": "帝国崩落与守护龙：世界设定事实（第486源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9233,7 +9233,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-486-01",
-      "title": "新建立连续性｜第486源章｜1",
+      "title": "以诺失左臂",
       "memo": "帝国崩落与守护龙：新建立连续性（第486源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9259,7 +9259,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-486-02",
-      "title": "新建立连续性｜第486源章｜2",
+      "title": "反幼帝联军崩溃",
       "memo": "帝国崩落与守护龙：新建立连续性（第486源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9284,7 +9284,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-486-03",
-      "title": "新建立连续性｜第486源章｜3",
+      "title": "蜥蜴人主动结交",
       "memo": "帝国崩落与守护龙：新建立连续性（第486源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9309,7 +9309,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-486-01",
-      "title": "未解决事项｜第486源章｜1",
+      "title": "义肢",
       "memo": "帝国崩落与守护龙：未解决事项（第486源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9334,7 +9334,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-486-02",
-      "title": "未解决事项｜第486源章｜2",
+      "title": "帝国内部清理",
       "memo": "帝国崩落与守护龙：未解决事项（第486源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9359,7 +9359,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-486-03",
-      "title": "未解决事项｜第486源章｜3",
+      "title": "蜥蜴外交结果",
       "memo": "帝国崩落与守护龙：未解决事项（第486源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9384,7 +9384,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-486-01",
-      "title": "主角龙形态｜第486源章｜1",
+      "title": "主角龙形态｜守护龙.(4)｜以牛兽人少女洛伦接见蜥蜴人，银发和角令其被识为龙之巫女",
       "memo": "帝国崩落与守护龙：主角龙形态（第486源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9409,7 +9409,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-486-01",
-      "title": "主角龙状态｜第486源章｜1",
+      "title": "主角龙状态｜守护龙.(4)｜守护龙传闻开始转化为蜥蜴人外交支持，同时与以诺的私人守护已明确结束",
       "memo": "帝国崩落与守护龙：主角龙状态（第486源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9435,7 +9435,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-486-01",
-      "title": "主角龙知识边界｜第486源章｜1",
+      "title": "主角龙知识边界｜守护龙.(4)｜南罗马尼亚是否介入联军只是猜测",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第486源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9460,7 +9460,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-487-01",
-      "title": "事件｜第487源章｜1",
+      "title": "蜥蜴人友好和创世神龙证言强化诺亚传闻",
       "memo": "帝国崩落与守护龙：事件（第487源章第1条）",
       "category": "event",
       "keys": [
@@ -9487,7 +9487,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-487-02",
-      "title": "事件｜第487源章｜2",
+      "title": "二人决定先清除反对幼帝残余，以皇帝命令替代以诺全境奔波",
       "memo": "帝国崩落与守护龙：事件（第487源章第2条）",
       "category": "event",
       "keys": [
@@ -9513,7 +9513,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-487-03",
-      "title": "事件｜第487源章｜3",
+      "title": "以诺担心生命女神被误作创世神龙，才得知创世神龙，盖亚",
       "memo": "帝国崩落与守护龙：事件（第487源章第3条）",
       "category": "event",
       "keys": [
@@ -9539,7 +9539,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-487-01",
-      "title": "世界设定事实｜第487源章｜1",
+      "title": "以诺银色金属义肢能接近原臂功能且很坚固，但感觉略迟钝",
       "memo": "帝国崩落与守护龙：世界设定事实（第487源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9565,7 +9565,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-487-02",
-      "title": "世界设定事实｜第487源章｜2",
+      "title": "诺亚皇帝印章命令可替代以诺亲自巡行，公开拒令者才需军力镇压",
       "memo": "帝国崩落与守护龙：世界设定事实（第487源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9592,7 +9592,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-487-03",
-      "title": "世界设定事实｜第487源章｜3",
+      "title": "以诺已四十多岁，需培养能指挥军队的接班人或退居后方",
       "memo": "帝国崩落与守护龙：世界设定事实（第487源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9618,7 +9618,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-487-04",
-      "title": "世界设定事实｜第487源章｜4",
+      "title": "生命女神、盖亚、创世神龙与皇帝守护龙都是同一存在在不同群体认知下的身份，不是多个角色",
       "memo": "帝国崩落与守护龙：世界设定事实（第487源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9643,7 +9643,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-487-01",
-      "title": "新建立连续性｜第487源章｜1",
+      "title": "以诺金属义肢",
       "memo": "帝国崩落与守护龙：新建立连续性（第487源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9669,7 +9669,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-487-02",
-      "title": "新建立连续性｜第487源章｜2",
+      "title": "以诺退休议题",
       "memo": "帝国崩落与守护龙：新建立连续性（第487源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9695,7 +9695,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-487-03",
-      "title": "新建立连续性｜第487源章｜3",
+      "title": "多神名同一身份",
       "memo": "帝国崩落与守护龙：新建立连续性（第487源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9720,7 +9720,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-487-01",
-      "title": "未解决事项｜第487源章｜1",
+      "title": "军事接班人",
       "memo": "帝国崩落与守护龙：未解决事项（第487源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9745,7 +9745,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-487-02",
-      "title": "未解决事项｜第487源章｜2",
+      "title": "内部清理",
       "memo": "帝国崩落与守护龙：未解决事项（第487源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9770,7 +9770,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-487-03",
-      "title": "未解决事项｜第487源章｜3",
+      "title": "未来皇子冲突",
       "memo": "帝国崩落与守护龙：未解决事项（第487源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9795,7 +9795,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-487-01",
-      "title": "主角龙形态｜第487源章｜1",
+      "title": "主角龙形态｜守护龙.(5)｜公开牛兽人洛伦",
       "memo": "帝国崩落与守护龙：主角龙形态（第487源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9820,7 +9820,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-487-01",
-      "title": "主角龙状态｜第487源章｜1",
+      "title": "主角龙状态｜守护龙.(5)｜守护龙从秘密家族盟约转为帝国制度与跨种族信仰共同承认的公共象征",
       "memo": "帝国崩落与守护龙：主角龙状态（第487源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9845,7 +9845,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-487-01",
-      "title": "主角龙知识边界｜第487源章｜1",
+      "title": "主角龙知识边界｜守护龙.(5)｜守护龙名号是新形成",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第487源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9870,7 +9870,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-488-01",
-      "title": "事件｜第488源章｜1",
+      "title": "诺亚皇权让反对派在煽动下内斗、中立领主倒向幼帝",
       "memo": "帝国崩落与守护龙：事件（第488源章第1条）",
       "category": "event",
       "keys": [
@@ -9897,7 +9897,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-488-02",
-      "title": "事件｜第488源章｜2",
+      "title": "守护龙传闻被保留为暗杀威慑",
       "memo": "帝国崩落与守护龙：事件（第488源章第2条）",
       "category": "event",
       "keys": [
@@ -9922,7 +9922,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-488-03",
-      "title": "事件｜第488源章｜3",
+      "title": "以诺建议把艾里克、爱丽丝后裔获银龙守护的事实纳入传闻",
       "memo": "帝国崩落与守护龙：事件（第488源章第3条）",
       "category": "event",
       "keys": [
@@ -9949,7 +9949,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-488-04",
-      "title": "事件｜第488源章｜4",
+      "title": "后世片段中一名未具名青年企图独占守护龙、铲除善良兄长与父母",
       "memo": "帝国崩落与守护龙：事件（第488源章第4条）",
       "category": "event",
       "keys": [
@@ -9975,7 +9975,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-488-01",
-      "title": "世界设定事实｜第488源章｜1",
+      "title": "诺亚即位后反对派内斗、中立领主归顺",
       "memo": "帝国崩落与守护龙：世界设定事实（第488源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10001,7 +10001,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-488-02",
-      "title": "世界设定事实｜第488源章｜2",
+      "title": "守护龙传闻将与艾里克、爱丽丝功绩及其后裔盟约结合",
       "memo": "帝国崩落与守护龙：世界设定事实（第488源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10027,7 +10027,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-488-03",
-      "title": "世界设定事实｜第488源章｜3",
+      "title": "洛伦的人形因银发龙角易被认作龙之巫女，以假牛尾掩饰",
       "memo": "帝国崩落与守护龙：世界设定事实（第488源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10052,7 +10052,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-488-04",
-      "title": "世界设定事实｜第488源章｜4",
+      "title": "本章结尾跳至未标明年代的未来守护龙评判皇位候选场景",
       "memo": "帝国崩落与守护龙：世界设定事实（第488源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10077,7 +10077,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-488-01",
-      "title": "新建立连续性｜第488源章｜1",
+      "title": "中立派被接纳",
       "memo": "帝国崩落与守护龙：新建立连续性（第488源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10102,7 +10102,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-488-02",
-      "title": "新建立连续性｜第488源章｜2",
+      "title": "守护龙祖先传闻固化",
       "memo": "帝国崩落与守护龙：新建立连续性（第488源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10127,7 +10127,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-488-03",
-      "title": "新建立连续性｜第488源章｜3",
+      "title": "灾变调查启动",
       "memo": "帝国崩落与守护龙：新建立连续性（第488源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10152,7 +10152,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-488-04",
-      "title": "新建立连续性｜第488源章｜4",
+      "title": "未来皇位评判预示",
       "memo": "帝国崩落与守护龙：新建立连续性（第488源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10177,7 +10177,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-488-01",
-      "title": "未解决事项｜第488源章｜1",
+      "title": "爆炸真相",
       "memo": "帝国崩落与守护龙：未解决事项（第488源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10202,7 +10202,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-488-02",
-      "title": "未解决事项｜第488源章｜2",
+      "title": "未来青年身份",
       "memo": "帝国崩落与守护龙：未解决事项（第488源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10227,7 +10227,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-488-03",
-      "title": "未解决事项｜第488源章｜3",
+      "title": "诺亚成年改革",
       "memo": "帝国崩落与守护龙：未解决事项（第488源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10253,7 +10253,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-488-01",
-      "title": "主角龙形态｜第488源章｜1",
+      "title": "主角龙形态｜守护龙.(6)｜当前为牛兽人教师与隐秘银龙",
       "memo": "帝国崩落与守护龙：主角龙形态（第488源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10278,7 +10278,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-488-01",
-      "title": "主角龙状态｜第488源章｜1",
+      "title": "主角龙状态｜守护龙.(6)｜守护龙传说被制度化，并预示将跨多代评判皇帝资格",
       "memo": "帝国崩落与守护龙：主角龙状态（第488源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10303,7 +10303,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-488-01",
-      "title": "主角龙知识边界｜第488源章｜1",
+      "title": "主角龙知识边界｜守护龙.(6)｜未来青年身份未揭晓，不能误配为诺亚或其已知孩子",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第488源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10329,7 +10329,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-489-01",
-      "title": "事件｜第489源章｜1",
+      "title": "洛伦独自飞到封锁的旧西里乌斯，暂离诺亚培养其独立",
       "memo": "帝国崩落与守护龙：事件（第489源章第1条）",
       "category": "event",
       "keys": [
@@ -10355,7 +10355,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-489-02",
-      "title": "事件｜第489源章｜2",
+      "title": "幸存者求生意志碎片与魔力结合成近亡灵存在，主人仍活着",
       "memo": "帝国崩落与守护龙：事件（第489源章第2条）",
       "category": "event",
       "keys": [
@@ -10380,7 +10380,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-489-03",
-      "title": "事件｜第489源章｜3",
+      "title": "爆炸中心是皇城小石屋与洛伦旧盖亚石像",
       "memo": "帝国崩落与守护龙：事件（第489源章第3条）",
       "category": "event",
       "keys": [
@@ -10405,7 +10405,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-489-04",
-      "title": "事件｜第489源章｜4",
+      "title": "石像仍持续放出让罗马尼亚大地丰饶的魔力，不能销毁也不能放任",
       "memo": "帝国崩落与守护龙：事件（第489源章第4条）",
       "category": "event",
       "keys": [
@@ -10430,7 +10430,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-489-01",
-      "title": "世界设定事实｜第489源章｜1",
+      "title": "封闭地下旧城魔力循环淤积，浓度高于地面并促生异常现象",
       "memo": "帝国崩落与守护龙：世界设定事实（第489源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10455,7 +10455,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-489-02",
-      "title": "世界设定事实｜第489源章｜2",
+      "title": "活人极强求生意志碎片可在浓魔力中形成近亡灵存在，与死者灵魂变质不同",
       "memo": "帝国崩落与守护龙：世界设定事实（第489源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10480,7 +10480,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-489-03",
-      "title": "世界设定事实｜第489源章｜3",
+      "title": "爆炸源头为皇城花园小石屋内盖亚旧石像",
       "memo": "帝国崩落与守护龙：世界设定事实（第489源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10505,7 +10505,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-489-04",
-      "title": "世界设定事实｜第489源章｜4",
+      "title": "石像力量维持罗马尼亚大地丰饶",
       "memo": "帝国崩落与守护龙：世界设定事实（第489源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10530,7 +10530,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-489-01",
-      "title": "新建立连续性｜第489源章｜1",
+      "title": "爆炸源头盖亚石像",
       "memo": "帝国崩落与守护龙：新建立连续性（第489源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10555,7 +10555,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-489-02",
-      "title": "新建立连续性｜第489源章｜2",
+      "title": "地下魔力淤积",
       "memo": "帝国崩落与守护龙：新建立连续性（第489源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10580,7 +10580,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-489-03",
-      "title": "新建立连续性｜第489源章｜3",
+      "title": "地下城封藏计划",
       "memo": "帝国崩落与守护龙：新建立连续性（第489源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10605,7 +10605,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-489-01",
-      "title": "未解决事项｜第489源章｜1",
+      "title": "主使身份",
       "memo": "帝国崩落与守护龙：未解决事项（第489源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10630,7 +10630,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-489-02",
-      "title": "未解决事项｜第489源章｜2",
+      "title": "石像魔力化解",
       "memo": "帝国崩落与守护龙：未解决事项（第489源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10655,7 +10655,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-489-03",
-      "title": "未解决事项｜第489源章｜3",
+      "title": "地下城设计",
       "memo": "帝国崩落与守护龙：未解决事项（第489源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10680,7 +10680,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-489-01",
-      "title": "主角龙形态｜第489源章｜1",
+      "title": "主角龙形态｜爆炸中心.｜洛伦独自飞行进入地下，主要以可操作魔力与亚空间的神女形态调查",
       "memo": "帝国崩落与守护龙：主角龙形态（第489源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10705,7 +10705,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-489-01",
-      "title": "主角龙状态｜第489源章｜1",
+      "title": "主角龙状态｜爆炸中心.｜守护龙暂离诺亚，把旧时代盖亚肉身转化为新时代地下城基础设施",
       "memo": "帝国崩落与守护龙：主角龙状态（第489源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10731,7 +10731,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-489-01",
-      "title": "主角龙知识边界｜第489源章｜1",
+      "title": "主角龙知识边界｜爆炸中心.｜墙坝模型、主使会再犯均是推测",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第489源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10756,7 +10756,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-490-01",
-      "title": "事件｜第490源章｜1",
+      "title": "洛伦询问德莫尼卡魔贤者后得知地下城亚空间有扩张极限",
       "memo": "帝国崩落与守护龙：事件（第490源章第1条）",
       "category": "event",
       "keys": [
@@ -10782,7 +10782,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-490-02",
-      "title": "事件｜第490源章｜2",
+      "title": "本体制作可由魔族复制的原型：魔力只能经女神像使用，强抽会引发体内剧痛",
       "memo": "帝国崩落与守护龙：事件（第490源章第2条）",
       "category": "event",
       "keys": [
@@ -10807,7 +10807,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-490-03",
-      "title": "事件｜第490源章｜3",
+      "title": "女神像还提供祈祷回入口、饮水疗伤但以真实剧烈饥饿为代价",
       "memo": "帝国崩落与守护龙：事件（第490源章第3条）",
       "category": "event",
       "keys": [
@@ -10832,7 +10832,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-490-01",
-      "title": "世界设定事实｜第490源章｜1",
+      "title": "地下城亚空间有面积极限，接近极限会不稳定",
       "memo": "帝国崩落与守护龙：世界设定事实（第490源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10857,7 +10857,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-490-02",
-      "title": "世界设定事实｜第490源章｜2",
+      "title": "复制女神像连接原像取魔力，魔力限用于像本身",
       "memo": "帝国崩落与守护龙：世界设定事实（第490源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10882,7 +10882,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-490-03",
-      "title": "世界设定事实｜第490源章｜3",
+      "title": "祈祷可从新增楼层返回入口",
       "memo": "帝国崩落与守护龙：世界设定事实（第490源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10907,7 +10907,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-490-01",
-      "title": "新建立连续性｜第490源章｜1",
+      "title": "女神像原型",
       "memo": "帝国崩落与守护龙：新建立连续性（第490源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10932,7 +10932,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-490-02",
-      "title": "新建立连续性｜第490源章｜2",
+      "title": "地下城多层扩张",
       "memo": "帝国崩落与守护龙：新建立连续性（第490源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10957,7 +10957,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-490-03",
-      "title": "新建立连续性｜第490源章｜3",
+      "title": "祈祷回城",
       "memo": "帝国崩落与守护龙：新建立连续性（第490源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10982,7 +10982,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-490-04",
-      "title": "新建立连续性｜第490源章｜4",
+      "title": "饥饿治愈",
       "memo": "帝国崩落与守护龙：新建立连续性（第490源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11007,7 +11007,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-490-01",
-      "title": "未解决事项｜第490源章｜1",
+      "title": "可复制性",
       "memo": "帝国崩落与守护龙：未解决事项（第490源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11032,7 +11032,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-490-02",
-      "title": "未解决事项｜第490源章｜2",
+      "title": "试点效果",
       "memo": "帝国崩落与守护龙：未解决事项（第490源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11057,7 +11057,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-490-03",
-      "title": "未解决事项｜第490源章｜3",
+      "title": "天狼星本体保护",
       "memo": "帝国崩落与守护龙：未解决事项（第490源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11082,7 +11082,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-490-01",
-      "title": "主角龙形态｜第490源章｜1",
+      "title": "主角龙形态｜女神像.(1)｜本体生命女神在德莫尼卡设计女神像，分身已回鲁贝洛斯继续人形工作",
       "memo": "帝国崩落与守护龙：主角龙形态（第490源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11107,7 +11107,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-490-01",
-      "title": "主角龙状态｜第490源章｜1",
+      "title": "主角龙状态｜女神像.(1)｜守护龙把盖亚遗物从帝国土地恩泽扩展为全球地下城基础设施",
       "memo": "帝国崩落与守护龙：主角龙状态（第490源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11132,7 +11132,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-490-01",
-      "title": "主角龙知识边界｜第490源章｜1",
+      "title": "主角龙知识边界｜女神像.(1)｜本章只是样品设计，尚未证明魔族能制造或功能长期安全",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第490源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11157,7 +11157,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-491-01",
-      "title": "事件｜第491源章｜1",
+      "title": "魔贤者无法复制跨距取神力部分，反证爆炸技术极高",
       "memo": "帝国崩落与守护龙：事件（第491源章第1条）",
       "category": "event",
       "keys": [
@@ -11183,7 +11183,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-491-02",
-      "title": "事件｜第491源章｜2",
+      "title": "后世丰饶女神像位于新楼层入口，可祈祷回地下城出口，治愈泉以剧烈饥饿为代价",
       "memo": "帝国崩落与守护龙：事件（第491源章第2条）",
       "category": "event",
       "keys": [
@@ -11208,7 +11208,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-491-03",
-      "title": "事件｜第491源章｜3",
+      "title": "偷盗破坏像会遭反噬、怪物袭击或楼层空间不稳蒸发",
       "memo": "帝国崩落与守护龙：事件（第491源章第3条）",
       "category": "event",
       "keys": [
@@ -11233,7 +11233,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-491-01",
-      "title": "世界设定事实｜第491源章｜1",
+      "title": "跨遥远距离实时抽取含神意魔力，魔贤者也无法直接实现",
       "memo": "帝国崩落与守护龙：世界设定事实（第491源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11259,7 +11259,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-491-02",
-      "title": "世界设定事实｜第491源章｜2",
+      "title": "后世丰饶女神像标志新楼层、传送入口、提供局部治愈泉并排斥周围怪物",
       "memo": "帝国崩落与守护龙：世界设定事实（第491源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11284,7 +11284,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-491-03",
-      "title": "世界设定事实｜第491源章｜3",
+      "title": "破坏或搬移女神像可能导致流血死亡、怪物袭击或楼层空间夹缝蒸发，确有幸存证言",
       "memo": "帝国崩落与守护龙：世界设定事实（第491源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11309,7 +11309,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-491-01",
-      "title": "新建立连续性｜第491源章｜1",
+      "title": "女神像量产架构",
       "memo": "帝国崩落与守护龙：新建立连续性（第491源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11334,7 +11334,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-491-02",
-      "title": "新建立连续性｜第491源章｜2",
+      "title": "丰饶女神像指南",
       "memo": "帝国崩落与守护龙：新建立连续性（第491源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11359,7 +11359,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-491-03",
-      "title": "新建立连续性｜第491源章｜3",
+      "title": "搬移反噬",
       "memo": "帝国崩落与守护龙：新建立连续性（第491源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11384,7 +11384,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-491-01",
-      "title": "未解决事项｜第491源章｜1",
+      "title": "试点",
       "memo": "帝国崩落与守护龙：未解决事项（第491源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11409,7 +11409,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-491-02",
-      "title": "未解决事项｜第491源章｜2",
+      "title": "地下城主反应",
       "memo": "帝国崩落与守护龙：未解决事项（第491源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11434,7 +11434,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-491-03",
-      "title": "未解决事项｜第491源章｜3",
+      "title": "农业影响",
       "memo": "帝国崩落与守护龙：未解决事项（第491源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11459,7 +11459,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-491-01",
-      "title": "主角龙形态｜第491源章｜1",
+      "title": "主角龙形态｜女神像.(2)｜生命女神本体与魔贤者协作，地上守护龙形态不直接出现",
       "memo": "帝国崩落与守护龙：主角龙形态（第491源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11485,7 +11485,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-491-01",
-      "title": "主角龙状态｜第491源章｜1",
+      "title": "主角龙状态｜女神像.(2)｜守护龙遗留力量被封装为只能通过受控亚空间使用的公共设施",
       "memo": "帝国崩落与守护龙：主角龙状态（第491源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11510,7 +11510,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-491-01",
-      "title": "主角龙知识边界｜第491源章｜1",
+      "title": "主角龙知识边界｜女神像.(2)｜指南称丰饶女神慈爱是后世解释",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第491源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11535,7 +11535,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-492-01",
-      "title": "事件｜第492源章｜1",
+      "title": "女神像以一月试点后付DP方式推广，地下城主虽嫌冒险者生存率提升仍因新楼层需求抢购",
       "memo": "帝国崩落与守护龙：事件（第492源章第1条）",
       "category": "event",
       "keys": [
@@ -11560,7 +11560,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-492-02",
-      "title": "事件｜第492源章｜2",
+      "title": "回城祈祷需双手合十，迫使冒险者从搬满素材改为轻装猎取高价值素材并快速撤离",
       "memo": "帝国崩落与守护龙：事件（第492源章第2条）",
       "category": "event",
       "keys": [
@@ -11585,7 +11585,7 @@
     },
     {
       "id": "era-23-guardian-dragon-event-492-03",
-      "title": "事件｜第492源章｜3",
+      "title": "女神像扩张带来地下城复兴，但当年农收降至去年的约90%",
       "memo": "帝国崩落与守护龙：事件（第492源章第3条）",
       "category": "event",
       "keys": [
@@ -11610,7 +11610,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-492-01",
-      "title": "世界设定事实｜第492源章｜1",
+      "title": "女神像试点一月后以DP购买，需求超过产量",
       "memo": "帝国崩落与守护龙：世界设定事实（第492源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11635,7 +11635,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-492-02",
-      "title": "世界设定事实｜第492源章｜2",
+      "title": "回城祈祷需空双手，改变冒险者刷怪为高价值轻装撤离",
       "memo": "帝国崩落与守护龙：世界设定事实（第492源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11660,7 +11660,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-492-03",
-      "title": "世界设定事实｜第492源章｜3",
+      "title": "女神像楼层怪物成长变异增加",
       "memo": "帝国崩落与守护龙：世界设定事实（第492源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11685,7 +11685,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-492-04",
-      "title": "世界设定事实｜第492源章｜4",
+      "title": "当年农作物约为去年90%，推断与原盖亚像丰饶功能失常及魔力分流有关",
       "memo": "帝国崩落与守护龙：世界设定事实（第492源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11710,7 +11710,7 @@
     },
     {
       "id": "era-23-guardian-dragon-world-fact-492-05",
-      "title": "世界设定事实｜第492源章｜5",
+      "title": "幼帝初期不加税，改为准备粮食储备",
       "memo": "帝国崩落与守护龙：世界设定事实（第492源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -11735,7 +11735,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-492-01",
-      "title": "新建立连续性｜第492源章｜1",
+      "title": "女神像普及",
       "memo": "帝国崩落与守护龙：新建立连续性（第492源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11760,7 +11760,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-492-02",
-      "title": "新建立连续性｜第492源章｜2",
+      "title": "冒险Meta改变",
       "memo": "帝国崩落与守护龙：新建立连续性（第492源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11785,7 +11785,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-492-03",
-      "title": "新建立连续性｜第492源章｜3",
+      "title": "农业减产",
       "memo": "帝国崩落与守护龙：新建立连续性（第492源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11810,7 +11810,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-492-04",
-      "title": "新建立连续性｜第492源章｜4",
+      "title": "粮食储备",
       "memo": "帝国崩落与守护龙：新建立连续性（第492源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11835,7 +11835,7 @@
     },
     {
       "id": "era-23-guardian-dragon-continuity-new-492-05",
-      "title": "新建立连续性｜第492源章｜5",
+      "title": "南罗马尼亚风险",
       "memo": "帝国崩落与守护龙：新建立连续性（第492源章第5条）",
       "category": "continuity",
       "keys": [
@@ -11860,7 +11860,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-492-01",
-      "title": "未解决事项｜第492源章｜1",
+      "title": "丰饶修复",
       "memo": "帝国崩落与守护龙：未解决事项（第492源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11885,7 +11885,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-492-02",
-      "title": "未解决事项｜第492源章｜2",
+      "title": "南方实际减产",
       "memo": "帝国崩落与守护龙：未解决事项（第492源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11910,7 +11910,7 @@
     },
     {
       "id": "era-23-guardian-dragon-unresolved-492-03",
-      "title": "未解决事项｜第492源章｜3",
+      "title": "试炼地下城",
       "memo": "帝国崩落与守护龙：未解决事项（第492源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11935,7 +11935,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-form-492-01",
-      "title": "主角龙形态｜第492源章｜1",
+      "title": "主角龙形态｜女神像。(3)｜生命女神本体监测地下城系统与帝国农业，分身在鲁贝洛斯继续守护诺亚",
       "memo": "帝国崩落与守护龙：主角龙形态（第492源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11961,7 +11961,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-state-492-01",
-      "title": "主角龙状态｜第492源章｜1",
+      "title": "主角龙状态｜女神像。(3)｜守护龙的旧盖亚力量产生文明级收益和粮食副作用",
       "memo": "帝国崩落与守护龙：主角龙状态（第492源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11986,7 +11986,7 @@
     },
     {
       "id": "era-23-guardian-dragon-protagonist-knowledge-492-01",
-      "title": "主角龙知识边界｜第492源章｜1",
+      "title": "主角龙知识边界｜女神像。(3)｜农业减产因果为强推断，南罗马尼亚情况未验证",
       "memo": "帝国崩落与守护龙：主角龙知识边界（第492源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12011,7 +12011,7 @@
     },
     {
       "id": "era-23-guardian-dragon-secondary-character-01",
-      "title": "次要人物｜魔贤者",
+      "title": "魔贤者",
       "memo": "帝国崩落与守护龙：次要人物 魔贤者",
       "category": "secondary-character",
       "keys": [
@@ -12043,7 +12043,7 @@
     },
     {
       "id": "era-23-guardian-dragon-secondary-character-02",
-      "title": "次要人物｜以莉亚·伊德里斯",
+      "title": "以莉亚·伊德里斯",
       "memo": "帝国崩落与守护龙：次要人物 以莉亚·伊德里斯",
       "category": "secondary-character",
       "keys": [

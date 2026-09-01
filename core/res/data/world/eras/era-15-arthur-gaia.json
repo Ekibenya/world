@@ -3373,7 +3373,7 @@
   "lorebook": [
     {
       "id": "era-15-arthur-gaia-core",
-      "title": "帝国、亚瑟与盖亚｜时代边界",
+      "title": "帝国、亚瑟与盖亚",
       "memo": "帝国、亚瑟与盖亚：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3388,7 +3388,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-254-01",
-      "title": "事件｜第254源章｜1",
+      "title": "蒂雅发布信仰自由启示后解剖食人魔，确认其龙兽级魔石和大量黑暗碎片",
       "memo": "帝国、亚瑟与盖亚：事件（第254源章第1条）",
       "category": "event",
       "keys": [
@@ -3414,7 +3414,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-254-02",
-      "title": "事件｜第254源章｜2",
+      "title": "卢修斯退位巡国后活至117岁，其曾孙将罗马尼亚王国改称帝国",
       "memo": "帝国、亚瑟与盖亚：事件（第254源章第2条）",
       "category": "event",
       "keys": [
@@ -3440,7 +3440,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-254-03",
-      "title": "事件｜第254源章｜3",
+      "title": "蒂雅把神务交给阿谢拉特，在神殿与已获独立肉体的哈迪斯同住",
       "memo": "帝国、亚瑟与盖亚：事件（第254源章第3条）",
       "category": "event",
       "keys": [
@@ -3469,7 +3469,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-254-01",
-      "title": "世界设定事实｜第254源章｜1",
+      "title": "食人魔钢骨、韧皮、大内脏与低效光合支撑龙兽级战力",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第254源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3494,7 +3494,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-254-02",
-      "title": "世界设定事实｜第254源章｜2",
+      "title": "卢修斯117岁去世",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第254源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3520,7 +3520,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-254-03",
-      "title": "世界设定事实｜第254源章｜3",
+      "title": "万神殿众神因信仰自由得到多源信仰，由天狼星及十二位神明看守",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第254源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3545,7 +3545,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-254-01",
-      "title": "新建立连续性｜第254源章｜1",
+      "title": "罗马尼亚帝国",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第254源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3570,7 +3570,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-254-02",
-      "title": "新建立连续性｜第254源章｜2",
+      "title": "凯泽称号",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第254源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3595,7 +3595,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-254-03",
-      "title": "新建立连续性｜第254源章｜3",
+      "title": "哈迪斯独立肉体",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第254源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3621,7 +3621,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-254-04",
-      "title": "新建立连续性｜第254源章｜4",
+      "title": "贤者新访客",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第254源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3646,7 +3646,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-254-01",
-      "title": "未解决事项｜第254源章｜1",
+      "title": "地下创造者肉体计划",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第254源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3671,7 +3671,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-254-02",
-      "title": "未解决事项｜第254源章｜2",
+      "title": "来访者目的",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第254源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3696,7 +3696,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-254-01",
-      "title": "主角龙形态｜第254源章｜1",
+      "title": "主角龙形态｜帝国.(1)｜神殿中的大角银发少女本体，同时远程连接石质深林贤者躯体",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第254源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3722,7 +3722,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-254-01",
-      "title": "主角龙状态｜第254源章｜1",
+      "title": "主角龙状态｜帝国.(1)｜自称家里蹲女神，却因访客再度启动贤者",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第254源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3747,7 +3747,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-254-01",
-      "title": "主角龙知识边界｜第254源章｜1",
+      "title": "主角龙知识边界｜帝国.(1)｜只推测地下创造者目的，地底深处仍是其视野盲区",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第254源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3772,7 +3772,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-255-01",
-      "title": "事件｜第255源章｜1",
+      "title": "阿谢拉特与哈迪斯识破蒂雅想装作无事，逼她处理数十年来首次贤者访客",
       "memo": "帝国、亚瑟与盖亚：事件（第255源章第1条）",
       "category": "event",
       "keys": [
@@ -3800,7 +3800,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-255-02",
-      "title": "事件｜第255源章｜2",
+      "title": "衣着高贵却狼狈的少年背着病弱少女穿过寻贤结界，追兵因无寻贤目的被传出森林",
       "memo": "帝国、亚瑟与盖亚：事件（第255源章第2条）",
       "category": "event",
       "keys": [
@@ -3825,7 +3825,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-255-03",
-      "title": "事件｜第255源章｜3",
+      "title": "自称亚瑟与薇薇安的兄妹求助",
       "memo": "帝国、亚瑟与盖亚：事件（第255源章第3条）",
       "category": "event",
       "keys": [
@@ -3854,7 +3854,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-255-01",
-      "title": "世界设定事实｜第255源章｜1",
+      "title": "深林结界只允许明确寻求贤者者深入，否则从森林另一出口被转移出去",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第255源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3879,7 +3879,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-255-02",
-      "title": "世界设定事实｜第255源章｜2",
+      "title": "薇薇安体内长期积毒，继承初代勇者女儿血脉与封印魔力，具龙族巫女潜能",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第255源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3907,7 +3907,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-255-01",
-      "title": "新建立连续性｜第255源章｜1",
+      "title": "亚瑟",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第255源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3933,7 +3933,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-255-02",
-      "title": "新建立连续性｜第255源章｜2",
+      "title": "薇薇安",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第255源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3960,7 +3960,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-255-03",
-      "title": "新建立连续性｜第255源章｜3",
+      "title": "皇族追兵",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第255源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3985,7 +3985,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-255-04",
-      "title": "新建立连续性｜第255源章｜4",
+      "title": "新龙族巫女资质",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第255源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4011,7 +4011,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-255-01",
-      "title": "未解决事项｜第255源章｜1",
+      "title": "兄妹真名",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第255源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4036,7 +4036,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-255-02",
-      "title": "未解决事项｜第255源章｜2",
+      "title": "皇位危机",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第255源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4061,7 +4061,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-255-03",
-      "title": "未解决事项｜第255源章｜3",
+      "title": "薇薇安治疗选择",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第255源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4088,7 +4088,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-255-01",
-      "title": "主角龙形态｜第255源章｜1",
+      "title": "主角龙形态｜帝国.(2)｜神殿本体远程操控苔藓石屋中的岩石贤者",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第255源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4113,7 +4113,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-255-01",
-      "title": "主角龙状态｜第255源章｜1",
+      "title": "主角龙状态｜帝国.(2)｜重新承担深林贤者身份并检查逃亡兄妹",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第255源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4139,7 +4139,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-255-01",
-      "title": "主角龙知识边界｜第255源章｜1",
+      "title": "主角龙知识边界｜帝国.(2)｜已看出高贵出身和追杀，却还不知道真实皇族身份、下毒者与诉求",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第255源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4164,7 +4164,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-256-01",
-      "title": "事件｜第256源章｜1",
+      "title": "贤者解释薇薇安可觉醒为龙族巫女、重塑健康肉体，或仅接受会复发的临时治疗",
       "memo": "帝国、亚瑟与盖亚：事件（第256源章第1条）",
       "category": "event",
       "keys": [
@@ -4193,7 +4193,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-256-02",
-      "title": "事件｜第256源章｜2",
+      "title": "蒂雅以生命教团庇护试探亚瑟，察觉其复仇心并以不说实话就不帮助迫使坦白",
       "memo": "帝国、亚瑟与盖亚：事件（第256源章第2条）",
       "category": "event",
       "keys": [
@@ -4220,7 +4220,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-256-03",
-      "title": "事件｜第256源章｜3",
+      "title": "亚瑟揭露本名卢修斯·阿尔特留斯三世和皇太子身份",
       "memo": "帝国、亚瑟与盖亚：事件（第256源章第3条）",
       "category": "event",
       "keys": [
@@ -4249,7 +4249,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-256-01",
-      "title": "世界设定事实｜第256源章｜1",
+      "title": "薇薇安死时封印会解除、魔力驱毒并重塑肉体",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第256源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4277,7 +4277,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-256-02",
-      "title": "世界设定事实｜第256源章｜2",
+      "title": "新龙族巫女可获生命教团最高层级庇护和皇族般生活",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第256源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4303,7 +4303,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-256-01",
-      "title": "新建立连续性｜第256源章｜1",
+      "title": "卢修斯三世真名",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第256源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4329,7 +4329,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-256-02",
-      "title": "新建立连续性｜第256源章｜2",
+      "title": "龙族巫女公开教义谎言",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第256源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4355,7 +4355,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-256-03",
-      "title": "新建立连续性｜第256源章｜3",
+      "title": "皇位被夺",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第256源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4380,7 +4380,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-256-01",
-      "title": "未解决事项｜第256源章｜1",
+      "title": "夺位细节",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第256源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4405,7 +4405,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-256-02",
-      "title": "未解决事项｜第256源章｜2",
+      "title": "薇薇安是否觉醒",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第256源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4432,7 +4432,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-256-03",
-      "title": "未解决事项｜第256源章｜3",
+      "title": "是否援助",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第256源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4457,7 +4457,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-256-01",
-      "title": "主角龙形态｜第256源章｜1",
+      "title": "主角龙形态｜帝国.(3)｜岩石贤者，隐藏其生命女神和历代龙族巫女本尊身份",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第256源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4483,7 +4483,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-256-01",
-      "title": "主角龙状态｜第256源章｜1",
+      "title": "主角龙状态｜帝国.(3)｜为薇薇安提供选择并确认亚瑟真实身份",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第256源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4511,7 +4511,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-256-01",
-      "title": "主角龙知识边界｜第256源章｜1",
+      "title": "主角龙知识边界｜帝国.(3)｜能读到复仇情感但尚未听完整夺位经过",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第256源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4536,7 +4536,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-257-01",
-      "title": "事件｜第257源章｜1",
+      "title": "亚瑟父亲病逝后叔父以未成年为由任摄政，取得领主支持、篡位并多次派人暗杀兄妹",
       "memo": "帝国、亚瑟与盖亚：事件（第257源章第1条）",
       "category": "event",
       "keys": [
@@ -4562,7 +4562,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-257-02",
-      "title": "事件｜第257源章｜2",
+      "title": "薇薇安以换碗少量服毒追查厨师幕后主使，准备马钱带兄长逃亡",
       "memo": "帝国、亚瑟与盖亚：事件（第257源章第2条）",
       "category": "event",
       "keys": [
@@ -4589,7 +4589,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-257-03",
-      "title": "事件｜第257源章｜3",
+      "title": "蒂雅拒绝以神力直接替亚瑟夺位，决定作为贤者传授智慧",
       "memo": "帝国、亚瑟与盖亚：事件（第257源章第3条）",
       "category": "event",
       "keys": [
@@ -4616,7 +4616,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-257-01",
-      "title": "世界设定事实｜第257源章｜1",
+      "title": "亚瑟父亲开创帝制后病逝，叔父从摄政转为篡位者并获多领主支持",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第257源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4642,7 +4642,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-257-02",
-      "title": "世界设定事实｜第257源章｜2",
+      "title": "篡位叔父欲让儿子迎娶薇薇安，以前代皇帝女儿血统补强正统性",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第257源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4669,7 +4669,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-257-01",
-      "title": "新建立连续性｜第257源章｜1",
+      "title": "摄政篡位",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第257源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4694,7 +4694,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-257-02",
-      "title": "新建立连续性｜第257源章｜2",
+      "title": "薇薇安换碗调查",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第257源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4721,7 +4721,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-257-03",
-      "title": "新建立连续性｜第257源章｜3",
+      "title": "艰险道路",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第257源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4746,7 +4746,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-257-01",
-      "title": "未解决事项｜第257源章｜1",
+      "title": "师徒训练",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第257源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4771,7 +4771,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-257-02",
-      "title": "未解决事项｜第257源章｜2",
+      "title": "夺位行动",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第257源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4796,7 +4796,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-257-01",
-      "title": "主角龙形态｜第257源章｜1",
+      "title": "主角龙形态｜帝国.(4)｜岩石深林贤者",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第257源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4822,7 +4822,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-257-01",
-      "title": "主角龙状态｜第257源章｜1",
+      "title": "主角龙状态｜帝国.(4)｜收下帝国兄妹求助，但将援助限定为教学",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第257源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4847,7 +4847,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-257-01",
-      "title": "主角龙知识边界｜第257源章｜1",
+      "title": "主角龙知识边界｜帝国.(4)｜已知兄妹陈述和可见情感，尚无外部证据验证篡位全过程，也不保证亚瑟成功",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第257源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4873,7 +4873,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-258-01",
-      "title": "事件｜第258源章｜1",
+      "title": "贤者正式收兄妹为徒，以催生树木建成二层树屋展示能力并准备长期生活和训练",
       "memo": "帝国、亚瑟与盖亚：事件（第258源章第1条）",
       "category": "event",
       "keys": [
@@ -4898,7 +4898,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-258-02",
-      "title": "事件｜第258源章｜2",
+      "title": "贤者向薇薇说明成为龙族巫女的身体与身份代价、力量及复活价值",
       "memo": "帝国、亚瑟与盖亚：事件（第258源章第2条）",
       "category": "event",
       "keys": [
@@ -4925,7 +4925,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-258-03",
-      "title": "事件｜第258源章｜3",
+      "title": "生命教团获得神谕，命其供奉新出现、能聆听女神声音的孩子",
       "memo": "帝国、亚瑟与盖亚：事件（第258源章第3条）",
       "category": "event",
       "keys": [
@@ -4950,7 +4950,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-258-01",
-      "title": "世界设定事实｜第258源章｜1",
+      "title": "精灵让活树长期长成住所，与树共生而通常不砍木材",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第258源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4975,7 +4975,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-258-02",
-      "title": "世界设定事实｜第258源章｜2",
+      "title": "新龙族巫女可借蒂雅名义请求死神，使刚死者复活",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第258源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5002,7 +5002,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-258-01",
-      "title": "新建立连续性｜第258源章｜1",
+      "title": "树屋修行地",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第258源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5027,7 +5027,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-258-02",
-      "title": "新建立连续性｜第258源章｜2",
+      "title": "薇薇接受觉醒",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第258源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5053,7 +5053,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-258-03",
-      "title": "新建立连续性｜第258源章｜3",
+      "title": "新巫女神谕",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第258源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5078,7 +5078,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-258-01",
-      "title": "未解决事项｜第258源章｜1",
+      "title": "重塑形象与能力",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第258源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5103,7 +5103,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-258-02",
-      "title": "未解决事项｜第258源章｜2",
+      "title": "亚瑟训练",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第258源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5129,7 +5129,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-258-01",
-      "title": "主角龙形态｜第258源章｜1",
+      "title": "主角龙形态｜师父与弟子们.(1)｜岩石贤者，以生命权能催生树屋、解除血脉封印",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第258源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5154,7 +5154,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-258-01",
-      "title": "主角龙状态｜第258源章｜1",
+      "title": "主角龙状态｜师父与弟子们.(1)｜成为亚瑟与薇薇的师父，制造史上首位非蒂雅本人的龙族巫女",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第258源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5183,7 +5183,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-258-01",
-      "title": "主角龙知识边界｜第258源章｜1",
+      "title": "主角龙知识边界｜师父与弟子们.(1)｜弟子只知贤者和生命女神关系，不知贤者就是女神",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第258源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5209,7 +5209,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-259-01",
-      "title": "事件｜第259源章｜1",
+      "title": "薇薇身体重塑为发色变化、带龙角且魔力近龙族的健康身体",
       "memo": "帝国、亚瑟与盖亚：事件（第259源章第1条）",
       "category": "event",
       "keys": [
@@ -5235,7 +5235,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-259-02",
-      "title": "事件｜第259源章｜2",
+      "title": "贤者为亚瑟规划剑术，话术，潜行，指挥与魔力训练",
       "memo": "帝国、亚瑟与盖亚：事件（第259源章第2条）",
       "category": "event",
       "keys": [
@@ -5262,7 +5262,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-259-03",
-      "title": "事件｜第259源章｜3",
+      "title": "五年训练使亚瑟跨越人类常规，贤者赠予黑色精金剑丹因斯莱夫",
       "memo": "帝国、亚瑟与盖亚：事件（第259源章第3条）",
       "category": "event",
       "keys": [
@@ -5288,7 +5288,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-259-01",
-      "title": "世界设定事实｜第259源章｜1",
+      "title": "薇薇重塑体近似人形蒂雅，魔力近龙族",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第259源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5315,7 +5315,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-259-02",
-      "title": "世界设定事实｜第259源章｜2",
+      "title": "丹因斯莱夫为精金合金黑剑，以秘银导魔生成光刃或过载光束，并含恢复",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第259源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5340,7 +5340,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-259-01",
-      "title": "新建立连续性｜第259源章｜1",
+      "title": "薇薇龙角形象",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第259源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5366,7 +5366,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-259-02",
-      "title": "新建立连续性｜第259源章｜2",
+      "title": "五年地狱训练",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第259源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5391,7 +5391,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-259-03",
-      "title": "新建立连续性｜第259源章｜3",
+      "title": "丹因斯莱夫",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第259源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5416,7 +5416,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-259-01",
-      "title": "未解决事项｜第259源章｜1",
+      "title": "拔剑后的反应",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第259源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5441,7 +5441,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-259-02",
-      "title": "未解决事项｜第259源章｜2",
+      "title": "出森林行动",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第259源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5466,7 +5466,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-259-01",
-      "title": "主角龙形态｜第259源章｜1",
+      "title": "主角龙形态｜师父与弟子们.(2)｜岩石贤者，以导师、身体设计者和神兵锻造者活动",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第259源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5491,7 +5491,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-259-01",
-      "title": "主角龙状态｜第259源章｜1",
+      "title": "主角龙状态｜师父与弟子们.(2)｜完成五年训练并准备让弟子离开保护区",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第259源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5516,7 +5516,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-259-01",
-      "title": "主角龙知识边界｜第259源章｜1",
+      "title": "主角龙知识边界｜师父与弟子们.(2)｜亚瑟不知道丹因斯莱夫诅咒是谎言",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第259源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5542,7 +5542,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-260-01",
-      "title": "事件｜第260源章｜1",
+      "title": "贤者坦白魔剑代价是测试谎言",
       "memo": "帝国、亚瑟与盖亚：事件（第260源章第1条）",
       "category": "event",
       "keys": [
@@ -5568,7 +5568,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-260-02",
-      "title": "事件｜第260源章｜2",
+      "title": "薇薇以差别待遇索要礼物并用身份秘密打趣师父",
       "memo": "帝国、亚瑟与盖亚：事件（第260源章第2条）",
       "category": "event",
       "keys": [
@@ -5594,7 +5594,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-260-03",
-      "title": "事件｜第260源章｜3",
+      "title": "贤者宣布送兄妹离开森林，薇薇因以为师父同行而震惊落泪，贤者答应重新考虑",
       "memo": "帝国、亚瑟与盖亚：事件（第260源章第3条）",
       "category": "event",
       "keys": [
@@ -5620,7 +5620,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-260-01",
-      "title": "世界设定事实｜第260源章｜1",
+      "title": "薇薇魔杖以活树缠钻石包裹食人魔魔石，可触地吸魔、降消耗至十分之一、储魔、护罩并防破坏",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第260源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5646,7 +5646,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-260-02",
-      "title": "世界设定事实｜第260源章｜2",
+      "title": "薇薇只知师父是遵照生命女神意志的存在，不知其就是女神",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第260源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5673,7 +5673,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-260-01",
-      "title": "新建立连续性｜第260源章｜1",
+      "title": "薇薇魔杖",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第260源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5699,7 +5699,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-260-02",
-      "title": "新建立连续性｜第260源章｜2",
+      "title": "师父身份分层秘密",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第260源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5724,7 +5724,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-260-03",
-      "title": "新建立连续性｜第260源章｜3",
+      "title": "送别冲突",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第260源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5749,7 +5749,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-260-01",
-      "title": "未解决事项｜第260源章｜1",
+      "title": "贤者是否同行",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第260源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5774,7 +5774,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-260-02",
-      "title": "未解决事项｜第260源章｜2",
+      "title": "夺位旅程",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第260源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5799,7 +5799,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-260-01",
-      "title": "主角龙形态｜第260源章｜1",
+      "title": "主角龙形态｜师父与弟子们.(3)｜老化中的岩石贤者躯体，仍能催生并附魔活树",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第260源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5824,7 +5824,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-260-01",
-      "title": "主角龙状态｜第260源章｜1",
+      "title": "主角龙状态｜师父与弟子们.(3)｜原定让弟子独自出发，因薇薇依恋开始动摇",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第260源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5850,7 +5850,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-260-01",
-      "title": "主角龙知识边界｜第260源章｜1",
+      "title": "主角龙知识边界｜师父与弟子们.(3)｜亚瑟不知道师父与女神关联",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第260源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5877,7 +5877,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-261-01",
-      "title": "事件｜第261源章｜1",
+      "title": "贤者评估兄妹已足以夺位，却因两人的期待，近观趣味及石躯将坏",
       "memo": "帝国、亚瑟与盖亚：事件（第261源章第1条）",
       "category": "event",
       "keys": [
@@ -5903,7 +5903,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-261-02",
-      "title": "事件｜第261源章｜2",
+      "title": "后世记载薇薇的活树魔杖逐代增加魔石成为生命教团圣物",
       "memo": "帝国、亚瑟与盖亚：事件（第261源章第2条）",
       "category": "event",
       "keys": [
@@ -5929,7 +5929,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-261-03",
-      "title": "事件｜第261源章｜3",
+      "title": "亚瑟坦白害怕失败牵连薇薇，贤者决定同行，以幻影披人形，谎称限制力量可离林",
       "memo": "帝国、亚瑟与盖亚：事件（第261源章第3条）",
       "category": "event",
       "keys": [
@@ -5956,7 +5956,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-261-01",
-      "title": "世界设定事实｜第261源章｜1",
+      "title": "五年后亚瑟可敌数百，结合强化与丹因斯莱夫有破千潜力",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第261源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5983,7 +5983,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-261-02",
-      "title": "世界设定事实｜第261源章｜2",
+      "title": "卡巴拉生命之树在后世成为历代龙族巫女增添魔石、会惩罚恶意触碰者的生命教团圣物",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第261源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6009,7 +6009,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-261-01",
-      "title": "新建立连续性｜第261源章｜1",
+      "title": "盖亚身份",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第261源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6034,7 +6034,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-261-02",
-      "title": "新建立连续性｜第261源章｜2",
+      "title": "卡巴拉生命之树",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第261源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6059,7 +6059,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-261-03",
-      "title": "新建立连续性｜第261源章｜3",
+      "title": "三人同行",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第261源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6084,7 +6084,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-261-01",
-      "title": "未解决事项｜第261源章｜1",
+      "title": "寻找协助者",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第261源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6109,7 +6109,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-261-02",
-      "title": "未解决事项｜第261源章｜2",
+      "title": "石躯终结",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第261源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6134,7 +6134,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-261-03",
-      "title": "未解决事项｜第261源章｜3",
+      "title": "夺回皇位",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第261源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6159,7 +6159,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-261-01",
-      "title": "主角龙形态｜第261源章｜1",
+      "title": "主角龙形态｜师父与弟子们.(4)｜崩坏中的岩石贤者外覆活人幻影，离林后使用名字盖亚",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第261源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6184,7 +6184,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-261-01",
-      "title": "主角龙状态｜第261源章｜1",
+      "title": "主角龙状态｜师父与弟子们.(4)｜与亚瑟、薇薇启程寻找夺位协助者，并计划让深林贤者身份在此役终结",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第261源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6212,7 +6212,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-261-01",
-      "title": "主角龙知识边界｜第261源章｜1",
+      "title": "主角龙知识边界｜师父与弟子们.(4)｜兄妹相信她只是受女神意志行动且力量受离林限制，不知幻影",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第261源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6237,7 +6237,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-262-01",
-      "title": "事件｜第262源章｜1",
+      "title": "盖亚解释勇者只为纯粹守护人类而战，英雄之剑不介入人类夺位",
       "memo": "帝国、亚瑟与盖亚：事件（第262源章第1条）",
       "category": "event",
       "keys": [
@@ -6263,7 +6263,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-262-02",
-      "title": "事件｜第262源章｜2",
+      "title": "三人赴贝特尔吉乌斯，亚瑟以竞技场连胜吸引精灵，矮人高层",
       "memo": "帝国、亚瑟与盖亚：事件（第262源章第2条）",
       "category": "event",
       "keys": [
@@ -6289,7 +6289,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-262-03",
-      "title": "事件｜第262源章｜3",
+      "title": "三年旅行以救民，治病，击怪和跨种族同盟积累声望，再用流言将灾荒归咎伪帝",
       "memo": "帝国、亚瑟与盖亚：事件（第262源章第3条）",
       "category": "event",
       "keys": [
@@ -6314,7 +6314,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-262-01",
-      "title": "世界设定事实｜第262源章｜1",
+      "title": "英雄之剑只对抗全人类之敌，不干涉人类内争",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第262源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6339,7 +6339,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-262-02",
-      "title": "世界设定事实｜第262源章｜2",
+      "title": "贝特尔吉乌斯是精灵与矮人每十年举行种族大战的竞技场城市",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第262源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6364,7 +6364,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-262-01",
-      "title": "新建立连续性｜第262源章｜1",
+      "title": "贝特尔吉乌斯竞技场",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第262源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6389,7 +6389,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-262-02",
-      "title": "新建立连续性｜第262源章｜2",
+      "title": "三年夺位同盟",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第262源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6414,7 +6414,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-262-03",
-      "title": "新建立连续性｜第262源章｜3",
+      "title": "回归流言",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第262源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6439,7 +6439,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-262-01",
-      "title": "未解决事项｜第262源章｜1",
+      "title": "天狼星最后行动",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第262源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6464,7 +6464,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-262-02",
-      "title": "未解决事项｜第262源章｜2",
+      "title": "未命名同伴身份",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第262源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6489,7 +6489,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-262-01",
-      "title": "主角龙形态｜第262源章｜1",
+      "title": "主角龙形态｜夺回皇位.(1)｜披人形幻影的石质盖亚，作为军师与师父同行",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第262源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6514,7 +6514,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-262-01",
-      "title": "主角龙状态｜第262源章｜1",
+      "title": "主角龙状态｜夺回皇位.(1)｜用三年非直接神力行动为亚瑟建立全国性正统基础",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第262源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6540,7 +6540,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-262-01",
-      "title": "主角龙知识边界｜第262源章｜1",
+      "title": "主角龙知识边界｜夺回皇位.(1)｜世人只见盖亚为同行谋士",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第262源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6565,7 +6565,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-263-01",
-      "title": "事件｜第263源章｜1",
+      "title": "离林三年、相识八年后抵达最后一战",
       "memo": "帝国、亚瑟与盖亚：事件（第263源章第1条）",
       "category": "event",
       "keys": [
@@ -6591,7 +6591,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-263-02",
-      "title": "事件｜第263源章｜2",
+      "title": "薇薇和约三千盟军引走皇家骑士团",
       "memo": "帝国、亚瑟与盖亚：事件（第263源章第2条）",
       "category": "event",
       "keys": [
@@ -6618,7 +6618,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-263-03",
-      "title": "事件｜第263源章｜3",
+      "title": "盖亚用岩石卡住城门让亚瑟独自潜入，以阻挡回军为由创造叔侄独处决战，亚瑟直奔王座",
       "memo": "帝国、亚瑟与盖亚：事件（第263源章第3条）",
       "category": "event",
       "keys": [
@@ -6644,7 +6644,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-263-01",
-      "title": "世界设定事实｜第263源章｜1",
+      "title": "艾波那骑士团因与天狼星神殿关系及薇薇身份保持中立，只有皇家骑士团可被伪帝可靠调动",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第263源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6670,7 +6670,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-263-02",
-      "title": "世界设定事实｜第263源章｜2",
+      "title": "天狼星使用左右闭合的巨型铁城门，需众兵协力开关",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第263源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6695,7 +6695,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-263-01",
-      "title": "新建立连续性｜第263源章｜1",
+      "title": "天狼星无血诱敌",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第263源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6720,7 +6720,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-263-02",
-      "title": "新建立连续性｜第263源章｜2",
+      "title": "师父肉体倒计时",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第263源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6745,7 +6745,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-263-03",
-      "title": "新建立连续性｜第263源章｜3",
+      "title": "亚瑟独入王城",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第263源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6771,7 +6771,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-263-01",
-      "title": "未解决事项｜第263源章｜1",
+      "title": "叔侄决战",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第263源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6796,7 +6796,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-263-02",
-      "title": "未解决事项｜第263源章｜2",
+      "title": "亚瑟未说之话｜夺回皇位.(2)",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第263源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6822,7 +6822,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-263-01",
-      "title": "主角龙形态｜第263源章｜1",
+      "title": "主角龙形态｜夺回皇位.(2)｜盖亚石躯的幻影外表开始掉落石屑",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第263源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6847,7 +6847,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-263-01",
-      "title": "主角龙状态｜第263源章｜1",
+      "title": "主角龙状态｜夺回皇位.(2)｜以隐匿和地形小术送亚瑟入城，自己留外截断皇家骑士团",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第263源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6873,7 +6873,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-263-01",
-      "title": "主角龙知识边界｜第263源章｜1",
+      "title": "主角龙知识边界｜夺回皇位.(2)｜亚瑟不知石躯时间将尽，也不知师父安排独处部分出于故事趣味",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第263源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6899,7 +6899,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-264-01",
-      "title": "事件｜第264源章｜1",
+      "title": "盖亚按补给与消极守军推演皇家骑士团必撤，薇薇和河对岸盟军只牵制、不主动流血",
       "memo": "帝国、亚瑟与盖亚：事件（第264源章第1条）",
       "category": "event",
       "keys": [
@@ -6925,7 +6925,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-264-02",
-      "title": "事件｜第264源章｜2",
+      "title": "盖亚升起包围天狼星的外墙和光滑中间墙，将皇家骑士团困在两墙之间",
       "memo": "帝国、亚瑟与盖亚：事件（第264源章第2条）",
       "category": "event",
       "keys": [
@@ -6950,7 +6950,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-264-03",
-      "title": "事件｜第264源章｜3",
+      "title": "盖亚远观亚瑟斩杀伪帝私人骑士，以一剑刺死叔父",
       "memo": "帝国、亚瑟与盖亚：事件（第264源章第3条）",
       "category": "event",
       "keys": [
@@ -6976,7 +6976,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-264-01",
-      "title": "世界设定事实｜第264源章｜1",
+      "title": "盖亚能从地底直接升起比天狼星范围更大的同心圆粗岩城墙",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第264源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7001,7 +7001,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-264-02",
-      "title": "世界设定事实｜第264源章｜2",
+      "title": "第二道中间城墙表面光滑，并以河床石柱和拱桥封住水路",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第264源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7026,7 +7026,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-264-01",
-      "title": "新建立连续性｜第264源章｜1",
+      "title": "天狼星两道新城墙",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第264源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7051,7 +7051,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-264-02",
-      "title": "新建立连续性｜第264源章｜2",
+      "title": "伪帝死亡",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第264源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7076,7 +7076,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-264-01",
-      "title": "未解决事项｜第264源章｜1",
+      "title": "骑士团归顺",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第264源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7101,7 +7101,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-264-02",
-      "title": "未解决事项｜第264源章｜2",
+      "title": "复仇后心理",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第264源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7126,7 +7126,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-264-01",
-      "title": "主角龙形态｜第264源章｜1",
+      "title": "主角龙形态｜夺回皇位.(3)｜石质盖亚，以大地权能连续造墙并远距观测宫内",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第264源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7151,7 +7151,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-264-01",
-      "title": "主角龙状态｜第264源章｜1",
+      "title": "主角龙状态｜夺回皇位.(3)｜完成无血困军，见证亚瑟亲手杀叔",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第264源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7177,7 +7177,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-264-01",
-      "title": "主角龙知识边界｜第264源章｜1",
+      "title": "主角龙知识边界｜夺回皇位.(3)｜皇家骑士团不知道造墙者与亚瑟关系",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第264源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7203,7 +7203,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-265-01",
-      "title": "事件｜第265源章｜1",
+      "title": "亚瑟戴上不朽之冠并获强光认可",
       "memo": "帝国、亚瑟与盖亚：事件（第265源章第1条）",
       "category": "event",
       "keys": [
@@ -7230,7 +7230,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-265-02",
-      "title": "事件｜第265源章｜2",
+      "title": "皇家骑士团长从愤怒到确认亚瑟正统而归顺，请求收殓伪帝",
       "memo": "帝国、亚瑟与盖亚：事件（第265源章第2条）",
       "category": "event",
       "keys": [
@@ -7257,7 +7257,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-265-03",
-      "title": "事件｜第265源章｜3",
+      "title": "亚瑟想让伪帝之子偿还兄妹痛苦，盖亚以父母之罪不及子女制止",
       "memo": "帝国、亚瑟与盖亚：事件（第265源章第3条）",
       "category": "event",
       "keys": [
@@ -7283,7 +7283,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-265-01",
-      "title": "世界设定事实｜第265源章｜1",
+      "title": "不朽之冠在亚瑟头上如太阳发光，被视为不可否认的正统认可",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第265源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7309,7 +7309,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-265-02",
-      "title": "世界设定事实｜第265源章｜2",
+      "title": "后世常把骑士王、首任帝卢修斯二世和复位帝卢修斯三世事迹混编为单一传说",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第265源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7335,7 +7335,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-265-01",
-      "title": "新建立连续性｜第265源章｜1",
+      "title": "卢修斯三世登基",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第265源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7361,7 +7361,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-265-02",
-      "title": "新建立连续性｜第265源章｜2",
+      "title": "骑士团归顺",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第265源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7386,7 +7386,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-265-03",
-      "title": "新建立连续性｜第265源章｜3",
+      "title": "不株连堂兄",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第265源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7411,7 +7411,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-265-01",
-      "title": "未解决事项｜第265源章｜1",
+      "title": "堂兄最终处置",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第265源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7436,7 +7436,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-265-02",
-      "title": "未解决事项｜第265源章｜2",
+      "title": "亚瑟未说之话｜夺回皇位.(4)",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第265源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7462,7 +7462,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-265-03",
-      "title": "未解决事项｜第265源章｜3",
+      "title": "饥荒",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第265源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7487,7 +7487,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-265-01",
-      "title": "主角龙形态｜第265源章｜1",
+      "title": "主角龙形态｜夺回皇位.(4)｜盖亚石躯与人形幻影",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第265源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7512,7 +7512,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-265-01",
-      "title": "主角龙状态｜第265源章｜1",
+      "title": "主角龙状态｜夺回皇位.(4)｜见证弟子登基，转而处理胜利后的伦理与创伤",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第265源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7537,7 +7537,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-265-01",
-      "title": "主角龙知识边界｜第265源章｜1",
+      "title": "主角龙知识边界｜夺回皇位.(4)｜公众不知她的师父身份",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第265源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7563,7 +7563,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-266-01",
-      "title": "事件｜第266源章｜1",
+      "title": "亚瑟登基在三年准备、薇薇宗教权威和灾荒归责下未引发动乱",
       "memo": "帝国、亚瑟与盖亚：事件（第266源章第1条）",
       "category": "event",
       "keys": [
@@ -7590,7 +7590,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-266-02",
-      "title": "事件｜第266源章｜2",
+      "title": "盖亚告知石躯寿命将尽",
       "memo": "帝国、亚瑟与盖亚：事件（第266源章第2条）",
       "category": "event",
       "keys": [
@@ -7616,7 +7616,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-266-03",
-      "title": "事件｜第266源章｜3",
+      "title": "盖亚感谢兄妹改变贤者孤独消亡的结局",
       "memo": "帝国、亚瑟与盖亚：事件（第266源章第3条）",
       "category": "event",
       "keys": [
@@ -7643,7 +7643,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-266-01",
-      "title": "世界设定事实｜第266源章｜1",
+      "title": "三年铺垫和龙族巫女背书使暴力换帝未酿大乱，亚瑟能独立处理政务",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第266源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7670,7 +7670,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-266-02",
-      "title": "世界设定事实｜第266源章｜2",
+      "title": "龙族巫女复活适用于生命体",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第266源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7696,7 +7696,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-266-01",
-      "title": "新建立连续性｜第266源章｜1",
+      "title": "薇薇称妈妈",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第266源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7722,7 +7722,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-266-02",
-      "title": "新建立连续性｜第266源章｜2",
+      "title": "石躯不可复活",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第266源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7747,7 +7747,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-266-03",
-      "title": "新建立连续性｜第266源章｜3",
+      "title": "离别倒计时",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第266源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7772,7 +7772,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-266-01",
-      "title": "未解决事项｜第266源章｜1",
+      "title": "向亚瑟告别",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第266源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7798,7 +7798,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-266-02",
-      "title": "未解决事项｜第266源章｜2",
+      "title": "最后礼物",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第266源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7823,7 +7823,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-266-01",
-      "title": "主角龙形态｜第266源章｜1",
+      "title": "主角龙形态｜临终倒计时.(1)｜临近崩坏的盖亚石躯，真实本体仍在神殿",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第266源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7848,7 +7848,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-266-01",
-      "title": "主角龙状态｜第266源章｜1",
+      "title": "主角龙状态｜临终倒计时.(1)｜开始逐一向弟子告别",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第266源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7873,7 +7873,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-266-01",
-      "title": "主角龙知识边界｜第266源章｜1",
+      "title": "主角龙知识边界｜临终倒计时.(1)｜薇薇已知肉体消亡但仍只推知师父与生命女神相连，不知完全同一",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第266源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7899,7 +7899,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-267-01",
-      "title": "事件｜第267源章｜1",
+      "title": "亚瑟反复避开盖亚却妥善稳定帝国",
       "memo": "帝国、亚瑟与盖亚：事件（第267源章第1条）",
       "category": "event",
       "keys": [
@@ -7925,7 +7925,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-267-02",
-      "title": "事件｜第267源章｜2",
+      "title": "盖亚在庭院角落准备以石像为墓，将残余魔力扩散大半罗马尼亚以终止荒年",
       "memo": "帝国、亚瑟与盖亚：事件（第267源章第2条）",
       "category": "event",
       "keys": [
@@ -7950,7 +7950,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-267-03",
-      "title": "事件｜第267源章｜3",
+      "title": "薇薇误以为亚瑟只顾政务而暴打兄长",
       "memo": "帝国、亚瑟与盖亚：事件（第267源章第3条）",
       "category": "event",
       "keys": [
@@ -7977,7 +7977,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-267-01",
-      "title": "世界设定事实｜第267源章｜1",
+      "title": "伪帝之子免死但终身加入生命教团、受薇薇安排监管",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第267源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8004,7 +8004,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-267-02",
-      "title": "世界设定事实｜第267源章｜2",
+      "title": "盖亚把魔力注入罗马尼亚大部分地底以解决荒年，过程中触及并惊退未知地下生物",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第267源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8029,7 +8029,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-267-01",
-      "title": "新建立连续性｜第267源章｜1",
+      "title": "堂兄终身入教",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第267源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8054,7 +8054,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-267-02",
-      "title": "新建立连续性｜第267源章｜2",
+      "title": "饥荒终止魔力",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第267源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8079,7 +8079,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-267-03",
-      "title": "新建立连续性｜第267源章｜3",
+      "title": "地下未知生物",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第267源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8104,7 +8104,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-267-04",
-      "title": "新建立连续性｜第267源章｜4",
+      "title": "亚瑟首饰准备",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第267源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8130,7 +8130,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-267-01",
-      "title": "未解决事项｜第267源章｜1",
+      "title": "戒指用途",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第267源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8155,7 +8155,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-267-02",
-      "title": "未解决事项｜第267源章｜2",
+      "title": "最后告别",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第267源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8180,7 +8180,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-267-01",
-      "title": "主角龙形态｜第267源章｜1",
+      "title": "主角龙形态｜临终倒计时.(2)｜幻影失稳、指尖剥落且下身与庭院岩石同化的盖亚",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第267源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8205,7 +8205,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-267-01",
-      "title": "主角龙状态｜第267源章｜1",
+      "title": "主角龙状态｜临终倒计时.(2)｜用最后魔力处理饥荒并等待两名弟子",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第267源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8230,7 +8230,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-267-01",
-      "title": "主角龙知识边界｜第267源章｜1",
+      "title": "主角龙知识边界｜临终倒计时.(2)｜把地下生物视为小事，尚不知其身份",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第267源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8256,7 +8256,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-268-01",
-      "title": "事件｜第268源章｜1",
+      "title": "盖亚等待时从自身凡人身份游戏经验联想到为龙和神制定不伤害人类的角色游戏减压规则",
       "memo": "帝国、亚瑟与盖亚：事件（第268源章第1条）",
       "category": "event",
       "keys": [
@@ -8281,7 +8281,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-268-02",
-      "title": "事件｜第268源章｜2",
+      "title": "薇薇载亚瑟赶到，兄妹看到无幻影的石躯同化",
       "memo": "帝国、亚瑟与盖亚：事件（第268源章第2条）",
       "category": "event",
       "keys": [
@@ -8308,7 +8308,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-268-03",
-      "title": "事件｜第268源章｜3",
+      "title": "亚瑟说没有师父则新愿望无意义，为盖亚左手无名指戴上可调节绿宝石戒指并告白爱的是其内在",
       "memo": "帝国、亚瑟与盖亚：事件（第268源章第3条）",
       "category": "event",
       "keys": [
@@ -8334,7 +8334,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-268-01",
-      "title": "世界设定事实｜第268源章｜1",
+      "title": "盖亚此次凡人身份经历成为日后为神明和龙设计受规则约束角色游戏的直接灵感",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第268源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8359,7 +8359,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-268-02",
-      "title": "世界设定事实｜第268源章｜2",
+      "title": "亚瑟为石质粗手定制开口可调式绿宝石戒指，并戴于左手无名指",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第268源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8385,7 +8385,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-268-01",
-      "title": "新建立连续性｜第268源章｜1",
+      "title": "神明角色游戏灵感",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第268源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8410,7 +8410,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-268-02",
-      "title": "新建立连续性｜第268源章｜2",
+      "title": "薇薇母女确认",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第268源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8436,7 +8436,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-268-03",
-      "title": "新建立连续性｜第268源章｜3",
+      "title": "亚瑟告白戒指",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第268源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8462,7 +8462,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-268-01",
-      "title": "未解决事项｜第268源章｜1",
+      "title": "盖亚回应",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第268源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8487,7 +8487,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-268-02",
-      "title": "未解决事项｜第268源章｜2",
+      "title": "石躯最终形态",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第268源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8512,7 +8512,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-268-01",
-      "title": "主角龙形态｜第268源章｜1",
+      "title": "主角龙形态｜临终倒计时.(3)｜无幻影、下身石化同地的岩石贤者",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第268源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8537,7 +8537,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-268-01",
-      "title": "主角龙状态｜第268源章｜1",
+      "title": "主角龙状态｜临终倒计时.(3)｜完成薇薇告别，意外收到亚瑟告白",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第268源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8564,7 +8564,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-268-01",
-      "title": "主角龙知识边界｜第268源章｜1",
+      "title": "主角龙知识边界｜临终倒计时.(3)｜仍未理解亚瑟何时与为何爱上自己",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第268源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8590,7 +8590,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-269-01",
-      "title": "事件｜第269源章｜1",
+      "title": "亚瑟说爱意始于严苛训练中的温柔照顾，告白只为不留遗憾",
       "memo": "帝国、亚瑟与盖亚：事件（第269源章第1条）",
       "category": "event",
       "keys": [
@@ -8616,7 +8616,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-269-02",
-      "title": "事件｜第269源章｜2",
+      "title": "盖亚以非人，将死和皇帝义务拒绝恋情，却肯定亚瑟为最优秀且引以为傲的弟子",
       "memo": "帝国、亚瑟与盖亚：事件（第269源章第2条）",
       "category": "event",
       "keys": [
@@ -8642,7 +8642,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-269-03",
-      "title": "事件｜第269源章｜3",
+      "title": "盖亚把解决全国歉收作为最后礼物，与兄妹拥抱后石化崩落",
       "memo": "帝国、亚瑟与盖亚：事件（第269源章第3条）",
       "category": "event",
       "keys": [
@@ -8667,7 +8667,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-269-01",
-      "title": "世界设定事实｜第269源章｜1",
+      "title": "戒指由天狼星矮人定制，金银交织、镶椭圆绿宝石，开口能收缩适配石指",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第269源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8692,7 +8692,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-269-02",
-      "title": "世界设定事实｜第269源章｜2",
+      "title": "贤者粗岩外壳崩塌后露出白色美丽女性大理石像，戒指保留在左手无名指",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第269源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8717,7 +8717,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-269-01",
-      "title": "新建立连续性｜第269源章｜1",
+      "title": "盖亚石像",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第269源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8742,7 +8742,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-269-02",
-      "title": "新建立连续性｜第269源章｜2",
+      "title": "戒指留存",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第269源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8767,7 +8767,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-269-03",
-      "title": "新建立连续性｜第269源章｜3",
+      "title": "深林贤者终结",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第269源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8793,7 +8793,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-269-01",
-      "title": "未解决事项｜第269源章｜1",
+      "title": "兄妹如何纪念",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第269源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8818,7 +8818,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-269-02",
-      "title": "未解决事项｜第269源章｜2",
+      "title": "神明角色游戏制度",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第269源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8843,7 +8843,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-269-03",
-      "title": "未解决事项｜第269源章｜3",
+      "title": "地下生物",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第269源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8868,7 +8868,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-269-01",
-      "title": "主角龙形态｜第269源章｜1",
+      "title": "主角龙形态｜临终倒计时.(4)｜盖亚石躯完全停止，外壳剥落为白色女性大理石像",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第269源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8894,7 +8894,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-269-01",
-      "title": "主角龙状态｜第269源章｜1",
+      "title": "主角龙状态｜临终倒计时.(4)｜拒绝亚瑟告白、完成双弟子告别并终结深林贤者身份",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第269源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8921,7 +8921,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-269-01",
-      "title": "主角龙知识边界｜第269源章｜1",
+      "title": "主角龙知识边界｜临终倒计时.(4)｜亚瑟与薇薇把此视作师父化身终结，不知白色石像是否等同本体相貌",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第269源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8948,7 +8948,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-270-01",
-      "title": "事件｜第270源章｜1",
+      "title": "后世记录剑皇的逃亡、师承、复位、丹因斯莱夫、强大剑术与终身未婚，但出现大量误传和混编",
       "memo": "帝国、亚瑟与盖亚：事件（第270源章第1条）",
       "category": "event",
       "keys": [
@@ -8973,7 +8973,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-270-02",
-      "title": "事件｜第270源章｜2",
+      "title": "亚瑟拒绝婚育，薇薇查到盖亚与大地之母传说并愿以自己放弃巫女身份生育来解决继承",
       "memo": "帝国、亚瑟与盖亚：事件（第270源章第2条）",
       "category": "event",
       "keys": [
@@ -9000,7 +9000,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-270-03",
-      "title": "事件｜第270源章｜3",
+      "title": "亚瑟住在盖亚石像旁，读到盖亚可能等同生命女神",
       "memo": "帝国、亚瑟与盖亚：事件（第270源章第3条）",
       "category": "event",
       "keys": [
@@ -9027,7 +9027,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-270-01",
-      "title": "世界设定事实｜第270源章｜1",
+      "title": "亚瑟终身未婚并将皇位传给侄子，常住盖亚石像旁",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第270源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9053,7 +9053,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-270-02",
-      "title": "世界设定事实｜第270源章｜2",
+      "title": "典籍存在大地之母盖亚与生命女神等同说，兄妹据此接近真实身份",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第270源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9078,7 +9078,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-270-01",
-      "title": "新建立连续性｜第270源章｜1",
+      "title": "剑皇终身未婚",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第270源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9103,7 +9103,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-270-02",
-      "title": "新建立连续性｜第270源章｜2",
+      "title": "盖亚身份推理",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第270源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9128,7 +9128,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-270-03",
-      "title": "新建立连续性｜第270源章｜3",
+      "title": "石像小屋",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第270源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9153,7 +9153,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-270-01",
-      "title": "未解决事项｜第270源章｜1",
+      "title": "兄妹是否见到本体",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第270源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9178,7 +9178,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-270-02",
-      "title": "未解决事项｜第270源章｜2",
+      "title": "帝国继承",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第270源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9203,7 +9203,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-270-01",
-      "title": "主角龙形态｜第270源章｜1",
+      "title": "主角龙形态｜盖亚｜以庭院白色女性石像和生命女神声音间接存在",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第270源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9228,7 +9228,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-270-01",
-      "title": "主角龙状态｜第270源章｜1",
+      "title": "主角龙状态｜盖亚｜盖亚身份已结束，却被弟子从神话线索中重新辨认",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第270源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9253,7 +9253,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-270-01",
-      "title": "主角龙知识边界｜第270源章｜1",
+      "title": "主角龙知识边界｜盖亚｜兄妹只推断盖亚存续于生命女神，未确认二者就是同一意识",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第270源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9278,7 +9278,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-271-01",
-      "title": "事件｜第271源章｜1",
+      "title": "蒂雅结束贤者故事后重返工作，决定以受控人生体验解决万神殿娱乐贫乏和神明不满",
       "memo": "帝国、亚瑟与盖亚：事件（第271源章第1条）",
       "category": "event",
       "keys": [
@@ -9304,7 +9304,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-271-02",
-      "title": "事件｜第271源章｜2",
+      "title": "她制作大理石床原型，让阿谢拉特从相性信徒第一视角旁观五感人生",
       "memo": "帝国、亚瑟与盖亚：事件（第271源章第2条）",
       "category": "event",
       "keys": [
@@ -9330,7 +9330,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-271-03",
-      "title": "事件｜第271源章｜3",
+      "title": "蒂雅规划化身、婴儿人生、三级干涉、信仰权限、种族和防沉迷限制",
       "memo": "帝国、亚瑟与盖亚：事件（第271源章第3条）",
       "category": "event",
       "keys": [
@@ -9357,7 +9357,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-271-01",
-      "title": "世界设定事实｜第271源章｜1",
+      "title": "化身并非变形，而是制造同类生命肉体并把神的意识置入其中",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第271源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9382,7 +9382,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-271-02",
-      "title": "世界设定事实｜第271源章｜2",
+      "title": "原型仅随机连接与神相性良好的自身信徒，提供视听触等旁观而不能互动",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第271源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9407,7 +9407,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-271-01",
-      "title": "新建立连续性｜第271源章｜1",
+      "title": "人生体验模拟器原型",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第271源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9432,7 +9432,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-271-02",
-      "title": "新建立连续性｜第271源章｜2",
+      "title": "三级神明权限",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第271源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9457,7 +9457,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-271-01",
-      "title": "未解决事项｜第271源章｜1",
+      "title": "量产反应",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第271源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9482,7 +9482,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-271-02",
-      "title": "未解决事项｜第271源章｜2",
+      "title": "化身滥用",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第271源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9507,7 +9507,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-271-01",
-      "title": "主角龙形态｜第271源章｜1",
+      "title": "主角龙形态｜众神的游戏.(1)｜万神殿中的生命女神本体",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第271源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9532,7 +9532,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-271-01",
-      "title": "主角龙状态｜第271源章｜1",
+      "title": "主角龙状态｜众神的游戏.(1)｜从盖亚化身玩家转为人生体验系统设计者",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第271源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9557,7 +9557,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-271-01",
-      "title": "主角龙知识边界｜第271源章｜1",
+      "title": "主角龙知识边界｜众神的游戏.(1)｜原型尚未大规模测试，不知道实际成瘾程度和规则漏洞",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第271源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9582,7 +9582,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-272-01",
-      "title": "事件｜第272源章｜1",
+      "title": "众神争抢体验，原型购买率达100%",
       "memo": "帝国、亚瑟与盖亚：事件（第272源章第1条）",
       "category": "event",
       "keys": [
@@ -9608,7 +9608,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-272-02",
-      "title": "事件｜第272源章｜2",
+      "title": "LD令神从视人类为资源转为依恋，但也出现求复活寿终信徒和阿谢拉特沉迷旷工",
       "memo": "帝国、亚瑟与盖亚：事件（第272源章第2条）",
       "category": "event",
       "keys": [
@@ -9635,7 +9635,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-272-03",
-      "title": "事件｜第272源章｜3",
+      "title": "蒂雅发现云鲸已变成白发蓝眼幼女形态，温和允许其接近未完成LD",
       "memo": "帝国、亚瑟与盖亚：事件（第272源章第3条）",
       "category": "event",
       "keys": [
@@ -9662,7 +9662,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-272-01",
-      "title": "世界设定事实｜第272源章｜1",
+      "title": "生命潜水器LD原型在众神中购买率100%，对象入睡即自动退出以防沉迷",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第272源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9687,7 +9687,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-272-02",
-      "title": "世界设定事实｜第272源章｜2",
+      "title": "长期第一视角体验让神明把人类从信仰资源提升为宠物般依恋对象",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第272源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9712,7 +9712,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-272-01",
-      "title": "新建立连续性｜第272源章｜1",
+      "title": "生命潜水器LD",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第272源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9737,7 +9737,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-272-02",
-      "title": "新建立连续性｜第272源章｜2",
+      "title": "神明人类依恋",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第272源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9762,7 +9762,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-272-03",
-      "title": "新建立连续性｜第272源章｜3",
+      "title": "人形云鲸",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第272源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9788,7 +9788,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-272-01",
-      "title": "未解决事项｜第272源章｜1",
+      "title": "正式版权限",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第272源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9813,7 +9813,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-272-02",
-      "title": "未解决事项｜第272源章｜2",
+      "title": "云鲸安置",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第272源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9839,7 +9839,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-272-01",
-      "title": "主角龙形态｜第272源章｜1",
+      "title": "主角龙形态｜众神的游戏.(2)｜生命女神本体、LD开发者",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第272源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9864,7 +9864,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-272-01",
-      "title": "主角龙状态｜第272源章｜1",
+      "title": "主角龙状态｜众神的游戏.(2)｜承担原型成功造成的开发、客服与秩序成本",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第272源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9889,7 +9889,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-272-01",
-      "title": "主角龙知识边界｜第272源章｜1",
+      "title": "主角龙知识边界｜众神的游戏.(2)｜尚未认出云鲸为何来接触设备，也未完成正式版",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第272源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9915,7 +9915,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-273-01",
-      "title": "事件｜第273源章｜1",
+      "title": "蒂雅给无神殿的云鲸安排自己神殿房间，令其日巡夜归并赐名圣德芬",
       "memo": "帝国、亚瑟与盖亚：事件（第273源章第1条）",
       "category": "event",
       "keys": [
@@ -9942,7 +9942,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-273-02",
-      "title": "事件｜第273源章｜2",
+      "title": "正式LD头戴化、按神识别权限，加入筛人、收藏祝福、信仰支付、婴儿观测和自定义化身",
       "memo": "帝国、亚瑟与盖亚：事件（第273源章第2条）",
       "category": "event",
       "keys": [
@@ -9967,7 +9967,7 @@
     },
     {
       "id": "era-15-arthur-gaia-event-273-03",
-      "title": "事件｜第273源章｜3",
+      "title": "神明因LD对人类形成更深情感并基本停止伤害",
       "memo": "帝国、亚瑟与盖亚：事件（第273源章第3条）",
       "category": "event",
       "keys": [
@@ -9993,7 +9993,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-273-01",
-      "title": "世界设定事实｜第273源章｜1",
+      "title": "云鲸获名圣德芬，含胎儿与孕妇守护天使意象",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第273源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10019,7 +10019,7 @@
     },
     {
       "id": "era-15-arthur-gaia-world-fact-273-02",
-      "title": "世界设定事实｜第273源章｜2",
+      "title": "正式LD统一头戴硬件，按神解锁权限，重要人类可获运气、健康或神职领域微增益",
       "memo": "帝国、亚瑟与盖亚：世界设定事实（第273源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10044,7 +10044,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-273-01",
-      "title": "新建立连续性｜第273源章｜1",
+      "title": "圣德芬之名",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第273源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10069,7 +10069,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-273-02",
-      "title": "新建立连续性｜第273源章｜2",
+      "title": "正式LD",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第273源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10094,7 +10094,7 @@
     },
     {
       "id": "era-15-arthur-gaia-continuity-new-273-03",
-      "title": "新建立连续性｜第273源章｜3",
+      "title": "守护收藏机制",
       "memo": "帝国、亚瑟与盖亚：新建立连续性（第273源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10119,7 +10119,7 @@
     },
     {
       "id": "era-15-arthur-gaia-unresolved-273-01",
-      "title": "未解决事项｜第273源章｜1",
+      "title": "蜥蜴人海难",
       "memo": "帝国、亚瑟与盖亚：未解决事项（第273源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10144,7 +10144,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-form-273-01",
-      "title": "主角龙形态｜第273源章｜1",
+      "title": "主角龙形态｜众神的游戏.(3)｜生命女神本体",
       "memo": "帝国、亚瑟与盖亚：主角龙形态（第273源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10169,7 +10169,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-state-273-01",
-      "title": "主角龙状态｜第273源章｜1",
+      "title": "主角龙状态｜众神的游戏.(3)｜完成LD制度，使神明从旁观者转为受限守护者",
       "memo": "帝国、亚瑟与盖亚：主角龙状态（第273源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10194,7 +10194,7 @@
     },
     {
       "id": "era-15-arthur-gaia-protagonist-knowledge-273-01",
-      "title": "主角龙知识边界｜第273源章｜1",
+      "title": "主角龙知识边界｜众神的游戏.(3)｜判断无大变故神将不再伤人，但下一次地表求援已到来",
       "memo": "帝国、亚瑟与盖亚：主角龙知识边界（第273源章第1条）",
       "category": "knowledge-boundary",
       "keys": [

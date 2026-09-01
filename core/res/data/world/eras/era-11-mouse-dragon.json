@@ -2990,7 +2990,7 @@
   "lorebook": [
     {
       "id": "era-11-mouse-dragon-core",
-      "title": "老鼠与龙、十二动物神巡游｜时代边界",
+      "title": "老鼠与龙、十二动物神巡游",
       "memo": "老鼠与龙、十二动物神巡游：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3005,7 +3005,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-171-01",
-      "title": "事件｜第171源章｜1",
+      "title": "神界从掠夺信仰转为照料信徒，主角把工作交给分灵与自动系统，宣布原计划冬眠五百年",
       "memo": "老鼠与龙、十二动物神巡游：事件（第171源章第1条）",
       "category": "event",
       "keys": [
@@ -3030,7 +3030,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-171-02",
-      "title": "事件｜第171源章｜2",
+      "title": "主角在大陆西部偏远怪物山地深挖洞穴、封住入口，以原本龙形蜷伏入眠",
       "memo": "老鼠与龙、十二动物神巡游：事件（第171源章第2条）",
       "category": "event",
       "keys": [
@@ -3055,7 +3055,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-171-03",
-      "title": "事件｜第171源章｜3",
+      "title": "鼠兽人孤女梅贝尔在贫村神殿以劳动换食，厌恶歧视并盘算成年后离村",
       "memo": "老鼠与龙、十二动物神巡游：事件（第171源章第3条）",
       "category": "event",
       "keys": [
@@ -3081,7 +3081,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-171-04",
-      "title": "事件｜第171源章｜4",
+      "title": "梅贝尔坠入裂缝，发现沉睡的巨大银龙",
       "memo": "老鼠与龙、十二动物神巡游：事件（第171源章第4条）",
       "category": "event",
       "keys": [
@@ -3107,7 +3107,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-171-01",
-      "title": "世界设定事实｜第171源章｜1",
+      "title": "神规后神明社会从攻击掠夺转为培养信徒，巴尔仍任神王",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第171源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3133,7 +3133,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-171-02",
-      "title": "世界设定事实｜第171源章｜2",
+      "title": "偏远村庄仍存在鼠兽人歧视与贫困，神殿收留孤儿但实行不劳动就减餐",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第171源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3158,7 +3158,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-171-01",
-      "title": "新建立连续性｜第171源章｜1",
+      "title": "五百年冬眠计划",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第171源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3183,7 +3183,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-171-02",
-      "title": "新建立连续性｜第171源章｜2",
+      "title": "梅贝尔",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第171源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3209,7 +3209,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-171-03",
-      "title": "新建立连续性｜第171源章｜3",
+      "title": "西部贫村",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第171源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3234,7 +3234,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-171-04",
-      "title": "新建立连续性｜第171源章｜4",
+      "title": "银龙本体重现",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第171源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3259,7 +3259,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-171-01",
-      "title": "未解决事项｜第171源章｜1",
+      "title": "实际睡眠时长",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第171源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3284,7 +3284,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-171-02",
-      "title": "未解决事项｜第171源章｜2",
+      "title": "三百年世界变化",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第171源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3309,7 +3309,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-171-03",
-      "title": "未解决事项｜第171源章｜3",
+      "title": "梅贝尔与龙相遇后果",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第171源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3335,7 +3335,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-171-01",
-      "title": "主角龙形态｜第171源章｜1",
+      "title": "主角龙形态｜老鼠与龙.(1)｜巨大银色龙本体，金色眼睛，呼吸如雷，翼与口的尺度远超人类房屋",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第171源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3360,7 +3360,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-171-01",
-      "title": "主角龙状态｜第171源章｜1",
+      "title": "主角龙状态｜老鼠与龙.(1)｜原定五百年冬眠中被梅贝尔提前惊醒",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第171源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3386,7 +3386,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-171-01",
-      "title": "主角龙知识边界｜第171源章｜1",
+      "title": "主角龙知识边界｜老鼠与龙.(1)｜入睡前只知制度可维持，不知道三百年后的村庄、梅贝尔或外界变化",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第171源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3412,7 +3412,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-172-01",
-      "title": "事件｜第172源章｜1",
+      "title": "梅贝尔梦见母亲十年前把她留在村庄、承诺赚到钱回来却再无音信，梦中的龙吞噬一切后她醒来",
       "memo": "老鼠与龙、十二动物神巡游：事件（第172源章第1条）",
       "category": "event",
       "keys": [
@@ -3438,7 +3438,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-172-02",
-      "title": "事件｜第172源章｜2",
+      "title": "银龙束缚试图逃跑的梅贝尔，说明不吃人且靠魔力生存",
       "memo": "老鼠与龙、十二动物神巡游：事件（第172源章第2条）",
       "category": "event",
       "keys": [
@@ -3464,7 +3464,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-172-03",
-      "title": "事件｜第172源章｜3",
+      "title": "龙伸展翅膀误伤梅贝尔并立即道歉治疗，提出送她回家",
       "memo": "老鼠与龙、十二动物神巡游：事件（第172源章第3条）",
       "category": "event",
       "keys": [
@@ -3490,7 +3490,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-172-04",
-      "title": "事件｜第172源章｜4",
+      "title": "龙变成头顶长角的银发少女，空间移动到森林",
       "memo": "老鼠与龙、十二动物神巡游：事件（第172源章第4条）",
       "category": "event",
       "keys": [
@@ -3517,7 +3517,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-172-01",
-      "title": "世界设定事实｜第172源章｜1",
+      "title": "数周前地震打开被封洞穴",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第172源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3542,7 +3542,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-172-01",
-      "title": "新建立连续性｜第172源章｜1",
+      "title": "提亚马特／蒂雅新名",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第172源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3568,7 +3568,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-172-02",
-      "title": "新建立连续性｜第172源章｜2",
+      "title": "梅贝尔向导关系",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第172源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3594,7 +3594,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-172-03",
-      "title": "新建立连续性｜第172源章｜3",
+      "title": "三百年后醒来",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第172源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3619,7 +3619,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-172-01",
-      "title": "未解决事项｜第172源章｜1",
+      "title": "后世世界变化",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第172源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3644,7 +3644,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-172-02",
-      "title": "未解决事项｜第172源章｜2",
+      "title": "村庄对蒂雅反应",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第172源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3670,7 +3670,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-172-03",
-      "title": "未解决事项｜第172源章｜3",
+      "title": "梅贝尔母亲去向",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第172源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3696,7 +3696,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-172-01",
-      "title": "主角龙形态｜第172源章｜1",
+      "title": "主角龙形态｜老鼠与龙.(2)｜巨大银龙本体",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第172源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3721,7 +3721,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-172-01",
-      "title": "主角龙状态｜第172源章｜1",
+      "title": "主角龙状态｜老鼠与龙.(2)｜采用提亚马特／蒂雅身份，委托梅贝尔带看后世",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第172源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3748,7 +3748,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-172-01",
-      "title": "主角龙知识边界｜第172源章｜1",
+      "title": "主角龙知识边界｜老鼠与龙.(2)｜只刚确认过去三百年，尚不了解当代宗教、历史叙述与社会",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第172源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3773,7 +3773,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-173-01",
-      "title": "事件｜第173源章｜1",
+      "title": "梅贝尔带蒂雅参观小村，得知村民正找她",
       "memo": "老鼠与龙、十二动物神巡游：事件（第173源章第1条）",
       "category": "event",
       "keys": [
@@ -3800,7 +3800,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-173-02",
-      "title": "事件｜第173源章｜2",
+      "title": "村庄综合神殿以生命之母、天空之父等神为主",
       "memo": "老鼠与龙、十二动物神巡游：事件（第173源章第2条）",
       "category": "event",
       "keys": [
@@ -3826,7 +3826,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-173-03",
-      "title": "事件｜第173源章｜3",
+      "title": "蒂雅表明要周游世界",
       "memo": "老鼠与龙、十二动物神巡游：事件（第173源章第3条）",
       "category": "event",
       "keys": [
@@ -3853,7 +3853,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-173-04",
-      "title": "事件｜第173源章｜4",
+      "title": "偷听的梅贝尔在龙，神与古代巫女传说间推理",
       "memo": "老鼠与龙、十二动物神巡游：事件（第173源章第4条）",
       "category": "event",
       "keys": [
@@ -3881,7 +3881,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-173-01",
-      "title": "世界设定事实｜第173源章｜1",
+      "title": "贫村采用一座综合神殿，生命之母占最大份额，其次天空之父，另供神圣火焰与法律正义之神",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第173源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3906,7 +3906,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-173-02",
-      "title": "世界设定事实｜第173源章｜2",
+      "title": "三百年后通行传说把龙族巫女视为继承生命女神力量的人类，并称龙是被勇者消灭的怪物",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第173源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3932,7 +3932,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-173-01",
-      "title": "新建立连续性｜第173源章｜1",
+      "title": "后世综合神殿",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第173源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3957,7 +3957,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-173-02",
-      "title": "新建立连续性｜第173源章｜2",
+      "title": "龙族巫女误传",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第173源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3983,7 +3983,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-173-03",
-      "title": "新建立连续性｜第173源章｜3",
+      "title": "祭司识破部分伪装",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第173源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4008,7 +4008,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-173-01",
-      "title": "未解决事项｜第173源章｜1",
+      "title": "蒂雅周游路线",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第173源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4034,7 +4034,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-173-02",
-      "title": "未解决事项｜第173源章｜2",
+      "title": "梅贝尔是否守密",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第173源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4060,7 +4060,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-173-03",
-      "title": "未解决事项｜第173源章｜3",
+      "title": "旧职业祭司身份",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第173源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4085,7 +4085,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-173-01",
-      "title": "主角龙形态｜第173源章｜1",
+      "title": "主角龙形态｜老鼠与龙.(3)｜长角银发少女，穿雪白柔软衣物",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第173源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4110,7 +4110,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-173-01",
-      "title": "主角龙状态｜第173源章｜1",
+      "title": "主角龙状态｜老鼠与龙.(3)｜以蒂雅身份开始周游世界，梅贝尔继续担任向导",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第173源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4137,7 +4137,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-173-01",
-      "title": "主角龙知识边界｜第173源章｜1",
+      "title": "主角龙知识边界｜老鼠与龙.(3)｜知道祭司和梅贝尔可能猜到龙族巫女关联，但尚未看到后世完整误传",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第173源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4164,7 +4164,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-174-01",
-      "title": "事件｜第174源章｜1",
+      "title": "蒂雅要低调从普通人视角旅行",
       "memo": "老鼠与龙、十二动物神巡游：事件（第174源章第1条）",
       "category": "event",
       "keys": [
@@ -4190,7 +4190,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-174-02",
-      "title": "事件｜第174源章｜2",
+      "title": "祭司建议梅贝尔同行，并拿出其母艾拉去年寄来的信，说明梅贝尔有必须离村的理由",
       "memo": "老鼠与龙、十二动物神巡游：事件（第174源章第2条）",
       "category": "event",
       "keys": [
@@ -4217,7 +4217,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-174-03",
-      "title": "事件｜第174源章｜3",
+      "title": "梅贝尔因祭司隐瞒母亲来信而爆发",
       "memo": "老鼠与龙、十二动物神巡游：事件（第174源章第3条）",
       "category": "event",
       "keys": [
@@ -4244,7 +4244,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-174-01",
-      "title": "世界设定事实｜第174源章｜1",
+      "title": "龙族巫女外貌传说广为人知",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第174源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4271,7 +4271,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-174-01",
-      "title": "新建立连续性｜第174源章｜1",
+      "title": "角头饰伪装",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第174源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4296,7 +4296,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-174-02",
-      "title": "新建立连续性｜第174源章｜2",
+      "title": "艾拉来信",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第174源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4322,7 +4322,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-174-01",
-      "title": "未解决事项｜第174源章｜1",
+      "title": "信件内容",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第174源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4347,7 +4347,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-174-02",
-      "title": "未解决事项｜第174源章｜2",
+      "title": "梅贝尔是否同行",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第174源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4373,7 +4373,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-174-01",
-      "title": "主角龙形态｜第174源章｜1",
+      "title": "主角龙形态｜老鼠与龙.(4)｜银发角被幻象头饰包裹的人形",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第174源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4398,7 +4398,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-174-01",
-      "title": "主角龙状态｜第174源章｜1",
+      "title": "主角龙状态｜老鼠与龙.(4)｜准备次日低调旅行，并考虑带梅贝尔同行",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第174源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4424,7 +4424,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-174-01",
-      "title": "主角龙知识边界｜第174源章｜1",
+      "title": "主角龙知识边界｜老鼠与龙.(4)｜尚不知道艾拉来信内容，只知梅贝尔处于潜在危险",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第174源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4451,7 +4451,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-175-01",
-      "title": "事件｜第175源章｜1",
+      "title": "信件显示艾拉处于危险",
       "memo": "老鼠与龙、十二动物神巡游：事件（第175源章第1条）",
       "category": "event",
       "keys": [
@@ -4479,7 +4479,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-175-02",
-      "title": "事件｜第175源章｜2",
+      "title": "祭司讲艾拉出身富裕鼠兽人家庭，受继母姐妹欺凌后出走成为挥巨锤的冒险者，夺回财产",
       "memo": "老鼠与龙、十二动物神巡游：事件（第175源章第2条）",
       "category": "event",
       "keys": [
@@ -4505,7 +4505,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-175-03",
-      "title": "事件｜第175源章｜3",
+      "title": "祭司推测天狼星兽人神位空缺牵涉危险",
       "memo": "老鼠与龙、十二动物神巡游：事件（第175源章第3条）",
       "category": "event",
       "keys": [
@@ -4531,7 +4531,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-175-01",
-      "title": "世界设定事实｜第175源章｜1",
+      "title": "艾拉藏字信关键词为鼠兽人、危险、神、女儿、安全、旅行",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第175源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4557,7 +4557,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-175-01",
-      "title": "新建立连续性｜第175源章｜1",
+      "title": "艾拉经历",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第175源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4583,7 +4583,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-175-02",
-      "title": "新建立连续性｜第175源章｜2",
+      "title": "大地粉碎者",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第175源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4608,7 +4608,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-175-03",
-      "title": "新建立连续性｜第175源章｜3",
+      "title": "兽人神位风险",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第175源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4633,7 +4633,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-175-01",
-      "title": "未解决事项｜第175源章｜1",
+      "title": "艾拉所在地",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第175源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4659,7 +4659,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-175-02",
-      "title": "未解决事项｜第175源章｜2",
+      "title": "敌对神身份",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第175源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4684,7 +4684,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-175-03",
-      "title": "未解决事项｜第175源章｜3",
+      "title": "信件完整真意",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第175源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4709,7 +4709,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-175-01",
-      "title": "主角龙形态｜第175源章｜1",
+      "title": "主角龙形态｜老鼠与龙.(5)｜头饰掩角的银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第175源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4734,7 +4734,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-175-01",
-      "title": "主角龙状态｜第175源章｜1",
+      "title": "主角龙状态｜老鼠与龙.(5)｜成为梅贝尔同行保护者，准备追查艾拉与兽人神危险",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第175源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4761,7 +4761,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-175-01",
-      "title": "主角龙知识边界｜第175源章｜1",
+      "title": "主角龙知识边界｜老鼠与龙.(5)｜只知道藏字关键词及祭司推测，尚不能断言敌人或危险机制",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第175源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4786,7 +4786,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-176-01",
-      "title": "事件｜第176源章｜1",
+      "title": "祭司交给梅贝尔艾拉的大地粉碎者",
       "memo": "老鼠与龙、十二动物神巡游：事件（第176源章第1条）",
       "category": "event",
       "keys": [
@@ -4813,7 +4813,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-176-02",
-      "title": "事件｜第176源章｜2",
+      "title": "蒂雅展示克拉乌·索拉斯与异空间魔法，确认自己就是数百年前龙族巫女，要求保密",
       "memo": "老鼠与龙、十二动物神巡游：事件（第176源章第2条）",
       "category": "event",
       "keys": [
@@ -4840,7 +4840,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-176-03",
-      "title": "事件｜第176源章｜3",
+      "title": "蒂雅决定次日清晨徒步出发，不用空间移动，以保留旅行体验",
       "memo": "老鼠与龙、十二动物神巡游：事件（第176源章第3条）",
       "category": "event",
       "keys": [
@@ -4866,7 +4866,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-176-01",
-      "title": "世界设定事实｜第176源章｜1",
+      "title": "大地粉碎者以使用者魔力增强臂力，曾让本就怪力的艾拉足以一击普通怪物",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第176源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4892,7 +4892,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-176-02",
-      "title": "世界设定事实｜第176源章｜2",
+      "title": "异空间魔法在后世被视为无人能再现、仅少数研究者知晓的龙族巫女传说",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第176源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4918,7 +4918,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-176-01",
-      "title": "新建立连续性｜第176源章｜1",
+      "title": "梅贝尔继承大地粉碎者",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第176源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4944,7 +4944,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-176-02",
-      "title": "新建立连续性｜第176源章｜2",
+      "title": "祭司确认古代巫女本人",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第176源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4969,7 +4969,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-176-01",
-      "title": "未解决事项｜第176源章｜1",
+      "title": "武器训练",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第176源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4994,7 +4994,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-176-02",
-      "title": "未解决事项｜第176源章｜2",
+      "title": "旅途首站",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第176源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5019,7 +5019,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-176-01",
-      "title": "主角龙形态｜第176源章｜1",
+      "title": "主角龙形态｜老鼠与龙.(6)｜头饰掩角的银发少女，持克拉乌·索拉斯",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第176源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5044,7 +5044,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-176-01",
-      "title": "主角龙状态｜第176源章｜1",
+      "title": "主角龙状态｜老鼠与龙.(6)｜决定清晨与梅贝尔徒步启程",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第176源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5070,7 +5070,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-176-01",
-      "title": "主角龙知识边界｜第176源章｜1",
+      "title": "主角龙知识边界｜老鼠与龙.(6)｜不知道龙族巫女故事的全部后世版本",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第176源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5096,7 +5096,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-177-01",
-      "title": "事件｜第177源章｜1",
+      "title": "梅贝尔带着救母决心与蒂雅离村",
       "memo": "老鼠与龙、十二动物神巡游：事件（第177源章第1条）",
       "category": "event",
       "keys": [
@@ -5123,7 +5123,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-177-02",
-      "title": "事件｜第177源章｜2",
+      "title": "蒂雅因想看三百年变化与艾拉故事而同行，优化大地粉碎者术式",
       "memo": "老鼠与龙、十二动物神巡游：事件（第177源章第2条）",
       "category": "event",
       "keys": [
@@ -5150,7 +5150,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-177-03",
-      "title": "事件｜第177源章｜3",
+      "title": "两人徒步抵达麦田村庄，梅贝尔自信带路找旅馆",
       "memo": "老鼠与龙、十二动物神巡游：事件（第177源章第3条）",
       "category": "event",
       "keys": [
@@ -5176,7 +5176,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-177-01",
-      "title": "世界设定事实｜第177源章｜1",
+      "title": "蒂雅判断大地粉碎者原术式十点魔力约转四点强化，经调整可接近八点",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第177源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5202,7 +5202,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-177-01",
-      "title": "新建立连续性｜第177源章｜1",
+      "title": "大地粉碎者术式优化",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第177源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5227,7 +5227,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-177-02",
-      "title": "新建立连续性｜第177源章｜2",
+      "title": "帮助人类的双层动机",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第177源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5252,7 +5252,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-177-01",
-      "title": "未解决事项｜第177源章｜1",
+      "title": "梅贝尔训练",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第177源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5278,7 +5278,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-177-02",
-      "title": "未解决事项｜第177源章｜2",
+      "title": "艾拉线索",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第177源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5304,7 +5304,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-177-01",
-      "title": "主角龙形态｜第177源章｜1",
+      "title": "主角龙形态｜鼠与龙之旅.(1)｜头饰掩角银发少女，徒步旅行",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第177源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5329,7 +5329,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-177-01",
-      "title": "主角龙状态｜第177源章｜1",
+      "title": "主角龙状态｜鼠与龙之旅.(1)｜观察后世并保护、训练梅贝尔",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第177源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5355,7 +5355,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-177-01",
-      "title": "主角龙知识边界｜第177源章｜1",
+      "title": "主角龙知识边界｜鼠与龙之旅.(1)｜不能向梅贝尔公开前世人类和生命女神身份",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第177源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5381,7 +5381,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-178-01",
-      "title": "事件｜第178源章｜1",
+      "title": "梅贝尔发现自己严重路痴，绕行后才找到旅馆",
       "memo": "老鼠与龙、十二动物神巡游：事件（第178源章第1条）",
       "category": "event",
       "keys": [
@@ -5407,7 +5407,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-178-02",
-      "title": "事件｜第178源章｜2",
+      "title": "梅贝尔因与传说巫女同室而紧张",
       "memo": "老鼠与龙、十二动物神巡游：事件（第178源章第2条）",
       "category": "event",
       "keys": [
@@ -5434,7 +5434,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-178-03",
-      "title": "事件｜第178源章｜3",
+      "title": "两人确认前往阿尔门生命神殿",
       "memo": "老鼠与龙、十二动物神巡游：事件（第178源章第3条）",
       "category": "event",
       "keys": [
@@ -5460,7 +5460,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-178-01",
-      "title": "世界设定事实｜第178源章｜1",
+      "title": "阿尔门位于旧阿卡德西北",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第178源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5485,7 +5485,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-178-02",
-      "title": "世界设定事实｜第178源章｜2",
+      "title": "天狼星保持中立，由天狼星神殿长与以初代骑兵团长艾波那命名的骑兵团长共治，等待正统王者",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第178源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5510,7 +5510,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-178-01",
-      "title": "新建立连续性｜第178源章｜1",
+      "title": "阿卡迪亚分裂",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第178源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5535,7 +5535,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-178-02",
-      "title": "新建立连续性｜第178源章｜2",
+      "title": "中立都市天狼星",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第178源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5560,7 +5560,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-178-03",
-      "title": "新建立连续性｜第178源章｜3",
+      "title": "梅贝尔路痴",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第178源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5586,7 +5586,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-178-01",
-      "title": "未解决事项｜第178源章｜1",
+      "title": "阿尔门线索",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第178源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5611,7 +5611,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-178-02",
-      "title": "未解决事项｜第178源章｜2",
+      "title": "正统继承者",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第178源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5636,7 +5636,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-178-01",
-      "title": "主角龙形态｜第178源章｜1",
+      "title": "主角龙形态｜鼠与龙之旅.(2)｜头饰掩角银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第178源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5661,7 +5661,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-178-01",
-      "title": "主角龙状态｜第178源章｜1",
+      "title": "主角龙状态｜鼠与龙之旅.(2)｜目标为阿尔门生命神殿，决定旁观人类政史",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第178源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5686,7 +5686,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-178-01",
-      "title": "主角龙知识边界｜第178源章｜1",
+      "title": "主角龙知识边界｜鼠与龙之旅.(2)｜只从梅贝尔概述获知阿卡迪亚分裂，不掌握详细内战史",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第178源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5712,7 +5712,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-179-01",
-      "title": "事件｜第179源章｜1",
+      "title": "蒂雅说明祭司有实力且暗布拒敌结界，继续前往阿尔门",
       "memo": "老鼠与龙、十二动物神巡游：事件（第179源章第1条）",
       "category": "event",
       "keys": [
@@ -5738,7 +5738,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-179-02",
-      "title": "事件｜第179源章｜2",
+      "title": "三百年后砖筑道路、布料、经济与多神祭坛发展，冒险者狩猎怪物材料，士兵兼治安常备军",
       "memo": "老鼠与龙、十二动物神巡游：事件（第179源章第2条）",
       "category": "event",
       "keys": [
@@ -5763,7 +5763,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-179-03",
-      "title": "事件｜第179源章｜3",
+      "title": "两人抵达拥有供排水系统和澡堂的大城阿尔门，问路后梅贝尔仍数次走错，最终到生命神殿",
       "memo": "老鼠与龙、十二动物神巡游：事件（第179源章第3条）",
       "category": "event",
       "keys": [
@@ -5789,7 +5789,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-179-01",
-      "title": "世界设定事实｜第179源章｜1",
+      "title": "三百年后砖石建筑道路、织物经济、多神小祭坛与依靠怪物材料的冒险者行业发展",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第179源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5814,7 +5814,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-179-02",
-      "title": "世界设定事实｜第179源章｜2",
+      "title": "城邦阿尔门规模近旧天狼星，以供水、下水道与公共澡堂维持清洁",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第179源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5839,7 +5839,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-179-01",
-      "title": "新建立连续性｜第179源章｜1",
+      "title": "阿尔门城",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第179源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5864,7 +5864,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-179-02",
-      "title": "新建立连续性｜第179源章｜2",
+      "title": "后世冒险者经济",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第179源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5889,7 +5889,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-179-03",
-      "title": "新建立连续性｜第179源章｜3",
+      "title": "供排水系统",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第179源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5914,7 +5914,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-179-01",
-      "title": "未解决事项｜第179源章｜1",
+      "title": "神殿信件记录",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第179源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5939,7 +5939,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-179-02",
-      "title": "未解决事项｜第179源章｜2",
+      "title": "艾拉位置",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第179源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5965,7 +5965,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-179-01",
-      "title": "主角龙形态｜第179源章｜1",
+      "title": "主角龙形态｜鼠与龙之旅.(3)｜头饰掩角银发少女旅行者",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第179源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5990,7 +5990,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-179-01",
-      "title": "主角龙状态｜第179源章｜1",
+      "title": "主角龙状态｜鼠与龙之旅.(3)｜抵达阿尔门生命神殿",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第179源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6015,7 +6015,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-179-01",
-      "title": "主角龙知识边界｜第179源章｜1",
+      "title": "主角龙知识边界｜鼠与龙之旅.(3)｜对后世设施以亲眼观察和卫兵说明为准，不知道艾拉是否在城中",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第179源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6041,7 +6041,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-180-01",
-      "title": "事件｜第180源章｜1",
+      "title": "神殿前台按程序要求三周预约",
       "memo": "老鼠与龙、十二动物神巡游：事件（第180源章第1条）",
       "category": "event",
       "keys": [
@@ -6067,7 +6067,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-180-02",
-      "title": "事件｜第180源章｜2",
+      "title": "蒂雅禁止追问身份，调查一年前来寄信的小个灰发鼠兽人",
       "memo": "老鼠与龙、十二动物神巡游：事件（第180源章第2条）",
       "category": "event",
       "keys": [
@@ -6093,7 +6093,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-180-03",
-      "title": "事件｜第180源章｜3",
+      "title": "祭司长想安排神殿客房并猜她重现是要选勇者，蒂雅拒绝更好住所并要求行踪保密",
       "memo": "老鼠与龙、十二动物神巡游：事件（第180源章第3条）",
       "category": "event",
       "keys": [
@@ -6119,7 +6119,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-180-01",
-      "title": "世界设定事实｜第180源章｜1",
+      "title": "阿尔门生命神殿每日寄出数十封信",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第180源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6144,7 +6144,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-180-01",
-      "title": "新建立连续性｜第180源章｜1",
+      "title": "酸腐臭味线索",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第180源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6169,7 +6169,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-180-02",
-      "title": "新建立连续性｜第180源章｜2",
+      "title": "生命神殿寄信见证",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第180源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6194,7 +6194,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-180-01",
-      "title": "未解决事项｜第180源章｜1",
+      "title": "气味来源",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第180源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6219,7 +6219,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-180-02",
-      "title": "未解决事项｜第180源章｜2",
+      "title": "祭司长勇者猜测",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第180源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6244,7 +6244,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-180-01",
-      "title": "主角龙形态｜第180源章｜1",
+      "title": "主角龙形态｜鼠与龙之旅.(4)｜头饰掩角银发少女，短暂外泄浓郁神力",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第180源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6269,7 +6269,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-180-01",
-      "title": "主角龙状态｜第180源章｜1",
+      "title": "主角龙状态｜鼠与龙之旅.(4)｜取得气味线索后回旅馆整理",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第180源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6294,7 +6294,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-180-01",
-      "title": "主角龙知识边界｜第180源章｜1",
+      "title": "主角龙知识边界｜鼠与龙之旅.(4)｜不能确定寄信者就是艾拉，明确保留诱饵陷阱可能",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第180源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6320,7 +6320,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-181-01",
-      "title": "事件｜第181源章｜1",
+      "title": "蒂雅先带梅贝尔吃饭、去澡堂，说明洗澡实际服务于调查",
       "memo": "老鼠与龙、十二动物神巡游：事件（第181源章第1条）",
       "category": "event",
       "keys": [
@@ -6347,7 +6347,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-181-02",
-      "title": "事件｜第181源章｜2",
+      "title": "蒂雅把酸腐味与洁净城市的下水道联系，制作共享视听魔力泡泡从澡堂排水口侦察",
       "memo": "老鼠与龙、十二动物神巡游：事件（第181源章第2条）",
       "category": "event",
       "keys": [
@@ -6373,7 +6373,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-181-03",
-      "title": "事件｜第181源章｜3",
+      "title": "泡泡起初无发现，随后跟踪下水道中的小个身影，找到阿尔门地下仅有鼠兽人的隐秘村庄",
       "memo": "老鼠与龙、十二动物神巡游：事件（第181源章第3条）",
       "category": "event",
       "keys": [
@@ -6399,7 +6399,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-181-01",
-      "title": "世界设定事实｜第181源章｜1",
+      "title": "阿尔门下水道深处连接一个仅有鼠兽人的隐秘地下村庄，像为避开其他人类目光而建",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第181源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6424,7 +6424,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-181-01",
-      "title": "新建立连续性｜第181源章｜1",
+      "title": "地下鼠兽人村庄",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第181源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6449,7 +6449,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-181-02",
-      "title": "新建立连续性｜第181源章｜2",
+      "title": "魔力泡泡侦察",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第181源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6474,7 +6474,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-181-01",
-      "title": "未解决事项｜第181源章｜1",
+      "title": "地下村庄真相",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第181源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6499,7 +6499,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-181-02",
-      "title": "未解决事项｜第181源章｜2",
+      "title": "艾拉是否在场",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第181源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6525,7 +6525,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-181-01",
-      "title": "主角龙形态｜第181源章｜1",
+      "title": "主角龙形态｜鼠兽人的村庄.(1)｜头饰掩角银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第181源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6550,7 +6550,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-181-01",
-      "title": "主角龙状态｜第181源章｜1",
+      "title": "主角龙状态｜鼠兽人的村庄.(1)｜锁定地下鼠兽人村庄坐标，准备带梅贝尔瞬移",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第181源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6576,7 +6576,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-181-01",
-      "title": "主角龙知识边界｜第181源章｜1",
+      "title": "主角龙知识边界｜鼠兽人的村庄.(1)｜尚未确认地下村庄居民身份、建立原因或艾拉是否在其中",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第181源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6602,7 +6602,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-182-01",
-      "title": "事件｜第182源章｜1",
+      "title": "蒂雅带梅贝尔瞬移潜入地下村，用只能给出水平指向的寻水棒定位艾拉",
       "memo": "老鼠与龙、十二动物神巡游：事件（第182源章第1条）",
       "category": "event",
       "keys": [
@@ -6630,7 +6630,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-182-02",
-      "title": "事件｜第182源章｜2",
+      "title": "地下村仿矮人洞穴聚落",
       "memo": "老鼠与龙、十二动物神巡游：事件（第182源章第2条）",
       "category": "event",
       "keys": [
@@ -6657,7 +6657,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-182-03",
-      "title": "事件｜第182源章｜3",
+      "title": "蒂雅催眠并读取卫兵记忆，得知鼠穴之村首脑正在尝试创造专属鼠兽人的新神",
       "memo": "老鼠与龙、十二动物神巡游：事件（第182源章第3条）",
       "category": "event",
       "keys": [
@@ -6683,7 +6683,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-182-01",
-      "title": "世界设定事实｜第182源章｜1",
+      "title": "地下聚落名鼠穴之村，其首脑听从计划要创造只属于鼠兽人的新神",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第182源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6708,7 +6708,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-182-01",
-      "title": "新建立连续性｜第182源章｜1",
+      "title": "寻水棒",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第182源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6733,7 +6733,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-182-02",
-      "title": "新建立连续性｜第182源章｜2",
+      "title": "鼠穴之村",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第182源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6758,7 +6758,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-182-03",
-      "title": "新建立连续性｜第182源章｜3",
+      "title": "鼠兽人造神计划",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第182源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6783,7 +6783,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-182-01",
-      "title": "未解决事项｜第182源章｜1",
+      "title": "艾拉囚禁原因",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第182源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6809,7 +6809,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-182-02",
-      "title": "未解决事项｜第182源章｜2",
+      "title": "造神方法来源",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第182源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6834,7 +6834,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-182-01",
-      "title": "主角龙形态｜第182源章｜1",
+      "title": "主角龙形态｜鼠兽人的村庄（2）｜头饰掩角银发少女，隐身并施展精神压制",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第182源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6859,7 +6859,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-182-01",
-      "title": "主角龙状态｜第182源章｜1",
+      "title": "主角龙状态｜鼠兽人的村庄（2）｜已定位艾拉与造神阴谋",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第182源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6885,7 +6885,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-182-01",
-      "title": "主角龙知识边界｜第182源章｜1",
+      "title": "主角龙知识边界｜鼠兽人的村庄（2）｜只读取一名守卫记忆，尚不知道造神方法来源与全貌",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第182源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6910,7 +6910,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-183-01",
-      "title": "事件｜第183源章｜1",
+      "title": "蒂雅操纵守卫认知潜入，以无碎片方式切开封死艾拉的墙",
       "memo": "老鼠与龙、十二动物神巡游：事件（第183源章第1条）",
       "category": "event",
       "keys": [
@@ -6937,7 +6937,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-183-02",
-      "title": "事件｜第183源章｜2",
+      "title": "梅贝尔找到濒死艾拉",
       "memo": "老鼠与龙、十二动物神巡游：事件（第183源章第2条）",
       "category": "event",
       "keys": [
@@ -6965,7 +6965,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-183-03",
-      "title": "事件｜第183源章｜3",
+      "title": "蒂雅复原墙壁并将三人瞬移回旅馆，艾拉由空间移动与龙角认出古代龙族巫女",
       "memo": "老鼠与龙、十二动物神巡游：事件（第183源章第3条）",
       "category": "event",
       "keys": [
@@ -6993,7 +6993,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-183-01",
-      "title": "世界设定事实｜第183源章｜1",
+      "title": "艾拉被后来砌墙完全封闭，只能从墙底窄缝获得食物，守卫负责记录她的话",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第183源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7019,7 +7019,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-183-01",
-      "title": "新建立连续性｜第183源章｜1",
+      "title": "艾拉获救",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第183源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7045,7 +7045,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-183-02",
-      "title": "新建立连续性｜第183源章｜2",
+      "title": "母女重逢",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第183源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7070,7 +7070,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-183-01",
-      "title": "未解决事项｜第183源章｜1",
+      "title": "造神仪式详情",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第183源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7095,7 +7095,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-183-02",
-      "title": "未解决事项｜第183源章｜2",
+      "title": "囚禁者处理",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第183源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7120,7 +7120,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-183-01",
-      "title": "主角龙形态｜第183源章｜1",
+      "title": "主角龙形态｜母女重逢｜头饰未能完全遮掩的大角银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第183源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7145,7 +7145,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-183-01",
-      "title": "主角龙状态｜第183源章｜1",
+      "title": "主角龙状态｜母女重逢｜救回艾拉并回到旅馆",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第183源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7171,7 +7171,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-183-01",
-      "title": "主角龙知识边界｜第183源章｜1",
+      "title": "主角龙知识边界｜母女重逢｜尚未直接听艾拉说明阴谋，只知道守卫记忆与其囚禁状态",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第183源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7197,7 +7197,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-184-01",
-      "title": "事件｜第184源章｜1",
+      "title": "艾拉称天狼星出现后兽人分裂",
       "memo": "老鼠与龙、十二动物神巡游：事件（第184源章第1条）",
       "category": "event",
       "keys": [
@@ -7224,7 +7224,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-184-02",
-      "title": "事件｜第184源章｜2",
+      "title": "鼠兽人失去共同神保护后遭歧视",
       "memo": "老鼠与龙、十二动物神巡游：事件（第184源章第2条）",
       "category": "event",
       "keys": [
@@ -7249,7 +7249,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-184-03",
-      "title": "事件｜第184源章｜3",
+      "title": "计划选配优秀个体孕育神躯祭品，梅贝尔是最可能候选",
       "memo": "老鼠与龙、十二动物神巡游：事件（第184源章第3条）",
       "category": "event",
       "keys": [
@@ -7276,7 +7276,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-184-01",
-      "title": "世界设定事实｜第184源章｜1",
+      "title": "地底声音传授鼠兽人造神法，要求以选配后代作为新神肉体祭品",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第184源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7302,7 +7302,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-184-01",
-      "title": "新建立连续性｜第184源章｜1",
+      "title": "梅贝尔祭品身份",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第184源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7328,7 +7328,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-184-02",
-      "title": "新建立连续性｜第184源章｜2",
+      "title": "父亲牺牲",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第184源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7353,7 +7353,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-184-03",
-      "title": "新建立连续性｜第184源章｜3",
+      "title": "地底声音",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第184源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7378,7 +7378,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-184-01",
-      "title": "未解决事项｜第184源章｜1",
+      "title": "声音真身",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第184源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7403,7 +7403,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-184-02",
-      "title": "未解决事项｜第184源章｜2",
+      "title": "仪式目标",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第184源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7428,7 +7428,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-184-01",
-      "title": "主角龙形态｜第184源章｜1",
+      "title": "主角龙形态｜献给神的祭品.(1)｜头饰掩角银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第184源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7453,7 +7453,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-184-01",
-      "title": "主角龙状态｜第184源章｜1",
+      "title": "主角龙状态｜献给神的祭品.(1)｜听取造神阴谋并怀疑地底旧敌",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第184源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7478,7 +7478,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-184-01",
-      "title": "主角龙知识边界｜第184源章｜1",
+      "title": "主角龙知识边界｜献给神的祭品.(1)｜认为地底声音可能是熟悉对象但未证实，亦未掌握仪式材料全表",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第184源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7503,7 +7503,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-185-01",
-      "title": "事件｜第185源章｜1",
+      "title": "蒂雅指出真正造神只需群体信仰，神躯祭品、魔石与大量灵魂的仪式实为骗局",
       "memo": "老鼠与龙、十二动物神巡游：事件（第185源章第1条）",
       "category": "event",
       "keys": [
@@ -7529,7 +7529,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-185-02",
-      "title": "事件｜第185源章｜2",
+      "title": "她推断地底存在想借肉体、魔力和大量灵魂复活",
       "memo": "老鼠与龙、十二动物神巡游：事件（第185源章第2条）",
       "category": "event",
       "keys": [
@@ -7554,7 +7554,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-185-03",
-      "title": "事件｜第185源章｜3",
+      "title": "蒂雅不愿因未实施罪行杀光鼠兽人，提出反向利用信仰让梅贝尔活着升格为神",
       "memo": "老鼠与龙、十二动物神巡游：事件（第185源章第3条）",
       "category": "event",
       "keys": [
@@ -7581,7 +7581,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-185-01",
-      "title": "世界设定事实｜第185源章｜1",
+      "title": "伪造神仪式要求候选肉体，大量魔石，信仰和屠杀阿尔门全城所得灵魂",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第185源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7606,7 +7606,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-185-01",
-      "title": "新建立连续性｜第185源章｜1",
+      "title": "屠城投毒计划",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第185源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7631,7 +7631,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-185-02",
-      "title": "新建立连续性｜第185源章｜2",
+      "title": "梅贝尔现世神方案",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第185源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7657,7 +7657,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-185-01",
-      "title": "未解决事项｜第185源章｜1",
+      "title": "梅贝尔选择",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第185源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7683,7 +7683,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-185-02",
-      "title": "未解决事项｜第185源章｜2",
+      "title": "首脑处置",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第185源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7708,7 +7708,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-185-01",
-      "title": "主角龙形态｜第185源章｜1",
+      "title": "主角龙形态｜献给神的祭品.(2)｜头饰掩角银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第185源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7733,7 +7733,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-185-01",
-      "title": "主角龙状态｜第185源章｜1",
+      "title": "主角龙状态｜献给神的祭品.(2)｜提出梅贝尔自愿成为现世鼠神",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第185源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7759,7 +7759,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-185-01",
-      "title": "主角龙知识边界｜第185源章｜1",
+      "title": "主角龙知识边界｜献给神的祭品.(2)｜复活机制与地底对象仍为推断",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第185源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7785,7 +7785,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-186-01",
-      "title": "事件｜第186源章｜1",
+      "title": "蒂雅坚持梅贝尔已能自决",
       "memo": "老鼠与龙、十二动物神巡游：事件（第186源章第1条）",
       "category": "event",
       "keys": [
@@ -7812,7 +7812,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-186-02",
-      "title": "事件｜第186源章｜2",
+      "title": "蒂雅拒绝让艾拉代替，只给梅贝尔神位选择，并对艾拉隐藏超越龙族巫女的真实身份",
       "memo": "老鼠与龙、十二动物神巡游：事件（第186源章第2条）",
       "category": "event",
       "keys": [
@@ -7841,7 +7841,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-186-03",
-      "title": "事件｜第186源章｜3",
+      "title": "梅贝尔以向害死父亲、折磨母亲者复仇为动机选择成神",
       "memo": "老鼠与龙、十二动物神巡游：事件（第186源章第3条）",
       "category": "event",
       "keys": [
@@ -7868,7 +7868,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-186-01",
-      "title": "世界设定事实｜第186源章｜1",
+      "title": "蒂雅通过阿尔门结界、群体意识引导、首脑制服与信仰反用，使活着的梅贝尔获得神性",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第186源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7895,7 +7895,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-186-01",
-      "title": "新建立连续性｜第186源章｜1",
+      "title": "现人神梅贝尔",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第186源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7921,7 +7921,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-186-02",
-      "title": "新建立连续性｜第186源章｜2",
+      "title": "鼠神信仰",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第186源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7946,7 +7946,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-186-01",
-      "title": "未解决事项｜第186源章｜1",
+      "title": "首脑审判",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第186源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7971,7 +7971,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-186-02",
-      "title": "未解决事项｜第186源章｜2",
+      "title": "梅贝尔如何履职",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第186源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7997,7 +7997,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-186-01",
-      "title": "主角龙形态｜第186源章｜1",
+      "title": "主角龙形态｜鼠之神.(1)｜头饰掩角银发少女",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第186源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8022,7 +8022,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-186-01",
-      "title": "主角龙状态｜第186源章｜1",
+      "title": "主角龙状态｜鼠之神.(1)｜完成梅贝尔现人神化与阴谋反制",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第186源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8048,7 +8048,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-186-01",
-      "title": "主角龙知识边界｜第186源章｜1",
+      "title": "主角龙知识边界｜鼠之神.(1)｜不自称全知全能，不预知这一选择的长期后果",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第186源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8073,7 +8073,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-187-01",
-      "title": "事件｜第187源章｜1",
+      "title": "梅贝尔神职覆盖鼠兽人与近缘啮齿兽人，主要职责是抵御压迫并凝聚族群",
       "memo": "老鼠与龙、十二动物神巡游：事件（第187源章第1条）",
       "category": "event",
       "keys": [
@@ -8100,7 +8100,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-187-02",
-      "title": "事件｜第187源章｜2",
+      "title": "蒂雅给阿尔门结界并协助母女擒获首脑",
       "memo": "老鼠与龙、十二动物神巡游：事件（第187源章第2条）",
       "category": "event",
       "keys": [
@@ -8128,7 +8128,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-187-03",
-      "title": "事件｜第187源章｜3",
+      "title": "蒂雅缓解梅贝尔神职不安，计划把她纳入天狼星下属，并萌生十二动物神代理体系",
       "memo": "老鼠与龙、十二动物神巡游：事件（第187源章第3条）",
       "category": "event",
       "keys": [
@@ -8155,7 +8155,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-187-01",
-      "title": "世界设定事实｜第187源章｜1",
+      "title": "蒂雅设想十二位动物神作为天狼星代理，分管兽人、万神殿守卫、时月与方位",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第187源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8181,7 +8181,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-187-01",
-      "title": "新建立连续性｜第187源章｜1",
+      "title": "天狼星下属鼠神",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第187源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8206,7 +8206,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-187-02",
-      "title": "新建立连续性｜第187源章｜2",
+      "title": "十二动物神构想",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第187源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8231,7 +8231,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-187-01",
-      "title": "未解决事项｜第187源章｜1",
+      "title": "梅贝尔适应",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第187源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8257,7 +8257,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-187-02",
-      "title": "未解决事项｜第187源章｜2",
+      "title": "其他动物神候选",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第187源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8282,7 +8282,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-187-01",
-      "title": "主角龙形态｜第187源章｜1",
+      "title": "主角龙形态｜鼠之神.(2)｜头饰掩角银发少女，施展群体精神引导",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第187源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8307,7 +8307,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-187-01",
-      "title": "主角龙状态｜第187源章｜1",
+      "title": "主角龙状态｜鼠之神.(2)｜为鼠神安排天狼星上位体系，并计划十二动物神",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第187源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8332,7 +8332,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-187-01",
-      "title": "主角龙知识边界｜第187源章｜1",
+      "title": "主角龙知识边界｜鼠之神.(2)｜十二神仅为刚形成的计划，尚无其他候选人",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第187源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8357,7 +8357,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-188-01",
-      "title": "事件｜第188源章｜1",
+      "title": "首脑供认投毒、挑起战争开城门、毁地下结构沉城等计划并被沙玛什裁为死刑",
       "memo": "老鼠与龙、十二动物神巡游：事件（第188源章第1条）",
       "category": "event",
       "keys": [
@@ -8384,7 +8384,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-188-02",
-      "title": "事件｜第188源章｜2",
+      "title": "母女决定放弃阴谋村，蒂雅提议在故乡附近造新聚落，并坦言自己并非全能",
       "memo": "老鼠与龙、十二动物神巡游：事件（第188源章第2条）",
       "category": "event",
       "keys": [
@@ -8410,7 +8410,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-188-03",
-      "title": "事件｜第188源章｜3",
+      "title": "一万追随者迁至新平原，梅贝尔命名族群莱特金、城市莱特基尼亚",
       "memo": "老鼠与龙、十二动物神巡游：事件（第188源章第3条）",
       "category": "event",
       "keys": [
@@ -8436,7 +8436,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-188-01",
-      "title": "世界设定事实｜第188源章｜1",
+      "title": "首脑的投毒、战争、沉城三套方案与永生许诺被揭露",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第188源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8462,7 +8462,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-188-02",
-      "title": "世界设定事实｜第188源章｜2",
+      "title": "一万鼠兽人追随梅贝尔，改称莱特金并建立莱特基尼亚",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第188源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8488,7 +8488,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-188-01",
-      "title": "新建立连续性｜第188源章｜1",
+      "title": "莱特金",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第188源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8513,7 +8513,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-188-02",
-      "title": "新建立连续性｜第188源章｜2",
+      "title": "莱特基尼亚",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第188源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8538,7 +8538,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-188-03",
-      "title": "新建立连续性｜第188源章｜3",
+      "title": "梅贝尔寻物权能",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第188源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8564,7 +8564,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-188-01",
-      "title": "未解决事项｜第188源章｜1",
+      "title": "城市长期治理",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第188源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8589,7 +8589,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-188-02",
-      "title": "未解决事项｜第188源章｜2",
+      "title": "梅贝尔完整神化",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第188源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8615,7 +8615,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-188-01",
-      "title": "主角龙形态｜第188源章｜1",
+      "title": "主角龙形态｜鼠之神.(3)｜头饰掩角银发少女，能拔林加工木材",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第188源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8640,7 +8640,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-188-01",
-      "title": "主角龙状态｜第188源章｜1",
+      "title": "主角龙状态｜鼠之神.(3)｜协助莱特基尼亚初步自立",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第188源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8665,7 +8665,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-188-01",
-      "title": "主角龙知识边界｜第188源章｜1",
+      "title": "主角龙知识边界｜鼠之神.(3)｜不知道城市长期命运",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第188源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8690,7 +8690,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-189-01",
-      "title": "事件｜第189源章｜1",
+      "title": "一年后莱特基尼亚能养活万人，蒂雅与梅贝尔告别",
       "memo": "老鼠与龙、十二动物神巡游：事件（第189源章第1条）",
       "category": "event",
       "keys": [
@@ -8717,7 +8717,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-189-02",
-      "title": "事件｜第189源章｜2",
+      "title": "后世文献称梅贝尔为灰烬之鼠，探索者守护者与莱特金救世主，把蒂雅干预改写成野史",
       "memo": "老鼠与龙、十二动物神巡游：事件（第189源章第2条）",
       "category": "event",
       "keys": [
@@ -8744,7 +8744,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-189-01",
-      "title": "世界设定事实｜第189源章｜1",
+      "title": "一年后莱特基尼亚以水渠、稻田旱田、大豆和三叶草轮作养活上万人",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第189源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8769,7 +8769,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-189-02",
-      "title": "世界设定事实｜第189源章｜2",
+      "title": "后世记载把梅贝尔尊为灰烬之鼠并称其独力造平原，供万人粮食，寻物与击杀怪物",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第189源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8795,7 +8795,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-189-01",
-      "title": "新建立连续性｜第189源章｜1",
+      "title": "牛兽人目标",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第189源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8820,7 +8820,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-189-02",
-      "title": "新建立连续性｜第189源章｜2",
+      "title": "灰鼠后世神话",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第189源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8845,7 +8845,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-189-01",
-      "title": "未解决事项｜第189源章｜1",
+      "title": "牛神候选",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第189源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8870,7 +8870,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-189-02",
-      "title": "未解决事项｜第189源章｜2",
+      "title": "十二神后续",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第189源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8895,7 +8895,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-189-01",
-      "title": "主角龙形态｜第189源章｜1",
+      "title": "主角龙形态｜鼠之神.(4)｜头饰掩角银发旅行者",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第189源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8920,7 +8920,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-189-01",
-      "title": "主角龙状态｜第189源章｜1",
+      "title": "主角龙状态｜鼠之神.(4)｜离开莱特基尼亚，追寻牛兽人传闻",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第189源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8945,7 +8945,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-189-01",
-      "title": "主角龙知识边界｜第189源章｜1",
+      "title": "主角龙知识边界｜鼠之神.(4)｜只打算按传闻考察牛兽人",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第189源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8971,7 +8971,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-190-01",
-      "title": "事件｜第190源章｜1",
+      "title": "后世式引子写牛角少年在父母互责中自责，被国王投入地下迷宫，并向龙族女神追问出生意义",
       "memo": "老鼠与龙、十二动物神巡游：事件（第190源章第1条）",
       "category": "event",
       "keys": [
@@ -8996,7 +8996,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-190-02",
-      "title": "事件｜第190源章｜2",
+      "title": "蒂雅抵达富裕岛城米诺亚",
       "memo": "老鼠与龙、十二动物神巡游：事件（第190源章第2条）",
       "category": "event",
       "keys": [
@@ -9023,7 +9023,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-190-03",
-      "title": "事件｜第190源章｜3",
+      "title": "祭司透露人类国王王后生出牛兽人孩子却不认作王子",
       "memo": "老鼠与龙、十二动物神巡游：事件（第190源章第3条）",
       "category": "event",
       "keys": [
@@ -9049,7 +9049,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-190-01",
-      "title": "世界设定事实｜第190源章｜1",
+      "title": "米诺亚本土蛇女神、黄牛信仰、生命神殿与蜥蜴人龙神混合成龙族女神信仰",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第190源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9075,7 +9075,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-190-01",
-      "title": "新建立连续性｜第190源章｜1",
+      "title": "米诺亚",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第190源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9101,7 +9101,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-190-02",
-      "title": "新建立连续性｜第190源章｜2",
+      "title": "龙族女神本土信仰",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第190源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9126,7 +9126,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-190-03",
-      "title": "新建立连续性｜第190源章｜3",
+      "title": "牛角少年",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第190源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9151,7 +9151,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-190-01",
-      "title": "未解决事项｜第190源章｜1",
+      "title": "亲子真相",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第190源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9176,7 +9176,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-190-02",
-      "title": "未解决事项｜第190源章｜2",
+      "title": "少年位置",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第190源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9201,7 +9201,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-190-01",
-      "title": "主角龙形态｜第190源章｜1",
+      "title": "主角龙形态｜米诺亚的牛.(1)｜大角银发少女，被当地人误认为小型牛兽人",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第190源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9226,7 +9226,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-190-01",
-      "title": "主角龙状态｜第190源章｜1",
+      "title": "主角龙状态｜米诺亚的牛.(1)｜潜入米诺亚宫殿准备为牛兽人少年洗冤",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第190源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9252,7 +9252,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-190-01",
-      "title": "主角龙知识边界｜第190源章｜1",
+      "title": "主角龙知识边界｜米诺亚的牛.(1)｜隔代遗传只是合理假说，尚未取得亲子证据",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第190源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9277,7 +9277,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-191-01",
-      "title": "事件｜第191源章｜1",
+      "title": "蒂雅以解决夫妻冲突换取国王把牛兽人孩子交给她，并取得国王头发作亲子鉴定",
       "memo": "老鼠与龙、十二动物神巡游：事件（第191源章第1条）",
       "category": "event",
       "keys": [
@@ -9303,7 +9303,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-191-02",
-      "title": "事件｜第191源章｜2",
+      "title": "王后思念孩子并试图呼救",
       "memo": "老鼠与龙、十二动物神巡游：事件（第191源章第2条）",
       "category": "event",
       "keys": [
@@ -9329,7 +9329,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-191-03",
-      "title": "事件｜第191源章｜3",
+      "title": "蒂雅与王后共同责骂国王并解释纯爱，取得王后头发，说明生命信息可证亲子",
       "memo": "老鼠与龙、十二动物神巡游：事件（第191源章第3条）",
       "category": "event",
       "keys": [
@@ -9355,7 +9355,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-191-01",
-      "title": "世界设定事实｜第191源章｜1",
+      "title": "蒂雅可从头发中的生命信息以魔法验证亲子血缘",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第191源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9381,7 +9381,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-191-01",
-      "title": "新建立连续性｜第191源章｜1",
+      "title": "双向交易",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第191源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9406,7 +9406,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-191-02",
-      "title": "新建立连续性｜第191源章｜2",
+      "title": "基因鉴定计划",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第191源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9431,7 +9431,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-191-01",
-      "title": "未解决事项｜第191源章｜1",
+      "title": "少年意愿",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第191源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9456,7 +9456,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-191-02",
-      "title": "未解决事项｜第191源章｜2",
+      "title": "鉴定结果",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第191源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9481,7 +9481,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-191-01",
-      "title": "主角龙形态｜第191源章｜1",
+      "title": "主角龙形态｜米诺亚的牛.(2)｜大角银发少女，隐身并封闭房间",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第191源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9506,7 +9506,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-191-01",
-      "title": "主角龙状态｜第191源章｜1",
+      "title": "主角龙状态｜米诺亚的牛.(2)｜取得王与王后头发并获得带走少年许可",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第191源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9531,7 +9531,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-191-01",
-      "title": "主角龙知识边界｜第191源章｜1",
+      "title": "主角龙知识边界｜米诺亚的牛.(2)｜尚未取得少年样本，不能完成亲子验证",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第191源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9556,7 +9556,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-192-01",
-      "title": "事件｜第192源章｜1",
+      "title": "宫殿地下室自行扩张、路径改变并生怪，形成供冒险者狩猎的地下城",
       "memo": "老鼠与龙、十二动物神巡游：事件（第192源章第1条）",
       "category": "event",
       "keys": [
@@ -9582,7 +9582,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-192-02",
-      "title": "事件｜第192源章｜2",
+      "title": "十四岁巨体少年戴白牛头骨面具持青铜双刃斧，把自己称米诺陶洛斯",
       "memo": "老鼠与龙、十二动物神巡游：事件（第192源章第2条）",
       "category": "event",
       "keys": [
@@ -9609,7 +9609,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-192-03",
-      "title": "事件｜第192源章｜3",
+      "title": "三人头发鉴定证实阿斯忒里俄斯为王室亲子，牛兽人基因来自国王",
       "memo": "老鼠与龙、十二动物神巡游：事件（第192源章第3条）",
       "category": "event",
       "keys": [
@@ -9635,7 +9635,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-192-01",
-      "title": "世界设定事实｜第192源章｜1",
+      "title": "米诺亚宫殿地下空间自行扩张、改变路径、产生怪物，冒险者狩猎其材料推动城邦富裕",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第192源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9661,7 +9661,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-192-01",
-      "title": "新建立连续性｜第192源章｜1",
+      "title": "阿斯忒里俄斯真名",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第192源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9687,7 +9687,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-192-02",
-      "title": "新建立连续性｜第192源章｜2",
+      "title": "王室亲子证据",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第192源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9712,7 +9712,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-192-03",
-      "title": "新建立连续性｜第192源章｜3",
+      "title": "活迷宫",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第192源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9737,7 +9737,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-192-01",
-      "title": "未解决事项｜第192源章｜1",
+      "title": "少年生存与身体",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第192源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9762,7 +9762,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-192-02",
-      "title": "未解决事项｜第192源章｜2",
+      "title": "国王接受证据",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第192源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9787,7 +9787,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-192-01",
-      "title": "主角龙形态｜第192源章｜1",
+      "title": "主角龙形态｜米诺亚的牛.(3)｜大角银发少女，在迷宫中创造光源",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第192源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9812,7 +9812,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-192-01",
-      "title": "主角龙状态｜第192源章｜1",
+      "title": "主角龙状态｜米诺亚的牛.(3)｜确认阿斯忒里俄斯为亲子并准备带其出迷宫",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第192源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9838,7 +9838,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-192-01",
-      "title": "主角龙知识边界｜第192源章｜1",
+      "title": "主角龙知识边界｜米诺亚的牛.(3)｜尚不了解少年如何在迷宫生存，也未处理国王否认",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第192源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9863,7 +9863,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-193-01",
-      "title": "事件｜第193源章｜1",
+      "title": "阿斯忒里俄斯靠苔藓蘑菇、救冒险者所得食物与怪物肉生存",
       "memo": "老鼠与龙、十二动物神巡游：事件（第193源章第1条）",
       "category": "event",
       "keys": [
@@ -9890,7 +9890,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-193-02",
-      "title": "事件｜第193源章｜2",
+      "title": "后世资料把迷宫列为无尽迷宫禁地，称其每天移动、持续扩张、由守护神保护补给空间",
       "memo": "老鼠与龙、十二动物神巡游：事件（第193源章第2条）",
       "category": "event",
       "keys": [
@@ -9915,7 +9915,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-193-03",
-      "title": "事件｜第193源章｜3",
+      "title": "出口前少年追问出生意义",
       "memo": "老鼠与龙、十二动物神巡游：事件（第193源章第3条）",
       "category": "event",
       "keys": [
@@ -9941,7 +9941,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-193-01",
-      "title": "世界设定事实｜第193源章｜1",
+      "title": "后世无尽迷宫每日变图，每年约扩张三十平方米，可能是仅入口连接本世界的异空间",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第193源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9966,7 +9966,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-193-01",
-      "title": "新建立连续性｜第193源章｜1",
+      "title": "阿斯忒里俄斯旅行愿望",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第193源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9992,7 +9992,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-193-02",
-      "title": "新建立连续性｜第193源章｜2",
+      "title": "怪物肉异变",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第193源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10017,7 +10017,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-193-03",
-      "title": "新建立连续性｜第193源章｜3",
+      "title": "生命女神分灵理念差异",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第193源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10042,7 +10042,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-193-01",
-      "title": "未解决事项｜第193源章｜1",
+      "title": "母子重逢",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第193源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10067,7 +10067,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-193-02",
-      "title": "未解决事项｜第193源章｜2",
+      "title": "牛神成神路径",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第193源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10092,7 +10092,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-193-01",
-      "title": "主角龙形态｜第193源章｜1",
+      "title": "主角龙形态｜米诺亚的牛.(4)｜大角银发少女，徒步带少年出迷宫",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第193源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10117,7 +10117,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-193-01",
-      "title": "主角龙状态｜第193源章｜1",
+      "title": "主角龙状态｜米诺亚的牛.(4)｜邀请阿斯忒里俄斯成为十二神巡游旅伴",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第193源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10143,7 +10143,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-193-01",
-      "title": "主角龙知识边界｜第193源章｜1",
+      "title": "主角龙知识边界｜米诺亚的牛.(4)｜意识到生命女神分灵见解可能变化但尚未核查",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第193源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10168,7 +10168,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-194-01",
-      "title": "事件｜第194源章｜1",
+      "title": "蒂雅隐匿带少年出迷宫，强行拖过犹豫并撞碎真牛头骨面具，让他与母亲私下重逢",
       "memo": "老鼠与龙、十二动物神巡游：事件（第194源章第1条）",
       "category": "event",
       "keys": [
@@ -10194,7 +10194,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-194-02",
-      "title": "事件｜第194源章｜2",
+      "title": "国王拒绝基因图示",
       "memo": "老鼠与龙、十二动物神巡游：事件（第194源章第2条）",
       "category": "event",
       "keys": [
@@ -10222,7 +10222,7 @@
     },
     {
       "id": "era-11-mouse-dragon-event-194-03",
-      "title": "事件｜第194源章｜3",
+      "title": "蒂雅显出国王外祖母为牛兽人的血统，解释隔代遗传，并命令国王向妻儿彻底道歉",
       "memo": "老鼠与龙、十二动物神巡游：事件（第194源章第3条）",
       "category": "event",
       "keys": [
@@ -10248,7 +10248,7 @@
     },
     {
       "id": "era-11-mouse-dragon-world-fact-194-01",
-      "title": "世界设定事实｜第194源章｜1",
+      "title": "阿斯忒里俄斯牛兽人特征源于国王外祖母，经两代潜伏后隔代显现",
       "memo": "老鼠与龙、十二动物神巡游：世界设定事实（第194源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10274,7 +10274,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-194-01",
-      "title": "新建立连续性｜第194源章｜1",
+      "title": "王族牛兽人血统证实",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第194源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10299,7 +10299,7 @@
     },
     {
       "id": "era-11-mouse-dragon-continuity-new-194-02",
-      "title": "新建立连续性｜第194源章｜2",
+      "title": "母子重逢",
       "memo": "老鼠与龙、十二动物神巡游：新建立连续性（第194源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10324,7 +10324,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-194-01",
-      "title": "未解决事项｜第194源章｜1",
+      "title": "是否原谅国王",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第194源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10349,7 +10349,7 @@
     },
     {
       "id": "era-11-mouse-dragon-unresolved-194-02",
-      "title": "未解决事项｜第194源章｜2",
+      "title": "阿斯忒里俄斯启程",
       "memo": "老鼠与龙、十二动物神巡游：未解决事项（第194源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10375,7 +10375,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-form-194-01",
-      "title": "主角龙形态｜第194源章｜1",
+      "title": "主角龙形态｜米诺亚的牛.(5)｜大角银发少女，以生命女神代理身份宣誓",
       "memo": "老鼠与龙、十二动物神巡游：主角龙形态（第194源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10400,7 +10400,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-state-194-01",
-      "title": "主角龙状态｜第194源章｜1",
+      "title": "主角龙状态｜米诺亚的牛.(5)｜完成洗冤并促使国王道歉",
       "memo": "老鼠与龙、十二动物神巡游：主角龙状态（第194源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10425,7 +10425,7 @@
     },
     {
       "id": "era-11-mouse-dragon-protagonist-knowledge-194-01",
-      "title": "主角龙知识边界｜第194源章｜1",
+      "title": "主角龙知识边界｜米诺亚的牛.(5)｜不能保证妻儿会原谅国王，只能要求加害者行动",
       "memo": "老鼠与龙、十二动物神巡游：主角龙知识边界（第194源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10450,7 +10450,7 @@
     },
     {
       "id": "era-11-mouse-dragon-secondary-character-01",
-      "title": "次要人物｜主角龙／盖亚",
+      "title": "主角龙／盖亚",
       "memo": "老鼠与龙、十二动物神巡游：次要人物 主角龙／盖亚",
       "category": "secondary-character",
       "keys": [],

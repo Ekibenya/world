@@ -4436,7 +4436,7 @@
   "lorebook": [
     {
       "id": "era-28-rebellion-core",
-      "title": "魔族国家、世界旅行与谋反｜时代边界",
+      "title": "魔族国家、世界旅行与谋反",
       "memo": "魔族国家、世界旅行与谋反：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4451,7 +4451,7 @@
     },
     {
       "id": "era-28-rebellion-event-584-01",
-      "title": "事件｜第584源章｜1",
+      "title": "历史探究社团以正史、野史、秘史考证和故事式享受为宗旨，学生汇集各国传闻并留下新记录",
       "memo": "魔族国家、世界旅行与谋反：事件（第584源章第1条）",
       "category": "event",
       "keys": [
@@ -4476,7 +4476,7 @@
     },
     {
       "id": "era-28-rebellion-event-584-02",
-      "title": "事件｜第584源章｜2",
+      "title": "地下城运营支援总部魔贤者德莫尼卡请求让魔族在地表建国",
       "memo": "魔族国家、世界旅行与谋反：事件（第584源章第2条）",
       "category": "event",
       "keys": [
@@ -4502,7 +4502,7 @@
     },
     {
       "id": "era-28-rebellion-event-584-03",
-      "title": "事件｜第584源章｜3",
+      "title": "魔族作为德莫尼卡员工已获生存保障，却因长期隐藏身份和生活不改善渴望可自在放松的归属地",
       "memo": "魔族国家、世界旅行与谋反：事件（第584源章第3条）",
       "category": "event",
       "keys": [
@@ -4529,7 +4529,7 @@
     },
     {
       "id": "era-28-rebellion-event-584-04",
-      "title": "事件｜第584源章｜4",
+      "title": "主龙批准在严寒旧故乡建国，条件是保密，避免冲突",
       "memo": "魔族国家、世界旅行与谋反：事件（第584源章第4条）",
       "category": "event",
       "keys": [
@@ -4554,7 +4554,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-584-01",
-      "title": "世界设定事实｜第584源章｜1",
+      "title": "魔族原为被魔性与黑暗碎片侵蚀、不可逆变质的人类，依靠地下城运营支援总部生存",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第584源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4579,7 +4579,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-584-02",
-      "title": "世界设定事实｜第584源章｜2",
+      "title": "拟建国地为严寒、不可农耕、旧好战游牧民故乡",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第584源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4605,7 +4605,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-584-03",
-      "title": "世界设定事实｜第584源章｜3",
+      "title": "魔族不会因侵蚀自动暴走，但强拔黑暗碎片必死，死亡时碎片回地下",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第584源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4630,7 +4630,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-584-01",
-      "title": "新建立连续性｜第584源章｜1",
+      "title": "魔族建国许可",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第584源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4655,7 +4655,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-584-02",
-      "title": "新建立连续性｜第584源章｜2",
+      "title": "严寒故乡",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第584源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4680,7 +4680,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-584-03",
-      "title": "新建立连续性｜第584源章｜3",
+      "title": "生命女神饰品",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第584源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4705,7 +4705,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-584-01",
-      "title": "未解决事项｜第584源章｜1",
+      "title": "国名",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第584源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4730,7 +4730,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-584-02",
-      "title": "未解决事项｜第584源章｜2",
+      "title": "具体经营",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第584源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4755,7 +4755,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-584-03",
-      "title": "未解决事项｜第584源章｜3",
+      "title": "饰品附加功能",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第584源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4780,7 +4780,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-584-04",
-      "title": "未解决事项｜第584源章｜4",
+      "title": "对外伪装",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第584源章第4条）",
       "category": "unresolved",
       "keys": [
@@ -4805,7 +4805,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-584-01",
-      "title": "主角龙形态｜第584源章｜1",
+      "title": "主角龙形态｜魔族的国家.(1)｜本体以生命女神／魔贤者眼中的女神身份行动",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第584源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4832,7 +4832,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-584-01",
-      "title": "主角龙状态｜第584源章｜1",
+      "title": "主角龙状态｜魔族的国家.(1)｜主龙开启魔族隐秘国家的新历史节点，同时保持人类社会不知情",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第584源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4857,7 +4857,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-584-01",
-      "title": "主角龙知识边界｜第584源章｜1",
+      "title": "主角龙知识边界｜魔族的国家.(1)｜饰品有其他附加功能但未说明",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第584源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4882,7 +4882,7 @@
     },
     {
       "id": "era-28-rebellion-event-585-01",
-      "title": "事件｜第585源章｜1",
+      "title": "魔族以商团运输，契约怪物劳力跨越巨人领地以北的严寒荒地",
       "memo": "魔族国家、世界旅行与谋反：事件（第585源章第1条）",
       "category": "event",
       "keys": [
@@ -4908,7 +4908,7 @@
     },
     {
       "id": "era-28-rebellion-event-585-02",
-      "title": "事件｜第585源章｜2",
+      "title": "主龙命生命教团只惩罚无饰品且不赎罪的魔族，绝不可敌视持饰品者",
       "memo": "魔族国家、世界旅行与谋反：事件（第585源章第2条）",
       "category": "event",
       "keys": [
@@ -4933,7 +4933,7 @@
     },
     {
       "id": "era-28-rebellion-event-585-03",
-      "title": "事件｜第585源章｜3",
+      "title": "追寻稀有素材的B级冒险者抵达魔族关口却误认是生命教团新城",
       "memo": "魔族国家、世界旅行与谋反：事件（第585源章第3条）",
       "category": "event",
       "keys": [
@@ -4958,7 +4958,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-585-01",
-      "title": "世界设定事实｜第585源章｜1",
+      "title": "魔族国位于北方巨人领地更北的严寒无人地带，普通马车无法进入，魔族以契约怪物运输",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第585源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4983,7 +4983,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-585-02",
-      "title": "世界设定事实｜第585源章｜2",
+      "title": "生命饰品为小硬币大小、中央透明宝石与女神纹章，可加工成项链、手链或戒指",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第585源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5008,7 +5008,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-585-03",
-      "title": "世界设定事实｜第585源章｜3",
+      "title": "建国前魔族几乎无子嗣，人口主要来自人类被黑暗侵蚀并收编",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第585源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5033,7 +5033,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-585-01",
-      "title": "新建立连续性｜第585源章｜1",
+      "title": "魔族迁徙",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第585源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5058,7 +5058,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-585-02",
-      "title": "新建立连续性｜第585源章｜2",
+      "title": "生命教团保护规则",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第585源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5083,7 +5083,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-585-03",
-      "title": "新建立连续性｜第585源章｜3",
+      "title": "外来冒险者抵达关口",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第585源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5108,7 +5108,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-585-01",
-      "title": "未解决事项｜第585源章｜1",
+      "title": "冒险者能否入境",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第585源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5133,7 +5133,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-585-02",
-      "title": "未解决事项｜第585源章｜2",
+      "title": "不育原因",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第585源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5158,7 +5158,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-585-03",
-      "title": "未解决事项｜第585源章｜3",
+      "title": "国家正式命名",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第585源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5183,7 +5183,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-585-01",
-      "title": "主角龙形态｜第585源章｜1",
+      "title": "主角龙形态｜魔族的国家.(2)｜本体以生命女神教令保护魔族，地上分身未出现",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第585源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5208,7 +5208,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-585-01",
-      "title": "主角龙状态｜第585源章｜1",
+      "title": "主角龙状态｜魔族的国家.(2)｜把魔族国家嵌入生命教团识别规则，外界仍误认其为普通女神信徒",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第585源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5233,7 +5233,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-585-01",
-      "title": "主角龙知识边界｜第585源章｜1",
+      "title": "主角龙知识边界｜魔族的国家.(2)｜魔族不育原因未知，不能补造",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第585源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5258,7 +5258,7 @@
     },
     {
       "id": "era-28-rebellion-event-586-01",
-      "title": "事件｜第586源章｜1",
+      "title": "未命名魔族国用契约魔法支配怪物开垦，狩猎，收获和布陷阱",
       "memo": "魔族国家、世界旅行与谋反：事件（第586源章第1条）",
       "category": "event",
       "keys": [
@@ -5283,7 +5283,7 @@
     },
     {
       "id": "era-28-rebellion-event-586-02",
-      "title": "事件｜第586源章｜2",
+      "title": "建国约一年魔族首次诞生婴儿，原因连主龙也不明",
       "memo": "魔族国家、世界旅行与谋反：事件（第586源章第2条）",
       "category": "event",
       "keys": [
@@ -5308,7 +5308,7 @@
     },
     {
       "id": "era-28-rebellion-event-586-03",
-      "title": "事件｜第586源章｜3",
+      "title": "主龙向垂老皇帝宣布离开三五年，名义为向巨龙传话，实际还要游历世界",
       "memo": "魔族国家、世界旅行与谋反：事件（第586源章第3条）",
       "category": "event",
       "keys": [
@@ -5333,7 +5333,7 @@
     },
     {
       "id": "era-28-rebellion-event-586-04",
-      "title": "事件｜第586源章｜4",
+      "title": "主龙命金色龙领主通知群龙别碰魔族国",
       "memo": "魔族国家、世界旅行与谋反：事件（第586源章第4条）",
       "category": "event",
       "keys": [
@@ -5359,7 +5359,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-586-01",
-      "title": "世界设定事实｜第586源章｜1",
+      "title": "魔族国以怪物生产食物与材料，经原地下城商团出口，令怪物素材和魔石供应增加",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第586源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5384,7 +5384,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-586-02",
-      "title": "世界设定事实｜第586源章｜2",
+      "title": "建国约一年后出现首个已知魔族新生儿，因果机制未知",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第586源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5409,7 +5409,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-586-03",
-      "title": "世界设定事实｜第586源章｜3",
+      "title": "巨龙早于神明存在，万神殿神明不能离殿且难靠信徒威胁巨龙",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第586源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5434,7 +5434,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-586-04",
-      "title": "世界设定事实｜第586源章｜4",
+      "title": "龙巢地下城化使巨龙外包魔物陷阱，德莫尼卡获得龙制物品作为高级奖励",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第586源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5459,7 +5459,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-586-01",
-      "title": "新建立连续性｜第586源章｜1",
+      "title": "魔族婴儿",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第586源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5484,7 +5484,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-586-02",
-      "title": "新建立连续性｜第586源章｜2",
+      "title": "守护龙少女旅行",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第586源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5509,7 +5509,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-586-03",
-      "title": "新建立连续性｜第586源章｜3",
+      "title": "龙巢地下城",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第586源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5534,7 +5534,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-586-01",
-      "title": "未解决事项｜第586源章｜1",
+      "title": "旅行路线",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第586源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5559,7 +5559,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-586-02",
-      "title": "未解决事项｜第586源章｜2",
+      "title": "皇帝寿终",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第586源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5584,7 +5584,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-586-03",
-      "title": "未解决事项｜第586源章｜3",
+      "title": "龙制奖励影响",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第586源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5609,7 +5609,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-586-01",
-      "title": "主角龙形态｜第586源章｜1",
+      "title": "主角龙形态｜魔族的国家.(3)｜守护龙分身从巨龙形态化作少女旅行形态",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第586源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5635,7 +5635,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-586-01",
-      "title": "主角龙状态｜第586源章｜1",
+      "title": "主角龙状态｜魔族的国家.(3)｜这是主龙在该时代新的可选形象：离开帝都、以少女身游历世界",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第586源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5660,7 +5660,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-586-01",
-      "title": "主角龙知识边界｜第586源章｜1",
+      "title": "主角龙知识边界｜魔族的国家.(3)｜她不知道魔族新生儿原因，也未告诉皇帝会顺便旅行",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第586源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5685,7 +5685,7 @@
     },
     {
       "id": "era-28-rebellion-event-587-01",
-      "title": "事件｜第587源章｜1",
+      "title": "巨龙以宝库和鳞制物换近乎无限积分，把巢穴地下城当消遣",
       "memo": "魔族国家、世界旅行与谋反：事件（第587源章第1条）",
       "category": "event",
       "keys": [
@@ -5710,7 +5710,7 @@
     },
     {
       "id": "era-28-rebellion-event-587-02",
-      "title": "事件｜第587源章｜2",
+      "title": "一名头脑简单的S级冒险者从顶级地下城取得疑似龙鳞剑，产生猎杀帝国守护龙批量制剑的念头",
       "memo": "魔族国家、世界旅行与谋反：事件（第587源章第2条）",
       "category": "event",
       "keys": [
@@ -5735,7 +5735,7 @@
     },
     {
       "id": "era-28-rebellion-event-587-03",
-      "title": "事件｜第587源章｜3",
+      "title": "一名银发年轻男子插话淡化传说，表示对沉睡多年，能决定皇帝的守护龙感兴趣",
       "memo": "魔族国家、世界旅行与谋反：事件（第587源章第3条）",
       "category": "event",
       "keys": [
@@ -5760,7 +5760,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-587-01",
-      "title": "世界设定事实｜第587源章｜1",
+      "title": "龙制品未必工艺胜矮人，却以压倒魔力产生不可比力量",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第587源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5785,7 +5785,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-587-02",
-      "title": "世界设定事实｜第587源章｜2",
+      "title": "高级地下城若奖励不匹配会失去评价和挑战者，龙制品补足最高档奖励",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第587源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5810,7 +5810,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-587-01",
-      "title": "新建立连续性｜第587源章｜1",
+      "title": "龙制顶级奖励",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第587源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5835,7 +5835,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-587-02",
-      "title": "新建立连续性｜第587源章｜2",
+      "title": "龙鳞剑",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第587源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5860,7 +5860,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-587-03",
-      "title": "新建立连续性｜第587源章｜3",
+      "title": "猎杀守护龙念头",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第587源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5885,7 +5885,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-587-04",
-      "title": "新建立连续性｜第587源章｜4",
+      "title": "银发男子",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第587源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5910,7 +5910,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-587-01",
-      "title": "未解决事项｜第587源章｜1",
+      "title": "银发男子身份｜巨龙之鳞.(1)",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第587源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5935,7 +5935,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-587-02",
-      "title": "未解决事项｜第587源章｜2",
+      "title": "S级冒险者决定",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第587源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5960,7 +5960,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-587-03",
-      "title": "未解决事项｜第587源章｜3",
+      "title": "魔贤者担忧",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第587源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5986,7 +5986,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-587-01",
-      "title": "主角龙形态｜第587源章｜1",
+      "title": "主角龙形态｜巨龙之鳞.(1)｜守护龙成为猎杀目标，但本人本篇未在冒险者场景显形",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第587源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6011,7 +6011,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-587-01",
-      "title": "主角龙状态｜第587源章｜1",
+      "title": "主角龙状态｜巨龙之鳞.(1)｜龙巢地下城奖励意外催生了针对主龙的资源贪欲",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第587源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6036,7 +6036,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-587-01",
-      "title": "主角龙知识边界｜第587源章｜1",
+      "title": "主角龙知识边界｜巨龙之鳞.(1)｜银发男子身份未明",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第587源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6061,7 +6061,7 @@
     },
     {
       "id": "era-28-rebellion-event-588-01",
-      "title": "事件｜第588源章｜1",
+      "title": "龙制品带定位魔法，解除定位会封印多数功能",
       "memo": "魔族国家、世界旅行与谋反：事件（第588源章第1条）",
       "category": "event",
       "keys": [
@@ -6086,7 +6086,7 @@
     },
     {
       "id": "era-28-rebellion-event-588-02",
-      "title": "事件｜第588源章｜2",
+      "title": "银发男子以侯爵爵位诱使S级冒险者猎杀守护龙",
       "memo": "魔族国家、世界旅行与谋反：事件（第588源章第2条）",
       "category": "event",
       "keys": [
@@ -6111,7 +6111,7 @@
     },
     {
       "id": "era-28-rebellion-event-588-03",
-      "title": "事件｜第588源章｜3",
+      "title": "次日冒险团据点被烧毁，团员尸体在内，唯独S级冒险者尸体失踪",
       "memo": "魔族国家、世界旅行与谋反：事件（第588源章第3条）",
       "category": "event",
       "keys": [
@@ -6136,7 +6136,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-588-01",
-      "title": "世界设定事实｜第588源章｜1",
+      "title": "龙制品定位被解除会触发功能封印",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第588源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6161,7 +6161,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-588-02",
-      "title": "世界设定事实｜第588源章｜2",
+      "title": "外界龙制品可能被魔族商团购买或长期定位，普通人寿命使约百年回收成为可行策略",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第588源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6186,7 +6186,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-588-03",
-      "title": "世界设定事实｜第588源章｜3",
+      "title": "拒绝猎龙的冒险团次日据点被焚、团员死亡，S级领队失踪",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第588源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6211,7 +6211,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-588-01",
-      "title": "新建立连续性｜第588源章｜1",
+      "title": "龙制品回收体系",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第588源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6236,7 +6236,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-588-02",
-      "title": "新建立连续性｜第588源章｜2",
+      "title": "侯爵诱饵",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第588源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6261,7 +6261,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-588-03",
-      "title": "新建立连续性｜第588源章｜3",
+      "title": "冒险团团灭",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第588源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6286,7 +6286,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-588-04",
-      "title": "新建立连续性｜第588源章｜4",
+      "title": "S级失踪",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第588源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6311,7 +6311,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-588-01",
-      "title": "未解决事项｜第588源章｜1",
+      "title": "阴谋主使",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第588源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6336,7 +6336,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-588-02",
-      "title": "未解决事项｜第588源章｜2",
+      "title": "猎杀行动",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第588源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6361,7 +6361,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-588-03",
-      "title": "未解决事项｜第588源章｜3",
+      "title": "主龙旅行地点",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第588源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6386,7 +6386,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-588-01",
-      "title": "主角龙形态｜第588源章｜1",
+      "title": "主角龙形态｜巨龙之鳞.(2)｜主龙为环游世界的少女分身，同时其帝国守护龙身份成为猎杀目标",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第588源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6411,7 +6411,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-588-01",
-      "title": "主角龙状态｜第588源章｜1",
+      "title": "主角龙状态｜巨龙之鳞.(2)｜她不知针对自己的阴谋正在利用龙制武器和皇室承诺成形",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第588源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6436,7 +6436,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-588-01",
-      "title": "主角龙知识边界｜第588源章｜1",
+      "title": "主角龙知识边界｜巨龙之鳞.(2)｜火灾凶手、S级冒险者生死和银发男子身份尚未揭示",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第588源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6461,7 +6461,7 @@
     },
     {
       "id": "era-28-rebellion-event-589-01",
-      "title": "事件｜第589源章｜1",
+      "title": "守护龙少女在各地美食旅行，发现转生厨师传播辣甜烤串等文化",
       "memo": "魔族国家、世界旅行与谋反：事件（第589源章第1条）",
       "category": "event",
       "keys": [
@@ -6486,7 +6486,7 @@
     },
     {
       "id": "era-28-rebellion-event-589-02",
-      "title": "事件｜第589源章｜2",
+      "title": "德莫尼卡报告多件龙制武器集中到帝都同一建筑",
       "memo": "魔族国家、世界旅行与谋反：事件（第589源章第2条）",
       "category": "event",
       "keys": [
@@ -6512,7 +6512,7 @@
     },
     {
       "id": "era-28-rebellion-event-589-03",
-      "title": "事件｜第589源章｜3",
+      "title": "银发男子在帝都集合七名多为S级，持龙制名剑的冒险者，声称沉睡几十年的银色巨龙易杀",
       "memo": "魔族国家、世界旅行与谋反：事件（第589源章第3条）",
       "category": "event",
       "keys": [
@@ -6537,7 +6537,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-589-01",
-      "title": "世界设定事实｜第589源章｜1",
+      "title": "转生者持续传播地球知识",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第589源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6562,7 +6562,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-589-02",
-      "title": "世界设定事实｜第589源章｜2",
+      "title": "猎龙队共七人，多数为S级并持可裁纸般斩铁的龙制名剑，另含强大魔法师",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第589源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6587,7 +6587,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-589-01",
-      "title": "新建立连续性｜第589源章｜1",
+      "title": "地球肉身制造能力",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第589源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6612,7 +6612,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-589-02",
-      "title": "新建立连续性｜第589源章｜2",
+      "title": "龙制武器集中",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第589源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6637,7 +6637,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-589-03",
-      "title": "新建立连续性｜第589源章｜3",
+      "title": "七人猎龙队",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第589源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6662,7 +6662,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-589-01",
-      "title": "未解决事项｜第589源章｜1",
+      "title": "猎龙时间",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第589源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6687,7 +6687,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-589-02",
-      "title": "未解决事项｜第589源章｜2",
+      "title": "银发男子身份｜巨龙之鳞.(3)",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第589源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6712,7 +6712,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-589-03",
-      "title": "未解决事项｜第589源章｜3",
+      "title": "主龙是否返回",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第589源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6737,7 +6737,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-589-01",
-      "title": "主角龙形态｜第589源章｜1",
+      "title": "主角龙形态｜巨龙之鳞.(3)｜主龙为品尝地方食物的旅行少女",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第589源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6762,7 +6762,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-589-01",
-      "title": "主角龙状态｜第589源章｜1",
+      "title": "主角龙状态｜巨龙之鳞.(3)｜地球通道达到肉身重构级，帝都却因她暂离暴露权力空窗",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第589源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6787,7 +6787,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-589-01",
-      "title": "主角龙知识边界｜第589源章｜1",
+      "title": "主角龙知识边界｜巨龙之鳞.(3)｜主龙不知道银发男子和七人队已确立猎龙计划",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第589源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6812,7 +6812,7 @@
     },
     {
       "id": "era-28-rebellion-event-590-01",
-      "title": "事件｜第590源章｜1",
+      "title": "主龙暂停普罗西亚全城时间，进入赤塔探望临终西蒙",
       "memo": "魔族国家、世界旅行与谋反：事件（第590源章第1条）",
       "category": "event",
       "keys": [
@@ -6838,7 +6838,7 @@
     },
     {
       "id": "era-28-rebellion-event-590-02",
-      "title": "事件｜第590源章｜2",
+      "title": "星座可在夜空留印、俯瞰世界并偶尔契约干预，但西蒙明显仍渴望地球，主龙提出第二选项",
       "memo": "魔族国家、世界旅行与谋反：事件（第590源章第2条）",
       "category": "event",
       "keys": [
@@ -6864,7 +6864,7 @@
     },
     {
       "id": "era-28-rebellion-event-590-03",
-      "title": "事件｜第590源章｜3",
+      "title": "地球通道现可按灵魂记忆重塑西蒙高中生肉体",
       "memo": "魔族国家、世界旅行与谋反：事件（第590源章第3条）",
       "category": "event",
       "keys": [
@@ -6890,7 +6890,7 @@
     },
     {
       "id": "era-28-rebellion-event-590-04",
-      "title": "事件｜第590源章｜4",
+      "title": "两界时间差巨大：此界百年约地球百分钟",
       "memo": "魔族国家、世界旅行与谋反：事件（第590源章第4条）",
       "category": "event",
       "keys": [
@@ -6916,7 +6916,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-590-01",
-      "title": "世界设定事实｜第590源章｜1",
+      "title": "地球转生者灵魂为特别管理对象，可选成为无信仰的下位星座式守护者",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第590源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6941,7 +6941,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-590-02",
-      "title": "世界设定事实｜第590源章｜2",
+      "title": "记忆刻在灵魂中",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第590源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6966,7 +6966,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-590-03",
-      "title": "世界设定事实｜第590源章｜3",
+      "title": "两界时间流速极端不同，此界约百年对应地球约百分钟",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第590源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6991,7 +6991,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-590-01",
-      "title": "新建立连续性｜第590源章｜1",
+      "title": "星座选项",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第590源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7016,7 +7016,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-590-02",
-      "title": "新建立连续性｜第590源章｜2",
+      "title": "地球回归选项",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第590源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7041,7 +7041,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-590-03",
-      "title": "新建立连续性｜第590源章｜3",
+      "title": "百年约百分钟",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第590源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7066,7 +7066,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-590-04",
-      "title": "新建立连续性｜第590源章｜4",
+      "title": "灵魂记忆设计图",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第590源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7091,7 +7091,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-590-01",
-      "title": "未解决事项｜第590源章｜1",
+      "title": "尸体处理",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第590源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7116,7 +7116,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-590-02",
-      "title": "未解决事项｜第590源章｜2",
+      "title": "前世记忆调整",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第590源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7141,7 +7141,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-590-03",
-      "title": "未解决事项｜第590源章｜3",
+      "title": "最终选择",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第590源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7166,7 +7166,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-590-01",
-      "title": "主角龙形态｜第590源章｜1",
+      "title": "主角龙形态｜回归者.(1)｜生命女神本体在冻结时间的普罗西亚与西蒙会面，旅行分身线暂时场外",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第590源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7192,7 +7192,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-590-01",
-      "title": "主角龙状态｜第590源章｜1",
+      "title": "主角龙状态｜回归者.(1)｜长期扩建地球通道的承诺终于达到可让西蒙回归的程度",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第590源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7218,7 +7218,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-590-01",
-      "title": "主角龙知识边界｜第590源章｜1",
+      "title": "主角龙知识边界｜回归者.(1)｜西蒙尚未完成最终回归",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第590源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7244,7 +7244,7 @@
     },
     {
       "id": "era-28-rebellion-event-591-01",
-      "title": "事件｜第591源章｜1",
+      "title": "主龙用卡片堆叠解释记忆重排，把十几年地球记忆移到百年现世记忆之上可恢复鲜明",
       "memo": "魔族国家、世界旅行与谋反：事件（第591源章第1条）",
       "category": "event",
       "keys": [
@@ -7270,7 +7270,7 @@
     },
     {
       "id": "era-28-rebellion-event-591-02",
-      "title": "事件｜第591源章｜2",
+      "title": "主龙探查事故地发现尸体与记录都消失，怀疑卡车司机带尸逃逸",
       "memo": "魔族国家、世界旅行与谋反：事件（第591源章第2条）",
       "category": "event",
       "keys": [
@@ -7296,7 +7296,7 @@
     },
     {
       "id": "era-28-rebellion-event-591-03",
-      "title": "事件｜第591源章｜3",
+      "title": "西蒙因老体记忆手术昏厥",
       "memo": "魔族国家、世界旅行与谋反：事件（第591源章第3条）",
       "category": "event",
       "keys": [
@@ -7322,7 +7322,7 @@
     },
     {
       "id": "era-28-rebellion-event-591-04",
-      "title": "事件｜第591源章｜4",
+      "title": "西蒙想保留魔法，主龙拒绝地球魔力泄露",
       "memo": "魔族国家、世界旅行与谋反：事件（第591源章第4条）",
       "category": "event",
       "keys": [
@@ -7348,7 +7348,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-591-01",
-      "title": "世界设定事实｜第591源章｜1",
+      "title": "记忆按经历顺序堆叠在灵魂中，遗忘多为提取困难",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第591源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7373,7 +7373,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-591-02",
-      "title": "世界设定事实｜第591源章｜2",
+      "title": "地球几乎无魔力，通道基点为主龙，她清醒时可阻止此界魔力泄漏",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第591源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7398,7 +7398,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-591-01",
-      "title": "新建立连续性｜第591源章｜1",
+      "title": "记忆卡片模型",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第591源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7423,7 +7423,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-591-02",
-      "title": "新建立连续性｜第591源章｜2",
+      "title": "尸体找回",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第591源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7448,7 +7448,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-591-03",
-      "title": "新建立连续性｜第591源章｜3",
+      "title": "地球禁魔边界",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第591源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7473,7 +7473,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-591-01",
-      "title": "未解决事项｜第591源章｜1",
+      "title": "西蒙死亡时刻",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第591源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7499,7 +7499,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-591-02",
-      "title": "未解决事项｜第591源章｜2",
+      "title": "肉体修复",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第591源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7524,7 +7524,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-591-03",
-      "title": "未解决事项｜第591源章｜3",
+      "title": "司机生死",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第591源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7549,7 +7549,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-591-01",
-      "title": "主角龙形态｜第591源章｜1",
+      "title": "主角龙形态｜回归者.(2)｜生命女神意识跨界行动并同时留在西蒙床边",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第591源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7575,7 +7575,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-591-01",
-      "title": "主角龙状态｜第591源章｜1",
+      "title": "主角龙状态｜回归者.(2)｜已找回地球尸体和前世记忆，具备回归全部条件",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第591源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7600,7 +7600,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-591-01",
-      "title": "主角龙知识边界｜第591源章｜1",
+      "title": "主角龙知识边界｜回归者.(2)｜卡车司机坠桥后生死未确认",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第591源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7625,7 +7625,7 @@
     },
     {
       "id": "era-28-rebellion-event-592-01",
-      "title": "事件｜第592源章｜1",
+      "title": "西蒙已安排遗嘱、弟子与赤塔继承，无子嗣且平静迎死",
       "memo": "魔族国家、世界旅行与谋反：事件（第592源章第1条）",
       "category": "event",
       "keys": [
@@ -7651,7 +7651,7 @@
     },
     {
       "id": "era-28-rebellion-event-592-02",
-      "title": "事件｜第592源章｜2",
+      "title": "西蒙首先问露西亚身份",
       "memo": "魔族国家、世界旅行与谋反：事件（第592源章第2条）",
       "category": "event",
       "keys": [
@@ -7678,7 +7678,7 @@
     },
     {
       "id": "era-28-rebellion-event-592-03",
-      "title": "事件｜第592源章｜3",
+      "title": "主龙回答世界与各族问题",
       "memo": "魔族国家、世界旅行与谋反：事件（第592源章第3条）",
       "category": "event",
       "keys": [
@@ -7704,7 +7704,7 @@
     },
     {
       "id": "era-28-rebellion-event-592-04",
-      "title": "事件｜第592源章｜4",
+      "title": "西蒙遗体在普罗西亚火葬、世界哀悼",
       "memo": "魔族国家、世界旅行与谋反：事件（第592源章第4条）",
       "category": "event",
       "keys": [
@@ -7730,7 +7730,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-592-01",
-      "title": "世界设定事实｜第592源章｜1",
+      "title": "露西亚是生命女神注力制造、切断记忆同步并构造成独立人类的分身",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第592源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7756,7 +7756,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-592-02",
-      "title": "世界设定事实｜第592源章｜2",
+      "title": "生命女神曾用盖亚、提亚马特等假名，创世时自取的第一个真名只告知西蒙",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第592源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7782,7 +7782,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-592-03",
-      "title": "世界设定事实｜第592源章｜3",
+      "title": "西蒙灵魂植入修复后的地球高中生肉体，异世界遗体同时在普罗西亚火葬",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第592源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7808,7 +7808,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-592-01",
-      "title": "新建立连续性｜第592源章｜1",
+      "title": "露西亚身份向西蒙揭晓",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第592源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7835,7 +7835,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-592-02",
-      "title": "新建立连续性｜第592源章｜2",
+      "title": "主龙真名仅西蒙知",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第592源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7861,7 +7861,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-592-03",
-      "title": "新建立连续性｜第592源章｜3",
+      "title": "西蒙地球复活",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第592源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7887,7 +7887,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-592-01",
-      "title": "未解决事项｜第592源章｜1",
+      "title": "西蒙地球后续",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第592源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7913,7 +7913,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-592-02",
-      "title": "未解决事项｜第592源章｜2",
+      "title": "赤塔新塔主",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第592源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7938,7 +7938,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-592-03",
-      "title": "未解决事项｜第592源章｜3",
+      "title": "猎龙阴谋",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第592源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7963,7 +7963,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-592-01",
-      "title": "主角龙形态｜第592源章｜1",
+      "title": "主角龙形态｜回归者.(3)｜生命女神本体以临终引路人与跨界复活者身份在场",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第592源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7989,7 +7989,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-592-01",
-      "title": "主角龙状态｜第592源章｜1",
+      "title": "主角龙状态｜回归者.(3)｜西蒙回归承诺彻底完成，主龙最私密真名首次只向他披露",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第592源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8015,7 +8015,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-592-01",
-      "title": "主角龙知识边界｜第592源章｜1",
+      "title": "主角龙知识边界｜回归者.(3)｜原文刻意不写真名，因此任何卡片不得补造",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第592源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8041,7 +8041,7 @@
     },
     {
       "id": "era-28-rebellion-event-593-01",
-      "title": "事件｜第593源章｜1",
+      "title": "西蒙回归后主龙继续旅行，在世界之额萨加玛塔被孩子凭直觉迎到并停留数月",
       "memo": "魔族国家、世界旅行与谋反：事件（第593源章第1条）",
       "category": "event",
       "keys": [
@@ -8068,7 +8068,7 @@
     },
     {
       "id": "era-28-rebellion-event-593-02",
-      "title": "事件｜第593源章｜2",
+      "title": "主龙访问贫瘠北境的魔族国，尼克斯与现名齐格弗里德在此照料魔族及死后溢出的黑暗碎片",
       "memo": "魔族国家、世界旅行与谋反：事件（第593源章第2条）",
       "category": "event",
       "keys": [
@@ -8095,7 +8095,7 @@
     },
     {
       "id": "era-28-rebellion-event-593-03",
-      "title": "事件｜第593源章｜3",
+      "title": "主龙游览巨人之境温泉、精灵管理的参宿四竞技场，继而前往精灵大森林",
       "memo": "魔族国家、世界旅行与谋反：事件（第593源章第3条）",
       "category": "event",
       "keys": [
@@ -8120,7 +8120,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-593-01",
-      "title": "世界设定事实｜第593源章｜1",
+      "title": "矮人已把露西亚的技术发展为有线与无线结合的信息网，并凭教育开始出现魔法师",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第593源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8146,7 +8146,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-593-02",
-      "title": "世界设定事实｜第593源章｜2",
+      "title": "魔族死后会溢出黑暗碎片",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第593源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8171,7 +8171,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-593-03",
-      "title": "世界设定事实｜第593源章｜3",
+      "title": "魔族国国境入口与首都间建立信仰驱动的空间折叠门",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第593源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8196,7 +8196,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-593-01",
-      "title": "新建立连续性｜第593源章｜1",
+      "title": "矮人信息网",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第593源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8221,7 +8221,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-593-02",
-      "title": "新建立连续性｜第593源章｜2",
+      "title": "圣奎纳斯难民",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第593源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8246,7 +8246,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-593-03",
-      "title": "新建立连续性｜第593源章｜3",
+      "title": "魔族国空间门",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第593源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8271,7 +8271,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-593-01",
-      "title": "未解决事项｜第593源章｜1",
+      "title": "巨人领地奇石用途",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第593源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8296,7 +8296,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-593-02",
-      "title": "未解决事项｜第593源章｜2",
+      "title": "魔族粮食长期供给",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第593源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8321,7 +8321,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-593-03",
-      "title": "未解决事项｜第593源章｜3",
+      "title": "帝都阴谋",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第593源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8346,7 +8346,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-593-01",
-      "title": "主角龙形态｜第593源章｜1",
+      "title": "主角龙形态｜世界旅行.(1)｜环游世界的人类少女分身",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第593源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8371,7 +8371,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-593-01",
-      "title": "主角龙状态｜第593源章｜1",
+      "title": "主角龙状态｜世界旅行.(1)｜西蒙闭环后重新投入长期旅行，继续观察并小幅修补文明",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第593源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8397,7 +8397,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-593-01",
-      "title": "主角龙知识边界｜第593源章｜1",
+      "title": "主角龙知识边界｜世界旅行.(1)｜尚不知道帝都猎龙者正在改变计划",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第593源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8422,7 +8422,7 @@
     },
     {
       "id": "era-28-rebellion-event-594-01",
-      "title": "事件｜第594源章｜1",
+      "title": "伊格德拉希尔以精灵女王凯兰崔尔形态迎接主龙，透露孩子们存在可简短对话的联络网",
       "memo": "魔族国家、世界旅行与谋反：事件（第594源章第1条）",
       "category": "event",
       "keys": [
@@ -8448,7 +8448,7 @@
     },
     {
       "id": "era-28-rebellion-event-594-02",
-      "title": "事件｜第594源章｜2",
+      "title": "精灵社会持续歧视肤色黝黑的精灵",
       "memo": "魔族国家、世界旅行与谋反：事件（第594源章第2条）",
       "category": "event",
       "keys": [
@@ -8474,7 +8474,7 @@
     },
     {
       "id": "era-28-rebellion-event-594-03",
-      "title": "事件｜第594源章｜3",
+      "title": "精灵接受征得植物同意后的修剪枝材与果肉食用，但仍拒绝谷物，因为谷物会毁掉种子本身",
       "memo": "魔族国家、世界旅行与谋反：事件（第594源章第3条）",
       "category": "event",
       "keys": [
@@ -8499,7 +8499,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-594-01",
-      "title": "世界设定事实｜第594源章｜1",
+      "title": "伊格德拉希尔可采用凯兰崔尔外形，古神孩子之间有主龙此前不知的简短联络网",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第594源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8525,7 +8525,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-594-02",
-      "title": "世界设定事实｜第594源章｜2",
+      "title": "肤色黝黑精灵比一般精灵肉体更强、更敏捷，失去部分精灵亲和力而获得黑暗精灵亲和力",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第594源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8550,7 +8550,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-594-03",
-      "title": "世界设定事实｜第594源章｜3",
+      "title": "精灵的植物伦理已容许同意后的修剪枝与果肉利用，但禁止毁灭种子的谷物食用",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第594源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8575,7 +8575,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-594-01",
-      "title": "新建立连续性｜第594源章｜1",
+      "title": "古神孩子联络网",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第594源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8600,7 +8600,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-594-02",
-      "title": "新建立连续性｜第594源章｜2",
+      "title": "黝黑精灵直属权力设计",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第594源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8625,7 +8625,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-594-03",
-      "title": "新建立连续性｜第594源章｜3",
+      "title": "精灵植物伦理转型",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第594源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8650,7 +8650,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-594-01",
-      "title": "未解决事项｜第594源章｜1",
+      "title": "制度成效",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第594源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8675,7 +8675,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-594-02",
-      "title": "未解决事项｜第594源章｜2",
+      "title": "黑暗精灵契约实施",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第594源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8700,7 +8700,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-594-01",
-      "title": "主角龙形态｜第594源章｜1",
+      "title": "主角龙形态｜世界旅行.(2)｜被高阶认知扭曲遮蔽的人类旅行形态",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第594源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8725,7 +8725,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-594-01",
-      "title": "主角龙状态｜第594源章｜1",
+      "title": "主角龙状态｜世界旅行.(2)｜以不公开身份介入精灵社会权力设计",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第594源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8750,7 +8750,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-594-01",
-      "title": "主角龙知识边界｜第594源章｜1",
+      "title": "主角龙知识边界｜世界旅行.(2)｜方案只是开始执行，能否真正消除歧视尚未证实",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第594源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8775,7 +8775,7 @@
     },
     {
       "id": "era-28-rebellion-event-595-01",
-      "title": "事件｜第595源章｜1",
+      "title": "主龙南下莱基尼亚，以炼金术师身份教授人口密集鼠兽人制作堆肥型高效肥料",
       "memo": "魔族国家、世界旅行与谋反：事件（第595源章第1条）",
       "category": "event",
       "keys": [
@@ -8800,7 +8800,7 @@
     },
     {
       "id": "era-28-rebellion-event-595-02",
-      "title": "事件｜第595源章｜2",
+      "title": "主龙经岛屿、人鱼海底村进入深海圣地萨达梅利克，与乔装人鱼的忒提斯游览",
       "memo": "魔族国家、世界旅行与谋反：事件（第595源章第2条）",
       "category": "event",
       "keys": [
@@ -8826,7 +8826,7 @@
     },
     {
       "id": "era-28-rebellion-event-595-03",
-      "title": "事件｜第595源章｜3",
+      "title": "主龙用旅途调料制作醋辣酱，引发忒提斯对陆地料理和魔石厨具的兴趣",
       "memo": "魔族国家、世界旅行与谋反：事件（第595源章第3条）",
       "category": "event",
       "keys": [
@@ -8852,7 +8852,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-595-01",
-      "title": "世界设定事实｜第595源章｜1",
+      "title": "莱基尼亚人口密集且储粮需求高",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第595源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8877,7 +8877,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-595-02",
-      "title": "世界设定事实｜第595源章｜2",
+      "title": "萨达梅利克准入严格",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第595源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8903,7 +8903,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-595-03",
-      "title": "世界设定事实｜第595源章｜3",
+      "title": "魔石加热厨具与冷冻箱已足以支持海底开展多样烹饪",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第595源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8928,7 +8928,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-595-01",
-      "title": "新建立连续性｜第595源章｜1",
+      "title": "莱基尼亚肥料知识",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第595源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8953,7 +8953,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-595-02",
-      "title": "新建立连续性｜第595源章｜2",
+      "title": "海盗贡品秩序",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第595源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8978,7 +8978,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-595-03",
-      "title": "新建立连续性｜第595源章｜3",
+      "title": "忒提斯烹饪兴趣",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第595源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9004,7 +9004,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-595-01",
-      "title": "未解决事项｜第595源章｜1",
+      "title": "人鱼人类关系变化",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第595源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9029,7 +9029,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-595-02",
-      "title": "未解决事项｜第595源章｜2",
+      "title": "特奥卡里之行",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第595源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9054,7 +9054,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-595-01",
-      "title": "主角龙形态｜第595源章｜1",
+      "title": "主角龙形态｜世界旅行.(3)｜可在陆海各地自由通行的旅行人类形态",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第595源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9079,7 +9079,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-595-01",
-      "title": "主角龙状态｜第595源章｜1",
+      "title": "主角龙状态｜世界旅行.(3)｜继续用最小技术或文化介入连接不同文明",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第595源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9104,7 +9104,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-595-01",
-      "title": "主角龙知识边界｜第595源章｜1",
+      "title": "主角龙知识边界｜世界旅行.(3)｜尚未抵达特奥卡里，也不知道蜥蜴人大术士的警告",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第595源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9130,7 +9130,7 @@
     },
     {
       "id": "era-28-rebellion-event-596-01",
-      "title": "事件｜第596源章｜1",
+      "title": "主龙抵达特奥卡里，蜥蜴人大术士凭世间流动感知她接近并与大战士隐身迎接",
       "memo": "魔族国家、世界旅行与谋反：事件（第596源章第1条）",
       "category": "event",
       "keys": [
@@ -9156,7 +9156,7 @@
     },
     {
       "id": "era-28-rebellion-event-596-02",
-      "title": "事件｜第596源章｜2",
+      "title": "银发男子得知守护龙不在位，提出以皇太子为诱饵，在守护龙居所地下布置坑洞，炸药",
       "memo": "魔族国家、世界旅行与谋反：事件（第596源章第2条）",
       "category": "event",
       "keys": [
@@ -9181,7 +9181,7 @@
     },
     {
       "id": "era-28-rebellion-event-596-03",
-      "title": "事件｜第596源章｜3",
+      "title": "众人担心守护龙不回来",
       "memo": "魔族国家、世界旅行与谋反：事件（第596源章第3条）",
       "category": "event",
       "keys": [
@@ -9206,7 +9206,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-596-01",
-      "title": "世界设定事实｜第596源章｜1",
+      "title": "当代蜥蜴人术法已能借精灵之力隐匿人形，大术士还能感知连主龙都不理解的世间流动",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第596源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9231,7 +9231,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-596-02",
-      "title": "世界设定事实｜第596源章｜2",
+      "title": "宫廷魔法师已无法感应守护龙魔力，证实帝都守护龙当前不在位",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第596源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9256,7 +9256,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-596-03",
-      "title": "世界设定事实｜第596源章｜3",
+      "title": "银发男子是皇太子之后的皇位顺位者，猎龙计划与废黜皇太子、夺取皇位绑定",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第596源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9281,7 +9281,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-596-01",
-      "title": "新建立连续性｜第596源章｜1",
+      "title": "不返帝国承诺",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第596源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9306,7 +9306,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-596-02",
-      "title": "新建立连续性｜第596源章｜2",
+      "title": "皇太子诱饵计划",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第596源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9331,7 +9331,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-596-03",
-      "title": "新建立连续性｜第596源章｜3",
+      "title": "银发男子夺嫡目标",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第596源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9356,7 +9356,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-596-01",
-      "title": "未解决事项｜第596源章｜1",
+      "title": "大术士预见内容",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第596源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9381,7 +9381,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-596-02",
-      "title": "未解决事项｜第596源章｜2",
+      "title": "银发男子姓名",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第596源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9406,7 +9406,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-596-03",
-      "title": "未解决事项｜第596源章｜3",
+      "title": "如何强迫守护龙回归",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第596源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9431,7 +9431,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-596-01",
-      "title": "主角龙形态｜第596源章｜1",
+      "title": "主角龙形态｜世界旅行.(4)｜被认知隐匿包裹的创世神龙人类分身",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第596源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9456,7 +9456,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-596-01",
-      "title": "主角龙状态｜第596源章｜1",
+      "title": "主角龙状态｜世界旅行.(4)｜因预言式警告承诺不回帝国，意外避开专为返程布置的猎龙陷阱",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第596源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9481,7 +9481,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-596-01",
-      "title": "主角龙知识边界｜第596源章｜1",
+      "title": "主角龙知识边界｜世界旅行.(4)｜不知道大术士不公开的理由，也不知道银发男子以皇太子和皇位为核心的阴谋",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第596源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9506,7 +9506,7 @@
     },
     {
       "id": "era-28-rebellion-event-597-01",
-      "title": "事件｜第597源章｜1",
+      "title": "主龙在特奥卡里品尝鱼类，玉米与鱼露料理，拒绝以牺牲粮食扩大甘蔗，反而改造可水培",
       "memo": "魔族国家、世界旅行与谋反：事件（第597源章第1条）",
       "category": "event",
       "keys": [
@@ -9531,7 +9531,7 @@
     },
     {
       "id": "era-28-rebellion-event-597-02",
-      "title": "事件｜第597源章｜2",
+      "title": "皇帝遇险警报响起，主龙瞬移回别宫，一拳击倒持刀的皇帝次子并把皇帝转移",
       "memo": "魔族国家、世界旅行与谋反：事件（第597源章第2条）",
       "category": "event",
       "keys": [
@@ -9556,7 +9556,7 @@
     },
     {
       "id": "era-28-rebellion-event-597-03",
-      "title": "事件｜第597源章｜3",
+      "title": "预设地坑塌陷，七名冒险者以龙制剑攻击却无法破鳞",
       "memo": "魔族国家、世界旅行与谋反：事件（第597源章第3条）",
       "category": "event",
       "keys": [
@@ -9581,7 +9581,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-597-01",
-      "title": "世界设定事实｜第597源章｜1",
+      "title": "蜥蜴人已独立发现甘蔗制糖",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第597源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9606,7 +9606,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-597-02",
-      "title": "世界设定事实｜第597源章｜2",
+      "title": "主龙的守护契约会在帝国皇帝遇险时发出强烈警报，并可触发远距离空间移动",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第597源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9632,7 +9632,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-597-03",
-      "title": "世界设定事实｜第597源章｜3",
+      "title": "二皇子在守护龙别宫下预埋深坑与发火石炸弹，七名冒险者的龙制武器仍无法砍伤守护龙",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第597源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9657,7 +9657,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-597-01",
-      "title": "新建立连续性｜第597源章｜1",
+      "title": "银发男子为二皇子",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第597源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9682,7 +9682,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-597-02",
-      "title": "新建立连续性｜第597源章｜2",
+      "title": "皇帝危机警报触发",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第597源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9707,7 +9707,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-597-03",
-      "title": "新建立连续性｜第597源章｜3",
+      "title": "猎龙陷阱启动",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第597源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9732,7 +9732,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-597-01",
-      "title": "未解决事项｜第597源章｜1",
+      "title": "爆炸后状态",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第597源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9757,7 +9757,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-597-02",
-      "title": "未解决事项｜第597源章｜2",
+      "title": "皇太子下落",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第597源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9782,7 +9782,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-597-03",
-      "title": "未解决事项｜第597源章｜3",
+      "title": "共谋者结局",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第597源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9807,7 +9807,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-597-01",
-      "title": "主角龙形态｜第597源章｜1",
+      "title": "主角龙形态｜世界旅行.(5)｜特奥卡里旅行少女瞬移回帝都后，先保持人形，再变为巨大的银色守护龙",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第597源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9832,7 +9832,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-597-01",
-      "title": "主角龙状态｜第597源章｜1",
+      "title": "主角龙状态｜世界旅行.(5)｜承诺不主动回帝国却因皇帝危机警报被强制召回，落入猎龙陷阱",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第597源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9857,7 +9857,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-597-01",
-      "title": "主角龙知识边界｜第597源章｜1",
+      "title": "主角龙知识边界｜世界旅行.(5)｜已识破目标是自己，但尚不知道皇太子是否被害及全盘夺位安排",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第597源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9882,7 +9882,7 @@
     },
     {
       "id": "era-28-rebellion-event-598-01",
-      "title": "事件｜第598源章｜1",
+      "title": "主龙在足以熔化土石的连续爆炸中毫发无损，推断深坑趁她旅行时由精灵使挖掘",
       "memo": "魔族国家、世界旅行与谋反：事件（第598源章第1条）",
       "category": "event",
       "keys": [
@@ -9907,7 +9907,7 @@
     },
     {
       "id": "era-28-rebellion-event-598-02",
-      "title": "事件｜第598源章｜2",
+      "title": "二皇子及同谋误判猎龙成功",
       "memo": "魔族国家、世界旅行与谋反：事件（第598源章第2条）",
       "category": "event",
       "keys": [
@@ -9932,7 +9932,7 @@
     },
     {
       "id": "era-28-rebellion-event-598-03",
-      "title": "事件｜第598源章｜3",
+      "title": "同谋构造守护龙发疯杀太子，二皇子邀冒险者猎龙，魔王或魔族为幕后黑手的伪叙事",
       "memo": "魔族国家、世界旅行与谋反：事件（第598源章第3条）",
       "category": "event",
       "keys": [
@@ -9959,7 +9959,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-598-01",
-      "title": "世界设定事实｜第598源章｜1",
+      "title": "矮人发火石炸弹足以重伤一般巨龙，却只能让主龙鳞片变脏",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第598源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9984,7 +9984,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-598-02",
-      "title": "世界设定事实｜第598源章｜2",
+      "title": "皇太子已被二皇子一方处理",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第598源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10009,7 +10009,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-598-03",
-      "title": "世界设定事实｜第598源章｜3",
+      "title": "政变方准备将守护龙、皇太子之死和别宫崩塌全部伪装成受魔王或魔族影响的守护龙发狂事件",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第598源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10035,7 +10035,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-598-01",
-      "title": "新建立连续性｜第598源章｜1",
+      "title": "皇太子已被处理",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第598源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10060,7 +10060,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-598-02",
-      "title": "新建立连续性｜第598源章｜2",
+      "title": "皇城渗透",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第598源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10085,7 +10085,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-598-03",
-      "title": "新建立连续性｜第598源章｜3",
+      "title": "魔族背锅剧本",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第598源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10110,7 +10110,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-598-01",
-      "title": "未解决事项｜第598源章｜1",
+      "title": "皇太子生死细节",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第598源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10135,7 +10135,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-598-02",
-      "title": "未解决事项｜第598源章｜2",
+      "title": "主龙如何惩罚",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第598源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10160,7 +10160,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-598-01",
-      "title": "主角龙形态｜第598源章｜1",
+      "title": "主角龙形态｜谋反.(1)｜埋在熔岩般深坑下的银色巨龙，结尾破墟飞起",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第598源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10185,7 +10185,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-598-01",
-      "title": "主角龙状态｜第598源章｜1",
+      "title": "主角龙状态｜谋反.(1)｜肉体无伤，因数百年巢穴被毁而真正生气",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第598源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10210,7 +10210,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-598-01",
-      "title": "主角龙知识边界｜第598源章｜1",
+      "title": "主角龙知识边界｜谋反.(1)｜已能听见上方密谋，尚未亲自确认皇太子尸体位置",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第598源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10235,7 +10235,7 @@
     },
     {
       "id": "era-28-rebellion-event-599-01",
-      "title": "事件｜第599源章｜1",
+      "title": "主龙毫发无损现身，七名S级与魔法师继续战斗",
       "memo": "魔族国家、世界旅行与谋反：事件（第599源章第1条）",
       "category": "event",
       "keys": [
@@ -10260,7 +10260,7 @@
     },
     {
       "id": "era-28-rebellion-event-599-02",
-      "title": "事件｜第599源章｜2",
+      "title": "主龙短暂陪战后夺取周围魔力控制权，以空间切断七名冒险者持剑手臂并回收武器",
       "memo": "魔族国家、世界旅行与谋反：事件（第599源章第2条）",
       "category": "event",
       "keys": [
@@ -10285,7 +10285,7 @@
     },
     {
       "id": "era-28-rebellion-event-599-03",
-      "title": "事件｜第599源章｜3",
+      "title": "二皇子崩溃质问她为何拥有统治世界的力量却只睡觉和选皇帝",
       "memo": "魔族国家、世界旅行与谋反：事件（第599源章第3条）",
       "category": "event",
       "keys": [
@@ -10310,7 +10310,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-599-01",
-      "title": "世界设定事实｜第599源章｜1",
+      "title": "精灵源自被主龙转化的远古巨龙",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第599源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10335,7 +10335,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-599-02",
-      "title": "世界设定事实｜第599源章｜2",
+      "title": "主龙能夺取他人操纵的魔力控制权，并以空间切割精确截肢而不伤龙制剑",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第599源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10360,7 +10360,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-599-03",
-      "title": "世界设定事实｜第599源章｜3",
+      "title": "守护龙，生命女神，创世神龙均为外界赋予主龙的角色称谓",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第599源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10385,7 +10385,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-599-01",
-      "title": "新建立连续性｜第599源章｜1",
+      "title": "精灵对主龙恐惧根源",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第599源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10410,7 +10410,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-599-02",
-      "title": "新建立连续性｜第599源章｜2",
+      "title": "主龙身份危机",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第599源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10435,7 +10435,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-599-01",
-      "title": "未解决事项｜第599源章｜1",
+      "title": "二皇子审判",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第599源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10460,7 +10460,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-599-02",
-      "title": "未解决事项｜第599源章｜2",
+      "title": "皇太子复活",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第599源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10485,7 +10485,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-599-03",
-      "title": "未解决事项｜第599源章｜3",
+      "title": "主龙自我答案",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第599源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10510,7 +10510,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-599-01",
-      "title": "主角龙形态｜第599源章｜1",
+      "title": "主角龙形态｜谋反.(2)｜完整银色守护巨龙形态",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第599源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10535,7 +10535,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-599-01",
-      "title": "主角龙状态｜第599源章｜1",
+      "title": "主角龙状态｜谋反.(2)｜身体与战斗完全占优，但自我存在意义首次被二皇子话语刺中",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第599源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10560,7 +10560,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-599-01",
-      "title": "主角龙知识边界｜第599源章｜1",
+      "title": "主角龙知识边界｜谋反.(2)｜她自己也无法回答『我是谁、为何存在』",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第599源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10585,7 +10585,7 @@
     },
     {
       "id": "era-28-rebellion-event-600-01",
-      "title": "事件｜第600源章｜1",
+      "title": "二皇子承认杀害皇太子，并以自己是唯一嫡子要挟守护龙",
       "memo": "魔族国家、世界旅行与谋反：事件（第600源章第1条）",
       "category": "event",
       "keys": [
@@ -10610,7 +10610,7 @@
     },
     {
       "id": "era-28-rebellion-event-600-02",
-      "title": "事件｜第600源章｜2",
+      "title": "主龙变回龙角银发少女，精灵使认出龙之巫女而获唯一赦免",
       "memo": "魔族国家、世界旅行与谋反：事件（第600源章第2条）",
       "category": "event",
       "keys": [
@@ -10635,7 +10635,7 @@
     },
     {
       "id": "era-28-rebellion-event-600-03",
-      "title": "事件｜第600源章｜3",
+      "title": "主龙搜查二皇子记忆，找到并修复被斩首皇太子，从附近死神夺回灵魂完成复活",
       "memo": "魔族国家、世界旅行与谋反：事件（第600源章第3条）",
       "category": "event",
       "keys": [
@@ -10660,7 +10660,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-600-01",
-      "title": "世界设定事实｜第600源章｜1",
+      "title": "复活魔法确实存在但几乎无人能用，丰饶女神像许愿也可能复活死者",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第600源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10685,7 +10685,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-600-02",
-      "title": "世界设定事实｜第600源章｜2",
+      "title": "主龙的身份时间序列为创世神龙，生命女神，丰饶女神，帝国守护龙",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第600源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10710,7 +10710,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-600-03",
-      "title": "世界设定事实｜第600源章｜3",
+      "title": "主龙可从记忆定位尸体、修复斩首肉身，并从附近死神夺回灵魂完成复活",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第600源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10735,7 +10735,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-600-01",
-      "title": "新建立连续性｜第600源章｜1",
+      "title": "皇太子被斩首后复活",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第600源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10760,7 +10760,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-600-02",
-      "title": "新建立连续性｜第600源章｜2",
+      "title": "二皇子谋反失败",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第600源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10785,7 +10785,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-600-03",
-      "title": "新建立连续性｜第600源章｜3",
+      "title": "唯一精灵使获赦",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第600源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10810,7 +10810,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-600-01",
-      "title": "未解决事项｜第600源章｜1",
+      "title": "正式审判结果",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第600源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10835,7 +10835,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-600-02",
-      "title": "未解决事项｜第600源章｜2",
+      "title": "别宫重建",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第600源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10860,7 +10860,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-600-03",
-      "title": "未解决事项｜第600源章｜3",
+      "title": "主龙身份危机",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第600源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10885,7 +10885,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-600-01",
-      "title": "主角龙形态｜第600源章｜1",
+      "title": "主角龙形态｜谋反.(3)｜从银色巨龙变为头生龙角的银发少女／龙之巫女形态，再以巨龙召集军队",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第600源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10910,7 +10910,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-600-01",
-      "title": "主角龙状态｜第600源章｜1",
+      "title": "主角龙状态｜谋反.(3)｜镇压谋反、复活皇太子并恢复合法权力，但家园被毁与自我问题仍未解决",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第600源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10935,7 +10935,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-600-01",
-      "title": "主角龙知识边界｜第600源章｜1",
+      "title": "主角龙知识边界｜谋反.(3)｜已取得二皇子记忆和事件全貌",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第600源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10960,7 +10960,7 @@
     },
     {
       "id": "era-28-rebellion-event-601-01",
-      "title": "事件｜第601源章｜1",
+      "title": "谋反结束，守护龙别宫倒塌、皇太子死而复生",
       "memo": "魔族国家、世界旅行与谋反：事件（第601源章第1条）",
       "category": "event",
       "keys": [
@@ -10985,7 +10985,7 @@
     },
     {
       "id": "era-28-rebellion-event-601-02",
-      "title": "事件｜第601源章｜2",
+      "title": "新皇登基，各国为避免给帝国对外转移矛盾的借口而压制皇室叛乱流言",
       "memo": "魔族国家、世界旅行与谋反：事件（第601源章第2条）",
       "category": "event",
       "keys": [
@@ -11011,7 +11011,7 @@
     },
     {
       "id": "era-28-rebellion-event-601-03",
-      "title": "事件｜第601源章｜3",
+      "title": "新皇以报答复活之恩为由同时批准池塘和环池塔",
       "memo": "魔族国家、世界旅行与谋反：事件（第601源章第3条）",
       "category": "event",
       "keys": [
@@ -11037,7 +11037,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-601-01",
-      "title": "世界设定事实｜第601源章｜1",
+      "title": "冥界以生死簿判断寿命，非正当续命会加重处罚",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第601源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11062,7 +11062,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-601-02",
-      "title": "世界设定事实｜第601源章｜2",
+      "title": "他国因担心新皇以外战巩固权力而主动压制帝国叛乱流言",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第601源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11088,7 +11088,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-601-03",
-      "title": "世界设定事实｜第601源章｜3",
+      "title": "精灵使从死刑减为劳役，将把大地精灵工程能力用于守护龙新居重建",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第601源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11113,7 +11113,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-601-01",
-      "title": "新建立连续性｜第601源章｜1",
+      "title": "先皇驾崩",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第601源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11139,7 +11139,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-601-02",
-      "title": "新建立连续性｜第601源章｜2",
+      "title": "皇太子即位",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第601源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11164,7 +11164,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-601-03",
-      "title": "新建立连续性｜第601源章｜3",
+      "title": "精灵使劳役重建",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第601源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11189,7 +11189,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-601-01",
-      "title": "未解决事项｜第601源章｜1",
+      "title": "新巢完成",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第601源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11214,7 +11214,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-601-02",
-      "title": "未解决事项｜第601源章｜2",
+      "title": "国际流言长期影响",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第601源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11239,7 +11239,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-601-01",
-      "title": "主角龙形态｜第601源章｜1",
+      "title": "主角龙形态｜谋反.(4)｜暂住皇城客房的人类形态，规划可供巨龙形态出入的新巢",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第601源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11264,7 +11264,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-601-01",
-      "title": "主角龙状态｜第601源章｜1",
+      "title": "主角龙状态｜谋反.(4)｜政变余波稳定，转入重建与守护契约的新阶段",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第601源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11289,7 +11289,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-601-01",
-      "title": "主角龙知识边界｜第601源章｜1",
+      "title": "主角龙知识边界｜谋反.(4)｜尚未确定新巢最终结构与孩子们力量的融入",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第601源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11314,7 +11314,7 @@
     },
     {
       "id": "era-28-rebellion-event-602-01",
-      "title": "事件｜第602源章｜1",
+      "title": "帝国在新皇的安定政策下继续运转",
       "memo": "魔族国家、世界旅行与谋反：事件（第602源章第1条）",
       "category": "event",
       "keys": [
@@ -11340,7 +11340,7 @@
     },
     {
       "id": "era-28-rebellion-event-602-02",
-      "title": "事件｜第602源章｜2",
+      "title": "精灵术士完成玻璃化巨坑整平、螺旋楼梯等劳役工程",
       "memo": "魔族国家、世界旅行与谋反：事件（第602源章第2条）",
       "category": "event",
       "keys": [
@@ -11365,7 +11365,7 @@
     },
     {
       "id": "era-28-rebellion-event-602-03",
-      "title": "事件｜第602源章｜3",
+      "title": "主龙亲建大理石池、回流水溪、中心镂空环塔、观星平台、护栏与花园，接着转入地下居住空间",
       "memo": "魔族国家、世界旅行与谋反：事件（第602源章第3条）",
       "category": "event",
       "keys": [
@@ -11390,7 +11390,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-602-01",
-      "title": "世界设定事实｜第602源章｜1",
+      "title": "新皇延续先皇内外政策，权力更替并未立刻改变帝国或世界",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第602源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11417,7 +11417,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-602-02",
-      "title": "世界设定事实｜第602源章｜2",
+      "title": "获减刑的精灵术士完成巨坑壁整平、螺旋楼梯等大型工程，之后将被皇帝继续任用",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第602源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11442,7 +11442,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-602-03",
-      "title": "世界设定事实｜第602源章｜3",
+      "title": "新别宫地面包含结界水池、循环小溪、环池镂空塔、螺旋楼梯和花园，池下通往地下龙巢",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第602源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11467,7 +11467,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-602-01",
-      "title": "新建立连续性｜第602源章｜1",
+      "title": "新皇选择标准",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第602源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11493,7 +11493,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-602-02",
-      "title": "新建立连续性｜第602源章｜2",
+      "title": "水池环塔新别宫",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第602源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11518,7 +11518,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-602-01",
-      "title": "未解决事项｜第602源章｜1",
+      "title": "地下空间",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第602源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11543,7 +11543,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-602-02",
-      "title": "未解决事项｜第602源章｜2",
+      "title": "主龙身份疑问",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第602源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11568,7 +11568,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-602-01",
-      "title": "主角龙形态｜第602源章｜1",
+      "title": "主角龙形态｜重建.(1)｜以人类形态建造，但新居专为银色巨龙破水飞出设计",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第602源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11593,7 +11593,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-602-01",
-      "title": "主角龙状态｜第602源章｜1",
+      "title": "主角龙状态｜重建.(1)｜从政变怒火转向创造私人家园",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第602源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11618,7 +11618,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-602-01",
-      "title": "主角龙知识边界｜第602源章｜1",
+      "title": "主角龙知识边界｜重建.(1)｜花园与地下居住区尚未完成",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第602源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11643,7 +11643,7 @@
     },
     {
       "id": "era-28-rebellion-event-603-01",
-      "title": "事件｜第603源章｜1",
+      "title": "主龙在地下龙巢旁建三室一厅一厨，客厕，人工日照，魔法家电与连接万神殿大图书馆的书房",
       "memo": "魔族国家、世界旅行与谋反：事件（第603源章第1条）",
       "category": "event",
       "keys": [
@@ -11668,7 +11668,7 @@
     },
     {
       "id": "era-28-rebellion-event-603-02",
-      "title": "事件｜第603源章｜2",
+      "title": "六位孩子的力量融入新居，孩子们结伴乔迁来访",
       "memo": "魔族国家、世界旅行与谋反：事件（第603源章第2条）",
       "category": "event",
       "keys": [
@@ -11693,7 +11693,7 @@
     },
     {
       "id": "era-28-rebellion-event-603-03",
-      "title": "事件｜第603源章｜3",
+      "title": "独处后主龙重新追问『我是谁』，守护龙可卸任，丰饶女神与假名不重要，生命女神可舍弃",
       "memo": "魔族国家、世界旅行与谋反：事件（第603源章第3条）",
       "category": "event",
       "keys": [
@@ -11718,7 +11718,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-603-01",
-      "title": "世界设定事实｜第603源章｜1",
+      "title": "新别宫含沙马什微光，伊格德拉希尔生机，萨加玛塔稳固，希尔芙微风",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第603源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11749,7 +11749,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-603-02",
-      "title": "世界设定事实｜第603源章｜2",
+      "title": "古神力量流动让孩子们能快速抵达此处",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第603源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11774,7 +11774,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-603-03",
-      "title": "世界设定事实｜第603源章｜3",
+      "title": "主龙自取真名带有不可预料的力量风险，预计不会在世界中公开",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第603源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11800,7 +11800,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-603-01",
-      "title": "新建立连续性｜第603源章｜1",
+      "title": "古神力量别墅",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第603源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11825,7 +11825,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-603-02",
-      "title": "新建立连续性｜第603源章｜2",
+      "title": "身份排除式自省",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第603源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11850,7 +11850,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-603-03",
-      "title": "新建立连续性｜第603源章｜3",
+      "title": "真名公开风险",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第603源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11875,7 +11875,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-603-01",
-      "title": "未解决事项｜第603源章｜1",
+      "title": "我是谁的答案",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第603源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11900,7 +11900,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-603-02",
-      "title": "未解决事项｜第603源章｜2",
+      "title": "地球分身可能性",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第603源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11925,7 +11925,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-603-01",
-      "title": "主角龙形态｜第603源章｜1",
+      "title": "主角龙形态｜重建.(2)｜新地下居所中的守护龙少女分身",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第603源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11951,7 +11951,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-603-01",
-      "title": "主角龙状态｜第603源章｜1",
+      "title": "主角龙状态｜重建.(2)｜拥有新的家庭休憩处，但身份疑问全面展开",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第603源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11976,7 +11976,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-603-01",
-      "title": "主角龙知识边界｜第603源章｜1",
+      "title": "主角龙知识边界｜重建.(2)｜主龙自己也不知道公开真名会发生什么，不能推断其文本或效果",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第603源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12001,7 +12001,7 @@
     },
     {
       "id": "era-28-rebellion-event-604-01",
-      "title": "事件｜第604源章｜1",
+      "title": "主龙无法以名字、数十万年事迹或出身完整定义自己，转问存在理由与世界本质",
       "memo": "魔族国家、世界旅行与谋反：事件（第604源章第1条）",
       "category": "event",
       "keys": [
@@ -12026,7 +12026,7 @@
     },
     {
       "id": "era-28-rebellion-event-604-02",
-      "title": "事件｜第604源章｜2",
+      "title": "自省自然延伸为去地球的愿望",
       "memo": "魔族国家、世界旅行与谋反：事件（第604源章第2条）",
       "category": "event",
       "keys": [
@@ -12052,7 +12052,7 @@
     },
     {
       "id": "era-28-rebellion-event-604-03",
-      "title": "事件｜第604源章｜3",
+      "title": "时间流逝，新皇维持和平，守护龙事务归零",
       "memo": "魔族国家、世界旅行与谋反：事件（第604源章第3条）",
       "category": "event",
       "keys": [
@@ -12078,7 +12078,7 @@
     },
     {
       "id": "era-28-rebellion-event-604-04",
-      "title": "事件｜第604源章｜4",
+      "title": "数百名各神殿勇者获正式认可，时代进入大勇者时代",
       "memo": "魔族国家、世界旅行与谋反：事件（第604源章第4条）",
       "category": "event",
       "keys": [
@@ -12104,7 +12104,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-604-01",
-      "title": "世界设定事实｜第604源章｜1",
+      "title": "主龙由未知存在投入世界，该存在早期偶尔联系并给予信使式能力、创造能力和时间操控能力",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第604源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12129,7 +12129,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-604-02",
-      "title": "世界设定事实｜第604源章｜2",
+      "title": "地球通道可输送微弱力量但尚不能制造主龙分身",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第604源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12155,7 +12155,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-604-03",
-      "title": "世界设定事实｜第604源章｜3",
+      "title": "守护龙沉睡中仍能扩张地球通道并吸引转生者",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第604源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12180,7 +12180,7 @@
     },
     {
       "id": "era-28-rebellion-world-fact-604-04",
-      "title": "世界设定事实｜第604源章｜4",
+      "title": "数百名不同神殿勇者出现，世界进入大勇者时代",
       "memo": "魔族国家、世界旅行与谋反：世界设定事实（第604源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12206,7 +12206,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-604-01",
-      "title": "新建立连续性｜第604源章｜1",
+      "title": "未知投放者",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第604源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12231,7 +12231,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-604-02",
-      "title": "新建立连续性｜第604源章｜2",
+      "title": "地球分身愿望",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第604源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12256,7 +12256,7 @@
     },
     {
       "id": "era-28-rebellion-continuity-new-604-03",
-      "title": "新建立连续性｜第604源章｜3",
+      "title": "大勇者时代",
       "memo": "魔族国家、世界旅行与谋反：新建立连续性（第604源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12281,7 +12281,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-604-01",
-      "title": "未解决事项｜第604源章｜1",
+      "title": "魔王讨伐",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第604源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12307,7 +12307,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-604-02",
-      "title": "未解决事项｜第604源章｜2",
+      "title": "地球通道成熟",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第604源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12332,7 +12332,7 @@
     },
     {
       "id": "era-28-rebellion-unresolved-604-03",
-      "title": "未解决事项｜第604源章｜3",
+      "title": "主龙自我定义",
       "memo": "魔族国家、世界旅行与谋反：未解决事项（第604源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12357,7 +12357,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-form-604-01",
-      "title": "主角龙形态｜第604源章｜1",
+      "title": "主角龙形态｜我是谁?｜新地下巢穴中准备沉睡的帝国守护龙分身",
       "memo": "魔族国家、世界旅行与谋反：主角龙形态（第604源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12383,7 +12383,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-state-604-01",
-      "title": "主角龙状态｜第604源章｜1",
+      "title": "主角龙状态｜我是谁?｜身份问题无解，地球回归愿望成形，随后进入长期睡眠",
       "memo": "魔族国家、世界旅行与谋反：主角龙状态（第604源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12408,7 +12408,7 @@
     },
     {
       "id": "era-28-rebellion-protagonist-knowledge-604-01",
-      "title": "主角龙知识边界｜第604源章｜1",
+      "title": "主角龙知识边界｜我是谁?｜不知道投放自己的存在是谁、不知道世界本质、不知道何时能制造地球分身",
       "memo": "魔族国家、世界旅行与谋反：主角龙知识边界（第604源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12433,7 +12433,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-01",
-      "title": "次要人物｜萨加玛塔",
+      "title": "萨加玛塔",
       "memo": "魔族国家、世界旅行与谋反：次要人物 萨加玛塔",
       "category": "secondary-character",
       "keys": [
@@ -12459,7 +12459,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-02",
-      "title": "次要人物｜忒提斯",
+      "title": "忒提斯",
       "memo": "魔族国家、世界旅行与谋反：次要人物 忒提斯",
       "category": "secondary-character",
       "keys": [
@@ -12485,7 +12485,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-03",
-      "title": "次要人物｜尼克斯",
+      "title": "尼克斯",
       "memo": "魔族国家、世界旅行与谋反：次要人物 尼克斯",
       "category": "secondary-character",
       "keys": [
@@ -12511,7 +12511,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-04",
-      "title": "次要人物｜银发年轻男子（身份未明）",
+      "title": "银发年轻男子（身份未明）",
       "memo": "魔族国家、世界旅行与谋反：次要人物 银发年轻男子（身份未明）",
       "category": "secondary-character",
       "keys": [
@@ -12543,7 +12543,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-05",
-      "title": "次要人物｜各神殿勇者群体",
+      "title": "各神殿勇者群体",
       "memo": "魔族国家、世界旅行与谋反：次要人物 各神殿勇者群体",
       "category": "secondary-character",
       "keys": [],
@@ -12567,7 +12567,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-06",
-      "title": "次要人物｜古神孩子们",
+      "title": "古神孩子们",
       "memo": "魔族国家、世界旅行与谋反：次要人物 古神孩子们",
       "category": "secondary-character",
       "keys": [
@@ -12593,7 +12593,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-07",
-      "title": "次要人物｜金色龙领主",
+      "title": "金色龙领主",
       "memo": "魔族国家、世界旅行与谋反：次要人物 金色龙领主",
       "category": "secondary-character",
       "keys": [
@@ -12619,7 +12619,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-08",
-      "title": "次要人物｜精灵使（姓名未明）",
+      "title": "精灵使（姓名未明）",
       "memo": "魔族国家、世界旅行与谋反：次要人物 精灵使（姓名未明）",
       "category": "secondary-character",
       "keys": [],
@@ -12643,7 +12643,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-09",
-      "title": "次要人物｜冒险团魔法师（未命名）",
+      "title": "冒险团魔法师（未命名）",
       "memo": "魔族国家、世界旅行与谋反：次要人物 冒险团魔法师（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -12667,7 +12667,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-10",
-      "title": "次要人物｜魔族关口守卫（未命名）",
+      "title": "魔族关口守卫（未命名）",
       "memo": "魔族国家、世界旅行与谋反：次要人物 魔族关口守卫（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -12691,7 +12691,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-11",
-      "title": "次要人物｜蜥蜴人大术士",
+      "title": "蜥蜴人大术士",
       "memo": "魔族国家、世界旅行与谋反：次要人物 蜥蜴人大术士",
       "category": "secondary-character",
       "keys": [
@@ -12717,7 +12717,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-12",
-      "title": "次要人物｜先皇",
+      "title": "先皇",
       "memo": "魔族国家、世界旅行与谋反：次要人物 先皇",
       "category": "secondary-character",
       "keys": [
@@ -12743,7 +12743,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-13",
-      "title": "次要人物｜伊格德拉希尔／凯兰崔尔",
+      "title": "伊格德拉希尔／凯兰崔尔",
       "memo": "魔族国家、世界旅行与谋反：次要人物 伊格德拉希尔／凯兰崔尔",
       "category": "secondary-character",
       "keys": [
@@ -12769,7 +12769,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-14",
-      "title": "次要人物｜银发男子／帝位继承人之一（身份未明）",
+      "title": "银发男子／帝位继承人之一（身份未明）",
       "memo": "魔族国家、世界旅行与谋反：次要人物 银发男子／帝位继承人之一（身份未明）",
       "category": "secondary-character",
       "keys": [
@@ -12795,7 +12795,7 @@
     },
     {
       "id": "era-28-rebellion-secondary-character-15",
-      "title": "次要人物｜自诩勇者的B级冒险者（未命名）",
+      "title": "自诩勇者的B级冒险者（未命名）",
       "memo": "魔族国家、世界旅行与谋反：次要人物 自诩勇者的B级冒险者（未命名）",
       "category": "secondary-character",
       "keys": [],

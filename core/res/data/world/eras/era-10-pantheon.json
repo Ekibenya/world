@@ -3421,7 +3421,7 @@
   "lorebook": [
     {
       "id": "era-10-pantheon-core",
-      "title": "诸神时代与万神殿｜时代边界",
+      "title": "诸神时代与万神殿",
       "memo": "诸神时代与万神殿：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3436,7 +3436,7 @@
     },
     {
       "id": "era-10-pantheon-event-145-01",
-      "title": "事件｜第145源章｜1",
+      "title": "英雄斩怪示范使人类建立职业讨伐军与治安队，道路安全、畜力货运和跨族物流发展",
       "memo": "诸神时代与万神殿：事件（第145源章第1条）",
       "category": "event",
       "keys": [
@@ -3461,7 +3461,7 @@
     },
     {
       "id": "era-10-pantheon-event-145-02",
-      "title": "事件｜第145源章｜2",
+      "title": "纸莎草纸扩大故事与信仰传播",
       "memo": "诸神时代与万神殿：事件（第145源章第2条）",
       "category": "event",
       "keys": [
@@ -3486,7 +3486,7 @@
     },
     {
       "id": "era-10-pantheon-event-145-03",
-      "title": "事件｜第145源章｜3",
+      "title": "普罗西亚卷轴贸易推动魔法研究由直觉现象转为可论证的基础理论",
       "memo": "诸神时代与万神殿：事件（第145源章第3条）",
       "category": "event",
       "keys": [
@@ -3511,7 +3511,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-145-01",
-      "title": "世界设定事实｜第145源章｜1",
+      "title": "英雄示范催生专业猎魔职业兵与治安队，道路安全促成畜力货运，纸莎草纸，魔法卷轴",
       "memo": "诸神时代与万神殿：世界设定事实（第145源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3536,7 +3536,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-145-02",
-      "title": "世界设定事实｜第145源章｜2",
+      "title": "纸莎草纸卷轴承载真实记录、英雄改编、幻想和神话，成为早期书籍并加速新的民间神话生成",
       "memo": "诸神时代与万神殿：世界设定事实（第145源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3561,7 +3561,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-145-03",
-      "title": "世界设定事实｜第145源章｜3",
+      "title": "普罗西亚法师把直觉魔法拆为理论基础法术，可点火，移物，造光，凝水，吹风",
       "memo": "诸神时代与万神殿：世界设定事实（第145源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3586,7 +3586,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-145-01",
-      "title": "新建立连续性｜第145源章｜1",
+      "title": "职业治安队",
       "memo": "诸神时代与万神殿：新建立连续性（第145源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3611,7 +3611,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-145-02",
-      "title": "新建立连续性｜第145源章｜2",
+      "title": "跨族物流",
       "memo": "诸神时代与万神殿：新建立连续性（第145源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3636,7 +3636,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-145-03",
-      "title": "新建立连续性｜第145源章｜3",
+      "title": "纸莎草书籍",
       "memo": "诸神时代与万神殿：新建立连续性（第145源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3661,7 +3661,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-145-04",
-      "title": "新建立连续性｜第145源章｜4",
+      "title": "理论基础魔法",
       "memo": "诸神时代与万神殿：新建立连续性（第145源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3686,7 +3686,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-145-05",
-      "title": "新建立连续性｜第145源章｜5",
+      "title": "信仰反塑神明",
       "memo": "诸神时代与万神殿：新建立连续性（第145源章第5条）",
       "category": "continuity",
       "keys": [
@@ -3711,7 +3711,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-145-06",
-      "title": "新建立连续性｜第145源章｜6",
+      "title": "神性面具构想",
       "memo": "诸神时代与万神殿：新建立连续性（第145源章第6条）",
       "category": "continuity",
       "keys": [
@@ -3736,7 +3736,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-145-01",
-      "title": "未解决事项｜第145源章｜1",
+      "title": "人格面具实现",
       "memo": "诸神时代与万神殿：未解决事项（第145源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3761,7 +3761,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-145-01",
-      "title": "主角龙形态｜第145源章｜1",
+      "title": "主角龙形态｜第一百四十章：英雄之后的世界（1）｜本章为生命女神叙述视角，未给新外观",
       "memo": "诸神时代与万神殿：主角龙形态（第145源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3786,7 +3786,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-145-01",
-      "title": "主角龙状态｜第145源章｜1",
+      "title": "主角龙状态｜第一百四十章：英雄之后的世界（1）｜英雄之后世界变化的观察者，开始研究神性人格面具",
       "memo": "诸神时代与万神殿：主角龙状态（第145源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3811,7 +3811,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-145-01",
-      "title": "主角龙知识边界｜第145源章｜1",
+      "title": "主角龙知识边界｜第一百四十章：英雄之后的世界（1）｜人格面具尚只是想法，不能写成已完成能力",
       "memo": "诸神时代与万神殿：主角龙知识边界（第145源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3836,7 +3836,7 @@
     },
     {
       "id": "era-10-pantheon-event-146-01",
-      "title": "事件｜第146源章｜1",
+      "title": "物流令矮人铁器广泛普及，但精灵因敌对传统拒用",
       "memo": "诸神时代与万神殿：事件（第146源章第1条）",
       "category": "event",
       "keys": [
@@ -3861,7 +3861,7 @@
     },
     {
       "id": "era-10-pantheon-event-146-02",
-      "title": "事件｜第146源章｜2",
+      "title": "蜥蜴人因湿地锈蚀和宗教传统拒铁，发展黑曜石工艺，并受灵剑传闻启发让土元素寄宿黑曜石",
       "memo": "诸神时代与万神殿：事件（第146源章第2条）",
       "category": "event",
       "keys": [
@@ -3886,7 +3886,7 @@
     },
     {
       "id": "era-10-pantheon-event-146-03",
-      "title": "事件｜第146源章｜3",
+      "title": "未来英雄小队中精灵与蜥蜴战士争论灵剑、灵器术起源，同行银发龙角少女确认传闻影响",
       "memo": "诸神时代与万神殿：事件（第146源章第3条）",
       "category": "event",
       "keys": [
@@ -3911,7 +3911,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-146-01",
-      "title": "世界设定事实｜第146源章｜1",
+      "title": "矮人依洞穴贸易与行会推广铁器",
       "memo": "诸神时代与万神殿：世界设定事实（第146源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3936,7 +3936,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-146-02",
-      "title": "世界设定事实｜第146源章｜2",
+      "title": "蜥蜴人湿地使铁易锈，故发展黑曜石武器",
       "memo": "诸神时代与万神殿：世界设定事实（第146源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3961,7 +3961,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-146-01",
-      "title": "新建立连续性｜第146源章｜1",
+      "title": "矮人铁器普及",
       "memo": "诸神时代与万神殿：新建立连续性（第146源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3986,7 +3986,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-146-02",
-      "title": "新建立连续性｜第146源章｜2",
+      "title": "蜥蜴人灵器术",
       "memo": "诸神时代与万神殿：新建立连续性（第146源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4011,7 +4011,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-146-03",
-      "title": "新建立连续性｜第146源章｜3",
+      "title": "土元素黑曜石寄宿",
       "memo": "诸神时代与万神殿：新建立连续性（第146源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4036,7 +4036,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-146-01",
-      "title": "未解决事项｜第146源章｜1",
+      "title": "未来英雄小队身份",
       "memo": "诸神时代与万神殿：未解决事项（第146源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4061,7 +4061,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-146-01",
-      "title": "主角龙形态｜第146源章｜1",
+      "title": "主角龙形态｜第一百四十一章：英雄之后的世界（2）｜主体叙述未现形",
       "memo": "诸神时代与万神殿：主角龙形态（第146源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4086,7 +4086,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-146-01",
-      "title": "主角龙状态｜第146源章｜1",
+      "title": "主角龙状态｜第一百四十一章：英雄之后的世界（2）｜技术扩散与文化适应的观察者",
       "memo": "诸神时代与万神殿：主角龙状态（第146源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4111,7 +4111,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-146-01",
-      "title": "主角龙知识边界｜第146源章｜1",
+      "title": "主角龙知识边界｜第一百四十一章：英雄之后的世界（2）｜未来小队记录中的龙角少女身份不可提前写死",
       "memo": "诸神时代与万神殿：主角龙知识边界（第146源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4136,7 +4136,7 @@
     },
     {
       "id": "era-10-pantheon-event-147-01",
-      "title": "事件｜第147源章｜1",
+      "title": "主角召集龙族朝圣者，说明生命女神信仰侵蚀本我，决定只保留三成在岗以削弱信仰影响",
       "memo": "诸神时代与万神殿：事件（第147源章第1条）",
       "category": "event",
       "keys": [
@@ -4161,7 +4161,7 @@
     },
     {
       "id": "era-10-pantheon-event-147-02",
-      "title": "事件｜第147源章｜2",
+      "title": "龙族因喜欢旅行助人而反对卸任",
       "memo": "诸神时代与万神殿：事件（第147源章第2条）",
       "category": "event",
       "keys": [
@@ -4186,7 +4186,7 @@
     },
     {
       "id": "era-10-pantheon-event-147-03",
-      "title": "事件｜第147源章｜3",
+      "title": "信仰空白催生弱小新神",
       "memo": "诸神时代与万神殿：事件（第147源章第3条）",
       "category": "event",
       "keys": [
@@ -4212,7 +4212,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-147-01",
-      "title": "世界设定事实｜第147源章｜1",
+      "title": "生命女神信仰稍减后，人类开始把神概念投射到古神未覆盖的领域",
       "memo": "诸神时代与万神殿：世界设定事实（第147源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4237,7 +4237,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-147-01",
-      "title": "新建立连续性｜第147源章｜1",
+      "title": "朝圣者三成五年轮岗",
       "memo": "诸神时代与万神殿：新建立连续性（第147源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4262,7 +4262,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-147-02",
-      "title": "新建立连续性｜第147源章｜2",
+      "title": "新神涌现",
       "memo": "诸神时代与万神殿：新建立连续性（第147源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4287,7 +4287,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-147-03",
-      "title": "新建立连续性｜第147源章｜3",
+      "title": "天空神巴尔",
       "memo": "诸神时代与万神殿：新建立连续性（第147源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4313,7 +4313,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-147-01",
-      "title": "未解决事项｜第147源章｜1",
+      "title": "巴尔培养",
       "memo": "诸神时代与万神殿：未解决事项（第147源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4339,7 +4339,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-147-02",
-      "title": "未解决事项｜第147源章｜2",
+      "title": "神性人格面具",
       "memo": "诸神时代与万神殿：未解决事项（第147源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4364,7 +4364,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-147-01",
-      "title": "主角龙形态｜第147源章｜1",
+      "title": "主角龙形态｜第一百四十二章：英雄之后的世界（3）｜生命神殿密室中的龙族巫女少女形态",
       "memo": "诸神时代与万神殿：主角龙形态（第147源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4390,7 +4390,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-147-01",
-      "title": "主角龙状态｜第147源章｜1",
+      "title": "主角龙状态｜第一百四十二章：英雄之后的世界（3）｜主动去中心化信仰，并面对第一批新神",
       "memo": "诸神时代与万神殿：主角龙状态（第147源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4415,7 +4415,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-147-01",
-      "title": "主角龙知识边界｜第147源章｜1",
+      "title": "主角龙知识边界｜第一百四十二章：英雄之后的世界（3）｜人格面具仍未完成",
       "memo": "诸神时代与万神殿：主角龙知识边界（第147源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4441,7 +4441,7 @@
     },
     {
       "id": "era-10-pantheon-event-148-01",
-      "title": "事件｜第148源章｜1",
+      "title": "巴尔以沙玛什年龄和主角辈分挑衅",
       "memo": "诸神时代与万神殿：事件（第148源章第1条）",
       "category": "event",
       "keys": [
@@ -4468,7 +4468,7 @@
     },
     {
       "id": "era-10-pantheon-event-148-02",
-      "title": "事件｜第148源章｜2",
+      "title": "主角谎称真名有致死力量逗他",
       "memo": "诸神时代与万神殿：事件（第148源章第2条）",
       "category": "event",
       "keys": [
@@ -4494,7 +4494,7 @@
     },
     {
       "id": "era-10-pantheon-event-148-03",
-      "title": "事件｜第148源章｜3",
+      "title": "主角查询异世界盖亚资料，决定培养巴尔分担天空与众神之王职责，以保护本我并减轻工作",
       "memo": "诸神时代与万神殿：事件（第148源章第3条）",
       "category": "event",
       "keys": [
@@ -4520,7 +4520,7 @@
     },
     {
       "id": "era-10-pantheon-event-148-04",
-      "title": "事件｜第148源章｜4",
+      "title": "未来《诸神时代》误释盖亚为新大地神且记述被证伪",
       "memo": "诸神时代与万神殿：事件（第148源章第4条）",
       "category": "event",
       "keys": [
@@ -4545,7 +4545,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-148-01",
-      "title": "世界设定事实｜第148源章｜1",
+      "title": "主角可用神力检索原世界知识",
       "memo": "诸神时代与万神殿：世界设定事实（第148源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4570,7 +4570,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-148-01",
-      "title": "新建立连续性｜第148源章｜1",
+      "title": "盖亚称号",
       "memo": "诸神时代与万神殿：新建立连续性（第148源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4595,7 +4595,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-148-02",
-      "title": "新建立连续性｜第148源章｜2",
+      "title": "巴尔众神之王目标",
       "memo": "诸神时代与万神殿：新建立连续性（第148源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4621,7 +4621,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-148-03",
-      "title": "新建立连续性｜第148源章｜3",
+      "title": "主角培养接班人",
       "memo": "诸神时代与万神殿：新建立连续性（第148源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4646,7 +4646,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-148-01",
-      "title": "未解决事项｜第148源章｜1",
+      "title": "诸神是否认可巴尔",
       "memo": "诸神时代与万神殿：未解决事项（第148源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4672,7 +4672,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-148-01",
-      "title": "主角龙形态｜第148源章｜1",
+      "title": "主角龙形态｜第一百四十三章：诸神时代（1）｜长角银发少女，作为古神被巴尔称为盖亚",
       "memo": "诸神时代与万神殿：主角龙形态（第148源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4698,7 +4698,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-148-01",
-      "title": "主角龙状态｜第148源章｜1",
+      "title": "主角龙状态｜第一百四十三章：诸神时代（1）｜天空神巴尔的教育者与拟议辅佐者",
       "memo": "诸神时代与万神殿：主角龙状态（第148源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4724,7 +4724,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-148-01",
-      "title": "主角龙知识边界｜第148源章｜1",
+      "title": "主角龙知识边界｜第一百四十三章：诸神时代（1）｜盖亚是巴尔新取称号而非主角公开真名",
       "memo": "诸神时代与万神殿：主角龙知识边界（第148源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4750,7 +4750,7 @@
     },
     {
       "id": "era-10-pantheon-event-149-01",
-      "title": "事件｜第149源章｜1",
+      "title": "主角向巴尔解释王权来自他者认可与承担责任，不是出身",
       "memo": "诸神时代与万神殿：事件（第149源章第1条）",
       "category": "event",
       "keys": [
@@ -4776,7 +4776,7 @@
     },
     {
       "id": "era-10-pantheon-event-149-02",
-      "title": "事件｜第149源章｜2",
+      "title": "主角用青葡萄糖果解释交换与说服，承诺帮助巴尔逐个说服古神",
       "memo": "诸神时代与万神殿：事件（第149源章第2条）",
       "category": "event",
       "keys": [
@@ -4802,7 +4802,7 @@
     },
     {
       "id": "era-10-pantheon-event-149-03",
-      "title": "事件｜第149源章｜3",
+      "title": "叙述诸神遍布自然物且需统一管理",
       "memo": "诸神时代与万神殿：事件（第149源章第3条）",
       "category": "event",
       "keys": [
@@ -4827,7 +4827,7 @@
     },
     {
       "id": "era-10-pantheon-event-149-04",
-      "title": "事件｜第149源章｜4",
+      "title": "主角召沙玛什、伊芙利特、忒提斯、希尔芙、萨加玛塔、世界树支持巴尔",
       "memo": "诸神时代与万神殿：事件（第149源章第4条）",
       "category": "event",
       "keys": [
@@ -4859,7 +4859,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-149-01",
-      "title": "世界设定事实｜第149源章｜1",
+      "title": "诸神时代中山丘、溪流、村口大树等受足够信仰的自然物可觉醒神性",
       "memo": "诸神时代与万神殿：世界设定事实（第149源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4884,7 +4884,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-149-01",
-      "title": "新建立连续性｜第149源章｜1",
+      "title": "王权认可与责任原则",
       "memo": "诸神时代与万神殿：新建立连续性（第149源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4909,7 +4909,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-149-02",
-      "title": "新建立连续性｜第149源章｜2",
+      "title": "古神说服会议",
       "memo": "诸神时代与万神殿：新建立连续性（第149源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4934,7 +4934,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-149-03",
-      "title": "新建立连续性｜第149源章｜3",
+      "title": "巴尔伴侣宣言",
       "memo": "诸神时代与万神殿：新建立连续性（第149源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4960,7 +4960,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-149-01",
-      "title": "未解决事项｜第149源章｜1",
+      "title": "古神反应｜诸神时代（2）",
       "memo": "诸神时代与万神殿：未解决事项（第149源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4985,7 +4985,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-149-02",
-      "title": "未解决事项｜第149源章｜2",
+      "title": "巴尔是否获认可",
       "memo": "诸神时代与万神殿：未解决事项（第149源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5011,7 +5011,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-149-01",
-      "title": "主角龙形态｜第149源章｜1",
+      "title": "主角龙形态｜诸神时代（2）｜长角银发少女，使用盖亚称号",
       "memo": "诸神时代与万神殿：主角龙形态（第149源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5036,7 +5036,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-149-01",
-      "title": "主角龙状态｜第149源章｜1",
+      "title": "主角龙状态｜诸神时代（2）｜拟扶立巴尔的古神协调者",
       "memo": "诸神时代与万神殿：主角龙状态（第149源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5062,7 +5062,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-149-01",
-      "title": "主角龙知识边界｜第149源章｜1",
+      "title": "主角龙知识边界｜诸神时代（2）｜古神尚未表态",
       "memo": "诸神时代与万神殿：主角龙知识边界（第149源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5088,7 +5088,7 @@
     },
     {
       "id": "era-10-pantheon-event-150-01",
-      "title": "事件｜第150源章｜1",
+      "title": "主角强行把巴尔的伴侣宣言解释为天空为大陆命名，蒙混过古神并提出让古神评估其神王资格",
       "memo": "诸神时代与万神殿：事件（第150源章第1条）",
       "category": "event",
       "keys": [
@@ -5114,7 +5114,7 @@
     },
     {
       "id": "era-10-pantheon-event-150-02",
-      "title": "事件｜第150源章｜2",
+      "title": "忒提斯建议每位古神给巴尔一项试炼，以通过结果换取认可",
       "memo": "诸神时代与万神殿：事件（第150源章第2条）",
       "category": "event",
       "keys": [
@@ -5141,7 +5141,7 @@
     },
     {
       "id": "era-10-pantheon-event-150-03",
-      "title": "事件｜第150源章｜3",
+      "title": "七位认可者共同设题",
       "memo": "诸神时代与万神殿：事件（第150源章第3条）",
       "category": "event",
       "keys": [
@@ -5166,7 +5166,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-150-01",
-      "title": "世界设定事实｜第150源章｜1",
+      "title": "沙玛什，伊芙利特，忒提斯，希尔芙，萨加玛塔，世界树是新神前已存在的第一世代古神",
       "memo": "诸神时代与万神殿：世界设定事实（第150源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5197,7 +5197,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-150-01",
-      "title": "新建立连续性｜第150源章｜1",
+      "title": "七神试炼",
       "memo": "诸神时代与万神殿：新建立连续性（第150源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5222,7 +5222,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-150-02",
-      "title": "新建立连续性｜第150源章｜2",
+      "title": "不杀人类兽人贯穿规则",
       "memo": "诸神时代与万神殿：新建立连续性（第150源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5247,7 +5247,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-150-01",
-      "title": "未解决事项｜第150源章｜1",
+      "title": "六项古神试炼",
       "memo": "诸神时代与万神殿：未解决事项（第150源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5272,7 +5272,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-150-02",
-      "title": "未解决事项｜第150源章｜2",
+      "title": "巴尔资格",
       "memo": "诸神时代与万神殿：未解决事项（第150源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5298,7 +5298,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-150-01",
-      "title": "主角龙形态｜第150源章｜1",
+      "title": "主角龙形态｜诸神时代（3）｜长角银发少女，被巴尔私称盖亚",
       "memo": "诸神时代与万神殿：主角龙形态（第150源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5324,7 +5324,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-150-01",
-      "title": "主角龙状态｜第150源章｜1",
+      "title": "主角龙状态｜诸神时代（3）｜神王资格程序的发起者和第七位认可者",
       "memo": "诸神时代与万神殿：主角龙状态（第150源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5349,7 +5349,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-150-01",
-      "title": "主角龙知识边界｜第150源章｜1",
+      "title": "主角龙知识边界｜诸神时代（3）｜古神尚未出题",
       "memo": "诸神时代与万神殿：主角龙知识边界（第150源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5374,7 +5374,7 @@
     },
     {
       "id": "era-10-pantheon-event-151-01",
-      "title": "事件｜第151源章｜1",
+      "title": "伊芙利特要求巴尔平定沙漠幼神且禁主角帮忙",
       "memo": "诸神时代与万神殿：事件（第151源章第1条）",
       "category": "event",
       "keys": [
@@ -5401,7 +5401,7 @@
     },
     {
       "id": "era-10-pantheon-event-151-02",
-      "title": "事件｜第151源章｜2",
+      "title": "未来学者从七神试炼石板追查被抹去的神王巴尔",
       "memo": "诸神时代与万神殿：事件（第151源章第2条）",
       "category": "event",
       "keys": [
@@ -5427,7 +5427,7 @@
     },
     {
       "id": "era-10-pantheon-event-151-03",
-      "title": "事件｜第151源章｜3",
+      "title": "巴尔击败由沙漠恐惧孕育的兽首众神而不杀，完成第一试炼",
       "memo": "诸神时代与万神殿：事件（第151源章第3条）",
       "category": "event",
       "keys": [
@@ -5453,7 +5453,7 @@
     },
     {
       "id": "era-10-pantheon-event-151-04",
-      "title": "事件｜第151源章｜4",
+      "title": "希尔芙提出禁止瞬移、仅化身从大陆东端飞到西端竞速",
       "memo": "诸神时代与万神殿：事件（第151源章第4条）",
       "category": "event",
       "keys": [
@@ -5480,7 +5480,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-151-01",
-      "title": "世界设定事实｜第151源章｜1",
+      "title": "沙漠恐惧孕育热风、流沙等兽首幼神",
       "memo": "诸神时代与万神殿：世界设定事实（第151源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5506,7 +5506,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-151-01",
-      "title": "新建立连续性｜第151源章｜1",
+      "title": "沙漠神臣服",
       "memo": "诸神时代与万神殿：新建立连续性（第151源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5531,7 +5531,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-151-02",
-      "title": "新建立连续性｜第151源章｜2",
+      "title": "希尔芙竞速",
       "memo": "诸神时代与万神殿：新建立连续性（第151源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5557,7 +5557,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-151-01",
-      "title": "未解决事项｜第151源章｜1",
+      "title": "竞速结果",
       "memo": "诸神时代与万神殿：未解决事项（第151源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5582,7 +5582,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-151-01",
-      "title": "主角龙形态｜第151源章｜1",
+      "title": "主角龙形态｜众神的试炼.(1)｜长角银发少女，旁观试炼",
       "memo": "诸神时代与万神殿：主角龙形态（第151源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5607,7 +5607,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-151-01",
-      "title": "主角龙状态｜第151源章｜1",
+      "title": "主角龙状态｜众神的试炼.(1)｜被明令禁止直接援助的监护者",
       "memo": "诸神时代与万神殿：主角龙状态（第151源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5632,7 +5632,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-151-01",
-      "title": "主角龙知识边界｜第151源章｜1",
+      "title": "主角龙知识边界｜众神的试炼.(1)｜尚未见竞速结果",
       "memo": "诸神时代与万神殿：主角龙知识边界（第151源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5657,7 +5657,7 @@
     },
     {
       "id": "era-10-pantheon-event-152-01",
-      "title": "事件｜第152源章｜1",
+      "title": "希尔芙首次竞速轻松获胜",
       "memo": "诸神时代与万神殿：事件（第152源章第1条）",
       "category": "event",
       "keys": [
@@ -5683,7 +5683,7 @@
     },
     {
       "id": "era-10-pantheon-event-152-02",
-      "title": "事件｜第152源章｜2",
+      "title": "主角回溯比赛，设苹果派和柠檬水拦下希尔芙，解释神王是避免自己过劳与失去亲子相聚",
       "memo": "诸神时代与万神殿：事件（第152源章第2条）",
       "category": "event",
       "keys": [
@@ -5710,7 +5710,7 @@
     },
     {
       "id": "era-10-pantheon-event-152-03",
-      "title": "事件｜第152源章｜3",
+      "title": "后世《龟兔赛跑》复现比赛结构",
       "memo": "诸神时代与万神殿：事件（第152源章第3条）",
       "category": "event",
       "keys": [
@@ -5735,7 +5735,7 @@
     },
     {
       "id": "era-10-pantheon-event-152-04",
-      "title": "事件｜第152源章｜4",
+      "title": "希尔芙正式认输",
       "memo": "诸神时代与万神殿：事件（第152源章第4条）",
       "category": "event",
       "keys": [
@@ -5762,7 +5762,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-152-01",
-      "title": "世界设定事实｜第152源章｜1",
+      "title": "主角的时钟可让除她外的整个世界短时倒流",
       "memo": "诸神时代与万神殿：世界设定事实（第152源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5787,7 +5787,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-152-01",
-      "title": "新建立连续性｜第152源章｜1",
+      "title": "巴尔竞速名义获胜",
       "memo": "诸神时代与万神殿：新建立连续性（第152源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5813,7 +5813,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-152-02",
-      "title": "新建立连续性｜第152源章｜2",
+      "title": "世界树饮食试炼",
       "memo": "诸神时代与万神殿：新建立连续性（第152源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5839,7 +5839,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-152-01",
-      "title": "未解决事项｜第152源章｜1",
+      "title": "精灵饮食改变",
       "memo": "诸神时代与万神殿：未解决事项（第152源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5864,7 +5864,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-152-01",
-      "title": "主角龙形态｜第152源章｜1",
+      "title": "主角龙形态｜众神的试炼.(2)｜长角银发少女，携带回溯时钟",
       "memo": "诸神时代与万神殿：主角龙形态（第152源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5889,7 +5889,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-152-01",
-      "title": "主角龙状态｜第152源章｜1",
+      "title": "主角龙状态｜众神的试炼.(2)｜为神王计划首次直接作弊的考官",
       "memo": "诸神时代与万神殿：主角龙状态（第152源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5914,7 +5914,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-152-01",
-      "title": "主角龙知识边界｜第152源章｜1",
+      "title": "主角龙知识边界｜众神的试炼.(2)｜其他古神尚未揭穿回溯作弊",
       "memo": "诸神时代与万神殿：主角龙知识边界（第152源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5939,7 +5939,7 @@
     },
     {
       "id": "era-10-pantheon-event-153-01",
-      "title": "事件｜第153源章｜1",
+      "title": "世界树担心精灵拒绝植物材料会落后，要求巴尔一月内让精灵吃蔬菜，却不给方法",
       "memo": "诸神时代与万神殿：事件（第153源章第1条）",
       "category": "event",
       "keys": [
@@ -5966,7 +5966,7 @@
     },
     {
       "id": "era-10-pantheon-event-153-02",
-      "title": "事件｜第153源章｜2",
+      "title": "主角帮助巴尔寻找题目漏洞，提出果实是植物为传播种子而主动供食的器官",
       "memo": "诸神时代与万神殿：事件（第153源章第2条）",
       "category": "event",
       "keys": [
@@ -5992,7 +5992,7 @@
     },
     {
       "id": "era-10-pantheon-event-153-03",
-      "title": "事件｜第153源章｜3",
+      "title": "巴尔以人类少年形态提出水果是否希望被吃，引发精灵肉食，果实，植物自主",
       "memo": "诸神时代与万神殿：事件（第153源章第3条）",
       "category": "event",
       "keys": [
@@ -6018,7 +6018,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-153-01",
-      "title": "世界设定事实｜第153源章｜1",
+      "title": "精灵能与植物沟通，完全不吃植物，以肉食和光合作用维持营养",
       "memo": "诸神时代与万神殿：世界设定事实（第153源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6043,7 +6043,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-153-01",
-      "title": "新建立连续性｜第153源章｜1",
+      "title": "精灵果实争论",
       "memo": "诸神时代与万神殿：新建立连续性（第153源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6068,7 +6068,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-153-02",
-      "title": "新建立连续性｜第153源章｜2",
+      "title": "肉果兼食派",
       "memo": "诸神时代与万神殿：新建立连续性（第153源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6093,7 +6093,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-153-01",
-      "title": "未解决事项｜第153源章｜1",
+      "title": "试炼是否通过",
       "memo": "诸神时代与万神殿：未解决事项（第153源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6118,7 +6118,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-153-01",
-      "title": "主角龙形态｜第153源章｜1",
+      "title": "主角龙形态｜众神的考验.(3)｜长角银发少女，以盖亚称呼陪巴尔观察精灵",
       "memo": "诸神时代与万神殿：主角龙形态（第153源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6144,7 +6144,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-153-01",
-      "title": "主角龙状态｜第153源章｜1",
+      "title": "主角龙状态｜众神的考验.(3)｜第三试炼的实质解题者",
       "memo": "诸神时代与万神殿：主角龙状态（第153源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6169,7 +6169,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-153-01",
-      "title": "主角龙知识边界｜第153源章｜1",
+      "title": "主角龙知识边界｜众神的考验.(3)｜只看到争论形成，尚未确认精灵实际开始吃水果",
       "memo": "诸神时代与万神殿：主角龙知识边界（第153源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6194,7 +6194,7 @@
     },
     {
       "id": "era-10-pantheon-event-154-01",
-      "title": "事件｜第154源章｜1",
+      "title": "主角教巴尔用独处耳语让精灵误认作自身想法，操纵舆论推动吃果实，并以此预演神王协调众神",
       "memo": "诸神时代与万神殿：事件（第154源章第1条）",
       "category": "event",
       "keys": [
@@ -6220,7 +6220,7 @@
     },
     {
       "id": "era-10-pantheon-event-154-02",
-      "title": "事件｜第154源章｜2",
+      "title": "沙玛什发现主角在竞速和饮食试炼中过度代劳，惩罚她后续全程不得与巴尔说话并陪伴古神",
       "memo": "诸神时代与万神殿：事件（第154源章第2条）",
       "category": "event",
       "keys": [
@@ -6248,7 +6248,7 @@
     },
     {
       "id": "era-10-pantheon-event-154-03",
-      "title": "事件｜第154源章｜3",
+      "title": "沙玛什给出光的对立面、有形却无法捕捉之物，期限一年",
       "memo": "诸神时代与万神殿：事件（第154源章第3条）",
       "category": "event",
       "keys": [
@@ -6275,7 +6275,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-154-01",
-      "title": "世界设定事实｜第154源章｜1",
+      "title": "极弱耳语可被独处者误认作自身想法",
       "memo": "诸神时代与万神殿：世界设定事实（第154源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6300,7 +6300,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-154-01",
-      "title": "新建立连续性｜第154源章｜1",
+      "title": "精灵开始吃水果",
       "memo": "诸神时代与万神殿：新建立连续性（第154源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6325,7 +6325,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-154-02",
-      "title": "新建立连续性｜第154源章｜2",
+      "title": "主角作弊受罚",
       "memo": "诸神时代与万神殿：新建立连续性（第154源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6350,7 +6350,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-154-03",
-      "title": "新建立连续性｜第154源章｜3",
+      "title": "光之对立试炼",
       "memo": "诸神时代与万神殿：新建立连续性（第154源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6375,7 +6375,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-154-01",
-      "title": "未解决事项｜第154源章｜1",
+      "title": "巴尔独立解题",
       "memo": "诸神时代与万神殿：未解决事项（第154源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6401,7 +6401,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-154-01",
-      "title": "主角龙形态｜第154源章｜1",
+      "title": "主角龙形态｜众神的试炼.(4)｜长角银发少女",
       "memo": "诸神时代与万神殿：主角龙形态（第154源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6426,7 +6426,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-154-01",
-      "title": "主角龙状态｜第154源章｜1",
+      "title": "主角龙状态｜众神的试炼.(4)｜被取消后续试炼援助权并接受古神监督",
       "memo": "诸神时代与万神殿：主角龙状态（第154源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6451,7 +6451,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-154-01",
-      "title": "主角龙知识边界｜第154源章｜1",
+      "title": "主角龙知识边界｜众神的试炼.(4)｜她只把谜底理解为厄瑞玻斯，不知道存在另一正确答案",
       "memo": "诸神时代与万神殿：主角龙知识边界（第154源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6477,7 +6477,7 @@
     },
     {
       "id": "era-10-pantheon-event-155-01",
-      "title": "事件｜第155源章｜1",
+      "title": "巴尔承诺独立寻找答案",
       "memo": "诸神时代与万神殿：事件（第155源章第1条）",
       "category": "event",
       "keys": [
@@ -6504,7 +6504,7 @@
     },
     {
       "id": "era-10-pantheon-event-155-02",
-      "title": "事件｜第155源章｜2",
+      "title": "七个月后巴尔带来自己通过传播传闻新生的影之女神，以影子满足题面",
       "memo": "诸神时代与万神殿：事件（第155源章第2条）",
       "category": "event",
       "keys": [
@@ -6531,7 +6531,7 @@
     },
     {
       "id": "era-10-pantheon-event-155-03",
-      "title": "事件｜第155源章｜3",
+      "title": "主角安抚无名怯懦幼神并赐名尼克斯，确定其为阴影与黑夜女神",
       "memo": "诸神时代与万神殿：事件（第155源章第3条）",
       "category": "event",
       "keys": [
@@ -6557,7 +6557,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-155-01",
-      "title": "世界设定事实｜第155源章｜1",
+      "title": "对概念持续传播传闻可使对应幼神诞生",
       "memo": "诸神时代与万神殿：世界设定事实（第155源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6582,7 +6582,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-155-01",
-      "title": "新建立连续性｜第155源章｜1",
+      "title": "影与黑夜女神尼克斯",
       "memo": "诸神时代与万神殿：新建立连续性（第155源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6608,7 +6608,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-155-02",
-      "title": "新建立连续性｜第155源章｜2",
+      "title": "巴尔独立造神解题",
       "memo": "诸神时代与万神殿：新建立连续性（第155源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6634,7 +6634,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-155-01",
-      "title": "未解决事项｜第155源章｜1",
+      "title": "忒提斯与萨加玛塔试炼",
       "memo": "诸神时代与万神殿：未解决事项（第155源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6661,7 +6661,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-155-01",
-      "title": "主角龙形态｜第155源章｜1",
+      "title": "主角龙形态｜众神的试炼.(5)｜长角银发少女，蹲下与尼克斯平视",
       "memo": "诸神时代与万神殿：主角龙形态（第155源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6687,7 +6687,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-155-01",
-      "title": "主角龙状态｜第155源章｜1",
+      "title": "主角龙状态｜众神的试炼.(5)｜尼克斯命名者与庇护者",
       "memo": "诸神时代与万神殿：主角龙状态（第155源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6713,7 +6713,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-155-01",
-      "title": "主角龙知识边界｜第155源章｜1",
+      "title": "主角龙知识边界｜众神的试炼.(5)｜不知道巴尔具体如何传播到足够造神，只确认其行为成果",
       "memo": "诸神时代与万神殿：主角龙知识边界（第155源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6739,7 +6739,7 @@
     },
     {
       "id": "era-10-pantheon-event-156-01",
-      "title": "事件｜第156源章｜1",
+      "title": "尼克斯黏在主角膝上",
       "memo": "诸神时代与万神殿：事件（第156源章第1条）",
       "category": "event",
       "keys": [
@@ -6767,7 +6767,7 @@
     },
     {
       "id": "era-10-pantheon-event-156-02",
-      "title": "事件｜第156源章｜2",
+      "title": "深海中忒提斯承认只为减轻母亲负担才允许巴尔为神王，并揭穿盖亚就是主角，警告其放弃独占",
       "memo": "诸神时代与万神殿：事件（第156源章第2条）",
       "category": "event",
       "keys": [
@@ -6794,7 +6794,7 @@
     },
     {
       "id": "era-10-pantheon-event-156-03",
-      "title": "事件｜第156源章｜3",
+      "title": "忒提斯展示海底八处魔力源与星球心脏，揭示魔力从世界心脏循环并最终流向主角",
       "memo": "诸神时代与万神殿：事件（第156源章第3条）",
       "category": "event",
       "keys": [
@@ -6820,7 +6820,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-156-01",
-      "title": "世界设定事实｜第156源章｜1",
+      "title": "世界心脏在厚外壳下持续脉动，海底至少八处高浓度魔力源",
       "memo": "诸神时代与万神殿：世界设定事实（第156源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6845,7 +6845,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-156-01",
-      "title": "新建立连续性｜第156源章｜1",
+      "title": "世界心脏",
       "memo": "诸神时代与万神殿：新建立连续性（第156源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6870,7 +6870,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-156-02",
-      "title": "新建立连续性｜第156源章｜2",
+      "title": "八处海底魔力源",
       "memo": "诸神时代与万神殿：新建立连续性（第156源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6895,7 +6895,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-156-03",
-      "title": "新建立连续性｜第156源章｜3",
+      "title": "主角为魔力终点",
       "memo": "诸神时代与万神殿：新建立连续性（第156源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6920,7 +6920,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-156-04",
-      "title": "新建立连续性｜第156源章｜4",
+      "title": "忒提斯双重态度",
       "memo": "诸神时代与万神殿：新建立连续性（第156源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6946,7 +6946,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-156-01",
-      "title": "未解决事项｜第156源章｜1",
+      "title": "巴尔对警告反应",
       "memo": "诸神时代与万神殿：未解决事项（第156源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6972,7 +6972,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-156-02",
-      "title": "未解决事项｜第156源章｜2",
+      "title": "最后试炼",
       "memo": "诸神时代与万神殿：未解决事项（第156源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6997,7 +6997,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-156-01",
-      "title": "主角龙形态｜第156源章｜1",
+      "title": "主角龙形态｜众神的试炼.(6)｜长角银发少女，本章深海段未在场",
       "memo": "诸神时代与万神殿：主角龙形态（第156源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7022,7 +7022,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-156-01",
-      "title": "主角龙状态｜第156源章｜1",
+      "title": "主角龙状态｜众神的试炼.(6)｜被忒提斯揭示为魔力终点却本人尚未察觉",
       "memo": "诸神时代与万神殿：主角龙状态（第156源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7048,7 +7048,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-156-01",
-      "title": "主角龙知识边界｜第156源章｜1",
+      "title": "主角龙知识边界｜众神的试炼.(6)｜主角不知道深海谈话与魔力终点事实",
       "memo": "诸神时代与万神殿：主角龙知识边界（第156源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7075,7 +7075,7 @@
     },
     {
       "id": "era-10-pantheon-event-157-01",
-      "title": "事件｜第157源章｜1",
+      "title": "巴尔与忒提斯次日晚归",
       "memo": "诸神时代与万神殿：事件（第157源章第1条）",
       "category": "event",
       "keys": [
@@ -7103,7 +7103,7 @@
     },
     {
       "id": "era-10-pantheon-event-157-02",
-      "title": "事件｜第157源章｜2",
+      "title": "主角离开后，萨加玛塔私下以若碰母亲便杀死巴尔作最后警告",
       "memo": "诸神时代与万神殿：事件（第157源章第2条）",
       "category": "event",
       "keys": [
@@ -7130,7 +7130,7 @@
     },
     {
       "id": "era-10-pantheon-event-157-03",
-      "title": "事件｜第157源章｜3",
+      "title": "主角移至高空创造万神殿，尼克斯化为影子黏背跟来，获准继续依附",
       "memo": "诸神时代与万神殿：事件（第157源章第3条）",
       "category": "event",
       "keys": [
@@ -7156,7 +7156,7 @@
     },
     {
       "id": "era-10-pantheon-event-157-04",
-      "title": "事件｜第157源章｜4",
+      "title": "万神殿设在坚实云层世界，仅黎明黄昏开放高空隐门",
       "memo": "诸神时代与万神殿：事件（第157源章第4条）",
       "category": "event",
       "keys": [
@@ -7182,7 +7182,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-157-01",
-      "title": "世界设定事实｜第157源章｜1",
+      "title": "万神殿是坚实云层上的独立神界，高空隐门仅黎明黄昏开放",
       "memo": "诸神时代与万神殿：世界设定事实（第157源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7207,7 +7207,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-157-01",
-      "title": "新建立连续性｜第157源章｜1",
+      "title": "巴尔通过七神试炼",
       "memo": "诸神时代与万神殿：新建立连续性（第157源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7233,7 +7233,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-157-02",
-      "title": "新建立连续性｜第157源章｜2",
+      "title": "万神殿神界",
       "memo": "诸神时代与万神殿：新建立连续性（第157源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7258,7 +7258,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-157-03",
-      "title": "新建立连续性｜第157源章｜3",
+      "title": "天空神殿",
       "memo": "诸神时代与万神殿：新建立连续性（第157源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7283,7 +7283,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-157-04",
-      "title": "新建立连续性｜第157源章｜4",
+      "title": "尼克斯黏影能力",
       "memo": "诸神时代与万神殿：新建立连续性（第157源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7309,7 +7309,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-157-01",
-      "title": "未解决事项｜第157源章｜1",
+      "title": "巴尔加冕",
       "memo": "诸神时代与万神殿：未解决事项（第157源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7335,7 +7335,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-157-02",
-      "title": "未解决事项｜第157源章｜2",
+      "title": "万神殿扩建",
       "memo": "诸神时代与万神殿：未解决事项（第157源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7360,7 +7360,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-157-01",
-      "title": "主角龙形态｜第157源章｜1",
+      "title": "主角龙形态｜万神殿.(1)｜长角银发少女，背黏影子形态尼克斯",
       "memo": "诸神时代与万神殿：主角龙形态（第157源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7386,7 +7386,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-157-01",
-      "title": "主角龙状态｜第157源章｜1",
+      "title": "主角龙状态｜万神殿.(1)｜万神殿创世者与神王加冕筹备者",
       "memo": "诸神时代与万神殿：主角龙状态（第157源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7411,7 +7411,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-157-01",
-      "title": "主角龙知识边界｜第157源章｜1",
+      "title": "主角龙知识边界｜万神殿.(1)｜不知道忒提斯和萨加玛塔私下警告细节",
       "memo": "诸神时代与万神殿：主角龙知识边界（第157源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7439,7 +7439,7 @@
     },
     {
       "id": "era-10-pantheon-event-158-01",
-      "title": "事件｜第158源章｜1",
+      "title": "主角因回应祈祷占工作两三成而萌生人工智能或自动应答机设想，但尚无技术头绪",
       "memo": "诸神时代与万神殿：事件（第158源章第1条）",
       "category": "event",
       "keys": [
@@ -7464,7 +7464,7 @@
     },
     {
       "id": "era-10-pantheon-event-158-02",
-      "title": "事件｜第158源章｜2",
+      "title": "尼克斯指出多数弱神不能飞",
       "memo": "诸神时代与万神殿：事件（第158源章第2条）",
       "category": "event",
       "keys": [
@@ -7490,7 +7490,7 @@
     },
     {
       "id": "era-10-pantheon-event-158-03",
-      "title": "事件｜第158源章｜3",
+      "title": "主角回到信仰衰退后的阿卡迪亚，邀请缩成小狗的原初兽神担任万神殿守门人",
       "memo": "诸神时代与万神殿：事件（第158源章第3条）",
       "category": "event",
       "keys": [
@@ -7516,7 +7516,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-158-01",
-      "title": "世界设定事实｜第158源章｜1",
+      "title": "弱小山河地缚神无法远离本体",
       "memo": "诸神时代与万神殿：世界设定事实（第158源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7541,7 +7541,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-158-01",
-      "title": "新建立连续性｜第158源章｜1",
+      "title": "彩虹电梯",
       "memo": "诸神时代与万神殿：新建立连续性（第158源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7566,7 +7566,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-158-02",
-      "title": "新建立连续性｜第158源章｜2",
+      "title": "云上检查站",
       "memo": "诸神时代与万神殿：新建立连续性（第158源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7591,7 +7591,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-158-03",
-      "title": "新建立连续性｜第158源章｜3",
+      "title": "兽神信仰衰退",
       "memo": "诸神时代与万神殿：新建立连续性（第158源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7616,7 +7616,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-158-01",
-      "title": "未解决事项｜第158源章｜1",
+      "title": "兽神是否迁移",
       "memo": "诸神时代与万神殿：未解决事项（第158源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7641,7 +7641,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-158-02",
-      "title": "未解决事项｜第158源章｜2",
+      "title": "守门神安排",
       "memo": "诸神时代与万神殿：未解决事项（第158源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7666,7 +7666,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-158-01",
-      "title": "主角龙形态｜第158源章｜1",
+      "title": "主角龙形态｜万神殿.(2)｜长角银发少女，背负影子形态尼克斯",
       "memo": "诸神时代与万神殿：主角龙形态（第158源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7692,7 +7692,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-158-01",
-      "title": "主角龙状态｜第158源章｜1",
+      "title": "主角龙状态｜万神殿.(2)｜神界交通设计者与兽神救助者",
       "memo": "诸神时代与万神殿：主角龙状态（第158源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7717,7 +7717,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-158-01",
-      "title": "主角龙知识边界｜第158源章｜1",
+      "title": "主角龙知识边界｜万神殿.(2)｜尚不知道兽神具体想留下何物，只能模糊感知",
       "memo": "诸神时代与万神殿：主角龙知识边界（第158源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7742,7 +7742,7 @@
     },
     {
       "id": "era-10-pantheon-event-159-01",
-      "title": "事件｜第159源章｜1",
+      "title": "主角转赠信仰急救兽神，理解它想留下自己、不愿被遗忘",
       "memo": "诸神时代与万神殿：事件（第159源章第1条）",
       "category": "event",
       "keys": [
@@ -7767,7 +7767,7 @@
     },
     {
       "id": "era-10-pantheon-event-159-02",
-      "title": "事件｜第159源章｜2",
+      "title": "尼克斯提议像自己一样为兽神取名",
       "memo": "诸神时代与万神殿：事件（第159源章第2条）",
       "category": "event",
       "keys": [
@@ -7793,7 +7793,7 @@
     },
     {
       "id": "era-10-pantheon-event-159-03",
-      "title": "事件｜第159源章｜3",
+      "title": "主角赐兽神天狼星之名，拟让阿卡迪亚首都同名并堆叠守门人权能，天狼星高兴随行",
       "memo": "诸神时代与万神殿：事件（第159源章第3条）",
       "category": "event",
       "keys": [
@@ -7818,7 +7818,7 @@
     },
     {
       "id": "era-10-pantheon-event-159-04",
-      "title": "事件｜第159源章｜4",
+      "title": "未来课堂讲天狼星古都、学院遗迹与兽神守门传说",
       "memo": "诸神时代与万神殿：事件（第159源章第4条）",
       "category": "event",
       "keys": [
@@ -7843,7 +7843,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-159-01",
-      "title": "世界设定事实｜第159源章｜1",
+      "title": "信仰可由主角转赠他神，但十份约仅两份抵达，效率极低",
       "memo": "诸神时代与万神殿：世界设定事实（第159源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7868,7 +7868,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-159-01",
-      "title": "新建立连续性｜第159源章｜1",
+      "title": "兽神名天狼星",
       "memo": "诸神时代与万神殿：新建立连续性（第159源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7893,7 +7893,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-159-02",
-      "title": "新建立连续性｜第159源章｜2",
+      "title": "阿卡迪亚首都改名计划",
       "memo": "诸神时代与万神殿：新建立连续性（第159源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7918,7 +7918,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-159-03",
-      "title": "新建立连续性｜第159源章｜3",
+      "title": "万神殿守门使命",
       "memo": "诸神时代与万神殿：新建立连续性（第159源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7943,7 +7943,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-159-01",
-      "title": "未解决事项｜第159源章｜1",
+      "title": "首都改名执行",
       "memo": "诸神时代与万神殿：未解决事项（第159源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7968,7 +7968,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-159-02",
-      "title": "未解决事项｜第159源章｜2",
+      "title": "天狼星恢复",
       "memo": "诸神时代与万神殿：未解决事项（第159源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7993,7 +7993,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-159-01",
-      "title": "主角龙形态｜第159源章｜1",
+      "title": "主角龙形态｜万神殿.(3)｜长角银发少女，携尼克斯并带小狗天狼星",
       "memo": "诸神时代与万神殿：主角龙形态（第159源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8019,7 +8019,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-159-01",
-      "title": "主角龙状态｜第159源章｜1",
+      "title": "主角龙状态｜万神殿.(3)｜天狼星命名者与历史记忆设计者",
       "memo": "诸神时代与万神殿：主角龙状态（第159源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8044,7 +8044,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-159-01",
-      "title": "主角龙知识边界｜第159源章｜1",
+      "title": "主角龙知识边界｜万神殿.(3)｜未来天狼星古都与学院资料不可回填当前",
       "memo": "诸神时代与万神殿：主角龙知识边界（第159源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8069,7 +8069,7 @@
     },
     {
       "id": "era-10-pantheon-event-160-01",
-      "title": "事件｜第160源章｜1",
+      "title": "主角以梦境神谕促阿卡迪亚改城名、修神殿",
       "memo": "诸神时代与万神殿：事件（第160源章第1条）",
       "category": "event",
       "keys": [
@@ -8094,7 +8094,7 @@
     },
     {
       "id": "era-10-pantheon-event-160-02",
-      "title": "事件｜第160源章｜2",
+      "title": "主角打造仅巴尔适用的闪电月桂冠，扩建古神神殿，并要求连续黏背数日的尼克斯在加冕后下来",
       "memo": "诸神时代与万神殿：事件（第160源章第2条）",
       "category": "event",
       "keys": [
@@ -8121,7 +8121,7 @@
     },
     {
       "id": "era-10-pantheon-event-160-03",
-      "title": "事件｜第160源章｜3",
+      "title": "万神殿首次召集诸神",
       "memo": "诸神时代与万神殿：事件（第160源章第3条）",
       "category": "event",
       "keys": [
@@ -8147,7 +8147,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-160-01",
-      "title": "世界设定事实｜第160源章｜1",
+      "title": "闪电月桂冠可制造并投掷等同闪电强度的雷霆，兼具丰收象征",
       "memo": "诸神时代与万神殿：世界设定事实（第160源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8173,7 +8173,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-160-01",
-      "title": "新建立连续性｜第160源章｜1",
+      "title": "天狼星巨狼守门",
       "memo": "诸神时代与万神殿：新建立连续性（第160源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8198,7 +8198,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-160-02",
-      "title": "新建立连续性｜第160源章｜2",
+      "title": "闪电月桂冠",
       "memo": "诸神时代与万神殿：新建立连续性（第160源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8223,7 +8223,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-160-03",
-      "title": "新建立连续性｜第160源章｜3",
+      "title": "诸神首次齐聚",
       "memo": "诸神时代与万神殿：新建立连续性（第160源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8248,7 +8248,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-160-01",
-      "title": "未解决事项｜第160源章｜1",
+      "title": "巴尔决心内容",
       "memo": "诸神时代与万神殿：未解决事项（第160源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8274,7 +8274,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-160-02",
-      "title": "未解决事项｜第160源章｜2",
+      "title": "正式加冕",
       "memo": "诸神时代与万神殿：未解决事项（第160源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8299,7 +8299,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-160-01",
-      "title": "主角龙形态｜第160源章｜1",
+      "title": "主角龙形态｜万神殿.(4)｜长角银发少女，尼克斯黏背",
       "memo": "诸神时代与万神殿：主角龙形态（第160源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8325,7 +8325,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-160-01",
-      "title": "主角龙状态｜第160源章｜1",
+      "title": "主角龙状态｜万神殿.(4)｜把加冕所需神界、守门、神器与观众全部备齐",
       "memo": "诸神时代与万神殿：主角龙状态（第160源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8350,7 +8350,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-160-01",
-      "title": "主角龙知识边界｜第160源章｜1",
+      "title": "主角龙知识边界｜万神殿.(4)｜不知道巴尔烦恼来自忒提斯独占警告，因此误用权柄鼓励",
       "memo": "诸神时代与万神殿：主角龙知识边界（第160源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8377,7 +8377,7 @@
     },
     {
       "id": "era-10-pantheon-event-161-01",
-      "title": "事件｜第161源章｜1",
+      "title": "主角八次排演加冕流程，计划以神威迫众神下跪、七古神祝词与自己授冠建立不可争议权威",
       "memo": "诸神时代与万神殿：事件（第161源章第1条）",
       "category": "event",
       "keys": [
@@ -8402,7 +8402,7 @@
     },
     {
       "id": "era-10-pantheon-event-161-02",
-      "title": "事件｜第161源章｜2",
+      "title": "诸神聚于天空神殿",
       "memo": "诸神时代与万神殿：事件（第161源章第2条）",
       "category": "event",
       "keys": [
@@ -8428,7 +8428,7 @@
     },
     {
       "id": "era-10-pantheon-event-161-03",
-      "title": "事件｜第161源章｜3",
+      "title": "六古神及主角依次承认巴尔并各授一项祝言",
       "memo": "诸神时代与万神殿：事件（第161源章第3条）",
       "category": "event",
       "keys": [
@@ -8454,7 +8454,7 @@
     },
     {
       "id": "era-10-pantheon-event-161-04",
-      "title": "事件｜第161源章｜4",
+      "title": "巴尔即位宣称世间万物归其所有、扰乱秩序者受雷霆，令主角愕然",
       "memo": "诸神时代与万神殿：事件（第161源章第4条）",
       "category": "event",
       "keys": [
@@ -8480,7 +8480,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-161-01",
-      "title": "世界设定事实｜第161源章｜1",
+      "title": "七位祝言依次要求巴尔践行正义，不背烈焰，尊重自由，不怀邪念，维护安宁，永不改变",
       "memo": "诸神时代与万神殿：世界设定事实（第161源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8506,7 +8506,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-161-01",
-      "title": "新建立连续性｜第161源章｜1",
+      "title": "巴尔加冕",
       "memo": "诸神时代与万神殿：新建立连续性（第161源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8532,7 +8532,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-161-02",
-      "title": "新建立连续性｜第161源章｜2",
+      "title": "闪电神格",
       "memo": "诸神时代与万神殿：新建立连续性（第161源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8557,7 +8557,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-161-03",
-      "title": "新建立连续性｜第161源章｜3",
+      "title": "诸神强制服从",
       "memo": "诸神时代与万神殿：新建立连续性（第161源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8582,7 +8582,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-161-04",
-      "title": "新建立连续性｜第161源章｜4",
+      "title": "世界所有权宣言",
       "memo": "诸神时代与万神殿：新建立连续性（第161源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8607,7 +8607,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-161-01",
-      "title": "未解决事项｜第161源章｜1",
+      "title": "古神反应｜众神之王.(1)",
       "memo": "诸神时代与万神殿：未解决事项（第161源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8632,7 +8632,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-161-02",
-      "title": "未解决事项｜第161源章｜2",
+      "title": "巴尔实际治理",
       "memo": "诸神时代与万神殿：未解决事项（第161源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8658,7 +8658,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-161-01",
-      "title": "主角龙形态｜第161源章｜1",
+      "title": "主角龙形态｜众神之王.(1)｜至高生命女神礼仪形态，持闪电冠冕并以神威压制诸神",
       "memo": "诸神时代与万神殿：主角龙形态（第161源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8683,7 +8683,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-161-01",
-      "title": "主角龙状态｜第161源章｜1",
+      "title": "主角龙状态｜众神之王.(1)｜巴尔王权的实际授予者与强制担保者",
       "memo": "诸神时代与万神殿：主角龙状态（第161源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8709,7 +8709,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-161-01",
-      "title": "主角龙知识边界｜第161源章｜1",
+      "title": "主角龙知识边界｜众神之王.(1)｜直到最后一句才知道巴尔会宣称所有权",
       "memo": "诸神时代与万神殿：主角龙知识边界（第161源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8735,7 +8735,7 @@
     },
     {
       "id": "era-10-pantheon-event-162-01",
-      "title": "事件｜第162源章｜1",
+      "title": "未来研究者从石板追查被遗忘的巴尔",
       "memo": "诸神时代与万神殿：事件（第162源章第1条）",
       "category": "event",
       "keys": [
@@ -8761,7 +8761,7 @@
     },
     {
       "id": "era-10-pantheon-event-162-02",
-      "title": "事件｜第162源章｜2",
+      "title": "加冕宣言引发混乱和萨加玛塔暴怒",
       "memo": "诸神时代与万神殿：事件（第162源章第2条）",
       "category": "event",
       "keys": [
@@ -8788,7 +8788,7 @@
     },
     {
       "id": "era-10-pantheon-event-162-03",
-      "title": "事件｜第162源章｜3",
+      "title": "主角交给巴尔实时更新的全部神名卷轴，后按现实改为只需查阅和记重点",
       "memo": "诸神时代与万神殿：事件（第162源章第3条）",
       "category": "event",
       "keys": [
@@ -8814,7 +8814,7 @@
     },
     {
       "id": "era-10-pantheon-event-162-04",
-      "title": "事件｜第162源章｜4",
+      "title": "未来研究者从万神录缺少巴尔与天空神发现线索",
       "memo": "诸神时代与万神殿：事件（第162源章第4条）",
       "category": "event",
       "keys": [
@@ -8840,7 +8840,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-162-01",
-      "title": "世界设定事实｜第162源章｜1",
+      "title": "万神录是无限延伸、随神聊注册实时更新的全神名卷轴，原版不列主角与巴尔",
       "memo": "诸神时代与万神殿：世界设定事实（第162源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8866,7 +8866,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-162-01",
-      "title": "新建立连续性｜第162源章｜1",
+      "title": "万神录",
       "memo": "诸神时代与万神殿：新建立连续性（第162源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8891,7 +8891,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-162-02",
-      "title": "新建立连续性｜第162源章｜2",
+      "title": "巴尔实际履职开始",
       "memo": "诸神时代与万神殿：新建立连续性（第162源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8917,7 +8917,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-162-01",
-      "title": "未解决事项｜第162源章｜1",
+      "title": "巴尔统治方式",
       "memo": "诸神时代与万神殿：未解决事项（第162源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8943,7 +8943,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-162-01",
-      "title": "主角龙形态｜第162源章｜1",
+      "title": "主角龙形态｜众神之王.(2)｜长角银发少女",
       "memo": "诸神时代与万神殿：主角龙形态（第162源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8968,7 +8968,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-162-01",
-      "title": "主角龙状态｜第162源章｜1",
+      "title": "主角龙状态｜众神之王.(2)｜神王上任培训者，并暂住萨加玛塔处安抚",
       "memo": "诸神时代与万神殿：主角龙状态（第162源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8994,7 +8994,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-162-01",
-      "title": "主角龙知识边界｜第162源章｜1",
+      "title": "主角龙知识边界｜众神之王.(2)｜仍不明白萨加玛塔暴怒的私下原因",
       "memo": "诸神时代与万神殿：主角龙知识边界（第162源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9020,7 +9020,7 @@
     },
     {
       "id": "era-10-pantheon-event-163-01",
-      "title": "事件｜第163源章｜1",
+      "title": "巴尔勤勉调停众神但不断被无视，疲惫到萨加玛塔住处向主角抱怨求助",
       "memo": "诸神时代与万神殿：事件（第163源章第1条）",
       "category": "event",
       "keys": [
@@ -9047,7 +9047,7 @@
     },
     {
       "id": "era-10-pantheon-event-163-02",
-      "title": "事件｜第163源章｜2",
+      "title": "主角教他通过人类谣言改变神性、制造替代神或把多面神分割弱化，并称消灭重塑为最后手段",
       "memo": "诸神时代与万神殿：事件（第163源章第2条）",
       "category": "event",
       "keys": [
@@ -9072,7 +9072,7 @@
     },
     {
       "id": "era-10-pantheon-event-163-03",
-      "title": "事件｜第163源章｜3",
+      "title": "两人推测神融合可能性但未验证",
       "memo": "诸神时代与万神殿：事件（第163源章第3条）",
       "category": "event",
       "keys": [
@@ -9099,7 +9099,7 @@
     },
     {
       "id": "era-10-pantheon-event-163-04",
-      "title": "事件｜第163源章｜4",
+      "title": "未来巴尔研究者前往矮人都城",
       "memo": "诸神时代与万神殿：事件（第163源章第4条）",
       "category": "event",
       "keys": [
@@ -9126,7 +9126,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-163-01",
-      "title": "世界设定事实｜第163源章｜1",
+      "title": "多面神理论上可拆为多个较弱神性个体",
       "memo": "诸神时代与万神殿：世界设定事实（第163源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9151,7 +9151,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-163-01",
-      "title": "新建立连续性｜第163源章｜1",
+      "title": "信仰谣言治理",
       "memo": "诸神时代与万神殿：新建立连续性（第163源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9176,7 +9176,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-163-02",
-      "title": "新建立连续性｜第163源章｜2",
+      "title": "神性分割",
       "memo": "诸神时代与万神殿：新建立连续性（第163源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9201,7 +9201,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-163-03",
-      "title": "新建立连续性｜第163源章｜3",
+      "title": "人工祈祷系统在研",
       "memo": "诸神时代与万神殿：新建立连续性（第163源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9226,7 +9226,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-163-01",
-      "title": "未解决事项｜第163源章｜1",
+      "title": "极端治理后果",
       "memo": "诸神时代与万神殿：未解决事项（第163源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9251,7 +9251,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-163-02",
-      "title": "未解决事项｜第163源章｜2",
+      "title": "神融合",
       "memo": "诸神时代与万神殿：未解决事项（第163源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9276,7 +9276,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-163-01",
-      "title": "主角龙形态｜第163源章｜1",
+      "title": "主角龙形态｜众神之王.(3)｜长角银发少女，在萨加玛塔房间给予膝枕",
       "memo": "诸神时代与万神殿：主角龙形态（第163源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9302,7 +9302,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-163-01",
-      "title": "主角龙状态｜第163源章｜1",
+      "title": "主角龙状态｜众神之王.(3)｜神王治理策略顾问",
       "memo": "诸神时代与万神殿：主角龙状态（第163源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9327,7 +9327,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-163-01",
-      "title": "主角龙知识边界｜第163源章｜1",
+      "title": "主角龙知识边界｜众神之王.(3)｜神融合尚未知",
       "memo": "诸神时代与万神殿：主角龙知识边界（第163源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9354,7 +9354,7 @@
     },
     {
       "id": "era-10-pantheon-event-164-01",
-      "title": "事件｜第164源章｜1",
+      "title": "巴尔用武力、威胁乃至分割神明治理",
       "memo": "诸神时代与万神殿：事件（第164源章第1条）",
       "category": "event",
       "keys": [
@@ -9380,7 +9380,7 @@
     },
     {
       "id": "era-10-pantheon-event-164-02",
-      "title": "事件｜第164源章｜2",
+      "title": "主角仍在冥界帮工",
       "memo": "诸神时代与万神殿：事件（第164源章第2条）",
       "category": "event",
       "keys": [
@@ -9406,7 +9406,7 @@
     },
     {
       "id": "era-10-pantheon-event-164-03",
-      "title": "事件｜第164源章｜3",
+      "title": "主角解释已知三冥神垄断死亡信仰，提出人工审判助手",
       "memo": "诸神时代与万神殿：事件（第164源章第3条）",
       "category": "event",
       "keys": [
@@ -9433,7 +9433,7 @@
     },
     {
       "id": "era-10-pantheon-event-164-04",
-      "title": "事件｜第164源章｜4",
+      "title": "未来资料称塔罗斯为首个被创造之神并守住魔王军",
       "memo": "诸神时代与万神殿：事件（第164源章第4条）",
       "category": "event",
       "keys": [
@@ -9460,7 +9460,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-164-01",
-      "title": "世界设定事实｜第164源章｜1",
+      "title": "已知死亡神与广泛冥界传闻吸收新增死亡信仰，阻止自然诞生同领域新神",
       "memo": "诸神时代与万神殿：世界设定事实（第164源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9485,7 +9485,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-164-01",
-      "title": "新建立连续性｜第164源章｜1",
+      "title": "虚拟生命女神祈祷系统",
       "memo": "诸神时代与万神殿：新建立连续性（第164源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9510,7 +9510,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-164-02",
-      "title": "新建立连续性｜第164源章｜2",
+      "title": "龙族死后居所欠约",
       "memo": "诸神时代与万神殿：新建立连续性（第164源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9535,7 +9535,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-164-03",
-      "title": "新建立连续性｜第164源章｜3",
+      "title": "塔罗斯疑有智能",
       "memo": "诸神时代与万神殿：新建立连续性（第164源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9561,7 +9561,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-164-01",
-      "title": "未解决事项｜第164源章｜1",
+      "title": "塔罗斯验证",
       "memo": "诸神时代与万神殿：未解决事项（第164源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9587,7 +9587,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-164-02",
-      "title": "未解决事项｜第164源章｜2",
+      "title": "人工冥界助手",
       "memo": "诸神时代与万神殿：未解决事项（第164源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9612,7 +9612,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-164-01",
-      "title": "主角龙形态｜第164源章｜1",
+      "title": "主角龙形态｜被创造的神.(1)｜生命女神工作形态，往返万神殿与冥界",
       "memo": "诸神时代与万神殿：主角龙形态（第164源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9637,7 +9637,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-164-01",
-      "title": "主角龙状态｜第164源章｜1",
+      "title": "主角龙状态｜被创造的神.(1)｜自动祈祷系统完成者、冥界辅助智能研究者",
       "memo": "诸神时代与万神殿：主角龙状态（第164源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9662,7 +9662,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-164-01",
-      "title": "主角龙知识边界｜第164源章｜1",
+      "title": "主角龙知识边界｜被创造的神.(1)｜只听刻瑞斯推断塔罗斯有智能，尚未验证",
       "memo": "诸神时代与万神殿：主角龙知识边界（第164源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9689,7 +9689,7 @@
     },
     {
       "id": "era-10-pantheon-event-165-01",
-      "title": "事件｜第165源章｜1",
+      "title": "主角询问塔罗斯智能未获口答，挥拳测试时塔罗斯自主格挡，证实一直隐藏自我意识",
       "memo": "诸神时代与万神殿：事件（第165源章第1条）",
       "category": "event",
       "keys": [
@@ -9715,7 +9715,7 @@
     },
     {
       "id": "era-10-pantheon-event-165-02",
-      "title": "事件｜第165源章｜2",
+      "title": "塔罗斯手势解释因怕像三冥神被压榨而装无知",
       "memo": "诸神时代与万神殿：事件（第165源章第2条）",
       "category": "event",
       "keys": [
@@ -9741,7 +9741,7 @@
     },
     {
       "id": "era-10-pantheon-event-165-03",
-      "title": "事件｜第165源章｜3",
+      "title": "主角发现胸腔中以自己初始魔力为核、外覆高浓魔力的意识结晶，拟据此制作冥界机械神",
       "memo": "诸神时代与万神殿：事件（第165源章第3条）",
       "category": "event",
       "keys": [
@@ -9766,7 +9766,7 @@
     },
     {
       "id": "era-10-pantheon-event-165-04",
-      "title": "事件｜第165源章｜4",
+      "title": "主角制造高智能自动死亡评估系统哈迪斯，黑石碑显现与自己同貌，无角黑发少女",
       "memo": "诸神时代与万神殿：事件（第165源章第4条）",
       "category": "event",
       "keys": [
@@ -9792,7 +9792,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-165-01",
-      "title": "世界设定事实｜第165源章｜1",
+      "title": "塔罗斯意识核心由主角初始魔力与长期高浓魔力结晶构成",
       "memo": "诸神时代与万神殿：世界设定事实（第165源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9818,7 +9818,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-165-01",
-      "title": "新建立连续性｜第165源章｜1",
+      "title": "塔罗斯自主智能",
       "memo": "诸神时代与万神殿：新建立连续性（第165源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9844,7 +9844,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-165-02",
-      "title": "新建立连续性｜第165源章｜2",
+      "title": "魔力意识结晶",
       "memo": "诸神时代与万神殿：新建立连续性（第165源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9869,7 +9869,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-165-03",
-      "title": "新建立连续性｜第165源章｜3",
+      "title": "机械神哈迪斯",
       "memo": "诸神时代与万神殿：新建立连续性（第165源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9895,7 +9895,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-165-01",
-      "title": "未解决事项｜第165源章｜1",
+      "title": "哈迪斯性能与人格",
       "memo": "诸神时代与万神殿：未解决事项（第165源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9921,7 +9921,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-165-02",
-      "title": "未解决事项｜第165源章｜2",
+      "title": "其他神器是否觉醒",
       "memo": "诸神时代与万神殿：未解决事项（第165源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9946,7 +9946,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-165-01",
-      "title": "主角龙形态｜第165源章｜1",
+      "title": "主角龙形态｜被创造的神.(2)｜长角银发少女",
       "memo": "诸神时代与万神殿：主角龙形态（第165源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9972,7 +9972,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-165-01",
-      "title": "主角龙状态｜第165源章｜1",
+      "title": "主角龙状态｜被创造的神.(2)｜人工机械神哈迪斯的创造者",
       "memo": "诸神时代与万神殿：主角龙状态（第165源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9998,7 +9998,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-165-01",
-      "title": "主角龙知识边界｜第165源章｜1",
+      "title": "主角龙知识边界｜被创造的神.(2)｜只推测其他神器可能觉醒，尚未验证英雄剑",
       "memo": "诸神时代与万神殿：主角龙知识边界（第165源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10024,7 +10024,7 @@
     },
     {
       "id": "era-10-pantheon-event-166-01",
-      "title": "事件｜第166源章｜1",
+      "title": "哈迪斯可瞬间摘要数十万灵魂却缺乏情境宽容，把为救饥饿孩子偷面包者按完整盗窃罪判决",
       "memo": "诸神时代与万神殿：事件（第166源章第1条）",
       "category": "event",
       "keys": [
@@ -10050,7 +10050,7 @@
     },
     {
       "id": "era-10-pantheon-event-166-02",
-      "title": "事件｜第166源章｜2",
+      "title": "哈迪斯动力与主角相连、可供紧急呼叫，并会从三冥神的最终裁决持续学习",
       "memo": "诸神时代与万神殿：事件（第166源章第2条）",
       "category": "event",
       "keys": [
@@ -10076,7 +10076,7 @@
     },
     {
       "id": "era-10-pantheon-event-166-03",
-      "title": "事件｜第166源章｜3",
+      "title": "萨加玛塔追到冥界要求补足主角提前离开的陪住一年约定",
       "memo": "诸神时代与万神殿：事件（第166源章第3条）",
       "category": "event",
       "keys": [
@@ -10102,7 +10102,7 @@
     },
     {
       "id": "era-10-pantheon-event-166-04",
-      "title": "事件｜第166源章｜4",
+      "title": "未来巴尔研究者到矮人都城求黄铜镜帮助",
       "memo": "诸神时代与万神殿：事件（第166源章第4条）",
       "category": "event",
       "keys": [
@@ -10129,7 +10129,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-166-01",
-      "title": "世界设定事实｜第166源章｜1",
+      "title": "哈迪斯能在灵魂入场时总结一生功过并承载机器学习式裁决反馈，但缺乏宽容，只可辅助三冥神",
       "memo": "诸神时代与万神殿：世界设定事实（第166源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10155,7 +10155,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-166-01",
-      "title": "新建立连续性｜第166源章｜1",
+      "title": "哈迪斯学习机制",
       "memo": "诸神时代与万神殿：新建立连续性（第166源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10181,7 +10181,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-166-02",
-      "title": "新建立连续性｜第166源章｜2",
+      "title": "一年陪住重新开始",
       "memo": "诸神时代与万神殿：新建立连续性（第166源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10206,7 +10206,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-166-01",
-      "title": "未解决事项｜第166源章｜1",
+      "title": "哈迪斯长期裁决",
       "memo": "诸神时代与万神殿：未解决事项（第166源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10232,7 +10232,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-166-02",
-      "title": "未解决事项｜第166源章｜2",
+      "title": "萨加玛塔陪住期间",
       "memo": "诸神时代与万神殿：未解决事项（第166源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10258,7 +10258,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-166-01",
-      "title": "主角龙形态｜第166源章｜1",
+      "title": "主角龙形态｜被创造的神.(3)｜长角银发少女",
       "memo": "诸神时代与万神殿：主角龙形态（第166源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10284,7 +10284,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-166-01",
-      "title": "主角龙状态｜第166源章｜1",
+      "title": "主角龙状态｜被创造的神.(3)｜冥界自动化完成后被萨加玛塔带走履约",
       "memo": "诸神时代与万神殿：主角龙状态（第166源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10310,7 +10310,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-166-01",
-      "title": "主角龙知识边界｜第166源章｜1",
+      "title": "主角龙知识边界｜被创造的神.(3)｜不知道未来巴尔研究者行动",
       "memo": "诸神时代与万神殿：主角龙知识边界（第166源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10338,7 +10338,7 @@
     },
     {
       "id": "era-10-pantheon-event-167-01",
-      "title": "事件｜第167源章｜1",
+      "title": "未来研究者以找回大地粉碎者的人情换黄铜镜开放矮人记录库，并接受其赞助与发现权一半条件",
       "memo": "诸神时代与万神殿：事件（第167源章第1条）",
       "category": "event",
       "keys": [
@@ -10363,7 +10363,7 @@
     },
     {
       "id": "era-10-pantheon-event-167-02",
-      "title": "事件｜第167源章｜2",
+      "title": "当前主角与萨加玛塔重新共同生活一年，自动化带来闲暇",
       "memo": "诸神时代与万神殿：事件（第167源章第2条）",
       "category": "event",
       "keys": [
@@ -10390,7 +10390,7 @@
     },
     {
       "id": "era-10-pantheon-event-167-03",
-      "title": "事件｜第167源章｜3",
+      "title": "主角把局势理解为宗教战争，建议与沙玛什制定规则、联盟连带问责并以雷霆执行",
       "memo": "诸神时代与万神殿：事件（第167源章第3条）",
       "category": "event",
       "keys": [
@@ -10416,7 +10416,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-167-01",
-      "title": "世界设定事实｜第167源章｜1",
+      "title": "诸神按文化圈与友好关系结盟，争夺人类信仰并引发人类伤亡",
       "memo": "诸神时代与万神殿：世界设定事实（第167源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10442,7 +10442,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-167-01",
-      "title": "新建立连续性｜第167源章｜1",
+      "title": "宗教战争",
       "memo": "诸神时代与万神殿：新建立连续性（第167源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10467,7 +10467,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-167-02",
-      "title": "新建立连续性｜第167源章｜2",
+      "title": "神联盟",
       "memo": "诸神时代与万神殿：新建立连续性（第167源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10492,7 +10492,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-167-03",
-      "title": "新建立连续性｜第167源章｜3",
+      "title": "规则治理提案",
       "memo": "诸神时代与万神殿：新建立连续性（第167源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10517,7 +10517,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-167-01",
-      "title": "未解决事项｜第167源章｜1",
+      "title": "沙玛什规则内容与效果",
       "memo": "诸神时代与万神殿：未解决事项（第167源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10543,7 +10543,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-167-01",
-      "title": "主角龙形态｜第167源章｜1",
+      "title": "主角龙形态｜山讨厌天空.(1)｜长角银发少女，与萨加玛塔同住",
       "memo": "诸神时代与万神殿：主角龙形态（第167源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10569,7 +10569,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-167-01",
-      "title": "主角龙状态｜第167源章｜1",
+      "title": "主角龙状态｜山讨厌天空.(1)｜诸神规则制度的提案者",
       "memo": "诸神时代与万神殿：主角龙状态（第167源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10594,7 +10594,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-167-01",
-      "title": "主角龙知识边界｜第167源章｜1",
+      "title": "主角龙知识边界｜山讨厌天空.(1)｜规则尚未成文，连带责任是否有效未知",
       "memo": "诸神时代与万神殿：主角龙知识边界（第167源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10619,7 +10619,7 @@
     },
     {
       "id": "era-10-pantheon-event-168-01",
-      "title": "事件｜第168源章｜1",
+      "title": "未来研究者与黄铜镜决定押注巴尔调查",
       "memo": "诸神时代与万神殿：事件（第168源章第1条）",
       "category": "event",
       "keys": [
@@ -10645,7 +10645,7 @@
     },
     {
       "id": "era-10-pantheon-event-168-02",
-      "title": "事件｜第168源章｜2",
+      "title": "巴尔与沙玛什公布三条核心神规：限制降临、禁神战与夺信仰、划文化圈禁越界",
       "memo": "诸神时代与万神殿：事件（第168源章第2条）",
       "category": "event",
       "keys": [
@@ -10672,7 +10672,7 @@
     },
     {
       "id": "era-10-pantheon-event-168-03",
-      "title": "事件｜第168源章｜3",
+      "title": "诸神以守规为条件求盖亚赐新名，受她真名力量谣言吸引",
       "memo": "诸神时代与万神殿：事件（第168源章第3条）",
       "category": "event",
       "keys": [
@@ -10697,7 +10697,7 @@
     },
     {
       "id": "era-10-pantheon-event-168-04",
-      "title": "事件｜第168源章｜4",
+      "title": "未来研究者获得矮人魔力信息处理板远程查询秘密记录库",
       "memo": "诸神时代与万神殿：事件（第168源章第4条）",
       "category": "event",
       "keys": [
@@ -10722,7 +10722,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-168-01",
-      "title": "世界设定事实｜第168源章｜1",
+      "title": "神规禁止众神任意降临地表、直接神战和夺取他神信仰，并按文化圈划界禁越界",
       "memo": "诸神时代与万神殿：世界设定事实（第168源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10747,7 +10747,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-168-01",
-      "title": "新建立连续性｜第168源章｜1",
+      "title": "三条神规",
       "memo": "诸神时代与万神殿：新建立连续性（第168源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10772,7 +10772,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-168-02",
-      "title": "新建立连续性｜第168源章｜2",
+      "title": "盖亚惩罚条款",
       "memo": "诸神时代与万神殿：新建立连续性（第168源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10797,7 +10797,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-168-03",
-      "title": "新建立连续性｜第168源章｜3",
+      "title": "诸神求名",
       "memo": "诸神时代与万神殿：新建立连续性（第168源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10822,7 +10822,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-168-01",
-      "title": "未解决事项｜第168源章｜1",
+      "title": "命名后的神系",
       "memo": "诸神时代与万神殿：未解决事项（第168源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10847,7 +10847,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-168-02",
-      "title": "未解决事项｜第168源章｜2",
+      "title": "长期遵守",
       "memo": "诸神时代与万神殿：未解决事项（第168源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10872,7 +10872,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-168-01",
-      "title": "主角龙形态｜第168源章｜1",
+      "title": "主角龙形态｜山讨厌天空.(2)｜长角银发少女，与萨加玛塔同居期间接见",
       "memo": "诸神时代与万神殿：主角龙形态（第168源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10898,7 +10898,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-168-01",
-      "title": "主角龙状态｜第168源章｜1",
+      "title": "主角龙状态｜山讨厌天空.(2)｜神规最终惩罚背书者与诸神命名者",
       "memo": "诸神时代与万神殿：主角龙状态（第168源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10923,7 +10923,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-168-01",
-      "title": "主角龙知识边界｜第168源章｜1",
+      "title": "主角龙知识边界｜山讨厌天空.(2)｜尚未实际命名或观察长期规则效果",
       "memo": "诸神时代与万神殿：主角龙知识边界（第168源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10948,7 +10948,7 @@
     },
     {
       "id": "era-10-pantheon-event-169-01",
-      "title": "事件｜第169源章｜1",
+      "title": "主角以地球多神话与地名为诸神命名，形成奥林匹斯、九神会、阿萨、洛卡帕拉、昆仑等文化圈",
       "memo": "诸神时代与万神殿：事件（第169源章第1条）",
       "category": "event",
       "keys": [
@@ -10973,7 +10973,7 @@
     },
     {
       "id": "era-10-pantheon-event-169-02",
-      "title": "事件｜第169源章｜2",
+      "title": "命名与划界完成，主角认为神界可自运转，并思考人类未来若以知识否定神",
       "memo": "诸神时代与万神殿：事件（第169源章第2条）",
       "category": "event",
       "keys": [
@@ -10998,7 +10998,7 @@
     },
     {
       "id": "era-10-pantheon-event-169-03",
-      "title": "事件｜第169源章｜3",
+      "title": "萨加玛塔询问理想伴侣并担心巴尔",
       "memo": "诸神时代与万神殿：事件（第169源章第3条）",
       "category": "event",
       "keys": [
@@ -11026,7 +11026,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-169-01",
-      "title": "世界设定事实｜第169源章｜1",
+      "title": "命名后主要神系为阿卡迪亚周边奥林匹斯、沙漠九神会、北方阿萨，另有洛卡帕拉、昆仑与小神",
       "memo": "诸神时代与万神殿：世界设定事实（第169源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11051,7 +11051,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-169-02",
-      "title": "世界设定事实｜第169源章｜2",
+      "title": "魁札尔科亚特尔源于创世/毁灭龙神信仰变异，被主角保留部分自我作为蜥蜴人与龙神信徒代理",
       "memo": "诸神时代与万神殿：世界设定事实（第169源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11076,7 +11076,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-169-01",
-      "title": "新建立连续性｜第169源章｜1",
+      "title": "多大神系命名",
       "memo": "诸神时代与万神殿：新建立连续性（第169源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11101,7 +11101,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-169-02",
-      "title": "新建立连续性｜第169源章｜2",
+      "title": "魁札尔科亚特尔代理",
       "memo": "诸神时代与万神殿：新建立连续性（第169源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11126,7 +11126,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-169-03",
-      "title": "新建立连续性｜第169源章｜3",
+      "title": "去神化愿望",
       "memo": "诸神时代与万神殿：新建立连续性（第169源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11151,7 +11151,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-169-04",
-      "title": "新建立连续性｜第169源章｜4",
+      "title": "厄瑞玻斯闪念",
       "memo": "诸神时代与万神殿：新建立连续性（第169源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11177,7 +11177,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-169-01",
-      "title": "未解决事项｜第169源章｜1",
+      "title": "神系长期演变",
       "memo": "诸神时代与万神殿：未解决事项（第169源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11202,7 +11202,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-169-02",
-      "title": "未解决事项｜第169源章｜2",
+      "title": "厄瑞玻斯去向",
       "memo": "诸神时代与万神殿：未解决事项（第169源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11228,7 +11228,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-169-01",
-      "title": "主角龙形态｜第169源章｜1",
+      "title": "主角龙形态｜山讨厌天空(3)｜长角银发少女，生命女神/盖亚/创世龙神多重神性",
       "memo": "诸神时代与万神殿：主角龙形态（第169源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11253,7 +11253,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-169-01",
-      "title": "主角龙状态｜第169源章｜1",
+      "title": "主角龙状态｜山讨厌天空(3)｜神界命名与规则建设告一段落，考虑未来去神化",
       "memo": "诸神时代与万神殿：主角龙状态（第169源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11278,7 +11278,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-169-01",
-      "title": "主角龙知识边界｜第169源章｜1",
+      "title": "主角龙知识边界｜山讨厌天空(3)｜不确定人类未来会否否定神",
       "memo": "诸神时代与万神殿：主角龙知识边界（第169源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11304,7 +11304,7 @@
     },
     {
       "id": "era-10-pantheon-event-170-01",
-      "title": "事件｜第170源章｜1",
+      "title": "未来研究者无法在神话记录中找到巴尔，黄铜镜改从石板材质，产地",
       "memo": "诸神时代与万神殿：事件（第170源章第1条）",
       "category": "event",
       "keys": [
@@ -11330,7 +11330,7 @@
     },
     {
       "id": "era-10-pantheon-event-170-02",
-      "title": "事件｜第170源章｜2",
+      "title": "矮人童话讲小山深爱大地母亲、阻止天空诡计，最终被举为最高圣山监视天空",
       "memo": "诸神时代与万神殿：事件（第170源章第2条）",
       "category": "event",
       "keys": [
@@ -11355,7 +11355,7 @@
     },
     {
       "id": "era-10-pantheon-event-170-03",
-      "title": "事件｜第170源章｜3",
+      "title": "巴尔为神战遗孤求助",
       "memo": "诸神时代与万神殿：事件（第170源章第3条）",
       "category": "event",
       "keys": [
@@ -11381,7 +11381,7 @@
     },
     {
       "id": "era-10-pantheon-event-170-04",
-      "title": "事件｜第170源章｜4",
+      "title": "萨加玛塔表示已不再讨厌巴尔，只怜悯追求得不到之物的蠢货，并拒绝向主角解释",
       "memo": "诸神时代与万神殿：事件（第170源章第4条）",
       "category": "event",
       "keys": [
@@ -11408,7 +11408,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-170-01",
-      "title": "世界设定事实｜第170源章｜1",
+      "title": "矮人后世童话把圣山起源解释为守护大地母亲、监视天空的幼小山峦",
       "memo": "诸神时代与万神殿：世界设定事实（第170源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11433,7 +11433,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-170-02",
-      "title": "世界设定事实｜第170源章｜2",
+      "title": "神战遗留大量孤儿，生命神殿为收容孩童反而迅速扩张，并有积累财产与人员维持",
       "memo": "诸神时代与万神殿：世界设定事实（第170源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11458,7 +11458,7 @@
     },
     {
       "id": "era-10-pantheon-world-fact-170-03",
-      "title": "世界设定事实｜第170源章｜3",
+      "title": "巴尔与盖亚成为遗孤的象征父母",
       "memo": "诸神时代与万神殿：世界设定事实（第170源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11484,7 +11484,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-170-01",
-      "title": "新建立连续性｜第170源章｜1",
+      "title": "巴尔与盖亚的遗孤象征父母身份",
       "memo": "诸神时代与万神殿：新建立连续性（第170源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11510,7 +11510,7 @@
     },
     {
       "id": "era-10-pantheon-continuity-new-170-02",
-      "title": "新建立连续性｜第170源章｜2",
+      "title": "圣山童话",
       "memo": "诸神时代与万神殿：新建立连续性（第170源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11535,7 +11535,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-170-01",
-      "title": "未解决事项｜第170源章｜1",
+      "title": "童话与真实历史的对应",
       "memo": "诸神时代与万神殿：未解决事项（第170源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11560,7 +11560,7 @@
     },
     {
       "id": "era-10-pantheon-unresolved-170-02",
-      "title": "未解决事项｜第170源章｜2",
+      "title": "萨加玛塔未说明的判断",
       "memo": "诸神时代与万神殿：未解决事项（第170源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11586,7 +11586,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-form-170-01",
-      "title": "主角龙形态｜第170源章｜1",
+      "title": "主角龙形态｜山讨厌天空.(4)｜长角银发少女，与萨加玛塔共处",
       "memo": "诸神时代与万神殿：主角龙形态（第170源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11612,7 +11612,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-state-170-01",
-      "title": "主角龙状态｜第170源章｜1",
+      "title": "主角龙状态｜山讨厌天空.(4)｜授权遗孤使用盖亚母名并安抚萨加玛塔",
       "memo": "诸神时代与万神殿：主角龙状态（第170源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11638,7 +11638,7 @@
     },
     {
       "id": "era-10-pantheon-protagonist-knowledge-170-01",
-      "title": "主角龙知识边界｜第170源章｜1",
+      "title": "主角龙知识边界｜山讨厌天空.(4)｜不知道萨加玛塔所谓巴尔永远得不到的具体对象",
       "memo": "诸神时代与万神殿：主角龙知识边界（第170源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11665,7 +11665,7 @@
     },
     {
       "id": "era-10-pantheon-secondary-character-01",
-      "title": "次要人物｜刻瑞斯",
+      "title": "刻瑞斯",
       "memo": "诸神时代与万神殿：次要人物 刻瑞斯",
       "category": "secondary-character",
       "keys": [
@@ -11691,7 +11691,7 @@
     },
     {
       "id": "era-10-pantheon-secondary-character-02",
-      "title": "次要人物｜世界树",
+      "title": "世界树",
       "memo": "诸神时代与万神殿：次要人物 世界树",
       "category": "secondary-character",
       "keys": [
@@ -11717,7 +11717,7 @@
     },
     {
       "id": "era-10-pantheon-secondary-character-03",
-      "title": "次要人物｜伊芙利特",
+      "title": "伊芙利特",
       "memo": "诸神时代与万神殿：次要人物 伊芙利特",
       "category": "secondary-character",
       "keys": [
@@ -11743,7 +11743,7 @@
     },
     {
       "id": "era-10-pantheon-secondary-character-04",
-      "title": "次要人物｜塔罗斯",
+      "title": "塔罗斯",
       "memo": "诸神时代与万神殿：次要人物 塔罗斯",
       "category": "secondary-character",
       "keys": [
@@ -11769,7 +11769,7 @@
     },
     {
       "id": "era-10-pantheon-secondary-character-05",
-      "title": "次要人物｜龙族朝圣者群体",
+      "title": "龙族朝圣者群体",
       "memo": "诸神时代与万神殿：次要人物 龙族朝圣者群体",
       "category": "secondary-character",
       "keys": [],

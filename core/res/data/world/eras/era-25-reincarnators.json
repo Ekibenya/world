@@ -5834,7 +5834,7 @@
   "lorebook": [
     {
       "id": "era-25-reincarnators-core",
-      "title": "转生者、露西亚与炼金术｜时代边界",
+      "title": "转生者、露西亚与炼金术",
       "memo": "转生者、露西亚与炼金术：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -5849,7 +5849,7 @@
     },
     {
       "id": "era-25-reincarnators-event-516-01",
-      "title": "事件｜第516源章｜1",
+      "title": "以诺离去后洛伦意识到他可能是唯一知道自己最高神身份仍把她当朋友的人",
       "memo": "转生者、露西亚与炼金术：事件（第516源章第1条）",
       "category": "event",
       "keys": [
@@ -5875,7 +5875,7 @@
     },
     {
       "id": "era-25-reincarnators-event-516-02",
-      "title": "事件｜第516源章｜2",
+      "title": "洛伦告知诺亚将冬眠数年，意识仍可对话、急事可叫醒",
       "memo": "转生者、露西亚与炼金术：事件（第516源章第2条）",
       "category": "event",
       "keys": [
@@ -5902,7 +5902,7 @@
     },
     {
       "id": "era-25-reincarnators-event-516-03",
-      "title": "事件｜第516源章｜3",
+      "title": "冬眠分身放下天狼星与预言派，生命女神重新编织世界与地球连接",
       "memo": "转生者、露西亚与炼金术：事件（第516源章第3条）",
       "category": "event",
       "keys": [
@@ -5927,7 +5927,7 @@
     },
     {
       "id": "era-25-reincarnators-event-516-04",
-      "title": "事件｜第516源章｜4",
+      "title": "洛伦发现可接触地球死者灵魂，不知当地死后系统或神明是否存在",
       "memo": "转生者、露西亚与炼金术：事件（第516源章第4条）",
       "category": "event",
       "keys": [
@@ -5952,7 +5952,7 @@
     },
     {
       "id": "era-25-reincarnators-event-516-05",
-      "title": "事件｜第516源章｜5",
+      "title": "首批三魂为车祸男高中生、跳桥中年男子、割喉自杀女性",
       "memo": "转生者、露西亚与炼金术：事件（第516源章第5条）",
       "category": "event",
       "keys": [
@@ -5977,7 +5977,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-516-01",
-      "title": "世界设定事实｜第516源章｜1",
+      "title": "洛伦理论上能从冥界取回灵魂，但增加分身已造成显著认知负担",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第516源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6002,7 +6002,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-516-02",
-      "title": "世界设定事实｜第516源章｜2",
+      "title": "巨龙冬眠时意识仍可对话并能被迅速唤醒",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第516源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6027,7 +6027,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-516-03",
-      "title": "世界设定事实｜第516源章｜3",
+      "title": "地球与本世界连接已从鱼线编成绳索，但只能传极微魔力、不能物理干预",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第516源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6052,7 +6052,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-516-04",
-      "title": "世界设定事实｜第516源章｜4",
+      "title": "洛伦能跨连接干涉地球死者灵魂，但观察不到地球的死神、冥界或灵魂去向",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第516源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6077,7 +6077,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-516-05",
-      "title": "世界设定事实｜第516源章｜5",
+      "title": "首批三名地球灵魂被带入异世界并获得转生机会，尚未说明转生条件和形态",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第516源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -6103,7 +6103,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-516-01",
-      "title": "新建立连续性｜第516源章｜1",
+      "title": "洛伦冬眠",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第516源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6128,7 +6128,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-516-02",
-      "title": "新建立连续性｜第516源章｜2",
+      "title": "地球连接",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第516源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6153,7 +6153,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-516-03",
-      "title": "新建立连续性｜第516源章｜3",
+      "title": "首批三名地球灵魂",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第516源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6179,7 +6179,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-516-04",
-      "title": "新建立连续性｜第516源章｜4",
+      "title": "异世界转生机会",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第516源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6204,7 +6204,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-516-01",
-      "title": "未解决事项｜第516源章｜1",
+      "title": "三人选择与转生",
       "memo": "转生者、露西亚与炼金术：未解决事项（第516源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6229,7 +6229,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-516-02",
-      "title": "未解决事项｜第516源章｜2",
+      "title": "地球死后规则",
       "memo": "转生者、露西亚与炼金术：未解决事项（第516源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6254,7 +6254,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-516-03",
-      "title": "未解决事项｜第516源章｜3",
+      "title": "预言学派后续",
       "memo": "转生者、露西亚与炼金术：未解决事项（第516源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6279,7 +6279,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-516-01",
-      "title": "主角龙形态｜第516源章｜1",
+      "title": "主角龙形态｜临终前.(5)｜鲁贝洛斯分身以完整银色巨龙蜷缩冬眠",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第516源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6304,7 +6304,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-516-01",
-      "title": "主角龙状态｜第516源章｜1",
+      "title": "主角龙状态｜临终前.(5)｜守护龙因首位朋友离世沉睡，同时把文明主线开启到地球灵魂跨界转生",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第516源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6329,7 +6329,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-516-01",
-      "title": "主角龙知识边界｜第516源章｜1",
+      "title": "主角龙知识边界｜临终前.(5)｜地球死后系统、神明与带走灵魂的正当性未知",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第516源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6354,7 +6354,7 @@
     },
     {
       "id": "era-25-reincarnators-event-517-01",
-      "title": "事件｜第517源章｜1",
+      "title": "洛伦向三名地球亡魂解释异世界转生，因肉体已毁且跨界力量微弱不能送回",
       "memo": "转生者、露西亚与炼金术：事件（第517源章第1条）",
       "category": "event",
       "keys": [
@@ -6379,7 +6379,7 @@
     },
     {
       "id": "era-25-reincarnators-event-517-02",
-      "title": "事件｜第517源章｜2",
+      "title": "三人选择愿望，中年男人想凭能力致富，自杀女性想与可信朋友幸福生活",
       "memo": "转生者、露西亚与炼金术：事件（第517源章第2条）",
       "category": "event",
       "keys": [
@@ -6404,7 +6404,7 @@
     },
     {
       "id": "era-25-reincarnators-event-517-03",
-      "title": "事件｜第517源章｜3",
+      "title": "洛伦承诺健康身体，衣食无忧家庭与尽量便利环境，并说明世界近似中世纪幻想，有人类，精灵",
       "memo": "转生者、露西亚与炼金术：事件（第517源章第3条）",
       "category": "event",
       "keys": [
@@ -6429,7 +6429,7 @@
     },
     {
       "id": "era-25-reincarnators-event-517-04",
-      "title": "事件｜第517源章｜4",
+      "title": "洛伦告知暗中预言势力曾摧毁帝都，邀请转生者自愿提供线索，并按价值给予报酬",
       "memo": "转生者、露西亚与炼金术：事件（第517源章第4条）",
       "category": "event",
       "keys": [
@@ -6454,7 +6454,7 @@
     },
     {
       "id": "era-25-reincarnators-event-517-05",
-      "title": "事件｜第517源章｜5",
+      "title": "男高中生问愿望能否让自己在地球复活",
       "memo": "转生者、露西亚与炼金术：事件（第517源章第5条）",
       "category": "event",
       "keys": [
@@ -6479,7 +6479,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-517-01",
-      "title": "世界设定事实｜第517源章｜1",
+      "title": "转生者前世记忆会封印到约五岁，与本地童年形成的语言、常识和生活记忆共同保留",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第517源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6504,7 +6504,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-517-02",
-      "title": "世界设定事实｜第517源章｜2",
+      "title": "时间停止被洛伦认定不应给人类",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第517源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6529,7 +6529,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-517-03",
-      "title": "世界设定事实｜第517源章｜3",
+      "title": "洛伦提供健康，衣食无忧家庭，世界被概括为中世纪幻想，多种族共居",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第517源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6554,7 +6554,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-517-04",
-      "title": "世界设定事实｜第517源章｜4",
+      "title": "调查暗中预言势力完全可选，重要情报可换愿望",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第517源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6579,7 +6579,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-517-01",
-      "title": "新建立连续性｜第517源章｜1",
+      "title": "转生规则",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第517源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6604,7 +6604,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-517-02",
-      "title": "新建立连续性｜第517源章｜2",
+      "title": "三人愿望",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第517源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6629,7 +6629,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-517-03",
-      "title": "新建立连续性｜第517源章｜3",
+      "title": "自愿预言调查",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第517源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6654,7 +6654,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-517-04",
-      "title": "新建立连续性｜第517源章｜4",
+      "title": "回地球愿望",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第517源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6679,7 +6679,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-517-01",
-      "title": "未解决事项｜第517源章｜1",
+      "title": "出生家庭",
       "memo": "转生者、露西亚与炼金术：未解决事项（第517源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6704,7 +6704,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-517-02",
-      "title": "未解决事项｜第517源章｜2",
+      "title": "五岁记忆苏醒",
       "memo": "转生者、露西亚与炼金术：未解决事项（第517源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6729,7 +6729,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-517-03",
-      "title": "未解决事项｜第517源章｜3",
+      "title": "是否获取情报",
       "memo": "转生者、露西亚与炼金术：未解决事项（第517源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6754,7 +6754,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-517-01",
-      "title": "主角龙形态｜第517源章｜1",
+      "title": "主角龙形态｜转生神所做的事!.(1)｜生命女神以银发人形在纯白灵魂空间主持转生",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第517源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6779,7 +6779,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-517-01",
-      "title": "主角龙状态｜第517源章｜1",
+      "title": "主角龙状态｜转生神所做的事!.(1)｜主龙从守护单一帝国扩展为跨界转生神，并把转生者设为自愿情报来源",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第517源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6804,7 +6804,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-517-01",
-      "title": "主角龙知识边界｜第517源章｜1",
+      "title": "主角龙知识边界｜转生神所做的事!.(1)｜三人出生身份尚未决定",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第517源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6829,7 +6829,7 @@
     },
     {
       "id": "era-25-reincarnators-event-518-01",
-      "title": "事件｜第518源章｜1",
+      "title": "洛伦重申调查不强制，并说明两界时间差可能本世界数百年仅地球数秒",
       "memo": "转生者、露西亚与炼金术：事件（第518源章第1条）",
       "category": "event",
       "keys": [
@@ -6854,7 +6854,7 @@
     },
     {
       "id": "era-25-reincarnators-event-518-02",
-      "title": "事件｜第518源章｜2",
+      "title": "洛伦拒绝让转生者详细定制肉体，认为生命诞生应随机",
       "memo": "转生者、露西亚与炼金术：事件（第518源章第2条）",
       "category": "event",
       "keys": [
@@ -6879,7 +6879,7 @@
     },
     {
       "id": "era-25-reincarnators-event-518-03",
-      "title": "事件｜第518源章｜3",
+      "title": "洛伦从求子祈祷者中选家庭，由圣德芬注入灵魂",
       "memo": "转生者、露西亚与炼金术：事件（第518源章第3条）",
       "category": "event",
       "keys": [
@@ -6904,7 +6904,7 @@
     },
     {
       "id": "era-25-reincarnators-event-518-04",
-      "title": "事件｜第518源章｜4",
+      "title": "女性转生为精灵维罗妮卡，获世界树祝福与可靠精灵同伴",
       "memo": "转生者、露西亚与炼金术：事件（第518源章第4条）",
       "category": "event",
       "keys": [
@@ -6931,7 +6931,7 @@
     },
     {
       "id": "era-25-reincarnators-event-518-05",
-      "title": "事件｜第518源章｜5",
+      "title": "男高中生出生为巨龙人形父亲与勇者后裔兼失忆魔王母亲之子，叠加出卓越魔法天赋",
       "memo": "转生者、露西亚与炼金术：事件（第518源章第5条）",
       "category": "event",
       "keys": [
@@ -6958,7 +6958,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-518-01",
-      "title": "世界设定事实｜第518源章｜1",
+      "title": "两界准确比例未知，洛伦估计本世界数百年可能仅相当地球数秒，地球并非完全停止",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第518源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6983,7 +6983,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-518-02",
-      "title": "世界设定事实｜第518源章｜2",
+      "title": "生命教团现场祈祷更易被生命女神从数亿祈祷中辨认",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第518源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7008,7 +7008,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-518-03",
-      "title": "世界设定事实｜第518源章｜3",
+      "title": "圣德芬负责向新生命注入灵魂，洛伦交代后让三魂在选定家庭成为健康婴儿",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第518源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7033,7 +7033,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-518-04",
-      "title": "世界设定事实｜第518源章｜4",
+      "title": "维罗妮卡是获世界树祝福的精灵",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第518源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7061,7 +7061,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-518-05",
-      "title": "世界设定事实｜第518源章｜5",
+      "title": "西蒙父亲是人形游历巨龙，母亲是勇者后裔且灵魂为失忆魔王，组合产生远超普通魔法师的天赋",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第518源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -7089,7 +7089,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-518-01",
-      "title": "新建立连续性｜第518源章｜1",
+      "title": "维罗妮卡",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第518源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7115,7 +7115,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-518-02",
-      "title": "新建立连续性｜第518源章｜2",
+      "title": "拉皮斯",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第518源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7141,7 +7141,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-518-03",
-      "title": "新建立连续性｜第518源章｜3",
+      "title": "西蒙",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第518源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7167,7 +7167,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-518-04",
-      "title": "新建立连续性｜第518源章｜4",
+      "title": "圣德芬转生流程",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第518源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7192,7 +7192,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-518-01",
-      "title": "未解决事项｜第518源章｜1",
+      "title": "记忆恢复反应",
       "memo": "转生者、露西亚与炼金术：未解决事项（第518源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7217,7 +7217,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-518-02",
-      "title": "未解决事项｜第518源章｜2",
+      "title": "三人未来",
       "memo": "转生者、露西亚与炼金术：未解决事项（第518源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7242,7 +7242,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-518-03",
-      "title": "未解决事项｜第518源章｜3",
+      "title": "伊夫利特收徒",
       "memo": "转生者、露西亚与炼金术：未解决事项（第518源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7268,7 +7268,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-518-01",
-      "title": "主角龙形态｜第518源章｜1",
+      "title": "主角龙形态｜转生神所做的事!.(2)｜生命女神本体主导灵魂投生",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第518源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7293,7 +7293,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-518-01",
-      "title": "主角龙状态｜第518源章｜1",
+      "title": "主角龙状态｜转生神所做的事!.(2)｜跨界转生从愿望讨论落成三个有独立家庭与种族的新生命",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第518源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7318,7 +7318,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-518-01",
-      "title": "主角龙知识边界｜第518源章｜1",
+      "title": "主角龙知识边界｜转生神所做的事!.(2)｜三人具体成长和五岁反应尚未发生",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第518源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7344,7 +7344,7 @@
     },
     {
       "id": "era-25-reincarnators-event-519-01",
-      "title": "事件｜第519源章｜1",
+      "title": "三人平安成长，约五岁解除前世记忆封印并与本地童年记忆融合",
       "memo": "转生者、露西亚与炼金术：事件（第519源章第1条）",
       "category": "event",
       "keys": [
@@ -7369,7 +7369,7 @@
     },
     {
       "id": "era-25-reincarnators-event-519-02",
-      "title": "事件｜第519源章｜2",
+      "title": "矮人少女拉皮斯因前世男性而向生命女神抱怨，目标是用愿望变回男性",
       "memo": "转生者、露西亚与炼金术：事件（第519源章第2条）",
       "category": "event",
       "keys": [
@@ -7396,7 +7396,7 @@
     },
     {
       "id": "era-25-reincarnators-event-519-03",
-      "title": "事件｜第519源章｜3",
+      "title": "维罗妮卡获伊格德拉希尔祝福，在树木，精灵低语和可信同伴中成长为开朗孩子",
       "memo": "转生者、露西亚与炼金术：事件（第519源章第3条）",
       "category": "event",
       "keys": [
@@ -7423,7 +7423,7 @@
     },
     {
       "id": "era-25-reincarnators-event-519-04",
-      "title": "事件｜第519源章｜4",
+      "title": "西蒙由人形巨龙父亲与勇者血统、失忆魔王母亲所生，潜力由叠加变成倍增",
       "memo": "转生者、露西亚与炼金术：事件（第519源章第4条）",
       "category": "event",
       "keys": [
@@ -7450,7 +7450,7 @@
     },
     {
       "id": "era-25-reincarnators-event-519-05",
-      "title": "事件｜第519源章｜5",
+      "title": "洛伦继续观察三人、扩展地球连接与查预言派",
       "memo": "转生者、露西亚与炼金术：事件（第519源章第5条）",
       "category": "event",
       "keys": [
@@ -7475,7 +7475,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-519-01",
-      "title": "世界设定事实｜第519源章｜1",
+      "title": "前世记忆封印解除不会消灭五岁前本地记忆，同一灵魂同时拥有两段连续经验",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第519源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7500,7 +7500,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-519-02",
-      "title": "世界设定事实｜第519源章｜2",
+      "title": "萨加玛塔给拉皮斯强韧肉体和大地之声祝福，普通刃器会被弹开",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第519源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7527,7 +7527,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-519-03",
-      "title": "世界设定事实｜第519源章｜3",
+      "title": "西蒙母亲有失忆魔王灵魂与勇者血统，父亲是巨龙",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第519源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7554,7 +7554,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-519-04",
-      "title": "世界设定事实｜第519源章｜4",
+      "title": "西蒙十岁时魔力封印解除，赤色魔塔主里赫特受洛伦暗示前来收徒",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第519源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7580,7 +7580,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-519-05",
-      "title": "世界设定事实｜第519源章｜5",
+      "title": "洛伦决定后续间歇性从地球选择意外或冤死、愿接受新人生的灵魂转生",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第519源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -7605,7 +7605,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-519-01",
-      "title": "新建立连续性｜第519源章｜1",
+      "title": "拉皮斯性别恢复目标",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第519源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7631,7 +7631,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-519-02",
-      "title": "新建立连续性｜第519源章｜2",
+      "title": "维罗妮卡精灵成长",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第519源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7657,7 +7657,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-519-03",
-      "title": "新建立连续性｜第519源章｜3",
+      "title": "西蒙入赤塔",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第519源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7683,7 +7683,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-519-01",
-      "title": "未解决事项｜第519源章｜1",
+      "title": "三人相遇",
       "memo": "转生者、露西亚与炼金术：未解决事项（第519源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7708,7 +7708,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-519-02",
-      "title": "未解决事项｜第519源章｜2",
+      "title": "愿望权获取",
       "memo": "转生者、露西亚与炼金术：未解决事项（第519源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7733,7 +7733,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-519-03",
-      "title": "未解决事项｜第519源章｜3",
+      "title": "后续转生批次",
       "memo": "转生者、露西亚与炼金术：未解决事项（第519源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7758,7 +7758,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-519-01",
-      "title": "主角龙形态｜第519源章｜1",
+      "title": "主角龙形态｜转生神所做的事!.(3)｜生命女神本体观察转生者，银龙守护分身冬眠",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第519源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7783,7 +7783,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-519-01",
-      "title": "主角龙状态｜第519源章｜1",
+      "title": "主角龙状态｜转生神所做的事!.(3)｜主龙把个案转生发展为可能长期引入地球灵魂的策略",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第519源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7808,7 +7808,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-519-01",
-      "title": "主角龙知识边界｜第519源章｜1",
+      "title": "主角龙知识边界｜转生神所做的事!.(3)｜三人尚未找到预言者情报",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第519源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7834,7 +7834,7 @@
     },
     {
       "id": "era-25-reincarnators-event-520-01",
-      "title": "事件｜第520源章｜1",
+      "title": "洛伦持续扩展地球连接，目标包括分身过界与转生者回地球",
       "memo": "转生者、露西亚与炼金术：事件（第520源章第1条）",
       "category": "event",
       "keys": [
@@ -7859,7 +7859,7 @@
     },
     {
       "id": "era-25-reincarnators-event-520-02",
-      "title": "事件｜第520源章｜2",
+      "title": "鲁贝洛斯与南罗马尼亚由边境摩擦升级局部战争",
       "memo": "转生者、露西亚与炼金术：事件（第520源章第2条）",
       "category": "event",
       "keys": [
@@ -7885,7 +7885,7 @@
     },
     {
       "id": "era-25-reincarnators-event-520-03",
-      "title": "事件｜第520源章｜3",
+      "title": "鲁贝洛斯以军制和精锐步兵战术压倒征召军，并包围生擒大半埃波纳骑士团",
       "memo": "转生者、露西亚与炼金术：事件（第520源章第3条）",
       "category": "event",
       "keys": [
@@ -7911,7 +7911,7 @@
     },
     {
       "id": "era-25-reincarnators-event-520-04",
-      "title": "事件｜第520源章｜4",
+      "title": "南罗马尼亚皇帝撤退遗失不忘之剑达因斯莱夫，被普通士兵发现并层级上报",
       "memo": "转生者、露西亚与炼金术：事件（第520源章第4条）",
       "category": "event",
       "keys": [
@@ -7937,7 +7937,7 @@
     },
     {
       "id": "era-25-reincarnators-event-520-05",
-      "title": "事件｜第520源章｜5",
+      "title": "接近中年的诺亚在长子之子成年时主动退位给长子，成为首位自愿退位皇帝",
       "memo": "转生者、露西亚与炼金术：事件（第520源章第5条）",
       "category": "event",
       "keys": [
@@ -7963,7 +7963,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-520-01",
-      "title": "世界设定事实｜第520源章｜1",
+      "title": "未来地球转生筛选对象为突发死亡或无地球眷恋、可合作之人",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第520源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7988,7 +7988,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-520-02",
-      "title": "世界设定事实｜第520源章｜2",
+      "title": "鲁贝洛斯对南罗马尼亚取得压倒性胜利，大半埃波纳骑士团被生擒",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第520源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8013,7 +8013,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-520-03",
-      "title": "世界设定事实｜第520源章｜3",
+      "title": "不忘之剑达因斯莱夫由南罗马尼亚皇帝撤退时遗失并落入诺亚手中",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第520源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8039,7 +8039,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-520-04",
-      "title": "世界设定事实｜第520源章｜4",
+      "title": "诺亚在孙辈成年时健康自愿退位给长子，是鲁贝洛斯首位按自身意愿退位的皇帝",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第520源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8065,7 +8065,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-520-05",
-      "title": "世界设定事实｜第520源章｜5",
+      "title": "守护盟约可在前任皇帝仍活着时更新到新帝，前任保护同时失效",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第520源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -8090,7 +8090,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-520-01",
-      "title": "新建立连续性｜第520源章｜1",
+      "title": "南方战争胜利",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第520源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8115,7 +8115,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-520-02",
-      "title": "新建立连续性｜第520源章｜2",
+      "title": "三神器归一",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第520源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8140,7 +8140,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-520-03",
-      "title": "新建立连续性｜第520源章｜3",
+      "title": "诺亚主动退位",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第520源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8166,7 +8166,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-520-04",
-      "title": "新建立连续性｜第520源章｜4",
+      "title": "盟约移交新帝",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第520源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8191,7 +8191,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-520-01",
-      "title": "未解决事项｜第520源章｜1",
+      "title": "盟约变质",
       "memo": "转生者、露西亚与炼金术：未解决事项（第520源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8216,7 +8216,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-520-02",
-      "title": "未解决事项｜第520源章｜2",
+      "title": "诺亚失去保护后的生活",
       "memo": "转生者、露西亚与炼金术：未解决事项（第520源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8242,7 +8242,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-520-03",
-      "title": "未解决事项｜第520源章｜3",
+      "title": "新帝姓名个性",
       "memo": "转生者、露西亚与炼金术：未解决事项（第520源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8267,7 +8267,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-520-01",
-      "title": "主角龙形态｜第520源章｜1",
+      "title": "主角龙形态｜盟约与守护龙.(1)｜完整银色守护龙在别宫冬眠，睁眼与中年诺亚、新帝交谈",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第520源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8293,7 +8293,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-520-01",
-      "title": "主角龙状态｜第520源章｜1",
+      "title": "主角龙状态｜盟约与守护龙.(1)｜主龙从保护诺亚个人转为制度化传承给下一任皇帝，陪伴关系进入代际交接",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第520源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8319,7 +8319,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-520-01",
-      "title": "主角龙知识边界｜第520源章｜1",
+      "title": "主角龙知识边界｜盟约与守护龙.(1)｜洛伦对诺亚不求援动机只作推测",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第520源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8345,7 +8345,7 @@
     },
     {
       "id": "era-25-reincarnators-event-521-01",
-      "title": "事件｜第521源章｜1",
+      "title": "诺亚退位后帝国仍凭官僚体系稳定运转",
       "memo": "转生者、露西亚与炼金术：事件（第521源章第1条）",
       "category": "event",
       "keys": [
@@ -8371,7 +8371,7 @@
     },
     {
       "id": "era-25-reincarnators-event-521-02",
-      "title": "事件｜第521源章｜2",
+      "title": "洛伦推断诺亚主动退位是避免长子终生困在皇太子位",
       "memo": "转生者、露西亚与炼金术：事件（第521源章第2条）",
       "category": "event",
       "keys": [
@@ -8397,7 +8397,7 @@
     },
     {
       "id": "era-25-reincarnators-event-521-03",
-      "title": "事件｜第521源章｜3",
+      "title": "诺亚请求洛伦今后决定下一任皇帝，让守护龙成为长期选帝者",
       "memo": "转生者、露西亚与炼金术：事件（第521源章第3条）",
       "category": "event",
       "keys": [
@@ -8423,7 +8423,7 @@
     },
     {
       "id": "era-25-reincarnators-event-521-04",
-      "title": "事件｜第521源章｜4",
+      "title": "诺亚坦白目的不是帝国本身，而是怕洛伦失去兴趣后离去，想用实际影响培育她对帝国的眷恋",
       "memo": "转生者、露西亚与炼金术：事件（第521源章第4条）",
       "category": "event",
       "keys": [
@@ -8449,7 +8449,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-521-01",
-      "title": "世界设定事实｜第521源章｜1",
+      "title": "鲁贝洛斯官僚体系足以在皇帝更替时无阻运作",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第521源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8474,7 +8474,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-521-02",
-      "title": "世界设定事实｜第521源章｜2",
+      "title": "索菲亚晚年长期健康欠佳、卧病但拒绝洛伦直接帮助，只接受生命教团充分治疗",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第521源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8500,7 +8500,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-521-03",
-      "title": "世界设定事实｜第521源章｜3",
+      "title": "诺亚退位原因被洛伦推断为避免长子随自己长寿而终生困在皇太子位，诺亚本章未直接确认",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第521源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8526,7 +8526,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-521-04",
-      "title": "世界设定事实｜第521源章｜4",
+      "title": "守护龙被请求长期决定下一任皇帝",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第521源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8551,7 +8551,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-521-01",
-      "title": "新建立连续性｜第521源章｜1",
+      "title": "守护龙选帝承诺",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第521源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8576,7 +8576,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-521-02",
-      "title": "新建立连续性｜第521源章｜2",
+      "title": "索菲亚晚年病弱",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第521源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8601,7 +8601,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-521-01",
-      "title": "未解决事项｜第521源章｜1",
+      "title": "首轮选帝标准",
       "memo": "转生者、露西亚与炼金术：未解决事项（第521源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8626,7 +8626,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-521-02",
-      "title": "未解决事项｜第521源章｜2",
+      "title": "诺亚临终",
       "memo": "转生者、露西亚与炼金术：未解决事项（第521源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8652,7 +8652,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-521-03",
-      "title": "未解决事项｜第521源章｜3",
+      "title": "眷恋是否形成",
       "memo": "转生者、露西亚与炼金术：未解决事项（第521源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8677,7 +8677,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-521-01",
-      "title": "主角龙形态｜第521源章｜1",
+      "title": "主角龙形态｜盟约与守护龙.(2)｜完整银龙冬眠形态闭眼与老年诺亚交谈，意识能看听外界",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第521源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8703,7 +8703,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-521-01",
-      "title": "主角龙状态｜第521源章｜1",
+      "title": "主角龙状态｜盟约与守护龙.(2)｜守护龙从被动保护皇帝转为承担未来选帝权",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第521源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8728,7 +8728,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-521-01",
-      "title": "主角龙知识边界｜第521源章｜1",
+      "title": "主角龙知识边界｜盟约与守护龙.(2)｜洛伦尚不理解诺亚为什么害怕她失去兴趣",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第521源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8754,7 +8754,7 @@
     },
     {
       "id": "era-25-reincarnators-event-522-01",
-      "title": "事件｜第522源章｜1",
+      "title": "退位数年后诺亚比久病索菲亚更接近死亡",
       "memo": "转生者、露西亚与炼金术：事件（第522源章第1条）",
       "category": "event",
       "keys": [
@@ -8780,7 +8780,7 @@
     },
     {
       "id": "era-25-reincarnators-event-522-02",
-      "title": "事件｜第522源章｜2",
+      "title": "诺亚承认一生都在后悔与比较更好选择，只因皇帝不能显露软弱才表现得毫不迟疑",
       "memo": "转生者、露西亚与炼金术：事件（第522源章第2条）",
       "category": "event",
       "keys": [
@@ -8806,7 +8806,7 @@
     },
     {
       "id": "era-25-reincarnators-event-522-03",
-      "title": "事件｜第522源章｜3",
+      "title": "洛伦猜到诺亚未说出口的话，以其重建帝国和留下名字安慰，亲手合眼并称他为弟子",
       "memo": "转生者、露西亚与炼金术：事件（第522源章第3条）",
       "category": "event",
       "keys": [
@@ -8832,7 +8832,7 @@
     },
     {
       "id": "era-25-reincarnators-event-522-04",
-      "title": "事件｜第522源章｜4",
+      "title": "后世评传列诺亚继承，守护龙即位，重建，南方战争与不忘之剑等事迹",
       "memo": "转生者、露西亚与炼金术：事件（第522源章第4条）",
       "category": "event",
       "keys": [
@@ -8858,7 +8858,7 @@
     },
     {
       "id": "era-25-reincarnators-event-522-05",
-      "title": "事件｜第522源章｜5",
+      "title": "索菲亚不久后也入冥界，两人借生命女神名义进乐园",
       "memo": "转生者、露西亚与炼金术：事件（第522源章第5条）",
       "category": "event",
       "keys": [
@@ -8883,7 +8883,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-522-01",
-      "title": "世界设定事实｜第522源章｜1",
+      "title": "后世诺亚评传记录其重建、战争与守护龙等事迹，并把皇帝初恋作为野史收入，真实性受质疑",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第522源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8909,7 +8909,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-522-02",
-      "title": "世界设定事实｜第522源章｜2",
+      "title": "诺亚死后不久索菲亚也去世，两人借生命女神名义进入乐园",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第522源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8935,7 +8935,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-522-03",
-      "title": "世界设定事实｜第522源章｜3",
+      "title": "诺亚之子能力平庸但有自知，通过听取意见和不破坏制度维持帝国稳定",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第522源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8961,7 +8961,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-522-04",
-      "title": "世界设定事实｜第522源章｜4",
+      "title": "守护龙将选下一任皇帝的消息使皇室后代互相制衡并不再亲近龙巢",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第522源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8986,7 +8986,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-522-01",
-      "title": "新建立连续性｜第522源章｜1",
+      "title": "诺亚去世",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第522源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9012,7 +9012,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-522-02",
-      "title": "新建立连续性｜第522源章｜2",
+      "title": "索菲亚去世",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第522源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9037,7 +9037,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-522-03",
-      "title": "新建立连续性｜第522源章｜3",
+      "title": "新帝倾诉",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第522源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9062,7 +9062,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-522-04",
-      "title": "新建立连续性｜第522源章｜4",
+      "title": "皇室继承矛盾",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第522源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9087,7 +9087,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-522-01",
-      "title": "未解决事项｜第522源章｜1",
+      "title": "首位皇太子选择",
       "memo": "转生者、露西亚与炼金术：未解决事项（第522源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9112,7 +9112,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-522-02",
-      "title": "未解决事项｜第522源章｜2",
+      "title": "洛伦眷恋反应",
       "memo": "转生者、露西亚与炼金术：未解决事项（第522源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9137,7 +9137,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-522-03",
-      "title": "未解决事项｜第522源章｜3",
+      "title": "后代是否恢复来访",
       "memo": "转生者、露西亚与炼金术：未解决事项（第522源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9162,7 +9162,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-522-01",
-      "title": "主角龙形态｜第522源章｜1",
+      "title": "主角龙形态｜盟约与守护龙.(3)｜诺亚临终时为洛伦人形",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第522源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9188,7 +9188,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-522-01",
-      "title": "主角龙状态｜第522源章｜1",
+      "title": "主角龙状态｜盟约与守护龙.(3)｜守护龙送别最深爱自己的弟子却未得直接告白",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第522源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9213,7 +9213,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-522-01",
-      "title": "主角龙知识边界｜第522源章｜1",
+      "title": "主角龙知识边界｜盟约与守护龙.(3)｜评传初恋为野史，原文未说明公众知道对象",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第522源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9238,7 +9238,7 @@
     },
     {
       "id": "era-25-reincarnators-event-523-01",
-      "title": "事件｜第523源章｜1",
+      "title": "新帝称直接劝阻只会让孩子暗中加剧争斗，并建议洛伦提前立皇太子",
       "memo": "转生者、露西亚与炼金术：事件（第523源章第1条）",
       "category": "event",
       "keys": [
@@ -9263,7 +9263,7 @@
     },
     {
       "id": "era-25-reincarnators-event-523-02",
-      "title": "事件｜第523源章｜2",
+      "title": "洛伦发现嫡长，当前能力，潜力，智力，智慧，魅力与加权总分都不能提供唯一正确答案",
       "memo": "转生者、露西亚与炼金术：事件（第523源章第2条）",
       "category": "event",
       "keys": [
@@ -9288,7 +9288,7 @@
     },
     {
       "id": "era-25-reincarnators-event-523-03",
-      "title": "事件｜第523源章｜3",
+      "title": "继承竞争让洛伦直面兄弟为权力互斗，反而削弱对帝国眷恋",
       "memo": "转生者、露西亚与炼金术：事件（第523源章第3条）",
       "category": "event",
       "keys": [
@@ -9314,7 +9314,7 @@
     },
     {
       "id": "era-25-reincarnators-event-523-04",
-      "title": "事件｜第523源章｜4",
+      "title": "未选者继续诽谤皇太子",
       "memo": "转生者、露西亚与炼金术：事件（第523源章第4条）",
       "category": "event",
       "keys": [
@@ -9339,7 +9339,7 @@
     },
     {
       "id": "era-25-reincarnators-event-523-05",
-      "title": "事件｜第523源章｜5",
+      "title": "经过每日教学，皇太子学识突飞猛进且保持谦逊，旁人无法再以能力不足羞辱",
       "memo": "转生者、露西亚与炼金术：事件（第523源章第5条）",
       "category": "event",
       "keys": [
@@ -9365,7 +9365,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-523-01",
-      "title": "世界设定事实｜第523源章｜1",
+      "title": "旧状态窗只显示当前能力值，不显示潜力",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第523源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9390,7 +9390,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-523-02",
-      "title": "世界设定事实｜第523源章｜2",
+      "title": "首位由守护龙选出的皇太子标准包括卓越潜力、责任感和包容他人的温柔",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第523源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9415,7 +9415,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-523-03",
-      "title": "世界设定事实｜第523源章｜3",
+      "title": "皇太子当前能力略欠但心性不歪，且是唯一受猜忌嫉妒仍不报复者",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第523源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9440,7 +9440,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-523-04",
-      "title": "世界设定事实｜第523源章｜4",
+      "title": "蜥蜴人谚语‘越是迟钝的石头，越是蕴藏着锋芒’被用来描述该皇太子",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第523源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9465,7 +9465,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-523-01",
-      "title": "新建立连续性｜第523源章｜1",
+      "title": "首位守护龙选帝",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第523源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9490,7 +9490,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-523-02",
-      "title": "新建立连续性｜第523源章｜2",
+      "title": "无名善良皇太子",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第523源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9515,7 +9515,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-523-03",
-      "title": "新建立连续性｜第523源章｜3",
+      "title": "每日守护龙课程",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第523源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9540,7 +9540,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-523-01",
-      "title": "未解决事项｜第523源章｜1",
+      "title": "皇太子继位",
       "memo": "转生者、露西亚与炼金术：未解决事项（第523源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9565,7 +9565,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-523-02",
-      "title": "未解决事项｜第523源章｜2",
+      "title": "兄弟暗斗结果",
       "memo": "转生者、露西亚与炼金术：未解决事项（第523源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9590,7 +9590,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-523-03",
-      "title": "未解决事项｜第523源章｜3",
+      "title": "选帝制度是否延续",
       "memo": "转生者、露西亚与炼金术：未解决事项（第523源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9615,7 +9615,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-523-01",
-      "title": "主角龙形态｜第523源章｜1",
+      "title": "主角龙形态｜盟约与守护龙.(4)｜银色守护龙形态亲自面见并教学皇太子，具体是否全程人形未明",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第523源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9640,7 +9640,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-523-01",
-      "title": "主角龙状态｜第523源章｜1",
+      "title": "主角龙状态｜盟约与守护龙.(4)｜主龙首次从选帝者转为培养者，因保护自己选择的孩子而恢复教育投入",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第523源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9665,7 +9665,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-523-01",
-      "title": "主角龙知识边界｜第523源章｜1",
+      "title": "主角龙知识边界｜盟约与守护龙.(4)｜皇太子姓名与父系具体排行未给",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第523源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9690,7 +9690,7 @@
     },
     {
       "id": "era-25-reincarnators-event-524-01",
-      "title": "事件｜第524源章｜1",
+      "title": "皇太子以家人身份逐一说服兄弟姐妹，弥合部分矛盾",
       "memo": "转生者、露西亚与炼金术：事件（第524源章第1条）",
       "category": "event",
       "keys": [
@@ -9715,7 +9715,7 @@
     },
     {
       "id": "era-25-reincarnators-event-524-02",
-      "title": "事件｜第524源章｜2",
+      "title": "维罗妮卡幸福任精灵术教师",
       "memo": "转生者、露西亚与炼金术：事件（第524源章第2条）",
       "category": "event",
       "keys": [
@@ -9742,7 +9742,7 @@
     },
     {
       "id": "era-25-reincarnators-event-524-03",
-      "title": "事件｜第524源章｜3",
+      "title": "青年西蒙成为赤塔未来与里赫特接班人，通过魔法界渠道调查天狼星爆炸与各魔塔传闻",
       "memo": "转生者、露西亚与炼金术：事件（第524源章第3条）",
       "category": "event",
       "keys": [
@@ -9768,7 +9768,7 @@
     },
     {
       "id": "era-25-reincarnators-event-524-04",
-      "title": "事件｜第524源章｜4",
+      "title": "洛伦守望帝国、自动每秒处理千余祈祷",
       "memo": "转生者、露西亚与炼金术：事件（第524源章第4条）",
       "category": "event",
       "keys": [
@@ -9793,7 +9793,7 @@
     },
     {
       "id": "era-25-reincarnators-event-524-05",
-      "title": "事件｜第524源章｜5",
+      "title": "洛伦制作以亚空间把角收纳为装饰的帽子",
       "memo": "转生者、露西亚与炼金术：事件（第524源章第5条）",
       "category": "event",
       "keys": [
@@ -9818,7 +9818,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-524-01",
-      "title": "世界设定事实｜第524源章｜1",
+      "title": "维罗妮卡已教授精灵术",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第524源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9845,7 +9845,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-524-02",
-      "title": "世界设定事实｜第524源章｜2",
+      "title": "绿塔源于生命教团治愈术魔法化",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第524源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9871,7 +9871,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-524-03",
-      "title": "世界设定事实｜第524源章｜3",
+      "title": "西蒙因巨大魔力可能维持肉体巅峰，寿命估计为普通人三至五倍",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第524源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9897,7 +9897,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-524-04",
-      "title": "世界设定事实｜第524源章｜4",
+      "title": "生命女神自动祈祷系统在分身对话时仍每秒处理千件以上",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第524源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9923,7 +9923,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-524-05",
-      "title": "世界设定事实｜第524源章｜5",
+      "title": "角收纳帽以亚空间维持角物理连接并伪装装饰",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第524源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -9948,7 +9948,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-524-06",
-      "title": "世界设定事实｜第524源章｜6",
+      "title": "从一开始就无角的化身仍完全从属于本体且无神力",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第524源章第6条）",
       "category": "world-fact",
       "keys": [
@@ -9973,7 +9973,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-524-01",
-      "title": "新建立连续性｜第524源章｜1",
+      "title": "第三分身",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第524源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9998,7 +9998,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-524-02",
-      "title": "新建立连续性｜第524源章｜2",
+      "title": "角收纳帽",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第524源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10023,7 +10023,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-524-03",
-      "title": "新建立连续性｜第524源章｜3",
+      "title": "断连独立人格",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第524源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10048,7 +10048,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-524-01",
-      "title": "未解决事项｜第524源章｜1",
+      "title": "命名",
       "memo": "转生者、露西亚与炼金术：未解决事项（第524源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10073,7 +10073,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-524-02",
-      "title": "未解决事项｜第524源章｜2",
+      "title": "独立权限",
       "memo": "转生者、露西亚与炼金术：未解决事项（第524源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10098,7 +10098,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-524-03",
-      "title": "未解决事项｜第524源章｜3",
+      "title": "自由活动试验",
       "memo": "转生者、露西亚与炼金术：未解决事项（第524源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10123,7 +10123,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-524-01",
-      "title": "主角龙形态｜第524源章｜1",
+      "title": "主角龙形态｜盟约与守护龙.(5)｜同时存在万神殿本体、帝国冬眠银龙分身，以及新造银发少女化身",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第524源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10148,7 +10148,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-524-01",
-      "title": "主角龙状态｜第524源章｜1",
+      "title": "主角龙状态｜盟约与守护龙.(5)｜主龙意外产生一个可在断连时独立行动的新自我",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第524源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10173,7 +10173,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-524-01",
-      "title": "主角龙知识边界｜第524源章｜1",
+      "title": "主角龙知识边界｜盟约与守护龙.(5)｜化身未命名，独立人格稳定性、断连后力量与未来去向尚未验证",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第524源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10198,7 +10198,7 @@
     },
     {
       "id": "era-25-reincarnators-event-525-01",
-      "title": "事件｜第525源章｜1",
+      "title": "洛伦与断开连接的银发化身反复验证，戴回帽子会同步记忆，情感和脑内一切",
       "memo": "转生者、露西亚与炼金术：事件（第525源章第1条）",
       "category": "event",
       "keys": [
@@ -10223,7 +10223,7 @@
     },
     {
       "id": "era-25-reincarnators-event-525-02",
-      "title": "事件｜第525源章｜2",
+      "title": "两个洛伦确认独立化身虽具远超寻常巨龙与神明的魔力，却不能实时同步",
       "memo": "转生者、露西亚与炼金术：事件（第525源章第2条）",
       "category": "event",
       "keys": [
@@ -10248,7 +10248,7 @@
     },
     {
       "id": "era-25-reincarnators-event-525-03",
-      "title": "事件｜第525源章｜3",
+      "title": "洛伦说明投放转生者是为了对付能避开自己视线、疑似读取世界魔力进行预言的敌人",
       "memo": "转生者、露西亚与炼金术：事件（第525源章第3条）",
       "category": "event",
       "keys": [
@@ -10273,7 +10273,7 @@
     },
     {
       "id": "era-25-reincarnators-event-525-04",
-      "title": "事件｜第525源章｜4",
+      "title": "另一个我提议封印独立肉体中的记忆，情感与大部分魔力",
       "memo": "转生者、露西亚与炼金术：事件（第525源章第4条）",
       "category": "event",
       "keys": [
@@ -10298,7 +10298,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-525-01",
-      "title": "世界设定事实｜第525源章｜1",
+      "title": "角帽控制有角化身与本体的连接",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第525源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10323,7 +10323,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-525-02",
-      "title": "世界设定事实｜第525源章｜2",
+      "title": "断连化身能使用的魔力仍远超寻常巨龙和神明，但相较本体有所不足",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第525源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10348,7 +10348,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-525-03",
-      "title": "世界设定事实｜第525源章｜3",
+      "title": "毁灭天狼星的未知者能避开洛伦视线",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第525源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10373,7 +10373,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-525-04",
-      "title": "世界设定事实｜第525源章｜4",
+      "title": "计划将断连化身的记忆、感情和绝大部分魔力封印，使其作为独立者潜伏追查未知敌人",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第525源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10398,7 +10398,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-525-01",
-      "title": "新建立连续性｜第525源章｜1",
+      "title": "断连化身侦察计划",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第525源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10423,7 +10423,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-525-02",
-      "title": "新建立连续性｜第525源章｜2",
+      "title": "转生者反预言用途",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第525源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10448,7 +10448,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-525-03",
-      "title": "新建立连续性｜第525源章｜3",
+      "title": "预言学派假说",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第525源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10473,7 +10473,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-525-01",
-      "title": "未解决事项｜第525源章｜1",
+      "title": "记忆封印能否维持",
       "memo": "转生者、露西亚与炼金术：未解决事项（第525源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10498,7 +10498,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-525-02",
-      "title": "未解决事项｜第525源章｜2",
+      "title": "化身的新身份",
       "memo": "转生者、露西亚与炼金术：未解决事项（第525源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10523,7 +10523,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-525-03",
-      "title": "未解决事项｜第525源章｜3",
+      "title": "未知敌人的线索",
       "memo": "转生者、露西亚与炼金术：未解决事项（第525源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10548,7 +10548,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-525-01",
-      "title": "主角龙形态｜第525源章｜1",
+      "title": "主角龙形态｜另一个我.(1)｜主龙本体意识与戴角帽的银发少女断连化身对谈",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第525源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10573,7 +10573,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-525-01",
-      "title": "主角龙状态｜第525源章｜1",
+      "title": "主角龙状态｜另一个我.(1)｜主龙主动把自己的一个意识分支变成低可探测、不可实时同步的独立搜查者",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第525源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10598,7 +10598,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-525-01",
-      "title": "主角龙知识边界｜第525源章｜1",
+      "title": "主角龙知识边界｜另一个我.(1)｜敌人是否读取魔力只是高概率推测",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第525源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10623,7 +10623,7 @@
     },
     {
       "id": "era-25-reincarnators-event-526-01",
-      "title": "事件｜第526源章｜1",
+      "title": "外部压制无法封住洛伦数万年记忆而不暴露魔力波动",
       "memo": "转生者、露西亚与炼金术：事件（第526源章第1条）",
       "category": "event",
       "keys": [
@@ -10648,7 +10648,7 @@
     },
     {
       "id": "era-25-reincarnators-event-526-02",
-      "title": "事件｜第526源章｜2",
+      "title": "另一个我改用内部封装，把庞大记忆与魔力揉成壳作为魂，与肉体产生的魄结合",
       "memo": "转生者、露西亚与炼金术：事件（第526源章第2条）",
       "category": "event",
       "keys": [
@@ -10673,7 +10673,7 @@
     },
     {
       "id": "era-25-reincarnators-event-526-03",
-      "title": "事件｜第526源章｜3",
+      "title": "场景转到蓝色魔塔灵魂学派讲座，首领强调灵魂魔术必须先获灵魂同意并签约",
       "memo": "转生者、露西亚与炼金术：事件（第526源章第3条）",
       "category": "event",
       "keys": [
@@ -10698,7 +10698,7 @@
     },
     {
       "id": "era-25-reincarnators-event-526-04",
-      "title": "事件｜第526源章｜4",
+      "title": "低帽檐银发少女旁听并追问灵魂来源",
       "memo": "转生者、露西亚与炼金术：事件（第526源章第4条）",
       "category": "event",
       "keys": [
@@ -10723,7 +10723,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-526-01",
-      "title": "世界设定事实｜第526源章｜1",
+      "title": "洛伦数万年记忆会冲破普通封印",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第526源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10748,7 +10748,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-526-02",
-      "title": "世界设定事实｜第526源章｜2",
+      "title": "新方案把封印的记忆与魔力作为魂、肉体人格作为魄，并以潜意识诱导保留任务方向",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第526源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10773,7 +10773,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-526-03",
-      "title": "世界设定事实｜第526源章｜3",
+      "title": "蓝色魔塔灵魂学派结合昔日死灵法师魔法与安息祭司传统，行动准则核心是尊重死者",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第526源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10798,7 +10798,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-526-04",
-      "title": "世界设定事实｜第526源章｜4",
+      "title": "灵魂魔术需死者同意与契约",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第526源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10823,7 +10823,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-526-01",
-      "title": "新建立连续性｜第526源章｜1",
+      "title": "魂魄内封方案",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第526源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10848,7 +10848,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-526-02",
-      "title": "新建立连续性｜第526源章｜2",
+      "title": "露西亚表层人格",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第526源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10874,7 +10874,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-526-03",
-      "title": "新建立连续性｜第526源章｜3",
+      "title": "蓝塔灵魂契约制度",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第526源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10899,7 +10899,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-526-01",
-      "title": "未解决事项｜第526源章｜1",
+      "title": "伪装是否骗过敌人",
       "memo": "转生者、露西亚与炼金术：未解决事项（第526源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10924,7 +10924,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-526-02",
-      "title": "未解决事项｜第526源章｜2",
+      "title": "失忆化身将如何追查",
       "memo": "转生者、露西亚与炼金术：未解决事项（第526源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10949,7 +10949,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-526-03",
-      "title": "未解决事项｜第526源章｜3",
+      "title": "重连对人格的后果",
       "memo": "转生者、露西亚与炼金术：未解决事项（第526源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10974,7 +10974,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-526-01",
-      "title": "主角龙形态｜第526源章｜1",
+      "title": "主角龙形态｜另一个我.(2)｜主龙本体意识参与魂魄封装设计",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第526源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10999,7 +10999,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-526-01",
-      "title": "主角龙状态｜第526源章｜1",
+      "title": "主角龙状态｜另一个我.(2)｜主龙记忆，情感和绝大部分魔力被从内部封入魂，表层魄形成新人格",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第526源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11024,7 +11024,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-526-01",
-      "title": "主角龙知识边界｜第526源章｜1",
+      "title": "主角龙知识边界｜另一个我.(2)｜本章未说出银发少女名字，也未明示讲座和封印设计之间经过多久",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第526源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11049,7 +11049,7 @@
     },
     {
       "id": "era-25-reincarnators-event-527-01",
-      "title": "事件｜第527源章｜1",
+      "title": "胆怯的银发少女到鲁贝洛斯首都生命教团递交守护龙来信",
       "memo": "转生者、露西亚与炼金术：事件（第527源章第1条）",
       "category": "event",
       "keys": [
@@ -11074,7 +11074,7 @@
     },
     {
       "id": "era-25-reincarnators-event-527-02",
-      "title": "事件｜第527源章｜2",
+      "title": "信纸只向阅读者释放人类无法制造的庞大魔力，祭司因此相信",
       "memo": "转生者、露西亚与炼金术：事件（第527源章第2条）",
       "category": "event",
       "keys": [
@@ -11099,7 +11099,7 @@
     },
     {
       "id": "era-25-reincarnators-event-527-03",
-      "title": "事件｜第527源章｜3",
+      "title": "书中说明龙之巫女是生命教团圣女与生命女神意志代行者，常与勇者应对世界危机",
       "memo": "转生者、露西亚与炼金术：事件（第527源章第3条）",
       "category": "event",
       "keys": [
@@ -11124,7 +11124,7 @@
     },
     {
       "id": "era-25-reincarnators-event-527-04",
-      "title": "事件｜第527源章｜4",
+      "title": "祭司长确认少女银发、抱角饰帽且魔力极少",
       "memo": "转生者、露西亚与炼金术：事件（第527源章第4条）",
       "category": "event",
       "keys": [
@@ -11149,7 +11149,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-527-01",
-      "title": "世界设定事实｜第527源章｜1",
+      "title": "守护龙信件能封存庞大魔力，并只对实际阅读者显现",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第527源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11174,7 +11174,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-527-02",
-      "title": "世界设定事实｜第527源章｜2",
+      "title": "龙之巫女是生命女神意志代行者，通常选勇者并同行",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第527源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11199,7 +11199,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-527-03",
-      "title": "世界设定事实｜第527源章｜3",
+      "title": "介绍龙之巫女的书曾因部分内容引争议，被生命教团谴责并修改",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第527源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11224,7 +11224,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-527-04",
-      "title": "世界设定事实｜第527源章｜4",
+      "title": "生命教团与南河三因魔石利益分配关系不佳，但魔王战争合作及两座亲教团魔塔使关系改善",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第527源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11250,7 +11250,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-527-01",
-      "title": "新建立连续性｜第527源章｜1",
+      "title": "露西亚公开身份标签",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第527源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11276,7 +11276,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-527-02",
-      "title": "新建立连续性｜第527源章｜2",
+      "title": "生命教团身份保障",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第527源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11301,7 +11301,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-527-03",
-      "title": "新建立连续性｜第527源章｜3",
+      "title": "前往南河三",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第527源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11326,7 +11326,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-527-01",
-      "title": "未解决事项｜第527源章｜1",
+      "title": "露西亚真名出现",
       "memo": "转生者、露西亚与炼金术：未解决事项（第527源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11352,7 +11352,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-527-02",
-      "title": "未解决事项｜第527源章｜2",
+      "title": "南河三协助者",
       "memo": "转生者、露西亚与炼金术：未解决事项（第527源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11377,7 +11377,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-527-03",
-      "title": "未解决事项｜第527源章｜3",
+      "title": "被封印任务",
       "memo": "转生者、露西亚与炼金术：未解决事项（第527源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11402,7 +11402,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-527-01",
-      "title": "主角龙形态｜第527源章｜1",
+      "title": "主角龙形态｜未能成为龙之巫女的少女.(1)｜主龙未直接现身",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第527源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11428,7 +11428,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-527-01",
-      "title": "主角龙状态｜第527源章｜1",
+      "title": "主角龙状态｜未能成为龙之巫女的少女.(1)｜露西亚已把守护龙视作照料并派遣自己的人",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第527源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11454,7 +11454,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-527-01",
-      "title": "主角龙知识边界｜第527源章｜1",
+      "title": "主角龙知识边界｜未能成为龙之巫女的少女.(1)｜露西亚自称未能成为龙之巫女，不知道封印、本体和真实任务全貌",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第527源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11480,7 +11480,7 @@
     },
     {
       "id": "era-25-reincarnators-event-528-01",
-      "title": "事件｜第528源章｜1",
+      "title": "少女首次说出名字露西亚，解释其含光义且由守护龙命名，却遗憾对方从未用名呼唤",
       "memo": "转生者、露西亚与炼金术：事件（第528源章第1条）",
       "category": "event",
       "keys": [
@@ -11506,7 +11506,7 @@
     },
     {
       "id": "era-25-reincarnators-event-528-02",
-      "title": "事件｜第528源章｜2",
+      "title": "露西亚抵达南河三，与红袍西蒙会合",
       "memo": "转生者、露西亚与炼金术：事件（第528源章第2条）",
       "category": "event",
       "keys": [
@@ -11533,7 +11533,7 @@
     },
     {
       "id": "era-25-reincarnators-event-528-03",
-      "title": "事件｜第528源章｜3",
+      "title": "西蒙测试出露西亚智力与控制优秀但总魔力极低，判断她难成优秀魔法师",
       "memo": "转生者、露西亚与炼金术：事件（第528源章第3条）",
       "category": "event",
       "keys": [
@@ -11560,7 +11560,7 @@
     },
     {
       "id": "era-25-reincarnators-event-528-04",
-      "title": "事件｜第528源章｜4",
+      "title": "多年后露西亚已穿紫袍开创炼金学派并建立魔塔",
       "memo": "转生者、露西亚与炼金术：事件（第528源章第4条）",
       "category": "event",
       "keys": [
@@ -11586,7 +11586,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-528-01",
-      "title": "世界设定事实｜第528源章｜1",
+      "title": "露西亚名字由守护龙所取，含义为光",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第528源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11612,7 +11612,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-528-02",
-      "title": "世界设定事实｜第528源章｜2",
+      "title": "西蒙是赤色魔塔主弟子与继任者，因露西亚外貌联想到使自己转生的生命女神",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第528源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11639,7 +11639,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-528-03",
-      "title": "世界设定事实｜第528源章｜3",
+      "title": "露西亚智力高、魔力控制优秀但总魔力极低",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第528源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11666,7 +11666,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-528-04",
-      "title": "世界设定事实｜第528源章｜4",
+      "title": "知识之神建立的大图书馆需会员身份",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第528源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11693,7 +11693,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-528-05",
-      "title": "世界设定事实｜第528源章｜5",
+      "title": "露西亚后来开创炼金学派并建立紫色魔塔",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第528源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -11719,7 +11719,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-528-01",
-      "title": "新建立连续性｜第528源章｜1",
+      "title": "露西亚真名",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第528源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11745,7 +11745,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-528-02",
-      "title": "新建立连续性｜第528源章｜2",
+      "title": "西蒙接应",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第528源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11771,7 +11771,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-528-03",
-      "title": "新建立连续性｜第528源章｜3",
+      "title": "物质操控魔法",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第528源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11796,7 +11796,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-528-04",
-      "title": "新建立连续性｜第528源章｜4",
+      "title": "炼金学派与紫塔",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第528源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11821,7 +11821,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-528-01",
-      "title": "未解决事项｜第528源章｜1",
+      "title": "露西亚与本体重逢",
       "memo": "转生者、露西亚与炼金术：未解决事项（第528源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11847,7 +11847,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-528-02",
-      "title": "未解决事项｜第528源章｜2",
+      "title": "封印记忆恢复",
       "memo": "转生者、露西亚与炼金术：未解决事项（第528源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11872,7 +11872,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-528-03",
-      "title": "未解决事项｜第528源章｜3",
+      "title": "未知敌人调查",
       "memo": "转生者、露西亚与炼金术：未解决事项（第528源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11897,7 +11897,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-528-01",
-      "title": "主角龙形态｜第528源章｜1",
+      "title": "主角龙形态｜未能成为龙之巫女的少女.(2)｜失忆独立形态正式得名露西亚，银发娇小少女，常戴或抱宽檐角饰帽",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第528源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11923,7 +11923,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-528-01",
-      "title": "主角龙状态｜第528源章｜1",
+      "title": "主角龙状态｜未能成为龙之巫女的少女.(2)｜被封印的主龙分支在不知真相的情况下凭信任和自身认知结构开创炼金术",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第528源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11948,7 +11948,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-528-01",
-      "title": "主角龙知识边界｜第528源章｜1",
+      "title": "主角龙知识边界｜未能成为龙之巫女的少女.(2)｜露西亚不知道自己即守护龙分身",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第528源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11975,7 +11975,7 @@
     },
     {
       "id": "era-25-reincarnators-event-529-01",
-      "title": "事件｜第529源章｜1",
+      "title": "物质操纵魔法源自铁匠魔法师，原本只能改变炽热金属形状",
       "memo": "转生者、露西亚与炼金术：事件（第529源章第1条）",
       "category": "event",
       "keys": [
@@ -12000,7 +12000,7 @@
     },
     {
       "id": "era-25-reincarnators-event-529-02",
-      "title": "事件｜第529源章｜2",
+      "title": "露西亚把形态视作物质最表层属性，从守护龙造物奇迹推导出操纵其他性质的可能",
       "memo": "转生者、露西亚与炼金术：事件（第529源章第2条）",
       "category": "event",
       "keys": [
@@ -12026,7 +12026,7 @@
     },
     {
       "id": "era-25-reincarnators-event-529-03",
-      "title": "事件｜第529源章｜3",
+      "title": "西蒙因大量账单来到露西亚住处，发现爆炸、烧灼、奇异液体和材料残骸",
       "memo": "转生者、露西亚与炼金术：事件（第529源章第3条）",
       "category": "event",
       "keys": [
@@ -12053,7 +12053,7 @@
     },
     {
       "id": "era-25-reincarnators-event-529-04",
-      "title": "事件｜第529源章｜4",
+      "title": "露西亚解释性质操控、低耗念动力与形态复原，展示把铁改成高硬低韧及轻如纸盒的正方体",
       "memo": "转生者、露西亚与炼金术：事件（第529源章第4条）",
       "category": "event",
       "keys": [
@@ -12080,7 +12080,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-529-01",
-      "title": "世界设定事实｜第529源章｜1",
+      "title": "物质操纵魔法由兼任铁匠的魔法师创造，原用途是塑造炽热金属",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第529源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12105,7 +12105,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-529-02",
-      "title": "世界设定事实｜第529源章｜2",
+      "title": "性质操控可分别改变铁的韧性、硬度、重量等，但每种物质存在变化极限",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第529源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12130,7 +12130,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-529-03",
-      "title": "世界设定事实｜第529源章｜3",
+      "title": "露西亚以低耗念动力远程处理碎片，再用物质操控将碎铁重新聚合为正方体",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第529源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12156,7 +12156,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-529-01",
-      "title": "新建立连续性｜第529源章｜1",
+      "title": "性质操控魔法",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第529源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12181,7 +12181,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-529-02",
-      "title": "新建立连续性｜第529源章｜2",
+      "title": "露西亚研究日志",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第529源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12207,7 +12207,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-529-03",
-      "title": "新建立连续性｜第529源章｜3",
+      "title": "西蒙技术认可",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第529源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12233,7 +12233,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-529-01",
-      "title": "未解决事项｜第529源章｜1",
+      "title": "论文整理与发表",
       "memo": "转生者、露西亚与炼金术：未解决事项（第529源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12258,7 +12258,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-529-02",
-      "title": "未解决事项｜第529源章｜2",
+      "title": "研究材料来源",
       "memo": "转生者、露西亚与炼金术：未解决事项（第529源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12283,7 +12283,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-529-03",
-      "title": "未解决事项｜第529源章｜3",
+      "title": "炼金术命名",
       "memo": "转生者、露西亚与炼金术：未解决事项（第529源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12308,7 +12308,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-529-01",
-      "title": "主角龙形态｜第529源章｜1",
+      "title": "主角龙形态｜未能成为龙之巫女的少女.(3)｜主龙失忆形态露西亚仍是银发小女孩，以普通研究者身份在借住房中实验",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第529源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12334,7 +12334,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-529-01",
-      "title": "主角龙状态｜第529源章｜1",
+      "title": "主角龙状态｜未能成为龙之巫女的少女.(3)｜本体留下的创造性思维在不知身份的新人格中转化为性质操控研究",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第529源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12359,7 +12359,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-529-01",
-      "title": "主角龙知识边界｜第529源章｜1",
+      "title": "主角龙知识边界｜未能成为龙之巫女的少女.(3)｜露西亚把守护龙造物视为外部榜样，不知道那就是自己的本体能力",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第529源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12386,7 +12386,7 @@
     },
     {
       "id": "era-25-reincarnators-event-530-01",
-      "title": "事件｜第530源章｜1",
+      "title": "后世紫塔课程说明炼金术只需少量魔力触发物质变化，真正核心是关于物体、性质与极限的知识",
       "memo": "转生者、露西亚与炼金术：事件（第530源章第1条）",
       "category": "event",
       "keys": [
@@ -12411,7 +12411,7 @@
     },
     {
       "id": "era-25-reincarnators-event-530-02",
-      "title": "事件｜第530源章｜2",
+      "title": "露西亚在西蒙许可下穷尽可得材料，反复耗尽魔力测试形态，硬度，韧度，耐锈与性质崩溃极限",
       "memo": "转生者、露西亚与炼金术：事件（第530源章第2条）",
       "category": "event",
       "keys": [
@@ -12438,7 +12438,7 @@
     },
     {
       "id": "era-25-reincarnators-event-530-03",
-      "title": "事件｜第530源章｜3",
+      "title": "露西亚把《通过物质操纵魔法构建的新魔法体系:炼金术概论》交西蒙审读",
       "memo": "转生者、露西亚与炼金术：事件（第530源章第3条）",
       "category": "event",
       "keys": [
@@ -12465,7 +12465,7 @@
     },
     {
       "id": "era-25-reincarnators-event-530-04",
-      "title": "事件｜第530源章｜4",
+      "title": "因没有家族，露西亚自行选择意为伟大的马格努斯为姓",
       "memo": "转生者、露西亚与炼金术：事件（第530源章第4条）",
       "category": "event",
       "keys": [
@@ -12492,7 +12492,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-530-01",
-      "title": "世界设定事实｜第530源章｜1",
+      "title": "炼金术仍需最低魔力触发，但耗量极小",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第530源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12517,7 +12517,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-530-02",
-      "title": "世界设定事实｜第530源章｜2",
+      "title": "炼金术不妨碍学习其他学派魔法，且能通过知识继承直接增强",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第530源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12542,7 +12542,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-530-03",
-      "title": "世界设定事实｜第530源章｜3",
+      "title": "露西亚的初期研究覆盖钢化、薄板强韧、耐锈与极限崩溃，靠大量试错填补完全缺失的资料",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第530源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12568,7 +12568,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-530-04",
-      "title": "世界设定事实｜第530源章｜4",
+      "title": "炼金术概论完整题名与作者姓氏确立：露西亚·马格努斯，马格努斯意为伟大",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第530源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12595,7 +12595,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-530-01",
-      "title": "新建立连续性｜第530源章｜1",
+      "title": "露西亚·马格努斯",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第530源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12622,7 +12622,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-530-02",
-      "title": "新建立连续性｜第530源章｜2",
+      "title": "炼金术概论",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第530源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12647,7 +12647,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-530-03",
-      "title": "新建立连续性｜第530源章｜3",
+      "title": "知识即力量传统",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第530源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12672,7 +12672,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-530-01",
-      "title": "未解决事项｜第530源章｜1",
+      "title": "论文正式评审",
       "memo": "转生者、露西亚与炼金术：未解决事项（第530源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12697,7 +12697,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-530-02",
-      "title": "未解决事项｜第530源章｜2",
+      "title": "魔塔支持者",
       "memo": "转生者、露西亚与炼金术：未解决事项（第530源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12722,7 +12722,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-530-03",
-      "title": "未解决事项｜第530源章｜3",
+      "title": "炼金术跨种族传播",
       "memo": "转生者、露西亚与炼金术：未解决事项（第530源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12747,7 +12747,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-530-01",
-      "title": "主角龙形态｜第530源章｜1",
+      "title": "主角龙形态｜炼金术.(1)｜主龙失忆形态露西亚以无姓年轻魔法研究者身份写成炼金术概论",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第530源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12773,7 +12773,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-530-01",
-      "title": "主角龙状态｜第530源章｜1",
+      "title": "主角龙状态｜炼金术.(1)｜她把个人发现转化为可供整个学派继承的体系",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第530源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12798,7 +12798,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-530-01",
-      "title": "主角龙知识边界｜第530源章｜1",
+      "title": "主角龙知识边界｜炼金术.(1)｜后世六成知识为始祖基础是时代回顾",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第530源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12824,7 +12824,7 @@
     },
     {
       "id": "era-25-reincarnators-event-531-01",
-      "title": "事件｜第531源章｜1",
+      "title": "论文延期令为露西亚供料的女矮人商团主拉皮斯调整商路并承担损失",
       "memo": "转生者、露西亚与炼金术：事件（第531源章第1条）",
       "category": "event",
       "keys": [
@@ -12852,7 +12852,7 @@
     },
     {
       "id": "era-25-reincarnators-event-531-02",
-      "title": "事件｜第531源章｜2",
+      "title": "拉皮斯提出矮人学习炼金术",
       "memo": "转生者、露西亚与炼金术：事件（第531源章第2条）",
       "category": "event",
       "keys": [
@@ -12879,7 +12879,7 @@
     },
     {
       "id": "era-25-reincarnators-event-531-03",
-      "title": "事件｜第531源章｜3",
+      "title": "拉皮斯说明商会主人也需对投资者、员工与资源负责",
       "memo": "转生者、露西亚与炼金术：事件（第531源章第3条）",
       "category": "event",
       "keys": [
@@ -12905,7 +12905,7 @@
     },
     {
       "id": "era-25-reincarnators-event-531-04",
-      "title": "事件｜第531源章｜4",
+      "title": "露西亚担心女矮人独行，拉皮斯把娇小可爱视为降低敌意的商业武器",
       "memo": "转生者、露西亚与炼金术：事件（第531源章第4条）",
       "category": "event",
       "keys": [
@@ -12932,7 +12932,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-531-01",
-      "title": "世界设定事实｜第531源章｜1",
+      "title": "除赤塔直接支持外，另有约两座魔塔曾与露西亚间接交流并友好关注论文",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第531源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12958,7 +12958,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-531-02",
-      "title": "世界设定事实｜第531源章｜2",
+      "title": "矮人通常通过魔石为物品赋魔，常与火或大地精灵契约",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第531源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12984,7 +12984,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-531-03",
-      "title": "世界设定事实｜第531源章｜3",
+      "title": "拉皮斯商会有投资者和员工，材料供应与教材开发被建立为互惠合作",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第531源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13010,7 +13010,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-531-04",
-      "title": "世界设定事实｜第531源章｜4",
+      "title": "性质改变超过材料极限会崩溃",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第531源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13035,7 +13035,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-531-01",
-      "title": "新建立连续性｜第531源章｜1",
+      "title": "拉皮斯供料",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第531源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13061,7 +13061,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-531-02",
-      "title": "新建立连续性｜第531源章｜2",
+      "title": "矮人炼金术设想",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第531源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13086,7 +13086,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-531-03",
-      "title": "新建立连续性｜第531源章｜3",
+      "title": "附魔桥接",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第531源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13111,7 +13111,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-531-04",
-      "title": "新建立连续性｜第531源章｜4",
+      "title": "拉皮斯商团",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第531源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13137,7 +13137,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-531-01",
-      "title": "未解决事项｜第531源章｜1",
+      "title": "教材是否有效",
       "memo": "转生者、露西亚与炼金术：未解决事项（第531源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13162,7 +13162,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-531-02",
-      "title": "未解决事项｜第531源章｜2",
+      "title": "论文延期结束",
       "memo": "转生者、露西亚与炼金术：未解决事项（第531源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13187,7 +13187,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-531-03",
-      "title": "未解决事项｜第531源章｜3",
+      "title": "两座间接支持魔塔身份",
       "memo": "转生者、露西亚与炼金术：未解决事项（第531源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13212,7 +13212,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-531-01",
-      "title": "主角龙形态｜第531源章｜1",
+      "title": "主角龙形态｜炼金术.(2)｜露西亚仍保持娇小银发，角帽与怕生研究者形态",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第531源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13239,7 +13239,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-531-01",
-      "title": "主角龙状态｜第531源章｜1",
+      "title": "主角龙状态｜炼金术.(2)｜她开始把炼金术从人类魔法师论文扩展为矮人工匠也可能使用的跨种族技术",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第531源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13264,7 +13264,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-531-01",
-      "title": "主角龙知识边界｜第531源章｜1",
+      "title": "主角龙知识边界｜炼金术.(2)｜露西亚不知道拉皮斯前世和转生背景",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第531源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13291,7 +13291,7 @@
     },
     {
       "id": "era-25-reincarnators-event-532-01",
-      "title": "事件｜第532源章｜1",
+      "title": "露西亚在几乎所有魔塔关注的大礼堂发表炼金术概论",
       "memo": "转生者、露西亚与炼金术：事件（第532源章第1条）",
       "category": "event",
       "keys": [
@@ -13317,7 +13317,7 @@
     },
     {
       "id": "era-25-reincarnators-event-532-02",
-      "title": "事件｜第532源章｜2",
+      "title": "三十分钟发表后全场同时举手，多塔魔法师公开斥其荒诞或承认新颖",
       "memo": "转生者、露西亚与炼金术：事件（第532源章第2条）",
       "category": "event",
       "keys": [
@@ -13343,7 +13343,7 @@
     },
     {
       "id": "era-25-reincarnators-event-532-03",
-      "title": "事件｜第532源章｜3",
+      "title": "主持人以日程拒绝临时演示，露西亚罕见强势地把众人热情与舆论责任反问回去",
       "memo": "转生者、露西亚与炼金术：事件（第532源章第3条）",
       "category": "event",
       "keys": [
@@ -13369,7 +13369,7 @@
     },
     {
       "id": "era-25-reincarnators-event-532-04",
-      "title": "事件｜第532源章｜4",
+      "title": "赤塔埃尔丁确认拉皮斯商团铁锭普通无魔力",
       "memo": "转生者、露西亚与炼金术：事件（第532源章第4条）",
       "category": "event",
       "keys": [
@@ -13396,7 +13396,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-532-01",
-      "title": "世界设定事实｜第532源章｜1",
+      "title": "论文引来大多数魔塔旁听",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第532源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13422,7 +13422,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-532-02",
-      "title": "世界设定事实｜第532源章｜2",
+      "title": "质疑者具名来自黄色塔埃尔尼奥斯、绿色塔佩雷苏斯、蓝色塔阿姆鲁特",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第532源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13447,7 +13447,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-532-03",
-      "title": "世界设定事实｜第532源章｜3",
+      "title": "演示铁锭由与赤塔交易的拉皮斯商团提供，并由赤塔埃尔丁确认普通、无魔力痕迹",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第532源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13473,7 +13473,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-532-04",
-      "title": "世界设定事实｜第532源章｜4",
+      "title": "露西亚把普通铁锭形态丝线化并增强抗拉强度与弹性，制成铁布",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第532源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13499,7 +13499,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-532-01",
-      "title": "新建立连续性｜第532源章｜1",
+      "title": "炼金术公开发表",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第532源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13524,7 +13524,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-532-02",
-      "title": "新建立连续性｜第532源章｜2",
+      "title": "铁布证物",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第532源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13549,7 +13549,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-532-03",
-      "title": "新建立连续性｜第532源章｜3",
+      "title": "多塔关注",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第532源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13574,7 +13574,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-532-04",
-      "title": "新建立连续性｜第532源章｜4",
+      "title": "下任赤塔主人选",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第532源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13599,7 +13599,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-532-01",
-      "title": "未解决事项｜第532源章｜1",
+      "title": "论文评审结论",
       "memo": "转生者、露西亚与炼金术：未解决事项（第532源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13624,7 +13624,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-532-02",
-      "title": "未解决事项｜第532源章｜2",
+      "title": "露西亚为何被指名继承赤塔",
       "memo": "转生者、露西亚与炼金术：未解决事项（第532源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13650,7 +13650,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-532-03",
-      "title": "未解决事项｜第532源章｜3",
+      "title": "紫塔建立过程",
       "memo": "转生者、露西亚与炼金术：未解决事项（第532源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13675,7 +13675,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-532-01",
-      "title": "主角龙形态｜第532源章｜1",
+      "title": "主角龙形态｜炼金术.(3)｜露西亚·马格努斯作为银发初级魔法师站在多塔礼堂公开发表",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第532源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13702,7 +13702,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-532-01",
-      "title": "主角龙状态｜第532源章｜1",
+      "title": "主角龙状态｜炼金术.(3)｜她第一次以自己的名字而非守护龙身份让整个魔法界直接接触炼金术证据",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第532源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13727,7 +13727,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-532-01",
-      "title": "主角龙知识边界｜第532源章｜1",
+      "title": "主角龙知识边界｜炼金术.(3)｜现场只证明铁布及论文部分主张，不等于所有炼金术预测都已实现",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第532源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13753,7 +13753,7 @@
     },
     {
       "id": "era-25-reincarnators-event-533-01",
-      "title": "事件｜第533源章｜1",
+      "title": "后世著作列炼金术对武器，衣料，建筑，木材和车辆的全面革新",
       "memo": "转生者、露西亚与炼金术：事件（第533源章第1条）",
       "category": "event",
       "keys": [
@@ -13778,7 +13778,7 @@
     },
     {
       "id": "era-25-reincarnators-event-533-02",
-      "title": "事件｜第533源章｜2",
+      "title": "论文发表后露西亚在购物、散步、查书时不断被搭讪、挑衅或求教，生活骤变",
       "memo": "转生者、露西亚与炼金术：事件（第533源章第2条）",
       "category": "event",
       "keys": [
@@ -13804,7 +13804,7 @@
     },
     {
       "id": "era-25-reincarnators-event-533-03",
-      "title": "事件｜第533源章｜3",
+      "title": "拉皮斯指出露西亚的公开演示必然引来关注，劝其不要谦虚过度",
       "memo": "转生者、露西亚与炼金术：事件（第533源章第3条）",
       "category": "event",
       "keys": [
@@ -13831,7 +13831,7 @@
     },
     {
       "id": "era-25-reincarnators-event-533-04",
-      "title": "事件｜第533源章｜4",
+      "title": "露西亚把铁块塑成拉皮斯手办",
       "memo": "转生者、露西亚与炼金术：事件（第533源章第4条）",
       "category": "event",
       "keys": [
@@ -13858,7 +13858,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-533-01",
-      "title": "世界设定事实｜第533源章｜1",
+      "title": "炼金术后世成果包括强化兵器、防水韧布、粉末建材配铁棒高楼、耐火木材和吸震车辆",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第533源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13883,7 +13883,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-533-02",
-      "title": "世界设定事实｜第533源章｜2",
+      "title": "学者担忧炼金术使被忽视处崩塌并挑战神权",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第533源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13908,7 +13908,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-533-03",
-      "title": "世界设定事实｜第533源章｜3",
+      "title": "矮人炼金教材需解决附魔与炼金术的相容和不相容部分",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第533源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13933,7 +13933,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-533-04",
-      "title": "世界设定事实｜第533源章｜4",
+      "title": "拉皮斯多次用地球话题试探后确认露西亚不是转生者，但认为其外貌必与生命女神有关",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第533源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13960,7 +13960,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-533-01",
-      "title": "新建立连续性｜第533源章｜1",
+      "title": "万神殿肯定炼金术",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第533源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13985,7 +13985,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-533-02",
-      "title": "新建立连续性｜第533源章｜2",
+      "title": "露西亚公众成名",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第533源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14011,7 +14011,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-533-03",
-      "title": "新建立连续性｜第533源章｜3",
+      "title": "拉皮斯排除转生假说",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第533源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14037,7 +14037,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-533-01",
-      "title": "未解决事项｜第533源章｜1",
+      "title": "跨种族教材完成",
       "memo": "转生者、露西亚与炼金术：未解决事项（第533源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14062,7 +14062,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-533-02",
-      "title": "未解决事项｜第533源章｜2",
+      "title": "成名后的学派组织",
       "memo": "转生者、露西亚与炼金术：未解决事项（第533源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14087,7 +14087,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-533-03",
-      "title": "未解决事项｜第533源章｜3",
+      "title": "技术社会代价",
       "memo": "转生者、露西亚与炼金术：未解决事项（第533源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14112,7 +14112,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-533-01",
-      "title": "主角龙形态｜第533源章｜1",
+      "title": "主角龙形态｜炼金术.(4)｜露西亚仍为主龙失忆银发少女形态，已成为普罗西亚公众人物但努力遮袍乔装",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第533源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14138,7 +14138,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-533-01",
-      "title": "主角龙状态｜第533源章｜1",
+      "title": "主角龙状态｜炼金术.(4)｜其独立人格在成名压力下仍持续跨种族教材工作，本体地球记忆仍被完整封住",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第533源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14163,7 +14163,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-533-01",
-      "title": "主角龙知识边界｜第533源章｜1",
+      "title": "主角龙知识边界｜炼金术.(4)｜露西亚不理解化学与拍手炼成暗号",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第533源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14190,7 +14190,7 @@
     },
     {
       "id": "era-25-reincarnators-event-534-01",
-      "title": "事件｜第534源章｜1",
+      "title": "普罗西亚分裂为亲眼见证者与怀疑者",
       "memo": "转生者、露西亚与炼金术：事件（第534源章第1条）",
       "category": "event",
       "keys": [
@@ -14216,7 +14216,7 @@
     },
     {
       "id": "era-25-reincarnators-event-534-02",
-      "title": "事件｜第534源章｜2",
+      "title": "露西亚持续发表成果、完成基础教材并让炼金术兼容矮人附魔，学派知识逐渐完善",
       "memo": "转生者、露西亚与炼金术：事件（第534源章第2条）",
       "category": "event",
       "keys": [
@@ -14242,7 +14242,7 @@
     },
     {
       "id": "era-25-reincarnators-event-534-03",
-      "title": "事件｜第534源章｜3",
+      "title": "醉心炼金术的魔法师集体请求建立新学派并推举露西亚",
       "memo": "转生者、露西亚与炼金术：事件（第534源章第3条）",
       "category": "event",
       "keys": [
@@ -14268,7 +14268,7 @@
     },
     {
       "id": "era-25-reincarnators-event-534-04",
-      "title": "事件｜第534源章｜4",
+      "title": "请愿者调查后认为物质操纵本为三流，与魔法师脱离物质的传统相悖",
       "memo": "转生者、露西亚与炼金术：事件（第534源章第4条）",
       "category": "event",
       "keys": [
@@ -14294,7 +14294,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-534-01",
-      "title": "世界设定事实｜第534源章｜1",
+      "title": "赤塔埃尔丁以严谨著称",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第534源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14319,7 +14319,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-534-02",
-      "title": "世界设定事实｜第534源章｜2",
+      "title": "露西亚已完成基础教材与矮人附魔兼容改良，并持续发表多项炼金成果",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第534源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14345,7 +14345,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-534-03",
-      "title": "世界设定事实｜第534源章｜3",
+      "title": "传统魔法师习惯从魔力创造一切、物质丰裕，因而通常不会重视物质操纵",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第534源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14370,7 +14370,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-534-01",
-      "title": "新建立连续性｜第534源章｜1",
+      "title": "炼金学派请愿",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第534源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14395,7 +14395,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-534-02",
-      "title": "新建立连续性｜第534源章｜2",
+      "title": "露西亚首领候选",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第534源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14421,7 +14421,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-534-03",
-      "title": "新建立连续性｜第534源章｜3",
+      "title": "原始物质操纵的三流评价",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第534源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14446,7 +14446,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-534-01",
-      "title": "未解决事项｜第534源章｜1",
+      "title": "露西亚答复",
       "memo": "转生者、露西亚与炼金术：未解决事项（第534源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14472,7 +14472,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-534-02",
-      "title": "未解决事项｜第534源章｜2",
+      "title": "学派组织",
       "memo": "转生者、露西亚与炼金术：未解决事项（第534源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14497,7 +14497,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-534-03",
-      "title": "未解决事项｜第534源章｜3",
+      "title": "与现有魔塔关系",
       "memo": "转生者、露西亚与炼金术：未解决事项（第534源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14522,7 +14522,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-534-01",
-      "title": "主角龙形态｜第534源章｜1",
+      "title": "主角龙形态｜炼金术.(5)｜露西亚作为主龙失忆形态已是炼金术权威，却仍以低魔力",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第534源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14548,7 +14548,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-534-01",
-      "title": "主角龙状态｜第534源章｜1",
+      "title": "主角龙状态｜炼金术.(5)｜追随者开始把她从孤立研究者推向新学派制度核心",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第534源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14573,7 +14573,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-534-01",
-      "title": "主角龙知识边界｜第534源章｜1",
+      "title": "主角龙知识边界｜炼金术.(5)｜她尚未决定接受首领职位",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第534源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14598,7 +14598,7 @@
     },
     {
       "id": "era-25-reincarnators-event-535-01",
-      "title": "事件｜第535源章｜1",
+      "title": "露西亚向拉皮斯、西蒙倾诉领导焦虑，并首次见到按世界树任务出行的维罗妮卡",
       "memo": "转生者、露西亚与炼金术：事件（第535源章第1条）",
       "category": "event",
       "keys": [
@@ -14628,7 +14628,7 @@
     },
     {
       "id": "era-25-reincarnators-event-535-02",
-      "title": "事件｜第535源章｜2",
+      "title": "拉皮斯称位子会造就人、主导权在露西亚，可把事务交给追随者",
       "memo": "转生者、露西亚与炼金术：事件（第535源章第2条）",
       "category": "event",
       "keys": [
@@ -14656,7 +14656,7 @@
     },
     {
       "id": "era-25-reincarnators-event-535-03",
-      "title": "事件｜第535源章｜3",
+      "title": "维罗妮卡给出真正拒绝选项：若讨厌便离开数年，可去萨加玛塔或精灵大森林",
       "memo": "转生者、露西亚与炼金术：事件（第535源章第3条）",
       "category": "event",
       "keys": [
@@ -14684,7 +14684,7 @@
     },
     {
       "id": "era-25-reincarnators-event-535-04",
-      "title": "事件｜第535源章｜4",
+      "title": "露西亚衡量失败，请愿者真心与自己的实际意愿，认为真讨厌便会拒绝",
       "memo": "转生者、露西亚与炼金术：事件（第535源章第4条）",
       "category": "event",
       "keys": [
@@ -14710,7 +14710,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-535-01",
-      "title": "世界设定事实｜第535源章｜1",
+      "title": "维罗妮卡此前长期留在精灵大森林，此次因世界树任务请求拉皮斯帮助旅行",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第535源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14738,7 +14738,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-535-02",
-      "title": "世界设定事实｜第535源章｜2",
+      "title": "精灵当前仍被社会当青少年，矮人也因外貌类似，但年轻矮人可以工作饮酒",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第535源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14763,7 +14763,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-535-03",
-      "title": "世界设定事实｜第535源章｜3",
+      "title": "强自我意识的魔法师们已完成炼金学派大部分准备并把首领位置专留露西亚",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第535源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14789,7 +14789,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-535-04",
-      "title": "世界设定事实｜第535源章｜4",
+      "title": "萨加玛塔与精灵大森林被维罗妮卡视作露西亚可暂避学界压力的地点",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第535源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -14817,7 +14817,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-535-01",
-      "title": "新建立连续性｜第535源章｜1",
+      "title": "露西亚接受学派首领",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第535源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14843,7 +14843,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-535-02",
-      "title": "新建立连续性｜第535源章｜2",
+      "title": "维罗妮卡加入同行圈",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第535源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14869,7 +14869,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-535-03",
-      "title": "新建立连续性｜第535源章｜3",
+      "title": "三转生者重聚",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第535源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14894,7 +14894,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-535-01",
-      "title": "未解决事项｜第535源章｜1",
+      "title": "学派实际建立",
       "memo": "转生者、露西亚与炼金术：未解决事项（第535源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14919,7 +14919,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-535-02",
-      "title": "未解决事项｜第535源章｜2",
+      "title": "露西亚领导适应",
       "memo": "转生者、露西亚与炼金术：未解决事项（第535源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14945,7 +14945,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-535-03",
-      "title": "未解决事项｜第535源章｜3",
+      "title": "世界树任务内容",
       "memo": "转生者、露西亚与炼金术：未解决事项（第535源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14971,7 +14971,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-535-01",
-      "title": "主角龙形态｜第535源章｜1",
+      "title": "主角龙形态｜炼金术.(6)｜主龙失忆形态露西亚与三名早期转生者维罗妮卡，拉皮斯，西蒙同席",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第535源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15000,7 +15000,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-535-01",
-      "title": "主角龙状态｜第535源章｜1",
+      "title": "主角龙状态｜炼金术.(6)｜露西亚自主接受炼金学派之长，独立人生进入领导阶段",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第535源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15026,7 +15026,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-535-01",
-      "title": "主角龙知识边界｜第535源章｜1",
+      "title": "主角龙知识边界｜炼金术.(6)｜三名转生者只因外貌联想到生命女神",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第535源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15052,7 +15052,7 @@
     },
     {
       "id": "era-25-reincarnators-event-536-01",
-      "title": "事件｜第536源章｜1",
+      "title": "小规模炼金学派成立",
       "memo": "转生者、露西亚与炼金术：事件（第536源章第1条）",
       "category": "event",
       "keys": [
@@ -15078,7 +15078,7 @@
     },
     {
       "id": "era-25-reincarnators-event-536-02",
-      "title": "事件｜第536源章｜2",
+      "title": "学派持续扩张并有正式建筑，靠性质强化的炼金铁获得收入",
       "memo": "转生者、露西亚与炼金术：事件（第536源章第2条）",
       "category": "event",
       "keys": [
@@ -15103,7 +15103,7 @@
     },
     {
       "id": "era-25-reincarnators-event-536-03",
-      "title": "事件｜第536源章｜3",
+      "title": "炼金铁供不应求且所有合格炼金术师已满负荷",
       "memo": "转生者、露西亚与炼金术：事件（第536源章第3条）",
       "category": "event",
       "keys": [
@@ -15129,7 +15129,7 @@
     },
     {
       "id": "era-25-reincarnators-event-536-04",
-      "title": "事件｜第536源章｜4",
+      "title": "露西亚提出制造无需炼金知识，只按预设材料与数值注魔即可运行的辅助装置",
       "memo": "转生者、露西亚与炼金术：事件（第536源章第4条）",
       "category": "event",
       "keys": [
@@ -15155,7 +15155,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-536-01",
-      "title": "世界设定事实｜第536源章｜1",
+      "title": "物质鉴定魔法把使用者已有知识与视觉信息联动，源自黄塔视力强化魔法",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第536源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15180,7 +15180,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-536-02",
-      "title": "世界设定事实｜第536源章｜2",
+      "title": "炼金学派加入者、财政与规模快速增长，并获得正式建筑",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第536源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15205,7 +15205,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-536-03",
-      "title": "世界设定事实｜第536源章｜3",
+      "title": "炼金铁轻且强，能让普通矮人量产短剑胜过常规品",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第536源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15230,7 +15230,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-536-04",
-      "title": "世界设定事实｜第536源章｜4",
+      "title": "炼金铁供不应求，合格炼金术师全部满负荷，单人魔力决定产量上限",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第536源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -15255,7 +15255,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-536-05",
-      "title": "世界设定事实｜第536源章｜5",
+      "title": "炼成阵构想把材料、配置与数值预设进魔法阵，使无炼金知识者只需注魔即可加工",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第536源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -15280,7 +15280,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-536-01",
-      "title": "新建立连续性｜第536源章｜1",
+      "title": "物质鉴定魔法",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第536源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15305,7 +15305,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-536-02",
-      "title": "新建立连续性｜第536源章｜2",
+      "title": "炼金铁商业化",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第536源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15330,7 +15330,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-536-03",
-      "title": "新建立连续性｜第536源章｜3",
+      "title": "炼成阵构想",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第536源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15355,7 +15355,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-536-04",
-      "title": "新建立连续性｜第536源章｜4",
+      "title": "学派建筑",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第536源章第4条）",
       "category": "continuity",
       "keys": [
@@ -15380,7 +15380,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-536-01",
-      "title": "未解决事项｜第536源章｜1",
+      "title": "炼成阵实现",
       "memo": "转生者、露西亚与炼金术：未解决事项（第536源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15405,7 +15405,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-536-02",
-      "title": "未解决事项｜第536源章｜2",
+      "title": "产能问题",
       "memo": "转生者、露西亚与炼金术：未解决事项（第536源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15430,7 +15430,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-536-03",
-      "title": "未解决事项｜第536源章｜3",
+      "title": "自体试验习惯",
       "memo": "转生者、露西亚与炼金术：未解决事项（第536源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -15455,7 +15455,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-536-01",
-      "title": "主角龙形态｜第536源章｜1",
+      "title": "主角龙形态｜炼金学派.(1)｜主龙失忆形态露西亚已作为炼金学派之长工作，外貌仍是银发少女",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第536源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15481,7 +15481,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-536-01",
-      "title": "主角龙状态｜第536源章｜1",
+      "title": "主角龙状态｜炼金学派.(1)｜她从个人发明者成长为保护知识、设计生产制度并承担组织瓶颈的领导者",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第536源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15506,7 +15506,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-536-01",
-      "title": "主角龙知识边界｜第536源章｜1",
+      "title": "主角龙知识边界｜炼金学派.(1)｜炼成阵尚只是构想",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第536源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15532,7 +15532,7 @@
     },
     {
       "id": "era-25-reincarnators-event-537-01",
-      "title": "事件｜第537源章｜1",
+      "title": "后世炼金装置让有魔力却无炼金知识者也能生产，成为炼金术普及和紫塔崛起基础",
       "memo": "转生者、露西亚与炼金术：事件（第537源章第1条）",
       "category": "event",
       "keys": [
@@ -15557,7 +15557,7 @@
     },
     {
       "id": "era-25-reincarnators-event-537-02",
-      "title": "事件｜第537源章｜2",
+      "title": "露西亚展示炼成阵铁板原型：放铁并注魔即可按固定数值炼成",
       "memo": "转生者、露西亚与炼金术：事件（第537源章第2条）",
       "category": "event",
       "keys": [
@@ -15583,7 +15583,7 @@
     },
     {
       "id": "era-25-reincarnators-event-537-03",
-      "title": "事件｜第537源章｜3",
+      "title": "制作需净水，北风碎片，银粉，固化火焰，金木樨花粉，魔石粉，在全程真空下完成三层铁板",
       "memo": "转生者、露西亚与炼金术：事件（第537源章第3条）",
       "category": "event",
       "keys": [
@@ -15608,7 +15608,7 @@
     },
     {
       "id": "era-25-reincarnators-event-537-04",
-      "title": "事件｜第537源章｜4",
+      "title": "成员提醒增加放料圈和手掌标识，露西亚立即采纳",
       "memo": "转生者、露西亚与炼金术：事件（第537源章第4条）",
       "category": "event",
       "keys": [
@@ -15634,7 +15634,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-537-01",
-      "title": "世界设定事实｜第537源章｜1",
+      "title": "炼金装置使任何有魔力者都能按统一规格炼制",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第537源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15660,7 +15660,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-537-02",
-      "title": "世界设定事实｜第537源章｜2",
+      "title": "后世无法判断原型材料、炼成阵和传导工艺，拆解瞬间会成为普通三层铁板",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第537源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15685,7 +15685,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-537-03",
-      "title": "世界设定事实｜第537源章｜3",
+      "title": "原型需多种材料、全程真空、三种魔法同步和中和不同使用者魔力的高传导炼成阵",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第537源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15710,7 +15710,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-537-04",
-      "title": "世界设定事实｜第537源章｜4",
+      "title": "原型外观标有放料圆圈和可爱手掌印",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第537源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -15736,7 +15736,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-537-01",
-      "title": "新建立连续性｜第537源章｜1",
+      "title": "炼金装置原型",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第537源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15761,7 +15761,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-537-02",
-      "title": "新建立连续性｜第537源章｜2",
+      "title": "炼金术师的铁板",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第537源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15786,7 +15786,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-537-03",
-      "title": "新建立连续性｜第537源章｜3",
+      "title": "真空三层工艺",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第537源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15811,7 +15811,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-537-01",
-      "title": "未解决事项｜第537源章｜1",
+      "title": "量产规模",
       "memo": "转生者、露西亚与炼金术：未解决事项（第537源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15836,7 +15836,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-537-02",
-      "title": "未解决事项｜第537源章｜2",
+      "title": "装置遗失经过",
       "memo": "转生者、露西亚与炼金术：未解决事项（第537源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15861,7 +15861,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-537-03",
-      "title": "未解决事项｜第537源章｜3",
+      "title": "后世复刻秘密",
       "memo": "转生者、露西亚与炼金术：未解决事项（第537源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -15886,7 +15886,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-537-01",
-      "title": "主角龙形态｜第537源章｜1",
+      "title": "主角龙形态｜炼金学派.(2)｜露西亚以炼金学派首领与装置发明者形态工作",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第537源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15912,7 +15912,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-537-01",
-      "title": "主角龙状态｜第537源章｜1",
+      "title": "主角龙状态｜炼金学派.(2)｜她将个人知识固化为他人无需理解便可使用的装置，推动炼金术真正普及",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第537源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15937,7 +15937,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-537-01",
-      "title": "主角龙知识边界｜第537源章｜1",
+      "title": "主角龙知识边界｜炼金学派.(2)｜后世只剩三件与复刻失败是回顾知识",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第537源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15962,7 +15962,7 @@
     },
     {
       "id": "era-25-reincarnators-event-538-01",
-      "title": "事件｜第538源章｜1",
+      "title": "炼金装置量产使炼金铁收益、散修雇佣与正式入派形成正循环，约半销量经拉皮斯商团流通",
       "memo": "转生者、露西亚与炼金术：事件（第538源章第1条）",
       "category": "event",
       "keys": [
@@ -15988,7 +15988,7 @@
     },
     {
       "id": "era-25-reincarnators-event-538-02",
-      "title": "事件｜第538源章｜2",
+      "title": "被骗铁匠持剑闯入，露西亚以地面石材化蛇瞬间束缚并冷静谈判",
       "memo": "转生者、露西亚与炼金术：事件（第538源章第2条）",
       "category": "event",
       "keys": [
@@ -16014,7 +16014,7 @@
     },
     {
       "id": "era-25-reincarnators-event-538-03",
-      "title": "事件｜第538源章｜3",
+      "title": "铁匠从冒名者处买到涂层假炼金铁",
       "memo": "转生者、露西亚与炼金术：事件（第538源章第3条）",
       "category": "event",
       "keys": [
@@ -16040,7 +16040,7 @@
     },
     {
       "id": "era-25-reincarnators-event-538-04",
-      "title": "事件｜第538源章｜4",
+      "title": "副首领通过悬赏迅速抓住白塔预言学派边缘骗子并切断其靠山",
       "memo": "转生者、露西亚与炼金术：事件（第538源章第4条）",
       "category": "event",
       "keys": [
@@ -16066,7 +16066,7 @@
     },
     {
       "id": "era-25-reincarnators-event-538-05",
-      "title": "事件｜第538源章｜5",
+      "title": "露西亚承认残忍威吓是演技，实际以模拟疾病的微刺让神经误报疼痛，并借此验证魔力干扰",
       "memo": "转生者、露西亚与炼金术：事件（第538源章第5条）",
       "category": "event",
       "keys": [
@@ -16092,7 +16092,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-538-01",
-      "title": "世界设定事实｜第538源章｜1",
+      "title": "炼金铁量产收益反哺散修雇佣，部分散修转为学派成员",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第538源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16118,7 +16118,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-538-02",
-      "title": "世界设定事实｜第538源章｜2",
+      "title": "炼金学派只向商会或商团出售炼金铁，不向个人零售",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第538源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16143,7 +16143,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-538-03",
-      "title": "世界设定事实｜第538源章｜3",
+      "title": "冒名骗子与白塔预言学派有挂名关系但无预言能力，事发后被立即除名",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第538源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -16168,7 +16168,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-538-04",
-      "title": "世界设定事实｜第538源章｜4",
+      "title": "对生命或有魔物体使用炼金术会受魔力干扰，可能使身体结晶并碎裂，学派因此全面禁止",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第538源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -16193,7 +16193,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-538-01",
-      "title": "新建立连续性｜第538源章｜1",
+      "title": "副学派长",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第538源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16218,7 +16218,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-538-02",
-      "title": "新建立连续性｜第538源章｜2",
+      "title": "冒名诈骗",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第538源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16243,7 +16243,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-538-03",
-      "title": "新建立连续性｜第538源章｜3",
+      "title": "白塔预言学派关联",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第538源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16268,7 +16268,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-538-04",
-      "title": "新建立连续性｜第538源章｜4",
+      "title": "生命炼金禁令",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第538源章第4条）",
       "category": "continuity",
       "keys": [
@@ -16293,7 +16293,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-538-01",
-      "title": "未解决事项｜第538源章｜1",
+      "title": "白塔是否幕后指使",
       "memo": "转生者、露西亚与炼金术：未解决事项（第538源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16318,7 +16318,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-538-02",
-      "title": "未解决事项｜第538源章｜2",
+      "title": "后续攻击",
       "memo": "转生者、露西亚与炼金术：未解决事项（第538源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16343,7 +16343,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-538-03",
-      "title": "未解决事项｜第538源章｜3",
+      "title": "骗子长期处置",
       "memo": "转生者、露西亚与炼金术：未解决事项（第538源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -16368,7 +16368,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-538-01",
-      "title": "主角龙形态｜第538源章｜1",
+      "title": "主角龙形态｜炼金学派.(3)｜露西亚作为已有两年经验的银发少女首领，能操控石材",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第538源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16394,7 +16394,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-538-01",
-      "title": "主角龙状态｜第538源章｜1",
+      "title": "主角龙状态｜炼金学派.(3)｜主龙独立人格从怕生研究者形成能保护组织、施加惩戒并制定禁令的权威",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第538源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16419,7 +16419,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-538-01",
-      "title": "主角龙知识边界｜第538源章｜1",
+      "title": "主角龙知识边界｜炼金学派.(3)｜骗子是否真受白塔高层指使尚不可核实",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第538源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16445,7 +16445,7 @@
     },
     {
       "id": "era-25-reincarnators-event-539-01",
-      "title": "事件｜第539源章｜1",
+      "title": "骗子被迫在地牢无休止生产炼金铁，与其相连的白塔魔法师失踪",
       "memo": "转生者、露西亚与炼金术：事件（第539源章第1条）",
       "category": "event",
       "keys": [
@@ -16471,7 +16471,7 @@
     },
     {
       "id": "era-25-reincarnators-event-539-02",
-      "title": "事件｜第539源章｜2",
+      "title": "新学派缺乏贵族关系，无法应付白塔经政治权力发动的干扰",
       "memo": "转生者、露西亚与炼金术：事件（第539源章第2条）",
       "category": "event",
       "keys": [
@@ -16497,7 +16497,7 @@
     },
     {
       "id": "era-25-reincarnators-event-539-03",
-      "title": "事件｜第539源章｜3",
+      "title": "炼金学派和拉皮斯商团以垄断炼金铁供应为武器，受干扰领地将失去货源，库存转卖其敌对邻领",
       "memo": "转生者、露西亚与炼金术：事件（第539源章第3条）",
       "category": "event",
       "keys": [
@@ -16523,7 +16523,7 @@
     },
     {
       "id": "era-25-reincarnators-event-539-04",
-      "title": "事件｜第539源章｜4",
+      "title": "利用贵族彼此竞争使政治攻击锐减",
       "memo": "转生者、露西亚与炼金术：事件（第539源章第4条）",
       "category": "event",
       "keys": [
@@ -16549,7 +16549,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-539-01",
-      "title": "世界设定事实｜第539源章｜1",
+      "title": "骗子后来被置于炼金学派地牢，以近似奴隶状态持续生产炼金铁",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第539源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16574,7 +16574,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-539-02",
-      "title": "世界设定事实｜第539源章｜2",
+      "title": "攻击包括假货、恶评、截断铁锭供应、干扰拉皮斯商团和贵族施压",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第539源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16600,7 +16600,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-539-03",
-      "title": "世界设定事实｜第539源章｜3",
+      "title": "白塔与贵族关系最密切，其预言行为常显反常却最终独占利益",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第539源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -16625,7 +16625,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-539-04",
-      "title": "世界设定事实｜第539源章｜4",
+      "title": "炼金铁产销垄断使学派可把库存转给敌对领地，军事压力迫使贵族撤回干扰",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第539源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -16650,7 +16650,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-539-01",
-      "title": "新建立连续性｜第539源章｜1",
+      "title": "白塔系统性攻击",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第539源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16675,7 +16675,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-539-02",
-      "title": "新建立连续性｜第539源章｜2",
+      "title": "炼金铁外交武器",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第539源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16700,7 +16700,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-539-03",
-      "title": "新建立连续性｜第539源章｜3",
+      "title": "以牙还牙教诲",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第539源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16725,7 +16725,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-539-01",
-      "title": "未解决事项｜第539源章｜1",
+      "title": "白塔真正目的",
       "memo": "转生者、露西亚与炼金术：未解决事项（第539源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16750,7 +16750,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-539-02",
-      "title": "未解决事项｜第539源章｜2",
+      "title": "直接对决方案",
       "memo": "转生者、露西亚与炼金术：未解决事项（第539源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16775,7 +16775,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-539-03",
-      "title": "未解决事项｜第539源章｜3",
+      "title": "贵族压力复发",
       "memo": "转生者、露西亚与炼金术：未解决事项（第539源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -16800,7 +16800,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-539-01",
-      "title": "主角龙形态｜第539源章｜1",
+      "title": "主角龙形态｜炼金学派.(4)｜露西亚以成熟学派首领形态指挥商业与政治反制，仍保留困惑歪头等少女习惯",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第539源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16826,7 +16826,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-539-01",
-      "title": "主角龙状态｜第539源章｜1",
+      "title": "主角龙状态｜炼金学派.(4)｜她在未知敌意面前复现本体教导的加倍反击原则，但行动依赖人类组织",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第539源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16851,7 +16851,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-539-01",
-      "title": "主角龙知识边界｜第539源章｜1",
+      "title": "主角龙知识边界｜炼金学派.(4)｜白塔幕后身份为事实上的定论而非逐项实证",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第539源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16876,7 +16876,7 @@
     },
     {
       "id": "era-25-reincarnators-event-540-01",
-      "title": "事件｜第540源章｜1",
+      "title": "炼金学派与白塔公开进行无血战争，牵连范围扩张",
       "memo": "转生者、露西亚与炼金术：事件（第540源章第1条）",
       "category": "event",
       "keys": [
@@ -16905,7 +16905,7 @@
     },
     {
       "id": "era-25-reincarnators-event-540-02",
-      "title": "事件｜第540源章｜2",
+      "title": "赤、绿、蓝塔代理人调解，白塔拒不到场",
       "memo": "转生者、露西亚与炼金术：事件（第540源章第2条）",
       "category": "event",
       "keys": [
@@ -16932,7 +16932,7 @@
     },
     {
       "id": "era-25-reincarnators-event-540-03",
-      "title": "事件｜第540源章｜3",
+      "title": "露西亚回办公室见白袍访客",
       "memo": "转生者、露西亚与炼金术：事件（第540源章第3条）",
       "category": "event",
       "keys": [
@@ -16959,7 +16959,7 @@
     },
     {
       "id": "era-25-reincarnators-event-540-04",
-      "title": "事件｜第540源章｜4",
+      "title": "西比拉称露西亚把炼金术提前五百年，是完全避开预言并破坏既定未来的不规则存在",
       "memo": "转生者、露西亚与炼金术：事件（第540源章第4条）",
       "category": "event",
       "keys": [
@@ -16986,7 +16986,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-540-01",
-      "title": "世界设定事实｜第540源章｜1",
+      "title": "矮人与精灵因拉皮斯、维罗妮卡的人际关系站到炼金学派一侧",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第540源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17013,7 +17013,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-540-02",
-      "title": "世界设定事实｜第540源章｜2",
+      "title": "赤、绿、蓝塔共同调解",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第540源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17039,7 +17039,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-540-03",
-      "title": "世界设定事实｜第540源章｜3",
+      "title": "预言学派几乎不会元素魔法或魔力箭，却因其预言必然实现而位列七塔之首",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第540源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17064,7 +17064,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-540-04",
-      "title": "世界设定事实｜第540源章｜4",
+      "title": "西比拉称原本预言中炼金术应在五百年后出现，露西亚使其提前并令改变后的未来不可见",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第540源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -17091,7 +17091,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-540-05",
-      "title": "世界设定事实｜第540源章｜5",
+      "title": "西比拉为蒙白布银发幼女，与露西亚外貌近乎镜像",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第540源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -17118,7 +17118,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-540-01",
-      "title": "新建立连续性｜第540源章｜1",
+      "title": "西比拉",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第540源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17144,7 +17144,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-540-02",
-      "title": "新建立连续性｜第540源章｜2",
+      "title": "白塔投降",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第540源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17169,7 +17169,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-540-03",
-      "title": "新建立连续性｜第540源章｜3",
+      "title": "不可预言的露西亚",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第540源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17195,7 +17195,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-540-04",
-      "title": "新建立连续性｜第540源章｜4",
+      "title": "炼金术提前五百年",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第540源章第4条）",
       "category": "continuity",
       "keys": [
@@ -17220,7 +17220,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-540-01",
-      "title": "未解决事项｜第540源章｜1",
+      "title": "西比拉与露西亚外貌关系",
       "memo": "转生者、露西亚与炼金术：未解决事项（第540源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17247,7 +17247,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-540-02",
-      "title": "未解决事项｜第540源章｜2",
+      "title": "投降条件是否接受",
       "memo": "转生者、露西亚与炼金术：未解决事项（第540源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17272,7 +17272,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-540-03",
-      "title": "未解决事项｜第540源章｜3",
+      "title": "主龙封印真相揭露",
       "memo": "转生者、露西亚与炼金术：未解决事项（第540源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -17297,7 +17297,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-540-01",
-      "title": "主角龙形态｜第540源章｜1",
+      "title": "主角龙形态｜炼金学派.(5)｜主龙失忆形态露西亚与外貌近乎相同的白塔首领西比拉首次会面",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第540源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17324,7 +17324,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-540-01",
-      "title": "主角龙状态｜第540源章｜1",
+      "title": "主角龙状态｜炼金学派.(5)｜洛伦设计的断连封印确实成功制造出连预言者都完全看不见的变量",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第540源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17349,7 +17349,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-540-01",
-      "title": "主角龙知识边界｜第540源章｜1",
+      "title": "主角龙知识边界｜炼金学派.(5)｜露西亚不知道自己为何不可预言",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第540源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17376,7 +17376,7 @@
     },
     {
       "id": "era-25-reincarnators-event-541-01",
-      "title": "事件｜第541源章｜1",
+      "title": "西比拉要求双方随员离开，与露西亚私谈",
       "memo": "转生者、露西亚与炼金术：事件（第541源章第1条）",
       "category": "event",
       "keys": [
@@ -17403,7 +17403,7 @@
     },
     {
       "id": "era-25-reincarnators-event-541-02",
-      "title": "事件｜第541源章｜2",
+      "title": "露西亚仍怀疑西比拉可能是假塔主或同归于尽的诱饵",
       "memo": "转生者、露西亚与炼金术：事件（第541源章第2条）",
       "category": "event",
       "keys": [
@@ -17430,7 +17430,7 @@
     },
     {
       "id": "era-25-reincarnators-event-541-03",
-      "title": "事件｜第541源章｜3",
+      "title": "西比拉说明西比拉是继承白塔后舍弃原名的称号",
       "memo": "转生者、露西亚与炼金术：事件（第541源章第3条）",
       "category": "event",
       "keys": [
@@ -17456,7 +17456,7 @@
     },
     {
       "id": "era-25-reincarnators-event-541-04",
-      "title": "事件｜第541源章｜4",
+      "title": "预言学派自称维护世界的‘小丑’，通过刺激让主龙保持兴趣",
       "memo": "转生者、露西亚与炼金术：事件（第541源章第4条）",
       "category": "event",
       "keys": [
@@ -17482,7 +17482,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-541-01",
-      "title": "世界设定事实｜第541源章｜1",
+      "title": "西比拉双眼瞳孔被白光浸染，几乎无法分清眼白眼瞳，是预言能力与塔主职责标志",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第541源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17508,7 +17508,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-541-02",
-      "title": "世界设定事实｜第541源章｜2",
+      "title": "西比拉是代号，继承者舍弃旧名",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第541源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17534,7 +17534,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-541-03",
-      "title": "世界设定事实｜第541源章｜3",
+      "title": "白塔公开组织目标是预知、控制、调节一切",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第541源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17559,7 +17559,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-541-04",
-      "title": "世界设定事实｜第541源章｜4",
+      "title": "西比拉明确承认预言学派策划天狼星陨落，目标是让生命女神成为帝国守护龙并留在人间关系中",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第541源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -17585,7 +17585,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-541-01",
-      "title": "新建立连续性｜第541源章｜1",
+      "title": "西比拉白瞳",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第541源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17611,7 +17611,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-541-02",
-      "title": "新建立连续性｜第541源章｜2",
+      "title": "天狼星策划真相",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第541源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17636,7 +17636,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-541-03",
-      "title": "新建立连续性｜第541源章｜3",
+      "title": "白塔小丑使命",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第541源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17661,7 +17661,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-541-04",
-      "title": "新建立连续性｜第541源章｜4",
+      "title": "私密问答",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第541源章第4条）",
       "category": "continuity",
       "keys": [
@@ -17686,7 +17686,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-541-01",
-      "title": "未解决事项｜第541源章｜1",
+      "title": "预言终局",
       "memo": "转生者、露西亚与炼金术：未解决事项（第541源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17711,7 +17711,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-541-02",
-      "title": "未解决事项｜第541源章｜2",
+      "title": "西比拉同貌来源",
       "memo": "转生者、露西亚与炼金术：未解决事项（第541源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17737,7 +17737,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-541-03",
-      "title": "未解决事项｜第541源章｜3",
+      "title": "记忆抽离",
       "memo": "转生者、露西亚与炼金术：未解决事项（第541源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -17762,7 +17762,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-541-01",
-      "title": "主角龙形态｜第541源章｜1",
+      "title": "主角龙形态｜预言学派.(1)｜露西亚与西比拉都是由守护龙照料，外貌同源的银发少女",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第541源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17789,7 +17789,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-541-01",
-      "title": "主角龙状态｜第541源章｜1",
+      "title": "主角龙状态｜预言学派.(1)｜失忆主龙分身正在获得本体一直追查的天狼星真相",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第541源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17814,7 +17814,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-541-01",
-      "title": "主角龙知识边界｜第541源章｜1",
+      "title": "主角龙知识边界｜预言学派.(1)｜露西亚仍不知自己是分身",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第541源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17841,7 +17841,7 @@
     },
     {
       "id": "era-25-reincarnators-event-542-01",
-      "title": "事件｜第542源章｜1",
+      "title": "西比拉称永恒公务会磨损有心的生命女神，使其只关注趣事",
       "memo": "转生者、露西亚与炼金术：事件（第542源章第1条）",
       "category": "event",
       "keys": [
@@ -17867,7 +17867,7 @@
     },
     {
       "id": "era-25-reincarnators-event-542-02",
-      "title": "事件｜第542源章｜2",
+      "title": "预言学派源于生命教团、读取魔力者与深林贤者神格残骸",
       "memo": "转生者、露西亚与炼金术：事件（第542源章第2条）",
       "category": "event",
       "keys": [
@@ -17893,7 +17893,7 @@
     },
     {
       "id": "era-25-reincarnators-event-542-03",
-      "title": "事件｜第542源章｜3",
+      "title": "西比拉把露西亚出现视作长期罪行与努力终于改变预言的证明，认为学派使命完成",
       "memo": "转生者、露西亚与炼金术：事件（第542源章第3条）",
       "category": "event",
       "keys": [
@@ -17920,7 +17920,7 @@
     },
     {
       "id": "era-25-reincarnators-event-542-04",
-      "title": "事件｜第542源章｜4",
+      "title": "露西亚打断西比拉自顾自告别，要求解释同貌、代代相传姓名与眼睛",
       "memo": "转生者、露西亚与炼金术：事件（第542源章第4条）",
       "category": "event",
       "keys": [
@@ -17947,7 +17947,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-542-01",
-      "title": "世界设定事实｜第542源章｜1",
+      "title": "终结预言为万物化银灰，主龙清理世界并独自离去",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第542源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17972,7 +17972,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-542-02",
-      "title": "世界设定事实｜第542源章｜2",
+      "title": "预言学派由生命教团、读取魔力者和深林贤者残留神格记忆建立",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第542源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17998,7 +17998,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-542-03",
-      "title": "世界设定事实｜第542源章｜3",
+      "title": "白塔为改变终局做过大量致人痛苦之事",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第542源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -18025,7 +18025,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-542-01",
-      "title": "新建立连续性｜第542源章｜1",
+      "title": "银灰终结预言",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第542源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18050,7 +18050,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-542-02",
-      "title": "新建立连续性｜第542源章｜2",
+      "title": "深林贤者记忆残骸",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第542源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18076,7 +18076,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-542-03",
-      "title": "新建立连续性｜第542源章｜3",
+      "title": "白塔解散决定",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第542源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18101,7 +18101,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-542-01",
-      "title": "未解决事项｜第542源章｜1",
+      "title": "西比拉历代机制",
       "memo": "转生者、露西亚与炼金术：未解决事项（第542源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18127,7 +18127,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-542-02",
-      "title": "未解决事项｜第542源章｜2",
+      "title": "露西亚记忆处理",
       "memo": "转生者、露西亚与炼金术：未解决事项（第542源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -18153,7 +18153,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-542-03",
-      "title": "未解决事项｜第542源章｜3",
+      "title": "未来是否真正避免",
       "memo": "转生者、露西亚与炼金术：未解决事项（第542源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -18178,7 +18178,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-542-01",
-      "title": "主角龙形态｜第542源章｜1",
+      "title": "主角龙形态｜预言学派.(2)｜露西亚作为从主龙内部诞生却能从外部注视她的唯一存在",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第542源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18205,7 +18205,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-542-01",
-      "title": "主角龙状态｜第542源章｜1",
+      "title": "主角龙状态｜预言学派.(2)｜主龙为了找敌人制造的反预言分身",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第542源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18230,7 +18230,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-542-01",
-      "title": "主角龙知识边界｜第542源章｜1",
+      "title": "主角龙知识边界｜预言学派.(2)｜改变后的未来是好是坏仍不可见",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第542源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18256,7 +18256,7 @@
     },
     {
       "id": "era-25-reincarnators-event-543-01",
-      "title": "事件｜第543源章｜1",
+      "title": "西比拉提出创造物像创造者的未证假说解释同貌，列生命女神蓝图",
       "memo": "转生者、露西亚与炼金术：事件（第543源章第1条）",
       "category": "event",
       "keys": [
@@ -18283,7 +18283,7 @@
     },
     {
       "id": "era-25-reincarnators-event-543-02",
-      "title": "事件｜第543源章｜2",
+      "title": "雪白眼睛代表继承历代西比拉记忆、预言和使命",
       "memo": "转生者、露西亚与炼金术：事件（第543源章第2条）",
       "category": "event",
       "keys": [
@@ -18310,7 +18310,7 @@
     },
     {
       "id": "era-25-reincarnators-event-543-03",
-      "title": "事件｜第543源章｜3",
+      "title": "预言一旦看见即固定，白塔豪赌通过露西亚使其改变",
       "memo": "转生者、露西亚与炼金术：事件（第543源章第3条）",
       "category": "event",
       "keys": [
@@ -18336,7 +18336,7 @@
     },
     {
       "id": "era-25-reincarnators-event-543-04",
-      "title": "事件｜第543源章｜4",
+      "title": "西比拉解任后唯一明确愿望是不做预知梦地安睡",
       "memo": "转生者、露西亚与炼金术：事件（第543源章第4条）",
       "category": "event",
       "keys": [
@@ -18362,7 +18362,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-543-01",
-      "title": "世界设定事实｜第543源章｜1",
+      "title": "创造物似创造者仅是西比拉未证假说，替代解释包括生命蓝图",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第543源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18388,7 +18388,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-543-02",
-      "title": "世界设定事实｜第543源章｜2",
+      "title": "第一任西比拉在罗马尼亚皇室庭院女神像接触深林贤者记忆",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第543源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18415,7 +18415,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-543-03",
-      "title": "世界设定事实｜第543源章｜3",
+      "title": "第一代开发记忆传递和局部记忆操纵，选高魔力银发少女继承",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第543源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -18441,7 +18441,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-543-04",
-      "title": "世界设定事实｜第543源章｜4",
+      "title": "白塔交接将以封印真谈和植入投降表层记忆进行",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第543源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -18466,7 +18466,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-543-01",
-      "title": "新建立连续性｜第543源章｜1",
+      "title": "历代西比拉记忆传递",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第543源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18492,7 +18492,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-543-02",
-      "title": "新建立连续性｜第543源章｜2",
+      "title": "白瞳副作用",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第543源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18517,7 +18517,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-543-03",
-      "title": "新建立连续性｜第543源章｜3",
+      "title": "无梦睡眠愿望",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第543源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18542,7 +18542,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-543-04",
-      "title": "新建立连续性｜第543源章｜4",
+      "title": "表层记忆替换计划",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第543源章第4条）",
       "category": "continuity",
       "keys": [
@@ -18567,7 +18567,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-543-01",
-      "title": "未解决事项｜第543源章｜1",
+      "title": "记忆操纵执行结果",
       "memo": "转生者、露西亚与炼金术：未解决事项（第543源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18592,7 +18592,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-543-02",
-      "title": "未解决事项｜第543源章｜2",
+      "title": "白塔并入细节",
       "memo": "转生者、露西亚与炼金术：未解决事项（第543源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -18617,7 +18617,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-543-03",
-      "title": "未解决事项｜第543源章｜3",
+      "title": "露西亚真相何时恢复",
       "memo": "转生者、露西亚与炼金术：未解决事项（第543源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -18643,7 +18643,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-543-01",
-      "title": "主角龙形态｜第543源章｜1",
+      "title": "主角龙形态｜预言学派.(3)｜露西亚为有角帽的银发龙分身",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第543源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18670,7 +18670,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-543-01",
-      "title": "主角龙状态｜第543源章｜1",
+      "title": "主角龙状态｜预言学派.(3)｜露西亚即将失去本次核心问答的表层记忆，本体仍不会直接获知真相",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第543源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18696,7 +18696,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-543-01",
-      "title": "主角龙知识边界｜第543源章｜1",
+      "title": "主角龙知识边界｜预言学派.(3)｜同貌原因未明确证明",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第543源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18723,7 +18723,7 @@
     },
     {
       "id": "era-25-reincarnators-event-544-01",
-      "title": "事件｜第544源章｜1",
+      "title": "白塔投降传遍内外，真实秘密被流言替代",
       "memo": "转生者、露西亚与炼金术：事件（第544源章第1条）",
       "category": "event",
       "keys": [
@@ -18749,7 +18749,7 @@
     },
     {
       "id": "era-25-reincarnators-event-544-02",
-      "title": "事件｜第544源章｜2",
+      "title": "两敌对学派合并带来势力、人员与文化冲突",
       "memo": "转生者、露西亚与炼金术：事件（第544源章第2条）",
       "category": "event",
       "keys": [
@@ -18776,7 +18776,7 @@
     },
     {
       "id": "era-25-reincarnators-event-544-03",
-      "title": "事件｜第544源章｜3",
+      "title": "西蒙已继任赤塔主",
       "memo": "转生者、露西亚与炼金术：事件（第544源章第3条）",
       "category": "event",
       "keys": [
@@ -18803,7 +18803,7 @@
     },
     {
       "id": "era-25-reincarnators-event-544-04",
-      "title": "事件｜第544源章｜4",
+      "title": "四人在生命教团祈祷室联系生命女神",
       "memo": "转生者、露西亚与炼金术：事件（第544源章第4条）",
       "category": "event",
       "keys": [
@@ -18832,7 +18832,7 @@
     },
     {
       "id": "era-25-reincarnators-event-544-05",
-      "title": "事件｜第544源章｜5",
+      "title": "后世无名童话把四个愿望改写为富翁受诅，治疗者隐居",
       "memo": "转生者、露西亚与炼金术：事件（第544源章第5条）",
       "category": "event",
       "keys": [
@@ -18857,7 +18857,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-544-01",
-      "title": "世界设定事实｜第544源章｜1",
+      "title": "炼金与预言成员经冲突，罚款和管理整合后成立紫色魔塔，取代白塔成为七塔之一",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第544源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18882,7 +18882,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-544-02",
-      "title": "世界设定事实｜第544源章｜2",
+      "title": "西蒙已正式继任赤色魔塔主",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第544源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18908,7 +18908,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-544-03",
-      "title": "世界设定事实｜第544源章｜3",
+      "title": "生命女神确认维罗妮卡、拉皮斯、西蒙、露西亚四人均获一个能力范围内愿望",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第544源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -18937,7 +18937,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-544-04",
-      "title": "世界设定事实｜第544源章｜4",
+      "title": "四愿望与贤者之石段落来自后世无名童话且明确混有虚假，不能直接当同期正史",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第544源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -18962,7 +18962,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-544-01",
-      "title": "新建立连续性｜第544源章｜1",
+      "title": "紫色魔塔成立",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第544源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18987,7 +18987,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-544-02",
-      "title": "新建立连续性｜第544源章｜2",
+      "title": "四人愿望资格",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第544源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19012,7 +19012,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-544-03",
-      "title": "新建立连续性｜第544源章｜3",
+      "title": "西蒙继任赤塔主",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第544源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19038,7 +19038,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-544-04",
-      "title": "新建立连续性｜第544源章｜4",
+      "title": "童话失真传统",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第544源章第4条）",
       "category": "continuity",
       "keys": [
@@ -19063,7 +19063,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-544-01",
-      "title": "未解决事项｜第544源章｜1",
+      "title": "四个真实愿望",
       "memo": "转生者、露西亚与炼金术：未解决事项（第544源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19088,7 +19088,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-544-02",
-      "title": "未解决事项｜第544源章｜2",
+      "title": "露西亚愿望",
       "memo": "转生者、露西亚与炼金术：未解决事项（第544源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19114,7 +19114,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-544-03",
-      "title": "未解决事项｜第544源章｜3",
+      "title": "贤者之石真实性",
       "memo": "转生者、露西亚与炼金术：未解决事项（第544源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -19139,7 +19139,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-544-01",
-      "title": "主角龙形态｜第544源章｜1",
+      "title": "主角龙形态｜紫色魔塔.(1)｜同一主龙同时以不知真相的露西亚实体形态和生命女神祈祷声音出现",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第544源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19165,7 +19165,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-544-01",
-      "title": "主角龙状态｜第544源章｜1",
+      "title": "主角龙状态｜紫色魔塔.(1)｜失忆分身完成反预言任务并建立紫塔，本体将她视作独立功臣、准备赐愿",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第544源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19190,7 +19190,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-544-01",
-      "title": "主角龙知识边界｜第544源章｜1",
+      "title": "主角龙知识边界｜紫色魔塔.(1)｜露西亚对西比拉真谈记忆已被封印",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第544源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19217,7 +19217,7 @@
     },
     {
       "id": "era-25-reincarnators-event-545-01",
-      "title": "事件｜第545源章｜1",
+      "title": "露西亚从三人的地球物品、食物和文化暗号提出消失之地、异世界、未来三种假说",
       "memo": "转生者、露西亚与炼金术：事件（第545源章第1条）",
       "category": "event",
       "keys": [
@@ -19244,7 +19244,7 @@
     },
     {
       "id": "era-25-reincarnators-event-545-02",
-      "title": "事件｜第545源章｜2",
+      "title": "露西亚请求异世界知识",
       "memo": "转生者、露西亚与炼金术：事件（第545源章第2条）",
       "category": "event",
       "keys": [
@@ -19270,7 +19270,7 @@
     },
     {
       "id": "era-25-reincarnators-event-545-03",
-      "title": "事件｜第545源章｜3",
+      "title": "后世老炼金术师回忆始祖发明无马列车，飞船与远距通信",
       "memo": "转生者、露西亚与炼金术：事件（第545源章第3条）",
       "category": "event",
       "keys": [
@@ -19295,7 +19295,7 @@
     },
     {
       "id": "era-25-reincarnators-event-545-04",
-      "title": "事件｜第545源章｜4",
+      "title": "紫塔发明与税收使普罗西亚财政大获其利",
       "memo": "转生者、露西亚与炼金术：事件（第545源章第4条）",
       "category": "event",
       "keys": [
@@ -19321,7 +19321,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-545-01",
-      "title": "世界设定事实｜第545源章｜1",
+      "title": "露西亚角帽被赋予地球维基百科访问能力，操作是压低帽子覆盖额头并闭眼",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第545源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19347,7 +19347,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-545-02",
-      "title": "世界设定事实｜第545源章｜2",
+      "title": "后世归于始祖的发明包括魔力列车、飞行船和远距魔力通信",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第545源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19372,7 +19372,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-545-03",
-      "title": "世界设定事实｜第545源章｜3",
+      "title": "紫塔巨额税收显著充实普罗西亚财政，原副首领已称副塔主",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第545源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -19397,7 +19397,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-545-01",
-      "title": "新建立连续性｜第545源章｜1",
+      "title": "维基百科愿望",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第545源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19422,7 +19422,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-545-02",
-      "title": "新建立连续性｜第545源章｜2",
+      "title": "角帽知识界面",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第545源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19447,7 +19447,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-545-03",
-      "title": "新建立连续性｜第545源章｜3",
+      "title": "人造魔石",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第545源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19472,7 +19472,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-545-04",
-      "title": "新建立连续性｜第545源章｜4",
+      "title": "紫塔财政贡献",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第545源章第4条）",
       "category": "continuity",
       "keys": [
@@ -19497,7 +19497,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-545-01",
-      "title": "未解决事项｜第545源章｜1",
+      "title": "人造魔石量产",
       "memo": "转生者、露西亚与炼金术：未解决事项（第545源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19522,7 +19522,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-545-02",
-      "title": "未解决事项｜第545源章｜2",
+      "title": "其他三人愿望",
       "memo": "转生者、露西亚与炼金术：未解决事项（第545源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19547,7 +19547,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-545-03",
-      "title": "未解决事项｜第545源章｜3",
+      "title": "知识输入影响",
       "memo": "转生者、露西亚与炼金术：未解决事项（第545源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -19572,7 +19572,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-545-01",
-      "title": "主角龙形态｜第545源章｜1",
+      "title": "主角龙形态｜紫色魔塔.(2)｜露西亚以紫塔主形态获得由本体亲手附魔的角帽知识界面",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第545源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19598,7 +19598,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-545-01",
-      "title": "主角龙状态｜第545源章｜1",
+      "title": "主角龙状态｜紫色魔塔.(2)｜本体把受限地球知识重新提供给已封存本体记忆的分身",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第545源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19623,7 +19623,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-545-01",
-      "title": "主角龙知识边界｜第545源章｜1",
+      "title": "主角龙知识边界｜紫色魔塔.(2)｜许可仅限维基百科而非完整互联网",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第545源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19649,7 +19649,7 @@
     },
     {
       "id": "era-25-reincarnators-event-546-01",
-      "title": "事件｜第546源章｜1",
+      "title": "露西亚向副塔主展示多颗人工魔石并暂时保密",
       "memo": "转生者、露西亚与炼金术：事件（第546源章第1条）",
       "category": "event",
       "keys": [
@@ -19675,7 +19675,7 @@
     },
     {
       "id": "era-25-reincarnators-event-546-02",
-      "title": "事件｜第546源章｜2",
+      "title": "副塔主坚持绝不能敌对生命教团，建议正式交涉",
       "memo": "转生者、露西亚与炼金术：事件（第546源章第2条）",
       "category": "event",
       "keys": [
@@ -19701,7 +19701,7 @@
     },
     {
       "id": "era-25-reincarnators-event-546-03",
-      "title": "事件｜第546源章｜3",
+      "title": "生命教团长期支持露西亚，仍被人工魔石震惊",
       "memo": "转生者、露西亚与炼金术：事件（第546源章第3条）",
       "category": "event",
       "keys": [
@@ -19727,7 +19727,7 @@
     },
     {
       "id": "era-25-reincarnators-event-546-04",
-      "title": "事件｜第546源章｜4",
+      "title": "预计月产可达支部净化量三成并可扩张",
       "memo": "转生者、露西亚与炼金术：事件（第546源章第4条）",
       "category": "event",
       "keys": [
@@ -19753,7 +19753,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-546-01",
-      "title": "世界设定事实｜第546源章｜1",
+      "title": "魔石长期供不应求",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第546源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19778,7 +19778,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-546-02",
-      "title": "世界设定事实｜第546源章｜2",
+      "title": "人工魔石以耗尽魔石粉、炼金溶液、注入魔法师魔力和模具固化制成，人体魔力会自然恢复",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第546源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19803,7 +19803,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-546-03",
-      "title": "世界设定事实｜第546源章｜3",
+      "title": "初拟月产约等于普罗西亚生命教团净化量三成，扩设施可继续增产",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第546源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -19828,7 +19828,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-546-01",
-      "title": "新建立连续性｜第546源章｜1",
+      "title": "人工魔石工艺",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第546源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19853,7 +19853,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-546-02",
-      "title": "新建立连续性｜第546源章｜2",
+      "title": "生命教团处置权",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第546源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19878,7 +19878,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-546-03",
-      "title": "新建立连续性｜第546源章｜3",
+      "title": "副塔主风险评估",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第546源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19903,7 +19903,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-546-01",
-      "title": "未解决事项｜第546源章｜1",
+      "title": "教团高层答复",
       "memo": "转生者、露西亚与炼金术：未解决事项（第546源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19928,7 +19928,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-546-02",
-      "title": "未解决事项｜第546源章｜2",
+      "title": "正式生产安排",
       "memo": "转生者、露西亚与炼金术：未解决事项（第546源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19953,7 +19953,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-546-03",
-      "title": "未解决事项｜第546源章｜3",
+      "title": "技术保密",
       "memo": "转生者、露西亚与炼金术：未解决事项（第546源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -19978,7 +19978,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-546-01",
-      "title": "主角龙形态｜第546源章｜1",
+      "title": "主角龙形态｜紫色魔塔.(3)｜露西亚以紫塔主、发明者和生命教团受助者身份交涉",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第546源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20004,7 +20004,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-546-01",
-      "title": "主角龙状态｜第546源章｜1",
+      "title": "主角龙状态｜紫色魔塔.(3)｜她把地球储能启发转化为人工魔石，但主动接受本体宗教体系的监管",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第546源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20029,7 +20029,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-546-01",
-      "title": "主角龙知识边界｜第546源章｜1",
+      "title": "主角龙知识边界｜紫色魔塔.(3)｜此时只是试制与授权申请，尚未获高层批准",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第546源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20054,7 +20054,7 @@
     },
     {
       "id": "era-25-reincarnators-event-547-01",
-      "title": "事件｜第547源章｜1",
+      "title": "后世评论说明魔石已成为多种族文明根基，教团凭稳定但受限供应维持第一信仰",
       "memo": "转生者、露西亚与炼金术：事件（第547源章第1条）",
       "category": "event",
       "keys": [
@@ -20079,7 +20079,7 @@
     },
     {
       "id": "era-25-reincarnators-event-547-02",
-      "title": "事件｜第547源章｜2",
+      "title": "阴谋论著作指责露西亚为教团利益销毁人工魔石，作者被双方起诉",
       "memo": "转生者、露西亚与炼金术：事件（第547源章第2条）",
       "category": "event",
       "keys": [
@@ -20105,7 +20105,7 @@
     },
     {
       "id": "era-25-reincarnators-event-547-03",
-      "title": "事件｜第547源章｜3",
+      "title": "教团高层不到一天批准在其管理下生产",
       "memo": "转生者、露西亚与炼金术：事件（第547源章第3条）",
       "category": "event",
       "keys": [
@@ -20130,7 +20130,7 @@
     },
     {
       "id": "era-25-reincarnators-event-547-04",
-      "title": "事件｜第547源章｜4",
+      "title": "为扩大注魔人力又防工艺外泄，祭司提出把溶液谎称恢复药原料，教团负责注魔收尾",
       "memo": "转生者、露西亚与炼金术：事件（第547源章第4条）",
       "category": "event",
       "keys": [
@@ -20156,7 +20156,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-547-01",
-      "title": "世界设定事实｜第547源章｜1",
+      "title": "生命教团控制魔石净化装置信息并保持异常稳定供应，外界长期怀疑其人为限产",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第547源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -20181,7 +20181,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-547-02",
-      "title": "世界设定事实｜第547源章｜2",
+      "title": "生命教团高层在不到一天内批准人工魔石，但生产必须置于教团管理",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第547源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -20206,7 +20206,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-547-03",
-      "title": "世界设定事实｜第547源章｜3",
+      "title": "特殊溶液可在任意阶段注入魔力且不会逸散",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第547源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -20231,7 +20231,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-547-04",
-      "title": "世界设定事实｜第547源章｜4",
+      "title": "紫塔长期向生命教团供应高效恢复药，是学派主要收入之一，冒险者普遍携带",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第547源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -20256,7 +20256,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-547-01",
-      "title": "新建立连续性｜第547源章｜1",
+      "title": "人工魔石获批",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第547源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20281,7 +20281,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-547-02",
-      "title": "新建立连续性｜第547源章｜2",
+      "title": "秘密注魔工序",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第547源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20306,7 +20306,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-547-03",
-      "title": "新建立连续性｜第547源章｜3",
+      "title": "魔力恢复药掩护",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第547源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20331,7 +20331,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-547-01",
-      "title": "未解决事项｜第547源章｜1",
+      "title": "真实量产结果",
       "memo": "转生者、露西亚与炼金术：未解决事项（第547源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20356,7 +20356,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-547-02",
-      "title": "未解决事项｜第547源章｜2",
+      "title": "绿塔反应",
       "memo": "转生者、露西亚与炼金术：未解决事项（第547源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -20381,7 +20381,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-547-03",
-      "title": "未解决事项｜第547源章｜3",
+      "title": "后世工艺失传原因",
       "memo": "转生者、露西亚与炼金术：未解决事项（第547源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -20406,7 +20406,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-547-01",
-      "title": "主角龙形态｜第547源章｜1",
+      "title": "主角龙形态｜紫色魔塔.(4)｜露西亚作为紫塔主与生命教团支部共同设计人工魔石生产保密体系",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第547源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20432,7 +20432,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-547-01",
-      "title": "主角龙状态｜第547源章｜1",
+      "title": "主角龙状态｜紫色魔塔.(4)｜她以改善资源短缺为目的，同时学会使用制度秘密和掩护项目",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第547源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20457,7 +20457,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-547-01",
-      "title": "主角龙知识边界｜第547源章｜1",
+      "title": "主角龙知识边界｜紫色魔塔.(4)｜阴谋论著作对露西亚销毁工艺的指控已被叙事明确削弱，不能当真",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第547源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20483,7 +20483,7 @@
     },
     {
       "id": "era-25-reincarnators-event-548-01",
-      "title": "事件｜第548源章｜1",
+      "title": "西蒙无法区分人工与天然魔石",
       "memo": "转生者、露西亚与炼金术：事件（第548源章第1条）",
       "category": "event",
       "keys": [
@@ -20510,7 +20510,7 @@
     },
     {
       "id": "era-25-reincarnators-event-548-02",
-      "title": "事件｜第548源章｜2",
+      "title": "露西亚从地球电力、干电池和蓄电池类比出人造魔石，希望防止资源战争、让人类和众神更幸福",
       "memo": "转生者、露西亚与炼金术：事件（第548源章第2条）",
       "category": "event",
       "keys": [
@@ -20537,7 +20537,7 @@
     },
     {
       "id": "era-25-reincarnators-event-548-03",
-      "title": "事件｜第548源章｜3",
+      "title": "后世魔法学园社团两名未名少女讨论会刊",
       "memo": "转生者、露西亚与炼金术：事件（第548源章第3条）",
       "category": "event",
       "keys": [
@@ -20562,7 +20562,7 @@
     },
     {
       "id": "era-25-reincarnators-event-548-04",
-      "title": "事件｜第548源章｜4",
+      "title": "炼金发明已渗透空调、冰箱、眼镜、影印、建筑",
       "memo": "转生者、露西亚与炼金术：事件（第548源章第4条）",
       "category": "event",
       "keys": [
@@ -20587,7 +20587,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-548-01",
-      "title": "世界设定事实｜第548源章｜1",
+      "title": "人工魔石与天然品成分近同，只以可人工物质替换部分成分",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第548源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -20612,7 +20612,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-548-02",
-      "title": "世界设定事实｜第548源章｜2",
+      "title": "露西亚用地球电力、干电池和蓄电池理解魔石，目标包含减少资源匮乏战争",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第548源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -20638,7 +20638,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-548-03",
-      "title": "世界设定事实｜第548源章｜3",
+      "title": "后世紫塔始祖发明名目仅列举即占会刊七页，七塔主年表记录难以查阅",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第548源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -20663,7 +20663,7 @@
     },
     {
       "id": "era-25-reincarnators-world-fact-548-04",
-      "title": "世界设定事实｜第548源章｜4",
+      "title": "炼金技术已进入温控、冷藏、视力矫正、影印、建筑，并研究远距通话与无形文书网络",
       "memo": "转生者、露西亚与炼金术：世界设定事实（第548源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -20688,7 +20688,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-548-01",
-      "title": "新建立连续性｜第548源章｜1",
+      "title": "电池类比",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第548源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20713,7 +20713,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-548-02",
-      "title": "新建立连续性｜第548源章｜2",
+      "title": "改善世界强迫感",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第548源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20738,7 +20738,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-548-03",
-      "title": "新建立连续性｜第548源章｜3",
+      "title": "后世无形文书与远距通话",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第548源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20763,7 +20763,7 @@
     },
     {
       "id": "era-25-reincarnators-continuity-new-548-04",
-      "title": "新建立连续性｜第548源章｜4",
+      "title": "两名未名学生",
       "memo": "转生者、露西亚与炼金术：新建立连续性（第548源章第4条）",
       "category": "continuity",
       "keys": [
@@ -20788,7 +20788,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-548-01",
-      "title": "未解决事项｜第548源章｜1",
+      "title": "某人指向",
       "memo": "转生者、露西亚与炼金术：未解决事项（第548源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20813,7 +20813,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-548-02",
-      "title": "未解决事项｜第548源章｜2",
+      "title": "后世少女身份",
       "memo": "转生者、露西亚与炼金术：未解决事项（第548源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -20838,7 +20838,7 @@
     },
     {
       "id": "era-25-reincarnators-unresolved-548-03",
-      "title": "未解决事项｜第548源章｜3",
+      "title": "人工魔石长期结果",
       "memo": "转生者、露西亚与炼金术：未解决事项（第548源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -20863,7 +20863,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-form-548-01",
-      "title": "主角龙形态｜第548源章｜1",
+      "title": "主角龙形态｜紫色魔塔.(5)｜露西亚仍以紫塔主形态推进人工魔石",
       "memo": "转生者、露西亚与炼金术：主角龙形态（第548源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20889,7 +20889,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-state-548-01",
-      "title": "主角龙状态｜第548源章｜1",
+      "title": "主角龙状态｜紫色魔塔.(5)｜露西亚的深层任务由‘不让某人失望’驱动改善世界",
       "memo": "转生者、露西亚与炼金术：主角龙状态（第548源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20916,7 +20916,7 @@
     },
     {
       "id": "era-25-reincarnators-protagonist-knowledge-548-01",
-      "title": "主角龙知识边界｜第548源章｜1",
+      "title": "主角龙知识边界｜紫色魔塔.(5)｜露西亚本人未说‘某人’是谁",
       "memo": "转生者、露西亚与炼金术：主角龙知识边界（第548源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20942,7 +20942,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-01",
-      "title": "次要人物｜炼金学派成员（未命名）",
+      "title": "炼金学派成员（未命名）",
       "memo": "转生者、露西亚与炼金术：次要人物 炼金学派成员（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -20972,7 +20972,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-02",
-      "title": "次要人物｜诺亚之子／当今皇帝",
+      "title": "诺亚之子／当今皇帝",
       "memo": "转生者、露西亚与炼金术：次要人物 诺亚之子／当今皇帝",
       "category": "secondary-character",
       "keys": [
@@ -21004,7 +21004,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-03",
-      "title": "次要人物｜无名皇太子／诺亚之孙",
+      "title": "无名皇太子／诺亚之孙",
       "memo": "转生者、露西亚与炼金术：次要人物 无名皇太子／诺亚之孙",
       "category": "secondary-character",
       "keys": [
@@ -21036,7 +21036,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-04",
-      "title": "次要人物｜埃尔丁／赤色魔塔魔法师",
+      "title": "埃尔丁／赤色魔塔魔法师",
       "memo": "转生者、露西亚与炼金术：次要人物 埃尔丁／赤色魔塔魔法师",
       "category": "secondary-character",
       "keys": [
@@ -21062,7 +21062,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-05",
-      "title": "次要人物｜断连银发化身（本章未命名）",
+      "title": "断连银发化身（本章未命名）",
       "memo": "转生者、露西亚与炼金术：次要人物 断连银发化身（本章未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -21086,7 +21086,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-06",
-      "title": "次要人物｜后世紫塔炼金术讲师（未命名）",
+      "title": "后世紫塔炼金术讲师（未命名）",
       "memo": "转生者、露西亚与炼金术：次要人物 后世紫塔炼金术讲师（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -21110,7 +21110,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-07",
-      "title": "次要人物｜蓝色魔塔灵魂学派首领",
+      "title": "蓝色魔塔灵魂学派首领",
       "memo": "转生者、露西亚与炼金术：次要人物 蓝色魔塔灵魂学派首领",
       "category": "secondary-character",
       "keys": [
@@ -21136,7 +21136,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-08",
-      "title": "次要人物｜炼金学派发起魔法师（未命名）",
+      "title": "炼金学派发起魔法师（未命名）",
       "memo": "转生者、露西亚与炼金术：次要人物 炼金学派发起魔法师（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -21160,7 +21160,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-09",
-      "title": "次要人物｜另一个我／断连银发化身",
+      "title": "另一个我／断连银发化身",
       "memo": "转生者、露西亚与炼金术：次要人物 另一个我／断连银发化身",
       "category": "secondary-character",
       "keys": [
@@ -21186,7 +21186,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-10",
-      "title": "次要人物｜另一个我／断连银发化身／露西亚前身",
+      "title": "另一个我／断连银发化身／露西亚前身",
       "memo": "转生者、露西亚与炼金术：次要人物 另一个我／断连银发化身／露西亚前身",
       "category": "secondary-character",
       "keys": [
@@ -21212,7 +21212,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-11",
-      "title": "次要人物｜露西亚／未能成为龙之巫女的少女",
+      "title": "露西亚／未能成为龙之巫女的少女",
       "memo": "转生者、露西亚与炼金术：次要人物 露西亚／未能成为龙之巫女的少女",
       "category": "secondary-character",
       "keys": [
@@ -21238,7 +21238,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-12",
-      "title": "次要人物｜露西亚／未能成为龙之巫女的少女／炼金学派创立者",
+      "title": "露西亚／未能成为龙之巫女的少女／炼金学派创立者",
       "memo": "转生者、露西亚与炼金术：次要人物 露西亚／未能成为龙之巫女的少女／炼金学派创立者",
       "category": "secondary-character",
       "keys": [
@@ -21264,7 +21264,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-13",
-      "title": "次要人物｜论文发表主持人（未命名）",
+      "title": "论文发表主持人（未命名）",
       "memo": "转生者、露西亚与炼金术：次要人物 论文发表主持人（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -21288,7 +21288,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-14",
-      "title": "次要人物｜诺亚长子／新帝",
+      "title": "诺亚长子／新帝",
       "memo": "转生者、露西亚与炼金术：次要人物 诺亚长子／新帝",
       "category": "secondary-character",
       "keys": [
@@ -21314,7 +21314,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-15",
-      "title": "次要人物｜三名地球灵魂",
+      "title": "三名地球灵魂",
       "memo": "转生者、露西亚与炼金术：次要人物 三名地球灵魂",
       "category": "secondary-character",
       "keys": [
@@ -21340,7 +21340,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-16",
-      "title": "次要人物｜生命教团接待祭司",
+      "title": "生命教团接待祭司",
       "memo": "转生者、露西亚与炼金术：次要人物 生命教团接待祭司",
       "category": "secondary-character",
       "keys": [
@@ -21366,7 +21366,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-17",
-      "title": "次要人物｜生命教团普罗西亚祭司",
+      "title": "生命教团普罗西亚祭司",
       "memo": "转生者、露西亚与炼金术：次要人物 生命教团普罗西亚祭司",
       "category": "secondary-character",
       "keys": [
@@ -21392,7 +21392,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-18",
-      "title": "次要人物｜眼神迷离少女（后世，未命名）",
+      "title": "眼神迷离少女（后世，未命名）",
       "memo": "转生者、露西亚与炼金术：次要人物 眼神迷离少女（后世，未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -21416,7 +21416,7 @@
     },
     {
       "id": "era-25-reincarnators-secondary-character-19",
-      "title": "次要人物｜紫色魔塔副塔主",
+      "title": "紫色魔塔副塔主",
       "memo": "转生者、露西亚与炼金术：次要人物 紫色魔塔副塔主",
       "category": "secondary-character",
       "keys": [

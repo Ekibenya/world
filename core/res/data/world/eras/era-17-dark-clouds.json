@@ -4873,7 +4873,7 @@
   "lorebook": [
     {
       "id": "era-17-dark-clouds-core",
-      "title": "三百年后、昏君与暗云｜时代边界",
+      "title": "三百年后、昏君与暗云",
       "memo": "三百年后、昏君与暗云：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4888,7 +4888,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-318-01",
-      "title": "事件｜第318源章｜1",
+      "title": "蒂雅确认冬眠约三百年",
       "memo": "三百年后、昏君与暗云：事件（第318源章第1条）",
       "category": "event",
       "keys": [
@@ -4916,7 +4916,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-318-02",
-      "title": "事件｜第318源章｜2",
+      "title": "罗马尼亚在皇太子战死、皇帝酗酒猝死及两名皇子争权后分裂为南北两国",
       "memo": "三百年后、昏君与暗云：事件（第318源章第2条）",
       "category": "event",
       "keys": [
@@ -4941,7 +4941,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-318-03",
-      "title": "事件｜第318源章｜3",
+      "title": "亚瑟已成为罗马尼亚守护神兼剑之神，但完整神格仍未公开",
       "memo": "三百年后、昏君与暗云：事件（第318源章第3条）",
       "category": "event",
       "keys": [
@@ -4967,7 +4967,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-318-04",
-      "title": "事件｜第318源章｜4",
+      "title": "亚瑟因神格只能把剑指向威胁罗马尼亚百姓者，无法介入南北罗马尼亚内战",
       "memo": "三百年后、昏君与暗云：事件（第318源章第4条）",
       "category": "event",
       "keys": [
@@ -4993,7 +4993,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-318-01",
-      "title": "世界设定事实｜第318源章｜1",
+      "title": "三百年间大陆各地出现许多国家和北方游牧部落，边贸、掠夺与防务成本使罗马尼亚国力下降",
       "memo": "三百年后、昏君与暗云：世界设定事实（第318源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5018,7 +5018,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-318-02",
-      "title": "世界设定事实｜第318源章｜2",
+      "title": "罗马尼亚分裂的直接链条为皇太子战死、皇帝失政、次子与三子争权、皇帝猝死",
       "memo": "三百年后、昏君与暗云：世界设定事实（第318源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5043,7 +5043,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-318-01",
-      "title": "新建立连续性｜第318源章｜1",
+      "title": "南北罗马尼亚",
       "memo": "三百年后、昏君与暗云：新建立连续性（第318源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5068,7 +5068,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-318-02",
-      "title": "新建立连续性｜第318源章｜2",
+      "title": "亚瑟守护神与剑神神格",
       "memo": "三百年后、昏君与暗云：新建立连续性（第318源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5094,7 +5094,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-318-03",
-      "title": "新建立连续性｜第318源章｜3",
+      "title": "三百年后巡查",
       "memo": "三百年后、昏君与暗云：新建立连续性（第318源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5119,7 +5119,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-318-01",
-      "title": "未解决事项｜第318源章｜1",
+      "title": "罗马尼亚皇冠去向",
       "memo": "三百年后、昏君与暗云：未解决事项（第318源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5144,7 +5144,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-318-02",
-      "title": "未解决事项｜第318源章｜2",
+      "title": "亚瑟完整神格",
       "memo": "三百年后、昏君与暗云：未解决事项（第318源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5170,7 +5170,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-318-03",
-      "title": "未解决事项｜第318源章｜3",
+      "title": "南北内战走向",
       "memo": "三百年后、昏君与暗云：未解决事项（第318源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5195,7 +5195,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-318-01",
-      "title": "主角龙形态｜第318源章｜1",
+      "title": "主角龙形态｜300年后.(1)｜三百年长眠后醒来的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第318源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5221,7 +5221,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-318-01",
-      "title": "主角龙状态｜第318源章｜1",
+      "title": "主角龙状态｜300年后.(1)｜精神清明，开始巡查三百年后的世界",
       "memo": "三百年后、昏君与暗云：主角龙状态（第318源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5246,7 +5246,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-318-01",
-      "title": "主角龙知识边界｜第318源章｜1",
+      "title": "主角龙知识边界｜300年后.(1)｜只从阿谢拉特概述得知大局",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第318源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5273,7 +5273,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-319-01",
-      "title": "事件｜第319源章｜1",
+      "title": "蒂雅逃离万神殿的工作与亚瑟压力",
       "memo": "三百年后、昏君与暗云：事件（第319源章第1条）",
       "category": "event",
       "keys": [
@@ -5300,7 +5300,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-319-02",
-      "title": "事件｜第319源章｜2",
+      "title": "蜥蜴人向世界扩散并以树木替代纸莎草制造较廉价，较耐潮的低级纸",
       "memo": "三百年后、昏君与暗云：事件（第319源章第2条）",
       "category": "event",
       "keys": [
@@ -5325,7 +5325,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-319-03",
-      "title": "事件｜第319源章｜3",
+      "title": "翻越中央山脉的蜥蜴人被东方人称为龙人",
       "memo": "三百年后、昏君与暗云：事件（第319源章第3条）",
       "category": "event",
       "keys": [
@@ -5350,7 +5350,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-319-01",
-      "title": "世界设定事实｜第319源章｜1",
+      "title": "树木纸质量低于纸莎草纸，但原料易得且更耐潮",
       "memo": "三百年后、昏君与暗云：世界设定事实（第319源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5375,7 +5375,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-319-02",
-      "title": "世界设定事实｜第319源章｜2",
+      "title": "人类与蜥蜴人混血者大体近似人类，但体格强健，激动时出现纵裂瞳，部分皮肤覆鳞",
       "memo": "三百年后、昏君与暗云：世界设定事实（第319源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5400,7 +5400,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-319-03",
-      "title": "世界设定事实｜第319源章｜3",
+      "title": "龙人国王在大规模战争后统一中原，改国号为秦、改姓为龙",
       "memo": "三百年后、昏君与暗云：世界设定事实（第319源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5425,7 +5425,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-319-01",
-      "title": "新建立连续性｜第319源章｜1",
+      "title": "树木纸大众化",
       "memo": "三百年后、昏君与暗云：新建立连续性（第319源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5450,7 +5450,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-319-02",
-      "title": "新建立连续性｜第319源章｜2",
+      "title": "人蜥混血龙人",
       "memo": "三百年后、昏君与暗云：新建立连续性（第319源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5475,7 +5475,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-319-03",
-      "title": "新建立连续性｜第319源章｜3",
+      "title": "东方秦国",
       "memo": "三百年后、昏君与暗云：新建立连续性（第319源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5500,7 +5500,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-319-01",
-      "title": "未解决事项｜第319源章｜1",
+      "title": "秦国统一的具体战争史",
       "memo": "三百年后、昏君与暗云：未解决事项（第319源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5525,7 +5525,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-319-02",
-      "title": "未解决事项｜第319源章｜2",
+      "title": "蒂雅如何处理亚瑟感情",
       "memo": "三百年后、昏君与暗云：未解决事项（第319源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5552,7 +5552,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-319-01",
-      "title": "主角龙形态｜第319源章｜1",
+      "title": "主角龙形态｜300年后.(2)｜下凡巡查的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第319源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5578,7 +5578,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-319-01",
-      "title": "主角龙状态｜第319源章｜1",
+      "title": "主角龙状态｜300年后.(2)｜主动避开万神殿工作并观察蜥蜴人及东方变化",
       "memo": "三百年后、昏君与暗云：主角龙状态（第319源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5603,7 +5603,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-319-01",
-      "title": "主角龙知识边界｜第319源章｜1",
+      "title": "主角龙知识边界｜300年后.(2)｜不知道东方统一的具体过程，也无法理解亚瑟持续追求的思维",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第319源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5629,7 +5629,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-320-01",
-      "title": "事件｜第320源章｜1",
+      "title": "三百年不足精灵完成一代更替，但约百岁的年轻精灵已频繁离开大森林，前往各地守林",
       "memo": "三百年后、昏君与暗云：事件（第320源章第1条）",
       "category": "event",
       "keys": [
@@ -5654,7 +5654,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-320-02",
-      "title": "事件｜第320源章｜2",
+      "title": "部分精灵与矮人在种族大战中确认彼此实力后合作，精灵借出火元素精灵",
       "memo": "三百年后、昏君与暗云：事件（第320源章第2条）",
       "category": "event",
       "keys": [
@@ -5679,7 +5679,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-320-03",
-      "title": "事件｜第320源章｜3",
+      "title": "世界树以绿发年幼女精灵为化身并被拥立为精灵女王",
       "memo": "三百年后、昏君与暗云：事件（第320源章第3条）",
       "category": "event",
       "keys": [
@@ -5705,7 +5705,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-320-04",
-      "title": "事件｜第320源章｜4",
+      "title": "世界树把事务交给长老会，但年长精灵抗拒变化，导致其离开时社会运转趋于僵化",
       "memo": "三百年后、昏君与暗云：事件（第320源章第4条）",
       "category": "event",
       "keys": [
@@ -5731,7 +5731,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-320-01",
-      "title": "世界设定事实｜第320源章｜1",
+      "title": "火元素精灵能辅助锻造特殊金属并让元素稳定寄宿",
       "memo": "三百年后、昏君与暗云：世界设定事实（第320源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5756,7 +5756,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-320-02",
-      "title": "世界设定事实｜第320源章｜2",
+      "title": "精灵女王外形为身材较矮、鲜绿色头发的年幼女性精灵，本质是世界树的肉体化身",
       "memo": "三百年后、昏君与暗云：世界设定事实（第320源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5782,7 +5782,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-320-01",
-      "title": "新建立连续性｜第320源章｜1",
+      "title": "精灵女王化身",
       "memo": "三百年后、昏君与暗云：新建立连续性（第320源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5807,7 +5807,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-320-02",
-      "title": "新建立连续性｜第320源章｜2",
+      "title": "精灵矮人火精灵锻造合作",
       "memo": "三百年后、昏君与暗云：新建立连续性（第320源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5832,7 +5832,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-320-03",
-      "title": "新建立连续性｜第320源章｜3",
+      "title": "精灵长老会代理",
       "memo": "三百年后、昏君与暗云：新建立连续性（第320源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5857,7 +5857,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-320-01",
-      "title": "未解决事项｜第320源章｜1",
+      "title": "长老会保守僵化的长期后果",
       "memo": "三百年后、昏君与暗云：未解决事项（第320源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5882,7 +5882,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-320-01",
-      "title": "主角龙形态｜第320源章｜1",
+      "title": "主角龙形态｜300年后.(3)｜在大森林巡查的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第320源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5908,7 +5908,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-320-01",
-      "title": "主角龙状态｜第320源章｜1",
+      "title": "主角龙状态｜300年后.(3)｜确认精灵社会、跨族合作与世界树女王化身",
       "memo": "三百年后、昏君与暗云：主角龙状态（第320源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5934,7 +5934,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-320-01",
-      "title": "主角龙知识边界｜第320源章｜1",
+      "title": "主角龙知识边界｜300年后.(3)｜最初不知道精灵矮人为何往来，也不了解世界树创造化身的内因",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第320源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5960,7 +5960,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-321-01",
-      "title": "事件｜第321源章｜1",
+      "title": "安全地下生活使矮人人口激增",
       "memo": "三百年后、昏君与暗云：事件（第321源章第1条）",
       "category": "event",
       "keys": [
@@ -5985,7 +5985,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-321-02",
-      "title": "事件｜第321源章｜2",
+      "title": "矮人扩散提高冶炼水平，却因伐林激化精灵矛盾",
       "memo": "三百年后、昏君与暗云：事件（第321源章第2条）",
       "category": "event",
       "keys": [
@@ -6010,7 +6010,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-321-03",
-      "title": "事件｜第321源章｜3",
+      "title": "蒂雅与萨加玛塔重逢",
       "memo": "三百年后、昏君与暗云：事件（第321源章第3条）",
       "category": "event",
       "keys": [
@@ -6038,7 +6038,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-321-04",
-      "title": "事件｜第321源章｜4",
+      "title": "萨加玛塔因蒂雅先见世界树而显露嫉妒，蒂雅以距离近解释并用抚摸安抚",
       "memo": "三百年后、昏君与暗云：事件（第321源章第4条）",
       "category": "event",
       "keys": [
@@ -6066,7 +6066,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-321-01",
-      "title": "世界设定事实｜第321源章｜1",
+      "title": "矮人要塞入口隐蔽，通道狭窄迷宫化，地下有苔藓蘑菇，水脉和贸易补给，使死亡率低",
       "memo": "三百年后、昏君与暗云：世界设定事实（第321源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6091,7 +6091,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-321-02",
-      "title": "世界设定事实｜第321源章｜2",
+      "title": "矮人迁徙从商人选址和充分支援的志愿制，转为对特定群体的强制外迁",
       "memo": "三百年后、昏君与暗云：世界设定事实（第321源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6116,7 +6116,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-321-03",
-      "title": "世界设定事实｜第321源章｜3",
+      "title": "煤炭成为矮人锻造主流燃料",
       "memo": "三百年后、昏君与暗云：世界设定事实（第321源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6141,7 +6141,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-321-01",
-      "title": "新建立连续性｜第321源章｜1",
+      "title": "矮人要塞广泛迁徙",
       "memo": "三百年后、昏君与暗云：新建立连续性（第321源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6166,7 +6166,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-321-02",
-      "title": "新建立连续性｜第321源章｜2",
+      "title": "煤炭锻造",
       "memo": "三百年后、昏君与暗云：新建立连续性（第321源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6191,7 +6191,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-321-03",
-      "title": "新建立连续性｜第321源章｜3",
+      "title": "萨加玛塔对矮人的怜爱",
       "memo": "三百年后、昏君与暗云：新建立连续性（第321源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6217,7 +6217,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-321-01",
-      "title": "未解决事项｜第321源章｜1",
+      "title": "阿谢拉特将如何处理蒂雅逃工",
       "memo": "三百年后、昏君与暗云：未解决事项（第321源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6244,7 +6244,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-321-01",
-      "title": "主角龙形态｜第321源章｜1",
+      "title": "主角龙形态｜300年后.(4)｜巡视矮人山脉的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第321源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6270,7 +6270,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-321-01",
-      "title": "主角龙状态｜第321源章｜1",
+      "title": "主角龙状态｜300年后.(4)｜与萨加玛塔重逢并继续拖延返回万神殿",
       "memo": "三百年后、昏君与暗云：主角龙状态（第321源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6296,7 +6296,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-321-01",
-      "title": "主角龙知识边界｜第321源章｜1",
+      "title": "主角龙知识边界｜300年后.(4)｜通过观察推测萨加玛塔对矮人的情感，不能直接读取她的心声",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第321源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6323,7 +6323,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-322-01",
-      "title": "事件｜第322源章｜1",
+      "title": "兽人各族总体繁衍稳定",
       "memo": "三百年后、昏君与暗云：事件（第322源章第1条）",
       "category": "event",
       "keys": [
@@ -6348,7 +6348,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-322-02",
-      "title": "事件｜第322源章｜2",
+      "title": "人鱼扩散并与人类贸易后遭奴役贩卖",
       "memo": "三百年后、昏君与暗云：事件（第322源章第2条）",
       "category": "event",
       "keys": [
@@ -6374,7 +6374,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-322-03",
-      "title": "事件｜第322源章｜3",
+      "title": "鸟兽人借生命教团形成跨地域信件，轻型快递，情报整理与早期报纸网络",
       "memo": "三百年后、昏君与暗云：事件（第322源章第3条）",
       "category": "event",
       "keys": [
@@ -6399,7 +6399,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-322-04",
-      "title": "事件｜第322源章｜4",
+      "title": "航海扩张使船员开始信仰希尔芙以求顺风和避开风暴",
       "memo": "三百年后、昏君与暗云：事件（第322源章第4条）",
       "category": "event",
       "keys": [
@@ -6426,7 +6426,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-322-01",
-      "title": "世界设定事实｜第322源章｜1",
+      "title": "人鱼在海底建立村庄并通过漂流物、救助落水者获取知识",
       "memo": "三百年后、昏君与暗云：世界设定事实（第322源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6451,7 +6451,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-322-02",
-      "title": "世界设定事实｜第322源章｜2",
+      "title": "人鱼奴役事件后，参与抓捕和蓄奴者被所有水拒绝直至渴死，此后无人再敢把人鱼变为奴隶",
       "memo": "三百年后、昏君与暗云：世界设定事实（第322源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6476,7 +6476,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-322-03",
-      "title": "世界设定事实｜第322源章｜3",
+      "title": "鸟兽人承担报纸，传信，轻型快递和情报流通，用外地收入购买粮食供养故乡",
       "memo": "三百年后、昏君与暗云：世界设定事实（第322源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6501,7 +6501,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-322-01",
-      "title": "新建立连续性｜第322源章｜1",
+      "title": "人鱼奴役禁忌",
       "memo": "三百年后、昏君与暗云：新建立连续性（第322源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6526,7 +6526,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-322-02",
-      "title": "新建立连续性｜第322源章｜2",
+      "title": "鸟兽人信息运输网络",
       "memo": "三百年后、昏君与暗云：新建立连续性（第322源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6551,7 +6551,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-322-03",
-      "title": "新建立连续性｜第322源章｜3",
+      "title": "航海者风神信仰",
       "memo": "三百年后、昏君与暗云：新建立连续性（第322源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6576,7 +6576,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-322-01",
-      "title": "未解决事项｜第322源章｜1",
+      "title": "远洋文明后续扩张",
       "memo": "三百年后、昏君与暗云：未解决事项（第322源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6601,7 +6601,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-322-02",
-      "title": "未解决事项｜第322源章｜2",
+      "title": "分散人鱼村庄长期治理",
       "memo": "三百年后、昏君与暗云：未解决事项（第322源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6626,7 +6626,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-322-01",
-      "title": "主角龙形态｜第322源章｜1",
+      "title": "主角龙形态｜300年后.(5)｜依次拜访海神与风神的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第322源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6652,7 +6652,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-322-01",
-      "title": "主角龙状态｜第322源章｜1",
+      "title": "主角龙状态｜300年后.(5)｜继续三百年后各族与神明巡查",
       "memo": "三百年后、昏君与暗云：主角龙状态（第322源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6677,7 +6677,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-322-01",
-      "title": "主角龙知识边界｜第322源章｜1",
+      "title": "主角龙知识边界｜300年后.(5)｜对海底情况依赖忒提斯陈述",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第322源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6703,7 +6703,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-323-01",
-      "title": "事件｜第323源章｜1",
+      "title": "西娅著作提升法师整体水平，普罗西亚规模扩大四倍以上",
       "memo": "三百年后、昏君与暗云：事件（第323源章第1条）",
       "category": "event",
       "keys": [
@@ -6729,7 +6729,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-323-02",
-      "title": "事件｜第323源章｜2",
+      "title": "塞西莉亚·玛丽戈尔德继承西娅的力量与财产，建立向缴费",
       "memo": "三百年后、昏君与暗云：事件（第323源章第2条）",
       "category": "event",
       "keys": [
@@ -6755,7 +6755,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-323-03",
-      "title": "事件｜第323源章｜3",
+      "title": "西娅可借所有图书馆兼任神殿而降临地表",
       "memo": "三百年后、昏君与暗云：事件（第323源章第3条）",
       "category": "event",
       "keys": [
@@ -6782,7 +6782,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-323-04",
-      "title": "事件｜第323源章｜4",
+      "title": "蒂雅拜访伊芙利特，得知沙玛什正在培养人类代行审判",
       "memo": "三百年后、昏君与暗云：事件（第323源章第4条）",
       "category": "event",
       "keys": [
@@ -6810,7 +6810,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-323-01",
-      "title": "世界设定事实｜第323源章｜1",
+      "title": "普罗西亚魔法研究会发展为学派和魔法塔，七座最大魔法塔塔主与旧长老会合并后掌握城市治理",
       "memo": "三百年后、昏君与暗云：世界设定事实（第323源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6835,7 +6835,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-323-02",
-      "title": "世界设定事实｜第323源章｜2",
+      "title": "大图书馆由塞西莉亚·玛丽戈尔德创建，以会员费，捐书和求学资格维持开放，书不得外借",
       "memo": "三百年后、昏君与暗云：世界设定事实（第323源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6860,7 +6860,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-323-03",
-      "title": "世界设定事实｜第323源章｜3",
+      "title": "塞西尔审判本应前往天堂，但以放弃天堂换取成为西娅随从",
       "memo": "三百年后、昏君与暗云：世界设定事实（第323源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6887,7 +6887,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-323-01",
-      "title": "新建立连续性｜第323源章｜1",
+      "title": "七魔法塔治理",
       "memo": "三百年后、昏君与暗云：新建立连续性（第323源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6912,7 +6912,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-323-02",
-      "title": "新建立连续性｜第323源章｜2",
+      "title": "塞西尔大图书馆",
       "memo": "三百年后、昏君与暗云：新建立连续性（第323源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6938,7 +6938,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-323-03",
-      "title": "新建立连续性｜第323源章｜3",
+      "title": "塞西尔成为西娅随从",
       "memo": "三百年后、昏君与暗云：新建立连续性（第323源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6965,7 +6965,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-323-04",
-      "title": "新建立连续性｜第323源章｜4",
+      "title": "人类代行审判计划",
       "memo": "三百年后、昏君与暗云：新建立连续性（第323源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6990,7 +6990,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-323-01",
-      "title": "未解决事项｜第323源章｜1",
+      "title": "沙玛什法官制度具体内容",
       "memo": "三百年后、昏君与暗云：未解决事项（第323源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7016,7 +7016,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-323-01",
-      "title": "主角龙形态｜第323源章｜1",
+      "title": "主角龙形态｜300年后.(6)｜在普罗西亚与火神沙漠行走的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第323源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7042,7 +7042,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-323-01",
-      "title": "主角龙状态｜第323源章｜1",
+      "title": "主角龙状态｜300年后.(6)｜考虑有限帮助阿谢拉特，并转向调查人类法官制度",
       "memo": "三百年后、昏君与暗云：主角龙状态（第323源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7068,7 +7068,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-323-01",
-      "title": "主角龙知识边界｜第323源章｜1",
+      "title": "主角龙知识边界｜300年后.(6)｜初见塞西尔时不知道她已非人类，也只从伊芙利特处听到沙玛什计划的概要",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第323源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7096,7 +7096,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-324-01",
-      "title": "事件｜第324源章｜1",
+      "title": "后世指南将流浪法官定义为侍奉光明与正义之神的祭司、圣骑士和神圣裁决执行者",
       "memo": "三百年后、昏君与暗云：事件（第324源章第1条）",
       "category": "event",
       "keys": [
@@ -7121,7 +7121,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-324-02",
-      "title": "事件｜第324源章｜2",
+      "title": "沙玛什因人口与犯罪增长不堪重负，计划选拔能背诵法典，辨别是非并考虑个案的人类法官",
       "memo": "三百年后、昏君与暗云：事件（第324源章第2条）",
       "category": "event",
       "keys": [
@@ -7147,7 +7147,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-324-03",
-      "title": "事件｜第324源章｜3",
+      "title": "沙玛什计划重新照料失去自我的光元素精灵，让其担任监察官，监督人类审判者是否尽职",
       "memo": "三百年后、昏君与暗云：事件（第324源章第3条）",
       "category": "event",
       "keys": [
@@ -7173,7 +7173,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-324-04",
-      "title": "事件｜第324源章｜4",
+      "title": "蒂雅提出法官应流动巡回以减少地方勾连",
       "memo": "三百年后、昏君与暗云：事件（第324源章第4条）",
       "category": "event",
       "keys": [
@@ -7200,7 +7200,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-324-05",
-      "title": "事件｜第324源章｜5",
+      "title": "取得资格者舍弃姓名，亲抄并背熟自己的法典，学习神圣魔法和肉体战斗",
       "memo": "三百年后、昏君与暗云：事件（第324源章第5条）",
       "category": "event",
       "keys": [
@@ -7225,7 +7225,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-324-01",
-      "title": "世界设定事实｜第324源章｜1",
+      "title": "流浪法官不长期固定在地方，而沿生命教团巡礼路线周游世界，并可借同行巡礼者提高安全性",
       "memo": "三百年后、昏君与暗云：世界设定事实（第324源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7250,7 +7250,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-324-02",
-      "title": "世界设定事实｜第324源章｜2",
+      "title": "流浪法官舍弃本名、亲抄背诵法典、学习神圣魔法和肉体战斗",
       "memo": "三百年后、昏君与暗云：世界设定事实（第324源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7275,7 +7275,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-324-03",
-      "title": "世界设定事实｜第324源章｜3",
+      "title": "黄金龙失去肉体与自我后成为光元素精灵",
       "memo": "三百年后、昏君与暗云：世界设定事实（第324源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7301,7 +7301,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-324-01",
-      "title": "新建立连续性｜第324源章｜1",
+      "title": "流浪法官",
       "memo": "三百年后、昏君与暗云：新建立连续性（第324源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7326,7 +7326,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-324-02",
-      "title": "新建立连续性｜第324源章｜2",
+      "title": "光元素监察官",
       "memo": "三百年后、昏君与暗云：新建立连续性（第324源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7351,7 +7351,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-324-03",
-      "title": "新建立连续性｜第324源章｜3",
+      "title": "法典武装与神圣魔法",
       "memo": "三百年后、昏君与暗云：新建立连续性（第324源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7376,7 +7376,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-324-01",
-      "title": "未解决事项｜第324源章｜1",
+      "title": "首批法官培养结果",
       "memo": "三百年后、昏君与暗云：未解决事项（第324源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7401,7 +7401,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-324-02",
-      "title": "未解决事项｜第324源章｜2",
+      "title": "制度长期公正性",
       "memo": "三百年后、昏君与暗云：未解决事项（第324源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7426,7 +7426,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-324-01",
-      "title": "主角龙形态｜第324源章｜1",
+      "title": "主角龙形态｜流浪法官｜在沙玛什神域中的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第324源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7453,7 +7453,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-324-01",
-      "title": "主角龙状态｜第324源章｜1",
+      "title": "主角龙状态｜流浪法官｜协助把凡人代审构想完善为流浪法官制度",
       "memo": "三百年后、昏君与暗云：主角龙状态（第324源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7478,7 +7478,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-324-01",
-      "title": "主角龙知识边界｜第324源章｜1",
+      "title": "主角龙知识边界｜流浪法官｜能推测人类法官可能受贿或勾连，但尚无制度实际运行结果",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第324源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7503,7 +7503,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-325-01",
-      "title": "事件｜第325源章｜1",
+      "title": "蒂雅最后巡视生命教团",
       "memo": "三百年后、昏君与暗云：事件（第325源章第1条）",
       "category": "event",
       "keys": [
@@ -7529,7 +7529,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-325-02",
-      "title": "事件｜第325源章｜2",
+      "title": "龙族把生命教团视为融入人类社会并成为创世龙神直属的渠道",
       "memo": "三百年后、昏君与暗云：事件（第325源章第2条）",
       "category": "event",
       "keys": [
@@ -7555,7 +7555,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-325-03",
-      "title": "事件｜第325源章｜3",
+      "title": "人类祭司发展出以信仰借神力的神圣魔法，足以击退普通怪物，补足龙族退出后的战力空缺",
       "memo": "三百年后、昏君与暗云：事件（第325源章第3条）",
       "category": "event",
       "keys": [
@@ -7580,7 +7580,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-325-04",
-      "title": "事件｜第325源章｜4",
+      "title": "龙族对离开教团不满，最终以抽签决定，每五十年更换的轮岗制轮流任职",
       "memo": "三百年后、昏君与暗云：事件（第325源章第4条）",
       "category": "event",
       "keys": [
@@ -7605,7 +7605,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-325-05",
-      "title": "事件｜第325源章｜5",
+      "title": "龙族数量缓慢增长，寿命约一万年",
       "memo": "三百年后、昏君与暗云：事件（第325源章第5条）",
       "category": "event",
       "keys": [
@@ -7632,7 +7632,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-325-01",
-      "title": "世界设定事实｜第325源章｜1",
+      "title": "生命教团祭司参与出生祝福、伤病治疗、后代祝福与临终安眠，因而覆盖人类完整生命循环",
       "memo": "三百年后、昏君与暗云：世界设定事实（第325源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7657,7 +7657,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-325-02",
-      "title": "世界设定事实｜第325源章｜2",
+      "title": "原为魔法师的人类祭司发展神圣魔法，以信仰借神力而非使用自身魔力",
       "memo": "三百年后、昏君与暗云：世界设定事实（第325源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7682,7 +7682,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-325-03",
-      "title": "世界设定事实｜第325源章｜3",
+      "title": "生命教团龙族岗位以抽签排定，每五十年轮换，祭司长亦在龙族之间轮流担任",
       "memo": "三百年后、昏君与暗云：世界设定事实（第325源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7707,7 +7707,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-325-04",
-      "title": "世界设定事实｜第325源章｜4",
+      "title": "普通龙族肉体约需一万年才可能自然老死，几千年通常不足以造成衰老问题",
       "memo": "三百年后、昏君与暗云：世界设定事实（第325源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7732,7 +7732,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-325-01",
-      "title": "新建立连续性｜第325源章｜1",
+      "title": "人类祭司神圣魔法",
       "memo": "三百年后、昏君与暗云：新建立连续性（第325源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7757,7 +7757,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-325-02",
-      "title": "新建立连续性｜第325源章｜2",
+      "title": "龙族五十年轮岗制",
       "memo": "三百年后、昏君与暗云：新建立连续性（第325源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7782,7 +7782,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-325-03",
-      "title": "新建立连续性｜第325源章｜3",
+      "title": "龙族约万年自然寿命",
       "memo": "三百年后、昏君与暗云：新建立连续性（第325源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7807,7 +7807,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-325-01",
-      "title": "未解决事项｜第325源章｜1",
+      "title": "阿谢拉特与蒂雅的工作冲突",
       "memo": "三百年后、昏君与暗云：未解决事项（第325源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7834,7 +7834,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-325-02",
-      "title": "未解决事项｜第325源章｜2",
+      "title": "龙族权力轮岗长期效果",
       "memo": "三百年后、昏君与暗云：未解决事项（第325源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7859,7 +7859,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-325-01",
-      "title": "主角龙形态｜第325源章｜1",
+      "title": "主角龙形态｜300年后.(7)｜在生命教团神殿巡视的蒂雅少女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第325源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7885,7 +7885,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-325-01",
-      "title": "主角龙状态｜第325源章｜1",
+      "title": "主角龙状态｜300年后.(7)｜完成三百年后地表巡查，准备返回万神殿面对阿谢拉特",
       "memo": "三百年后、昏君与暗云：主角龙状态（第325源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7911,7 +7911,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-325-01",
-      "title": "主角龙知识边界｜第325源章｜1",
+      "title": "主角龙知识边界｜300年后.(7)｜只能从祭司长了解多数龙族近况",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第325源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7937,7 +7937,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-326-01",
-      "title": "事件｜第326源章｜1",
+      "title": "蒂雅通过让阿谢拉特休数十年长假化解怒火，并接手其全部工作",
       "memo": "三百年后、昏君与暗云：事件（第326源章第1条）",
       "category": "event",
       "keys": [
@@ -7964,7 +7964,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-326-02",
-      "title": "事件｜第326源章｜2",
+      "title": "西娅和亚瑟围观蒂雅处理祈祷",
       "memo": "三百年后、昏君与暗云：事件（第326源章第2条）",
       "category": "event",
       "keys": [
@@ -7992,7 +7992,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-326-03",
-      "title": "事件｜第326源章｜3",
+      "title": "海量祈祷中许多本应属于其他神明",
       "memo": "三百年后、昏君与暗云：事件（第326源章第3条）",
       "category": "event",
       "keys": [
@@ -8018,7 +8018,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-326-04",
-      "title": "事件｜第326源章｜4",
+      "title": "分类装置预计减少约四成生命女神祈祷负荷",
       "memo": "三百年后、昏君与暗云：事件（第326源章第4条）",
       "category": "event",
       "keys": [
@@ -8044,7 +8044,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-326-01",
-      "title": "世界设定事实｜第326源章｜1",
+      "title": "生命女神收到伤病，求子，死亡审判，农牧渔业，植物生长乃至工匠作品等广泛祈祷",
       "memo": "三百年后、昏君与暗云：世界设定事实（第326源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8069,7 +8069,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-326-02",
-      "title": "世界设定事实｜第326源章｜2",
+      "title": "自动祈祷分类装置由蒂雅数十年处理经验训练，仅负责分析和转接，没有自我",
       "memo": "三百年后、昏君与暗云：世界设定事实（第326源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8096,7 +8096,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-326-01",
-      "title": "新建立连续性｜第326源章｜1",
+      "title": "阿谢拉特数十年假期",
       "memo": "三百年后、昏君与暗云：新建立连续性（第326源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8122,7 +8122,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-326-02",
-      "title": "新建立连续性｜第326源章｜2",
+      "title": "自动祈祷分类装置",
       "memo": "三百年后、昏君与暗云：新建立连续性（第326源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8147,7 +8147,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-326-03",
-      "title": "新建立连续性｜第326源章｜3",
+      "title": "祈祷转接规则",
       "memo": "三百年后、昏君与暗云：新建立连续性（第326源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8172,7 +8172,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-326-01",
-      "title": "未解决事项｜第326源章｜1",
+      "title": "分类装置长期实际稳定性",
       "memo": "三百年后、昏君与暗云：未解决事项（第326源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8197,7 +8197,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-326-01",
-      "title": "主角龙形态｜第326源章｜1",
+      "title": "主角龙形态｜漫长的假期｜万神殿内处理祈祷与创造装置的蒂雅本体化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第326源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8223,7 +8223,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-326-01",
-      "title": "主角龙状态｜第326源章｜1",
+      "title": "主角龙状态｜漫长的假期｜代班数十年后完成祈祷自动分类并重新获得自由",
       "memo": "三百年后、昏君与暗云：主角龙状态（第326源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8248,7 +8248,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-326-01",
-      "title": "主角龙知识边界｜第326源章｜1",
+      "title": "主角龙知识边界｜漫长的假期｜只确认测试阶段稳定，承认实际环境可能不同",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第326源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8273,7 +8273,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-327-01",
-      "title": "事件｜第327源章｜1",
+      "title": "南北罗马尼亚互相牵制期间小国兴亡频繁",
       "memo": "三百年后、昏君与暗云：事件（第327源章第1条）",
       "category": "event",
       "keys": [
@@ -8298,7 +8298,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-327-02",
-      "title": "事件｜第327源章｜2",
+      "title": "蒂雅与西娅短途环游，确认瓦拉几亚虽面临游牧民掠夺威胁，却由一位特殊国王维持和平",
       "memo": "三百年后、昏君与暗云：事件（第327源章第2条）",
       "category": "event",
       "keys": [
@@ -8325,7 +8325,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-327-03",
-      "title": "事件｜第327源章｜3",
+      "title": "瓦拉几亚贫穷，老国王靠血延寿千年并为国家节衣缩食",
       "memo": "三百年后、昏君与暗云：事件（第327源章第3条）",
       "category": "event",
       "keys": [
@@ -8350,7 +8350,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-327-04",
-      "title": "事件｜第327源章｜4",
+      "title": "老国王认出蒂雅是生命女神",
       "memo": "三百年后、昏君与暗云：事件（第327源章第4条）",
       "category": "event",
       "keys": [
@@ -8377,7 +8377,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-327-01",
-      "title": "世界设定事实｜第327源章｜1",
+      "title": "瓦拉几亚北靠山脉、南环河流，是阻挡平原游牧民的小国",
       "memo": "三百年后、昏君与暗云：世界设定事实（第327源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8402,7 +8402,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-327-02",
-      "title": "世界设定事实｜第327源章｜2",
+      "title": "瓦拉几亚人口资源稀少，粮食可自给，移居矮人提供优质工具",
       "memo": "三百年后、昏君与暗云：世界设定事实（第327源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8427,7 +8427,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-327-01",
-      "title": "新建立连续性｜第327源章｜1",
+      "title": "瓦拉几亚",
       "memo": "三百年后、昏君与暗云：新建立连续性（第327源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8452,7 +8452,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-327-02",
-      "title": "新建立连续性｜第327源章｜2",
+      "title": "有限血税",
       "memo": "三百年后、昏君与暗云：新建立连续性（第327源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8477,7 +8477,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-327-03",
-      "title": "新建立连续性｜第327源章｜3",
+      "title": "弗拉德",
       "memo": "三百年后、昏君与暗云：新建立连续性（第327源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8503,7 +8503,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-327-01",
-      "title": "未解决事项｜第327源章｜1",
+      "title": "老国王守国手段",
       "memo": "三百年后、昏君与暗云：未解决事项（第327源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8528,7 +8528,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-327-02",
-      "title": "未解决事项｜第327源章｜2",
+      "title": "弗拉德去向与能力",
       "memo": "三百年后、昏君与暗云：未解决事项（第327源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8554,7 +8554,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-327-01",
-      "title": "主角龙形态｜第327源章｜1",
+      "title": "主角龙形态｜吸血鬼.(1)｜长角银发龙族巫女外形的蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第327源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8581,7 +8581,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-327-01",
-      "title": "主角龙状态｜第327源章｜1",
+      "title": "主角龙状态｜吸血鬼.(1)｜与西娅旅行并重遇最初帝国的流亡王子",
       "memo": "三百年后、昏君与暗云：主角龙状态（第327源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8607,7 +8607,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-327-01",
-      "title": "主角龙知识边界｜第327源章｜1",
+      "title": "主角龙知识边界｜吸血鬼.(1)｜抵达前只知道血税传闻，不知道老国王仍活着",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第327源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8633,7 +8633,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-328-01",
-      "title": "事件｜第328源章｜1",
+      "title": "老国王不愿公开与蒂雅的旧过节，蒂雅拒绝向西娅泄露",
       "memo": "三百年后、昏君与暗云：事件（第328源章第1条）",
       "category": "event",
       "keys": [
@@ -8660,7 +8660,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-328-02",
-      "title": "事件｜第328源章｜2",
+      "title": "蒂雅让西娅只看生命之光，显露瓦拉几亚地下与老国王相连、根系覆盖全国的巨大生命体",
       "memo": "三百年后、昏君与暗云：事件（第328源章第2条）",
       "category": "event",
       "keys": [
@@ -8687,7 +8687,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-328-03",
-      "title": "事件｜第328源章｜3",
+      "title": "无名生命体没有自我，只会驱逐企图伤害国土百姓的敌人",
       "memo": "三百年后、昏君与暗云：事件（第328源章第3条）",
       "category": "event",
       "keys": [
@@ -8713,7 +8713,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-328-04",
-      "title": "事件｜第328源章｜4",
+      "title": "生命体以暗红尖刺贯穿入侵游牧民并吸尽其血肉生命，仅留骨片，随后退回地下",
       "memo": "三百年后、昏君与暗云：事件（第328源章第4条）",
       "category": "event",
       "keys": [
@@ -8738,7 +8738,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-328-05",
-      "title": "事件｜第328源章｜5",
+      "title": "蒂雅为其命名生鬼努斯，使其受自己注视，并承诺老国王死后若失控可亲自处理",
       "memo": "三百年后、昏君与暗云：事件（第328源章第5条）",
       "category": "event",
       "keys": [
@@ -8764,7 +8764,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-328-01",
-      "title": "世界设定事实｜第328源章｜1",
+      "title": "生鬼努斯是覆盖瓦拉几亚地下、与老国王相连的巨大生命体，其根系般魔力范围与国境一致",
       "memo": "三百年后、昏君与暗云：世界设定事实（第328源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8789,7 +8789,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-328-02",
-      "title": "世界设定事实｜第328源章｜2",
+      "title": "生鬼努斯无名时没有自我，只靠老国王输送生命维持",
       "memo": "三百年后、昏君与暗云：世界设定事实（第328源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8814,7 +8814,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-328-03",
-      "title": "世界设定事实｜第328源章｜3",
+      "title": "生鬼努斯的暗红尖刺具有掠夺生命本性，可从地下连续突刺并把被贯穿者吸至仅余骨片",
       "memo": "三百年后、昏君与暗云：世界设定事实（第328源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8839,7 +8839,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-328-01",
-      "title": "新建立连续性｜第328源章｜1",
+      "title": "生鬼努斯之名",
       "memo": "三百年后、昏君与暗云：新建立连续性（第328源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8864,7 +8864,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-328-02",
-      "title": "新建立连续性｜第328源章｜2",
+      "title": "瓦拉几亚地下生命防御",
       "memo": "三百年后、昏君与暗云：新建立连续性（第328源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8889,7 +8889,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-328-03",
-      "title": "新建立连续性｜第328源章｜3",
+      "title": "蒂雅赐名监管",
       "memo": "三百年后、昏君与暗云：新建立连续性（第328源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8915,7 +8915,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-328-01",
-      "title": "未解决事项｜第328源章｜1",
+      "title": "老国王剩余寿命",
       "memo": "三百年后、昏君与暗云：未解决事项（第328源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8940,7 +8940,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-328-02",
-      "title": "未解决事项｜第328源章｜2",
+      "title": "生鬼努斯在创造者死后状态",
       "memo": "三百年后、昏君与暗云：未解决事项（第328源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8965,7 +8965,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-328-01",
-      "title": "主角龙形态｜第328源章｜1",
+      "title": "主角龙形态｜吸血鬼.(2)｜瓦拉几亚王城中的龙族巫女形蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第328源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8992,7 +8992,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-328-01",
-      "title": "主角龙状态｜第328源章｜1",
+      "title": "主角龙状态｜吸血鬼.(2)｜为地下守护体赐名并承担老国王死后的监管责任",
       "memo": "三百年后、昏君与暗云：主角龙状态（第328源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9017,7 +9017,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-328-01",
-      "title": "主角龙知识边界｜第328源章｜1",
+      "title": "主角龙知识边界｜吸血鬼.(2)｜只能估计创造过程需千年以上，未断言准确年数",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第328源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9042,7 +9042,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-329-01",
-      "title": "事件｜第329源章｜1",
+      "title": "蒂雅由老国王必死联想到自身寿命、世界毁灭与回乡失败，前世细节虽渐模糊，乡愁仍无法剥离",
       "memo": "三百年后、昏君与暗云：事件（第329源章第1条）",
       "category": "event",
       "keys": [
@@ -9068,7 +9068,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-329-02",
-      "title": "事件｜第329源章｜2",
+      "title": "蒂雅与西娅前往北罗马尼亚东部物流城市塞本，追查以混血献祭维系的地下组织和弗拉德",
       "memo": "三百年后、昏君与暗云：事件（第329源章第2条）",
       "category": "event",
       "keys": [
@@ -9096,7 +9096,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-329-03",
-      "title": "事件｜第329源章｜3",
+      "title": "弗拉德操纵组织并囤积生命却不善运用",
       "memo": "三百年后、昏君与暗云：事件（第329源章第3条）",
       "category": "event",
       "keys": [
@@ -9123,7 +9123,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-329-04",
-      "title": "事件｜第329源章｜4",
+      "title": "后世对吸血种扩散存在吸血鬼论与生鬼努斯论，前者认为猎杀导致逃散",
       "memo": "三百年后、昏君与暗云：事件（第329源章第4条）",
       "category": "event",
       "keys": [
@@ -9149,7 +9149,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-329-01",
-      "title": "世界设定事实｜第329源章｜1",
+      "title": "塞本是北罗马尼亚东部物流中心，受北方寒流与绕过瓦拉几亚的游牧民侵扰",
       "memo": "三百年后、昏君与暗云：世界设定事实（第329源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9174,7 +9174,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-329-02",
-      "title": "世界设定事实｜第329源章｜2",
+      "title": "弗拉德组织以混合成员鲜血献给首领完成加入，血液同时象征生命与血缘",
       "memo": "三百年后、昏君与暗云：世界设定事实（第329源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9200,7 +9200,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-329-03",
-      "title": "世界设定事实｜第329源章｜3",
+      "title": "后世吸血种起源存在两种互斥主流学说，小说此处没有裁定最终真相",
       "memo": "三百年后、昏君与暗云：世界设定事实（第329源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9225,7 +9225,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-329-01",
-      "title": "新建立连续性｜第329源章｜1",
+      "title": "吸血鬼称呼",
       "memo": "三百年后、昏君与暗云：新建立连续性（第329源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9250,7 +9250,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-329-02",
-      "title": "新建立连续性｜第329源章｜2",
+      "title": "弗拉德献血组织",
       "memo": "三百年后、昏君与暗云：新建立连续性（第329源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9276,7 +9276,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-329-03",
-      "title": "新建立连续性｜第329源章｜3",
+      "title": "吸血种两种起源学说",
       "memo": "三百年后、昏君与暗云：新建立连续性（第329源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9301,7 +9301,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-329-01",
-      "title": "未解决事项｜第329源章｜1",
+      "title": "弗拉德后续事迹",
       "memo": "三百年后、昏君与暗云：未解决事项（第329源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9327,7 +9327,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-329-02",
-      "title": "未解决事项｜第329源章｜2",
+      "title": "吸血种实际扩散路径",
       "memo": "三百年后、昏君与暗云：未解决事项（第329源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9352,7 +9352,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-329-03",
-      "title": "未解决事项｜第329源章｜3",
+      "title": "蒂雅归乡通道",
       "memo": "三百年后、昏君与暗云：未解决事项（第329源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9378,7 +9378,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-329-01",
-      "title": "主角龙形态｜第329源章｜1",
+      "title": "主角龙形态｜吸血鬼.(3)｜塞本暗巷与宅邸中的龙族巫女形蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第329源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9405,7 +9405,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-329-01",
-      "title": "主角龙状态｜第329源章｜1",
+      "title": "主角龙状态｜吸血鬼.(3)｜强烈思乡，并为确认弗拉德而闯入其组织",
       "memo": "三百年后、昏君与暗云：主角龙状态（第329源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9431,7 +9431,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-329-01",
-      "title": "主角龙知识边界｜第329源章｜1",
+      "title": "主角龙知识边界｜吸血鬼.(3)｜不知道自身是否永恒、世界毁灭后的命运或跨界通道何时成功",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第329源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9456,7 +9456,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-330-01",
-      "title": "事件｜第330源章｜1",
+      "title": "蒂雅结合高处全局与信徒视角细节观察世界",
       "memo": "三百年后、昏君与暗云：事件（第330源章第1条）",
       "category": "event",
       "keys": [
@@ -9482,7 +9482,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-330-02",
-      "title": "事件｜第330源章｜2",
+      "title": "南罗马尼亚经济，农业，人口，沿海渔业，船贸和魔法师资源占优",
       "memo": "三百年后、昏君与暗云：事件（第330源章第2条）",
       "category": "event",
       "keys": [
@@ -9507,7 +9507,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-330-03",
-      "title": "事件｜第330源章｜3",
+      "title": "北罗马尼亚持有首都天狼星，不败之旗，艾波那骑士团，骑兵弓手与矮人装备",
       "memo": "三百年后、昏君与暗云：事件（第330源章第3条）",
       "category": "event",
       "keys": [
@@ -9532,7 +9532,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-330-04",
-      "title": "事件｜第330源章｜4",
+      "title": "北罗马尼亚新皇帝贪婪狂妄且受奸臣操纵，削军费、建离宫、纵情享乐，最终引爆更大危机",
       "memo": "三百年后、昏君与暗云：事件（第330源章第4条）",
       "category": "event",
       "keys": [
@@ -9558,7 +9558,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-330-01",
-      "title": "世界设定事实｜第330源章｜1",
+      "title": "南罗马尼亚的优势是财富，粮食，人口，海贸和普罗西亚魔法师",
       "memo": "三百年后、昏君与暗云：世界设定事实（第330源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9583,7 +9583,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-330-02",
-      "title": "世界设定事实｜第330源章｜2",
+      "title": "北罗马尼亚占首都天狼星并拥有不败之旗、艾波那骑士团、骑兵弓手和更便宜的矮人装备",
       "memo": "三百年后、昏君与暗云：世界设定事实（第330源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9608,7 +9608,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-330-03",
-      "title": "世界设定事实｜第330源章｜3",
+      "title": "北方约三成领土不宜农耕，依靠土豆、狩猎与巨型动物产品，且持续受绕道入侵的游牧民牵制",
       "memo": "三百年后、昏君与暗云：世界设定事实（第330源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9633,7 +9633,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-330-01",
-      "title": "新建立连续性｜第330源章｜1",
+      "title": "南北罗马尼亚结构对比",
       "memo": "三百年后、昏君与暗云：新建立连续性（第330源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9658,7 +9658,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-330-02",
-      "title": "新建立连续性｜第330源章｜2",
+      "title": "北罗马尼亚昏君继位",
       "memo": "三百年后、昏君与暗云：新建立连续性（第330源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9683,7 +9683,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-330-01",
-      "title": "未解决事项｜第330源章｜1",
+      "title": "昏君引爆的具体事件",
       "memo": "三百年后、昏君与暗云：未解决事项（第330源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9708,7 +9708,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-330-02",
-      "title": "未解决事项｜第330源章｜2",
+      "title": "两国平衡是否崩溃",
       "memo": "三百年后、昏君与暗云：未解决事项（第330源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9733,7 +9733,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-330-01",
-      "title": "主角龙形态｜第330源章｜1",
+      "title": "主角龙形态｜两个帝国｜主要以万神殿高处与信徒视角观察的蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第330源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9759,7 +9759,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-330-01",
-      "title": "主角龙状态｜第330源章｜1",
+      "title": "主角龙状态｜两个帝国｜分析南北罗马尼亚平衡，并见证昏君继位破坏体系",
       "memo": "三百年后、昏君与暗云：主角龙状态（第330源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9784,7 +9784,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-330-01",
-      "title": "主角龙知识边界｜第330源章｜1",
+      "title": "主角龙知识边界｜两个帝国｜起初不知道新皇继位会造成内部崩坏，也不清楚其登位内情",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第330源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9810,7 +9810,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-331-01",
-      "title": "事件｜第331源章｜1",
+      "title": "后世童话把贪婪国王向精灵矮人索取美女并亲征的事件改写成儿童寓言",
       "memo": "三百年后、昏君与暗云：事件（第331源章第1条）",
       "category": "event",
       "keys": [
@@ -9835,7 +9835,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-331-02",
-      "title": "事件｜第331源章｜2",
+      "title": "北罗马尼亚皇帝卢修斯·奥勒留·康茂德要求吞并贝特尔吉乌斯",
       "memo": "三百年后、昏君与暗云：事件（第331源章第2条）",
       "category": "event",
       "keys": [
@@ -9862,7 +9862,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-331-03",
-      "title": "事件｜第331源章｜3",
+      "title": "皇帝的兜帽老帝师煽动他把贝特尔吉乌斯、生命教团和南罗马尼亚串为敌人",
       "memo": "三百年后、昏君与暗云：事件（第331源章第3条）",
       "category": "event",
       "keys": [
@@ -9888,7 +9888,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-331-04",
-      "title": "事件｜第331源章｜4",
+      "title": "童话结尾让随军士兵在国王下令攻击时逃散，昏君独自冲锋并被精灵矮人痛打",
       "memo": "三百年后、昏君与暗云：事件（第331源章第4条）",
       "category": "event",
       "keys": [
@@ -9913,7 +9913,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-331-01",
-      "title": "世界设定事实｜第331源章｜1",
+      "title": "生命教团除生命礼仪和治疗外，还开路维安，促进物流，借鸟人传信",
       "memo": "三百年后、昏君与暗云：世界设定事实（第331源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9938,7 +9938,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-331-02",
-      "title": "世界设定事实｜第331源章｜2",
+      "title": "贝特尔吉乌斯是精灵与矮人长期争夺的竞技场城市，不属于北罗马尼亚",
       "memo": "三百年后、昏君与暗云：世界设定事实（第331源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9963,7 +9963,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-331-01",
-      "title": "新建立连续性｜第331源章｜1",
+      "title": "康茂德攻占贝特尔吉乌斯计划",
       "memo": "三百年后、昏君与暗云：新建立连续性（第331源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9989,7 +9989,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-331-02",
-      "title": "新建立连续性｜第331源章｜2",
+      "title": "兜帽帝师煽动",
       "memo": "三百年后、昏君与暗云：新建立连续性（第331源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10014,7 +10014,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-331-03",
-      "title": "新建立连续性｜第331源章｜3",
+      "title": "臣子阻止意志",
       "memo": "三百年后、昏君与暗云：新建立连续性（第331源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10039,7 +10039,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-331-01",
-      "title": "未解决事项｜第331源章｜1",
+      "title": "帝师身份与目的",
       "memo": "三百年后、昏君与暗云：未解决事项（第331源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10064,7 +10064,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-331-02",
-      "title": "未解决事项｜第331源章｜2",
+      "title": "臣子将采用何种手段",
       "memo": "三百年后、昏君与暗云：未解决事项（第331源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10089,7 +10089,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-331-01",
-      "title": "主角龙形态｜第331源章｜1",
+      "title": "主角龙形态｜昏君.(1)｜本章蒂雅未直接登场，仅以生命女神与龙族巫女信仰背景存在",
       "memo": "三百年后、昏君与暗云：主角龙形态（第331源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10116,7 +10116,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-331-01",
-      "title": "主角龙状态｜第331源章｜1",
+      "title": "主角龙状态｜昏君.(1)｜不在场",
       "memo": "三百年后、昏君与暗云：主角龙状态（第331源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10141,7 +10141,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-331-01",
-      "title": "主角龙知识边界｜第331源章｜1",
+      "title": "主角龙知识边界｜昏君.(1)｜本章没有证明蒂雅已知皇帝密议",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第331源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10167,7 +10167,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-332-01",
-      "title": "事件｜第332源章｜1",
+      "title": "康茂德以国家资金建立只听自己命令的数千近卫队，并在帝师吹捧下相信足以征服精灵矮人",
       "memo": "三百年后、昏君与暗云：事件（第332源章第1条）",
       "category": "event",
       "keys": [
@@ -10193,7 +10193,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-332-02",
-      "title": "事件｜第332源章｜2",
+      "title": "北罗马尼亚大贵族秘密集会，判断进攻会让精灵，矮人和南罗马尼亚同时成为敌人",
       "memo": "三百年后、昏君与暗云：事件（第332源章第2条）",
       "category": "event",
       "keys": [
@@ -10218,7 +10218,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-332-03",
-      "title": "事件｜第332源章｜3",
+      "title": "势力最大的老贵族提出废黜皇帝并承诺事后退位传爵给儿子，以承担谋反责任",
       "memo": "三百年后、昏君与暗云：事件（第332源章第3条）",
       "category": "event",
       "keys": [
@@ -10243,7 +10243,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-332-04",
-      "title": "事件｜第332源章｜4",
+      "title": "贵族决定利用各自在近卫队中的眼线散布皇帝将攻打生命教团，强取龙族巫女的消息",
       "memo": "三百年后、昏君与暗云：事件（第332源章第4条）",
       "category": "event",
       "keys": [
@@ -10269,7 +10269,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-332-01",
-      "title": "世界设定事实｜第332源章｜1",
+      "title": "康茂德近卫队是国家出资、规模数千、只服从皇帝的精锐个人军队",
       "memo": "三百年后、昏君与暗云：世界设定事实（第332源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10295,7 +10295,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-332-02",
-      "title": "世界设定事实｜第332源章｜2",
+      "title": "北罗马尼亚主要贵族均在皇帝近卫队安插眼线，合并后可形成数十名内部传播节点",
       "memo": "三百年后、昏君与暗云：世界设定事实（第332源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10320,7 +10320,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-332-01",
-      "title": "新建立连续性｜第332源章｜1",
+      "title": "北罗马尼亚贵族谋反",
       "memo": "三百年后、昏君与暗云：新建立连续性（第332源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10345,7 +10345,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-332-02",
-      "title": "新建立连续性｜第332源章｜2",
+      "title": "近卫队眼线网",
       "memo": "三百年后、昏君与暗云：新建立连续性（第332源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10370,7 +10370,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-332-03",
-      "title": "新建立连续性｜第332源章｜3",
+      "title": "龙族巫女谣言策略",
       "memo": "三百年后、昏君与暗云：新建立连续性（第332源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10396,7 +10396,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-332-01",
-      "title": "未解决事项｜第332源章｜1",
+      "title": "近卫队是否哗变",
       "memo": "三百年后、昏君与暗云：未解决事项（第332源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10421,7 +10421,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-332-02",
-      "title": "未解决事项｜第332源章｜2",
+      "title": "生命教团如何回应",
       "memo": "三百年后、昏君与暗云：未解决事项（第332源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10446,7 +10446,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-332-01",
-      "title": "主角龙形态｜第332源章｜1",
+      "title": "主角龙形态｜昏君.(2)｜本章蒂雅未直接登场",
       "memo": "三百年后、昏君与暗云：主角龙形态（第332源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10473,7 +10473,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-332-01",
-      "title": "主角龙状态｜第332源章｜1",
+      "title": "主角龙状态｜昏君.(2)｜尚未被证明知情",
       "memo": "三百年后、昏君与暗云：主角龙状态（第332源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10498,7 +10498,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-332-01",
-      "title": "主角龙知识边界｜第332源章｜1",
+      "title": "主角龙知识边界｜昏君.(2)｜贵族所说发现龙族巫女不等于蒂雅已经参与",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第332源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10525,7 +10525,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-333-01",
-      "title": "事件｜第333源章｜1",
+      "title": "皇帝攻打精灵矮人，关闭生命教团，强纳龙族巫女乃至染指生命女神的谣言迅速扩散",
       "memo": "三百年后、昏君与暗云：事件（第333源章第1条）",
       "category": "event",
       "keys": [
@@ -10551,7 +10551,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-333-02",
-      "title": "事件｜第333源章｜2",
+      "title": "康茂德携不败之旗率近卫队进军，帝师继续用世界终将臣服的语言奉承",
       "memo": "三百年后、昏君与暗云：事件（第333源章第2条）",
       "category": "event",
       "keys": [
@@ -10577,7 +10577,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-333-03",
-      "title": "事件｜第333源章｜3",
+      "title": "消息先抵贝特尔吉乌斯",
       "memo": "三百年后、昏君与暗云：事件（第333源章第3条）",
       "category": "event",
       "keys": [
@@ -10603,7 +10603,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-333-04",
-      "title": "事件｜第333源章｜4",
+      "title": "龙族巫女实为刚逃到地表的蒂雅",
       "memo": "三百年后、昏君与暗云：事件（第333源章第4条）",
       "category": "event",
       "keys": [
@@ -10630,7 +10630,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-333-01",
-      "title": "世界设定事实｜第333源章｜1",
+      "title": "北罗马尼亚不败之旗为银色、黑流苏、绣长牙猛兽，是三件皇帝圣物之一",
       "memo": "三百年后、昏君与暗云：世界设定事实（第333源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10655,7 +10655,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-333-02",
-      "title": "世界设定事实｜第333源章｜2",
+      "title": "谣言与鸟人等信息传播速度可超过组织庞大、移动缓慢的军队",
       "memo": "三百年后、昏君与暗云：世界设定事实（第333源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10680,7 +10680,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-333-03",
-      "title": "世界设定事实｜第333源章｜3",
+      "title": "贝特尔吉乌斯精灵矮人承认龙族巫女作为生命女神代理者的跨族调停权威",
       "memo": "三百年后、昏君与暗云：世界设定事实（第333源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10706,7 +10706,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-333-01",
-      "title": "新建立连续性｜第333源章｜1",
+      "title": "康茂德亲征",
       "memo": "三百年后、昏君与暗云：新建立连续性（第333源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10732,7 +10732,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-333-02",
-      "title": "新建立连续性｜第333源章｜2",
+      "title": "贝特尔吉乌斯联合会议",
       "memo": "三百年后、昏君与暗云：新建立连续性（第333源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10757,7 +10757,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-333-03",
-      "title": "新建立连续性｜第333源章｜3",
+      "title": "蒂雅以龙族巫女身份介入",
       "memo": "三百年后、昏君与暗云：新建立连续性（第333源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10784,7 +10784,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-333-01",
-      "title": "未解决事项｜第333源章｜1",
+      "title": "阻止近卫队的具体方案",
       "memo": "三百年后、昏君与暗云：未解决事项（第333源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10809,7 +10809,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-333-02",
-      "title": "未解决事项｜第333源章｜2",
+      "title": "贵族谋反与教团介入如何汇合",
       "memo": "三百年后、昏君与暗云：未解决事项（第333源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10834,7 +10834,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-333-01",
-      "title": "主角龙形态｜第333源章｜1",
+      "title": "主角龙形态｜昏君.(3)｜长角银发少女、生命教团圣女式龙族巫女形态",
       "memo": "三百年后、昏君与暗云：主角龙形态（第333源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10860,7 +10860,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-333-01",
-      "title": "主角龙状态｜第333源章｜1",
+      "title": "主角龙状态｜昏君.(3)｜在贝特尔吉乌斯主持精灵矮人联席对策会议",
       "memo": "三百年后、昏君与暗云：主角龙状态（第333源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10885,7 +10885,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-333-01",
-      "title": "主角龙知识边界｜第333源章｜1",
+      "title": "主角龙知识边界｜昏君.(3)｜刚被卷入时尚未掌握皇帝事件全貌",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第333源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10910,7 +10910,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-334-01",
-      "title": "事件｜第334源章｜1",
+      "title": "贝特尔吉乌斯常驻精灵矮人足以击败数千近卫队，但城市位于北罗马尼亚境内",
       "memo": "三百年后、昏君与暗云：事件（第334源章第1条）",
       "category": "event",
       "keys": [
@@ -10935,7 +10935,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-334-02",
-      "title": "事件｜第334源章｜2",
+      "title": "蒂雅得知有人散布皇帝对龙族巫女图谋不轨的传闻",
       "memo": "三百年后、昏君与暗云：事件（第334源章第2条）",
       "category": "event",
       "keys": [
@@ -10962,7 +10962,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-334-03",
-      "title": "事件｜第334源章｜3",
+      "title": "确认敌军为皇帝常备私兵后，蒂雅决定在正式战斗前以生命教团威势和非战斗手段摧毁士气",
       "memo": "三百年后、昏君与暗云：事件（第334源章第3条）",
       "category": "event",
       "keys": [
@@ -10988,7 +10988,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-334-04",
-      "title": "事件｜第334源章｜4",
+      "title": "泥泞、反季积雪、粮食霉变和疾病令近卫队大量减员",
       "memo": "三百年后、昏君与暗云：事件（第334源章第4条）",
       "category": "event",
       "keys": [
@@ -11013,7 +11013,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-334-01",
-      "title": "世界设定事实｜第334源章｜1",
+      "title": "贝特尔吉乌斯地理上被北罗马尼亚包围，政治上由精灵矮人自治",
       "memo": "三百年后、昏君与暗云：世界设定事实（第334源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11038,7 +11038,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-334-02",
-      "title": "世界设定事实｜第334源章｜2",
+      "title": "康茂德近卫队是此时代罕见的常备军和皇帝私兵，训练与忠诚理论上高于临时征召军",
       "memo": "三百年后、昏君与暗云：世界设定事实（第334源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11064,7 +11064,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-334-03",
-      "title": "世界设定事实｜第334源章｜3",
+      "title": "不败之旗只强化处于战斗中的部队士气与活力，无法阻止疾病、饥饿、逃亡等战前非战斗减员",
       "memo": "三百年后、昏君与暗云：世界设定事实（第334源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11089,7 +11089,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-334-01",
-      "title": "新建立连续性｜第334源章｜1",
+      "title": "非战斗瓦解近卫队方案",
       "memo": "三百年后、昏君与暗云：新建立连续性（第334源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11114,7 +11114,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-334-02",
-      "title": "新建立连续性｜第334源章｜2",
+      "title": "不败之旗战斗触发限制",
       "memo": "三百年后、昏君与暗云：新建立连续性（第334源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11139,7 +11139,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-334-01",
-      "title": "未解决事项｜第334源章｜1",
+      "title": "减员能否迫使撤军",
       "memo": "三百年后、昏君与暗云：未解决事项（第334源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11164,7 +11164,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-334-02",
-      "title": "未解决事项｜第334源章｜2",
+      "title": "近卫队真实忠诚结构",
       "memo": "三百年后、昏君与暗云：未解决事项（第334源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11189,7 +11189,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-334-01",
-      "title": "主角龙形态｜第334源章｜1",
+      "title": "主角龙形态｜昏君.(4)｜贝特尔吉乌斯联席会议中的银发有角龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第334源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11215,7 +11215,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-334-01",
-      "title": "主角龙状态｜第334源章｜1",
+      "title": "主角龙状态｜昏君.(4)｜制定并实施避免正面开战的士气瓦解方案",
       "memo": "三百年后、昏君与暗云：主角龙状态（第334源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11240,7 +11240,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-334-01",
-      "title": "主角龙知识边界｜第334源章｜1",
+      "title": "主角龙知识边界｜昏君.(4)｜最初不知道针对自己的谣言内容，也尚不知近卫队内部已有贵族策反",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第334源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11265,7 +11265,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-335-01",
-      "title": "事件｜第335源章｜1",
+      "title": "康茂德无视士兵疾病、饥饿、腐败粮食和低士气，只惩打负责人",
       "memo": "三百年后、昏君与暗云：事件（第335源章第1条）",
       "category": "event",
       "keys": [
@@ -11291,7 +11291,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-335-02",
-      "title": "事件｜第335源章｜2",
+      "title": "蒂雅将未交战即减半视为成功，计划独自劝退并让居民躲入可封死的地道",
       "memo": "三百年后、昏君与暗云：事件（第335源章第2条）",
       "category": "event",
       "keys": [
@@ -11317,7 +11317,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-335-03",
-      "title": "事件｜第335源章｜3",
+      "title": "精灵和矮人拒绝让龙族巫女独自面对皇帝，认为城市、母神化身与种族荣誉值得流血",
       "memo": "三百年后、昏君与暗云：事件（第335源章第3条）",
       "category": "event",
       "keys": [
@@ -11344,7 +11344,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-335-04",
-      "title": "事件｜第335源章｜4",
+      "title": "尚未完成谈判准备，康茂德已手持不败之旗单骑冲锋，近卫队没有跟随",
       "memo": "三百年后、昏君与暗云：事件（第335源章第4条）",
       "category": "event",
       "keys": [
@@ -11370,7 +11370,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-335-01",
-      "title": "世界设定事实｜第335源章｜1",
+      "title": "贝特尔吉乌斯预设居民地道与导火索封闭方案，可在战斗失败时保护非战斗人员",
       "memo": "三百年后、昏君与暗云：世界设定事实（第335源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11395,7 +11395,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-335-02",
-      "title": "世界设定事实｜第335源章｜2",
+      "title": "精灵视龙族巫女为世界树母亲之化身，矮人认为萨加玛塔会严惩交出巫女者",
       "memo": "三百年后、昏君与暗云：世界设定事实（第335源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11423,7 +11423,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-335-01",
-      "title": "新建立连续性｜第335源章｜1",
+      "title": "居民地道疏散方案",
       "memo": "三百年后、昏君与暗云：新建立连续性（第335源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11448,7 +11448,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-335-02",
-      "title": "新建立连续性｜第335源章｜2",
+      "title": "精灵矮人拒绝交出巫女",
       "memo": "三百年后、昏君与暗云：新建立连续性（第335源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11473,7 +11473,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-335-03",
-      "title": "新建立连续性｜第335源章｜3",
+      "title": "康茂德单骑冲锋",
       "memo": "三百年后、昏君与暗云：新建立连续性（第335源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11499,7 +11499,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-335-01",
-      "title": "未解决事项｜第335源章｜1",
+      "title": "近卫队为何不跟随",
       "memo": "三百年后、昏君与暗云：未解决事项（第335源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11524,7 +11524,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-335-02",
-      "title": "未解决事项｜第335源章｜2",
+      "title": "蒂雅能否活捉或劝退皇帝",
       "memo": "三百年后、昏君与暗云：未解决事项（第335源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11550,7 +11550,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-335-01",
-      "title": "主角龙形态｜第335源章｜1",
+      "title": "主角龙形态｜昏君.(5)｜即将出城谈判的年幼外表龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第335源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11576,7 +11576,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-335-01",
-      "title": "主角龙状态｜第335源章｜1",
+      "title": "主角龙状态｜昏君.(5)｜避战计划未能完全压过精灵矮人战意，准备先行交涉",
       "memo": "三百年后、昏君与暗云：主角龙状态（第335源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11601,7 +11601,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-335-01",
-      "title": "主角龙知识边界｜第335源章｜1",
+      "title": "主角龙知识边界｜昏君.(5)｜不知道剩余近卫队为何坚持至此，也未察觉全军已决定背弃皇帝",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第335源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11626,7 +11626,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-336-01",
-      "title": "事件｜第336源章｜1",
+      "title": "康茂德独自冲锋，蒂雅阻止精灵射杀，决定活捉皇帝作为解散军队与后续谈判筹码",
       "memo": "三百年后、昏君与暗云：事件（第336源章第1条）",
       "category": "event",
       "keys": [
@@ -11653,7 +11653,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-336-02",
-      "title": "事件｜第336源章｜2",
+      "title": "贵族间谍已策反所有抵达战场的近卫队员",
       "memo": "三百年后、昏君与暗云：事件（第336源章第2条）",
       "category": "event",
       "keys": [
@@ -11678,7 +11678,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-336-03",
-      "title": "事件｜第336源章｜3",
+      "title": "蒂雅以生命之树催生荆棘与藤蔓，束缚皇帝和坐骑",
       "memo": "三百年后、昏君与暗云：事件（第336源章第3条）",
       "category": "event",
       "keys": [
@@ -11704,7 +11704,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-336-04",
-      "title": "事件｜第336源章｜4",
+      "title": "后世贝特尔吉乌斯以大理石雕像纪念龙族巫女俘虏昏君",
       "memo": "三百年后、昏君与暗云：事件（第336源章第4条）",
       "category": "event",
       "keys": [
@@ -11730,7 +11730,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-336-01",
-      "title": "世界设定事实｜第336源章｜1",
+      "title": "北罗马尼亚贵族原计划利用贝特尔吉乌斯杀死或俘虏皇帝",
       "memo": "三百年后、昏君与暗云：世界设定事实（第336源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11755,7 +11755,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-336-02",
-      "title": "世界设定事实｜第336源章｜2",
+      "title": "贝特尔吉乌斯后世竖立龙族巫女骑白马、持生命之树与不败之旗、拖行藤缚皇帝的大理石雕像",
       "memo": "三百年后、昏君与暗云：世界设定事实（第336源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11781,7 +11781,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-336-01",
-      "title": "新建立连续性｜第336源章｜1",
+      "title": "康茂德被活捉",
       "memo": "三百年后、昏君与暗云：新建立连续性（第336源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11807,7 +11807,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-336-02",
-      "title": "新建立连续性｜第336源章｜2",
+      "title": "不败之旗落入蒂雅手中",
       "memo": "三百年后、昏君与暗云：新建立连续性（第336源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11833,7 +11833,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-336-03",
-      "title": "新建立连续性｜第336源章｜3",
+      "title": "后世龙族巫女雕像",
       "memo": "三百年后、昏君与暗云：新建立连续性（第336源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11859,7 +11859,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-336-01",
-      "title": "未解决事项｜第336源章｜1",
+      "title": "皇帝最终处置｜昏君.(6)",
       "memo": "三百年后、昏君与暗云：未解决事项（第336源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11884,7 +11884,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-336-02",
-      "title": "未解决事项｜第336源章｜2",
+      "title": "贵族谈判结果",
       "memo": "三百年后、昏君与暗云：未解决事项（第336源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11909,7 +11909,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-336-01",
-      "title": "主角龙形态｜第336源章｜1",
+      "title": "主角龙形态｜昏君.(6)｜银发有角龙族巫女，持生命之树，随后骑皇帝白马并持不败之旗",
       "memo": "三百年后、昏君与暗云：主角龙形态（第336源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11935,7 +11935,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-336-01",
-      "title": "主角龙状态｜第336源章｜1",
+      "title": "主角龙状态｜昏君.(6)｜无伤活捉康茂德，获得皇帝圣物并返回贝特尔吉乌斯",
       "memo": "三百年后、昏君与暗云：主角龙状态（第336源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11961,7 +11961,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-336-01",
-      "title": "主角龙知识边界｜第336源章｜1",
+      "title": "主角龙知识边界｜昏君.(6)｜当时仍不知道近卫队背叛的贵族计划，准备在后续交涉中确认",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第336源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11986,7 +11986,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-337-01",
-      "title": "事件｜第337源章｜1",
+      "title": "近卫队夜间分散消失",
       "memo": "三百年后、昏君与暗云：事件（第337源章第1条）",
       "category": "event",
       "keys": [
@@ -12013,7 +12013,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-337-02",
-      "title": "事件｜第337源章｜2",
+      "title": "近卫队为掩盖背叛，编造与精灵矮人激战败退的传闻",
       "memo": "三百年后、昏君与暗云：事件（第337源章第2条）",
       "category": "event",
       "keys": [
@@ -12038,7 +12038,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-337-03",
-      "title": "事件｜第337源章｜3",
+      "title": "贵族通过生命教团划清康茂德个人行为与国家立场并请求停战",
       "memo": "三百年后、昏君与暗云：事件（第337源章第3条）",
       "category": "event",
       "keys": [
@@ -12064,7 +12064,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-337-04",
-      "title": "事件｜第337源章｜4",
+      "title": "蒂雅维持皇帝软禁但放松消耗性的元素监视，并解除城市战时体制",
       "memo": "三百年后、昏君与暗云：事件（第337源章第4条）",
       "category": "event",
       "keys": [
@@ -12090,7 +12090,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-337-05",
-      "title": "事件｜第337源章｜5",
+      "title": "蒂雅判断皇帝最好退位软禁或处死，但杀皇帝会制造弑君污名并削弱皇权神圣性，后果同样麻烦",
       "memo": "三百年后、昏君与暗云：事件（第337源章第5条）",
       "category": "event",
       "keys": [
@@ -12116,7 +12116,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-337-01",
-      "title": "世界设定事实｜第337源章｜1",
+      "title": "近卫队撤离后谎称曾与贝特尔吉乌斯激战，以掩盖未战背叛",
       "memo": "三百年后、昏君与暗云：世界设定事实（第337源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12141,7 +12141,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-337-02",
-      "title": "世界设定事实｜第337源章｜2",
+      "title": "生命教团承担敌对双方书信中介",
       "memo": "三百年后、昏君与暗云：世界设定事实（第337源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12166,7 +12166,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-337-03",
-      "title": "世界设定事实｜第337源章｜3",
+      "title": "贝特尔吉乌斯战时体制包含全面封路、禁酒禁烟和粮食配给，解除后仍保留皇帝软禁",
       "memo": "三百年后、昏君与暗云：世界设定事实（第337源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12191,7 +12191,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-337-01",
-      "title": "新建立连续性｜第337源章｜1",
+      "title": "双方停战书信",
       "memo": "三百年后、昏君与暗云：新建立连续性（第337源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12216,7 +12216,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-337-02",
-      "title": "新建立连续性｜第337源章｜2",
+      "title": "康茂德软禁",
       "memo": "三百年后、昏君与暗云：新建立连续性（第337源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12242,7 +12242,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-337-03",
-      "title": "新建立连续性｜第337源章｜3",
+      "title": "近卫队伪造败战传闻",
       "memo": "三百年后、昏君与暗云：新建立连续性（第337源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12267,7 +12267,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-337-01",
-      "title": "未解决事项｜第337源章｜1",
+      "title": "贵族代表团谈判",
       "memo": "三百年后、昏君与暗云：未解决事项（第337源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12292,7 +12292,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-337-02",
-      "title": "未解决事项｜第337源章｜2",
+      "title": "皇帝最终命运",
       "memo": "三百年后、昏君与暗云：未解决事项（第337源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12317,7 +12317,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-337-03",
-      "title": "未解决事项｜第337源章｜3",
+      "title": "民众敌意是否扩大",
       "memo": "三百年后、昏君与暗云：未解决事项（第337源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12342,7 +12342,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-337-01",
-      "title": "主角龙形态｜第337源章｜1",
+      "title": "主角龙形态｜昏君.(7)｜贝特尔吉乌斯的龙族巫女调停者",
       "memo": "三百年后、昏君与暗云：主角龙形态（第337源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12368,7 +12368,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-337-01",
-      "title": "主角龙状态｜第337源章｜1",
+      "title": "主角龙状态｜昏君.(7)｜掌控康茂德俘虏并等待北罗马尼亚贵族代表团",
       "memo": "三百年后、昏君与暗云：主角龙状态（第337源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12394,7 +12394,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-337-01",
-      "title": "主角龙知识边界｜第337源章｜1",
+      "title": "主角龙知识边界｜昏君.(7)｜尚不清楚贵族谋反全貌和近卫队谣言扩散后果",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第337源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12419,7 +12419,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-338-01",
-      "title": "事件｜第338源章｜1",
+      "title": "北罗马尼亚老贵族率武装使节团抵达",
       "memo": "三百年后、昏君与暗云：事件（第338源章第1条）",
       "category": "event",
       "keys": [
@@ -12444,7 +12444,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-338-02",
-      "title": "事件｜第338源章｜2",
+      "title": "贵族把康茂德处置权交给龙族巫女与精灵矮人代表",
       "memo": "三百年后、昏君与暗云：事件（第338源章第2条）",
       "category": "event",
       "keys": [
@@ -12471,7 +12471,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-338-03",
-      "title": "事件｜第338源章｜3",
+      "title": "代表补充康茂德亲手杀害逾百人、强夺财物等恶行",
       "memo": "三百年后、昏君与暗云：事件（第338源章第3条）",
       "category": "event",
       "keys": [
@@ -12498,7 +12498,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-338-04",
-      "title": "事件｜第338源章｜4",
+      "title": "蒂雅推演幕后者若要摧毁北罗马尼亚，最有效办法就是先摧毁皇帝这一中央节点",
       "memo": "三百年后、昏君与暗云：事件（第338源章第4条）",
       "category": "event",
       "keys": [
@@ -12524,7 +12524,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-338-01",
-      "title": "世界设定事实｜第338源章｜1",
+      "title": "北方贵族仍以罗马尼亚帝国而非北罗马尼亚自称，显示正统性主张",
       "memo": "三百年后、昏君与暗云：世界设定事实（第338源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12549,7 +12549,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-338-02",
-      "title": "世界设定事实｜第338源章｜2",
+      "title": "罗马尼亚传统会严格选拔有天赋的皇太子并进行完整帝国治理教育",
       "memo": "三百年后、昏君与暗云：世界设定事实（第338源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12575,7 +12575,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-338-01",
-      "title": "新建立连续性｜第338源章｜1",
+      "title": "贵族正式承认策反近卫队",
       "memo": "三百年后、昏君与暗云：新建立连续性（第338源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12600,7 +12600,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-338-02",
-      "title": "新建立连续性｜第338源章｜2",
+      "title": "故意扶昏君上位假说",
       "memo": "三百年后、昏君与暗云：新建立连续性（第338源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12625,7 +12625,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-338-01",
-      "title": "未解决事项｜第338源章｜1",
+      "title": "康茂德登位真相",
       "memo": "三百年后、昏君与暗云：未解决事项（第338源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12651,7 +12651,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-338-02",
-      "title": "未解决事项｜第338源章｜2",
+      "title": "幕后者身份",
       "memo": "三百年后、昏君与暗云：未解决事项（第338源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12676,7 +12676,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-338-03",
-      "title": "未解决事项｜第338源章｜3",
+      "title": "皇帝最终处置｜暗中活动.(1)",
       "memo": "三百年后、昏君与暗云：未解决事项（第338源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12701,7 +12701,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-338-01",
-      "title": "主角龙形态｜第338源章｜1",
+      "title": "主角龙形态｜暗中活动.(1)｜主持贝特尔吉乌斯谈判的银发有角龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第338源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12727,7 +12727,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-338-01",
-      "title": "主角龙状态｜第338源章｜1",
+      "title": "主角龙状态｜暗中活动.(1)｜从皇帝处置问题发现可能有人操纵北罗马尼亚皇位",
       "memo": "三百年后、昏君与暗云：主角龙状态（第338源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12752,7 +12752,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-338-01",
-      "title": "主角龙知识边界｜第338源章｜1",
+      "title": "主角龙知识边界｜暗中活动.(1)｜只有违和感与结构推理，没有幕后者身份、行动证据或动机证据",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第338源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12777,7 +12777,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-339-01",
-      "title": "事件｜第339源章｜1",
+      "title": "因暂无阴谋证据，蒂雅先处理皇帝",
       "memo": "三百年后、昏君与暗云：事件（第339源章第1条）",
       "category": "event",
       "keys": [
@@ -12803,7 +12803,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-339-02",
-      "title": "事件｜第339源章｜2",
+      "title": "回信确认贝特尔吉乌斯将索赔，并由生命教团保证城市永远归种族大战胜者",
       "memo": "三百年后、昏君与暗云：事件（第339源章第2条）",
       "category": "event",
       "keys": [
@@ -12828,7 +12828,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-339-03",
-      "title": "事件｜第339源章｜3",
+      "title": "蒂雅说明拙劣读脑可能令目标脑碎或施法者信息过载，但自信自己不会失败",
       "memo": "三百年后、昏君与暗云：事件（第339源章第3条）",
       "category": "event",
       "keys": [
@@ -12854,7 +12854,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-339-04",
-      "title": "事件｜第339源章｜4",
+      "title": "无窗、单门、精灵检察官与矮人战士共同把守的囚室里，康茂德在今早送餐后无痕消失",
       "memo": "三百年后、昏君与暗云：事件（第339源章第4条）",
       "category": "event",
       "keys": [
@@ -12880,7 +12880,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-339-01",
-      "title": "世界设定事实｜第339源章｜1",
+      "title": "生命教团正式保证贝特尔吉乌斯归种族大战胜者所有",
       "memo": "三百年后、昏君与暗云：世界设定事实（第339源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12905,7 +12905,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-339-02",
-      "title": "世界设定事实｜第339源章｜2",
+      "title": "康茂德囚室由地下仓库改造，无窗且只有一入口，由精灵与矮人共同看守，正常逃脱路径不存在",
       "memo": "三百年后、昏君与暗云：世界设定事实（第339源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12931,7 +12931,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-339-01",
-      "title": "新建立连续性｜第339源章｜1",
+      "title": "生命教团保证贝特尔吉乌斯独立",
       "memo": "三百年后、昏君与暗云：新建立连续性（第339源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12956,7 +12956,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-339-02",
-      "title": "新建立连续性｜第339源章｜2",
+      "title": "康茂德囚室失踪",
       "memo": "三百年后、昏君与暗云：新建立连续性（第339源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12982,7 +12982,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-339-01",
-      "title": "未解决事项｜第339源章｜1",
+      "title": "逃脱方式",
       "memo": "三百年后、昏君与暗云：未解决事项（第339源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13007,7 +13007,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-339-02",
-      "title": "未解决事项｜第339源章｜2",
+      "title": "守卫是否受骗",
       "memo": "三百年后、昏君与暗云：未解决事项（第339源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13032,7 +13032,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-339-03",
-      "title": "未解决事项｜第339源章｜3",
+      "title": "幕后阴谋是否相关",
       "memo": "三百年后、昏君与暗云：未解决事项（第339源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13057,7 +13057,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-339-01",
-      "title": "主角龙形态｜第339源章｜1",
+      "title": "主角龙形态｜暗中活动.(2)｜龙族巫女调停者与即将施展读脑术的神性施法者",
       "memo": "三百年后、昏君与暗云：主角龙形态（第339源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13083,7 +13083,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-339-01",
-      "title": "主角龙状态｜第339源章｜1",
+      "title": "主角龙状态｜暗中活动.(2)｜确定处置与回信后发现皇帝无痕失踪",
       "memo": "三百年后、昏君与暗云：主角龙状态（第339源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13108,7 +13108,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-339-01",
-      "title": "主角龙知识边界｜第339源章｜1",
+      "title": "主角龙知识边界｜暗中活动.(2)｜读脑尚未执行",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第339源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13133,7 +13133,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-340-01",
-      "title": "事件｜第340源章｜1",
+      "title": "蒂雅从均匀得反常的室内魔力判断有高位存在潜入、带走皇帝并抹除痕迹",
       "memo": "三百年后、昏君与暗云：事件（第340源章第1条）",
       "category": "event",
       "keys": [
@@ -13159,7 +13159,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-340-02",
-      "title": "事件｜第340源章｜2",
+      "title": "蒂雅让空间以蓝色魔力粒子重现过去，康茂德的兜帽老导师从阴影现身",
       "memo": "三百年后、昏君与暗云：事件（第340源章第2条）",
       "category": "event",
       "keys": [
@@ -13187,7 +13187,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-340-03",
-      "title": "事件｜第340源章｜3",
+      "title": "蒂雅判断老人不像人类，承担追踪",
       "memo": "三百年后、昏君与暗云：事件（第340源章第3条）",
       "category": "event",
       "keys": [
@@ -13213,7 +13213,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-340-04",
-      "title": "事件｜第340源章｜4",
+      "title": "蒂雅以生命之树和纯净魔力延续几乎消散的痕迹，追到贝特尔吉乌斯北方群山",
       "memo": "三百年后、昏君与暗云：事件（第340源章第4条）",
       "category": "event",
       "keys": [
@@ -13240,7 +13240,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-340-01",
-      "title": "世界设定事实｜第340源章｜1",
+      "title": "长期有人停留会使室内魔力分布出现偏重",
       "memo": "三百年后、昏君与暗云：世界设定事实（第340源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13265,7 +13265,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-340-02",
-      "title": "世界设定事实｜第340源章｜2",
+      "title": "蒂雅能用空间中残留的信息以蓝色魔力粒子重现过去的影像与声音",
       "memo": "三百年后、昏君与暗云：世界设定事实（第340源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13291,7 +13291,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-340-03",
-      "title": "世界设定事实｜第340源章｜3",
+      "title": "纯净魔力可暂时供养将消散的残余魔力痕迹，使其成为空间追踪坐标",
       "memo": "三百年后、昏君与暗云：世界设定事实（第340源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13316,7 +13316,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-340-01",
-      "title": "新建立连续性｜第340源章｜1",
+      "title": "影之空间移动",
       "memo": "三百年后、昏君与暗云：新建立连续性（第340源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13341,7 +13341,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-340-02",
-      "title": "新建立连续性｜第340源章｜2",
+      "title": "老导师亲自救走康茂德",
       "memo": "三百年后、昏君与暗云：新建立连续性（第340源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13367,7 +13367,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-340-03",
-      "title": "新建立连续性｜第340源章｜3",
+      "title": "康茂德遭杀",
       "memo": "三百年后、昏君与暗云：新建立连续性（第340源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13393,7 +13393,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-340-01",
-      "title": "未解决事项｜第340源章｜1",
+      "title": "凶手是否就是导师",
       "memo": "三百年后、昏君与暗云：未解决事项（第340源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13418,7 +13418,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-340-02",
-      "title": "未解决事项｜第340源章｜2",
+      "title": "老人身份",
       "memo": "三百年后、昏君与暗云：未解决事项（第340源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13443,7 +13443,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-340-03",
-      "title": "未解决事项｜第340源章｜3",
+      "title": "皇帝灵魂状态",
       "memo": "三百年后、昏君与暗云：未解决事项（第340源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13468,7 +13468,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-340-01",
-      "title": "主角龙形态｜第340源章｜1",
+      "title": "主角龙形态｜暗中活动.(3)｜龙族巫女外形，持生命之树进行空间回溯和追踪",
       "memo": "三百年后、昏君与暗云：主角龙形态（第340源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13494,7 +13494,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-340-01",
-      "title": "主角龙状态｜第340源章｜1",
+      "title": "主角龙状态｜暗中活动.(3)｜确认老导师用影之转移劫走康茂德，并追到皇帝尸体",
       "memo": "三百年后、昏君与暗云：主角龙状态（第340源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13520,7 +13520,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-340-01",
-      "title": "主角龙知识边界｜第340源章｜1",
+      "title": "主角龙知识边界｜暗中活动.(3)｜尚不知老人种族、身份与目的",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第340源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13545,7 +13545,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-341-01",
-      "title": "事件｜第341源章｜1",
+      "title": "康茂德被细长影刺正面贯穿心脏后抛弃，野兽或怪物在数小时内啃坏尸体",
       "memo": "三百年后、昏君与暗云：事件（第341源章第1条）",
       "category": "event",
       "keys": [
@@ -13571,7 +13571,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-341-02",
-      "title": "事件｜第341源章｜2",
+      "title": "皇帝死亡未久灵魂却已不在，早于死神正常带走时间",
       "memo": "三百年后、昏君与暗云：事件（第341源章第2条）",
       "category": "event",
       "keys": [
@@ -13597,7 +13597,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-341-03",
-      "title": "事件｜第341源章｜3",
+      "title": "空间回溯确认兜帽老人用物质化黑色影荆棘刺杀皇帝",
       "memo": "三百年后、昏君与暗云：事件（第341源章第3条）",
       "category": "event",
       "keys": [
@@ -13624,7 +13624,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-341-04",
-      "title": "事件｜第341源章｜4",
+      "title": "蒂雅没有足够证据锁定幕后者，决定除非出现人类无法承受的大屠杀，否则静观其变",
       "memo": "三百年后、昏君与暗云：事件（第341源章第4条）",
       "category": "event",
       "keys": [
@@ -13650,7 +13650,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-341-05",
-      "title": "事件｜第341源章｜5",
+      "title": "老人在杀人后以影遁入地下，痕迹被蒂雅为国土丰饶布下的庞大地下魔力抹去",
       "memo": "三百年后、昏君与暗云：事件（第341源章第5条）",
       "category": "event",
       "keys": [
@@ -13676,7 +13676,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-341-01",
-      "title": "世界设定事实｜第341源章｜1",
+      "title": "新死者灵魂通常会在附近停留一段缓冲时间，受过彻底教育的死神不会正常情况下立即漏失灵魂",
       "memo": "三百年后、昏君与暗云：世界设定事实（第341源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13701,7 +13701,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-341-02",
-      "title": "世界设定事实｜第341源章｜2",
+      "title": "老导师能把无质量阴影物质化为刺杀武器，并以阴影完成空间移动",
       "memo": "三百年后、昏君与暗云：世界设定事实（第341源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13726,7 +13726,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-341-03",
-      "title": "世界设定事实｜第341源章｜3",
+      "title": "厄瑞玻斯已被撕成黑暗碎片，蒂雅收集的碎片仍无自我",
       "memo": "三百年后、昏君与暗云：世界设定事实（第341源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13753,7 +13753,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-341-04",
-      "title": "世界设定事实｜第341源章｜4",
+      "title": "影遁痕迹深入地下后被蒂雅为罗马尼亚土地丰饶布置的庞大魔力流覆盖",
       "memo": "三百年后、昏君与暗云：世界设定事实（第341源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13779,7 +13779,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-341-01",
-      "title": "新建立连续性｜第341源章｜1",
+      "title": "康茂德死亡",
       "memo": "三百年后、昏君与暗云：新建立连续性（第341源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13805,7 +13805,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-341-02",
-      "title": "新建立连续性｜第341源章｜2",
+      "title": "皇帝灵魂失踪",
       "memo": "三百年后、昏君与暗云：新建立连续性（第341源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13830,7 +13830,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-341-03",
-      "title": "新建立连续性｜第341源章｜3",
+      "title": "幕后者可能利用厄瑞玻斯力量",
       "memo": "三百年后、昏君与暗云：新建立连续性（第341源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13856,7 +13856,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-341-01",
-      "title": "未解决事项｜第341源章｜1",
+      "title": "老导师身份",
       "memo": "三百年后、昏君与暗云：未解决事项（第341源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13881,7 +13881,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-341-02",
-      "title": "未解决事项｜第341源章｜2",
+      "title": "灵魂去向",
       "memo": "三百年后、昏君与暗云：未解决事项（第341源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13906,7 +13906,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-341-03",
-      "title": "未解决事项｜第341源章｜3",
+      "title": "阴谋最终目标",
       "memo": "三百年后、昏君与暗云：未解决事项（第341源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13931,7 +13931,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-341-04",
-      "title": "未解决事项｜第341源章｜4",
+      "title": "何时触发蒂雅介入底线",
       "memo": "三百年后、昏君与暗云：未解决事项（第341源章第4条）",
       "category": "unresolved",
       "keys": [
@@ -13957,7 +13957,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-341-01",
-      "title": "主角龙形态｜第341源章｜1",
+      "title": "主角龙形态｜暗中活动.(4)｜在北方深山验尸与回溯的蒂雅龙族巫女化身",
       "memo": "三百年后、昏君与暗云：主角龙形态（第341源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13984,7 +13984,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-341-01",
-      "title": "主角龙状态｜第341源章｜1",
+      "title": "主角龙状态｜暗中活动.(4)｜确认康茂德被导师灭口并发现灵魂失踪，暂不全面介入幕后阴谋",
       "memo": "三百年后、昏君与暗云：主角龙状态（第341源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14010,7 +14010,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-341-01",
-      "title": "主角龙知识边界｜第341源章｜1",
+      "title": "主角龙知识边界｜暗中活动.(4)｜不能确定老人的种族、名字、神格来源、灵魂窃取手段或最终藏身处",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第341源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14035,7 +14035,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-342-01",
-      "title": "事件｜第342源章｜1",
+      "title": "蒂雅带回康茂德残尸，要求以封印防腐并保密死状",
       "memo": "三百年后、昏君与暗云：事件（第342源章第1条）",
       "category": "event",
       "keys": [
@@ -14062,7 +14062,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-342-02",
-      "title": "事件｜第342源章｜2",
+      "title": "后世因康茂德记录被继任势力抹除、遗体无法辨认而产生替身和逃亡学说",
       "memo": "三百年后、昏君与暗云：事件（第342源章第2条）",
       "category": "event",
       "keys": [
@@ -14088,7 +14088,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-342-03",
-      "title": "事件｜第342源章｜3",
+      "title": "修复后的皇帝遗体被火化",
       "memo": "三百年后、昏君与暗云：事件（第342源章第3条）",
       "category": "event",
       "keys": [
@@ -14115,7 +14115,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-342-04",
-      "title": "事件｜第342源章｜4",
+      "title": "贝特尔吉乌斯竞技场的防致死祝福被意外发现可消除外部致命伤并使伤者昏迷",
       "memo": "三百年后、昏君与暗云：事件（第342源章第4条）",
       "category": "event",
       "keys": [
@@ -14140,7 +14140,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-342-01",
-      "title": "世界设定事实｜第342源章｜1",
+      "title": "后世康茂德研究资料残缺且互相矛盾",
       "memo": "三百年后、昏君与暗云：世界设定事实（第342源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14166,7 +14166,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-342-02",
-      "title": "世界设定事实｜第342源章｜2",
+      "title": "贝特尔吉乌斯竞技场祝福可让外部受致命伤者进入后消除致命伤并昏迷",
       "memo": "三百年后、昏君与暗云：世界设定事实（第342源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14191,7 +14191,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-342-01",
-      "title": "新建立连续性｜第342源章｜1",
+      "title": "康茂德火葬",
       "memo": "三百年后、昏君与暗云：新建立连续性（第342源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14217,7 +14217,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-342-02",
-      "title": "新建立连续性｜第342源章｜2",
+      "title": "后世替身逃亡学说",
       "memo": "三百年后、昏君与暗云：新建立连续性（第342源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14242,7 +14242,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-342-03",
-      "title": "新建立连续性｜第342源章｜3",
+      "title": "竞技场意外重伤治疗功能",
       "memo": "三百年后、昏君与暗云：新建立连续性（第342源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14267,7 +14267,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-342-01",
-      "title": "未解决事项｜第342源章｜1",
+      "title": "皇帝灵魂去向",
       "memo": "三百年后、昏君与暗云：未解决事项（第342源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14292,7 +14292,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-342-02",
-      "title": "未解决事项｜第342源章｜2",
+      "title": "幕后导师身份",
       "memo": "三百年后、昏君与暗云：未解决事项（第342源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14317,7 +14317,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-342-01",
-      "title": "主角龙形态｜第342源章｜1",
+      "title": "主角龙形态｜暗中活动.(5)｜主持皇帝葬礼善后的龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第342源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14343,7 +14343,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-342-01",
-      "title": "主角龙状态｜第342源章｜1",
+      "title": "主角龙状态｜暗中活动.(5)｜收殓康茂德并完成贝特尔吉乌斯危机收尾",
       "memo": "三百年后、昏君与暗云：主角龙状态（第342源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14369,7 +14369,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-342-01",
-      "title": "主角龙知识边界｜第342源章｜1",
+      "title": "主角龙知识边界｜暗中活动.(5)｜她亲眼确认带回的是康茂德尸体，但后世因遗体修复和记录断层无法验证",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第342源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14395,7 +14395,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-343-01",
-      "title": "事件｜第343源章｜1",
+      "title": "康茂德死讯经近卫队、贵族、精灵矮人与巡礼者快速扩散",
       "memo": "三百年后、昏君与暗云：事件（第343源章第1条）",
       "category": "event",
       "keys": [
@@ -14423,7 +14423,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-343-02",
-      "title": "事件｜第343源章｜2",
+      "title": "生命教团现由首位人类祭司长掌管行政",
       "memo": "三百年后、昏君与暗云：事件（第343源章第2条）",
       "category": "event",
       "keys": [
@@ -14450,7 +14450,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-343-03",
-      "title": "事件｜第343源章｜3",
+      "title": "北罗马尼亚各贵族拥立不同皇族并从政争升级到局部战争",
       "memo": "三百年后、昏君与暗云：事件（第343源章第3条）",
       "category": "event",
       "keys": [
@@ -14476,7 +14476,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-343-04",
-      "title": "事件｜第343源章｜4",
+      "title": "南罗马尼亚的问题来自生命教团内部死亡追随者，原本以行善迎接天堂为目标",
       "memo": "三百年后、昏君与暗云：事件（第343源章第4条）",
       "category": "event",
       "keys": [
@@ -14501,7 +14501,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-343-01",
-      "title": "世界设定事实｜第343源章｜1",
+      "title": "康茂德死后北方皇位继承失败，贵族从政治竞争发展为各拥皇族的领地战争",
       "memo": "三百年后、昏君与暗云：世界设定事实（第343源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14527,7 +14527,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-343-02",
-      "title": "世界设定事实｜第343源章｜2",
+      "title": "死亡追随者原本把死亡视为终点、以行善通过死后审判",
       "memo": "三百年后、昏君与暗云：世界设定事实（第343源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14552,7 +14552,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-343-01",
-      "title": "新建立连续性｜第343源章｜1",
+      "title": "北罗马尼亚继承战争",
       "memo": "三百年后、昏君与暗云：新建立连续性（第343源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14577,7 +14577,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-343-02",
-      "title": "新建立连续性｜第343源章｜2",
+      "title": "首位人类祭司长",
       "memo": "三百年后、昏君与暗云：新建立连续性（第343源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14603,7 +14603,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-343-03",
-      "title": "新建立连续性｜第343源章｜3",
+      "title": "死亡追随者变为死灵法师",
       "memo": "三百年后、昏君与暗云：新建立连续性（第343源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14628,7 +14628,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-343-01",
-      "title": "未解决事项｜第343源章｜1",
+      "title": "不败之旗最终归属",
       "memo": "三百年后、昏君与暗云：未解决事项（第343源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14653,7 +14653,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-343-02",
-      "title": "未解决事项｜第343源章｜2",
+      "title": "北方是否统一",
       "memo": "三百年后、昏君与暗云：未解决事项（第343源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14678,7 +14678,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-343-03",
-      "title": "未解决事项｜第343源章｜3",
+      "title": "死灵法师危机规模",
       "memo": "三百年后、昏君与暗云：未解决事项（第343源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14703,7 +14703,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-343-01",
-      "title": "主角龙形态｜第343源章｜1",
+      "title": "主角龙形态｜暗云.(1)｜生命教团本部的龙族巫女，持有不败之旗",
       "memo": "三百年后、昏君与暗云：主角龙形态（第343源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14729,7 +14729,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-343-01",
-      "title": "主角龙状态｜第343源章｜1",
+      "title": "主角龙状态｜暗云.(1)｜拒绝决定北方新帝，转而处理南方死灵法师危机",
       "memo": "三百年后、昏君与暗云：主角龙状态（第343源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14754,7 +14754,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-343-01",
-      "title": "主角龙知识边界｜第343源章｜1",
+      "title": "主角龙知识边界｜暗云.(1)｜她无法保证北方混战不会出现屠杀",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第343源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14779,7 +14779,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-344-01",
-      "title": "事件｜第344源章｜1",
+      "title": "死亡追随者原本只研究死后世界与天堂",
       "memo": "三百年后、昏君与暗云：事件（第344源章第1条）",
       "category": "event",
       "keys": [
@@ -14804,7 +14804,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-344-02",
-      "title": "事件｜第344源章｜2",
+      "title": "其据点位于镇压龙之墓死亡气息的神殿",
       "memo": "三百年后、昏君与暗云：事件（第344源章第2条）",
       "category": "event",
       "keys": [
@@ -14829,7 +14829,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-344-03",
-      "title": "事件｜第344源章｜3",
+      "title": "死灵法师未履行镇压职责并逃亡，令龙之墓死亡气息暴增",
       "memo": "三百年后、昏君与暗云：事件（第344源章第3条）",
       "category": "event",
       "keys": [
@@ -14854,7 +14854,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-344-04",
-      "title": "事件｜第344源章｜4",
+      "title": "人类祭司长已知生命女神与教团龙族真相",
       "memo": "三百年后、昏君与暗云：事件（第344源章第4条）",
       "category": "event",
       "keys": [
@@ -14880,7 +14880,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-344-05",
-      "title": "事件｜第344源章｜5",
+      "title": "祭司长准备从教团精锐中组建异端审问官",
       "memo": "三百年后、昏君与暗云：事件（第344源章第5条）",
       "category": "event",
       "keys": [
@@ -14906,7 +14906,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-344-01",
-      "title": "世界设定事实｜第344源章｜1",
+      "title": "死灵法师以龙之墓死亡气息为能源，可驱尸、具现骨刺、夺取生命、燃烧黑焰、模拟怨灵",
       "memo": "三百年后、昏君与暗云：世界设定事实（第344源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14931,7 +14931,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-344-02",
-      "title": "世界设定事实｜第344源章｜2",
+      "title": "死亡追随者神殿失职并逃亡导致龙之墓死亡气息增强，必须由教团龙族亲自压制",
       "memo": "三百年后、昏君与暗云：世界设定事实（第344源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14956,7 +14956,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-344-03",
-      "title": "世界设定事实｜第344源章｜3",
+      "title": "异端审问官名称源于以教团祭司精锐制裁把死亡当工具的异端",
       "memo": "三百年后、昏君与暗云：世界设定事实（第344源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14981,7 +14981,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-344-01",
-      "title": "新建立连续性｜第344源章｜1",
+      "title": "龙之墓死亡气息危机",
       "memo": "三百年后、昏君与暗云：新建立连续性（第344源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15006,7 +15006,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-344-02",
-      "title": "新建立连续性｜第344源章｜2",
+      "title": "首位人类祭司长知晓真相",
       "memo": "三百年后、昏君与暗云：新建立连续性（第344源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15032,7 +15032,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-344-03",
-      "title": "新建立连续性｜第344源章｜3",
+      "title": "异端审问官构想",
       "memo": "三百年后、昏君与暗云：新建立连续性（第344源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15057,7 +15057,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-344-04",
-      "title": "新建立连续性｜第344源章｜4",
+      "title": "反死亡神圣魔法",
       "memo": "三百年后、昏君与暗云：新建立连续性（第344源章第4条）",
       "category": "continuity",
       "keys": [
@@ -15082,7 +15082,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-344-01",
-      "title": "未解决事项｜第344源章｜1",
+      "title": "死灵法师逃亡去向",
       "memo": "三百年后、昏君与暗云：未解决事项（第344源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15107,7 +15107,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-344-02",
-      "title": "未解决事项｜第344源章｜2",
+      "title": "异端审问官实战结果",
       "memo": "三百年后、昏君与暗云：未解决事项（第344源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15132,7 +15132,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-344-01",
-      "title": "主角龙形态｜第344源章｜1",
+      "title": "主角龙形态｜暗云.(2)｜生命教团内以龙族巫女身份活动的蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第344源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15159,7 +15159,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-344-01",
-      "title": "主角龙状态｜第344源章｜1",
+      "title": "主角龙状态｜暗云.(2)｜授权组建异端审问官并创造反死亡气息神圣魔法",
       "memo": "三百年后、昏君与暗云：主角龙状态（第344源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15184,7 +15184,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-344-01",
-      "title": "主角龙知识边界｜第344源章｜1",
+      "title": "主角龙知识边界｜暗云.(2)｜不知道死亡追随者最初如何被魔法师说服，也尚未验证新部队实战效果",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第344源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15209,7 +15209,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-345-01",
-      "title": "事件｜第345源章｜1",
+      "title": "异端审问官平时是普通祭司，出现异端时暂停日常职责",
       "memo": "三百年后、昏君与暗云：事件（第345源章第1条）",
       "category": "event",
       "keys": [
@@ -15234,7 +15234,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-345-02",
-      "title": "事件｜第345源章｜2",
+      "title": "净化火焰能把邪恶之物焚烧回归本源，可作为箭矢，武器附魔或护体冲锋",
       "memo": "三百年后、昏君与暗云：事件（第345源章第2条）",
       "category": "event",
       "keys": [
@@ -15259,7 +15259,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-345-03",
-      "title": "事件｜第345源章｜3",
+      "title": "逃散死灵法师在南罗马尼亚挖掘贫穷村落墓地获取死亡气息，激进者屠灭聚居点",
       "memo": "三百年后、昏君与暗云：事件（第345源章第3条）",
       "category": "event",
       "keys": [
@@ -15284,7 +15284,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-345-04",
-      "title": "事件｜第345源章｜4",
+      "title": "已查明并作乱者大多被剿灭，但完全潜伏者无法追踪",
       "memo": "三百年后、昏君与暗云：事件（第345源章第4条）",
       "category": "event",
       "keys": [
@@ -15310,7 +15310,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-345-05",
-      "title": "事件｜第345源章｜5",
+      "title": "俘虏处置出现三方争议，受害南罗马尼亚要求处死，普罗西亚以灾后重建换取研究对象",
       "memo": "三百年后、昏君与暗云：事件（第345源章第5条）",
       "category": "event",
       "keys": [
@@ -15335,7 +15335,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-345-01",
-      "title": "世界设定事实｜第345源章｜1",
+      "title": "异端审问官不是常设公开军职，平时以普通祭司身份生活",
       "memo": "三百年后、昏君与暗云：世界设定事实（第345源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15360,7 +15360,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-345-02",
-      "title": "世界设定事实｜第345源章｜2",
+      "title": "净化火焰专门焚烧死亡气息等邪恶，可远射、附武器、护体，并与神圣恢复及强化协同",
       "memo": "三百年后、昏君与暗云：世界设定事实（第345源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15385,7 +15385,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-345-03",
-      "title": "世界设定事实｜第345源章｜3",
+      "title": "贫穷村落因柴火费用无法普遍火葬，墓地死亡气息成为死灵法师资源",
       "memo": "三百年后、昏君与暗云：世界设定事实（第345源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15410,7 +15410,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-345-04",
-      "title": "世界设定事实｜第345源章｜4",
+      "title": "死灵法师俘虏同时成为受害国司法、教团管辖与普罗西亚研究利益冲突的对象",
       "memo": "三百年后、昏君与暗云：世界设定事实（第345源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -15435,7 +15435,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-345-01",
-      "title": "新建立连续性｜第345源章｜1",
+      "title": "首批异端审问官",
       "memo": "三百年后、昏君与暗云：新建立连续性（第345源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15460,7 +15460,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-345-02",
-      "title": "新建立连续性｜第345源章｜2",
+      "title": "净化火焰",
       "memo": "三百年后、昏君与暗云：新建立连续性（第345源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15485,7 +15485,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-345-03",
-      "title": "新建立连续性｜第345源章｜3",
+      "title": "不死生物称呼",
       "memo": "三百年后、昏君与暗云：新建立连续性（第345源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15510,7 +15510,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-345-04",
-      "title": "新建立连续性｜第345源章｜4",
+      "title": "死灵法师俘虏三方争议",
       "memo": "三百年后、昏君与暗云：新建立连续性（第345源章第4条）",
       "category": "continuity",
       "keys": [
@@ -15535,7 +15535,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-345-01",
-      "title": "未解决事项｜第345源章｜1",
+      "title": "潜伏死灵法师",
       "memo": "三百年后、昏君与暗云：未解决事项（第345源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15560,7 +15560,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-345-02",
-      "title": "未解决事项｜第345源章｜2",
+      "title": "俘虏最终处置",
       "memo": "三百年后、昏君与暗云：未解决事项（第345源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15585,7 +15585,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-345-03",
-      "title": "未解决事项｜第345源章｜3",
+      "title": "普罗西亚研究诉求后果",
       "memo": "三百年后、昏君与暗云：未解决事项（第345源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -15610,7 +15610,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-345-01",
-      "title": "主角龙形态｜第345源章｜1",
+      "title": "主角龙形态｜暗云.(3)｜生命教团内监督人类祭司体系的蒂雅龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第345源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15637,7 +15637,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-345-01",
-      "title": "主角龙状态｜第345源章｜1",
+      "title": "主角龙状态｜暗云.(3)｜确认首轮镇压成功，开始处理潜伏者与俘虏权属",
       "memo": "三百年后、昏君与暗云：主角龙状态（第345源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15662,7 +15662,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-345-01",
-      "title": "主角龙知识边界｜第345源章｜1",
+      "title": "主角龙知识边界｜暗云.(3)｜不能定位从未再作乱的死灵法师",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第345源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15687,7 +15687,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-346-01",
-      "title": "事件｜第346源章｜1",
+      "title": "祭司长提出按罪行轻重区分154名俘虏，52名重罪者在灵魂烙印后烧尽魔力，切断肌腱",
       "memo": "三百年后、昏君与暗云：事件（第346源章第1条）",
       "category": "event",
       "keys": [
@@ -15712,7 +15712,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-346-02",
-      "title": "事件｜第346源章｜2",
+      "title": "轻罪者多为被神殿氛围裹挟的原祭司或受托孩童，仅盗墓、偷尸或宰牲畜",
       "memo": "三百年后、昏君与暗云：事件（第346源章第2条）",
       "category": "event",
       "keys": [
@@ -15737,7 +15737,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-346-03",
-      "title": "事件｜第346源章｜3",
+      "title": "蒂雅主张死亡本身属于生命，不应被否定",
       "memo": "三百年后、昏君与暗云：事件（第346源章第3条）",
       "category": "event",
       "keys": [
@@ -15763,7 +15763,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-346-04",
-      "title": "事件｜第346源章｜4",
+      "title": "后世战争中黑袍死亡祭司进入不死者战场，祈祷后令复苏尸体重新安息",
       "memo": "三百年后、昏君与暗云：事件（第346源章第4条）",
       "category": "event",
       "keys": [
@@ -15788,7 +15788,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-346-01",
-      "title": "世界设定事实｜第346源章｜1",
+      "title": "俘虏共154名，52名重罪者多数是法师出身",
       "memo": "三百年后、昏君与暗云：世界设定事实（第346源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15813,7 +15813,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-346-02",
-      "title": "世界设定事实｜第346源章｜2",
+      "title": "规划中的死亡神圣魔法包括吸命转治疗，尸体自行归乡，临时驱动怪物尸体，遗体修复",
       "memo": "三百年后、昏君与暗云：世界设定事实（第346源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15838,7 +15838,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-346-03",
-      "title": "世界设定事实｜第346源章｜3",
+      "title": "死亡祭司穿黑袍并可让复苏尸体停止活动、重新安息，后世前线士兵称其为安息祭司",
       "memo": "三百年后、昏君与暗云：世界设定事实（第346源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15863,7 +15863,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-346-01",
-      "title": "新建立连续性｜第346源章｜1",
+      "title": "死灵法师分级处置",
       "memo": "三百年后、昏君与暗云：新建立连续性（第346源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15888,7 +15888,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-346-02",
-      "title": "新建立连续性｜第346源章｜2",
+      "title": "赎罪神殿",
       "memo": "三百年后、昏君与暗云：新建立连续性（第346源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15913,7 +15913,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-346-03",
-      "title": "新建立连续性｜第346源章｜3",
+      "title": "死亡祭司／安息祭司",
       "memo": "三百年后、昏君与暗云：新建立连续性（第346源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15938,7 +15938,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-346-04",
-      "title": "新建立连续性｜第346源章｜4",
+      "title": "死亡系神圣魔法",
       "memo": "三百年后、昏君与暗云：新建立连续性（第346源章第4条）",
       "category": "continuity",
       "keys": [
@@ -15963,7 +15963,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-346-01",
-      "title": "未解决事项｜第346源章｜1",
+      "title": "具体魔法实现与安全边界",
       "memo": "三百年后、昏君与暗云：未解决事项（第346源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15988,7 +15988,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-346-02",
-      "title": "未解决事项｜第346源章｜2",
+      "title": "个别赎罪者长期结果",
       "memo": "三百年后、昏君与暗云：未解决事项（第346源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16013,7 +16013,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-346-01",
-      "title": "主角龙形态｜第346源章｜1",
+      "title": "主角龙形态｜暗云.(4)｜生命教团本部制定刑责与新神圣魔法的蒂雅龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第346源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16040,7 +16040,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-346-01",
-      "title": "主角龙状态｜第346源章｜1",
+      "title": "主角龙状态｜暗云.(4)｜确定重罪处决、轻罪赎罪和死亡祭司转化路线",
       "memo": "三百年后、昏君与暗云：主角龙状态（第346源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16065,7 +16065,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-346-01",
-      "title": "主角龙知识边界｜第346源章｜1",
+      "title": "主角龙知识边界｜暗云.(4)｜死亡祭司后世战场表现属于未来记载",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第346源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16090,7 +16090,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-347-01",
-      "title": "事件｜第347源章｜1",
+      "title": "部分异端审问官因必须镇压甚至杀死昔日同僚而产生心理创伤并想辞职",
       "memo": "三百年后、昏君与暗云：事件（第347源章第1条）",
       "category": "event",
       "keys": [
@@ -16116,7 +16116,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-347-02",
-      "title": "事件｜第347源章｜2",
+      "title": "离职者有目标者获钱财，无目标者获教团关联工作",
       "memo": "三百年后、昏君与暗云：事件（第347源章第2条）",
       "category": "event",
       "keys": [
@@ -16141,7 +16141,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-347-03",
-      "title": "事件｜第347源章｜3",
+      "title": "另一批审问官因见到异端暴行走向极端，主张为杀一名疑犯可烧死数十人",
       "memo": "三百年后、昏君与暗云：事件（第347源章第3条）",
       "category": "event",
       "keys": [
@@ -16167,7 +16167,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-347-04",
-      "title": "事件｜第347源章｜4",
+      "title": "制度改为长期严格培养，祭司长与龙族巫女专属指挥，十年任期，白衣银面隐藏身份",
       "memo": "三百年后、昏君与暗云：事件（第347源章第4条）",
       "category": "event",
       "keys": [
@@ -16193,7 +16193,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-347-01",
-      "title": "世界设定事实｜第347源章｜1",
+      "title": "退职保障包括钱财或教团关联岗位，工作范围可涵盖邮政，快递，魔石净化，治疗，祝福，葬礼",
       "memo": "三百年后、昏君与暗云：世界设定事实（第347源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16218,7 +16218,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-347-02",
-      "title": "世界设定事实｜第347源章｜2",
+      "title": "正式异端审问官需长期教育，直属祭司长并接受龙族巫女意见，任期约十年",
       "memo": "三百年后、昏君与暗云：世界设定事实（第347源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16244,7 +16244,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-347-01",
-      "title": "新建立连续性｜第347源章｜1",
+      "title": "审问官心理创伤",
       "memo": "三百年后、昏君与暗云：新建立连续性（第347源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16269,7 +16269,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-347-02",
-      "title": "新建立连续性｜第347源章｜2",
+      "title": "祭司退职保障",
       "memo": "三百年后、昏君与暗云：新建立连续性（第347源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16294,7 +16294,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-347-03",
-      "title": "新建立连续性｜第347源章｜3",
+      "title": "复职审查",
       "memo": "三百年后、昏君与暗云：新建立连续性（第347源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16319,7 +16319,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-347-04",
-      "title": "新建立连续性｜第347源章｜4",
+      "title": "白衣银面秘密组织",
       "memo": "三百年后、昏君与暗云：新建立连续性（第347源章第4条）",
       "category": "continuity",
       "keys": [
@@ -16344,7 +16344,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-347-01",
-      "title": "未解决事项｜第347源章｜1",
+      "title": "新制度能否抑制激进化",
       "memo": "三百年后、昏君与暗云：未解决事项（第347源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16369,7 +16369,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-347-02",
-      "title": "未解决事项｜第347源章｜2",
+      "title": "离职者后续生活",
       "memo": "三百年后、昏君与暗云：未解决事项（第347源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16394,7 +16394,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-347-01",
-      "title": "主角龙形态｜第347源章｜1",
+      "title": "主角龙形态｜暗云.(5)｜生命教团内设计审问官组织制度的蒂雅龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第347源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16421,7 +16421,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-347-01",
-      "title": "主角龙状态｜第347源章｜1",
+      "title": "主角龙状态｜暗云.(5)｜从临时战斗队重构为有心理、离职、复职、任期和指挥约束的秘密组织",
       "memo": "三百年后、昏君与暗云：主角龙状态（第347源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16446,7 +16446,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-347-01",
-      "title": "主角龙知识边界｜第347源章｜1",
+      "title": "主角龙知识边界｜暗云.(5)｜制度尚未经历长期运行，蒂雅明确承认真出问题可能需要废除",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第347源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16472,7 +16472,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-348-01",
-      "title": "事件｜第348源章｜1",
+      "title": "死灵法师事件暂告段落：重罪者送南方处决，可悔改者赎罪后受监视成为死亡祭司",
       "memo": "三百年后、昏君与暗云：事件（第348源章第1条）",
       "category": "event",
       "keys": [
@@ -16497,7 +16497,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-348-02",
-      "title": "事件｜第348源章｜2",
+      "title": "生命教团因普罗西亚未对魔法师越界道歉，提高只对普罗西亚销售的净化魔石价格",
       "memo": "三百年后、昏君与暗云：事件（第348源章第2条）",
       "category": "event",
       "keys": [
@@ -16522,7 +16522,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-348-03",
-      "title": "事件｜第348源章｜3",
+      "title": "南方数名大贵族暗中索取不败之旗",
       "memo": "三百年后、昏君与暗云：事件（第348源章第3条）",
       "category": "event",
       "keys": [
@@ -16548,7 +16548,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-348-04",
-      "title": "事件｜第348源章｜4",
+      "title": "蒂雅决定为普罗西亚培养竞争对手",
       "memo": "三百年后、昏君与暗云：事件（第348源章第4条）",
       "category": "event",
       "keys": [
@@ -16574,7 +16574,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-348-01",
-      "title": "世界设定事实｜第348源章｜1",
+      "title": "魔石含怪物魔性／黑暗碎片，净化由生命教团垄断",
       "memo": "三百年后、昏君与暗云：世界设定事实（第348源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16599,7 +16599,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-348-02",
-      "title": "世界设定事实｜第348源章｜2",
+      "title": "南罗马尼亚皇帝偏重内政，以首都塞梅里姆为中心追求百姓富足，并非好战型君主",
       "memo": "三百年后、昏君与暗云：世界设定事实（第348源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16624,7 +16624,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-348-03",
-      "title": "世界设定事实｜第348源章｜3",
+      "title": "银色预言存在通过梦境向矮人传授小魔石碎片高效应用、装置工序与新型魔力回路",
       "memo": "三百年后、昏君与暗云：世界设定事实（第348源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -16649,7 +16649,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-348-01",
-      "title": "新建立连续性｜第348源章｜1",
+      "title": "对普罗西亚魔石差别定价",
       "memo": "三百年后、昏君与暗云：新建立连续性（第348源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16674,7 +16674,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-348-02",
-      "title": "新建立连续性｜第348源章｜2",
+      "title": "南方贵族夺旗传闻战",
       "memo": "三百年后、昏君与暗云：新建立连续性（第348源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16699,7 +16699,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-348-03",
-      "title": "新建立连续性｜第348源章｜3",
+      "title": "矮人新型魔力回路启示",
       "memo": "三百年后、昏君与暗云：新建立连续性（第348源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16724,7 +16724,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-348-01",
-      "title": "未解决事项｜第348源章｜1",
+      "title": "普罗西亚反应",
       "memo": "三百年后、昏君与暗云：未解决事项（第348源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16749,7 +16749,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-348-02",
-      "title": "未解决事项｜第348源章｜2",
+      "title": "南方是否因猜忌延迟战争",
       "memo": "三百年后、昏君与暗云：未解决事项（第348源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -16774,7 +16774,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-348-03",
-      "title": "未解决事项｜第348源章｜3",
+      "title": "魔力回路技术发展",
       "memo": "三百年后、昏君与暗云：未解决事项（第348源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -16799,7 +16799,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-348-01",
-      "title": "主角龙形态｜第348源章｜1",
+      "title": "主角龙形态｜暗云.(6)｜生命教团本部的蒂雅龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第348源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16826,7 +16826,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-348-01",
-      "title": "主角龙状态｜第348源章｜1",
+      "title": "主角龙状态｜暗云.(6)｜以经济和信息手段阻战，并开始培育普罗西亚的技术竞争者",
       "memo": "三百年后、昏君与暗云：主角龙状态（第348源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16851,7 +16851,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-348-01",
-      "title": "主角龙知识边界｜第348源章｜1",
+      "title": "主角龙知识边界｜暗云.(6)｜末段旁白仅说有人注视微笑，不能在台账中绝对断言银色存在就是蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第348源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16877,7 +16877,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-349-01",
-      "title": "事件｜第349源章｜1",
+      "title": "一名矮人向大冶匠提交银辉先知梦授的魔力回路改良",
       "memo": "三百年后、昏君与暗云：事件（第349源章第1条）",
       "category": "event",
       "keys": [
@@ -16902,7 +16902,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-349-02",
-      "title": "事件｜第349源章｜2",
+      "title": "材料以银掺黄铜与常见药草秘药，传导率约为纯银两倍",
       "memo": "三百年后、昏君与暗云：事件（第349源章第2条）",
       "category": "event",
       "keys": [
@@ -16927,7 +16927,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-349-03",
-      "title": "事件｜第349源章｜3",
+      "title": "螺旋线圈与沥青覆盖减少魔力泄漏，小型魔石试制灯发出强光",
       "memo": "三百年后、昏君与暗云：事件（第349源章第3条）",
       "category": "event",
       "keys": [
@@ -16952,7 +16952,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-349-04",
-      "title": "事件｜第349源章｜4",
+      "title": "发明者拒绝用个人名字注册和获利，坚持专利属于银辉先知赠予整个矮人族的礼物",
       "memo": "三百年后、昏君与暗云：事件（第349源章第4条）",
       "category": "event",
       "keys": [
@@ -16977,7 +16977,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-349-01",
-      "title": "世界设定事实｜第349源章｜1",
+      "title": "新回路以银，黄铜，常见药草秘药制合金，配合螺旋线圈和沥青绝缘",
       "memo": "三百年后、昏君与暗云：世界设定事实（第349源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17002,7 +17002,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-349-02",
-      "title": "世界设定事实｜第349源章｜2",
+      "title": "改良回路让大众洛克伍德式魔力灯笼用小块魔石仍能发出强光，内部无需额外魔石",
       "memo": "三百年后、昏君与暗云：世界设定事实（第349源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17027,7 +17027,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-349-03",
-      "title": "世界设定事实｜第349源章｜3",
+      "title": "矮人社会已存在大冶匠审核、技术验证与发明专利注册制度",
       "memo": "三百年后、昏君与暗云：世界设定事实（第349源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17052,7 +17052,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-349-01",
-      "title": "新建立连续性｜第349源章｜1",
+      "title": "新型魔力回路",
       "memo": "三百年后、昏君与暗云：新建立连续性（第349源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17077,7 +17077,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-349-02",
-      "title": "新建立连续性｜第349源章｜2",
+      "title": "沥青魔力绝缘",
       "memo": "三百年后、昏君与暗云：新建立连续性（第349源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17102,7 +17102,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-349-03",
-      "title": "新建立连续性｜第349源章｜3",
+      "title": "银辉先知公共专利",
       "memo": "三百年后、昏君与暗云：新建立连续性（第349源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17127,7 +17127,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-349-01",
-      "title": "未解决事项｜第349源章｜1",
+      "title": "独立验证结果",
       "memo": "三百年后、昏君与暗云：未解决事项（第349源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17152,7 +17152,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-349-02",
-      "title": "未解决事项｜第349源章｜2",
+      "title": "技术产业影响",
       "memo": "三百年后、昏君与暗云：未解决事项（第349源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17177,7 +17177,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-349-01",
-      "title": "主角龙形态｜第349源章｜1",
+      "title": "主角龙形态｜魔力回路.(1)｜蒂雅未直接登场",
       "memo": "三百年后、昏君与暗云：主角龙形态（第349源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17203,7 +17203,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-349-01",
-      "title": "主角龙状态｜第349源章｜1",
+      "title": "主角龙状态｜魔力回路.(1)｜技术干预由矮人自行验证和扩散",
       "memo": "三百年后、昏君与暗云：主角龙状态（第349源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17228,7 +17228,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-349-01",
-      "title": "主角龙知识边界｜第349源章｜1",
+      "title": "主角龙知识边界｜魔力回路.(1)｜本章当事人把来源归于银辉先知，但没有直接描写启示者身份",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第349源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17253,7 +17253,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-350-01",
-      "title": "事件｜第350源章｜1",
+      "title": "新回路用不到原先一半大小魔石维持高火力，使魔力炉与熔炼秘银成为可能",
       "memo": "三百年后、昏君与暗云：事件（第350源章第1条）",
       "category": "event",
       "keys": [
@@ -17278,7 +17278,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-350-02",
-      "title": "事件｜第350源章｜2",
+      "title": "蒂雅确认矮人按计划用改良回路制造可维护工具，与一次性卷轴竞争",
       "memo": "三百年后、昏君与暗云：事件（第350源章第2条）",
       "category": "event",
       "keys": [
@@ -17304,7 +17304,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-350-03",
-      "title": "事件｜第350源章｜3",
+      "title": "矮人点火器、净水袋和魔力冷冻柜普及，普罗西亚卷轴销售腰斩，财政紧张",
       "memo": "三百年后、昏君与暗云：事件（第350源章第3条）",
       "category": "event",
       "keys": [
@@ -17329,7 +17329,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-350-04",
-      "title": "事件｜第350源章｜4",
+      "title": "普罗西亚把缺背景的新法师强制派作五年冒险者，每月上缴一半收入，只给基础训练",
       "memo": "三百年后、昏君与暗云：事件（第350源章第4条）",
       "category": "event",
       "keys": [
@@ -17354,7 +17354,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-350-01",
-      "title": "世界设定事实｜第350源章｜1",
+      "title": "高效魔力炉能熔化普通火焰无法影响的魔力变异银，即秘银",
       "memo": "三百年后、昏君与暗云：世界设定事实（第350源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17379,7 +17379,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-350-02",
-      "title": "世界设定事实｜第350源章｜2",
+      "title": "矮人附魔工具可更换魔石重复使用，代表产品包括打火机、净水袋和魔力冷冻柜",
       "memo": "三百年后、昏君与暗云：世界设定事实（第350源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17404,7 +17404,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-350-03",
-      "title": "世界设定事实｜第350源章｜3",
+      "title": "普罗西亚新人法师五年冒险契约要求月收入半数上缴，受契约魔法约束，装备教育仅为基础魔法",
       "memo": "三百年后、昏君与暗云：世界设定事实（第350源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17429,7 +17429,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-350-01",
-      "title": "新建立连续性｜第350源章｜1",
+      "title": "魔力炉与秘银",
       "memo": "三百年后、昏君与暗云：新建立连续性（第350源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17454,7 +17454,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-350-02",
-      "title": "新建立连续性｜第350源章｜2",
+      "title": "矮人附魔消费品",
       "memo": "三百年后、昏君与暗云：新建立连续性（第350源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17479,7 +17479,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-350-03",
-      "title": "新建立连续性｜第350源章｜3",
+      "title": "奴隶法师五年契约",
       "memo": "三百年后、昏君与暗云：新建立连续性（第350源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17504,7 +17504,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-350-01",
-      "title": "未解决事项｜第350源章｜1",
+      "title": "奴隶法师生存与反抗",
       "memo": "三百年后、昏君与暗云：未解决事项（第350源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17529,7 +17529,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-350-02",
-      "title": "未解决事项｜第350源章｜2",
+      "title": "普罗西亚下一步",
       "memo": "三百年后、昏君与暗云：未解决事项（第350源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -17554,7 +17554,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-350-01",
-      "title": "主角龙形态｜第350源章｜1",
+      "title": "主角龙形态｜魔力回路.(2)｜以幕后观察者身份评估矮人产业与普罗西亚经济的蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第350源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17580,7 +17580,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-350-01",
-      "title": "主角龙状态｜第350源章｜1",
+      "title": "主角龙状态｜魔力回路.(2)｜经济施压成功，但普罗西亚以奴隶法师制度转嫁成本",
       "memo": "三百年后、昏君与暗云：主角龙状态（第350源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17605,7 +17605,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-350-01",
-      "title": "主角龙知识边界｜第350源章｜1",
+      "title": "主角龙知识边界｜魔力回路.(2)｜她不知道普罗西亚能否承受打击，也未预料其把新人法师外派",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第350源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17630,7 +17630,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-351-01",
-      "title": "事件｜第351源章｜1",
+      "title": "蒂雅让生命教团向所有新手冒险者提供膳食与折扣医疗，提高生存率和魔石产出",
       "memo": "三百年后、昏君与暗云：事件（第351源章第1条）",
       "category": "event",
       "keys": [
@@ -17656,7 +17656,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-351-02",
-      "title": "事件｜第351源章｜2",
+      "title": "教团通过咨询说服奴隶法师，解除契约并转介到普罗西亚外的法师或建立外部合作",
       "memo": "三百年后、昏君与暗云：事件（第351源章第2条）",
       "category": "event",
       "keys": [
@@ -17682,7 +17682,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-351-03",
-      "title": "事件｜第351源章｜3",
+      "title": "普罗西亚投降，与教团协议成立魔法研究伦理委员会，解除强制冒险契约并改自愿招募",
       "memo": "三百年后、昏君与暗云：事件（第351源章第3条）",
       "category": "event",
       "keys": [
@@ -17707,7 +17707,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-351-04",
-      "title": "事件｜第351源章｜4",
+      "title": "委员会由七塔中两名塔主与生命教团祭司组成，按季度审查预审未通过论文",
       "memo": "三百年后、昏君与暗云：事件（第351源章第4条）",
       "category": "event",
       "keys": [
@@ -17732,7 +17732,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-351-01",
-      "title": "世界设定事实｜第351源章｜1",
+      "title": "教团新手冒险者福利包括填饱肚子的粮食与折扣治疗，目标是把省下资源转成装备，存活率",
       "memo": "三百年后、昏君与暗云：世界设定事实（第351源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17757,7 +17757,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-351-02",
-      "title": "世界设定事实｜第351源章｜2",
+      "title": "普罗西亚协议建立魔法研究伦理委员会，解除奴隶法师契约，并以自愿冒险者招募取代",
       "memo": "三百年后、昏君与暗云：世界设定事实（第351源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17782,7 +17782,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-351-03",
-      "title": "世界设定事实｜第351源章｜3",
+      "title": "伦理委员会审查研究风险、伦理与他人牺牲，由两位七塔塔主和当地生命教团祭司共同组成",
       "memo": "三百年后、昏君与暗云：世界设定事实（第351源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -17807,7 +17807,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-351-01",
-      "title": "新建立连续性｜第351源章｜1",
+      "title": "新手冒险者福利",
       "memo": "三百年后、昏君与暗云：新建立连续性（第351源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17832,7 +17832,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-351-02",
-      "title": "新建立连续性｜第351源章｜2",
+      "title": "奴隶法师解约",
       "memo": "三百年后、昏君与暗云：新建立连续性（第351源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17857,7 +17857,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-351-03",
-      "title": "新建立连续性｜第351源章｜3",
+      "title": "魔法研究伦理委员会",
       "memo": "三百年后、昏君与暗云：新建立连续性（第351源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17882,7 +17882,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-351-01",
-      "title": "未解决事项｜第351源章｜1",
+      "title": "委员会长期独立性与成效",
       "memo": "三百年后、昏君与暗云：未解决事项（第351源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17907,7 +17907,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-351-01",
-      "title": "主角龙形态｜第351源章｜1",
+      "title": "主角龙形态｜魔力回路.(3)｜生命教团本部进行经济与人才谈判的蒂雅龙族巫女",
       "memo": "三百年后、昏君与暗云：主角龙形态（第351源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17934,7 +17934,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-351-01",
-      "title": "主角龙状态｜第351源章｜1",
+      "title": "主角龙状态｜魔力回路.(3)｜迫使普罗西亚制度改革并结束奴隶法师",
       "memo": "三百年后、昏君与暗云：主角龙状态（第351源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17959,7 +17959,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-351-01",
-      "title": "主角龙知识边界｜第351源章｜1",
+      "title": "主角龙知识边界｜魔力回路.(3)｜协议只是防止未来越界的制度，不证明所有问题研究永不出现",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第351源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17984,7 +17984,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-352-01",
-      "title": "事件｜第352源章｜1",
+      "title": "北罗马尼亚稳定为中央天狼星与四大领主五块格局",
       "memo": "三百年后、昏君与暗云：事件（第352源章第1条）",
       "category": "event",
       "keys": [
@@ -18009,7 +18009,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-352-02",
-      "title": "事件｜第352源章｜2",
+      "title": "南罗马尼亚放弃恢复统一，依靠温暖农业、海贸和北方屏障繁荣",
       "memo": "三百年后、昏君与暗云：事件（第352源章第2条）",
       "category": "event",
       "keys": [
@@ -18034,7 +18034,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-352-03",
-      "title": "事件｜第352源章｜3",
+      "title": "矮人从魔力回路秘药混合发展出原始炼金术",
       "memo": "三百年后、昏君与暗云：事件（第352源章第3条）",
       "category": "event",
       "keys": [
@@ -18059,7 +18059,7 @@
     },
     {
       "id": "era-17-dark-clouds-event-352-04",
-      "title": "事件｜第352源章｜4",
+      "title": "约一百五十年后，北方荒原破土出现山岳城堡般巨大存在",
       "memo": "三百年后、昏君与暗云：事件（第352源章第4条）",
       "category": "event",
       "keys": [
@@ -18085,7 +18085,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-352-01",
-      "title": "世界设定事实｜第352源章｜1",
+      "title": "北罗马尼亚五方互相制衡，天狼星中央皇帝领与四个对角大领主",
       "memo": "三百年后、昏君与暗云：世界设定事实（第352源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18110,7 +18110,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-352-02",
-      "title": "世界设定事实｜第352源章｜2",
+      "title": "南北分裂已约两三百年，南方社会逐渐不再把统一与天狼星正统性视为首要目标",
       "memo": "三百年后、昏君与暗云：世界设定事实（第352源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18135,7 +18135,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-352-03",
-      "title": "世界设定事实｜第352源章｜3",
+      "title": "矮人因魔力合金秘药开始广泛混合材料，尚未成体系的学问构成原始炼金术萌芽",
       "memo": "三百年后、昏君与暗云：世界设定事实（第352源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -18160,7 +18160,7 @@
     },
     {
       "id": "era-17-dark-clouds-world-fact-352-04",
-      "title": "世界设定事实｜第352源章｜4",
+      "title": "魔王城般存在出现后，无理性怪物停止互相捕食并共同迁向北方，形成魔王传闻的直接可见依据",
       "memo": "三百年后、昏君与暗云：世界设定事实（第352源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -18186,7 +18186,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-352-01",
-      "title": "新建立连续性｜第352源章｜1",
+      "title": "北罗马尼亚五方平衡",
       "memo": "三百年后、昏君与暗云：新建立连续性（第352源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18211,7 +18211,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-352-02",
-      "title": "新建立连续性｜第352源章｜2",
+      "title": "原始炼金术",
       "memo": "三百年后、昏君与暗云：新建立连续性（第352源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18236,7 +18236,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-352-03",
-      "title": "新建立连续性｜第352源章｜3",
+      "title": "一百五十年跳转",
       "memo": "三百年后、昏君与暗云：新建立连续性（第352源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18261,7 +18261,7 @@
     },
     {
       "id": "era-17-dark-clouds-continuity-new-352-04",
-      "title": "新建立连续性｜第352源章｜4",
+      "title": "魔王城与怪物集结",
       "memo": "三百年后、昏君与暗云：新建立连续性（第352源章第4条）",
       "category": "continuity",
       "keys": [
@@ -18287,7 +18287,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-352-01",
-      "title": "未解决事项｜第352源章｜1",
+      "title": "怪物暴增原因",
       "memo": "三百年后、昏君与暗云：未解决事项（第352源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18312,7 +18312,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-352-02",
-      "title": "未解决事项｜第352源章｜2",
+      "title": "魔王身份与目的",
       "memo": "三百年后、昏君与暗云：未解决事项（第352源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -18338,7 +18338,7 @@
     },
     {
       "id": "era-17-dark-clouds-unresolved-352-03",
-      "title": "未解决事项｜第352源章｜3",
+      "title": "北方城堡来源",
       "memo": "三百年后、昏君与暗云：未解决事项（第352源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -18363,7 +18363,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-form-352-01",
-      "title": "主角龙形态｜第352源章｜1",
+      "title": "主角龙形态｜短暂的平静｜以高处与信徒观察长期世界的蒂雅",
       "memo": "三百年后、昏君与暗云：主角龙形态（第352源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18389,7 +18389,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-state-352-01",
-      "title": "主角龙状态｜第352源章｜1",
+      "title": "主角龙状态｜短暂的平静｜经历约一百五十年短暂平静后注意到北方魔王城与怪物潮",
       "memo": "三百年后、昏君与暗云：主角龙状态（第352源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18415,7 +18415,7 @@
     },
     {
       "id": "era-17-dark-clouds-protagonist-knowledge-352-01",
-      "title": "主角龙知识边界｜第352源章｜1",
+      "title": "主角龙知识边界｜短暂的平静｜不知道南方怪物暴增真实原因，也尚未亲眼确认城内统治者",
       "memo": "三百年后、昏君与暗云：主角龙知识边界（第352源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18440,7 +18440,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-01",
-      "title": "次要人物｜萨加玛塔",
+      "title": "萨加玛塔",
       "memo": "三百年后、昏君与暗云：次要人物 萨加玛塔",
       "category": "secondary-character",
       "keys": [
@@ -18466,7 +18466,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-02",
-      "title": "次要人物｜沙玛什",
+      "title": "沙玛什",
       "memo": "三百年后、昏君与暗云：次要人物 沙玛什",
       "category": "secondary-character",
       "keys": [
@@ -18492,7 +18492,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-03",
-      "title": "次要人物｜希尔芙",
+      "title": "希尔芙",
       "memo": "三百年后、昏君与暗云：次要人物 希尔芙",
       "category": "secondary-character",
       "keys": [
@@ -18518,7 +18518,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-04",
-      "title": "次要人物｜亚瑟",
+      "title": "亚瑟",
       "memo": "三百年后、昏君与暗云：次要人物 亚瑟",
       "category": "secondary-character",
       "keys": [
@@ -18550,7 +18550,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-05",
-      "title": "次要人物｜忒提斯",
+      "title": "忒提斯",
       "memo": "三百年后、昏君与暗云：次要人物 忒提斯",
       "category": "secondary-character",
       "keys": [
@@ -18576,7 +18576,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-06",
-      "title": "次要人物｜塞西尔",
+      "title": "塞西尔",
       "memo": "三百年后、昏君与暗云：次要人物 塞西尔",
       "category": "secondary-character",
       "keys": [
@@ -18602,7 +18602,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-07",
-      "title": "次要人物｜世界树",
+      "title": "世界树",
       "memo": "三百年后、昏君与暗云：次要人物 世界树",
       "category": "secondary-character",
       "keys": [
@@ -18628,7 +18628,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-08",
-      "title": "次要人物｜伊芙利特",
+      "title": "伊芙利特",
       "memo": "三百年后、昏君与暗云：次要人物 伊芙利特",
       "category": "secondary-character",
       "keys": [
@@ -18654,7 +18654,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-09",
-      "title": "次要人物｜兜帽老帝师",
+      "title": "兜帽老帝师",
       "memo": "三百年后、昏君与暗云：次要人物 兜帽老帝师",
       "category": "secondary-character",
       "keys": [
@@ -18686,7 +18686,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-10",
-      "title": "次要人物｜未具名老贵族",
+      "title": "未具名老贵族",
       "memo": "三百年后、昏君与暗云：次要人物 未具名老贵族",
       "category": "secondary-character",
       "keys": [
@@ -18718,7 +18718,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-11",
-      "title": "次要人物｜矮人大冶匠",
+      "title": "矮人大冶匠",
       "memo": "三百年后、昏君与暗云：次要人物 矮人大冶匠",
       "category": "secondary-character",
       "keys": [
@@ -18744,7 +18744,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-12",
-      "title": "次要人物｜北罗马尼亚臣子群体",
+      "title": "北罗马尼亚臣子群体",
       "memo": "三百年后、昏君与暗云：次要人物 北罗马尼亚臣子群体",
       "category": "secondary-character",
       "keys": [],
@@ -18768,7 +18768,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-13",
-      "title": "次要人物｜北罗马尼亚贵族群体",
+      "title": "北罗马尼亚贵族群体",
       "memo": "三百年后、昏君与暗云：次要人物 北罗马尼亚贵族群体",
       "category": "secondary-character",
       "keys": [],
@@ -18792,7 +18792,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-14",
-      "title": "次要人物｜北罗马尼亚使者",
+      "title": "北罗马尼亚使者",
       "memo": "三百年后、昏君与暗云：次要人物 北罗马尼亚使者",
       "category": "secondary-character",
       "keys": [
@@ -18818,7 +18818,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-15",
-      "title": "次要人物｜弗拉德",
+      "title": "弗拉德",
       "memo": "三百年后、昏君与暗云：次要人物 弗拉德",
       "category": "secondary-character",
       "keys": [
@@ -18844,7 +18844,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-16",
-      "title": "次要人物｜贵族间谍与近卫队",
+      "title": "贵族间谍与近卫队",
       "memo": "三百年后、昏君与暗云：次要人物 贵族间谍与近卫队",
       "category": "secondary-character",
       "keys": [
@@ -18870,7 +18870,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-17",
-      "title": "次要人物｜蓝色魔塔塔主",
+      "title": "蓝色魔塔塔主",
       "memo": "三百年后、昏君与暗云：次要人物 蓝色魔塔塔主",
       "category": "secondary-character",
       "keys": [
@@ -18896,7 +18896,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-18",
-      "title": "次要人物｜求旗北方贵族",
+      "title": "求旗北方贵族",
       "memo": "三百年后、昏君与暗云：次要人物 求旗北方贵族",
       "category": "secondary-character",
       "keys": [
@@ -18922,7 +18922,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-19",
-      "title": "次要人物｜未具名矮人发明者",
+      "title": "未具名矮人发明者",
       "memo": "三百年后、昏君与暗云：次要人物 未具名矮人发明者",
       "category": "secondary-character",
       "keys": [
@@ -18948,7 +18948,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-20",
-      "title": "次要人物｜未具名矮人工匠",
+      "title": "未具名矮人工匠",
       "memo": "三百年后、昏君与暗云：次要人物 未具名矮人工匠",
       "category": "secondary-character",
       "keys": [
@@ -18974,7 +18974,7 @@
     },
     {
       "id": "era-17-dark-clouds-secondary-character-21",
-      "title": "次要人物｜未具名矮人炉匠",
+      "title": "未具名矮人炉匠",
       "memo": "三百年后、昏君与暗云：次要人物 未具名矮人炉匠",
       "category": "secondary-character",
       "keys": [

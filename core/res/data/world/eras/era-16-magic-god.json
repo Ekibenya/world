@@ -6063,7 +6063,7 @@
   "lorebook": [
     {
       "id": "era-16-magic-god-core",
-      "title": "安西娅与魔法之神｜时代边界",
+      "title": "安西娅与魔法之神",
       "memo": "安西娅与魔法之神：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -6078,7 +6078,7 @@
     },
     {
       "id": "era-16-magic-god-event-274-01",
-      "title": "事件｜第274源章｜1",
+      "title": "蒂雅回应暴风海面祈祷，平息风浪、送船到岛并读记忆",
       "memo": "安西娅与魔法之神：事件（第274源章第1条）",
       "category": "event",
       "keys": [
@@ -6104,7 +6104,7 @@
     },
     {
       "id": "era-16-magic-god-event-274-02",
-      "title": "事件｜第274源章｜2",
+      "title": "渔夫奎奥·特兰为赢纯银创世龙神像打赌顺河寻海，初次遭遇盐水脱水和风暴",
       "memo": "安西娅与魔法之神：事件（第274源章第2条）",
       "category": "event",
       "keys": [
@@ -6130,7 +6130,7 @@
     },
     {
       "id": "era-16-magic-god-event-274-03",
-      "title": "事件｜第274源章｜3",
+      "title": "蒂雅考虑送返、帮助或改造成海水适应蜥蜴人",
       "memo": "安西娅与魔法之神：事件（第274源章第3条）",
       "category": "event",
       "keys": [
@@ -6156,7 +6156,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-274-01",
-      "title": "世界设定事实｜第274源章｜1",
+      "title": "内陆淡水蜥蜴人缺乏海洋概念，盐水会快速夺水，海岸环境近似剧毒",
       "memo": "安西娅与魔法之神：世界设定事实（第274源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6181,7 +6181,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-274-02",
-      "title": "世界设定事实｜第274源章｜2",
+      "title": "矮人名匠可用纯银锻造精细的创世龙神龙形神像",
       "memo": "安西娅与魔法之神：世界设定事实（第274源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6206,7 +6206,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-274-01",
-      "title": "新建立连续性｜第274源章｜1",
+      "title": "奎奥·特兰",
       "memo": "安西娅与魔法之神：新建立连续性（第274源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6232,7 +6232,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-274-02",
-      "title": "新建立连续性｜第274源章｜2",
+      "title": "蜥蜴人未知海洋",
       "memo": "安西娅与魔法之神：新建立连续性（第274源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6257,7 +6257,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-274-03",
-      "title": "新建立连续性｜第274源章｜3",
+      "title": "盐水弱点",
       "memo": "安西娅与魔法之神：新建立连续性（第274源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6282,7 +6282,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-274-01",
-      "title": "未解决事项｜第274源章｜1",
+      "title": "岛上求生",
       "memo": "安西娅与魔法之神：未解决事项（第274源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6307,7 +6307,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-274-02",
-      "title": "未解决事项｜第274源章｜2",
+      "title": "海水适应",
       "memo": "安西娅与魔法之神：未解决事项（第274源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6332,7 +6332,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-274-01",
-      "title": "主角龙形态｜第274源章｜1",
+      "title": "主角龙形态｜蜥蜴人与大海.(1)｜创世龙神/生命女神本体，以远距神视和海流干预",
       "memo": "安西娅与魔法之神：主角龙形态（第274源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6357,7 +6357,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-274-01",
-      "title": "主角龙状态｜第274源章｜1",
+      "title": "主角龙状态｜蜥蜴人与大海.(1)｜从休息中被唤醒并救下奎奥",
       "memo": "安西娅与魔法之神：主角龙状态（第274源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6382,7 +6382,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-274-01",
-      "title": "主角龙知识边界｜第274源章｜1",
+      "title": "主角龙知识边界｜蜥蜴人与大海.(1)｜只从记忆知道出海起因，尚未决定帮助方式",
       "memo": "安西娅与魔法之神：主角龙知识边界（第274源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6407,7 +6407,7 @@
     },
     {
       "id": "era-16-magic-god-event-275-01",
-      "title": "事件｜第275源章｜1",
+      "title": "蒂雅不直接送奎奥回家，而布置有水食住所的小岛作为漂流求生观察",
       "memo": "安西娅与魔法之神：事件（第275源章第1条）",
       "category": "event",
       "keys": [
@@ -6433,7 +6433,7 @@
     },
     {
       "id": "era-16-magic-god-event-275-02",
-      "title": "事件｜第275源章｜2",
+      "title": "奎奥饮溪水、哀悼船骸，以鱼果与指甲工具建营生火并探完整岛",
       "memo": "安西娅与魔法之神：事件（第275源章第2条）",
       "category": "event",
       "keys": [
@@ -6459,7 +6459,7 @@
     },
     {
       "id": "era-16-magic-god-event-275-03",
-      "title": "事件｜第275源章｜3",
+      "title": "奎奥登山发现泉中的水之精灵",
       "memo": "安西娅与魔法之神：事件（第275源章第3条）",
       "category": "event",
       "keys": [
@@ -6485,7 +6485,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-275-01",
-      "title": "世界设定事实｜第275源章｜1",
+      "title": "清水之祷以蜥蜴人自身鳞片换水精灵净水护身，使旅行航海者缓解湿度限制",
       "memo": "安西娅与魔法之神：世界设定事实（第275源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6510,7 +6510,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-275-01",
-      "title": "新建立连续性｜第275源章｜1",
+      "title": "漂流岛求生",
       "memo": "安西娅与魔法之神：新建立连续性（第275源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6535,7 +6535,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-275-02",
-      "title": "新建立连续性｜第275源章｜2",
+      "title": "山顶水精灵",
       "memo": "安西娅与魔法之神：新建立连续性（第275源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6560,7 +6560,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-275-03",
-      "title": "新建立连续性｜第275源章｜3",
+      "title": "清水之祷雏形",
       "memo": "安西娅与魔法之神：新建立连续性（第275源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6585,7 +6585,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-275-01",
-      "title": "未解决事项｜第275源章｜1",
+      "title": "精灵交易",
       "memo": "安西娅与魔法之神：未解决事项（第275源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6610,7 +6610,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-275-02",
-      "title": "未解决事项｜第275源章｜2",
+      "title": "返乡",
       "memo": "安西娅与魔法之神：未解决事项（第275源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6635,7 +6635,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-275-01",
-      "title": "主角龙形态｜第275源章｜1",
+      "title": "主角龙形态｜蜥蜴人与大海.(2)｜远距观察并微调岛屿的创世龙神",
       "memo": "安西娅与魔法之神：主角龙形态（第275源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6660,7 +6660,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-275-01",
-      "title": "主角龙状态｜第275源章｜1",
+      "title": "主角龙状态｜蜥蜴人与大海.(2)｜充当隐藏关卡设计者，等待奎奥与水精灵达成关系",
       "memo": "安西娅与魔法之神：主角龙状态（第275源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6685,7 +6685,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-275-01",
-      "title": "主角龙知识边界｜第275源章｜1",
+      "title": "主角龙知识边界｜蜥蜴人与大海.(2)｜奎奥不知道岛上资源和山顶精灵由神安排",
       "memo": "安西娅与魔法之神：主角龙知识边界（第275源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6710,7 +6710,7 @@
     },
     {
       "id": "era-16-magic-god-event-276-01",
-      "title": "事件｜第276源章｜1",
+      "title": "被忒提斯发配深海的问题水精灵接受蒂雅安排住泉等待奎奥，嘴硬却期待离开深海",
       "memo": "安西娅与魔法之神：事件（第276源章第1条）",
       "category": "event",
       "keys": [
@@ -6737,7 +6737,7 @@
     },
     {
       "id": "era-16-magic-god-event-276-02",
-      "title": "事件｜第276源章｜2",
+      "title": "奎奥请求渡海，以每次一片下颌鳞片交易",
       "memo": "安西娅与魔法之神：事件（第276源章第2条）",
       "category": "event",
       "keys": [
@@ -6762,7 +6762,7 @@
     },
     {
       "id": "era-16-magic-god-event-276-03",
-      "title": "事件｜第276源章｜3",
+      "title": "奎奥获得净水护身后不再畏海，蒂雅观察此举可能解开蜥蜴人唯一环境枷锁",
       "memo": "安西娅与魔法之神：事件（第276源章第3条）",
       "category": "event",
       "keys": [
@@ -6788,7 +6788,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-276-01",
-      "title": "世界设定事实｜第276源章｜1",
+      "title": "蜥蜴人鳞片能让元素精灵短暂物质化，消散后精灵可将净水化甲包裹交易者",
       "memo": "安西娅与魔法之神：世界设定事实（第276源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6813,7 +6813,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-276-01",
-      "title": "新建立连续性｜第276源章｜1",
+      "title": "鳞片换净水",
       "memo": "安西娅与魔法之神：新建立连续性（第276源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6838,7 +6838,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-276-02",
-      "title": "新建立连续性｜第276源章｜2",
+      "title": "水精灵肉体渴望",
       "memo": "安西娅与魔法之神：新建立连续性（第276源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6863,7 +6863,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-276-03",
-      "title": "新建立连续性｜第276源章｜3",
+      "title": "净水甲",
       "memo": "安西娅与魔法之神：新建立连续性（第276源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6888,7 +6888,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-276-01",
-      "title": "未解决事项｜第276源章｜1",
+      "title": "奎奥渡海",
       "memo": "安西娅与魔法之神：未解决事项（第276源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6913,7 +6913,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-276-02",
-      "title": "未解决事项｜第276源章｜2",
+      "title": "社会接受",
       "memo": "安西娅与魔法之神：未解决事项（第276源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6938,7 +6938,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-276-01",
-      "title": "主角龙形态｜第276源章｜1",
+      "title": "主角龙形态｜蜥蜴人与大海.(3)｜创世龙神本体，在泉边与水精灵安排任务并远观",
       "memo": "安西娅与魔法之神：主角龙形态（第276源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6963,7 +6963,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-276-01",
-      "title": "主角龙状态｜第276源章｜1",
+      "title": "主角龙状态｜蜥蜴人与大海.(3)｜促成跨种族交易而不直接改造奎奥",
       "memo": "安西娅与魔法之神：主角龙状态（第276源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6988,7 +6988,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-276-01",
-      "title": "主角龙知识边界｜第276源章｜1",
+      "title": "主角龙知识边界｜蜥蜴人与大海.(3)｜尚不知道交易传统会如何扩散，担忧枷锁解除后果",
       "memo": "安西娅与魔法之神：主角龙知识边界（第276源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7013,7 +7013,7 @@
     },
     {
       "id": "era-16-magic-god-event-277-01",
-      "title": "事件｜第277源章｜1",
+      "title": "奎奥先以水甲捕鱼补养，再造木筏带鱼干，于漂流第205天启程返乡",
       "memo": "安西娅与魔法之神：事件（第277源章第1条）",
       "category": "event",
       "keys": [
@@ -7038,7 +7038,7 @@
     },
     {
       "id": "era-16-magic-god-event-277-02",
-      "title": "事件｜第277源章｜2",
+      "title": "交易受限于精灵沟通和老咒术师反感，年轻咒术师改良清泉祷言",
       "memo": "安西娅与魔法之神：事件（第277源章第2条）",
       "category": "event",
       "keys": [
@@ -7063,7 +7063,7 @@
     },
     {
       "id": "era-16-magic-god-event-277-03",
-      "title": "事件｜第277源章｜3",
+      "title": "献鳞交易成为长途旅行传统并催生护颈皮甲",
       "memo": "安西娅与魔法之神：事件（第277源章第3条）",
       "category": "event",
       "keys": [
@@ -7089,7 +7089,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-277-01",
-      "title": "世界设定事实｜第277源章｜1",
+      "title": "精灵交易需先沟通且被传统咒术师排斥",
       "memo": "安西娅与魔法之神：世界设定事实（第277源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7114,7 +7114,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-277-02",
-      "title": "世界设定事实｜第277源章｜2",
+      "title": "航海蜥蜴人使用护住无鳞下颌颈胸的皮甲",
       "memo": "安西娅与魔法之神：世界设定事实（第277源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7139,7 +7139,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-277-01",
-      "title": "新建立连续性｜第277源章｜1",
+      "title": "清泉祷言",
       "memo": "安西娅与魔法之神：新建立连续性（第277源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7164,7 +7164,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-277-02",
-      "title": "新建立连续性｜第277源章｜2",
+      "title": "航海护颈甲",
       "memo": "安西娅与魔法之神：新建立连续性（第277源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7189,7 +7189,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-277-03",
-      "title": "新建立连续性｜第277源章｜3",
+      "title": "蜥蜴人返乡",
       "memo": "安西娅与魔法之神：新建立连续性（第277源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7214,7 +7214,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-277-01",
-      "title": "未解决事项｜第277源章｜1",
+      "title": "海上活动扩张",
       "memo": "安西娅与魔法之神：未解决事项（第277源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7239,7 +7239,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-277-02",
-      "title": "未解决事项｜第277源章｜2",
+      "title": "章末勇者队身份",
       "memo": "安西娅与魔法之神：未解决事项（第277源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7264,7 +7264,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-277-01",
-      "title": "主角龙形态｜第277源章｜1",
+      "title": "主角龙形态｜蜥蜴人与大海.(4)｜创世龙神远观",
       "memo": "安西娅与魔法之神：主角龙形态（第277源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7290,7 +7290,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-277-01",
-      "title": "主角龙状态｜第277源章｜1",
+      "title": "主角龙状态｜蜥蜴人与大海.(4)｜不再直接介入，让个体交易发展成社会技术",
       "memo": "安西娅与魔法之神：主角龙状态（第277源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7315,7 +7315,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-277-01",
-      "title": "主角龙知识边界｜第277源章｜1",
+      "title": "主角龙知识边界｜蜥蜴人与大海.(4)｜奎奥不知道实际漂流205天",
       "memo": "安西娅与魔法之神：主角龙知识边界（第277源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7340,7 +7340,7 @@
     },
     {
       "id": "era-16-magic-god-event-278-01",
-      "title": "事件｜第278源章｜1",
+      "title": "数十年后亚瑟仍年轻治国且终身不立后",
       "memo": "安西娅与魔法之神：事件（第278源章第1条）",
       "category": "event",
       "keys": [
@@ -7367,7 +7367,7 @@
     },
     {
       "id": "era-16-magic-god-event-278-02",
-      "title": "事件｜第278源章｜2",
+      "title": "蜥蜴人借水精灵交易扩散出湿地，成为商人并在河岸定居",
       "memo": "安西娅与魔法之神：事件（第278源章第2条）",
       "category": "event",
       "keys": [
@@ -7393,7 +7393,7 @@
     },
     {
       "id": "era-16-magic-god-event-278-03",
-      "title": "事件｜第278源章｜3",
+      "title": "世界树和萨加玛塔请求让精灵、矮人主动离开庇护地",
       "memo": "安西娅与魔法之神：事件（第278源章第3条）",
       "category": "event",
       "keys": [
@@ -7421,7 +7421,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-278-01",
-      "title": "世界设定事实｜第278源章｜1",
+      "title": "龙族巫女身份可在神谕许可下卸任",
       "memo": "安西娅与魔法之神：世界设定事实（第278源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7450,7 +7450,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-278-02",
-      "title": "世界设定事实｜第278源章｜2",
+      "title": "清水交易使蜥蜴人商人和河岸聚落出现，族群开始走向世界各地",
       "memo": "安西娅与魔法之神：世界设定事实（第278源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7475,7 +7475,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-278-01",
-      "title": "新建立连续性｜第278源章｜1",
+      "title": "薇薇卸任与婚育",
       "memo": "安西娅与魔法之神：新建立连续性（第278源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7501,7 +7501,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-278-02",
-      "title": "新建立连续性｜第278源章｜2",
+      "title": "蜥蜴人商贸扩散",
       "memo": "安西娅与魔法之神：新建立连续性（第278源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7526,7 +7526,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-278-03",
-      "title": "新建立连续性｜第278源章｜3",
+      "title": "精灵矮人独立请求",
       "memo": "安西娅与魔法之神：新建立连续性（第278源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7551,7 +7551,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-278-01",
-      "title": "未解决事项｜第278源章｜1",
+      "title": "两族迁徙方法",
       "memo": "安西娅与魔法之神：未解决事项（第278源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7576,7 +7576,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-278-01",
-      "title": "主角龙形态｜第278源章｜1",
+      "title": "主角龙形态｜矮人和精灵...又来了?.(1)｜生命女神本体，作为世界树和萨加玛塔的母亲提供咨询",
       "memo": "安西娅与魔法之神：主角龙形态（第278源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7603,7 +7603,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-278-01",
-      "title": "主角龙状态｜第278源章｜1",
+      "title": "主角龙状态｜矮人和精灵...又来了?.(1)｜评估用LD促成两族自发迁徙",
       "memo": "安西娅与魔法之神：主角龙状态（第278源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7628,7 +7628,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-278-01",
-      "title": "主角龙知识边界｜第278源章｜1",
+      "title": "主角龙知识边界｜矮人和精灵...又来了?.(1)｜尚未测试改良LD任务功能，不能确定是否会过度影响自由意志",
       "memo": "安西娅与魔法之神：主角龙知识边界（第278源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7653,7 +7653,7 @@
     },
     {
       "id": "era-16-magic-god-event-279-01",
-      "title": "事件｜第279源章｜1",
+      "title": "改良LD用信仰值发布模糊潜意识任务、按难度奖励且失败回收，不直接命令",
       "memo": "安西娅与魔法之神：事件（第279源章第1条）",
       "category": "event",
       "keys": [
@@ -7680,7 +7680,7 @@
     },
     {
       "id": "era-16-magic-god-event-279-02",
-      "title": "事件｜第279源章｜2",
+      "title": "矮人已在十年一度种族大战中三连胜，蒂雅设计以阻止精灵四连败为远游训练诱因",
       "memo": "安西娅与魔法之神：事件（第279源章第2条）",
       "category": "event",
       "keys": [
@@ -7706,7 +7706,7 @@
     },
     {
       "id": "era-16-magic-god-event-279-03",
-      "title": "事件｜第279源章｜3",
+      "title": "精灵和矮人开始十年周游、向亚瑟求教并在外定居",
       "memo": "安西娅与魔法之神：事件（第279源章第3条）",
       "category": "event",
       "keys": [
@@ -7732,7 +7732,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-279-01",
-      "title": "世界设定事实｜第279源章｜1",
+      "title": "LD任务以潜意识痕迹提示方向，消耗信仰值并按难度自动计奖，完成后奖励、失败则回收",
       "memo": "安西娅与魔法之神：世界设定事实（第279源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7757,7 +7757,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-279-02",
-      "title": "世界设定事实｜第279源章｜2",
+      "title": "矮人无王，技艺最高的大冶匠相当于族群领袖",
       "memo": "安西娅与魔法之神：世界设定事实（第279源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7782,7 +7782,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-279-03",
-      "title": "世界设定事实｜第279源章｜3",
+      "title": "十年远游训练使精灵矮人走出故地、跨族定居，并令精灵在第四场大战反胜",
       "memo": "安西娅与魔法之神：世界设定事实（第279源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7807,7 +7807,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-279-01",
-      "title": "新建立连续性｜第279源章｜1",
+      "title": "LD任务功能",
       "memo": "安西娅与魔法之神：新建立连续性（第279源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7832,7 +7832,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-279-02",
-      "title": "新建立连续性｜第279源章｜2",
+      "title": "精灵矮人远游传统",
       "memo": "安西娅与魔法之神：新建立连续性（第279源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7857,7 +7857,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-279-03",
-      "title": "新建立连续性｜第279源章｜3",
+      "title": "两族外地定居",
       "memo": "安西娅与魔法之神：新建立连续性（第279源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7882,7 +7882,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-279-01",
-      "title": "未解决事项｜第279源章｜1",
+      "title": "长期文化后果",
       "memo": "安西娅与魔法之神：未解决事项（第279源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7907,7 +7907,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-279-01",
-      "title": "主角龙形态｜第279源章｜1",
+      "title": "主角龙形态｜矮人和精灵...又来了?.(2)｜生命女神本体，改良LD设计者与咨询者",
       "memo": "安西娅与魔法之神：主角龙形态（第279源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7932,7 +7932,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-279-01",
-      "title": "主角龙状态｜第279源章｜1",
+      "title": "主角龙状态｜矮人和精灵...又来了?.(2)｜以最小梦境提示促成两族长期扩散",
       "memo": "安西娅与魔法之神：主角龙状态（第279源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7957,7 +7957,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-279-01",
-      "title": "主角龙知识边界｜第279源章｜1",
+      "title": "主角龙知识边界｜矮人和精灵...又来了?.(2)｜参与者不知道蒂雅设计了两族竞争链条",
       "memo": "安西娅与魔法之神：主角龙知识边界（第279源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7983,7 +7983,7 @@
     },
     {
       "id": "era-16-magic-god-event-280-01",
-      "title": "事件｜第280源章｜1",
+      "title": "蒂雅通过LD观察樵夫冒险者专猎树精却遭隐影狼重伤，给予运气祝福并萌生冒险家公会",
       "memo": "安西娅与魔法之神：事件（第280源章第1条）",
       "category": "event",
       "keys": [
@@ -8009,7 +8009,7 @@
     },
     {
       "id": "era-16-magic-god-event-280-02",
-      "title": "事件｜第280源章｜2",
+      "title": "她排除生命教团、普罗西亚及各单一种族，以大陆中心罗马尼亚和皇权建立分布式公会",
       "memo": "安西娅与魔法之神：事件（第280源章第2条）",
       "category": "event",
       "keys": [
@@ -8034,7 +8034,7 @@
     },
     {
       "id": "era-16-magic-god-event-280-03",
-      "title": "事件｜第280源章｜3",
+      "title": "亚瑟退位仍不老并住石屋",
       "memo": "安西娅与魔法之神：事件（第280源章第3条）",
       "category": "event",
       "keys": [
@@ -8063,7 +8063,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-280-01",
-      "title": "世界设定事实｜第280源章｜1",
+      "title": "树精惧斧不惧剑箭，火攻会危及领主森林",
       "memo": "安西娅与魔法之神：世界设定事实（第280源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8088,7 +8088,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-280-02",
-      "title": "世界设定事实｜第280源章｜2",
+      "title": "罗马尼亚处西大陆中央，比斯蒂亚和莱特基尼亚更西，适合作跨地区公会枢纽",
       "memo": "安西娅与魔法之神：世界设定事实（第280源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8113,7 +8113,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-280-03",
-      "title": "世界设定事实｜第280源章｜3",
+      "title": "尤利乌斯继位",
       "memo": "安西娅与魔法之神：世界设定事实（第280源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8140,7 +8140,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-280-01",
-      "title": "新建立连续性｜第280源章｜1",
+      "title": "尤利乌斯皇帝",
       "memo": "安西娅与魔法之神：新建立连续性（第280源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8166,7 +8166,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-280-02",
-      "title": "新建立连续性｜第280源章｜2",
+      "title": "冒险家公会构想",
       "memo": "安西娅与魔法之神：新建立连续性（第280源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8191,7 +8191,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-280-03",
-      "title": "新建立连续性｜第280源章｜3",
+      "title": "亚瑟退位不老",
       "memo": "安西娅与魔法之神：新建立连续性（第280源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8217,7 +8217,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-280-01",
-      "title": "未解决事项｜第280源章｜1",
+      "title": "尤利乌斯是否接受引导",
       "memo": "安西娅与魔法之神：未解决事项（第280源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8243,7 +8243,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-280-01",
-      "title": "主角龙形态｜第280源章｜1",
+      "title": "主角龙形态｜创建冒险家公会的方法.(1)｜使用LD旁观人类的生命女神本体",
       "memo": "安西娅与魔法之神：主角龙形态（第280源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8268,7 +8268,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-280-01",
-      "title": "主角龙状态｜第280源章｜1",
+      "title": "主角龙状态｜创建冒险家公会的方法.(1)｜决定通过尤利乌斯建立冒险家公会",
       "memo": "安西娅与魔法之神：主角龙状态（第280源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8294,7 +8294,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-280-01",
-      "title": "主角龙知识边界｜第280源章｜1",
+      "title": "主角龙知识边界｜创建冒险家公会的方法.(1)｜尚未进入尤利乌斯梦境，不知道他会如何把构想转化为制度",
       "memo": "安西娅与魔法之神：主角龙知识边界（第280源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8320,7 +8320,7 @@
     },
     {
       "id": "era-16-magic-god-event-281-01",
-      "title": "事件｜第281源章｜1",
+      "title": "尤利乌斯登基五年，帝国富足安稳，却因不及养父剑术与生母魔法而自认平庸",
       "memo": "安西娅与魔法之神：事件（第281源章第1条）",
       "category": "event",
       "keys": [
@@ -8346,7 +8346,7 @@
     },
     {
       "id": "era-16-magic-god-event-281-02",
-      "title": "事件｜第281源章｜2",
+      "title": "蒂雅在梦中指引他观察冒险者并强调这是剑皇做不到、只有他能做的事",
       "memo": "安西娅与魔法之神：事件（第281源章第2条）",
       "category": "event",
       "keys": [
@@ -8373,7 +8373,7 @@
     },
     {
       "id": "era-16-magic-god-event-281-03",
-      "title": "事件｜第281源章｜3",
+      "title": "尤利乌斯化名尤尔与皇家骑士团长微服出城，亲自狩猎并观察怪物素材、冒险者价值和森林异常",
       "memo": "安西娅与魔法之神：事件（第281源章第3条）",
       "category": "event",
       "keys": [
@@ -8400,7 +8400,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-281-01",
-      "title": "世界设定事实｜第281源章｜1",
+      "title": "尤利乌斯治世无饥饿、贵族百姓顺服，但皇帝本人因比较压力长期不安",
       "memo": "安西娅与魔法之神：世界设定事实（第281源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8426,7 +8426,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-281-02",
-      "title": "世界设定事实｜第281源章｜2",
+      "title": "动物变异怪物可产魔石、优质肉皮，处理繁琐且对普通人危险",
       "memo": "安西娅与魔法之神：世界设定事实（第281源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8451,7 +8451,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-281-01",
-      "title": "新建立连续性｜第281源章｜1",
+      "title": "尤尔化名",
       "memo": "安西娅与魔法之神：新建立连续性（第281源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8476,7 +8476,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-281-02",
-      "title": "新建立连续性｜第281源章｜2",
+      "title": "亚瑟感知女神",
       "memo": "安西娅与魔法之神：新建立连续性（第281源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8502,7 +8502,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-281-03",
-      "title": "新建立连续性｜第281源章｜3",
+      "title": "皇帝实地调研",
       "memo": "安西娅与魔法之神：新建立连续性（第281源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8527,7 +8527,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-281-01",
-      "title": "未解决事项｜第281源章｜1",
+      "title": "森林怪物异常",
       "memo": "安西娅与魔法之神：未解决事项（第281源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8552,7 +8552,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-281-02",
-      "title": "未解决事项｜第281源章｜2",
+      "title": "公会决策",
       "memo": "安西娅与魔法之神：未解决事项（第281源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8577,7 +8577,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-281-01",
-      "title": "主角龙形态｜第281源章｜1",
+      "title": "主角龙形态｜创建冒险家公会的方法.(2)｜生命女神本体通过LD梦境声音出现",
       "memo": "安西娅与魔法之神：主角龙形态（第281源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8602,7 +8602,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-281-01",
-      "title": "主角龙状态｜第281源章｜1",
+      "title": "主角龙状态｜创建冒险家公会的方法.(2)｜完成一次最小方向提示后隐藏观察尤利乌斯实地调研",
       "memo": "安西娅与魔法之神：主角龙状态（第281源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8628,7 +8628,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-281-01",
-      "title": "主角龙知识边界｜第281源章｜1",
+      "title": "主角龙知识边界｜创建冒险家公会的方法.(2)｜未预料亚瑟能感知微弱信仰力",
       "memo": "安西娅与魔法之神：主角龙知识边界（第281源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8655,7 +8655,7 @@
     },
     {
       "id": "era-16-magic-god-event-282-01",
-      "title": "事件｜第282源章｜1",
+      "title": "尤利乌斯与团长遭遇异常密集怪物并决定撤退，巨型树精追来，团长准备断后",
       "memo": "安西娅与魔法之神：事件（第282源章第1条）",
       "category": "event",
       "keys": [
@@ -8681,7 +8681,7 @@
     },
     {
       "id": "era-16-magic-god-event-282-02",
-      "title": "事件｜第282源章｜2",
+      "title": "樵夫冒险者以斧断树精双腿并同行",
       "memo": "安西娅与魔法之神：事件（第282源章第2条）",
       "category": "event",
       "keys": [
@@ -8706,7 +8706,7 @@
     },
     {
       "id": "era-16-magic-god-event-282-03",
-      "title": "事件｜第282源章｜3",
+      "title": "队伍聚至十余名冒险者安全返城，尤利乌斯观察协作能缓和单人狩猎造成的暴戾，决定去酒馆",
       "memo": "安西娅与魔法之神：事件（第282源章第3条）",
       "category": "event",
       "keys": [
@@ -8732,7 +8732,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-282-01",
-      "title": "世界设定事实｜第282源章｜1",
+      "title": "巨型树精外皮如古木、剑难致命",
       "memo": "安西娅与魔法之神：世界设定事实（第282源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8757,7 +8757,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-282-01",
-      "title": "新建立连续性｜第282源章｜1",
+      "title": "十余人临时冒险队",
       "memo": "安西娅与魔法之神：新建立连续性（第282源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8782,7 +8782,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-282-02",
-      "title": "新建立连续性｜第282源章｜2",
+      "title": "组织协作洞见",
       "memo": "安西娅与魔法之神：新建立连续性（第282源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8807,7 +8807,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-282-01",
-      "title": "未解决事项｜第282源章｜1",
+      "title": "尤利乌斯酒馆观察",
       "memo": "安西娅与魔法之神：未解决事项（第282源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8833,7 +8833,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-282-02",
-      "title": "未解决事项｜第282源章｜2",
+      "title": "怪物异常真因",
       "memo": "安西娅与魔法之神：未解决事项（第282源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8858,7 +8858,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-282-01",
-      "title": "主角龙形态｜第282源章｜1",
+      "title": "主角龙形态｜创建冒险家公会的方法.(3)｜隐藏在LD后的生命女神，暗中驱赶怪物",
       "memo": "安西娅与魔法之神：主角龙形态（第282源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8883,7 +8883,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-282-01",
-      "title": "主角龙状态｜第282源章｜1",
+      "title": "主角龙状态｜创建冒险家公会的方法.(3)｜尚未显露其人为制造相遇的事实",
       "memo": "安西娅与魔法之神：主角龙状态（第282源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8908,7 +8908,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-282-01",
-      "title": "主角龙知识边界｜第282源章｜1",
+      "title": "主角龙知识边界｜创建冒险家公会的方法.(3)｜尤利乌斯等误以为异常可能是敌人或神明脾气，不知蒂雅在场",
       "memo": "安西娅与魔法之神：主角龙知识边界（第282源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8935,7 +8935,7 @@
     },
     {
       "id": "era-16-magic-god-event-283-01",
-      "title": "事件｜第283源章｜1",
+      "title": "尤利乌斯在酒馆看到冒险者赌命生存的活力，决定建立维持其职业定位",
       "memo": "安西娅与魔法之神：事件（第283源章第1条）",
       "category": "event",
       "keys": [
@@ -8961,7 +8961,7 @@
     },
     {
       "id": "era-16-magic-god-event-283-02",
-      "title": "事件｜第283源章｜2",
+      "title": "蒂雅承认自己驱怪过火，向尤利乌斯传达总部、松散分部、跨区支援、等级与委托总构想",
       "memo": "安西娅与魔法之神：事件（第283源章第2条）",
       "category": "event",
       "keys": [
@@ -8988,7 +8988,7 @@
     },
     {
       "id": "era-16-magic-god-event-283-03",
-      "title": "事件｜第283源章｜3",
+      "title": "尤利乌斯以政治、薇薇人脉和自营收结构迅速推进，并邀请退位亚瑟挂名首领",
       "memo": "安西娅与魔法之神：事件（第283源章第3条）",
       "category": "event",
       "keys": [
@@ -9016,7 +9016,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-283-01",
-      "title": "世界设定事实｜第283源章｜1",
+      "title": "公会蓝图包括全员注册、领地分部松散联网、首都总部、危机跨区支援、等级和委托难度限制",
       "memo": "安西娅与魔法之神：世界设定事实（第283源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9041,7 +9041,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-283-02",
-      "title": "世界设定事实｜第283源章｜2",
+      "title": "尤利乌斯以内政专精、领主政治、生命教团支援和自营收设计快速推动公会",
       "memo": "安西娅与魔法之神：世界设定事实（第283源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9067,7 +9067,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-283-01",
-      "title": "新建立连续性｜第283源章｜1",
+      "title": "冒险家公会正式构想",
       "memo": "安西娅与魔法之神：新建立连续性（第283源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9092,7 +9092,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-283-02",
-      "title": "新建立连续性｜第283源章｜2",
+      "title": "亚瑟挂名首领计划",
       "memo": "安西娅与魔法之神：新建立连续性（第283源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9118,7 +9118,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-283-01",
-      "title": "未解决事项｜第283源章｜1",
+      "title": "公众和冒险者接受度",
       "memo": "安西娅与魔法之神：未解决事项（第283源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9143,7 +9143,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-283-02",
-      "title": "未解决事项｜第283源章｜2",
+      "title": "财政可持续性",
       "memo": "安西娅与魔法之神：未解决事项（第283源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9168,7 +9168,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-283-01",
-      "title": "主角龙形态｜第283源章｜1",
+      "title": "主角龙形态｜创建冒险家公会的方法.(4)｜LD后的生命女神，梦境顾问和隐藏事件推动者",
       "memo": "安西娅与魔法之神：主角龙形态（第283源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9193,7 +9193,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-283-01",
-      "title": "主角龙状态｜第283源章｜1",
+      "title": "主角龙状态｜创建冒险家公会的方法.(4)｜发现尤利乌斯远比预期能干，转为守护制度落地",
       "memo": "安西娅与魔法之神：主角龙状态（第283源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9219,7 +9219,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-283-01",
-      "title": "主角龙知识边界｜第283源章｜1",
+      "title": "主角龙知识边界｜创建冒险家公会的方法.(4)｜尤利乌斯不知道怪物相遇由她制造",
       "memo": "安西娅与魔法之神：主角龙知识边界（第283源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9247,7 +9247,7 @@
     },
     {
       "id": "era-16-magic-god-event-284-01",
-      "title": "事件｜第284源章｜1",
+      "title": "民众、领主和冒险者起初均不欢迎公会，因皇命和亚瑟负责人威望才建立各地分部",
       "memo": "安西娅与魔法之神：事件（第284源章第1条）",
       "category": "event",
       "keys": [
@@ -9273,7 +9273,7 @@
     },
     {
       "id": "era-16-magic-god-event-284-02",
-      "title": "事件｜第284源章｜2",
+      "title": "公会以非会员素材附加税、会员福利、会费、等级考试、专业处理和减少中间商促成大量入会",
       "memo": "安西娅与魔法之神：事件（第284源章第2条）",
       "category": "event",
       "keys": [
@@ -9298,7 +9298,7 @@
     },
     {
       "id": "era-16-magic-god-event-284-03",
-      "title": "事件｜第284源章｜3",
+      "title": "前期支出高于收入，尤利乌斯以税金启动，并预计40%素材处理差额随规模增长覆盖福利",
       "memo": "安西娅与魔法之神：事件（第284源章第3条）",
       "category": "event",
       "keys": [
@@ -9324,7 +9324,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-284-01",
-      "title": "世界设定事实｜第284源章｜1",
+      "title": "会员福利含税费与治疗折扣，伤病补助，死亡抚恤，装备饮食优惠，图书馆",
       "memo": "安西娅与魔法之神：世界设定事实（第284源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9349,7 +9349,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-284-02",
-      "title": "世界设定事实｜第284源章｜2",
+      "title": "会员须按等级交月费、不得外卖素材",
       "memo": "安西娅与魔法之神：世界设定事实（第284源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9374,7 +9374,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-284-03",
-      "title": "世界设定事实｜第284源章｜3",
+      "title": "酒馆旧收购抽成50%，公会抽40%，预计靠素材规模补充运营",
       "memo": "安西娅与魔法之神：世界设定事实（第284源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9399,7 +9399,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-284-01",
-      "title": "新建立连续性｜第284源章｜1",
+      "title": "F-S等级",
       "memo": "安西娅与魔法之神：新建立连续性（第284源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9424,7 +9424,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-284-02",
-      "title": "新建立连续性｜第284源章｜2",
+      "title": "会员福利与会费",
       "memo": "安西娅与魔法之神：新建立连续性（第284源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9449,7 +9449,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-284-03",
-      "title": "新建立连续性｜第284源章｜3",
+      "title": "素材公营处理",
       "memo": "安西娅与魔法之神：新建立连续性（第284源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9474,7 +9474,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-284-01",
-      "title": "未解决事项｜第284源章｜1",
+      "title": "长期平衡",
       "memo": "安西娅与魔法之神：未解决事项（第284源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9499,7 +9499,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-284-02",
-      "title": "未解决事项｜第284源章｜2",
+      "title": "社会评价",
       "memo": "安西娅与魔法之神：未解决事项（第284源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9524,7 +9524,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-284-01",
-      "title": "主角龙形态｜第284源章｜1",
+      "title": "主角龙形态｜创建冒险家公会的方法.(5)｜本章不直接显形，以此前制度构想和关注存在",
       "memo": "安西娅与魔法之神：主角龙形态（第284源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9549,7 +9549,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-284-01",
-      "title": "主角龙状态｜第284源章｜1",
+      "title": "主角龙状态｜创建冒险家公会的方法.(5)｜让尤利乌斯独立承担执行和财政判断",
       "memo": "安西娅与魔法之神：主角龙状态（第284源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9575,7 +9575,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-284-01",
-      "title": "主角龙知识边界｜第284源章｜1",
+      "title": "主角龙知识边界｜创建冒险家公会的方法.(5)｜参与者不知道公会最初源自生命女神观察",
       "memo": "安西娅与魔法之神：主角龙知识边界（第284源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9600,7 +9600,7 @@
     },
     {
       "id": "era-16-magic-god-event-285-01",
-      "title": "事件｜第285源章｜1",
+      "title": "公会在皇权和生命教团支持下稳定运行，蒂雅确认LD协调完成并强行入睡",
       "memo": "安西娅与魔法之神：事件（第285源章第1条）",
       "category": "event",
       "keys": [
@@ -9626,7 +9626,7 @@
     },
     {
       "id": "era-16-magic-god-event-285-02",
-      "title": "事件｜第285源章｜2",
+      "title": "世界在她沉睡时继续混居扩张",
       "memo": "安西娅与魔法之神：事件（第285源章第2条）",
       "category": "event",
       "keys": [
@@ -9653,7 +9653,7 @@
     },
     {
       "id": "era-16-magic-god-event-285-03",
-      "title": "事件｜第285源章｜3",
+      "title": "蒂雅半睡监听世界，决定不把改变世界交给神，而用LD对普通人施加极小建议",
       "memo": "安西娅与魔法之神：事件（第285源章第3条）",
       "category": "event",
       "keys": [
@@ -9681,7 +9681,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-285-01",
-      "title": "世界设定事实｜第285源章｜1",
+      "title": "蒂雅沉睡期间精灵，矮人，蜥蜴人按森林，山脉，河流扩散，人类兽人混居",
       "memo": "安西娅与魔法之神：世界设定事实（第285源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9707,7 +9707,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-285-02",
-      "title": "世界设定事实｜第285源章｜2",
+      "title": "尤利乌斯以仁政和冒险家公会留名",
       "memo": "安西娅与魔法之神：世界设定事实（第285源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9734,7 +9734,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-285-03",
-      "title": "世界设定事实｜第285源章｜3",
+      "title": "安西娅生于普罗西亚附近，银发且魔力庞大，幼年能在干旱地召暴雨，并伴随未知声音",
       "memo": "安西娅与魔法之神：世界设定事实（第285源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9761,7 +9761,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-285-01",
-      "title": "新建立连续性｜第285源章｜1",
+      "title": "安西娅出生",
       "memo": "安西娅与魔法之神：新建立连续性（第285源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9788,7 +9788,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-285-02",
-      "title": "新建立连续性｜第285源章｜2",
+      "title": "微干涉LD模式",
       "memo": "安西娅与魔法之神：新建立连续性（第285源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9813,7 +9813,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-285-03",
-      "title": "新建立连续性｜第285源章｜3",
+      "title": "魔王伏线",
       "memo": "安西娅与魔法之神：新建立连续性（第285源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9839,7 +9839,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-285-01",
-      "title": "未解决事项｜第285源章｜1",
+      "title": "安西娅成长",
       "memo": "安西娅与魔法之神：未解决事项（第285源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9866,7 +9866,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-285-02",
-      "title": "未解决事项｜第285源章｜2",
+      "title": "魔王出现",
       "memo": "安西娅与魔法之神：未解决事项（第285源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9892,7 +9892,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-285-03",
-      "title": "未解决事项｜第285源章｜3",
+      "title": "亚瑟最终失踪",
       "memo": "安西娅与魔法之神：未解决事项（第285源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9918,7 +9918,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-285-01",
-      "title": "主角龙形态｜第285源章｜1",
+      "title": "主角龙形态｜创建冒险家公会的方法.(6)｜沉睡中的生命女神本体，通过LD作为安西娅一生中的声音",
       "memo": "安西娅与魔法之神：主角龙形态（第285源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9945,7 +9945,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-285-01",
-      "title": "主角龙状态｜第285源章｜1",
+      "title": "主角龙状态｜创建冒险家公会的方法.(6)｜从直接化身玩家转为半睡的微建议者",
       "memo": "安西娅与魔法之神：主角龙状态（第285源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9970,7 +9970,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-285-01",
-      "title": "主角龙知识边界｜第285源章｜1",
+      "title": "主角龙知识边界｜创建冒险家公会的方法.(6)｜安西娅与家人不知道声音来源",
       "memo": "安西娅与魔法之神：主角龙知识边界（第285源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9998,7 +9998,7 @@
     },
     {
       "id": "era-16-magic-god-event-286-01",
-      "title": "事件｜第286源章｜1",
+      "title": "安西娅自出生起听见一道守望自己的声音",
       "memo": "安西娅与魔法之神：事件（第286源章第1条）",
       "category": "event",
       "keys": [
@@ -10025,7 +10025,7 @@
     },
     {
       "id": "era-16-magic-god-event-286-02",
-      "title": "事件｜第286源章｜2",
+      "title": "安西娅出生后贫瘠村庄逐渐丰收宜居，村民珍爱她，父亲赶走觊觎年幼女儿的求婚者",
       "memo": "安西娅与魔法之神：事件（第286源章第2条）",
       "category": "event",
       "keys": [
@@ -10052,7 +10052,7 @@
     },
     {
       "id": "era-16-magic-god-event-286-03",
-      "title": "事件｜第286源章｜3",
+      "title": "十岁左右的安西娅与声音首次互相确认能对话",
       "memo": "安西娅与魔法之神：事件（第286源章第3条）",
       "category": "event",
       "keys": [
@@ -10080,7 +10080,7 @@
     },
     {
       "id": "era-16-magic-god-event-286-04",
-      "title": "事件｜第286源章｜4",
+      "title": "西娅想成为魔法师以减轻父母辛劳，蒂雅判断她资质足够并开始考虑训练",
       "memo": "安西娅与魔法之神：事件（第286源章第4条）",
       "category": "event",
       "keys": [
@@ -10107,7 +10107,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-286-01",
-      "title": "世界设定事实｜第286源章｜1",
+      "title": "普罗西亚是灼热沙漠入口的魔法师城市",
       "memo": "安西娅与魔法之神：世界设定事实（第286源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10132,7 +10132,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-286-02",
-      "title": "世界设定事实｜第286源章｜2",
+      "title": "安西娅出生后，无名村庄的收成、热浪与来访贸易朝圣条件均改善",
       "memo": "安西娅与魔法之神：世界设定事实（第286源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10159,7 +10159,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-286-01",
-      "title": "新建立连续性｜第286源章｜1",
+      "title": "安西娅",
       "memo": "安西娅与魔法之神：新建立连续性（第286源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10186,7 +10186,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-286-02",
-      "title": "新建立连续性｜第286源章｜2",
+      "title": "声音关系建立",
       "memo": "安西娅与魔法之神：新建立连续性（第286源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10211,7 +10211,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-286-03",
-      "title": "新建立连续性｜第286源章｜3",
+      "title": "安西娅的魔法师梦想",
       "memo": "安西娅与魔法之神：新建立连续性（第286源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10238,7 +10238,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-286-01",
-      "title": "未解决事项｜第286源章｜1",
+      "title": "安西娅为何能听见蒂雅",
       "memo": "安西娅与魔法之神：未解决事项（第286源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10266,7 +10266,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-286-02",
-      "title": "未解决事项｜第286源章｜2",
+      "title": "蒂雅将如何训练她",
       "memo": "安西娅与魔法之神：未解决事项（第286源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10292,7 +10292,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-286-01",
-      "title": "主角龙形态｜第286源章｜1",
+      "title": "主角龙形态｜为了年幼的魔法师.(1)｜不显形、只有安西娅能听见声音的蒂雅",
       "memo": "安西娅与魔法之神：主角龙形态（第286源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10320,7 +10320,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-286-01",
-      "title": "主角龙状态｜第286源章｜1",
+      "title": "主角龙状态｜为了年幼的魔法师.(1)｜从单向守望转为与十岁左右的西娅秘密对话",
       "memo": "安西娅与魔法之神：主角龙状态（第286源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10346,7 +10346,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-286-01",
-      "title": "主角龙知识边界｜第286源章｜1",
+      "title": "主角龙知识边界｜为了年幼的魔法师.(1)｜她只列举西娅能听见声音的数种可能原因，并明确表示尚不确定",
       "memo": "安西娅与魔法之神：主角龙知识边界（第286源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10372,7 +10372,7 @@
     },
     {
       "id": "era-16-magic-god-event-287-01",
-      "title": "事件｜第287源章｜1",
+      "title": "蒂雅说明测试对象是现有魔法师，西娅将成为新知识的考题兼标准答案",
       "memo": "安西娅与魔法之神：事件（第287源章第1条）",
       "category": "event",
       "keys": [
@@ -10399,7 +10399,7 @@
     },
     {
       "id": "era-16-magic-god-event-287-02",
-      "title": "事件｜第287源章｜2",
+      "title": "为建立无需外人协助也能学习的方法，西娅先用数月冥想感知体内魔力，再训练外放和元素转换",
       "memo": "安西娅与魔法之神：事件（第287源章第2条）",
       "category": "event",
       "keys": [
@@ -10425,7 +10425,7 @@
     },
     {
       "id": "era-16-magic-god-event-287-03",
-      "title": "事件｜第287源章｜3",
+      "title": "蒂雅区分魔力使用者与研究发展魔法的魔法师，教西娅以自身魔力和意志连接、操控自然魔力",
       "memo": "安西娅与魔法之神：事件（第287源章第3条）",
       "category": "event",
       "keys": [
@@ -10452,7 +10452,7 @@
     },
     {
       "id": "era-16-magic-god-event-287-04",
-      "title": "事件｜第287源章｜4",
+      "title": "训练约一年后，西娅以帮助父母和村庄为愿望，在蒂雅协助下召来乌云与暴雨",
       "memo": "安西娅与魔法之神：事件（第287源章第4条）",
       "category": "event",
       "keys": [
@@ -10479,7 +10479,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-287-01",
-      "title": "世界设定事实｜第287源章｜1",
+      "title": "蒂雅主张真正魔法师兼具研究发展魔法的学者性",
       "memo": "安西娅与魔法之神：世界设定事实（第287源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10505,7 +10505,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-287-02",
-      "title": "世界设定事实｜第287源章｜2",
+      "title": "西娅在约一年控制训练后才正式施展大规模魔法，失控风险可能波及整个村庄",
       "memo": "安西娅与魔法之神：世界设定事实（第287源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10531,7 +10531,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-287-01",
-      "title": "新建立连续性｜第287源章｜1",
+      "title": "通用基础魔法训练",
       "memo": "安西娅与魔法之神：新建立连续性（第287源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10556,7 +10556,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-287-02",
-      "title": "新建立连续性｜第287源章｜2",
+      "title": "西娅的天气魔法",
       "memo": "安西娅与魔法之神：新建立连续性（第287源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10582,7 +10582,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-287-01",
-      "title": "未解决事项｜第287源章｜1",
+      "title": "现有魔法师是否接受新理论",
       "memo": "安西娅与魔法之神：未解决事项（第287源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10607,7 +10607,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-287-01",
-      "title": "主角龙形态｜第287源章｜1",
+      "title": "主角龙形态｜为了年幼的魔法师.(2)｜仅西娅可听见的蒂雅声音，未显露形体",
       "memo": "安西娅与魔法之神：主角龙形态（第287源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10634,7 +10634,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-287-01",
-      "title": "主角龙状态｜第287源章｜1",
+      "title": "主角龙状态｜为了年幼的魔法师.(2)｜作为秘密导师建立可由普通人重复学习的基础魔法训练",
       "memo": "安西娅与魔法之神：主角龙状态（第287源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10659,7 +10659,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-287-01",
-      "title": "主角龙知识边界｜第287源章｜1",
+      "title": "主角龙知识边界｜为了年幼的魔法师.(2)｜这是她第一次在龙族巫女特例之外培养普通魔法师",
       "memo": "安西娅与魔法之神：主角龙知识边界（第287源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10685,7 +10685,7 @@
     },
     {
       "id": "era-16-magic-god-event-288-01",
-      "title": "事件｜第288源章｜1",
+      "title": "西娅想为更多旱村降雨",
       "memo": "安西娅与魔法之神：事件（第288源章第1条）",
       "category": "event",
       "keys": [
@@ -10712,7 +10712,7 @@
     },
     {
       "id": "era-16-magic-god-event-288-02",
-      "title": "事件｜第288源章｜2",
+      "title": "普罗西亚邀请西娅，各区块希望借她统一城市",
       "memo": "安西娅与魔法之神：事件（第288源章第2条）",
       "category": "event",
       "keys": [
@@ -10738,7 +10738,7 @@
     },
     {
       "id": "era-16-magic-god-event-288-03",
-      "title": "事件｜第288源章｜3",
+      "title": "西娅进入普罗西亚，见到神圣火焰、卷轴和魔石贸易、螺旋高塔，并被多个研究组织争抢归类",
       "memo": "安西娅与魔法之神：事件（第288源章第3条）",
       "category": "event",
       "keys": [
@@ -10764,7 +10764,7 @@
     },
     {
       "id": "era-16-magic-god-event-288-04",
-      "title": "事件｜第288源章｜4",
+      "title": "无钱村民求雨时西娅用收成分成赊账妥协",
       "memo": "安西娅与魔法之神：事件（第288源章第4条）",
       "category": "event",
       "keys": [
@@ -10790,7 +10790,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-288-01",
-      "title": "世界设定事实｜第288源章｜1",
+      "title": "普罗西亚对外是一座城市，内部则被多个实力相当的区块和研究势力分治",
       "memo": "安西娅与魔法之神：世界设定事实（第288源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10815,7 +10815,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-288-02",
-      "title": "世界设定事实｜第288源章｜2",
+      "title": "普罗西亚有神圣火焰祈祷广场、卷轴产业、生命教团魔石运输和多个按理论争夺魔法师的组织",
       "memo": "安西娅与魔法之神：世界设定事实（第288源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10840,7 +10840,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-288-01",
-      "title": "新建立连续性｜第288源章｜1",
+      "title": "普罗西亚研究势力",
       "memo": "安西娅与魔法之神：新建立连续性（第288源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10865,7 +10865,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-288-02",
-      "title": "新建立连续性｜第288源章｜2",
+      "title": "天气魔法收费原则",
       "memo": "安西娅与魔法之神：新建立连续性（第288源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10890,7 +10890,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-288-03",
-      "title": "新建立连续性｜第288源章｜3",
+      "title": "赊账违约后果",
       "memo": "安西娅与魔法之神：新建立连续性（第288源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10915,7 +10915,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-288-01",
-      "title": "未解决事项｜第288源章｜1",
+      "title": "西娅如何处理罪疚和依赖",
       "memo": "安西娅与魔法之神：未解决事项（第288源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10941,7 +10941,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-288-01",
-      "title": "主角龙形态｜第288源章｜1",
+      "title": "主角龙形态｜为了年幼的魔法师.(3)｜作为安西娅秘密导师的无形声音蒂雅",
       "memo": "安西娅与魔法之神：主角龙形态（第288源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10969,7 +10969,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-288-01",
-      "title": "主角龙状态｜第288源章｜1",
+      "title": "主角龙状态｜为了年幼的魔法师.(3)｜开始把神与人能力差异、交换边界和违约后果教给西娅",
       "memo": "安西娅与魔法之神：主角龙状态（第288源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10995,7 +10995,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-288-01",
-      "title": "主角龙知识边界｜第288源章｜1",
+      "title": "主角龙知识边界｜为了年幼的魔法师.(3)｜能预判人类可能违约，但没有阻止西娅作出赊账选择",
       "memo": "安西娅与魔法之神：主角龙知识边界（第288源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11021,7 +11021,7 @@
     },
     {
       "id": "era-16-magic-god-event-289-01",
-      "title": "事件｜第289源章｜1",
+      "title": "成年安西娅成为著名天气魔法师，秘密掌握烈焰风暴和无形刀刃等多种魔法",
       "memo": "安西娅与魔法之神：事件（第289源章第1条）",
       "category": "event",
       "keys": [
@@ -11049,7 +11049,7 @@
     },
     {
       "id": "era-16-magic-god-event-289-02",
-      "title": "事件｜第289源章｜2",
+      "title": "长期降雨改变安西娅故乡环境，保护父母与村庄",
       "memo": "安西娅与魔法之神：事件（第289源章第2条）",
       "category": "event",
       "keys": [
@@ -11077,7 +11077,7 @@
     },
     {
       "id": "era-16-magic-god-event-289-03",
-      "title": "事件｜第289源章｜3",
+      "title": "蒂雅因已强撑太久将沉睡数十年，委托安西娅把全部学习和修炼内容编成书后声音消失",
       "memo": "安西娅与魔法之神：事件（第289源章第3条）",
       "category": "event",
       "keys": [
@@ -11105,7 +11105,7 @@
     },
     {
       "id": "era-16-magic-god-event-289-04",
-      "title": "事件｜第289源章｜4",
+      "title": "后世两名未具名少女找到《西娅蒂雅基础魔法理论》",
       "memo": "安西娅与魔法之神：事件（第289源章第4条）",
       "category": "event",
       "keys": [
@@ -11133,7 +11133,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-289-01",
-      "title": "世界设定事实｜第289源章｜1",
+      "title": "同时代魔法师通常只能本能使用有限魔法",
       "memo": "安西娅与魔法之神：世界设定事实（第289源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11161,7 +11161,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-289-02",
-      "title": "世界设定事实｜第289源章｜2",
+      "title": "《西娅蒂雅基础魔法理论》成为后世诸多理论根基，但被视为过时且效率低",
       "memo": "安西娅与魔法之神：世界设定事实（第289源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11189,7 +11189,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-289-01",
-      "title": "新建立连续性｜第289源章｜1",
+      "title": "《西娅蒂雅基础魔法理论》",
       "memo": "安西娅与魔法之神：新建立连续性（第289源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11217,7 +11217,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-289-02",
-      "title": "新建立连续性｜第289源章｜2",
+      "title": "蒂雅长眠",
       "memo": "安西娅与魔法之神：新建立连续性（第289源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11243,7 +11243,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-289-03",
-      "title": "新建立连续性｜第289源章｜3",
+      "title": "后世两名未具名少女",
       "memo": "安西娅与魔法之神：新建立连续性（第289源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11268,7 +11268,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-289-01",
-      "title": "未解决事项｜第289源章｜1",
+      "title": "安西娅能否独立完成书",
       "memo": "安西娅与魔法之神：未解决事项（第289源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11295,7 +11295,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-289-02",
-      "title": "未解决事项｜第289源章｜2",
+      "title": "困倦少女身份",
       "memo": "安西娅与魔法之神：未解决事项（第289源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11320,7 +11320,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-289-01",
-      "title": "主角龙形态｜第289源章｜1",
+      "title": "主角龙形态｜为了年幼的魔法师.(4)｜成年安西娅仍只能听见的蒂雅声音",
       "memo": "安西娅与魔法之神：主角龙形态（第289源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11348,7 +11348,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-289-01",
-      "title": "主角龙状态｜第289源章｜1",
+      "title": "主角龙状态｜为了年幼的魔法师.(4)｜长期强撑清醒后进入预计数十年的沉睡",
       "memo": "安西娅与魔法之神：主角龙状态（第289源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11373,7 +11373,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-289-01",
-      "title": "主角龙知识边界｜第289源章｜1",
+      "title": "主角龙知识边界｜为了年幼的魔法师.(4)｜只说明自己已到极限，没有在安西娅面前透露神明或龙的身份",
       "memo": "安西娅与魔法之神：主角龙知识边界（第289源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11400,7 +11400,7 @@
     },
     {
       "id": "era-16-magic-god-event-290-01",
-      "title": "事件｜第290源章｜1",
+      "title": "蒂雅离开后安西娅一度无法进食行动",
       "memo": "安西娅与魔法之神：事件（第290源章第1条）",
       "category": "event",
       "keys": [
@@ -11428,7 +11428,7 @@
     },
     {
       "id": "era-16-magic-god-event-290-02",
-      "title": "事件｜第290源章｜2",
+      "title": "后世两名未具名少女讨论体内魔力感知和骑士、魔法师不同的魔力循环位置与效率",
       "memo": "安西娅与魔法之神：事件（第290源章第2条）",
       "category": "event",
       "keys": [
@@ -11453,7 +11453,7 @@
     },
     {
       "id": "era-16-magic-god-event-290-03",
-      "title": "事件｜第290源章｜3",
+      "title": "安西娅无法确认书是否正确，决定以实际教授一名约十岁且魔力充沛的孩子验证",
       "memo": "安西娅与魔法之神：事件（第290源章第3条）",
       "category": "event",
       "keys": [
@@ -11480,7 +11480,7 @@
     },
     {
       "id": "era-16-magic-god-event-290-04",
-      "title": "事件｜第290源章｜4",
+      "title": "寻找弟子引起轰动，但成年申请者均因年龄被拒",
       "memo": "安西娅与魔法之神：事件（第290源章第4条）",
       "category": "event",
       "keys": [
@@ -11505,7 +11505,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-290-01",
-      "title": "世界设定事实｜第290源章｜1",
+      "title": "魔法师通常在心脏附近借血液循环储魔",
       "memo": "安西娅与魔法之神：世界设定事实（第290源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11530,7 +11530,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-290-02",
-      "title": "世界设定事实｜第290源章｜2",
+      "title": "安西娅认为验证自身训练法需要约十岁且魔力充沛的孩子，而非已有体系的成年魔法师",
       "memo": "安西娅与魔法之神：世界设定事实（第290源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11557,7 +11557,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-290-01",
-      "title": "新建立连续性｜第290源章｜1",
+      "title": "安西娅编书",
       "memo": "安西娅与魔法之神：新建立连续性（第290源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11584,7 +11584,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-290-02",
-      "title": "新建立连续性｜第290源章｜2",
+      "title": "弟子验证计划",
       "memo": "安西娅与魔法之神：新建立连续性（第290源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11609,7 +11609,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-290-03",
-      "title": "新建立连续性｜第290源章｜3",
+      "title": "罗马尼亚皇室邀请",
       "memo": "安西娅与魔法之神：新建立连续性（第290源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11634,7 +11634,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-290-01",
-      "title": "未解决事项｜第290源章｜1",
+      "title": "书能否被他人学会",
       "memo": "安西娅与魔法之神：未解决事项（第290源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11659,7 +11659,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-290-02",
-      "title": "未解决事项｜第290源章｜2",
+      "title": "适龄弟子在哪里",
       "memo": "安西娅与魔法之神：未解决事项（第290源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11684,7 +11684,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-290-01",
-      "title": "主角龙形态｜第290源章｜1",
+      "title": "主角龙形态｜魔法基础.(1)｜已沉睡、完全不再传来声音的蒂雅",
       "memo": "安西娅与魔法之神：主角龙形态（第290源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11712,7 +11712,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-290-01",
-      "title": "主角龙状态｜第290源章｜1",
+      "title": "主角龙状态｜魔法基础.(1)｜缺席",
       "memo": "安西娅与魔法之神：主角龙状态（第290源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11737,7 +11737,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-290-01",
-      "title": "主角龙知识边界｜第290源章｜1",
+      "title": "主角龙知识边界｜魔法基础.(1)｜安西娅不知道蒂雅是否预料到自己的崩溃，也无法从她处确认书的正误",
       "memo": "安西娅与魔法之神：主角龙知识边界（第290源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11765,7 +11765,7 @@
     },
     {
       "id": "era-16-magic-god-event-291-01",
-      "title": "事件｜第291源章｜1",
+      "title": "罗马尼亚邀请安西娅为尤利乌斯百岁庆典控制天气",
       "memo": "安西娅与魔法之神：事件（第291源章第1条）",
       "category": "event",
       "keys": [
@@ -11794,7 +11794,7 @@
     },
     {
       "id": "era-16-magic-god-event-291-02",
-      "title": "事件｜第291源章｜2",
+      "title": "后世两名未具名少女讨论环系、结晶、绳索储魔，以及外界魔力路线威力高但童年控制门槛极高",
       "memo": "安西娅与魔法之神：事件（第291源章第2条）",
       "category": "event",
       "keys": [
@@ -11819,7 +11819,7 @@
     },
     {
       "id": "era-16-magic-god-event-291-03",
-      "title": "事件｜第291源章｜3",
+      "title": "旅途中安西娅感到地底有温柔巨力，越接近天狼星越强",
       "memo": "安西娅与魔法之神：事件（第291源章第3条）",
       "category": "event",
       "keys": [
@@ -11846,7 +11846,7 @@
     },
     {
       "id": "era-16-magic-god-event-291-04",
-      "title": "事件｜第291源章｜4",
+      "title": "百岁尤利乌斯仍显年轻",
       "memo": "安西娅与魔法之神：事件（第291源章第4条）",
       "category": "event",
       "keys": [
@@ -11874,7 +11874,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-291-01",
-      "title": "世界设定事实｜第291源章｜1",
+      "title": "魔法环以包裹心脏的环数分级",
       "memo": "安西娅与魔法之神：世界设定事实（第291源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11899,7 +11899,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-291-02",
-      "title": "世界设定事实｜第291源章｜2",
+      "title": "天狼星三重城墙被传为剑皇夺位时大地崛起相助",
       "memo": "安西娅与魔法之神：世界设定事实（第291源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11924,7 +11924,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-291-01",
-      "title": "新建立连续性｜第291源章｜1",
+      "title": "尤利乌斯百岁庆典",
       "memo": "安西娅与魔法之神：新建立连续性（第291源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11950,7 +11950,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-291-02",
-      "title": "新建立连续性｜第291源章｜2",
+      "title": "地底温柔巨力",
       "memo": "安西娅与魔法之神：新建立连续性（第291源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11975,7 +11975,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-291-03",
-      "title": "新建立连续性｜第291源章｜3",
+      "title": "后世眼镜少女选择环系路线",
       "memo": "安西娅与魔法之神：新建立连续性（第291源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12000,7 +12000,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-291-01",
-      "title": "未解决事项｜第291源章｜1",
+      "title": "力量源头",
       "memo": "安西娅与魔法之神：未解决事项（第291源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12025,7 +12025,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-291-02",
-      "title": "未解决事项｜第291源章｜2",
+      "title": "安西娅将遇见谁",
       "memo": "安西娅与魔法之神：未解决事项（第291源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12052,7 +12052,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-291-01",
-      "title": "主角龙形态｜第291源章｜1",
+      "title": "主角龙形态｜魔法基础.(2)｜沉睡且无声的蒂雅",
       "memo": "安西娅与魔法之神：主角龙形态（第291源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12080,7 +12080,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-291-01",
-      "title": "主角龙状态｜第291源章｜1",
+      "title": "主角龙状态｜魔法基础.(2)｜缺席",
       "memo": "安西娅与魔法之神：主角龙状态（第291源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12105,7 +12105,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-291-01",
-      "title": "主角龙知识边界｜第291源章｜1",
+      "title": "主角龙知识边界｜魔法基础.(2)｜安西娅不知道地底力量来源，也未把它确定为蒂雅",
       "memo": "安西娅与魔法之神：主角龙知识边界（第291源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12133,7 +12133,7 @@
     },
     {
       "id": "era-16-magic-god-event-292-01",
-      "title": "事件｜第292源章｜1",
+      "title": "安西娅在皇城花园石屋发现温柔女性石像，直觉叫出蒂雅",
       "memo": "安西娅与魔法之神：事件（第292源章第1条）",
       "category": "event",
       "keys": [
@@ -12161,7 +12161,7 @@
     },
     {
       "id": "era-16-magic-god-event-292-02",
-      "title": "事件｜第292源章｜2",
+      "title": "一名完全避开安西娅感知的岩甲男子阻止她触碰石像，自称比外表年长的骑士卢克和皇室远亲",
       "memo": "安西娅与魔法之神：事件（第292源章第2条）",
       "category": "event",
       "keys": [
@@ -12189,7 +12189,7 @@
     },
     {
       "id": "era-16-magic-god-event-292-03",
-      "title": "事件｜第292源章｜3",
+      "title": "卢克说安西娅像妹妹",
       "memo": "安西娅与魔法之神：事件（第292源章第3条）",
       "category": "event",
       "keys": [
@@ -12217,7 +12217,7 @@
     },
     {
       "id": "era-16-magic-god-event-292-04",
-      "title": "事件｜第292源章｜4",
+      "title": "卢克说石像是所爱之人，她在表白后离开",
       "memo": "安西娅与魔法之神：事件（第292源章第4条）",
       "category": "event",
       "keys": [
@@ -12243,7 +12243,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-292-01",
-      "title": "世界设定事实｜第292源章｜1",
+      "title": "石像像井与楔子，从地底汲取巨量魔力并扩散至罗马尼亚全境",
       "memo": "安西娅与魔法之神：世界设定事实（第292源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12270,7 +12270,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-292-02",
-      "title": "世界设定事实｜第292源章｜2",
+      "title": "卢克所述：石像并非储存魔力，而是引出属于她的力量",
       "memo": "安西娅与魔法之神：世界设定事实（第292源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12296,7 +12296,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-292-01",
-      "title": "新建立连续性｜第292源章｜1",
+      "title": "盖亚石像小屋",
       "memo": "安西娅与魔法之神：新建立连续性（第292源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12321,7 +12321,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-292-02",
-      "title": "新建立连续性｜第292源章｜2",
+      "title": "自称卢克的古老骑士",
       "memo": "安西娅与魔法之神：新建立连续性（第292源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12347,7 +12347,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-292-03",
-      "title": "新建立连续性｜第292源章｜3",
+      "title": "石像力量来源线索",
       "memo": "安西娅与魔法之神：新建立连续性（第292源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12372,7 +12372,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-292-01",
-      "title": "未解决事项｜第292源章｜1",
+      "title": "石像与蒂雅关系",
       "memo": "安西娅与魔法之神：未解决事项（第292源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12398,7 +12398,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-292-02",
-      "title": "未解决事项｜第292源章｜2",
+      "title": "卢克真实身份",
       "memo": "安西娅与魔法之神：未解决事项（第292源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12424,7 +12424,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-292-01",
-      "title": "主角龙形态｜第292源章｜1",
+      "title": "主角龙形态｜魔法基础.(3)｜蒂雅本体仍沉睡缺席",
       "memo": "安西娅与魔法之神：主角龙形态（第292源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12452,7 +12452,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-292-01",
-      "title": "主角龙状态｜第292源章｜1",
+      "title": "主角龙状态｜魔法基础.(3)｜以石像为枢纽的力量持续流遍罗马尼亚",
       "memo": "安西娅与魔法之神：主角龙状态（第292源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12477,7 +12477,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-292-01",
-      "title": "主角龙知识边界｜第292源章｜1",
+      "title": "主角龙知识边界｜魔法基础.(3)｜安西娅从未见过蒂雅外貌，只能认为相似感是不可能的错觉",
       "memo": "安西娅与魔法之神：主角龙知识边界（第292源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12506,7 +12506,7 @@
     },
     {
       "id": "era-16-magic-god-event-293-01",
-      "title": "事件｜第293源章｜1",
+      "title": "卢克判断石像所描绘者非人类，可能是滞留世间的神盖亚",
       "memo": "安西娅与魔法之神：事件（第293源章第1条）",
       "category": "event",
       "keys": [
@@ -12532,7 +12532,7 @@
     },
     {
       "id": "era-16-magic-god-event-293-02",
-      "title": "事件｜第293源章｜2",
+      "title": "卢克根据记录和自身研究推测盖亚是大地之母、生命女神的另一面，并明确承认没有确凿证据",
       "memo": "安西娅与魔法之神：事件（第293源章第2条）",
       "category": "event",
       "keys": [
@@ -12558,7 +12558,7 @@
     },
     {
       "id": "era-16-magic-god-event-293-03",
-      "title": "事件｜第293源章｜3",
+      "title": "安西娅向卢克讲述蒂雅声音",
       "memo": "安西娅与魔法之神：事件（第293源章第3条）",
       "category": "event",
       "keys": [
@@ -12588,7 +12588,7 @@
     },
     {
       "id": "era-16-magic-god-event-293-04",
-      "title": "事件｜第293源章｜4",
+      "title": "后世困倦少女教眼镜少女构筑魔法环",
       "memo": "安西娅与魔法之神：事件（第293源章第4条）",
       "category": "event",
       "keys": [
@@ -12613,7 +12613,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-293-01",
-      "title": "世界设定事实｜第293源章｜1",
+      "title": "卢克所述的盖亚没有神殿、祭司或信仰，是大地之母",
       "memo": "安西娅与魔法之神：世界设定事实（第293源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12639,7 +12639,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-293-02",
-      "title": "世界设定事实｜第293源章｜2",
+      "title": "莱特基尼亚与兽人口传：被称蒂雅的提亚马特龙族巫女或为生命女神借巫女姿态现身",
       "memo": "安西娅与魔法之神：世界设定事实（第293源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12666,7 +12666,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-293-03",
-      "title": "世界设定事实｜第293源章｜3",
+      "title": "个人魔力具有独特波形、颜色与频率，可通过施法残留追踪施术者",
       "memo": "安西娅与魔法之神：世界设定事实（第293源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12691,7 +12691,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-293-01",
-      "title": "新建立连续性｜第293源章｜1",
+      "title": "盖亚与生命女神关系推测",
       "memo": "安西娅与魔法之神：新建立连续性（第293源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12716,7 +12716,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-293-02",
-      "title": "新建立连续性｜第293源章｜2",
+      "title": "提亚马特口传",
       "memo": "安西娅与魔法之神：新建立连续性（第293源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12741,7 +12741,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-293-03",
-      "title": "新建立连续性｜第293源章｜3",
+      "title": "困倦少女被魔力追踪的秘密",
       "memo": "安西娅与魔法之神：新建立连续性（第293源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12766,7 +12766,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-293-01",
-      "title": "未解决事项｜第293源章｜1",
+      "title": "蒂雅真实身份何时向安西娅确认",
       "memo": "安西娅与魔法之神：未解决事项（第293源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12794,7 +12794,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-293-02",
-      "title": "未解决事项｜第293源章｜2",
+      "title": "追踪困倦少女者是谁",
       "memo": "安西娅与魔法之神：未解决事项（第293源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12819,7 +12819,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-293-01",
-      "title": "主角龙形态｜第293源章｜1",
+      "title": "主角龙形态｜魔法基础.(4)｜沉睡中的蒂雅未现身",
       "memo": "安西娅与魔法之神：主角龙形态（第293源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12846,7 +12846,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-293-01",
-      "title": "主角龙状态｜第293源章｜1",
+      "title": "主角龙状态｜魔法基础.(4)｜仍在沉睡，安西娅只能从他人研究推测其身份",
       "memo": "安西娅与魔法之神：主角龙状态（第293源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12873,7 +12873,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-293-01",
-      "title": "主角龙知识边界｜第293源章｜1",
+      "title": "主角龙知识边界｜魔法基础.(4)｜不得把卢克的盖亚结论",
       "memo": "安西娅与魔法之神：主角龙知识边界（第293源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12902,7 +12902,7 @@
     },
     {
       "id": "era-16-magic-god-event-294-01",
-      "title": "事件｜第294源章｜1",
+      "title": "安西娅担心蒂雅醒来前自己会死",
       "memo": "安西娅与魔法之神：事件（第294源章第1条）",
       "category": "event",
       "keys": [
@@ -12931,7 +12931,7 @@
     },
     {
       "id": "era-16-magic-god-event-294-02",
-      "title": "事件｜第294源章｜2",
+      "title": "后世眼镜少女成功形成魔法环和基础元素转换",
       "memo": "安西娅与魔法之神：事件（第294源章第2条）",
       "category": "event",
       "keys": [
@@ -12956,7 +12956,7 @@
     },
     {
       "id": "era-16-magic-god-event-294-03",
-      "title": "事件｜第294源章｜3",
+      "title": "卢克以不朽之冠研究为例，说明无方向性的魔力可随意志转化为生命力",
       "memo": "安西娅与魔法之神：事件（第294源章第3条）",
       "category": "event",
       "keys": [
@@ -12984,7 +12984,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-294-01",
-      "title": "世界设定事实｜第294源章｜1",
+      "title": "咒语是凝聚意志并把魔力优化为特定形态的专用语言",
       "memo": "安西娅与魔法之神：世界设定事实（第294源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13009,7 +13009,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-294-02",
-      "title": "世界设定事实｜第294源章｜2",
+      "title": "不朽之冠可最大化生命力并延寿",
       "memo": "安西娅与魔法之神：世界设定事实（第294源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13034,7 +13034,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-294-01",
-      "title": "新建立连续性｜第294源章｜1",
+      "title": "魔力转生命力",
       "memo": "安西娅与魔法之神：新建立连续性（第294源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13059,7 +13059,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-294-02",
-      "title": "新建立连续性｜第294源章｜2",
+      "title": "不朽之冠延寿原理",
       "memo": "安西娅与魔法之神：新建立连续性（第294源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13084,7 +13084,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-294-03",
-      "title": "新建立连续性｜第294源章｜3",
+      "title": "卢克十年联系约定",
       "memo": "安西娅与魔法之神：新建立连续性（第294源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13110,7 +13110,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-294-01",
-      "title": "未解决事项｜第294源章｜1",
+      "title": "安西娅能否延寿到蒂雅醒来",
       "memo": "安西娅与魔法之神：未解决事项（第294源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13138,7 +13138,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-294-01",
-      "title": "主角龙形态｜第294源章｜1",
+      "title": "主角龙形态｜魔法基础.(5)｜仍沉睡、未出现的蒂雅",
       "memo": "安西娅与魔法之神：主角龙形态（第294源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13166,7 +13166,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-294-01",
-      "title": "主角龙状态｜第294源章｜1",
+      "title": "主角龙状态｜魔法基础.(5)｜缺席",
       "memo": "安西娅与魔法之神：主角龙状态（第294源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13191,7 +13191,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-294-01",
-      "title": "主角龙知识边界｜第294源章｜1",
+      "title": "主角龙知识边界｜魔法基础.(5)｜安西娅和卢克仍只推测蒂雅与盖亚可能同一，未获本人确认",
       "memo": "安西娅与魔法之神：主角龙知识边界（第294源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13220,7 +13220,7 @@
     },
     {
       "id": "era-16-magic-god-event-295-01",
-      "title": "事件｜第295源章｜1",
+      "title": "与卢克分别后，安西娅剥离既有魔法用途，从多种族用法推导魔力是随意志变化的可能性",
       "memo": "安西娅与魔法之神：事件（第295源章第1条）",
       "category": "event",
       "keys": [
@@ -13248,7 +13248,7 @@
     },
     {
       "id": "era-16-magic-god-event-295-02",
-      "title": "事件｜第295源章｜2",
+      "title": "安西娅进入被生命教团排斥的奴隶市场，以三枚银币买下十岁以下、黑发瘦弱且无名的女孩",
       "memo": "安西娅与魔法之神：事件（第295源章第2条）",
       "category": "event",
       "keys": [
@@ -13275,7 +13275,7 @@
     },
     {
       "id": "era-16-magic-god-event-295-03",
-      "title": "事件｜第295源章｜3",
+      "title": "时间跳转后，获名塞西尔的女孩已成为安西娅弟子并照料师父生活",
       "memo": "安西娅与魔法之神：事件（第295源章第3条）",
       "category": "event",
       "keys": [
@@ -13303,7 +13303,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-295-01",
-      "title": "世界设定事实｜第295源章｜1",
+      "title": "天狼星存在受生命教团平等生命教义排斥的隐蔽奴隶市场",
       "memo": "安西娅与魔法之神：世界设定事实（第295源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13328,7 +13328,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-295-02",
-      "title": "世界设定事实｜第295源章｜2",
+      "title": "奴隶市场包含由北方抓捕、异种族幻想交易等商户",
       "memo": "安西娅与魔法之神：世界设定事实（第295源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13353,7 +13353,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-295-01",
-      "title": "新建立连续性｜第295源章｜1",
+      "title": "塞西尔",
       "memo": "安西娅与魔法之神：新建立连续性（第295源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13379,7 +13379,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-295-02",
-      "title": "新建立连续性｜第295源章｜2",
+      "title": "人工创造魔法资质思路",
       "memo": "安西娅与魔法之神：新建立连续性（第295源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13404,7 +13404,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-295-03",
-      "title": "新建立连续性｜第295源章｜3",
+      "title": "安西娅收徒同居",
       "memo": "安西娅与魔法之神：新建立连续性（第295源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13431,7 +13431,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-295-01",
-      "title": "未解决事项｜第295源章｜1",
+      "title": "塞西尔能否成为魔法师",
       "memo": "安西娅与魔法之神：未解决事项（第295源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13457,7 +13457,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-295-01",
-      "title": "主角龙形态｜第295源章｜1",
+      "title": "主角龙形态｜魔法师的弟子.(1)｜沉睡中的蒂雅未出现",
       "memo": "安西娅与魔法之神：主角龙形态（第295源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13485,7 +13485,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-295-01",
-      "title": "主角龙状态｜第295源章｜1",
+      "title": "主角龙状态｜魔法师的弟子.(1)｜缺席",
       "memo": "安西娅与魔法之神：主角龙状态（第295源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13510,7 +13510,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-295-01",
-      "title": "主角龙知识边界｜第295源章｜1",
+      "title": "主角龙知识边界｜魔法师的弟子.(1)｜安西娅因不愿亵渎可能是蒂雅的生命女神而放弃创造新生命的念头",
       "memo": "安西娅与魔法之神：主角龙知识边界（第295源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13538,7 +13538,7 @@
     },
     {
       "id": "era-16-magic-god-event-296-01",
-      "title": "事件｜第296源章｜1",
+      "title": "普罗西亚质疑零魔力奴隶女孩能否成为法师",
       "memo": "安西娅与魔法之神：事件（第296源章第1条）",
       "category": "event",
       "keys": [
@@ -13566,7 +13566,7 @@
     },
     {
       "id": "era-16-magic-god-event-296-02",
-      "title": "事件｜第296源章｜2",
+      "title": "师徒共同生活、讨论研究",
       "memo": "安西娅与魔法之神：事件（第296源章第2条）",
       "category": "event",
       "keys": [
@@ -13594,7 +13594,7 @@
     },
     {
       "id": "era-16-magic-god-event-296-03",
-      "title": "事件｜第296源章｜3",
+      "title": "第六年，十六岁塞西尔召来小型骤雨",
       "memo": "安西娅与魔法之神：事件（第296源章第3条）",
       "category": "event",
       "keys": [
@@ -13623,7 +13623,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-296-01",
-      "title": "世界设定事实｜第296源章｜1",
+      "title": "普罗西亚因天生法师稀少长期人口不足，国力停留在城邦规模",
       "memo": "安西娅与魔法之神：世界设定事实（第296源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13648,7 +13648,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-296-02",
-      "title": "世界设定事实｜第296源章｜2",
+      "title": "零魔力出身的塞西尔在六年训练后能召唤小型骤雨，作为可重复培养的实证",
       "memo": "安西娅与魔法之神：世界设定事实（第296源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13674,7 +13674,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-296-01",
-      "title": "新建立连续性｜第296源章｜1",
+      "title": "塞西尔成为魔法师",
       "memo": "安西娅与魔法之神：新建立连续性（第296源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13700,7 +13700,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-296-02",
-      "title": "新建立连续性｜第296源章｜2",
+      "title": "《西娅蒂雅基础魔法理论》定名",
       "memo": "安西娅与魔法之神：新建立连续性（第296源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13728,7 +13728,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-296-01",
-      "title": "未解决事项｜第296源章｜1",
+      "title": "普罗西亚是否接受理论",
       "memo": "安西娅与魔法之神：未解决事项（第296源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13753,7 +13753,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-296-01",
-      "title": "主角龙形态｜第296源章｜1",
+      "title": "主角龙形态｜魔法师的弟子.(2)｜沉睡中、只存在于师徒叙述和书名中的蒂雅",
       "memo": "安西娅与魔法之神：主角龙形态（第296源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13779,7 +13779,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-296-01",
-      "title": "主角龙状态｜第296源章｜1",
+      "title": "主角龙状态｜魔法师的弟子.(2)｜缺席",
       "memo": "安西娅与魔法之神：主角龙状态（第296源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13804,7 +13804,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-296-01",
-      "title": "主角龙知识边界｜第296源章｜1",
+      "title": "主角龙知识边界｜魔法师的弟子.(2)｜塞西尔只知道蒂雅是安西娅未曾见面，只能听见声音的姐姐兼导师",
       "memo": "安西娅与魔法之神：主角龙知识边界（第296源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13833,7 +13833,7 @@
     },
     {
       "id": "era-16-magic-god-event-297-01",
-      "title": "事件｜第297源章｜1",
+      "title": "基础理论出版后售罄并被手抄，普罗西亚传统法师或反对或验证",
       "memo": "安西娅与魔法之神：事件（第297源章第1条）",
       "category": "event",
       "keys": [
@@ -13861,7 +13861,7 @@
     },
     {
       "id": "era-16-magic-god-event-297-02",
-      "title": "事件｜第297源章｜2",
+      "title": "完成目标后安西娅想隐居，把对外事务交给塞西尔，并以自然魔力效率说明弟子已接近长老级",
       "memo": "安西娅与魔法之神：事件（第297源章第2条）",
       "category": "event",
       "keys": [
@@ -13889,7 +13889,7 @@
     },
     {
       "id": "era-16-magic-god-event-297-03",
-      "title": "事件｜第297源章｜3",
+      "title": "后世史述称安西娅引发原始魔法变革、催生各学派",
       "memo": "安西娅与魔法之神：事件（第297源章第3条）",
       "category": "event",
       "keys": [
@@ -13917,7 +13917,7 @@
     },
     {
       "id": "era-16-magic-god-event-297-04",
-      "title": "事件｜第297源章｜4",
+      "title": "蒂雅在万神殿神殿中提前醒来，确认只沉睡十四年，立即用LD查看安西娅，却见她躺在书堆里",
       "memo": "安西娅与魔法之神：事件（第297源章第4条）",
       "category": "event",
       "keys": [
@@ -13945,7 +13945,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-297-01",
-      "title": "世界设定事实｜第297源章｜1",
+      "title": "《西娅蒂雅基础魔法理论》通过木板印刷和手抄传播",
       "memo": "安西娅与魔法之神：世界设定事实（第297源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13973,7 +13973,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-297-02",
-      "title": "世界设定事实｜第297源章｜2",
+      "title": "后世认为该书催生多种学派",
       "memo": "安西娅与魔法之神：世界设定事实（第297源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13998,7 +13998,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-297-01",
-      "title": "新建立连续性｜第297源章｜1",
+      "title": "理论出版后的学派化",
       "memo": "安西娅与魔法之神：新建立连续性（第297源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14023,7 +14023,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-297-02",
-      "title": "新建立连续性｜第297源章｜2",
+      "title": "塞西尔未来史",
       "memo": "安西娅与魔法之神：新建立连续性（第297源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14049,7 +14049,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-297-03",
-      "title": "新建立连续性｜第297源章｜3",
+      "title": "蒂雅十四年后醒来",
       "memo": "安西娅与魔法之神：新建立连续性（第297源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14075,7 +14075,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-297-01",
-      "title": "未解决事项｜第297源章｜1",
+      "title": "蒂雅如何评价成果",
       "memo": "安西娅与魔法之神：未解决事项（第297源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14101,7 +14101,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-297-02",
-      "title": "未解决事项｜第297源章｜2",
+      "title": "安西娅是否听到呼唤",
       "memo": "安西娅与魔法之神：未解决事项（第297源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14128,7 +14128,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-297-01",
-      "title": "主角龙形态｜第297源章｜1",
+      "title": "主角龙形态｜魔法师的弟子.(3)｜万神殿中生命女神神殿卧室内醒来的蒂雅本体，未向人间显形",
       "memo": "安西娅与魔法之神：主角龙形态（第297源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14156,7 +14156,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-297-01",
-      "title": "主角龙状态｜第297源章｜1",
+      "title": "主角龙状态｜魔法师的弟子.(3)｜沉睡十四年后提前苏醒，仍有些困",
       "memo": "安西娅与魔法之神：主角龙状态（第297源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14181,7 +14181,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-297-01",
-      "title": "主角龙知识边界｜第297源章｜1",
+      "title": "主角龙知识边界｜魔法师的弟子.(3)｜刚醒时不知道安西娅，塞西尔和基础理论十四年间的经历",
       "memo": "安西娅与魔法之神：主角龙知识边界（第297源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14209,7 +14209,7 @@
     },
     {
       "id": "era-16-magic-god-event-298-01",
-      "title": "事件｜第298源章｜1",
+      "title": "安西娅先把蒂雅呼唤当成幻听",
       "memo": "安西娅与魔法之神：事件（第298源章第1条）",
       "category": "event",
       "keys": [
@@ -14237,7 +14237,7 @@
     },
     {
       "id": "era-16-magic-god-event-298-02",
-      "title": "事件｜第298源章｜2",
+      "title": "安西娅确认蒂雅提前苏醒后大哭，随后讲述十四年经历和完成书、收徒之事",
       "memo": "安西娅与魔法之神：事件（第298源章第2条）",
       "category": "event",
       "keys": [
@@ -14265,7 +14265,7 @@
     },
     {
       "id": "era-16-magic-god-event-298-03",
-      "title": "事件｜第298源章｜3",
+      "title": "塞西尔无法听见蒂雅而怀疑师父精神异常，但仍礼貌问候",
       "memo": "安西娅与魔法之神：事件（第298源章第3条）",
       "category": "event",
       "keys": [
@@ -14292,7 +14292,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-298-01",
-      "title": "世界设定事实｜第298源章｜1",
+      "title": "蒂雅观察塞西尔魔力不多但排列和控制极佳，能以少量自身魔力撬动自然魔力",
       "memo": "安西娅与魔法之神：世界设定事实（第298源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14321,7 +14321,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-298-01",
-      "title": "新建立连续性｜第298源章｜1",
+      "title": "蒂雅与安西娅重逢",
       "memo": "安西娅与魔法之神：新建立连续性（第298源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14349,7 +14349,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-298-02",
-      "title": "新建立连续性｜第298源章｜2",
+      "title": "蒂雅观察塞西尔",
       "memo": "安西娅与魔法之神：新建立连续性（第298源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14376,7 +14376,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-298-01",
-      "title": "未解决事项｜第298源章｜1",
+      "title": "蒂雅对书的正式评价",
       "memo": "安西娅与魔法之神：未解决事项（第298源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14402,7 +14402,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-298-02",
-      "title": "未解决事项｜第298源章｜2",
+      "title": "塞西尔何时相信声音存在",
       "memo": "安西娅与魔法之神：未解决事项（第298源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14428,7 +14428,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-298-01",
-      "title": "主角龙形态｜第298源章｜1",
+      "title": "主角龙形态｜魔法师的弟子.(4)｜万神殿中的生命女神本体通过LD发声，仍只有安西娅能听见",
       "memo": "安西娅与魔法之神：主角龙形态（第298源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14455,7 +14455,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-298-01",
-      "title": "主角龙状态｜第298源章｜1",
+      "title": "主角龙状态｜魔法师的弟子.(4)｜提前醒来后与安西娅重逢并认识塞西尔",
       "memo": "安西娅与魔法之神：主角龙状态（第298源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14483,7 +14483,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-298-01",
-      "title": "主角龙知识边界｜第298源章｜1",
+      "title": "主角龙知识边界｜魔法师的弟子.(4)｜无法直接读安西娅内心",
       "memo": "安西娅与魔法之神：主角龙知识边界（第298源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14510,7 +14510,7 @@
     },
     {
       "id": "era-16-magic-god-event-299-01",
-      "title": "事件｜第299源章｜1",
+      "title": "蒂雅确认书主干忠实，安西娅为普通学习者加入了经验注释与客观化修改",
       "memo": "安西娅与魔法之神：事件（第299源章第1条）",
       "category": "event",
       "keys": [
@@ -14539,7 +14539,7 @@
     },
     {
       "id": "era-16-magic-god-event-299-02",
-      "title": "事件｜第299源章｜2",
+      "title": "安西娅带蒂雅查看普罗西亚：法师人口增加，城市约扩张四倍，研究会组织正规化并开始建塔",
       "memo": "安西娅与魔法之神：事件（第299源章第2条）",
       "category": "event",
       "keys": [
@@ -14567,7 +14567,7 @@
     },
     {
       "id": "era-16-magic-god-event-299-03",
-      "title": "事件｜第299源章｜3",
+      "title": "安西娅拒绝研究会住塔邀请，因写书理解书籍价值，产生与塞西尔建立图书馆",
       "memo": "安西娅与魔法之神：事件（第299源章第3条）",
       "category": "event",
       "keys": [
@@ -14595,7 +14595,7 @@
     },
     {
       "id": "era-16-magic-god-event-299-04",
-      "title": "事件｜第299源章｜4",
+      "title": "蒂雅为完成写书任务许诺实现一个愿望",
       "memo": "安西娅与魔法之神：事件（第299源章第4条）",
       "category": "event",
       "keys": [
@@ -14623,7 +14623,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-299-01",
-      "title": "世界设定事实｜第299源章｜1",
+      "title": "基础理论传播令普罗西亚法师人口增长，城市规模约扩大四倍",
       "memo": "安西娅与魔法之神：世界设定事实（第299源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14648,7 +14648,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-299-02",
-      "title": "世界设定事实｜第299源章｜2",
+      "title": "安西娅与塞西尔形成收集世界所有书籍并建立图书馆的长期愿景",
       "memo": "安西娅与魔法之神：世界设定事实（第299源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14676,7 +14676,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-299-01",
-      "title": "新建立连续性｜第299源章｜1",
+      "title": "普罗西亚四倍扩张",
       "memo": "安西娅与魔法之神：新建立连续性（第299源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14701,7 +14701,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-299-02",
-      "title": "新建立连续性｜第299源章｜2",
+      "title": "大图书馆愿景",
       "memo": "安西娅与魔法之神：新建立连续性（第299源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14726,7 +14726,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-299-03",
-      "title": "新建立连续性｜第299源章｜3",
+      "title": "安西娅直接追问身份",
       "memo": "安西娅与魔法之神：新建立连续性（第299源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14753,7 +14753,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-299-01",
-      "title": "未解决事项｜第299源章｜1",
+      "title": "蒂雅如何回答",
       "memo": "安西娅与魔法之神：未解决事项（第299源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14779,7 +14779,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-299-02",
-      "title": "未解决事项｜第299源章｜2",
+      "title": "安西娅愿望内容",
       "memo": "安西娅与魔法之神：未解决事项（第299源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14806,7 +14806,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-299-01",
-      "title": "主角龙形态｜第299源章｜1",
+      "title": "主角龙形态｜变革之风.(1)｜生命女神本体通过LD陪伴安西娅巡视",
       "memo": "安西娅与魔法之神：主角龙形态（第299源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14833,7 +14833,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-299-01",
-      "title": "主角龙状态｜第299源章｜1",
+      "title": "主角龙状态｜变革之风.(1)｜评估安西娅成果并许诺一个可随时兑现的愿望",
       "memo": "安西娅与魔法之神：主角龙状态（第299源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14860,7 +14860,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-299-01",
-      "title": "主角龙知识边界｜第299源章｜1",
+      "title": "主角龙知识边界｜变革之风.(1)｜尚未回答生命女神身份问题",
       "memo": "安西娅与魔法之神：主角龙知识边界（第299源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14887,7 +14887,7 @@
     },
     {
       "id": "era-16-magic-god-event-300-01",
-      "title": "事件｜第300源章｜1",
+      "title": "安西娅陈述在天狼星从卢克处获得的盖亚线索",
       "memo": "安西娅与魔法之神：事件（第300源章第1条）",
       "category": "event",
       "keys": [
@@ -14917,7 +14917,7 @@
     },
     {
       "id": "era-16-magic-god-event-300-02",
-      "title": "事件｜第300源章｜2",
+      "title": "安西娅把提亚马特传闻，盖亚特性，蒂雅知识和睡眠习性组合为生命女神推论",
       "memo": "安西娅与魔法之神：事件（第300源章第2条）",
       "category": "event",
       "keys": [
@@ -14945,7 +14945,7 @@
     },
     {
       "id": "era-16-magic-god-event-300-03",
-      "title": "事件｜第300源章｜3",
+      "title": "蒂雅无法读取安西娅内心，但因她完成心愿且真诚追问，决定开口",
       "memo": "安西娅与魔法之神：事件（第300源章第3条）",
       "category": "event",
       "keys": [
@@ -14973,7 +14973,7 @@
     },
     {
       "id": "era-16-magic-god-event-300-04",
-      "title": "事件｜第300源章｜4",
+      "title": "后世野史对安西娅去向有隐退、研究、建图书馆或成神等说法",
       "memo": "安西娅与魔法之神：事件（第300源章第4条）",
       "category": "event",
       "keys": [
@@ -15000,7 +15000,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-300-01",
-      "title": "世界设定事实｜第300源章｜1",
+      "title": "关于安西娅最终去向的后世记载互相冲突",
       "memo": "安西娅与魔法之神：世界设定事实（第300源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15027,7 +15027,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-300-01",
-      "title": "新建立连续性｜第300源章｜1",
+      "title": "蒂雅确认卢克为亚瑟",
       "memo": "安西娅与魔法之神：新建立连续性（第300源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15055,7 +15055,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-300-02",
-      "title": "新建立连续性｜第300源章｜2",
+      "title": "安西娅坚持身份真相",
       "memo": "安西娅与魔法之神：新建立连续性（第300源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15082,7 +15082,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-300-03",
-      "title": "新建立连续性｜第300源章｜3",
+      "title": "后世去向争议",
       "memo": "安西娅与魔法之神：新建立连续性（第300源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15107,7 +15107,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-300-01",
-      "title": "未解决事项｜第300源章｜1",
+      "title": "蒂雅完整回答",
       "memo": "安西娅与魔法之神：未解决事项（第300源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15133,7 +15133,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-300-02",
-      "title": "未解决事项｜第300源章｜2",
+      "title": "亚瑟延寿机制是否与安西娅相同",
       "memo": "安西娅与魔法之神：未解决事项（第300源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15161,7 +15161,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-300-01",
-      "title": "主角龙形态｜第300源章｜1",
+      "title": "主角龙形态｜变革之风.(2)｜以声音面对安西娅的生命女神本体",
       "memo": "安西娅与魔法之神：主角龙形态（第300源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15188,7 +15188,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-300-01",
-      "title": "主角龙状态｜第300源章｜1",
+      "title": "主角龙状态｜变革之风.(2)｜准备亲口公开真实身份",
       "memo": "安西娅与魔法之神：主角龙状态（第300源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15213,7 +15213,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-300-01",
-      "title": "主角龙知识边界｜第300源章｜1",
+      "title": "主角龙知识边界｜变革之风.(2)｜蒂雅确认卢克就是亚瑟并确认自己曾用提亚马特身份",
       "memo": "安西娅与魔法之神：主角龙知识边界（第300源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15243,7 +15243,7 @@
     },
     {
       "id": "era-16-magic-god-event-301-01",
-      "title": "事件｜第301源章｜1",
+      "title": "蒂雅因不愿背叛安西娅信任，亲口确认自己是生命女神，创世龙神，大地之母",
       "memo": "安西娅与魔法之神：事件（第301源章第1条）",
       "category": "event",
       "keys": [
@@ -15271,7 +15271,7 @@
     },
     {
       "id": "era-16-magic-god-event-301-02",
-      "title": "事件｜第301源章｜2",
+      "title": "安西娅接受答案并同意为其保密",
       "memo": "安西娅与魔法之神：事件（第301源章第2条）",
       "category": "event",
       "keys": [
@@ -15299,7 +15299,7 @@
     },
     {
       "id": "era-16-magic-god-event-301-03",
-      "title": "事件｜第301源章｜3",
+      "title": "二人判断基础理论已形成无法阻挡的跨种族变革之风，传统天生法师特权将被可学习魔法取代",
       "memo": "安西娅与魔法之神：事件（第301源章第3条）",
       "category": "event",
       "keys": [
@@ -15324,7 +15324,7 @@
     },
     {
       "id": "era-16-magic-god-event-301-04",
-      "title": "事件｜第301源章｜4",
+      "title": "安西娅请求蒂雅与亚瑟见面",
       "memo": "安西娅与魔法之神：事件（第301源章第4条）",
       "category": "event",
       "keys": [
@@ -15353,7 +15353,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-301-01",
-      "title": "世界设定事实｜第301源章｜1",
+      "title": "蒂雅本人确认，她是生命女神，创世龙神，大地之母，冥界天堂万神殿创造者，古代众神之母",
       "memo": "安西娅与魔法之神：世界设定事实（第301源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -15379,7 +15379,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-301-02",
-      "title": "世界设定事实｜第301源章｜2",
+      "title": "蒂雅本人确认本体为美丽银色巨龙",
       "memo": "安西娅与魔法之神：世界设定事实（第301源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -15405,7 +15405,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-301-03",
-      "title": "世界设定事实｜第301源章｜3",
+      "title": "基础理论不仅在普罗西亚传播，也流入罗马尼亚并可能沿贸易路线传到其他种族",
       "memo": "安西娅与魔法之神：世界设定事实（第301源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -15430,7 +15430,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-301-01",
-      "title": "新建立连续性｜第301源章｜1",
+      "title": "蒂雅完整身份本人确认",
       "memo": "安西娅与魔法之神：新建立连续性（第301源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15456,7 +15456,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-301-02",
-      "title": "新建立连续性｜第301源章｜2",
+      "title": "银色巨龙本体确认",
       "memo": "安西娅与魔法之神：新建立连续性（第301源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15481,7 +15481,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-301-03",
-      "title": "新建立连续性｜第301源章｜3",
+      "title": "与亚瑟会面约定",
       "memo": "安西娅与魔法之神：新建立连续性（第301源章第3条）",
       "category": "continuity",
       "keys": [
@@ -15507,7 +15507,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-301-01",
-      "title": "未解决事项｜第301源章｜1",
+      "title": "会面结果",
       "memo": "安西娅与魔法之神：未解决事项（第301源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15532,7 +15532,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-301-02",
-      "title": "未解决事项｜第301源章｜2",
+      "title": "安西娅万能愿望尚未使用",
       "memo": "安西娅与魔法之神：未解决事项（第301源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15559,7 +15559,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-301-01",
-      "title": "主角龙形态｜第301源章｜1",
+      "title": "主角龙形态｜变革之风.(3)｜万神殿中的银色巨龙本体，以只有安西娅能听见的声音陪伴",
       "memo": "安西娅与魔法之神：主角龙形态（第301源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15586,7 +15586,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-301-01",
-      "title": "主角龙状态｜第301源章｜1",
+      "title": "主角龙状态｜变革之风.(3)｜向安西娅公开多重神格并同意通过她与亚瑟见面",
       "memo": "安西娅与魔法之神：主角龙状态（第301源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15614,7 +15614,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-301-01",
-      "title": "主角龙知识边界｜第301源章｜1",
+      "title": "主角龙知识边界｜变革之风.(3)｜仍不知道亚瑟延寿的完整经历和见面诉求",
       "memo": "安西娅与魔法之神：主角龙知识边界（第301源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15642,7 +15642,7 @@
     },
     {
       "id": "era-16-magic-god-event-302-01",
-      "title": "事件｜第302源章｜1",
+      "title": "蒂雅观察安西娅完成责任后把事务交给塞西尔、整日读书",
       "memo": "安西娅与魔法之神：事件（第302源章第1条）",
       "category": "event",
       "keys": [
@@ -15671,7 +15671,7 @@
     },
     {
       "id": "era-16-magic-god-event-302-02",
-      "title": "事件｜第302源章｜2",
+      "title": "数月后亚瑟收到信立刻来访",
       "memo": "安西娅与魔法之神：事件（第302源章第2条）",
       "category": "event",
       "keys": [
@@ -15700,7 +15700,7 @@
     },
     {
       "id": "era-16-magic-god-event-302-03",
-      "title": "事件｜第302源章｜3",
+      "title": "蒂雅与亚瑟互相争抢离别责任，安西娅强行裁定各担一半并禁止继续自责",
       "memo": "安西娅与魔法之神：事件（第302源章第3条）",
       "category": "event",
       "keys": [
@@ -15729,7 +15729,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-302-01",
-      "title": "新建立连续性｜第302源章｜1",
+      "title": "蒂雅亚瑟重逢",
       "memo": "安西娅与魔法之神：新建立连续性（第302源章第1条）",
       "category": "continuity",
       "keys": [
@@ -15756,7 +15756,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-302-02",
-      "title": "新建立连续性｜第302源章｜2",
+      "title": "安西娅传声角色",
       "memo": "安西娅与魔法之神：新建立连续性（第302源章第2条）",
       "category": "continuity",
       "keys": [
@@ -15783,7 +15783,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-302-01",
-      "title": "未解决事项｜第302源章｜1",
+      "title": "亚瑟多年经历",
       "memo": "安西娅与魔法之神：未解决事项（第302源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -15809,7 +15809,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-302-02",
-      "title": "未解决事项｜第302源章｜2",
+      "title": "为何保持年轻",
       "memo": "安西娅与魔法之神：未解决事项（第302源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -15834,7 +15834,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-302-01",
-      "title": "主角龙形态｜第302源章｜1",
+      "title": "主角龙形态｜重逢.(1)｜万神殿中的蒂雅本体，仅通过安西娅向亚瑟传声",
       "memo": "安西娅与魔法之神：主角龙形态（第302源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15863,7 +15863,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-302-01",
-      "title": "主角龙状态｜第302源章｜1",
+      "title": "主角龙状态｜重逢.(1)｜与亚瑟完成数十年后的首次重逢",
       "memo": "安西娅与魔法之神：主角龙状态（第302源章第1条）",
       "category": "character-state",
       "keys": [
@@ -15889,7 +15889,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-302-01",
-      "title": "主角龙知识边界｜第302源章｜1",
+      "title": "主角龙知识边界｜重逢.(1)｜安西娅仍不知道亚瑟完整皇帝身份",
       "memo": "安西娅与魔法之神：主角龙知识边界（第302源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -15918,7 +15918,7 @@
     },
     {
       "id": "era-16-magic-god-event-303-01",
-      "title": "事件｜第303源章｜1",
+      "title": "亚瑟讲述薇薇一生、传位尤利乌斯和周游世界见闻",
       "memo": "安西娅与魔法之神：事件（第303源章第1条）",
       "category": "event",
       "keys": [
@@ -15947,7 +15947,7 @@
     },
     {
       "id": "era-16-magic-god-event-303-02",
-      "title": "事件｜第303源章｜2",
+      "title": "亚瑟承认盔甲由盖亚肉体剥落岩片打造",
       "memo": "安西娅与魔法之神：事件（第303源章第2条）",
       "category": "event",
       "keys": [
@@ -15976,7 +15976,7 @@
     },
     {
       "id": "era-16-magic-god-event-303-03",
-      "title": "事件｜第303源章｜3",
+      "title": "安西娅误以为生命女神亲自生育所有生命",
       "memo": "安西娅与魔法之神：事件（第303源章第3条）",
       "category": "event",
       "keys": [
@@ -16005,7 +16005,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-303-01",
-      "title": "世界设定事实｜第303源章｜1",
+      "title": "亚瑟周游见闻包括鲜血纳税且王后不老的小国，北方生命禁区雪原",
       "memo": "安西娅与魔法之神：世界设定事实（第303源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16031,7 +16031,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-303-02",
-      "title": "世界设定事实｜第303源章｜2",
+      "title": "盖亚旧肉体剥落岩片因长期受蒂雅魔力侵蚀，性质变为轻便、坚硬且金属难伤，可制盔甲",
       "memo": "安西娅与魔法之神：世界设定事实（第303源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16057,7 +16057,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-303-01",
-      "title": "新建立连续性｜第303源章｜1",
+      "title": "盖亚岩甲来源",
       "memo": "安西娅与魔法之神：新建立连续性（第303源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16082,7 +16082,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-303-02",
-      "title": "新建立连续性｜第303源章｜2",
+      "title": "亚瑟周游见闻",
       "memo": "安西娅与魔法之神：新建立连续性（第303源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16108,7 +16108,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-303-01",
-      "title": "未解决事项｜第303源章｜1",
+      "title": "鲜血国家与不老王后",
       "memo": "安西娅与魔法之神：未解决事项（第303源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16133,7 +16133,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-303-01",
-      "title": "主角龙形态｜第303源章｜1",
+      "title": "主角龙形态｜重逢.(2)｜声音形态与亚瑟交谈",
       "memo": "安西娅与魔法之神：主角龙形态（第303源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16159,7 +16159,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-303-01",
-      "title": "主角龙状态｜第303源章｜1",
+      "title": "主角龙状态｜重逢.(2)｜接受亚瑟保留盔甲但明确感到膈应",
       "memo": "安西娅与魔法之神：主角龙状态（第303源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16185,7 +16185,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-303-01",
-      "title": "主角龙知识边界｜第303源章｜1",
+      "title": "主角龙知识边界｜重逢.(2)｜蒂雅未亲自生育生命",
       "memo": "安西娅与魔法之神：主角龙知识边界（第303源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16214,7 +16214,7 @@
     },
     {
       "id": "era-16-magic-god-event-304-01",
-      "title": "事件｜第304源章｜1",
+      "title": "亚瑟确认蒂雅在万神殿后告辞，并公开准备以罗马尼亚祖先神信仰升格为神，以便随时见她",
       "memo": "安西娅与魔法之神：事件（第304源章第1条）",
       "category": "event",
       "keys": [
@@ -16241,7 +16241,7 @@
     },
     {
       "id": "era-16-magic-god-event-304-02",
-      "title": "事件｜第304源章｜2",
+      "title": "安西娅确认卢克就是前皇帝剑皇，并受亚瑟影响也想成神见蒂雅",
       "memo": "安西娅与魔法之神：事件（第304源章第2条）",
       "category": "event",
       "keys": [
@@ -16271,7 +16271,7 @@
     },
     {
       "id": "era-16-magic-god-event-304-03",
-      "title": "事件｜第304源章｜3",
+      "title": "安西娅提出使用愿望",
       "memo": "安西娅与魔法之神：事件（第304源章第3条）",
       "category": "event",
       "keys": [
@@ -16299,7 +16299,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-304-01",
-      "title": "世界设定事实｜第304源章｜1",
+      "title": "人类理论上可通过大量真诚信仰获得神性成神",
       "memo": "安西娅与魔法之神：世界设定事实（第304源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16326,7 +16326,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-304-02",
-      "title": "世界设定事实｜第304源章｜2",
+      "title": "由单一大神直接分享信仰而成神，会使新神高度依赖并成为其下级从属神",
       "memo": "安西娅与魔法之神：世界设定事实（第304源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16351,7 +16351,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-304-01",
-      "title": "新建立连续性｜第304源章｜1",
+      "title": "亚瑟成神计划",
       "memo": "安西娅与魔法之神：新建立连续性（第304源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16377,7 +16377,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-304-02",
-      "title": "新建立连续性｜第304源章｜2",
+      "title": "安西娅成神愿望",
       "memo": "安西娅与魔法之神：新建立连续性（第304源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16404,7 +16404,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-304-03",
-      "title": "新建立连续性｜第304源章｜3",
+      "title": "从属神代价",
       "memo": "安西娅与魔法之神：新建立连续性（第304源章第3条）",
       "category": "continuity",
       "keys": [
@@ -16429,7 +16429,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-304-01",
-      "title": "未解决事项｜第304源章｜1",
+      "title": "两人成神能否成功",
       "memo": "安西娅与魔法之神：未解决事项（第304源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16454,7 +16454,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-304-01",
-      "title": "主角龙形态｜第304源章｜1",
+      "title": "主角龙形态｜重逢.(3)｜声音形态送别亚瑟，作为生命女神评估成神",
       "memo": "安西娅与魔法之神：主角龙形态（第304源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16480,7 +16480,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-304-01",
-      "title": "主角龙状态｜第304源章｜1",
+      "title": "主角龙状态｜重逢.(3)｜接受亚瑟自主尝试，开始面对安西娅成神愿望",
       "memo": "安西娅与魔法之神：主角龙状态（第304源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16508,7 +16508,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-304-01",
-      "title": "主角龙知识边界｜第304源章｜1",
+      "title": "主角龙知识边界｜重逢.(3)｜不知道亚瑟准备内容",
       "memo": "安西娅与魔法之神：主角龙知识边界（第304源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16536,7 +16536,7 @@
     },
     {
       "id": "era-16-magic-god-event-305-01",
-      "title": "事件｜第305源章｜1",
+      "title": "阿谢拉特以规则、过往争议和信仰资源为由否决蒂雅直接封安西娅为神",
       "memo": "安西娅与魔法之神：事件（第305源章第1条）",
       "category": "event",
       "keys": [
@@ -16565,7 +16565,7 @@
     },
     {
       "id": "era-16-magic-god-event-305-02",
-      "title": "事件｜第305源章｜2",
+      "title": "蒂雅解释信仰、神性与从属神",
       "memo": "安西娅与魔法之神：事件（第305源章第2条）",
       "category": "event",
       "keys": [
@@ -16593,7 +16593,7 @@
     },
     {
       "id": "era-16-magic-god-event-305-03",
-      "title": "事件｜第305源章｜3",
+      "title": "安西娅改为让更多人主动向自己祈祷，并决定借基础理论这本书获得信仰",
       "memo": "安西娅与魔法之神：事件（第305源章第3条）",
       "category": "event",
       "keys": [
@@ -16620,7 +16620,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-305-01",
-      "title": "世界设定事实｜第305源章｜1",
+      "title": "神性由无数祈祷汇聚、使存在升华",
       "memo": "安西娅与魔法之神：世界设定事实（第305源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16645,7 +16645,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-305-01",
-      "title": "新建立连续性｜第305源章｜1",
+      "title": "阿谢拉特否决",
       "memo": "安西娅与魔法之神：新建立连续性（第305源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16671,7 +16671,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-305-02",
-      "title": "新建立连续性｜第305源章｜2",
+      "title": "安西娅书本获信仰方案",
       "memo": "安西娅与魔法之神：新建立连续性（第305源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16698,7 +16698,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-305-01",
-      "title": "未解决事项｜第305源章｜1",
+      "title": "如何让书中祈祷指向安西娅",
       "memo": "安西娅与魔法之神：未解决事项（第305源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -16725,7 +16725,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-305-01",
-      "title": "主角龙形态｜第305源章｜1",
+      "title": "主角龙形态｜魔法之神.(1)｜生命女神本体在万神殿咨询分灵，并以声音与安西娅讨论",
       "memo": "安西娅与魔法之神：主角龙形态（第305源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16752,7 +16752,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-305-01",
-      "title": "主角龙状态｜第305源章｜1",
+      "title": "主角龙状态｜魔法之神.(1)｜放弃直接封神，支持安西娅自主获信仰",
       "memo": "安西娅与魔法之神：主角龙状态（第305源章第1条）",
       "category": "character-state",
       "keys": [
@@ -16779,7 +16779,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-305-01",
-      "title": "主角龙知识边界｜第305源章｜1",
+      "title": "主角龙知识边界｜魔法之神.(1)｜尚不知道书本方案具体构造，也不确定自主成神能否成功",
       "memo": "安西娅与魔法之神：主角龙知识边界（第305源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -16804,7 +16804,7 @@
     },
     {
       "id": "era-16-magic-god-event-306-01",
-      "title": "事件｜第306源章｜1",
+      "title": "安西娅在修订版训练步骤中加入向魔法之神西娅蒂雅祈祷",
       "memo": "安西娅与魔法之神：事件（第306源章第1条）",
       "category": "event",
       "keys": [
@@ -16833,7 +16833,7 @@
     },
     {
       "id": "era-16-magic-god-event-306-02",
-      "title": "事件｜第306源章｜2",
+      "title": "后世困倦少女故意让眼镜少女使用无祈祷初版，因为信仰魔法之神可能迫使自己离开学院",
       "memo": "安西娅与魔法之神：事件（第306源章第2条）",
       "category": "event",
       "keys": [
@@ -16858,7 +16858,7 @@
     },
     {
       "id": "era-16-magic-god-event-306-03",
-      "title": "事件｜第306源章｜3",
+      "title": "修订版脱销并以手抄生产",
       "memo": "安西娅与魔法之神：事件（第306源章第3条）",
       "category": "event",
       "keys": [
@@ -16886,7 +16886,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-306-01",
-      "title": "世界设定事实｜第306源章｜1",
+      "title": "基础理论初版和修订版魔法内容相同，唯一关键差异是修订版加入向魔法之神祈祷",
       "memo": "安西娅与魔法之神：世界设定事实（第306源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -16911,7 +16911,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-306-02",
-      "title": "世界设定事实｜第306源章｜2",
+      "title": "修订版由抄写员手写，因原书缺货和安西娅声望迅速脱销",
       "memo": "安西娅与魔法之神：世界设定事实（第306源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -16938,7 +16938,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-306-01",
-      "title": "新建立连续性｜第306源章｜1",
+      "title": "魔法之神西娅蒂雅",
       "memo": "安西娅与魔法之神：新建立连续性（第306源章第1条）",
       "category": "continuity",
       "keys": [
@@ -16966,7 +16966,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-306-02",
-      "title": "新建立连续性｜第306源章｜2",
+      "title": "基础理论修订版",
       "memo": "安西娅与魔法之神：新建立连续性（第306源章第2条）",
       "category": "continuity",
       "keys": [
@@ -16991,7 +16991,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-306-03",
-      "title": "新建立连续性｜第306源章｜3",
+      "title": "困倦少女离院风险",
       "memo": "安西娅与魔法之神：新建立连续性（第306源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17016,7 +17016,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-306-01",
-      "title": "未解决事项｜第306源章｜1",
+      "title": "安西娅能否获得足量神性",
       "memo": "安西娅与魔法之神：未解决事项（第306源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17043,7 +17043,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-306-01",
-      "title": "主角龙形态｜第306源章｜1",
+      "title": "主角龙形态｜魔法之神.(2)｜蒂雅声音参与设计，祈祷对象西娅蒂雅由蒂雅与安西娅共同名字构成",
       "memo": "安西娅与魔法之神：主角龙形态（第306源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17072,7 +17072,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-306-01",
-      "title": "主角龙状态｜第306源章｜1",
+      "title": "主角龙状态｜魔法之神.(2)｜预计接受一半模糊指向的魔法之神信仰",
       "memo": "安西娅与魔法之神：主角龙状态（第306源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17097,7 +17097,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-306-01",
-      "title": "主角龙知识边界｜第306源章｜1",
+      "title": "主角龙知识边界｜魔法之神.(2)｜只推测信仰可能五五分流，尚未实测",
       "memo": "安西娅与魔法之神：主角龙知识边界（第306源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17122,7 +17122,7 @@
     },
     {
       "id": "era-16-magic-god-event-307-01",
-      "title": "事件｜第307源章｜1",
+      "title": "为满足修订版需求，蒂雅提出动作记忆自动书写，安西娅用魔石开发羽毛笔",
       "memo": "安西娅与魔法之神：事件（第307源章第1条）",
       "category": "event",
       "keys": [
@@ -17150,7 +17150,7 @@
     },
     {
       "id": "era-16-magic-god-event-307-02",
-      "title": "事件｜第307源章｜2",
+      "title": "书产量从每日两三本升至近百本，外传范围扩大",
       "memo": "安西娅与魔法之神：事件（第307源章第2条）",
       "category": "event",
       "keys": [
@@ -17177,7 +17177,7 @@
     },
     {
       "id": "era-16-magic-god-event-307-03",
-      "title": "事件｜第307源章｜3",
+      "title": "蒂雅看见安西娅体内形成足以成神的神性种子，却不愿用信仰摧毁其活体肉身",
       "memo": "安西娅与魔法之神：事件（第307源章第3条）",
       "category": "event",
       "keys": [
@@ -17205,7 +17205,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-307-01",
-      "title": "世界设定事实｜第307源章｜1",
+      "title": "动作记忆羽毛笔以魔石储存一页笔迹轨迹，需固定纸墨位置和注入魔力，无法修改已记录动作",
       "memo": "安西娅与魔法之神：世界设定事实（第307源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17230,7 +17230,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-307-02",
-      "title": "世界设定事实｜第307源章｜2",
+      "title": "魔法羽毛笔将书籍日产从两三本提升到近百本，使修订版外传普罗西亚",
       "memo": "安西娅与魔法之神：世界设定事实（第307源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17255,7 +17255,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-307-01",
-      "title": "新建立连续性｜第307源章｜1",
+      "title": "动作记忆羽毛笔",
       "memo": "安西娅与魔法之神：新建立连续性（第307源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17280,7 +17280,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-307-02",
-      "title": "新建立连续性｜第307源章｜2",
+      "title": "起始魔法师称号",
       "memo": "安西娅与魔法之神：新建立连续性（第307源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17305,7 +17305,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-307-03",
-      "title": "新建立连续性｜第307源章｜3",
+      "title": "安西娅神性种子",
       "memo": "安西娅与魔法之神：新建立连续性（第307源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17332,7 +17332,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-307-01",
-      "title": "未解决事项｜第307源章｜1",
+      "title": "活人如何无害成神",
       "memo": "安西娅与魔法之神：未解决事项（第307源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17357,7 +17357,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-307-01",
-      "title": "主角龙形态｜第307源章｜1",
+      "title": "主角龙形态｜魔法之神.(3)｜通过LD观察安西娅的生命女神本体",
       "memo": "安西娅与魔法之神：主角龙形态（第307源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17384,7 +17384,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-307-01",
-      "title": "主角龙状态｜第307源章｜1",
+      "title": "主角龙状态｜魔法之神.(3)｜发现神性种子但暂不推动肉体转化",
       "memo": "安西娅与魔法之神：主角龙状态（第307源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17409,7 +17409,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-307-01",
-      "title": "主角龙知识边界｜第307源章｜1",
+      "title": "主角龙知识边界｜魔法之神.(3)｜不确定活人神化会消灭、重构还是超越肉体，也不确定何者真正为安西娅好",
       "memo": "安西娅与魔法之神：主角龙知识边界（第307源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17436,7 +17436,7 @@
     },
     {
       "id": "era-16-magic-god-event-308-01",
-      "title": "事件｜第308源章｜1",
+      "title": "数月后安西娅信仰已超过普通下级神仍未成神",
       "memo": "安西娅与魔法之神：事件（第308源章第1条）",
       "category": "event",
       "keys": [
@@ -17464,7 +17464,7 @@
     },
     {
       "id": "era-16-magic-god-event-308-02",
-      "title": "事件｜第308源章｜2",
+      "title": "二人调查神、神性和信仰",
       "memo": "安西娅与魔法之神：事件（第308源章第2条）",
       "category": "event",
       "keys": [
@@ -17491,7 +17491,7 @@
     },
     {
       "id": "era-16-magic-god-event-308-03",
-      "title": "事件｜第308源章｜3",
+      "title": "蒂雅想起梅贝尔活体获神性",
       "memo": "安西娅与魔法之神：事件（第308源章第3条）",
       "category": "event",
       "keys": [
@@ -17521,7 +17521,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-308-01",
-      "title": "世界设定事实｜第308源章｜1",
+      "title": "安西娅体内已存在魔法之神西娅蒂雅神性且规模超过普通下级神，但肉体状态下无法感知",
       "memo": "安西娅与魔法之神：世界设定事实（第308源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17550,7 +17550,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-308-02",
-      "title": "世界设定事实｜第308源章｜2",
+      "title": "梅贝尔生前以鼠兽人直接信仰成为现人神，死后转为万神殿守护神",
       "memo": "安西娅与魔法之神：世界设定事实（第308源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17578,7 +17578,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-308-01",
-      "title": "新建立连续性｜第308源章｜1",
+      "title": "西娅蒂雅神性已足量",
       "memo": "安西娅与魔法之神：新建立连续性（第308源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17606,7 +17606,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-308-02",
-      "title": "新建立连续性｜第308源章｜2",
+      "title": "梅贝尔活体现人神对照",
       "memo": "安西娅与魔法之神：新建立连续性（第308源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17632,7 +17632,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-308-03",
-      "title": "新建立连续性｜第308源章｜3",
+      "title": "信仰指向不匹配",
       "memo": "安西娅与魔法之神：新建立连续性（第308源章第3条）",
       "category": "continuity",
       "keys": [
@@ -17657,7 +17657,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-308-01",
-      "title": "未解决事项｜第308源章｜1",
+      "title": "如何让安西娅使用神性",
       "memo": "安西娅与魔法之神：未解决事项（第308源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -17684,7 +17684,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-308-01",
-      "title": "主角龙形态｜第308源章｜1",
+      "title": "主角龙形态｜魔法之神.(4)｜生命女神本体以声音协助研究",
       "memo": "安西娅与魔法之神：主角龙形态（第308源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17709,7 +17709,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-308-01",
-      "title": "主角龙状态｜第308源章｜1",
+      "title": "主角龙状态｜魔法之神.(4)｜定位信仰名义与真实个体不匹配问题",
       "memo": "安西娅与魔法之神：主角龙状态（第308源章第1条）",
       "category": "character-state",
       "keys": [
@@ -17734,7 +17734,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-308-01",
-      "title": "主角龙知识边界｜第308源章｜1",
+      "title": "主角龙知识边界｜魔法之神.(4)｜仍不能确定名称修改是否足够，也未告诉安西娅终结肉体可能立即成神",
       "memo": "安西娅与魔法之神：主角龙知识边界（第308源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -17761,7 +17761,7 @@
     },
     {
       "id": "era-16-magic-god-event-309-01",
-      "title": "事件｜第309源章｜1",
+      "title": "蒂雅把安西娅与西娅蒂雅的不匹配比作权限问题，提出让灵魂暂时脱离人类肉体测试神性",
       "memo": "安西娅与魔法之神：事件（第309源章第1条）",
       "category": "event",
       "keys": [
@@ -17790,7 +17790,7 @@
     },
     {
       "id": "era-16-magic-god-event-309-02",
-      "title": "事件｜第309源章｜2",
+      "title": "后世训练手册记载魔力体灵魂出窍可提升亲和力，但有失去肉体或被元素精灵夺舍风险",
       "memo": "安西娅与魔法之神：事件（第309源章第2条）",
       "category": "event",
       "keys": [
@@ -17815,7 +17815,7 @@
     },
     {
       "id": "era-16-magic-god-event-309-03",
-      "title": "事件｜第309源章｜3",
+      "title": "安西娅在蒂雅指导下把灵魂转入魔力体，立刻感知并操控庞大信仰",
       "memo": "安西娅与魔法之神：事件（第309源章第3条）",
       "category": "event",
       "keys": [
@@ -17843,7 +17843,7 @@
     },
     {
       "id": "era-16-magic-god-event-309-04",
-      "title": "事件｜第309源章｜4",
+      "title": "灵魂回肉体后再次无法感知信仰",
       "memo": "安西娅与魔法之神：事件（第309源章第4条）",
       "category": "event",
       "keys": [
@@ -17872,7 +17872,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-309-01",
-      "title": "世界设定事实｜第309源章｜1",
+      "title": "魔力体灵魂出窍能提升魔力亲和，也有断连失控和野生元素精灵夺取空肉体风险",
       "memo": "安西娅与魔法之神：世界设定事实（第309源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -17897,7 +17897,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-309-02",
-      "title": "世界设定事实｜第309源章｜2",
+      "title": "神性与信仰依附灵魂",
       "memo": "安西娅与魔法之神：世界设定事实（第309源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -17924,7 +17924,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-309-01",
-      "title": "新建立连续性｜第309源章｜1",
+      "title": "安西娅魔力体",
       "memo": "安西娅与魔法之神：新建立连续性（第309源章第1条）",
       "category": "continuity",
       "keys": [
@@ -17951,7 +17951,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-309-02",
-      "title": "新建立连续性｜第309源章｜2",
+      "title": "神性依附灵魂",
       "memo": "安西娅与魔法之神：新建立连续性（第309源章第2条）",
       "category": "continuity",
       "keys": [
@@ -17976,7 +17976,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-309-03",
-      "title": "新建立连续性｜第309源章｜3",
+      "title": "肉体改造成神成功",
       "memo": "安西娅与魔法之神：新建立连续性（第309源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18001,7 +18001,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-309-01",
-      "title": "未解决事项｜第309源章｜1",
+      "title": "安西娅新神形态和神名",
       "memo": "安西娅与魔法之神：未解决事项（第309源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18028,7 +18028,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-309-01",
-      "title": "主角龙形态｜第309源章｜1",
+      "title": "主角龙形态｜魔法之神.(5)｜生命女神、冥界与灵魂专家，以声音监督安西娅实验并用微量神力击退风精灵",
       "memo": "安西娅与魔法之神：主角龙形态（第309源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18055,7 +18055,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-309-01",
-      "title": "主角龙状态｜第309源章｜1",
+      "title": "主角龙状态｜魔法之神.(5)｜找到肉体改造路径并见证其成功",
       "memo": "安西娅与魔法之神：主角龙状态（第309源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18080,7 +18080,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-309-01",
-      "title": "主角龙知识边界｜第309源章｜1",
+      "title": "主角龙知识边界｜魔法之神.(5)｜直到实验前仍不知道灵魂出窍是否能解决权限",
       "memo": "安西娅与魔法之神：主角龙知识边界（第309源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18105,7 +18105,7 @@
     },
     {
       "id": "era-16-magic-god-event-310-01",
-      "title": "事件｜第310源章｜1",
+      "title": "安西娅以左手实验成功后，循序把四肢和除心脑外的内脏改造成魔力与信仰交融的结构",
       "memo": "安西娅与魔法之神：事件（第310源章第1条）",
       "category": "event",
       "keys": [
@@ -18132,7 +18132,7 @@
     },
     {
       "id": "era-16-magic-god-event-310-02",
-      "title": "事件｜第310源章｜2",
+      "title": "她认为成神、帮助蒂雅比维持有限人类身份重要",
       "memo": "安西娅与魔法之神：事件（第310源章第2条）",
       "category": "event",
       "keys": [
@@ -18159,7 +18159,7 @@
     },
     {
       "id": "era-16-magic-god-event-310-03",
-      "title": "事件｜第310源章｜3",
+      "title": "安西娅把财产，书籍，版权，成就与魔力交给塞西尔，并请求抹去人名",
       "memo": "安西娅与魔法之神：事件（第310源章第3条）",
       "category": "event",
       "keys": [
@@ -18189,7 +18189,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-310-01",
-      "title": "世界设定事实｜第310源章｜1",
+      "title": "安西娅的成神肉体改造以魔力与信仰重构器官，过程循序进行，最后只剩心脏与大脑未替换",
       "memo": "安西娅与魔法之神：世界设定事实（第310源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18216,7 +18216,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-310-02",
-      "title": "世界设定事实｜第310源章｜2",
+      "title": "安西娅认为旧人名会使安西娅与西娅蒂雅身份不匹配，要求把历史成就和图书馆转给新神名",
       "memo": "安西娅与魔法之神：世界设定事实（第310源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18245,7 +18245,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-310-01",
-      "title": "新建立连续性｜第310源章｜1",
+      "title": "安西娅逐步舍弃人类肉体",
       "memo": "安西娅与魔法之神：新建立连续性（第310源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18272,7 +18272,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-310-02",
-      "title": "新建立连续性｜第310源章｜2",
+      "title": "塞西尔继承全部遗产",
       "memo": "安西娅与魔法之神：新建立连续性（第310源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18298,7 +18298,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-310-03",
-      "title": "新建立连续性｜第310源章｜3",
+      "title": "西娅蒂雅图书馆遗愿",
       "memo": "安西娅与魔法之神：新建立连续性（第310源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18326,7 +18326,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-310-01",
-      "title": "未解决事项｜第310源章｜1",
+      "title": "最终升格与登临万神殿",
       "memo": "安西娅与魔法之神：未解决事项（第310源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18351,7 +18351,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-310-01",
-      "title": "主角龙形态｜第310源章｜1",
+      "title": "主角龙形态｜西娅蒂雅.(1)｜万神殿中的生命女神本体，以声音陪伴安西娅改造",
       "memo": "安西娅与魔法之神：主角龙形态（第310源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18378,7 +18378,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-310-01",
-      "title": "主角龙状态｜第310源章｜1",
+      "title": "主角龙状态｜西娅蒂雅.(1)｜尊重安西娅完成成神前最后交接",
       "memo": "安西娅与魔法之神：主角龙状态（第310源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18405,7 +18405,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-310-01",
-      "title": "主角龙知识边界｜第310源章｜1",
+      "title": "主角龙知识边界｜西娅蒂雅.(1)｜她未向安西娅坦白自己曾是人类",
       "memo": "安西娅与魔法之神：主角龙知识边界（第310源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18433,7 +18433,7 @@
     },
     {
       "id": "era-16-magic-god-event-311-01",
-      "title": "事件｜第311源章｜1",
+      "title": "安西娅替换心脑并升格为魔法之神",
       "memo": "安西娅与魔法之神：事件（第311源章第1条）",
       "category": "event",
       "keys": [
@@ -18461,7 +18461,7 @@
     },
     {
       "id": "era-16-magic-god-event-311-02",
-      "title": "事件｜第311源章｜2",
+      "title": "后世困倦少女说明西娅蒂雅兼具魔法与知识神格，主动要求从《万神录》除名",
       "memo": "安西娅与魔法之神：事件（第311源章第2条）",
       "category": "event",
       "keys": [
@@ -18489,7 +18489,7 @@
     },
     {
       "id": "era-16-magic-god-event-311-03",
-      "title": "事件｜第311源章｜3",
+      "title": "西娅蒂雅请求暂住蒂雅神殿",
       "memo": "安西娅与魔法之神：事件（第311源章第3条）",
       "category": "event",
       "keys": [
@@ -18518,7 +18518,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-311-01",
-      "title": "世界设定事实｜第311源章｜1",
+      "title": "西娅蒂雅是知识与魔法之神，名字含知识之意",
       "memo": "安西娅与魔法之神：世界设定事实（第311源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18546,7 +18546,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-311-02",
-      "title": "世界设定事实｜第311源章｜2",
+      "title": "新神登临万神殿时由蒂雅开启天幕和彩虹桥，牵引其从地上升入云端",
       "memo": "安西娅与魔法之神：世界设定事实（第311源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18572,7 +18572,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-311-01",
-      "title": "新建立连续性｜第311源章｜1",
+      "title": "西娅蒂雅正式登神",
       "memo": "安西娅与魔法之神：新建立连续性（第311源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18600,7 +18600,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-311-02",
-      "title": "新建立连续性｜第311源章｜2",
+      "title": "蒂雅少女化身初见",
       "memo": "安西娅与魔法之神：新建立连续性（第311源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18626,7 +18626,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-311-03",
-      "title": "新建立连续性｜第311源章｜3",
+      "title": "临住生命女神神殿",
       "memo": "安西娅与魔法之神：新建立连续性（第311源章第3条）",
       "category": "continuity",
       "keys": [
@@ -18651,7 +18651,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-311-01",
-      "title": "未解决事项｜第311源章｜1",
+      "title": "西娅蒂雅自己的神殿",
       "memo": "安西娅与魔法之神：未解决事项（第311源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -18679,7 +18679,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-311-02",
-      "title": "未解决事项｜第311源章｜2",
+      "title": "困倦少女与魔法之神关系",
       "memo": "安西娅与魔法之神：未解决事项（第311源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -18704,7 +18704,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-311-01",
-      "title": "主角龙形态｜第311源章｜1",
+      "title": "主角龙形态｜西娅蒂雅.(2)｜蒂雅首次向西娅蒂雅显露可见少女化身",
       "memo": "安西娅与魔法之神：主角龙形态（第311源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18732,7 +18732,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-311-01",
-      "title": "主角龙状态｜第311源章｜1",
+      "title": "主角龙状态｜西娅蒂雅.(2)｜亲自引导新神登临，并让她临时入住自己的最高神神殿",
       "memo": "安西娅与魔法之神：主角龙状态（第311源章第1条）",
       "category": "character-state",
       "keys": [
@@ -18757,7 +18757,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-311-01",
-      "title": "主角龙知识边界｜第311源章｜1",
+      "title": "主角龙知识边界｜西娅蒂雅.(2)｜西娅蒂雅看到的是蒂雅少女化身而非银色巨龙本体",
       "memo": "安西娅与魔法之神：主角龙知识边界（第311源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -18785,7 +18785,7 @@
     },
     {
       "id": "era-16-magic-god-event-312-01",
-      "title": "事件｜第312源章｜1",
+      "title": "西娅蒂雅访问诸神、编写其知识历史，并把新神殿整座改为图书馆，仍长期占用蒂雅神殿房间",
       "memo": "安西娅与魔法之神：事件（第312源章第1条）",
       "category": "event",
       "keys": [
@@ -18813,7 +18813,7 @@
     },
     {
       "id": "era-16-magic-god-event-312-02",
-      "title": "事件｜第312源章｜2",
+      "title": "因诸神不使用图书馆，她向地上求知者开放梦中图书馆，入场费一本书",
       "memo": "安西娅与魔法之神：事件（第312源章第2条）",
       "category": "event",
       "keys": [
@@ -18838,7 +18838,7 @@
     },
     {
       "id": "era-16-magic-god-event-312-03",
-      "title": "事件｜第312源章｜3",
+      "title": "萨加玛塔质疑蒂雅偏爱人类新神，真正诉求却是希望母亲也关注孩子",
       "memo": "安西娅与魔法之神：事件（第312源章第3条）",
       "category": "event",
       "keys": [
@@ -18865,7 +18865,7 @@
     },
     {
       "id": "era-16-magic-god-event-312-04",
-      "title": "事件｜第312源章｜4",
+      "title": "萨加玛塔报告希尔芙反常未按年出现",
       "memo": "安西娅与魔法之神：事件（第312源章第4条）",
       "category": "event",
       "keys": [
@@ -18893,7 +18893,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-312-01",
-      "title": "世界设定事实｜第312源章｜1",
+      "title": "西娅蒂雅神殿被整体改造成保存诸神知识历史的图书馆",
       "memo": "安西娅与魔法之神：世界设定事实（第312源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -18921,7 +18921,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-312-02",
-      "title": "世界设定事实｜第312源章｜2",
+      "title": "梦中图书馆向地上求知者开放，入场需献一本书，筛选后以灰白意识形体在梦中阅读",
       "memo": "安西娅与魔法之神：世界设定事实（第312源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -18946,7 +18946,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-312-01",
-      "title": "新建立连续性｜第312源章｜1",
+      "title": "万神殿知识图书馆",
       "memo": "安西娅与魔法之神：新建立连续性（第312源章第1条）",
       "category": "continuity",
       "keys": [
@@ -18971,7 +18971,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-312-02",
-      "title": "新建立连续性｜第312源章｜2",
+      "title": "地上梦中读者",
       "memo": "安西娅与魔法之神：新建立连续性（第312源章第2条）",
       "category": "continuity",
       "keys": [
@@ -18996,7 +18996,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-312-03",
-      "title": "新建立连续性｜第312源章｜3",
+      "title": "希尔芙异常失联",
       "memo": "安西娅与魔法之神：新建立连续性（第312源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19022,7 +19022,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-312-01",
-      "title": "未解决事项｜第312源章｜1",
+      "title": "希尔芙状况",
       "memo": "安西娅与魔法之神：未解决事项（第312源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19048,7 +19048,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-312-02",
-      "title": "未解决事项｜第312源章｜2",
+      "title": "西娅蒂雅愿望",
       "memo": "安西娅与魔法之神：未解决事项（第312源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19076,7 +19076,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-312-01",
-      "title": "主角龙形态｜第312源章｜1",
+      "title": "主角龙形态｜西娅蒂雅.(3)｜万神殿少女化身的蒂雅，与西娅蒂雅和萨加玛塔直接相处",
       "memo": "安西娅与魔法之神：主角龙形态（第312源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19105,7 +19105,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-312-01",
-      "title": "主角龙状态｜第312源章｜1",
+      "title": "主角龙状态｜西娅蒂雅.(3)｜允许知识图书馆运作，并准备寻找失联的希尔芙",
       "memo": "安西娅与魔法之神：主角龙状态（第312源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19131,7 +19131,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-312-01",
-      "title": "主角龙知识边界｜第312源章｜1",
+      "title": "主角龙知识边界｜西娅蒂雅.(3)｜她不知道希尔芙为何停下周游",
       "memo": "安西娅与魔法之神：主角龙知识边界（第312源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19160,7 +19160,7 @@
     },
     {
       "id": "era-16-magic-god-event-313-01",
-      "title": "事件｜第313源章｜1",
+      "title": "蒂雅循风找到希尔芙，她正在强风悬崖训练多种有翼兽人",
       "memo": "安西娅与魔法之神：事件（第313源章第1条）",
       "category": "event",
       "keys": [
@@ -19187,7 +19187,7 @@
     },
     {
       "id": "era-16-magic-god-event-313-02",
-      "title": "事件｜第313源章｜2",
+      "title": "鸟人因天使目击传闻而渴望飞行，成为希尔芙首批信徒",
       "memo": "安西娅与魔法之神：事件（第313源章第2条）",
       "category": "event",
       "keys": [
@@ -19213,7 +19213,7 @@
     },
     {
       "id": "era-16-magic-god-event-313-03",
-      "title": "事件｜第313源章｜3",
+      "title": "蒂雅判断近人类体重和翅膀结构不能靠肉体飞行，提出用魔力减重、强化或借风神力量补足",
       "memo": "安西娅与魔法之神：事件（第313源章第3条）",
       "category": "event",
       "keys": [
@@ -19239,7 +19239,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-313-01",
-      "title": "世界设定事实｜第313源章｜1",
+      "title": "鸟人包含手臂化翼和背生翅膀等不同形态，羽色翼形各异，此时有翼但无法飞",
       "memo": "安西娅与魔法之神：世界设定事实（第313源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19264,7 +19264,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-313-02",
-      "title": "世界设定事实｜第313源章｜2",
+      "title": "少数人目击隐身天使后形成长翼人飞行传闻，促使鸟人萌生飞行愿望并信仰风神",
       "memo": "安西娅与魔法之神：世界设定事实（第313源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19289,7 +19289,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-313-01",
-      "title": "新建立连续性｜第313源章｜1",
+      "title": "希尔芙首批信徒",
       "memo": "安西娅与魔法之神：新建立连续性（第313源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19315,7 +19315,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-313-02",
-      "title": "新建立连续性｜第313源章｜2",
+      "title": "有翼兽人飞行愿望",
       "memo": "安西娅与魔法之神：新建立连续性（第313源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19340,7 +19340,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-313-03",
-      "title": "新建立连续性｜第313源章｜3",
+      "title": "天使目击传闻",
       "memo": "安西娅与魔法之神：新建立连续性（第313源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19365,7 +19365,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-313-01",
-      "title": "未解决事项｜第313源章｜1",
+      "title": "鸟人如何真正飞行",
       "memo": "安西娅与魔法之神：未解决事项（第313源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19390,7 +19390,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-313-01",
-      "title": "主角龙形态｜第313源章｜1",
+      "title": "主角龙形态｜有翼者种.(1)｜蒂雅以可见人形化身来到强风悬崖寻找希尔芙",
       "memo": "安西娅与魔法之神：主角龙形态（第313源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19417,7 +19417,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-313-01",
-      "title": "主角龙状态｜第313源章｜1",
+      "title": "主角龙状态｜有翼者种.(1)｜从寻找失联孩子转为共同设计鸟人飞行方法",
       "memo": "安西娅与魔法之神：主角龙状态（第313源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19442,7 +19442,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-313-01",
-      "title": "主角龙知识边界｜第313源章｜1",
+      "title": "主角龙知识边界｜有翼者种.(1)｜尚未验证魔力减重或风神借力哪种能成功，也不知道鸟人未来制度",
       "memo": "安西娅与魔法之神：主角龙知识边界（第313源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19467,7 +19467,7 @@
     },
     {
       "id": "era-16-magic-god-event-314-01",
-      "title": "事件｜第314源章｜1",
+      "title": "后世老鸟人教导幼鸟人：纯肉体无法飞行，必须向六翼风神祈祷借风",
       "memo": "安西娅与魔法之神：事件（第314源章第1条）",
       "category": "event",
       "keys": [
@@ -19492,7 +19492,7 @@
     },
     {
       "id": "era-16-magic-god-event-314-02",
-      "title": "事件｜第314源章｜2",
+      "title": "蒂雅把飞行方案改为信徒献信仰、希尔芙返还适量风力",
       "memo": "安西娅与魔法之神：事件（第314源章第2条）",
       "category": "event",
       "keys": [
@@ -19519,7 +19519,7 @@
     },
     {
       "id": "era-16-magic-god-event-314-03",
-      "title": "事件｜第314源章｜3",
+      "title": "希尔芙停止推人下崖，练习按体重和翼形分别供力",
       "memo": "安西娅与魔法之神：事件（第314源章第3条）",
       "category": "event",
       "keys": [
@@ -19545,7 +19545,7 @@
     },
     {
       "id": "era-16-magic-god-event-314-04",
-      "title": "事件｜第314源章｜4",
+      "title": "后世一名未具名勇者因队伍问题向鸟人求助",
       "memo": "安西娅与魔法之神：事件（第314源章第4条）",
       "category": "event",
       "keys": [
@@ -19571,7 +19571,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-314-01",
-      "title": "世界设定事实｜第314源章｜1",
+      "title": "成熟鸟人必须借风神庇佑或自行用魔力减重才能飞行",
       "memo": "安西娅与魔法之神：世界设定事实（第314源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19596,7 +19596,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-314-02",
-      "title": "世界设定事实｜第314源章｜2",
+      "title": "信徒献上信仰，神接受后实现愿望或借出力量，是最基础的神信关系循环",
       "memo": "安西娅与魔法之神：世界设定事实（第314源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19621,7 +19621,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-314-03",
-      "title": "世界设定事实｜第314源章｜3",
+      "title": "鸟人亦称佐伊族，人口少且不擅长大型战役，优势在箭术、飞行侦察、紧急运输与传令",
       "memo": "安西娅与魔法之神：世界设定事实（第314源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -19646,7 +19646,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-314-01",
-      "title": "新建立连续性｜第314源章｜1",
+      "title": "信仰借风飞行机制",
       "memo": "安西娅与魔法之神：新建立连续性（第314源章第1条）",
       "category": "continuity",
       "keys": [
@@ -19671,7 +19671,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-314-02",
-      "title": "新建立连续性｜第314源章｜2",
+      "title": "佐伊族名称",
       "memo": "安西娅与魔法之神：新建立连续性（第314源章第2条）",
       "category": "continuity",
       "keys": [
@@ -19696,7 +19696,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-314-03",
-      "title": "新建立连续性｜第314源章｜3",
+      "title": "未来勇者求助",
       "memo": "安西娅与魔法之神：新建立连续性（第314源章第3条）",
       "category": "continuity",
       "keys": [
@@ -19721,7 +19721,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-314-01",
-      "title": "未解决事项｜第314源章｜1",
+      "title": "首次飞行何时成功",
       "memo": "安西娅与魔法之神：未解决事项（第314源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -19746,7 +19746,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-314-02",
-      "title": "未解决事项｜第314源章｜2",
+      "title": "勇者队伍问题",
       "memo": "安西娅与魔法之神：未解决事项（第314源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -19771,7 +19771,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-314-01",
-      "title": "主角龙形态｜第314源章｜1",
+      "title": "主角龙形态｜有翼者种.(2)｜蒂雅人形化身在悬崖指导风神",
       "memo": "安西娅与魔法之神：主角龙形态（第314源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19797,7 +19797,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-314-01",
-      "title": "主角龙状态｜第314源章｜1",
+      "title": "主角龙状态｜有翼者种.(2)｜把鸟人训练方案改为希尔芙返还信仰之风",
       "memo": "安西娅与魔法之神：主角龙状态（第314源章第1条）",
       "category": "character-state",
       "keys": [
@@ -19823,7 +19823,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-314-01",
-      "title": "主角龙知识边界｜第314源章｜1",
+      "title": "主角龙知识边界｜有翼者种.(2)｜尚未出现首次成功飞行",
       "memo": "安西娅与魔法之神：主角龙知识边界（第314源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -19848,7 +19848,7 @@
     },
     {
       "id": "era-16-magic-god-event-315-01",
-      "title": "事件｜第315源章｜1",
+      "title": "后世观察记录指出鸟人强壮重骨，巨翼却在物理上不适合飞行",
       "memo": "安西娅与魔法之神：事件（第315源章第1条）",
       "category": "event",
       "keys": [
@@ -19873,7 +19873,7 @@
     },
     {
       "id": "era-16-magic-god-event-315-02",
-      "title": "事件｜第315源章｜2",
+      "title": "希尔芙首次把恰当风力借给鸟人成功起飞",
       "memo": "安西娅与魔法之神：事件（第315源章第2条）",
       "category": "event",
       "keys": [
@@ -19900,7 +19900,7 @@
     },
     {
       "id": "era-16-magic-god-event-315-03",
-      "title": "事件｜第315源章｜3",
+      "title": "鸟人在训练悬崖定居",
       "memo": "安西娅与魔法之神：事件（第315源章第3条）",
       "category": "event",
       "keys": [
@@ -19926,7 +19926,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-315-01",
-      "title": "世界设定事实｜第315源章｜1",
+      "title": "成年鸟人翼长约二至三米，强肌重骨使纯物理振翅不可能",
       "memo": "安西娅与魔法之神：世界设定事实（第315源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -19951,7 +19951,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-315-02",
-      "title": "世界设定事实｜第315源章｜2",
+      "title": "鸟人实际以翅膀裹挟希尔芙按个体供给的风，从地面获得升力",
       "memo": "安西娅与魔法之神：世界设定事实（第315源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -19977,7 +19977,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-315-03",
-      "title": "世界设定事实｜第315源章｜3",
+      "title": "首次飞行悬崖因残留浓厚希尔芙气息成为鸟人定居地和近似圣地",
       "memo": "安西娅与魔法之神：世界设定事实（第315源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -20003,7 +20003,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-315-01",
-      "title": "新建立连续性｜第315源章｜1",
+      "title": "鸟人首次飞行",
       "memo": "安西娅与魔法之神：新建立连续性（第315源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20028,7 +20028,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-315-02",
-      "title": "新建立连续性｜第315源章｜2",
+      "title": "希尔芙新神职方向",
       "memo": "安西娅与魔法之神：新建立连续性（第315源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20054,7 +20054,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-315-03",
-      "title": "新建立连续性｜第315源章｜3",
+      "title": "鸟人悬崖聚落",
       "memo": "安西娅与魔法之神：新建立连续性（第315源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20079,7 +20079,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-315-01",
-      "title": "未解决事项｜第315源章｜1",
+      "title": "鸟人与生命教团长期关系",
       "memo": "安西娅与魔法之神：未解决事项（第315源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20104,7 +20104,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-315-01",
-      "title": "主角龙形态｜第315源章｜1",
+      "title": "主角龙形态｜有翼者种.(3)｜蒂雅人形化身在鸟人圣地陪伴希尔芙",
       "memo": "安西娅与魔法之神：主角龙形态（第315源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20131,7 +20131,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-315-01",
-      "title": "主角龙状态｜第315源章｜1",
+      "title": "主角龙状态｜有翼者种.(3)｜确认飞行成功并安排族群长期生存路径",
       "memo": "安西娅与魔法之神：主角龙状态（第315源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20156,7 +20156,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-315-01",
-      "title": "主角龙知识边界｜第315源章｜1",
+      "title": "主角龙知识边界｜有翼者种.(3)｜不保证希尔芙未来信徒规模，只能指出飞行愿望的潜在普遍性",
       "memo": "安西娅与魔法之神：主角龙知识边界（第315源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20182,7 +20182,7 @@
     },
     {
       "id": "era-16-magic-god-event-316-01",
-      "title": "事件｜第316源章｜1",
+      "title": "鸟人依靠希尔芙之风开始生活，蒂雅向萨加玛塔报平安",
       "memo": "安西娅与魔法之神：事件（第316源章第1条）",
       "category": "event",
       "keys": [
@@ -20210,7 +20210,7 @@
     },
     {
       "id": "era-16-magic-god-event-316-02",
-      "title": "事件｜第316源章｜2",
+      "title": "蒂雅与阿谢拉特争执后获准冬眠，前提是只有非她不可的问题才可叫醒",
       "memo": "安西娅与魔法之神：事件（第316源章第2条）",
       "category": "event",
       "keys": [
@@ -20237,7 +20237,7 @@
     },
     {
       "id": "era-16-magic-god-event-316-03",
-      "title": "事件｜第316源章｜3",
+      "title": "冬眠仍保留约百分之一意识",
       "memo": "安西娅与魔法之神：事件（第316源章第3条）",
       "category": "event",
       "keys": [
@@ -20263,7 +20263,7 @@
     },
     {
       "id": "era-16-magic-god-event-316-04",
-      "title": "事件｜第316源章｜4",
+      "title": "后世困倦少女以讲述穿越勇者世界为奖励，促使眼镜少女备考，并维护与大叔约定的睡眠时间",
       "memo": "安西娅与魔法之神：事件（第316源章第4条）",
       "category": "event",
       "keys": [
@@ -20288,7 +20288,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-316-01",
-      "title": "世界设定事实｜第316源章｜1",
+      "title": "蒂雅冬眠时仍保留约百分之一意识，足以思考、观察西娅和浏览只有自己可见的异世界互联网",
       "memo": "安西娅与魔法之神：世界设定事实（第316源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -20315,7 +20315,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-316-02",
-      "title": "世界设定事实｜第316源章｜2",
+      "title": "异世界互联网窗口证明蒂雅与前世世界存在某种连接",
       "memo": "安西娅与魔法之神：世界设定事实（第316源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -20341,7 +20341,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-316-01",
-      "title": "新建立连续性｜第316源章｜1",
+      "title": "蒂雅百分之一睡眠意识",
       "memo": "安西娅与魔法之神：新建立连续性（第316源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20367,7 +20367,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-316-02",
-      "title": "新建立连续性｜第316源章｜2",
+      "title": "异世界互联网连接研究",
       "memo": "安西娅与魔法之神：新建立连续性（第316源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20392,7 +20392,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-316-03",
-      "title": "新建立连续性｜第316源章｜3",
+      "title": "紧急叫醒规则",
       "memo": "安西娅与魔法之神：新建立连续性（第316源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20417,7 +20417,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-316-01",
-      "title": "未解决事项｜第316源章｜1",
+      "title": "连接能否扩展为通道",
       "memo": "安西娅与魔法之神：未解决事项（第316源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20442,7 +20442,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-316-01",
-      "title": "主角龙形态｜第316源章｜1",
+      "title": "主角龙形态｜异世界.(1)｜万神殿神殿内准备冬眠的蒂雅本体",
       "memo": "安西娅与魔法之神：主角龙形态（第316源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20468,7 +20468,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-316-01",
-      "title": "主角龙状态｜第316源章｜1",
+      "title": "主角龙状态｜异世界.(1)｜开始以百年尺度冬眠并秘密研究异世界连接",
       "memo": "安西娅与魔法之神：主角龙状态（第316源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20493,7 +20493,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-316-01",
-      "title": "主角龙知识边界｜第316源章｜1",
+      "title": "主角龙知识边界｜异世界.(1)｜不知道连接为何存在、能否干涉或是否会因实验消失",
       "memo": "安西娅与魔法之神：主角龙知识边界（第316源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20518,7 +20518,7 @@
     },
     {
       "id": "era-16-magic-god-event-317-01",
-      "title": "事件｜第317源章｜1",
+      "title": "蒂雅确认跨世界连接真实存在且时空杂乱，数百年仅把蛛丝般连接强化到细钓鱼线",
       "memo": "安西娅与魔法之神：事件（第317源章第1条）",
       "category": "event",
       "keys": [
@@ -20544,7 +20544,7 @@
     },
     {
       "id": "era-16-magic-god-event-317-02",
-      "title": "事件｜第317源章｜2",
+      "title": "一名未具名异世界黑发男子因车祸穿越，与犬耳少女生活",
       "memo": "安西娅与魔法之神：事件（第317源章第2条）",
       "category": "event",
       "keys": [
@@ -20569,7 +20569,7 @@
     },
     {
       "id": "era-16-magic-god-event-317-03",
-      "title": "事件｜第317源章｜3",
+      "title": "蒂雅约三百年后醒来，在自己万神殿神殿门外看到岩甲亚瑟",
       "memo": "安西娅与魔法之神：事件（第317源章第3条）",
       "category": "event",
       "keys": [
@@ -20596,7 +20596,7 @@
     },
     {
       "id": "era-16-magic-god-event-317-04",
-      "title": "事件｜第317源章｜4",
+      "title": "亚瑟通过伪装死亡、匿名救灾斩怪又离去积累祖先英雄信仰",
       "memo": "安西娅与魔法之神：事件（第317源章第4条）",
       "category": "event",
       "keys": [
@@ -20623,7 +20623,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-317-01",
-      "title": "世界设定事实｜第317源章｜1",
+      "title": "跨世界连接的时间空间排列杂乱，三百年左右只能从蛛丝级强化至细钓鱼线级",
       "memo": "安西娅与魔法之神：世界设定事实（第317源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -20648,7 +20648,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-317-02",
-      "title": "世界设定事实｜第317源章｜2",
+      "title": "生命教团对异世界穿越者每月体检并发放节制使用即可维生的生活费",
       "memo": "安西娅与魔法之神：世界设定事实（第317源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -20673,7 +20673,7 @@
     },
     {
       "id": "era-16-magic-god-world-fact-317-03",
-      "title": "世界设定事实｜第317源章｜3",
+      "title": "亚瑟活着隐匿，让世人以为已死，再用岩甲匿名救灾斩怪",
       "memo": "安西娅与魔法之神：世界设定事实（第317源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -20699,7 +20699,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-317-01",
-      "title": "新建立连续性｜第317源章｜1",
+      "title": "三百年时间跳转",
       "memo": "安西娅与魔法之神：新建立连续性（第317源章第1条）",
       "category": "continuity",
       "keys": [
@@ -20724,7 +20724,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-317-02",
-      "title": "新建立连续性｜第317源章｜2",
+      "title": "亚瑟成神",
       "memo": "安西娅与魔法之神：新建立连续性（第317源章第2条）",
       "category": "continuity",
       "keys": [
@@ -20750,7 +20750,7 @@
     },
     {
       "id": "era-16-magic-god-continuity-new-317-03",
-      "title": "新建立连续性｜第317源章｜3",
+      "title": "生命教团穿越者保障",
       "memo": "安西娅与魔法之神：新建立连续性（第317源章第3条）",
       "category": "continuity",
       "keys": [
@@ -20775,7 +20775,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-317-01",
-      "title": "未解决事项｜第317源章｜1",
+      "title": "异世界连接最终用途",
       "memo": "安西娅与魔法之神：未解决事项（第317源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -20800,7 +20800,7 @@
     },
     {
       "id": "era-16-magic-god-unresolved-317-02",
-      "title": "未解决事项｜第317源章｜2",
+      "title": "亚瑟神格与万神殿生活",
       "memo": "安西娅与魔法之神：未解决事项（第317源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -20826,7 +20826,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-form-317-01",
-      "title": "主角龙形态｜第317源章｜1",
+      "title": "主角龙形态｜异世界.(2)｜蒂雅在万神殿完成约三百年冬眠后以少女化身醒来",
       "memo": "安西娅与魔法之神：主角龙形态（第317源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20852,7 +20852,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-state-317-01",
-      "title": "主角龙状态｜第317源章｜1",
+      "title": "主角龙状态｜异世界.(2)｜异世界连接略被强化，并确认亚瑟已成为神",
       "memo": "安西娅与魔法之神：主角龙状态（第317源章第1条）",
       "category": "character-state",
       "keys": [
@@ -20878,7 +20878,7 @@
     },
     {
       "id": "era-16-magic-god-protagonist-knowledge-317-01",
-      "title": "主角龙知识边界｜第317源章｜1",
+      "title": "主角龙知识边界｜异世界.(2)｜尚不知道亚瑟具体神格，神殿与三百年全部经历",
       "memo": "安西娅与魔法之神：主角龙知识边界（第317源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -20904,7 +20904,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-01",
-      "title": "次要人物｜阿谢拉特",
+      "title": "阿谢拉特",
       "memo": "安西娅与魔法之神：次要人物 阿谢拉特",
       "category": "secondary-character",
       "keys": [
@@ -20942,7 +20942,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-02",
-      "title": "次要人物｜萨加玛塔",
+      "title": "萨加玛塔",
       "memo": "安西娅与魔法之神：次要人物 萨加玛塔",
       "category": "secondary-character",
       "keys": [
@@ -20980,7 +20980,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-03",
-      "title": "次要人物｜世界树",
+      "title": "世界树",
       "memo": "安西娅与魔法之神：次要人物 世界树",
       "category": "secondary-character",
       "keys": [
@@ -21012,7 +21012,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-04",
-      "title": "次要人物｜皇家骑士团长",
+      "title": "皇家骑士团长",
       "memo": "安西娅与魔法之神：次要人物 皇家骑士团长",
       "category": "secondary-character",
       "keys": [
@@ -21038,7 +21038,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-05",
-      "title": "次要人物｜水之精灵",
+      "title": "水之精灵",
       "memo": "安西娅与魔法之神：次要人物 水之精灵",
       "category": "secondary-character",
       "keys": [
@@ -21064,7 +21064,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-06",
-      "title": "次要人物｜未具名异世界男子",
+      "title": "未具名异世界男子",
       "memo": "安西娅与魔法之神：次要人物 未具名异世界男子",
       "category": "secondary-character",
       "keys": [
@@ -21090,7 +21090,7 @@
     },
     {
       "id": "era-16-magic-god-secondary-character-07",
-      "title": "次要人物｜未具名勇者",
+      "title": "未具名勇者",
       "memo": "安西娅与魔法之神：次要人物 未具名勇者",
       "category": "secondary-character",
       "keys": [

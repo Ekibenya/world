@@ -2569,7 +2569,7 @@
   "lorebook": [
     {
       "id": "era-14-human-age-core",
-      "title": "人类时代与第一次联合战争｜时代边界",
+      "title": "人类时代与第一次联合战争",
       "memo": "人类时代与第一次联合战争：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -2584,7 +2584,7 @@
     },
     {
       "id": "era-14-human-age-event-237-01",
-      "title": "事件｜第237源章｜1",
+      "title": "万神殿清扫后祈祷与神殿混乱集中到生命体系",
       "memo": "人类时代与第一次联合战争：事件（第237源章第1条）",
       "category": "event",
       "keys": [
@@ -2610,7 +2610,7 @@
     },
     {
       "id": "era-14-human-age-event-237-02",
-      "title": "事件｜第237源章｜2",
+      "title": "数十年后芙蕾雅与女武神弃旧名成为天使，为生命体系处理地上业务",
       "memo": "人类时代与第一次联合战争：事件（第237源章第2条）",
       "category": "event",
       "keys": [
@@ -2636,7 +2636,7 @@
     },
     {
       "id": "era-14-human-age-event-237-03",
-      "title": "事件｜第237源章｜3",
+      "title": "阿谢拉特承担大量信仰与行政",
       "memo": "人类时代与第一次联合战争：事件（第237源章第3条）",
       "category": "event",
       "keys": [
@@ -2662,7 +2662,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-237-01",
-      "title": "世界设定事实｜第237源章｜1",
+      "title": "芙蕾雅和女武神舍弃旧名成为天使",
       "memo": "人类时代与第一次联合战争：世界设定事实（第237源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2688,7 +2688,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-237-02",
-      "title": "世界设定事实｜第237源章｜2",
+      "title": "天使从云鲸取得纯净魂魄注入新生命、赐福并检查前世记忆，在人中留指痕标记",
       "memo": "人类时代与第一次联合战争：世界设定事实（第237源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2714,7 +2714,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-237-03",
-      "title": "世界设定事实｜第237源章｜3",
+      "title": "数百数千地表神消失，数十幸存神被囚",
       "memo": "人类时代与第一次联合战争：世界设定事实（第237源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -2739,7 +2739,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-237-01",
-      "title": "新建立连续性｜第237源章｜1",
+      "title": "阿谢拉特",
       "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2765,7 +2765,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-237-02",
-      "title": "新建立连续性｜第237源章｜2",
+      "title": "天使体系",
       "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2790,7 +2790,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-237-03",
-      "title": "新建立连续性｜第237源章｜3",
+      "title": "新生注魂流程",
       "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2815,7 +2815,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-237-04",
-      "title": "新建立连续性｜第237源章｜4",
+      "title": "十二守护神监管",
       "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第4条）",
       "category": "continuity",
       "keys": [
@@ -2840,7 +2840,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-237-01",
-      "title": "未解决事项｜第237源章｜1",
+      "title": "生命爆发后果",
       "memo": "人类时代与第一次联合战争：未解决事项（第237源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2865,7 +2865,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-237-02",
-      "title": "未解决事项｜第237源章｜2",
+      "title": "布伦希尔德地上命运",
       "memo": "人类时代与第一次联合战争：未解决事项（第237源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2890,7 +2890,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-237-01",
-      "title": "主角龙形态｜第237源章｜1",
+      "title": "主角龙形态｜人类的时代.(1)｜大角银发本体以生命女神身份办公",
       "memo": "人类时代与第一次联合战争：主角龙形态（第237源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2916,7 +2916,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-237-01",
-      "title": "主角龙状态｜第237源章｜1",
+      "title": "主角龙状态｜人类的时代.(1)｜从清算者转为人类时代神务制度设计者",
       "memo": "人类时代与第一次联合战争：主角龙状态（第237源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2941,7 +2941,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-237-01",
-      "title": "主角龙知识边界｜第237源章｜1",
+      "title": "主角龙知识边界｜人类的时代.(1)｜新生命繁荣的长期后果尚未知",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第237源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2967,7 +2967,7 @@
     },
     {
       "id": "era-14-human-age-event-238-01",
-      "title": "事件｜第238源章｜1",
+      "title": "蒂雅思考把所有智慧种统称人类",
       "memo": "人类时代与第一次联合战争：事件（第238源章第1条）",
       "category": "event",
       "keys": [
@@ -2993,7 +2993,7 @@
     },
     {
       "id": "era-14-human-age-event-238-02",
-      "title": "事件｜第238源章｜2",
+      "title": "生命教团规范抑制屠俘",
       "memo": "人类时代与第一次联合战争：事件（第238源章第2条）",
       "category": "event",
       "keys": [
@@ -3020,7 +3020,7 @@
     },
     {
       "id": "era-14-human-age-event-238-03",
-      "title": "事件｜第238源章｜3",
+      "title": "战争增加冥界公务",
       "memo": "人类时代与第一次联合战争：事件（第238源章第3条）",
       "category": "event",
       "keys": [
@@ -3046,7 +3046,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-238-01",
-      "title": "世界设定事实｜第238源章｜1",
+      "title": "水稻由莱特金与梅贝尔扩散至湿热区，与麦、土豆、玉米共同扩大粮食适生范围",
       "memo": "人类时代与第一次联合战争：世界设定事实（第238源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3072,7 +3072,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-238-02",
-      "title": "世界设定事实｜第238源章｜2",
+      "title": "卢修斯疑为阿卡迪亚王裔，持马凯王旗和兵书，从数百兵力扩张多城邦",
       "memo": "人类时代与第一次联合战争：世界设定事实（第238源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3098,7 +3098,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-238-03",
-      "title": "世界设定事实｜第238源章｜3",
+      "title": "天堂准入放宽为未伤人且适当行善",
       "memo": "人类时代与第一次联合战争：世界设定事实（第238源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3124,7 +3124,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-238-01",
-      "title": "新建立连续性｜第238源章｜1",
+      "title": "卢修斯崛起",
       "memo": "人类时代与第一次联合战争：新建立连续性（第238源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3150,7 +3150,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-238-02",
-      "title": "新建立连续性｜第238源章｜2",
+      "title": "多作物人口增长",
       "memo": "人类时代与第一次联合战争：新建立连续性（第238源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3175,7 +3175,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-238-03",
-      "title": "新建立连续性｜第238源章｜3",
+      "title": "塔罗斯休假",
       "memo": "人类时代与第一次联合战争：新建立连续性（第238源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3201,7 +3201,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-238-01",
-      "title": "未解决事项｜第238源章｜1",
+      "title": "卢修斯加冕",
       "memo": "人类时代与第一次联合战争：未解决事项（第238源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3227,7 +3227,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-238-02",
-      "title": "未解决事项｜第238源章｜2",
+      "title": "战争是否终结",
       "memo": "人类时代与第一次联合战争：未解决事项（第238源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3252,7 +3252,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-238-01",
-      "title": "主角龙形态｜第238源章｜1",
+      "title": "主角龙形态｜人类的时代.(2)｜大角银发本体，以生命女神身份与阿谢拉特办公观察世界",
       "memo": "人类时代与第一次联合战争：主角龙形态（第238源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3278,7 +3278,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-238-01",
-      "title": "主角龙状态｜第238源章｜1",
+      "title": "主角龙状态｜人类的时代.(2)｜准备承认卢修斯并把人类治理更多交还地表",
       "memo": "人类时代与第一次联合战争：主角龙状态（第238源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3304,7 +3304,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-238-01",
-      "title": "主角龙知识边界｜第238源章｜1",
+      "title": "主角龙知识边界｜人类的时代.(2)｜不确定卢修斯血统、无法保证统一全大陆，只判断其最可能收复旧阿卡迪亚",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第238源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3330,7 +3330,7 @@
     },
     {
       "id": "era-14-human-age-event-239-01",
-      "title": "事件｜第239源章｜1",
+      "title": "卢修斯收复旧阿卡迪亚并受天狼星神殿邀请，独自进入接受不朽之冠试炼",
       "memo": "人类时代与第一次联合战争：事件（第239源章第1条）",
       "category": "event",
       "keys": [
@@ -3356,7 +3356,7 @@
     },
     {
       "id": "era-14-human-age-event-239-02",
-      "title": "事件｜第239源章｜2",
+      "title": "卢修斯回答为保护重要者为王，敌患消失即止战，并对宗教，弱者，荣誉",
       "memo": "人类时代与第一次联合战争：事件（第239源章第2条）",
       "category": "event",
       "keys": [
@@ -3382,7 +3382,7 @@
     },
     {
       "id": "era-14-human-age-event-239-03",
-      "title": "事件｜第239源章｜3",
+      "title": "后世历史探究社团为骑士王，莱克伦，无名勇者谁应作为同人志封面争吵",
       "memo": "人类时代与第一次联合战争：事件（第239源章第3条）",
       "category": "event",
       "keys": [
@@ -3408,7 +3408,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-239-01",
-      "title": "世界设定事实｜第239源章｜1",
+      "title": "天狼星邀请既证明强王地位也可能否定正统，历史受邀者一半拒绝、一半被驱逐",
       "memo": "人类时代与第一次联合战争：世界设定事实（第239源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3433,7 +3433,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-239-02",
-      "title": "世界设定事实｜第239源章｜2",
+      "title": "不朽之冠赋予旺盛活力",
       "memo": "人类时代与第一次联合战争：世界设定事实（第239源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3460,7 +3460,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-239-01",
-      "title": "新建立连续性｜第239源章｜1",
+      "title": "骑士王加冕",
       "memo": "人类时代与第一次联合战争：新建立连续性（第239源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3485,7 +3485,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-239-02",
-      "title": "新建立连续性｜第239源章｜2",
+      "title": "卢修斯新名",
       "memo": "人类时代与第一次联合战争：新建立连续性（第239源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3511,7 +3511,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-239-03",
-      "title": "新建立连续性｜第239源章｜3",
+      "title": "后世历史社团",
       "memo": "人类时代与第一次联合战争：新建立连续性（第239源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3536,7 +3536,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-239-01",
-      "title": "未解决事项｜第239源章｜1",
+      "title": "骑士制度扩散",
       "memo": "人类时代与第一次联合战争：未解决事项（第239源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3561,7 +3561,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-239-02",
-      "title": "未解决事项｜第239源章｜2",
+      "title": "新国家治理",
       "memo": "人类时代与第一次联合战争：未解决事项（第239源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3586,7 +3586,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-239-01",
-      "title": "主角龙形态｜第239源章｜1",
+      "title": "主角龙形态｜人类的时代.(3)｜本章不直接现身，通过生命教团大祭司与冠冕赐名",
       "memo": "人类时代与第一次联合战争：主角龙形态（第239源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3611,7 +3611,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-239-01",
-      "title": "主角龙状态｜第239源章｜1",
+      "title": "主角龙状态｜人类的时代.(3)｜正式承认卢修斯并植入骑士概念",
       "memo": "人类时代与第一次联合战争：主角龙状态（第239源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3637,7 +3637,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-239-01",
-      "title": "主角龙知识边界｜第239源章｜1",
+      "title": "主角龙知识边界｜人类的时代.(3)｜卢修斯只知称号来自生命女神，不知其文明设计目的",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第239源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3663,7 +3663,7 @@
     },
     {
       "id": "era-14-human-age-event-240-01",
-      "title": "事件｜第240源章｜1",
+      "title": "蒂雅承认骑士名号是其传播荣誉、权利与责任概念的设计",
       "memo": "人类时代与第一次联合战争：事件（第240源章第1条）",
       "category": "event",
       "keys": [
@@ -3690,7 +3690,7 @@
     },
     {
       "id": "era-14-human-age-event-240-02",
-      "title": "事件｜第240源章｜2",
+      "title": "疆域荒废且治理知识不足，卢修斯向各王、祭司、法师和诸种族求学，最终寻找深林贤者",
       "memo": "人类时代与第一次联合战争：事件（第240源章第2条）",
       "category": "event",
       "keys": [
@@ -3717,7 +3717,7 @@
     },
     {
       "id": "era-14-human-age-event-240-03",
-      "title": "事件｜第240源章｜3",
+      "title": "贤者指出王不应独揽，建议把土地治理权暂借臣子，以贡赋交换",
       "memo": "人类时代与第一次联合战争：事件（第240源章第3条）",
       "category": "event",
       "keys": [
@@ -3742,7 +3742,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-240-01",
-      "title": "世界设定事实｜第240源章｜1",
+      "title": "骑士概念把权利与责任绑定，并推动贵族从有钱有势者转向承担治理义务的身份理想",
       "memo": "人类时代与第一次联合战争：世界设定事实（第240源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3767,7 +3767,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-240-02",
-      "title": "世界设定事实｜第240源章｜2",
+      "title": "卢修斯有十二名跨种族能臣，征服约旧阿卡迪亚两倍疆域后停止，广泛搜集治国知识",
       "memo": "人类时代与第一次联合战争：世界设定事实（第240源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3793,7 +3793,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-240-01",
-      "title": "新建立连续性｜第240源章｜1",
+      "title": "骑士概念设计",
       "memo": "人类时代与第一次联合战争：新建立连续性（第240源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3818,7 +3818,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-240-02",
-      "title": "新建立连续性｜第240源章｜2",
+      "title": "封建代理建议",
       "memo": "人类时代与第一次联合战争：新建立连续性（第240源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3843,7 +3843,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-240-03",
-      "title": "新建立连续性｜第240源章｜3",
+      "title": "臣子等级制衡",
       "memo": "人类时代与第一次联合战争：新建立连续性（第240源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3868,7 +3868,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-240-01",
-      "title": "未解决事项｜第240源章｜1",
+      "title": "制度实际后果",
       "memo": "人类时代与第一次联合战争：未解决事项（第240源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3893,7 +3893,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-240-02",
-      "title": "未解决事项｜第240源章｜2",
+      "title": "国家命名",
       "memo": "人类时代与第一次联合战争：未解决事项（第240源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3918,7 +3918,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-240-01",
-      "title": "主角龙形态｜第240源章｜1",
+      "title": "主角龙形态｜人类的时代.(4)｜前半为大角银发本体内述",
       "memo": "人类时代与第一次联合战争：主角龙形态（第240源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3943,7 +3943,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-240-01",
-      "title": "主角龙状态｜第240源章｜1",
+      "title": "主角龙状态｜人类的时代.(4)｜从价值概念传播转入具体国家制度辅导",
       "memo": "人类时代与第一次联合战争：主角龙状态（第240源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3968,7 +3968,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-240-01",
-      "title": "主角龙知识边界｜第240源章｜1",
+      "title": "主角龙知识边界｜人类的时代.(4)｜蒂雅知道制度会制造摩擦但尚未看到罗马尼亚实际执行结果",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第240源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3994,7 +3994,7 @@
     },
     {
       "id": "era-14-human-age-event-241-01",
-      "title": "事件｜第241源章｜1",
+      "title": "贤者整夜讲分而治之、五等爵、领地领主与间接统治",
       "memo": "人类时代与第一次联合战争：事件（第241源章第1条）",
       "category": "event",
       "keys": [
@@ -4019,7 +4019,7 @@
     },
     {
       "id": "era-14-human-age-event-241-02",
-      "title": "事件｜第241源章｜2",
+      "title": "蒂雅建议与精灵矮人及其他种族巩固关系，指引三年后去贝特尔吉乌斯十年决斗",
       "memo": "人类时代与第一次联合战争：事件（第241源章第2条）",
       "category": "event",
       "keys": [
@@ -4045,7 +4045,7 @@
     },
     {
       "id": "era-14-human-age-event-241-03",
-      "title": "事件｜第241源章｜3",
+      "title": "卢修斯请求贤者为新国家命名",
       "memo": "人类时代与第一次联合战争：事件（第241源章第3条）",
       "category": "event",
       "keys": [
@@ -4072,7 +4072,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-241-01",
-      "title": "世界设定事实｜第241源章｜1",
+      "title": "贤者向卢修斯讲平民、骑士、贵族、五等爵、领地与领主间接统治",
       "memo": "人类时代与第一次联合战争：世界设定事实（第241源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4098,7 +4098,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-241-02",
-      "title": "世界设定事实｜第241源章｜2",
+      "title": "贝特尔吉乌斯位于精灵森林与萨加玛塔之间，每十年举办精灵矮人决斗",
       "memo": "人类时代与第一次联合战争：世界设定事实（第241源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4124,7 +4124,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-241-03",
-      "title": "世界设定事实｜第241源章｜3",
+      "title": "罗马尼亚已与米诺亚为核心兽人王国及莱特基尼亚密切往来",
       "memo": "人类时代与第一次联合战争：世界设定事实（第241源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4150,7 +4150,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-241-01",
-      "title": "新建立连续性｜第241源章｜1",
+      "title": "罗马尼亚命名",
       "memo": "人类时代与第一次联合战争：新建立连续性（第241源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4175,7 +4175,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-241-02",
-      "title": "新建立连续性｜第241源章｜2",
+      "title": "贤者使者咨询",
       "memo": "人类时代与第一次联合战争：新建立连续性（第241源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4200,7 +4200,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-241-03",
-      "title": "新建立连续性｜第241源章｜3",
+      "title": "贝特尔吉乌斯外交建议",
       "memo": "人类时代与第一次联合战争：新建立连续性（第241源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4225,7 +4225,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-241-01",
-      "title": "未解决事项｜第241源章｜1",
+      "title": "制度执行",
       "memo": "人类时代与第一次联合战争：未解决事项（第241源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4250,7 +4250,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-241-02",
-      "title": "未解决事项｜第241源章｜2",
+      "title": "十年决斗外交",
       "memo": "人类时代与第一次联合战争：未解决事项（第241源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4275,7 +4275,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-241-01",
-      "title": "主角龙形态｜第241源章｜1",
+      "title": "主角龙形态｜人类的时代.(5)｜远程操控蒙布贤者石魔像，主动展示石臂",
       "memo": "人类时代与第一次联合战争：主角龙形态（第241源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4300,7 +4300,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-241-01",
-      "title": "主角龙状态｜第241源章｜1",
+      "title": "主角龙状态｜人类的时代.(5)｜完成罗马尼亚制度与外交初始引导，维持非常驻顾问关系",
       "memo": "人类时代与第一次联合战争：主角龙状态（第241源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4325,7 +4325,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-241-01",
-      "title": "主角龙知识边界｜第241源章｜1",
+      "title": "主角龙知识边界｜人类的时代.(5)｜对国家能否延续千年不确定，只对发展产生期待",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第241源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4350,7 +4350,7 @@
     },
     {
       "id": "era-14-human-age-event-242-01",
-      "title": "事件｜第242源章｜1",
+      "title": "罗马尼亚分封后卢修斯没收压榨领地、统一税额",
       "memo": "人类时代与第一次联合战争：事件（第242源章第1条）",
       "category": "event",
       "keys": [
@@ -4376,7 +4376,7 @@
     },
     {
       "id": "era-14-human-age-event-242-02",
-      "title": "事件｜第242源章｜2",
+      "title": "大规模战争消失后世界树报告绿色小猴般，双足用工具且能生育的智能怪物",
       "memo": "人类时代与第一次联合战争：事件（第242源章第2条）",
       "category": "event",
       "keys": [
@@ -4403,7 +4403,7 @@
     },
     {
       "id": "era-14-human-age-event-242-03",
-      "title": "事件｜第242源章｜3",
+      "title": "精灵见即射杀哥布林",
       "memo": "人类时代与第一次联合战争：事件（第242源章第3条）",
       "category": "event",
       "keys": [
@@ -4429,7 +4429,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-242-01",
-      "title": "世界设定事实｜第242源章｜1",
+      "title": "罗马尼亚横跨雪原至普罗西亚、山脉至海",
       "memo": "人类时代与第一次联合战争：世界设定事实（第242源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4455,7 +4455,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-242-02",
-      "title": "世界设定事实｜第242源章｜2",
+      "title": "首批哥布林绿色、毛茸茸、小猴体型、双足用原始工具、凶残且能繁殖，可能非普通动物怪物化",
       "memo": "人类时代与第一次联合战争：世界设定事实（第242源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4480,7 +4480,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-242-01",
-      "title": "新建立连续性｜第242源章｜1",
+      "title": "多国格局",
       "memo": "人类时代与第一次联合战争：新建立连续性（第242源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4505,7 +4505,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-242-02",
-      "title": "新建立连续性｜第242源章｜2",
+      "title": "智能繁殖怪物",
       "memo": "人类时代与第一次联合战争：新建立连续性（第242源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4530,7 +4530,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-242-03",
-      "title": "新建立连续性｜第242源章｜3",
+      "title": "哥布林调查",
       "memo": "人类时代与第一次联合战争：新建立连续性（第242源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4555,7 +4555,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-242-01",
-      "title": "未解决事项｜第242源章｜1",
+      "title": "哥布林来源",
       "memo": "人类时代与第一次联合战争：未解决事项（第242源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4580,7 +4580,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-242-02",
-      "title": "未解决事项｜第242源章｜2",
+      "title": "进化风险",
       "memo": "人类时代与第一次联合战争：未解决事项（第242源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4605,7 +4605,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-242-01",
-      "title": "主角龙形态｜第242源章｜1",
+      "title": "主角龙形态｜人类的时代.(6)｜大角银发本体，在世界树处喝茶听报",
       "memo": "人类时代与第一次联合战争：主角龙形态（第242源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4631,7 +4631,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-242-01",
-      "title": "主角龙状态｜第242源章｜1",
+      "title": "主角龙状态｜人类的时代.(6)｜由文明观察转入哥布林生态调查",
       "memo": "人类时代与第一次联合战争：主角龙状态（第242源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4656,7 +4656,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-242-01",
-      "title": "主角龙知识边界｜第242源章｜1",
+      "title": "主角龙知识边界｜人类的时代.(6)｜尚不知道哥布林来源、繁殖原理和进化上限",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第242源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4681,7 +4681,7 @@
     },
     {
       "id": "era-14-human-age-event-243-01",
-      "title": "事件｜第243源章｜1",
+      "title": "后世百科概括哥布林为全球常见绿皮、群居敌对且极端适应",
       "memo": "人类时代与第一次联合战争：事件（第243源章第1条）",
       "category": "event",
       "keys": [
@@ -4707,7 +4707,7 @@
     },
     {
       "id": "era-14-human-age-event-243-02",
-      "title": "事件｜第243源章｜2",
+      "title": "哥布林少食、数日成年、快速繁殖驱逐，兼有世代突变与个体现地进化",
       "memo": "人类时代与第一次联合战争：事件（第243源章第2条）",
       "category": "event",
       "keys": [
@@ -4732,7 +4732,7 @@
     },
     {
       "id": "era-14-human-age-event-243-03",
-      "title": "事件｜第243源章｜3",
+      "title": "蒂雅向萨加玛塔诉忧，怀疑群体数量触发进化",
       "memo": "人类时代与第一次联合战争：事件（第243源章第3条）",
       "category": "event",
       "keys": [
@@ -4759,7 +4759,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-243-01",
-      "title": "世界设定事实｜第243源章｜1",
+      "title": "哥布林会按海岸、雪原等环境产生肤色、蹼、心肺、体毛和体型适应，但敌意不变",
       "memo": "人类时代与第一次联合战争：世界设定事实（第243源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4784,7 +4784,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-243-02",
-      "title": "世界设定事实｜第243源章｜2",
+      "title": "普通哥布林数日成年并快速繁殖",
       "memo": "人类时代与第一次联合战争：世界设定事实（第243源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4809,7 +4809,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-243-01",
-      "title": "新建立连续性｜第243源章｜1",
+      "title": "霍布哥布林",
       "memo": "人类时代与第一次联合战争：新建立连续性（第243源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4834,7 +4834,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-243-02",
-      "title": "新建立连续性｜第243源章｜2",
+      "title": "责任下放",
       "memo": "人类时代与第一次联合战争：新建立连续性（第243源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4859,7 +4859,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-243-01",
-      "title": "未解决事项｜第243源章｜1",
+      "title": "进化条件",
       "memo": "人类时代与第一次联合战争：未解决事项（第243源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4884,7 +4884,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-243-02",
-      "title": "未解决事项｜第243源章｜2",
+      "title": "更高形态",
       "memo": "人类时代与第一次联合战争：未解决事项（第243源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4909,7 +4909,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-243-01",
-      "title": "主角龙形态｜第243源章｜1",
+      "title": "主角龙形态｜哥布林.(1)｜大角银发本体，在萨加玛塔为她保留的旧房间",
       "memo": "人类时代与第一次联合战争：主角龙形态（第243源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4935,7 +4935,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-243-01",
-      "title": "主角龙状态｜第243源章｜1",
+      "title": "主角龙状态｜哥布林.(1)｜决定只发布基础知识，将常规应对交给人类",
       "memo": "人类时代与第一次联合战争：主角龙状态（第243源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4960,7 +4960,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-243-01",
-      "title": "主角龙知识边界｜第243源章｜1",
+      "title": "主角龙知识边界｜哥布林.(1)｜尚未知霉菌繁殖、共享魔力和更高进化",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第243源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4985,7 +4985,7 @@
     },
     {
       "id": "era-14-human-age-event-244-01",
-      "title": "事件｜第244源章｜1",
+      "title": "后世研究证实至少20只且食物充足时群体共享魔力催生霍布，更大群体可产生更高亚种",
       "memo": "人类时代与第一次联合战争：事件（第244源章第1条）",
       "category": "event",
       "keys": [
@@ -5010,7 +5010,7 @@
     },
     {
       "id": "era-14-human-age-event-244-02",
-      "title": "事件｜第244源章｜2",
+      "title": "人类长期把哥布林当低收益害虫而放松警惕",
       "memo": "人类时代与第一次联合战争：事件（第244源章第2条）",
       "category": "event",
       "keys": [
@@ -5036,7 +5036,7 @@
     },
     {
       "id": "era-14-human-age-event-244-03",
-      "title": "事件｜第244源章｜3",
+      "title": "隔离生态箱中单只哥布林通过霉菌复制幼体并调节性别",
       "memo": "人类时代与第一次联合战争：事件（第244源章第3条）",
       "category": "event",
       "keys": [
@@ -5062,7 +5062,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-244-01",
-      "title": "世界设定事实｜第244源章｜1",
+      "title": "至少20只、食物充足和持续群居使稀薄魔力网络累积，指定一只突变为霍布",
       "memo": "人类时代与第一次联合战争：世界设定事实（第244源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5087,7 +5087,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-244-02",
-      "title": "世界设定事实｜第244源章｜2",
+      "title": "哥布林绿色皮肤可低效光合作用，仅靠水光维持最低生存，耐冷热",
       "memo": "人类时代与第一次联合战争：世界设定事实（第244源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5112,7 +5112,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-244-03",
-      "title": "世界设定事实｜第244源章｜3",
+      "title": "哥布林菌丝在活动区散布，吸收其魔力形成复制幼体，并可改变性别配比",
       "memo": "人类时代与第一次联合战争：世界设定事实（第244源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5137,7 +5137,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-244-01",
-      "title": "新建立连续性｜第244源章｜1",
+      "title": "菌丝复制",
       "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5162,7 +5162,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-244-02",
-      "title": "新建立连续性｜第244源章｜2",
+      "title": "光合作用",
       "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5187,7 +5187,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-244-03",
-      "title": "新建立连续性｜第244源章｜3",
+      "title": "性别转换",
       "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5212,7 +5212,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-244-04",
-      "title": "新建立连续性｜第244源章｜4",
+      "title": "群体共享魔力",
       "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5237,7 +5237,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-244-01",
-      "title": "未解决事项｜第244源章｜1",
+      "title": "创造者｜哥布林.(2)",
       "memo": "人类时代与第一次联合战争：未解决事项（第244源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5262,7 +5262,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-244-02",
-      "title": "未解决事项｜第244源章｜2",
+      "title": "清除方法",
       "memo": "人类时代与第一次联合战争：未解决事项（第244源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5287,7 +5287,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-244-03",
-      "title": "未解决事项｜第244源章｜3",
+      "title": "高阶进化｜哥布林.(2)",
       "memo": "人类时代与第一次联合战争：未解决事项（第244源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5312,7 +5312,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-244-01",
-      "title": "主角龙形态｜第244源章｜1",
+      "title": "主角龙形态｜哥布林.(2)｜大角银发本体，以时间回溯与强化视觉进行隔离实验",
       "memo": "人类时代与第一次联合战争：主角龙形态（第244源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5337,7 +5337,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-244-01",
-      "title": "主角龙状态｜第244源章｜1",
+      "title": "主角龙状态｜哥布林.(2)｜从常规下放转为确认哥布林是全球性系统风险",
       "memo": "人类时代与第一次联合战争：主角龙状态（第244源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5362,7 +5362,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-244-01",
-      "title": "主角龙知识边界｜第244源章｜1",
+      "title": "主角龙知识边界｜哥布林.(2)｜尚不知创造者与共享网络致死弱点，也未验证霍布以上形态",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第244源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5387,7 +5387,7 @@
     },
     {
       "id": "era-14-human-age-event-245-01",
-      "title": "事件｜第245源章｜1",
+      "title": "蒂雅发现霉菌繁殖耗尽原体魔力",
       "memo": "人类时代与第一次联合战争：事件（第245源章第1条）",
       "category": "event",
       "keys": [
@@ -5413,7 +5413,7 @@
     },
     {
       "id": "era-14-human-age-event-245-02",
-      "title": "事件｜第245源章｜2",
+      "title": "霍布有完整小魔石，两个有霍布的群体会以碰拳合并并连魔，蒂雅推断霍布也可聚集进化",
       "memo": "人类时代与第一次联合战争：事件（第245源章第2条）",
       "category": "event",
       "keys": [
@@ -5439,7 +5439,7 @@
     },
     {
       "id": "era-14-human-age-event-245-03",
-      "title": "事件｜第245源章｜3",
+      "title": "数十霍布与数百哥布林催生更高、长獠牙的指挥者，蒂雅命名兽人",
       "memo": "人类时代与第一次联合战争：事件（第245源章第3条）",
       "category": "event",
       "keys": [
@@ -5465,7 +5465,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-245-01",
-      "title": "世界设定事实｜第245源章｜1",
+      "title": "同群哥布林如单体共享魔力，抽干任一节点可令全群死",
       "memo": "人类时代与第一次联合战争：世界设定事实（第245源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5490,7 +5490,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-245-02",
-      "title": "世界设定事实｜第245源章｜2",
+      "title": "普通哥布林魔石过小易碎无收益",
       "memo": "人类时代与第一次联合战争：世界设定事实（第245源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5515,7 +5515,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-245-03",
-      "title": "世界设定事实｜第245源章｜3",
+      "title": "有霍布的群体接触会合并共享魔力",
       "memo": "人类时代与第一次联合战争：世界设定事实（第245源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5540,7 +5540,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-245-01",
-      "title": "新建立连续性｜第245源章｜1",
+      "title": "全群共享致死",
       "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5565,7 +5565,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-245-02",
-      "title": "新建立连续性｜第245源章｜2",
+      "title": "火焰弱点",
       "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5590,7 +5590,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-245-03",
-      "title": "新建立连续性｜第245源章｜3",
+      "title": "兽人进化",
       "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5615,7 +5615,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-245-04",
-      "title": "新建立连续性｜第245源章｜4",
+      "title": "三级指挥",
       "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5640,7 +5640,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-245-01",
-      "title": "未解决事项｜第245源章｜1",
+      "title": "兽人研究",
       "memo": "人类时代与第一次联合战争：未解决事项（第245源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5665,7 +5665,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-245-02",
-      "title": "未解决事项｜第245源章｜2",
+      "title": "更大群体形态",
       "memo": "人类时代与第一次联合战争：未解决事项（第245源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5690,7 +5690,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-245-01",
-      "title": "主角龙形态｜第245源章｜1",
+      "title": "主角龙形态｜哥布林.(3)｜大角银发本体，野外现身以火焰和树根处理群体",
       "memo": "人类时代与第一次联合战争：主角龙形态（第245源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5715,7 +5715,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-245-01",
-      "title": "主角龙状态｜第245源章｜1",
+      "title": "主角龙状态｜哥布林.(3)｜掌握常规清除弱点并捕获首只兽人",
       "memo": "人类时代与第一次联合战争：主角龙状态（第245源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5740,7 +5740,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-245-01",
-      "title": "主角龙知识边界｜第245源章｜1",
+      "title": "主角龙知识边界｜哥布林.(3)｜兽人具体能力与更高进化仍未知，创造者仍无证据",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第245源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5765,7 +5765,7 @@
     },
     {
       "id": "era-14-human-age-event-246-01",
-      "title": "事件｜第246源章｜1",
+      "title": "百科说明霍布按体质环境可进化兽人、哥布林萨满、霜冻哥布林、酋长、烈焰哥布林等分支",
       "memo": "人类时代与第一次联合战争：事件（第246源章第1条）",
       "category": "event",
       "keys": [
@@ -5790,7 +5790,7 @@
     },
     {
       "id": "era-14-human-age-event-246-02",
-      "title": "事件｜第246源章｜2",
+      "title": "蒂雅检查首只兽人，确认其恐惧和异种性欲后切除生殖器并开始无麻醉活体解剖",
       "memo": "人类时代与第一次联合战争：事件（第246源章第2条）",
       "category": "event",
       "keys": [
@@ -5816,7 +5816,7 @@
     },
     {
       "id": "era-14-human-age-event-246-03",
-      "title": "事件｜第246源章｜3",
+      "title": "兽人双胃、大心肺、低光合、较大魔石但无黑暗碎片",
       "memo": "人类时代与第一次联合战争：事件（第246源章第3条）",
       "category": "event",
       "keys": [
@@ -5842,7 +5842,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-246-01",
-      "title": "世界设定事实｜第246源章｜1",
+      "title": "霍布进化路线依潜能与环境分化",
       "memo": "人类时代与第一次联合战争：世界设定事实（第246源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5867,7 +5867,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-246-02",
-      "title": "世界设定事实｜第246源章｜2",
+      "title": "兽人远强人类，双胃、大心肺",
       "memo": "人类时代与第一次联合战争：世界设定事实（第246源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5892,7 +5892,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-246-01",
-      "title": "新建立连续性｜第246源章｜1",
+      "title": "霍布多分支",
       "memo": "人类时代与第一次联合战争：新建立连续性（第246源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5917,7 +5917,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-246-02",
-      "title": "新建立连续性｜第246源章｜2",
+      "title": "兽人器官与魔石",
       "memo": "人类时代与第一次联合战争：新建立连续性（第246源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5942,7 +5942,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-246-03",
-      "title": "新建立连续性｜第246源章｜3",
+      "title": "公共警告",
       "memo": "人类时代与第一次联合战争：新建立连续性（第246源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5967,7 +5967,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-246-01",
-      "title": "未解决事项｜第246源章｜1",
+      "title": "警告执行",
       "memo": "人类时代与第一次联合战争：未解决事项（第246源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5992,7 +5992,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-246-02",
-      "title": "未解决事项｜第246源章｜2",
+      "title": "高阶进化｜兽人.(1)",
       "memo": "人类时代与第一次联合战争：未解决事项（第246源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6017,7 +6017,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-246-01",
-      "title": "主角龙形态｜第246源章｜1",
+      "title": "主角龙形态｜兽人.(1)｜大角银发少女本体，树根束缚并亲自解剖",
       "memo": "人类时代与第一次联合战争：主角龙形态（第246源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6042,7 +6042,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-246-01",
-      "title": "主角龙状态｜第246源章｜1",
+      "title": "主角龙状态｜兽人.(1)｜确认兽人威胁并发布预防警告",
       "memo": "人类时代与第一次联合战争：主角龙状态（第246源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6067,7 +6067,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-246-01",
-      "title": "主角龙知识边界｜第246源章｜1",
+      "title": "主角龙知识边界｜兽人.(1)｜尚不知道人类会忽视，也未知兽人以上进化",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第246源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6092,7 +6092,7 @@
     },
     {
       "id": "era-14-human-age-event-247-01",
-      "title": "事件｜第247源章｜1",
+      "title": "人类无视警告后开拓村被绿皮屠灭",
       "memo": "人类时代与第一次联合战争：事件（第247源章第1条）",
       "category": "event",
       "keys": [
@@ -6118,7 +6118,7 @@
     },
     {
       "id": "era-14-human-age-event-247-02",
-      "title": "事件｜第247源章｜2",
+      "title": "凶手群由约80哥布林、8霍布和智力型哥布林酋长组成",
       "memo": "人类时代与第一次联合战争：事件（第247源章第2条）",
       "category": "event",
       "keys": [
@@ -6144,7 +6144,7 @@
     },
     {
       "id": "era-14-human-age-event-247-03",
-      "title": "事件｜第247源章｜3",
+      "title": "人类开始指标猎杀但已太迟",
       "memo": "人类时代与第一次联合战争：事件（第247源章第3条）",
       "category": "event",
       "keys": [
@@ -6169,7 +6169,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-247-01",
-      "title": "世界设定事实｜第247源章｜1",
+      "title": "哥布林酋长是智力专化霍布分支，会指挥、隐蔽巢穴和消除痕迹，肉体仅略强霍布",
       "memo": "人类时代与第一次联合战争：世界设定事实（第247源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6194,7 +6194,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-247-02",
-      "title": "世界设定事实｜第247源章｜2",
+      "title": "数百兽人供魔使兽人王结茧数日，蜕变为巨人高、捏岩怪力、咆哮震晕弱者的食人魔",
       "memo": "人类时代与第一次联合战争：世界设定事实（第247源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6219,7 +6219,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-247-01",
-      "title": "新建立连续性｜第247源章｜1",
+      "title": "哥布林酋长",
       "memo": "人类时代与第一次联合战争：新建立连续性（第247源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6244,7 +6244,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-247-02",
-      "title": "新建立连续性｜第247源章｜2",
+      "title": "食人魔诞生",
       "memo": "人类时代与第一次联合战争：新建立连续性（第247源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6269,7 +6269,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-247-03",
-      "title": "新建立连续性｜第247源章｜3",
+      "title": "蒂雅共情变淡",
       "memo": "人类时代与第一次联合战争：新建立连续性（第247源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6295,7 +6295,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-247-01",
-      "title": "未解决事项｜第247源章｜1",
+      "title": "绿皮战争",
       "memo": "人类时代与第一次联合战争：未解决事项（第247源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6320,7 +6320,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-247-02",
-      "title": "未解决事项｜第247源章｜2",
+      "title": "情感异常",
       "memo": "人类时代与第一次联合战争：未解决事项（第247源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6345,7 +6345,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-247-01",
-      "title": "主角龙形态｜第247源章｜1",
+      "title": "主角龙形态｜兽人.(2)｜大角银发本体，处理村庄遗体、爆破洞穴并解剖酋长",
       "memo": "人类时代与第一次联合战争：主角龙形态（第247源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6370,7 +6370,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-247-01",
-      "title": "主角龙状态｜第247源章｜1",
+      "title": "主角龙状态｜兽人.(2)｜警告升级但绿皮王国和食人魔已经形成",
       "memo": "人类时代与第一次联合战争：主角龙状态（第247源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6395,7 +6395,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-247-01",
-      "title": "主角龙知识边界｜第247源章｜1",
+      "title": "主角龙知识边界｜兽人.(2)｜尚不知食人魔战力上限与自己的情感淡化原因",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第247源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6420,7 +6420,7 @@
     },
     {
       "id": "era-14-human-age-event-248-01",
-      "title": "事件｜第248源章｜1",
+      "title": "食人魔与无翼龙兽角力并凭力量、敏捷、预判逼退对方，证明远超普通地表怪物",
       "memo": "人类时代与第一次联合战争：事件（第248源章第1条）",
       "category": "event",
       "keys": [
@@ -6445,7 +6445,7 @@
     },
     {
       "id": "era-14-human-age-event-248-02",
-      "title": "事件｜第248源章｜2",
+      "title": "蒂雅考虑放任食人魔摧毁村城作为永久警告，理智认为有效，残存人性反对",
       "memo": "人类时代与第一次联合战争：事件（第248源章第2条）",
       "category": "event",
       "keys": [
@@ -6471,7 +6471,7 @@
     },
     {
       "id": "era-14-human-age-event-248-03",
-      "title": "事件｜第248源章｜3",
+      "title": "沙玛什识别蒂雅仍担忧，提出让休假的塔罗斯演示并击杀",
       "memo": "人类时代与第一次联合战争：事件（第248源章第3条）",
       "category": "event",
       "keys": [
@@ -6499,7 +6499,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-248-01",
-      "title": "世界设定事实｜第248源章｜1",
+      "title": "食人魔力量可与龙兽正面对峙，具高敏捷与战斗预判，肉体能承受龙兽攻击",
       "memo": "人类时代与第一次联合战争：世界设定事实（第248源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6524,7 +6524,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-248-02",
-      "title": "世界设定事实｜第248源章｜2",
+      "title": "绿皮阶层被沙玛什对应鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅认定其创造者模仿地表智慧种",
       "memo": "人类时代与第一次联合战争：世界设定事实（第248源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6551,7 +6551,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-248-01",
-      "title": "新建立连续性｜第248源章｜1",
+      "title": "塔罗斯折中方案",
       "memo": "人类时代与第一次联合战争：新建立连续性（第248源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6577,7 +6577,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-248-02",
-      "title": "新建立连续性｜第248源章｜2",
+      "title": "绿皮仿生假说",
       "memo": "人类时代与第一次联合战争：新建立连续性（第248源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6602,7 +6602,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-248-01",
-      "title": "未解决事项｜第248源章｜1",
+      "title": "联军战争",
       "memo": "人类时代与第一次联合战争：未解决事项（第248源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6627,7 +6627,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-248-02",
-      "title": "未解决事项｜第248源章｜2",
+      "title": "创造者｜食人魔.(1)",
       "memo": "人类时代与第一次联合战争：未解决事项（第248源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6652,7 +6652,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-248-01",
-      "title": "主角龙形态｜第248源章｜1",
+      "title": "主角龙形态｜食人魔.(1)｜大角银发本体，与沙玛什隐蔽观察绿皮王国",
       "memo": "人类时代与第一次联合战争：主角龙形态（第248源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6678,7 +6678,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-248-01",
-      "title": "主角龙状态｜第248源章｜1",
+      "title": "主角龙状态｜食人魔.(1)｜决定让塔罗斯受控参战而非放任大屠杀",
       "memo": "人类时代与第一次联合战争：主角龙状态（第248源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6704,7 +6704,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-248-01",
-      "title": "主角龙知识边界｜第248源章｜1",
+      "title": "主角龙知识边界｜食人魔.(1)｜推定人工创造但无直接创造者证据",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第248源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6730,7 +6730,7 @@
     },
     {
       "id": "era-14-human-age-event-249-01",
-      "title": "事件｜第249源章｜1",
+      "title": "绿皮毁塞梅尔村城与贸易要地",
       "memo": "人类时代与第一次联合战争：事件（第249源章第1条）",
       "category": "event",
       "keys": [
@@ -6756,7 +6756,7 @@
     },
     {
       "id": "era-14-human-age-event-249-02",
-      "title": "事件｜第249源章｜2",
+      "title": "联军包含罗马尼亚一万二千，生命祭司200，法师100，兽人2000，莱特金5000",
       "memo": "人类时代与第一次联合战争：事件（第249源章第2条）",
       "category": "event",
       "keys": [
@@ -6781,7 +6781,7 @@
     },
     {
       "id": "era-14-human-age-event-249-03",
-      "title": "事件｜第249源章｜3",
+      "title": "蒂雅将塔罗斯封入玻璃珠，以延长休假为交换",
       "memo": "人类时代与第一次联合战争：事件（第249源章第3条）",
       "category": "event",
       "keys": [
@@ -6808,7 +6808,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-249-01",
-      "title": "世界设定事实｜第249源章｜1",
+      "title": "塞梅尔是通往普罗西亚与蜥蜴人的富裕贸易要地，地方强军仍被绿皮无声覆灭",
       "memo": "人类时代与第一次联合战争：世界设定事实（第249源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6833,7 +6833,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-249-02",
-      "title": "世界设定事实｜第249源章｜2",
+      "title": "第一次联军各族兵力与专业分工明确，矮人携移动锻造场和新兵器研究所",
       "memo": "人类时代与第一次联合战争：世界设定事实（第249源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6858,7 +6858,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-249-03",
-      "title": "世界设定事实｜第249源章｜3",
+      "title": "塔罗斯可被缩存玻璃珠再发射投放，参战报酬是延长地表休假",
       "memo": "人类时代与第一次联合战争：世界设定事实（第249源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6884,7 +6884,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-249-01",
-      "title": "新建立连续性｜第249源章｜1",
+      "title": "首次多种族联军",
       "memo": "人类时代与第一次联合战争：新建立连续性（第249源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6909,7 +6909,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-249-02",
-      "title": "新建立连续性｜第249源章｜2",
+      "title": "塔罗斯投放珠",
       "memo": "人类时代与第一次联合战争：新建立连续性（第249源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6935,7 +6935,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-249-03",
-      "title": "新建立连续性｜第249源章｜3",
+      "title": "塞梅尔覆灭",
       "memo": "人类时代与第一次联合战争：新建立连续性（第249源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6960,7 +6960,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-249-01",
-      "title": "未解决事项｜第249源章｜1",
+      "title": "战役结果",
       "memo": "人类时代与第一次联合战争：未解决事项（第249源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6985,7 +6985,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-249-01",
-      "title": "主角龙形态｜第249源章｜1",
+      "title": "主角龙形态｜食人魔.(2)｜大角银发本体，持封存塔罗斯玻璃珠",
       "memo": "人类时代与第一次联合战争：主角龙形态（第249源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7011,7 +7011,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-249-01",
-      "title": "主角龙状态｜第249源章｜1",
+      "title": "主角龙状态｜食人魔.(2)｜以幕后安全阀身份加入联军但不取代凡人作战",
       "memo": "人类时代与第一次联合战争：主角龙状态（第249源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7036,7 +7036,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-249-01",
-      "title": "主角龙知识边界｜第249源章｜1",
+      "title": "主角龙知识边界｜食人魔.(2)｜联军尚未与绿皮接战，不知伤亡与各族实际协同",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第249源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7061,7 +7061,7 @@
     },
     {
       "id": "era-14-human-age-event-250-01",
-      "title": "事件｜第250源章｜1",
+      "title": "精灵矮人争首攻，卢修斯以箭矢稀缺和精确性分工：矮人范围开战、精灵狙击指挥者",
       "memo": "人类时代与第一次联合战争：事件（第250源章第1条）",
       "category": "event",
       "keys": [
@@ -7087,7 +7087,7 @@
     },
     {
       "id": "era-14-human-age-event-250-02",
-      "title": "事件｜第250源章｜2",
+      "title": "矮人五台投石机以燃油木弹制造火雨，虽三台自燃仍造成大范围杀伤",
       "memo": "人类时代与第一次联合战争：事件（第250源章第2条）",
       "category": "event",
       "keys": [
@@ -7112,7 +7112,7 @@
     },
     {
       "id": "era-14-human-age-event-250-03",
-      "title": "事件｜第250源章｜3",
+      "title": "骑士分割、兽人迂回、莱特金盾阵压线、蜥蜴突击、法师火攻、精灵狙击，联合战争正式开始",
       "memo": "人类时代与第一次联合战争：事件（第250源章第3条）",
       "category": "event",
       "keys": [
@@ -7137,7 +7137,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-250-01",
-      "title": "世界设定事实｜第250源章｜1",
+      "title": "卢修斯不败旗帜含神级复杂魔法阵，法师难辨、蜥蜴人视作神迹祈祷",
       "memo": "人类时代与第一次联合战争：世界设定事实（第250源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7163,7 +7163,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-250-02",
-      "title": "世界设定事实｜第250源章｜2",
+      "title": "矮人原始投石机发射燃油木弹在空中碎裂成火雨，但油料安全性差会烧毁器械",
       "memo": "人类时代与第一次联合战争：世界设定事实（第250源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7188,7 +7188,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-250-01",
-      "title": "新建立连续性｜第250源章｜1",
+      "title": "各族联合战术",
       "memo": "人类时代与第一次联合战争：新建立连续性（第250源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7213,7 +7213,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-250-02",
-      "title": "新建立连续性｜第250源章｜2",
+      "title": "燃烧投石机首攻",
       "memo": "人类时代与第一次联合战争：新建立连续性（第250源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7238,7 +7238,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-250-01",
-      "title": "未解决事项｜第250源章｜1",
+      "title": "食人魔出战",
       "memo": "人类时代与第一次联合战争：未解决事项（第250源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7263,7 +7263,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-250-02",
-      "title": "未解决事项｜第250源章｜2",
+      "title": "联军伤亡",
       "memo": "人类时代与第一次联合战争：未解决事项（第250源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7288,7 +7288,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-250-01",
-      "title": "主角龙形态｜第250源章｜1",
+      "title": "主角龙形态｜第一次联合战争.(1)｜本章不直接出现，以旗帜、神谕与援军承诺提供后台支持",
       "memo": "人类时代与第一次联合战争：主角龙形态（第250源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7313,7 +7313,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-250-01",
-      "title": "主角龙状态｜第250源章｜1",
+      "title": "主角龙状态｜第一次联合战争.(1)｜允许凡人联军自行展开战术",
       "memo": "人类时代与第一次联合战争：主角龙状态（第250源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7338,7 +7338,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-250-01",
-      "title": "主角龙知识边界｜第250源章｜1",
+      "title": "主角龙知识边界｜第一次联合战争.(1)｜卢修斯只知会获生命女神援助，不知塔罗斯具体投放时机",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第250源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7365,7 +7365,7 @@
     },
     {
       "id": "era-14-human-age-event-251-01",
-      "title": "事件｜第251源章｜1",
+      "title": "联军各兵种压倒绿皮，祭司后送治疗降低伤亡，蜥蜴人与兽人形成单挑战圈",
       "memo": "人类时代与第一次联合战争：事件（第251源章第1条）",
       "category": "event",
       "keys": [
@@ -7390,7 +7390,7 @@
     },
     {
       "id": "era-14-human-age-event-251-02",
-      "title": "事件｜第251源章｜2",
+      "title": "食人魔落地破莱特金盾阵，精灵法师无效、蜥蜴人只能以断鳞断尾拖延",
       "memo": "人类时代与第一次联合战争：事件（第251源章第2条）",
       "category": "event",
       "keys": [
@@ -7416,7 +7416,7 @@
     },
     {
       "id": "era-14-human-age-event-251-03",
-      "title": "事件｜第251源章｜3",
+      "title": "卢修斯被震落，确认继承人和国家不会因己死崩塌后以旗尖迎战，塔罗斯从天而降",
       "memo": "人类时代与第一次联合战争：事件（第251源章第3条）",
       "category": "event",
       "keys": [
@@ -7443,7 +7443,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-251-01",
-      "title": "世界设定事实｜第251源章｜1",
+      "title": "联军以盾阵正压、骑兵分割、兽人侧击、精灵狙特殊体、法师火墙协同",
       "memo": "人类时代与第一次联合战争：世界设定事实（第251源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7468,7 +7468,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-251-02",
-      "title": "世界设定事实｜第251源章｜2",
+      "title": "食人魔能感知卢修斯旗帜连接各军魔力，主动斩首指挥核心",
       "memo": "人类时代与第一次联合战争：世界设定事实（第251源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7494,7 +7494,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-251-01",
-      "title": "新建立连续性｜第251源章｜1",
+      "title": "食人魔斩首战术",
       "memo": "人类时代与第一次联合战争：新建立连续性（第251源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7519,7 +7519,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-251-02",
-      "title": "新建立连续性｜第251源章｜2",
+      "title": "塔罗斯坠落",
       "memo": "人类时代与第一次联合战争：新建立连续性（第251源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7545,7 +7545,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-251-01",
-      "title": "未解决事项｜第251源章｜1",
+      "title": "巨像决斗",
       "memo": "人类时代与第一次联合战争：未解决事项（第251源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7570,7 +7570,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-251-01",
-      "title": "主角龙形态｜第251源章｜1",
+      "title": "主角龙形态｜第一次联合战争.(2)｜本章末通过天空投放塔罗斯介入，本体仍不现身",
       "memo": "人类时代与第一次联合战争：主角龙形态（第251源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7596,7 +7596,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-251-01",
-      "title": "主角龙状态｜第251源章｜1",
+      "title": "主角龙状态｜第一次联合战争.(2)｜在卢修斯即将遭斩首时启动安全阀",
       "memo": "人类时代与第一次联合战争：主角龙状态（第251源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7622,7 +7622,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-251-01",
-      "title": "主角龙知识边界｜第251源章｜1",
+      "title": "主角龙知识边界｜第一次联合战争.(2)｜战场众人尚不知援军具体身份和力量",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第251源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7647,7 +7647,7 @@
     },
     {
       "id": "era-14-human-age-event-252-01",
-      "title": "事件｜第252源章｜1",
+      "title": "塔罗斯以头部硬接食人魔连击毫无损伤，食人魔双拳自毁",
       "memo": "人类时代与第一次联合战争：事件（第252源章第1条）",
       "category": "event",
       "keys": [
@@ -7673,7 +7673,7 @@
     },
     {
       "id": "era-14-human-age-event-252-02",
-      "title": "事件｜第252源章｜2",
+      "title": "蒂雅、世界树、萨加玛塔远观，解释原本想放水但卢修斯危险而直接投下",
       "memo": "人类时代与第一次联合战争：事件（第252源章第2条）",
       "category": "event",
       "keys": [
@@ -7702,7 +7702,7 @@
     },
     {
       "id": "era-14-human-age-event-252-03",
-      "title": "事件｜第252源章｜3",
+      "title": "绿皮群体提供维生魔力，越高阶消耗越大",
       "memo": "人类时代与第一次联合战争：事件（第252源章第3条）",
       "category": "event",
       "keys": [
@@ -7728,7 +7728,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-252-01",
-      "title": "世界设定事实｜第252源章｜1",
+      "title": "绿皮群体既共享进化魔力也供高阶个体维生",
       "memo": "人类时代与第一次联合战争：世界设定事实（第252源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7753,7 +7753,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-252-02",
-      "title": "世界设定事实｜第252源章｜2",
+      "title": "食人魔连击无法撼动塔罗斯，反因击打黑岩使自身拳骨肌肉破碎",
       "memo": "人类时代与第一次联合战争：世界设定事实（第252源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7779,7 +7779,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-252-01",
-      "title": "新建立连续性｜第252源章｜1",
+      "title": "高阶绿皮维生机制",
       "memo": "人类时代与第一次联合战争：新建立连续性（第252源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7804,7 +7804,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-252-02",
-      "title": "新建立连续性｜第252源章｜2",
+      "title": "塔罗斯一拳终结",
       "memo": "人类时代与第一次联合战争：新建立连续性（第252源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7830,7 +7830,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-252-01",
-      "title": "未解决事项｜第252源章｜1",
+      "title": "战后清剿和制度影响",
       "memo": "人类时代与第一次联合战争：未解决事项（第252源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7855,7 +7855,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-252-01",
-      "title": "主角龙形态｜第252源章｜1",
+      "title": "主角龙形态｜第一次联合战争.(3)｜大角银发本体，与世界树、萨加玛塔从高处远观",
       "memo": "人类时代与第一次联合战争：主角龙形态（第252源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7882,7 +7882,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-252-01",
-      "title": "主角龙状态｜第252源章｜1",
+      "title": "主角龙状态｜第一次联合战争.(3)｜成功用塔罗斯阻止斩首并完成威胁展示",
       "memo": "人类时代与第一次联合战争：主角龙状态（第252源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7908,7 +7908,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-252-01",
-      "title": "主角龙知识边界｜第252源章｜1",
+      "title": "主角龙知识边界｜第一次联合战争.(3)｜战场凡人不知道蒂雅原定放水或绿皮魔力人口模型",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第252源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7934,7 +7934,7 @@
     },
     {
       "id": "era-14-human-age-event-253-01",
-      "title": "事件｜第253源章｜1",
+      "title": "塔罗斯一拳碎食人魔头并带尸返回",
       "memo": "人类时代与第一次联合战争：事件（第253源章第1条）",
       "category": "event",
       "keys": [
@@ -7960,7 +7960,7 @@
     },
     {
       "id": "era-14-human-age-event-253-02",
-      "title": "事件｜第253源章｜2",
+      "title": "战后形成哥布林见即清剿制度、魔法多派理论研究、骑士效仿塔罗斯发展铠甲，以及跨种族关系",
       "memo": "人类时代与第一次联合战争：事件（第253源章第2条）",
       "category": "event",
       "keys": [
@@ -7986,7 +7986,7 @@
     },
     {
       "id": "era-14-human-age-event-253-03",
-      "title": "事件｜第253源章｜3",
+      "title": "蒂雅通过生命教团神谕宣布这是最后一次直接援助，未来属地表众生，神不再亲降",
       "memo": "人类时代与第一次联合战争：事件（第253源章第3条）",
       "category": "event",
       "keys": [
@@ -8013,7 +8013,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-253-01",
-      "title": "世界设定事实｜第253源章｜1",
+      "title": "联合战争后哥布林一经发现必须猎杀，发现霍布或兽人即由领主集军讨伐",
       "memo": "人类时代与第一次联合战争：世界设定事实（第253源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8038,7 +8038,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-253-02",
-      "title": "世界设定事实｜第253源章｜2",
+      "title": "哥布林特殊魔力推动元素，驯兽，强化，治疗，卷轴普及，外物操控",
       "memo": "人类时代与第一次联合战争：世界设定事实（第253源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8063,7 +8063,7 @@
     },
     {
       "id": "era-14-human-age-world-fact-253-03",
-      "title": "世界设定事实｜第253源章｜3",
+      "title": "骑士看到塔罗斯黑甲后开始追求全身防护，早期主要用金属加强要害",
       "memo": "人类时代与第一次联合战争：世界设定事实（第253源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8089,7 +8089,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-253-01",
-      "title": "新建立连续性｜第253源章｜1",
+      "title": "联合战争结束",
       "memo": "人类时代与第一次联合战争：新建立连续性（第253源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8114,7 +8114,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-253-02",
-      "title": "新建立连续性｜第253源章｜2",
+      "title": "魔法理论化",
       "memo": "人类时代与第一次联合战争：新建立连续性（第253源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8139,7 +8139,7 @@
     },
     {
       "id": "era-14-human-age-continuity-new-253-03",
-      "title": "新建立连续性｜第253源章｜3",
+      "title": "神不亲降神谕",
       "memo": "人类时代与第一次联合战争：新建立连续性（第253源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8164,7 +8164,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-253-01",
-      "title": "未解决事项｜第253源章｜1",
+      "title": "蒂雅是否真能长期旁观",
       "memo": "人类时代与第一次联合战争：未解决事项（第253源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8190,7 +8190,7 @@
     },
     {
       "id": "era-14-human-age-unresolved-253-02",
-      "title": "未解决事项｜第253源章｜2",
+      "title": "更高绿皮与地底创造者",
       "memo": "人类时代与第一次联合战争：未解决事项（第253源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8215,7 +8215,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-form-253-01",
-      "title": "主角龙形态｜第253源章｜1",
+      "title": "主角龙形态｜第一次联合战争.(4)｜本体不在战场显形",
       "memo": "人类时代与第一次联合战争：主角龙形态（第253源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8240,7 +8240,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-state-253-01",
-      "title": "主角龙状态｜第253源章｜1",
+      "title": "主角龙状态｜第一次联合战争.(4)｜结束直接地表干预，转为家里蹲式旁观",
       "memo": "人类时代与第一次联合战争：主角龙状态（第253源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8265,7 +8265,7 @@
     },
     {
       "id": "era-14-human-age-protagonist-knowledge-253-01",
-      "title": "主角龙知识边界｜第253源章｜1",
+      "title": "主角龙知识边界｜第一次联合战争.(4)｜神谕接收者不知她仍会回应祈祷、可借非神身份行动的全部细节",
       "memo": "人类时代与第一次联合战争：主角龙知识边界（第253源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8290,7 +8290,7 @@
     },
     {
       "id": "era-14-human-age-secondary-character-01",
-      "title": "次要人物｜世界树",
+      "title": "世界树",
       "memo": "人类时代与第一次联合战争：次要人物 世界树",
       "category": "secondary-character",
       "keys": [

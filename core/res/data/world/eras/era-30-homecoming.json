@@ -3070,7 +3070,7 @@
   "lorebook": [
     {
       "id": "era-30-homecoming-core",
-      "title": "铁路与归乡｜时代边界",
+      "title": "铁路与归乡",
       "memo": "铁路与归乡：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -3085,7 +3085,7 @@
     },
     {
       "id": "era-30-homecoming-event-623-01",
-      "title": "事件｜第623源章｜1",
+      "title": "模拟雷斯由隐瞒勇者身份、具丰富冒险经验和值得信赖队伍的S级冒险者夺冠",
       "memo": "铁路与归乡：事件（第623源章第1条）",
       "category": "event",
       "keys": [
@@ -3111,7 +3111,7 @@
     },
     {
       "id": "era-30-homecoming-event-623-02",
-      "title": "事件｜第623源章｜2",
+      "title": "学院促进跨国跨种族关系、帝国影响扩大、南罗马尼亚因拒绝派人入学而衰落",
       "memo": "铁路与归乡：事件（第623源章第2条）",
       "category": "event",
       "keys": [
@@ -3137,7 +3137,7 @@
     },
     {
       "id": "era-30-homecoming-event-623-03",
-      "title": "事件｜第623源章｜3",
+      "title": "矮人渴望复制电车但缺丰饶女神像魔力，伽拉忒亚II与其合作发明蒸汽机",
       "memo": "铁路与归乡：事件（第623源章第3条）",
       "category": "event",
       "keys": [
@@ -3164,7 +3164,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-623-01",
-      "title": "世界设定事实｜第623源章｜1",
+      "title": "三百年后帝国和学院扩张、南罗马尼亚衰退，跨种族冒险与佣兵团常见",
       "memo": "铁路与归乡：世界设定事实（第623源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3189,7 +3189,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-623-02",
-      "title": "世界设定事实｜第623源章｜2",
+      "title": "学院电车依赖丰饶女神像原件魔力，无法外推",
       "memo": "铁路与归乡：世界设定事实（第623源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3215,7 +3215,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-623-03",
-      "title": "世界设定事实｜第623源章｜3",
+      "title": "矮人蒸汽列车已成型，主要障碍是排外矮人不愿到开阔地铺设铁路",
       "memo": "铁路与归乡：世界设定事实（第623源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3240,7 +3240,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-623-01",
-      "title": "新建立连续性｜第623源章｜1",
+      "title": "S级冒险者勇者夺冠",
       "memo": "铁路与归乡：新建立连续性（第623源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3265,7 +3265,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-623-02",
-      "title": "新建立连续性｜第623源章｜2",
+      "title": "蒸汽机车",
       "memo": "铁路与归乡：新建立连续性（第623源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3290,7 +3290,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-623-03",
-      "title": "新建立连续性｜第623源章｜3",
+      "title": "铁路瓶颈",
       "memo": "铁路与归乡：新建立连续性（第623源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3315,7 +3315,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-623-01",
-      "title": "未解决事项｜第623源章｜1",
+      "title": "铁路组织",
       "memo": "铁路与归乡：未解决事项（第623源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3340,7 +3340,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-623-02",
-      "title": "未解决事项｜第623源章｜2",
+      "title": "露西亚旅行终点",
       "memo": "铁路与归乡：未解决事项（第623源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3366,7 +3366,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-623-01",
-      "title": "主角龙形态｜第623源章｜1",
+      "title": "主角龙形态｜铁路.(1)｜三百年后巡视世界并在萨加玛塔面前活动的人类分身形态",
       "memo": "铁路与归乡：主角龙形态（第623源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3392,7 +3392,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-623-01",
-      "title": "主角龙状态｜第623源章｜1",
+      "title": "主角龙状态｜铁路.(1)｜从勇者治理转向技术文明巡察",
       "memo": "铁路与归乡：主角龙状态（第623源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3417,7 +3417,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-623-01",
-      "title": "主角龙知识边界｜第623源章｜1",
+      "title": "主角龙知识边界｜铁路.(1)｜尚未制定铁路土地与施工解决方案",
       "memo": "铁路与归乡：主角龙知识边界（第623源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3442,7 +3442,7 @@
     },
     {
       "id": "era-30-homecoming-event-624-01",
-      "title": "事件｜第624源章｜1",
+      "title": "未来国际铁路协会宣传册将矮人离开洞穴铺轨描述为改变世界的脚步，但手册几乎无人阅读",
       "memo": "铁路与归乡：事件（第624源章第1条）",
       "category": "event",
       "keys": [
@@ -3467,7 +3467,7 @@
     },
     {
       "id": "era-30-homecoming-event-624-02",
-      "title": "事件｜第624源章｜2",
+      "title": "蒸汽机车性能完善，土地施工困难",
       "memo": "铁路与归乡：事件（第624源章第2条）",
       "category": "event",
       "keys": [
@@ -3494,7 +3494,7 @@
     },
     {
       "id": "era-30-homecoming-event-624-03",
-      "title": "事件｜第624源章｜3",
+      "title": "帝国皇帝曾匿名在学院就读并爱好电车，认可可牵引几十满载大马车的机车",
       "memo": "铁路与归乡：事件（第624源章第3条）",
       "category": "event",
       "keys": [
@@ -3520,7 +3520,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-624-01",
-      "title": "世界设定事实｜第624源章｜1",
+      "title": "矮人蒸汽机车可烧木材、煤炭或发火石，炼金精炼使出力可能超过地球旧式蒸汽机车，已可实用",
       "memo": "铁路与归乡：世界设定事实（第624源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3545,7 +3545,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-624-02",
-      "title": "世界设定事实｜第624源章｜2",
+      "title": "拉皮斯商团数代后堕落，银币之神信仰遭萨加玛塔神罚",
       "memo": "铁路与归乡：世界设定事实（第624源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3572,7 +3572,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-624-03",
-      "title": "世界设定事实｜第624源章｜3",
+      "title": "机车能牵引数十满载大型马车",
       "memo": "铁路与归乡：世界设定事实（第624源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3597,7 +3597,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-624-01",
-      "title": "新建立连续性｜第624源章｜1",
+      "title": "国际铁路协会",
       "memo": "铁路与归乡：新建立连续性（第624源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3622,7 +3622,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-624-02",
-      "title": "新建立连续性｜第624源章｜2",
+      "title": "皇帝学院经历",
       "memo": "铁路与归乡：新建立连续性（第624源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3647,7 +3647,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-624-03",
-      "title": "新建立连续性｜第624源章｜3",
+      "title": "拉皮斯后代神罚",
       "memo": "铁路与归乡：新建立连续性（第624源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3673,7 +3673,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-624-01",
-      "title": "未解决事项｜第624源章｜1",
+      "title": "铁路铺设",
       "memo": "铁路与归乡：未解决事项（第624源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3698,7 +3698,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-624-02",
-      "title": "未解决事项｜第624源章｜2",
+      "title": "拉皮斯证言",
       "memo": "铁路与归乡：未解决事项（第624源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3724,7 +3724,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-624-01",
-      "title": "主角龙形态｜第624源章｜1",
+      "title": "主角龙形态｜铁路.(2)｜帝国守护龙身份介入皇帝与矮人技术谈判",
       "memo": "铁路与归乡：主角龙形态（第624源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3749,7 +3749,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-624-01",
-      "title": "主角龙状态｜第624源章｜1",
+      "title": "主角龙状态｜铁路.(2)｜主动成为铁路落地的政治桥梁",
       "memo": "铁路与归乡：主角龙状态（第624源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3774,7 +3774,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-624-01",
-      "title": "主角龙知识边界｜第624源章｜1",
+      "title": "主角龙知识边界｜铁路.(2)｜拉皮斯商团冲突另一方尚未听取",
       "memo": "铁路与归乡：主角龙知识边界（第624源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3800,7 +3800,7 @@
     },
     {
       "id": "era-30-homecoming-event-625-01",
-      "title": "事件｜第625源章｜1",
+      "title": "帝国与德武夫共同成立国际铁路协会，建设鲁贝洛斯至萨加玛塔的近直线复线示范铁路",
       "memo": "铁路与归乡：事件（第625源章第1条）",
       "category": "event",
       "keys": [
@@ -3826,7 +3826,7 @@
     },
     {
       "id": "era-30-homecoming-event-625-02",
-      "title": "事件｜第625源章｜2",
+      "title": "皇帝与德武夫大锻造师都亲乘首班机车争取首位乘客成就",
       "memo": "铁路与归乡：事件（第625源章第2条）",
       "category": "event",
       "keys": [
@@ -3852,7 +3852,7 @@
     },
     {
       "id": "era-30-homecoming-event-625-03",
-      "title": "事件｜第625源章｜3",
+      "title": "萨加玛塔偷偷搭车来陪母亲，表示求助正确",
       "memo": "铁路与归乡：事件（第625源章第3条）",
       "category": "event",
       "keys": [
@@ -3878,7 +3878,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-625-01",
-      "title": "世界设定事实｜第625源章｜1",
+      "title": "国际铁路协会首期成员为帝国和无正式国家的矮人，首都至萨加玛塔建成复线、桥梁与隧道",
       "memo": "铁路与归乡：世界设定事实（第625源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3904,7 +3904,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-625-02",
-      "title": "世界设定事实｜第625源章｜2",
+      "title": "德武夫大锻造师为任期制职位，领袖意外不会中断制度",
       "memo": "铁路与归乡：世界设定事实（第625源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3930,7 +3930,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-625-03",
-      "title": "世界设定事实｜第625源章｜3",
+      "title": "萨加玛塔本体过于稳固无法快速移动，人类／矮人化身仍需普通交通",
       "memo": "铁路与归乡：世界设定事实（第625源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3956,7 +3956,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-625-01",
-      "title": "新建立连续性｜第625源章｜1",
+      "title": "示范铁路通车",
       "memo": "铁路与归乡：新建立连续性（第625源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3981,7 +3981,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-625-02",
-      "title": "新建立连续性｜第625源章｜2",
+      "title": "首脑首乘",
       "memo": "铁路与归乡：新建立连续性（第625源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4006,7 +4006,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-625-03",
-      "title": "新建立连续性｜第625源章｜3",
+      "title": "萨加玛塔伴侣试探",
       "memo": "铁路与归乡：新建立连续性（第625源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4032,7 +4032,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-625-01",
-      "title": "未解决事项｜第625源章｜1",
+      "title": "伴侣话题",
       "memo": "铁路与归乡：未解决事项（第625源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4057,7 +4057,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-625-02",
-      "title": "未解决事项｜第625源章｜2",
+      "title": "全国铁路扩张",
       "memo": "铁路与归乡：未解决事项（第625源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4082,7 +4082,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-625-01",
-      "title": "主角龙形态｜第625源章｜1",
+      "title": "主角龙形态｜铁路.(3)｜被认知结界隐藏的守护龙人类形态，在铁路仪式与矮人小女孩相处",
       "memo": "铁路与归乡：主角龙形态（第625源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4107,7 +4107,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-625-01",
-      "title": "主角龙状态｜第625源章｜1",
+      "title": "主角龙状态｜铁路.(3)｜亲眼见证铁路时代正式开幕",
       "memo": "铁路与归乡：主角龙状态（第625源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4132,7 +4132,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-625-01",
-      "title": "主角龙知识边界｜第625源章｜1",
+      "title": "主角龙知识边界｜铁路.(3)｜萨加玛塔询问伴侣的真实缘由未知",
       "memo": "铁路与归乡：主角龙知识边界（第625源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4158,7 +4158,7 @@
     },
     {
       "id": "era-30-homecoming-event-626-01",
-      "title": "事件｜第626源章｜1",
+      "title": "主龙认为没有位阶对等对象且自己对伴侣无兴趣",
       "memo": "铁路与归乡：事件（第626源章第1条）",
       "category": "event",
       "keys": [
@@ -4185,7 +4185,7 @@
     },
     {
       "id": "era-30-homecoming-event-626-02",
-      "title": "事件｜第626源章｜2",
+      "title": "帝国规划首都辐射加同心环线并偏向亲皇室贵族领地，分期数十年建设",
       "memo": "铁路与归乡：事件（第626源章第2条）",
       "category": "event",
       "keys": [
@@ -4210,7 +4210,7 @@
     },
     {
       "id": "era-30-homecoming-event-626-03",
-      "title": "事件｜第626源章｜3",
+      "title": "沿海船员不关心陆路而要求把蒸汽机用于船，设想不受风向海流的自由航行",
       "memo": "铁路与归乡：事件（第626源章第3条）",
       "category": "event",
       "keys": [
@@ -4235,7 +4235,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-626-01",
-      "title": "世界设定事实｜第626源章｜1",
+      "title": "主龙认为没有与自己位阶对等者",
       "memo": "铁路与归乡：世界设定事实（第626源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4262,7 +4262,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-626-02",
-      "title": "世界设定事实｜第626源章｜2",
+      "title": "帝国铁路规划以鲁贝洛斯为中心辐射和环线分期建设，站点会偏向亲皇室领地",
       "memo": "铁路与归乡：世界设定事实（第626源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4287,7 +4287,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-626-03",
-      "title": "世界设定事实｜第626源章｜3",
+      "title": "精灵可用移栽、石质枕木和大地精灵支援协商，兽人面临感官污染，沿海社会开始设想蒸汽船",
       "memo": "铁路与归乡：世界设定事实（第626源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4312,7 +4312,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-626-01",
-      "title": "新建立连续性｜第626源章｜1",
+      "title": "主龙无伴侣兴趣",
       "memo": "铁路与归乡：新建立连续性（第626源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4337,7 +4337,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-626-02",
-      "title": "新建立连续性｜第626源章｜2",
+      "title": "铁路跨族争议",
       "memo": "铁路与归乡：新建立连续性（第626源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4362,7 +4362,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-626-03",
-      "title": "新建立连续性｜第626源章｜3",
+      "title": "蒸汽船构想",
       "memo": "铁路与归乡：新建立连续性（第626源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4387,7 +4387,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-626-01",
-      "title": "未解决事项｜第626源章｜1",
+      "title": "萨加玛塔情感",
       "memo": "铁路与归乡：未解决事项（第626源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4413,7 +4413,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-626-02",
-      "title": "未解决事项｜第626源章｜2",
+      "title": "兽人适配",
       "memo": "铁路与归乡：未解决事项（第626源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4438,7 +4438,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-626-01",
-      "title": "主角龙形态｜第626源章｜1",
+      "title": "主角龙形态｜铁路.(4)｜铁路文明观察者与萨加玛塔母亲的人类形态",
       "memo": "铁路与归乡：主角龙形态（第626源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4464,7 +4464,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-626-01",
-      "title": "主角龙状态｜第626源章｜1",
+      "title": "主角龙状态｜铁路.(4)｜铁路扩散交给社会自行解决，私人注意转向女儿情感猜测",
       "memo": "铁路与归乡：主角龙状态（第626源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4489,7 +4489,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-626-01",
-      "title": "主角龙知识边界｜第626源章｜1",
+      "title": "主角龙知识边界｜铁路.(4)｜萨加玛塔动机与可能对象均未确认",
       "memo": "铁路与归乡：主角龙知识边界（第626源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4515,7 +4515,7 @@
     },
     {
       "id": "era-30-homecoming-event-627-01",
-      "title": "事件｜第627源章｜1",
+      "title": "主龙观察萨加玛塔数月，只有伊夫利特与锻造神等普通接触，未发现恋爱证据",
       "memo": "铁路与归乡：事件（第627源章第1条）",
       "category": "event",
       "keys": [
@@ -4542,7 +4542,7 @@
     },
     {
       "id": "era-30-homecoming-event-627-02",
-      "title": "事件｜第627源章｜2",
+      "title": "铁路面临魔物改地形和钢轨盗拆，皇帝决定成立以年轻骑士为主",
       "memo": "铁路与归乡：事件（第627源章第2条）",
       "category": "event",
       "keys": [
@@ -4567,7 +4567,7 @@
     },
     {
       "id": "era-30-homecoming-event-627-03",
-      "title": "事件｜第627源章｜3",
+      "title": "主龙要求生命教团接受铁路变革并派祭司参与",
       "memo": "铁路与归乡：事件（第627源章第3条）",
       "category": "event",
       "keys": [
@@ -4592,7 +4592,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-627-01",
-      "title": "世界设定事实｜第627源章｜1",
+      "title": "铁路风险含魔物改变地形与钢轨被盗，帝国拟设铁路骑士团和警备队作为精锐晋升前级",
       "memo": "铁路与归乡：世界设定事实（第627源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4617,7 +4617,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-627-02",
-      "title": "世界设定事实｜第627源章｜2",
+      "title": "破邪结界仅制造厌恶、不伤害，需祭司持续维持，被攻击时会失效，地下城内只能极短阻挡",
       "memo": "铁路与归乡：世界设定事实（第627源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4642,7 +4642,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-627-03",
-      "title": "世界设定事实｜第627源章｜3",
+      "title": "主龙提出把神圣魔法附魔入物，由伽拉忒亚II和学院炼金术协助试错",
       "memo": "铁路与归乡：世界设定事实（第627源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4668,7 +4668,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-627-01",
-      "title": "新建立连续性｜第627源章｜1",
+      "title": "铁路骑士团",
       "memo": "铁路与归乡：新建立连续性（第627源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4693,7 +4693,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-627-02",
-      "title": "新建立连续性｜第627源章｜2",
+      "title": "破邪结界",
       "memo": "铁路与归乡：新建立连续性（第627源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4718,7 +4718,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-627-03",
-      "title": "新建立连续性｜第627源章｜3",
+      "title": "神圣附魔方向",
       "memo": "铁路与归乡：新建立连续性（第627源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4743,7 +4743,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-627-01",
-      "title": "未解决事项｜第627源章｜1",
+      "title": "装置完成",
       "memo": "铁路与归乡：未解决事项（第627源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4768,7 +4768,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-627-02",
-      "title": "未解决事项｜第627源章｜2",
+      "title": "萨加玛塔恋情无证",
       "memo": "铁路与归乡：未解决事项（第627源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4794,7 +4794,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-627-01",
-      "title": "主角龙形态｜第627源章｜1",
+      "title": "主角龙形态｜铁路.(5)｜生命教团中的女神化身／可直接传授神圣魔法的形态",
       "memo": "铁路与归乡：主角龙形态（第627源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4819,7 +4819,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-627-01",
-      "title": "主角龙状态｜第627源章｜1",
+      "title": "主角龙状态｜铁路.(5)｜为铁路时代调整教团定位后准备退出该线",
       "memo": "铁路与归乡：主角龙状态（第627源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4844,7 +4844,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-627-01",
-      "title": "主角龙知识边界｜第627源章｜1",
+      "title": "主角龙知识边界｜铁路.(5)｜破邪装置尚未造出，具体实现和效果待验证",
       "memo": "铁路与归乡：主角龙知识边界（第627源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4869,7 +4869,7 @@
     },
     {
       "id": "era-30-homecoming-event-628-01",
-      "title": "事件｜第628源章｜1",
+      "title": "伽拉忒亚II制成承载神圣魔法的装置，生命教团以『破邪结界』加入铁路建设与防护",
       "memo": "铁路与归乡：事件（第628源章第1条）",
       "category": "event",
       "keys": [
@@ -4895,7 +4895,7 @@
     },
     {
       "id": "era-30-homecoming-event-628-02",
-      "title": "事件｜第628源章｜2",
+      "title": "异世界学者访谈否认地球这种无魔力，无魔物，神不回应祈祷的平行世界，要求观测证据",
       "memo": "铁路与归乡：事件（第628源章第2条）",
       "category": "event",
       "keys": [
@@ -4920,7 +4920,7 @@
     },
     {
       "id": "era-30-homecoming-event-628-03",
-      "title": "事件｜第628源章｜3",
+      "title": "主龙因本体穿越风险改用现有守护龙分身，向铁路皇帝告假并让阿谢拉特准备万一代理",
       "memo": "铁路与归乡：事件（第628源章第3条）",
       "category": "event",
       "keys": [
@@ -4947,7 +4947,7 @@
     },
     {
       "id": "era-30-homecoming-event-628-04",
-      "title": "事件｜第628源章｜4",
+      "title": "主龙把守护龙分身藏入帝国内无人可达山腹，实体化银门与黑暗中的银色光路",
       "memo": "铁路与归乡：事件（第628源章第4条）",
       "category": "event",
       "keys": [
@@ -4972,7 +4972,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-628-01",
-      "title": "世界设定事实｜第628源章｜1",
+      "title": "伽拉忒亚II已成功制造神圣魔法装置，破邪结界同时用于铁路施工和长期守护",
       "memo": "铁路与归乡：世界设定事实（第628源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4998,7 +4998,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-628-02",
-      "title": "世界设定事实｜第628源章｜2",
+      "title": "世界内已有『地球』平行世界传闻但缺公开观测证据，学者因其无魔力无神回应而否定",
       "memo": "铁路与归乡：世界设定事实（第628源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5023,7 +5023,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-628-03",
-      "title": "世界设定事实｜第628源章｜3",
+      "title": "跨界通道可实体化为银门和银色光路，现可传物质或大量力量",
       "memo": "铁路与归乡：世界设定事实（第628源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5048,7 +5048,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-628-01",
-      "title": "新建立连续性｜第628源章｜1",
+      "title": "银色跨界门",
       "memo": "铁路与归乡：新建立连续性（第628源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5073,7 +5073,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-628-02",
-      "title": "新建立连续性｜第628源章｜2",
+      "title": "守护龙分身回收",
       "memo": "铁路与归乡：新建立连续性（第628源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5098,7 +5098,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-628-03",
-      "title": "新建立连续性｜第628源章｜3",
+      "title": "地球化身塑造开始",
       "memo": "铁路与归乡：新建立连续性（第628源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5123,7 +5123,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-628-01",
-      "title": "未解决事项｜第628源章｜1",
+      "title": "地球形态",
       "memo": "铁路与归乡：未解决事项（第628源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5148,7 +5148,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-628-02",
-      "title": "未解决事项｜第628源章｜2",
+      "title": "跨界结果",
       "memo": "铁路与归乡：未解决事项（第628源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5173,7 +5173,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-628-03",
-      "title": "未解决事项｜第628源章｜3",
+      "title": "露西亚归来",
       "memo": "铁路与归乡：未解决事项（第628源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5199,7 +5199,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-628-01",
-      "title": "主角龙形态｜第628源章｜1",
+      "title": "主角龙形态｜归乡.(1)｜帝国守护龙分身被回收为纯力量，准备在地球重塑",
       "memo": "铁路与归乡：主角龙形态（第628源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5224,7 +5224,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-628-01",
-      "title": "主角龙状态｜第628源章｜1",
+      "title": "主角龙状态｜归乡.(1)｜归乡行动正式开始，是守护龙形态离位与地球化身诞生之间",
       "memo": "铁路与归乡：主角龙状态（第628源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5249,7 +5249,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-628-01",
-      "title": "主角龙知识边界｜第628源章｜1",
+      "title": "主角龙知识边界｜归乡.(1)｜尚不知地球分身是否能成功、会成为什么身体",
       "memo": "铁路与归乡：主角龙知识边界（第628源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5275,7 +5275,7 @@
     },
     {
       "id": "era-30-homecoming-event-629-01",
-      "title": "事件｜第629源章｜1",
+      "title": "地球没有魔力，跨界魔力会不断散逸，主龙必须持续集中精神维持化身",
       "memo": "铁路与归乡：事件（第629源章第1条）",
       "category": "event",
       "keys": [
@@ -5300,7 +5300,7 @@
     },
     {
       "id": "era-30-homecoming-event-629-02",
-      "title": "事件｜第629源章｜2",
+      "title": "地球相对转生世界慢约52万倍，化身眼中的地球近乎静止",
       "memo": "铁路与归乡：事件（第629源章第2条）",
       "category": "event",
       "keys": [
@@ -5325,7 +5325,7 @@
     },
     {
       "id": "era-30-homecoming-event-629-03",
-      "title": "事件｜第629源章｜3",
+      "title": "主龙用怀表把化身体感调至约0.000002倍，地球动作恢复正常，但分身瞬间消散",
       "memo": "铁路与归乡：事件（第629源章第3条）",
       "category": "event",
       "keys": [
@@ -5351,7 +5351,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-629-01",
-      "title": "世界设定事实｜第629源章｜1",
+      "title": "地球不存在魔力",
       "memo": "铁路与归乡：世界设定事实（第629源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5376,7 +5376,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-629-02",
-      "title": "世界设定事实｜第629源章｜2",
+      "title": "转生世界约一年对应地球一分钟，时间流速相差约525600倍",
       "memo": "铁路与归乡：世界设定事实（第629源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5401,7 +5401,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-629-03",
-      "title": "世界设定事实｜第629源章｜3",
+      "title": "主龙判断本体无穷魔力降临地球可能改变生态、令生物变异或造成类似Gate的灾难",
       "memo": "铁路与归乡：世界设定事实（第629源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5426,7 +5426,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-629-04",
-      "title": "世界设定事实｜第629源章｜4",
+      "title": "在地球放慢跨界分身的体感会联动减慢整个转生世界",
       "memo": "铁路与归乡：世界设定事实（第629源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5451,7 +5451,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-629-01",
-      "title": "新建立连续性｜第629源章｜1",
+      "title": "地球白裙化身",
       "memo": "铁路与归乡：新建立连续性（第629源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5476,7 +5476,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-629-02",
-      "title": "新建立连续性｜第629源章｜2",
+      "title": "跨界时间联动",
       "memo": "铁路与归乡：新建立连续性（第629源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5501,7 +5501,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-629-03",
-      "title": "新建立连续性｜第629源章｜3",
+      "title": "六日近停事故",
       "memo": "铁路与归乡：新建立连续性（第629源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5526,7 +5526,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-629-01",
-      "title": "未解决事项｜第629源章｜1",
+      "title": "感知者范围",
       "memo": "铁路与归乡：未解决事项（第629源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5551,7 +5551,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-629-02",
-      "title": "未解决事项｜第629源章｜2",
+      "title": "分身消散机制",
       "memo": "铁路与归乡：未解决事项（第629源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5576,7 +5576,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-629-03",
-      "title": "未解决事项｜第629源章｜3",
+      "title": "安全归乡方法",
       "memo": "铁路与归乡：未解决事项（第629源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5601,7 +5601,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-629-01",
-      "title": "主角龙形态｜第629源章｜1",
+      "title": "主角龙形态｜归乡.(2)｜地球初生化身：朴素白色连衣裙、宽檐帽遮角",
       "memo": "铁路与归乡：主角龙形态（第629源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5626,7 +5626,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-629-01",
-      "title": "主角龙状态｜第629源章｜1",
+      "title": "主角龙状态｜归乡.(2)｜归乡首次落地后遭遇时间联动事故，分身消散，本体留在万神殿",
       "memo": "铁路与归乡：主角龙状态（第629源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5651,7 +5651,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-629-01",
-      "title": "主角龙知识边界｜第629源章｜1",
+      "title": "主角龙知识边界｜归乡.(2)｜尚不知跨界分身为何牵动整个转生世界，也未确认除阿谢拉特外谁感知到停滞",
       "memo": "铁路与归乡：主角龙知识边界（第629源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5677,7 +5677,7 @@
     },
     {
       "id": "era-30-homecoming-event-630-01",
-      "title": "事件｜第630源章｜1",
+      "title": "六日近停事故几乎无实际损失，六名古神子女，部分高位神，冥界三审判官与多数龙族能感知",
       "memo": "铁路与归乡：事件（第630源章第1条）",
       "category": "event",
       "keys": [
@@ -5702,7 +5702,7 @@
     },
     {
       "id": "era-30-homecoming-event-630-02",
-      "title": "事件｜第630源章｜2",
+      "title": "主龙承认实验失败，并说明自己长期回避时间能力",
       "memo": "铁路与归乡：事件（第630源章第2条）",
       "category": "event",
       "keys": [
@@ -5727,7 +5727,7 @@
     },
     {
       "id": "era-30-homecoming-event-630-03",
-      "title": "事件｜第630源章｜3",
+      "title": "本世界内对分身局部减速可正常运作",
       "memo": "铁路与归乡：事件（第630源章第3条）",
       "category": "event",
       "keys": [
@@ -5753,7 +5753,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-630-01",
-      "title": "世界设定事实｜第630源章｜1",
+      "title": "停滞时间的感知与位格相关，古神，少数高位神，冥界审判官和多数龙族能感知",
       "memo": "铁路与归乡：世界设定事实（第630源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5778,7 +5778,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-630-02",
-      "title": "世界设定事实｜第630源章｜2",
+      "title": "主龙的时间权能包括存档、读档、停止、加速和回到过去",
       "memo": "铁路与归乡：世界设定事实（第630源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5803,7 +5803,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-630-03",
-      "title": "世界设定事实｜第630源章｜3",
+      "title": "地球分身的减速会同步影响转生世界整体，构成分身的魔力消耗却按地球时间加快",
       "memo": "铁路与归乡：世界设定事实（第630源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5828,7 +5828,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-630-01",
-      "title": "新建立连续性｜第630源章｜1",
+      "title": "位格决定停时感知",
       "memo": "铁路与归乡：新建立连续性（第630源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5853,7 +5853,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-630-02",
-      "title": "新建立连续性｜第630源章｜2",
+      "title": "时间权能伦理禁忌",
       "memo": "铁路与归乡：新建立连续性（第630源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5878,7 +5878,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-630-03",
-      "title": "新建立连续性｜第630源章｜3",
+      "title": "0.8倍复现实验",
       "memo": "铁路与归乡：新建立连续性（第630源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5903,7 +5903,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-630-01",
-      "title": "未解决事项｜第630源章｜1",
+      "title": "跨界时间联动根因",
       "memo": "铁路与归乡：未解决事项（第630源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5928,7 +5928,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-630-02",
-      "title": "未解决事项｜第630源章｜2",
+      "title": "安全同步方案",
       "memo": "铁路与归乡：未解决事项（第630源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5953,7 +5953,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-630-01",
-      "title": "主角龙形态｜第630源章｜1",
+      "title": "主角龙形态｜归乡.(3)｜生命女神本体在万神殿",
       "memo": "铁路与归乡：主角龙形态（第630源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5978,7 +5978,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-630-01",
-      "title": "主角龙状态｜第630源章｜1",
+      "title": "主角龙状态｜归乡.(3)｜从灾后调查进入时间权能机制实验",
       "memo": "铁路与归乡：主角龙状态（第630源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6003,7 +6003,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-630-01",
-      "title": "主角龙知识边界｜第630源章｜1",
+      "title": "主角龙知识边界｜归乡.(3)｜已知联动和消耗现象，尚不知其根本原因或如何只影响分身",
       "memo": "铁路与归乡：主角龙知识边界（第630源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6028,7 +6028,7 @@
     },
     {
       "id": "era-30-homecoming-event-631-01",
-      "title": "事件｜第631源章｜1",
+      "title": "主龙向阿谢拉特说明无魔力，发展机械工程且会输出转生者知识的异世界",
       "memo": "铁路与归乡：事件（第631源章第1条）",
       "category": "event",
       "keys": [
@@ -6054,7 +6054,7 @@
     },
     {
       "id": "era-30-homecoming-event-631-02",
-      "title": "事件｜第631源章｜2",
+      "title": "阿谢拉特认为无魔力世界除非用于征服否则价值不高",
       "memo": "铁路与归乡：事件（第631源章第2条）",
       "category": "event",
       "keys": [
@@ -6080,7 +6080,7 @@
     },
     {
       "id": "era-30-homecoming-event-631-03",
-      "title": "事件｜第631源章｜3",
+      "title": "阿谢拉特先建议让地球时间加快，再建议先向地球散布魔力",
       "memo": "铁路与归乡：事件（第631源章第3条）",
       "category": "event",
       "keys": [
@@ -6106,7 +6106,7 @@
     },
     {
       "id": "era-30-homecoming-event-631-04",
-      "title": "事件｜第631源章｜4",
+      "title": "归乡暂时搁置，转生者继续特殊管理",
       "memo": "铁路与归乡：事件（第631源章第4条）",
       "category": "event",
       "keys": [
@@ -6131,7 +6131,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-631-01",
-      "title": "世界设定事实｜第631源章｜1",
+      "title": "地球无魔力、发展机械工程",
       "memo": "铁路与归乡：世界设定事实（第631源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6156,7 +6156,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-631-02",
-      "title": "世界设定事实｜第631源章｜2",
+      "title": "两界时间差约52万倍，地球一秒约等于本世界六日",
       "memo": "铁路与归乡：世界设定事实（第631源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6181,7 +6181,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-631-03",
-      "title": "世界设定事实｜第631源章｜3",
+      "title": "向地球散布魔力可能改变当地生态和人类，也会让本世界魔力外流",
       "memo": "铁路与归乡：世界设定事实（第631源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6206,7 +6206,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-631-04",
-      "title": "世界设定事实｜第631源章｜4",
+      "title": "现有通道便于魔力与灵魂往返，但物质通过困难",
       "memo": "铁路与归乡：世界设定事实（第631源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6231,7 +6231,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-631-01",
-      "title": "新建立连续性｜第631源章｜1",
+      "title": "阿谢拉特得知异世界",
       "memo": "铁路与归乡：新建立连续性（第631源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6257,7 +6257,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-631-02",
-      "title": "新建立连续性｜第631源章｜2",
+      "title": "散布魔力方案被否决",
       "memo": "铁路与归乡：新建立连续性（第631源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6282,7 +6282,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-631-03",
-      "title": "新建立连续性｜第631源章｜3",
+      "title": "本体非物质化构想",
       "memo": "铁路与归乡：新建立连续性（第631源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6307,7 +6307,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-631-01",
-      "title": "未解决事项｜第631源章｜1",
+      "title": "安全跨界方法",
       "memo": "铁路与归乡：未解决事项（第631源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6332,7 +6332,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-631-02",
-      "title": "未解决事项｜第631源章｜2",
+      "title": "转生者持续监管",
       "memo": "铁路与归乡：未解决事项（第631源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6357,7 +6357,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-631-01",
-      "title": "主角龙形态｜第631源章｜1",
+      "title": "主角龙形态｜归乡.(4)｜生命女神本体留在万神殿，地球化身方案暂时停止",
       "memo": "铁路与归乡：主角龙形态（第631源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6382,7 +6382,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-631-01",
-      "title": "主角龙状态｜第631源章｜1",
+      "title": "主角龙状态｜归乡.(4)｜公开层面搁置地球，私下继续研究非物质通行",
       "memo": "铁路与归乡：主角龙状态（第631源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6407,7 +6407,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-631-01",
-      "title": "主角龙知识边界｜第631源章｜1",
+      "title": "主角龙知识边界｜归乡.(4)｜阿谢拉特不知道地球是主龙前世故乡，也不知道主龙对食物娱乐的私人渴望",
       "memo": "铁路与归乡：主角龙知识边界（第631源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6433,7 +6433,7 @@
     },
     {
       "id": "era-30-homecoming-event-632-01",
-      "title": "事件｜第632源章｜1",
+      "title": "主龙因归乡风险决定暂放地球",
       "memo": "铁路与归乡：事件（第632源章第1条）",
       "category": "event",
       "keys": [
@@ -6458,7 +6458,7 @@
     },
     {
       "id": "era-30-homecoming-event-632-02",
-      "title": "事件｜第632源章｜2",
+      "title": "地下城、魔王、勇士和帝国威胁多由下属自动解决，失去地球机会使倦怠加深",
       "memo": "铁路与归乡：事件（第632源章第2条）",
       "category": "event",
       "keys": [
@@ -6484,7 +6484,7 @@
     },
     {
       "id": "era-30-homecoming-event-632-03",
-      "title": "事件｜第632源章｜3",
+      "title": "铁路按主龙预期重塑帝国物流与商会",
       "memo": "铁路与归乡：事件（第632源章第3条）",
       "category": "event",
       "keys": [
@@ -6509,7 +6509,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-632-01",
-      "title": "世界设定事实｜第632源章｜1",
+      "title": "主龙只筛选迫切且不救即死的祈祷给予有限帮助",
       "memo": "铁路与归乡：世界设定事实（第632源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6534,7 +6534,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-632-02",
-      "title": "世界设定事实｜第632源章｜2",
+      "title": "铁路令帝国物流和商业快速变化，旧商会受冲击，适应者获得更大机会",
       "memo": "铁路与归乡：世界设定事实（第632源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6559,7 +6559,7 @@
     },
     {
       "id": "era-30-homecoming-world-fact-632-03",
-      "title": "世界设定事实｜第632源章｜3",
+      "title": "鸟人邮件改为铁路车站周边末端配送，收入略降但危险、体力负担降低且自由时间增加",
       "memo": "铁路与归乡：世界设定事实（第632源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6584,7 +6584,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-632-01",
-      "title": "新建立连续性｜第632源章｜1",
+      "title": "归乡后倦怠",
       "memo": "铁路与归乡：新建立连续性（第632源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6609,7 +6609,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-632-02",
-      "title": "新建立连续性｜第632源章｜2",
+      "title": "拒绝制造灾难取乐",
       "memo": "铁路与归乡：新建立连续性（第632源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6634,7 +6634,7 @@
     },
     {
       "id": "era-30-homecoming-continuity-new-632-03",
-      "title": "新建立连续性｜第632源章｜3",
+      "title": "铁路邮件新生态",
       "memo": "铁路与归乡：新建立连续性（第632源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6659,7 +6659,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-632-01",
-      "title": "未解决事项｜第632源章｜1",
+      "title": "如何解除无聊",
       "memo": "铁路与归乡：未解决事项（第632源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6684,7 +6684,7 @@
     },
     {
       "id": "era-30-homecoming-unresolved-632-02",
-      "title": "未解决事项｜第632源章｜2",
+      "title": "再次归乡的安全条件",
       "memo": "铁路与归乡：未解决事项（第632源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6709,7 +6709,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-form-632-01",
-      "title": "主角龙形态｜第632源章｜1",
+      "title": "主角龙形态｜归乡.(5)｜万神殿生命女神本体，守护龙／地球化身未在场",
       "memo": "铁路与归乡：主角龙形态（第632源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6734,7 +6734,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-state-632-01",
-      "title": "主角龙状态｜第632源章｜1",
+      "title": "主角龙状态｜归乡.(5)｜归乡失败后的强烈倦怠期，仍坚守不玩弄真实世界的伦理底线",
       "memo": "铁路与归乡：主角龙状态（第632源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6759,7 +6759,7 @@
     },
     {
       "id": "era-30-homecoming-protagonist-knowledge-632-01",
-      "title": "主角龙知识边界｜第632源章｜1",
+      "title": "主角龙知识边界｜归乡.(5)｜她只从自身预期衡量铁路变化，不代表社会各方没有未被她注意的新经验",
       "memo": "铁路与归乡：主角龙知识边界（第632源章第1条）",
       "category": "knowledge-boundary",
       "keys": [

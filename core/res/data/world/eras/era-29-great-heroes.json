@@ -4209,7 +4209,7 @@
   "lorebook": [
     {
       "id": "era-29-great-heroes-core",
-      "title": "大勇者时代与露西亚远行｜时代边界",
+      "title": "大勇者时代与露西亚远行",
       "memo": "大勇者时代与露西亚远行：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4224,7 +4224,7 @@
     },
     {
       "id": "era-29-great-heroes-event-605-01",
-      "title": "事件｜第605源章｜1",
+      "title": "魔王雷斯原为百年一次、由众勇者争夺讨伐魔王荣耀的竞争",
       "memo": "大勇者时代与露西亚远行：事件（第605源章第1条）",
       "category": "event",
       "keys": [
@@ -4250,7 +4250,7 @@
     },
     {
       "id": "era-29-great-heroes-event-605-02",
-      "title": "事件｜第605源章｜2",
+      "title": "魔王百年降地是主龙以人类人生换取她永久扮演全人类公敌的契约",
       "memo": "大勇者时代与露西亚远行：事件（第605源章第2条）",
       "category": "event",
       "keys": [
@@ -4277,7 +4277,7 @@
     },
     {
       "id": "era-29-great-heroes-event-605-03",
-      "title": "事件｜第605源章｜3",
+      "title": "魔贤者担心勇者互杀牵连神战，主龙相信神选勇者不会蠢到如此并决定约束",
       "memo": "大勇者时代与露西亚远行：事件（第605源章第3条）",
       "category": "event",
       "keys": [
@@ -4303,7 +4303,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-605-01",
-      "title": "世界设定事实｜第605源章｜1",
+      "title": "常规雷斯每四年一次，百年内二十四次",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第605源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4329,7 +4329,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-605-02",
-      "title": "世界设定事实｜第605源章｜2",
+      "title": "魔王以百年公敌角色换取一世人类生活",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第605源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4355,7 +4355,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-605-03",
-      "title": "世界设定事实｜第605源章｜3",
+      "title": "魔王享受人类人生，魔贤者实际掌权",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第605源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4382,7 +4382,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-605-01",
-      "title": "新建立连续性｜第605源章｜1",
+      "title": "雷斯制度",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第605源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4407,7 +4407,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-605-02",
-      "title": "新建立连续性｜第605源章｜2",
+      "title": "魔王WWE式契约",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第605源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4433,7 +4433,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-605-03",
-      "title": "新建立连续性｜第605源章｜3",
+      "title": "勇者互杀风险",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第605源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4458,7 +4458,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-605-01",
-      "title": "未解决事项｜第605源章｜1",
+      "title": "本届冠军",
       "memo": "大勇者时代与露西亚远行：未解决事项（第605源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4483,7 +4483,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-605-02",
-      "title": "未解决事项｜第605源章｜2",
+      "title": "竞争是否失控",
       "memo": "大勇者时代与露西亚远行：未解决事项（第605源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4508,7 +4508,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-605-01",
-      "title": "主角龙形态｜第605源章｜1",
+      "title": "主角龙形态｜魔王雷斯.(1)｜万神殿生命女神本体主持幕后平衡",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第605源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4533,7 +4533,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-605-01",
-      "title": "主角龙状态｜第605源章｜1",
+      "title": "主角龙状态｜魔王雷斯.(1)｜大勇者时代中主动管理魔王雷斯强度与神际风险",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第605源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4559,7 +4559,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-605-01",
-      "title": "主角龙知识边界｜第605源章｜1",
+      "title": "主角龙知识边界｜魔王雷斯.(1)｜尚未发生勇者互杀，主龙只把它视为不至于发生的假设",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第605源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4584,7 +4584,7 @@
     },
     {
       "id": "era-29-great-heroes-event-606-01",
-      "title": "事件｜第606源章｜1",
+      "title": "魔贤者建议无视祈祷减轻工作，主龙严厉拒绝",
       "memo": "大勇者时代与露西亚远行：事件（第606源章第1条）",
       "category": "event",
       "keys": [
@@ -4610,7 +4610,7 @@
     },
     {
       "id": "era-29-great-heroes-event-606-02",
-      "title": "事件｜第606源章｜2",
+      "title": "魔贤者私下明白主龙信仰不减的原因，奇迹要求的深信与康复反馈形成循环",
       "memo": "大勇者时代与露西亚远行：事件（第606源章第2条）",
       "category": "event",
       "keys": [
@@ -4636,7 +4636,7 @@
     },
     {
       "id": "era-29-great-heroes-event-606-03",
-      "title": "事件｜第606源章｜3",
+      "title": "两人针对龙制武器调整魔王军，准备以剑砍不动的敌人反制",
       "memo": "大勇者时代与露西亚远行：事件（第606源章第3条）",
       "category": "event",
       "keys": [
@@ -4664,7 +4664,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-606-01",
-      "title": "世界设定事实｜第606源章｜1",
+      "title": "生命女神奇迹的四类必要性门槛及信仰传达门槛明确，且刻意避免取代正常医疗体系",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第606源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4689,7 +4689,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-606-02",
-      "title": "世界设定事实｜第606源章｜2",
+      "title": "深信、病情好转、奇迹案例传播形成强化生命女神信仰的循环",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第606源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4715,7 +4715,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-606-03",
-      "title": "世界设定事实｜第606源章｜3",
+      "title": "『生命勇者』由阿谢拉特赞助",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第606源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4741,7 +4741,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-606-01",
-      "title": "新建立连续性｜第606源章｜1",
+      "title": "奇迹筛选准则",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第606源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4766,7 +4766,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-606-02",
-      "title": "新建立连续性｜第606源章｜2",
+      "title": "生命勇者属阿谢拉特",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第606源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4792,7 +4792,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-606-03",
-      "title": "新建立连续性｜第606源章｜3",
+      "title": "针对龙制剑反选",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第606源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4817,7 +4817,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-606-01",
-      "title": "未解决事项｜第606源章｜1",
+      "title": "暗助程度",
       "memo": "大勇者时代与露西亚远行：未解决事项（第606源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4842,7 +4842,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-606-02",
-      "title": "未解决事项｜第606源章｜2",
+      "title": "雷斯战局",
       "memo": "大勇者时代与露西亚远行：未解决事项（第606源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4867,7 +4867,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-606-01",
-      "title": "主角龙形态｜第606源章｜1",
+      "title": "主角龙形态｜魔王雷斯.(2)｜万神殿生命女神本体",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第606源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4892,7 +4892,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-606-01",
-      "title": "主角龙状态｜第606源章｜1",
+      "title": "主角龙状态｜魔王雷斯.(2)｜在工作厌倦与无法放弃绝境祈祷之间保持矛盾稳定",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第606源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4917,7 +4917,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-606-01",
-      "title": "主角龙知识边界｜第606源章｜1",
+      "title": "主角龙知识边界｜魔王雷斯.(2)｜不知道魔贤者隐瞒的信仰增强机制判断",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第606源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4943,7 +4943,7 @@
     },
     {
       "id": "era-29-great-heroes-event-607-01",
-      "title": "事件｜第607源章｜1",
+      "title": "魔王城降在帝国西北严寒无人山区，以巨型寒地怪物",
       "memo": "大勇者时代与露西亚远行：事件（第607源章第1条）",
       "category": "event",
       "keys": [
@@ -4969,7 +4969,7 @@
     },
     {
       "id": "era-29-great-heroes-event-607-02",
-      "title": "事件｜第607源章｜2",
+      "title": "万神殿把雷斯变成押注信仰的勇者博彩",
       "memo": "大勇者时代与露西亚远行：事件（第607源章第2条）",
       "category": "event",
       "keys": [
@@ -4994,7 +4994,7 @@
     },
     {
       "id": "era-29-great-heroes-event-607-03",
-      "title": "事件｜第607源章｜3",
+      "title": "博彩源于主龙随口说像赛马、阿谢拉特推动、希雅等综合意见",
       "memo": "大勇者时代与露西亚远行：事件（第607源章第3条）",
       "category": "event",
       "keys": [
@@ -5021,7 +5021,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-607-01",
-      "title": "世界设定事实｜第607源章｜1",
+      "title": "本届魔王城位于帝国西北寒冷山区，守军含巨型寒地怪物、白色哥布林与兽人及寒魔力武器",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第607源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5047,7 +5047,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-607-02",
-      "title": "世界设定事实｜第607源章｜2",
+      "title": "万神殿用巨墙画面直播勇者，显示姓名和赔率",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第607源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5072,7 +5072,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-607-03",
-      "title": "世界设定事实｜第607源章｜3",
+      "title": "主龙是唯一地位足够且未派勇者的公正运营者，博彩按胜者赔付信仰并抽5%手续费",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第607源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5097,7 +5097,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-607-01",
-      "title": "新建立连续性｜第607源章｜1",
+      "title": "严寒魔王城",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第607源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5123,7 +5123,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-607-02",
-      "title": "新建立连续性｜第607源章｜2",
+      "title": "神界雷斯博彩",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第607源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5148,7 +5148,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-607-03",
-      "title": "新建立连续性｜第607源章｜3",
+      "title": "5%手续费",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第607源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5173,7 +5173,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-607-01",
-      "title": "未解决事项｜第607源章｜1",
+      "title": "谁夺冠",
       "memo": "大勇者时代与露西亚远行：未解决事项（第607源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5198,7 +5198,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-607-02",
-      "title": "未解决事项｜第607源章｜2",
+      "title": "博彩副作用",
       "memo": "大勇者时代与露西亚远行：未解决事项（第607源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5223,7 +5223,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-607-01",
-      "title": "主角龙形态｜第607源章｜1",
+      "title": "主角龙形态｜魔王雷斯.(3)｜万神殿生命女神本体，担任雷斯博彩裁判与柜台",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第607源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5248,7 +5248,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-607-01",
-      "title": "主角龙状态｜第607源章｜1",
+      "title": "主角龙状态｜魔王雷斯.(3)｜被额外运营工作淹没但掌握全部下注与裁判系统",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第607源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5273,7 +5273,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-607-01",
-      "title": "主角龙知识边界｜第607源章｜1",
+      "title": "主角龙知识边界｜魔王雷斯.(3)｜魔王本人不知道自己脖子被设为竞赛终点",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第607源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5299,7 +5299,7 @@
     },
     {
       "id": "era-29-great-heroes-event-608-01",
-      "title": "事件｜第608源章｜1",
+      "title": "阿谢拉特因沉迷雷斯而爆发承担数倍秘书工作，主龙用权威",
       "memo": "大勇者时代与露西亚远行：事件（第608源章第1条）",
       "category": "event",
       "keys": [
@@ -5327,7 +5327,7 @@
     },
     {
       "id": "era-29-great-heroes-event-608-02",
-      "title": "事件｜第608源章｜2",
+      "title": "万神殿娱乐匮乏，雷斯博彩引发多巴胺风暴",
       "memo": "大勇者时代与露西亚远行：事件（第608源章第2条）",
       "category": "event",
       "keys": [
@@ -5352,7 +5352,7 @@
     },
     {
       "id": "era-29-great-heroes-event-608-03",
-      "title": "事件｜第608源章｜3",
+      "title": "阿谢拉特反对下注上限",
       "memo": "大勇者时代与露西亚远行：事件（第608源章第3条）",
       "category": "event",
       "keys": [
@@ -5378,7 +5378,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-608-01",
-      "title": "世界设定事实｜第608源章｜1",
+      "title": "万神殿容纳古神、神代诸神、衰落神和靠万神殿续命的小神",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第608源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5403,7 +5403,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-608-02",
-      "title": "世界设定事实｜第608源章｜2",
+      "title": "一个信仰单位等于平均每个信徒一年献上的信仰，实体纸币化后成为万神殿货币",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第608源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5428,7 +5428,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-608-03",
-      "title": "世界设定事实｜第608源章｜3",
+      "title": "生命勇者是阿谢拉特以在生命女神身边获得的资源培育的热门候选，非生命女神直属勇者",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第608源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5454,7 +5454,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-608-01",
-      "title": "新建立连续性｜第608源章｜1",
+      "title": "实体信仰货币",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第608源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5479,7 +5479,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-608-02",
-      "title": "新建立连续性｜第608源章｜2",
+      "title": "神界赌博成瘾",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第608源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5504,7 +5504,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-608-03",
-      "title": "新建立连续性｜第608源章｜3",
+      "title": "失去神位介入红线",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第608源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5529,7 +5529,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-608-01",
-      "title": "未解决事项｜第608源章｜1",
+      "title": "小神是否破产",
       "memo": "大勇者时代与露西亚远行：未解决事项（第608源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5554,7 +5554,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-608-02",
-      "title": "未解决事项｜第608源章｜2",
+      "title": "本届比赛结果",
       "memo": "大勇者时代与露西亚远行：未解决事项（第608源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5579,7 +5579,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-608-01",
-      "title": "主角龙形态｜第608源章｜1",
+      "title": "主角龙形态｜魔王雷斯.(4)｜万神殿裁判与信仰银行式运营者",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第608源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5604,7 +5604,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-608-01",
-      "title": "主角龙状态｜第608源章｜1",
+      "title": "主角龙状态｜魔王雷斯.(4)｜工作增加，但已开始为神界赌博风险设计监管红线",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第608源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5629,7 +5629,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-608-01",
-      "title": "主角龙知识边界｜第608源章｜1",
+      "title": "主角龙知识边界｜魔王雷斯.(4)｜尚无神因赌博失去神位，保障方案只是思考，未实施",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第608源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5654,7 +5654,7 @@
     },
     {
       "id": "era-29-great-heroes-event-609-01",
-      "title": "事件｜第609源章｜1",
+      "title": "同时信仰创世神龙与忒提斯的蜥蜴人水之勇者",
       "memo": "大勇者时代与露西亚远行：事件（第609源章第1条）",
       "category": "event",
       "keys": [
@@ -5681,7 +5681,7 @@
     },
     {
       "id": "era-29-great-heroes-event-609-02",
-      "title": "事件｜第609源章｜2",
+      "title": "水之勇者赔率134倍，扣5%后每1信仰赔128",
       "memo": "大勇者时代与露西亚远行：事件（第609源章第2条）",
       "category": "event",
       "keys": [
@@ -5707,7 +5707,7 @@
     },
     {
       "id": "era-29-great-heroes-event-609-03",
-      "title": "事件｜第609源章｜3",
+      "title": "多名神因输钱濒失神格，少数中奖者神格骤升",
       "memo": "大勇者时代与露西亚远行：事件（第609源章第3条）",
       "category": "event",
       "keys": [
@@ -5732,7 +5732,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-609-01",
-      "title": "世界设定事实｜第609源章｜1",
+      "title": "水之勇者原始赔率134倍，扣费舍弃小数后每1赔128",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第609源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5758,7 +5758,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-609-02",
-      "title": "世界设定事实｜第609源章｜2",
+      "title": "赌博可令神格骤升或濒失",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第609源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5783,7 +5783,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-609-03",
-      "title": "世界设定事实｜第609源章｜3",
+      "title": "大额信仰系统需多神运营会，具规模候选主要是主龙、阿谢拉特、亚瑟、希雅及六古神孩子",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第609源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5810,7 +5810,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-609-01",
-      "title": "新建立连续性｜第609源章｜1",
+      "title": "水之勇者夺冠",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第609源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5835,7 +5835,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-609-02",
-      "title": "新建立连续性｜第609源章｜2",
+      "title": "忒提斯巨额中奖",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第609源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5861,7 +5861,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-609-03",
-      "title": "新建立连续性｜第609源章｜3",
+      "title": "失格神地下城劳动制度",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第609源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5886,7 +5886,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-609-01",
-      "title": "未解决事项｜第609源章｜1",
+      "title": "运营会落实",
       "memo": "大勇者时代与露西亚远行：未解决事项（第609源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5911,7 +5911,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-609-02",
-      "title": "未解决事项｜第609源章｜2",
+      "title": "自动化完成",
       "memo": "大勇者时代与露西亚远行：未解决事项（第609源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5936,7 +5936,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-609-01",
-      "title": "主角龙形态｜第609源章｜1",
+      "title": "主角龙形态｜魔王雷斯.(5)｜万神殿生命女神兼创世神龙被赞颂对象",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第609源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5961,7 +5961,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-609-01",
-      "title": "主角龙状态｜第609源章｜1",
+      "title": "主角龙状态｜魔王雷斯.(5)｜完成首届雷斯清算并把临时博彩推进为独立制度",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第609源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5986,7 +5986,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-609-01",
-      "title": "主角龙知识边界｜第609源章｜1",
+      "title": "主角龙知识边界｜魔王雷斯.(5)｜水之勇者姓名未写",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第609源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6011,7 +6011,7 @@
     },
     {
       "id": "era-29-great-heroes-event-610-01",
-      "title": "事件｜第610源章｜1",
+      "title": "水之勇者的宣言让创世神龙信仰向非蜥蜴人传播，并引出学者研究其与生命女神共同点",
       "memo": "大勇者时代与露西亚远行：事件（第610源章第1条）",
       "category": "event",
       "keys": [
@@ -6039,7 +6039,7 @@
     },
     {
       "id": "era-29-great-heroes-event-610-02",
-      "title": "事件｜第610源章｜2",
+      "title": "露西亚以『人是什么』追问伽拉忒亚II，逐个否定智能，双足社会，近人种族，信神",
       "memo": "大勇者时代与露西亚远行：事件（第610源章第2条）",
       "category": "event",
       "keys": [
@@ -6066,7 +6066,7 @@
     },
     {
       "id": "era-29-great-heroes-event-610-03",
-      "title": "事件｜第610源章｜3",
+      "title": "露西亚要把教授工作交给伽拉忒亚II独自长期旅行",
       "memo": "大勇者时代与露西亚远行：事件（第610源章第3条）",
       "category": "event",
       "keys": [
@@ -6093,7 +6093,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-610-01",
-      "title": "世界设定事实｜第610源章｜1",
+      "title": "创世神龙信仰开始跨出蜥蜴人社会，出现同时信仰生命女神和创世神龙者",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第610源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6118,7 +6118,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-610-02",
-      "title": "世界设定事实｜第610源章｜2",
+      "title": "雷斯运营自动贩卖勇者券并实时显示赔率，由阿谢拉特、希雅、亚瑟运营会管理",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第610源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6145,7 +6145,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-610-03",
-      "title": "世界设定事实｜第610源章｜3",
+      "title": "智能魔物也可能信魔王，巨龙有灵魂和专属死后世界，伽拉忒亚II无通常灵魂却具人性",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第610源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6172,7 +6172,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-610-01",
-      "title": "新建立连续性｜第610源章｜1",
+      "title": "雷斯运营会落地",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第610源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6197,7 +6197,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-610-02",
-      "title": "新建立连续性｜第610源章｜2",
+      "title": "露西亚人类定义疑问",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第610源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6223,7 +6223,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-610-03",
-      "title": "新建立连续性｜第610源章｜3",
+      "title": "露西亚旅行决定",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第610源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6249,7 +6249,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-610-01",
-      "title": "未解决事项｜第610源章｜1",
+      "title": "教授交接",
       "memo": "大勇者时代与露西亚远行：未解决事项（第610源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6274,7 +6274,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-610-02",
-      "title": "未解决事项｜第610源章｜2",
+      "title": "旅行路线",
       "memo": "大勇者时代与露西亚远行：未解决事项（第610源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6299,7 +6299,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-610-03",
-      "title": "未解决事项｜第610源章｜3",
+      "title": "伽拉忒亚分离情绪",
       "memo": "大勇者时代与露西亚远行：未解决事项（第610源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6324,7 +6324,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-610-01",
-      "title": "主角龙形态｜第610源章｜1",
+      "title": "主角龙形态｜旅行.(1)｜生命女神本体工作、守护龙分身清闲，并以观察视角看露西亚",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第610源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6350,7 +6350,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-610-01",
-      "title": "主角龙状态｜第610源章｜1",
+      "title": "主角龙状态｜旅行.(1)｜雷斯制度脱手后，露西亚线进入独立旅行前夜",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第610源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6376,7 +6376,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-610-01",
-      "title": "主角龙知识边界｜第610源章｜1",
+      "title": "主角龙知识边界｜旅行.(1)｜露西亚不知道自己是主龙独立分身",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第610源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6402,7 +6402,7 @@
     },
     {
       "id": "era-29-great-heroes-event-611-01",
-      "title": "事件｜第611源章｜1",
+      "title": "露西亚认真整理交接",
       "memo": "大勇者时代与露西亚远行：事件（第611源章第1条）",
       "category": "event",
       "keys": [
@@ -6429,7 +6429,7 @@
     },
     {
       "id": "era-29-great-heroes-event-611-02",
-      "title": "事件｜第611源章｜2",
+      "title": "露西亚解释旅行源自最初勇者一行为他人舍命的故事和自己从未有普通人生活的疑问",
       "memo": "大勇者时代与露西亚远行：事件（第611源章第2条）",
       "category": "event",
       "keys": [
@@ -6455,7 +6455,7 @@
     },
     {
       "id": "era-29-great-heroes-event-611-03",
-      "title": "事件｜第611源章｜3",
+      "title": "老年学院总长贝尔穆特侯爵拒绝放人，透露皇室密切关注露西亚并暗示希望她继任总长",
       "memo": "大勇者时代与露西亚远行：事件（第611源章第3条）",
       "category": "event",
       "keys": [
@@ -6482,7 +6482,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-611-01",
-      "title": "世界设定事实｜第611源章｜1",
+      "title": "伽拉忒亚II与学院大图书馆联动，远离后性能大幅下降",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第611源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6508,7 +6508,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-611-02",
-      "title": "世界设定事实｜第611源章｜2",
+      "title": "贝尔穆特因成功经营学院从伯爵晋升侯爵，皇室密切关注露西亚并可能授予高爵",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第611源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6534,7 +6534,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-611-01",
-      "title": "新建立连续性｜第611源章｜1",
+      "title": "伽拉忒亚接教授",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第611源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6559,7 +6559,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-611-02",
-      "title": "新建立连续性｜第611源章｜2",
+      "title": "露西亚旅行动机详明",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第611源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6585,7 +6585,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-611-03",
-      "title": "新建立连续性｜第611源章｜3",
+      "title": "贝尔穆特继任邀请",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第611源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6610,7 +6610,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-611-01",
-      "title": "未解决事项｜第611源章｜1",
+      "title": "皇室许可",
       "memo": "大勇者时代与露西亚远行：未解决事项（第611源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6635,7 +6635,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-611-02",
-      "title": "未解决事项｜第611源章｜2",
+      "title": "正式退休",
       "memo": "大勇者时代与露西亚远行：未解决事项（第611源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6660,7 +6660,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-611-01",
-      "title": "主角龙形态｜第611源章｜1",
+      "title": "主角龙形态｜旅行.(2)｜主龙仅以观察者存在",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第611源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6686,7 +6686,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-611-01",
-      "title": "主角龙状态｜第611源章｜1",
+      "title": "主角龙状态｜旅行.(2)｜露西亚完成私人交接但遭学院与皇室制度阻力",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第611源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6712,7 +6712,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-611-01",
-      "title": "主角龙知识边界｜第611源章｜1",
+      "title": "主角龙知识边界｜旅行.(2)｜露西亚不知皇室关注根源是主龙，也不知主龙在观察",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第611源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6738,7 +6738,7 @@
     },
     {
       "id": "era-29-great-heroes-event-612-01",
-      "title": "事件｜第612源章｜1",
+      "title": "露西亚决定借守护龙后台直接写信皇室获准退休，回避自己超过百岁的年龄",
       "memo": "大勇者时代与露西亚远行：事件（第612源章第1条）",
       "category": "event",
       "keys": [
@@ -6764,7 +6764,7 @@
     },
     {
       "id": "era-29-great-heroes-event-612-02",
-      "title": "事件｜第612源章｜2",
+      "title": "伽拉忒亚追问守护龙职责，露西亚形容她为外表庄重、内里以有趣优先且爱睡觉的享乐主义者",
       "memo": "大勇者时代与露西亚远行：事件（第612源章第2条）",
       "category": "event",
       "keys": [
@@ -6790,7 +6790,7 @@
     },
     {
       "id": "era-29-great-heroes-event-612-03",
-      "title": "事件｜第612源章｜3",
+      "title": "主龙提前向现皇传话，露西亚快速获准退休",
       "memo": "大勇者时代与露西亚远行：事件（第612源章第3条）",
       "category": "event",
       "keys": [
@@ -6817,7 +6817,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-612-01",
-      "title": "世界设定事实｜第612源章｜1",
+      "title": "露西亚实际年龄已轻松超过一百岁，但对外含糊处理",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第612源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6843,7 +6843,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-612-02",
-      "title": "世界设定事实｜第612源章｜2",
+      "title": "地下魔力流可称地脉或龙脉，后者被认为可能是蜥蜴人术士以创世神龙作比的叫法",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第612源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6868,7 +6868,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-612-03",
-      "title": "世界设定事实｜第612源章｜3",
+      "title": "学院路面电车销售额虽高但轨道、车辆与魔石维护使经营仅微利",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第612源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6893,7 +6893,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-612-01",
-      "title": "新建立连续性｜第612源章｜1",
+      "title": "露西亚获准退休",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第612源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6919,7 +6919,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-612-02",
-      "title": "新建立连续性｜第612源章｜2",
+      "title": "伽拉忒亚正式接管",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第612源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6944,7 +6944,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-612-03",
-      "title": "新建立连续性｜第612源章｜3",
+      "title": "电车公共财务原则",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第612源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6969,7 +6969,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-612-01",
-      "title": "未解决事项｜第612源章｜1",
+      "title": "露西亚出发与首站",
       "memo": "大勇者时代与露西亚远行：未解决事项（第612源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6995,7 +6995,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-612-02",
-      "title": "未解决事项｜第612源章｜2",
+      "title": "贝尔穆特继任问题",
       "memo": "大勇者时代与露西亚远行：未解决事项（第612源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7020,7 +7020,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-612-01",
-      "title": "主角龙形态｜第612源章｜1",
+      "title": "主角龙形态｜旅行.(3)｜帝国守护龙分身以场外后台行动，露西亚为主要可玩焦点",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第612源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7046,7 +7046,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-612-01",
-      "title": "主角龙状态｜第612源章｜1",
+      "title": "主角龙状态｜旅行.(3)｜露西亚学院退休成功，伽拉忒亚成为正式接班人",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第612源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7072,7 +7072,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-612-01",
-      "title": "主角龙知识边界｜第612源章｜1",
+      "title": "主角龙知识边界｜旅行.(3)｜露西亚仍不知自己是主龙分身，也不知道主龙一直同步观察",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第612源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7098,7 +7098,7 @@
     },
     {
       "id": "era-29-great-heroes-event-613-01",
-      "title": "事件｜第613源章｜1",
+      "title": "露西亚准备以昂贵的蓝塔认知幻象长袍伪装成流浪魔法师，次晨低调出发",
       "memo": "大勇者时代与露西亚远行：事件（第613源章第1条）",
       "category": "event",
       "keys": [
@@ -7125,7 +7125,7 @@
     },
     {
       "id": "era-29-great-heroes-event-613-02",
-      "title": "事件｜第613源章｜2",
+      "title": "学生、社团、职员和警卫以哭喊、感谢、苹果与三明治送别露西亚",
       "memo": "大勇者时代与露西亚远行：事件（第613源章第2条）",
       "category": "event",
       "keys": [
@@ -7151,7 +7151,7 @@
     },
     {
       "id": "era-29-great-heroes-event-613-03",
-      "title": "事件｜第613源章｜3",
+      "title": "伽拉忒亚II以午餐邀请睡眼惺忪，无法使用魔力的未名少女学习炼金术",
       "memo": "大勇者时代与露西亚远行：事件（第613源章第3条）",
       "category": "event",
       "keys": [
@@ -7177,7 +7177,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-613-01",
-      "title": "世界设定事实｜第613源章｜1",
+      "title": "蓝塔长袍让陌生观察者看见各自认知中的普通魔法师",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第613源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7202,7 +7202,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-613-02",
-      "title": "世界设定事实｜第613源章｜2",
+      "title": "当代炼金术可用装置替代知识、魔石替代个人魔力，目标是让无魔力者也能使用",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第613源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7227,7 +7227,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-613-01",
-      "title": "新建立连续性｜第613源章｜1",
+      "title": "露西亚出发",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第613源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7253,7 +7253,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-613-02",
-      "title": "新建立连续性｜第613源章｜2",
+      "title": "蓝塔伪装长袍",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第613源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7278,7 +7278,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-613-03",
-      "title": "新建立连续性｜第613源章｜3",
+      "title": "无魔力炼金学徒线",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第613源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7303,7 +7303,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-613-01",
-      "title": "未解决事项｜第613源章｜1",
+      "title": "首都重逢",
       "memo": "大勇者时代与露西亚远行：未解决事项（第613源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7328,7 +7328,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-613-02",
-      "title": "未解决事项｜第613源章｜2",
+      "title": "少女身份",
       "memo": "大勇者时代与露西亚远行：未解决事项（第613源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7353,7 +7353,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-613-01",
-      "title": "主角龙形态｜第613源章｜1",
+      "title": "主角龙形态｜旅行.(4)｜场外观察的守护龙分身",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第613源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7379,7 +7379,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-613-01",
-      "title": "主角龙状态｜第613源章｜1",
+      "title": "主角龙状态｜旅行.(4)｜露西亚正式离开学院，主龙在首都等待",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第613源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7405,7 +7405,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-613-01",
-      "title": "主角龙知识边界｜第613源章｜1",
+      "title": "主角龙知识边界｜旅行.(4)｜睡眼少女身份及伽拉忒亚未说出口的理由仍未明",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第613源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7431,7 +7431,7 @@
     },
     {
       "id": "era-29-great-heroes-event-614-01",
-      "title": "事件｜第614源章｜1",
+      "title": "露西亚数日马车途中击退魔物和强盗，获运输联合木牌",
       "memo": "大勇者时代与露西亚远行：事件（第614源章第1条）",
       "category": "event",
       "keys": [
@@ -7457,7 +7457,7 @@
     },
     {
       "id": "era-29-great-heroes-event-614-02",
-      "title": "事件｜第614源章｜2",
+      "title": "主龙准备过量香料料理招待露西亚，察觉她百年后食量变化并不强迫",
       "memo": "大勇者时代与露西亚远行：事件（第614源章第2条）",
       "category": "event",
       "keys": [
@@ -7483,7 +7483,7 @@
     },
     {
       "id": "era-29-great-heroes-event-614-03",
-      "title": "事件｜第614源章｜3",
+      "title": "露西亚请求主龙不要注视自己的旅行，并以试探问句揭开主龙一直透过她观察的事实",
       "memo": "大勇者时代与露西亚远行：事件（第614源章第3条）",
       "category": "event",
       "keys": [
@@ -7509,7 +7509,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-614-01",
-      "title": "世界设定事实｜第614源章｜1",
+      "title": "马车运输联合以木牌记录帮助运输者，可让持有者获联合成员款待",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第614源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7534,7 +7534,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-614-02",
-      "title": "世界设定事实｜第614源章｜2",
+      "title": "守护龙旧别宫已成为池塔庭院，极少数人可进入，地下是守护龙住所",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第614源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7559,7 +7559,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-614-03",
-      "title": "世界设定事实｜第614源章｜3",
+      "title": "露西亚可被主龙透过感官观察",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第614源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7585,7 +7585,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-614-01",
-      "title": "新建立连续性｜第614源章｜1",
+      "title": "露西亚百年归家",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第614源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7611,7 +7611,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-614-02",
-      "title": "新建立连续性｜第614源章｜2",
+      "title": "观察事实揭晓",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第614源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7636,7 +7636,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-614-03",
-      "title": "新建立连续性｜第614源章｜3",
+      "title": "停止注视请求",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第614源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7661,7 +7661,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-614-01",
-      "title": "未解决事项｜第614源章｜1",
+      "title": "主龙是否答应",
       "memo": "大勇者时代与露西亚远行：未解决事项（第614源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7686,7 +7686,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-614-02",
-      "title": "未解决事项｜第614源章｜2",
+      "title": "露西亚推断证据",
       "memo": "大勇者时代与露西亚远行：未解决事项（第614源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7712,7 +7712,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-614-01",
-      "title": "主角龙形态｜第614源章｜1",
+      "title": "主角龙形态｜旅行.(5)｜地下龙巢中悠闲躺卧并以人形餐桌招待的守护龙",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第614源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7737,7 +7737,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-614-01",
-      "title": "主角龙状态｜第614源章｜1",
+      "title": "主角龙状态｜旅行.(5)｜与独立分身百年重逢，长期观察关系被揭穿",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第614源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7762,7 +7762,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-614-01",
-      "title": "主角龙知识边界｜第614源章｜1",
+      "title": "主角龙知识边界｜旅行.(5)｜不知道露西亚如何推断，也不知道她请求背后的完整思想",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第614源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7788,7 +7788,7 @@
     },
     {
       "id": "era-29-great-heroes-event-615-01",
-      "title": "事件｜第615源章｜1",
+      "title": "露西亚从人生过度顺利、转生者帮助及提前发出的皇室回信推断自己被观察",
       "memo": "大勇者时代与露西亚远行：事件（第615源章第1条）",
       "category": "event",
       "keys": [
@@ -7814,7 +7814,7 @@
     },
     {
       "id": "era-29-great-heroes-event-615-02",
-      "title": "事件｜第615源章｜2",
+      "title": "主龙承认观察，却隐瞒露西亚是自己无记忆分身的真相",
       "memo": "大勇者时代与露西亚远行：事件（第615源章第2条）",
       "category": "event",
       "keys": [
@@ -7840,7 +7840,7 @@
     },
     {
       "id": "era-29-great-heroes-event-615-03",
-      "title": "事件｜第615源章｜3",
+      "title": "露西亚轻松启程，主龙仅追踪位置和状态，变回巨龙在地下计划沉睡约三百年",
       "memo": "大勇者时代与露西亚远行：事件（第615源章第3条）",
       "category": "event",
       "keys": [
@@ -7866,7 +7866,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-615-01",
-      "title": "世界设定事实｜第615源章｜1",
+      "title": "邮政信件印章记录发送者、时间、地点与目的地，可用于证明不可能的提前回信",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第615源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7891,7 +7891,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-615-02",
-      "title": "世界设定事实｜第615源章｜2",
+      "title": "主龙停止感官观察但保留位置追踪与状态确认，两者在正典中被明确区分",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第615源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7916,7 +7916,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-615-03",
-      "title": "世界设定事实｜第615源章｜3",
+      "title": "守护龙分身计划沉睡三百年",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第615源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7941,7 +7941,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-615-01",
-      "title": "新建立连续性｜第615源章｜1",
+      "title": "停止注视约定",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第615源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7966,7 +7966,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-615-02",
-      "title": "新建立连续性｜第615源章｜2",
+      "title": "最低安全追踪",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第615源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7991,7 +7991,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-615-03",
-      "title": "新建立连续性｜第615源章｜3",
+      "title": "三百年沉睡",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第615源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8016,7 +8016,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-615-01",
-      "title": "未解决事项｜第615源章｜1",
+      "title": "露西亚旅行结果",
       "memo": "大勇者时代与露西亚远行：未解决事项（第615源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8042,7 +8042,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-615-02",
-      "title": "未解决事项｜第615源章｜2",
+      "title": "三百年世界变化",
       "memo": "大勇者时代与露西亚远行：未解决事项（第615源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8067,7 +8067,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-615-01",
-      "title": "主角龙形态｜第615源章｜1",
+      "title": "主角龙形态｜旅行.(6)｜由人类形态变回地下蜷缩的银色巨龙",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第615源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8092,7 +8092,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-615-01",
-      "title": "主角龙状态｜第615源章｜1",
+      "title": "主角龙状态｜旅行.(6)｜主动终止对露西亚的连续观察并进入三百年沉睡",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第615源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8118,7 +8118,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-615-01",
-      "title": "主角龙知识边界｜第615源章｜1",
+      "title": "主角龙知识边界｜旅行.(6)｜不知露西亚真实旅行心理与未来经历，只知位置和是否健康",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第615源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8144,7 +8144,7 @@
     },
     {
       "id": "era-29-great-heroes-event-616-01",
-      "title": "事件｜第616源章｜1",
+      "title": "三百余年间国家无大战，魔王城与学院维持和平",
       "memo": "大勇者时代与露西亚远行：事件（第616源章第1条）",
       "category": "event",
       "keys": [
@@ -8170,7 +8170,7 @@
     },
     {
       "id": "era-29-great-heroes-event-616-02",
-      "title": "事件｜第616源章｜2",
+      "title": "勇者力量及使命被血亲与族人继承，勇者家族逐渐等同贵族",
       "memo": "大勇者时代与露西亚远行：事件（第616源章第2条）",
       "category": "event",
       "keys": [
@@ -8195,7 +8195,7 @@
     },
     {
       "id": "era-29-great-heroes-event-616-03",
-      "title": "事件｜第616源章｜3",
+      "title": "诸神为下届雷斯在不强迫的边缘撮合勇者与优秀者、经营血统",
       "memo": "大勇者时代与露西亚远行：事件（第616源章第3条）",
       "category": "event",
       "keys": [
@@ -8221,7 +8221,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-616-01",
-      "title": "世界设定事实｜第616源章｜1",
+      "title": "三百年无国家大战",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第616源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8246,7 +8246,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-616-02",
-      "title": "世界设定事实｜第616源章｜2",
+      "title": "勇者经验、加持目标和使命可形成世袭勇士家族，其社会地位逐渐等同贵族",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第616源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8271,7 +8271,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-616-03",
-      "title": "世界设定事实｜第616源章｜3",
+      "title": "诸神以自愿相亲经营勇者血统",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第616源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8296,7 +8296,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-616-01",
-      "title": "新建立连续性｜第616源章｜1",
+      "title": "三百年后",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第616源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8321,7 +8321,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-616-02",
-      "title": "新建立连续性｜第616源章｜2",
+      "title": "数百勇士家族",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第616源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8346,7 +8346,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-616-03",
-      "title": "新建立连续性｜第616源章｜3",
+      "title": "弱河神育种策略",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第616源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8371,7 +8371,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-616-01",
-      "title": "未解决事项｜第616源章｜1",
+      "title": "勇者具体社会弊端",
       "memo": "大勇者时代与露西亚远行：未解决事项（第616源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8396,7 +8396,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-616-02",
-      "title": "未解决事项｜第616源章｜2",
+      "title": "露西亚现状",
       "memo": "大勇者时代与露西亚远行：未解决事项（第616源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8422,7 +8422,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-616-01",
-      "title": "主角龙形态｜第616源章｜1",
+      "title": "主角龙形态｜勇者的时代.(1)｜三百年沉睡后醒来的帝国守护龙分身，同时本体保持半睡工作",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第616源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8447,7 +8447,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-616-01",
-      "title": "主角龙状态｜第616源章｜1",
+      "title": "主角龙状态｜勇者的时代.(1)｜面对已成形且不可轻易逆转的勇者家族社会",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第616源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8472,7 +8472,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-616-01",
-      "title": "主角龙知识边界｜第616源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(1)｜露西亚三百年旅行经历仍因停止注视而未知",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第616源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8498,7 +8498,7 @@
     },
     {
       "id": "era-29-great-heroes-event-617-01",
-      "title": "事件｜第617源章｜1",
+      "title": "勇士家族成为神明背书的新阶级，与贵族从敌对转为联姻，凭神加护与血统培养逐渐贵族化",
       "memo": "大勇者时代与露西亚远行：事件（第617源章第1条）",
       "category": "event",
       "keys": [
@@ -8524,7 +8524,7 @@
     },
     {
       "id": "era-29-great-heroes-event-617-02",
-      "title": "事件｜第617源章｜2",
+      "title": "部分家族为优秀后代实施强奸、强制婚配或吸纳平民，最恶者近乎灭门且被神明断绝加护惩罚",
       "memo": "大勇者时代与露西亚远行：事件（第617源章第2条）",
       "category": "event",
       "keys": [
@@ -8550,7 +8550,7 @@
     },
     {
       "id": "era-29-great-heroes-event-617-03",
-      "title": "事件｜第617源章｜3",
+      "title": "三百年里古神孩子们把主龙新居作为会面空间，利用各自力量碎片瞬间往返",
       "memo": "大勇者时代与露西亚远行：事件（第617源章第3条）",
       "category": "event",
       "keys": [
@@ -8576,7 +8576,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-617-01",
-      "title": "世界设定事实｜第617源章｜1",
+      "title": "勇士家族是神背书的新阶级，单名勇者获加护，其余成员多为高潜普通人",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第617源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8601,7 +8601,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-617-02",
-      "title": "世界设定事实｜第617源章｜2",
+      "title": "流浪法官已分担多数审判，让沙马什变得清闲",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第617源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8628,7 +8628,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-617-03",
-      "title": "世界设定事实｜第617源章｜3",
+      "title": "主龙新居的古神力量碎片既可瞬间通行也可联络，成为本体受地域束缚的孩子们会面点",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第617源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8653,7 +8653,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-617-01",
-      "title": "新建立连续性｜第617源章｜1",
+      "title": "勇士贵族化",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第617源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8678,7 +8678,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-617-02",
-      "title": "新建立连续性｜第617源章｜2",
+      "title": "沙马什裁判监察方案",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第617源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8704,7 +8704,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-617-03",
-      "title": "新建立连续性｜第617源章｜3",
+      "title": "古神家庭会所",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第617源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8729,7 +8729,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-617-01",
-      "title": "未解决事项｜第617源章｜1",
+      "title": "清理规模",
       "memo": "大勇者时代与露西亚远行：未解决事项（第617源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8754,7 +8754,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-617-02",
-      "title": "未解决事项｜第617源章｜2",
+      "title": "模拟雷斯",
       "memo": "大勇者时代与露西亚远行：未解决事项（第617源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8779,7 +8779,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-617-01",
-      "title": "主角龙形态｜第617源章｜1",
+      "title": "主角龙形态｜勇者的时代.(2)｜三百年后刚醒、在地下家庭空间饮茶的主龙分身",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第617源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8804,7 +8804,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-617-01",
-      "title": "主角龙状态｜第617源章｜1",
+      "title": "主角龙状态｜勇者的时代.(2)｜准备从制度层面清理勇士家族越界行为",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第617源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8829,7 +8829,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-617-01",
-      "title": "主角龙知识边界｜第617源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(2)｜尚未正式委任沙马什，也未完成违规界线",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第617源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8855,7 +8855,7 @@
     },
     {
       "id": "era-29-great-heroes-event-618-01",
-      "title": "事件｜第618源章｜1",
+      "title": "忒提斯立即召来沙马什",
       "memo": "大勇者时代与露西亚远行：事件（第618源章第1条）",
       "category": "event",
       "keys": [
@@ -8882,7 +8882,7 @@
     },
     {
       "id": "era-29-great-heroes-event-618-02",
-      "title": "事件｜第618源章｜2",
+      "title": "阿谢拉特确认超半数神明经营勇士家族，弱神以血统策略打破大信仰垄断但伴随犯罪",
       "memo": "大勇者时代与露西亚远行：事件（第618源章第2条）",
       "category": "event",
       "keys": [
@@ -8909,7 +8909,7 @@
     },
     {
       "id": "era-29-great-heroes-event-618-03",
-      "title": "事件｜第618源章｜3",
+      "title": "万神殿已擅自举办约11届、每四年一次的模拟雷斯，以率先击败高难地下城Boss夺冠",
       "memo": "大勇者时代与露西亚远行：事件（第618源章第3条）",
       "category": "event",
       "keys": [
@@ -8934,7 +8934,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-618-01",
-      "title": "世界设定事实｜第618源章｜1",
+      "title": "雷斯运营三百年仍由阿谢拉特、希雅、亚瑟主导",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第618源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8961,7 +8961,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-618-02",
-      "title": "世界设定事实｜第618源章｜2",
+      "title": "沙马什不得培养参赛勇者，改任魔王雷斯审判和勇士家族视察者",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第618源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8988,7 +8988,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-618-03",
-      "title": "世界设定事实｜第618源章｜3",
+      "title": "模拟雷斯每四年一次，以高难地下城Boss为目标，已办约11届并摧毁11个地下城",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第618源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9014,7 +9014,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-618-01",
-      "title": "新建立连续性｜第618源章｜1",
+      "title": "沙马什正式监管",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第618源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9040,7 +9040,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-618-02",
-      "title": "新建立连续性｜第618源章｜2",
+      "title": "模拟雷斯11届",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第618源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9065,7 +9065,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-618-03",
-      "title": "新建立连续性｜第618源章｜3",
+      "title": "超半数神经营家族",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第618源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9090,7 +9090,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-618-01",
-      "title": "未解决事项｜第618源章｜1",
+      "title": "地下城补偿",
       "memo": "大勇者时代与露西亚远行：未解决事项（第618源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9115,7 +9115,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-618-02",
-      "title": "未解决事项｜第618源章｜2",
+      "title": "勇士清查",
       "memo": "大勇者时代与露西亚远行：未解决事项（第618源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9140,7 +9140,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-618-01",
-      "title": "主角龙形态｜第618源章｜1",
+      "title": "主角龙形态｜勇者的时代.(3)｜在地下家中与孩子会谈，继而进入万神殿治理视角",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第618源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9165,7 +9165,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-618-01",
-      "title": "主角龙状态｜第618源章｜1",
+      "title": "主角龙状态｜勇者的时代.(3)｜开始修正三百年制度漂移",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第618源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9190,7 +9190,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-618-01",
-      "title": "主角龙知识边界｜第618源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(3)｜只知模拟赛可能损坏地下城，尚未看到支援总部真实危机",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第618源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9215,7 +9215,7 @@
     },
     {
       "id": "era-29-great-heroes-event-619-01",
-      "title": "事件｜第619源章｜1",
+      "title": "11个模拟赛地下城均陷破产，高难地下城四年无法恢复，有城主自毁降难以逃选中",
       "memo": "大勇者时代与露西亚远行：事件（第619源章第1条）",
       "category": "event",
       "keys": [
@@ -9241,7 +9241,7 @@
     },
     {
       "id": "era-29-great-heroes-event-619-02",
-      "title": "事件｜第619源章｜2",
+      "title": "主龙决定用雷斯手续费信仰补偿所有既往受损城主，使其恢复神格升天",
       "memo": "大勇者时代与露西亚远行：事件（第619源章第2条）",
       "category": "event",
       "keys": [
@@ -9266,7 +9266,7 @@
     },
     {
       "id": "era-29-great-heroes-event-619-03",
-      "title": "事件｜第619源章｜3",
+      "title": "阿谢拉特拨付信仰并接受地下城生态必要性",
       "memo": "大勇者时代与露西亚远行：事件（第619源章第3条）",
       "category": "event",
       "keys": [
@@ -9293,7 +9293,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-619-01",
-      "title": "世界设定事实｜第619源章｜1",
+      "title": "高难地下城四年不足恢复，模拟赛激励城主自毁降难",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第619源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9318,7 +9318,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-619-02",
-      "title": "世界设定事实｜第619源章｜2",
+      "title": "DP兑换信仰被刻意定得极贵，原本用于失格神当城主直至重获神格",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第619源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9343,7 +9343,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-619-03",
-      "title": "世界设定事实｜第619源章｜3",
+      "title": "新制度用雷斯手续费给目标城主最低信仰并升天，废墟总部直营，失格神补充新城主",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第619源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9368,7 +9368,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-619-01",
-      "title": "新建立连续性｜第619源章｜1",
+      "title": "模拟赛信仰补偿",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第619源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9393,7 +9393,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-619-02",
-      "title": "新建立连续性｜第619源章｜2",
+      "title": "地下城直营循环",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第619源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9418,7 +9418,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-619-03",
-      "title": "新建立连续性｜第619源章｜3",
+      "title": "流浪法官调查授权",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第619源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9443,7 +9443,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-619-01",
-      "title": "未解决事项｜第619源章｜1",
+      "title": "替代项目",
       "memo": "大勇者时代与露西亚远行：未解决事项（第619源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9468,7 +9468,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-619-02",
-      "title": "未解决事项｜第619源章｜2",
+      "title": "监察结果",
       "memo": "大勇者时代与露西亚远行：未解决事项（第619源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9493,7 +9493,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-619-01",
-      "title": "主角龙形态｜第619源章｜1",
+      "title": "主角龙形态｜勇者的时代.(4)｜生命女神制度设计者，往返地下城总部与万神殿",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第619源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9518,7 +9518,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-619-01",
-      "title": "主角龙状态｜第619源章｜1",
+      "title": "主角龙状态｜勇者的时代.(4)｜修复模拟雷斯生态并启动勇士家族调查",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第619源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9543,7 +9543,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-619-01",
-      "title": "主角龙知识边界｜第619源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(4)｜交替项目尚未设计",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第619源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9568,7 +9568,7 @@
     },
     {
       "id": "era-29-great-heroes-event-620-01",
-      "title": "事件｜第620源章｜1",
+      "title": "勇士家族仗神势抢夺装备，女性，土地和建筑，只挑无强后台者压榨",
       "memo": "大勇者时代与露西亚远行：事件（第620源章第1条）",
       "category": "event",
       "keys": [
@@ -9595,7 +9595,7 @@
     },
     {
       "id": "era-29-great-heroes-event-620-02",
-      "title": "事件｜第620源章｜2",
+      "title": "流浪法官终身游历审判、从合格孩子中收徒，师死传法典",
       "memo": "大勇者时代与露西亚远行：事件（第620源章第2条）",
       "category": "event",
       "keys": [
@@ -9620,7 +9620,7 @@
     },
     {
       "id": "era-29-great-heroes-event-620-03",
-      "title": "事件｜第620源章｜3",
+      "title": "流浪法官迅速肃清犯罪家族，以罪数简易审判乃至死刑",
       "memo": "大勇者时代与露西亚远行：事件（第620源章第3条）",
       "category": "event",
       "keys": [
@@ -9646,7 +9646,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-620-01",
-      "title": "世界设定事实｜第620源章｜1",
+      "title": "犯罪勇士家族对弱者实施装备勒索、强夺女性与土地，面对贵族或古神强后台立即退让",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第620源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9671,7 +9671,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-620-02",
-      "title": "世界设定事实｜第620源章｜2",
+      "title": "流浪法官通过师徒传法典或圣地巡礼传承，兼具祭司、圣骑士和强大战士职责",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第620源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9696,7 +9696,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-620-03",
-      "title": "世界设定事实｜第620源章｜3",
+      "title": "流浪法官按沙马什命令对长期被神际摩擦搁置的家族犯罪实施快速简易审判，包括死刑",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第620源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9722,7 +9722,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-620-01",
-      "title": "新建立连续性｜第620源章｜1",
+      "title": "流浪法官大清洗",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第620源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9747,7 +9747,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-620-02",
-      "title": "新建立连续性｜第620源章｜2",
+      "title": "犯罪家族覆灭",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第620源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9772,7 +9772,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-620-03",
-      "title": "新建立连续性｜第620源章｜3",
+      "title": "合法家族保留",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第620源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9797,7 +9797,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-620-01",
-      "title": "未解决事项｜第620源章｜1",
+      "title": "清洗后社会整合",
       "memo": "大勇者时代与露西亚远行：未解决事项（第620源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9822,7 +9822,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-620-02",
-      "title": "未解决事项｜第620源章｜2",
+      "title": "勇士时代后续",
       "memo": "大勇者时代与露西亚远行：未解决事项（第620源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9847,7 +9847,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-620-01",
-      "title": "主角龙形态｜第620源章｜1",
+      "title": "主角龙形态｜勇者的时代.(5)｜万神殿中观察人间执法与诸神反应的生命女神",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第620源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9872,7 +9872,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-620-01",
-      "title": "主角龙状态｜第620源章｜1",
+      "title": "主角龙状态｜勇者的时代.(5)｜勇者时代第一次大清洗完成",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第620源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9897,7 +9897,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-620-01",
-      "title": "主角龙知识边界｜第620源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(5)｜只希望问题减少，无法保证勇士制度未来不再变质",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第620源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9922,7 +9922,7 @@
     },
     {
       "id": "era-29-great-heroes-event-621-01",
-      "title": "事件｜第621源章｜1",
+      "title": "叙事将勇士家族暴行，受害者哀恸传至万神殿及最高神授权光神审判",
       "memo": "大勇者时代与露西亚远行：事件（第621源章第1条）",
       "category": "event",
       "keys": [
@@ -9947,7 +9947,7 @@
     },
     {
       "id": "era-29-great-heroes-event-621-02",
-      "title": "事件｜第621源章｜2",
+      "title": "一群躲避流浪法官的犯罪家族成员被未名影之复仇者诱入怨恨墓地并屠杀",
       "memo": "大勇者时代与露西亚远行：事件（第621源章第2条）",
       "category": "event",
       "keys": [
@@ -9972,7 +9972,7 @@
     },
     {
       "id": "era-29-great-heroes-event-621-03",
-      "title": "事件｜第621源章｜3",
+      "title": "主龙得知逃犯被复仇者杀死，认为自作自受",
       "memo": "大勇者时代与露西亚远行：事件（第621源章第3条）",
       "category": "event",
       "keys": [
@@ -9998,7 +9998,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-621-01",
-      "title": "世界设定事实｜第621源章｜1",
+      "title": "流浪法官之光斩生物容易、斩岩石等无机物稍慢",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第621源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10023,7 +10023,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-621-02",
-      "title": "世界设定事实｜第621源章｜2",
+      "title": "勇士家族大审判预计约三个月完成，万神殿变化使过去有神加护而不可触碰的势力失去保护",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第621源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10048,7 +10048,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-621-01",
-      "title": "新建立连续性｜第621源章｜1",
+      "title": "影之复仇者",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第621源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10073,7 +10073,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-621-02",
-      "title": "新建立连续性｜第621源章｜2",
+      "title": "三月清洗期",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第621源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10098,7 +10098,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-621-03",
-      "title": "新建立连续性｜第621源章｜3",
+      "title": "阿谢拉特代理人",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第621源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10124,7 +10124,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-621-01",
-      "title": "未解决事项｜第621源章｜1",
+      "title": "复仇者身份",
       "memo": "大勇者时代与露西亚远行：未解决事项（第621源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10149,7 +10149,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-621-02",
-      "title": "未解决事项｜第621源章｜2",
+      "title": "代理制度成熟",
       "memo": "大勇者时代与露西亚远行：未解决事项（第621源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10174,7 +10174,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-621-01",
-      "title": "主角龙形态｜第621源章｜1",
+      "title": "主角龙形态｜勇者的时代.(6)｜万神殿最高神与阿谢拉特对话",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第621源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10200,7 +10200,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-621-01",
-      "title": "主角龙状态｜第621源章｜1",
+      "title": "主角龙状态｜勇者的时代.(6)｜开始把自己未来缺席时的治理权明确交给代理",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第621源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10225,7 +10225,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-621-01",
-      "title": "主角龙知识边界｜第621源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(6)｜影之复仇者姓名、身份、同伴及是否与流浪法官有关均未明，不得推断",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第621源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10250,7 +10250,7 @@
     },
     {
       "id": "era-29-great-heroes-event-622-01",
-      "title": "事件｜第622源章｜1",
+      "title": "地球通道现已大到可输送主龙力量形成分身",
       "memo": "大勇者时代与露西亚远行：事件（第622源章第1条）",
       "category": "event",
       "keys": [
@@ -10275,7 +10275,7 @@
     },
     {
       "id": "era-29-great-heroes-event-622-02",
-      "title": "事件｜第622源章｜2",
+      "title": "勇士家族审判收尾：恶神受高额罚款甚至失格下地，犯罪家族覆灭或被贵族吸收",
       "memo": "大勇者时代与露西亚远行：事件（第622源章第2条）",
       "category": "event",
       "keys": [
@@ -10300,7 +10300,7 @@
     },
     {
       "id": "era-29-great-heroes-event-622-03",
-      "title": "事件｜第622源章｜3",
+      "title": "主龙因人类反复滥权开始厌倦，却明确拒绝毁灭世界、毁灭神龙觉醒或永眠停转",
       "memo": "大勇者时代与露西亚远行：事件（第622源章第3条）",
       "category": "event",
       "keys": [
@@ -10326,7 +10326,7 @@
     },
     {
       "id": "era-29-great-heroes-event-622-04",
-      "title": "事件｜第622源章｜4",
+      "title": "主龙增加阿谢拉特职责并考虑给她正式神格，真正目标是最终把全部工作交出去",
       "memo": "大勇者时代与露西亚远行：事件（第622源章第4条）",
       "category": "event",
       "keys": [
@@ -10352,7 +10352,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-622-01",
-      "title": "世界设定事实｜第622源章｜1",
+      "title": "地球通道现可让主龙力量形成分身，但本体不能物理穿越，两界时间差仍限制行动",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第622源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10377,7 +10377,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-622-02",
-      "title": "世界设定事实｜第622源章｜2",
+      "title": "恶神被罚款可跌出神格成为新地下城主",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第622源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10402,7 +10402,7 @@
     },
     {
       "id": "era-29-great-heroes-world-fact-622-03",
-      "title": "世界设定事实｜第622源章｜3",
+      "title": "古老预言存在毁灭神龙觉醒及世界因主龙无聊永眠而停转的图景，但主龙明确拒绝",
       "memo": "大勇者时代与露西亚远行：世界设定事实（第622源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10427,7 +10427,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-622-01",
-      "title": "新建立连续性｜第622源章｜1",
+      "title": "地球分身技术成熟",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第622源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10452,7 +10452,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-622-02",
-      "title": "新建立连续性｜第622源章｜2",
+      "title": "主龙人类倦怠",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第622源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10477,7 +10477,7 @@
     },
     {
       "id": "era-29-great-heroes-continuity-new-622-03",
-      "title": "新建立连续性｜第622源章｜3",
+      "title": "阿谢拉特正式神格计划",
       "memo": "大勇者时代与露西亚远行：新建立连续性（第622源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10503,7 +10503,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-622-01",
-      "title": "未解决事项｜第622源章｜1",
+      "title": "回归执行",
       "memo": "大勇者时代与露西亚远行：未解决事项（第622源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10528,7 +10528,7 @@
     },
     {
       "id": "era-29-great-heroes-unresolved-622-02",
-      "title": "未解决事项｜第622源章｜2",
+      "title": "代理成熟",
       "memo": "大勇者时代与露西亚远行：未解决事项（第622源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10553,7 +10553,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-form-622-01",
-      "title": "主角龙形态｜第622源章｜1",
+      "title": "主角龙形态｜勇者的时代.(7)｜生命女神本体筹备离位，守护龙分身可解除并在地球重制",
       "memo": "大勇者时代与露西亚远行：主角龙形态（第622源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10578,7 +10578,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-state-622-01",
-      "title": "主角龙状态｜第622源章｜1",
+      "title": "主角龙状态｜勇者的时代.(7)｜技术已可回地球，但治理准备未完",
       "memo": "大勇者时代与露西亚远行：主角龙状态（第622源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10603,7 +10603,7 @@
     },
     {
       "id": "era-29-great-heroes-protagonist-knowledge-622-01",
-      "title": "主角龙知识边界｜第622源章｜1",
+      "title": "主角龙知识边界｜勇者的时代.(7)｜地球时间差解决办法未知，正式回归时点未定",
       "memo": "大勇者时代与露西亚远行：主角龙知识边界（第622源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10629,7 +10629,7 @@
     },
     {
       "id": "era-29-great-heroes-secondary-character-01",
-      "title": "次要人物｜贝尔穆特侯爵",
+      "title": "贝尔穆特侯爵",
       "memo": "大勇者时代与露西亚远行：次要人物 贝尔穆特侯爵",
       "category": "secondary-character",
       "keys": [
@@ -10655,7 +10655,7 @@
     },
     {
       "id": "era-29-great-heroes-secondary-character-02",
-      "title": "次要人物｜流浪法官群体",
+      "title": "流浪法官群体",
       "memo": "大勇者时代与露西亚远行：次要人物 流浪法官群体",
       "category": "secondary-character",
       "keys": [],
@@ -10679,7 +10679,7 @@
     },
     {
       "id": "era-29-great-heroes-secondary-character-03",
-      "title": "次要人物｜睡眼惺忪少女（姓名未明）",
+      "title": "睡眼惺忪少女（姓名未明）",
       "memo": "大勇者时代与露西亚远行：次要人物 睡眼惺忪少女（姓名未明）",
       "category": "secondary-character",
       "keys": [],
@@ -10703,7 +10703,7 @@
     },
     {
       "id": "era-29-great-heroes-secondary-character-04",
-      "title": "次要人物｜希雅与亚瑟",
+      "title": "希雅与亚瑟",
       "memo": "大勇者时代与露西亚远行：次要人物 希雅与亚瑟",
       "category": "secondary-character",
       "keys": [
@@ -10729,7 +10729,7 @@
     },
     {
       "id": "era-29-great-heroes-secondary-character-05",
-      "title": "次要人物｜影之复仇者（姓名未明）",
+      "title": "影之复仇者（姓名未明）",
       "memo": "大勇者时代与露西亚远行：次要人物 影之复仇者（姓名未明）",
       "category": "secondary-character",
       "keys": [],

@@ -1512,7 +1512,7 @@
   "lorebook": [
     {
       "id": "era-03-dragon-war-core",
-      "title": "龙之战与龙时代终结｜时代边界",
+      "title": "龙之战与龙时代终结",
       "memo": "龙之战与龙时代终结：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1527,7 +1527,7 @@
     },
     {
       "id": "era-03-dragon-war-event-18-01",
-      "title": "事件｜第18源章｜1",
+      "title": "龙出生率下降且社会趋稳，主角因少有人来访而孤独，留下字条后在高山第一次沉睡",
       "memo": "龙之战与龙时代终结：事件（第18源章第1条）",
       "category": "event",
       "keys": [
@@ -1552,7 +1552,7 @@
     },
     {
       "id": "era-03-dragon-war-event-18-02",
-      "title": "事件｜第18源章｜2",
+      "title": "未知时长后主角被战争声唤醒",
       "memo": "龙之战与龙时代终结：事件（第18源章第2条）",
       "category": "event",
       "keys": [
@@ -1577,7 +1577,7 @@
     },
     {
       "id": "era-03-dragon-war-event-18-03",
-      "title": "事件｜第18源章｜3",
+      "title": "成年红龙火焰只能让主角感到温热",
       "memo": "龙之战与龙时代终结：事件（第18源章第3条）",
       "category": "event",
       "keys": [
@@ -1602,7 +1602,7 @@
     },
     {
       "id": "era-03-dragon-war-event-18-04",
-      "title": "事件｜第18源章｜4",
+      "title": "战争毁坏主角旧洞穴、蜥蜴人神庙和生态",
       "memo": "龙之战与龙时代终结：事件（第18源章第4条）",
       "category": "event",
       "keys": [
@@ -1627,7 +1627,7 @@
     },
     {
       "id": "era-03-dragon-war-event-18-05",
-      "title": "事件｜第18源章｜5",
+      "title": "冲突起因是黑龙扩张领地、金龙杀死珍稀幼龙，其他鳞色因立场参战",
       "memo": "龙之战与龙时代终结：事件（第18源章第5条）",
       "category": "event",
       "keys": [
@@ -1652,7 +1652,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-18-01",
-      "title": "世界设定事实｜第18源章｜1",
+      "title": "主角的第一次沉睡是身体睡眠、意识仍醒，并可浏览异世界网络",
       "memo": "龙之战与龙时代终结：世界设定事实（第18源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -1677,7 +1677,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-18-02",
-      "title": "世界设定事实｜第18源章｜2",
+      "title": "低出生率使每只幼龙极珍贵",
       "memo": "龙之战与龙时代终结：世界设定事实（第18源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -1702,7 +1702,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-18-01",
-      "title": "新建立连续性｜第18源章｜1",
+      "title": "第一次沉睡",
       "memo": "龙之战与龙时代终结：新建立连续性（第18源章第1条）",
       "category": "continuity",
       "keys": [
@@ -1727,7 +1727,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-18-02",
-      "title": "新建立连续性｜第18源章｜2",
+      "title": "全面龙战",
       "memo": "龙之战与龙时代终结：新建立连续性（第18源章第2条）",
       "category": "continuity",
       "keys": [
@@ -1752,7 +1752,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-18-03",
-      "title": "新建立连续性｜第18源章｜3",
+      "title": "言灵式停止",
       "memo": "龙之战与龙时代终结：新建立连续性（第18源章第3条）",
       "category": "continuity",
       "keys": [
@@ -1777,7 +1777,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-18-04",
-      "title": "新建立连续性｜第18源章｜4",
+      "title": "主角首次明确杀死成年龙",
       "memo": "龙之战与龙时代终结：新建立连续性（第18源章第4条）",
       "category": "continuity",
       "keys": [
@@ -1802,7 +1802,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-18-01",
-      "title": "未解决事项｜第18源章｜1",
+      "title": "沉睡时长",
       "memo": "龙之战与龙时代终结：未解决事项（第18源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -1827,7 +1827,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-18-02",
-      "title": "未解决事项｜第18源章｜2",
+      "title": "七个孩子责任",
       "memo": "龙之战与龙时代终结：未解决事项（第18源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -1852,7 +1852,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-form-18-01",
-      "title": "主角龙形态｜第18源章｜1",
+      "title": "主角龙形态｜龙之战｜巨大银色原初龙",
       "memo": "龙之战与龙时代终结：主角龙形态（第18源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1877,7 +1877,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-state-18-01",
-      "title": "主角龙状态｜第18源章｜1",
+      "title": "主角龙状态｜龙之战｜结束第一次长睡后，由被遗忘的祖辈重新成为战场最高权威",
       "memo": "龙之战与龙时代终结：主角龙状态（第18源章第1条）",
       "category": "character-state",
       "keys": [
@@ -1902,7 +1902,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-knowledge-18-01",
-      "title": "主角龙知识边界｜第18源章｜1",
+      "title": "主角龙知识边界｜龙之战｜刚醒时不知道沉睡时长和战争成因",
       "memo": "龙之战与龙时代终结：主角龙知识边界（第18源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -1927,7 +1927,7 @@
     },
     {
       "id": "era-03-dragon-war-event-19-01",
-      "title": "事件｜第19源章｜1",
+      "title": "七个孩子承认未能制止后代",
       "memo": "龙之战与龙时代终结：事件（第19源章第1条）",
       "category": "event",
       "keys": [
@@ -1953,7 +1953,7 @@
     },
     {
       "id": "era-03-dragon-war-event-19-02",
-      "title": "事件｜第19源章｜2",
+      "title": "主角用怀表把整个世界倒回约一个月，其他角色失去回溯前记忆，主角保留记忆",
       "memo": "龙之战与龙时代终结：事件（第19源章第2条）",
       "category": "event",
       "keys": [
@@ -1978,7 +1978,7 @@
     },
     {
       "id": "era-03-dragon-war-event-19-03",
-      "title": "事件｜第19源章｜3",
+      "title": "她禁止任何龙伤害幼崽，并规定所有鳞色共同消灭犯者，以杜绝原战争借口",
       "memo": "龙之战与龙时代终结：事件（第19源章第3条）",
       "category": "event",
       "keys": [
@@ -2003,7 +2003,7 @@
     },
     {
       "id": "era-03-dragon-war-event-19-04",
-      "title": "事件｜第19源章｜4",
+      "title": "即便幼崽规则生效，红黑龙仍因冲突互杀",
       "memo": "龙之战与龙时代终结：事件（第19源章第4条）",
       "category": "event",
       "keys": [
@@ -2028,7 +2028,7 @@
     },
     {
       "id": "era-03-dragon-war-event-19-05",
-      "title": "事件｜第19源章｜5",
+      "title": "未来时间点请求回溯",
       "memo": "龙之战与龙时代终结：事件（第19源章第5条）",
       "category": "event",
       "keys": [
@@ -2053,7 +2053,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-19-01",
-      "title": "世界设定事实｜第19源章｜1",
+      "title": "世界级时间回溯需与过去点同步",
       "memo": "龙之战与龙时代终结：世界设定事实（第19源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2078,7 +2078,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-19-02",
-      "title": "世界设定事实｜第19源章｜2",
+      "title": "未来点也可向当前请求回溯并传来失败时间线记忆",
       "memo": "龙之战与龙时代终结：世界设定事实（第19源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2103,7 +2103,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-19-01",
-      "title": "新建立连续性｜第19源章｜1",
+      "title": "世界级回溯",
       "memo": "龙之战与龙时代终结：新建立连续性（第19源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2128,7 +2128,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-19-02",
-      "title": "新建立连续性｜第19源章｜2",
+      "title": "幼崽保护铁律",
       "memo": "龙之战与龙时代终结：新建立连续性（第19源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2153,7 +2153,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-19-03",
-      "title": "新建立连续性｜第19源章｜3",
+      "title": "压制导致灭世的失败未来",
       "memo": "龙之战与龙时代终结：新建立连续性（第19源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2178,7 +2178,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-19-01",
-      "title": "未解决事项｜第19源章｜1",
+      "title": "如何在不压迫下终止争斗",
       "memo": "龙之战与龙时代终结：未解决事项（第19源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2203,7 +2203,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-form-19-01",
-      "title": "主角龙形态｜第19源章｜1",
+      "title": "主角龙形态｜龙之战（2）｜巨大银龙，长睡后仍僵硬酸痛",
       "memo": "龙之战与龙时代终结：主角龙形态（第19源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2228,7 +2228,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-state-19-01",
-      "title": "主角龙状态｜第19源章｜1",
+      "title": "主角龙状态｜龙之战（2）｜成为唯一记得多条失败时间线的人，开始从规则和未来反馈中寻找非压迫方案",
       "memo": "龙之战与龙时代终结：主角龙状态（第19源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2253,7 +2253,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-knowledge-19-01",
-      "title": "主角龙知识边界｜第19源章｜1",
+      "title": "主角龙知识边界｜龙之战（2）｜知道至少两个已回溯未来，但七孩子和其他龙不知道",
       "memo": "龙之战与龙时代终结：主角龙知识边界（第19源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2278,7 +2278,7 @@
     },
     {
       "id": "era-03-dragon-war-event-20-01",
-      "title": "事件｜第20源章｜1",
+      "title": "主角把各鳞色后代的管理责任交给七个孩子，并设定惩罚",
       "memo": "龙之战与龙时代终结：事件（第20源章第1条）",
       "category": "event",
       "keys": [
@@ -2303,7 +2303,7 @@
     },
     {
       "id": "era-03-dragon-war-event-20-02",
-      "title": "事件｜第20源章｜2",
+      "title": "她承诺连续一百年不杀其他龙即可得到力所能及的任何奖励，失败则收回母鳞",
       "memo": "龙之战与龙时代终结：事件（第20源章第2条）",
       "category": "event",
       "keys": [
@@ -2328,7 +2328,7 @@
     },
     {
       "id": "era-03-dragon-war-event-20-03",
-      "title": "事件｜第20源章｜3",
+      "title": "龙钻漏洞进行不致死却断翼断肢的战争",
       "memo": "龙之战与龙时代终结：事件（第20源章第3条）",
       "category": "event",
       "keys": [
@@ -2353,7 +2353,7 @@
     },
     {
       "id": "era-03-dragon-war-event-20-04",
-      "title": "事件｜第20源章｜4",
+      "title": "百年内最终仍发生死亡：伊弗利特因红龙杀黑龙而失鳞化火",
       "memo": "龙之战与龙时代终结：事件（第20源章第4条）",
       "category": "event",
       "keys": [
@@ -2380,7 +2380,7 @@
     },
     {
       "id": "era-03-dragon-war-event-20-05",
-      "title": "事件｜第20源章｜5",
+      "title": "主角为让龙认识更大恐惧，召唤足以灭世的山般陨石",
       "memo": "龙之战与龙时代终结：事件（第20源章第5条）",
       "category": "event",
       "keys": [
@@ -2405,7 +2405,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-20-01",
-      "title": "世界设定事实｜第20源章｜1",
+      "title": "龙只把同鳞色视为家人",
       "memo": "龙之战与龙时代终结：世界设定事实（第20源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2430,7 +2430,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-20-01",
-      "title": "新建立连续性｜第20源章｜1",
+      "title": "百年奖惩实验",
       "memo": "龙之战与龙时代终结：新建立连续性（第20源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2455,7 +2455,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-20-02",
-      "title": "新建立连续性｜第20源章｜2",
+      "title": "伊弗利特失鳞",
       "memo": "龙之战与龙时代终结：新建立连续性（第20源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2481,7 +2481,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-20-03",
-      "title": "新建立连续性｜第20源章｜3",
+      "title": "灭世陨石威慑",
       "memo": "龙之战与龙时代终结：新建立连续性（第20源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2506,7 +2506,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-20-01",
-      "title": "未解决事项｜第20源章｜1",
+      "title": "主角是否真会让陨石撞击",
       "memo": "龙之战与龙时代终结：未解决事项（第20源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2531,7 +2531,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-20-02",
-      "title": "未解决事项｜第20源章｜2",
+      "title": "六孩子惩罚结果",
       "memo": "龙之战与龙时代终结：未解决事项（第20源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2556,7 +2556,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-form-20-01",
-      "title": "主角龙形态｜第20源章｜1",
+      "title": "主角龙形态｜龙之战（3）｜巨大银龙",
       "memo": "龙之战与龙时代终结：主角龙形态（第20源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2581,7 +2581,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-state-20-01",
-      "title": "主角龙状态｜第20源章｜1",
+      "title": "主角龙状态｜龙之战（3）｜经历大量只有自己记得的失败循环后，慈爱耐心耗尽但仍控制毁灭冲动",
       "memo": "龙之战与龙时代终结：主角龙状态（第20源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2606,7 +2606,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-knowledge-20-01",
-      "title": "主角龙知识边界｜第20源章｜1",
+      "title": "主角龙知识边界｜龙之战（3）｜七孩子不知道循环次数和失败未来",
       "memo": "龙之战与龙时代终结：主角龙知识边界（第20源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2631,7 +2631,7 @@
     },
     {
       "id": "era-03-dragon-war-event-21-01",
-      "title": "事件｜第21源章｜1",
+      "title": "主角明确不让陨石撞击，以银色毁灭吐息把山般陨石彻底转化为魔力，展示绝对力量",
       "memo": "龙之战与龙时代终结：事件（第21源章第1条）",
       "category": "event",
       "keys": [
@@ -2656,7 +2656,7 @@
     },
     {
       "id": "era-03-dragon-war-event-21-02",
-      "title": "事件｜第21源章｜2",
+      "title": "她收回西尔菲德，费蒂达，萨加玛特哈，伊格德拉西尔，沙玛什母鳞，使其分别回归风，水，山",
       "memo": "龙之战与龙时代终结：事件（第21源章第2条）",
       "category": "event",
       "keys": [
@@ -2687,7 +2687,7 @@
     },
     {
       "id": "era-03-dragon-war-event-21-03",
-      "title": "事件｜第21源章｜3",
+      "title": "厄瑞玻斯道歉却拒绝交鳞，主动炸裂银鳞并遁入阴影，主角真诚召名也未能叫回",
       "memo": "龙之战与龙时代终结：事件（第21源章第3条）",
       "category": "event",
       "keys": [
@@ -2713,7 +2713,7 @@
     },
     {
       "id": "era-03-dragon-war-event-21-04",
-      "title": "事件｜第21源章｜4",
+      "title": "主角把逃跑理解为对力量的贪婪，并痛苦反思从赠鳞到次代赠鳞的选择",
       "memo": "龙之战与龙时代终结：事件（第21源章第4条）",
       "category": "event",
       "keys": [
@@ -2738,7 +2738,7 @@
     },
     {
       "id": "era-03-dragon-war-event-21-05",
-      "title": "事件｜第21源章｜5",
+      "title": "后世蜥蜴人信仰把创世神龙与毁灭之龙并置",
       "memo": "龙之战与龙时代终结：事件（第21源章第5条）",
       "category": "event",
       "keys": [
@@ -2763,7 +2763,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-21-01",
-      "title": "世界设定事实｜第21源章｜1",
+      "title": "母鳞是原初孩子维持龙体和连续自我的核心",
       "memo": "龙之战与龙时代终结：世界设定事实（第21源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2788,7 +2788,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-21-02",
-      "title": "世界设定事实｜第21源章｜2",
+      "title": "蜥蜴人宗教保存创造者惩罚龙族的变形记忆，后世学术则以陨石与魔法层解释龙时代结束",
       "memo": "龙之战与龙时代终结：世界设定事实（第21源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -2813,7 +2813,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-21-01",
-      "title": "新建立连续性｜第21源章｜1",
+      "title": "六孩子回归自然原形",
       "memo": "龙之战与龙时代终结：新建立连续性（第21源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2838,7 +2838,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-21-02",
-      "title": "新建立连续性｜第21源章｜2",
+      "title": "厄瑞玻斯裂鳞逃亡",
       "memo": "龙之战与龙时代终结：新建立连续性（第21源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2864,7 +2864,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-21-03",
-      "title": "新建立连续性｜第21源章｜3",
+      "title": "银色毁灭吐息",
       "memo": "龙之战与龙时代终结：新建立连续性（第21源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2889,7 +2889,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-21-04",
-      "title": "新建立连续性｜第21源章｜4",
+      "title": "创世/毁灭双重信仰",
       "memo": "龙之战与龙时代终结：新建立连续性（第21源章第4条）",
       "category": "continuity",
       "keys": [
@@ -2914,7 +2914,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-21-01",
-      "title": "未解决事项｜第21源章｜1",
+      "title": "厄瑞玻斯去向",
       "memo": "龙之战与龙时代终结：未解决事项（第21源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2940,7 +2940,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-21-02",
-      "title": "未解决事项｜第21源章｜2",
+      "title": "被取鳞孩子何时恢复意识",
       "memo": "龙之战与龙时代终结：未解决事项（第21源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2965,7 +2965,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-21-03",
-      "title": "未解决事项｜第21源章｜3",
+      "title": "其后巨龙命运",
       "memo": "龙之战与龙时代终结：未解决事项（第21源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-form-21-01",
-      "title": "主角龙形态｜第21源章｜1",
+      "title": "主角龙形态｜龙之战（4）｜巨大银色创世神龙",
       "memo": "龙之战与龙时代终结：主角龙形态（第21源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3015,7 +3015,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-state-21-01",
-      "title": "主角龙状态｜第21源章｜1",
+      "title": "主角龙状态｜龙之战（4）｜从多色龙族母系中心转为惩罚者",
       "memo": "龙之战与龙时代终结：主角龙状态（第21源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3041,7 +3041,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-knowledge-21-01",
-      "title": "主角龙知识边界｜第21源章｜1",
+      "title": "主角龙知识边界｜龙之战（4）｜不知道厄瑞玻斯去向，也不知道后世会怎样误读事件",
       "memo": "龙之战与龙时代终结：主角龙知识边界（第21源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3067,7 +3067,7 @@
     },
     {
       "id": "era-03-dragon-war-event-22-01",
-      "title": "事件｜第22源章｜1",
+      "title": "六个原初孩子回归自然、厄瑞玻斯逃走后，主角质问剩余近千龙",
       "memo": "龙之战与龙时代终结：事件（第22源章第1条）",
       "category": "event",
       "keys": [
@@ -3094,7 +3094,7 @@
     },
     {
       "id": "era-03-dragon-war-event-22-02",
-      "title": "事件｜第22源章｜2",
+      "title": "多数龙把饥饿、睡眠、繁殖视作不完美，追求像原初龙一样成为百分百自然现象",
       "memo": "龙之战与龙时代终结：事件（第22源章第2条）",
       "category": "event",
       "keys": [
@@ -3119,7 +3119,7 @@
     },
     {
       "id": "era-03-dragon-war-event-22-03",
-      "title": "事件｜第22源章｜3",
+      "title": "主角三次确认并隔离不愿转化者",
       "memo": "龙之战与龙时代终结：事件（第22源章第3条）",
       "category": "event",
       "keys": [
@@ -3144,7 +3144,7 @@
     },
     {
       "id": "era-03-dragon-war-event-22-04",
-      "title": "事件｜第22源章｜4",
+      "title": "主角按多数龙意愿把其自然现象比例从约八成提至十成",
       "memo": "龙之战与龙时代终结：事件（第22源章第4条）",
       "category": "event",
       "keys": [
@@ -3169,7 +3169,7 @@
     },
     {
       "id": "era-03-dragon-war-event-22-05",
-      "title": "事件｜第22源章｜5",
+      "title": "后世《生命之教堂》把事件改写为生命女神三问后让十二名反对者见证愚行",
       "memo": "龙之战与龙时代终结：事件（第22源章第5条）",
       "category": "event",
       "keys": [
@@ -3194,7 +3194,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-22-01",
-      "title": "世界设定事实｜第22源章｜1",
+      "title": "龙在本章转化前约为八成自然现象、两成生物",
       "memo": "龙之战与龙时代终结：世界设定事实（第22源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3219,7 +3219,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-22-02",
-      "title": "世界设定事实｜第22源章｜2",
+      "title": "完全脱离身体的普通龙无法像原初七意识那样维持强大连续自我",
       "memo": "龙之战与龙时代终结：世界设定事实（第22源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3244,7 +3244,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-22-01",
-      "title": "新建立连续性｜第22源章｜1",
+      "title": "元素精灵的龙族来源",
       "memo": "龙之战与龙时代终结：新建立连续性（第22源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3269,7 +3269,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-22-02",
-      "title": "新建立连续性｜第22源章｜2",
+      "title": "十二幸存幼龙",
       "memo": "龙之战与龙时代终结：新建立连续性（第22源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3294,7 +3294,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-22-03",
-      "title": "新建立连续性｜第22源章｜3",
+      "title": "龙族完美主义动机",
       "memo": "龙之战与龙时代终结：新建立连续性（第22源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3319,7 +3319,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-22-01",
-      "title": "未解决事项｜第22源章｜1",
+      "title": "十二幼龙的未来",
       "memo": "龙之战与龙时代终结：未解决事项（第22源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3344,7 +3344,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-22-02",
-      "title": "未解决事项｜第22源章｜2",
+      "title": "元素精灵能否保留记忆",
       "memo": "龙之战与龙时代终结：未解决事项（第22源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3369,7 +3369,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-form-22-01",
-      "title": "主角龙形态｜第22源章｜1",
+      "title": "主角龙形态｜龙之时代的终结（1）｜巨大银色创世神龙，本章无新形变",
       "memo": "龙之战与龙时代终结：主角龙形态（第22源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3394,7 +3394,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-state-22-01",
-      "title": "主角龙状态｜第22源章｜1",
+      "title": "主角龙状态｜龙之时代的终结（1）｜从龙族惩罚者转为成年龙集体选择的悲伤执行者与十二幼龙保护者",
       "memo": "龙之战与龙时代终结：主角龙状态（第22源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3419,7 +3419,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-knowledge-22-01",
-      "title": "主角龙知识边界｜第22源章｜1",
+      "title": "主角龙知识边界｜龙之时代的终结（1）｜预见脱体危险，但不知道元素精灵后续社会和后世教会叙事",
       "memo": "龙之战与龙时代终结：主角龙知识边界（第22源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3444,7 +3444,7 @@
     },
     {
       "id": "era-03-dragon-war-event-23-01",
-      "title": "事件｜第23源章｜1",
+      "title": "主角向十二幼龙解释原初七自然意识的唯一性，承诺只要不重犯便不对它们做相同之事",
       "memo": "龙之战与龙时代终结：事件（第23源章第1条）",
       "category": "event",
       "keys": [
@@ -3469,7 +3469,7 @@
     },
     {
       "id": "era-03-dragon-war-event-23-02",
-      "title": "事件｜第23源章｜2",
+      "title": "主角把无数成年龙尸体连平原埋入巨坑，命名为龙墓，作为家长负责安葬",
       "memo": "龙之战与龙时代终结：事件（第23源章第2条）",
       "category": "event",
       "keys": [
@@ -3494,7 +3494,7 @@
     },
     {
       "id": "era-03-dragon-war-event-23-03",
-      "title": "事件｜第23源章｜3",
+      "title": "她因厄瑞玻斯逃走而悲痛，考虑回溯却判断抓回身体也留不住心，且精神疲惫",
       "memo": "龙之战与龙时代终结：事件（第23源章第3条）",
       "category": "event",
       "keys": [
@@ -3520,7 +3520,7 @@
     },
     {
       "id": "era-03-dragon-war-event-23-04",
-      "title": "事件｜第23源章｜4",
+      "title": "后世龙墓成为七大禁区之一，尸体死亡气息侵蚀生命并制造行尸，生命教堂负责封锁",
       "memo": "龙之战与龙时代终结：事件（第23源章第4条）",
       "category": "event",
       "keys": [
@@ -3545,7 +3545,7 @@
     },
     {
       "id": "era-03-dragon-war-event-23-05",
-      "title": "事件｜第23源章｜5",
+      "title": "主角教导幸存幼龙与待孵蛋新的道德，它们停止互相残杀",
       "memo": "龙之战与龙时代终结：事件（第23源章第5条）",
       "category": "event",
       "keys": [
@@ -3570,7 +3570,7 @@
     },
     {
       "id": "era-03-dragon-war-event-23-06",
-      "title": "事件｜第23源章｜6",
+      "title": "西尔菲德恢复意识后哭诉后代成为小狂风",
       "memo": "龙之战与龙时代终结：事件（第23源章第6条）",
       "category": "event",
       "keys": [
@@ -3597,7 +3597,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-23-01",
-      "title": "世界设定事实｜第23源章｜1",
+      "title": "龙墓由成年龙集体尸体与原平原整体埋葬形成",
       "memo": "龙之战与龙时代终结：世界设定事实（第23源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3622,7 +3622,7 @@
     },
     {
       "id": "era-03-dragon-war-world-fact-23-02",
-      "title": "世界设定事实｜第23源章｜2",
+      "title": "龙尸死亡气息可吸取生命、令尸体成为行尸",
       "memo": "龙之战与龙时代终结：世界设定事实（第23源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3647,7 +3647,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-23-01",
-      "title": "新建立连续性｜第23源章｜1",
+      "title": "龙墓",
       "memo": "龙之战与龙时代终结：新建立连续性（第23源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3672,7 +3672,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-23-02",
-      "title": "新建立连续性｜第23源章｜2",
+      "title": "十二幼龙的新道德教育",
       "memo": "龙之战与龙时代终结：新建立连续性（第23源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3697,7 +3697,7 @@
     },
     {
       "id": "era-03-dragon-war-continuity-new-23-03",
-      "title": "新建立连续性｜第23源章｜3",
+      "title": "找厄瑞玻斯换鳞承诺",
       "memo": "龙之战与龙时代终结：新建立连续性（第23源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3723,7 +3723,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-23-01",
-      "title": "未解决事项｜第23源章｜1",
+      "title": "西尔菲德搜寻结果",
       "memo": "龙之战与龙时代终结：未解决事项（第23源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3749,7 +3749,7 @@
     },
     {
       "id": "era-03-dragon-war-unresolved-23-02",
-      "title": "未解决事项｜第23源章｜2",
+      "title": "龙墓死亡气息成因",
       "memo": "龙之战与龙时代终结：未解决事项（第23源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3774,7 +3774,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-form-23-01",
-      "title": "主角龙形态｜第23源章｜1",
+      "title": "主角龙形态｜龙之时代的终结（2）｜巨大银龙",
       "memo": "龙之战与龙时代终结：主角龙形态（第23源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3800,7 +3800,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-state-23-01",
-      "title": "主角龙状态｜第23源章｜1",
+      "title": "主角龙状态｜龙之时代的终结（2）｜精神极度疲惫，保有十二幼龙与待孵蛋，拒绝恢复六子龙体",
       "memo": "龙之战与龙时代终结：主角龙状态（第23源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3825,7 +3825,7 @@
     },
     {
       "id": "era-03-dragon-war-protagonist-knowledge-23-01",
-      "title": "主角龙知识边界｜第23源章｜1",
+      "title": "主角龙知识边界｜龙之时代的终结（2）｜不知道厄瑞玻斯所在或目的",
       "memo": "龙之战与龙时代终结：主角龙知识边界（第23源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3851,7 +3851,7 @@
     },
     {
       "id": "era-03-dragon-war-secondary-character-01",
-      "title": "次要人物｜参战黑龙（未命名）",
+      "title": "参战黑龙（未命名）",
       "memo": "龙之战与龙时代终结：次要人物 参战黑龙（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -3875,7 +3875,7 @@
     },
     {
       "id": "era-03-dragon-war-secondary-character-02",
-      "title": "次要人物｜第一代老蓝龙（未命名）",
+      "title": "第一代老蓝龙（未命名）",
       "memo": "龙之战与龙时代终结：次要人物 第一代老蓝龙（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -3899,7 +3899,7 @@
     },
     {
       "id": "era-03-dragon-war-secondary-character-03",
-      "title": "次要人物｜七个原初孩子",
+      "title": "七个原初孩子",
       "memo": "龙之战与龙时代终结：次要人物 七个原初孩子",
       "category": "secondary-character",
       "keys": [
@@ -3925,7 +3925,7 @@
     },
     {
       "id": "era-03-dragon-war-secondary-character-04",
-      "title": "次要人物｜十二只幼龙",
+      "title": "十二只幼龙",
       "memo": "龙之战与龙时代终结：次要人物 十二只幼龙",
       "category": "secondary-character",
       "keys": [
@@ -3951,7 +3951,7 @@
     },
     {
       "id": "era-03-dragon-war-secondary-character-05",
-      "title": "次要人物｜十二只幼龙（未分别命名）",
+      "title": "十二只幼龙（未分别命名）",
       "memo": "龙之战与龙时代终结：次要人物 十二只幼龙（未分别命名）",
       "category": "secondary-character",
       "keys": [

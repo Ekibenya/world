@@ -2596,7 +2596,7 @@
   "lorebook": [
     {
       "id": "era-06-underworld-core",
-      "title": "死亡、来世与冥界｜时代边界",
+      "title": "死亡、来世与冥界",
       "memo": "死亡、来世与冥界：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -2611,7 +2611,7 @@
     },
     {
       "id": "era-06-underworld-event-50-01",
-      "title": "事件｜第50源章｜1",
+      "title": "智慧种族开始出现死后灵魂",
       "memo": "死亡、来世与冥界：事件（第50源章第1条）",
       "category": "event",
       "keys": [
@@ -2636,7 +2636,7 @@
     },
     {
       "id": "era-06-underworld-event-50-02",
-      "title": "事件｜第50源章｜2",
+      "title": "主角把摔死樵夫克鲁特的尸体与灵魂送回村落",
       "memo": "死亡、来世与冥界：事件（第50源章第2条）",
       "category": "event",
       "keys": [
@@ -2663,7 +2663,7 @@
     },
     {
       "id": "era-06-underworld-event-50-03",
-      "title": "事件｜第50源章｜3",
+      "title": "克鲁特求复活遭拒，因执念黑化成恶灵",
       "memo": "死亡、来世与冥界：事件（第50源章第3条）",
       "category": "event",
       "keys": [
@@ -2689,7 +2689,7 @@
     },
     {
       "id": "era-06-underworld-event-50-04",
-      "title": "事件｜第50源章｜4",
+      "title": "动物无灵魂、智慧种族有",
       "memo": "死亡、来世与冥界：事件（第50源章第4条）",
       "category": "event",
       "keys": [
@@ -2714,7 +2714,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-50-01",
-      "title": "世界设定事实｜第50源章｜1",
+      "title": "此时只有智慧种族死亡出现灵魂，动物没有",
       "memo": "死亡、来世与冥界：世界设定事实（第50源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2739,7 +2739,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-50-01",
-      "title": "新建立连续性｜第50源章｜1",
+      "title": "死者灵魂显现",
       "memo": "死亡、来世与冥界：新建立连续性（第50源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2764,7 +2764,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-50-02",
-      "title": "新建立连续性｜第50源章｜2",
+      "title": "克鲁特守护灵",
       "memo": "死亡、来世与冥界：新建立连续性（第50源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2790,7 +2790,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-50-03",
-      "title": "新建立连续性｜第50源章｜3",
+      "title": "来世建造决意",
       "memo": "死亡、来世与冥界：新建立连续性（第50源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2815,7 +2815,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-50-01",
-      "title": "未解决事项｜第50源章｜1",
+      "title": "灵魂成因",
       "memo": "死亡、来世与冥界：未解决事项（第50源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2840,7 +2840,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-50-02",
-      "title": "未解决事项｜第50源章｜2",
+      "title": "恶灵普遍机制",
       "memo": "死亡、来世与冥界：未解决事项（第50源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2865,7 +2865,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-50-03",
-      "title": "未解决事项｜第50源章｜3",
+      "title": "来世类型",
       "memo": "死亡、来世与冥界：未解决事项（第50源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -2890,7 +2890,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-50-01",
-      "title": "主角龙形态｜第50源章｜1",
+      "title": "主角龙形态｜关于死亡（1）｜对凡人隐身并压低力量，外貌未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第50源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2915,7 +2915,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-50-01",
-      "title": "主角龙状态｜第50源章｜1",
+      "title": "主角龙状态｜关于死亡（1）｜首次承担死者处置，决定建立来世",
       "memo": "死亡、来世与冥界：主角龙状态（第50源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2940,7 +2940,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-50-01",
-      "title": "主角龙知识边界｜第50源章｜1",
+      "title": "主角龙知识边界｜关于死亡（1）｜完全不知道来世，灵魂长期归宿与复活规则",
       "memo": "死亡、来世与冥界：主角龙知识边界（第50源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2965,7 +2965,7 @@
     },
     {
       "id": "era-06-underworld-event-51-01",
-      "title": "事件｜第51源章｜1",
+      "title": "主角比较永久存储与审判转世两种来世，暂未决定",
       "memo": "死亡、来世与冥界：事件（第51源章第1条）",
       "category": "event",
       "keys": [
@@ -2990,7 +2990,7 @@
     },
     {
       "id": "era-06-underworld-event-51-02",
-      "title": "事件｜第51源章｜2",
+      "title": "她确定需收魂者、中层管理和场所，选择受迫害的暗精灵承担收魂",
       "memo": "死亡、来世与冥界：事件（第51源章第2条）",
       "category": "event",
       "keys": [
@@ -3015,7 +3015,7 @@
     },
     {
       "id": "era-06-underworld-event-51-03",
-      "title": "事件｜第51源章｜3",
+      "title": "主角在龙墓雾地找到暗精灵首领暗影，以解除厄瑞玻斯父罪为交换",
       "memo": "死亡、来世与冥界：事件（第51源章第3条）",
       "category": "event",
       "keys": [
@@ -3042,7 +3042,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-51-01",
-      "title": "世界设定事实｜第51源章｜1",
+      "title": "暗精灵源于黑龙幼崽，因厄瑞玻斯挑乱并逃罚而被其他精灵迁怒，善于不被凡人察觉",
       "memo": "死亡、来世与冥界：世界设定事实（第51源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3068,7 +3068,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-51-02",
-      "title": "世界设定事实｜第51源章｜2",
+      "title": "多数暗精灵聚于原龙族化灵和埋葬之地",
       "memo": "死亡、来世与冥界：世界设定事实（第51源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3093,7 +3093,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-51-01",
-      "title": "新建立连续性｜第51源章｜1",
+      "title": "暗影",
       "memo": "死亡、来世与冥界：新建立连续性（第51源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3119,7 +3119,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-51-02",
-      "title": "新建立连续性｜第51源章｜2",
+      "title": "暗精灵收魂者",
       "memo": "死亡、来世与冥界：新建立连续性（第51源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3144,7 +3144,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-51-03",
-      "title": "新建立连续性｜第51源章｜3",
+      "title": "来世两型方案",
       "memo": "死亡、来世与冥界：新建立连续性（第51源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3169,7 +3169,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-51-01",
-      "title": "未解决事项｜第51源章｜1",
+      "title": "来世架构",
       "memo": "死亡、来世与冥界：未解决事项（第51源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3194,7 +3194,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-51-02",
-      "title": "未解决事项｜第51源章｜2",
+      "title": "灵魂管理者",
       "memo": "死亡、来世与冥界：未解决事项（第51源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3219,7 +3219,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-51-03",
-      "title": "未解决事项｜第51源章｜3",
+      "title": "暗精灵劳动期限",
       "memo": "死亡、来世与冥界：未解决事项（第51源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3244,7 +3244,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-51-01",
-      "title": "主角龙形态｜第51源章｜1",
+      "title": "主角龙形态｜关于死亡（2）｜踏入龙墓雾地时形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第51源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3269,7 +3269,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-51-01",
-      "title": "主角龙状态｜第51源章｜1",
+      "title": "主角龙状态｜关于死亡（2）｜来世规划者与暂定暗精灵管理者",
       "memo": "死亡、来世与冥界：主角龙状态（第51源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3294,7 +3294,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-51-01",
-      "title": "主角龙知识边界｜第51源章｜1",
+      "title": "主角龙知识边界｜关于死亡（2）｜来世仍未选存储或转世型",
       "memo": "死亡、来世与冥界：主角龙知识边界（第51源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3319,7 +3319,7 @@
     },
     {
       "id": "era-06-underworld-event-52-01",
-      "title": "事件｜第52源章｜1",
+      "title": "主角采集不同年龄与死因灵魂，提出灵魂由先天温暖上升的‘魂’与后天记忆形成",
       "memo": "死亡、来世与冥界：事件（第52源章第1条）",
       "category": "event",
       "keys": [
@@ -3344,7 +3344,7 @@
     },
     {
       "id": "era-06-underworld-event-52-02",
-      "title": "事件｜第52源章｜2",
+      "title": "普通死魂魂飞魄散",
       "memo": "死亡、来世与冥界：事件（第52源章第2条）",
       "category": "event",
       "keys": [
@@ -3369,7 +3369,7 @@
     },
     {
       "id": "era-06-underworld-event-52-03",
-      "title": "事件｜第52源章｜3",
+      "title": "魂在天空聚成云、过大者分裂，部分受引进入胎儿，形成循环",
       "memo": "死亡、来世与冥界：事件（第52源章第3条）",
       "category": "event",
       "keys": [
@@ -3394,7 +3394,7 @@
     },
     {
       "id": "era-06-underworld-event-52-04",
-      "title": "事件｜第52源章｜4",
+      "title": "魄可能渗入地下且与厄瑞玻斯位置重合，主角预感灾难",
       "memo": "死亡、来世与冥界：事件（第52源章第4条）",
       "category": "event",
       "keys": [
@@ -3420,7 +3420,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-52-01",
-      "title": "世界设定事实｜第52源章｜1",
+      "title": "灵魂由魂与魄组成",
       "memo": "死亡、来世与冥界：世界设定事实（第52源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3445,7 +3445,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-52-02",
-      "title": "世界设定事实｜第52源章｜2",
+      "title": "临终强烈负面情绪会使魄产生黑烟，阻止魂魄分离并生成恶灵",
       "memo": "死亡、来世与冥界：世界设定事实（第52源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3470,7 +3470,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-52-03",
-      "title": "世界设定事实｜第52源章｜3",
+      "title": "魂在高空聚成魂云并有体积分裂与投胎循环",
       "memo": "死亡、来世与冥界：世界设定事实（第52源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3495,7 +3495,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-52-01",
-      "title": "新建立连续性｜第52源章｜1",
+      "title": "魂魄二分结构",
       "memo": "死亡、来世与冥界：新建立连续性（第52源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3520,7 +3520,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-52-02",
-      "title": "新建立连续性｜第52源章｜2",
+      "title": "恶灵黑烟机制",
       "memo": "死亡、来世与冥界：新建立连续性（第52源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3545,7 +3545,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-52-03",
-      "title": "新建立连续性｜第52源章｜3",
+      "title": "魂云与投胎循环",
       "memo": "死亡、来世与冥界：新建立连续性（第52源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3570,7 +3570,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-52-01",
-      "title": "未解决事项｜第52源章｜1",
+      "title": "地下魄累积",
       "memo": "死亡、来世与冥界：未解决事项（第52源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3595,7 +3595,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-52-02",
-      "title": "未解决事项｜第52源章｜2",
+      "title": "厄瑞玻斯关联",
       "memo": "死亡、来世与冥界：未解决事项（第52源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3621,7 +3621,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-52-03",
-      "title": "未解决事项｜第52源章｜3",
+      "title": "主角灵魂",
       "memo": "死亡、来世与冥界：未解决事项（第52源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -3646,7 +3646,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-52-01",
-      "title": "主角龙形态｜第52源章｜1",
+      "title": "主角龙形态｜关于死亡（3）｜研究和飞行追踪状态，形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第52源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3671,7 +3671,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-52-01",
-      "title": "主角龙状态｜第52源章｜1",
+      "title": "主角龙状态｜关于死亡（3）｜从偶发处置转为掌握初步灵魂科学",
       "memo": "死亡、来世与冥界：主角龙状态（第52源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3696,7 +3696,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-52-01",
-      "title": "主角龙知识边界｜第52源章｜1",
+      "title": "主角龙知识边界｜关于死亡（3）｜魄最终去向、灵魂出现前历史、自身有无灵魂均未知",
       "memo": "死亡、来世与冥界：主角龙知识边界（第52源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3721,7 +3721,7 @@
     },
     {
       "id": "era-06-underworld-event-53-01",
-      "title": "事件｜第53源章｜1",
+      "title": "因厄瑞玻斯风险排除地下，因暗精灵怕强光排除天空，主角判定现世无合适来世地点",
       "memo": "死亡、来世与冥界：事件（第53源章第1条）",
       "category": "event",
       "keys": [
@@ -3747,7 +3747,7 @@
     },
     {
       "id": "era-06-underworld-event-53-02",
-      "title": "事件｜第53源章｜2",
+      "title": "她首次正式动用创造权能，按‘通往另一个世界的门’设定造出黑岩巨门，确认能创造异世界",
       "memo": "死亡、来世与冥界：事件（第53源章第2条）",
       "category": "event",
       "keys": [
@@ -3772,7 +3772,7 @@
     },
     {
       "id": "era-06-underworld-event-53-03",
-      "title": "事件｜第53源章｜3",
+      "title": "主角把门安在极北冰岛，化成人形徒手开采门内黑石，填海连接大陆",
       "memo": "死亡、来世与冥界：事件（第53源章第3条）",
       "category": "event",
       "keys": [
@@ -3798,7 +3798,7 @@
     },
     {
       "id": "era-06-underworld-event-53-04",
-      "title": "事件｜第53源章｜4",
+      "title": "未来传说称英雄雷奇伦为寻误杀挚友灵魂穿越黑桥、开启巨门、进入地狱并见三位判官",
       "memo": "死亡、来世与冥界：事件（第53源章第4条）",
       "category": "event",
       "keys": [
@@ -3824,7 +3824,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-53-01",
-      "title": "世界设定事实｜第53源章｜1",
+      "title": "主角的创造权能可依据设定制造通向独立异世界的门，门后此时是全黑岩世界",
       "memo": "死亡、来世与冥界：世界设定事实（第53源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3849,7 +3849,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-53-02",
-      "title": "世界设定事实｜第53源章｜2",
+      "title": "来世入口位于世界极北冰浪环绕小岛，黑石将用于填海建桥",
       "memo": "死亡、来世与冥界：世界设定事实（第53源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -3874,7 +3874,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-53-03",
-      "title": "世界设定事实｜第53源章｜3",
+      "title": "未来来世由收魂指挥官、生死簿监察官、罪孽天平审判者三判官统治",
       "memo": "死亡、来世与冥界：世界设定事实（第53源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -3899,7 +3899,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-53-01",
-      "title": "新建立连续性｜第53源章｜1",
+      "title": "来世异世界",
       "memo": "死亡、来世与冥界：新建立连续性（第53源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3924,7 +3924,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-53-02",
-      "title": "新建立连续性｜第53源章｜2",
+      "title": "极北黑门",
       "memo": "死亡、来世与冥界：新建立连续性（第53源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3949,7 +3949,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-53-03",
-      "title": "新建立连续性｜第53源章｜3",
+      "title": "黑石桥工程",
       "memo": "死亡、来世与冥界：新建立连续性（第53源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3974,7 +3974,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-53-04",
-      "title": "新建立连续性｜第53源章｜4",
+      "title": "未来三判官传说",
       "memo": "死亡、来世与冥界：新建立连续性（第53源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3999,7 +3999,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-53-01",
-      "title": "未解决事项｜第53源章｜1",
+      "title": "来世内部结构",
       "memo": "死亡、来世与冥界：未解决事项（第53源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4024,7 +4024,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-53-02",
-      "title": "未解决事项｜第53源章｜2",
+      "title": "三判官人选",
       "memo": "死亡、来世与冥界：未解决事项（第53源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4049,7 +4049,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-53-03",
-      "title": "未解决事项｜第53源章｜3",
+      "title": "暗精灵入驻",
       "memo": "死亡、来世与冥界：未解决事项（第53源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4074,7 +4074,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-53-01",
-      "title": "主角龙形态｜第53源章｜1",
+      "title": "主角龙形态｜关于死亡（4）｜极北工作时的人形形态",
       "memo": "死亡、来世与冥界：主角龙形态（第53源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4099,7 +4099,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-53-01",
-      "title": "主角龙状态｜第53源章｜1",
+      "title": "主角龙状态｜关于死亡（4）｜来世空间和入口的创造者、亲自施工者",
       "memo": "死亡、来世与冥界：主角龙状态（第53源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4124,7 +4124,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-53-01",
-      "title": "主角龙知识边界｜第53源章｜1",
+      "title": "主角龙知识边界｜关于死亡（4）｜三位判官和地狱在当前时间尚不存在",
       "memo": "死亡、来世与冥界：主角龙知识边界（第53源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4149,7 +4149,7 @@
     },
     {
       "id": "era-06-underworld-event-54-01",
-      "title": "事件｜第54源章｜1",
+      "title": "主角以记忆中的机器人意象雕出十米高黑石守门魔像，暗红金色，红眼，狮胸，V角",
       "memo": "死亡、来世与冥界：事件（第54源章第1条）",
       "category": "event",
       "keys": [
@@ -4174,7 +4174,7 @@
     },
     {
       "id": "era-06-underworld-event-54-02",
-      "title": "事件｜第54源章｜2",
+      "title": "未来雷奇伦传说称其为黑曜石巨像塔罗斯、冥界第一守卫",
       "memo": "死亡、来世与冥界：事件（第54源章第2条）",
       "category": "event",
       "keys": [
@@ -4201,7 +4201,7 @@
     },
     {
       "id": "era-06-underworld-event-54-03",
-      "title": "事件｜第54源章｜3",
+      "title": "主角赋予自动吸魔，再生，索敌，动力调节，局势评估，魔力/黑暗感知和伤害厄瑞玻斯的能力",
       "memo": "死亡、来世与冥界：事件（第54源章第3条）",
       "category": "event",
       "keys": [
@@ -4228,7 +4228,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-54-01",
-      "title": "世界设定事实｜第54源章｜1",
+      "title": "塔罗斯是首个以主角魔法驱动的魔像，能源、再生、索敌和对黑暗伤害规则均由主角明确植入",
       "memo": "死亡、来世与冥界：世界设定事实（第54源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4254,7 +4254,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-54-01",
-      "title": "新建立连续性｜第54源章｜1",
+      "title": "塔罗斯",
       "memo": "死亡、来世与冥界：新建立连续性（第54源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4280,7 +4280,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-54-02",
-      "title": "新建立连续性｜第54源章｜2",
+      "title": "首道冥界守门者",
       "memo": "死亡、来世与冥界：新建立连续性（第54源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4305,7 +4305,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-54-03",
-      "title": "新建立连续性｜第54源章｜3",
+      "title": "智能魔像",
       "memo": "死亡、来世与冥界：新建立连续性（第54源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4330,7 +4330,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-54-01",
-      "title": "未解决事项｜第54源章｜1",
+      "title": "后六道门",
       "memo": "死亡、来世与冥界：未解决事项（第54源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4355,7 +4355,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-54-02",
-      "title": "未解决事项｜第54源章｜2",
+      "title": "塔罗斯人格程度",
       "memo": "死亡、来世与冥界：未解决事项（第54源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4381,7 +4381,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-54-01",
-      "title": "主角龙形态｜第54源章｜1",
+      "title": "主角龙形态｜关于死亡（5）｜在来世通道施工，外貌未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第54源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4406,7 +4406,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-54-01",
-      "title": "主角龙状态｜第54源章｜1",
+      "title": "主角龙状态｜关于死亡（5）｜由徒手采矿者转为魔像创造者",
       "memo": "死亡、来世与冥界：主角龙状态（第54源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4431,7 +4431,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-54-01",
-      "title": "主角龙知识边界｜第54源章｜1",
+      "title": "主角龙知识边界｜关于死亡（5）｜未来传说中的正式冥界功能尚未发生",
       "memo": "死亡、来世与冥界：主角龙知识边界（第54源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4456,7 +4456,7 @@
     },
     {
       "id": "era-06-underworld-event-55-01",
-      "title": "事件｜第55源章｜1",
+      "title": "塔罗斯自动扩路",
       "memo": "死亡、来世与冥界：事件（第55源章第1条）",
       "category": "event",
       "keys": [
@@ -4482,7 +4482,7 @@
     },
     {
       "id": "era-06-underworld-event-55-02",
-      "title": "事件｜第55源章｜2",
+      "title": "主角决定融合存储与轮回，收魂，冥路悔罪，登记，天平审判，轻罪天堂/自愿轮回",
       "memo": "死亡、来世与冥界：事件（第55源章第2条）",
       "category": "event",
       "keys": [
@@ -4507,7 +4507,7 @@
     },
     {
       "id": "era-06-underworld-event-55-03",
-      "title": "事件｜第55源章｜3",
+      "title": "极北填海黑桥完工并被雕成巨龙巨人都可通行",
       "memo": "死亡、来世与冥界：事件（第55源章第3条）",
       "category": "event",
       "keys": [
@@ -4532,7 +4532,7 @@
     },
     {
       "id": "era-06-underworld-event-55-04",
-      "title": "事件｜第55源章｜4",
+      "title": "龙族领主远程求助：暗精灵离开后龙墓异常，一条黑龙被地下诡异能量侵蚀至半腐烂",
       "memo": "死亡、来世与冥界：事件（第55源章第4条）",
       "category": "event",
       "keys": [
@@ -4557,7 +4557,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-55-01",
-      "title": "世界设定事实｜第55源章｜1",
+      "title": "拟定来世为悔罪、登记、天平审判、天堂/地狱净化、转世的融合流程",
       "memo": "死亡、来世与冥界：世界设定事实（第55源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4582,7 +4582,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-55-01",
-      "title": "新建立连续性｜第55源章｜1",
+      "title": "融合型来世蓝图",
       "memo": "死亡、来世与冥界：新建立连续性（第55源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4607,7 +4607,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-55-02",
-      "title": "新建立连续性｜第55源章｜2",
+      "title": "极北黑桥完工",
       "memo": "死亡、来世与冥界：新建立连续性（第55源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4632,7 +4632,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-55-03",
-      "title": "新建立连续性｜第55源章｜3",
+      "title": "黑龙腐烂异常",
       "memo": "死亡、来世与冥界：新建立连续性（第55源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4657,7 +4657,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-55-01",
-      "title": "未解决事项｜第55源章｜1",
+      "title": "死亡能量来源",
       "memo": "死亡、来世与冥界：未解决事项（第55源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4682,7 +4682,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-55-02",
-      "title": "未解决事项｜第55源章｜2",
+      "title": "受害黑龙身份与结局",
       "memo": "死亡、来世与冥界：未解决事项（第55源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4707,7 +4707,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-55-01",
-      "title": "主角龙形态｜第55源章｜1",
+      "title": "主角龙形态｜关于死亡（6）｜飞往龙墓时随龙族领主同行",
       "memo": "死亡、来世与冥界：主角龙形态（第55源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4732,7 +4732,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-55-01",
-      "title": "主角龙状态｜第55源章｜1",
+      "title": "主角龙状态｜关于死亡（6）｜来世总设计者转入死亡能量紧急处置",
       "memo": "死亡、来世与冥界：主角龙状态（第55源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4757,7 +4757,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-55-01",
-      "title": "主角龙知识边界｜第55源章｜1",
+      "title": "主角龙知识边界｜关于死亡（6）｜不知黑龙异常成因，最初只怀疑厄瑞玻斯",
       "memo": "死亡、来世与冥界：主角龙知识边界（第55源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4783,7 +4783,7 @@
     },
     {
       "id": "era-06-underworld-event-56-01",
-      "title": "事件｜第56源章｜1",
+      "title": "主角确认腐烂能量有死亡气息",
       "memo": "死亡、来世与冥界：事件（第56源章第1条）",
       "category": "event",
       "keys": [
@@ -4808,7 +4808,7 @@
     },
     {
       "id": "era-06-underworld-event-56-02",
-      "title": "事件｜第56源章｜2",
+      "title": "龙族领主说明因暗精灵迁移担忧厄瑞玻斯复现而调查",
       "memo": "死亡、来世与冥界：事件（第56源章第2条）",
       "category": "event",
       "keys": [
@@ -4834,7 +4834,7 @@
     },
     {
       "id": "era-06-underworld-event-56-03",
-      "title": "事件｜第56源章｜3",
+      "title": "主角以自身魔力为饵、配合幼龙生机推挤，把黑泥般死亡灵气钓出冻结，幼龙身体恢复",
       "memo": "死亡、来世与冥界：事件（第56源章第3条）",
       "category": "event",
       "keys": [
@@ -4859,7 +4859,7 @@
     },
     {
       "id": "era-06-underworld-event-56-04",
-      "title": "事件｜第56源章｜4",
+      "title": "主角解释用生命对抗死亡",
       "memo": "死亡、来世与冥界：事件（第56源章第4条）",
       "category": "event",
       "keys": [
@@ -4884,7 +4884,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-56-01",
-      "title": "世界设定事实｜第56源章｜1",
+      "title": "龙墓地底龙尸死亡灵气长期受暗精灵压制而凝结",
       "memo": "死亡、来世与冥界：世界设定事实（第56源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4909,7 +4909,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-56-01",
-      "title": "新建立连续性｜第56源章｜1",
+      "title": "凝结死亡灵气",
       "memo": "死亡、来世与冥界：新建立连续性（第56源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4934,7 +4934,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-56-02",
-      "title": "新建立连续性｜第56源章｜2",
+      "title": "生命对抗死亡",
       "memo": "死亡、来世与冥界：新建立连续性（第56源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4959,7 +4959,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-56-03",
-      "title": "新建立连续性｜第56源章｜3",
+      "title": "魔力诱饵抽取法",
       "memo": "死亡、来世与冥界：新建立连续性（第56源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4984,7 +4984,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-56-01",
-      "title": "未解决事项｜第56源章｜1",
+      "title": "幼龙体内残留",
       "memo": "死亡、来世与冥界：未解决事项（第56源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5009,7 +5009,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-56-02",
-      "title": "未解决事项｜第56源章｜2",
+      "title": "龙墓长期处置",
       "memo": "死亡、来世与冥界：未解决事项（第56源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5034,7 +5034,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-56-01",
-      "title": "主角龙形态｜第56源章｜1",
+      "title": "主角龙形态｜第五十一章：生与死（1）｜以手接触黑龙并注入魔力，外形未新增",
       "memo": "死亡、来世与冥界：主角龙形态（第56源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5059,7 +5059,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-56-01",
-      "title": "主角龙状态｜第56源章｜1",
+      "title": "主角龙状态｜第五十一章：生与死（1）｜生命力强化与死亡灵气牵引的发现者",
       "memo": "死亡、来世与冥界：主角龙状态（第56源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5084,7 +5084,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-56-01",
-      "title": "主角龙知识边界｜第56源章｜1",
+      "title": "主角龙知识边界｜第五十一章：生与死（1）｜认为已抽出大部分但不知仍有残留",
       "memo": "死亡、来世与冥界：主角龙知识边界（第56源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5109,7 +5109,7 @@
     },
     {
       "id": "era-06-underworld-event-57-01",
-      "title": "事件｜第57源章｜1",
+      "title": "主角保留冻结死亡灵气研究",
       "memo": "死亡、来世与冥界：事件（第57源章第1条）",
       "category": "event",
       "keys": [
@@ -5135,7 +5135,7 @@
     },
     {
       "id": "era-06-underworld-event-57-02",
-      "title": "事件｜第57源章｜2",
+      "title": "残余死亡灵气扎根塞雷斯龙之心，与魔力、生机形成危险循环",
       "memo": "死亡、来世与冥界：事件（第57源章第2条）",
       "category": "event",
       "keys": [
@@ -5161,7 +5161,7 @@
     },
     {
       "id": "era-06-underworld-event-57-03",
-      "title": "事件｜第57源章｜3",
+      "title": "主角反复教学，塞雷斯与领主学会用有属性的龙族魔力强化自身或他人生命",
       "memo": "死亡、来世与冥界：事件（第57源章第3条）",
       "category": "event",
       "keys": [
@@ -5187,7 +5187,7 @@
     },
     {
       "id": "era-06-underworld-event-57-04",
-      "title": "事件｜第57源章｜4",
+      "title": "塞雷斯主动要利用体内死亡力，不惧因黑鳞再受歧视",
       "memo": "死亡、来世与冥界：事件（第57源章第4条）",
       "category": "event",
       "keys": [
@@ -5213,7 +5213,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-57-01",
-      "title": "世界设定事实｜第57源章｜1",
+      "title": "死亡灵气能在龙之心吸收魔力增殖，同时受生命力净化",
       "memo": "死亡、来世与冥界：世界设定事实（第57源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5238,7 +5238,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-57-02",
-      "title": "世界设定事实｜第57源章｜2",
+      "title": "普通龙族魔力有固定属性，但经训练可强化自身生命力甚至传给他者",
       "memo": "死亡、来世与冥界：世界设定事实（第57源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5263,7 +5263,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-57-01",
-      "title": "新建立连续性｜第57源章｜1",
+      "title": "塞雷斯姓名",
       "memo": "死亡、来世与冥界：新建立连续性（第57源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5289,7 +5289,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-57-02",
-      "title": "新建立连续性｜第57源章｜2",
+      "title": "龙心生死共生",
       "memo": "死亡、来世与冥界：新建立连续性（第57源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5314,7 +5314,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-57-03",
-      "title": "新建立连续性｜第57源章｜3",
+      "title": "龙族生命力操控",
       "memo": "死亡、来世与冥界：新建立连续性（第57源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5339,7 +5339,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-57-04",
-      "title": "新建立连续性｜第57源章｜4",
+      "title": "三管理者构想",
       "memo": "死亡、来世与冥界：新建立连续性（第57源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5364,7 +5364,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-57-01",
-      "title": "未解决事项｜第57源章｜1",
+      "title": "塞雷斯任职决定",
       "memo": "死亡、来世与冥界：未解决事项（第57源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5390,7 +5390,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-57-02",
-      "title": "未解决事项｜第57源章｜2",
+      "title": "死亡力实际使用",
       "memo": "死亡、来世与冥界：未解决事项（第57源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5415,7 +5415,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-57-01",
-      "title": "主角龙形态｜第57源章｜1",
+      "title": "主角龙形态｜第五十二章：生与死（2）｜保留龙角的人形",
       "memo": "死亡、来世与冥界：主角龙形态（第57源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5440,7 +5440,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-57-01",
-      "title": "主角龙状态｜第57源章｜1",
+      "title": "主角龙状态｜第五十二章：生与死（2）｜塞雷斯的导师与潜在来世雇主",
       "memo": "死亡、来世与冥界：主角龙状态（第57源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5466,7 +5466,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-57-01",
-      "title": "主角龙知识边界｜第57源章｜1",
+      "title": "主角龙知识边界｜第五十二章：生与死（2）｜尚未确定塞雷斯是否接受职位，也没有生命力储存载体",
       "memo": "死亡、来世与冥界：主角龙知识边界（第57源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5492,7 +5492,7 @@
     },
     {
       "id": "era-06-underworld-event-58-01",
-      "title": "事件｜第58源章｜1",
+      "title": "主角说明来世的道德/宗教意义，允许塞雷斯考虑长期职位并承诺未来轮班",
       "memo": "死亡、来世与冥界：事件（第58源章第1条）",
       "category": "event",
       "keys": [
@@ -5518,7 +5518,7 @@
     },
     {
       "id": "era-06-underworld-event-58-02",
-      "title": "事件｜第58源章｜2",
+      "title": "她认为厄瑞玻斯本应是死神管理者，理智想惩后宽恕，情感拒绝原谅，计划抓获，痛打",
       "memo": "死亡、来世与冥界：事件（第58源章第2条）",
       "category": "event",
       "keys": [
@@ -5544,7 +5544,7 @@
     },
     {
       "id": "era-06-underworld-event-58-03",
-      "title": "事件｜第58源章｜3",
+      "title": "领主揭示龙族因灭族记忆缩在洞穴",
       "memo": "死亡、来世与冥界：事件（第58源章第3条）",
       "category": "event",
       "keys": [
@@ -5569,7 +5569,7 @@
     },
     {
       "id": "era-06-underworld-event-58-04",
-      "title": "事件｜第58源章｜4",
+      "title": "领主主动接管龙墓净化，给龙族外出理由",
       "memo": "死亡、来世与冥界：事件（第58源章第4条）",
       "category": "event",
       "keys": [
@@ -5594,7 +5594,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-58-01",
-      "title": "世界设定事实｜第58源章｜1",
+      "title": "‘赐生者’是参与以生命力驱散龙墓邪恶能量的龙族称号与使命",
       "memo": "死亡、来世与冥界：世界设定事实（第58源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5619,7 +5619,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-58-01",
-      "title": "新建立连续性｜第58源章｜1",
+      "title": "赐生者",
       "memo": "死亡、来世与冥界：新建立连续性（第58源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5644,7 +5644,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-58-02",
-      "title": "新建立连续性｜第58源章｜2",
+      "title": "龙族自由外出许可",
       "memo": "死亡、来世与冥界：新建立连续性（第58源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5669,7 +5669,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-58-03",
-      "title": "新建立连续性｜第58源章｜3",
+      "title": "厄瑞玻斯捕捉惩罚计划",
       "memo": "死亡、来世与冥界：新建立连续性（第58源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5695,7 +5695,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-58-01",
-      "title": "未解决事项｜第58源章｜1",
+      "title": "龙族能否真正摆脱恐惧",
       "memo": "死亡、来世与冥界：未解决事项（第58源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5720,7 +5720,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-58-02",
-      "title": "未解决事项｜第58源章｜2",
+      "title": "塞雷斯答复",
       "memo": "死亡、来世与冥界：未解决事项（第58源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5746,7 +5746,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-58-01",
-      "title": "主角龙形态｜第58源章｜1",
+      "title": "主角龙形态｜第五十三章：生与死（3）｜未新增",
       "memo": "死亡、来世与冥界：主角龙形态（第58源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5771,7 +5771,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-58-01",
-      "title": "主角龙状态｜第58源章｜1",
+      "title": "主角龙状态｜第五十三章：生与死（3）｜从龙族恐惧源转为赐生者任务的授权者",
       "memo": "死亡、来世与冥界：主角龙状态（第58源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5796,7 +5796,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-58-01",
-      "title": "主角龙知识边界｜第58源章｜1",
+      "title": "主角龙知识边界｜第五十三章：生与死（3）｜厄瑞玻斯捕捉与惩罚全是计划/情感，尚未实施",
       "memo": "死亡、来世与冥界：主角龙知识边界（第58源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5822,7 +5822,7 @@
     },
     {
       "id": "era-06-underworld-event-59-01",
-      "title": "事件｜第59源章｜1",
+      "title": "大量龙族参加赐生者",
       "memo": "死亡、来世与冥界：事件（第59源章第1条）",
       "category": "event",
       "keys": [
@@ -5847,7 +5847,7 @@
     },
     {
       "id": "era-06-underworld-event-59-02",
-      "title": "事件｜第59源章｜2",
+      "title": "化人形领主坦白以任务解除灭族记忆枷锁，让龙族相信不会被主角抛弃",
       "memo": "死亡、来世与冥界：事件（第59源章第2条）",
       "category": "event",
       "keys": [
@@ -5872,7 +5872,7 @@
     },
     {
       "id": "era-06-underworld-event-59-03",
-      "title": "事件｜第59源章｜3",
+      "title": "龙族净化龙墓，主角造恢复生命力泉眼，形成神殿",
       "memo": "死亡、来世与冥界：事件（第59源章第3条）",
       "category": "event",
       "keys": [
@@ -5898,7 +5898,7 @@
     },
     {
       "id": "era-06-underworld-event-59-04",
-      "title": "事件｜第59源章｜4",
+      "title": "主角让暗精灵先学运魂，以凝结恶意造巨镰赐暗影，改名塔那托斯，任暗精灵领袖",
       "memo": "死亡、来世与冥界：事件（第59源章第4条）",
       "category": "event",
       "keys": [
@@ -5924,7 +5924,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-59-01",
-      "title": "世界设定事实｜第59源章｜1",
+      "title": "赐生者以生机净化龙墓",
       "memo": "死亡、来世与冥界：世界设定事实（第59源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5949,7 +5949,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-59-02",
-      "title": "世界设定事实｜第59源章｜2",
+      "title": "塔那托斯镰刀由凝结恶意具现，对暗精灵无害，服务于引领灵魂",
       "memo": "死亡、来世与冥界：世界设定事实（第59源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5974,7 +5974,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-59-01",
-      "title": "新建立连续性｜第59源章｜1",
+      "title": "塔那托斯新名与巨镰",
       "memo": "死亡、来世与冥界：新建立连续性（第59源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5999,7 +5999,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-59-02",
-      "title": "新建立连续性｜第59源章｜2",
+      "title": "生命泉神殿",
       "memo": "死亡、来世与冥界：新建立连续性（第59源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6024,7 +6024,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-59-03",
-      "title": "新建立连续性｜第59源章｜3",
+      "title": "赐生者扩展使命",
       "memo": "死亡、来世与冥界：新建立连续性（第59源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6049,7 +6049,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-59-01",
-      "title": "未解决事项｜第59源章｜1",
+      "title": "灵魂运输训练",
       "memo": "死亡、来世与冥界：未解决事项（第59源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6074,7 +6074,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-59-02",
-      "title": "未解决事项｜第59源章｜2",
+      "title": "另外两名管理者",
       "memo": "死亡、来世与冥界：未解决事项（第59源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6099,7 +6099,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-59-01",
-      "title": "主角龙形态｜第59源章｜1",
+      "title": "主角龙形态｜第五十四章：生与死（4）｜与领主对谈时对方化人，主角当前形态未明",
       "memo": "死亡、来世与冥界：主角龙形态（第59源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6124,7 +6124,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-59-01",
-      "title": "主角龙状态｜第59源章｜1",
+      "title": "主角龙状态｜第五十四章：生与死（4）｜同时成为赐生者支持者与死神体系任命者",
       "memo": "死亡、来世与冥界：主角龙状态（第59源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6149,7 +6149,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-59-01",
-      "title": "主角龙知识边界｜第59源章｜1",
+      "title": "主角龙知识边界｜第五十四章：生与死（4）｜暗精灵尚未正式运魂",
       "memo": "死亡、来世与冥界：主角龙知识边界（第59源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6174,7 +6174,7 @@
     },
     {
       "id": "era-06-underworld-event-60-01",
-      "title": "事件｜第60源章｜1",
+      "title": "塔那托斯率暗精灵到极北施工",
       "memo": "死亡、来世与冥界：事件（第60源章第1条）",
       "category": "event",
       "keys": [
@@ -6199,7 +6199,7 @@
     },
     {
       "id": "era-06-underworld-event-60-02",
-      "title": "事件｜第60源章｜2",
+      "title": "东方人口稠密、已有王国大城与成熟芒山葬礼文化",
       "memo": "死亡、来世与冥界：事件（第60源章第2条）",
       "category": "event",
       "keys": [
@@ -6224,7 +6224,7 @@
     },
     {
       "id": "era-06-underworld-event-60-03",
-      "title": "事件｜第60源章｜3",
+      "title": "主角目击地灵山神芒取出张三成灵魂，以长谈消除遗憾使其自然消散",
       "memo": "死亡、来世与冥界：事件（第60源章第3条）",
       "category": "event",
       "keys": [
@@ -6250,7 +6250,7 @@
     },
     {
       "id": "era-06-underworld-event-60-04",
-      "title": "事件｜第60源章｜4",
+      "title": "主角欣赏芒以对话非暴力处理灵魂，邀请其成为全球来世管理者",
       "memo": "死亡、来世与冥界：事件（第60源章第4条）",
       "category": "event",
       "keys": [
@@ -6275,7 +6275,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-60-01",
-      "title": "世界设定事实｜第60源章｜1",
+      "title": "东方大城已由王建国，人口是其他地区两三倍，采用棺椁、送葬、公共山墓等成熟葬俗",
       "memo": "死亡、来世与冥界：世界设定事实（第60源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6300,7 +6300,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-60-02",
-      "title": "世界设定事实｜第60源章｜2",
+      "title": "与死者充分对话消除执念可使灵魂自然消散并防畸变",
       "memo": "死亡、来世与冥界：世界设定事实（第60源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6325,7 +6325,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-60-01",
-      "title": "新建立连续性｜第60源章｜1",
+      "title": "东方王国大城",
       "memo": "死亡、来世与冥界：新建立连续性（第60源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6350,7 +6350,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-60-02",
-      "title": "新建立连续性｜第60源章｜2",
+      "title": "芒山",
       "memo": "死亡、来世与冥界：新建立连续性（第60源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6375,7 +6375,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-60-03",
-      "title": "新建立连续性｜第60源章｜3",
+      "title": "山神芒",
       "memo": "死亡、来世与冥界：新建立连续性（第60源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6400,7 +6400,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-60-04",
-      "title": "新建立连续性｜第60源章｜4",
+      "title": "亡魂对话疏导",
       "memo": "死亡、来世与冥界：新建立连续性（第60源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6425,7 +6425,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-60-01",
-      "title": "未解决事项｜第60源章｜1",
+      "title": "芒是否任职",
       "memo": "死亡、来世与冥界：未解决事项（第60源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6450,7 +6450,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-60-02",
-      "title": "未解决事项｜第60源章｜2",
+      "title": "东方详细政体",
       "memo": "死亡、来世与冥界：未解决事项（第60源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6475,7 +6475,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-60-01",
-      "title": "主角龙形态｜第60源章｜1",
+      "title": "主角龙形态｜第五十五章：北极（1）｜隐蔽观察东方葬礼，具体形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第60源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6500,7 +6500,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-60-01",
-      "title": "主角龙状态｜第60源章｜1",
+      "title": "主角龙状态｜第五十五章：北极（1）｜从自行设计来世转为吸收地方死亡实践并招聘经验者",
       "memo": "死亡、来世与冥界：主角龙状态（第60源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6525,7 +6525,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-60-01",
-      "title": "主角龙知识边界｜第60源章｜1",
+      "title": "主角龙知识边界｜第五十五章：北极（1）｜芒尚未接受",
       "memo": "死亡、来世与冥界：主角龙知识边界（第60源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6550,7 +6550,7 @@
     },
     {
       "id": "era-06-underworld-event-61-01",
-      "title": "事件｜第61源章｜1",
+      "title": "主角频访芒山考察",
       "memo": "死亡、来世与冥界：事件（第61源章第1条）",
       "category": "event",
       "keys": [
@@ -6577,7 +6577,7 @@
     },
     {
       "id": "era-06-underworld-event-61-02",
-      "title": "事件｜第61源章｜2",
+      "title": "芒坦陈被主角化灵的恐惧、靠山神身份维持自我，担心离山消散",
       "memo": "死亡、来世与冥界：事件（第61源章第2条）",
       "category": "event",
       "keys": [
@@ -6602,7 +6602,7 @@
     },
     {
       "id": "era-06-underworld-event-61-03",
-      "title": "事件｜第61源章｜3",
+      "title": "芒要求能彻悟死者一生的器物后同意合作",
       "memo": "死亡、来世与冥界：事件（第61源章第3条）",
       "category": "event",
       "keys": [
@@ -6628,7 +6628,7 @@
     },
     {
       "id": "era-06-underworld-event-61-04",
-      "title": "事件｜第61源章｜4",
+      "title": "未来资料称阎罗/摩罗斯以业镜和生死簿查生平寿数，温和待无罪者、严惩抵赖重罪者",
       "memo": "死亡、来世与冥界：事件（第61源章第4条）",
       "category": "event",
       "keys": [
@@ -6654,7 +6654,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-61-01",
-      "title": "世界设定事实｜第61源章｜1",
+      "title": "未来阎罗体系包含业镜映生平、生死簿核寿数、宽慰无罪者与对抵赖重罪者加判",
       "memo": "死亡、来世与冥界：世界设定事实（第61源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6679,7 +6679,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-61-01",
-      "title": "新建立连续性｜第61源章｜1",
+      "title": "芒条件式接受",
       "memo": "死亡、来世与冥界：新建立连续性（第61源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6704,7 +6704,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-61-02",
-      "title": "新建立连续性｜第61源章｜2",
+      "title": "阎罗/摩罗斯名案",
       "memo": "死亡、来世与冥界：新建立连续性（第61源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6730,7 +6730,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-61-03",
-      "title": "新建立连续性｜第61源章｜3",
+      "title": "业镜与生死簿需求",
       "memo": "死亡、来世与冥界：新建立连续性（第61源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6755,7 +6755,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-61-04",
-      "title": "新建立连续性｜第61源章｜4",
+      "title": "塔罗斯疑似自荐",
       "memo": "死亡、来世与冥界：新建立连续性（第61源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6781,7 +6781,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-61-01",
-      "title": "未解决事项｜第61源章｜1",
+      "title": "芒正式神格化与迁山",
       "memo": "死亡、来世与冥界：未解决事项（第61源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6806,7 +6806,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-61-02",
-      "title": "未解决事项｜第61源章｜2",
+      "title": "塞雷斯决定",
       "memo": "死亡、来世与冥界：未解决事项（第61源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6832,7 +6832,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-61-01",
-      "title": "主角龙形态｜第61源章｜1",
+      "title": "主角龙形态｜第五十六章：北极（2）｜频访芒山时形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第61源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6857,7 +6857,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-61-01",
-      "title": "主角龙状态｜第61源章｜1",
+      "title": "主角龙状态｜第五十六章：北极（2）｜成功条件式招募第二名管理者",
       "memo": "死亡、来世与冥界：主角龙状态（第61源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6882,7 +6882,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-61-01",
-      "title": "主角龙知识边界｜第61源章｜1",
+      "title": "主角龙知识边界｜第五十六章：北极（2）｜尚未造业镜/生死簿、迁山或正式改名",
       "memo": "死亡、来世与冥界：主角龙知识边界（第61源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6908,7 +6908,7 @@
     },
     {
       "id": "era-06-underworld-event-62-01",
-      "title": "事件｜第62源章｜1",
+      "title": "主角造铜制业镜/明鉴读取灵魂背面记忆并筛选重要事件，配套竹简生死簿据记忆推演应然寿命",
       "memo": "死亡、来世与冥界：事件（第62源章第1条）",
       "category": "event",
       "keys": [
@@ -6933,7 +6933,7 @@
     },
     {
       "id": "era-06-underworld-event-62-02",
-      "title": "事件｜第62源章｜2",
+      "title": "三管理职责被明确：塔那托斯统领收魂，芒查是否应死，塞雷斯拟用天平审判",
       "memo": "死亡、来世与冥界：事件（第62源章第2条）",
       "category": "event",
       "keys": [
@@ -6959,7 +6959,7 @@
     },
     {
       "id": "era-06-underworld-event-62-03",
-      "title": "事件｜第62源章｜3",
+      "title": "主角隐藏芒山并引导燕国盛都流言，使人类相信山沉冥界、山神成死神",
       "memo": "死亡、来世与冥界：事件（第62源章第3条）",
       "category": "event",
       "keys": [
@@ -6984,7 +6984,7 @@
     },
     {
       "id": "era-06-underworld-event-62-04",
-      "title": "事件｜第62源章｜4",
+      "title": "信仰令芒摆脱山体限制、衣冠转黑",
       "memo": "死亡、来世与冥界：事件（第62源章第4条）",
       "category": "event",
       "keys": [
@@ -7009,7 +7009,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-62-01",
-      "title": "世界设定事实｜第62源章｜1",
+      "title": "灵魂生平记录位于灵魂背面",
       "memo": "死亡、来世与冥界：世界设定事实（第62源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7034,7 +7034,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-62-02",
-      "title": "世界设定事实｜第62源章｜2",
+      "title": "东方最大城市为燕国首都盛都，北侧芒山原是公共坟山",
       "memo": "死亡、来世与冥界：世界设定事实（第62源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7059,7 +7059,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-62-01",
-      "title": "新建立连续性｜第62源章｜1",
+      "title": "阎罗/摩罗斯正式成立",
       "memo": "死亡、来世与冥界：新建立连续性（第62源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7085,7 +7085,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-62-02",
-      "title": "新建立连续性｜第62源章｜2",
+      "title": "业镜/明鉴",
       "memo": "死亡、来世与冥界：新建立连续性（第62源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7110,7 +7110,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-62-03",
-      "title": "新建立连续性｜第62源章｜3",
+      "title": "生死簿",
       "memo": "死亡、来世与冥界：新建立连续性（第62源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7135,7 +7135,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-62-04",
-      "title": "新建立连续性｜第62源章｜4",
+      "title": "燕国盛都",
       "memo": "死亡、来世与冥界：新建立连续性（第62源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7160,7 +7160,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-62-01",
-      "title": "未解决事项｜第62源章｜1",
+      "title": "塞雷斯职位",
       "memo": "死亡、来世与冥界：未解决事项（第62源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7186,7 +7186,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-62-02",
-      "title": "未解决事项｜第62源章｜2",
+      "title": "罪孽天平",
       "memo": "死亡、来世与冥界：未解决事项（第62源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7211,7 +7211,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-62-01",
-      "title": "主角龙形态｜第62源章｜1",
+      "title": "主角龙形态｜第五十七章：北极（3）｜对芒造物、迁山时形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第62源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7236,7 +7236,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-62-01",
-      "title": "主角龙状态｜第62源章｜1",
+      "title": "主角龙状态｜第五十七章：北极（3）｜第二死神的造物者、神格塑造者与命名者",
       "memo": "死亡、来世与冥界：主角龙状态（第62源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7261,7 +7261,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-62-01",
-      "title": "主角龙知识边界｜第62源章｜1",
+      "title": "主角龙知识边界｜第五十七章：北极（3）｜塞雷斯仍未接受",
       "memo": "死亡、来世与冥界：主角龙知识边界（第62源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7287,7 +7287,7 @@
     },
     {
       "id": "era-06-underworld-event-63-01",
-      "title": "事件｜第63源章｜1",
+      "title": "主角以本体掌托阎罗飞往极北",
       "memo": "死亡、来世与冥界：事件（第63源章第1条）",
       "category": "event",
       "keys": [
@@ -7312,7 +7312,7 @@
     },
     {
       "id": "era-06-underworld-event-63-02",
-      "title": "事件｜第63源章｜2",
+      "title": "列表出现陌生神‘云鲸’",
       "memo": "死亡、来世与冥界：事件（第63源章第2条）",
       "category": "event",
       "keys": [
@@ -7338,7 +7338,7 @@
     },
     {
       "id": "era-06-underworld-event-63-03",
-      "title": "事件｜第63源章｜3",
+      "title": "云鲸无清晰智能、沿途散魂并增加新生儿",
       "memo": "死亡、来世与冥界：事件（第63源章第3条）",
       "category": "event",
       "keys": [
@@ -7364,7 +7364,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-63-01",
-      "title": "世界设定事实｜第63源章｜1",
+      "title": "云鲸是魂云受人类认知形成的神明，其散魂与新生儿增多相关",
       "memo": "死亡、来世与冥界：世界设定事实（第63源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7390,7 +7390,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-63-01",
-      "title": "新建立连续性｜第63源章｜1",
+      "title": "云鲸",
       "memo": "死亡、来世与冥界：新建立连续性（第63源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7416,7 +7416,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-63-02",
-      "title": "新建立连续性｜第63源章｜2",
+      "title": "七层冥界挖通",
       "memo": "死亡、来世与冥界：新建立连续性（第63源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7441,7 +7441,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-63-03",
-      "title": "新建立连续性｜第63源章｜3",
+      "title": "阎罗登神明列表",
       "memo": "死亡、来世与冥界：新建立连续性（第63源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7466,7 +7466,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-63-01",
-      "title": "未解决事项｜第63源章｜1",
+      "title": "云鲸智能与路线",
       "memo": "死亡、来世与冥界：未解决事项（第63源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7492,7 +7492,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-63-02",
-      "title": "未解决事项｜第63源章｜2",
+      "title": "冥界魂流连接",
       "memo": "死亡、来世与冥界：未解决事项（第63源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7517,7 +7517,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-63-01",
-      "title": "主角龙形态｜第63源章｜1",
+      "title": "主角龙形态｜第五十八章：云鲸（1）｜巨龙本体护送阎罗",
       "memo": "死亡、来世与冥界：主角龙形态（第63源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7542,7 +7542,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-63-01",
-      "title": "主角龙状态｜第63源章｜1",
+      "title": "主角龙状态｜第五十八章：云鲸（1）｜冥界完工前被自然诞生的新神吸引，转入魂流出口设计",
       "memo": "死亡、来世与冥界：主角龙状态（第63源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7567,7 +7567,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-63-01",
-      "title": "主角龙知识边界｜第63源章｜1",
+      "title": "主角龙知识边界｜第五十八章：云鲸（1）｜不知道云鲸成形具体原因，也尚未改造它",
       "memo": "死亡、来世与冥界：主角龙知识边界（第63源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7593,7 +7593,7 @@
     },
     {
       "id": "era-06-underworld-event-64-01",
-      "title": "事件｜第64源章｜1",
+      "title": "主角决定通过信仰给云鲸孩童智能、白鸟眷属和夜归极北路线",
       "memo": "死亡、来世与冥界：事件（第64源章第1条）",
       "category": "event",
       "keys": [
@@ -7619,7 +7619,7 @@
     },
     {
       "id": "era-06-underworld-event-64-02",
-      "title": "事件｜第64源章｜2",
+      "title": "人类处古希腊式城邦期",
       "memo": "死亡、来世与冥界：事件（第64源章第2条）",
       "category": "event",
       "keys": [
@@ -7644,7 +7644,7 @@
     },
     {
       "id": "era-06-underworld-event-64-03",
-      "title": "事件｜第64源章｜3",
+      "title": "主角隐藏龙角、改发色、以娇小成年普通人形进城",
       "memo": "死亡、来世与冥界：事件（第64源章第3条）",
       "category": "event",
       "keys": [
@@ -7669,7 +7669,7 @@
     },
     {
       "id": "era-06-underworld-event-64-04",
-      "title": "事件｜第64源章｜4",
+      "title": "主角在既有云鲸赐子信仰上添加白鸟使者，孩童灵智，日巡夜归北方，诞子神与受生命之神眷顾",
       "memo": "死亡、来世与冥界：事件（第64源章第4条）",
       "category": "event",
       "keys": [
@@ -7695,7 +7695,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-64-01",
-      "title": "世界设定事实｜第64源章｜1",
+      "title": "人类处城邦文明，最大城邦阿卡德由获冠人类后裔统治",
       "memo": "死亡、来世与冥界：世界设定事实（第64源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7720,7 +7720,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-64-02",
-      "title": "世界设定事实｜第64源章｜2",
+      "title": "阿卡德有木墙、泥屋、物物交换市场与战争俘虏奴隶贸易",
       "memo": "死亡、来世与冥界：世界设定事实（第64源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7745,7 +7745,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-64-01",
-      "title": "新建立连续性｜第64源章｜1",
+      "title": "阿卡德城邦",
       "memo": "死亡、来世与冥界：新建立连续性（第64源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7770,7 +7770,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-64-02",
-      "title": "新建立连续性｜第64源章｜2",
+      "title": "完全隐藏龙角的伪装形态",
       "memo": "死亡、来世与冥界：新建立连续性（第64源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7795,7 +7795,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-64-03",
-      "title": "新建立连续性｜第64源章｜3",
+      "title": "云鲸信仰工程",
       "memo": "死亡、来世与冥界：新建立连续性（第64源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7821,7 +7821,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-64-01",
-      "title": "未解决事项｜第64源章｜1",
+      "title": "云鲸改造结果",
       "memo": "死亡、来世与冥界：未解决事项（第64源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7847,7 +7847,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-64-02",
-      "title": "未解决事项｜第64源章｜2",
+      "title": "生命之神信仰归属",
       "memo": "死亡、来世与冥界：未解决事项（第64源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7872,7 +7872,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-64-01",
-      "title": "主角龙形态｜第64源章｜1",
+      "title": "主角龙形态｜第五十九章：云鲸（2）｜隐藏龙角、改变发色、娇小年幼感的普通人形",
       "memo": "死亡、来世与冥界：主角龙形态（第64源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7897,7 +7897,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-64-01",
-      "title": "主角龙状态｜第64源章｜1",
+      "title": "主角龙状态｜第五十九章：云鲸（2）｜以凡人观察者和匿名信仰工程者行动",
       "memo": "死亡、来世与冥界：主角龙状态（第64源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7922,7 +7922,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-64-01",
-      "title": "主角龙知识边界｜第64源章｜1",
+      "title": "主角龙知识边界｜第五十九章：云鲸（2）｜户籍仍是未来概念",
       "memo": "死亡、来世与冥界：主角龙知识边界（第64源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7947,7 +7947,7 @@
     },
     {
       "id": "era-06-underworld-event-65-01",
-      "title": "事件｜第65源章｜1",
+      "title": "云鲸信仰改造成功：有孩童灵智，白鹳/天鹅/白鸽等白鸟眷属，按路线散魂",
       "memo": "死亡、来世与冥界：事件（第65源章第1条）",
       "category": "event",
       "keys": [
@@ -7973,7 +7973,7 @@
     },
     {
       "id": "era-06-underworld-event-65-02",
-      "title": "事件｜第65源章｜2",
+      "title": "主角在冥界第二层种花时收到赐生者领主以生命女神/生命之母名义请示",
       "memo": "死亡、来世与冥界：事件（第65源章第2条）",
       "category": "event",
       "keys": [
@@ -7998,7 +7998,7 @@
     },
     {
       "id": "era-06-underworld-event-65-03",
-      "title": "事件｜第65源章｜3",
+      "title": "人类无魔力，强催生命力会异常增殖",
       "memo": "死亡、来世与冥界：事件（第65源章第3条）",
       "category": "event",
       "keys": [
@@ -8023,7 +8023,7 @@
     },
     {
       "id": "era-06-underworld-event-65-04",
-      "title": "事件｜第65源章｜4",
+      "title": "一名儿童长为青年后成为唯一以信仰行治愈神迹的首祭司",
       "memo": "死亡、来世与冥界：事件（第65源章第4条）",
       "category": "event",
       "keys": [
@@ -8048,7 +8048,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-65-01",
-      "title": "世界设定事实｜第65源章｜1",
+      "title": "首个人类祭司无需魔力/生命力，仅以对生命女神的信仰施展治愈，组织由赐生者扩为生命神殿",
       "memo": "死亡、来世与冥界：世界设定事实（第65源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8073,7 +8073,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-65-01",
-      "title": "新建立连续性｜第65源章｜1",
+      "title": "生命女神/生命之母称号",
       "memo": "死亡、来世与冥界：新建立连续性（第65源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8098,7 +8098,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-65-02",
-      "title": "新建立连续性｜第65源章｜2",
+      "title": "首位人类祭司",
       "memo": "死亡、来世与冥界：新建立连续性（第65源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8123,7 +8123,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-65-03",
-      "title": "新建立连续性｜第65源章｜3",
+      "title": "生命神殿",
       "memo": "死亡、来世与冥界：新建立连续性（第65源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8148,7 +8148,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-65-04",
-      "title": "新建立连续性｜第65源章｜4",
+      "title": "西尔菲达成神",
       "memo": "死亡、来世与冥界：新建立连续性（第65源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8173,7 +8173,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-65-01",
-      "title": "未解决事项｜第65源章｜1",
+      "title": "首祭司长期发展",
       "memo": "死亡、来世与冥界：未解决事项（第65源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8198,7 +8198,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-65-02",
-      "title": "未解决事项｜第65源章｜2",
+      "title": "生命神殿教义",
       "memo": "死亡、来世与冥界：未解决事项（第65源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8223,7 +8223,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-65-01",
-      "title": "主角龙形态｜第65源章｜1",
+      "title": "主角龙形态｜第六十章：敬神者（1）｜在冥界第二层种花，具体形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第65源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8248,7 +8248,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-65-01",
-      "title": "主角龙状态｜第65源章｜1",
+      "title": "主角龙状态｜第六十章：敬神者（1）｜被确立为生命女神并成为人类信仰神迹的源头",
       "memo": "死亡、来世与冥界：主角龙状态（第65源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8273,7 +8273,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-65-01",
-      "title": "主角龙知识边界｜第65源章｜1",
+      "title": "主角龙知识边界｜第六十章：敬神者（1）｜尚不知道生命祈祷潮规模，也未给首祭司姓名",
       "memo": "死亡、来世与冥界：主角龙知识边界（第65源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8298,7 +8298,7 @@
     },
     {
       "id": "era-06-underworld-event-66-01",
-      "title": "事件｜第66源章｜1",
+      "title": "生命女神收到大量病伤祈祷，普通人不能收回复，唯极虔诚祭司可收",
       "memo": "死亡、来世与冥界：事件（第66源章第1条）",
       "category": "event",
       "keys": [
@@ -8323,7 +8323,7 @@
     },
     {
       "id": "era-06-underworld-event-66-02",
-      "title": "事件｜第66源章｜2",
+      "title": "中年祭司问生命为何物",
       "memo": "死亡、来世与冥界：事件（第66源章第2条）",
       "category": "event",
       "keys": [
@@ -8348,7 +8348,7 @@
     },
     {
       "id": "era-06-underworld-event-66-03",
-      "title": "事件｜第66源章｜3",
+      "title": "七层冥界与云鲸到位",
       "memo": "死亡、来世与冥界：事件（第66源章第3条）",
       "category": "event",
       "keys": [
@@ -8375,7 +8375,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-66-01",
-      "title": "世界设定事实｜第66源章｜1",
+      "title": "神明信使对普通人回复失败，极虔诚祭司例外",
       "memo": "死亡、来世与冥界：世界设定事实（第66源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8400,7 +8400,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-66-02",
-      "title": "世界设定事实｜第66源章｜2",
+      "title": "未来资料称生命教会为人类首个信仰体系，海姆为首祭司与唯一听神谕者",
       "memo": "死亡、来世与冥界：世界设定事实（第66源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8426,7 +8426,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-66-01",
-      "title": "新建立连续性｜第66源章｜1",
+      "title": "海姆姓名",
       "memo": "死亡、来世与冥界：新建立连续性（第66源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8452,7 +8452,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-66-02",
-      "title": "新建立连续性｜第66源章｜2",
+      "title": "生命祈祷筛选",
       "memo": "死亡、来世与冥界：新建立连续性（第66源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8477,7 +8477,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-66-03",
-      "title": "新建立连续性｜第66源章｜3",
+      "title": "七层冥界准备完成",
       "memo": "死亡、来世与冥界：新建立连续性（第66源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8502,7 +8502,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-66-01",
-      "title": "未解决事项｜第66源章｜1",
+      "title": "冥界启动｜第六十一章：敬神者（2）",
       "memo": "死亡、来世与冥界：未解决事项（第66源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8527,7 +8527,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-66-02",
-      "title": "未解决事项｜第66源章｜2",
+      "title": "海姆之后的著作实际起因",
       "memo": "死亡、来世与冥界：未解决事项（第66源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8553,7 +8553,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-66-01",
-      "title": "主角龙形态｜第66源章｜1",
+      "title": "主角龙形态｜第六十一章：敬神者（2）｜冥界建设尾声形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第66源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8578,7 +8578,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-66-01",
-      "title": "主角龙状态｜第66源章｜1",
+      "title": "主角龙状态｜第六十一章：敬神者（2）｜生命神谕回应者，同时准备启动冥界",
       "memo": "死亡、来世与冥界：主角龙状态（第66源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8603,7 +8603,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-66-01",
-      "title": "主角龙知识边界｜第66源章｜1",
+      "title": "主角龙知识边界｜第六十一章：敬神者（2）｜她自己仍不能给生命唯一定义",
       "memo": "死亡、来世与冥界：主角龙知识边界（第66源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8628,7 +8628,7 @@
     },
     {
       "id": "era-06-underworld-event-67-01",
-      "title": "事件｜第67源章｜1",
+      "title": "冥界设施与两名死神、暗精灵、云鲸就绪但未启动",
       "memo": "死亡、来世与冥界：事件（第67源章第1条）",
       "category": "event",
       "keys": [
@@ -8655,7 +8655,7 @@
     },
     {
       "id": "era-06-underworld-event-67-02",
-      "title": "事件｜第67源章｜2",
+      "title": "海姆的妻儿死于阿卡德与乌尔克战争尸体引发的瘟疫",
       "memo": "死亡、来世与冥界：事件（第67源章第2条）",
       "category": "event",
       "keys": [
@@ -8681,7 +8681,7 @@
     },
     {
       "id": "era-06-underworld-event-67-03",
-      "title": "事件｜第67源章｜3",
+      "title": "主角坦白远古死后虚无、如今魂魄不完整循环与新冥界目的",
       "memo": "死亡、来世与冥界：事件（第67源章第3条）",
       "category": "event",
       "keys": [
@@ -8708,7 +8708,7 @@
     },
     {
       "id": "era-06-underworld-event-67-04",
-      "title": "事件｜第67源章｜4",
+      "title": "主角在地下找到妻儿尚未三年分解的魄，说明若找回对应魂并融合可重成完整灵魂",
       "memo": "死亡、来世与冥界：事件（第67源章第4条）",
       "category": "event",
       "keys": [
@@ -8733,7 +8733,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-67-01",
-      "title": "世界设定事实｜第67源章｜1",
+      "title": "魄沉地下后平均约三年完全分解",
       "memo": "死亡、来世与冥界：世界设定事实（第67源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8758,7 +8758,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-67-02",
-      "title": "世界设定事实｜第67源章｜2",
+      "title": "阿卡德与乌尔克交战，未收尸体使附近村庄疫病蔓延",
       "memo": "死亡、来世与冥界：世界设定事实（第67源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8783,7 +8783,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-67-01",
-      "title": "新建立连续性｜第67源章｜1",
+      "title": "海姆妻儿死亡",
       "memo": "死亡、来世与冥界：新建立连续性（第67源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8809,7 +8809,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-67-02",
-      "title": "新建立连续性｜第67源章｜2",
+      "title": "魂魄再融合可能",
       "memo": "死亡、来世与冥界：新建立连续性（第67源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8834,7 +8834,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-67-03",
-      "title": "新建立连续性｜第67源章｜3",
+      "title": "魄三年分解期",
       "memo": "死亡、来世与冥界：新建立连续性（第67源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8859,7 +8859,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-67-04",
-      "title": "新建立连续性｜第67源章｜4",
+      "title": "乌尔克城邦",
       "memo": "死亡、来世与冥界：新建立连续性（第67源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8884,7 +8884,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-67-01",
-      "title": "未解决事项｜第67源章｜1",
+      "title": "妻儿魂寻找",
       "memo": "死亡、来世与冥界：未解决事项（第67源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8909,7 +8909,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-67-02",
-      "title": "未解决事项｜第67源章｜2",
+      "title": "海姆人生方向",
       "memo": "死亡、来世与冥界：未解决事项（第67源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8935,7 +8935,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-67-03",
-      "title": "未解决事项｜第67源章｜3",
+      "title": "冥界启动｜第六十二章：敬神者（3）",
       "memo": "死亡、来世与冥界：未解决事项（第67源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8960,7 +8960,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-67-01",
-      "title": "主角龙形态｜第67源章｜1",
+      "title": "主角龙形态｜第六十二章：敬神者（3）｜隐匿身形赶赴阿卡德和战场",
       "memo": "死亡、来世与冥界：主角龙形态（第67源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8985,7 +8985,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-67-01",
-      "title": "主角龙状态｜第67源章｜1",
+      "title": "主角龙状态｜第六十二章：敬神者（3）｜从系统建设者转为直面系统尚未启用造成的个体损失",
       "memo": "死亡、来世与冥界：主角龙状态（第67源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9010,7 +9010,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-67-01",
-      "title": "主角龙知识边界｜第67源章｜1",
+      "title": "主角龙知识边界｜第六十二章：敬神者（3）｜仅提出魂魄再融合可能，未创造复活术",
       "memo": "死亡、来世与冥界：主角龙知识边界（第67源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9035,7 +9035,7 @@
     },
     {
       "id": "era-06-underworld-event-68-01",
-      "title": "事件｜第68源章｜1",
+      "title": "海姆愿付一切寻妻儿魂",
       "memo": "死亡、来世与冥界：事件（第68源章第1条）",
       "category": "event",
       "keys": [
@@ -9061,7 +9061,7 @@
     },
     {
       "id": "era-06-underworld-event-68-02",
-      "title": "事件｜第68源章｜2",
+      "title": "主角让海姆生前记录冥界，使信仰补足制度、传播死后审判与道德约束",
       "memo": "死亡、来世与冥界：事件（第68源章第2条）",
       "category": "event",
       "keys": [
@@ -9087,7 +9087,7 @@
     },
     {
       "id": "era-06-underworld-event-68-03",
-      "title": "事件｜第68源章｜3",
+      "title": "主角造圆/方两枚翡翠分别封妻儿之魄交海姆保管，并布置著书",
       "memo": "死亡、来世与冥界：事件（第68源章第3条）",
       "category": "event",
       "keys": [
@@ -9113,7 +9113,7 @@
     },
     {
       "id": "era-06-underworld-event-68-04",
-      "title": "事件｜第68源章｜4",
+      "title": "黏土板不足，主角请蜥蜴大萨满寻找湿地纸莎草，计划普及轻薄记录材料",
       "memo": "死亡、来世与冥界：事件（第68源章第4条）",
       "category": "event",
       "keys": [
@@ -9138,7 +9138,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-68-01",
-      "title": "世界设定事实｜第68源章｜1",
+      "title": "不完整魄可封入宝石长期保存",
       "memo": "死亡、来世与冥界：世界设定事实（第68源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9163,7 +9163,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-68-02",
-      "title": "世界设定事实｜第68源章｜2",
+      "title": "西方主要记录载体是黏土板/昂贵羊皮纸，东方有竹简",
       "memo": "死亡、来世与冥界：世界设定事实（第68源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9188,7 +9188,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-68-01",
-      "title": "新建立连续性｜第68源章｜1",
+      "title": "海姆死后任职约定",
       "memo": "死亡、来世与冥界：新建立连续性（第68源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9214,7 +9214,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-68-02",
-      "title": "新建立连续性｜第68源章｜2",
+      "title": "妻儿魄翡翠",
       "memo": "死亡、来世与冥界：新建立连续性（第68源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9239,7 +9239,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-68-03",
-      "title": "新建立连续性｜第68源章｜3",
+      "title": "冥界著书计划",
       "memo": "死亡、来世与冥界：新建立连续性（第68源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9264,7 +9264,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-68-04",
-      "title": "新建立连续性｜第68源章｜4",
+      "title": "纸莎草寻找",
       "memo": "死亡、来世与冥界：新建立连续性（第68源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9289,7 +9289,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-68-01",
-      "title": "未解决事项｜第68源章｜1",
+      "title": "妻儿魂",
       "memo": "死亡、来世与冥界：未解决事项（第68源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9314,7 +9314,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-68-02",
-      "title": "未解决事项｜第68源章｜2",
+      "title": "纸张实际制作",
       "memo": "死亡、来世与冥界：未解决事项（第68源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9339,7 +9339,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-68-01",
-      "title": "主角龙形态｜第68源章｜1",
+      "title": "主角龙形态｜第六十三章：敬神者（4）｜与海姆神谕沟通、造翡翠",
       "memo": "死亡、来世与冥界：主角龙形态（第68源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9365,7 +9365,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-68-01",
-      "title": "主角龙状态｜第68源章｜1",
+      "title": "主角龙状态｜第六十三章：敬神者（4）｜海姆余生计划与人类冥界知识传播的策划者",
       "memo": "死亡、来世与冥界：主角龙状态（第68源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9391,7 +9391,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-68-01",
-      "title": "主角龙知识边界｜第68源章｜1",
+      "title": "主角龙知识边界｜第六十三章：敬神者（4）｜海姆尚未完成著作或死亡任职",
       "memo": "死亡、来世与冥界：主角龙知识边界（第68源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9417,7 +9417,7 @@
     },
     {
       "id": "era-06-underworld-event-69-01",
-      "title": "事件｜第69源章｜1",
+      "title": "蜥蜴人过度采集纸莎草",
       "memo": "死亡、来世与冥界：事件（第69源章第1条）",
       "category": "event",
       "keys": [
@@ -9442,7 +9442,7 @@
     },
     {
       "id": "era-06-underworld-event-69-02",
-      "title": "事件｜第69源章｜2",
+      "title": "当代大萨满说明三职分工并完成交叉铺片压制，首张纸莎草纸诞生",
       "memo": "死亡、来世与冥界：事件（第69源章第2条）",
       "category": "event",
       "keys": [
@@ -9467,7 +9467,7 @@
     },
     {
       "id": "era-06-underworld-event-69-03",
-      "title": "事件｜第69源章｜3",
+      "title": "纸莎草成为蜥蜴特产传遍世界，东方贵族少量采用，精灵惊恐排斥",
       "memo": "死亡、来世与冥界：事件（第69源章第3条）",
       "category": "event",
       "keys": [
@@ -9492,7 +9492,7 @@
     },
     {
       "id": "era-06-underworld-event-69-04",
-      "title": "事件｜第69源章｜4",
+      "title": "主角经化身龙族给海姆送纸卷、木笔和鱼鳔胶炭墨，教书写，并命他从冥界写起",
       "memo": "死亡、来世与冥界：事件（第69源章第4条）",
       "category": "event",
       "keys": [
@@ -9518,7 +9518,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-69-01",
-      "title": "世界设定事实｜第69源章｜1",
+      "title": "纸莎草制法包含剥皮切芯薄片、压碎纤维、清水浸七日、横竖叠铺、重压晾七日",
       "memo": "死亡、来世与冥界：世界设定事实（第69源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9543,7 +9543,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-69-02",
-      "title": "世界设定事实｜第69源章｜2",
+      "title": "首代墨水用纸莎草树皮炭、鱼鳔胶和水",
       "memo": "死亡、来世与冥界：世界设定事实（第69源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9568,7 +9568,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-69-01",
-      "title": "新建立连续性｜第69源章｜1",
+      "title": "纸莎草纸",
       "memo": "死亡、来世与冥界：新建立连续性（第69源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9593,7 +9593,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-69-02",
-      "title": "新建立连续性｜第69源章｜2",
+      "title": "墨水与木笔",
       "memo": "死亡、来世与冥界：新建立连续性（第69源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9618,7 +9618,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-69-03",
-      "title": "新建立连续性｜第69源章｜3",
+      "title": "海姆开始写冥界",
       "memo": "死亡、来世与冥界：新建立连续性（第69源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9644,7 +9644,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-69-01",
-      "title": "未解决事项｜第69源章｜1",
+      "title": "冥界文本内容",
       "memo": "死亡、来世与冥界：未解决事项（第69源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9669,7 +9669,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-69-02",
-      "title": "未解决事项｜第69源章｜2",
+      "title": "塞雷斯决定与冥界启动",
       "memo": "死亡、来世与冥界：未解决事项（第69源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9695,7 +9695,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-69-01",
-      "title": "主角龙形态｜第69源章｜1",
+      "title": "主角龙形态｜第六十四章：敬神者（5）｜教蜥蜴时显身/神谕未明确",
       "memo": "死亡、来世与冥界：主角龙形态（第69源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9721,7 +9721,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-69-01",
-      "title": "主角龙状态｜第69源章｜1",
+      "title": "主角龙状态｜第六十四章：敬神者（5）｜知识载体与冥界文本生产的推动者",
       "memo": "死亡、来世与冥界：主角龙状态（第69源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9746,7 +9746,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-69-01",
-      "title": "主角龙知识边界｜第69源章｜1",
+      "title": "主角龙知识边界｜第六十四章：敬神者（5）｜纸莎草已传播但廉价墨与广泛识字仍未解决",
       "memo": "死亡、来世与冥界：主角龙知识边界（第69源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9771,7 +9771,7 @@
     },
     {
       "id": "era-06-underworld-event-70-01",
-      "title": "事件｜第70源章｜1",
+      "title": "年老海姆以第一人称开篇《冥界浅思》，不公开自己的生命答案，转述生命之母所告冥界",
       "memo": "死亡、来世与冥界：事件（第70源章第1条）",
       "category": "event",
       "keys": [
@@ -9797,7 +9797,7 @@
     },
     {
       "id": "era-06-underworld-event-70-02",
-      "title": "事件｜第70源章｜2",
+      "title": "书中死神由黑暗收魂、容许短暂道别，再经黑门、塔罗斯、三途川/冥河进入冥界",
       "memo": "死亡、来世与冥界：事件（第70源章第2条）",
       "category": "event",
       "keys": [
@@ -9823,7 +9823,7 @@
     },
     {
       "id": "era-06-underworld-event-70-03",
-      "title": "事件｜第70源章｜3",
+      "title": "第一层为早夭儿童等待父母",
       "memo": "死亡、来世与冥界：事件（第70源章第3条）",
       "category": "event",
       "keys": [
@@ -9849,7 +9849,7 @@
     },
     {
       "id": "era-06-underworld-event-70-04",
-      "title": "事件｜第70源章｜4",
+      "title": "无舌船夫索取由生前助人感激构成的渡资",
       "memo": "死亡、来世与冥界：事件（第70源章第4条）",
       "category": "event",
       "keys": [
@@ -9876,7 +9876,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-70-01",
-      "title": "世界设定事实｜第70源章｜1",
+      "title": "海姆记载死神会给逝者极短道别机会，但来源是生命之母所告并可能带叙事加工",
       "memo": "死亡、来世与冥界：世界设定事实（第70源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9902,7 +9902,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-70-02",
-      "title": "世界设定事实｜第70源章｜2",
+      "title": "冥河渡资是受助者感激",
       "memo": "死亡、来世与冥界：世界设定事实（第70源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9928,7 +9928,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-70-01",
-      "title": "新建立连续性｜第70源章｜1",
+      "title": "《冥界浅思》文本",
       "memo": "死亡、来世与冥界：新建立连续性（第70源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9953,7 +9953,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-70-02",
-      "title": "新建立连续性｜第70源章｜2",
+      "title": "鬼母",
       "memo": "死亡、来世与冥界：新建立连续性（第70源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9979,7 +9979,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-70-03",
-      "title": "新建立连续性｜第70源章｜3",
+      "title": "无舌船夫",
       "memo": "死亡、来世与冥界：新建立连续性（第70源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10005,7 +10005,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-70-04",
-      "title": "新建立连续性｜第70源章｜4",
+      "title": "冥河渡资",
       "memo": "死亡、来世与冥界：新建立连续性（第70源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10030,7 +10030,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-70-01",
-      "title": "未解决事项｜第70源章｜1",
+      "title": "从未助人者结局",
       "memo": "死亡、来世与冥界：未解决事项（第70源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10055,7 +10055,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-70-02",
-      "title": "未解决事项｜第70源章｜2",
+      "title": "海姆私人生命答案",
       "memo": "死亡、来世与冥界：未解决事项（第70源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10081,7 +10081,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-70-01",
-      "title": "主角龙形态｜第70源章｜1",
+      "title": "主角龙形态｜第六十五章：冥界浅思（1）｜不在本时点现场",
       "memo": "死亡、来世与冥界：主角龙形态（第70源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10107,7 +10107,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-70-01",
-      "title": "主角龙状态｜第70源章｜1",
+      "title": "主角龙状态｜第六十五章：冥界浅思（1）｜冥界知识来源",
       "memo": "死亡、来世与冥界：主角龙状态（第70源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10132,7 +10132,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-70-01",
-      "title": "主角龙知识边界｜第70源章｜1",
+      "title": "主角龙知识边界｜第六十五章：冥界浅思（1）｜不得把海姆的文学描写全部当作她逐字原话",
       "memo": "死亡、来世与冥界：主角龙知识边界（第70源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10158,7 +10158,7 @@
     },
     {
       "id": "era-06-underworld-event-71-01",
-      "title": "事件｜第71源章｜1",
+      "title": "第二层花海七日修复灵魂伤痛，超时会化花、失忆后转世",
       "memo": "死亡、来世与冥界：事件（第71源章第1条）",
       "category": "event",
       "keys": [
@@ -10183,7 +10183,7 @@
     },
     {
       "id": "era-06-underworld-event-71-02",
-      "title": "事件｜第71源章｜2",
+      "title": "第三层欲望之路以业力满足愿望，超时则消耗记忆，最终空壳转世",
       "memo": "死亡、来世与冥界：事件（第71源章第2条）",
       "category": "event",
       "keys": [
@@ -10208,7 +10208,7 @@
     },
     {
       "id": "era-06-underworld-event-71-03",
-      "title": "事件｜第71源章｜3",
+      "title": "下四层开始严惩：第四层烈火枷锁净化身体与心理暴力",
       "memo": "死亡、来世与冥界：事件（第71源章第3条）",
       "category": "event",
       "keys": [
@@ -10233,7 +10233,7 @@
     },
     {
       "id": "era-06-underworld-event-71-04",
-      "title": "事件｜第71源章｜4",
+      "title": "第五层冰锥罚盗窃，第六层荆棘罚欺诈，第七层深渊罚杀戮",
       "memo": "死亡、来世与冥界：事件（第71源章第4条）",
       "category": "event",
       "keys": [
@@ -10258,7 +10258,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-71-01",
-      "title": "世界设定事实｜第71源章｜1",
+      "title": "七层结构中的第二至七层由修复、欲望消耗和四类罪罚组成",
       "memo": "死亡、来世与冥界：世界设定事实（第71源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10284,7 +10284,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-71-01",
-      "title": "新建立连续性｜第71源章｜1",
+      "title": "花海七日规则",
       "memo": "死亡、来世与冥界：新建立连续性（第71源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10309,7 +10309,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-71-02",
-      "title": "新建立连续性｜第71源章｜2",
+      "title": "欲望路七日规则",
       "memo": "死亡、来世与冥界：新建立连续性（第71源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10334,7 +10334,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-71-03",
-      "title": "新建立连续性｜第71源章｜3",
+      "title": "暴力/盗窃/欺诈/杀戮四层",
       "memo": "死亡、来世与冥界：新建立连续性（第71源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10359,7 +10359,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-71-01",
-      "title": "未解决事项｜第71源章｜1",
+      "title": "第七层具体惩罚",
       "memo": "死亡、来世与冥界：未解决事项（第71源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10384,7 +10384,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-71-01",
-      "title": "主角龙形态｜第71源章｜1",
+      "title": "主角龙形态｜第六十六章：冥界浅思（2）｜不在现场，作为回忆中的生命之母",
       "memo": "死亡、来世与冥界：主角龙形态（第71源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10409,7 +10409,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-71-01",
-      "title": "主角龙状态｜第71源章｜1",
+      "title": "主角龙状态｜第六十六章：冥界浅思（2）｜冥界刑罚规则解释者",
       "memo": "死亡、来世与冥界：主角龙状态（第71源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10434,7 +10434,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-71-01",
-      "title": "主角龙知识边界｜第71源章｜1",
+      "title": "主角龙知识边界｜第六十六章：冥界浅思（2）｜海姆省略号之间可能有未记录细节，不得补写",
       "memo": "死亡、来世与冥界：主角龙知识边界（第71源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10460,7 +10460,7 @@
     },
     {
       "id": "era-06-underworld-event-72-01",
-      "title": "事件｜第72源章｜1",
+      "title": "第七层让杀人者反复以每位受害者记忆与身体经历死亡",
       "memo": "死亡、来世与冥界：事件（第72源章第1条）",
       "category": "event",
       "keys": [
@@ -10486,7 +10486,7 @@
     },
     {
       "id": "era-06-underworld-event-72-02",
-      "title": "事件｜第72源章｜2",
+      "title": "海姆问罪魂拒绝下层",
       "memo": "死亡、来世与冥界：事件（第72源章第2条）",
       "category": "event",
       "keys": [
@@ -10512,7 +10512,7 @@
     },
     {
       "id": "era-06-underworld-event-72-03",
-      "title": "事件｜第72源章｜3",
+      "title": "塞雷斯终于接受，条件是为巨龙死后建安息地",
       "memo": "死亡、来世与冥界：事件（第72源章第3条）",
       "category": "event",
       "keys": [
@@ -10539,7 +10539,7 @@
     },
     {
       "id": "era-06-underworld-event-72-04",
-      "title": "事件｜第72源章｜4",
+      "title": "三死神含义被区分，冥界进入自运转",
       "memo": "死亡、来世与冥界：事件（第72源章第4条）",
       "category": "event",
       "keys": [
@@ -10564,7 +10564,7 @@
     },
     {
       "id": "era-06-underworld-event-72-05",
-      "title": "事件｜第72源章｜5",
+      "title": "未来雷奇伦传说继续：活人过冥河、被第二层丽人劝返，第三层遇颈挂两翡翠的黑衣男子",
       "memo": "死亡、来世与冥界：事件（第72源章第5条）",
       "category": "event",
       "keys": [
@@ -10590,7 +10590,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-72-01",
-      "title": "世界设定事实｜第72源章｜1",
+      "title": "巨龙专属安息地是刻瑞斯入职条件",
       "memo": "死亡、来世与冥界：世界设定事实（第72源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10616,7 +10616,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-72-02",
-      "title": "世界设定事实｜第72源章｜2",
+      "title": "摩罗斯象征必然死亡/安息，刻瑞斯象征破坏性死亡/罪审，塔那托斯象征公平收割/死神统领",
       "memo": "死亡、来世与冥界：世界设定事实（第72源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10642,7 +10642,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-72-01",
-      "title": "新建立连续性｜第72源章｜1",
+      "title": "刻瑞斯正式入职",
       "memo": "死亡、来世与冥界：新建立连续性（第72源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10668,7 +10668,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-72-02",
-      "title": "新建立连续性｜第72源章｜2",
+      "title": "巨龙死后安息地",
       "memo": "死亡、来世与冥界：新建立连续性（第72源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10693,7 +10693,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-72-03",
-      "title": "新建立连续性｜第72源章｜3",
+      "title": "罪孽天平",
       "memo": "死亡、来世与冥界：新建立连续性（第72源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10718,7 +10718,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-72-04",
-      "title": "新建立连续性｜第72源章｜4",
+      "title": "冥界三头管理完成",
       "memo": "死亡、来世与冥界：新建立连续性（第72源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10743,7 +10743,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-72-01",
-      "title": "未解决事项｜第72源章｜1",
+      "title": "上层管理者",
       "memo": "死亡、来世与冥界：未解决事项（第72源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10768,7 +10768,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-72-01",
-      "title": "主角龙形态｜第72源章｜1",
+      "title": "主角龙形态｜第六十七章：冥界浅思（3）｜与海姆对话时形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第72源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10794,7 +10794,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-72-01",
-      "title": "主角龙状态｜第72源章｜1",
+      "title": "主角龙状态｜第六十七章：冥界浅思（3）｜完成三死神冥界并决定休息",
       "memo": "死亡、来世与冥界：主角龙状态（第72源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10819,7 +10819,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-72-01",
-      "title": "主角龙知识边界｜第72源章｜1",
+      "title": "主角龙知识边界｜第六十七章：冥界浅思（3）｜上层管理者仍空缺",
       "memo": "死亡、来世与冥界：主角龙知识边界（第72源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10845,7 +10845,7 @@
     },
     {
       "id": "era-06-underworld-event-73-01",
-      "title": "事件｜第73源章｜1",
+      "title": "海姆问战争尸疫处理",
       "memo": "死亡、来世与冥界：事件（第73源章第1条）",
       "category": "event",
       "keys": [
@@ -10872,7 +10872,7 @@
     },
     {
       "id": "era-06-underworld-event-73-02",
-      "title": "事件｜第73源章｜2",
+      "title": "各族领地扩张，人类城邦间千人级青铜/石器战争增加",
       "memo": "死亡、来世与冥界：事件（第73源章第2条）",
       "category": "event",
       "keys": [
@@ -10897,7 +10897,7 @@
     },
     {
       "id": "era-06-underworld-event-73-03",
-      "title": "事件｜第73源章｜3",
+      "title": "主角造追踪/捕捉/囚禁厄瑞玻斯的黑暗钓竿，把线垂入地下长期等待",
       "memo": "死亡、来世与冥界：事件（第73源章第3条）",
       "category": "event",
       "keys": [
@@ -10923,7 +10923,7 @@
     },
     {
       "id": "era-06-underworld-event-73-04",
-      "title": "事件｜第73源章｜4",
+      "title": "期间海姆寿终任冥界上层管理者、圣火宗教诞生、东方公主闯冥界、阿卡德建国",
       "memo": "死亡、来世与冥界：事件（第73源章第4条）",
       "category": "event",
       "keys": [
@@ -10949,7 +10949,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-73-01",
-      "title": "世界设定事实｜第73源章｜1",
+      "title": "人类城邦战争通常每方约千人，职业军队未成，铁器稀少，装备多青铜/石器/骨革",
       "memo": "死亡、来世与冥界：世界设定事实（第73源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10974,7 +10974,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-73-02",
-      "title": "世界设定事实｜第73源章｜2",
+      "title": "此长期等待阶段跨越海姆死亡、圣火宗教、东方公主闯冥界与阿卡德由城邦立国",
       "memo": "死亡、来世与冥界：世界设定事实（第73源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11000,7 +11000,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-73-01",
-      "title": "新建立连续性｜第73源章｜1",
+      "title": "厄瑞玻斯钓竿",
       "memo": "死亡、来世与冥界：新建立连续性（第73源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11026,7 +11026,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-73-02",
-      "title": "新建立连续性｜第73源章｜2",
+      "title": "海姆成为上层管理者",
       "memo": "死亡、来世与冥界：新建立连续性（第73源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11052,7 +11052,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-73-03",
-      "title": "新建立连续性｜第73源章｜3",
+      "title": "阿卡德立国",
       "memo": "死亡、来世与冥界：新建立连续性（第73源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11077,7 +11077,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-73-04",
-      "title": "新建立连续性｜第73源章｜4",
+      "title": "圣火火葬流言",
       "memo": "死亡、来世与冥界：新建立连续性（第73源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11102,7 +11102,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-73-01",
-      "title": "未解决事项｜第73源章｜1",
+      "title": "钓到黑暗身份",
       "memo": "死亡、来世与冥界：未解决事项（第73源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11127,7 +11127,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-73-02",
-      "title": "未解决事项｜第73源章｜2",
+      "title": "东方公主与圣火宗教细节",
       "memo": "死亡、来世与冥界：未解决事项（第73源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11152,7 +11152,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-73-01",
-      "title": "主角龙形态｜第73源章｜1",
+      "title": "主角龙形态｜第六十八章：一隅黑暗（1）｜观察世界与持钓竿状态，外貌未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第73源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11177,7 +11177,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-73-01",
-      "title": "主角龙状态｜第73源章｜1",
+      "title": "主角龙状态｜第六十八章：一隅黑暗（1）｜冥界完成后转为长期捕捉厄瑞玻斯",
       "memo": "死亡、来世与冥界：主角龙状态（第73源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11203,7 +11203,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-73-01",
-      "title": "主角龙知识边界｜第73源章｜1",
+      "title": "主角龙知识边界｜第六十八章：一隅黑暗（1）｜尚不知厄瑞玻斯已碎裂",
       "memo": "死亡、来世与冥界：主角龙知识边界（第73源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11229,7 +11229,7 @@
     },
     {
       "id": "era-06-underworld-event-74-01",
-      "title": "事件｜第74源章｜1",
+      "title": "记忆显示厄瑞玻斯分裂银鳞自爆后本质碎成无数永恒黑暗",
       "memo": "死亡、来世与冥界：事件（第74源章第1条）",
       "category": "event",
       "keys": [
@@ -11255,7 +11255,7 @@
     },
     {
       "id": "era-06-underworld-event-74-02",
-      "title": "事件｜第74源章｜2",
+      "title": "主角不忍毁掉虚弱核心，延后惩罚",
       "memo": "死亡、来世与冥界：事件（第74源章第2条）",
       "category": "event",
       "keys": [
@@ -11280,7 +11280,7 @@
     },
     {
       "id": "era-06-underworld-event-74-03",
-      "title": "事件｜第74源章｜3",
+      "title": "此后动物与亚龙变强、变魔法化，人类也出现先天异能者，‘怪物’与‘法师’概念诞生",
       "memo": "死亡、来世与冥界：事件（第74源章第3条）",
       "category": "event",
       "keys": [
@@ -11305,7 +11305,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-74-01",
-      "title": "世界设定事实｜第74源章｜1",
+      "title": "怪物异变含喷火野猪、带电狼、角兔、踏空喷雾天马及会魔法的亚龙",
       "memo": "死亡、来世与冥界：世界设定事实（第74源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11330,7 +11330,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-74-02",
-      "title": "世界设定事实｜第74源章｜2",
+      "title": "部分人类天生能喷火、光箭、念力",
       "memo": "死亡、来世与冥界：世界设定事实（第74源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11355,7 +11355,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-74-01",
-      "title": "新建立连续性｜第74源章｜1",
+      "title": "厄瑞玻斯碎裂真相",
       "memo": "死亡、来世与冥界：新建立连续性（第74源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11381,7 +11381,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-74-02",
-      "title": "新建立连续性｜第74源章｜2",
+      "title": "核心黑钻",
       "memo": "死亡、来世与冥界：新建立连续性（第74源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11406,7 +11406,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-74-03",
-      "title": "新建立连续性｜第74源章｜3",
+      "title": "怪物",
       "memo": "死亡、来世与冥界：新建立连续性（第74源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11431,7 +11431,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-74-04",
-      "title": "新建立连续性｜第74源章｜4",
+      "title": "法师",
       "memo": "死亡、来世与冥界：新建立连续性（第74源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11456,7 +11456,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-74-01",
-      "title": "未解决事项｜第74源章｜1",
+      "title": "两大银鳞残片",
       "memo": "死亡、来世与冥界：未解决事项（第74源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11481,7 +11481,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-74-02",
-      "title": "未解决事项｜第74源章｜2",
+      "title": "异变传播机制",
       "memo": "死亡、来世与冥界：未解决事项（第74源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11506,7 +11506,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-74-01",
-      "title": "主角龙形态｜第74源章｜1",
+      "title": "主角龙形态｜第六十九章：一隅黑暗（2）｜掌托残片、造黑钻，形态未说明",
       "memo": "死亡、来世与冥界：主角龙形态（第74源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11531,7 +11531,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-74-01",
-      "title": "主角龙状态｜第74源章｜1",
+      "title": "主角龙状态｜第六十九章：一隅黑暗（2）｜厄瑞玻斯核心的保管者与碎片回收者",
       "memo": "死亡、来世与冥界：主角龙状态（第74源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11557,7 +11557,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-74-01",
-      "title": "主角龙知识边界｜第74源章｜1",
+      "title": "主角龙知识边界｜第六十九章：一隅黑暗（2）｜只知两块含银鳞大碎片和无数散片存在，不知位置及异变因果全貌",
       "memo": "死亡、来世与冥界：主角龙知识边界（第74源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11582,7 +11582,7 @@
     },
     {
       "id": "era-06-underworld-event-75-01",
-      "title": "事件｜第75源章｜1",
+      "title": "火焰兽毁灭30人拓荒村",
       "memo": "死亡、来世与冥界：事件（第75源章第1条）",
       "category": "event",
       "keys": [
@@ -11607,7 +11607,7 @@
     },
     {
       "id": "era-06-underworld-event-75-02",
-      "title": "事件｜第75源章｜2",
+      "title": "怪物材料与魔石成资源",
       "memo": "死亡、来世与冥界：事件（第75源章第2条）",
       "category": "event",
       "keys": [
@@ -11633,7 +11633,7 @@
     },
     {
       "id": "era-06-underworld-event-75-03",
-      "title": "事件｜第75源章｜3",
+      "title": "各族发展不同魔石用法：兽人肉体增幅、侏儒三类附魔、精灵补魔、蜥蜴赠精灵、巨人尚不了解",
       "memo": "死亡、来世与冥界：事件（第75源章第3条）",
       "category": "event",
       "keys": [
@@ -11658,7 +11658,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-75-01",
-      "title": "世界设定事实｜第75源章｜1",
+      "title": "魔石是怪物魔力结晶",
       "memo": "死亡、来世与冥界：世界设定事实（第75源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11684,7 +11684,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-75-02",
-      "title": "世界设定事实｜第75源章｜2",
+      "title": "侏儒附魔分永久弱效、消耗魔石的临时强效、消耗使用者魔力的可重复型",
       "memo": "死亡、来世与冥界：世界设定事实（第75源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11709,7 +11709,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-75-01",
-      "title": "新建立连续性｜第75源章｜1",
+      "title": "魔石",
       "memo": "死亡、来世与冥界：新建立连续性（第75源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11734,7 +11734,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-75-02",
-      "title": "新建立连续性｜第75源章｜2",
+      "title": "精英怪残片关联",
       "memo": "死亡、来世与冥界：新建立连续性（第75源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11759,7 +11759,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-75-03",
-      "title": "新建立连续性｜第75源章｜3",
+      "title": "各族魔石产业",
       "memo": "死亡、来世与冥界：新建立连续性（第75源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11784,7 +11784,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-75-01",
-      "title": "未解决事项｜第75源章｜1",
+      "title": "规模化检测回收",
       "memo": "死亡、来世与冥界：未解决事项（第75源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11809,7 +11809,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-75-02",
-      "title": "未解决事项｜第75源章｜2",
+      "title": "强怪猎杀委托",
       "memo": "死亡、来世与冥界：未解决事项（第75源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11834,7 +11834,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-75-01",
-      "title": "主角龙形态｜第75源章｜1",
+      "title": "主角龙形态｜第七十章：一隅黑暗（3）｜隐匿身形猎杀怪物",
       "memo": "死亡、来世与冥界：主角龙形态（第75源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11859,7 +11859,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-75-01",
-      "title": "主角龙状态｜第75源章｜1",
+      "title": "主角龙状态｜第七十章：一隅黑暗（3）｜从碎片保管者转为亲自巡猎精英怪",
       "memo": "死亡、来世与冥界：主角龙状态（第75源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11884,7 +11884,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-75-01",
-      "title": "主角龙知识边界｜第75源章｜1",
+      "title": "主角龙知识边界｜第七十章：一隅黑暗（3）｜不知道所有残片宿主，不能靠普通魔石外观直接识别",
       "memo": "死亡、来世与冥界：主角龙知识边界（第75源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11909,7 +11909,7 @@
     },
     {
       "id": "era-06-underworld-event-76-01",
-      "title": "事件｜第76源章｜1",
+      "title": "法师受人类排斥，部分在南方沙漠绿洲边建村，以魔法取水，制冰，猎怪，石屋生活",
       "memo": "死亡、来世与冥界：事件（第76源章第1条）",
       "category": "event",
       "keys": [
@@ -11934,7 +11934,7 @@
     },
     {
       "id": "era-06-underworld-event-76-02",
-      "title": "事件｜第76源章｜2",
+      "title": "法师用魔石粉墨和纸莎草制卷轴，效率高普通人10–100倍",
       "memo": "死亡、来世与冥界：事件（第76源章第2条）",
       "category": "event",
       "keys": [
@@ -11959,7 +11959,7 @@
     },
     {
       "id": "era-06-underworld-event-76-03",
-      "title": "事件｜第76源章｜3",
+      "title": "主角拜访已成圣火神的伊夫利特，教化身但拒还鳞片",
       "memo": "死亡、来世与冥界：事件（第76源章第3条）",
       "category": "event",
       "keys": [
@@ -11985,7 +11985,7 @@
     },
     {
       "id": "era-06-underworld-event-76-04",
-      "title": "事件｜第76源章｜4",
+      "title": "未来记录中银发龙角少女抱火盆穿沙漠安在村广场，称其龙族女祭司、生命教会圣人",
       "memo": "死亡、来世与冥界：事件（第76源章第4条）",
       "category": "event",
       "keys": [
@@ -12010,7 +12010,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-76-01",
-      "title": "世界设定事实｜第76源章｜1",
+      "title": "法师可从魔石制魔法卷轴",
       "memo": "死亡、来世与冥界：世界设定事实（第76源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12035,7 +12035,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-76-02",
-      "title": "世界设定事实｜第76源章｜2",
+      "title": "巴别中央圣火无需燃料，吸收酷热使村温适居，成为圣火信仰圣地",
       "memo": "死亡、来世与冥界：世界设定事实（第76源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12060,7 +12060,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-76-01",
-      "title": "新建立连续性｜第76源章｜1",
+      "title": "巴别村",
       "memo": "死亡、来世与冥界：新建立连续性（第76源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12085,7 +12085,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-76-02",
-      "title": "新建立连续性｜第76源章｜2",
+      "title": "法师卷轴产业",
       "memo": "死亡、来世与冥界：新建立连续性（第76源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12110,7 +12110,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-76-03",
-      "title": "新建立连续性｜第76源章｜3",
+      "title": "伊夫利特化身法",
       "memo": "死亡、来世与冥界：新建立连续性（第76源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12136,7 +12136,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-76-04",
-      "title": "新建立连续性｜第76源章｜4",
+      "title": "巴别永恒圣火",
       "memo": "死亡、来世与冥界：新建立连续性（第76源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12161,7 +12161,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-76-01",
-      "title": "未解决事项｜第76源章｜1",
+      "title": "巴别人口与防御",
       "memo": "死亡、来世与冥界：未解决事项（第76源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12186,7 +12186,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-76-02",
-      "title": "未解决事项｜第76源章｜2",
+      "title": "伊夫利特化身外貌",
       "memo": "死亡、来世与冥界：未解决事项（第76源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12212,7 +12212,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-76-01",
-      "title": "主角龙形态｜第76源章｜1",
+      "title": "主角龙形态｜第七十一章：一隅黑暗（4）｜银发、龙角少女形态，抱巨大石火盆",
       "memo": "死亡、来世与冥界：主角龙形态（第76源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12237,7 +12237,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-76-01",
-      "title": "主角龙状态｜第76源章｜1",
+      "title": "主角龙状态｜第七十一章：一隅黑暗（4）｜不公开以最高神身份出手，而作为未知龙族女祭司连接圣火与巴别",
       "memo": "死亡、来世与冥界：主角龙状态（第76源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12262,7 +12262,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-76-01",
-      "title": "主角龙知识边界｜第76源章｜1",
+      "title": "主角龙知识边界｜第七十一章：一隅黑暗（4）｜后世圣人身份是后来揭晓，当期人不知",
       "memo": "死亡、来世与冥界：主角龙知识边界（第76源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12287,7 +12287,7 @@
     },
     {
       "id": "era-06-underworld-event-77-01",
-      "title": "事件｜第77源章｜1",
+      "title": "凭圣火与村长建立信任，主角以撤火为压力拿到巴别外来魔石检测权，并配年轻法师助手",
       "memo": "死亡、来世与冥界：事件（第77源章第1条）",
       "category": "event",
       "keys": [
@@ -12312,7 +12312,7 @@
     },
     {
       "id": "era-06-underworld-event-77-02",
-      "title": "事件｜第77源章｜2",
+      "title": "主角以龙角少女身份造按钮警报检测铲，用二分筛查从一箱找出含残片魔石，黑钻吸收残片",
       "memo": "死亡、来世与冥界：事件（第77源章第2条）",
       "category": "event",
       "keys": [
@@ -12337,7 +12337,7 @@
     },
     {
       "id": "era-06-underworld-event-77-03",
-      "title": "事件｜第77源章｜3",
+      "title": "助手揭示问题卷轴异常/爆炸/错法术，推测残片可能是原因，但拒绝以生命直接试验",
       "memo": "死亡、来世与冥界：事件（第77源章第3条）",
       "category": "event",
       "keys": [
@@ -12362,7 +12362,7 @@
     },
     {
       "id": "era-06-underworld-event-77-04",
-      "title": "事件｜第77源章｜4",
+      "title": "主角造多把检测器，协议由巴别筛出问题魔石经生命神殿交给她，建立低风险回收链",
       "memo": "死亡、来世与冥界：事件（第77源章第4条）",
       "category": "event",
       "keys": [
@@ -12387,7 +12387,7 @@
     },
     {
       "id": "era-06-underworld-event-77-05",
-      "title": "事件｜第77源章｜5",
+      "title": "主角意识人类不能猎强怪，开始构想能杀强怪并吸收残片的‘英雄之剑’",
       "memo": "死亡、来世与冥界：事件（第77源章第5条）",
       "category": "event",
       "keys": [
@@ -12412,7 +12412,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-77-01",
-      "title": "世界设定事实｜第77源章｜1",
+      "title": "巴别有少量制作无误却失效，过强，错法术或致死的问题卷轴",
       "memo": "死亡、来世与冥界：世界设定事实（第77源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12437,7 +12437,7 @@
     },
     {
       "id": "era-06-underworld-world-fact-77-02",
-      "title": "世界设定事实｜第77源章｜2",
+      "title": "检测铲与生命神殿转交协议形成第一条厄瑞玻斯残片回收链",
       "memo": "死亡、来世与冥界：世界设定事实（第77源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12463,7 +12463,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-77-01",
-      "title": "新建立连续性｜第77源章｜1",
+      "title": "黑暗检测铲",
       "memo": "死亡、来世与冥界：新建立连续性（第77源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12488,7 +12488,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-77-02",
-      "title": "新建立连续性｜第77源章｜2",
+      "title": "巴别-生命神殿回收链",
       "memo": "死亡、来世与冥界：新建立连续性（第77源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12513,7 +12513,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-77-03",
-      "title": "新建立连续性｜第77源章｜3",
+      "title": "问题卷轴线索",
       "memo": "死亡、来世与冥界：新建立连续性（第77源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12538,7 +12538,7 @@
     },
     {
       "id": "era-06-underworld-continuity-new-77-04",
-      "title": "新建立连续性｜第77源章｜4",
+      "title": "英雄之剑构想",
       "memo": "死亡、来世与冥界：新建立连续性（第77源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12563,7 +12563,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-77-01",
-      "title": "未解决事项｜第77源章｜1",
+      "title": "强怪残片回收",
       "memo": "死亡、来世与冥界：未解决事项（第77源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12588,7 +12588,7 @@
     },
     {
       "id": "era-06-underworld-unresolved-77-02",
-      "title": "未解决事项｜第77源章｜2",
+      "title": "英雄之剑人选与形态",
       "memo": "死亡、来世与冥界：未解决事项（第77源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12613,7 +12613,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-form-77-01",
-      "title": "主角龙形态｜第77源章｜1",
+      "title": "主角龙形态｜第七十二章：一隅黑暗（5）｜银发龙角少女的延续形态",
       "memo": "死亡、来世与冥界：主角龙形态（第77源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12638,7 +12638,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-state-77-01",
-      "title": "主角龙状态｜第77源章｜1",
+      "title": "主角龙状态｜第七十二章：一隅黑暗（5）｜从亲自猎怪转向检测工具、巴别与生命神殿组成的回收系统设计者",
       "memo": "死亡、来世与冥界：主角龙状态（第77源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12663,7 +12663,7 @@
     },
     {
       "id": "era-06-underworld-protagonist-knowledge-77-01",
-      "title": "主角龙知识边界｜第77源章｜1",
+      "title": "主角龙知识边界｜第七十二章：一隅黑暗（5）｜问题卷轴因果尚未证实，英雄之剑仅是构想",
       "memo": "死亡、来世与冥界：主角龙知识边界（第77源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12688,7 +12688,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-01",
-      "title": "次要人物｜伊夫利特",
+      "title": "伊夫利特",
       "memo": "死亡、来世与冥界：次要人物 伊夫利特",
       "category": "secondary-character",
       "keys": [
@@ -12714,7 +12714,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-02",
-      "title": "次要人物｜暗影",
+      "title": "暗影",
       "memo": "死亡、来世与冥界：次要人物 暗影",
       "category": "secondary-character",
       "keys": [
@@ -12740,7 +12740,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-03",
-      "title": "次要人物｜赐生者龙族群",
+      "title": "赐生者龙族群",
       "memo": "死亡、来世与冥界：次要人物 赐生者龙族群",
       "category": "secondary-character",
       "keys": [
@@ -12766,7 +12766,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-04",
-      "title": "次要人物｜当代蜥蜴大萨满（未命名）",
+      "title": "当代蜥蜴大萨满（未命名）",
       "memo": "死亡、来世与冥界：次要人物 当代蜥蜴大萨满（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -12790,7 +12790,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-05",
-      "title": "次要人物｜当代蜥蜴大萨满（原文此处称首领）",
+      "title": "当代蜥蜴大萨满（原文此处称首领）",
       "memo": "死亡、来世与冥界：次要人物 当代蜥蜴大萨满（原文此处称首领）",
       "category": "secondary-character",
       "keys": [
@@ -12816,7 +12816,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-06",
-      "title": "次要人物｜鬼母",
+      "title": "鬼母",
       "memo": "死亡、来世与冥界：次要人物 鬼母",
       "category": "secondary-character",
       "keys": [
@@ -12842,7 +12842,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-07",
-      "title": "次要人物｜雷奇伦",
+      "title": "雷奇伦",
       "memo": "死亡、来世与冥界：次要人物 雷奇伦",
       "category": "secondary-character",
       "keys": [
@@ -12868,7 +12868,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-08",
-      "title": "次要人物｜芒",
+      "title": "芒",
       "memo": "死亡、来世与冥界：次要人物 芒",
       "category": "secondary-character",
       "keys": [],
@@ -12892,7 +12892,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-09",
-      "title": "次要人物｜芒/未来阎罗（摩罗斯）",
+      "title": "芒/未来阎罗（摩罗斯）",
       "memo": "死亡、来世与冥界：次要人物 芒/未来阎罗（摩罗斯）",
       "category": "secondary-character",
       "keys": [
@@ -12918,7 +12918,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-10",
-      "title": "次要人物｜年轻法师助手（未命名）",
+      "title": "年轻法师助手（未命名）",
       "memo": "死亡、来世与冥界：次要人物 年轻法师助手（未命名）",
       "category": "secondary-character",
       "keys": [],
@@ -12942,7 +12942,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-11",
-      "title": "次要人物｜首位人类祭司（本章未给名）",
+      "title": "首位人类祭司（本章未给名）",
       "memo": "死亡、来世与冥界：次要人物 首位人类祭司（本章未给名）",
       "category": "secondary-character",
       "keys": [
@@ -12968,7 +12968,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-12",
-      "title": "次要人物｜受侵蚀黑龙幼崽",
+      "title": "受侵蚀黑龙幼崽",
       "memo": "死亡、来世与冥界：次要人物 受侵蚀黑龙幼崽",
       "category": "secondary-character",
       "keys": [
@@ -12994,7 +12994,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-13",
-      "title": "次要人物｜无舌船夫",
+      "title": "无舌船夫",
       "memo": "死亡、来世与冥界：次要人物 无舌船夫",
       "category": "secondary-character",
       "keys": [
@@ -13020,7 +13020,7 @@
     },
     {
       "id": "era-06-underworld-secondary-character-14",
-      "title": "次要人物｜张三成",
+      "title": "张三成",
       "memo": "死亡、来世与冥界：次要人物 张三成",
       "category": "secondary-character",
       "keys": [

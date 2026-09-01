@@ -4104,7 +4104,7 @@
   "lorebook": [
     {
       "id": "era-31-entertainment-core",
-      "title": "娱乐、银行与报纸｜时代边界",
+      "title": "娱乐、银行与报纸",
       "memo": "娱乐、银行与报纸：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4119,7 +4119,7 @@
     },
     {
       "id": "era-31-entertainment-event-633-01",
-      "title": "事件｜第633源章｜1",
+      "title": "主龙即使目睹铁路推动世界变化仍持续无聊",
       "memo": "娱乐、银行与报纸：事件（第633源章第1条）",
       "category": "event",
       "keys": [
@@ -4144,7 +4144,7 @@
     },
     {
       "id": "era-31-entertainment-event-633-02",
-      "title": "事件｜第633源章｜2",
+      "title": "铁路令药品、地方药材与短保质期新药快速运输",
       "memo": "娱乐、银行与报纸：事件（第633源章第2条）",
       "category": "event",
       "keys": [
@@ -4169,7 +4169,7 @@
     },
     {
       "id": "era-31-entertainment-event-633-03",
-      "title": "事件｜第633源章｜3",
+      "title": "主龙信任会为守护生命而反抗毁灭化自己的生命教团",
       "memo": "娱乐、银行与报纸：事件（第633源章第3条）",
       "category": "event",
       "keys": [
@@ -4195,7 +4195,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-633-01",
-      "title": "世界设定事实｜第633源章｜1",
+      "title": "生命教团祭司承担出生祝福，识字，职业咨询，告解，治疗和葬礼",
       "memo": "娱乐、银行与报纸：世界设定事实（第633源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4220,7 +4220,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-633-02",
-      "title": "世界设定事实｜第633源章｜2",
+      "title": "铁路药品体系含节点仓库、沿轨投递、耐冲击包装",
       "memo": "娱乐、银行与报纸：世界设定事实（第633源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4245,7 +4245,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-633-03",
-      "title": "世界设定事实｜第633源章｜3",
+      "title": "北部速生软木运往南方蜥蜴人领地造纸，单位木材纸产量高，铁路令纸张降价",
       "memo": "娱乐、银行与报纸：世界设定事实（第633源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4270,7 +4270,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-633-01",
-      "title": "新建立连续性｜第633源章｜1",
+      "title": "铁路药品物流",
       "memo": "娱乐、银行与报纸：新建立连续性（第633源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4295,7 +4295,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-633-02",
-      "title": "新建立连续性｜第633源章｜2",
+      "title": "大众纸张与小说增长",
       "memo": "娱乐、银行与报纸：新建立连续性（第633源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4320,7 +4320,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-633-03",
-      "title": "新建立连续性｜第633源章｜3",
+      "title": "娱乐播种计划",
       "memo": "娱乐、银行与报纸：新建立连续性（第633源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4345,7 +4345,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-633-01",
-      "title": "未解决事项｜第633源章｜1",
+      "title": "将播下何种娱乐",
       "memo": "娱乐、银行与报纸：未解决事项（第633源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4370,7 +4370,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-633-02",
-      "title": "未解决事项｜第633源章｜2",
+      "title": "众生能否发展出令她满足的作品",
       "memo": "娱乐、银行与报纸：未解决事项（第633源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4395,7 +4395,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-633-01",
-      "title": "主角龙形态｜第633源章｜1",
+      "title": "主角龙形态｜娱乐.(1)｜本体在万神殿处理祈祷，另以分身和希尔芙交谈",
       "memo": "娱乐、银行与报纸：主角龙形态（第633源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4421,7 +4421,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-633-01",
-      "title": "主角龙状态｜第633源章｜1",
+      "title": "主角龙状态｜娱乐.(1)｜从被动忍受无聊转向播撒娱乐规则的计划",
       "memo": "娱乐、银行与报纸：主角龙状态（第633源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4446,7 +4446,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-633-01",
-      "title": "主角龙知识边界｜第633源章｜1",
+      "title": "主角龙知识边界｜娱乐.(1)｜她以地球文学为参照评价本世界作品，但尚不知道撒下种子会产生何种娱乐",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第633源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4471,7 +4471,7 @@
     },
     {
       "id": "era-31-entertainment-event-634-01",
-      "title": "事件｜第634源章｜1",
+      "title": "本世界已有书籍，棋盘游戏，竞技场和赛马，但纸张昂贵，场所受限或只能旁观",
       "memo": "娱乐、银行与报纸：事件（第634源章第1条）",
       "category": "event",
       "keys": [
@@ -4496,7 +4496,7 @@
     },
     {
       "id": "era-31-entertainment-event-634-02",
-      "title": "事件｜第634源章｜2",
+      "title": "主龙向希尔芙逐项教授兵，车，象，马，后，王及升变，王车易位，吃过路兵等规则",
       "memo": "娱乐、银行与报纸：事件（第634源章第2条）",
       "category": "event",
       "keys": [
@@ -4522,7 +4522,7 @@
     },
     {
       "id": "era-31-entertainment-event-634-03",
-      "title": "事件｜第634源章｜3",
+      "title": "希尔芙迅速掌握棋艺，称其为64格棋盘上的小型战争，确信统一规则后会流行",
       "memo": "娱乐、银行与报纸：事件（第634源章第3条）",
       "category": "event",
       "keys": [
@@ -4548,7 +4548,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-634-01",
-      "title": "世界设定事实｜第634源章｜1",
+      "title": "本世界原有童话、小说、地方棋戏、竞技场和赛马，但纸张价格与场所限制阻碍大众参与",
       "memo": "娱乐、银行与报纸：世界设定事实（第634源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4573,7 +4573,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-634-02",
-      "title": "世界设定事实｜第634源章｜2",
+      "title": "生命教团没有主教职位，多数为祭司、部分为承担更多责任的祭司长",
       "memo": "娱乐、银行与报纸：世界设定事实（第634源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4598,7 +4598,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-634-03",
-      "title": "世界设定事实｜第634源章｜3",
+      "title": "主龙在完整教授统一规则后，由希尔芙推动国际象棋进入万神殿和生命教团",
       "memo": "娱乐、银行与报纸：世界设定事实（第634源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4624,7 +4624,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-634-01",
-      "title": "新建立连续性｜第634源章｜1",
+      "title": "国际象棋规则引入",
       "memo": "娱乐、银行与报纸：新建立连续性（第634源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4649,7 +4649,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-634-02",
-      "title": "新建立连续性｜第634源章｜2",
+      "title": "希尔芙成为首位学员与推广者",
       "memo": "娱乐、银行与报纸：新建立连续性（第634源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4675,7 +4675,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-634-01",
-      "title": "未解决事项｜第634源章｜1",
+      "title": "大众传播结果",
       "memo": "娱乐、银行与报纸：未解决事项（第634源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4700,7 +4700,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-634-02",
-      "title": "未解决事项｜第634源章｜2",
+      "title": "下一项娱乐",
       "memo": "娱乐、银行与报纸：未解决事项（第634源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4725,7 +4725,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-634-01",
-      "title": "主角龙形态｜第634源章｜1",
+      "title": "主角龙形态｜娱乐.(2)｜与希尔芙对坐、亲手摆放棋盘棋子的母亲形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第634源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4751,7 +4751,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-634-01",
-      "title": "主角龙状态｜第634源章｜1",
+      "title": "主角龙状态｜娱乐.(2)｜从娱乐播种理念进入第一项具体传播",
       "memo": "娱乐、银行与报纸：主角龙状态（第634源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4776,7 +4776,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-634-01",
-      "title": "主角龙知识边界｜第634源章｜1",
+      "title": "主角龙知识边界｜娱乐.(2)｜她不清楚国际象棋若干现实历史缘由",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第634源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4801,7 +4801,7 @@
     },
     {
       "id": "era-31-entertainment-event-635-01",
-      "title": "事件｜第635源章｜1",
+      "title": "国际象棋从希尔芙扩散至古神子女，万神殿，生命祭司和各国统治阶层，因木制即可",
       "memo": "娱乐、银行与报纸：事件（第635源章第1条）",
       "category": "event",
       "keys": [
@@ -4828,7 +4828,7 @@
     },
     {
       "id": "era-31-entertainment-event-635-02",
-      "title": "事件｜第635源章｜2",
+      "title": "主龙计划用本世界著名勇者、龙之巫女、国王和皇帝作为JQK原型",
       "memo": "娱乐、银行与报纸：事件（第635源章第2条）",
       "category": "event",
       "keys": [
@@ -4853,7 +4853,7 @@
     },
     {
       "id": "era-31-entertainment-event-635-03",
-      "title": "事件｜第635源章｜3",
+      "title": "伊格德拉希尔以旁观棋局、延迟提醒败势取乐，主龙把这种轻微出格归因于统治精灵的压力",
       "memo": "娱乐、银行与报纸：事件（第635源章第3条）",
       "category": "event",
       "keys": [
@@ -4879,7 +4879,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-635-01",
-      "title": "世界设定事实｜第635源章｜1",
+      "title": "国际象棋以低材料门槛和全球统一规则跨越神、人、族群、国家与阶级传播",
       "memo": "娱乐、银行与报纸：世界设定事实（第635源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4904,7 +4904,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-635-02",
-      "title": "世界设定事实｜第635源章｜2",
+      "title": "廉价纸张使扑克牌量产可行",
       "memo": "娱乐、银行与报纸：世界设定事实（第635源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4929,7 +4929,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-635-03",
-      "title": "世界设定事实｜第635源章｜3",
+      "title": "五张抽牌扑克的牌型与花色强弱由主龙首次教授，初期尚未加入赌注",
       "memo": "娱乐、银行与报纸：世界设定事实（第635源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4954,7 +4954,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-635-01",
-      "title": "新建立连续性｜第635源章｜1",
+      "title": "国际象棋大众化",
       "memo": "娱乐、银行与报纸：新建立连续性（第635源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4979,7 +4979,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-635-02",
-      "title": "新建立连续性｜第635源章｜2",
+      "title": "古神子女聚会",
       "memo": "娱乐、银行与报纸：新建立连续性（第635源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5004,7 +5004,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-635-03",
-      "title": "新建立连续性｜第635源章｜3",
+      "title": "扑克牌与五张扑克",
       "memo": "娱乐、银行与报纸：新建立连续性（第635源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5029,7 +5029,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-635-01",
-      "title": "未解决事项｜第635源章｜1",
+      "title": "扑克牌地上量产",
       "memo": "娱乐、银行与报纸：未解决事项（第635源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5054,7 +5054,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-635-02",
-      "title": "未解决事项｜第635源章｜2",
+      "title": "下注规则与传播后果",
       "memo": "娱乐、银行与报纸：未解决事项（第635源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5079,7 +5079,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-635-03",
-      "title": "未解决事项｜第635源章｜3",
+      "title": "空位与缺席者",
       "memo": "娱乐、银行与报纸：未解决事项（第635源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5104,7 +5104,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-635-01",
-      "title": "主角龙形态｜第635源章｜1",
+      "title": "主角龙形态｜娱乐.(3)｜与五名古神子女围坐游戏、亲手制牌的母亲形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第635源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5129,7 +5129,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-635-01",
-      "title": "主角龙状态｜第635源章｜1",
+      "title": "主角龙状态｜娱乐.(3)｜以家庭共同娱乐缓解无聊，并把第二项娱乐推进至可量产样本",
       "memo": "娱乐、银行与报纸：主角龙状态（第635源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5154,7 +5154,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-635-01",
-      "title": "主角龙知识边界｜第635源章｜1",
+      "title": "主角龙知识边界｜娱乐.(3)｜沙马什因忙碌缺席，另一个空位对应者未在本章明说",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第635源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5180,7 +5180,7 @@
     },
     {
       "id": "era-31-entertainment-event-636-01",
-      "title": "事件｜第636源章｜1",
+      "title": "主龙以自己制作，地上尚难获得的饼干点心作筹码，现查网络后向五名子女教授Ante",
       "memo": "娱乐、银行与报纸：事件（第636源章第1条）",
       "category": "event",
       "keys": [
@@ -5205,7 +5205,7 @@
     },
     {
       "id": "era-31-entertainment-event-636-02",
-      "title": "事件｜第636源章｜2",
+      "title": "萨加玛塔扑克脸强但保守，伊夫利特鲁莽下注反而扰乱对手，伊格德拉希尔能把握必胜时点",
       "memo": "娱乐、银行与报纸：事件（第636源章第2条）",
       "category": "event",
       "keys": [
@@ -5236,7 +5236,7 @@
     },
     {
       "id": "era-31-entertainment-event-636-03",
-      "title": "事件｜第636源章｜3",
+      "title": "扑克与德州扑克传播后，神以信仰、凡人以财富赌博，并衍生原创卡牌游戏",
       "memo": "娱乐、银行与报纸：事件（第636源章第3条）",
       "category": "event",
       "keys": [
@@ -5261,7 +5261,7 @@
     },
     {
       "id": "era-31-entertainment-event-636-04",
-      "title": "事件｜第636源章｜4",
+      "title": "主龙观看不同阶层因卡牌胜负产生希望和绝望，一度觉得他人痛苦有趣",
       "memo": "娱乐、银行与报纸：事件（第636源章第4条）",
       "category": "event",
       "keys": [
@@ -5286,7 +5286,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-636-01",
-      "title": "世界设定事实｜第636源章｜1",
+      "title": "高糖、巧克力饼干在本世界制果工艺下仍罕见，主要只有主龙身边者能吃到",
       "memo": "娱乐、银行与报纸：世界设定事实（第636源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5311,7 +5311,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-636-02",
-      "title": "世界设定事实｜第636源章｜2",
+      "title": "扑克传播后神明以信仰、凡人以财物赌博，并产生不由主龙直接设计的原创卡牌游戏",
       "memo": "娱乐、银行与报纸：世界设定事实（第636源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5336,7 +5336,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-636-03",
-      "title": "世界设定事实｜第636源章｜3",
+      "title": "后世对娱乐赌博起源存在生命女神创造说，并推测娱乐赌博女神侧面",
       "memo": "娱乐、银行与报纸：世界设定事实（第636源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5361,7 +5361,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-636-01",
-      "title": "新建立连续性｜第636源章｜1",
+      "title": "点心下注与德州扑克",
       "memo": "娱乐、银行与报纸：新建立连续性（第636源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5386,7 +5386,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-636-02",
-      "title": "新建立连续性｜第636源章｜2",
+      "title": "神凡赌博扩散",
       "memo": "娱乐、银行与报纸：新建立连续性（第636源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5411,7 +5411,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-636-03",
-      "title": "新建立连续性｜第636源章｜3",
+      "title": "原创卡牌游戏衍生",
       "memo": "娱乐、银行与报纸：新建立连续性（第636源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5436,7 +5436,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-636-04",
-      "title": "新建立连续性｜第636源章｜4",
+      "title": "娱乐伦理再次设限",
       "memo": "娱乐、银行与报纸：新建立连续性（第636源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5461,7 +5461,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-636-01",
-      "title": "未解决事项｜第636源章｜1",
+      "title": "娱乐能否长期解除无聊",
       "memo": "娱乐、银行与报纸：未解决事项（第636源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5486,7 +5486,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-636-02",
-      "title": "未解决事项｜第636源章｜2",
+      "title": "赌博的社会后果",
       "memo": "娱乐、银行与报纸：未解决事项（第636源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5511,7 +5511,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-636-01",
-      "title": "主角龙形态｜第636源章｜1",
+      "title": "主角龙形态｜娱乐.(4)｜古神子女牌桌旁担任荷官与观察者的母亲形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第636源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5536,7 +5536,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-636-01",
-      "title": "主角龙状态｜第636源章｜1",
+      "title": "主角龙状态｜娱乐.(4)｜娱乐传播短暂缓解无聊，同时再次触碰并守住不以真实痛苦取乐的界线",
       "memo": "娱乐、银行与报纸：主角龙状态（第636源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5561,7 +5561,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-636-01",
-      "title": "主角龙知识边界｜第636源章｜1",
+      "title": "主角龙知识边界｜娱乐.(4)｜后世书籍对她动机的解释均未获证实",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第636源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5586,7 +5586,7 @@
     },
     {
       "id": "era-31-entertainment-event-637-01",
-      "title": "事件｜第637源章｜1",
+      "title": "国际象棋和扑克牌可在酒馆，火车，神殿候场区与船舱随时进行",
       "memo": "娱乐、银行与报纸：事件（第637源章第1条）",
       "category": "event",
       "keys": [
@@ -5611,7 +5611,7 @@
     },
     {
       "id": "era-31-entertainment-event-637-02",
-      "title": "事件｜第637源章｜2",
+      "title": "商人围绕游戏开发、棋具生产与族群定制获利，娱乐普及加速",
       "memo": "娱乐、银行与报纸：事件（第637源章第2条）",
       "category": "event",
       "keys": [
@@ -5637,7 +5637,7 @@
     },
     {
       "id": "era-31-entertainment-event-637-03",
-      "title": "事件｜第637源章｜3",
+      "title": "国际象棋衍生昂贵艺术棋具，扑克牌则滋生藏牌换牌等诈骗",
       "memo": "娱乐、银行与报纸：事件（第637源章第3条）",
       "category": "event",
       "keys": [
@@ -5662,7 +5662,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-637-01",
-      "title": "世界设定事实｜第637源章｜1",
+      "title": "便携、统一规则的棋牌娱乐已进入交通、宗教候场、冒险者生活和领地争端解决",
       "memo": "娱乐、银行与报纸：世界设定事实（第637源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5687,7 +5687,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-637-02",
-      "title": "世界设定事实｜第637源章｜2",
+      "title": "不同族群生产符合自身审美和材料的棋具",
       "memo": "娱乐、银行与报纸：世界设定事实（第637源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5712,7 +5712,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-637-03",
-      "title": "世界设定事实｜第637源章｜3",
+      "title": "棋具可成为象牙、黑檀、宝石等奢侈品",
       "memo": "娱乐、银行与报纸：世界设定事实（第637源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5737,7 +5737,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-637-01",
-      "title": "新建立连续性｜第637源章｜1",
+      "title": "棋局替代领地战",
       "memo": "娱乐、银行与报纸：新建立连续性（第637源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5762,7 +5762,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-637-02",
-      "title": "新建立连续性｜第637源章｜2",
+      "title": "娱乐用品商业化",
       "memo": "娱乐、银行与报纸：新建立连续性（第637源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5787,7 +5787,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-637-03",
-      "title": "新建立连续性｜第637源章｜3",
+      "title": "赌场计划",
       "memo": "娱乐、银行与报纸：新建立连续性（第637源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5812,7 +5812,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-637-01",
-      "title": "未解决事项｜第637源章｜1",
+      "title": "赌场建设与监管效果",
       "memo": "娱乐、银行与报纸：未解决事项（第637源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5837,7 +5837,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-637-01",
-      "title": "主角龙形态｜第637源章｜1",
+      "title": "主角龙形态｜娱乐.(5)｜观察地上娱乐传播并向皇帝申请土地的人类／守护者形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第637源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5862,7 +5862,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-637-01",
-      "title": "主角龙状态｜第637源章｜1",
+      "title": "主角龙状态｜娱乐.(5)｜由播种者转为制度化娱乐场所的经营发起者",
       "memo": "娱乐、银行与报纸：主角龙状态（第637源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5887,7 +5887,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-637-01",
-      "title": "主角龙知识边界｜第637源章｜1",
+      "title": "主角龙知识边界｜娱乐.(5)｜电脑，网游，程序员转生和失控AI均只是主龙畅想或被废弃计划",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第637源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5912,7 +5912,7 @@
     },
     {
       "id": "era-31-entertainment-event-638-01",
-      "title": "事件｜第638源章｜1",
+      "title": "主龙获得首都郊外土地并委托矮人建筑师和信誉公司建赌场",
       "memo": "娱乐、银行与报纸：事件（第638源章第1条）",
       "category": "event",
       "keys": [
@@ -5937,7 +5937,7 @@
     },
     {
       "id": "era-31-entertainment-event-638-02",
-      "title": "事件｜第638源章｜2",
+      "title": "帝国赌场成为最华丽也最矛盾的场所，包含艺术、动物园、马戏和歌手表演",
       "memo": "娱乐、银行与报纸：事件（第638源章第2条）",
       "category": "event",
       "keys": [
@@ -5962,7 +5962,7 @@
     },
     {
       "id": "era-31-entertainment-event-638-03",
-      "title": "事件｜第638源章｜3",
+      "title": "万神殿诸神借勇者入场",
       "memo": "娱乐、银行与报纸：事件（第638源章第3条）",
       "category": "event",
       "keys": [
@@ -5988,7 +5988,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-638-01",
-      "title": "世界设定事实｜第638源章｜1",
+      "title": "奴隶制仍存在但已受法律限制，任意杀害虐待会被制裁",
       "memo": "娱乐、银行与报纸：世界设定事实（第638源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6013,7 +6013,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-638-02",
-      "title": "世界设定事实｜第638源章｜2",
+      "title": "赌场首批职员来自经治愈、培训、领取工资并拥有条件性解放路径的伤病奴隶",
       "memo": "娱乐、银行与报纸：世界设定事实（第638源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6038,7 +6038,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-638-03",
-      "title": "世界设定事实｜第638源章｜3",
+      "title": "赌场集赌博、表演、动物园和马戏于一体，既成旅游胜地也产生破产者与受害者协会",
       "memo": "娱乐、银行与报纸：世界设定事实（第638源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6063,7 +6063,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-638-04",
-      "title": "世界设定事实｜第638源章｜4",
+      "title": "蒸汽船减少海上祈祷业务",
       "memo": "娱乐、银行与报纸：世界设定事实（第638源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6088,7 +6088,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-638-01",
-      "title": "新建立连续性｜第638源章｜1",
+      "title": "帝国赌场开业",
       "memo": "娱乐、银行与报纸：新建立连续性（第638源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6113,7 +6113,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-638-02",
-      "title": "新建立连续性｜第638源章｜2",
+      "title": "奴隶员工培训与解放条件",
       "memo": "娱乐、银行与报纸：新建立连续性（第638源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6138,7 +6138,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-638-03",
-      "title": "新建立连续性｜第638源章｜3",
+      "title": "人鱼演唱计划",
       "memo": "娱乐、银行与报纸：新建立连续性（第638源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6163,7 +6163,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-638-01",
-      "title": "未解决事项｜第638源章｜1",
+      "title": "赌场社会代价",
       "memo": "娱乐、银行与报纸：未解决事项（第638源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6188,7 +6188,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-638-02",
-      "title": "未解决事项｜第638源章｜2",
+      "title": "水族馆与舞台建设",
       "memo": "娱乐、银行与报纸：未解决事项（第638源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6213,7 +6213,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-638-01",
-      "title": "主角龙形态｜第638源章｜1",
+      "title": "主角龙形态｜赌场.(1)｜帝国赌场创办者与古神母亲的人类形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第638源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6238,7 +6238,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-638-01",
-      "title": "主角龙状态｜第638源章｜1",
+      "title": "主角龙状态｜赌场.(1)｜把娱乐种子转化为大型实体产业，并开始吸纳艺术表演",
       "memo": "娱乐、银行与报纸：主角龙状态（第638源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6263,7 +6263,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-638-01",
-      "title": "主角龙知识边界｜第638源章｜1",
+      "title": "主角龙知识边界｜赌场.(1)｜她对奴隶制废除的混乱只是判断，并未在本章实施废除",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第638源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6288,7 +6288,7 @@
     },
     {
       "id": "era-31-entertainment-event-639-01",
-      "title": "事件｜第639源章｜1",
+      "title": "炼金术、矮人与重量分散魔法共同完成赌场水族馆和人鱼舞台",
       "memo": "娱乐、银行与报纸：事件（第639源章第1条）",
       "category": "event",
       "keys": [
@@ -6313,7 +6313,7 @@
     },
     {
       "id": "era-31-entertainment-event-639-02",
-      "title": "事件｜第639源章｜2",
+      "title": "主龙由巨额余款想到建立面向非冒险者的储蓄，定存，贷款和保险银行，并想借生命教团信誉",
       "memo": "娱乐、银行与报纸：事件（第639源章第2条）",
       "category": "event",
       "keys": [
@@ -6338,7 +6338,7 @@
     },
     {
       "id": "era-31-entertainment-event-639-03",
-      "title": "事件｜第639源章｜3",
+      "title": "赌场净利润扣除成本后一半缴税，另一半经皇室名义设艺术资助基金",
       "memo": "娱乐、银行与报纸：事件（第639源章第3条）",
       "category": "event",
       "keys": [
@@ -6363,7 +6363,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-639-01",
-      "title": "世界设定事实｜第639源章｜1",
+      "title": "赌场水族馆依靠重量分散魔法承受水压",
       "memo": "娱乐、银行与报纸：世界设定事实（第639源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6388,7 +6388,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-639-02",
-      "title": "世界设定事实｜第639源章｜2",
+      "title": "本世界冒险者公会仅为冒险者提供部分金融服务，缺少普遍可信银行",
       "memo": "娱乐、银行与报纸：世界设定事实（第639源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6413,7 +6413,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-639-03",
-      "title": "世界设定事实｜第639源章｜3",
+      "title": "艺术基金由赌场净利润和皇室名义支持，优先低收入且已坚持创作者，预算有限",
       "memo": "娱乐、银行与报纸：世界设定事实（第639源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6438,7 +6438,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-639-04",
-      "title": "世界设定事实｜第639源章｜4",
+      "title": "艺术家公会手册要求收入材料并规定骗补处罚",
       "memo": "娱乐、银行与报纸：世界设定事实（第639源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6463,7 +6463,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-639-01",
-      "title": "新建立连续性｜第639源章｜1",
+      "title": "人鱼水族馆与舞台",
       "memo": "娱乐、银行与报纸：新建立连续性（第639源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6488,7 +6488,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-639-02",
-      "title": "新建立连续性｜第639源章｜2",
+      "title": "赌场利润分配",
       "memo": "娱乐、银行与报纸：新建立连续性（第639源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6513,7 +6513,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-639-03",
-      "title": "新建立连续性｜第639源章｜3",
+      "title": "银行长期构想",
       "memo": "娱乐、银行与报纸：新建立连续性（第639源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6538,7 +6538,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-639-04",
-      "title": "新建立连续性｜第639源章｜4",
+      "title": "艺术资助基金",
       "memo": "娱乐、银行与报纸：新建立连续性（第639源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6563,7 +6563,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-639-01",
-      "title": "未解决事项｜第639源章｜1",
+      "title": "艺术基金执行人力",
       "memo": "娱乐、银行与报纸：未解决事项（第639源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6588,7 +6588,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-639-02",
-      "title": "未解决事项｜第639源章｜2",
+      "title": "银行职员与制度",
       "memo": "娱乐、银行与报纸：未解决事项（第639源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6613,7 +6613,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-639-01",
-      "title": "主角龙形态｜第639源章｜1",
+      "title": "主角龙形态｜赌场.(2)｜赌场经营者、制度设计者的人类形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第639源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6638,7 +6638,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-639-01",
-      "title": "主角龙状态｜第639源章｜1",
+      "title": "主角龙状态｜赌场.(2)｜从赌场建设扩展到文化资助，银行仅保留为长线设想",
       "memo": "娱乐、银行与报纸：主角龙状态（第639源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6663,7 +6663,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-639-01",
-      "title": "主角龙知识边界｜第639源章｜1",
+      "title": "主角龙知识边界｜赌场.(2)｜她对经济自认一窍不通",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第639源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6688,7 +6688,7 @@
     },
     {
       "id": "era-31-entertainment-event-640-01",
-      "title": "事件｜第640源章｜1",
+      "title": "艺术补助最初借皇室文官执行，因本职冲突、人手不足和侵吞资金失败",
       "memo": "娱乐、银行与报纸：事件（第640源章第1条）",
       "category": "event",
       "keys": [
@@ -6713,7 +6713,7 @@
     },
     {
       "id": "era-31-entertainment-event-640-02",
-      "title": "事件｜第640源章｜2",
+      "title": "章节说明冒险者公会作为无领土国家，承担魔物狩猎，地下城控制",
       "memo": "娱乐、银行与报纸：事件（第640源章第2条）",
       "category": "event",
       "keys": [
@@ -6738,7 +6738,7 @@
     },
     {
       "id": "era-31-entertainment-event-640-03",
-      "title": "事件｜第640源章｜3",
+      "title": "主龙计划高薪聘用从冒险者公会退休的资深事务员管理艺术资助",
       "memo": "娱乐、银行与报纸：事件（第640源章第3条）",
       "category": "event",
       "keys": [
@@ -6763,7 +6763,7 @@
     },
     {
       "id": "era-31-entertainment-event-640-04",
-      "title": "事件｜第640源章｜4",
+      "title": "前冒险者公会女接待员为饥饿艺术家办理临时出入证，先提供不可外带的面包，牛奶和茶点",
       "memo": "娱乐、银行与报纸：事件（第640源章第4条）",
       "category": "event",
       "keys": [
@@ -6788,7 +6788,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-640-01",
-      "title": "世界设定事实｜第640源章｜1",
+      "title": "冒险者公会是跨国，分级，资源雄厚的必要组织",
       "memo": "娱乐、银行与报纸：世界设定事实（第640源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6813,7 +6813,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-640-02",
-      "title": "世界设定事实｜第640源章｜2",
+      "title": "艺术家公会以退休冒险者公会事务员为骨干，生命教团协助招募，独立承接皇室代办的艺术补助",
       "memo": "娱乐、银行与报纸：世界设定事实（第640源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6838,7 +6838,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-640-03",
-      "title": "世界设定事实｜第640源章｜3",
+      "title": "艺术家公会为成员提供临时食物与补助申请，但资金来源赌场对普通职员和艺术家保密",
       "memo": "娱乐、银行与报纸：世界设定事实（第640源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6863,7 +6863,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-640-01",
-      "title": "新建立连续性｜第640源章｜1",
+      "title": "艺术家公会成立",
       "memo": "娱乐、银行与报纸：新建立连续性（第640源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6888,7 +6888,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-640-02",
-      "title": "新建立连续性｜第640源章｜2",
+      "title": "退休事务员再就业",
       "memo": "娱乐、银行与报纸：新建立连续性（第640源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6913,7 +6913,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-640-03",
-      "title": "新建立连续性｜第640源章｜3",
+      "title": "贫困艺术家即时食物援助",
       "memo": "娱乐、银行与报纸：新建立连续性（第640源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6938,7 +6938,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-640-01",
-      "title": "未解决事项｜第640源章｜1",
+      "title": "公会长期治理与艺术产出",
       "memo": "娱乐、银行与报纸：未解决事项（第640源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6963,7 +6963,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-640-01",
-      "title": "主角龙形态｜第640源章｜1",
+      "title": "主角龙形态｜艺术家公会。｜生命教团办公场景中的制度设计者形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第640源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6988,7 +6988,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-640-01",
-      "title": "主角龙状态｜第640源章｜1",
+      "title": "主角龙状态｜艺术家公会。｜把艺术资助从临时基金落实为独立、公会化的长期公共机构",
       "memo": "娱乐、银行与报纸：主角龙状态（第640源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7013,7 +7013,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-640-01",
-      "title": "主角龙知识边界｜第640源章｜1",
+      "title": "主角龙知识边界｜艺术家公会。｜女接待员及申请者不知道赌场资金来源",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第640源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7038,7 +7038,7 @@
     },
     {
       "id": "era-31-entertainment-event-641-01",
-      "title": "事件｜第641源章｜1",
+      "title": "主龙肯定小说、美术、音乐及艺术对情感、记忆、代入体验和记录的价值",
       "memo": "娱乐、银行与报纸：事件（第641源章第1条）",
       "category": "event",
       "keys": [
@@ -7064,7 +7064,7 @@
     },
     {
       "id": "era-31-entertainment-event-641-02",
-      "title": "事件｜第641源章｜2",
+      "title": "艺术家公会对赌场资金依赖降低，赌场扩成含铁路、酒店、公园、水上乐园的贵族综合观光中心",
       "memo": "娱乐、银行与报纸：事件（第641源章第2条）",
       "category": "event",
       "keys": [
@@ -7089,7 +7089,7 @@
     },
     {
       "id": "era-31-entertainment-event-641-03",
-      "title": "事件｜第641源章｜3",
+      "title": "银行将提供安全储蓄与抵押审查贷款",
       "memo": "娱乐、银行与报纸：事件（第641源章第3条）",
       "category": "event",
       "keys": [
@@ -7115,7 +7115,7 @@
     },
     {
       "id": "era-31-entertainment-event-641-04",
-      "title": "事件｜第641源章｜4",
+      "title": "民众初期不信银行，主龙借生命教团信誉推广",
       "memo": "娱乐、银行与报纸：事件（第641源章第4条）",
       "category": "event",
       "keys": [
@@ -7140,7 +7140,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-641-01",
-      "title": "世界设定事实｜第641源章｜1",
+      "title": "赌场扩建为铁路直达、含酒店、公园、水上乐园的综合娱乐观光中心，主要游客仍是贵族",
       "memo": "娱乐、银行与报纸：世界设定事实（第641源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7165,7 +7165,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-641-02",
-      "title": "世界设定事实｜第641源章｜2",
+      "title": "主龙建立文书学校，把退休公会人员经验传给受教育且无财产继承的聪明平民子弟",
       "memo": "娱乐、银行与报纸：世界设定事实（第641源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7190,7 +7190,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-641-03",
-      "title": "世界设定事实｜第641源章｜3",
+      "title": "首都地区银行筹备储蓄、利息、抵押审查贷款，并使用沙马什神力契约审计",
       "memo": "娱乐、银行与报纸：世界设定事实（第641源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7216,7 +7216,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-641-01",
-      "title": "新建立连续性｜第641源章｜1",
+      "title": "文书学校",
       "memo": "娱乐、银行与报纸：新建立连续性（第641源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7241,7 +7241,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-641-02",
-      "title": "新建立连续性｜第641源章｜2",
+      "title": "首都地区银行",
       "memo": "娱乐、银行与报纸：新建立连续性（第641源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7266,7 +7266,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-641-03",
-      "title": "新建立连续性｜第641源章｜3",
+      "title": "神力审计契约",
       "memo": "娱乐、银行与报纸：新建立连续性（第641源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7291,7 +7291,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-641-01",
-      "title": "未解决事项｜第641源章｜1",
+      "title": "银行社会认知",
       "memo": "娱乐、银行与报纸：未解决事项（第641源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7316,7 +7316,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-641-02",
-      "title": "未解决事项｜第641源章｜2",
+      "title": "高利贷整治",
       "memo": "娱乐、银行与报纸：未解决事项（第641源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7341,7 +7341,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-641-01",
-      "title": "主角龙形态｜第641源章｜1",
+      "title": "主角龙形态｜银行.(1)｜综合娱乐中心经营者与银行创办者的人类形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第641源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7366,7 +7366,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-641-01",
-      "title": "主角龙状态｜第641源章｜1",
+      "title": "主角龙状态｜银行.(1)｜长期银行构想的准备条件成熟，开始实际运营前推广",
       "memo": "娱乐、银行与报纸：主角龙状态（第641源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7391,7 +7391,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-641-01",
-      "title": "主角龙知识边界｜第641源章｜1",
+      "title": "主角龙知识边界｜银行.(1)｜银行尚未获得大众信任",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第641源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7416,7 +7416,7 @@
     },
     {
       "id": "era-31-entertainment-event-642-01",
-      "title": "事件｜第642源章｜1",
+      "title": "地下高利贷不纳税，以急需用钱陷阱，极高利率，房田和家属奴役榨取受害者",
       "memo": "娱乐、银行与报纸：事件（第642源章第1条）",
       "category": "event",
       "keys": [
@@ -7442,7 +7442,7 @@
     },
     {
       "id": "era-31-entertainment-event-642-02",
-      "title": "事件｜第642源章｜2",
+      "title": "母女讨论人性，主龙认为灵魂初生非善非恶，父母，环境，教育与魄共同塑造倾向",
       "memo": "娱乐、银行与报纸：事件（第642源章第2条）",
       "category": "event",
       "keys": [
@@ -7468,7 +7468,7 @@
     },
     {
       "id": "era-31-entertainment-event-642-03",
-      "title": "事件｜第642源章｜3",
+      "title": "主龙审阅犯罪史，发现高利贷者无一丝善行与感化余地，仍反复寻找可为灵魂辩护的证据",
       "memo": "娱乐、银行与报纸：事件（第642源章第3条）",
       "category": "event",
       "keys": [
@@ -7493,7 +7493,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-642-01",
-      "title": "世界设定事实｜第642源章｜1",
+      "title": "高利贷在多数地区不合法且地下化，以虚假急需和高息把本人、家属、土地与房屋卷入债务奴役",
       "memo": "娱乐、银行与报纸：世界设定事实（第642源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7518,7 +7518,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-642-02",
-      "title": "世界设定事实｜第642源章｜2",
+      "title": "灵魂初生非善非恶，父母灵魂、成长形成的魄、环境与教育共同塑造人类倾向",
       "memo": "娱乐、银行与报纸：世界设定事实（第642源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7543,7 +7543,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-642-03",
-      "title": "世界设定事实｜第642源章｜3",
+      "title": "所有调查确认的恶德高利贷者被主龙同刻雷击处死，灵魂进入漫长审判并最终抹除记忆",
       "memo": "娱乐、银行与报纸：世界设定事实（第642源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7568,7 +7568,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-642-01",
-      "title": "新建立连续性｜第642源章｜1",
+      "title": "人性与教化论",
       "memo": "娱乐、银行与报纸：新建立连续性（第642源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7593,7 +7593,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-642-02",
-      "title": "新建立连续性｜第642源章｜2",
+      "title": "高利贷者天谴",
       "memo": "娱乐、银行与报纸：新建立连续性（第642源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7618,7 +7618,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-642-01",
-      "title": "未解决事项｜第642源章｜1",
+      "title": "提前处死违反冥界规则的后果",
       "memo": "娱乐、银行与报纸：未解决事项（第642源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7643,7 +7643,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-642-02",
-      "title": "未解决事项｜第642源章｜2",
+      "title": "银行公众形象",
       "memo": "娱乐、银行与报纸：未解决事项（第642源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7668,7 +7668,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-642-01",
-      "title": "主角龙形态｜第642源章｜1",
+      "title": "主角龙形态｜银行.(2)｜审阅高利贷罪状并降下天谴的生命女神本体",
       "memo": "娱乐、银行与报纸：主角龙形态（第642源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7693,7 +7693,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-642-01",
-      "title": "主角龙状态｜第642源章｜1",
+      "title": "主角龙状态｜银行.(2)｜从制度整治滑入一次越过自然寿数的直接处刑，情绪受到人类恶意重创",
       "memo": "娱乐、银行与报纸：主角龙状态（第642源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7718,7 +7718,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-642-01",
-      "title": "主角龙知识边界｜第642源章｜1",
+      "title": "主角龙知识边界｜银行.(2)｜她处死的是调查文件覆盖的恶德高利贷者，不等于所有借贷或所有人类",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第642源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7743,7 +7743,7 @@
     },
     {
       "id": "era-31-entertainment-event-643-01",
-      "title": "事件｜第643源章｜1",
+      "title": "生命教团把高利贷者死亡宣传为万神殿天谴，并推广银行合理利率",
       "memo": "娱乐、银行与报纸：事件（第643源章第1条）",
       "category": "event",
       "keys": [
@@ -7768,7 +7768,7 @@
     },
     {
       "id": "era-31-entertainment-event-643-02",
-      "title": "事件｜第643源章｜2",
+      "title": "储蓄逐渐增长，但首都单店和纸质存折限制扩张",
       "memo": "娱乐、银行与报纸：事件（第643源章第2条）",
       "category": "event",
       "keys": [
@@ -7793,7 +7793,7 @@
     },
     {
       "id": "era-31-entertainment-event-643-03",
-      "title": "事件｜第643源章｜3",
+      "title": "主龙本体到冥界，被三审判官和哈迪斯斥责提前终止阳寿、忘记增员、只在自己需要时来",
       "memo": "娱乐、银行与报纸：事件（第643源章第3条）",
       "category": "event",
       "keys": [
@@ -7819,7 +7819,7 @@
     },
     {
       "id": "era-31-entertainment-event-643-04",
-      "title": "事件｜第643源章｜4",
+      "title": "主龙把曾为九柱神之王、转生被保留的阿蒙灵魂改造为冥界从属神奥西里斯",
       "memo": "娱乐、银行与报纸：事件（第643源章第4条）",
       "category": "event",
       "keys": [
@@ -7844,7 +7844,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-643-01",
-      "title": "世界设定事实｜第643源章｜1",
+      "title": "银行在无身份证制度下核实住所、家庭、财产和抵押",
       "memo": "娱乐、银行与报纸：世界设定事实（第643源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7869,7 +7869,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-643-02",
-      "title": "世界设定事实｜第643源章｜2",
+      "title": "跨城银行需要完整一致的交易信息",
       "memo": "娱乐、银行与报纸：世界设定事实（第643源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7894,7 +7894,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-643-03",
-      "title": "世界设定事实｜第643源章｜3",
+      "title": "冥界规则要求尊重尚未结束的阳寿，最高神提前处死罪人同样被追责",
       "memo": "娱乐、银行与报纸：世界设定事实（第643源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7919,7 +7919,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-643-04",
-      "title": "世界设定事实｜第643源章｜4",
+      "title": "阿蒙强大灵魂被改造成冥界从属神奥西里斯，以缓解审判人手短缺",
       "memo": "娱乐、银行与报纸：世界设定事实（第643源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7944,7 +7944,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-643-01",
-      "title": "新建立连续性｜第643源章｜1",
+      "title": "银行贷款储蓄启用",
       "memo": "娱乐、银行与报纸：新建立连续性（第643源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7969,7 +7969,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-643-02",
-      "title": "新建立连续性｜第643源章｜2",
+      "title": "有线通信构想",
       "memo": "娱乐、银行与报纸：新建立连续性（第643源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7994,7 +7994,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-643-03",
-      "title": "新建立连续性｜第643源章｜3",
+      "title": "奥西里斯诞生",
       "memo": "娱乐、银行与报纸：新建立连续性（第643源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8019,7 +8019,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-643-04",
-      "title": "新建立连续性｜第643源章｜4",
+      "title": "最高神受冥界问责",
       "memo": "娱乐、银行与报纸：新建立连续性（第643源章第4条）",
       "category": "continuity",
       "keys": [
@@ -8044,7 +8044,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-643-01",
-      "title": "未解决事项｜第643源章｜1",
+      "title": "冥界积案",
       "memo": "娱乐、银行与报纸：未解决事项（第643源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8069,7 +8069,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-643-02",
-      "title": "未解决事项｜第643源章｜2",
+      "title": "全国银行数据同步",
       "memo": "娱乐、银行与报纸：未解决事项（第643源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8094,7 +8094,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-643-01",
-      "title": "主角龙形态｜第643源章｜1",
+      "title": "主角龙形态｜银行.(3)｜银行创办者化身与亲赴冥界的生命女神本体",
       "memo": "娱乐、银行与报纸：主角龙形态（第643源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8119,7 +8119,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-643-01",
-      "title": "主角龙状态｜第643源章｜1",
+      "title": "主角龙状态｜银行.(3)｜银行扩张顺利，却因天谴越界被冥界体系问责并承担补救",
       "memo": "娱乐、银行与报纸：主角龙状态（第643源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8144,7 +8144,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-643-01",
-      "title": "主角龙知识边界｜第643源章｜1",
+      "title": "主角龙知识边界｜银行.(3)｜通信线路、分行和互联网仍是计划或远景",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第643源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8169,7 +8169,7 @@
     },
     {
       "id": "era-31-entertainment-event-644-01",
-      "title": "事件｜第644源章｜1",
+      "title": "人口增长令冥界灵魂审判量几何增加",
       "memo": "娱乐、银行与报纸：事件（第644源章第1条）",
       "category": "event",
       "keys": [
@@ -8196,7 +8196,7 @@
     },
     {
       "id": "era-31-entertainment-event-644-02",
-      "title": "事件｜第644源章｜2",
+      "title": "主龙连续审理严选恶人，以不同年限或让罪犯体验受害者痛苦判罚",
       "memo": "娱乐、银行与报纸：事件（第644源章第2条）",
       "category": "event",
       "keys": [
@@ -8221,7 +8221,7 @@
     },
     {
       "id": "era-31-entertainment-event-644-03",
-      "title": "事件｜第644源章｜3",
+      "title": "回到银行后祭司长察觉她冷淡，主龙说明自己正压抑想胡闹的情绪，因最高神发怒可能伤及世界",
       "memo": "娱乐、银行与报纸：事件（第644源章第3条）",
       "category": "event",
       "keys": [
@@ -8246,7 +8246,7 @@
     },
     {
       "id": "era-31-entertainment-event-644-04",
-      "title": "事件｜第644源章｜4",
+      "title": "银行计划在中等城市设分行，采用客户存折与中央账本二元比对",
       "memo": "娱乐、银行与报纸：事件（第644源章第4条）",
       "category": "event",
       "keys": [
@@ -8272,7 +8272,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-644-01",
-      "title": "世界设定事实｜第644源章｜1",
+      "title": "冥界使用哈迪斯生成的人生摘要辅助审判，但人口增长仍令积案扩大",
       "memo": "娱乐、银行与报纸：世界设定事实（第644源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8298,7 +8298,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-644-02",
-      "title": "世界设定事实｜第644源章｜2",
+      "title": "全国银行目标要求客户存折与中央账本双份记录，每日汇总分行交易核对完整性、一致性和挪用",
       "memo": "娱乐、银行与报纸：世界设定事实（第644源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8323,7 +8323,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-644-03",
-      "title": "世界设定事实｜第644源章｜3",
+      "title": "有线通信未成熟时，银行明细暂由铁路和挑选的长途鸟人运送，后者应获得更高飞行津贴",
       "memo": "娱乐、银行与报纸：世界设定事实（第644源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8348,7 +8348,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-644-01",
-      "title": "新建立连续性｜第644源章｜1",
+      "title": "奥西里斯受训",
       "memo": "娱乐、银行与报纸：新建立连续性（第644源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8373,7 +8373,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-644-02",
-      "title": "新建立连续性｜第644源章｜2",
+      "title": "主龙压抑毁灭冲动",
       "memo": "娱乐、银行与报纸：新建立连续性（第644源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8398,7 +8398,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-644-03",
-      "title": "新建立连续性｜第644源章｜3",
+      "title": "中央账本与鸟人数据运输",
       "memo": "娱乐、银行与报纸：新建立连续性（第644源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8423,7 +8423,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-644-01",
-      "title": "未解决事项｜第644源章｜1",
+      "title": "有线通信",
       "memo": "娱乐、银行与报纸：未解决事项（第644源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8448,7 +8448,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-644-02",
-      "title": "未解决事项｜第644源章｜2",
+      "title": "犯罪整治",
       "memo": "娱乐、银行与报纸：未解决事项（第644源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8473,7 +8473,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-644-03",
-      "title": "未解决事项｜第644源章｜3",
+      "title": "冥界根本性增效",
       "memo": "娱乐、银行与报纸：未解决事项（第644源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8498,7 +8498,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-644-01",
-      "title": "主角龙形态｜第644源章｜1",
+      "title": "主角龙形态｜银行.(4)｜冥界审判席上的生命女神本体与银行办公中的创办者形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第644源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8523,7 +8523,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-644-01",
-      "title": "主角龙状态｜第644源章｜1",
+      "title": "主角龙状态｜银行.(4)｜在人类恶行造成的情绪临界点仍继续履职，并把注意力拉回银行扩张",
       "memo": "娱乐、银行与报纸：主角龙状态（第644源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8548,7 +8548,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-644-01",
-      "title": "主角龙知识边界｜第644源章｜1",
+      "title": "主角龙知识边界｜银行.(4)｜她的『毁灭神龙会蹦出来』是自我警戒而非已经发生的变身",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第644源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8574,7 +8574,7 @@
     },
     {
       "id": "era-31-entertainment-event-645-01",
-      "title": "事件｜第645源章｜1",
+      "title": "银行初期无需快速通信，地面移动难超长途鸟人，破邪结界不能保证道路绝对安全",
       "memo": "娱乐、银行与报纸：事件（第645源章第1条）",
       "category": "event",
       "keys": [
@@ -8599,7 +8599,7 @@
     },
     {
       "id": "era-31-entertainment-event-645-02",
-      "title": "事件｜第645源章｜2",
+      "title": "商队商会采用银行替代携现银与信用汇票，降低盗匪、魔物和赖账风险",
       "memo": "娱乐、银行与报纸：事件（第645源章第2条）",
       "category": "event",
       "keys": [
@@ -8624,7 +8624,7 @@
     },
     {
       "id": "era-31-entertainment-event-645-03",
-      "title": "事件｜第645源章｜3",
+      "title": "后续片段显示帝国银行开始试用等值一银币的纸钱并计划更高面额",
       "memo": "娱乐、银行与报纸：事件（第645源章第3条）",
       "category": "event",
       "keys": [
@@ -8650,7 +8650,7 @@
     },
     {
       "id": "era-31-entertainment-event-645-04",
-      "title": "事件｜第645源章｜4",
+      "title": "银行交易揭示资金流向",
       "memo": "娱乐、银行与报纸：事件（第645源章第4条）",
       "category": "event",
       "keys": [
@@ -8675,7 +8675,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-645-01",
-      "title": "世界设定事实｜第645源章｜1",
+      "title": "银行初期跨行同步依赖鸟人速度和大额通知即可，破邪结界只能驱避而不能消除魔物袭击",
       "memo": "娱乐、银行与报纸：世界设定事实（第645源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8700,7 +8700,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-645-02",
-      "title": "世界设定事实｜第645源章｜2",
+      "title": "商贸银行账户与支票减少携银、汇票诈骗和跨地交易风险",
       "memo": "娱乐、银行与报纸：世界设定事实（第645源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8725,7 +8725,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-645-03",
-      "title": "世界设定事实｜第645源章｜3",
+      "title": "帝国银行后来试用银行担保纸币，面临防伪和克隆问题",
       "memo": "娱乐、银行与报纸：世界设定事实（第645源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8751,7 +8751,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-645-04",
-      "title": "世界设定事实｜第645源章｜4",
+      "title": "银行流水可揭示地域资金迁移和异常账户，成为犯罪调查新线索",
       "memo": "娱乐、银行与报纸：世界设定事实（第645源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8776,7 +8776,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-645-01",
-      "title": "新建立连续性｜第645源章｜1",
+      "title": "银行支票",
       "memo": "娱乐、银行与报纸：新建立连续性（第645源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8801,7 +8801,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-645-02",
-      "title": "新建立连续性｜第645源章｜2",
+      "title": "纸币试用",
       "memo": "娱乐、银行与报纸：新建立连续性（第645源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8826,7 +8826,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-645-03",
-      "title": "新建立连续性｜第645源章｜3",
+      "title": "异常资金追踪",
       "memo": "娱乐、银行与报纸：新建立连续性（第645源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8851,7 +8851,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-645-01",
-      "title": "未解决事项｜第645源章｜1",
+      "title": "纸币防伪",
       "memo": "娱乐、银行与报纸：未解决事项（第645源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8876,7 +8876,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-645-02",
-      "title": "未解决事项｜第645源章｜2",
+      "title": "犯罪账户调查",
       "memo": "娱乐、银行与报纸：未解决事项（第645源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8901,7 +8901,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-645-03",
-      "title": "未解决事项｜第645源章｜3",
+      "title": "通信需求何时成熟",
       "memo": "娱乐、银行与报纸：未解决事项（第645源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8926,7 +8926,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-645-01",
-      "title": "主角龙形态｜第645源章｜1",
+      "title": "主角龙形态｜银行.(5)｜帝国银行制度设计者与账户审查者的人类形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第645源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8951,7 +8951,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-645-01",
-      "title": "主角龙状态｜第645源章｜1",
+      "title": "主角龙状态｜银行.(5)｜银行从基本存贷发展出支票、纸币试用与金融犯罪线索",
       "memo": "娱乐、银行与报纸：主角龙状态（第645源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8976,7 +8976,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-645-01",
-      "title": "主角龙知识边界｜第645源章｜1",
+      "title": "主角龙知识边界｜银行.(5)｜纸币片段发生在后续时间",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第645源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9002,7 +9002,7 @@
     },
     {
       "id": "era-31-entertainment-event-646-01",
-      "title": "事件｜第646源章｜1",
+      "title": "犯罪组织用现金、洗钱和分散存款规避银行追踪",
       "memo": "娱乐、银行与报纸：事件（第646源章第1条）",
       "category": "event",
       "keys": [
@@ -9027,7 +9027,7 @@
     },
     {
       "id": "era-31-entertainment-event-646-02",
-      "title": "事件｜第646源章｜2",
+      "title": "主龙邀请万神殿诸神或皇城人员下棋，众人因最高神／守护龙身份恐惧，敬畏",
       "memo": "娱乐、银行与报纸：事件（第646源章第2条）",
       "category": "event",
       "keys": [
@@ -9053,7 +9053,7 @@
     },
     {
       "id": "era-31-entertainment-event-646-03",
-      "title": "事件｜第646源章｜3",
+      "title": "希尔芙指出结论显而易见",
       "memo": "娱乐、银行与报纸：事件（第646源章第3条）",
       "category": "event",
       "keys": [
@@ -9079,7 +9079,7 @@
     },
     {
       "id": "era-31-entertainment-event-646-04",
-      "title": "事件｜第646源章｜4",
+      "title": "赌场设置投一银币，赢则得100银币及箱内奖金的自动棋盘，挑战者执白先行",
       "memo": "娱乐、银行与报纸：事件（第646源章第4条）",
       "category": "event",
       "keys": [
@@ -9104,7 +9104,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-646-01",
-      "title": "世界设定事实｜第646源章｜1",
+      "title": "犯罪组织已使用现金、洗钱、分散账户规避追踪",
       "memo": "娱乐、银行与报纸：世界设定事实（第646源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9129,7 +9129,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-646-02",
-      "title": "世界设定事实｜第646源章｜2",
+      "title": "最高神和守护龙身份让普通神、人不敢成为其游戏对手，形成真实社交隔离",
       "memo": "娱乐、银行与报纸：世界设定事实（第646源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9154,7 +9154,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-646-03",
-      "title": "世界设定事实｜第646源章｜3",
+      "title": "赌场不败棋盘以一银币挑战、巨额奖金和自动黑棋运行，真实操作者身份未向公众披露",
       "memo": "娱乐、银行与报纸：世界设定事实（第646源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9179,7 +9179,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-646-01",
-      "title": "新建立连续性｜第646源章｜1",
+      "title": "犯罪渐进监管",
       "memo": "娱乐、银行与报纸：新建立连续性（第646源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9204,7 +9204,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-646-02",
-      "title": "新建立连续性｜第646源章｜2",
+      "title": "最高神社交隔离",
       "memo": "娱乐、银行与报纸：新建立连续性（第646源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9229,7 +9229,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-646-03",
-      "title": "新建立连续性｜第646源章｜3",
+      "title": "不败棋盘首演",
       "memo": "娱乐、银行与报纸：新建立连续性（第646源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9254,7 +9254,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-646-01",
-      "title": "未解决事项｜第646源章｜1",
+      "title": "不败棋盘传播",
       "memo": "娱乐、银行与报纸：未解决事项（第646源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9279,7 +9279,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-646-02",
-      "title": "未解决事项｜第646源章｜2",
+      "title": "通信技术的谨慎推进",
       "memo": "娱乐、银行与报纸：未解决事项（第646源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9304,7 +9304,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-646-01",
-      "title": "主角龙形态｜第646源章｜1",
+      "title": "主角龙形态｜更多的娱乐.(1)｜公众不可见的远程棋手",
       "memo": "娱乐、银行与报纸：主角龙形态（第646源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9329,7 +9329,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-646-01",
-      "title": "主角龙状态｜第646源章｜1",
+      "title": "主角龙状态｜更多的娱乐.(1)｜通过隐藏身份第一次获得陌生普通对手",
       "memo": "娱乐、银行与报纸：主角龙状态（第646源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9354,7 +9354,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-646-01",
-      "title": "主角龙知识边界｜第646源章｜1",
+      "title": "主角龙知识边界｜更多的娱乐.(1)｜公众不知道自动棋盘由主龙操纵",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第646源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9379,7 +9379,7 @@
     },
     {
       "id": "era-31-entertainment-event-647-01",
-      "title": "事件｜第647源章｜1",
+      "title": "不败棋盘表面无魔法，实为磁性棋盘，棋子和微型魔力回路，连塔主级魔法师也难察觉",
       "memo": "娱乐、银行与报纸：事件（第647源章第1条）",
       "category": "event",
       "keys": [
@@ -9405,7 +9405,7 @@
     },
     {
       "id": "era-31-entertainment-event-647-02",
-      "title": "事件｜第647源章｜2",
+      "title": "挑战过热后赌场限制局数、禁入闹事者并设选拔赛",
       "memo": "娱乐、银行与报纸：事件（第647源章第2条）",
       "category": "event",
       "keys": [
@@ -9431,7 +9431,7 @@
     },
     {
       "id": "era-31-entertainment-event-647-03",
-      "title": "事件｜第647源章｜3",
+      "title": "特级大师频繁申请令主龙把乐趣感到像义务，因而强调适量兴趣",
       "memo": "娱乐、银行与报纸：事件（第647源章第3条）",
       "category": "event",
       "keys": [
@@ -9456,7 +9456,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-647-01",
-      "title": "世界设定事实｜第647源章｜1",
+      "title": "不败棋盘以磁性，炼金术和隐秘微型魔力回路运行，常规高阶魔法师难察觉",
       "memo": "娱乐、银行与报纸：世界设定事实（第647源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9482,7 +9482,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-647-02",
-      "title": "世界设定事实｜第647源章｜2",
+      "title": "不败棋盘挑战选拔发展成世界国际象棋锦标赛，冠军获特级大师称号、奖金和一年对弈权",
       "memo": "娱乐、银行与报纸：世界设定事实（第647源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9507,7 +9507,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-647-03",
-      "title": "世界设定事实｜第647源章｜3",
+      "title": "时间流逝期间，身份未明的影之勇者再次暗杀魔王",
       "memo": "娱乐、银行与报纸：世界设定事实（第647源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9533,7 +9533,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-647-01",
-      "title": "新建立连续性｜第647源章｜1",
+      "title": "不败棋盘技术",
       "memo": "娱乐、银行与报纸：新建立连续性（第647源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9558,7 +9558,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-647-02",
-      "title": "新建立连续性｜第647源章｜2",
+      "title": "国际象棋锦标赛与特级大师",
       "memo": "娱乐、银行与报纸：新建立连续性（第647源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9583,7 +9583,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-647-01",
-      "title": "未解决事项｜第647源章｜1",
+      "title": "下一种娱乐",
       "memo": "娱乐、银行与报纸：未解决事项（第647源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9608,7 +9608,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-647-02",
-      "title": "未解决事项｜第647源章｜2",
+      "title": "棋神神格是否真的形成",
       "memo": "娱乐、银行与报纸：未解决事项（第647源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9633,7 +9633,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-647-01",
-      "title": "主角龙形态｜第647源章｜1",
+      "title": "主角龙形态｜更多的娱乐.(2)｜隐藏于不败棋盘后的匿名棋手，无公开外貌",
       "memo": "娱乐、银行与报纸：主角龙形态（第647源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9658,7 +9658,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-647-01",
-      "title": "主角龙状态｜第647源章｜1",
+      "title": "主角龙状态｜更多的娱乐.(2)｜从个人匿名娱乐变成全球棋艺生态的最高对手，开始对单一游戏感到过量",
       "memo": "娱乐、银行与报纸：主角龙状态（第647源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9683,7 +9683,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-647-01",
-      "title": "主角龙知识边界｜第647源章｜1",
+      "title": "主角龙知识边界｜更多的娱乐.(2)｜她只推测露西亚可能识破装置",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第647源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9709,7 +9709,7 @@
     },
     {
       "id": "era-31-entertainment-event-648-01",
-      "title": "事件｜第648源章｜1",
+      "title": "主龙发现旁观低水平对战像看游戏主播一样有趣，但单一娱乐终会厌倦",
       "memo": "娱乐、银行与报纸：事件（第648源章第1条）",
       "category": "event",
       "keys": [
@@ -9734,7 +9734,7 @@
     },
     {
       "id": "era-31-entertainment-event-648-02",
-      "title": "事件｜第648源章｜2",
+      "title": "忒提斯推荐繁荣的艺术",
       "memo": "娱乐、银行与报纸：事件（第648源章第2条）",
       "category": "event",
       "keys": [
@@ -9765,7 +9765,7 @@
     },
     {
       "id": "era-31-entertainment-event-648-03",
-      "title": "事件｜第648源章｜3",
+      "title": "主龙最爱游戏，但世界尚无这种依赖视听、经验和选择的艺术概念",
       "memo": "娱乐、银行与报纸：事件（第648源章第3条）",
       "category": "event",
       "keys": [
@@ -9790,7 +9790,7 @@
     },
     {
       "id": "era-31-entertainment-event-648-04",
-      "title": "事件｜第648源章｜4",
+      "title": "主龙把政务推给阿谢拉特，从希雅神殿大图书馆借压缩芯片书籍",
       "memo": "娱乐、银行与报纸：事件（第648源章第4条）",
       "category": "event",
       "keys": [
@@ -9816,7 +9816,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-648-01",
-      "title": "世界设定事实｜第648源章｜1",
+      "title": "艺术家公会获皇室与成功艺术家捐赠，形成前辈支持后辈的循环，小说，音乐",
       "memo": "娱乐、银行与报纸：世界设定事实（第648源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9841,7 +9841,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-648-02",
-      "title": "世界设定事实｜第648源章｜2",
+      "title": "六名古神子女的艺术偏好存在差异，忒提斯戏剧，萨加玛塔雕塑，沙马什美术，希尔芙音乐",
       "memo": "娱乐、银行与报纸：世界设定事实（第648源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9872,7 +9872,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-648-03",
-      "title": "世界设定事实｜第648源章｜3",
+      "title": "万神殿大图书馆由知识与魔法之神管理，书籍可压缩成微型芯片",
       "memo": "娱乐、银行与报纸：世界设定事实（第648源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9897,7 +9897,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-648-01",
-      "title": "新建立连续性｜第648源章｜1",
+      "title": "古神子女艺术偏好",
       "memo": "娱乐、银行与报纸：新建立连续性（第648源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9922,7 +9922,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-648-02",
-      "title": "新建立连续性｜第648源章｜2",
+      "title": "主龙最爱游戏与小说",
       "memo": "娱乐、银行与报纸：新建立连续性（第648源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9947,7 +9947,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-648-03",
-      "title": "新建立连续性｜第648源章｜3",
+      "title": "本世界新小说样本",
       "memo": "娱乐、银行与报纸：新建立连续性（第648源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9972,7 +9972,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-648-01",
-      "title": "未解决事项｜第648源章｜1",
+      "title": "小说能否满足主龙",
       "memo": "娱乐、银行与报纸：未解决事项（第648源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9997,7 +9997,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-648-02",
-      "title": "未解决事项｜第648源章｜2",
+      "title": "毁灭倾向是否会继续加深",
       "memo": "娱乐、银行与报纸：未解决事项（第648源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10022,7 +10022,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-648-01",
-      "title": "主角龙形态｜第648源章｜1",
+      "title": "主角龙形态｜更多的娱乐.(3)｜在万神殿大图书馆阅读微型书籍的生命女神本体",
       "memo": "娱乐、银行与报纸：主角龙形态（第648源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10047,7 +10047,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-648-01",
-      "title": "主角龙状态｜第648源章｜1",
+      "title": "主角龙状态｜更多的娱乐.(3)｜由棋牌游戏转向本世界艺术和小说，开始寻找能长期填补无聊的新内容",
       "memo": "娱乐、银行与报纸：主角龙状态（第648源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10072,7 +10072,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-648-01",
-      "title": "主角龙知识边界｜第648源章｜1",
+      "title": "主角龙知识边界｜更多的娱乐.(3)｜她关于游戏作为艺术的定义是私人理解",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第648源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10097,7 +10097,7 @@
     },
     {
       "id": "era-31-entertainment-event-649-01",
-      "title": "事件｜第649源章｜1",
+      "title": "主龙闭门读小说整整一百年，把本体神务全交阿谢拉特，期间魔王降临一次",
       "memo": "娱乐、银行与报纸：事件（第649源章第1条）",
       "category": "event",
       "keys": [
@@ -10124,7 +10124,7 @@
     },
     {
       "id": "era-31-entertainment-event-649-02",
-      "title": "事件｜第649源章｜2",
+      "title": "六名古神子女得知母亲喜欢小说，希尔芙计划改编各地神话传说",
       "memo": "娱乐、银行与报纸：事件（第649源章第2条）",
       "category": "event",
       "keys": [
@@ -10152,7 +10152,7 @@
     },
     {
       "id": "era-31-entertainment-event-649-03",
-      "title": "事件｜第649源章｜3",
+      "title": "忒提斯严肃说明自己从世界流向看到一种可能，母亲若继续无聊",
       "memo": "娱乐、银行与报纸：事件（第649源章第3条）",
       "category": "event",
       "keys": [
@@ -10178,7 +10178,7 @@
     },
     {
       "id": "era-31-entertainment-event-649-04",
-      "title": "事件｜第649源章｜4",
+      "title": "希尔芙提议从转生者知识带回异世界娱乐",
       "memo": "娱乐、银行与报纸：事件（第649源章第4条）",
       "category": "event",
       "keys": [
@@ -10205,7 +10205,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-649-01",
-      "title": "世界设定事实｜第649源章｜1",
+      "title": "主龙可因阅读完全离岗百年",
       "memo": "娱乐、银行与报纸：世界设定事实（第649源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10232,7 +10232,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-649-02",
-      "title": "世界设定事实｜第649源章｜2",
+      "title": "忒提斯预见的只是可能流向：母亲或因无聊毁灭世界并离开",
       "memo": "娱乐、银行与报纸：世界设定事实（第649源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10258,7 +10258,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-649-03",
-      "title": "世界设定事实｜第649源章｜3",
+      "title": "六古神开始秘密利用已知转生者的异世界知识创造娱乐，以预防母亲走向毁灭",
       "memo": "娱乐、银行与报纸：世界设定事实（第649源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10283,7 +10283,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-649-01",
-      "title": "新建立连续性｜第649源章｜1",
+      "title": "百年阅读休假",
       "memo": "娱乐、银行与报纸：新建立连续性（第649源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10308,7 +10308,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-649-02",
-      "title": "新建立连续性｜第649源章｜2",
+      "title": "六古神秘密防灭世计划",
       "memo": "娱乐、银行与报纸：新建立连续性（第649源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10333,7 +10333,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-649-03",
-      "title": "新建立连续性｜第649源章｜3",
+      "title": "转生者娱乐知识搜集",
       "memo": "娱乐、银行与报纸：新建立连续性（第649源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10358,7 +10358,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-649-01",
-      "title": "未解决事项｜第649源章｜1",
+      "title": "预见是否成真",
       "memo": "娱乐、银行与报纸：未解决事项（第649源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10383,7 +10383,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-649-02",
-      "title": "未解决事项｜第649源章｜2",
+      "title": "子女将创造何物",
       "memo": "娱乐、银行与报纸：未解决事项（第649源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10408,7 +10408,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-649-01",
-      "title": "主角龙形态｜第649源章｜1",
+      "title": "主角龙形态｜更多的娱乐.(4)｜闭门阅读的生命女神本体",
       "memo": "娱乐、银行与报纸：主角龙形态（第649源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10433,7 +10433,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-649-01",
-      "title": "主角龙状态｜第649源章｜1",
+      "title": "主角龙状态｜更多的娱乐.(4)｜小说暂时解除无聊但造成百年离岗",
       "memo": "娱乐、银行与报纸：主角龙状态（第649源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10458,7 +10458,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-649-01",
-      "title": "主角龙知识边界｜第649源章｜1",
+      "title": "主角龙知识边界｜更多的娱乐.(4)｜忒提斯看到的是可能性而非确定命运",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第649源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10484,7 +10484,7 @@
     },
     {
       "id": "era-31-entertainment-event-650-01",
-      "title": "事件｜第650源章｜1",
+      "title": "生命教团祭司长提出把旧内部简报改为大众新闻／报纸，利用铁路大规模运输并获取收益",
       "memo": "娱乐、银行与报纸：事件（第650源章第1条）",
       "category": "event",
       "keys": [
@@ -10510,7 +10510,7 @@
     },
     {
       "id": "era-31-entertainment-event-650-02",
-      "title": "事件｜第650源章｜2",
+      "title": "主龙以教团业务过载，皇室暗中不满与善意不必然被理解为由，要求成立外部报社，分散投资",
       "memo": "娱乐、银行与报纸：事件（第650源章第2条）",
       "category": "event",
       "keys": [
@@ -10535,7 +10535,7 @@
     },
     {
       "id": "era-31-entertainment-event-650-03",
-      "title": "事件｜第650源章｜3",
+      "title": "报社需要记者搜集情报并写成报道，能为未就业毕业生提供岗位，也让大众和主龙获得世界新闻",
       "memo": "娱乐、银行与报纸：事件（第650源章第3条）",
       "category": "event",
       "keys": [
@@ -10560,7 +10560,7 @@
     },
     {
       "id": "era-31-entertainment-event-650-04",
-      "title": "事件｜第650源章｜4",
+      "title": "外部投资失败后，报社股权由生命教团40%，赌场30%，银行25%",
       "memo": "娱乐、银行与报纸：事件（第650源章第4条）",
       "category": "event",
       "keys": [
@@ -10585,7 +10585,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-650-01",
-      "title": "世界设定事实｜第650源章｜1",
+      "title": "报纸前身是生命教团内部简报",
       "memo": "娱乐、银行与报纸：世界设定事实（第650源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10610,7 +10610,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-650-02",
-      "title": "世界设定事实｜第650源章｜2",
+      "title": "文书学校成为向公会，赌场，银行和皇室输送普通行政人才的名门",
       "memo": "娱乐、银行与报纸：世界设定事实（第650源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10635,7 +10635,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-650-03",
-      "title": "世界设定事实｜第650源章｜3",
+      "title": "首家报社实际资金主要来自生命教团、赌场、银行和艺术家公会",
       "memo": "娱乐、银行与报纸：世界设定事实（第650源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10660,7 +10660,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-650-01",
-      "title": "新建立连续性｜第650源章｜1",
+      "title": "首家报社",
       "memo": "娱乐、银行与报纸：新建立连续性（第650源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10685,7 +10685,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-650-02",
-      "title": "新建立连续性｜第650源章｜2",
+      "title": "周刊报纸",
       "memo": "娱乐、银行与报纸：新建立连续性（第650源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10710,7 +10710,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-650-03",
-      "title": "新建立连续性｜第650源章｜3",
+      "title": "分散股权组织",
       "memo": "娱乐、银行与报纸：新建立连续性（第650源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10735,7 +10735,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-650-01",
-      "title": "未解决事项｜第650源章｜1",
+      "title": "报纸内容与公众反应",
       "memo": "娱乐、银行与报纸：未解决事项（第650源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10760,7 +10760,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-650-01",
-      "title": "主角龙形态｜第650源章｜1",
+      "title": "主角龙形态｜报纸.(1)｜生命女神兼帝国守护龙的组织设计者形态",
       "memo": "娱乐、银行与报纸：主角龙形态（第650源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10785,7 +10785,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-650-01",
-      "title": "主角龙状态｜第650源章｜1",
+      "title": "主角龙状态｜报纸.(1)｜把既有工业与机构拼合成首份大众报纸，并有意分散生命教团外观权力",
       "memo": "娱乐、银行与报纸：主角龙状态（第650源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10810,7 +10810,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-650-01",
-      "title": "主角龙知识边界｜第650源章｜1",
+      "title": "主角龙知识边界｜报纸.(1)｜股权外观分散而实质有主龙共同痕迹",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第650源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10835,7 +10835,7 @@
     },
     {
       "id": "era-31-entertainment-event-651-01",
-      "title": "事件｜第651源章｜1",
+      "title": "登基不足五年的年轻皇帝便服隐身来守护龙住处喝茶看报，最初不愿继位",
       "memo": "娱乐、银行与报纸：事件（第651源章第1条）",
       "category": "event",
       "keys": [
@@ -10861,7 +10861,7 @@
     },
     {
       "id": "era-31-entertainment-event-651-02",
-      "title": "事件｜第651源章｜2",
+      "title": "皇帝赞赏报纸汇总地方消息，得知皇室投资邀请曾被下属过滤后想调查",
       "memo": "娱乐、银行与报纸：事件（第651源章第2条）",
       "category": "event",
       "keys": [
@@ -10886,7 +10886,7 @@
     },
     {
       "id": "era-31-entertainment-event-651-03",
-      "title": "事件｜第651源章｜3",
+      "title": "主龙催皇帝结束上午休息回去治理，拒绝其每天来打扰隐私",
       "memo": "娱乐、银行与报纸：事件（第651源章第3条）",
       "category": "event",
       "keys": [
@@ -10911,7 +10911,7 @@
     },
     {
       "id": "era-31-entertainment-event-651-04",
-      "title": "事件｜第651源章｜4",
+      "title": "报纸包含地方消息，事故，剑斗，赛马赔率，棋赛棋谱，冒险者采访，广告和周刊小说",
       "memo": "娱乐、银行与报纸：事件（第651源章第4条）",
       "category": "event",
       "keys": [
@@ -10936,7 +10936,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-651-01",
-      "title": "世界设定事实｜第651源章｜1",
+      "title": "报社早期记者不足，部分文职被调外勤且回调时间未定",
       "memo": "娱乐、银行与报纸：世界设定事实（第651源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10961,7 +10961,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-651-02",
-      "title": "世界设定事实｜第651源章｜2",
+      "title": "主龙制作的透明斗篷可通过纽扣发动透明化，年轻皇帝用于秘密往返",
       "memo": "娱乐、银行与报纸：世界设定事实（第651源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10986,7 +10986,7 @@
     },
     {
       "id": "era-31-entertainment-world-fact-651-03",
-      "title": "世界设定事实｜第651源章｜3",
+      "title": "报纸形成体育、赛马、棋赛、冒险者、广告、连载小说与犯罪报道的综合舆论媒体",
       "memo": "娱乐、银行与报纸：世界设定事实（第651源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11011,7 +11011,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-651-01",
-      "title": "新建立连续性｜第651源章｜1",
+      "title": "年轻不敬畏守护龙的皇帝",
       "memo": "娱乐、银行与报纸：新建立连续性（第651源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11036,7 +11036,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-651-02",
-      "title": "新建立连续性｜第651源章｜2",
+      "title": "报纸大众成功",
       "memo": "娱乐、银行与报纸：新建立连续性（第651源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11061,7 +11061,7 @@
     },
     {
       "id": "era-31-entertainment-continuity-new-651-03",
-      "title": "新建立连续性｜第651源章｜3",
+      "title": "正规舆论媒体",
       "memo": "娱乐、银行与报纸：新建立连续性（第651源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11086,7 +11086,7 @@
     },
     {
       "id": "era-31-entertainment-unresolved-651-01",
-      "title": "未解决事项｜第651源章｜1",
+      "title": "坏消息对主龙情绪积累",
       "memo": "娱乐、银行与报纸：未解决事项（第651源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11111,7 +11111,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-form-651-01",
-      "title": "主角龙形态｜第651源章｜1",
+      "title": "主角龙形态｜报纸.(2)｜皇城地下私人住处中的守护龙人类形态，泡茶读报",
       "memo": "娱乐、银行与报纸：主角龙形态（第651源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11136,7 +11136,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-state-651-01",
-      "title": "主角龙状态｜第651源章｜1",
+      "title": "主角龙状态｜报纸.(2)｜通过报纸持续观察世界，在愉快与沉重新闻之间维持真实信息",
       "memo": "娱乐、银行与报纸：主角龙状态（第651源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11161,7 +11161,7 @@
     },
     {
       "id": "era-31-entertainment-protagonist-knowledge-651-01",
-      "title": "主角龙知识边界｜第651源章｜1",
+      "title": "主角龙知识边界｜报纸.(2)｜主龙不知道当初具体是谁拒绝皇室投资",
       "memo": "娱乐、银行与报纸：主角龙知识边界（第651源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11186,7 +11186,7 @@
     },
     {
       "id": "era-31-entertainment-secondary-character-01",
-      "title": "次要人物｜不败棋盘首位挑战者",
+      "title": "不败棋盘首位挑战者",
       "memo": "娱乐、银行与报纸：次要人物 不败棋盘首位挑战者",
       "category": "secondary-character",
       "keys": [
@@ -11212,7 +11212,7 @@
     },
     {
       "id": "era-31-entertainment-secondary-character-02",
-      "title": "次要人物｜帝国皇帝／场地对话者",
+      "title": "帝国皇帝／场地对话者",
       "memo": "娱乐、银行与报纸：次要人物 帝国皇帝／场地对话者",
       "category": "secondary-character",
       "keys": [
@@ -11238,7 +11238,7 @@
     },
     {
       "id": "era-31-entertainment-secondary-character-03",
-      "title": "次要人物｜两名未命名少女",
+      "title": "两名未命名少女",
       "memo": "娱乐、银行与报纸：次要人物 两名未命名少女",
       "category": "secondary-character",
       "keys": [],
@@ -11262,7 +11262,7 @@
     },
     {
       "id": "era-31-entertainment-secondary-character-04",
-      "title": "次要人物｜冥界三位审判官",
+      "title": "冥界三位审判官",
       "memo": "娱乐、银行与报纸：次要人物 冥界三位审判官",
       "category": "secondary-character",
       "keys": [
@@ -11288,7 +11288,7 @@
     },
     {
       "id": "era-31-entertainment-secondary-character-05",
-      "title": "次要人物｜生命教团祭司群体",
+      "title": "生命教团祭司群体",
       "memo": "娱乐、银行与报纸：次要人物 生命教团祭司群体",
       "category": "secondary-character",
       "keys": [],

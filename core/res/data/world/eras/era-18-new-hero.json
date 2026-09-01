@@ -4568,7 +4568,7 @@
   "lorebook": [
     {
       "id": "era-18-new-hero-core",
-      "title": "魔王、爱丽丝与勇者埃里克｜时代边界",
+      "title": "魔王、爱丽丝与勇者埃里克",
       "memo": "魔王、爱丽丝与勇者埃里克：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4583,7 +4583,7 @@
     },
     {
       "id": "era-18-new-hero-event-353-01",
-      "title": "事件｜第353源章｜1",
+      "title": "后世叙事把魔王描述为召集怪物、令其百存一互食进化并建立魔兽军团的生命之敌",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第353源章第1条）",
       "category": "event",
       "keys": [
@@ -4609,7 +4609,7 @@
     },
     {
       "id": "era-18-new-hero-event-353-02",
-      "title": "事件｜第353源章｜2",
+      "title": "当时真实起点是地底隆起山顶的无意识巨大魔力结晶",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第353源章第2条）",
       "category": "event",
       "keys": [
@@ -4634,7 +4634,7 @@
     },
     {
       "id": "era-18-new-hero-event-353-03",
-      "title": "事件｜第353源章｜3",
+      "title": "人形结晶成为银发有角幼女，外貌与蒂雅完全相同但无生命意志",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第353源章第3条）",
       "category": "event",
       "keys": [
@@ -4660,7 +4660,7 @@
     },
     {
       "id": "era-18-new-hero-event-353-04",
-      "title": "事件｜第353源章｜4",
+      "title": "蒂雅因觉得可惜，用怀表回溯数秒恢复结晶，决定只在远处观察",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第353源章第4条）",
       "category": "event",
       "keys": [
@@ -4686,7 +4686,7 @@
     },
     {
       "id": "era-18-new-hero-event-353-05",
-      "title": "事件｜第353源章｜5",
+      "title": "遥远后世研究者对魔王起源只有互相竞争的记录假说，且提到虚假勇者曾导致真正勇者不再出现",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第353源章第5条）",
       "category": "event",
       "keys": [
@@ -4712,7 +4712,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-353-01",
-      "title": "世界设定事实｜第353源章｜1",
+      "title": "魔王前身是无生命与自我的超大魔力结晶，怪物因其魔力吸引共同迁徙",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第353源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4738,7 +4738,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-353-02",
-      "title": "世界设定事实｜第353源章｜2",
+      "title": "长途奔袭怪物到达冻土后因饥饿互食并异常强化",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第353源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4763,7 +4763,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-353-03",
-      "title": "世界设定事实｜第353源章｜3",
+      "title": "蒂雅怀表能把数秒时间抹去并让所有现象倒流，恢复已消散的魔王结晶人形",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第353源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4790,7 +4790,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-353-01",
-      "title": "新建立连续性｜第353源章｜1",
+      "title": "魔王魔力结晶真相",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第353源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4816,7 +4816,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-353-02",
-      "title": "新建立连续性｜第353源章｜2",
+      "title": "魔王与蒂雅同貌",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第353源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4843,7 +4843,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-353-03",
-      "title": "新建立连续性｜第353源章｜3",
+      "title": "数秒时间回溯",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第353源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4868,7 +4868,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-353-04",
-      "title": "新建立连续性｜第353源章｜4",
+      "title": "蒂雅远观规则",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第353源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4894,7 +4894,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-353-01",
-      "title": "未解决事项｜第353源章｜1",
+      "title": "魔王何时产生自我",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第353源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4920,7 +4920,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-353-02",
-      "title": "未解决事项｜第353源章｜2",
+      "title": "互食强化机制",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第353源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4945,7 +4945,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-353-03",
-      "title": "未解决事项｜第353源章｜3",
+      "title": "后世虚假勇者事件",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第353源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4970,7 +4970,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-353-01",
-      "title": "主角龙形态｜第353源章｜1",
+      "title": "主角龙形态｜魔王.(1)｜远程观察魔王城的蒂雅",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第353源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4997,7 +4997,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-353-01",
-      "title": "主角龙状态｜第353源章｜1",
+      "title": "主角龙状态｜魔王.(1)｜恢复魔王存在并转为远距离旁观",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第353源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5023,7 +5023,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-353-01",
-      "title": "主角龙知识边界｜第353源章｜1",
+      "title": "主角龙知识边界｜魔王.(1)｜不知道结晶人形化的真正原因，也不能确定后世魔王学说",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第353源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5049,7 +5049,7 @@
     },
     {
       "id": "era-18-new-hero-event-354-01",
-      "title": "事件｜第354源章｜1",
+      "title": "阿谢拉特指出怪物迁徙已造成死亡，伤残，财产损失与难民，纠正蒂雅只看死者数量的判断",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第354源章第1条）",
       "category": "event",
       "keys": [
@@ -5076,7 +5076,7 @@
     },
     {
       "id": "era-18-new-hero-event-354-02",
-      "title": "事件｜第354源章｜2",
+      "title": "蒂雅主张将其塑造成生命之敌魔王，以强敌促进世界发展并由自己调平",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第354源章第2条）",
       "category": "event",
       "keys": [
@@ -5104,7 +5104,7 @@
     },
     {
       "id": "era-18-new-hero-event-354-03",
-      "title": "事件｜第354源章｜3",
+      "title": "蒂雅展示英雄之剑克拉乌·索拉斯，认为魔王会使勇者再现",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第354源章第3条）",
       "category": "event",
       "keys": [
@@ -5132,7 +5132,7 @@
     },
     {
       "id": "era-18-new-hero-event-354-04",
-      "title": "事件｜第354源章｜4",
+      "title": "蒂雅把魔王分为两半，肉体与未萌意识灵魂分离并平分魔力",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第354源章第4条）",
       "category": "event",
       "keys": [
@@ -5160,7 +5160,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-354-01",
-      "title": "世界设定事实｜第354源章｜1",
+      "title": "魔王级结晶力量足以媲美普通神明，却因诞生于地面不受神明不得直接降临的限制",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第354源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5186,7 +5186,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-354-02",
-      "title": "世界设定事实｜第354源章｜2",
+      "title": "克拉乌·索拉斯是长久无人持有的英雄之剑，被蒂雅视为勇者现世的准备条件",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第354源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5212,7 +5212,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-354-03",
-      "title": "世界设定事实｜第354源章｜3",
+      "title": "魔王分割后，肉体与未萌意识灵魂分离，庞大魔力各半",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第354源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5239,7 +5239,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-354-01",
-      "title": "新建立连续性｜第354源章｜1",
+      "title": "魔王分成灵魂与肉体",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第354源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5265,7 +5265,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-354-02",
-      "title": "新建立连续性｜第354源章｜2",
+      "title": "半个魔王龙族巫女",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第354源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5292,7 +5292,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-354-03",
-      "title": "新建立连续性｜第354源章｜3",
+      "title": "英雄之剑待主",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第354源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5317,7 +5317,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-354-04",
-      "title": "新建立连续性｜第354源章｜4",
+      "title": "勇者培养计划",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第354源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5342,7 +5342,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-354-01",
-      "title": "未解决事项｜第354源章｜1",
+      "title": "龙族巫女人格形成",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第354源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5368,7 +5368,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-354-02",
-      "title": "未解决事项｜第354源章｜2",
+      "title": "魔王精神体发展",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第354源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5394,7 +5394,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-354-03",
-      "title": "未解决事项｜第354源章｜3",
+      "title": "勇者人选｜魔王.(2)",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第354源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5419,7 +5419,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-354-01",
-      "title": "主角龙形态｜第354源章｜1",
+      "title": "主角龙形态｜魔王.(2)｜蒂雅本体远程操控",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第354源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5447,7 +5447,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-354-01",
-      "title": "主角龙状态｜第354源章｜1",
+      "title": "主角龙状态｜魔王.(2)｜将魔王分半并把肉体安置进生命教团",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第354源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5473,7 +5473,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-354-01",
-      "title": "主角龙知识边界｜第354源章｜1",
+      "title": "主角龙知识边界｜魔王.(2)｜因无法靠近，只能通过推测和松散连接育成巫女",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第354源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5498,7 +5498,7 @@
     },
     {
       "id": "era-18-new-hero-event-355-01",
-      "title": "事件｜第355源章｜1",
+      "title": "半魔王巫女情绪哭闹可摧毁花园，周围低阈值魔力会自动分解吸收",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第355源章第1条）",
       "category": "event",
       "keys": [
@@ -5525,7 +5525,7 @@
     },
     {
       "id": "era-18-new-hero-event-355-02",
-      "title": "事件｜第355源章｜2",
+      "title": "约一年后巫女形成自我，把蒂雅脑内声音理解为另一个自己，持续追问万物",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第355源章第2条）",
       "category": "event",
       "keys": [
@@ -5552,7 +5552,7 @@
     },
     {
       "id": "era-18-new-hero-event-355-03",
-      "title": "事件｜第355源章｜3",
+      "title": "阿谢拉特报告魔王精神体本能支配怪物并寻求肉体，普通怪物承载魔力会爆炸",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第355源章第3条）",
       "category": "event",
       "keys": [
@@ -5579,7 +5579,7 @@
     },
     {
       "id": "era-18-new-hero-event-355-04",
-      "title": "事件｜第355源章｜4",
+      "title": "魔王身边出现巨型苍蝇、诡异老人和死灵骷髅三名强者，觊觎力量却反被支配",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第355源章第4条）",
       "category": "event",
       "keys": [
@@ -5606,7 +5606,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-355-01",
-      "title": "世界设定事实｜第355源章｜1",
+      "title": "半魔王巫女会自动分解并吸收低于特定阈值的周边魔力，蒂雅本体靠近则可能直接吸收其肉体",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第355源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5633,7 +5633,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-355-02",
-      "title": "世界设定事实｜第355源章｜2",
+      "title": "魔王精神体本能支配怪物寻找肉体，普通怪物无法承受其魔力而爆炸",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第355源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5659,7 +5659,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-355-03",
-      "title": "世界设定事实｜第355源章｜3",
+      "title": "最初三名魔王近臣为巨型苍蝇、非人老人和死灵骷髅，均因接近力量反被精神支配但保住肉体",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第355源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5685,7 +5685,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-355-01",
-      "title": "新建立连续性｜第355源章｜1",
+      "title": "巫女一年自我成形",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第355源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5710,7 +5710,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-355-02",
-      "title": "新建立连续性｜第355源章｜2",
+      "title": "脑内双重人格理解",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第355源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5735,7 +5735,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-355-03",
-      "title": "新建立连续性｜第355源章｜3",
+      "title": "命名请求",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第355源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5760,7 +5760,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-355-04",
-      "title": "新建立连续性｜第355源章｜4",
+      "title": "最初三名魔王近臣",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第355源章第4条）",
       "category": "continuity",
       "keys": [
@@ -5786,7 +5786,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-355-01",
-      "title": "未解决事项｜第355源章｜1",
+      "title": "巫女名字｜魔王.(3)",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第355源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5811,7 +5811,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-355-02",
-      "title": "未解决事项｜第355源章｜2",
+      "title": "第四天王",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第355源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5836,7 +5836,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-355-03",
-      "title": "未解决事项｜第355源章｜3",
+      "title": "魔王肉体方案",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第355源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5862,7 +5862,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-355-01",
-      "title": "主角龙形态｜第355源章｜1",
+      "title": "主角龙形态｜魔王.(3)｜通过脑内松散连接陪伴龙族巫女的蒂雅",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第355源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5890,7 +5890,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-355-01",
-      "title": "主角龙状态｜第355源章｜1",
+      "title": "主角龙状态｜魔王.(3)｜巫女自我成形并进入命名阶段，魔王精神体开始聚集近臣",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第355源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5916,7 +5916,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-355-01",
-      "title": "主角龙知识边界｜第355源章｜1",
+      "title": "主角龙知识边界｜魔王.(3)｜本章未揭示巫女最终名字",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第355源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5944,7 +5944,7 @@
     },
     {
       "id": "era-18-new-hero-event-356-01",
-      "title": "事件｜第356源章｜1",
+      "title": "龙族巫女成长为能一次治愈礼拜堂所有人，甚至让断腿再生的善良圣女",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第356源章第1条）",
       "category": "event",
       "keys": [
@@ -5970,7 +5970,7 @@
     },
     {
       "id": "era-18-new-hero-event-356-02",
-      "title": "事件｜第356源章｜2",
+      "title": "巫女追问痛苦为何存在",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第356源章第2条）",
       "category": "event",
       "keys": [
@@ -5996,7 +5996,7 @@
     },
     {
       "id": "era-18-new-hero-event-356-03",
-      "title": "事件｜第356源章｜3",
+      "title": "魔王使怪物整体强化，各国与众神动员仍伤亡增加",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第356源章第3条）",
       "category": "event",
       "keys": [
@@ -6023,7 +6023,7 @@
     },
     {
       "id": "era-18-new-hero-event-356-04",
-      "title": "事件｜第356源章｜4",
+      "title": "魔王四天王成形：影之黑色贤者即杀康茂德的老人",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第356源章第4条）",
       "category": "event",
       "keys": [
@@ -6053,7 +6053,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-356-01",
-      "title": "世界设定事实｜第356源章｜1",
+      "title": "魔王魔力或怪物互食等不明机制使怪物普遍强化，各国，众神",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第356源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6079,7 +6079,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-356-02",
-      "title": "世界设定事实｜第356源章｜2",
+      "title": "四天王正典构成为影之黑色贤者，堕神宙斯化成的别西卜，死亡支配者巫妖",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第356源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6109,7 +6109,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-356-03",
-      "title": "世界设定事实｜第356源章｜3",
+      "title": "黑暗骑士材料包括龙之墓古代龙骨，皇帝灵魂，魔法师提炼的异常黑暗与魔王魔性",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第356源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6137,7 +6137,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-356-01",
-      "title": "新建立连续性｜第356源章｜1",
+      "title": "巫女讨魔王决意",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第356源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6163,7 +6163,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-356-02",
-      "title": "新建立连续性｜第356源章｜2",
+      "title": "勇者小队训练",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第356源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6188,7 +6188,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-356-03",
-      "title": "新建立连续性｜第356源章｜3",
+      "title": "魔王四天王完整构成",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第356源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6214,7 +6214,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-356-04",
-      "title": "新建立连续性｜第356源章｜4",
+      "title": "黑暗骑士含康茂德灵魂",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第356源章第4条）",
       "category": "continuity",
       "keys": [
@@ -6241,7 +6241,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-356-01",
-      "title": "未解决事项｜第356源章｜1",
+      "title": "巫女姓名",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第356源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6266,7 +6266,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-356-02",
-      "title": "未解决事项｜第356源章｜2",
+      "title": "勇者与同伴人选",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第356源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6291,7 +6291,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-356-03",
-      "title": "未解决事项｜第356源章｜3",
+      "title": "黑暗骑士与厄瑞玻斯关系",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第356源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6318,7 +6318,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-356-01",
-      "title": "主角龙形态｜第356源章｜1",
+      "title": "主角龙形态｜魔王.(4)｜蒂雅通过脑内声音指导与她同貌的龙族巫女",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第356源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6345,7 +6345,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-356-01",
-      "title": "主角龙状态｜第356源章｜1",
+      "title": "主角龙状态｜魔王.(4)｜龙族巫女决定讨伐魔王并开始战斗与团队训练",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第356源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6372,7 +6372,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-356-01",
-      "title": "主角龙知识边界｜第356源章｜1",
+      "title": "主角龙知识边界｜魔王.(4)｜巫女不知道自己是魔王肉体",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第356源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6401,7 +6401,7 @@
     },
     {
       "id": "era-18-new-hero-event-357-01",
-      "title": "事件｜第357源章｜1",
+      "title": "魔王军扩张已毁灭北方数个小国，难民涌入北罗马尼亚、巨人南迁",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第357源章第1条）",
       "category": "event",
       "keys": [
@@ -6427,7 +6427,7 @@
     },
     {
       "id": "era-18-new-hero-event-357-02",
-      "title": "事件｜第357源章｜2",
+      "title": "隐藏身份旁听的龙族巫女向蒂雅逐一询问矮人、精灵、鼠兽人、狮子兽人、蜥蜴人与人类的差异",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第357源章第2条）",
       "category": "event",
       "keys": [
@@ -6454,7 +6454,7 @@
     },
     {
       "id": "era-18-new-hero-event-357-03",
-      "title": "事件｜第357源章｜3",
+      "title": "会议先爆发精灵与矮人、南北罗马尼亚之间的旧怨争吵",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第357源章第3条）",
       "category": "event",
       "keys": [
@@ -6479,7 +6479,7 @@
     },
     {
       "id": "era-18-new-hero-event-357-04",
-      "title": "事件｜第357源章｜4",
+      "title": "龙祭司长把南罗马尼亚的过剩粮食与当地教团减免治疗费交换",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第357源章第4条）",
       "category": "event",
       "keys": [
@@ -6505,7 +6505,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-357-01",
-      "title": "世界设定事实｜第357源章｜1",
+      "title": "魔王危机已跨越国界",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第357源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6531,7 +6531,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-357-02",
-      "title": "世界设定事实｜第357源章｜2",
+      "title": "莱特基尼亚鼠兽人，兽人国狮子兽人",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第357源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6556,7 +6556,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-357-03",
-      "title": "世界设定事实｜第357源章｜3",
+      "title": "西大陆代表到齐，东大陆受害较轻且中央山脉阻隔、依赖鸟人传讯，因此没有参会",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第357源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6581,7 +6581,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-357-01",
-      "title": "新建立连续性｜第357源章｜1",
+      "title": "生命教团国际危机会议",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第357源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6606,7 +6606,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-357-02",
-      "title": "新建立连续性｜第357源章｜2",
+      "title": "龙祭司长主持",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第357源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6632,7 +6632,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-357-03",
-      "title": "新建立连续性｜第357源章｜3",
+      "title": "南方粮食换教团治疗费减免",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第357源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6657,7 +6657,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-357-01",
-      "title": "未解决事项｜第357源章｜1",
+      "title": "各国军事协作",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第357源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6682,7 +6682,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-357-02",
-      "title": "未解决事项｜第357源章｜2",
+      "title": "魔王本体情报",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第357源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6708,7 +6708,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-357-03",
-      "title": "未解决事项｜第357源章｜3",
+      "title": "龙族巫女公开时机",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第357源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6734,7 +6734,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-357-01",
-      "title": "主角龙形态｜第357源章｜1",
+      "title": "主角龙形态｜魔王.(5)｜蒂雅以无形内心声音陪伴",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第357源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6762,7 +6762,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-357-01",
-      "title": "主角龙状态｜第357源章｜1",
+      "title": "主角龙状态｜魔王.(5)｜龙族巫女仍不知道蒂雅的神明身份，正通过旁听认识世界各族",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第357源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6789,7 +6789,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-357-01",
-      "title": "主角龙知识边界｜第357源章｜1",
+      "title": "主角龙知识边界｜魔王.(5)｜巫女只知道蜥蜴人信奉创世龙神，不知道该神就是蒂雅",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第357源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6815,7 +6815,7 @@
     },
     {
       "id": "era-18-new-hero-event-358-01",
-      "title": "事件｜第358源章｜1",
+      "title": "龙祭司长以当前即紧急时刻为由迫使莱特基尼亚讨论动用长期储粮，并协调粮食，兵力，卷轴",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第358源章第1条）",
       "category": "event",
       "keys": [
@@ -6841,7 +6841,7 @@
     },
     {
       "id": "era-18-new-hero-event-358-02",
-      "title": "事件｜第358源章｜2",
+      "title": "魔王仍未被亲眼证实，怪物墙阻止调查",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第358源章第2条）",
       "category": "event",
       "keys": [
@@ -6867,7 +6867,7 @@
     },
     {
       "id": "era-18-new-hero-event-358-03",
-      "title": "事件｜第358源章｜3",
+      "title": "各国追问生命女神是否另有指示，祭司长宣称她已展现意志",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第358源章第3条）",
       "category": "event",
       "keys": [
@@ -6893,7 +6893,7 @@
     },
     {
       "id": "era-18-new-hero-event-358-04",
-      "title": "事件｜第358源章｜4",
+      "title": "阿谢拉特报告魔王军出现完全由哥布林及其亚种组成的大军，首领是能使用雷电",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第358源章第4条）",
       "category": "event",
       "keys": [
@@ -6921,7 +6921,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-358-01",
-      "title": "世界设定事实｜第358源章｜1",
+      "title": "莱特基尼亚利用地下温湿度仓库储粮一年至近五年，以支撑鼠兽人的爆炸性人口增长",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第358源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6947,7 +6947,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-358-02",
-      "title": "世界设定事实｜第358源章｜2",
+      "title": "此时魔王仅由传闻指认，越接近魔王城怪物越多越强，尚无冒险者能突破怪物墙完成确认",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第358源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6973,7 +6973,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-358-03",
-      "title": "世界设定事实｜第358源章｜3",
+      "title": "新军团不含兽人，完全由哥布林，霍布哥布林，哥布林萨满等构成",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第358源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6999,7 +6999,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-358-01",
-      "title": "新建立连续性｜第358源章｜1",
+      "title": "跨国联合资源调配",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第358源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7024,7 +7024,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-358-02",
-      "title": "新建立连续性｜第358源章｜2",
+      "title": "立即调查魔王",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第358源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7050,7 +7050,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-358-03",
-      "title": "新建立连续性｜第358源章｜3",
+      "title": "黄金哥布林与纯哥布林军",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第358源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7076,7 +7076,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-358-01",
-      "title": "未解决事项｜第358源章｜1",
+      "title": "希望之光公开",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第358源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7101,7 +7101,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-358-02",
-      "title": "未解决事项｜第358源章｜2",
+      "title": "魔王确认",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第358源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7127,7 +7127,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-358-03",
-      "title": "未解决事项｜第358源章｜3",
+      "title": "黄金哥布林来源",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第358源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7153,7 +7153,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-358-01",
-      "title": "主角龙形态｜第358源章｜1",
+      "title": "主角龙形态｜魔王.(6)｜蒂雅仍是巫女内心的无形声音",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第358源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7180,7 +7180,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-358-01",
-      "title": "主角龙状态｜第358源章｜1",
+      "title": "主角龙状态｜魔王.(6)｜巫女被外界当成生命女神已展现的希望",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第358源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7206,7 +7206,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-358-01",
-      "title": "主角龙知识边界｜第358源章｜1",
+      "title": "主角龙知识边界｜魔王.(6)｜蒂雅与阿谢拉特也不知道黄金哥布林的本质",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第358源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7235,7 +7235,7 @@
     },
     {
       "id": "era-18-new-hero-event-359-01",
-      "title": "事件｜第359源章｜1",
+      "title": "会议以模糊合作和对神意的希望结束",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第359源章第1条）",
       "category": "event",
       "keys": [
@@ -7261,7 +7261,7 @@
     },
     {
       "id": "era-18-new-hero-event-359-02",
-      "title": "事件｜第359源章｜2",
+      "title": "蒂雅揭露巫女一直听见的内心声音就是生命女神",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第359源章第2条）",
       "category": "event",
       "keys": [
@@ -7287,7 +7287,7 @@
     },
     {
       "id": "era-18-new-hero-event-359-03",
-      "title": "事件｜第359源章｜3",
+      "title": "巫女因没有英雄之剑再次怀疑自己是假货或幻听",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第359源章第3条）",
       "category": "event",
       "keys": [
@@ -7313,7 +7313,7 @@
     },
     {
       "id": "era-18-new-hero-event-359-04",
-      "title": "事件｜第359源章｜4",
+      "title": "蒂雅放弃套用初代勇者的固定条件，允许龙族巫女选择自己认可且愿意同行的人，再由蒂雅复核",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第359源章第4条）",
       "category": "event",
       "keys": [
@@ -7340,7 +7340,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-359-01",
-      "title": "世界设定事实｜第359源章｜1",
+      "title": "龙族巫女没有普通父母，其肉体由世界中游荡的大量魔力聚集而成，蒂雅曾以世界为母",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第359源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7367,7 +7367,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-359-02",
-      "title": "世界设定事实｜第359源章｜2",
+      "title": "生命教团课本记载生命女神播撒生命，收养古神，并在生命堕落时留下十二眷属",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第359源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7392,7 +7392,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-359-03",
-      "title": "世界设定事实｜第359源章｜3",
+      "title": "旧勇者条件是善意、天赋、不容不义、救人不犹豫",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第359源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7418,7 +7418,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-359-01",
-      "title": "新建立连续性｜第359源章｜1",
+      "title": "蒂雅向巫女揭示神明身份",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第359源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7444,7 +7444,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-359-02",
-      "title": "新建立连续性｜第359源章｜2",
+      "title": "英雄之剑交付",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第359源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7469,7 +7469,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-359-03",
-      "title": "新建立连续性｜第359源章｜3",
+      "title": "新勇者由巫女亲选",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第359源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7494,7 +7494,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-359-01",
-      "title": "未解决事项｜第359源章｜1",
+      "title": "巫女名字｜新的勇者.(1)",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第359源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7519,7 +7519,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-359-02",
-      "title": "未解决事项｜第359源章｜2",
+      "title": "勇者人选｜新的勇者.(1)",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第359源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7544,7 +7544,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-359-03",
-      "title": "未解决事项｜第359源章｜3",
+      "title": "巫女对自身魔王来源的认知",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第359源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7570,7 +7570,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-359-01",
-      "title": "主角龙形态｜第359源章｜1",
+      "title": "主角龙形态｜新的勇者.(1)｜蒂雅以生命女神的内心声音显明身份",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第359源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7597,7 +7597,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-359-01",
-      "title": "主角龙状态｜第359源章｜1",
+      "title": "主角龙状态｜新的勇者.(1)｜巫女获得英雄之剑和选择本代勇者的权力，从秘密希望转为主动冒险者",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第359源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7622,7 +7622,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-359-01",
-      "title": "主角龙知识边界｜第359源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(1)｜巫女刚知道蒂雅身份，但仍未在本章获知自身由魔王肉体分离而来",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第359源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7649,7 +7649,7 @@
     },
     {
       "id": "era-18-new-hero-event-360-01",
-      "title": "事件｜第360源章｜1",
+      "title": "蒂雅把勇者候选解释为龙族巫女喜欢、能成为力量、不背叛且可能愿意赌命的人",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第360源章第1条）",
       "category": "event",
       "keys": [
@@ -7676,7 +7676,7 @@
     },
     {
       "id": "era-18-new-hero-event-360-02",
-      "title": "事件｜第360源章｜2",
+      "title": "艾波那骑士团的棕发强者因眼中自负、可能私用英雄之剑且注视巫女方式令她厌恶而被当面拒绝",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第360源章第2条）",
       "category": "event",
       "keys": [
@@ -7702,7 +7702,7 @@
     },
     {
       "id": "era-18-new-hero-event-360-03",
-      "title": "事件｜第360源章｜3",
+      "title": "巫女以晚饭前回来为尺度外出，御风飞行并隐身，以视野外风箭逐个狙杀怪物首领",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第360源章第3条）",
       "category": "event",
       "keys": [
@@ -7727,7 +7727,7 @@
     },
     {
       "id": "era-18-new-hero-event-360-04",
-      "title": "事件｜第360源章｜4",
+      "title": "北方即便得到多族支援仍有小国灭亡和大领主死亡",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第360源章第4条）",
       "category": "event",
       "keys": [
@@ -7752,7 +7752,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-360-01",
-      "title": "世界设定事实｜第360源章｜1",
+      "title": "龙族巫女能御风飞行，缠风隐形，探知视野外敌人",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第360源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7778,7 +7778,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-360-02",
-      "title": "世界设定事实｜第360源章｜2",
+      "title": "北方出现灭国、大领主阵亡",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第360源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7803,7 +7803,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-360-03",
-      "title": "世界设定事实｜第360源章｜3",
+      "title": "多名候选已因眼神、贪欲或资质被拒",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第360源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7829,7 +7829,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-360-01",
-      "title": "新建立连续性｜第360源章｜1",
+      "title": "艾波那骑士候选被拒",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第360源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7854,7 +7854,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-360-02",
-      "title": "新建立连续性｜第360源章｜2",
+      "title": "巫女风箭与隐形能力",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第360源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7879,7 +7879,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-360-03",
-      "title": "新建立连续性｜第360源章｜3",
+      "title": "把勇者视为终身伴侣",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第360源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7904,7 +7904,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-360-04",
-      "title": "新建立连续性｜第360源章｜4",
+      "title": "遇袭者出现",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第360源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7929,7 +7929,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-360-01",
-      "title": "未解决事项｜第360源章｜1",
+      "title": "遇袭者身份",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第360源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7954,7 +7954,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-360-02",
-      "title": "未解决事项｜第360源章｜2",
+      "title": "本代勇者最终人选",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第360源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7979,7 +7979,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-360-03",
-      "title": "未解决事项｜第360源章｜3",
+      "title": "北方混合魔王军来源",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第360源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8005,7 +8005,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-360-01",
-      "title": "主角龙形态｜第360源章｜1",
+      "title": "主角龙形态｜新的勇者.(2)｜娇小、外貌最多十岁出头、头生角的龙族巫女",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第360源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8032,7 +8032,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-360-01",
-      "title": "主角龙状态｜第360源章｜1",
+      "title": "主角龙状态｜新的勇者.(2)｜持有英雄之剑但尚未选出勇者，主动在北罗马尼亚猎杀怪物并奔赴眼前救援",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第360源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8057,7 +8057,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-360-01",
-      "title": "主角龙知识边界｜第360源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(2)｜巫女能感知候选人自负与自身厌恶，但没有证实骑士必然犯罪",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第360源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8082,7 +8082,7 @@
     },
     {
       "id": "era-18-new-hero-event-361-01",
-      "title": "事件｜第361源章｜1",
+      "title": "失去首领的镰刀毒蝎怪误撞上商团与难民队伍",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第361源章第1条）",
       "category": "event",
       "keys": [
@@ -8108,7 +8108,7 @@
     },
     {
       "id": "era-18-new-hero-event-361-02",
-      "title": "事件｜第361源章｜2",
+      "title": "埃里克与冒险者们在防线崩溃前抵抗",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第361源章第2条）",
       "category": "event",
       "keys": [
@@ -8134,7 +8134,7 @@
     },
     {
       "id": "era-18-new-hero-event-361-03",
-      "title": "事件｜第361源章｜3",
+      "title": "战斗零死亡，众人找不到隐形救命恩人",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第361源章第3条）",
       "category": "event",
       "keys": [
@@ -8159,7 +8159,7 @@
     },
     {
       "id": "era-18-new-hero-event-361-04",
-      "title": "事件｜第361源章｜4",
+      "title": "少年埃里克隐瞒或未察觉毒针伤，现有解毒药无效、身体发黑濒死",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第361源章第4条）",
       "category": "event",
       "keys": [
@@ -8185,7 +8185,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-361-01",
-      "title": "世界设定事实｜第361源章｜1",
+      "title": "该群居怪物体型如中型犬，以螳螂镰刀代替蝎钳，具坚甲和蝎尾剧毒针",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第361源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8210,7 +8210,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-361-02",
-      "title": "世界设定事实｜第361源章｜2",
+      "title": "生命教团巡礼者战力强、能退治怪物并用神圣魔法结界阻止接近，但同行需支付其食宿成本",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第361源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8235,7 +8235,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-361-03",
-      "title": "世界设定事实｜第361源章｜3",
+      "title": "怪物毒素能令伤口周围和身体逐渐发黑，普通解毒药无效，祭司或巡礼者被认为能处理",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第361源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8260,7 +8260,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-361-01",
-      "title": "新建立连续性｜第361源章｜1",
+      "title": "埃里克首次具名",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第361源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8286,7 +8286,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-361-02",
-      "title": "新建立连续性｜第361源章｜2",
+      "title": "镰刀毒蝎群",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第361源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8311,7 +8311,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-361-03",
-      "title": "新建立连续性｜第361源章｜3",
+      "title": "巫女选定勇者",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第361源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8336,7 +8336,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-361-01",
-      "title": "未解决事项｜第361源章｜1",
+      "title": "埃里克能否获救",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第361源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8362,7 +8362,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-361-02",
-      "title": "未解决事项｜第361源章｜2",
+      "title": "巫女为何被吸引",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第361源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8387,7 +8387,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-361-03",
-      "title": "未解决事项｜第361源章｜3",
+      "title": "商团后续",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第361源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8412,7 +8412,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-361-01",
-      "title": "主角龙形态｜第361源章｜1",
+      "title": "主角龙形态｜新的勇者.(3)｜龙族巫女缠风隐形、在空中行动，能远程风箭与广域冰冻",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第361源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8439,7 +8439,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-361-01",
-      "title": "主角龙状态｜第361源章｜1",
+      "title": "主角龙状态｜新的勇者.(3)｜因埃里克的中毒现场产生选中勇者的确定感，并首次在其身旁公开降落",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第361源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8465,7 +8465,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-361-01",
-      "title": "主角龙知识边界｜第361源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(3)｜巫女尚不知道埃里克的完整身世和品性",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第361源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8491,7 +8491,7 @@
     },
     {
       "id": "era-18-new-hero-event-362-01",
-      "title": "事件｜第362源章｜1",
+      "title": "巫女以生命力量把毒从埃里克体内逼回伤口并焚尽，要求商团来教团本部后直接带走少年",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第362源章第1条）",
       "category": "event",
       "keys": [
@@ -8517,7 +8517,7 @@
     },
     {
       "id": "era-18-new-hero-event-362-02",
-      "title": "事件｜第362源章｜2",
+      "title": "埃里克被安置在本部客房",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第362源章第2条）",
       "category": "event",
       "keys": [
@@ -8544,7 +8544,7 @@
     },
     {
       "id": "era-18-new-hero-event-362-03",
-      "title": "事件｜第362源章｜3",
+      "title": "祭司长质疑幼弱少年能否承担勇者职责与世人希望",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第362源章第3条）",
       "category": "event",
       "keys": [
@@ -8569,7 +8569,7 @@
     },
     {
       "id": "era-18-new-hero-event-362-04",
-      "title": "事件｜第362源章｜4",
+      "title": "蒂雅担忧埃里克内在可能恶劣，决定必要时以勇者训练、道德教育和人格改造重新锻造",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第362源章第4条）",
       "category": "event",
       "keys": [
@@ -8596,7 +8596,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-362-01",
-      "title": "世界设定事实｜第362源章｜1",
+      "title": "巫女的生命力量不是普通解毒或严格意义神圣魔法，而是压制毒素、从原伤口逼出再以光焚毁",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第362源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8621,7 +8621,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-362-02",
-      "title": "世界设定事实｜第362源章｜2",
+      "title": "埃里克约十五岁、棕发温顺相貌",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第362源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8648,7 +8648,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-362-03",
-      "title": "世界设定事实｜第362源章｜3",
+      "title": "勇者头衔兼具巫女伴侣与为人类持剑战胜魔王、承载世人希望的责任",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第362源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8674,7 +8674,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-362-04",
-      "title": "世界设定事实｜第362源章｜4",
+      "title": "英雄之剑名为克拉乌·索拉斯，持有者仍需达到一定实力才能充分激发力量",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第362源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8699,7 +8699,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-362-01",
-      "title": "新建立连续性｜第362源章｜1",
+      "title": "埃里克获救并被带回",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第362源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8725,7 +8725,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-362-02",
-      "title": "新建立连续性｜第362源章｜2",
+      "title": "克拉乌·索拉斯剑名",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第362源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8750,7 +8750,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-362-03",
-      "title": "新建立连续性｜第362源章｜3",
+      "title": "祭司长验证要求",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第362源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8775,7 +8775,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-362-01",
-      "title": "未解决事项｜第362源章｜1",
+      "title": "埃里克意愿",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第362源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8801,7 +8801,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-362-02",
-      "title": "未解决事项｜第362源章｜2",
+      "title": "品性验证",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第362源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8826,7 +8826,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-362-03",
-      "title": "未解决事项｜第362源章｜3",
+      "title": "巫女吸引来源",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第362源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8851,7 +8851,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-362-01",
-      "title": "主角龙形态｜第362源章｜1",
+      "title": "主角龙形态｜新的勇者.(4)｜娇小有角龙族巫女以生命力量治愈、屏障托举并高速飞行",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第362源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8878,7 +8878,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-362-01",
-      "title": "主角龙状态｜第362源章｜1",
+      "title": "主角龙状态｜新的勇者.(4)｜正式认定埃里克为终身勇者候选并带回教团，等待其醒来验证",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第362源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8904,7 +8904,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-362-01",
-      "title": "主角龙知识边界｜第362源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(4)｜巫女除名字和战场表现外几乎不了解埃里克",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第362源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8931,7 +8931,7 @@
     },
     {
       "id": "era-18-new-hero-event-363-01",
-      "title": "事件｜第363源章｜1",
+      "title": "埃里克醒来误以为身处死后乐园，并因称巫女美丽使她产生无法理解的胸口悸动",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第363源章第1条）",
       "category": "event",
       "keys": [
@@ -8958,7 +8958,7 @@
     },
     {
       "id": "era-18-new-hero-event-363-02",
-      "title": "事件｜第363源章｜2",
+      "title": "巫女说明自己身份和教团所在地，随后直接指出埃里克就是勇者",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第363源章第2条）",
       "category": "event",
       "keys": [
@@ -8984,7 +8984,7 @@
     },
     {
       "id": "era-18-new-hero-event-363-03",
-      "title": "事件｜第363源章｜3",
+      "title": "蒂雅指出少年需要与巫女逐步互相理解，巫女反讥她不懂人心",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第363源章第3条）",
       "category": "event",
       "keys": [
@@ -9010,7 +9010,7 @@
     },
     {
       "id": "era-18-new-hero-event-363-04",
-      "title": "事件｜第363源章｜4",
+      "title": "蒂雅反思自己精神更接近男性且不懂恋爱，也拒绝为不满意无限倒流时间",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第363源章第4条）",
       "category": "event",
       "keys": [
@@ -9037,7 +9037,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-363-01",
-      "title": "世界设定事实｜第363源章｜1",
+      "title": "埃里克所知冥界观念包含可怕神明的考验和彼端乐园，但蒂雅旁白称实际有审判、没有考验",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第363源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9064,7 +9064,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-363-02",
-      "title": "世界设定事实｜第363源章｜2",
+      "title": "公众将龙族巫女降临、赐下英雄之剑和勇者选拔理解为生命女神应对魔王",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第363源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9091,7 +9091,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-363-03",
-      "title": "世界设定事实｜第363源章｜3",
+      "title": "蒂雅自认精神更接近男性，拥有倒流时间的能力，但除非万不得已不愿使用",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第363源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9117,7 +9117,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-363-01",
-      "title": "新建立连续性｜第363源章｜1",
+      "title": "埃里克与巫女首次对话",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第363源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9143,7 +9143,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-363-02",
-      "title": "新建立连续性｜第363源章｜2",
+      "title": "巫女陌生悸动",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第363源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9168,7 +9168,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-363-03",
-      "title": "新建立连续性｜第363源章｜3",
+      "title": "蒂雅的性别认知与回溯底线",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第363源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9194,7 +9194,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-363-01",
-      "title": "未解决事项｜第363源章｜1",
+      "title": "埃里克是否接受",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第363源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9220,7 +9220,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-363-02",
-      "title": "未解决事项｜第363源章｜2",
+      "title": "巫女何时理解感情",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第363源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9245,7 +9245,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-363-03",
-      "title": "未解决事项｜第363源章｜3",
+      "title": "双方如何建立信任",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第363源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9270,7 +9270,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-363-01",
-      "title": "主角龙形态｜第363源章｜1",
+      "title": "主角龙形态｜新的勇者.(5)｜外表美丽、娇小有角的龙族巫女在床边与埃里克相见",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第363源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9298,7 +9298,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-363-01",
-      "title": "主角龙状态｜第363源章｜1",
+      "title": "主角龙状态｜新的勇者.(5)｜龙族巫女开始经历对埃里克的爱情式身体反应，但尚不理解其名称",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第363源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9326,7 +9326,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-363-01",
-      "title": "主角龙知识边界｜第363源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(5)｜巫女不懂自身情绪，蒂雅也只隐约猜测且不懂爱情",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第363源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9352,7 +9352,7 @@
     },
     {
       "id": "era-18-new-hero-event-364-01",
-      "title": "事件｜第364源章｜1",
+      "title": "埃里克以孤儿、贫困、无训练为由拒绝勇者资格",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第364源章第1条）",
       "category": "event",
       "keys": [
@@ -9379,7 +9379,7 @@
     },
     {
       "id": "era-18-new-hero-event-364-02",
-      "title": "事件｜第364源章｜2",
+      "title": "蒂雅怀疑巫女只看脸，巫女坚持另有秘密理由",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第364源章第2条）",
       "category": "event",
       "keys": [
@@ -9406,7 +9406,7 @@
     },
     {
       "id": "era-18-new-hero-event-364-03",
-      "title": "事件｜第364源章｜3",
+      "title": "双方改用较平辈语气交谈",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第364源章第3条）",
       "category": "event",
       "keys": [
@@ -9433,7 +9433,7 @@
     },
     {
       "id": "era-18-new-hero-event-364-04",
-      "title": "事件｜第364源章｜4",
+      "title": "听完整个人生后，巫女重新考虑强制任命是否尊重埃里克的人生，首次询问他的意愿",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第364源章第4条）",
       "category": "event",
       "keys": [
@@ -9460,7 +9460,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-364-01",
-      "title": "世界设定事实｜第364源章｜1",
+      "title": "埃里克无姓，来自北罗马尼亚东北寒地",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第364源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9486,7 +9486,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-364-02",
-      "title": "世界设定事实｜第364源章｜2",
+      "title": "其父母和妹妹在魔王军南下逃亡时因怪物失散",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第364源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9513,7 +9513,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-364-03",
-      "title": "世界设定事实｜第364源章｜3",
+      "title": "无名初代勇者并非靠突出天赋，而是经无尽修炼获得超越人类的力量",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第364源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9538,7 +9538,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-364-01",
-      "title": "新建立连续性｜第364源章｜1",
+      "title": "埃里克完整出身",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第364源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9564,7 +9564,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-364-02",
-      "title": "新建立连续性｜第364源章｜2",
+      "title": "家人失散",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第364源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9589,7 +9589,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-364-03",
-      "title": "新建立连续性｜第364源章｜3",
+      "title": "巫女提出知情同意",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第364源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9614,7 +9614,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-364-01",
-      "title": "未解决事项｜第364源章｜1",
+      "title": "埃里克答复",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第364源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9640,7 +9640,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-364-02",
-      "title": "未解决事项｜第364源章｜2",
+      "title": "寻亲结果",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第364源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9665,7 +9665,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-364-03",
-      "title": "未解决事项｜第364源章｜3",
+      "title": "选择秘密理由",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第364源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9690,7 +9690,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-364-01",
-      "title": "主角龙形态｜第364源章｜1",
+      "title": "主角龙形态｜新的勇者.(6)｜外表近同龄少女的龙族巫女与埃里克床边交谈",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第364源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9718,7 +9718,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-364-01",
-      "title": "主角龙状态｜第364源章｜1",
+      "title": "主角龙状态｜新的勇者.(6)｜巫女从单方面认命转为尊重埃里克选择，开始把他的家人与故乡纳入行动目标",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第364源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9744,7 +9744,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-364-01",
-      "title": "主角龙知识边界｜第364源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(6)｜本章结束在埃里克回应前，不能提前把他写成已同意",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第364源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9770,7 +9770,7 @@
     },
     {
       "id": "era-18-new-hero-event-365-01",
-      "title": "事件｜第365源章｜1",
+      "title": "埃里克仍因一无所有和缺乏才能而犹豫，爱丽丝也不强迫",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第365源章第1条）",
       "category": "event",
       "keys": [
@@ -9798,7 +9798,7 @@
     },
     {
       "id": "era-18-new-hero-event-365-02",
-      "title": "事件｜第365源章｜2",
+      "title": "蒂雅以生命女神身份保密现身，讲述无名初代勇者同为教团收养孤儿，拔剑后训练成长的童年",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第365源章第2条）",
       "category": "event",
       "keys": [
@@ -9826,7 +9826,7 @@
     },
     {
       "id": "era-18-new-hero-event-365-03",
-      "title": "事件｜第365源章｜3",
+      "title": "后世评价埃里克为各项能力不突出，甚至最弱，却以永不放弃的意志穿越全灭危机",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第365源章第3条）",
       "category": "event",
       "keys": [
@@ -9853,7 +9853,7 @@
     },
     {
       "id": "era-18-new-hero-event-365-04",
-      "title": "事件｜第365源章｜4",
+      "title": "更晚时代的历史研究社团争论是否让不够英俊",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第365源章第4条）",
       "category": "event",
       "keys": [
@@ -9879,7 +9879,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-365-01",
-      "title": "世界设定事实｜第365源章｜1",
+      "title": "爱丽丝肉体魔力近乎溢出，但精神、灵魂薄弱或尚未完整形成，蒂雅能让她沉睡并接管身体",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第365源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9906,7 +9906,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-365-02",
-      "title": "世界设定事实｜第365源章｜2",
+      "title": "初代无名勇者幼时是生命教团巡礼者收养的孤儿",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第365源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9931,7 +9931,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-365-03",
-      "title": "世界设定事实｜第365源章｜3",
+      "title": "后世正典称埃里克为击败魔王的不屈勇者",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第365源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9958,7 +9958,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-365-01",
-      "title": "新建立连续性｜第365源章｜1",
+      "title": "埃里克正式同意",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第365源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9984,7 +9984,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-365-02",
-      "title": "新建立连续性｜第365源章｜2",
+      "title": "蒂雅接管爱丽丝身体",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第365源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10011,7 +10011,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-365-03",
-      "title": "新建立连续性｜第365源章｜3",
+      "title": "后世不屈勇者评价",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第365源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10036,7 +10036,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-365-01",
-      "title": "未解决事项｜第365源章｜1",
+      "title": "爱丽丝对接管反应",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第365源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10062,7 +10062,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-365-02",
-      "title": "未解决事项｜第365源章｜2",
+      "title": "具体训练与队伍",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第365源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10087,7 +10087,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-365-03",
-      "title": "未解决事项｜第365源章｜3",
+      "title": "后世同伴诀别",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第365源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10112,7 +10112,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-365-01",
-      "title": "主角龙形态｜第365源章｜1",
+      "title": "主角龙形态｜新的勇者.(7)｜爱丽丝的娇小龙巫女身体短暂由蒂雅接管，眼神",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第365源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10139,7 +10139,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-365-01",
-      "title": "主角龙状态｜第365源章｜1",
+      "title": "主角龙状态｜新的勇者.(7)｜本代勇者埃里克自愿接受身份",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第365源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10166,7 +10166,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-365-01",
-      "title": "主角龙知识边界｜第365源章｜1",
+      "title": "主角龙知识边界｜新的勇者.(7)｜后世插叙确认最终功绩，但当前时间点角色并不知道具体全灭危机",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第365源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10191,7 +10191,7 @@
     },
     {
       "id": "era-18-new-hero-event-366-01",
-      "title": "事件｜第366源章｜1",
+      "title": "爱丽丝斥责蒂雅夺走身体",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第366源章第1条）",
       "category": "event",
       "keys": [
@@ -10218,7 +10218,7 @@
     },
     {
       "id": "era-18-new-hero-event-366-02",
-      "title": "事件｜第366源章｜2",
+      "title": "众神通过祭司与信徒支援，精灵、矮人、蜥蜴人、人鱼、流浪法官共同抵抗",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第366源章第2条）",
       "category": "event",
       "keys": [
@@ -10245,7 +10245,7 @@
     },
     {
       "id": "era-18-new-hero-event-366-03",
-      "title": "事件｜第366源章｜3",
+      "title": "半年后战线维持拉锯",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第366源章第3条）",
       "category": "event",
       "keys": [
@@ -10272,7 +10272,7 @@
     },
     {
       "id": "era-18-new-hero-event-366-04",
-      "title": "事件｜第366源章｜4",
+      "title": "爱丽丝为防过度训练留下能调强度的魔像加拉提亚",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第366源章第4条）",
       "category": "event",
       "keys": [
@@ -10299,7 +10299,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-366-01",
-      "title": "世界设定事实｜第366源章｜1",
+      "title": "神明不能直接降临但可经祭司借力",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第366源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10326,7 +10326,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-366-02",
-      "title": "世界设定事实｜第366源章｜2",
+      "title": "蒂雅以按人类身份取得成就的龙族排名为条件，允许其建立国家或城市",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第366源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10352,7 +10352,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-366-03",
-      "title": "世界设定事实｜第366源章｜3",
+      "title": "半年内魔王军与人类在筑墙、陷阱和矮人新武器支援下保持拉锯，城市有失守也有收复",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第366源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10378,7 +10378,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-366-04",
-      "title": "世界设定事实｜第366源章｜4",
+      "title": "爱丽丝制造的土魔像加拉提亚能按埃里克状态调整陪练强度",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第366源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10405,7 +10405,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-366-01",
-      "title": "新建立连续性｜第366源章｜1",
+      "title": "爱丽丝名字",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第366源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10431,7 +10431,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-366-02",
-      "title": "新建立连续性｜第366源章｜2",
+      "title": "半年训练",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第366源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10456,7 +10456,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-366-03",
-      "title": "新建立连续性｜第366源章｜3",
+      "title": "加拉提亚",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第366源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10481,7 +10481,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-366-04",
-      "title": "新建立连续性｜第366源章｜4",
+      "title": "战线拉锯",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第366源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10506,7 +10506,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-366-01",
-      "title": "未解决事项｜第366源章｜1",
+      "title": "埃里克家人搜索",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第366源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10532,7 +10532,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-366-02",
-      "title": "未解决事项｜第366源章｜2",
+      "title": "正式出征时机",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第366源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10557,7 +10557,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-366-03",
-      "title": "未解决事项｜第366源章｜3",
+      "title": "精神防御训练",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第366源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10582,7 +10582,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-366-01",
-      "title": "主角龙形态｜第366源章｜1",
+      "title": "主角龙形态｜勇者埃里克.(1)｜爱丽丝仍为娇小龙族巫女，训练时不用常用魔杖而持与埃里克同型木制大剑",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第366源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10610,7 +10610,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-366-01",
-      "title": "主角龙状态｜第366源章｜1",
+      "title": "主角龙状态｜勇者埃里克.(1)｜名字首次揭示为爱丽丝，已与埃里克共同训练半年并建立更私人的称名关系",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第366源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10637,7 +10637,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-366-01",
-      "title": "主角龙知识边界｜第366源章｜1",
+      "title": "主角龙知识边界｜勇者埃里克.(1)｜爱丽丝知道埃里克想加练，但他想与她相配的具体真心在旁白中埋藏",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第366源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10664,7 +10664,7 @@
     },
     {
       "id": "era-18-new-hero-event-367-01",
-      "title": "事件｜第367源章｜1",
+      "title": "半年后的埃里克依靠自身不放弃、英雄之剑和爱丽丝全力培养，能防守周旋双足飞龙",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第367源章第1条）",
       "category": "event",
       "keys": [
@@ -10691,7 +10691,7 @@
     },
     {
       "id": "era-18-new-hero-event-367-02",
-      "title": "事件｜第367源章｜2",
+      "title": "魔王军已体系化，骑士因亚瑟传播将魔力均匀蓄于全身的呼吸法而强化肉体装备",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第367源章第2条）",
       "category": "event",
       "keys": [
@@ -10718,7 +10718,7 @@
     },
     {
       "id": "era-18-new-hero-event-367-03",
-      "title": "事件｜第367源章｜3",
+      "title": "爱丽丝认为可与埃里克出征并由自己补足战力，真正希望他通过击败魔王获世人认可",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第367源章第3条）",
       "category": "event",
       "keys": [
@@ -10747,7 +10747,7 @@
     },
     {
       "id": "era-18-new-hero-event-367-04",
-      "title": "事件｜第367源章｜4",
+      "title": "蒂雅担心二人单独出行和黑暗骑士，爱丽丝以仍有人在前线死亡拒绝再等半年至一年",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第367源章第4条）",
       "category": "event",
       "keys": [
@@ -10775,7 +10775,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-367-01",
-      "title": "世界设定事实｜第367源章｜1",
+      "title": "魔王军体系包含怪物、不死生物、哥布林和被黑暗魔力操控的人类",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第367源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10801,7 +10801,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-367-02",
-      "title": "世界设定事实｜第367源章｜2",
+      "title": "亚瑟传播的骑士呼吸法把魔力均匀积蓄全身以强化肌力，肉体，武器与盔甲",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第367源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10827,7 +10827,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-367-03",
-      "title": "世界设定事实｜第367源章｜3",
+      "title": "埃里克可应付普通怪物但难单独战胜四天王级黑暗骑士",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第367源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10855,7 +10855,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-367-01",
-      "title": "新建立连续性｜第367源章｜1",
+      "title": "出征决定",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第367源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10880,7 +10880,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-367-02",
-      "title": "新建立连续性｜第367源章｜2",
+      "title": "爱丽丝被点破情感",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第367源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10906,7 +10906,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-367-03",
-      "title": "新建立连续性｜第367源章｜3",
+      "title": "骑士呼吸法",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第367源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10931,7 +10931,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-367-04",
-      "title": "新建立连续性｜第367源章｜4",
+      "title": "精神防御警告",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第367源章第4条）",
       "category": "continuity",
       "keys": [
@@ -10956,7 +10956,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-367-01",
-      "title": "未解决事项｜第367源章｜1",
+      "title": "队伍是否仅二人",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第367源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10981,7 +10981,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-367-02",
-      "title": "未解决事项｜第367源章｜2",
+      "title": "精神防具实现",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第367源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11006,7 +11006,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-367-03",
-      "title": "未解决事项｜第367源章｜3",
+      "title": "黑暗骑士战斗",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第367源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11032,7 +11032,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-367-01",
-      "title": "主角龙形态｜第367源章｜1",
+      "title": "主角龙形态｜勇者埃里克.(2)｜爱丽丝为近半神级龙族巫女，外貌仍娇小，情绪显露为面无表情但耳尖微红",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第367源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11060,7 +11060,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-367-01",
-      "title": "主角龙状态｜第367源章｜1",
+      "title": "主角龙状态｜勇者埃里克.(2)｜决定与埃里克两人尽快出征讨伐魔王，并开始准备精神防御",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第367源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11087,7 +11087,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-367-01",
-      "title": "主角龙知识边界｜第367源章｜1",
+      "title": "主角龙知识边界｜勇者埃里克.(2)｜蒂雅认为爱丽丝喜欢埃里克，爱丽丝口头否认",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第367源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11115,7 +11115,7 @@
     },
     {
       "id": "era-18-new-hero-event-368-01",
-      "title": "事件｜第368源章｜1",
+      "title": "为防魔王奴隶或魔族泄密设伏，蒂雅劝爱丽丝暂不公开战书",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第368源章第1条）",
       "category": "event",
       "keys": [
@@ -11143,7 +11143,7 @@
     },
     {
       "id": "era-18-new-hero-event-368-02",
-      "title": "事件｜第368源章｜2",
+      "title": "装备包括矮人防具、精灵皮甲、无限扩容龙皮袋、旅资和药水",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第368源章第2条）",
       "category": "event",
       "keys": [
@@ -11170,7 +11170,7 @@
     },
     {
       "id": "era-18-new-hero-event-368-03",
-      "title": "事件｜第368源章｜3",
+      "title": "二人一路北上击溃魔王军、解放奴仆，埃里克在苦战中成长",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第368源章第3条）",
       "category": "event",
       "keys": [
@@ -11198,7 +11198,7 @@
     },
     {
       "id": "era-18-new-hero-event-368-04",
-      "title": "事件｜第368源章｜4",
+      "title": "魔贤者以魔族，阴影魔法和人体炸弹陷阱逼迫二人",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第368源章第4条）",
       "category": "event",
       "keys": [
@@ -11225,7 +11225,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-368-01",
-      "title": "世界设定事实｜第368源章｜1",
+      "title": "自愿或被迫受魔王支配的人类流淌黑暗魔气，被称魔王奴隶，部分地区称魔族",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第368源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11251,7 +11251,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-368-02",
-      "title": "世界设定事实｜第368源章｜2",
+      "title": "远征使用矮人防具、精灵皮甲、无限扩展内部空间的龙皮袋",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第368源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11279,7 +11279,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-368-03",
-      "title": "世界设定事实｜第368源章｜3",
+      "title": "魔贤者能物质化影子、借影施法和投出难防影枪，影遁瞬移连爱丽丝也难拦",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第368源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11306,7 +11306,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-368-04",
-      "title": "世界设定事实｜第368源章｜4",
+      "title": "别西卜是退化神之残渣的苍蝇集群，具毒，刀口，雷抗和繁殖重生",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第368源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11331,7 +11331,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-368-01",
-      "title": "新建立连续性｜第368源章｜1",
+      "title": "秘密北上",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第368源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11356,7 +11356,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-368-02",
-      "title": "新建立连续性｜第368源章｜2",
+      "title": "返程白羽",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第368源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11381,7 +11381,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-368-03",
-      "title": "新建立连续性｜第368源章｜3",
+      "title": "魔族谍报",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第368源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11406,7 +11406,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-368-04",
-      "title": "新建立连续性｜第368源章｜4",
+      "title": "魔贤者和别西卜战法",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第368源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11432,7 +11432,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-368-01",
-      "title": "未解决事项｜第368源章｜1",
+      "title": "另两位四天王",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第368源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11457,7 +11457,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-368-02",
-      "title": "未解决事项｜第368源章｜2",
+      "title": "魔贤者逃脱",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第368源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11483,7 +11483,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-368-03",
-      "title": "未解决事项｜第368源章｜3",
+      "title": "抵达魔王城后的战斗",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第368源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11509,7 +11509,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-368-01",
-      "title": "主角龙形态｜第368源章｜1",
+      "title": "主角龙形态｜前往魔王城.(1)｜爱丽丝以远征期龙族巫女形态行动，携特殊龙皮袋与白羽",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第368源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11536,7 +11536,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-368-01",
-      "title": "主角龙状态｜第368源章｜1",
+      "title": "主角龙状态｜前往魔王城.(1)｜与埃里克从教团本部北上至魔王城前，经历四天王硬仗并让勇者实战成长",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第368源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11563,7 +11563,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-368-01",
-      "title": "主角龙知识边界｜第368源章｜1",
+      "title": "主角龙知识边界｜前往魔王城.(1)｜魔贤者制造魔族是蒂雅的推测",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第368源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11590,7 +11590,7 @@
     },
     {
       "id": "era-18-new-hero-event-369-01",
-      "title": "事件｜第369源章｜1",
+      "title": "四天王第三位死灵术士能反复再现，复活尸体形成人海",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第369源章第1条）",
       "category": "event",
       "keys": [
@@ -11616,7 +11616,7 @@
     },
     {
       "id": "era-18-new-hero-event-369-02",
-      "title": "事件｜第369源章｜2",
+      "title": "黄金哥布林原为普通哥布林，获得别西卜神明碎片后能御雷和化闪电逃跑",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第369源章第2条）",
       "category": "event",
       "keys": [
@@ -11643,7 +11643,7 @@
     },
     {
       "id": "era-18-new-hero-event-369-03",
-      "title": "事件｜第369源章｜3",
+      "title": "黑暗骑士以黑甲、无形变形剑、斩魔和恐惧著称，埃里克单挑胜算极低",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第369源章第3条）",
       "category": "event",
       "keys": [
@@ -11671,7 +11671,7 @@
     },
     {
       "id": "era-18-new-hero-event-369-04",
-      "title": "事件｜第369源章｜4",
+      "title": "爱丽丝与埃里克抵达自然山体被怪物挖成的魔王城",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第369源章第4条）",
       "category": "event",
       "keys": [
@@ -11700,7 +11700,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-369-01",
-      "title": "世界设定事实｜第369源章｜1",
+      "title": "死亡支配者能复活前线尸体，反复再现并以死亡气息抗普通神圣魔法",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第369源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11727,7 +11727,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-369-02",
-      "title": "世界设定事实｜第369源章｜2",
+      "title": "黄金哥布林力量来自别西卜散落神明碎片",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第369源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11753,7 +11753,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-369-03",
-      "title": "世界设定事实｜第369源章｜3",
+      "title": "黑暗骑士以黑暗盔甲、无形变形剑、斩魔与恐惧压制敌人，埃里克需爱丽丝强化支援才能击退",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第369源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11781,7 +11781,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-369-04",
-      "title": "世界设定事实｜第369源章｜4",
+      "title": "魔王城原是地底隆起山体，被怪物长期挖掘通行形成城堡",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第369源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11808,7 +11808,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-369-01",
-      "title": "新建立连续性｜第369源章｜1",
+      "title": "死亡支配者战法",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第369源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11834,7 +11834,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-369-02",
-      "title": "新建立连续性｜第369源章｜2",
+      "title": "黄金哥布林来源",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第369源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11860,7 +11860,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-369-03",
-      "title": "新建立连续性｜第369源章｜3",
+      "title": "黑暗骑士斩魔机制",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第369源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11886,7 +11886,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-369-04",
-      "title": "新建立连续性｜第369源章｜4",
+      "title": "玉座房抵达",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第369源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11911,7 +11911,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-369-01",
-      "title": "未解决事项｜第369源章｜1",
+      "title": "爱丽丝秘密方案",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第369源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11937,7 +11937,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-369-02",
-      "title": "未解决事项｜第369源章｜2",
+      "title": "魔王本体",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第369源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11963,7 +11963,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-369-03",
-      "title": "未解决事项｜第369源章｜3",
+      "title": "黄金哥布林去向",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第369源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11989,7 +11989,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-369-01",
-      "title": "主角龙形态｜第369源章｜1",
+      "title": "主角龙形态｜前往魔王城.(2)｜远征末期的爱丽丝可持由生命之树制成，施加破坏无效的魔杖近战",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第369源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12015,7 +12015,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-369-01",
-      "title": "主角龙状态｜第369源章｜1",
+      "title": "主角龙状态｜前往魔王城.(2)｜与埃里克抵达玉座房前，已形成针对黑暗骑士的未公开封印方案",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第369源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12042,7 +12042,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-369-01",
-      "title": "主角龙知识边界｜第369源章｜1",
+      "title": "主角龙知识边界｜前往魔王城.(2)｜爱丽丝的秘密方案尚未揭露，蒂雅也不知道",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第369源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12070,7 +12070,7 @@
     },
     {
       "id": "era-18-new-hero-event-370-01",
-      "title": "事件｜第370源章｜1",
+      "title": "爱丽丝用地形投影、魔力探测和千里眼绘制城图却看不清魔王",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第370源章第1条）",
       "category": "event",
       "keys": [
@@ -12097,7 +12097,7 @@
     },
     {
       "id": "era-18-new-hero-event-370-02",
-      "title": "事件｜第370源章｜2",
+      "title": "魔王声音来自水晶玉座本体，自动高密度魔力挡下爱丽丝光束",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第370源章第2条）",
       "category": "event",
       "keys": [
@@ -12124,7 +12124,7 @@
     },
     {
       "id": "era-18-new-hero-event-370-03",
-      "title": "事件｜第370源章｜3",
+      "title": "克拉乌·索拉斯响应埃里克变为银甲阿加特拉姆与长剑，爱丽丝施加全套强化",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第370源章第3条）",
       "category": "event",
       "keys": [
@@ -12153,7 +12153,7 @@
     },
     {
       "id": "era-18-new-hero-event-370-04",
-      "title": "事件｜第370源章｜4",
+      "title": "爱丽丝要求埃里克绑住黑暗骑士五秒以完成封印",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第370源章第4条）",
       "category": "event",
       "keys": [
@@ -12182,7 +12182,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-370-01",
-      "title": "世界设定事实｜第370源章｜1",
+      "title": "地形投影可重现内部地形，魔力探测标点，千里眼确认生物，三者组合制作魔王城地图",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第370源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12208,7 +12208,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-370-02",
-      "title": "世界设定事实｜第370源章｜2",
+      "title": "魔王当前本体是不可移动水晶玉座，以超高密度魔力自动阻隔外部魔力",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第370源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12235,7 +12235,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-370-03",
-      "title": "世界设定事实｜第370源章｜3",
+      "title": "克拉乌·索拉斯可响应埃里克意志变为银甲阿加特拉姆与长剑",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第370源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12262,7 +12262,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-370-01",
-      "title": "新建立连续性｜第370源章｜1",
+      "title": "魔王玉座本体",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第370源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12288,7 +12288,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-370-02",
-      "title": "新建立连续性｜第370源章｜2",
+      "title": "阿加特拉姆银甲",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第370源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12313,7 +12313,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-370-03",
-      "title": "新建立连续性｜第370源章｜3",
+      "title": "五秒封印窗口",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第370源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12338,7 +12338,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-370-01",
-      "title": "未解决事项｜第370源章｜1",
+      "title": "身体真相",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第370源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12363,7 +12363,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-370-02",
-      "title": "未解决事项｜第370源章｜2",
+      "title": "封印结果",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第370源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12388,7 +12388,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-370-03",
-      "title": "未解决事项｜第370源章｜3",
+      "title": "魔王后手",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第370源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12414,7 +12414,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-370-01",
-      "title": "主角龙形态｜第370源章｜1",
+      "title": "主角龙形态｜魔王城·玉座的房间.(1)｜玉座战爱丽丝手持魔杖生命之树，施多层探测，全隔绝结界，光束",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第370源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12440,7 +12440,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-370-01",
-      "title": "主角龙状态｜第370源章｜1",
+      "title": "主角龙状态｜魔王城·玉座的房间.(1)｜与埃里克对抗魔王本体及黑暗骑士，封印术式已经准备完成",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第370源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12468,7 +12468,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-370-01",
-      "title": "主角龙知识边界｜第370源章｜1",
+      "title": "主角龙知识边界｜魔王城·玉座的房间.(1)｜爱丽丝只知魔王声称要取回身体，仍不知道自己就是其分离肉身",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第370源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12495,7 +12495,7 @@
     },
     {
       "id": "era-18-new-hero-event-371-01",
-      "title": "事件｜第371源章｜1",
+      "title": "爱丽丝以五柄压缩光剑对抗暗黑星",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第371源章第1条）",
       "category": "event",
       "keys": [
@@ -12523,7 +12523,7 @@
     },
     {
       "id": "era-18-new-hero-event-371-02",
-      "title": "事件｜第371源章｜2",
+      "title": "骑士触发延迟空间隔离阵，爱丽丝扭转光剑并化光丝束缚其持剑手，完成光之封印剑",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第371源章第2条）",
       "category": "event",
       "keys": [
@@ -12551,7 +12551,7 @@
     },
     {
       "id": "era-18-new-hero-event-371-03",
-      "title": "事件｜第371源章｜3",
+      "title": "魔王承认失去黑暗骑士后无胜算，假意让二人破坏玉座",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第371源章第3条）",
       "category": "event",
       "keys": [
@@ -12579,7 +12579,7 @@
     },
     {
       "id": "era-18-new-hero-event-371-04",
-      "title": "事件｜第371源章｜4",
+      "title": "埃里克受魔王支配权能阻挡无法靠近，爱丽丝借能吸魔的克拉乌·索拉斯抵抗魔力",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第371源章第4条）",
       "category": "event",
       "keys": [
@@ -12607,7 +12607,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-371-01",
-      "title": "世界设定事实｜第371源章｜1",
+      "title": "延迟空间隔离阵可避开斩魔，五柄光之封印剑能化光丝限制黑暗骑士挥剑并生擒",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第371源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12633,7 +12633,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-371-02",
-      "title": "世界设定事实｜第371源章｜2",
+      "title": "克拉乌·索拉斯具有魔力吸收能力，可瓦解魔王棘刺、弹幕等全部魔法攻击",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第371源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12659,7 +12659,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-371-03",
-      "title": "世界设定事实｜第371源章｜3",
+      "title": "魔王玉座周围的支配权能会让人类肉体本能抗拒并可能强制下跪，埃里克无法持剑靠近",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第371源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12686,7 +12686,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-371-01",
-      "title": "新建立连续性｜第371源章｜1",
+      "title": "光之封印剑",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第371源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12711,7 +12711,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-371-02",
-      "title": "新建立连续性｜第371源章｜2",
+      "title": "黑暗骑士生擒",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第371源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12737,7 +12737,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-371-03",
-      "title": "新建立连续性｜第371源章｜3",
+      "title": "玉座贯穿",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第371源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12762,7 +12762,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-371-04",
-      "title": "新建立连续性｜第371源章｜4",
+      "title": "魔王后手启动",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第371源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12788,7 +12788,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-371-01",
-      "title": "未解决事项｜第371源章｜1",
+      "title": "魔王如何取回身体",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第371源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12814,7 +12814,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-371-02",
-      "title": "未解决事项｜第371源章｜2",
+      "title": "爱丽丝安危",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第371源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12840,7 +12840,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-371-03",
-      "title": "未解决事项｜第371源章｜3",
+      "title": "黑暗骑士处置",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第371源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12866,7 +12866,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-371-01",
-      "title": "主角龙形态｜第371源章｜1",
+      "title": "主角龙形态｜魔王城·玉座的房间.(2)｜决战爱丽丝能塑造五柄极限压缩光剑，延迟空间阵和光丝封印",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第371源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12892,7 +12892,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-371-01",
-      "title": "主角龙状态｜第371源章｜1",
+      "title": "主角龙状态｜魔王城·玉座的房间.(2)｜封印黑暗骑士后亲手贯穿魔王玉座，却正好完成魔王回归肉体的条件",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第371源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12919,7 +12919,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-371-01",
-      "title": "主角龙知识边界｜第371源章｜1",
+      "title": "主角龙知识边界｜魔王城·玉座的房间.(2)｜她仍不知自己是魔王肉体，只感到直觉危险",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第371源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12946,7 +12946,7 @@
     },
     {
       "id": "era-18-new-hero-event-372-01",
-      "title": "事件｜第372源章｜1",
+      "title": "表面上魔王军减少、死灵与魔族渗透消失、世界和平",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第372源章第1条）",
       "category": "event",
       "keys": [
@@ -12973,7 +12973,7 @@
     },
     {
       "id": "era-18-new-hero-event-372-02",
-      "title": "事件｜第372源章｜2",
+      "title": "魔王精神魔力渗入爱丽丝并掌控肉体灵魂，蒂雅声音断绝",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第372源章第2条）",
       "category": "event",
       "keys": [
@@ -13001,7 +13001,7 @@
     },
     {
       "id": "era-18-new-hero-event-372-03",
-      "title": "事件｜第372源章｜3",
+      "title": "二人不明方式返回本部，爱丽丝昏迷、圣剑遗失",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第372源章第3条）",
       "category": "event",
       "keys": [
@@ -13029,7 +13029,7 @@
     },
     {
       "id": "era-18-new-hero-event-372-04",
-      "title": "事件｜第372源章｜4",
+      "title": "醒来者是暂控肉体的生命女神：爱丽丝与魔王内部争夺主导权，圣剑把双方拉至对等",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第372源章第4条）",
       "category": "event",
       "keys": [
@@ -13056,7 +13056,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-372-01",
-      "title": "世界设定事实｜第372源章｜1",
+      "title": "玉座被破坏后魔王军、复生和魔族渗透迅速减少，世界表面恢复和平",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第372源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13082,7 +13082,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-372-02",
-      "title": "世界设定事实｜第372源章｜2",
+      "title": "魔王剩余精神体由黑暗魔力构成，与其原肉体爱丽丝天然融合，可侵占心脏、肉体与灵魂",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第372源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13109,7 +13109,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-372-03",
-      "title": "世界设定事实｜第372源章｜3",
+      "title": "克拉乌·索拉斯能吸收魔力、封印黑暗",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第372源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13136,7 +13136,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-372-04",
-      "title": "世界设定事实｜第372源章｜4",
+      "title": "白羽传送的使用未被公开识别",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第372源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13162,7 +13162,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-372-01",
-      "title": "新建立连续性｜第372源章｜1",
+      "title": "爱丽丝自刺封魔",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第372源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13188,7 +13188,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-372-02",
-      "title": "新建立连续性｜第372源章｜2",
+      "title": "一月昏迷",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第372源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13213,7 +13213,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-372-03",
-      "title": "新建立连续性｜第372源章｜3",
+      "title": "萝蕾娜身份",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第372源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13238,7 +13238,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-372-04",
-      "title": "新建立连续性｜第372源章｜4",
+      "title": "内部主导权战争",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第372源章第4条）",
       "category": "continuity",
       "keys": [
@@ -13263,7 +13263,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-372-01",
-      "title": "未解决事项｜第372源章｜1",
+      "title": "强化爱丽丝方法",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第372源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13289,7 +13289,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-372-02",
-      "title": "未解决事项｜第372源章｜2",
+      "title": "削弱抽出魔王方法",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第372源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13315,7 +13315,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-372-03",
-      "title": "未解决事项｜第372源章｜3",
+      "title": "爱丽丝能否苏醒",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第372源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13341,7 +13341,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-372-01",
-      "title": "主角龙形态｜第372源章｜1",
+      "title": "主角龙形态｜魔王倒下后.(1)｜同一爱丽丝肉体先被魔王黑暗魔力渗透并由圣剑贯胸",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第372源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13368,7 +13368,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-372-01",
-      "title": "主角龙状态｜第372源章｜1",
+      "title": "主角龙状态｜魔王倒下后.(1)｜爱丽丝与魔王在体内争夺主导权，萝蕾娜暂时管理身体并筹划第二次驱魔",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第372源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13395,7 +13395,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-372-01",
-      "title": "主角龙知识边界｜第372源章｜1",
+      "title": "主角龙知识边界｜魔王倒下后.(1)｜埃里克和外界不知道白羽传送真相",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第372源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13421,7 +13421,7 @@
     },
     {
       "id": "era-18-new-hero-event-373-01",
-      "title": "事件｜第373源章｜1",
+      "title": "萝蕾娜要求埃里克把她当作爱丽丝姐姐，解释自身力量过强会使爱丽丝肉体消亡",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第373源章第1条）",
       "category": "event",
       "keys": [
@@ -13449,7 +13449,7 @@
     },
     {
       "id": "era-18-new-hero-event-373-02",
-      "title": "事件｜第373源章｜2",
+      "title": "她要求埃里克先练到无圣剑也能战斗，再带爱丽丝获取多位神明祝福",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第373源章第2条）",
       "category": "event",
       "keys": [
@@ -13477,7 +13477,7 @@
     },
     {
       "id": "era-18-new-hero-event-373-03",
-      "title": "事件｜第373源章｜3",
+      "title": "埃里克坦承无爱丽丝魔法与圣剑连黄金哥布林都打不过",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第373源章第3条）",
       "category": "event",
       "keys": [
@@ -13505,7 +13505,7 @@
     },
     {
       "id": "era-18-new-hero-event-373-04",
-      "title": "事件｜第373源章｜4",
+      "title": "埃里克发现创造剑和此前制作传送羽毛没有被爱丽丝吸收，萝蕾娜也无法解释",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第373源章第4条）",
       "category": "event",
       "keys": [
@@ -13532,7 +13532,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-373-01",
-      "title": "世界设定事实｜第373源章｜1",
+      "title": "蒂雅/萝蕾娜力量与爱丽丝肉体过于接近：高于阈值会令肉体消亡，低于阈值会被吸收",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第373源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13559,7 +13559,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-373-02",
-      "title": "世界设定事实｜第373源章｜2",
+      "title": "魔王军残党与四天王未被根除，黑暗骑士封印可能已解，残党在寻找体内魔王",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第373源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13586,7 +13586,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-373-03",
-      "title": "世界设定事实｜第373源章｜3",
+      "title": "失去剑身后阿加特拉姆只能维持盔甲",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第373源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13611,7 +13611,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-373-01",
-      "title": "新建立连续性｜第373源章｜1",
+      "title": "六古神方向",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第373源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13636,7 +13636,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-373-02",
-      "title": "新建立连续性｜第373源章｜2",
+      "title": "卡拉德波加",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第373源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13661,7 +13661,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-373-03",
-      "title": "新建立连续性｜第373源章｜3",
+      "title": "创造权能例外",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第373源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13686,7 +13686,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-373-01",
-      "title": "未解决事项｜第373源章｜1",
+      "title": "六神具体名单与考验",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第373源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13711,7 +13711,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-373-02",
-      "title": "未解决事项｜第373源章｜2",
+      "title": "有形创造为何可行",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第373源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13736,7 +13736,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-373-03",
-      "title": "未解决事项｜第373源章｜3",
+      "title": "埃里克无圣剑训练",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第373源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13762,7 +13762,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-373-01",
-      "title": "主角龙形态｜第373源章｜1",
+      "title": "主角龙形态｜魔王倒下后.(2)｜萝蕾娜继续操纵爱丽丝肉体，以爱丽丝姐姐化名行动",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第373源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13788,7 +13788,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-373-01",
-      "title": "主角龙状态｜第373源章｜1",
+      "title": "主角龙状态｜魔王倒下后.(2)｜确定寻找古代神祝福的初步方案并为埃里克补足银甲配剑",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第373源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13814,7 +13814,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-373-01",
-      "title": "主角龙知识边界｜第373源章｜1",
+      "title": "主角龙知识边界｜魔王倒下后.(2)｜萝蕾娜不知道为何有形创造未被吸收",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第373源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13842,7 +13842,7 @@
     },
     {
       "id": "era-18-new-hero-event-374-01",
-      "title": "事件｜第374源章｜1",
+      "title": "民间版本把真相改写为魔王临终诅咒、女神以圣剑保住巫女、勇者寻求六古神认可",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第374源章第1条）",
       "category": "event",
       "keys": [
@@ -13869,7 +13869,7 @@
     },
     {
       "id": "era-18-new-hero-event-374-02",
-      "title": "事件｜第374源章｜2",
+      "title": "萝蕾娜认为创造之力本非自己原有因而可用",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第374源章第2条）",
       "category": "event",
       "keys": [
@@ -13895,7 +13895,7 @@
     },
     {
       "id": "era-18-new-hero-event-374-03",
-      "title": "事件｜第374源章｜3",
+      "title": "萝蕾娜警告失剑埃里克与弱化爱丽丝会被残党追击，建议建立勇者小队",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第374源章第3条）",
       "category": "event",
       "keys": [
@@ -13922,7 +13922,7 @@
     },
     {
       "id": "era-18-new-hero-event-374-04",
-      "title": "事件｜第374源章｜4",
+      "title": "二人隐瞒身份前往南罗马尼亚首都塞梅里姆，计划充分准备六古神考验并寻找可靠同伴",
       "memo": "魔王、爱丽丝与勇者埃里克：事件（第374源章第4条）",
       "category": "event",
       "keys": [
@@ -13953,7 +13953,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-374-01",
-      "title": "世界设定事实｜第374源章｜1",
+      "title": "萝蕾娜能唤起爱丽丝不足原意识0.1%的部分并作为中转，使她间接控制身体",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第374源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13980,7 +13980,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-374-02",
-      "title": "世界设定事实｜第374源章｜2",
+      "title": "集齐六位古代神祝福预计可压制并驱逐魔王，但祝福需各神认可而非自动取得",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第374源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14006,7 +14006,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-374-03",
-      "title": "世界设定事实｜第374源章｜3",
+      "title": "六神为精灵世界树，矮人萨加玛塔，风神希尔芙，海神忒提斯，神圣火焰伊芙利特",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第374源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14037,7 +14037,7 @@
     },
     {
       "id": "era-18-new-hero-world-fact-374-04",
-      "title": "世界设定事实｜第374源章｜4",
+      "title": "公众流传的《勇者埃里克的冒险》把真实附体改写为魔王诅咒，并称六古神认可是唯一救法",
       "memo": "魔王、爱丽丝与勇者埃里克：世界设定事实（第374源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -14064,7 +14064,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-374-01",
-      "title": "新建立连续性｜第374源章｜1",
+      "title": "弱化爱丽丝苏醒",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第374源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14090,7 +14090,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-374-02",
-      "title": "新建立连续性｜第374源章｜2",
+      "title": "六古神名单",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第374源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14115,7 +14115,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-374-03",
-      "title": "新建立连续性｜第374源章｜3",
+      "title": "第二次冒险",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第374源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14140,7 +14140,7 @@
     },
     {
       "id": "era-18-new-hero-continuity-new-374-04",
-      "title": "新建立连续性｜第374源章｜4",
+      "title": "勇者小队需求",
       "memo": "魔王、爱丽丝与勇者埃里克：新建立连续性（第374源章第4条）",
       "category": "continuity",
       "keys": [
@@ -14165,7 +14165,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-374-01",
-      "title": "未解决事项｜第374源章｜1",
+      "title": "同伴人选",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第374源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14190,7 +14190,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-374-02",
-      "title": "未解决事项｜第374源章｜2",
+      "title": "各神考验",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第374源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14215,7 +14215,7 @@
     },
     {
       "id": "era-18-new-hero-unresolved-374-03",
-      "title": "未解决事项｜第374源章｜3",
+      "title": "残党追击",
       "memo": "魔王、爱丽丝与勇者埃里克：未解决事项（第374源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14240,7 +14240,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-form-374-01",
-      "title": "主角龙形态｜第374源章｜1",
+      "title": "主角龙形态｜魔王倒下后.(3)｜爱丽丝肉体由她不足0.1%的清醒意识经萝蕾娜中转间接控制，外罩斗篷",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙形态（第374源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14266,7 +14266,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-state-374-01",
-      "title": "主角龙状态｜第374源章｜1",
+      "title": "主角龙状态｜魔王倒下后.(3)｜恢复极少意识，与失剑埃里克秘密踏上六神祝福和招募同伴的第二次冒险",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙状态（第374源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14292,7 +14292,7 @@
     },
     {
       "id": "era-18-new-hero-protagonist-knowledge-374-01",
-      "title": "主角龙知识边界｜第374源章｜1",
+      "title": "主角龙知识边界｜魔王倒下后.(3)｜公众版本不知道魔王肉体真相",
       "memo": "魔王、爱丽丝与勇者埃里克：主角龙知识边界（第374源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14321,7 +14321,7 @@
     },
     {
       "id": "era-18-new-hero-secondary-character-01",
-      "title": "次要人物｜未具名艾波那骑士",
+      "title": "未具名艾波那骑士",
       "memo": "魔王、爱丽丝与勇者埃里克：次要人物 未具名艾波那骑士",
       "category": "secondary-character",
       "keys": [

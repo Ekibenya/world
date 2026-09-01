@@ -4391,7 +4391,7 @@
   "lorebook": [
     {
       "id": "era-24-prosperity-core",
-      "title": "帝国繁荣、索菲亚与预言｜时代边界",
+      "title": "帝国繁荣、索菲亚与预言",
       "memo": "帝国繁荣、索菲亚与预言：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -4406,7 +4406,7 @@
     },
     {
       "id": "era-24-prosperity-event-493-01",
-      "title": "事件｜第493源章｜1",
+      "title": "德拉格玛政局趋稳，受教育儿童补充文官、军中选才缓解指挥官短缺",
       "memo": "帝国繁荣、索菲亚与预言：事件（第493源章第1条）",
       "category": "event",
       "keys": [
@@ -4431,7 +4431,7 @@
     },
     {
       "id": "era-24-prosperity-event-493-02",
-      "title": "事件｜第493源章｜2",
+      "title": "洛伦因官僚体系已能运转而筹划从宰相职位退休，只保留守护龙的间接威慑与重大事件介入",
       "memo": "帝国繁荣、索菲亚与预言：事件（第493源章第2条）",
       "category": "event",
       "keys": [
@@ -4458,7 +4458,7 @@
     },
     {
       "id": "era-24-prosperity-event-493-03",
-      "title": "事件｜第493源章｜3",
+      "title": "十岁出头的诺亚因洛伦退休而不安",
       "memo": "帝国繁荣、索菲亚与预言：事件（第493源章第3条）",
       "category": "event",
       "keys": [
@@ -4484,7 +4484,7 @@
     },
     {
       "id": "era-24-prosperity-event-493-04",
-      "title": "事件｜第493源章｜4",
+      "title": "诺亚私下向父亲坦白喜欢洛伦本人，认为她是否为龙或普通兽人都不改变感情",
       "memo": "帝国繁荣、索菲亚与预言：事件（第493源章第4条）",
       "category": "event",
       "keys": [
@@ -4511,7 +4511,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-493-01",
-      "title": "世界设定事实｜第493源章｜1",
+      "title": "状态窗为洛伦临时制作且严禁外传的信息魔法",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第493源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4536,7 +4536,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-493-02",
-      "title": "世界设定事实｜第493源章｜2",
+      "title": "帝国文官体系已能先行处理大部分公务，皇帝直属监察官查贪并追缴两倍财物",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第493源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4561,7 +4561,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-493-03",
-      "title": "世界设定事实｜第493源章｜3",
+      "title": "诺亚已成长为十岁出头、仍有稚气的少年",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第493源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -4587,7 +4587,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-493-04",
-      "title": "世界设定事实｜第493源章｜4",
+      "title": "洛伦计划从公务岗位退休，不放弃守护龙身份，并明确承诺守护至诺亚离世",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第493源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -4613,7 +4613,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-493-01",
-      "title": "新建立连续性｜第493源章｜1",
+      "title": "秘密状态窗",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第493源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4638,7 +4638,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-493-02",
-      "title": "新建立连续性｜第493源章｜2",
+      "title": "少年诺亚恋慕",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第493源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4664,7 +4664,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-493-03",
-      "title": "新建立连续性｜第493源章｜3",
+      "title": "宰相退休计划",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第493源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4689,7 +4689,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-493-01",
-      "title": "未解决事项｜第493源章｜1",
+      "title": "诺亚所谓准备",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第493源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4715,7 +4715,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-493-02",
-      "title": "未解决事项｜第493源章｜2",
+      "title": "伴侣问题",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第493源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4740,7 +4740,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-493-03",
-      "title": "未解决事项｜第493源章｜3",
+      "title": "实际退休时间",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第493源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -4765,7 +4765,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-493-01",
-      "title": "主角龙形态｜第493源章｜1",
+      "title": "主角龙形态｜帝国的繁荣.(1)｜洛伦以兽人女性外观担任宰相和老师",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第493源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4792,7 +4792,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-493-01",
-      "title": "主角龙状态｜第493源章｜1",
+      "title": "主角龙状态｜帝国的繁荣.(1)｜守护龙准备从直接行政转为威慑与重大事件介入，却被少年皇帝的依恋牵住",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第493源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4817,7 +4817,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-493-01",
-      "title": "主角龙知识边界｜第493源章｜1",
+      "title": "主角龙知识边界｜帝国的繁荣.(1)｜洛伦不知道诺亚恋慕自己",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第493源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4844,7 +4844,7 @@
     },
     {
       "id": "era-24-prosperity-event-494-01",
-      "title": "事件｜第494源章｜1",
+      "title": "后世论述把百姓安稳，贵族受制，皇权稳固列为帝国繁荣条件",
       "memo": "帝国繁荣、索菲亚与预言：事件（第494源章第1条）",
       "category": "event",
       "keys": [
@@ -4869,7 +4869,7 @@
     },
     {
       "id": "era-24-prosperity-event-494-02",
-      "title": "事件｜第494源章｜2",
+      "title": "粮食总产量在降低后稳定",
       "memo": "帝国繁荣、索菲亚与预言：事件（第494源章第2条）",
       "category": "event",
       "keys": [
@@ -4894,7 +4894,7 @@
     },
     {
       "id": "era-24-prosperity-event-494-03",
-      "title": "事件｜第494源章｜3",
+      "title": "叛乱因素清除，空缺领地转皇帝直辖后财政增加，资金投入道路，堤坝，水库，码头，渔业",
       "memo": "帝国繁荣、索菲亚与预言：事件（第494源章第3条）",
       "category": "event",
       "keys": [
@@ -4919,7 +4919,7 @@
     },
     {
       "id": "era-24-prosperity-event-494-04",
-      "title": "事件｜第494源章｜4",
+      "title": "青少年诺亚以洛伦筛选的约两成公文训练皇帝裁决",
       "memo": "帝国繁荣、索菲亚与预言：事件（第494源章第4条）",
       "category": "event",
       "keys": [
@@ -4945,7 +4945,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-494-01",
-      "title": "世界设定事实｜第494源章｜1",
+      "title": "粮产降到较低水平后不再下降，但税收、民食和必要支出后的余粮仍实质减少",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第494源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4970,7 +4970,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-494-02",
-      "title": "世界设定事实｜第494源章｜2",
+      "title": "排泄物原始堆肥因史莱姆既有处理、收集困难、恶臭及农民抵触而未普及，只有少数农户使用",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第494源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -4995,7 +4995,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-494-03",
-      "title": "世界设定事实｜第494源章｜3",
+      "title": "被处决领主的空缺领地改为皇帝直辖",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第494源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5020,7 +5020,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-494-04",
-      "title": "世界设定事实｜第494源章｜4",
+      "title": "本章时大多数发展仍是规划，道路与堤坝正在建设，尚未全部完成",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第494源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5045,7 +5045,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-494-01",
-      "title": "新建立连续性｜第494源章｜1",
+      "title": "粮产低位稳定",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第494源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5070,7 +5070,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-494-02",
-      "title": "新建立连续性｜第494源章｜2",
+      "title": "帝国直辖领扩张",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第494源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5095,7 +5095,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-494-03",
-      "title": "新建立连续性｜第494源章｜3",
+      "title": "诺亚两成公务训练",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第494源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5121,7 +5121,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-494-01",
-      "title": "未解决事项｜第494源章｜1",
+      "title": "肥料方案",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第494源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5146,7 +5146,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-494-02",
-      "title": "未解决事项｜第494源章｜2",
+      "title": "炼金术传播",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第494源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5171,7 +5171,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-494-03",
-      "title": "未解决事项｜第494源章｜3",
+      "title": "大型工程完工",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第494源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5196,7 +5196,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-494-01",
-      "title": "主角龙形态｜第494源章｜1",
+      "title": "主角龙形态｜帝国的繁荣.(2)｜洛伦以人形宰相兼老师身份处理帝国重建和诺亚训练",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第494源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5222,7 +5222,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-494-01",
-      "title": "主角龙状态｜第494源章｜1",
+      "title": "主角龙状态｜帝国的繁荣.(2)｜守护龙把神力丰饶下降后的缺口转化为制度、工程与技术选择题",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第494源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5247,7 +5247,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-494-01",
-      "title": "主角龙知识边界｜第494源章｜1",
+      "title": "主角龙知识边界｜帝国的繁荣.(2)｜炼金术传播、矿物肥和完整基础设施都未落地",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第494源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5272,7 +5272,7 @@
     },
     {
       "id": "era-24-prosperity-event-495-01",
-      "title": "事件｜第495源章｜1",
+      "title": "多年过去，诺亚成为可靠青年",
       "memo": "帝国繁荣、索菲亚与预言：事件（第495源章第1条）",
       "category": "event",
       "keys": [
@@ -5298,7 +5298,7 @@
     },
     {
       "id": "era-24-prosperity-event-495-02",
-      "title": "事件｜第495源章｜2",
+      "title": "以诺及银龙之爪旧成员已退休，洛伦却因诺亚称尚未准备好而继续被挽留",
       "memo": "帝国繁荣、索菲亚与预言：事件（第495源章第2条）",
       "category": "event",
       "keys": [
@@ -5325,7 +5325,7 @@
     },
     {
       "id": "era-24-prosperity-event-495-03",
-      "title": "事件｜第495源章｜3",
+      "title": "洛伦向退休的以诺抱怨并设想失踪、娱乐和全帝国伴侣舞会以分散成年诺亚注意",
       "memo": "帝国繁荣、索菲亚与预言：事件（第495源章第3条）",
       "category": "event",
       "keys": [
@@ -5352,7 +5352,7 @@
     },
     {
       "id": "era-24-prosperity-event-495-04",
-      "title": "事件｜第495源章｜4",
+      "title": "洛伦解释天狼星灾难后生命女神本体被海量祈祷和超负荷自动分类装置拖垮",
       "memo": "帝国繁荣、索菲亚与预言：事件（第495源章第4条）",
       "category": "event",
       "keys": [
@@ -5377,7 +5377,7 @@
     },
     {
       "id": "era-24-prosperity-event-495-05",
-      "title": "事件｜第495源章｜5",
+      "title": "洛伦选定赛马，既可育成优秀马匹，缓解佩尔德马匹不足，创造就业与运输能力",
       "memo": "帝国繁荣、索菲亚与预言：事件（第495源章第5条）",
       "category": "event",
       "keys": [
@@ -5403,7 +5403,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-495-01",
-      "title": "世界设定事实｜第495源章｜1",
+      "title": "诺亚已从青少年成长为可靠青年",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第495源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5429,7 +5429,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-495-02",
-      "title": "世界设定事实｜第495源章｜2",
+      "title": "以诺和银龙之爪旧成员大多已培养接班人并退出前线",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第495源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5455,7 +5455,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-495-03",
-      "title": "世界设定事实｜第495源章｜3",
+      "title": "生命女神本体在天狼星灾难后收到更多祈祷，虽分派给下位神仍使自动分类祈祷装置超负荷",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第495源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5480,7 +5480,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-495-04",
-      "title": "世界设定事实｜第495源章｜4",
+      "title": "赛马构想同时服务选育马匹、骑兵与运输、就业、消费及赌博收入",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第495源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5506,7 +5506,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-495-01",
-      "title": "新建立连续性｜第495源章｜1",
+      "title": "青年诺亚",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第495源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5532,7 +5532,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-495-02",
-      "title": "新建立连续性｜第495源章｜2",
+      "title": "生命女神祈祷超负荷",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第495源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5557,7 +5557,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-495-03",
-      "title": "新建立连续性｜第495源章｜3",
+      "title": "赛马构想",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第495源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5582,7 +5582,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-495-01",
-      "title": "未解决事项｜第495源章｜1",
+      "title": "诺亚准备内容",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第495源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5608,7 +5608,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-495-02",
-      "title": "未解决事项｜第495源章｜2",
+      "title": "洛伦退休｜帝国的繁荣.(3)",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第495源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5633,7 +5633,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-495-03",
-      "title": "未解决事项｜第495源章｜3",
+      "title": "赛马落地",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第495源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -5658,7 +5658,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-495-01",
-      "title": "主角龙形态｜第495源章｜1",
+      "title": "主角龙形态｜帝国的繁荣.(3)｜守护龙以洛伦人形分身任职",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第495源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5683,7 +5683,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-495-01",
-      "title": "主角龙状态｜第495源章｜1",
+      "title": "主角龙状态｜帝国的繁荣.(3)｜分身与本体均被工作束缚，退休愿望成为赛马制度的直接动机",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第495源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5708,7 +5708,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-495-01",
-      "title": "主角龙知识边界｜第495源章｜1",
+      "title": "主角龙知识边界｜帝国的繁荣.(3)｜诺亚所称尚未准备好的内容未公开",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第495源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5734,7 +5734,7 @@
     },
     {
       "id": "era-24-prosperity-event-496-01",
-      "title": "事件｜第496源章｜1",
+      "title": "道路、水运和牧场使帝国经济活跃，严查偷税使税收增长",
       "memo": "帝国繁荣、索菲亚与预言：事件（第496源章第1条）",
       "category": "event",
       "keys": [
@@ -5759,7 +5759,7 @@
     },
     {
       "id": "era-24-prosperity-event-496-02",
-      "title": "事件｜第496源章｜2",
+      "title": "洛伦把为退休而设计的赛马同时作为财政手续费来源",
       "memo": "帝国繁荣、索菲亚与预言：事件（第496源章第2条）",
       "category": "event",
       "keys": [
@@ -5784,7 +5784,7 @@
     },
     {
       "id": "era-24-prosperity-event-496-03",
-      "title": "事件｜第496源章｜3",
+      "title": "正式开业时洛伦带来诺亚并交给他演说稿",
       "memo": "帝国繁荣、索菲亚与预言：事件（第496源章第3条）",
       "category": "event",
       "keys": [
@@ -5810,7 +5810,7 @@
     },
     {
       "id": "era-24-prosperity-event-496-04",
-      "title": "事件｜第496源章｜4",
+      "title": "后世赛马衍生半人马、魔物和犯罪组织非法竞赛，投机问题促使帝国只承认皇室主办比赛",
       "memo": "帝国繁荣、索菲亚与预言：事件（第496源章第4条）",
       "category": "event",
       "keys": [
@@ -5835,7 +5835,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-496-01",
-      "title": "世界设定事实｜第496源章｜1",
+      "title": "帝国严查偷税，精锐士兵协助文官查扣账簿",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第496源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5860,7 +5860,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-496-02",
-      "title": "世界设定事实｜第496源章｜2",
+      "title": "此时世界几乎没有赌博概念",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第496源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5885,7 +5885,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-496-03",
-      "title": "世界设定事实｜第496源章｜3",
+      "title": "首个帝国赛马场由皇室运营马券并按赔率兑奖，收入一部分作为手续费兼税金",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第496源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -5910,7 +5910,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-496-04",
-      "title": "世界设定事实｜第496源章｜4",
+      "title": "后世记载首场赛马在诺亚时代的鲁贝洛斯帝国",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第496源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -5936,7 +5936,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-496-05",
-      "title": "世界设定事实｜第496源章｜5",
+      "title": "源自赛马的赌博在角斗士之城参宿四发展出押注决斗胜者的形式",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第496源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -5961,7 +5961,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-496-01",
-      "title": "新建立连续性｜第496源章｜1",
+      "title": "帝国赛马场",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第496源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5986,7 +5986,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-496-02",
-      "title": "新建立连续性｜第496源章｜2",
+      "title": "马券赌博",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第496源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6011,7 +6011,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-496-03",
-      "title": "新建立连续性｜第496源章｜3",
+      "title": "皇室竞赛规制",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第496源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6036,7 +6036,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-496-01",
-      "title": "未解决事项｜第496源章｜1",
+      "title": "赛马能否分散诺亚注意",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第496源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6062,7 +6062,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-496-02",
-      "title": "未解决事项｜第496源章｜2",
+      "title": "洛伦能否退休",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第496源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6087,7 +6087,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-496-01",
-      "title": "主角龙形态｜第496源章｜1",
+      "title": "主角龙形态｜帝国的繁荣.(4)｜洛伦以人形宰相和诺亚老师身份主持赛马制度，龙身未直接出现",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第496源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6113,7 +6113,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-496-01",
-      "title": "主角龙状态｜第496源章｜1",
+      "title": "主角龙状态｜帝国的繁荣.(4)｜守护龙通过制度设计而非力量介入盛世经济，并隐没在后世无名宰相记载中",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第496源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6138,7 +6138,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-496-01",
-      "title": "主角龙知识边界｜第496源章｜1",
+      "title": "主角龙知识边界｜帝国的繁荣.(4)｜后世文献不知宰相姓名",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第496源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6163,7 +6163,7 @@
     },
     {
       "id": "era-24-prosperity-event-497-01",
-      "title": "事件｜第497源章｜1",
+      "title": "赛马运营约一月、含表演赛共四次便赚得相当于富裕领地三个月税收",
       "memo": "帝国繁荣、索菲亚与预言：事件（第497源章第1条）",
       "category": "event",
       "keys": [
@@ -6188,7 +6188,7 @@
     },
     {
       "id": "era-24-prosperity-event-497-02",
-      "title": "事件｜第497源章｜2",
+      "title": "赛马建立以1000分起算的升降级与同级编赛制度",
       "memo": "帝国繁荣、索菲亚与预言：事件（第497源章第2条）",
       "category": "event",
       "keys": [
@@ -6213,7 +6213,7 @@
     },
     {
       "id": "era-24-prosperity-event-497-03",
-      "title": "事件｜第497源章｜3",
+      "title": "赌博弊端出现后，帝国以黑名单，限额，禁代购，再犯逮捕，强制劳动及家属福利处理",
       "memo": "帝国繁荣、索菲亚与预言：事件（第497源章第3条）",
       "category": "event",
       "keys": [
@@ -6238,7 +6238,7 @@
     },
     {
       "id": "era-24-prosperity-event-497-04",
-      "title": "事件｜第497源章｜4",
+      "title": "诺亚不理解赛马和赌博，要求考虑不涉及金钱的娱乐，使洛伦用赛马吸引他的退休计划失败",
       "memo": "帝国繁荣、索菲亚与预言：事件（第497源章第4条）",
       "category": "event",
       "keys": [
@@ -6264,7 +6264,7 @@
     },
     {
       "id": "era-24-prosperity-event-497-05",
-      "title": "事件｜第497源章｜5",
+      "title": "洛伦以避免继承权空缺再致乱世为理由推动皇后选拔，臣子建议邀请国内外候选",
       "memo": "帝国繁荣、索菲亚与预言：事件（第497源章第5条）",
       "category": "event",
       "keys": [
@@ -6290,7 +6290,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-497-01",
-      "title": "世界设定事实｜第497源章｜1",
+      "title": "早期赛马每周一次，约一月四场，收入已接近富裕领地三个月税额，奖金",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第497源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6315,7 +6315,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-497-02",
-      "title": "世界设定事实｜第497源章｜2",
+      "title": "赛马等级以1000分起步，依名次增减并公开，同等级编赛以避免强马碾压新手",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第497源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6340,7 +6340,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-497-03",
-      "title": "世界设定事实｜第497源章｜3",
+      "title": "过度赌博者可被黑名单、强制劳动或逮捕",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第497源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6365,7 +6365,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-497-04",
-      "title": "世界设定事实｜第497源章｜4",
+      "title": "皇后选拔的政治理由是确保诺亚后嗣、避免皇位继承权再次悬空",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第497源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6391,7 +6391,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-497-01",
-      "title": "新建立连续性｜第497源章｜1",
+      "title": "赛马风控制度",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第497源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6416,7 +6416,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-497-02",
-      "title": "新建立连续性｜第497源章｜2",
+      "title": "皇后公开选拔",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第497源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6441,7 +6441,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-497-01",
-      "title": "未解决事项｜第497源章｜1",
+      "title": "不涉金钱的新娱乐",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第497源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6466,7 +6466,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-497-02",
-      "title": "未解决事项｜第497源章｜2",
+      "title": "诺亚是否接受皇后",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第497源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6492,7 +6492,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-497-03",
-      "title": "未解决事项｜第497源章｜3",
+      "title": "洛伦退休｜帝国的繁荣.(5)",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第497源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6517,7 +6517,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-497-01",
-      "title": "主角龙形态｜第497源章｜1",
+      "title": "主角龙形态｜帝国的繁荣.(5)｜洛伦继续以人形宰相和老师管理赛马与宫廷议题",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第497源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6542,7 +6542,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-497-01",
-      "title": "主角龙状态｜第497源章｜1",
+      "title": "主角龙状态｜帝国的繁荣.(5)｜守护龙将公共风险控制纳入自己创造的娱乐，却仍误判诺亚真正注意力所在",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第497源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6568,7 +6568,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-497-01",
-      "title": "主角龙知识边界｜第497源章｜1",
+      "title": "主角龙知识边界｜帝国的繁荣.(5)｜洛伦仍不知诺亚爱她，把不悦误解为青年男性不喜欢相亲",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第497源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6594,7 +6594,7 @@
     },
     {
       "id": "era-24-prosperity-event-498-01",
-      "title": "事件｜第498源章｜1",
+      "title": "臣子继续规划国内外皇后候选与接待路线",
       "memo": "帝国繁荣、索菲亚与预言：事件（第498源章第1条）",
       "category": "event",
       "keys": [
@@ -6620,7 +6620,7 @@
     },
     {
       "id": "era-24-prosperity-event-498-02",
-      "title": "事件｜第498源章｜2",
+      "title": "诺亚向以诺求助并再次表明除洛伦外无法爱人",
       "memo": "帝国繁荣、索菲亚与预言：事件（第498源章第2条）",
       "category": "event",
       "keys": [
@@ -6647,7 +6647,7 @@
     },
     {
       "id": "era-24-prosperity-event-498-03",
-      "title": "事件｜第498源章｜3",
+      "title": "以诺指出诺亚真正该担心的是洛伦退隐",
       "memo": "帝国繁荣、索菲亚与预言：事件（第498源章第3条）",
       "category": "event",
       "keys": [
@@ -6674,7 +6674,7 @@
     },
     {
       "id": "era-24-prosperity-event-498-04",
-      "title": "事件｜第498源章｜4",
+      "title": "诺亚同意以皇后考核作为洛伦退休前最后任务，却给出银发、温柔、有角、年长女性的理想型",
       "memo": "帝国繁荣、索菲亚与预言：事件（第498源章第4条）",
       "category": "event",
       "keys": [
@@ -6700,7 +6700,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-498-01",
-      "title": "世界设定事实｜第498源章｜1",
+      "title": "此时知晓洛伦并非牛族兽人而是巨龙真身的人，按以诺所言只有他与诺亚",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第498源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6727,7 +6727,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-498-02",
-      "title": "世界设定事实｜第498源章｜2",
+      "title": "守护龙盟约确保洛伦不会停止守护诺亚，但不保证她继续以老师洛伦身份留在身边",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第498源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6753,7 +6753,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-498-03",
-      "title": "世界设定事实｜第498源章｜3",
+      "title": "诺亚接受洛伦退休，并将皇后候选考核定为她最后一项任务",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第498源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -6779,7 +6779,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-498-04",
-      "title": "世界设定事实｜第498源章｜4",
+      "title": "诺亚明说理想型为银发，温柔，有角的年长女性，特征直接对应洛伦",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第498源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -6805,7 +6805,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-498-01",
-      "title": "新建立连续性｜第498源章｜1",
+      "title": "洛伦有条件退休",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第498源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6830,7 +6830,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-498-02",
-      "title": "新建立连续性｜第498源章｜2",
+      "title": "诺亚理想型明示",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第498源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6856,7 +6856,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-498-03",
-      "title": "新建立连续性｜第498源章｜3",
+      "title": "培养皇后计划",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第498源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6881,7 +6881,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-498-01",
-      "title": "未解决事项｜第498源章｜1",
+      "title": "诺亚是否表白",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第498源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6907,7 +6907,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-498-02",
-      "title": "未解决事项｜第498源章｜2",
+      "title": "培养对象",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第498源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6932,7 +6932,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-498-03",
-      "title": "未解决事项｜第498源章｜3",
+      "title": "洛伦以何身份退隐",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第498源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -6957,7 +6957,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-498-01",
-      "title": "主角龙形态｜第498源章｜1",
+      "title": "主角龙形态｜帝国的繁荣.(6)｜洛伦以银发、有角的年长牛族兽人女性伪装活动，真身巨龙仅诺亚、以诺知晓",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第498源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6984,7 +6984,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-498-01",
-      "title": "主角龙状态｜第498源章｜1",
+      "title": "主角龙状态｜帝国的繁荣.(6)｜守护龙终于获得有条件退休许可，却亲自承担寻找替代自己亲密位置的人",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第498源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7009,7 +7009,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-498-01",
-      "title": "主角龙知识边界｜第498源章｜1",
+      "title": "主角龙知识边界｜帝国的繁荣.(6)｜洛伦不知道诺亚的爱情",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第498源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7036,7 +7036,7 @@
     },
     {
       "id": "era-24-prosperity-event-499-01",
-      "title": "事件｜第499源章｜1",
+      "title": "洛伦从向生命女神祈祷者中找到银发，带旧罗马尼亚皇室微弱血统",
       "memo": "帝国繁荣、索菲亚与预言：事件（第499源章第1条）",
       "category": "event",
       "keys": [
@@ -7061,7 +7061,7 @@
     },
     {
       "id": "era-24-prosperity-event-499-02",
-      "title": "事件｜第499源章｜2",
+      "title": "洛伦曾考虑从冥界偷洗去记忆的灵魂造人，但因神灵后果放弃，改选现存女孩",
       "memo": "帝国繁荣、索菲亚与预言：事件（第499源章第2条）",
       "category": "event",
       "keys": [
@@ -7086,7 +7086,7 @@
     },
     {
       "id": "era-24-prosperity-event-499-03",
-      "title": "事件｜第499源章｜3",
+      "title": "女孩担心被卖给富有老人作妾，洛伦否认后将她从贫民窟转移",
       "memo": "帝国繁荣、索菲亚与预言：事件（第499源章第3条）",
       "category": "event",
       "keys": [
@@ -7111,7 +7111,7 @@
     },
     {
       "id": "era-24-prosperity-event-499-04",
-      "title": "事件｜第499源章｜4",
+      "title": "洛伦发现女孩连洗澡方式都不知道，亲手教她清洁并承诺虽会辛苦却不会遭遇被卖等坏事",
       "memo": "帝国繁荣、索菲亚与预言：事件（第499源章第4条）",
       "category": "event",
       "keys": [
@@ -7136,7 +7136,7 @@
     },
     {
       "id": "era-24-prosperity-event-499-05",
-      "title": "事件｜第499源章｜5",
+      "title": "女孩原名纳玛",
       "memo": "帝国繁荣、索菲亚与预言：事件（第499源章第5条）",
       "category": "event",
       "keys": [
@@ -7161,7 +7161,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-499-01",
-      "title": "世界设定事实｜第499源章｜1",
+      "title": "女孩拥有微弱旧罗马尼亚皇室血统和银发，但家道中落，具体原因本章未知",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第499源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7186,7 +7186,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-499-02",
-      "title": "世界设定事实｜第499源章｜2",
+      "title": "洛伦能从冥界取得洗去记忆的灵魂造人，但会触怒管理冥界的神灵并可能被迫工作数百年",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第499源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7211,7 +7211,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-499-03",
-      "title": "世界设定事实｜第499源章｜3",
+      "title": "女孩的腹泻呕吐因虚弱到威胁生命，虔诚祈祷生命女神后多次得到恢复",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第499源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7236,7 +7236,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-499-04",
-      "title": "世界设定事实｜第499源章｜4",
+      "title": "增加福利、清扫贫民窟、送孤儿去生命教团孤儿院或培养为皇室人才都只是洛伦此时的待议方案",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第499源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7261,7 +7261,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-499-01",
-      "title": "新建立连续性｜第499源章｜1",
+      "title": "纳玛",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第499源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7286,7 +7286,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-499-02",
-      "title": "新建立连续性｜第499源章｜2",
+      "title": "旧罗马尼亚皇室微弱血统",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第499源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7311,7 +7311,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-499-03",
-      "title": "新建立连续性｜第499源章｜3",
+      "title": "新名字选择",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第499源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7336,7 +7336,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-499-01",
-      "title": "未解决事项｜第499源章｜1",
+      "title": "新名字",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第499源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7361,7 +7361,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-499-02",
-      "title": "未解决事项｜第499源章｜2",
+      "title": "皇后培养结果",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第499源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7386,7 +7386,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-499-03",
-      "title": "未解决事项｜第499源章｜3",
+      "title": "贫民窟福利",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第499源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7411,7 +7411,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-499-01",
-      "title": "主角龙形态｜第499源章｜1",
+      "title": "主角龙形态｜培养皇后.(1)｜洛伦以银发有角的人形现身贫民窟并照料女孩，可用瞬移和防御魔法",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第499源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7436,7 +7436,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-499-01",
-      "title": "主角龙状态｜第499源章｜1",
+      "title": "主角龙状态｜培养皇后.(1)｜守护龙为退出宫廷而选择培养皇后",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第499源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7461,7 +7461,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-499-01",
-      "title": "主角龙知识边界｜第499源章｜1",
+      "title": "主角龙知识边界｜培养皇后.(1)｜女孩不知道洛伦是守护龙或生命女神，也不知道培养目的",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第499源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7486,7 +7486,7 @@
     },
     {
       "id": "era-24-prosperity-event-500-01",
-      "title": "事件｜第500源章｜1",
+      "title": "女孩从候选名中选择含智慧之意的索菲亚，因不识字而渴望聪明",
       "memo": "帝国繁荣、索菲亚与预言：事件（第500源章第1条）",
       "category": "event",
       "keys": [
@@ -7511,7 +7511,7 @@
     },
     {
       "id": "era-24-prosperity-event-500-02",
-      "title": "事件｜第500源章｜2",
+      "title": "洛伦提供能按想象做食物的魔法烤箱与书房",
       "memo": "帝国繁荣、索菲亚与预言：事件（第500源章第2条）",
       "category": "event",
       "keys": [
@@ -7536,7 +7536,7 @@
     },
     {
       "id": "era-24-prosperity-event-500-03",
-      "title": "事件｜第500源章｜3",
+      "title": "索菲亚住在封闭宅邸大小、外界不可进出的亚空间，时间为外界十二倍",
       "memo": "帝国繁荣、索菲亚与预言：事件（第500源章第3条）",
       "category": "event",
       "keys": [
@@ -7561,7 +7561,7 @@
     },
     {
       "id": "era-24-prosperity-event-500-04",
-      "title": "事件｜第500源章｜4",
+      "title": "索菲亚有少量魔力却无驱动天赋，主动拒绝依赖道具施法，选择无需道具的剑术",
       "memo": "帝国繁荣、索菲亚与预言：事件（第500源章第4条）",
       "category": "event",
       "keys": [
@@ -7586,7 +7586,7 @@
     },
     {
       "id": "era-24-prosperity-event-500-05",
-      "title": "事件｜第500源章｜5",
+      "title": "索菲亚继续学习知识、礼仪和剑术，并受亚空间全域属性提升魔法",
       "memo": "帝国繁荣、索菲亚与预言：事件（第500源章第5条）",
       "category": "event",
       "keys": [
@@ -7611,7 +7611,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-500-01",
-      "title": "世界设定事实｜第500源章｜1",
+      "title": "洛伦制作的魔法烤箱可依触碰者脑中所想生成食物",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第500源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7636,7 +7636,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-500-02",
-      "title": "世界设定事实｜第500源章｜2",
+      "title": "培养宅邸位于完全封闭的小型亚空间，外界未经洛伦允许不可进入，内部时间流速为外界十二倍",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第500源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7661,7 +7661,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-500-03",
-      "title": "世界设定事实｜第500源章｜3",
+      "title": "索菲亚有少量魔力但没有驱动天赋",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第500源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -7686,7 +7686,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-500-04",
-      "title": "世界设定事实｜第500源章｜4",
+      "title": "索菲亚接受大量书籍、优秀教导及覆盖亚空间的属性提升魔法，成长远超寻常贵族千金",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第500源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -7711,7 +7711,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-500-01",
-      "title": "新建立连续性｜第500源章｜1",
+      "title": "索菲亚之名",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第500源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7736,7 +7736,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-500-02",
-      "title": "新建立连续性｜第500源章｜2",
+      "title": "母女称呼",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第500源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7761,7 +7761,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-500-03",
-      "title": "新建立连续性｜第500源章｜3",
+      "title": "十二倍亚空间",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第500源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7786,7 +7786,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-500-04",
-      "title": "新建立连续性｜第500源章｜4",
+      "title": "索菲亚剑术",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第500源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7811,7 +7811,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-500-01",
-      "title": "未解决事项｜第500源章｜1",
+      "title": "向索菲亚公开目的",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第500源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7836,7 +7836,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-500-02",
-      "title": "未解决事项｜第500源章｜2",
+      "title": "离开亚空间",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第500源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7861,7 +7861,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-500-03",
-      "title": "未解决事项｜第500源章｜3",
+      "title": "诺亚反应",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第500源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7887,7 +7887,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-500-01",
-      "title": "主角龙形态｜第500源章｜1",
+      "title": "主角龙形态｜培养皇后.(2)｜洛伦以银发有角的人形母亲与魔法师形象陪伴索菲亚，未显露巨龙或女神身份",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第500源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7912,7 +7912,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-500-01",
-      "title": "主角龙状态｜第500源章｜1",
+      "title": "主角龙状态｜培养皇后.(2)｜守护龙在外界一年、内部十二倍时间的培养中亲自养育未来皇后候选",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第500源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7937,7 +7937,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-500-01",
-      "title": "主角龙知识边界｜第500源章｜1",
+      "title": "主角龙知识边界｜培养皇后.(2)｜索菲亚只知道洛伦是魔法师妈妈，不知道皇后目的",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第500源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7962,7 +7962,7 @@
     },
     {
       "id": "era-24-prosperity-event-501-01",
-      "title": "事件｜第501源章｜1",
+      "title": "皇后选拔吸引大量国内外来客，鲁贝洛斯凭邀请函限流",
       "memo": "帝国繁荣、索菲亚与预言：事件（第501源章第1条）",
       "category": "event",
       "keys": [
@@ -7987,7 +7987,7 @@
     },
     {
       "id": "era-24-prosperity-event-501-02",
-      "title": "事件｜第501源章｜2",
+      "title": "索菲亚在身份、血统、资格、外貌、智慧等竞争中压倒候选者，成为皇后",
       "memo": "帝国繁荣、索菲亚与预言：事件（第501源章第2条）",
       "category": "event",
       "keys": [
@@ -8013,7 +8013,7 @@
     },
     {
       "id": "era-24-prosperity-event-501-03",
-      "title": "事件｜第501源章｜3",
+      "title": "诺亚和索菲亚发现洛伦一年内完成了索菲亚十余年体感培养，误以为她预见未来",
       "memo": "帝国繁荣、索菲亚与预言：事件（第501源章第3条）",
       "category": "event",
       "keys": [
@@ -8039,7 +8039,7 @@
     },
     {
       "id": "era-24-prosperity-event-501-04",
-      "title": "事件｜第501源章｜4",
+      "title": "索菲亚责备诺亚从未直说，得知其理想型后理解两人都爱洛伦",
       "memo": "帝国繁荣、索菲亚与预言：事件（第501源章第4条）",
       "category": "event",
       "keys": [
@@ -8065,7 +8065,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-501-01",
-      "title": "世界设定事实｜第501源章｜1",
+      "title": "皇后选拔消息传至国外，鲁贝洛斯关口只准持邀请函者或本地居民通行",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第501源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8090,7 +8090,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-501-02",
-      "title": "世界设定事实｜第501源章｜2",
+      "title": "皇后选拔比较身份、血统、资格、外貌、智慧等要素，索菲亚最终取得皇后之位",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第501源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8115,7 +8115,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-501-03",
-      "title": "世界设定事实｜第501源章｜3",
+      "title": "外界只过去一年，索菲亚主观已受养育十余年",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第501源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8141,7 +8141,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-501-01",
-      "title": "新建立连续性｜第501源章｜1",
+      "title": "索菲亚成为皇后",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第501源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8166,7 +8166,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-501-02",
-      "title": "新建立连续性｜第501源章｜2",
+      "title": "诺亚与索菲亚共同失恋同盟",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第501源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8192,7 +8192,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-501-01",
-      "title": "未解决事项｜第501源章｜1",
+      "title": "婚礼｜培养皇后.(3)",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第501源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8217,7 +8217,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-501-02",
-      "title": "未解决事项｜第501源章｜2",
+      "title": "洛伦退休去向",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第501源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8242,7 +8242,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-501-03",
-      "title": "未解决事项｜第501源章｜3",
+      "title": "索菲亚得知真身",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第501源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8267,7 +8267,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-501-01",
-      "title": "主角龙形态｜第501源章｜1",
+      "title": "主角龙形态｜培养皇后.(3)｜银发长发、头生牛角的宰相人形，公开被视作兽人女性",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第501源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8292,7 +8292,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-501-01",
-      "title": "主角龙状态｜第501源章｜1",
+      "title": "主角龙状态｜培养皇后.(3)｜守护龙完成皇后培养并试图从诺亚与索菲亚生活中退场",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第501源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8318,7 +8318,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-501-01",
-      "title": "主角龙知识边界｜第501源章｜1",
+      "title": "主角龙知识边界｜培养皇后.(3)｜洛伦离场前不知道索菲亚已识破培养目的及两人都爱她",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第501源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8343,7 +8343,7 @@
     },
     {
       "id": "era-24-prosperity-event-502-01",
-      "title": "事件｜第502源章｜1",
+      "title": "索菲亚成为皇后但婚礼尚待善后",
       "memo": "帝国繁荣、索菲亚与预言：事件（第502源章第1条）",
       "category": "event",
       "keys": [
@@ -8369,7 +8369,7 @@
     },
     {
       "id": "era-24-prosperity-event-502-02",
-      "title": "事件｜第502源章｜2",
+      "title": "诺亚与索菲亚交换各自掌握的信息，发现洛伦既是巨龙又能使用近神领域的空间魔法",
       "memo": "帝国繁荣、索菲亚与预言：事件（第502源章第2条）",
       "category": "event",
       "keys": [
@@ -8395,7 +8395,7 @@
     },
     {
       "id": "era-24-prosperity-event-502-03",
-      "title": "事件｜第502源章｜3",
+      "title": "两人向以诺求证",
       "memo": "帝国繁荣、索菲亚与预言：事件（第502源章第3条）",
       "category": "event",
       "keys": [
@@ -8421,7 +8421,7 @@
     },
     {
       "id": "era-24-prosperity-event-502-04",
-      "title": "事件｜第502源章｜4",
+      "title": "诺亚和索菲亚都希望洛伦的心不离开",
       "memo": "帝国繁荣、索菲亚与预言：事件（第502源章第4条）",
       "category": "event",
       "keys": [
@@ -8448,7 +8448,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-502-01",
-      "title": "世界设定事实｜第502源章｜1",
+      "title": "书中创世神龙是蜥蜴人神话中的银色太古巨龙，被传为塑造世界，部分观点视其与生命女神同一",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第502源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8473,7 +8473,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-502-02",
-      "title": "世界设定事实｜第502源章｜2",
+      "title": "诺亚在即位仪式见过洛伦显露银龙原形并驱逐德拉格玛始祖红龙",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第502源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8499,7 +8499,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-502-03",
-      "title": "世界设定事实｜第502源章｜3",
+      "title": "以诺确认自己了解洛伦最多，但未经其许可不向诺亚与索菲亚公开真相",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第502源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8526,7 +8526,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-502-04",
-      "title": "世界设定事实｜第502源章｜4",
+      "title": "以诺推测两人若接近真相，可能得到与自己当年类似的最高神愿望权，但尚未发生",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第502源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8552,7 +8552,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-502-01",
-      "title": "新建立连续性｜第502源章｜1",
+      "title": "诺亚索菲亚推理创世神龙",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第502源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8578,7 +8578,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-502-02",
-      "title": "新建立连续性｜第502源章｜2",
+      "title": "以诺建议愿望权",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第502源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8604,7 +8604,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-502-01",
-      "title": "未解决事项｜第502源章｜1",
+      "title": "直接求证",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第502源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8629,7 +8629,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-502-02",
-      "title": "未解决事项｜第502源章｜2",
+      "title": "真实身份公开范围",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第502源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8654,7 +8654,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-502-03",
-      "title": "未解决事项｜第502源章｜3",
+      "title": "能否留住洛伦",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第502源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8679,7 +8679,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-502-01",
-      "title": "主角龙形态｜第502源章｜1",
+      "title": "主角龙形态｜为了不让她离开.(1)｜本章洛伦仅以人形出现",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第502源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8705,7 +8705,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-502-01",
-      "title": "主角龙状态｜第502源章｜1",
+      "title": "主角龙状态｜为了不让她离开.(1)｜守护龙的真身从秘密转为徒弟与养女可自行接近的谜底",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第502源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8730,7 +8730,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-502-01",
-      "title": "主角龙知识边界｜第502源章｜1",
+      "title": "主角龙知识边界｜为了不让她离开.(1)｜两人只推到创世神龙，尚不确认生命女神",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第502源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8756,7 +8756,7 @@
     },
     {
       "id": "era-24-prosperity-event-503-01",
-      "title": "事件｜第503源章｜1",
+      "title": "诺亚与索菲亚决定不再给洛伦工作并营造休息环境，她却主动查旧工程贪腐",
       "memo": "帝国繁荣、索菲亚与预言：事件（第503源章第1条）",
       "category": "event",
       "keys": [
@@ -8782,7 +8782,7 @@
     },
     {
       "id": "era-24-prosperity-event-503-02",
-      "title": "事件｜第503源章｜2",
+      "title": "洛伦发现监察官自身受贿后，把皇室监察官监督权委托生命教团资深祭司",
       "memo": "帝国繁荣、索菲亚与预言：事件（第503源章第2条）",
       "category": "event",
       "keys": [
@@ -8807,7 +8807,7 @@
     },
     {
       "id": "era-24-prosperity-event-503-03",
-      "title": "事件｜第503源章｜3",
+      "title": "洛伦承认自己即使喊着休息仍会因眼前问题可能扩大而主动收尾",
       "memo": "帝国繁荣、索菲亚与预言：事件（第503源章第3条）",
       "category": "event",
       "keys": [
@@ -8833,7 +8833,7 @@
     },
     {
       "id": "era-24-prosperity-event-503-04",
-      "title": "事件｜第503源章｜4",
+      "title": "两人询问她是否创世神龙并提出生命女神同一论",
       "memo": "帝国繁荣、索菲亚与预言：事件（第503源章第4条）",
       "category": "event",
       "keys": [
@@ -8858,7 +8858,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-503-01",
-      "title": "世界设定事实｜第503源章｜1",
+      "title": "皇帝直属监察官也会随时间懈怠或受贿，本章已发生一名监察官收贵族钱财并包庇后被处分",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第503源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8883,7 +8883,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-503-02",
-      "title": "世界设定事实｜第503源章｜2",
+      "title": "洛伦计划由生命教团祭司监督皇室监察官，并专门制作仅限此职务的辨真伪神圣魔法",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第503源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8908,7 +8908,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-503-03",
-      "title": "世界设定事实｜第503源章｜3",
+      "title": "辨真伪在洛伦判断中近似窥探人心，因此必须限制使用目的和传播",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第503源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -8933,7 +8933,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-503-04",
-      "title": "世界设定事实｜第503源章｜4",
+      "title": "诺亚与索菲亚已公开向洛伦提出创世神龙身份猜测，索菲亚同时提出其可能是生命女神另一侧面",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第503源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -8959,7 +8959,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-503-01",
-      "title": "新建立连续性｜第503源章｜1",
+      "title": "生命教团监督监察官",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第503源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8984,7 +8984,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-503-02",
-      "title": "新建立连续性｜第503源章｜2",
+      "title": "辨真伪限定魔法",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第503源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9009,7 +9009,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-503-03",
-      "title": "新建立连续性｜第503源章｜3",
+      "title": "正面身份质问",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第503源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9034,7 +9034,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-503-01",
-      "title": "未解决事项｜第503源章｜1",
+      "title": "洛伦回答",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第503源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9059,7 +9059,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-503-02",
-      "title": "未解决事项｜第503源章｜2",
+      "title": "询问动机是否被信任",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第503源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9084,7 +9084,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-503-03",
-      "title": "未解决事项｜第503源章｜3",
+      "title": "留守愿望",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第503源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9109,7 +9109,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-503-01",
-      "title": "主角龙形态｜第503源章｜1",
+      "title": "主角龙形态｜为了不让她离开.(2)｜洛伦继续以宰相人形出现，身份被直接询问但本章末尚未回答",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第503源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9134,7 +9134,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-503-01",
-      "title": "主角龙状态｜第503源章｜1",
+      "title": "主角龙状态｜为了不让她离开.(2)｜守护龙在退休前完成最后一层帝国监察制度，同时面临亲近者揭开真身",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第503源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9159,7 +9159,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-503-01",
-      "title": "主角龙知识边界｜第503源章｜1",
+      "title": "主角龙知识边界｜为了不让她离开.(2)｜洛伦知道两人推理但不知道动机",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第503源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9185,7 +9185,7 @@
     },
     {
       "id": "era-24-prosperity-event-504-01",
-      "title": "事件｜第504源章｜1",
+      "title": "诺亚先确认洛伦是巨龙",
       "memo": "帝国繁荣、索菲亚与预言：事件（第504源章第1条）",
       "category": "event",
       "keys": [
@@ -9211,7 +9211,7 @@
     },
     {
       "id": "era-24-prosperity-event-504-02",
-      "title": "事件｜第504源章｜2",
+      "title": "洛伦说明养育索菲亚的亚空间是纯魔法而非神力，并承认自己是创世神龙",
       "memo": "帝国繁荣、索菲亚与预言：事件（第504源章第2条）",
       "category": "event",
       "keys": [
@@ -9236,7 +9236,7 @@
     },
     {
       "id": "era-24-prosperity-event-504-03",
-      "title": "事件｜第504源章｜3",
+      "title": "洛伦转为以创世神龙身份施压并询问两人递交某物的理由",
       "memo": "帝国繁荣、索菲亚与预言：事件（第504源章第3条）",
       "category": "event",
       "keys": [
@@ -9261,7 +9261,7 @@
     },
     {
       "id": "era-24-prosperity-event-504-04",
-      "title": "事件｜第504源章｜4",
+      "title": "因两人接近真身，洛伦仿照以诺旧例给予一次能力范围内的愿望，但拒绝撤回隐退",
       "memo": "帝国繁荣、索菲亚与预言：事件（第504源章第4条）",
       "category": "event",
       "keys": [
@@ -9287,7 +9287,7 @@
     },
     {
       "id": "era-24-prosperity-event-504-05",
-      "title": "事件｜第504源章｜5",
+      "title": "诺亚与索菲亚以眼神达成一致，许愿让她隐退后仍在身边",
       "memo": "帝国繁荣、索菲亚与预言：事件（第504源章第5条）",
       "category": "event",
       "keys": [
@@ -9313,7 +9313,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-504-01",
-      "title": "世界设定事实｜第504源章｜1",
+      "title": "洛伦能局部把人形皮肤变为银色龙鳞并恢复，以此证明巨龙身份",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第504源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9338,7 +9338,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-504-02",
-      "title": "世界设定事实｜第504源章｜2",
+      "title": "养育索菲亚的亚空间被洛伦定义为纯魔法",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第504源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9363,7 +9363,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-504-03",
-      "title": "世界设定事实｜第504源章｜3",
+      "title": "有其他巨龙隐藏身份在人类中生活",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第504源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9388,7 +9388,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-504-04",
-      "title": "世界设定事实｜第504源章｜4",
+      "title": "洛伦长期以不老同一人形停留会引发流言",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第504源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9413,7 +9413,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-504-05",
-      "title": "世界设定事实｜第504源章｜5",
+      "title": "诺亚与索菲亚的正式愿望是洛伦隐退后以银色巨龙守护龙形态留在身边",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第504源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -9439,7 +9439,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-504-01",
-      "title": "新建立连续性｜第504源章｜1",
+      "title": "创世神龙身份确认",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第504源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9464,7 +9464,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-504-02",
-      "title": "新建立连续性｜第504源章｜2",
+      "title": "共同愿望权",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第504源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9489,7 +9489,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-504-03",
-      "title": "新建立连续性｜第504源章｜3",
+      "title": "银龙形态留驻请求",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第504源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9514,7 +9514,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-504-01",
-      "title": "未解决事项｜第504源章｜1",
+      "title": "洛伦是否答应",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第504源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9539,7 +9539,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-504-02",
-      "title": "未解决事项｜第504源章｜2",
+      "title": "生命女神身份",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第504源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9564,7 +9564,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-504-03",
-      "title": "未解决事项｜第504源章｜3",
+      "title": "婚礼与正式退隐",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第504源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9589,7 +9589,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-504-01",
-      "title": "主角龙形态｜第504源章｜1",
+      "title": "主角龙形态｜为了不让她离开.(3)｜本章先是银发有角人形，并局部显出银鳞",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第504源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9614,7 +9614,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-504-01",
-      "title": "主角龙状态｜第504源章｜1",
+      "title": "主角龙状态｜为了不让她离开.(3)｜守护龙承认创世神龙身份并获得既能隐退又继续陪伴的新公开角色方案",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第504源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9639,7 +9639,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-504-01",
-      "title": "主角龙知识边界｜第504源章｜1",
+      "title": "主角龙知识边界｜为了不让她离开.(3)｜洛伦没有明确说出生命女神同一身份",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第504源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9664,7 +9664,7 @@
     },
     {
       "id": "era-24-prosperity-event-505-01",
-      "title": "事件｜第505源章｜1",
+      "title": "洛伦指出愿望足以换取国家、复生或死后乐园，诺亚仍只求她留下",
       "memo": "帝国繁荣、索菲亚与预言：事件（第505源章第1条）",
       "category": "event",
       "keys": [
@@ -9690,7 +9690,7 @@
     },
     {
       "id": "era-24-prosperity-event-505-02",
-      "title": "事件｜第505源章｜2",
+      "title": "洛伦依然没意识到诺亚爱她，只把他的目光解释为守护龙战略价值",
       "memo": "帝国繁荣、索菲亚与预言：事件（第505源章第2条）",
       "category": "event",
       "keys": [
@@ -9716,7 +9716,7 @@
     },
     {
       "id": "era-24-prosperity-event-505-03",
-      "title": "事件｜第505源章｜3",
+      "title": "洛伦要求在皇城后方建别宫和可容纳龙本体的地下空间",
       "memo": "帝国繁荣、索菲亚与预言：事件（第505源章第3条）",
       "category": "event",
       "keys": [
@@ -9741,7 +9741,7 @@
     },
     {
       "id": "era-24-prosperity-event-505-04",
-      "title": "事件｜第505源章｜4",
+      "title": "隐退和婚礼日程公布、别宫高速建设",
       "memo": "帝国繁荣、索菲亚与预言：事件（第505源章第4条）",
       "category": "event",
       "keys": [
@@ -9767,7 +9767,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-505-01",
-      "title": "世界设定事实｜第505源章｜1",
+      "title": "洛伦自述愿望权可使南罗马尼亚皇帝献国、使死者复生或承诺死后进入乐园",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第505源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9792,7 +9792,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-505-02",
-      "title": "世界设定事实｜第505源章｜2",
+      "title": "婚礼后洛伦将从宰相位隐退，以守护龙长期留驻并可提供咨询，盟约效力随皇帝血脉延续",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第505源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9817,7 +9817,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-505-03",
-      "title": "世界设定事实｜第505源章｜3",
+      "title": "洛伦与诺亚商定一年约一半时间留在鲁贝洛斯，另一半自由支配，并保留紧急联络",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第505源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -9843,7 +9843,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-505-04",
-      "title": "世界设定事实｜第505源章｜4",
+      "title": "人形洛伦将在婚礼后公开销声匿迹，改以巨龙本体生活",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第505源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -9868,7 +9868,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-505-05",
-      "title": "世界设定事实｜第505源章｜5",
+      "title": "洛伦选定三名专业不同的优秀部下共同接手工作，交接已事先准备",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第505源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -9893,7 +9893,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-505-01",
-      "title": "新建立连续性｜第505源章｜1",
+      "title": "半年留驻协议",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第505源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9918,7 +9918,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-505-02",
-      "title": "新建立连续性｜第505源章｜2",
+      "title": "别宫龙巢",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第505源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9943,7 +9943,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-505-03",
-      "title": "新建立连续性｜第505源章｜3",
+      "title": "三人行政继任",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第505源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9968,7 +9968,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-505-01",
-      "title": "未解决事项｜第505源章｜1",
+      "title": "婚礼｜为了不让她离开.(4)",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第505源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9993,7 +9993,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-505-02",
-      "title": "未解决事项｜第505源章｜2",
+      "title": "龙形正式公开",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第505源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10018,7 +10018,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-505-03",
-      "title": "未解决事项｜第505源章｜3",
+      "title": "人形销声匿迹",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第505源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10043,7 +10043,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-505-01",
-      "title": "主角龙形态｜第505源章｜1",
+      "title": "主角龙形态｜为了不让她离开.(4)｜婚礼前仍是银发有角宰相人形",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第505源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10068,7 +10068,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-505-01",
-      "title": "主角龙状态｜第505源章｜1",
+      "title": "主角龙状态｜为了不让她离开.(4)｜守护龙从人类官僚身份退出，进入半年留驻、半年旅行的公开龙形守护安排",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第505源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10093,7 +10093,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-505-01",
-      "title": "主角龙知识边界｜第505源章｜1",
+      "title": "主角龙知识边界｜为了不让她离开.(4)｜洛伦仍否认诺亚会爱上龙，只承认若自己是平凡人类可能心动",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第505源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10119,7 +10119,7 @@
     },
     {
       "id": "era-24-prosperity-event-506-01",
-      "title": "事件｜第506源章｜1",
+      "title": "洛伦在旧天狼星地下与天狼星分灵共同建造保护丰饶女神像原件的地下城",
       "memo": "帝国繁荣、索菲亚与预言：事件（第506源章第1条）",
       "category": "event",
       "keys": [
@@ -10145,7 +10145,7 @@
     },
     {
       "id": "era-24-prosperity-event-506-02",
-      "title": "事件｜第506源章｜2",
+      "title": "地下城以唯一入口，不可外部侵入，死亡回入口并恢复，死亡五年禁入，逃跑一年禁入",
       "memo": "帝国繁荣、索菲亚与预言：事件（第506源章第2条）",
       "category": "event",
       "keys": [
@@ -10170,7 +10170,7 @@
     },
     {
       "id": "era-24-prosperity-event-506-03",
-      "title": "事件｜第506源章｜3",
+      "title": "内部布满致命陷阱与抗魔奇袭魔像，布局由人工智能在无人时随机重组",
       "memo": "帝国繁荣、索菲亚与预言：事件（第506源章第3条）",
       "category": "event",
       "keys": [
@@ -10195,7 +10195,7 @@
     },
     {
       "id": "era-24-prosperity-event-506-04",
-      "title": "事件｜第506源章｜4",
+      "title": "终点是天狼星神殿，天狼星分灵以巨苍狼形态担任最终考官，合格者接触原像并获得力量",
       "memo": "帝国繁荣、索菲亚与预言：事件（第506源章第4条）",
       "category": "event",
       "keys": [
@@ -10221,7 +10221,7 @@
     },
     {
       "id": "era-24-prosperity-event-506-05",
-      "title": "事件｜第506源章｜5",
+      "title": "恶意利用女神像者会遭黑暗，三倍陷阱，重复触发，魔像魔免，实时变图与原地复活约百次",
       "memo": "帝国繁荣、索菲亚与预言：事件（第506源章第5条）",
       "category": "event",
       "keys": [
@@ -10246,7 +10246,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-506-01",
-      "title": "世界设定事实｜第506源章｜1",
+      "title": "天狼星本体看守万神殿，分灵仍留在灾后埋于地下的天狼星神殿",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第506源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10271,7 +10271,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-506-02",
-      "title": "世界设定事实｜第506源章｜2",
+      "title": "试验场唯一奖励来自丰饶女神像",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第506源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10296,7 +10296,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-506-03",
-      "title": "世界设定事实｜第506源章｜3",
+      "title": "地下城模块会在无人时随机重组，人工智能负责维护与按状态窗、队伍人数调难，建议五至七人",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第506源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10321,7 +10321,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-506-04",
-      "title": "世界设定事实｜第506源章｜4",
+      "title": "天狼星分灵为最终考官，合格者可获强力、救垂死者或延寿等奖赏",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第506源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10347,7 +10347,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-506-05",
-      "title": "世界设定事实｜第506源章｜5",
+      "title": "恶意者不会正常弹回入口，而会原地复活约百次并面对强化机制",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第506源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -10372,7 +10372,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-506-01",
-      "title": "新建立连续性｜第506源章｜1",
+      "title": "女神的试验场",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第506源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10397,7 +10397,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-506-02",
-      "title": "新建立连续性｜第506源章｜2",
+      "title": "天狼星最终考官",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第506源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10422,7 +10422,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-506-03",
-      "title": "新建立连续性｜第506源章｜3",
+      "title": "恶意者百次复活惩罚",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第506源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10447,7 +10447,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-506-01",
-      "title": "未解决事项｜第506源章｜1",
+      "title": "首批挑战者",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第506源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10472,7 +10472,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-506-02",
-      "title": "未解决事项｜第506源章｜2",
+      "title": "神殿交换兑现",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第506源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10497,7 +10497,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-506-03",
-      "title": "未解决事项｜第506源章｜3",
+      "title": "女神像愿望实例",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第506源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10522,7 +10522,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-506-01",
-      "title": "主角龙形态｜第506源章｜1",
+      "title": "主角龙形态｜女神的试验场.(1)｜洛伦在地下以人形设计地下城，生命女神力量通过丰饶女神像体现",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第506源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10547,7 +10547,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-506-01",
-      "title": "主角龙状态｜第506源章｜1",
+      "title": "主角龙状态｜女神的试验场.(1)｜守护龙把旧灾难核心封装成可自适应、可判意图的终局试炼场",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第506源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10572,7 +10572,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-506-01",
-      "title": "主角龙知识边界｜第506源章｜1",
+      "title": "主角龙知识边界｜女神的试验场.(1)｜状态窗评分不精确",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第506源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -10597,7 +10597,7 @@
     },
     {
       "id": "era-24-prosperity-event-507-01",
-      "title": "事件｜第507源章｜1",
+      "title": "丰收女神像原件传闻扩散，冒险者公会派一名B级中年与一名新晋C级青年去旧天狼星核验",
       "memo": "帝国繁荣、索菲亚与预言：事件（第507源章第1条）",
       "category": "event",
       "keys": [
@@ -10622,7 +10622,7 @@
     },
     {
       "id": "era-24-prosperity-event-507-02",
-      "title": "事件｜第507源章｜2",
+      "title": "两名冒险者带回石碑拓本与濒死般证言",
       "memo": "帝国繁荣、索菲亚与预言：事件（第507源章第2条）",
       "category": "event",
       "keys": [
@@ -10647,7 +10647,7 @@
     },
     {
       "id": "era-24-prosperity-event-507-03",
-      "title": "事件｜第507源章｜3",
+      "title": "会长要求整理陷阱，魔物和结构情报",
       "memo": "帝国繁荣、索菲亚与预言：事件（第507源章第3条）",
       "category": "event",
       "keys": [
@@ -10672,7 +10672,7 @@
     },
     {
       "id": "era-24-prosperity-event-507-04",
-      "title": "事件｜第507源章｜4",
+      "title": "临退洛伦把来信交给部下，只给出大方向，帝国守卫天狼星，冒险者协助入口",
       "memo": "帝国繁荣、索菲亚与预言：事件（第507源章第4条）",
       "category": "event",
       "keys": [
@@ -10697,7 +10697,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-507-01",
-      "title": "世界设定事实｜第507源章｜1",
+      "title": "调查队由B级中年与新晋C级青年组成，受冒险者公会特别委托核实神像传闻",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第507源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -10722,7 +10722,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-507-02",
-      "title": "世界设定事实｜第507源章｜2",
+      "title": "天狼星灾前不知荒年，约二十年后的青年一代因荒年饥饿而当冒险者",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第507源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -10747,7 +10747,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-507-03",
-      "title": "世界设定事实｜第507源章｜3",
+      "title": "公会确认地下城存在并决定封锁",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第507源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -10772,7 +10772,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-507-04",
-      "title": "世界设定事实｜第507源章｜4",
+      "title": "治理方向为仅公会许可强者进入，帝国守城，公会协守入口",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第507源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -10797,7 +10797,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-507-01",
-      "title": "新建立连续性｜第507源章｜1",
+      "title": "试验场传闻公开",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第507源章第1条）",
       "category": "continuity",
       "keys": [
@@ -10822,7 +10822,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-507-02",
-      "title": "新建立连续性｜第507源章｜2",
+      "title": "公会帝国共管",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第507源章第2条）",
       "category": "continuity",
       "keys": [
@@ -10847,7 +10847,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-507-03",
-      "title": "新建立连续性｜第507源章｜3",
+      "title": "复活训练用途",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第507源章第3条）",
       "category": "continuity",
       "keys": [
@@ -10872,7 +10872,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-507-01",
-      "title": "未解决事项｜第507源章｜1",
+      "title": "第一位通关者",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第507源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -10897,7 +10897,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-507-02",
-      "title": "未解决事项｜第507源章｜2",
+      "title": "城市重建",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第507源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -10922,7 +10922,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-507-03",
-      "title": "未解决事项｜第507源章｜3",
+      "title": "丰收女神身份认知",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第507源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -10947,7 +10947,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-507-01",
-      "title": "主角龙形态｜第507源章｜1",
+      "title": "主角龙形态｜女神的试验场.(2)｜洛伦仅以退居二线的人形宰相处理来信",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第507源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10972,7 +10972,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-507-01",
-      "title": "主角龙状态｜第507源章｜1",
+      "title": "主角龙状态｜女神的试验场.(2)｜守护龙把自己创造的神级地下城移交给帝国与冒险者公会共同治理",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第507源章第1条）",
       "category": "character-state",
       "keys": [
@@ -10997,7 +10997,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-507-01",
-      "title": "主角龙知识边界｜第507源章｜1",
+      "title": "主角龙知识边界｜女神的试验场.(2)｜首批冒险者只带回入口石碑与部分证言",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第507源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11022,7 +11022,7 @@
     },
     {
       "id": "era-24-prosperity-event-508-01",
-      "title": "事件｜第508源章｜1",
+      "title": "天狼星临时聚居地与皇室直辖管理方案启动，公会负责治安、讨伐与支援",
       "memo": "帝国繁荣、索菲亚与预言：事件（第508源章第1条）",
       "category": "event",
       "keys": [
@@ -11048,7 +11048,7 @@
     },
     {
       "id": "era-24-prosperity-event-508-02",
-      "title": "事件｜第508源章｜2",
+      "title": "后世校史记载诺亚终生未见天狼星完全恢复，但奠定基础",
       "memo": "帝国繁荣、索菲亚与预言：事件（第508源章第2条）",
       "category": "event",
       "keys": [
@@ -11074,7 +11074,7 @@
     },
     {
       "id": "era-24-prosperity-event-508-03",
-      "title": "事件｜第508源章｜3",
+      "title": "婚礼准备完成后，诺亚与索菲亚请洛伦作证婚人",
       "memo": "帝国繁荣、索菲亚与预言：事件（第508源章第3条）",
       "category": "event",
       "keys": [
@@ -11100,7 +11100,7 @@
     },
     {
       "id": "era-24-prosperity-event-508-04",
-      "title": "事件｜第508源章｜4",
+      "title": "婚礼来宾包括精灵女王凯兰崔尔／世界树化身，矮人神萨加玛塔少女代行者，人鱼女王忒提斯",
       "memo": "帝国繁荣、索菲亚与预言：事件（第508源章第4条）",
       "category": "event",
       "keys": [
@@ -11130,7 +11130,7 @@
     },
     {
       "id": "era-24-prosperity-event-508-05",
-      "title": "事件｜第508源章｜5",
+      "title": "伊夫利特以人类里赫特、赤色魔塔塔主身份到场，称普罗西亚一座魔塔动向可疑",
       "memo": "帝国繁荣、索菲亚与预言：事件（第508源章第5条）",
       "category": "event",
       "keys": [
@@ -11156,7 +11156,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-508-01",
-      "title": "世界设定事实｜第508源章｜1",
+      "title": "天狼星开始作为皇室直辖领重建，冒险者公会承担治安，魔物讨伐与支援",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第508源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11181,7 +11181,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-508-02",
-      "title": "世界设定事实｜第508源章｜2",
+      "title": "诺亚在位期间未见天狼星完全恢复",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第508源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11207,7 +11207,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-508-03",
-      "title": "世界设定事实｜第508源章｜3",
+      "title": "婚礼聚集世界树化身精灵女王，矮人神代行者，人鱼女王",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第508源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11233,7 +11233,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-508-04",
-      "title": "世界设定事实｜第508源章｜4",
+      "title": "伊夫利特此时以里赫特身份担任普罗西亚赤色魔塔塔主，并判断另一魔塔有非普通可疑动向",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第508源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11259,7 +11259,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-508-01",
-      "title": "新建立连续性｜第508源章｜1",
+      "title": "天狼星直辖重建",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第508源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11284,7 +11284,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-508-02",
-      "title": "新建立连续性｜第508源章｜2",
+      "title": "帝国学院后世",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第508源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11309,7 +11309,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-508-03",
-      "title": "新建立连续性｜第508源章｜3",
+      "title": "婚礼神灵来宾",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第508源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11334,7 +11334,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-508-04",
-      "title": "新建立连续性｜第508源章｜4",
+      "title": "可疑魔塔",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第508源章第4条）",
       "category": "continuity",
       "keys": [
@@ -11359,7 +11359,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-508-01",
-      "title": "未解决事项｜第508源章｜1",
+      "title": "婚礼祝词",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第508源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11384,7 +11384,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-508-02",
-      "title": "未解决事项｜第508源章｜2",
+      "title": "正式隐退",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第508源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11409,7 +11409,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-508-03",
-      "title": "未解决事项｜第508源章｜3",
+      "title": "魔塔异常",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第508源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11434,7 +11434,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-508-01",
-      "title": "主角龙形态｜第508源章｜1",
+      "title": "主角龙形态｜女神的试验场.(3)｜婚礼前最后阶段仍为银发有角人形老师与养母",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第508源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11459,7 +11459,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-508-01",
-      "title": "主角龙状态｜第508源章｜1",
+      "title": "主角龙状态｜女神的试验场.(3)｜守护龙准备以证婚作为宰相退休前最后工作",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第508源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11484,7 +11484,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-508-01",
-      "title": "主角龙知识边界｜第508源章｜1",
+      "title": "主角龙知识边界｜女神的试验场.(3)｜伊夫利特尚未说明哪座魔塔及具体异常",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第508源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11510,7 +11510,7 @@
     },
     {
       "id": "era-24-prosperity-event-509-01",
-      "title": "事件｜第509源章｜1",
+      "title": "洛伦以远古主持第一任勇者婚礼的经验完成诺亚与索菲亚婚礼",
       "memo": "帝国繁荣、索菲亚与预言：事件（第509源章第1条）",
       "category": "event",
       "keys": [
@@ -11536,7 +11536,7 @@
     },
     {
       "id": "era-24-prosperity-event-509-02",
-      "title": "事件｜第509源章｜2",
+      "title": "结界房间内，凯兰崔尔，萨加玛塔，希尔芙，忒提斯",
       "memo": "帝国繁荣、索菲亚与预言：事件（第509源章第2条）",
       "category": "event",
       "keys": [
@@ -11566,7 +11566,7 @@
     },
     {
       "id": "era-24-prosperity-event-509-03",
-      "title": "事件｜第509源章｜3",
+      "title": "伊夫利特坚持人类名里赫特，称成为赤色魔塔塔主比独居火山充实",
       "memo": "帝国繁荣、索菲亚与预言：事件（第509源章第3条）",
       "category": "event",
       "keys": [
@@ -11592,7 +11592,7 @@
     },
     {
       "id": "era-24-prosperity-event-509-04",
-      "title": "事件｜第509源章｜4",
+      "title": "伊夫利特说明七魔塔中预言学派白塔出现不稳",
       "memo": "帝国繁荣、索菲亚与预言：事件（第509源章第4条）",
       "category": "event",
       "keys": [
@@ -11618,7 +11618,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-509-01",
-      "title": "世界设定事实｜第509源章｜1",
+      "title": "洛伦曾主持第一任勇者婚礼",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第509源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -11644,7 +11644,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-509-02",
-      "title": "世界设定事实｜第509源章｜2",
+      "title": "洛伦没有在婚礼公开守护龙身份或施加保密制约，身份转换改为顺其自然",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第509源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -11669,7 +11669,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-509-03",
-      "title": "世界设定事实｜第509源章｜3",
+      "title": "索菲亚只知道养母是创世神龙的分身，不知道生命女神本体",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第509源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -11694,7 +11694,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-509-04",
-      "title": "世界设定事实｜第509源章｜4",
+      "title": "普罗西亚由七魔塔支配",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第509源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -11719,7 +11719,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-509-01",
-      "title": "新建立连续性｜第509源章｜1",
+      "title": "诺亚索菲亚完婚",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第509源章第1条）",
       "category": "continuity",
       "keys": [
@@ -11745,7 +11745,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-509-02",
-      "title": "新建立连续性｜第509源章｜2",
+      "title": "古神子女团聚",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第509源章第2条）",
       "category": "continuity",
       "keys": [
@@ -11770,7 +11770,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-509-03",
-      "title": "新建立连续性｜第509源章｜3",
+      "title": "预言派读取魔力流",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第509源章第3条）",
       "category": "continuity",
       "keys": [
@@ -11795,7 +11795,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-509-01",
-      "title": "未解决事项｜第509源章｜1",
+      "title": "白塔异常",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第509源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -11820,7 +11820,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-509-02",
-      "title": "未解决事项｜第509源章｜2",
+      "title": "古神家庭空缺",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第509源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -11845,7 +11845,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-509-03",
-      "title": "未解决事项｜第509源章｜3",
+      "title": "正式退隐",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第509源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -11870,7 +11870,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-509-01",
-      "title": "主角龙形态｜第509源章｜1",
+      "title": "主角龙形态｜预言学派.(1)｜婚礼仍为银发有角人形",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第509源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11895,7 +11895,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-509-01",
-      "title": "主角龙状态｜第509源章｜1",
+      "title": "主角龙状态｜预言学派.(1)｜守护龙完成婚礼职责，即将退隐，却因古神家庭团聚接到预言学派线索",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第509源章第1条）",
       "category": "character-state",
       "keys": [
@@ -11920,7 +11920,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-509-01",
-      "title": "主角龙知识边界｜第509源章｜1",
+      "title": "主角龙知识边界｜预言学派.(1)｜预言派为何可读自然魔力、具体不稳动向和空缺子女身份均未揭晓",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第509源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -11945,7 +11945,7 @@
     },
     {
       "id": "era-24-prosperity-event-510-01",
-      "title": "事件｜第510源章｜1",
+      "title": "预言追求者先向长寿种族，精灵，诸神，古神乃至生命女神求问未来",
       "memo": "帝国繁荣、索菲亚与预言：事件（第510源章第1条）",
       "category": "event",
       "keys": [
@@ -11970,7 +11970,7 @@
     },
     {
       "id": "era-24-prosperity-event-510-02",
-      "title": "事件｜第510源章｜2",
+      "title": "自然魔力不可被普通存在直接操纵，精灵和神也需吸收转化，唯洛伦的魔力与自然魔力同质",
       "memo": "帝国繁荣、索菲亚与预言：事件（第510源章第2条）",
       "category": "event",
       "keys": [
@@ -11995,7 +11995,7 @@
     },
     {
       "id": "era-24-prosperity-event-510-03",
-      "title": "事件｜第510源章｜3",
+      "title": "伊夫利特因生命女神本体被亚瑟和希雅监视且工作繁忙，改向人间分身报告",
       "memo": "帝国繁荣、索菲亚与预言：事件（第510源章第3条）",
       "category": "event",
       "keys": [
@@ -12023,7 +12023,7 @@
     },
     {
       "id": "era-24-prosperity-event-510-04",
-      "title": "事件｜第510源章｜4",
+      "title": "白塔以预言吸引贵族、富商、祭司、外国王室等影响者，少数核心秘密信奉世界毁灭预言",
       "memo": "帝国繁荣、索菲亚与预言：事件（第510源章第4条）",
       "category": "event",
       "keys": [
@@ -12049,7 +12049,7 @@
     },
     {
       "id": "era-24-prosperity-event-510-05",
-      "title": "事件｜第510源章｜5",
+      "title": "洛伦提出毁灭预言是否指破灭神龙，引发古神子女创伤反应",
       "memo": "帝国繁荣、索菲亚与预言：事件（第510源章第5条）",
       "category": "event",
       "keys": [
@@ -12075,7 +12075,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-510-01",
-      "title": "世界设定事实｜第510源章｜1",
+      "title": "生命女神拒绝向凡人明确未来，理由是知晓会使人被未来束缚、命运固定",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第510源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12100,7 +12100,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-510-02",
-      "title": "世界设定事实｜第510源章｜2",
+      "title": "预言者联盟由魔法师和部分祭司组成，后成白色魔塔预言学派",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第510源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12125,7 +12125,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-510-03",
-      "title": "世界设定事实｜第510源章｜3",
+      "title": "普通精灵、神和魔法师不能直接操控自然魔力，需吸收入体转为自身魔力",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第510源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12150,7 +12150,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-510-04",
-      "title": "世界设定事实｜第510源章｜4",
+      "title": "白塔用预言接触多国权贵，极少数内部成员信奉世界毁灭预言，调查者已被灭口",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第510源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12175,7 +12175,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-510-05",
-      "title": "世界设定事实｜第510源章｜5",
+      "title": "破灭神龙一词关联洛伦曾终结巨龙时代、近乎毁灭世界的过去，对古神子女有创伤意义",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第510源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -12200,7 +12200,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-510-01",
-      "title": "新建立连续性｜第510源章｜1",
+      "title": "白塔末日信仰",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第510源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12225,7 +12225,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-510-02",
-      "title": "新建立连续性｜第510源章｜2",
+      "title": "预言师蒙眼",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第510源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12250,7 +12250,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-510-03",
-      "title": "新建立连续性｜第510源章｜3",
+      "title": "破灭神龙怀疑",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第510源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12275,7 +12275,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-510-01",
-      "title": "未解决事项｜第510源章｜1",
+      "title": "毁灭预言内容",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第510源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12300,7 +12300,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-510-02",
-      "title": "未解决事项｜第510源章｜2",
+      "title": "白塔计划",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第510源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12325,7 +12325,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-510-03",
-      "title": "未解决事项｜第510源章｜3",
+      "title": "特工被杀原因",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第510源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12350,7 +12350,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-510-01",
-      "title": "主角龙形态｜第510源章｜1",
+      "title": "主角龙形态｜预言学派.(2)｜人形分身与古神子女密谈",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第510源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12375,7 +12375,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-510-01",
-      "title": "主角龙状态｜第510源章｜1",
+      "title": "主角龙状态｜预言学派.(2)｜退休前的守护龙被末日预言重新连接到自己曾经毁灭世界的历史",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第510源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12400,7 +12400,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-510-01",
-      "title": "主角龙知识边界｜第510源章｜1",
+      "title": "主角龙知识边界｜预言学派.(2)｜末日预言正文未知",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第510源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12426,7 +12426,7 @@
     },
     {
       "id": "era-24-prosperity-event-511-01",
-      "title": "事件｜第511源章｜1",
+      "title": "伊夫利特因白塔预言异常精准保留万一怀疑",
       "memo": "帝国繁荣、索菲亚与预言：事件（第511源章第1条）",
       "category": "event",
       "keys": [
@@ -12452,7 +12452,7 @@
     },
     {
       "id": "era-24-prosperity-event-511-02",
-      "title": "事件｜第511源章｜2",
+      "title": "后世文献概述破灭神龙神话：创世神龙在末日反转",
       "memo": "帝国繁荣、索菲亚与预言：事件（第511源章第2条）",
       "category": "event",
       "keys": [
@@ -12477,7 +12477,7 @@
     },
     {
       "id": "era-24-prosperity-event-511-03",
-      "title": "事件｜第511源章｜3",
+      "title": "洛伦暂把预言学派留待以后，与古神子女愉快叙旧",
       "memo": "帝国繁荣、索菲亚与预言：事件（第511源章第3条）",
       "category": "event",
       "keys": [
@@ -12502,7 +12502,7 @@
     },
     {
       "id": "era-24-prosperity-event-511-04",
-      "title": "事件｜第511源章｜4",
+      "title": "别宫落成后洛伦悠闲生活，并询问索菲亚是否满意皇后身份",
       "memo": "帝国繁荣、索菲亚与预言：事件（第511源章第4条）",
       "category": "event",
       "keys": [
@@ -12527,7 +12527,7 @@
     },
     {
       "id": "era-24-prosperity-event-511-05",
-      "title": "事件｜第511源章｜5",
+      "title": "诺亚与索菲亚育有五子女",
       "memo": "帝国繁荣、索菲亚与预言：事件（第511源章第5条）",
       "category": "event",
       "keys": [
@@ -12553,7 +12553,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-511-01",
-      "title": "世界设定事实｜第511源章｜1",
+      "title": "主流神话称创世神龙在末日反转为破灭神龙",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第511源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -12578,7 +12578,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-511-02",
-      "title": "世界设定事实｜第511源章｜2",
+      "title": "婚后洛伦已退出行政、入住守护龙别宫",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第511源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -12604,7 +12604,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-511-03",
-      "title": "世界设定事实｜第511源章｜3",
+      "title": "诺亚与索菲亚育有五子女：长子与第三子为男，第二、第四和最小为女，均不畏惧银龙形态洛伦",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第511源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -12630,7 +12630,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-511-04",
-      "title": "世界设定事实｜第511源章｜4",
+      "title": "诺亚成为名君",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第511源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -12656,7 +12656,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-511-05",
-      "title": "世界设定事实｜第511源章｜5",
+      "title": "帝国后来从德拉格玛改名鲁贝洛斯",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第511源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -12683,7 +12683,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-511-01",
-      "title": "新建立连续性｜第511源章｜1",
+      "title": "洛伦正式退休",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第511源章第1条）",
       "category": "continuity",
       "keys": [
@@ -12708,7 +12708,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-511-02",
-      "title": "新建立连续性｜第511源章｜2",
+      "title": "诺亚索菲亚五子女",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第511源章第2条）",
       "category": "continuity",
       "keys": [
@@ -12734,7 +12734,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-511-03",
-      "title": "新建立连续性｜第511源章｜3",
+      "title": "索菲亚救济制度",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第511源章第3条）",
       "category": "continuity",
       "keys": [
@@ -12759,7 +12759,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-511-04",
-      "title": "新建立连续性｜第511源章｜4",
+      "title": "鲁贝洛斯国名",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第511源章第4条）",
       "category": "continuity",
       "keys": [
@@ -12784,7 +12784,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-511-01",
-      "title": "未解决事项｜第511源章｜1",
+      "title": "预言学派调查",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第511源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -12809,7 +12809,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-511-02",
-      "title": "未解决事项｜第511源章｜2",
+      "title": "破灭神龙预言",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第511源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -12834,7 +12834,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-511-03",
-      "title": "未解决事项｜第511源章｜3",
+      "title": "古神空缺者",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第511源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -12859,7 +12859,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-511-01",
-      "title": "主角龙形态｜第511源章｜1",
+      "title": "主角龙形态｜预言学派.(3)｜退休后常以银色巨龙原形在别宫悠闲生活，也仍能以人形与索菲亚交谈",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第511源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12884,7 +12884,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-511-01",
-      "title": "主角龙状态｜第511源章｜1",
+      "title": "主角龙状态｜预言学派.(3)｜守护龙行政时代结束，进入见证诺亚一家成长与帝国改名的长期守望期",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第511源章第1条）",
       "category": "character-state",
       "keys": [
@@ -12910,7 +12910,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-511-01",
-      "title": "主角龙知识边界｜第511源章｜1",
+      "title": "主角龙知识边界｜预言学派.(3)｜预言学派只被列为以后处理，尚未调查",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第511源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -12935,7 +12935,7 @@
     },
     {
       "id": "era-24-prosperity-event-512-01",
-      "title": "事件｜第512源章｜1",
+      "title": "以诺八十岁出头倒下，诺亚通知洛伦",
       "memo": "帝国繁荣、索菲亚与预言：事件（第512源章第1条）",
       "category": "event",
       "keys": [
@@ -12962,7 +12962,7 @@
     },
     {
       "id": "era-24-prosperity-event-512-02",
-      "title": "事件｜第512源章｜2",
+      "title": "洛伦久别皇城，发现诺亚子女已成婚并有皇孙，切实体会人类世代更替",
       "memo": "帝国繁荣、索菲亚与预言：事件（第512源章第2条）",
       "category": "event",
       "keys": [
@@ -12988,7 +12988,7 @@
     },
     {
       "id": "era-24-prosperity-event-512-03",
-      "title": "事件｜第512源章｜3",
+      "title": "以诺安详濒死，死神已在床边",
       "memo": "帝国繁荣、索菲亚与预言：事件（第512源章第3条）",
       "category": "event",
       "keys": [
@@ -13014,7 +13014,7 @@
     },
     {
       "id": "era-24-prosperity-event-512-04",
-      "title": "事件｜第512源章｜4",
+      "title": "以诺说因洛伦和不死盟约才敢冒险救人，感谢她作为支柱",
       "memo": "帝国繁荣、索菲亚与预言：事件（第512源章第4条）",
       "category": "event",
       "keys": [
@@ -13040,7 +13040,7 @@
     },
     {
       "id": "era-24-prosperity-event-512-05",
-      "title": "事件｜第512源章｜5",
+      "title": "以诺拒绝免死，因为妻子伊利亚已先离世",
       "memo": "帝国繁荣、索菲亚与预言：事件（第512源章第5条）",
       "category": "event",
       "keys": [
@@ -13068,7 +13068,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-512-01",
-      "title": "世界设定事实｜第512源章｜1",
+      "title": "以诺刚过八十岁",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第512源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13094,7 +13094,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-512-02",
-      "title": "世界设定事实｜第512源章｜2",
+      "title": "洛伦维持银色巨龙形态数十年后可随时变回巅峰人形，不受长期不动影响",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第512源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13119,7 +13119,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-512-03",
-      "title": "世界设定事实｜第512源章｜3",
+      "title": "守护龙别宫龙巢只允许皇室直系进入，数十年进入者刚过两位数",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第512源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13144,7 +13144,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-512-04",
-      "title": "世界设定事实｜第512源章｜4",
+      "title": "死神在自然死亡前来接引并听从生命女神暂缓",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第512源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13169,7 +13169,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-512-05",
-      "title": "世界设定事实｜第512源章｜5",
+      "title": "此时诺亚称洛伦师父、索菲亚改称母亲、后代称守护龙大人",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第512源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -13196,7 +13196,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-512-06",
-      "title": "世界设定事实｜第512源章｜6",
+      "title": "银龙之爪团名号已捐给冒险者公会",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第512源章第6条）",
       "category": "world-fact",
       "keys": [
@@ -13223,7 +13223,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-512-01",
-      "title": "新建立连续性｜第512源章｜1",
+      "title": "以诺临终",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第512源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13249,7 +13249,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-512-02",
-      "title": "新建立连续性｜第512源章｜2",
+      "title": "皇室已有孙辈",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第512源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13274,7 +13274,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-512-03",
-      "title": "新建立连续性｜第512源章｜3",
+      "title": "杰里亚之死再调查动机",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第512源章第3条）",
       "category": "continuity",
       "keys": [
@@ -13300,7 +13300,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-512-01",
-      "title": "未解决事项｜第512源章｜1",
+      "title": "以诺最后请求",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第512源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13326,7 +13326,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-512-02",
-      "title": "未解决事项｜第512源章｜2",
+      "title": "杰里亚真相",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第512源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13352,7 +13352,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-512-03",
-      "title": "未解决事项｜第512源章｜3",
+      "title": "死亡与乐园",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第512源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13377,7 +13377,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-512-01",
-      "title": "主角龙形态｜第512源章｜1",
+      "title": "主角龙形态｜临终前.(1)｜数十年维持完整银色巨龙守护形态",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第512源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13403,7 +13403,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-512-01",
-      "title": "主角龙状态｜第512源章｜1",
+      "title": "主角龙状态｜临终前.(1)｜长生守护龙第一次在新王朝多代之后送别最早人类伙伴，名字本身也随他将逝",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第512源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13428,7 +13428,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-512-01",
-      "title": "主角龙知识边界｜第512源章｜1",
+      "title": "主角龙知识边界｜临终前.(1)｜杰里亚死因仍不明",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第512源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13455,7 +13455,7 @@
     },
     {
       "id": "era-24-prosperity-event-513-01",
-      "title": "事件｜第513源章｜1",
+      "title": "以诺临终仍不知杰里亚与女皇死因",
       "memo": "帝国繁荣、索菲亚与预言：事件（第513源章第1条）",
       "category": "event",
       "keys": [
@@ -13482,7 +13482,7 @@
     },
     {
       "id": "era-24-prosperity-event-513-02",
-      "title": "事件｜第513源章｜2",
+      "title": "洛伦曾从冥界交易取得并冻结杰里亚、阿尔忒西亚完整灵魂与记忆，因不明犹豫一直未询问",
       "memo": "帝国繁荣、索菲亚与预言：事件（第513源章第2条）",
       "category": "event",
       "keys": [
@@ -13509,7 +13509,7 @@
     },
     {
       "id": "era-24-prosperity-event-513-03",
-      "title": "事件｜第513源章｜3",
+      "title": "洛伦提议临别交谈并可能取线索，以诺同意",
       "memo": "帝国繁荣、索菲亚与预言：事件（第513源章第3条）",
       "category": "event",
       "keys": [
@@ -13536,7 +13536,7 @@
     },
     {
       "id": "era-24-prosperity-event-513-04",
-      "title": "事件｜第513源章｜4",
+      "title": "两名死者在数十年后以完整记忆醒来，杰里亚仅凭声音认出老去的以诺",
       "memo": "帝国繁荣、索菲亚与预言：事件（第513源章第4条）",
       "category": "event",
       "keys": [
@@ -13563,7 +13563,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-513-01",
-      "title": "世界设定事实｜第513源章｜1",
+      "title": "预言学派或幕后者能避开洛伦千里眼搜查，可能通过预言预知观察，但尚无定论",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第513源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -13588,7 +13588,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-513-02",
-      "title": "世界设定事实｜第513源章｜2",
+      "title": "生命女神信徒规模过大使逐一观察反而困难",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第513源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -13613,7 +13613,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-513-03",
-      "title": "世界设定事实｜第513源章｜3",
+      "title": "洛伦通过冥界交易截留杰里亚与阿尔忒西亚灵魂，以时间冻结保存完整记忆",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第513源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -13639,7 +13639,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-513-04",
-      "title": "世界设定事实｜第513源章｜4",
+      "title": "生命女神可用灵魂珠作核心临时制作灵体，使冻结死者恢复意识和交谈，灵魂记忆无损",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第513源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -13664,7 +13664,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-513-05",
-      "title": "世界设定事实｜第513源章｜5",
+      "title": "洛伦称灵魂在冥界审判后会被洗涤记忆",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第513源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -13689,7 +13689,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-513-01",
-      "title": "新建立连续性｜第513源章｜1",
+      "title": "杰里亚阿尔忒西亚灵魂保存",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第513源章第1条）",
       "category": "continuity",
       "keys": [
@@ -13715,7 +13715,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-513-02",
-      "title": "新建立连续性｜第513源章｜2",
+      "title": "临时灵体会面",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第513源章第2条）",
       "category": "continuity",
       "keys": [
@@ -13740,7 +13740,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-513-01",
-      "title": "未解决事项｜第513源章｜1",
+      "title": "阿尔忒西亚证言",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第513源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -13765,7 +13765,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-513-02",
-      "title": "未解决事项｜第513源章｜2",
+      "title": "以诺杰里亚告别",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第513源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -13792,7 +13792,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-513-03",
-      "title": "未解决事项｜第513源章｜3",
+      "title": "灵魂归冥界",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第513源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -13817,7 +13817,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-513-01",
-      "title": "主角龙形态｜第513源章｜1",
+      "title": "主角龙形态｜临终前.(2)｜以昔日洛伦人形坐在以诺临终床前，并以生命女神权能操作灵魂和空间",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第513源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13843,7 +13843,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-513-01",
-      "title": "主角龙状态｜第513源章｜1",
+      "title": "主角龙状态｜临终前.(2)｜守护龙为第一位朋友的临终遗憾破例启用保存多年的死者灵魂",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第513源章第1条）",
       "category": "character-state",
       "keys": [
@@ -13868,7 +13868,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-513-01",
-      "title": "主角龙知识边界｜第513源章｜1",
+      "title": "主角龙知识边界｜临终前.(2)｜幕后真相仍未问出",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第513源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -13895,7 +13895,7 @@
     },
     {
       "id": "era-24-prosperity-event-514-01",
-      "title": "事件｜第514源章｜1",
+      "title": "洛伦把阿尔忒西亚带到旧索菲亚亚空间",
       "memo": "帝国繁荣、索菲亚与预言：事件（第514源章第1条）",
       "category": "event",
       "keys": [
@@ -13921,7 +13921,7 @@
     },
     {
       "id": "era-24-prosperity-event-514-02",
-      "title": "事件｜第514源章｜2",
+      "title": "阿尔忒西亚承认直接听过预言魔术师说话，却不知道其身份",
       "memo": "帝国繁荣、索菲亚与预言：事件（第514源章第2条）",
       "category": "event",
       "keys": [
@@ -13946,7 +13946,7 @@
     },
     {
       "id": "era-24-prosperity-event-514-03",
-      "title": "事件｜第514源章｜3",
+      "title": "洛伦从帝国已灭和女皇把皇位视为枷锁，推断其目的就是摧毁德拉格玛帝国与皇室",
       "memo": "帝国繁荣、索菲亚与预言：事件（第514源章第3条）",
       "category": "event",
       "keys": [
@@ -13971,7 +13971,7 @@
     },
     {
       "id": "era-24-prosperity-event-514-04",
-      "title": "事件｜第514源章｜4",
+      "title": "阿尔忒西亚原名希雅，与母亲相依为命",
       "memo": "帝国繁荣、索菲亚与预言：事件（第514源章第4条）",
       "category": "event",
       "keys": [
@@ -13996,7 +13996,7 @@
     },
     {
       "id": "era-24-prosperity-event-514-05",
-      "title": "事件｜第514源章｜5",
+      "title": "阿尔忒西亚不懂魔法，不知爆炸手段或预言者身份",
       "memo": "帝国繁荣、索菲亚与预言：事件（第514源章第5条）",
       "category": "event",
       "keys": [
@@ -14022,7 +14022,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-514-01",
-      "title": "世界设定事实｜第514源章｜1",
+      "title": "旧索菲亚亚空间仍存在且内部时间约外界十二倍，物品受保存魔法，未经洛伦许可无人可入",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第514源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14047,7 +14047,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-514-02",
-      "title": "世界设定事实｜第514源章｜2",
+      "title": "阿尔忒西亚亲自听过预言魔术师说话，但对方以避免被察觉为由始终不报身份",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第514源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14072,7 +14072,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-514-03",
-      "title": "世界设定事实｜第514源章｜3",
+      "title": "阿尔忒西亚本名希雅，是皇帝私生女",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第514源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14097,7 +14097,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-514-04",
-      "title": "世界设定事实｜第514源章｜4",
+      "title": "希雅主动以摧毁德拉格玛皇室与帝国为唯一目标，预言者主动接近并承诺协助",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第514源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -14122,7 +14122,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-514-05",
-      "title": "世界设定事实｜第514源章｜5",
+      "title": "希雅不知预言者具体身份或天狼星爆炸技术，只知道行动由预言魔术师实施",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第514源章第5条）",
       "category": "world-fact",
       "keys": [
@@ -14147,7 +14147,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-514-01",
-      "title": "新建立连续性｜第514源章｜1",
+      "title": "希雅私生女经历",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第514源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14172,7 +14172,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-514-02",
-      "title": "新建立连续性｜第514源章｜2",
+      "title": "主动毁国动机",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第514源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14197,7 +14197,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-514-03",
-      "title": "新建立连续性｜第514源章｜3",
+      "title": "预言者主动协助",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第514源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14222,7 +14222,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-514-01",
-      "title": "未解决事项｜第514源章｜1",
+      "title": "预言者身份｜临终前.(3)",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第514源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14247,7 +14247,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-514-02",
-      "title": "未解决事项｜第514源章｜2",
+      "title": "爆炸手段",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第514源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14272,7 +14272,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-514-03",
-      "title": "未解决事项｜第514源章｜3",
+      "title": "与杰里亚联姻真正理由",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第514源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14298,7 +14298,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-514-01",
-      "title": "主角龙形态｜第514源章｜1",
+      "title": "主角龙形态｜临终前.(3)｜生命女神人形在封闭亚空间审问灵魂，不显龙身",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第514源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14323,7 +14323,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-514-01",
-      "title": "主角龙状态｜第514源章｜1",
+      "title": "主角龙状态｜临终前.(3)｜守护龙终于确认天狼星爆炸的委托动机来自末代女皇复仇",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第514源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14348,7 +14348,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-514-01",
-      "title": "主角龙知识边界｜第514源章｜1",
+      "title": "主角龙知识边界｜临终前.(3)｜毁国动机为希雅亲口确认",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第514源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14373,7 +14373,7 @@
     },
     {
       "id": "era-24-prosperity-event-515-01",
-      "title": "事件｜第515源章｜1",
+      "title": "洛伦从联姻非毁国必需，推断阿尔忒西亚还想借名垂青史新帝国预言留下自己存在过的痕迹",
       "memo": "帝国繁荣、索菲亚与预言：事件（第515源章第1条）",
       "category": "event",
       "keys": [
@@ -14398,7 +14398,7 @@
     },
     {
       "id": "era-24-prosperity-event-515-02",
-      "title": "事件｜第515源章｜2",
+      "title": "阿尔忒西亚说杰里亚知情同意，用自己一命换整个帝国交给敬仰的以诺与姐姐之子诺亚",
       "memo": "帝国繁荣、索菲亚与预言：事件（第515源章第2条）",
       "category": "event",
       "keys": [
@@ -14426,7 +14426,7 @@
     },
     {
       "id": "era-24-prosperity-event-515-03",
-      "title": "事件｜第515源章｜3",
+      "title": "新线索显示预言者同伴自称为守护世界，且其中一人能用生命教团治愈魔法",
       "memo": "帝国繁荣、索菲亚与预言：事件（第515源章第3条）",
       "category": "event",
       "keys": [
@@ -14451,7 +14451,7 @@
     },
     {
       "id": "era-24-prosperity-event-515-04",
-      "title": "事件｜第515源章｜4",
+      "title": "洛伦带阿尔忒西亚回以诺房间",
       "memo": "帝国繁荣、索菲亚与预言：事件（第515源章第4条）",
       "category": "event",
       "keys": [
@@ -14478,7 +14478,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-515-01",
-      "title": "世界设定事实｜第515源章｜1",
+      "title": "杰里亚事先同意以自身死亡换取德拉格玛帝国整体落入鲁贝洛斯与诺亚",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第515源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -14505,7 +14505,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-515-02",
-      "title": "世界设定事实｜第515源章｜2",
+      "title": "预言者团体成员自称行为是为守护世界，且其中一人能使用生命教团治愈魔法",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第515源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -14530,7 +14530,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-515-03",
-      "title": "世界设定事实｜第515源章｜3",
+      "title": "生命教团线索可能是真实渗透，也可能是故意让生命女神怀疑教团的伪装，当前无法判定",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第515源章第3条）",
       "category": "world-fact",
       "keys": [
@@ -14555,7 +14555,7 @@
     },
     {
       "id": "era-24-prosperity-world-fact-515-04",
-      "title": "世界设定事实｜第515源章｜4",
+      "title": "死神最终同时带走以诺、杰里亚和阿尔忒西亚灵魂前往冥界",
       "memo": "帝国繁荣、索菲亚与预言：世界设定事实（第515源章第4条）",
       "category": "world-fact",
       "keys": [
@@ -14582,7 +14582,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-515-01",
-      "title": "新建立连续性｜第515源章｜1",
+      "title": "杰里亚知情交易",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第515源章第1条）",
       "category": "continuity",
       "keys": [
@@ -14608,7 +14608,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-515-02",
-      "title": "新建立连续性｜第515源章｜2",
+      "title": "守护世界自称",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第515源章第2条）",
       "category": "continuity",
       "keys": [
@@ -14633,7 +14633,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-515-03",
-      "title": "新建立连续性｜第515源章｜3",
+      "title": "治愈魔法线索",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第515源章第3条）",
       "category": "continuity",
       "keys": [
@@ -14658,7 +14658,7 @@
     },
     {
       "id": "era-24-prosperity-continuity-new-515-04",
-      "title": "新建立连续性｜第515源章｜4",
+      "title": "以诺死亡",
       "memo": "帝国繁荣、索菲亚与预言：新建立连续性（第515源章第4条）",
       "category": "continuity",
       "keys": [
@@ -14684,7 +14684,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-515-01",
-      "title": "未解决事项｜第515源章｜1",
+      "title": "预言者身份｜临终前.(4)",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第515源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -14709,7 +14709,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-515-02",
-      "title": "未解决事项｜第515源章｜2",
+      "title": "生命教团是否渗透",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第515源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -14734,7 +14734,7 @@
     },
     {
       "id": "era-24-prosperity-unresolved-515-03",
-      "title": "未解决事项｜第515源章｜3",
+      "title": "冥界审判",
       "memo": "帝国繁荣、索菲亚与预言：未解决事项（第515源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -14759,7 +14759,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-form-515-01",
-      "title": "主角龙形态｜第515源章｜1",
+      "title": "主角龙形态｜临终前.(4)｜生命女神人形完成灵魂问询与送别",
       "memo": "帝国繁荣、索菲亚与预言：主角龙形态（第515源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14784,7 +14784,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-state-515-01",
-      "title": "主角龙状态｜第515源章｜1",
+      "title": "主角龙状态｜临终前.(4)｜守护龙失去唯一以洛伦称呼她的首位人类朋友",
       "memo": "帝国繁荣、索菲亚与预言：主角龙状态（第515源章第1条）",
       "category": "character-state",
       "keys": [
@@ -14809,7 +14809,7 @@
     },
     {
       "id": "era-24-prosperity-protagonist-knowledge-515-01",
-      "title": "主角龙知识边界｜第515源章｜1",
+      "title": "主角龙知识边界｜临终前.(4)｜以诺与杰里亚私谈内容未叙述",
       "memo": "帝国繁荣、索菲亚与预言：主角龙知识边界（第515源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -14836,7 +14836,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-01",
-      "title": "次要人物｜希尔芙",
+      "title": "希尔芙",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 希尔芙",
       "category": "secondary-character",
       "keys": [
@@ -14862,7 +14862,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-02",
-      "title": "次要人物｜忒提斯",
+      "title": "忒提斯",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 忒提斯",
       "category": "secondary-character",
       "keys": [
@@ -14888,7 +14888,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-03",
-      "title": "次要人物｜沙马什",
+      "title": "沙马什",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 沙马什",
       "category": "secondary-character",
       "keys": [
@@ -14914,7 +14914,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-04",
-      "title": "次要人物｜冒险者公会会长",
+      "title": "冒险者公会会长",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 冒险者公会会长",
       "category": "secondary-character",
       "keys": [
@@ -14940,7 +14940,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-05",
-      "title": "次要人物｜生命教团鲁贝洛斯分部部长",
+      "title": "生命教团鲁贝洛斯分部部长",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 生命教团鲁贝洛斯分部部长",
       "category": "secondary-character",
       "keys": [
@@ -14966,7 +14966,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-06",
-      "title": "次要人物｜B级中年冒险者",
+      "title": "B级中年冒险者",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 B级中年冒险者",
       "category": "secondary-character",
       "keys": [
@@ -14992,7 +14992,7 @@
     },
     {
       "id": "era-24-prosperity-secondary-character-07",
-      "title": "次要人物｜C级年轻冒险者",
+      "title": "C级年轻冒险者",
       "memo": "帝国繁荣、索菲亚与预言：次要人物 C级年轻冒险者",
       "category": "secondary-character",
       "keys": [

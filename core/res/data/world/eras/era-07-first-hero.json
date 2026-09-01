@@ -2519,7 +2519,7 @@
   "lorebook": [
     {
       "id": "era-07-first-hero-core",
-      "title": "英雄之剑与首位英雄｜时代边界",
+      "title": "英雄之剑与首位英雄",
       "memo": "英雄之剑与首位英雄：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -2534,7 +2534,7 @@
     },
     {
       "id": "era-07-first-hero-event-78-01",
-      "title": "事件｜第78源章｜1",
+      "title": "主角逐族评估后选择自由活动的人类持武器猎强怪，计划生命神殿设英雄位与助手",
       "memo": "英雄之剑与首位英雄：事件（第78源章第1条）",
       "category": "event",
       "keys": [
@@ -2559,7 +2559,7 @@
     },
     {
       "id": "era-07-first-hero-event-78-02",
-      "title": "事件｜第78源章｜2",
+      "title": "她确定巨剑/银铠两形态，发现附魔金可记忆三形态，以魔力驱动但变形中脆弱",
       "memo": "英雄之剑与首位英雄：事件（第78源章第2条）",
       "category": "event",
       "keys": [
@@ -2584,7 +2584,7 @@
     },
     {
       "id": "era-07-first-hero-event-78-03",
-      "title": "事件｜第78源章｜3",
+      "title": "未来百科称剑为克拉乌·索拉斯/光之剑，银铠形态阿加斯拉姆",
       "memo": "英雄之剑与首位英雄：事件（第78源章第3条）",
       "category": "event",
       "keys": [
@@ -2609,7 +2609,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-78-01",
-      "title": "世界设定事实｜第78源章｜1",
+      "title": "附魔金呈金灰色、能混合增强特性、以魔法纹路记忆至多三种形态，变形时易受阻、完成后坚固",
       "memo": "英雄之剑与首位英雄：世界设定事实（第78源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2634,7 +2634,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-78-01",
-      "title": "新建立连续性｜第78源章｜1",
+      "title": "英雄职位",
       "memo": "英雄之剑与首位英雄：新建立连续性（第78源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2659,7 +2659,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-78-02",
-      "title": "新建立连续性｜第78源章｜2",
+      "title": "英雄之剑设计",
       "memo": "英雄之剑与首位英雄：新建立连续性（第78源章第2条）",
       "category": "continuity",
       "keys": [
@@ -2684,7 +2684,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-78-03",
-      "title": "新建立连续性｜第78源章｜3",
+      "title": "附魔金形状记忆",
       "memo": "英雄之剑与首位英雄：新建立连续性（第78源章第3条）",
       "category": "continuity",
       "keys": [
@@ -2709,7 +2709,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-78-01",
-      "title": "未解决事项｜第78源章｜1",
+      "title": "剑完成",
       "memo": "英雄之剑与首位英雄：未解决事项（第78源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -2734,7 +2734,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-78-02",
-      "title": "未解决事项｜第78源章｜2",
+      "title": "英雄筛选",
       "memo": "英雄之剑与首位英雄：未解决事项（第78源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -2759,7 +2759,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-78-03",
-      "title": "未解决事项｜第78源章｜3",
+      "title": "助手",
       "memo": "英雄之剑与首位英雄：未解决事项（第78源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -2784,7 +2784,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-78-01",
-      "title": "主角龙形态｜第78源章｜1",
+      "title": "主角龙形态｜第七十三章：英雄之剑（1）｜锻造实验状态，形态未说明",
       "memo": "英雄之剑与首位英雄：主角龙形态（第78源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2809,7 +2809,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-78-01",
-      "title": "主角龙状态｜第78源章｜1",
+      "title": "主角龙状态｜第七十三章：英雄之剑（1）｜英雄制度和双形态神剑的设计者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第78源章第1条）",
       "category": "character-state",
       "keys": [
@@ -2834,7 +2834,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-78-01",
-      "title": "主角龙知识边界｜第78源章｜1",
+      "title": "主角龙知识边界｜第七十三章：英雄之剑（1）｜剑和持有者尚未完成，未来百科功能不得回填",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第78源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -2859,7 +2859,7 @@
     },
     {
       "id": "era-07-first-hero-event-79-01",
-      "title": "事件｜第79源章｜1",
+      "title": "主角命名精金/秘银/奥利哈钢，造巨剑变银甲与单手剑",
       "memo": "英雄之剑与首位英雄：事件（第79源章第1条）",
       "category": "event",
       "keys": [
@@ -2884,7 +2884,7 @@
     },
     {
       "id": "era-07-first-hero-event-79-02",
-      "title": "事件｜第79源章｜2",
+      "title": "持剑条件设善良、天赋、见义勇为、可牺牲珍视物，并保留主角最高权限后门",
       "memo": "英雄之剑与首位英雄：事件（第79源章第2条）",
       "category": "event",
       "keys": [
@@ -2909,7 +2909,7 @@
     },
     {
       "id": "era-07-first-hero-event-79-03",
-      "title": "事件｜第79源章｜3",
+      "title": "未来英雄队记录中少年持神剑仍败给兜帽龙角少女普通铁剑",
       "memo": "英雄之剑与首位英雄：事件（第79源章第3条）",
       "category": "event",
       "keys": [
@@ -2934,7 +2934,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-79-01",
-      "title": "世界设定事实｜第79源章｜1",
+      "title": "克拉乌·索拉斯以秘银/奥利哈钢合金与精金刃构成，黑钻卡槽在银甲时位于胸甲",
       "memo": "英雄之剑与首位英雄：世界设定事实（第79源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -2959,7 +2959,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-79-01",
-      "title": "新建立连续性｜第79源章｜1",
+      "title": "精金/秘银/奥利哈钢命名",
       "memo": "英雄之剑与首位英雄：新建立连续性（第79源章第1条）",
       "category": "continuity",
       "keys": [
@@ -2984,7 +2984,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-79-02",
-      "title": "新建立连续性｜第79源章｜2",
+      "title": "克拉乌·索拉斯",
       "memo": "英雄之剑与首位英雄：新建立连续性（第79源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3009,7 +3009,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-79-03",
-      "title": "新建立连续性｜第79源章｜3",
+      "title": "阿加斯拉姆",
       "memo": "英雄之剑与首位英雄：新建立连续性（第79源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3034,7 +3034,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-79-04",
-      "title": "新建立连续性｜第79源章｜4",
+      "title": "持有资格与后门",
       "memo": "英雄之剑与首位英雄：新建立连续性（第79源章第4条）",
       "category": "continuity",
       "keys": [
@@ -3059,7 +3059,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-79-01",
-      "title": "未解决事项｜第79源章｜1",
+      "title": "现实持有者",
       "memo": "英雄之剑与首位英雄：未解决事项（第79源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3084,7 +3084,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-79-01",
-      "title": "主角龙形态｜第79源章｜1",
+      "title": "主角龙形态｜第七十三章：英雄之剑（2）｜亲自穿戴阿加斯拉姆银甲测试",
       "memo": "英雄之剑与首位英雄：主角龙形态（第79源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3109,7 +3109,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-79-01",
-      "title": "主角龙状态｜第79源章｜1",
+      "title": "主角龙状态｜第七十三章：英雄之剑（2）｜神剑完成者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第79源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3134,7 +3134,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-79-01",
-      "title": "主角龙知识边界｜第79源章｜1",
+      "title": "主角龙知识边界｜第七十三章：英雄之剑（2）｜未来少年与训练尚未发生",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第79源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3159,7 +3159,7 @@
     },
     {
       "id": "era-07-first-hero-event-80-01",
-      "title": "事件｜第80源章｜1",
+      "title": "普通体能人造人无剑技仍以神剑碎杀熊怪和数十怪，银甲抗碎石重拳",
       "memo": "英雄之剑与首位英雄：事件（第80源章第1条）",
       "category": "event",
       "keys": [
@@ -3184,7 +3184,7 @@
     },
     {
       "id": "era-07-first-hero-event-80-02",
-      "title": "事件｜第80源章｜2",
+      "title": "剑被插入生命神殿总部龙族墓地巨岩，以断环魔法封印的精金链缚",
       "memo": "英雄之剑与首位英雄：事件（第80源章第2条）",
       "category": "event",
       "keys": [
@@ -3209,7 +3209,7 @@
     },
     {
       "id": "era-07-first-hero-event-80-03",
-      "title": "事件｜第80源章｜3",
+      "title": "谣言吸引各族强者、王与贪心者一年尝试皆失败",
       "memo": "英雄之剑与首位英雄：事件（第80源章第3条）",
       "category": "event",
       "keys": [
@@ -3234,7 +3234,7 @@
     },
     {
       "id": "era-07-first-hero-event-80-04",
-      "title": "事件｜第80源章｜4",
+      "title": "主角意识现代道德与古代标准错位",
       "memo": "英雄之剑与首位英雄：事件（第80源章第4条）",
       "category": "event",
       "keys": [
@@ -3259,7 +3259,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-80-01",
-      "title": "世界设定事实｜第80源章｜1",
+      "title": "官方神谕的英雄条件为心善、天赋异禀、见义必为、舍己救人",
       "memo": "英雄之剑与首位英雄：世界设定事实（第80源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3284,7 +3284,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-80-01",
-      "title": "新建立连续性｜第80源章｜1",
+      "title": "首位英雄候选",
       "memo": "英雄之剑与首位英雄：新建立连续性（第80源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3310,7 +3310,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-80-02",
-      "title": "新建立连续性｜第80源章｜2",
+      "title": "神剑封印神谕",
       "memo": "英雄之剑与首位英雄：新建立连续性（第80源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3335,7 +3335,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-80-03",
-      "title": "新建立连续性｜第80源章｜3",
+      "title": "道德标准时代错配修正",
       "memo": "英雄之剑与首位英雄：新建立连续性（第80源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3360,7 +3360,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-80-01",
-      "title": "未解决事项｜第80源章｜1",
+      "title": "少年拔剑后处境",
       "memo": "英雄之剑与首位英雄：未解决事项（第80源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3385,7 +3385,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-80-02",
-      "title": "未解决事项｜第80源章｜2",
+      "title": "训练",
       "memo": "英雄之剑与首位英雄：未解决事项（第80源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3410,7 +3410,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-80-01",
-      "title": "主角龙形态｜第80源章｜1",
+      "title": "主角龙形态｜第七十五章：英雄之剑（3）｜隐蔽观察拔剑者，形态未说明",
       "memo": "英雄之剑与首位英雄：主角龙形态（第80源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3435,7 +3435,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-80-01",
-      "title": "主角龙状态｜第80源章｜1",
+      "title": "主角龙状态｜第七十五章：英雄之剑（3）｜从规则制定者转为主动修正标准并选择首位英雄",
       "memo": "英雄之剑与首位英雄：主角龙状态（第80源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3461,7 +3461,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-80-01",
-      "title": "主角龙知识边界｜第80源章｜1",
+      "title": "主角龙知识边界｜第七十五章：英雄之剑（3）｜少年姓名、身世与未来能力尚不知",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第80源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3486,7 +3486,7 @@
     },
     {
       "id": "era-07-first-hero-event-81-01",
-      "title": "事件｜第81源章｜1",
+      "title": "少年无故乡父母、靠垃圾生存，后被赐生者收养",
       "memo": "英雄之剑与首位英雄：事件（第81源章第1条）",
       "category": "event",
       "keys": [
@@ -3511,7 +3511,7 @@
     },
     {
       "id": "era-07-first-hero-event-81-02",
-      "title": "事件｜第81源章｜2",
+      "title": "拔剑传闻一年无人成功",
       "memo": "英雄之剑与首位英雄：事件（第81源章第2条）",
       "category": "event",
       "keys": [
@@ -3536,7 +3536,7 @@
     },
     {
       "id": "era-07-first-hero-event-81-03",
-      "title": "事件｜第81源章｜3",
+      "title": "人群与奥库斯争抢",
       "memo": "英雄之剑与首位英雄：事件（第81源章第3条）",
       "category": "event",
       "keys": [
@@ -3563,7 +3563,7 @@
     },
     {
       "id": "era-07-first-hero-event-81-04",
-      "title": "事件｜第81源章｜4",
+      "title": "主角划线警告，自称生命女神使者",
       "memo": "英雄之剑与首位英雄：事件（第81源章第4条）",
       "category": "event",
       "keys": [
@@ -3589,7 +3589,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-81-01",
-      "title": "世界设定事实｜第81源章｜1",
+      "title": "阿卡德二王子奥库斯公开以身份威胁首位英雄并跨过主角边界",
       "memo": "英雄之剑与首位英雄：世界设定事实（第81源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3616,7 +3616,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-81-01",
-      "title": "新建立连续性｜第81源章｜1",
+      "title": "主角亲自照料首位英雄",
       "memo": "英雄之剑与首位英雄：新建立连续性（第81源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3642,7 +3642,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-81-02",
-      "title": "新建立连续性｜第81源章｜2",
+      "title": "奥库斯冲突",
       "memo": "英雄之剑与首位英雄：新建立连续性（第81源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3668,7 +3668,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-81-03",
-      "title": "新建立连续性｜第81源章｜3",
+      "title": "生命女神使者公开形态",
       "memo": "英雄之剑与首位英雄：新建立连续性（第81源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3693,7 +3693,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-81-01",
-      "title": "未解决事项｜第81源章｜1",
+      "title": "神罚",
       "memo": "英雄之剑与首位英雄：未解决事项（第81源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -3718,7 +3718,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-81-02",
-      "title": "未解决事项｜第81源章｜2",
+      "title": "少年训练",
       "memo": "英雄之剑与首位英雄：未解决事项（第81源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -3743,7 +3743,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-81-01",
-      "title": "主角龙形态｜第81源章｜1",
+      "title": "主角龙形态｜第七十六章：英雄之剑（4）｜银发长角少女/生命女神使者",
       "memo": "英雄之剑与首位英雄：主角龙形态（第81源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3768,7 +3768,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-81-01",
-      "title": "主角龙状态｜第81源章｜1",
+      "title": "主角龙状态｜第七十六章：英雄之剑（4）｜首位英雄的公开保护者与亲自导师",
       "memo": "英雄之剑与首位英雄：主角龙状态（第81源章第1条）",
       "category": "character-state",
       "keys": [
@@ -3794,7 +3794,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-81-01",
-      "title": "主角龙知识边界｜第81源章｜1",
+      "title": "主角龙知识边界｜第七十六章：英雄之剑（4）｜少年仍未给姓名",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第81源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -3820,7 +3820,7 @@
     },
     {
       "id": "era-07-first-hero-event-82-01",
-      "title": "事件｜第82源章｜1",
+      "title": "主角以魔力压跪众人但不在神殿见血、也不让少年见暴力，放其逃散",
       "memo": "英雄之剑与首位英雄：事件（第82源章第1条）",
       "category": "event",
       "keys": [
@@ -3845,7 +3845,7 @@
     },
     {
       "id": "era-07-first-hero-event-82-02",
-      "title": "事件｜第82源章｜2",
+      "title": "奥库斯继续以国家威胁并贬神",
       "memo": "英雄之剑与首位英雄：事件（第82源章第2条）",
       "category": "event",
       "keys": [
@@ -3871,7 +3871,7 @@
     },
     {
       "id": "era-07-first-hero-event-82-03",
-      "title": "事件｜第82源章｜3",
+      "title": "奥库斯被传送至王都十一米高坠落四肢碎裂",
       "memo": "英雄之剑与首位英雄：事件（第82源章第3条）",
       "category": "event",
       "keys": [
@@ -3897,7 +3897,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-82-01",
-      "title": "世界设定事实｜第82源章｜1",
+      "title": "永生诅咒包含死神勿收魂印记、吸周围魔力维持最低生命、后裔非人、阿卡德生死循环神罚",
       "memo": "英雄之剑与首位英雄：世界设定事实（第82源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -3922,7 +3922,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-82-01",
-      "title": "新建立连续性｜第82源章｜1",
+      "title": "奥库斯永生诅咒",
       "memo": "英雄之剑与首位英雄：新建立连续性（第82源章第1条）",
       "category": "continuity",
       "keys": [
@@ -3948,7 +3948,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-82-02",
-      "title": "新建立连续性｜第82源章｜2",
+      "title": "后裔非人",
       "memo": "英雄之剑与首位英雄：新建立连续性（第82源章第2条）",
       "category": "continuity",
       "keys": [
@@ -3973,7 +3973,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-82-03",
-      "title": "新建立连续性｜第82源章｜3",
+      "title": "阿卡德神罚",
       "memo": "英雄之剑与首位英雄：新建立连续性（第82源章第3条）",
       "category": "continuity",
       "keys": [
@@ -3998,7 +3998,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-82-04",
-      "title": "新建立连续性｜第82源章｜4",
+      "title": "生命朝圣解除条件",
       "memo": "英雄之剑与首位英雄：新建立连续性（第82源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4023,7 +4023,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-82-01",
-      "title": "未解决事项｜第82源章｜1",
+      "title": "奥库斯是否悔改",
       "memo": "英雄之剑与首位英雄：未解决事项（第82源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4049,7 +4049,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-82-02",
-      "title": "未解决事项｜第82源章｜2",
+      "title": "国家后果",
       "memo": "英雄之剑与首位英雄：未解决事项（第82源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4074,7 +4074,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-82-01",
-      "title": "主角龙形态｜第82源章｜1",
+      "title": "主角龙形态｜第七十七章：神罚（1）｜银发龙角少女生命女神使者形态",
       "memo": "英雄之剑与首位英雄：主角龙形态（第82源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4099,7 +4099,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-82-01",
-      "title": "主角龙状态｜第82源章｜1",
+      "title": "主角龙状态｜第七十七章：神罚（1）｜对奥库斯与阿卡德施下可悔改解除的神罚",
       "memo": "英雄之剑与首位英雄：主角龙状态（第82源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4125,7 +4125,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-82-01",
-      "title": "主角龙知识边界｜第82源章｜1",
+      "title": "主角龙知识边界｜第七十七章：神罚（1）｜尚未观察国家实际后果",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第82源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4150,7 +4150,7 @@
     },
     {
       "id": "era-07-first-hero-event-83-01",
-      "title": "事件｜第83源章｜1",
+      "title": "半年后奥库斯康复，赐生者撤离使医疗崩塌，人们携病亲逃往国外",
       "memo": "英雄之剑与首位英雄：事件（第83源章第1条）",
       "category": "event",
       "keys": [
@@ -4176,7 +4176,7 @@
     },
     {
       "id": "era-07-first-hero-event-83-02",
-      "title": "事件｜第83源章｜2",
+      "title": "阿卡德土地庄稼不生、猎渔绝收，饥荒瘟疫驱使人口外逃",
       "memo": "英雄之剑与首位英雄：事件（第83源章第2条）",
       "category": "event",
       "keys": [
@@ -4201,7 +4201,7 @@
     },
     {
       "id": "era-07-first-hero-event-83-03",
-      "title": "事件｜第83源章｜3",
+      "title": "国王鲨卡尔得知奥库斯需赎罪朝圣，却因宠爱难下决定",
       "memo": "英雄之剑与首位英雄：事件（第83源章第3条）",
       "category": "event",
       "keys": [
@@ -4228,7 +4228,7 @@
     },
     {
       "id": "era-07-first-hero-event-83-04",
-      "title": "事件｜第83源章｜4",
+      "title": "大王子什图尔要求送弟朝圣并让人民迁徙，国王最终摘下王冠自责",
       "memo": "英雄之剑与首位英雄：事件（第83源章第4条）",
       "category": "event",
       "keys": [
@@ -4254,7 +4254,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-83-01",
-      "title": "世界设定事实｜第83源章｜1",
+      "title": "神罚具体表现为赐生者撤离、土地生命休眠/迁离、农猎渔畜崩溃、死亡苛待与瘟疫",
       "memo": "英雄之剑与首位英雄：世界设定事实（第83源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4279,7 +4279,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-83-01",
-      "title": "新建立连续性｜第83源章｜1",
+      "title": "鲨卡尔",
       "memo": "英雄之剑与首位英雄：新建立连续性（第83源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4305,7 +4305,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-83-02",
-      "title": "新建立连续性｜第83源章｜2",
+      "title": "什图尔",
       "memo": "英雄之剑与首位英雄：新建立连续性（第83源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4331,7 +4331,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-83-03",
-      "title": "新建立连续性｜第83源章｜3",
+      "title": "阿卡德大迁徙决策",
       "memo": "英雄之剑与首位英雄：新建立连续性（第83源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4356,7 +4356,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-83-01",
-      "title": "未解决事项｜第83源章｜1",
+      "title": "奥库斯朝圣",
       "memo": "英雄之剑与首位英雄：未解决事项（第83源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4382,7 +4382,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-83-02",
-      "title": "未解决事项｜第83源章｜2",
+      "title": "王国迁徙",
       "memo": "英雄之剑与首位英雄：未解决事项（第83源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4407,7 +4407,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-83-01",
-      "title": "主角龙形态｜第83源章｜1",
+      "title": "主角龙形态｜第七十八章：神罚（2）｜本章不出场",
       "memo": "英雄之剑与首位英雄：主角龙形态（第83源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4432,7 +4432,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-83-01",
-      "title": "主角龙状态｜第83源章｜1",
+      "title": "主角龙状态｜第七十八章：神罚（2）｜神罚通过生死循环自动生效",
       "memo": "英雄之剑与首位英雄：主角龙状态（第83源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4457,7 +4457,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-83-01",
-      "title": "主角龙知识边界｜第83源章｜1",
+      "title": "主角龙知识边界｜第七十八章：神罚（2）｜不能把阿卡德内部议事当作主角已知",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第83源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4482,7 +4482,7 @@
     },
     {
       "id": "era-07-first-hero-event-84-01",
-      "title": "事件｜第84源章｜1",
+      "title": "什图尔揭穿奥库斯假伤并强制驱逐朝圣，鲨卡尔同意在获宽恕前取消其王室身份",
       "memo": "英雄之剑与首位英雄：事件（第84源章第1条）",
       "category": "event",
       "keys": [
@@ -4510,7 +4510,7 @@
     },
     {
       "id": "era-07-first-hero-event-84-02",
-      "title": "事件｜第84源章｜2",
+      "title": "什图尔集结数千幸存者，以银冠作抵押向邻国租最肥沃广地求生",
       "memo": "英雄之剑与首位英雄：事件（第84源章第2条）",
       "category": "event",
       "keys": [
@@ -4536,7 +4536,7 @@
     },
     {
       "id": "era-07-first-hero-event-84-03",
-      "title": "事件｜第84源章｜3",
+      "title": "未来课件称阿卡德统六城、疆域大他国2–6倍，却一年内灭亡，后来土地复苏成游牧草原",
       "memo": "英雄之剑与首位英雄：事件（第84源章第3条）",
       "category": "event",
       "keys": [
@@ -4561,7 +4561,7 @@
     },
     {
       "id": "era-07-first-hero-event-84-04",
-      "title": "事件｜第84源章｜4",
+      "title": "奥库斯怀恨漂泊、多次死亡被拒",
       "memo": "英雄之剑与首位英雄：事件（第84源章第4条）",
       "category": "event",
       "keys": [
@@ -4587,7 +4587,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-84-01",
-      "title": "世界设定事实｜第84源章｜1",
+      "title": "奥库斯永生诅咒逐渐表现为血液生命力控制，饮血补充与以自身血传递相似状态",
       "memo": "英雄之剑与首位英雄：世界设定事实（第84源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4613,7 +4613,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-84-01",
-      "title": "新建立连续性｜第84源章｜1",
+      "title": "奥库斯被逐",
       "memo": "英雄之剑与首位英雄：新建立连续性（第84源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4639,7 +4639,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-84-02",
-      "title": "新建立连续性｜第84源章｜2",
+      "title": "什图尔银冠抵押计划",
       "memo": "英雄之剑与首位英雄：新建立连续性（第84源章第2条）",
       "category": "continuity",
       "keys": [
@@ -4665,7 +4665,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-84-03",
-      "title": "新建立连续性｜第84源章｜3",
+      "title": "漂泊的阿卡德人",
       "memo": "英雄之剑与首位英雄：新建立连续性（第84源章第3条）",
       "category": "continuity",
       "keys": [
@@ -4690,7 +4690,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-84-04",
-      "title": "新建立连续性｜第84源章｜4",
+      "title": "血液生命力能力",
       "memo": "英雄之剑与首位英雄：新建立连续性（第84源章第4条）",
       "category": "continuity",
       "keys": [
@@ -4715,7 +4715,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-84-01",
-      "title": "未解决事项｜第84源章｜1",
+      "title": "迁徙落点",
       "memo": "英雄之剑与首位英雄：未解决事项（第84源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -4740,7 +4740,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-84-02",
-      "title": "未解决事项｜第84源章｜2",
+      "title": "朝圣何时悔改",
       "memo": "英雄之剑与首位英雄：未解决事项（第84源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -4765,7 +4765,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-84-01",
-      "title": "主角龙形态｜第84源章｜1",
+      "title": "主角龙形态｜第七十九章：神罚（3）｜不出场",
       "memo": "英雄之剑与首位英雄：主角龙形态（第84源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4790,7 +4790,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-84-01",
-      "title": "主角龙状态｜第84源章｜1",
+      "title": "主角龙状态｜第七十九章：神罚（3）｜诅咒持续远程作用",
       "memo": "英雄之剑与首位英雄：主角龙状态（第84源章第1条）",
       "category": "character-state",
       "keys": [
@@ -4815,7 +4815,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-84-01",
-      "title": "主角龙知识边界｜第84源章｜1",
+      "title": "主角龙知识边界｜第七十九章：神罚（3）｜不得把奥库斯新能力或什图尔行动视为主角当期已知",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第84源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -4842,7 +4842,7 @@
     },
     {
       "id": "era-07-first-hero-event-85-01",
-      "title": "事件｜第85源章｜1",
+      "title": "时间回到神罚当日，主角带少年瞬移到生命神殿背面龙族休息内殿，以柚子茶曲奇安抚",
       "memo": "英雄之剑与首位英雄：事件（第85源章第1条）",
       "category": "event",
       "keys": [
@@ -4867,7 +4867,7 @@
     },
     {
       "id": "era-07-first-hero-event-85-02",
-      "title": "事件｜第85源章｜2",
+      "title": "她先通知赐生者避阿卡德，再问三死神处置意见",
       "memo": "英雄之剑与首位英雄：事件（第85源章第2条）",
       "category": "event",
       "keys": [
@@ -4892,7 +4892,7 @@
     },
     {
       "id": "era-07-first-hero-event-85-03",
-      "title": "事件｜第85源章｜3",
+      "title": "她以囚禁比喻向孩童智云鲸解释，云鲸愤怒要断绝新生",
       "memo": "英雄之剑与首位英雄：事件（第85源章第3条）",
       "category": "event",
       "keys": [
@@ -4918,7 +4918,7 @@
     },
     {
       "id": "era-07-first-hero-event-85-04",
-      "title": "事件｜第85源章｜4",
+      "title": "正式神谕要求赐生者撤离、不直接加害，预告土地生死循环惩罚，并保留奥库斯真悔朝圣获宽恕",
       "memo": "英雄之剑与首位英雄：事件（第85源章第4条）",
       "category": "event",
       "keys": [
@@ -4944,7 +4944,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-85-01",
-      "title": "世界设定事实｜第85源章｜1",
+      "title": "神罚前有正式六个月撤离/悔改警告，赐生者被禁止直接暴力，惩罚限定由生死循环实施",
       "memo": "英雄之剑与首位英雄：世界设定事实（第85源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -4969,7 +4969,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-85-01",
-      "title": "新建立连续性｜第85源章｜1",
+      "title": "神殿背面内殿",
       "memo": "英雄之剑与首位英雄：新建立连续性（第85源章第1条）",
       "category": "continuity",
       "keys": [
@@ -4994,7 +4994,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-85-02",
-      "title": "新建立连续性｜第85源章｜2",
+      "title": "主角承诺长期协助英雄",
       "memo": "英雄之剑与首位英雄：新建立连续性（第85源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5019,7 +5019,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-85-03",
-      "title": "新建立连续性｜第85源章｜3",
+      "title": "六个月神罚缓冲",
       "memo": "英雄之剑与首位英雄：新建立连续性（第85源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5044,7 +5044,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-85-01",
-      "title": "未解决事项｜第85源章｜1",
+      "title": "英雄训练与姓名",
       "memo": "英雄之剑与首位英雄：未解决事项（第85源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5069,7 +5069,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-85-02",
-      "title": "未解决事项｜第85源章｜2",
+      "title": "阿卡德是否悔改",
       "memo": "英雄之剑与首位英雄：未解决事项（第85源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5094,7 +5094,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-85-01",
-      "title": "主角龙形态｜第85源章｜1",
+      "title": "主角龙形态｜第八十章：神罚（4）｜银发龙角少女，在生命神殿背面内殿以英雄助手身份行动",
       "memo": "英雄之剑与首位英雄：主角龙形态（第85源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5119,7 +5119,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-85-01",
-      "title": "主角龙状态｜第85源章｜1",
+      "title": "主角龙状态｜第八十章：神罚（4）｜首位英雄的生活照料者、导师与神罚协调者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第85源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5145,7 +5145,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-85-01",
-      "title": "主角龙知识边界｜第85源章｜1",
+      "title": "主角龙知识边界｜第八十章：神罚（4）｜尚未开始英雄训练",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第85源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5170,7 +5170,7 @@
     },
     {
       "id": "era-07-first-hero-event-86-01",
-      "title": "事件｜第86源章｜1",
+      "title": "未来小说《英雄猎人》的节录描写传说中的英雄与龙族巫女",
       "memo": "英雄之剑与首位英雄：事件（第86源章第1条）",
       "category": "event",
       "keys": [
@@ -5196,7 +5196,7 @@
     },
     {
       "id": "era-07-first-hero-event-86-02",
-      "title": "事件｜第86源章｜2",
+      "title": "当前时间线中，主角确认少年无名无亲，不替他擅自命名，只赋予独一称号『英雄』",
       "memo": "英雄之剑与首位英雄：事件（第86源章第2条）",
       "category": "event",
       "keys": [
@@ -5221,7 +5221,7 @@
     },
     {
       "id": "era-07-first-hero-event-86-03",
-      "title": "事件｜第86源章｜3",
+      "title": "主角以龙力与生命女神造身的半真话解释龙角",
       "memo": "英雄之剑与首位英雄：事件（第86源章第3条）",
       "category": "event",
       "keys": [
@@ -5247,7 +5247,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-86-01",
-      "title": "世界设定事实｜第86源章｜1",
+      "title": "在首位英雄活着且不放弃职责期间，『英雄』只指他一人",
       "memo": "英雄之剑与首位英雄：世界设定事实（第86源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5273,7 +5273,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-86-02",
-      "title": "世界设定事实｜第86源章｜2",
+      "title": "主角在外人面前采用龙族巫女称号",
       "memo": "英雄之剑与首位英雄：世界设定事实（第86源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -5299,7 +5299,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-86-01",
-      "title": "新建立连续性｜第86源章｜1",
+      "title": "首位英雄称号",
       "memo": "英雄之剑与首位英雄：新建立连续性（第86源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5325,7 +5325,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-86-02",
-      "title": "新建立连续性｜第86源章｜2",
+      "title": "私下姐姐称呼",
       "memo": "英雄之剑与首位英雄：新建立连续性（第86源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5350,7 +5350,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-86-03",
-      "title": "新建立连续性｜第86源章｜3",
+      "title": "龙族巫女公开称号",
       "memo": "英雄之剑与首位英雄：新建立连续性（第86源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5376,7 +5376,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-86-01",
-      "title": "未解决事项｜第86源章｜1",
+      "title": "少年正式训练",
       "memo": "英雄之剑与首位英雄：未解决事项（第86源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5401,7 +5401,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-86-02",
-      "title": "未解决事项｜第86源章｜2",
+      "title": "真实姓名是否由本人选择",
       "memo": "英雄之剑与首位英雄：未解决事项（第86源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5426,7 +5426,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-86-01",
-      "title": "主角龙形态｜第86源章｜1",
+      "title": "主角龙形态｜第八十一章：造就英雄（1）｜带龙角的人类少女、公开称龙族巫女",
       "memo": "英雄之剑与首位英雄：主角龙形态（第86源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5452,7 +5452,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-86-01",
-      "title": "主角龙状态｜第86源章｜1",
+      "title": "主角龙状态｜第八十一章：造就英雄（1）｜首位英雄的引导者、老师与私下被称为姐姐的共同生活者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第86源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5478,7 +5478,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-86-01",
-      "title": "主角龙知识边界｜第86源章｜1",
+      "title": "主角龙知识边界｜第八十一章：造就英雄（1）｜只知道少年现有身世与选择",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第86源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5503,7 +5503,7 @@
     },
     {
       "id": "era-07-first-hero-event-87-01",
-      "title": "事件｜第87源章｜1",
+      "title": "主角戴无度数眼镜、造黑板粉笔圆珠笔与纸，先教英雄读写",
       "memo": "英雄之剑与首位英雄：事件（第87源章第1条）",
       "category": "event",
       "keys": [
@@ -5528,7 +5528,7 @@
     },
     {
       "id": "era-07-first-hero-event-87-02",
-      "title": "事件｜第87源章｜2",
+      "title": "首次剑术测试中英雄平地摔倒、巨剑脱手插墙",
       "memo": "英雄之剑与首位英雄：事件（第87源章第2条）",
       "category": "event",
       "keys": [
@@ -5553,7 +5553,7 @@
     },
     {
       "id": "era-07-first-hero-event-87-03",
-      "title": "事件｜第87源章｜3",
+      "title": "英雄因弱小与低天赋哭泣，主角明确生命女神看中的是善良与永不放弃，要求他学习，训练",
       "memo": "英雄之剑与首位英雄：事件（第87源章第3条）",
       "category": "event",
       "keys": [
@@ -5578,7 +5578,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-87-01",
-      "title": "世界设定事实｜第87源章｜1",
+      "title": "训练木剑内部有可调铁芯，可随英雄成长逐步改变重量，最终模拟真剑重量与平衡",
       "memo": "英雄之剑与首位英雄：世界设定事实（第87源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5603,7 +5603,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-87-01",
-      "title": "新建立连续性｜第87源章｜1",
+      "title": "基础读写训练",
       "memo": "英雄之剑与首位英雄：新建立连续性（第87源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5628,7 +5628,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-87-02",
-      "title": "新建立连续性｜第87源章｜2",
+      "title": "可调铁芯木剑",
       "memo": "英雄之剑与首位英雄：新建立连续性（第87源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5653,7 +5653,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-87-03",
-      "title": "新建立连续性｜第87源章｜3",
+      "title": "善良与意志为核心选中理由",
       "memo": "英雄之剑与首位英雄：新建立连续性（第87源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5678,7 +5678,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-87-01",
-      "title": "未解决事项｜第87源章｜1",
+      "title": "英雄能否补足低天赋",
       "memo": "英雄之剑与首位英雄：未解决事项（第87源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -5703,7 +5703,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-87-02",
-      "title": "未解决事项｜第87源章｜2",
+      "title": "何时使用真剑",
       "memo": "英雄之剑与首位英雄：未解决事项（第87源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -5728,7 +5728,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-87-01",
-      "title": "主角龙形态｜第87源章｜1",
+      "title": "主角龙形态｜第八十二章：造就英雄（2）｜银发龙角少女，教学时佩戴无度数眼镜",
       "memo": "英雄之剑与首位英雄：主角龙形态（第87源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5753,7 +5753,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-87-01",
-      "title": "主角龙状态｜第87源章｜1",
+      "title": "主角龙状态｜第八十二章：造就英雄（2）｜英雄的基础教育与成长训练负责人",
       "memo": "英雄之剑与首位英雄：主角龙状态（第87源章第1条）",
       "category": "character-state",
       "keys": [
@@ -5778,7 +5778,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-87-01",
-      "title": "主角龙知识边界｜第87源章｜1",
+      "title": "主角龙知识边界｜第八十二章：造就英雄（2）｜已知英雄天赋和协调性极低",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第87源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -5803,7 +5803,7 @@
     },
     {
       "id": "era-07-first-hero-event-88-01",
-      "title": "事件｜第88源章｜1",
+      "title": "主角发现英雄把无天赋转化为无休止努力，暗中缩短睡眠、在纸背练字、休息时挥剑",
       "memo": "英雄之剑与首位英雄：事件（第88源章第1条）",
       "category": "event",
       "keys": [
@@ -5828,7 +5828,7 @@
     },
     {
       "id": "era-07-first-hero-event-88-02",
-      "title": "事件｜第88源章｜2",
+      "title": "八年教学后，约十八岁的英雄从瘦小孩童成长为肌肉发达，存在感鲜明的青年",
       "memo": "英雄之剑与首位英雄：事件（第88源章第2条）",
       "category": "event",
       "keys": [
@@ -5853,7 +5853,7 @@
     },
     {
       "id": "era-07-first-hero-event-88-03",
-      "title": "事件｜第88源章｜3",
+      "title": "英雄认为真剑与木剑完全一致",
       "memo": "英雄之剑与首位英雄：事件（第88源章第3条）",
       "category": "event",
       "keys": [
@@ -5878,7 +5878,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-88-01",
-      "title": "世界设定事实｜第88源章｜1",
+      "title": "草莓味儿童营养补充剂加入促进骨骼成长，增强肌肉，增加体内魔力和提高免疫力的魔法物质",
       "memo": "英雄之剑与首位英雄：世界设定事实（第88源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -5903,7 +5903,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-88-01",
-      "title": "新建立连续性｜第88源章｜1",
+      "title": "八年成长",
       "memo": "英雄之剑与首位英雄：新建立连续性（第88源章第1条）",
       "category": "continuity",
       "keys": [
@@ -5928,7 +5928,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-88-02",
-      "title": "新建立连续性｜第88源章｜2",
+      "title": "成年英雄形象",
       "memo": "英雄之剑与首位英雄：新建立连续性（第88源章第2条）",
       "category": "continuity",
       "keys": [
@@ -5953,7 +5953,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-88-03",
-      "title": "新建立连续性｜第88源章｜3",
+      "title": "魔力课程遗漏与补课",
       "memo": "英雄之剑与首位英雄：新建立连续性（第88源章第3条）",
       "category": "continuity",
       "keys": [
@@ -5978,7 +5978,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-88-01",
-      "title": "未解决事项｜第88源章｜1",
+      "title": "魔力唤醒",
       "memo": "英雄之剑与首位英雄：未解决事项（第88源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6003,7 +6003,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-88-02",
-      "title": "未解决事项｜第88源章｜2",
+      "title": "神剑变形能力实际使用",
       "memo": "英雄之剑与首位英雄：未解决事项（第88源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6028,7 +6028,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-88-01",
-      "title": "主角龙形态｜第88源章｜1",
+      "title": "主角龙形态｜第八十三章：造就英雄（3）｜银发龙角少女形态延续，本章没有衣着新增证据",
       "memo": "英雄之剑与首位英雄：主角龙形态（第88源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6053,7 +6053,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-88-01",
-      "title": "主角龙状态｜第88源章｜1",
+      "title": "主角龙状态｜第八十三章：造就英雄（3）｜完成英雄八年基础养育，转入神剑与魔力课程",
       "memo": "英雄之剑与首位英雄：主角龙状态（第88源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6078,7 +6078,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-88-01",
-      "title": "主角龙知识边界｜第88源章｜1",
+      "title": "主角龙知识边界｜第八十三章：造就英雄（3）｜直到英雄指出才意识到从未教魔力",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第88源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6103,7 +6103,7 @@
     },
     {
       "id": "era-07-first-hero-event-89-01",
-      "title": "事件｜第89源章｜1",
+      "title": "主角撕开英雄上衣，从背部谨慎注入并循环自身魔力以唤醒其沉睡魔力，严格控制输出避免爆体",
       "memo": "英雄之剑与首位英雄：事件（第89源章第1条）",
       "category": "event",
       "keys": [
@@ -6128,7 +6128,7 @@
     },
     {
       "id": "era-07-first-hero-event-89-02",
-      "title": "事件｜第89源章｜2",
+      "title": "一年魔力训练后，英雄能强化身体、发射简单魔力弹并短暂悬浮",
       "memo": "英雄之剑与首位英雄：事件（第89源章第2条）",
       "category": "event",
       "keys": [
@@ -6153,7 +6153,7 @@
     },
     {
       "id": "era-07-first-hero-event-89-03",
-      "title": "事件｜第89源章｜3",
+      "title": "英雄用口令变身，使克拉乌・索拉斯化作阿加斯拉姆银铠与单手剑",
       "memo": "英雄之剑与首位英雄：事件（第89源章第3条）",
       "category": "event",
       "keys": [
@@ -6178,7 +6178,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-89-01",
-      "title": "世界设定事实｜第89源章｜1",
+      "title": "魔力被解释为贯穿万物、驱动魔法并体现改变意志的力量",
       "memo": "英雄之剑与首位英雄：世界设定事实（第89源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6203,7 +6203,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-89-02",
-      "title": "世界设定事实｜第89源章｜2",
+      "title": "阿加斯拉姆覆盖部位能抵挡当代刀刃与怪物爪牙，未覆盖处仍是弱点",
       "memo": "英雄之剑与首位英雄：世界设定事实（第89源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6228,7 +6228,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-89-01",
-      "title": "新建立连续性｜第89源章｜1",
+      "title": "英雄魔力觉醒",
       "memo": "英雄之剑与首位英雄：新建立连续性（第89源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6253,7 +6253,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-89-02",
-      "title": "新建立连续性｜第89源章｜2",
+      "title": "一年魔力训练",
       "memo": "英雄之剑与首位英雄：新建立连续性（第89源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6278,7 +6278,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-89-03",
-      "title": "新建立连续性｜第89源章｜3",
+      "title": "首次阿加斯拉姆变身",
       "memo": "英雄之剑与首位英雄：新建立连续性（第89源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6303,7 +6303,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-89-01",
-      "title": "未解决事项｜第89源章｜1",
+      "title": "真实怪物实战",
       "memo": "英雄之剑与首位英雄：未解决事项（第89源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6328,7 +6328,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-89-02",
-      "title": "未解决事项｜第89源章｜2",
+      "title": "未覆盖部位风险",
       "memo": "英雄之剑与首位英雄：未解决事项（第89源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6353,7 +6353,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-89-01",
-      "title": "主角龙形态｜第89源章｜1",
+      "title": "主角龙形态｜第八十四章：造就英雄（4）｜银发龙角少女形态延续",
       "memo": "英雄之剑与首位英雄：主角龙形态（第89源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6378,7 +6378,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-89-01",
-      "title": "主角龙状态｜第89源章｜1",
+      "title": "主角龙状态｜第八十四章：造就英雄（4）｜英雄的魔力启蒙者与神剑能力讲解者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第89源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6403,7 +6403,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-89-01",
-      "title": "主角龙知识边界｜第89源章｜1",
+      "title": "主角龙知识边界｜第八十四章：造就英雄（4）｜知道装甲在当前文明和已知怪物下的强度，不等于未来绝对无敌",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第89源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6428,7 +6428,7 @@
     },
     {
       "id": "era-07-first-hero-event-90-01",
-      "title": "事件｜第90源章｜1",
+      "title": "主角从史莱姆开始让英雄逐步适应伤害生命，再训练多种怪物",
       "memo": "英雄之剑与首位英雄：事件（第90源章第1条）",
       "category": "event",
       "keys": [
@@ -6453,7 +6453,7 @@
     },
     {
       "id": "era-07-first-hero-event-90-02",
-      "title": "事件｜第90源章｜2",
+      "title": "希尔芙结束对不死奥库斯的风暴折磨，接受化身魔法并立刻凝成人类女性化身",
       "memo": "英雄之剑与首位英雄：事件（第90源章第2条）",
       "category": "event",
       "keys": [
@@ -6481,7 +6481,7 @@
     },
     {
       "id": "era-07-first-hero-event-90-03",
-      "title": "事件｜第90源章｜3",
+      "title": "英雄留信独自短途旅行",
       "memo": "英雄之剑与首位英雄：事件（第90源章第3条）",
       "category": "event",
       "keys": [
@@ -6506,7 +6506,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-90-01",
-      "title": "世界设定事实｜第90源章｜1",
+      "title": "英雄杀伤训练从不会反抗的史莱姆逐步扩展至角兔、元素犬、阴影牛、掘地巨虫等怪物",
       "memo": "英雄之剑与首位英雄：世界设定事实（第90源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6531,7 +6531,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-90-02",
-      "title": "世界设定事实｜第90源章｜2",
+      "title": "化身魔法允许龙把人类躯体当身体使用，强度弱于龙躯但足以在人间游历",
       "memo": "英雄之剑与首位英雄：世界设定事实（第90源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -6556,7 +6556,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-90-01",
-      "title": "新建立连续性｜第90源章｜1",
+      "title": "英雄真实杀伤训练",
       "memo": "英雄之剑与首位英雄：新建立连续性（第90源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6581,7 +6581,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-90-02",
-      "title": "新建立连续性｜第90源章｜2",
+      "title": "希尔芙人类化身",
       "memo": "英雄之剑与首位英雄：新建立连续性（第90源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6607,7 +6607,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-90-03",
-      "title": "新建立连续性｜第90源章｜3",
+      "title": "英雄独自出走",
       "memo": "英雄之剑与首位英雄：新建立连续性（第90源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6632,7 +6632,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-90-01",
-      "title": "未解决事项｜第90源章｜1",
+      "title": "出走原因",
       "memo": "英雄之剑与首位英雄：未解决事项（第90源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6657,7 +6657,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-90-02",
-      "title": "未解决事项｜第90源章｜2",
+      "title": "首次独立冒险结果",
       "memo": "英雄之剑与首位英雄：未解决事项（第90源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6682,7 +6682,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-90-01",
-      "title": "主角龙形态｜第90源章｜1",
+      "title": "主角龙形态｜第八十五章：造就英雄（5）｜银发龙角少女/龙族巫女形态延续",
       "memo": "英雄之剑与首位英雄：主角龙形态（第90源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6708,7 +6708,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-90-01",
-      "title": "主角龙状态｜第90源章｜1",
+      "title": "主角龙状态｜第八十五章：造就英雄（5）｜成年英雄的实战导师与远程监护者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第90源章第1条）",
       "category": "character-state",
       "keys": [
@@ -6733,7 +6733,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-90-01",
-      "title": "主角龙知识边界｜第90源章｜1",
+      "title": "主角龙知识边界｜第八十五章：造就英雄（5）｜只见离家信而不知英雄主观原因",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第90源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -6758,7 +6758,7 @@
     },
     {
       "id": "era-07-first-hero-event-91-01",
-      "title": "事件｜第91源章｜1",
+      "title": "未来学者介绍无名英雄最古老冒险传说，并将第一次冒险描述为与龙族巫女争吵后出走",
       "memo": "英雄之剑与首位英雄：事件（第91源章第1条）",
       "category": "event",
       "keys": [
@@ -6784,7 +6784,7 @@
     },
     {
       "id": "era-07-first-hero-event-91-02",
-      "title": "事件｜第91源章｜2",
+      "title": "当前时间线中主角以零食远程观察英雄",
       "memo": "英雄之剑与首位英雄：事件（第91源章第2条）",
       "category": "event",
       "keys": [
@@ -6810,7 +6810,7 @@
     },
     {
       "id": "era-07-first-hero-event-91-03",
-      "title": "事件｜第91源章｜3",
+      "title": "沙玛什得知奥库斯冒犯母亲后欲以圣光焚烧，并提出让不死者在日光中燃烧的诅咒",
       "memo": "英雄之剑与首位英雄：事件（第91源章第3条）",
       "category": "event",
       "keys": [
@@ -6837,7 +6837,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-91-01",
-      "title": "世界设定事实｜第91源章｜1",
+      "title": "沙玛什提出可让奥库斯暴露于阳光便燃烧、躲避阳光可免的诅咒构想",
       "memo": "英雄之剑与首位英雄：世界设定事实（第91源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -6864,7 +6864,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-91-01",
-      "title": "新建立连续性｜第91源章｜1",
+      "title": "沙玛什金发少女化身",
       "memo": "英雄之剑与首位英雄：新建立连续性（第91源章第1条）",
       "category": "continuity",
       "keys": [
@@ -6890,7 +6890,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-91-02",
-      "title": "新建立连续性｜第91源章｜2",
+      "title": "英雄浪漫理想定义",
       "memo": "英雄之剑与首位英雄：新建立连续性（第91源章第2条）",
       "category": "continuity",
       "keys": [
@@ -6915,7 +6915,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-91-03",
-      "title": "新建立连续性｜第91源章｜3",
+      "title": "日光灼烧诅咒构想",
       "memo": "英雄之剑与首位英雄：新建立连续性（第91源章第3条）",
       "category": "continuity",
       "keys": [
@@ -6940,7 +6940,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-91-01",
-      "title": "未解决事项｜第91源章｜1",
+      "title": "英雄进入村庄后的相遇",
       "memo": "英雄之剑与首位英雄：未解决事项（第91源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -6965,7 +6965,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-91-02",
-      "title": "未解决事项｜第91源章｜2",
+      "title": "诅咒是否实施",
       "memo": "英雄之剑与首位英雄：未解决事项（第91源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -6990,7 +6990,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-91-01",
-      "title": "主角龙形态｜第91源章｜1",
+      "title": "主角龙形态｜第八十六章：英雄冒险传说（1）｜远程观察时形态未重述",
       "memo": "英雄之剑与首位英雄：主角龙形态（第91源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7016,7 +7016,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-91-01",
-      "title": "主角龙状态｜第91源章｜1",
+      "title": "主角龙状态｜第八十六章：英雄冒险传说（1）｜首次放手让英雄冒险，同时反省亲子式沟通",
       "memo": "英雄之剑与首位英雄：主角龙状态（第91源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7041,7 +7041,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-91-01",
-      "title": "主角龙知识边界｜第91源章｜1",
+      "title": "主角龙知识边界｜第八十六章：英雄冒险传说（1）｜能通过神剑定位观察英雄",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第91源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7066,7 +7066,7 @@
     },
     {
       "id": "era-07-first-hero-event-92-01",
-      "title": "事件｜第92源章｜1",
+      "title": "英雄在塞班村外遇到健谈少女",
       "memo": "英雄之剑与首位英雄：事件（第92源章第1条）",
       "category": "event",
       "keys": [
@@ -7091,7 +7091,7 @@
     },
     {
       "id": "era-07-first-hero-event-92-02",
-      "title": "事件｜第92源章｜2",
+      "title": "英雄承认在神殿训练数年后逃走，自认辜负抚养者期待",
       "memo": "英雄之剑与首位英雄：事件（第92源章第2条）",
       "category": "event",
       "keys": [
@@ -7116,7 +7116,7 @@
     },
     {
       "id": "era-07-first-hero-event-92-03",
-      "title": "事件｜第92源章｜3",
+      "title": "英雄虽不懂农活仍逐渐融入塞班村",
       "memo": "英雄之剑与首位英雄：事件（第92源章第3条）",
       "category": "event",
       "keys": [
@@ -7141,7 +7141,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-92-01",
-      "title": "世界设定事实｜第92源章｜1",
+      "title": "塞班村人口少，英雄暂住期间不懂耕地等村务，但仍在跌撞中融入生活",
       "memo": "英雄之剑与首位英雄：世界设定事实（第92源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7166,7 +7166,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-92-01",
-      "title": "新建立连续性｜第92源章｜1",
+      "title": "塞班村",
       "memo": "英雄之剑与首位英雄：新建立连续性（第92源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7191,7 +7191,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-92-02",
-      "title": "新建立连续性｜第92源章｜2",
+      "title": "未命名村长之女",
       "memo": "英雄之剑与首位英雄：新建立连续性（第92源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7216,7 +7216,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-92-03",
-      "title": "新建立连续性｜第92源章｜3",
+      "title": "英雄自认辜负期待",
       "memo": "英雄之剑与首位英雄：新建立连续性（第92源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7241,7 +7241,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-92-01",
-      "title": "未解决事项｜第92源章｜1",
+      "title": "英雄会在村庄停留多久",
       "memo": "英雄之剑与首位英雄：未解决事项（第92源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7266,7 +7266,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-92-02",
-      "title": "未解决事项｜第92源章｜2",
+      "title": "导师与英雄误解如何解除",
       "memo": "英雄之剑与首位英雄：未解决事项（第92源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7291,7 +7291,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-92-01",
-      "title": "主角龙形态｜第92源章｜1",
+      "title": "主角龙形态｜第八十七章：英雄冒险传说（2）｜远程观察，形态未说明",
       "memo": "英雄之剑与首位英雄：主角龙形态（第92源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7316,7 +7316,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-92-01",
-      "title": "主角龙状态｜第92源章｜1",
+      "title": "主角龙状态｜第八十七章：英雄冒险传说（2）｜英雄出走后的隐蔽守望者，开始意识到沟通误解",
       "memo": "英雄之剑与首位英雄：主角龙状态（第92源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7341,7 +7341,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-92-01",
-      "title": "主角龙知识边界｜第92源章｜1",
+      "title": "主角龙知识边界｜第八十七章：英雄冒险传说（2）｜能观察英雄和听到谈话",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第92源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7366,7 +7366,7 @@
     },
     {
       "id": "era-07-first-hero-event-93-01",
-      "title": "事件｜第93源章｜1",
+      "title": "伐木工杰克带回异常逃向同一方向的动物，猎人康纳被狼群重伤",
       "memo": "英雄之剑与首位英雄：事件（第93源章第1条）",
       "category": "event",
       "keys": [
@@ -7393,7 +7393,7 @@
     },
     {
       "id": "era-07-first-hero-event-93-02",
-      "title": "事件｜第93源章｜2",
+      "title": "英雄判断可能是强大怪物，坚持独自处理",
       "memo": "英雄之剑与首位英雄：事件（第93源章第2条）",
       "category": "event",
       "keys": [
@@ -7418,7 +7418,7 @@
     },
     {
       "id": "era-07-first-hero-event-93-03",
-      "title": "事件｜第93源章｜3",
+      "title": "威胁是一条鳞片如小盾、足以压平小山的巨蛇，带毒牙与强尾",
       "memo": "英雄之剑与首位英雄：事件（第93源章第3条）",
       "category": "event",
       "keys": [
@@ -7443,7 +7443,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-93-01",
-      "title": "世界设定事实｜第93源章｜1",
+      "title": "塞班村有村民共同维护的紧急避难洞，入口足以让杰克弯腰进入并可用大型岩石封堵",
       "memo": "英雄之剑与首位英雄：世界设定事实（第93源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7469,7 +7469,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-93-02",
-      "title": "世界设定事实｜第93源章｜2",
+      "title": "巨蛇每片鳞如小盾，身躯可压平小山，毒牙致命，尾击足以碎石，人类军队未必能制服",
       "memo": "英雄之剑与首位英雄：世界设定事实（第93源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7494,7 +7494,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-93-01",
-      "title": "新建立连续性｜第93源章｜1",
+      "title": "杰克",
       "memo": "英雄之剑与首位英雄：新建立连续性（第93源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7520,7 +7520,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-93-02",
-      "title": "新建立连续性｜第93源章｜2",
+      "title": "康纳",
       "memo": "英雄之剑与首位英雄：新建立连续性（第93源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7546,7 +7546,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-93-03",
-      "title": "新建立连续性｜第93源章｜3",
+      "title": "塞班村避难洞",
       "memo": "英雄之剑与首位英雄：新建立连续性（第93源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7571,7 +7571,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-93-04",
-      "title": "新建立连续性｜第93源章｜4",
+      "title": "巨蛇实战",
       "memo": "英雄之剑与首位英雄：新建立连续性（第93源章第4条）",
       "category": "continuity",
       "keys": [
@@ -7596,7 +7596,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-93-01",
-      "title": "未解决事项｜第93源章｜1",
+      "title": "巨蛇战斗结果",
       "memo": "英雄之剑与首位英雄：未解决事项（第93源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7621,7 +7621,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-93-02",
-      "title": "未解决事项｜第93源章｜2",
+      "title": "村长之女是否确认英雄身份",
       "memo": "英雄之剑与首位英雄：未解决事项（第93源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7646,7 +7646,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-93-01",
-      "title": "主角龙形态｜第93源章｜1",
+      "title": "主角龙形态｜第八十八章：英雄冒险传说（3）｜远程观察，形态未说明",
       "memo": "英雄之剑与首位英雄：主角龙形态（第93源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7671,7 +7671,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-93-01",
-      "title": "主角龙状态｜第93源章｜1",
+      "title": "主角龙状态｜第八十八章：英雄冒险传说（3）｜首位英雄第一次真实大型怪物战斗的隐蔽监护者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第93源章第1条）",
       "category": "character-state",
       "keys": [
@@ -7697,7 +7697,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-93-01",
-      "title": "主角龙知识边界｜第93源章｜1",
+      "title": "主角龙知识边界｜第八十八章：英雄冒险传说（3）｜能从神剑视角观察战斗",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第93源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -7722,7 +7722,7 @@
     },
     {
       "id": "era-07-first-hero-event-94-01",
-      "title": "事件｜第94源章｜1",
+      "title": "英雄用闪避、斩击和阿加斯拉姆压倒巨蛇，却在占尽优势后劝其离开",
       "memo": "英雄之剑与首位英雄：事件（第94源章第1条）",
       "category": "event",
       "keys": [
@@ -7747,7 +7747,7 @@
     },
     {
       "id": "era-07-first-hero-event-94-02",
-      "title": "事件｜第94源章｜2",
+      "title": "三倍普通体型的双足飞龙以火球炸飞巨蛇，并因克拉乌・索拉斯中的黑暗残片而把目标转向英雄",
       "memo": "英雄之剑与首位英雄：事件（第94源章第2条）",
       "category": "event",
       "keys": [
@@ -7772,7 +7772,7 @@
     },
     {
       "id": "era-07-first-hero-event-94-03",
-      "title": "事件｜第94源章｜3",
+      "title": "英雄劈开火球、斩碎飞龙利爪并刺伤其尾部，随后被甩落地面",
       "memo": "英雄之剑与首位英雄：事件（第94源章第3条）",
       "category": "event",
       "keys": [
@@ -7797,7 +7797,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-94-01",
-      "title": "世界设定事实｜第94源章｜1",
+      "title": "双足飞龙只有一对后肢，以翼状前肢飞行并靠后肢、尾巴平衡",
       "memo": "英雄之剑与首位英雄：世界设定事实（第94源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -7822,7 +7822,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-94-02",
-      "title": "世界设定事实｜第94源章｜2",
+      "title": "飞龙注视英雄之剑，主角强推断其因感知剑中黑暗残片而受吸引",
       "memo": "英雄之剑与首位英雄：世界设定事实（第94源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -7847,7 +7847,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-94-01",
-      "title": "新建立连续性｜第94源章｜1",
+      "title": "英雄放生巨蛇",
       "memo": "英雄之剑与首位英雄：新建立连续性（第94源章第1条）",
       "category": "continuity",
       "keys": [
@@ -7872,7 +7872,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-94-02",
-      "title": "新建立连续性｜第94源章｜2",
+      "title": "黑暗污染飞龙",
       "memo": "英雄之剑与首位英雄：新建立连续性（第94源章第2条）",
       "category": "continuity",
       "keys": [
@@ -7897,7 +7897,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-94-03",
-      "title": "新建立连续性｜第94源章｜3",
+      "title": "飞龙空战",
       "memo": "英雄之剑与首位英雄：新建立连续性（第94源章第3条）",
       "category": "continuity",
       "keys": [
@@ -7922,7 +7922,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-94-01",
-      "title": "未解决事项｜第94源章｜1",
+      "title": "英雄坠落结果",
       "memo": "英雄之剑与首位英雄：未解决事项（第94源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -7947,7 +7947,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-94-02",
-      "title": "未解决事项｜第94源章｜2",
+      "title": "巨蛇去向",
       "memo": "英雄之剑与首位英雄：未解决事项（第94源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -7972,7 +7972,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-94-03",
-      "title": "未解决事项｜第94源章｜3",
+      "title": "飞龙是否含残片",
       "memo": "英雄之剑与首位英雄：未解决事项（第94源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -7997,7 +7997,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-94-01",
-      "title": "主角龙形态｜第94源章｜1",
+      "title": "主角龙形态｜第八十九章：英雄冒险传说（4）｜远程观察，形态未重述",
       "memo": "英雄之剑与首位英雄：主角龙形态（第94源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8022,7 +8022,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-94-01",
-      "title": "主角龙状态｜第94源章｜1",
+      "title": "主角龙状态｜第八十九章：英雄冒险传说（4）｜英雄大型实战的隐蔽监护者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第94源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8047,7 +8047,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-94-01",
-      "title": "主角龙知识边界｜第94源章｜1",
+      "title": "主角龙知识边界｜第八十九章：英雄冒险传说（4）｜能看到战斗并推测飞龙残片，尚未实际确认",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第94源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8072,7 +8072,7 @@
     },
     {
       "id": "era-07-first-hero-event-95-01",
-      "title": "事件｜第95源章｜1",
+      "title": "英雄落地后以树干投掷诱导飞龙放松警惕，骑最后一根原木接近并借火球爆炸加速",
       "memo": "英雄之剑与首位英雄：事件（第95源章第1条）",
       "category": "event",
       "keys": [
@@ -8097,7 +8097,7 @@
     },
     {
       "id": "era-07-first-hero-event-95-02",
-      "title": "事件｜第95源章｜2",
+      "title": "失去飞行优势的飞龙被英雄断尾、碎角并斩首",
       "memo": "英雄之剑与首位英雄：事件（第95源章第2条）",
       "category": "event",
       "keys": [
@@ -8122,7 +8122,7 @@
     },
     {
       "id": "era-07-first-hero-event-95-03",
-      "title": "事件｜第95源章｜3",
+      "title": "先前被放走的巨蛇已毁灭村庄并毒伤村长之女",
       "memo": "英雄之剑与首位英雄：事件（第95源章第3条）",
       "category": "event",
       "keys": [
@@ -8147,7 +8147,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-95-01",
-      "title": "世界设定事实｜第95源章｜1",
+      "title": "英雄的普通治愈魔力能愈合其他创伤，却无法阻止巨蛇毒液造成的生命流逝",
       "memo": "英雄之剑与首位英雄：世界设定事实（第95源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8172,7 +8172,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-95-01",
-      "title": "新建立连续性｜第95源章｜1",
+      "title": "飞龙被斩杀",
       "memo": "英雄之剑与首位英雄：新建立连续性（第95源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8197,7 +8197,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-95-02",
-      "title": "新建立连续性｜第95源章｜2",
+      "title": "塞班村毁灭",
       "memo": "英雄之剑与首位英雄：新建立连续性（第95源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8222,7 +8222,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-95-03",
-      "title": "新建立连续性｜第95源章｜3",
+      "title": "村长之女死亡",
       "memo": "英雄之剑与首位英雄：新建立连续性（第95源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8247,7 +8247,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-95-01",
-      "title": "未解决事项｜第95源章｜1",
+      "title": "英雄如何面对责任",
       "memo": "英雄之剑与首位英雄：未解决事项（第95源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8272,7 +8272,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-95-02",
-      "title": "未解决事项｜第95源章｜2",
+      "title": "少女能否复活",
       "memo": "英雄之剑与首位英雄：未解决事项（第95源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8297,7 +8297,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-95-03",
-      "title": "未解决事项｜第95源章｜3",
+      "title": "村民状态",
       "memo": "英雄之剑与首位英雄：未解决事项（第95源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8322,7 +8322,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-95-01",
-      "title": "主角龙形态｜第95源章｜1",
+      "title": "主角龙形态｜第九十章：英雄冒险传说（5）｜远程观察，尚未现身",
       "memo": "英雄之剑与首位英雄：主角龙形态（第95源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8347,7 +8347,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-95-01",
-      "title": "主角龙状态｜第95源章｜1",
+      "title": "主角龙状态｜第九十章：英雄冒险传说（5）｜误判巨蛇死亡并目睹后果的监护者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第95源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8372,7 +8372,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-95-01",
-      "title": "主角龙知识边界｜第95源章｜1",
+      "title": "主角龙知识边界｜第九十章：英雄冒险传说（5）｜只能观察少女生理状态与英雄行为，不能读取两人未说出的内心",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第95源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8397,7 +8397,7 @@
     },
     {
       "id": "era-07-first-hero-event-96-01",
-      "title": "事件｜第96源章｜1",
+      "title": "英雄抱尸自责并向生命女神祈求，愿独自承担逃避使命的罪",
       "memo": "英雄之剑与首位英雄：事件（第96源章第1条）",
       "category": "event",
       "keys": [
@@ -8422,7 +8422,7 @@
     },
     {
       "id": "era-07-first-hero-event-96-02",
-      "title": "事件｜第96源章｜2",
+      "title": "主角先修复少女躯体，再搜集全村残尸并以生命力重塑全部身体，明确不只救英雄在意的一人",
       "memo": "英雄之剑与首位英雄：事件（第96源章第2条）",
       "category": "event",
       "keys": [
@@ -8447,7 +8447,7 @@
     },
     {
       "id": "era-07-first-hero-event-96-03",
-      "title": "事件｜第96源章｜3",
+      "title": "主角以创世龙神身份请求塔纳托斯召回四十九日内的灵魂，完成全村首次复活",
       "memo": "英雄之剑与首位英雄：事件（第96源章第3条）",
       "category": "event",
       "keys": [
@@ -8473,7 +8473,7 @@
     },
     {
       "id": "era-07-first-hero-event-96-04",
-      "title": "事件｜第96源章｜4",
+      "title": "后世文献说明复活奇迹以生命力而非魔力重塑身体和召魂",
       "memo": "英雄之剑与首位英雄：事件（第96源章第4条）",
       "category": "event",
       "keys": [
@@ -8498,7 +8498,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-96-01",
-      "title": "世界设定事实｜第96源章｜1",
+      "title": "死者灵魂进入冥界并经七层审判，死亡四十九日内仍可召回",
       "memo": "英雄之剑与首位英雄：世界设定事实（第96源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8523,7 +8523,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-96-02",
-      "title": "世界设定事实｜第96源章｜2",
+      "title": "首次复活过程为生命力重塑完整躯体、死神归还灵魂、再令心跳呼吸恢复",
       "memo": "英雄之剑与首位英雄：世界设定事实（第96源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -8548,7 +8548,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-96-01",
-      "title": "新建立连续性｜第96源章｜1",
+      "title": "英雄承诺不再逃避",
       "memo": "英雄之剑与首位英雄：新建立连续性（第96源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8573,7 +8573,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-96-02",
-      "title": "新建立连续性｜第96源章｜2",
+      "title": "四十九日召魂窗口",
       "memo": "英雄之剑与首位英雄：新建立连续性（第96源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8598,7 +8598,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-96-03",
-      "title": "新建立连续性｜第96源章｜3",
+      "title": "全村首次复活",
       "memo": "英雄之剑与首位英雄：新建立连续性（第96源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8623,7 +8623,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-96-01",
-      "title": "未解决事项｜第96源章｜1",
+      "title": "复活后遗症",
       "memo": "英雄之剑与首位英雄：未解决事项（第96源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8648,7 +8648,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-96-02",
-      "title": "未解决事项｜第96源章｜2",
+      "title": "村民何时苏醒",
       "memo": "英雄之剑与首位英雄：未解决事项（第96源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -8673,7 +8673,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-96-03",
-      "title": "未解决事项｜第96源章｜3",
+      "title": "英雄与少女关系",
       "memo": "英雄之剑与首位英雄：未解决事项（第96源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -8698,7 +8698,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-96-01",
-      "title": "主角龙形态｜第96源章｜1",
+      "title": "主角龙形态｜第九十一章：死者复活（1）｜英雄熟悉的龙族巫女少女形态",
       "memo": "英雄之剑与首位英雄：主角龙形态（第96源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8724,7 +8724,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-96-01",
-      "title": "主角龙状态｜第96源章｜1",
+      "title": "主角龙状态｜第九十一章：死者复活（1）｜首次公开施展复活奇迹的生命与创世权能持有者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第96源章第1条）",
       "category": "character-state",
       "keys": [
@@ -8749,7 +8749,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-96-01",
-      "title": "主角龙知识边界｜第96源章｜1",
+      "title": "主角龙知识边界｜第九十一章：死者复活（1）｜能看见灵魂与躯体状态",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第96源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -8774,7 +8774,7 @@
     },
     {
       "id": "era-07-first-hero-event-97-01",
-      "title": "事件｜第97源章｜1",
+      "title": "主角唤醒土灵搭建临时住所，并警告英雄复活者可能遗失近期记忆",
       "memo": "英雄之剑与首位英雄：事件（第97源章第1条）",
       "category": "event",
       "keys": [
@@ -8800,7 +8800,7 @@
     },
     {
       "id": "era-07-first-hero-event-97-02",
-      "title": "事件｜第97源章｜2",
+      "title": "村民次日苏醒并忘记与英雄相处的片段",
       "memo": "英雄之剑与首位英雄：事件（第97源章第2条）",
       "category": "event",
       "keys": [
@@ -8825,7 +8825,7 @@
     },
     {
       "id": "era-07-first-hero-event-97-03",
-      "title": "事件｜第97源章｜3",
+      "title": "少女苏醒后不记得英雄，但觉得他莫名熟悉",
       "memo": "英雄之剑与首位英雄：事件（第97源章第3条）",
       "category": "event",
       "keys": [
@@ -8851,7 +8851,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-97-01",
-      "title": "世界设定事实｜第97源章｜1",
+      "title": "躯体与灵魂分离后复原需时间，并可能遗失数日到数月的近期记忆",
       "memo": "英雄之剑与首位英雄：世界设定事实（第97源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -8876,7 +8876,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-97-01",
-      "title": "新建立连续性｜第97源章｜1",
+      "title": "复活近期记忆代价",
       "memo": "英雄之剑与首位英雄：新建立连续性（第97源章第1条）",
       "category": "continuity",
       "keys": [
@@ -8901,7 +8901,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-97-02",
-      "title": "新建立连续性｜第97源章｜2",
+      "title": "少女忘记英雄",
       "memo": "英雄之剑与首位英雄：新建立连续性（第97源章第2条）",
       "category": "continuity",
       "keys": [
@@ -8926,7 +8926,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-97-03",
-      "title": "新建立连续性｜第97源章｜3",
+      "title": "塞班村传播英雄事迹",
       "memo": "英雄之剑与首位英雄：新建立连续性（第97源章第3条）",
       "category": "continuity",
       "keys": [
@@ -8951,7 +8951,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-97-01",
-      "title": "未解决事项｜第97源章｜1",
+      "title": "英雄是否回应感情",
       "memo": "英雄之剑与首位英雄：未解决事项（第97源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -8976,7 +8976,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-97-02",
-      "title": "未解决事项｜第97源章｜2",
+      "title": "村庄重建",
       "memo": "英雄之剑与首位英雄：未解决事项（第97源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9001,7 +9001,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-97-03",
-      "title": "未解决事项｜第97源章｜3",
+      "title": "复活奇迹扩散",
       "memo": "英雄之剑与首位英雄：未解决事项（第97源章第3条）",
       "category": "unresolved",
       "keys": [
@@ -9026,7 +9026,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-97-01",
-      "title": "主角龙形态｜第97源章｜1",
+      "title": "主角龙形态｜第九十二章：死者复活（2）｜龙族巫女少女形态，作为路过的女神使者对外说明",
       "memo": "英雄之剑与首位英雄：主角龙形态（第97源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9052,7 +9052,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-97-01",
-      "title": "主角龙状态｜第97源章｜1",
+      "title": "主角龙状态｜第九十二章：死者复活（2）｜复活后的安置者与英雄关系观察者",
       "memo": "英雄之剑与首位英雄：主角龙状态（第97源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9077,7 +9077,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-97-01",
-      "title": "主角龙知识边界｜第97源章｜1",
+      "title": "主角龙知识边界｜第九十二章：死者复活（2）｜不知道具体苏醒时间和失忆范围",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第97源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9102,7 +9102,7 @@
     },
     {
       "id": "era-07-first-hero-event-98-01",
-      "title": "事件｜第98源章｜1",
+      "title": "英雄与主角停留约七日重建塞班村",
       "memo": "英雄之剑与首位英雄：事件（第98源章第1条）",
       "category": "event",
       "keys": [
@@ -9127,7 +9127,7 @@
     },
     {
       "id": "era-07-first-hero-event-98-02",
-      "title": "事件｜第98源章｜2",
+      "title": "主角纠正英雄把双足飞龙当真龙的误会，收纳尸体材料",
       "memo": "英雄之剑与首位英雄：事件（第98源章第2条）",
       "category": "event",
       "keys": [
@@ -9152,7 +9152,7 @@
     },
     {
       "id": "era-07-first-hero-event-98-03",
-      "title": "事件｜第98源章｜3",
+      "title": "村长之女请求英雄完成使命后回村并永远为他留住处",
       "memo": "英雄之剑与首位英雄：事件（第98源章第3条）",
       "category": "event",
       "keys": [
@@ -9177,7 +9177,7 @@
     },
     {
       "id": "era-07-first-hero-event-98-04",
-      "title": "事件｜第98源章｜4",
+      "title": "概括两人之后讨伐多类怪物、收服变形怪并声名远播",
       "memo": "英雄之剑与首位英雄：事件（第98源章第4条）",
       "category": "event",
       "keys": [
@@ -9203,7 +9203,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-98-01",
-      "title": "世界设定事实｜第98源章｜1",
+      "title": "双足飞龙皮、翼膜、牙齿、爪与骨是除龙材外的顶级素材",
       "memo": "英雄之剑与首位英雄：世界设定事实（第98源章第1条）",
       "category": "world-fact",
       "keys": [
@@ -9228,7 +9228,7 @@
     },
     {
       "id": "era-07-first-hero-world-fact-98-02",
-      "title": "世界设定事实｜第98源章｜2",
+      "title": "此后英雄与龙族巫女收服变形怪、讨伐冰霜巨人、岩壳巨兽与毒沼魔鱼，声名传播到其他种族",
       "memo": "英雄之剑与首位英雄：世界设定事实（第98源章第2条）",
       "category": "world-fact",
       "keys": [
@@ -9254,7 +9254,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-98-01",
-      "title": "新建立连续性｜第98源章｜1",
+      "title": "两人正式周游讨伐",
       "memo": "英雄之剑与首位英雄：新建立连续性（第98源章第1条）",
       "category": "continuity",
       "keys": [
@@ -9279,7 +9279,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-98-02",
-      "title": "新建立连续性｜第98源章｜2",
+      "title": "飞龙皮装备",
       "memo": "英雄之剑与首位英雄：新建立连续性（第98源章第2条）",
       "category": "continuity",
       "keys": [
@@ -9304,7 +9304,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-98-03",
-      "title": "新建立连续性｜第98源章｜3",
+      "title": "少女留下归处",
       "memo": "英雄之剑与首位英雄：新建立连续性（第98源章第3条）",
       "category": "continuity",
       "keys": [
@@ -9329,7 +9329,7 @@
     },
     {
       "id": "era-07-first-hero-continuity-new-98-04",
-      "title": "新建立连续性｜第98源章｜4",
+      "title": "精灵矮人拉拢",
       "memo": "英雄之剑与首位英雄：新建立连续性（第98源章第4条）",
       "category": "continuity",
       "keys": [
@@ -9354,7 +9354,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-98-01",
-      "title": "未解决事项｜第98源章｜1",
+      "title": "英雄未来是否返村",
       "memo": "英雄之剑与首位英雄：未解决事项（第98源章第1条）",
       "category": "unresolved",
       "keys": [
@@ -9379,7 +9379,7 @@
     },
     {
       "id": "era-07-first-hero-unresolved-98-02",
-      "title": "未解决事项｜第98源章｜2",
+      "title": "精灵矮人冲突",
       "memo": "英雄之剑与首位英雄：未解决事项（第98源章第2条）",
       "category": "unresolved",
       "keys": [
@@ -9404,7 +9404,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-form-98-01",
-      "title": "主角龙形态｜第98源章｜1",
+      "title": "主角龙形态｜第九十三章：死者复活（3）｜银发龙角少女/龙族巫女形态延续",
       "memo": "英雄之剑与首位英雄：主角龙形态（第98源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9430,7 +9430,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-state-98-01",
-      "title": "主角龙状态｜第98源章｜1",
+      "title": "主角龙状态｜第九十三章：死者复活（3）｜从远程监护重新转为与英雄共同周游的同伴",
       "memo": "英雄之剑与首位英雄：主角龙状态（第98源章第1条）",
       "category": "character-state",
       "keys": [
@@ -9455,7 +9455,7 @@
     },
     {
       "id": "era-07-first-hero-protagonist-knowledge-98-01",
-      "title": "主角龙知识边界｜第98源章｜1",
+      "title": "主角龙知识边界｜第九十三章：死者复活（3）｜能听见少女对远去英雄的呼喊",
       "memo": "英雄之剑与首位英雄：主角龙知识边界（第98源章第1条）",
       "category": "knowledge-boundary",
       "keys": [
@@ -9480,7 +9480,7 @@
     },
     {
       "id": "era-07-first-hero-secondary-character-01",
-      "title": "次要人物｜沙玛什",
+      "title": "沙玛什",
       "memo": "英雄之剑与首位英雄：次要人物 沙玛什",
       "category": "secondary-character",
       "keys": [
@@ -9506,7 +9506,7 @@
     },
     {
       "id": "era-07-first-hero-secondary-character-02",
-      "title": "次要人物｜希尔芙",
+      "title": "希尔芙",
       "memo": "英雄之剑与首位英雄：次要人物 希尔芙",
       "category": "secondary-character",
       "keys": [
@@ -9532,7 +9532,7 @@
     },
     {
       "id": "era-07-first-hero-secondary-character-03",
-      "title": "次要人物｜云鲸",
+      "title": "云鲸",
       "memo": "英雄之剑与首位英雄：次要人物 云鲸",
       "category": "secondary-character",
       "keys": [
@@ -9558,7 +9558,7 @@
     },
     {
       "id": "era-07-first-hero-secondary-character-04",
-      "title": "次要人物｜塔纳托斯",
+      "title": "塔纳托斯",
       "memo": "英雄之剑与首位英雄：次要人物 塔纳托斯",
       "category": "secondary-character",
       "keys": [
@@ -9584,7 +9584,7 @@
     },
     {
       "id": "era-07-first-hero-secondary-character-05",
-      "title": "次要人物｜土灵",
+      "title": "土灵",
       "memo": "英雄之剑与首位英雄：次要人物 土灵",
       "category": "secondary-character",
       "keys": [
@@ -9610,7 +9610,7 @@
     },
     {
       "id": "era-07-first-hero-secondary-character-06",
-      "title": "次要人物｜未来兜帽龙角少女",
+      "title": "未来兜帽龙角少女",
       "memo": "英雄之剑与首位英雄：次要人物 未来兜帽龙角少女",
       "category": "secondary-character",
       "keys": [
