@@ -1646,6 +1646,7 @@
   "lorebook": [
     {
       "id": "era-02-dragons-core",
+      "title": "龙之时代｜时代边界",
       "memo": "龙之时代：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1655,13 +1656,195 @@
       "order": 1000,
       "position": "before-character",
       "depth": 4,
-      "content": "龙之时代是当前唯一有效的时代，原文范围为第11至第17源章。\n\n本时代只能使用截至第17源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第18源章以后的内容不可进入角色认知或场景。\n\n主角龙在本时代必须可选。其形态和状态按以下逐章证据处理：\n第11源章《龙之时代》：巨大银龙；鳞片可再生并含其身体信息。\n第12源章《龙之时代（2）》：七条新龙共同的银鳞身体模板，体型至少是最大孩子约两倍。\n第13源章《龙之时代（3）》：可在巨大银龙与银白发、小角、无表情的人类女孩外观间变化；此时人形只是外观。\n第14源章《龙之时代（4）》：巨大银龙与可生翼的小女孩形态。\n第15源章《龙之时代（5）》：本章未新增外貌；仍能被年轻龙识别为从世界之初存在的创造巨龙。\n第16源章《龙的时代（6）》：常用矮小银白发小角女孩形态；巨大光辉银龙为原形。\n第17源章《龙之时代（7）》：外貌无新增；拥有不需进食的原初龙本质，与次代生物龙不同。\n第11源章《龙之时代》：成为七个孩子取得龙体的身体模板与核心来源。\n第12源章《龙之时代（2）》：带七个拥有肉体的孩子形成首个龙族家庭群体。\n第13源章《龙之时代（3）》：不再是独居创造者，而是承认孩子缓解其孤独的母亲与观察者。\n第14源章《龙之时代（4）》：作为次代龙诞生实验的监督者和救治者。\n第15源章《龙之时代（5）》：从七个孩子的母亲转为多色龙族的最高调解者。\n第16源章《龙的时代（6）》：开始以接近人的外形参与智慧族群萌芽。\n第17源章《龙之时代（7）》：承担近千龙与全球生态的系统性修正。",
-      "knowledgeStatus": "system-canon"
+      "content": "龙之时代是当前唯一有效的时代，原文范围为第11至第17源章。\n本时代只能使用截至第17源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第18源章以后的内容不可进入角色认知或场景。\n世界书中的系统正典不自动等于角色知识；证据不足时保持未知，不得补完。",
+      "knowledgeStatus": "system-rule"
     },
     {
-      "id": "era-02-dragons-world",
-      "memo": "龙之时代：事件与世界状态",
-      "category": "event-history-system",
+      "id": "era-02-dragons-event-11-01",
+      "title": "事件｜第11源章｜1",
+      "memo": "龙之时代：事件（第11源章第1条）",
+      "category": "event",
+      "keys": [
+        "西尔菲德",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》 P0001-P0024：魔力使登陆生命在数十年内迅速演化为大型恐龙；主角与西尔菲德观察其战斗。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "魔力使登陆生命在数十年内迅速演化为大型恐龙；主角与西尔菲德观察其战斗。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-11-02",
+      "title": "事件｜第11源章｜2",
+      "memo": "龙之时代：事件（第11源章第2条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "西尔菲德",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》 P0025-P0043：西尔菲德转述孩子们渴望肉体；厄瑞玻斯甚至希望成为主角伴侣。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 2,
+        "sourceText": "西尔菲德转述孩子们渴望肉体；厄瑞玻斯甚至希望成为主角伴侣。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-11-03",
+      "title": "事件｜第11源章｜3",
+      "memo": "龙之时代：事件（第11源章第3条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》 P0044-P0083：厄瑞玻斯占据饿死小恐龙尸体，借此掌握以魔力塑形肉身的技巧，但普通肉体无法承受其力量。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 3,
+        "sourceText": "厄瑞玻斯占据饿死小恐龙尸体，借此掌握以魔力塑形肉身的技巧，但普通肉体无法承受其力量。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-11-04",
+      "title": "事件｜第11源章｜4",
+      "memo": "龙之时代：事件（第11源章第4条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》 P0084-P0116：厄瑞玻斯提出用主角一片鳞片作为核心；主角给出鳞片后，他成为体型不到主角一半的黑色巨龙，颈下倒挂恢复银色的核心鳞片。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 4,
+        "sourceText": "厄瑞玻斯提出用主角一片鳞片作为核心；主角给出鳞片后，他成为体型不到主角一半的黑色巨龙，颈下倒挂恢复银色的核心鳞片。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-11-01",
+      "title": "世界设定事实｜第11源章｜1",
+      "memo": "龙之时代：世界设定事实（第11源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》 P0011-P0018：魔力与生物意志共同作用，使原本需要漫长时间的演化在数十年内发生。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "魔力与生物意志共同作用，使原本需要漫长时间的演化在数十年内发生。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-11-02",
+      "title": "世界设定事实｜第11源章｜2",
+      "memo": "龙之时代：世界设定事实（第11源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》 P0080-P0095：强大自然意识的肉体需特殊承载物；主角鳞片兼有承载力与身体信息。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 2,
+        "sourceText": "强大自然意识的肉体需特殊承载物；主角鳞片兼有承载力与身体信息。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-11-01",
+      "title": "新建立连续性｜第11源章｜1",
+      "memo": "龙之时代：新建立连续性（第11源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》：厄瑞玻斯黑龙体",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "厄瑞玻斯黑龙体"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-11-02",
+      "title": "新建立连续性｜第11源章｜2",
+      "memo": "龙之时代：新建立连续性（第11源章第2条）",
+      "category": "continuity",
       "keys": [
         "龙之时代"
       ],
@@ -1672,37 +1855,2463 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "龙之时代的事件与世界状态只包含下列原文证据。它们属于系统正典，但并不自动成为每个角色都知道的事实；角色是否知道仍由角色卡的知识边界决定。\n\n第11源章《龙之时代》 P0001-P0024：魔力使登陆生命在数十年内迅速演化为大型恐龙；主角与西尔菲德观察其战斗。\n第11源章《龙之时代》 P0025-P0043：西尔菲德转述孩子们渴望肉体；厄瑞玻斯甚至希望成为主角伴侣。\n第11源章《龙之时代》 P0044-P0083：厄瑞玻斯占据饿死小恐龙尸体，借此掌握以魔力塑形肉身的技巧，但普通肉体无法承受其力量。\n第11源章《龙之时代》 P0084-P0116：厄瑞玻斯提出用主角一片鳞片作为核心；主角给出鳞片后，他成为体型不到主角一半的黑色巨龙，颈下倒挂恢复银色的核心鳞片。\n第12源章《龙之时代（2）》 P0001-P0009：厄瑞玻斯解释龙体基于母鳞信息，但无法精确复制主角且体型不到其一半。\n第12源章《龙之时代（2）》 P0010-P0050：西尔菲德先借恐龙尸体掌握肉身感觉，多次失败后形成纤细、两对翅膀、适合高速飞行的白龙体。\n第12源章《龙之时代（2）》 P0051-P0069：三者决定把方法教给其余孩子；恐龙尸体因反复作为练习媒介崩坏并被埋葬。\n第12源章《龙之时代（2）》 P0070-P0093：七个孩子全部获得龙体并首次聚会：伊弗利特红龙、忒堤斯蓝色鳍角母龙、萨加玛特哈透明宝石龙、伊格德拉西尔绿龙、厄瑞玻斯黑龙、沙玛什金龙、西尔菲德双翼白色母龙；最大者约主角一半高。\n第13源章《龙之时代（3）》 P0001-P0036：孩子们获得龙体后一段未量化时间，恐龙出现群体狩猎和照料幼崽的原始家庭行为；主角与厄瑞玻斯谈家庭与孤独。\n第13源章《龙之时代（3）》 P0037-P0051：主角承认自己传播并照料生命，是因为不喜欢空世界的寂静与孤独；厄瑞玻斯表示自己也曾孤独。\n第13源章《龙之时代（3）》 P0052-P0068：主角研究魔力并首次变为人类女孩外形：银白头发、头上小角、无表情；只是改变外观，实际身体特征基本不变。\n第13源章《龙之时代（3）》 P0069-P0106：蓝色母龙费蒂达提出把自己的鳞片赠给与她玩耍的海生恐龙，模仿主角给孩子鳞片的行为。\n第14源章《龙之时代（4）》 P0001-P0011：主角允许费蒂达向海生恐龙赠鳞，但要求谨慎并亲自陪同观察。\n第14源章《龙之时代（4）》 P0012-P0041：主角在巨龙与小女孩外形间切换；人形可生出翅膀、无需呼吸，费蒂达用水中传送门带她进入大海。\n第14源章《龙之时代（4）》 P0042-P0077：一只海生恐龙把人形主角当猎物；主角弹指擦伤它后首次试成治愈魔法。\n第14源章《龙之时代（4）》 P0081-P0104：费蒂达给五只海生恐龙鳞片；四只完全变为有智慧的蓝龙，一只因受伤只半转化成蓝鳞海蛇并离群。\n第14源章《龙之时代（4）》 P0105-P0113：未来《怪物百科全书》把海蛇归为巨龙远亲小龙，指出其下巴下方无鳞弱点。\n第15源章《龙之时代（5）》 P0001-P0026：完全转化的蓝龙获得语言与智力，把费蒂达称为妈妈；主角让费蒂达为孩子命名。\n第15源章《龙之时代（5）》 P0027-P0065：其余六个孩子纷纷按自身价值挑选恐龙赠鳞；厄瑞玻斯为扩大家庭带来几十只并几乎拔光鳞片。\n第15源章《龙之时代（5）》 P0066-P0085：未完全转化者分为有翼双足蝰蛇龙与无翼四足德莱基龙；许多无法恢复的鳞片遗失。\n第15源章《龙之时代（5）》 P0087-P0114：不同鳞色龙因领地发生冲突；主角被称作创造巨龙，按责任调解并要求以对话代替先攻与死斗。\n第16源章《龙的时代（6）》 P0001-P0038：主角偏好人形以回忆做人感觉并期待未来生活在人类中；沙玛什评价她人形可爱，龙形光辉美丽。\n第16源章《龙的时代（6）》 P0039-P0066：主角教沙玛什变成人形；沙玛什成为白金发、近成年青少年般的年轻美女，随后龙族普遍改用人形生活。\n第16源章《龙的时代（6）》 P0067-P0102：恐龙受人形龙影响演化为会用工具、生火、接近原始人类智力的蜥蜴人；一名蜥蜴人献白花，请主角修复黑曜石矛。\n第16源章《龙的时代（6）》 P0091-P0108：主角用时间倒流修复石矛，并附加时间冻结使其不再折断；后世成为蜥蜴人代代相传的族宝。\n第17源章《龙之时代（7）》 P0001-P0024：数百年后龙由数百增至近千，捕食使大型恐龙濒危，部分龙也因竞争挨饿；主角拒绝贸然创造复杂新生物。\n第17源章《龙之时代（7）》 P0025-P0042：主角从光合作用类比想到让半自然现象的龙以魔力维生。\n第17源章《龙之时代（7）》 P0043-P0074：她教七个孩子改造后代：降低生物属性、增强自然现象属性、改造心脏以呼吸吸魔，形成龙之心式机制。\n第17源章《龙之时代（7）》 P0075-P0088：魔法生效后食物变为消遣，争食冲突减少，蜥蜴人发展语言、农耕迹象和创世神龙神庙。\n第17源章《龙之时代（7）》 P0089-P0094：副作用是龙约一至二成生物、八至九成自然现象，寿命延长而产卵率跌至每年不足十条。\n第11源章《龙之时代》 P0011-P0018：魔力与生物意志共同作用，使原本需要漫长时间的演化在数十年内发生。\n第11源章《龙之时代》 P0080-P0095：强大自然意识的肉体需特殊承载物；主角鳞片兼有承载力与身体信息。\n第12源章《龙之时代（2）》 P0071-P0091：七个自然意识依各自属性塑造不同龙体，但均源自主角银鳞信息，体型皆小于主角。\n第13源章《龙之时代（3）》 P0005-P0021：部分恐龙已形成协同狩猎、守护食物、带回幼崽和喂养的原始群体/家庭行为，但尚无确定智慧与社会。\n第13源章《龙之时代（3）》 P0053-P0068：魔力可改变外在身体形态；主角的人形并非真正改写身体本质。\n第14源章《龙之时代（4）》 P0083-P0093：费蒂达鳞片会自动落在受赠者下巴下方，以水魔法改变身体、鳞色、肢体、翼与鳍。\n第14源章《龙之时代（4）》 P0094-P0113：不完全吸收鳞片力量可形成海蛇；后世海蛇下巴下方存在无鳞弱点。\n第15源章《龙之时代（5）》 P0041-P0065：次代巨龙的鳞色、性格与选择者一致，按鳞色形成亲族。\n第15源章《龙之时代（5）》 P0066-P0085：部分转化者成为蝰蛇龙或德莱基龙，力量较原恐龙增强；巨龙由此在世界大量诞生。\n第16源章《龙的时代（6）》 P0064-P0077：龙族人形化成为常态；部分小型恐龙受影响成为蜥蜴人，会使用工具与火。\n第16源章《龙的时代（6）》 P0103-P0108：黑曜石矛后世由蜥蜴人主要部落代表和首领传承，且龙也不理解其时间魔法。\n第17源章《龙之时代（7）》 P0062-P0067：龙之心以呼吸吸收和积累魔力维持成年龙；刚孵化幼龙仍必须吃肉。\n第17源章《龙之时代（7）》 P0082-P0087：蜥蜴人开始从狩猎部落走向语言、农耕和创世神龙信仰。\n第11源章《龙之时代》：厄瑞玻斯黑龙体\n第11源章《龙之时代》：母鳞核心机制\n第12源章《龙之时代（2）》：七个孩子完整龙体外貌\n第12源章《龙之时代（2）》：译名变体\n第12源章《龙之时代（2）》：首次面对面聚会\n第13源章《龙之时代（3）》：主角首个人形外观\n第13源章《龙之时代（3）》：厄瑞玻斯阴影移动\n第13源章《龙之时代（3）》：费蒂达赠鳞设想\n第13源章《龙之时代（3）》：恐龙原始家庭\n第14源章《龙之时代（4）》：首批蓝龙\n第14源章《龙之时代（4）》：首只海蛇\n第14源章《龙之时代（4）》：治愈魔法\n第14源章《龙之时代（4）》：水中传送\n第15源章《龙之时代（5）》：六系赠鳞标准\n第15源章《龙之时代（5）》：蝰蛇龙\n第15源章《龙之时代（5）》：德莱基龙\n第15源章《龙之时代（5）》：鳞色阵营\n第15源章《龙之时代（5）》：创造巨龙称号\n第16源章《龙的时代（6）》：龙族普遍人形化\n第16源章《龙的时代（6）》：沙玛什人形\n第16源章《龙的时代（6）》：蜥蜴人\n第16源章《龙的时代（6）》：不坏黑曜石矛\n第17源章《龙之时代（7）》：龙之心/魔力维生\n第17源章《龙之时代（7）》：近千龙\n第17源章《龙之时代（7）》：极低出生率\n第17源章《龙之时代（7）》：蜥蜴人神庙",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
+      "content": "第11源章《龙之时代》：母鳞核心机制",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 2,
+        "sourceText": "母鳞核心机制"
+      }
     },
     {
-      "id": "era-02-dragons-secondary-cast",
-      "memo": "龙之时代：次要人物与 NPC 合并条目",
-      "category": "secondary-cast",
+      "id": "era-02-dragons-unresolved-11-01",
+      "title": "未解决事项｜第11源章｜1",
+      "memo": "龙之时代：未解决事项（第11源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "西尔菲德",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》：西尔菲德及其他孩子能否成功",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "西尔菲德及其他孩子能否成功"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-11-02",
+      "title": "未解决事项｜第11源章｜2",
+      "memo": "龙之时代：未解决事项（第11源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》：孩子们获得肉体后的影响",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 2,
+        "sourceText": "孩子们获得肉体后的影响"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-11-01",
+      "title": "主角龙形态｜第11源章｜1",
+      "memo": "龙之时代：主角龙形态（第11源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》：巨大银龙；鳞片可再生并含其身体信息。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "巨大银龙；鳞片可再生并含其身体信息。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-11-01",
+      "title": "主角龙状态｜第11源章｜1",
+      "memo": "龙之时代：主角龙状态（第11源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》：成为七个孩子取得龙体的身体模板与核心来源。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "成为七个孩子取得龙体的身体模板与核心来源。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-11-01",
+      "title": "主角龙知识边界｜第11源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第11源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第11源章《龙之时代》：此刻只见厄瑞玻斯成功，尚未知道其他孩子的最终龙体细节。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 11,
+        "chapterTitle": "龙之时代",
+        "sequence": 1,
+        "sourceText": "此刻只见厄瑞玻斯成功，尚未知道其他孩子的最终龙体细节。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-12-01",
+      "title": "事件｜第12源章｜1",
+      "memo": "龙之时代：事件（第12源章第1条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》 P0001-P0009：厄瑞玻斯解释龙体基于母鳞信息，但无法精确复制主角且体型不到其一半。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "厄瑞玻斯解释龙体基于母鳞信息，但无法精确复制主角且体型不到其一半。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-12-02",
+      "title": "事件｜第12源章｜2",
+      "memo": "龙之时代：事件（第12源章第2条）",
+      "category": "event",
+      "keys": [
+        "西尔菲德",
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》 P0010-P0050：西尔菲德先借恐龙尸体掌握肉身感觉，多次失败后形成纤细、两对翅膀、适合高速飞行的白龙体。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 2,
+        "sourceText": "西尔菲德先借恐龙尸体掌握肉身感觉，多次失败后形成纤细、两对翅膀、适合高速飞行的白龙体。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-12-03",
+      "title": "事件｜第12源章｜3",
+      "memo": "龙之时代：事件（第12源章第3条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》 P0051-P0069：三者决定把方法教给其余孩子；恐龙尸体因反复作为练习媒介崩坏并被埋葬。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 3,
+        "sourceText": "三者决定把方法教给其余孩子；恐龙尸体因反复作为练习媒介崩坏并被埋葬。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-12-04",
+      "title": "事件｜第12源章｜4",
+      "memo": "龙之时代：事件（第12源章第4条）",
+      "category": "event",
+      "keys": [
+        "伊格德拉西尔",
+        "萨加玛特哈",
+        "厄瑞玻斯",
+        "西尔菲德",
+        "伊弗利特",
+        "沙玛什",
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》 P0070-P0093：七个孩子全部获得龙体并首次聚会：伊弗利特红龙、忒堤斯蓝色鳍角母龙、萨加玛特哈透明宝石龙、伊格德拉西尔绿龙、厄瑞玻斯黑龙、沙玛什金龙、西尔菲德双翼白色母龙；最大者约主角一半高。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 4,
+        "sourceText": "七个孩子全部获得龙体并首次聚会：伊弗利特红龙、忒堤斯蓝色鳍角母龙、萨加玛特哈透明宝石龙、伊格德拉西尔绿龙、厄瑞玻斯黑龙、沙玛什金龙、西尔菲德双翼白色母龙；最大者约主角一半高。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-12-01",
+      "title": "世界设定事实｜第12源章｜1",
+      "memo": "龙之时代：世界设定事实（第12源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》 P0071-P0091：七个自然意识依各自属性塑造不同龙体，但均源自主角银鳞信息，体型皆小于主角。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "七个自然意识依各自属性塑造不同龙体，但均源自主角银鳞信息，体型皆小于主角。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-12-01",
+      "title": "新建立连续性｜第12源章｜1",
+      "memo": "龙之时代：新建立连续性（第12源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：七个孩子完整龙体外貌",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "七个孩子完整龙体外貌"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-12-02",
+      "title": "新建立连续性｜第12源章｜2",
+      "memo": "龙之时代：新建立连续性（第12源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：译名变体",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 2,
+        "sourceText": "译名变体"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-12-03",
+      "title": "新建立连续性｜第12源章｜3",
+      "memo": "龙之时代：新建立连续性（第12源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：首次面对面聚会",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 3,
+        "sourceText": "首次面对面聚会"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-12-01",
+      "title": "未解决事项｜第12源章｜1",
+      "memo": "龙之时代：未解决事项（第12源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：新龙体会如何改变世界",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "新龙体会如何改变世界"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-12-02",
+      "title": "未解决事项｜第12源章｜2",
+      "memo": "龙之时代：未解决事项（第12源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：各形态细节的根源",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 2,
+        "sourceText": "各形态细节的根源"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-12-01",
+      "title": "主角龙形态｜第12源章｜1",
+      "memo": "龙之时代：主角龙形态（第12源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：七条新龙共同的银鳞身体模板，体型至少是最大孩子约两倍。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "七条新龙共同的银鳞身体模板，体型至少是最大孩子约两倍。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-12-01",
+      "title": "主角龙状态｜第12源章｜1",
+      "memo": "龙之时代：主角龙状态（第12源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：带七个拥有肉体的孩子形成首个龙族家庭群体。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "带七个拥有肉体的孩子形成首个龙族家庭群体。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-12-01",
+      "title": "主角龙知识边界｜第12源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第12源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "龙之时代（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第12源章《龙之时代（2）》：不理解孩子各自颜色和特殊材质形成原则。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 12,
+        "chapterTitle": "龙之时代（2）",
+        "sequence": 1,
+        "sourceText": "不理解孩子各自颜色和特殊材质形成原则。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-13-01",
+      "title": "事件｜第13源章｜1",
+      "memo": "龙之时代：事件（第13源章第1条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》 P0001-P0036：孩子们获得龙体后一段未量化时间，恐龙出现群体狩猎和照料幼崽的原始家庭行为；主角与厄瑞玻斯谈家庭与孤独。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "孩子们获得龙体后一段未量化时间，恐龙出现群体狩猎和照料幼崽的原始家庭行为；主角与厄瑞玻斯谈家庭与孤独。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-13-02",
+      "title": "事件｜第13源章｜2",
+      "memo": "龙之时代：事件（第13源章第2条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》 P0037-P0051：主角承认自己传播并照料生命，是因为不喜欢空世界的寂静与孤独；厄瑞玻斯表示自己也曾孤独。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 2,
+        "sourceText": "主角承认自己传播并照料生命，是因为不喜欢空世界的寂静与孤独；厄瑞玻斯表示自己也曾孤独。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-13-03",
+      "title": "事件｜第13源章｜3",
+      "memo": "龙之时代：事件（第13源章第3条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》 P0052-P0068：主角研究魔力并首次变为人类女孩外形：银白头发、头上小角、无表情；只是改变外观，实际身体特征基本不变。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 3,
+        "sourceText": "主角研究魔力并首次变为人类女孩外形：银白头发、头上小角、无表情；只是改变外观，实际身体特征基本不变。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-13-04",
+      "title": "事件｜第13源章｜4",
+      "memo": "龙之时代：事件（第13源章第4条）",
+      "category": "event",
+      "keys": [
+        "费蒂达",
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》 P0069-P0106：蓝色母龙费蒂达提出把自己的鳞片赠给与她玩耍的海生恐龙，模仿主角给孩子鳞片的行为。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 4,
+        "sourceText": "蓝色母龙费蒂达提出把自己的鳞片赠给与她玩耍的海生恐龙，模仿主角给孩子鳞片的行为。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-13-01",
+      "title": "世界设定事实｜第13源章｜1",
+      "memo": "龙之时代：世界设定事实（第13源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》 P0005-P0021：部分恐龙已形成协同狩猎、守护食物、带回幼崽和喂养的原始群体/家庭行为，但尚无确定智慧与社会。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "部分恐龙已形成协同狩猎、守护食物、带回幼崽和喂养的原始群体/家庭行为，但尚无确定智慧与社会。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-13-02",
+      "title": "世界设定事实｜第13源章｜2",
+      "memo": "龙之时代：世界设定事实（第13源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》 P0053-P0068：魔力可改变外在身体形态；主角的人形并非真正改写身体本质。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 2,
+        "sourceText": "魔力可改变外在身体形态；主角的人形并非真正改写身体本质。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-13-01",
+      "title": "新建立连续性｜第13源章｜1",
+      "memo": "龙之时代：新建立连续性（第13源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：主角首个人形外观",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "主角首个人形外观"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-13-02",
+      "title": "新建立连续性｜第13源章｜2",
+      "memo": "龙之时代：新建立连续性（第13源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：厄瑞玻斯阴影移动",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 2,
+        "sourceText": "厄瑞玻斯阴影移动"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-13-03",
+      "title": "新建立连续性｜第13源章｜3",
+      "memo": "龙之时代：新建立连续性（第13源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "费蒂达",
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：费蒂达赠鳞设想",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 3,
+        "sourceText": "费蒂达赠鳞设想"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-13-04",
+      "title": "新建立连续性｜第13源章｜4",
+      "memo": "龙之时代：新建立连续性（第13源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：恐龙原始家庭",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 4,
+        "sourceText": "恐龙原始家庭"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-13-01",
+      "title": "未解决事项｜第13源章｜1",
+      "memo": "龙之时代：未解决事项（第13源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：赠鳞结果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "赠鳞结果"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-13-02",
+      "title": "未解决事项｜第13源章｜2",
+      "memo": "龙之时代：未解决事项（第13源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：人形未来是否继续变化",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 2,
+        "sourceText": "人形未来是否继续变化"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-13-01",
+      "title": "主角龙形态｜第13源章｜1",
+      "memo": "龙之时代：主角龙形态（第13源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：可在巨大银龙与银白发、小角、无表情的人类女孩外观间变化；此时人形只是外观。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "可在巨大银龙与银白发、小角、无表情的人类女孩外观间变化；此时人形只是外观。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-13-01",
+      "title": "主角龙状态｜第13源章｜1",
+      "memo": "龙之时代：主角龙状态（第13源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：不再是独居创造者，而是承认孩子缓解其孤独的母亲与观察者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "不再是独居创造者，而是承认孩子缓解其孤独的母亲与观察者。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-13-01",
+      "title": "主角龙知识边界｜第13源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第13源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "龙之时代（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第13源章《龙之时代（3）》：不知道赠予下代鳞片的后果；不应拥有后世社会知识以外的亲历事实。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 13,
+        "chapterTitle": "龙之时代（3）",
+        "sequence": 1,
+        "sourceText": "不知道赠予下代鳞片的后果；不应拥有后世社会知识以外的亲历事实。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-14-01",
+      "title": "事件｜第14源章｜1",
+      "memo": "龙之时代：事件（第14源章第1条）",
+      "category": "event",
+      "keys": [
+        "费蒂达",
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0001-P0011：主角允许费蒂达向海生恐龙赠鳞，但要求谨慎并亲自陪同观察。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "主角允许费蒂达向海生恐龙赠鳞，但要求谨慎并亲自陪同观察。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-14-02",
+      "title": "事件｜第14源章｜2",
+      "memo": "龙之时代：事件（第14源章第2条）",
+      "category": "event",
+      "keys": [
+        "费蒂达",
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0012-P0041：主角在巨龙与小女孩外形间切换；人形可生出翅膀、无需呼吸，费蒂达用水中传送门带她进入大海。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 2,
+        "sourceText": "主角在巨龙与小女孩外形间切换；人形可生出翅膀、无需呼吸，费蒂达用水中传送门带她进入大海。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-14-03",
+      "title": "事件｜第14源章｜3",
+      "memo": "龙之时代：事件（第14源章第3条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0042-P0077：一只海生恐龙把人形主角当猎物；主角弹指擦伤它后首次试成治愈魔法。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 3,
+        "sourceText": "一只海生恐龙把人形主角当猎物；主角弹指擦伤它后首次试成治愈魔法。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-14-04",
+      "title": "事件｜第14源章｜4",
+      "memo": "龙之时代：事件（第14源章第4条）",
+      "category": "event",
+      "keys": [
+        "费蒂达",
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0081-P0104：费蒂达给五只海生恐龙鳞片；四只完全变为有智慧的蓝龙，一只因受伤只半转化成蓝鳞海蛇并离群。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 4,
+        "sourceText": "费蒂达给五只海生恐龙鳞片；四只完全变为有智慧的蓝龙，一只因受伤只半转化成蓝鳞海蛇并离群。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-14-05",
+      "title": "事件｜第14源章｜5",
+      "memo": "龙之时代：事件（第14源章第5条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0105-P0113：未来《怪物百科全书》把海蛇归为巨龙远亲小龙，指出其下巴下方无鳞弱点。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 5,
+        "sourceText": "未来《怪物百科全书》把海蛇归为巨龙远亲小龙，指出其下巴下方无鳞弱点。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-14-01",
+      "title": "世界设定事实｜第14源章｜1",
+      "memo": "龙之时代：世界设定事实（第14源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "费蒂达",
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0083-P0093：费蒂达鳞片会自动落在受赠者下巴下方，以水魔法改变身体、鳞色、肢体、翼与鳍。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "费蒂达鳞片会自动落在受赠者下巴下方，以水魔法改变身体、鳞色、肢体、翼与鳍。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-14-02",
+      "title": "世界设定事实｜第14源章｜2",
+      "memo": "龙之时代：世界设定事实（第14源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》 P0094-P0113：不完全吸收鳞片力量可形成海蛇；后世海蛇下巴下方存在无鳞弱点。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 2,
+        "sourceText": "不完全吸收鳞片力量可形成海蛇；后世海蛇下巴下方存在无鳞弱点。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-14-01",
+      "title": "新建立连续性｜第14源章｜1",
+      "memo": "龙之时代：新建立连续性（第14源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：首批蓝龙",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "首批蓝龙"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-14-02",
+      "title": "新建立连续性｜第14源章｜2",
+      "memo": "龙之时代：新建立连续性（第14源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：首只海蛇",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 2,
+        "sourceText": "首只海蛇"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-14-03",
+      "title": "新建立连续性｜第14源章｜3",
+      "memo": "龙之时代：新建立连续性（第14源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：治愈魔法",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 3,
+        "sourceText": "治愈魔法"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-14-04",
+      "title": "新建立连续性｜第14源章｜4",
+      "memo": "龙之时代：新建立连续性（第14源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：水中传送",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 4,
+        "sourceText": "水中传送"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-14-01",
+      "title": "未解决事项｜第14源章｜1",
+      "memo": "龙之时代：未解决事项（第14源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "费蒂达",
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：费蒂达是否会继续抚育蓝龙",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "费蒂达是否会继续抚育蓝龙"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-14-02",
+      "title": "未解决事项｜第14源章｜2",
+      "memo": "龙之时代：未解决事项（第14源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：半转化的确切原因",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 2,
+        "sourceText": "半转化的确切原因"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-14-01",
+      "title": "主角龙形态｜第14源章｜1",
+      "memo": "龙之时代：主角龙形态（第14源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：巨大银龙与可生翼的小女孩形态。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "巨大银龙与可生翼的小女孩形态。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-14-01",
+      "title": "主角龙状态｜第14源章｜1",
+      "memo": "龙之时代：主角龙状态（第14源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：作为次代龙诞生实验的监督者和救治者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "作为次代龙诞生实验的监督者和救治者。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-14-01",
+      "title": "主角龙知识边界｜第14源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第14源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "龙之时代（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第14源章《龙之时代（4）》：只知道当场观察到的转化，不应预知海蛇后世生态。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 14,
+        "chapterTitle": "龙之时代（4）",
+        "sequence": 1,
+        "sourceText": "只知道当场观察到的转化，不应预知海蛇后世生态。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-15-01",
+      "title": "事件｜第15源章｜1",
+      "memo": "龙之时代：事件（第15源章第1条）",
+      "category": "event",
+      "keys": [
+        "费蒂达",
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》 P0001-P0026：完全转化的蓝龙获得语言与智力，把费蒂达称为妈妈；主角让费蒂达为孩子命名。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "完全转化的蓝龙获得语言与智力，把费蒂达称为妈妈；主角让费蒂达为孩子命名。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-15-02",
+      "title": "事件｜第15源章｜2",
+      "memo": "龙之时代：事件（第15源章第2条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》 P0027-P0065：其余六个孩子纷纷按自身价值挑选恐龙赠鳞；厄瑞玻斯为扩大家庭带来几十只并几乎拔光鳞片。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 2,
+        "sourceText": "其余六个孩子纷纷按自身价值挑选恐龙赠鳞；厄瑞玻斯为扩大家庭带来几十只并几乎拔光鳞片。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-15-03",
+      "title": "事件｜第15源章｜3",
+      "memo": "龙之时代：事件（第15源章第3条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》 P0066-P0085：未完全转化者分为有翼双足蝰蛇龙与无翼四足德莱基龙；许多无法恢复的鳞片遗失。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 3,
+        "sourceText": "未完全转化者分为有翼双足蝰蛇龙与无翼四足德莱基龙；许多无法恢复的鳞片遗失。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-15-04",
+      "title": "事件｜第15源章｜4",
+      "memo": "龙之时代：事件（第15源章第4条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》 P0087-P0114：不同鳞色龙因领地发生冲突；主角被称作创造巨龙，按责任调解并要求以对话代替先攻与死斗。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 4,
+        "sourceText": "不同鳞色龙因领地发生冲突；主角被称作创造巨龙，按责任调解并要求以对话代替先攻与死斗。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-15-01",
+      "title": "世界设定事实｜第15源章｜1",
+      "memo": "龙之时代：世界设定事实（第15源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》 P0041-P0065：次代巨龙的鳞色、性格与选择者一致，按鳞色形成亲族。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "次代巨龙的鳞色、性格与选择者一致，按鳞色形成亲族。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-15-02",
+      "title": "世界设定事实｜第15源章｜2",
+      "memo": "龙之时代：世界设定事实（第15源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》 P0066-P0085：部分转化者成为蝰蛇龙或德莱基龙，力量较原恐龙增强；巨龙由此在世界大量诞生。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 2,
+        "sourceText": "部分转化者成为蝰蛇龙或德莱基龙，力量较原恐龙增强；巨龙由此在世界大量诞生。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-15-01",
+      "title": "新建立连续性｜第15源章｜1",
+      "memo": "龙之时代：新建立连续性（第15源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：六系赠鳞标准",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "六系赠鳞标准"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-15-02",
+      "title": "新建立连续性｜第15源章｜2",
+      "memo": "龙之时代：新建立连续性（第15源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：蝰蛇龙",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 2,
+        "sourceText": "蝰蛇龙"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-15-03",
+      "title": "新建立连续性｜第15源章｜3",
+      "memo": "龙之时代：新建立连续性（第15源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：德莱基龙",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 3,
+        "sourceText": "德莱基龙"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-15-04",
+      "title": "新建立连续性｜第15源章｜4",
+      "memo": "龙之时代：新建立连续性（第15源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：鳞色阵营",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 4,
+        "sourceText": "鳞色阵营"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-15-05",
+      "title": "新建立连续性｜第15源章｜5",
+      "memo": "龙之时代：新建立连续性（第15源章第5条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：创造巨龙称号",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 5,
+        "sourceText": "创造巨龙称号"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-15-01",
+      "title": "未解决事项｜第15源章｜1",
+      "memo": "龙之时代：未解决事项（第15源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：遗失鳞片后果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "遗失鳞片后果"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-15-02",
+      "title": "未解决事项｜第15源章｜2",
+      "memo": "龙之时代：未解决事项（第15源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：多色龙冲突是否升级",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 2,
+        "sourceText": "多色龙冲突是否升级"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-15-01",
+      "title": "主角龙形态｜第15源章｜1",
+      "memo": "龙之时代：主角龙形态（第15源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：本章未新增外貌；仍能被年轻龙识别为从世界之初存在的创造巨龙。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "本章未新增外貌；仍能被年轻龙识别为从世界之初存在的创造巨龙。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-15-01",
+      "title": "主角龙状态｜第15源章｜1",
+      "memo": "龙之时代：主角龙状态（第15源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：从七个孩子的母亲转为多色龙族的最高调解者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "从七个孩子的母亲转为多色龙族的最高调解者。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-15-01",
+      "title": "主角龙知识边界｜第15源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第15源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "龙之时代（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第15源章《龙之时代（5）》：不了解遗失鳞片未来影响，也尚未经历全面龙战。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 15,
+        "chapterTitle": "龙之时代（5）",
+        "sequence": 1,
+        "sourceText": "不了解遗失鳞片未来影响，也尚未经历全面龙战。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-16-01",
+      "title": "事件｜第16源章｜1",
+      "memo": "龙之时代：事件（第16源章第1条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》 P0001-P0038：主角偏好人形以回忆做人感觉并期待未来生活在人类中；沙玛什评价她人形可爱，龙形光辉美丽。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "主角偏好人形以回忆做人感觉并期待未来生活在人类中；沙玛什评价她人形可爱，龙形光辉美丽。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-16-02",
+      "title": "事件｜第16源章｜2",
+      "memo": "龙之时代：事件（第16源章第2条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》 P0039-P0066：主角教沙玛什变成人形；沙玛什成为白金发、近成年青少年般的年轻美女，随后龙族普遍改用人形生活。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 2,
+        "sourceText": "主角教沙玛什变成人形；沙玛什成为白金发、近成年青少年般的年轻美女，随后龙族普遍改用人形生活。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-16-03",
+      "title": "事件｜第16源章｜3",
+      "memo": "龙之时代：事件（第16源章第3条）",
+      "category": "event",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》 P0067-P0102：恐龙受人形龙影响演化为会用工具、生火、接近原始人类智力的蜥蜴人；一名蜥蜴人献白花，请主角修复黑曜石矛。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 3,
+        "sourceText": "恐龙受人形龙影响演化为会用工具、生火、接近原始人类智力的蜥蜴人；一名蜥蜴人献白花，请主角修复黑曜石矛。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-16-04",
+      "title": "事件｜第16源章｜4",
+      "memo": "龙之时代：事件（第16源章第4条）",
+      "category": "event",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》 P0091-P0108：主角用时间倒流修复石矛，并附加时间冻结使其不再折断；后世成为蜥蜴人代代相传的族宝。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 4,
+        "sourceText": "主角用时间倒流修复石矛，并附加时间冻结使其不再折断；后世成为蜥蜴人代代相传的族宝。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-16-01",
+      "title": "世界设定事实｜第16源章｜1",
+      "memo": "龙之时代：世界设定事实（第16源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》 P0064-P0077：龙族人形化成为常态；部分小型恐龙受影响成为蜥蜴人，会使用工具与火。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "龙族人形化成为常态；部分小型恐龙受影响成为蜥蜴人，会使用工具与火。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-16-02",
+      "title": "世界设定事实｜第16源章｜2",
+      "memo": "龙之时代：世界设定事实（第16源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》 P0103-P0108：黑曜石矛后世由蜥蜴人主要部落代表和首领传承，且龙也不理解其时间魔法。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 2,
+        "sourceText": "黑曜石矛后世由蜥蜴人主要部落代表和首领传承，且龙也不理解其时间魔法。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-16-01",
+      "title": "新建立连续性｜第16源章｜1",
+      "memo": "龙之时代：新建立连续性（第16源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：龙族普遍人形化",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "龙族普遍人形化"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-16-02",
+      "title": "新建立连续性｜第16源章｜2",
+      "memo": "龙之时代：新建立连续性（第16源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "沙玛什",
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：沙玛什人形",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 2,
+        "sourceText": "沙玛什人形"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-16-03",
+      "title": "新建立连续性｜第16源章｜3",
+      "memo": "龙之时代：新建立连续性（第16源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：蜥蜴人",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 3,
+        "sourceText": "蜥蜴人"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-16-04",
+      "title": "新建立连续性｜第16源章｜4",
+      "memo": "龙之时代：新建立连续性（第16源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：不坏黑曜石矛",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 4,
+        "sourceText": "不坏黑曜石矛"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-16-01",
+      "title": "未解决事项｜第16源章｜1",
+      "memo": "龙之时代：未解决事项（第16源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：主角角能否隐藏",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "主角角能否隐藏"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-16-02",
+      "title": "未解决事项｜第16源章｜2",
+      "memo": "龙之时代：未解决事项（第16源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：真正人类何时出现",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 2,
+        "sourceText": "真正人类何时出现"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-16-01",
+      "title": "主角龙形态｜第16源章｜1",
+      "memo": "龙之时代：主角龙形态（第16源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：常用矮小银白发小角女孩形态；巨大光辉银龙为原形。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "常用矮小银白发小角女孩形态；巨大光辉银龙为原形。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-16-01",
+      "title": "主角龙状态｜第16源章｜1",
+      "memo": "龙之时代：主角龙状态（第16源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：开始以接近人的外形参与智慧族群萌芽。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "开始以接近人的外形参与智慧族群萌芽。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-16-01",
+      "title": "主角龙知识边界｜第16源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第16源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "龙的时代（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第16源章《龙的时代（6）》：尚未见真正人类；时间系魔法仍为她独有。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 16,
+        "chapterTitle": "龙的时代（6）",
+        "sequence": 1,
+        "sourceText": "尚未见真正人类；时间系魔法仍为她独有。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-17-01",
+      "title": "事件｜第17源章｜1",
+      "memo": "龙之时代：事件（第17源章第1条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0001-P0024：数百年后龙由数百增至近千，捕食使大型恐龙濒危，部分龙也因竞争挨饿；主角拒绝贸然创造复杂新生物。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "数百年后龙由数百增至近千，捕食使大型恐龙濒危，部分龙也因竞争挨饿；主角拒绝贸然创造复杂新生物。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-17-02",
+      "title": "事件｜第17源章｜2",
+      "memo": "龙之时代：事件（第17源章第2条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0025-P0042：主角从光合作用类比想到让半自然现象的龙以魔力维生。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 2,
+        "sourceText": "主角从光合作用类比想到让半自然现象的龙以魔力维生。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-17-03",
+      "title": "事件｜第17源章｜3",
+      "memo": "龙之时代：事件（第17源章第3条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0043-P0074：她教七个孩子改造后代：降低生物属性、增强自然现象属性、改造心脏以呼吸吸魔，形成龙之心式机制。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 3,
+        "sourceText": "她教七个孩子改造后代：降低生物属性、增强自然现象属性、改造心脏以呼吸吸魔，形成龙之心式机制。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-17-04",
+      "title": "事件｜第17源章｜4",
+      "memo": "龙之时代：事件（第17源章第4条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0075-P0088：魔法生效后食物变为消遣，争食冲突减少，蜥蜴人发展语言、农耕迹象和创世神龙神庙。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 4,
+        "sourceText": "魔法生效后食物变为消遣，争食冲突减少，蜥蜴人发展语言、农耕迹象和创世神龙神庙。"
+      }
+    },
+    {
+      "id": "era-02-dragons-event-17-05",
+      "title": "事件｜第17源章｜5",
+      "memo": "龙之时代：事件（第17源章第5条）",
+      "category": "event",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0089-P0094：副作用是龙约一至二成生物、八至九成自然现象，寿命延长而产卵率跌至每年不足十条。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 5,
+        "sourceText": "副作用是龙约一至二成生物、八至九成自然现象，寿命延长而产卵率跌至每年不足十条。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-17-01",
+      "title": "世界设定事实｜第17源章｜1",
+      "memo": "龙之时代：世界设定事实（第17源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0062-P0067：龙之心以呼吸吸收和积累魔力维持成年龙；刚孵化幼龙仍必须吃肉。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "龙之心以呼吸吸收和积累魔力维持成年龙；刚孵化幼龙仍必须吃肉。"
+      }
+    },
+    {
+      "id": "era-02-dragons-world-fact-17-02",
+      "title": "世界设定事实｜第17源章｜2",
+      "memo": "龙之时代：世界设定事实（第17源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》 P0082-P0087：蜥蜴人开始从狩猎部落走向语言、农耕和创世神龙信仰。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 2,
+        "sourceText": "蜥蜴人开始从狩猎部落走向语言、农耕和创世神龙信仰。"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-17-01",
+      "title": "新建立连续性｜第17源章｜1",
+      "memo": "龙之时代：新建立连续性（第17源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：龙之心/魔力维生",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "龙之心/魔力维生"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-17-02",
+      "title": "新建立连续性｜第17源章｜2",
+      "memo": "龙之时代：新建立连续性（第17源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：近千龙",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 2,
+        "sourceText": "近千龙"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-17-03",
+      "title": "新建立连续性｜第17源章｜3",
+      "memo": "龙之时代：新建立连续性（第17源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：极低出生率",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 3,
+        "sourceText": "极低出生率"
+      }
+    },
+    {
+      "id": "era-02-dragons-continuity-new-17-04",
+      "title": "新建立连续性｜第17源章｜4",
+      "memo": "龙之时代：新建立连续性（第17源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：蜥蜴人神庙",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 4,
+        "sourceText": "蜥蜴人神庙"
+      }
+    },
+    {
+      "id": "era-02-dragons-unresolved-17-01",
+      "title": "未解决事项｜第17源章｜1",
+      "memo": "龙之时代：未解决事项（第17源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：低出生率会造成何种社会后果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "低出生率会造成何种社会后果"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-form-17-01",
+      "title": "主角龙形态｜第17源章｜1",
+      "memo": "龙之时代：主角龙形态（第17源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：外貌无新增；拥有不需进食的原初龙本质，与次代生物龙不同。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "外貌无新增；拥有不需进食的原初龙本质，与次代生物龙不同。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-state-17-01",
+      "title": "主角龙状态｜第17源章｜1",
+      "memo": "龙之时代：主角龙状态（第17源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：承担近千龙与全球生态的系统性修正。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "承担近千龙与全球生态的系统性修正。"
+      }
+    },
+    {
+      "id": "era-02-dragons-protagonist-knowledge-17-01",
+      "title": "主角龙知识边界｜第17源章｜1",
+      "memo": "龙之时代：主角龙知识边界（第17源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "龙之时代（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第17源章《龙之时代（7）》：实施前不知道生育率副作用，实施后也只提出可能原因。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 17,
+        "chapterTitle": "龙之时代（7）",
+        "sequence": 1,
+        "sourceText": "实施前不知道生育率副作用，实施后也只提出可能原因。"
+      }
+    },
+    {
+      "id": "era-02-dragons-secondary-character-01",
+      "title": "次要人物｜首只海蛇（未命名）",
+      "memo": "龙之时代：次要人物 首只海蛇（未命名）",
+      "category": "secondary-character",
       "keys": [],
       "secondaryKeys": [],
       "constant": false,
       "enabled": true,
       "vectorMatching": true,
-      "order": 620,
+      "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "龙之时代的次要人物与 NPC 只限以下原文出场者。姓名未给者保持无名，不得补姓名、私史、血缘、能力或秘密。\n\n首只海蛇（未命名）：第14源章《龙之时代（4）》：五只受鳞海生恐龙之一，曾攻击人形主角；因未完全吸收力量成为海蛇并自行离去。\n赠花蜥蜴人（未命名）：第16源章《龙的时代（6）》：会用工具但口腔尚不适合说话；送主角白花并请求修矛。",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
+      "content": "首只海蛇（未命名）\n第14源章《龙之时代（4）》：五只受鳞海生恐龙之一，曾攻击人形主角；因未完全吸收力量成为海蛇并自行离去。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 14,
+          "chapterTitle": "龙之时代（4）",
+          "sourceText": "五只受鳞海生恐龙之一，曾攻击人形主角；因未完全吸收力量成为海蛇并自行离去。"
+        }
+      ]
     },
     {
-      "id": "era-02-dragons-boundaries",
-      "memo": "龙之时代：未解事实与知识边界",
-      "category": "response-rule",
+      "id": "era-02-dragons-secondary-character-02",
+      "title": "次要人物｜赠花蜥蜴人（未命名）",
+      "memo": "龙之时代：次要人物 赠花蜥蜴人（未命名）",
+      "category": "secondary-character",
       "keys": [],
       "secondaryKeys": [],
-      "constant": true,
+      "constant": false,
       "enabled": true,
-      "order": 980,
+      "vectorMatching": true,
+      "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "龙之时代中未解决、不可擅自补完的事项如下：\n第11源章《龙之时代》：西尔菲德及其他孩子能否成功\n第11源章《龙之时代》：孩子们获得肉体后的影响\n第12源章《龙之时代（2）》：新龙体会如何改变世界\n第12源章《龙之时代（2）》：各形态细节的根源\n第13源章《龙之时代（3）》：赠鳞结果\n第13源章《龙之时代（3）》：人形未来是否继续变化\n第14源章《龙之时代（4）》：费蒂达是否会继续抚育蓝龙\n第14源章《龙之时代（4）》：半转化的确切原因\n第15源章《龙之时代（5）》：遗失鳞片后果\n第15源章《龙之时代（5）》：多色龙冲突是否升级\n第16源章《龙的时代（6）》：主角角能否隐藏\n第16源章《龙的时代（6）》：真正人类何时出现\n第17源章《龙之时代（7）》：低出生率会造成何种社会后果\n\n主角龙的逐章知识边界如下：\n第11源章《龙之时代》：此刻只见厄瑞玻斯成功，尚未知道其他孩子的最终龙体细节。\n第12源章《龙之时代（2）》：不理解孩子各自颜色和特殊材质形成原则。\n第13源章《龙之时代（3）》：不知道赠予下代鳞片的后果；不应拥有后世社会知识以外的亲历事实。\n第14源章《龙之时代（4）》：只知道当场观察到的转化，不应预知海蛇后世生态。\n第15源章《龙之时代（5）》：不了解遗失鳞片未来影响，也尚未经历全面龙战。\n第16源章《龙的时代（6）》：尚未见真正人类；时间系魔法仍为她独有。\n第17源章《龙之时代（7）》：实施前不知道生育率副作用，实施后也只提出可能原因。\n\n任何角色都不能因为世界书含有系统正典就自动读心、知道隐藏身份或预见未来。证据不足时保留未知。",
-      "knowledgeStatus": "system-rule"
+      "content": "赠花蜥蜴人（未命名）\n第16源章《龙的时代（6）》：会用工具但口腔尚不适合说话；送主角白花并请求修矛。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 16,
+          "chapterTitle": "龙的时代（6）",
+          "sourceText": "会用工具但口腔尚不适合说话；送主角白花并请求修矛。"
+        }
+      ]
     }
   ],
   "secondaryCharacterCount": 2

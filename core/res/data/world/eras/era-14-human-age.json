@@ -2569,6 +2569,7 @@
   "lorebook": [
     {
       "id": "era-14-human-age-core",
+      "title": "人类时代与第一次联合战争｜时代边界",
       "memo": "人类时代与第一次联合战争：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -2578,15 +2579,172 @@
       "order": 1000,
       "position": "before-character",
       "depth": 4,
-      "content": "人类时代与第一次联合战争是当前唯一有效的时代，原文范围为第237至第253源章。\n\n本时代只能使用截至第253源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第254源章以后的内容不可进入角色认知或场景。\n\n主角龙在本时代必须可选。其形态和状态按以下逐章证据处理：\n第237源章《人类的时代.(1)》：大角银发本体以生命女神身份办公；借其他神格或龙族巫女身份仍可下地。\n第238源章《人类的时代.(2)》：大角银发本体，以生命女神身份与阿谢拉特办公观察世界。\n第239源章《人类的时代.(3)》：本章不直接现身，通过生命教团大祭司与冠冕赐名。\n第240源章《人类的时代.(4)》：前半为大角银发本体内述；后半远程操控蒙布贤者石魔像。\n第241源章《人类的时代.(5)》：远程操控蒙布贤者石魔像，主动展示石臂。\n第242源章《人类的时代.(6)》：大角银发本体，在世界树处喝茶听报。\n第243源章《哥布林.(1)》：大角银发本体，在萨加玛塔为她保留的旧房间。\n第244源章《哥布林.(2)》：大角银发本体，以时间回溯与强化视觉进行隔离实验。\n第245源章《哥布林.(3)》：大角银发本体，野外现身以火焰和树根处理群体。\n第246源章《兽人.(1)》：大角银发少女本体，树根束缚并亲自解剖。\n第247源章《兽人.(2)》：大角银发本体，处理村庄遗体、爆破洞穴并解剖酋长。\n第248源章《食人魔.(1)》：大角银发本体，与沙玛什隐蔽观察绿皮王国。\n第249源章《食人魔.(2)》：大角银发本体，持封存塔罗斯玻璃珠。\n第250源章《第一次联合战争.(1)》：本章不直接出现，以旗帜、神谕与援军承诺提供后台支持。\n第251源章《第一次联合战争.(2)》：本章末通过天空投放塔罗斯介入，本体仍不现身。\n第252源章《第一次联合战争.(3)》：大角银发本体，与世界树、萨加玛塔从高处远观。\n第253源章《第一次联合战争.(4)》：本体不在战场显形；以生命女神神谕划时代，日后保持隐藏身份可能性。\n第237源章《人类的时代.(1)》：从清算者转为人类时代神务制度设计者。\n第238源章《人类的时代.(2)》：准备承认卢修斯并把人类治理更多交还地表。\n第239源章《人类的时代.(3)》：正式承认卢修斯并植入骑士概念。\n第240源章《人类的时代.(4)》：从价值概念传播转入具体国家制度辅导。\n第241源章《人类的时代.(5)》：完成罗马尼亚制度与外交初始引导，维持非常驻顾问关系。\n第242源章《人类的时代.(6)》：由文明观察转入哥布林生态调查。\n第243源章《哥布林.(1)》：决定只发布基础知识，将常规应对交给人类。\n第244源章《哥布林.(2)》：从常规下放转为确认哥布林是全球性系统风险。\n第245源章《哥布林.(3)》：掌握常规清除弱点并捕获首只兽人。\n第246源章《兽人.(1)》：确认兽人威胁并发布预防警告。\n第247源章《兽人.(2)》：警告升级但绿皮王国和食人魔已经形成。\n第248源章《食人魔.(1)》：决定让塔罗斯受控参战而非放任大屠杀。\n第249源章《食人魔.(2)》：以幕后安全阀身份加入联军但不取代凡人作战。\n第250源章《第一次联合战争.(1)》：允许凡人联军自行展开战术。\n第251源章《第一次联合战争.(2)》：在卢修斯即将遭斩首时启动安全阀。\n第252源章《第一次联合战争.(3)》：成功用塔罗斯阻止斩首并完成威胁展示。\n第253源章《第一次联合战争.(4)》：结束直接地表干预，转为家里蹲式旁观。",
-      "knowledgeStatus": "system-canon"
+      "content": "人类时代与第一次联合战争是当前唯一有效的时代，原文范围为第237至第253源章。\n本时代只能使用截至第253源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第254源章以后的内容不可进入角色认知或场景。\n世界书中的系统正典不自动等于角色知识；证据不足时保持未知，不得补完。",
+      "knowledgeStatus": "system-rule"
     },
     {
-      "id": "era-14-human-age-world",
-      "memo": "人类时代与第一次联合战争：事件与世界状态",
-      "category": "event-history-system",
+      "id": "era-14-human-age-event-237-01",
+      "title": "事件｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第237源章第1条）",
+      "category": "event",
       "keys": [
-        "人类时代与第一次联合战争"
+        "阿谢拉特",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》 P0001-P0025：万神殿清扫后祈祷与神殿混乱集中到生命体系；无角白发、有肉体的祈祷处理分灵获名阿谢拉特。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "万神殿清扫后祈祷与神殿混乱集中到生命体系；无角白发、有肉体的祈祷处理分灵获名阿谢拉特。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-237-02",
+      "title": "事件｜第237源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第237源章第2条）",
+      "category": "event",
+      "keys": [
+        "芙蕾雅",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》 P0027-P0061：数十年后芙蕾雅与女武神弃旧名成为天使，为生命体系处理地上业务、给新生儿注魂赐福并检查前世记忆。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 2,
+        "sourceText": "数十年后芙蕾雅与女武神弃旧名成为天使，为生命体系处理地上业务、给新生儿注魂赐福并检查前世记忆。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-237-03",
+      "title": "事件｜第237源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第237源章第3条）",
+      "category": "event",
+      "keys": [
+        "阿谢拉特",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》 P0062-P0081：阿谢拉特承担大量信仰与行政；十二守护神及天狼星监管万神殿，地表神干预结束后生命迅速繁荣。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 3,
+        "sourceText": "阿谢拉特承担大量信仰与行政；十二守护神及天狼星监管万神殿，地表神干预结束后生命迅速繁荣。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-237-01",
+      "title": "世界设定事实｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第237源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "芙蕾雅",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》 P0036-P0043：芙蕾雅和女武神舍弃旧名成为天使；反抗者布伦希尔德被封印投往地上。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "芙蕾雅和女武神舍弃旧名成为天使；反抗者布伦希尔德被封印投往地上。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-237-02",
+      "title": "世界设定事实｜第237源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第237源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "云鲸",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》 P0057-P0060：天使从云鲸取得纯净魂魄注入新生命、赐福并检查前世记忆，在人中留指痕标记。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 2,
+        "sourceText": "天使从云鲸取得纯净魂魄注入新生命、赐福并检查前世记忆，在人中留指痕标记。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-237-03",
+      "title": "世界设定事实｜第237源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第237源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》 P0078-P0081：数百数千地表神消失，数十幸存神被囚；十二守护神和天狼星监管万神殿，生命进入快速繁荣。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 3,
+        "sourceText": "数百数千地表神消失，数十幸存神被囚；十二守护神和天狼星监管万神殿，生命进入快速繁荣。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-237-01",
+      "title": "新建立连续性｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "阿谢拉特",
+        "人类的时代.(1)"
       ],
       "secondaryKeys": [],
       "constant": false,
@@ -2595,13 +2753,5546 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "人类时代与第一次联合战争的事件与世界状态只包含下列原文证据。它们属于系统正典，但并不自动成为每个角色都知道的事实；角色是否知道仍由角色卡的知识边界决定。\n\n第237源章《人类的时代.(1)》 P0001-P0025：万神殿清扫后祈祷与神殿混乱集中到生命体系；无角白发、有肉体的祈祷处理分灵获名阿谢拉特。\n第237源章《人类的时代.(1)》 P0027-P0061：数十年后芙蕾雅与女武神弃旧名成为天使，为生命体系处理地上业务、给新生儿注魂赐福并检查前世记忆。\n第237源章《人类的时代.(1)》 P0062-P0081：阿谢拉特承担大量信仰与行政；十二守护神及天狼星监管万神殿，地表神干预结束后生命迅速繁荣。\n第238源章《人类的时代.(2)》 P0001-P0024：蒂雅思考把所有智慧种统称人类；清神减少宗教战争，水稻等多环境作物提高粮产与人口，却又使国家战争扩张。\n第238源章《人类的时代.(2)》 P0025-P0056：生命教团规范抑制屠俘；自称阿卡迪亚后裔的少年王卢修斯以马凯王旗与兵书连胜，蒂雅准备在其合法加冕时赐福。\n第238源章《人类的时代.(2)》 P0057-P0072：战争增加冥界公务；天堂标准放宽后每年一两人进入，拥有自我的塔罗斯获准休假并在地上旅行收集故事。\n第239源章《人类的时代.(3)》 P0001-P0024：卢修斯收复旧阿卡迪亚并受天狼星神殿邀请，独自进入接受不朽之冠试炼。\n第239源章《人类的时代.(3)》 P0025-P0088：卢修斯回答为保护重要者为王、敌患消失即止战，并对宗教、弱者、荣誉、权威等给出有条件而非空泛誓言；获冠与新名卢修斯·阿尔特留斯·凯撒，成为最初骑士王。\n第239源章《人类的时代.(3)》 P0090-P0103：后世历史探究社团为骑士王、莱克伦、无名勇者谁应作为同人志封面争吵，并出现少女王改编支持者。\n第240源章《人类的时代.(4)》 P0001-P0041：蒂雅承认骑士名号是其传播荣誉、权利与责任概念的设计；卢修斯征服约两倍阿卡迪亚疆域后止战转内政。\n第240源章《人类的时代.(4)》 P0042-P0053：疆域荒废且治理知识不足，卢修斯向各王、祭司、法师和诸种族求学，最终寻找深林贤者。\n第240源章《人类的时代.(4)》 P0054-P0093：贤者指出王不应独揽，建议把土地治理权暂借臣子，以贡赋交换，并按功绩能力分层使臣子相互牵制。\n第241源章《人类的时代.(5)》 P0001-P0048：贤者整夜讲分而治之、五等爵、领地领主与间接统治；拒绝成为常驻臣属但同意使者随时求教。\n第241源章《人类的时代.(5)》 P0049-P0078：蒂雅建议与精灵矮人及其他种族巩固关系，指引三年后去贝特尔吉乌斯十年决斗，并确认与比斯蒂亚、莱特基尼亚已密切往来。\n第241源章《人类的时代.(5)》 P0079-P0109：卢修斯请求贤者为新国家命名；蒂雅因凯撒与罗马联想取名罗马尼亚，卢修斯欣然接受。\n第242源章《人类的时代.(6)》 P0001-P0038：罗马尼亚分封后卢修斯没收压榨领地、统一税额；世界格局包含罗马尼亚、比斯蒂亚、莱特基尼亚、精灵、矮人、普罗西亚、蜥蜴人和东方国家。\n第242源章《人类的时代.(6)》 P0039-P0071：大规模战争消失后世界树报告绿色小猴般、双足用工具且能生育的智能怪物，蒂雅怀疑哥布林并担心其来源。\n第242源章《人类的时代.(6)》 P0072-P0096：精灵见即射杀哥布林；蒂雅决定调查其全球分布、智能和危险，承认怪物总体无法根绝。\n第243源章《哥布林.(1)》 P0001-P0033：后世百科概括哥布林为全球常见绿皮、群居敌对且极端适应；蒂雅初察认为弱小，对人类威胁有限而放任。\n第243源章《哥布林.(1)》 P0034-P0059：哥布林少食、数日成年、快速繁殖驱逐，兼有世代突变与个体现地进化；霍布哥布林具成人力量、工具学习和局势判断。\n第243源章《哥布林.(1)》 P0060-P0102：蒂雅向萨加玛塔诉忧，怀疑群体数量触发进化；萨加玛塔劝她交由人类与其他孩子处理并珍惜母女时间，蒂雅接受。\n第244源章《哥布林.(2)》 P0001-P0027：后世研究证实至少20只且食物充足时群体共享魔力催生霍布，更大群体可产生更高亚种。\n第244源章《哥布林.(2)》 P0029-P0051：人类长期把哥布林当低收益害虫而放松警惕；蒂雅转而研究其绿色皮肤光合作用和极端生存性。\n第244源章《哥布林.(2)》 P0052-P0093：隔离生态箱中单只哥布林通过霉菌复制幼体并调节性别；蒂雅时间回溯确认本体是能光合、散魔力、智能繁殖的菌丝网络，意识到霍布风险。\n第245源章《哥布林.(3)》 P0001-P0037：蒂雅发现霉菌繁殖耗尽原体魔力；抽一只会抽干共享网络并使全群同时死，尸体化孢粉且易燃；普通哥布林魔石细碎无收益。\n第245源章《哥布林.(3)》 P0038-P0063：霍布有完整小魔石，两个有霍布的群体会以碰拳合并并连魔，蒂雅推断霍布也可聚集进化。\n第245源章《哥布林.(3)》 P0064-P0088：数十霍布与数百哥布林催生更高、长獠牙的指挥者，蒂雅命名兽人；它们将袭村，蒂雅烧尽下属并活捉逃跑兽人研究。\n第246源章《兽人.(1)》 P0001-P0016：百科说明霍布按体质环境可进化兽人、哥布林萨满、霜冻哥布林、酋长、烈焰哥布林等分支。\n第246源章《兽人.(1)》 P0018-P0055：蒂雅检查首只兽人，确认其恐惧和异种性欲后切除生殖器并开始无麻醉活体解剖。\n第246源章《兽人.(1)》 P0057-P0089：兽人双胃、大心肺、低光合、较大魔石但无黑暗碎片；蒂雅焚尸并向生命教团发布群体危险警告，却被人类轻视。\n第247源章《兽人.(2)》 P0001-P0033：人类无视警告后开拓村被绿皮屠灭；蒂雅火化尸体、拒绝无目的复活，交由死神引魂并前去报仇。\n第247源章《兽人.(2)》 P0034-P0074：凶手群由约80哥布林、8霍布和智力型哥布林酋长组成；蒂雅以燃气炸洞全灭，解剖酋长后发布更直接警告。\n第247源章《兽人.(2)》 P0075-P0093：人类开始指标猎杀但已太迟；兽人群掠夺吞并形成绿皮王国，数百兽人向王供魔结茧，诞生巨人般食人魔。\n第248源章《食人魔.(1)》 P0001-P0030：食人魔与无翼龙兽角力并凭力量、敏捷、预判逼退对方，证明远超普通地表怪物。\n第248源章《食人魔.(1)》 P0031-P0043：蒂雅考虑放任食人魔摧毁村城作为永久警告，理智认为有效，残存人性反对，情感淡化加剧道德冲突。\n第248源章《食人魔.(1)》 P0044-P0098：沙玛什识别蒂雅仍担忧，提出让休假的塔罗斯演示并击杀；她还指出绿皮各阶模仿鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅推断是地底创造者盗版地表种族。\n第249源章《食人魔.(2)》 P0001-P0050：绿皮毁塞梅尔村城与贸易要地；老年仍年轻的卢修斯承认自己也曾轻视警告，召集全国与所有种族，让长寿种传承血写教训。\n第249源章《食人魔.(2)》 P0052-P0084：联军包含罗马尼亚一万二千、生命祭司200、法师100、兽人2000、莱特金5000、精灵100、矮人200、蜥蜴人100。\n第249源章《食人魔.(2)》 P0085-P0104：蒂雅将塔罗斯封入玻璃珠，以延长休假为交换；计划食人魔出动即投放，事先通知人类亲眼见证。\n第250源章《第一次联合战争.(1)》 P0001-P0056：精灵矮人争首攻，卢修斯以箭矢稀缺和精确性分工：矮人范围开战、精灵狙击指挥者；各族按计划就位。\n第250源章《第一次联合战争.(1)》 P0057-P0086：矮人五台投石机以燃油木弹制造火雨，虽三台自燃仍造成大范围杀伤。\n第250源章《第一次联合战争.(1)》 P0087-P0098：骑士分割、兽人迂回、莱特金盾阵压线、蜥蜴突击、法师火攻、精灵狙击，联合战争正式开始。\n第251源章《第一次联合战争.(2)》 P0001-P0034：联军各兵种压倒绿皮，祭司后送治疗降低伤亡，蜥蜴人与兽人形成单挑战圈。\n第251源章《第一次联合战争.(2)》 P0035-P0083：食人魔落地破莱特金盾阵，精灵法师无效、蜥蜴人只能以断鳞断尾拖延；食人魔凭智力跳向后方锁定卢修斯旗帜连接。\n第251源章《第一次联合战争.(2)》 P0084-P0112：卢修斯被震落，确认继承人和国家不会因己死崩塌后以旗尖迎战，塔罗斯从天而降。\n第252源章《第一次联合战争.(3)》 P0001-P0052：塔罗斯以头部硬接食人魔连击毫无损伤，食人魔双拳自毁；塔罗斯开始反击。\n第252源章《第一次联合战争.(3)》 P0053-P0074：蒂雅、世界树、萨加玛塔远观，解释原本想放水但卢修斯危险而直接投下；食人魔不逃因需部下供魔。\n第252源章《第一次联合战争.(3)》 P0075-P0104：绿皮群体提供维生魔力，越高阶消耗越大；部下不足上位绿皮会枯死，塔罗斯一拳击飞食人魔头。\n第253源章《第一次联合战争.(4)》 P0001-P0039：塔罗斯一拳碎食人魔头并带尸返回；统治链断裂，精灵与各族狙杀兽人酋长，追猎逃散哥布林后战争结束。\n第253源章《第一次联合战争.(4)》 P0041-P0085：战后形成哥布林见即清剿制度、魔法多派理论研究、骑士效仿塔罗斯发展铠甲，以及跨种族关系。\n第253源章《第一次联合战争.(4)》 P0086-P0098：蒂雅通过生命教团神谕宣布这是最后一次直接援助，未来属地表众生，神不再亲降；她私下决定退居旁观，由阿谢拉特回应祈祷。\n第237源章《人类的时代.(1)》 P0036-P0043：芙蕾雅和女武神舍弃旧名成为天使；反抗者布伦希尔德被封印投往地上。\n第237源章《人类的时代.(1)》 P0057-P0060：天使从云鲸取得纯净魂魄注入新生命、赐福并检查前世记忆，在人中留指痕标记。\n第237源章《人类的时代.(1)》 P0078-P0081：数百数千地表神消失，数十幸存神被囚；十二守护神和天狼星监管万神殿，生命进入快速繁荣。\n第238源章《人类的时代.(2)》 P0011-P0017：水稻由莱特金与梅贝尔扩散至湿热区，与麦、土豆、玉米共同扩大粮食适生范围。\n第238源章《人类的时代.(2)》 P0043-P0055：卢修斯疑为阿卡迪亚王裔，持马凯王旗和兵书，从数百兵力扩张多城邦。\n第238源章《人类的时代.(2)》 P0061-P0069：天堂准入放宽为未伤人且适当行善；塔罗斯有自我并从北端冥门休假旅行。\n第239源章《人类的时代.(3)》 P0003-P0006：天狼星邀请既证明强王地位也可能否定正统，历史受邀者一半拒绝、一半被驱逐。\n第239源章《人类的时代.(3)》 P0077-P0086：不朽之冠赋予旺盛活力；蒂雅借生命大祭司授予卢修斯骑士、骑士王及卢修斯·阿尔特留斯·凯撒之名。\n第240源章《人类的时代.(4)》 P0023-P0035：骑士概念把权利与责任绑定，并推动贵族从有钱有势者转向承担治理义务的身份理想。\n第240源章《人类的时代.(4)》 P0038-P0046：卢修斯有十二名跨种族能臣，征服约旧阿卡迪亚两倍疆域后停止，广泛搜集治国知识。\n第241源章《人类的时代.(5)》 P0015-P0019：贤者向卢修斯讲平民、骑士、贵族、五等爵、领地与领主间接统治。\n第241源章《人类的时代.(5)》 P0059-P0066：贝特尔吉乌斯位于精灵森林与萨加玛塔之间，每十年举办精灵矮人决斗，常驻双方人员且有狂热粉丝。\n第241源章《人类的时代.(5)》 P0072-P0075：罗马尼亚已与米诺亚为核心兽人王国及莱特基尼亚密切往来。\n第242源章《人类的时代.(6)》 P0012-P0036：罗马尼亚横跨雪原至普罗西亚、山脉至海；比斯蒂亚以龙族女神和神化阿斯忒里俄斯凝聚，莱特基尼亚靠稻作、矿冶、高生育和同族团结自守。\n第242源章《人类的时代.(6)》 P0067-P0082：首批哥布林绿色、毛茸茸、小猴体型、双足用原始工具、凶残且能繁殖，可能非普通动物怪物化。\n第243源章《哥布林.(1)》 P0006-P0014：哥布林会按海岸、雪原等环境产生肤色、蹼、心肺、体毛和体型适应，但敌意不变。\n第243源章《哥布林.(1)》 P0037-P0058：普通哥布林数日成年并快速繁殖；少数突变成霍布哥布林，具成人级力量、工具能力和战术回避。\n第244源章《哥布林.(2)》 P0007-P0019：至少20只、食物充足和持续群居使稀薄魔力网络累积，指定一只突变为霍布；机制像被精密设计。\n第244源章《哥布林.(2)》 P0052-P0057：哥布林绿色皮肤可低效光合作用，仅靠水光维持最低生存，耐冷热。\n第244源章《哥布林.(2)》 P0066-P0089：哥布林菌丝在活动区散布，吸收其魔力形成复制幼体，并可改变性别配比。\n第245源章《哥布林.(3)》 P0012-P0025：同群哥布林如单体共享魔力，抽干任一节点可令全群死；尸体散霉菌但高度易燃，火烧巢穴可抑制。\n第245源章《哥布林.(3)》 P0031-P0048：普通哥布林魔石过小易碎无收益；霍布体内有完整小魔石，可作为讨伐激励。\n第245源章《哥布林.(3)》 P0050-P0069：有霍布的群体接触会合并共享魔力；数十霍布催生兽人，形成兽人—霍布—普通哥布林三级指挥。\n第246源章《兽人.(1)》 P0009-P0015：霍布进化路线依潜能与环境分化；死亡地带出萨满、寒地出霜冻、统御型出酋长，烈焰型常自焚群落。\n第246源章《兽人.(1)》 P0057-P0075：兽人远强人类，双胃、大心肺；体型增加使光合不足以维生，魔石约霍布两倍且无黑暗碎片。\n第247源章《兽人.(2)》 P0034-P0046：哥布林酋长是智力专化霍布分支，会指挥、隐蔽巢穴和消除痕迹，肉体仅略强霍布。\n第247源章《兽人.(2)》 P0075-P0093：数百兽人供魔使兽人王结茧数日，蜕变为巨人高、捏岩怪力、咆哮震晕弱者的食人魔。\n第248源章《食人魔.(1)》 P0006-P0028：食人魔力量可与龙兽正面对峙，具高敏捷与战斗预判，肉体能承受龙兽攻击。\n第248源章《食人魔.(1)》 P0075-P0097：绿皮阶层被沙玛什对应鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅认定其创造者模仿地表智慧种。\n第249源章《食人魔.(2)》 P0017-P0024：塞梅尔是通往普罗西亚与蜥蜴人的富裕贸易要地，地方强军仍被绿皮无声覆灭。\n第249源章《食人魔.(2)》 P0055-P0065：第一次联军各族兵力与专业分工明确，矮人携移动锻造场和新兵器研究所。\n第249源章《食人魔.(2)》 P0091-P0103：塔罗斯可被缩存玻璃珠再发射投放，参战报酬是延长地表休假。\n第250源章《第一次联合战争.(1)》 P0041-P0045：卢修斯不败旗帜含神级复杂魔法阵，法师难辨、蜥蜴人视作神迹祈祷。\n第250源章《第一次联合战争.(1)》 P0057-P0086：矮人原始投石机发射燃油木弹在空中碎裂成火雨，但油料安全性差会烧毁器械。\n第251源章《第一次联合战争.(2)》 P0004-P0011：联军以盾阵正压、骑兵分割、兽人侧击、精灵狙特殊体、法师火墙协同。\n第251源章《第一次联合战争.(2)》 P0091-P0095：食人魔能感知卢修斯旗帜连接各军魔力，主动斩首指挥核心。\n第252源章《第一次联合战争.(3)》 P0085-P0100：绿皮群体既共享进化魔力也供高阶个体维生；越高阶占用越大，失去足够部下会魔力枯竭死亡。\n第252源章《第一次联合战争.(3)》 P0023-P0051：食人魔连击无法撼动塔罗斯，反因击打黑岩使自身拳骨肌肉破碎。\n第253源章《第一次联合战争.(4)》 P0041-P0048：联合战争后哥布林一经发现必须猎杀，发现霍布或兽人即由领主集军讨伐。\n第253源章《第一次联合战争.(4)》 P0049-P0070：哥布林特殊魔力推动元素、驯兽、强化、治疗、卷轴普及、外物操控、死灵与预言等魔法派系和理论化。\n第253源章《第一次联合战争.(4)》 P0071-P0081：骑士看到塔罗斯黑甲后开始追求全身防护，早期主要用金属加强要害。\n第237源章《人类的时代.(1)》：阿谢拉特\n第237源章《人类的时代.(1)》：天使体系\n第237源章《人类的时代.(1)》：新生注魂流程\n第237源章《人类的时代.(1)》：十二守护神监管\n第238源章《人类的时代.(2)》：卢修斯崛起\n第238源章《人类的时代.(2)》：多作物人口增长\n第238源章《人类的时代.(2)》：塔罗斯休假\n第239源章《人类的时代.(3)》：骑士王加冕\n第239源章《人类的时代.(3)》：卢修斯新名\n第239源章《人类的时代.(3)》：后世历史社团\n第240源章《人类的时代.(4)》：骑士概念设计\n第240源章《人类的时代.(4)》：封建代理建议\n第240源章《人类的时代.(4)》：臣子等级制衡\n第241源章《人类的时代.(5)》：罗马尼亚命名\n第241源章《人类的时代.(5)》：贤者使者咨询\n第241源章《人类的时代.(5)》：贝特尔吉乌斯外交建议\n第242源章《人类的时代.(6)》：多国格局\n第242源章《人类的时代.(6)》：智能繁殖怪物\n第242源章《人类的时代.(6)》：哥布林调查\n第243源章《哥布林.(1)》：霍布哥布林\n第243源章《哥布林.(1)》：责任下放\n第244源章《哥布林.(2)》：菌丝复制\n第244源章《哥布林.(2)》：光合作用\n第244源章《哥布林.(2)》：性别转换\n第244源章《哥布林.(2)》：群体共享魔力\n第245源章《哥布林.(3)》：全群共享致死\n第245源章《哥布林.(3)》：火焰弱点\n第245源章《哥布林.(3)》：兽人进化\n第245源章《哥布林.(3)》：三级指挥\n第246源章《兽人.(1)》：霍布多分支\n第246源章《兽人.(1)》：兽人器官与魔石\n第246源章《兽人.(1)》：公共警告\n第247源章《兽人.(2)》：哥布林酋长\n第247源章《兽人.(2)》：食人魔诞生\n第247源章《兽人.(2)》：蒂雅共情变淡\n第248源章《食人魔.(1)》：塔罗斯折中方案\n第248源章《食人魔.(1)》：绿皮仿生假说\n第249源章《食人魔.(2)》：首次多种族联军\n第249源章《食人魔.(2)》：塔罗斯投放珠\n第249源章《食人魔.(2)》：塞梅尔覆灭\n第250源章《第一次联合战争.(1)》：各族联合战术\n第250源章《第一次联合战争.(1)》：燃烧投石机首攻\n第251源章《第一次联合战争.(2)》：食人魔斩首战术\n第251源章《第一次联合战争.(2)》：塔罗斯坠落\n第252源章《第一次联合战争.(3)》：高阶绿皮维生机制\n第252源章《第一次联合战争.(3)》：塔罗斯一拳终结\n第253源章《第一次联合战争.(4)》：联合战争结束\n第253源章《第一次联合战争.(4)》：魔法理论化\n第253源章《第一次联合战争.(4)》：神不亲降神谕",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
+      "content": "第237源章《人类的时代.(1)》：阿谢拉特",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "阿谢拉特"
+      }
     },
     {
-      "id": "era-14-human-age-secondary-cast",
-      "memo": "人类时代与第一次联合战争：次要人物与 NPC 合并条目",
-      "category": "secondary-cast",
+      "id": "era-14-human-age-continuity-new-237-02",
+      "title": "新建立连续性｜第237源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：天使体系",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 2,
+        "sourceText": "天使体系"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-237-03",
+      "title": "新建立连续性｜第237源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：新生注魂流程",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 3,
+        "sourceText": "新生注魂流程"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-237-04",
+      "title": "新建立连续性｜第237源章｜4",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第237源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：十二守护神监管",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 4,
+        "sourceText": "十二守护神监管"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-237-01",
+      "title": "未解决事项｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第237源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：生命爆发后果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "生命爆发后果"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-237-02",
+      "title": "未解决事项｜第237源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第237源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：布伦希尔德地上命运",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 2,
+        "sourceText": "布伦希尔德地上命运"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-237-01",
+      "title": "主角龙形态｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第237源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "龙族巫女",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：大角银发本体以生命女神身份办公；借其他神格或龙族巫女身份仍可下地。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "大角银发本体以生命女神身份办公；借其他神格或龙族巫女身份仍可下地。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-237-01",
+      "title": "主角龙状态｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第237源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：从清算者转为人类时代神务制度设计者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "从清算者转为人类时代神务制度设计者。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-237-01",
+      "title": "主角龙知识边界｜第237源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第237源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "阿谢拉特",
+        "人类的时代.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第237源章《人类的时代.(1)》：新生命繁荣的长期后果尚未知；阿谢拉特和天使已具独立自我但仍受体系约束。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 237,
+        "chapterTitle": "人类的时代.(1)",
+        "sequence": 1,
+        "sourceText": "新生命繁荣的长期后果尚未知；阿谢拉特和天使已具独立自我但仍受体系约束。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-238-01",
+      "title": "事件｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第238源章第1条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》 P0001-P0024：蒂雅思考把所有智慧种统称人类；清神减少宗教战争，水稻等多环境作物提高粮产与人口，却又使国家战争扩张。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "蒂雅思考把所有智慧种统称人类；清神减少宗教战争，水稻等多环境作物提高粮产与人口，却又使国家战争扩张。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-238-02",
+      "title": "事件｜第238源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第238源章第2条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "蒂雅",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》 P0025-P0056：生命教团规范抑制屠俘；自称阿卡迪亚后裔的少年王卢修斯以马凯王旗与兵书连胜，蒂雅准备在其合法加冕时赐福。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 2,
+        "sourceText": "生命教团规范抑制屠俘；自称阿卡迪亚后裔的少年王卢修斯以马凯王旗与兵书连胜，蒂雅准备在其合法加冕时赐福。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-238-03",
+      "title": "事件｜第238源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第238源章第3条）",
+      "category": "event",
+      "keys": [
+        "塔罗斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》 P0057-P0072：战争增加冥界公务；天堂标准放宽后每年一两人进入，拥有自我的塔罗斯获准休假并在地上旅行收集故事。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 3,
+        "sourceText": "战争增加冥界公务；天堂标准放宽后每年一两人进入，拥有自我的塔罗斯获准休假并在地上旅行收集故事。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-238-01",
+      "title": "世界设定事实｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第238源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "梅贝尔",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》 P0011-P0017：水稻由莱特金与梅贝尔扩散至湿热区，与麦、土豆、玉米共同扩大粮食适生范围。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "水稻由莱特金与梅贝尔扩散至湿热区，与麦、土豆、玉米共同扩大粮食适生范围。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-238-02",
+      "title": "世界设定事实｜第238源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第238源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》 P0043-P0055：卢修斯疑为阿卡迪亚王裔，持马凯王旗和兵书，从数百兵力扩张多城邦。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 2,
+        "sourceText": "卢修斯疑为阿卡迪亚王裔，持马凯王旗和兵书，从数百兵力扩张多城邦。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-238-03",
+      "title": "世界设定事实｜第238源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第238源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "塔罗斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》 P0061-P0069：天堂准入放宽为未伤人且适当行善；塔罗斯有自我并从北端冥门休假旅行。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 3,
+        "sourceText": "天堂准入放宽为未伤人且适当行善；塔罗斯有自我并从北端冥门休假旅行。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-238-01",
+      "title": "新建立连续性｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第238源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：卢修斯崛起",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "卢修斯崛起"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-238-02",
+      "title": "新建立连续性｜第238源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第238源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：多作物人口增长",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 2,
+        "sourceText": "多作物人口增长"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-238-03",
+      "title": "新建立连续性｜第238源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第238源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "塔罗斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：塔罗斯休假",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 3,
+        "sourceText": "塔罗斯休假"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-238-01",
+      "title": "未解决事项｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第238源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：卢修斯加冕",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "卢修斯加冕"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-238-02",
+      "title": "未解决事项｜第238源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第238源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：战争是否终结",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 2,
+        "sourceText": "战争是否终结"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-238-01",
+      "title": "主角龙形态｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第238源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "阿谢拉特",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：大角银发本体，以生命女神身份与阿谢拉特办公观察世界。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，以生命女神身份与阿谢拉特办公观察世界。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-238-01",
+      "title": "主角龙状态｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第238源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：准备承认卢修斯并把人类治理更多交还地表。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "准备承认卢修斯并把人类治理更多交还地表。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-238-01",
+      "title": "主角龙知识边界｜第238源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第238源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第238源章《人类的时代.(2)》：不确定卢修斯血统、无法保证统一全大陆，只判断其最可能收复旧阿卡迪亚。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 238,
+        "chapterTitle": "人类的时代.(2)",
+        "sequence": 1,
+        "sourceText": "不确定卢修斯血统、无法保证统一全大陆，只判断其最可能收复旧阿卡迪亚。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-239-01",
+      "title": "事件｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第239源章第1条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》 P0001-P0024：卢修斯收复旧阿卡迪亚并受天狼星神殿邀请，独自进入接受不朽之冠试炼。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "卢修斯收复旧阿卡迪亚并受天狼星神殿邀请，独自进入接受不朽之冠试炼。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-239-02",
+      "title": "事件｜第239源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第239源章第2条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》 P0025-P0088：卢修斯回答为保护重要者为王、敌患消失即止战，并对宗教、弱者、荣誉、权威等给出有条件而非空泛誓言；获冠与新名卢修斯·阿尔特留斯·凯撒，成为最初骑士王。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 2,
+        "sourceText": "卢修斯回答为保护重要者为王、敌患消失即止战，并对宗教、弱者、荣誉、权威等给出有条件而非空泛誓言；获冠与新名卢修斯·阿尔特留斯·凯撒，成为最初骑士王。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-239-03",
+      "title": "事件｜第239源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第239源章第3条）",
+      "category": "event",
+      "keys": [
+        "莱克伦",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》 P0090-P0103：后世历史探究社团为骑士王、莱克伦、无名勇者谁应作为同人志封面争吵，并出现少女王改编支持者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 3,
+        "sourceText": "后世历史探究社团为骑士王、莱克伦、无名勇者谁应作为同人志封面争吵，并出现少女王改编支持者。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-239-01",
+      "title": "世界设定事实｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第239源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》 P0003-P0006：天狼星邀请既证明强王地位也可能否定正统，历史受邀者一半拒绝、一半被驱逐。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "天狼星邀请既证明强王地位也可能否定正统，历史受邀者一半拒绝、一半被驱逐。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-239-02",
+      "title": "世界设定事实｜第239源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第239源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "卢修斯",
+        "蒂雅",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》 P0077-P0086：不朽之冠赋予旺盛活力；蒂雅借生命大祭司授予卢修斯骑士、骑士王及卢修斯·阿尔特留斯·凯撒之名。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 2,
+        "sourceText": "不朽之冠赋予旺盛活力；蒂雅借生命大祭司授予卢修斯骑士、骑士王及卢修斯·阿尔特留斯·凯撒之名。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-239-01",
+      "title": "新建立连续性｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第239源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：骑士王加冕",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "骑士王加冕"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-239-02",
+      "title": "新建立连续性｜第239源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第239源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：卢修斯新名",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 2,
+        "sourceText": "卢修斯新名"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-239-03",
+      "title": "新建立连续性｜第239源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第239源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：后世历史社团",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 3,
+        "sourceText": "后世历史社团"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-239-01",
+      "title": "未解决事项｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第239源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：骑士制度扩散",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "骑士制度扩散"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-239-02",
+      "title": "未解决事项｜第239源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第239源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：新国家治理",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 2,
+        "sourceText": "新国家治理"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-239-01",
+      "title": "主角龙形态｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第239源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：本章不直接现身，通过生命教团大祭司与冠冕赐名。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "本章不直接现身，通过生命教团大祭司与冠冕赐名。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-239-01",
+      "title": "主角龙状态｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第239源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：正式承认卢修斯并植入骑士概念。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "正式承认卢修斯并植入骑士概念。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-239-01",
+      "title": "主角龙知识边界｜第239源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第239源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第239源章《人类的时代.(3)》：卢修斯只知称号来自生命女神，不知其文明设计目的；后世社团把史实再创作。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 239,
+        "chapterTitle": "人类的时代.(3)",
+        "sequence": 1,
+        "sourceText": "卢修斯只知称号来自生命女神，不知其文明设计目的；后世社团把史实再创作。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-240-01",
+      "title": "事件｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第240源章第1条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "蒂雅",
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》 P0001-P0041：蒂雅承认骑士名号是其传播荣誉、权利与责任概念的设计；卢修斯征服约两倍阿卡迪亚疆域后止战转内政。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "蒂雅承认骑士名号是其传播荣誉、权利与责任概念的设计；卢修斯征服约两倍阿卡迪亚疆域后止战转内政。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-240-02",
+      "title": "事件｜第240源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第240源章第2条）",
+      "category": "event",
+      "keys": [
+        "深林贤者",
+        "卢修斯",
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》 P0042-P0053：疆域荒废且治理知识不足，卢修斯向各王、祭司、法师和诸种族求学，最终寻找深林贤者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 2,
+        "sourceText": "疆域荒废且治理知识不足，卢修斯向各王、祭司、法师和诸种族求学，最终寻找深林贤者。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-240-03",
+      "title": "事件｜第240源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第240源章第3条）",
+      "category": "event",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》 P0054-P0093：贤者指出王不应独揽，建议把土地治理权暂借臣子，以贡赋交换，并按功绩能力分层使臣子相互牵制。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 3,
+        "sourceText": "贤者指出王不应独揽，建议把土地治理权暂借臣子，以贡赋交换，并按功绩能力分层使臣子相互牵制。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-240-01",
+      "title": "世界设定事实｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第240源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》 P0023-P0035：骑士概念把权利与责任绑定，并推动贵族从有钱有势者转向承担治理义务的身份理想。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "骑士概念把权利与责任绑定，并推动贵族从有钱有势者转向承担治理义务的身份理想。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-240-02",
+      "title": "世界设定事实｜第240源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第240源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》 P0038-P0046：卢修斯有十二名跨种族能臣，征服约旧阿卡迪亚两倍疆域后停止，广泛搜集治国知识。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 2,
+        "sourceText": "卢修斯有十二名跨种族能臣，征服约旧阿卡迪亚两倍疆域后停止，广泛搜集治国知识。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-240-01",
+      "title": "新建立连续性｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第240源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：骑士概念设计",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "骑士概念设计"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-240-02",
+      "title": "新建立连续性｜第240源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第240源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：封建代理建议",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 2,
+        "sourceText": "封建代理建议"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-240-03",
+      "title": "新建立连续性｜第240源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第240源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：臣子等级制衡",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 3,
+        "sourceText": "臣子等级制衡"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-240-01",
+      "title": "未解决事项｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第240源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：制度实际后果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "制度实际后果"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-240-02",
+      "title": "未解决事项｜第240源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第240源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：国家命名",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 2,
+        "sourceText": "国家命名"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-240-01",
+      "title": "主角龙形态｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第240源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：前半为大角银发本体内述；后半远程操控蒙布贤者石魔像。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "前半为大角银发本体内述；后半远程操控蒙布贤者石魔像。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-240-01",
+      "title": "主角龙状态｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第240源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：从价值概念传播转入具体国家制度辅导。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "从价值概念传播转入具体国家制度辅导。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-240-01",
+      "title": "主角龙知识边界｜第240源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第240源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "蒂雅",
+        "人类的时代.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第240源章《人类的时代.(4)》：蒂雅知道制度会制造摩擦但尚未看到罗马尼亚实际执行结果。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 240,
+        "chapterTitle": "人类的时代.(4)",
+        "sequence": 1,
+        "sourceText": "蒂雅知道制度会制造摩擦但尚未看到罗马尼亚实际执行结果。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-241-01",
+      "title": "事件｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第241源章第1条）",
+      "category": "event",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》 P0001-P0048：贤者整夜讲分而治之、五等爵、领地领主与间接统治；拒绝成为常驻臣属但同意使者随时求教。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "贤者整夜讲分而治之、五等爵、领地领主与间接统治；拒绝成为常驻臣属但同意使者随时求教。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-241-02",
+      "title": "事件｜第241源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第241源章第2条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》 P0049-P0078：蒂雅建议与精灵矮人及其他种族巩固关系，指引三年后去贝特尔吉乌斯十年决斗，并确认与比斯蒂亚、莱特基尼亚已密切往来。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 2,
+        "sourceText": "蒂雅建议与精灵矮人及其他种族巩固关系，指引三年后去贝特尔吉乌斯十年决斗，并确认与比斯蒂亚、莱特基尼亚已密切往来。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-241-03",
+      "title": "事件｜第241源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第241源章第3条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "蒂雅",
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》 P0079-P0109：卢修斯请求贤者为新国家命名；蒂雅因凯撒与罗马联想取名罗马尼亚，卢修斯欣然接受。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 3,
+        "sourceText": "卢修斯请求贤者为新国家命名；蒂雅因凯撒与罗马联想取名罗马尼亚，卢修斯欣然接受。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-241-01",
+      "title": "世界设定事实｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第241源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》 P0015-P0019：贤者向卢修斯讲平民、骑士、贵族、五等爵、领地与领主间接统治。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "贤者向卢修斯讲平民、骑士、贵族、五等爵、领地与领主间接统治。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-241-02",
+      "title": "世界设定事实｜第241源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第241源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "萨加玛塔",
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》 P0059-P0066：贝特尔吉乌斯位于精灵森林与萨加玛塔之间，每十年举办精灵矮人决斗，常驻双方人员且有狂热粉丝。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 2,
+        "sourceText": "贝特尔吉乌斯位于精灵森林与萨加玛塔之间，每十年举办精灵矮人决斗，常驻双方人员且有狂热粉丝。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-241-03",
+      "title": "世界设定事实｜第241源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第241源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "诺亚",
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》 P0072-P0075：罗马尼亚已与米诺亚为核心兽人王国及莱特基尼亚密切往来。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 3,
+        "sourceText": "罗马尼亚已与米诺亚为核心兽人王国及莱特基尼亚密切往来。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-241-01",
+      "title": "新建立连续性｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第241源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：罗马尼亚命名",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "罗马尼亚命名"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-241-02",
+      "title": "新建立连续性｜第241源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第241源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：贤者使者咨询",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 2,
+        "sourceText": "贤者使者咨询"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-241-03",
+      "title": "新建立连续性｜第241源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第241源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：贝特尔吉乌斯外交建议",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 3,
+        "sourceText": "贝特尔吉乌斯外交建议"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-241-01",
+      "title": "未解决事项｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第241源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：制度执行",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "制度执行"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-241-02",
+      "title": "未解决事项｜第241源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第241源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：十年决斗外交",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 2,
+        "sourceText": "十年决斗外交"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-241-01",
+      "title": "主角龙形态｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第241源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：远程操控蒙布贤者石魔像，主动展示石臂。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "远程操控蒙布贤者石魔像，主动展示石臂。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-241-01",
+      "title": "主角龙状态｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第241源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：完成罗马尼亚制度与外交初始引导，维持非常驻顾问关系。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "完成罗马尼亚制度与外交初始引导，维持非常驻顾问关系。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-241-01",
+      "title": "主角龙知识边界｜第241源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第241源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "人类的时代.(5)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第241源章《人类的时代.(5)》：对国家能否延续千年不确定，只对发展产生期待。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 241,
+        "chapterTitle": "人类的时代.(5)",
+        "sequence": 1,
+        "sourceText": "对国家能否延续千年不确定，只对发展产生期待。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-242-01",
+      "title": "事件｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第242源章第1条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》 P0001-P0038：罗马尼亚分封后卢修斯没收压榨领地、统一税额；世界格局包含罗马尼亚、比斯蒂亚、莱特基尼亚、精灵、矮人、普罗西亚、蜥蜴人和东方国家。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "罗马尼亚分封后卢修斯没收压榨领地、统一税额；世界格局包含罗马尼亚、比斯蒂亚、莱特基尼亚、精灵、矮人、普罗西亚、蜥蜴人和东方国家。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-242-02",
+      "title": "事件｜第242源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第242源章第2条）",
+      "category": "event",
+      "keys": [
+        "世界树",
+        "蒂雅",
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》 P0039-P0071：大规模战争消失后世界树报告绿色小猴般、双足用工具且能生育的智能怪物，蒂雅怀疑哥布林并担心其来源。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 2,
+        "sourceText": "大规模战争消失后世界树报告绿色小猴般、双足用工具且能生育的智能怪物，蒂雅怀疑哥布林并担心其来源。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-242-03",
+      "title": "事件｜第242源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第242源章第3条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》 P0072-P0096：精灵见即射杀哥布林；蒂雅决定调查其全球分布、智能和危险，承认怪物总体无法根绝。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 3,
+        "sourceText": "精灵见即射杀哥布林；蒂雅决定调查其全球分布、智能和危险，承认怪物总体无法根绝。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-242-01",
+      "title": "世界设定事实｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第242源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "阿斯忒里俄斯",
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》 P0012-P0036：罗马尼亚横跨雪原至普罗西亚、山脉至海；比斯蒂亚以龙族女神和神化阿斯忒里俄斯凝聚，莱特基尼亚靠稻作、矿冶、高生育和同族团结自守。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "罗马尼亚横跨雪原至普罗西亚、山脉至海；比斯蒂亚以龙族女神和神化阿斯忒里俄斯凝聚，莱特基尼亚靠稻作、矿冶、高生育和同族团结自守。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-242-02",
+      "title": "世界设定事实｜第242源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第242源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》 P0067-P0082：首批哥布林绿色、毛茸茸、小猴体型、双足用原始工具、凶残且能繁殖，可能非普通动物怪物化。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 2,
+        "sourceText": "首批哥布林绿色、毛茸茸、小猴体型、双足用原始工具、凶残且能繁殖，可能非普通动物怪物化。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-242-01",
+      "title": "新建立连续性｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第242源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：多国格局",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "多国格局"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-242-02",
+      "title": "新建立连续性｜第242源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第242源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：智能繁殖怪物",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 2,
+        "sourceText": "智能繁殖怪物"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-242-03",
+      "title": "新建立连续性｜第242源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第242源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：哥布林调查",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 3,
+        "sourceText": "哥布林调查"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-242-01",
+      "title": "未解决事项｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第242源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：哥布林来源",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "哥布林来源"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-242-02",
+      "title": "未解决事项｜第242源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第242源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：进化风险",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 2,
+        "sourceText": "进化风险"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-242-01",
+      "title": "主角龙形态｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第242源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "世界树",
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：大角银发本体，在世界树处喝茶听报。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，在世界树处喝茶听报。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-242-01",
+      "title": "主角龙状态｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第242源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：由文明观察转入哥布林生态调查。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "由文明观察转入哥布林生态调查。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-242-01",
+      "title": "主角龙知识边界｜第242源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第242源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "人类的时代.(6)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第242源章《人类的时代.(6)》：尚不知道哥布林来源、繁殖原理和进化上限。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 242,
+        "chapterTitle": "人类的时代.(6)",
+        "sequence": 1,
+        "sourceText": "尚不知道哥布林来源、繁殖原理和进化上限。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-243-01",
+      "title": "事件｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第243源章第1条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》 P0001-P0033：后世百科概括哥布林为全球常见绿皮、群居敌对且极端适应；蒂雅初察认为弱小，对人类威胁有限而放任。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "后世百科概括哥布林为全球常见绿皮、群居敌对且极端适应；蒂雅初察认为弱小，对人类威胁有限而放任。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-243-02",
+      "title": "事件｜第243源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第243源章第2条）",
+      "category": "event",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》 P0034-P0059：哥布林少食、数日成年、快速繁殖驱逐，兼有世代突变与个体现地进化；霍布哥布林具成人力量、工具学习和局势判断。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 2,
+        "sourceText": "哥布林少食、数日成年、快速繁殖驱逐，兼有世代突变与个体现地进化；霍布哥布林具成人力量、工具学习和局势判断。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-243-03",
+      "title": "事件｜第243源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第243源章第3条）",
+      "category": "event",
+      "keys": [
+        "萨加玛塔",
+        "蒂雅",
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》 P0060-P0102：蒂雅向萨加玛塔诉忧，怀疑群体数量触发进化；萨加玛塔劝她交由人类与其他孩子处理并珍惜母女时间，蒂雅接受。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 3,
+        "sourceText": "蒂雅向萨加玛塔诉忧，怀疑群体数量触发进化；萨加玛塔劝她交由人类与其他孩子处理并珍惜母女时间，蒂雅接受。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-243-01",
+      "title": "世界设定事实｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第243源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》 P0006-P0014：哥布林会按海岸、雪原等环境产生肤色、蹼、心肺、体毛和体型适应，但敌意不变。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "哥布林会按海岸、雪原等环境产生肤色、蹼、心肺、体毛和体型适应，但敌意不变。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-243-02",
+      "title": "世界设定事实｜第243源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第243源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》 P0037-P0058：普通哥布林数日成年并快速繁殖；少数突变成霍布哥布林，具成人级力量、工具能力和战术回避。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 2,
+        "sourceText": "普通哥布林数日成年并快速繁殖；少数突变成霍布哥布林，具成人级力量、工具能力和战术回避。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-243-01",
+      "title": "新建立连续性｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第243源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：霍布哥布林",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "霍布哥布林"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-243-02",
+      "title": "新建立连续性｜第243源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第243源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：责任下放",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 2,
+        "sourceText": "责任下放"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-243-01",
+      "title": "未解决事项｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第243源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：进化条件",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "进化条件"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-243-02",
+      "title": "未解决事项｜第243源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第243源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：更高形态",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 2,
+        "sourceText": "更高形态"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-243-01",
+      "title": "主角龙形态｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第243源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "萨加玛塔",
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：大角银发本体，在萨加玛塔为她保留的旧房间。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，在萨加玛塔为她保留的旧房间。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-243-01",
+      "title": "主角龙状态｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第243源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：决定只发布基础知识，将常规应对交给人类。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "决定只发布基础知识，将常规应对交给人类。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-243-01",
+      "title": "主角龙知识边界｜第243源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第243源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "哥布林.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第243源章《哥布林.(1)》：尚未知霉菌繁殖、共享魔力和更高进化。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 243,
+        "chapterTitle": "哥布林.(1)",
+        "sequence": 1,
+        "sourceText": "尚未知霉菌繁殖、共享魔力和更高进化。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-244-01",
+      "title": "事件｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第244源章第1条）",
+      "category": "event",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》 P0001-P0027：后世研究证实至少20只且食物充足时群体共享魔力催生霍布，更大群体可产生更高亚种。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "后世研究证实至少20只且食物充足时群体共享魔力催生霍布，更大群体可产生更高亚种。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-244-02",
+      "title": "事件｜第244源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第244源章第2条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》 P0029-P0051：人类长期把哥布林当低收益害虫而放松警惕；蒂雅转而研究其绿色皮肤光合作用和极端生存性。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 2,
+        "sourceText": "人类长期把哥布林当低收益害虫而放松警惕；蒂雅转而研究其绿色皮肤光合作用和极端生存性。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-244-03",
+      "title": "事件｜第244源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第244源章第3条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》 P0052-P0093：隔离生态箱中单只哥布林通过霉菌复制幼体并调节性别；蒂雅时间回溯确认本体是能光合、散魔力、智能繁殖的菌丝网络，意识到霍布风险。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 3,
+        "sourceText": "隔离生态箱中单只哥布林通过霉菌复制幼体并调节性别；蒂雅时间回溯确认本体是能光合、散魔力、智能繁殖的菌丝网络，意识到霍布风险。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-244-01",
+      "title": "世界设定事实｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第244源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》 P0007-P0019：至少20只、食物充足和持续群居使稀薄魔力网络累积，指定一只突变为霍布；机制像被精密设计。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "至少20只、食物充足和持续群居使稀薄魔力网络累积，指定一只突变为霍布；机制像被精密设计。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-244-02",
+      "title": "世界设定事实｜第244源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第244源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》 P0052-P0057：哥布林绿色皮肤可低效光合作用，仅靠水光维持最低生存，耐冷热。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 2,
+        "sourceText": "哥布林绿色皮肤可低效光合作用，仅靠水光维持最低生存，耐冷热。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-244-03",
+      "title": "世界设定事实｜第244源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第244源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》 P0066-P0089：哥布林菌丝在活动区散布，吸收其魔力形成复制幼体，并可改变性别配比。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 3,
+        "sourceText": "哥布林菌丝在活动区散布，吸收其魔力形成复制幼体，并可改变性别配比。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-244-01",
+      "title": "新建立连续性｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：菌丝复制",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "菌丝复制"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-244-02",
+      "title": "新建立连续性｜第244源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：光合作用",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 2,
+        "sourceText": "光合作用"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-244-03",
+      "title": "新建立连续性｜第244源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：性别转换",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 3,
+        "sourceText": "性别转换"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-244-04",
+      "title": "新建立连续性｜第244源章｜4",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第244源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：群体共享魔力",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 4,
+        "sourceText": "群体共享魔力"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-244-01",
+      "title": "未解决事项｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第244源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：创造者",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "创造者"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-244-02",
+      "title": "未解决事项｜第244源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第244源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：清除方法",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 2,
+        "sourceText": "清除方法"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-244-03",
+      "title": "未解决事项｜第244源章｜3",
+      "memo": "人类时代与第一次联合战争：未解决事项（第244源章第3条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：高阶进化",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 3,
+        "sourceText": "高阶进化"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-244-01",
+      "title": "主角龙形态｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第244源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：大角银发本体，以时间回溯与强化视觉进行隔离实验。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，以时间回溯与强化视觉进行隔离实验。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-244-01",
+      "title": "主角龙状态｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第244源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：从常规下放转为确认哥布林是全球性系统风险。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "从常规下放转为确认哥布林是全球性系统风险。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-244-01",
+      "title": "主角龙知识边界｜第244源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第244源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "哥布林.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第244源章《哥布林.(2)》：尚不知创造者与共享网络致死弱点，也未验证霍布以上形态。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 244,
+        "chapterTitle": "哥布林.(2)",
+        "sequence": 1,
+        "sourceText": "尚不知创造者与共享网络致死弱点，也未验证霍布以上形态。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-245-01",
+      "title": "事件｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第245源章第1条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》 P0001-P0037：蒂雅发现霉菌繁殖耗尽原体魔力；抽一只会抽干共享网络并使全群同时死，尸体化孢粉且易燃；普通哥布林魔石细碎无收益。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "蒂雅发现霉菌繁殖耗尽原体魔力；抽一只会抽干共享网络并使全群同时死，尸体化孢粉且易燃；普通哥布林魔石细碎无收益。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-245-02",
+      "title": "事件｜第245源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第245源章第2条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》 P0038-P0063：霍布有完整小魔石，两个有霍布的群体会以碰拳合并并连魔，蒂雅推断霍布也可聚集进化。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 2,
+        "sourceText": "霍布有完整小魔石，两个有霍布的群体会以碰拳合并并连魔，蒂雅推断霍布也可聚集进化。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-245-03",
+      "title": "事件｜第245源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第245源章第3条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》 P0064-P0088：数十霍布与数百哥布林催生更高、长獠牙的指挥者，蒂雅命名兽人；它们将袭村，蒂雅烧尽下属并活捉逃跑兽人研究。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 3,
+        "sourceText": "数十霍布与数百哥布林催生更高、长獠牙的指挥者，蒂雅命名兽人；它们将袭村，蒂雅烧尽下属并活捉逃跑兽人研究。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-245-01",
+      "title": "世界设定事实｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第245源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》 P0012-P0025：同群哥布林如单体共享魔力，抽干任一节点可令全群死；尸体散霉菌但高度易燃，火烧巢穴可抑制。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "同群哥布林如单体共享魔力，抽干任一节点可令全群死；尸体散霉菌但高度易燃，火烧巢穴可抑制。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-245-02",
+      "title": "世界设定事实｜第245源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第245源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》 P0031-P0048：普通哥布林魔石过小易碎无收益；霍布体内有完整小魔石，可作为讨伐激励。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 2,
+        "sourceText": "普通哥布林魔石过小易碎无收益；霍布体内有完整小魔石，可作为讨伐激励。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-245-03",
+      "title": "世界设定事实｜第245源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第245源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》 P0050-P0069：有霍布的群体接触会合并共享魔力；数十霍布催生兽人，形成兽人—霍布—普通哥布林三级指挥。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 3,
+        "sourceText": "有霍布的群体接触会合并共享魔力；数十霍布催生兽人，形成兽人—霍布—普通哥布林三级指挥。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-245-01",
+      "title": "新建立连续性｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：全群共享致死",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "全群共享致死"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-245-02",
+      "title": "新建立连续性｜第245源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：火焰弱点",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 2,
+        "sourceText": "火焰弱点"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-245-03",
+      "title": "新建立连续性｜第245源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：兽人进化",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 3,
+        "sourceText": "兽人进化"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-245-04",
+      "title": "新建立连续性｜第245源章｜4",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第245源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：三级指挥",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 4,
+        "sourceText": "三级指挥"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-245-01",
+      "title": "未解决事项｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第245源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：兽人研究",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "兽人研究"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-245-02",
+      "title": "未解决事项｜第245源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第245源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：更大群体形态",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 2,
+        "sourceText": "更大群体形态"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-245-01",
+      "title": "主角龙形态｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第245源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：大角银发本体，野外现身以火焰和树根处理群体。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，野外现身以火焰和树根处理群体。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-245-01",
+      "title": "主角龙状态｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第245源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：掌握常规清除弱点并捕获首只兽人。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "掌握常规清除弱点并捕获首只兽人。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-245-01",
+      "title": "主角龙知识边界｜第245源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第245源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "哥布林.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第245源章《哥布林.(3)》：兽人具体能力与更高进化仍未知，创造者仍无证据。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 245,
+        "chapterTitle": "哥布林.(3)",
+        "sequence": 1,
+        "sourceText": "兽人具体能力与更高进化仍未知，创造者仍无证据。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-246-01",
+      "title": "事件｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第246源章第1条）",
+      "category": "event",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》 P0001-P0016：百科说明霍布按体质环境可进化兽人、哥布林萨满、霜冻哥布林、酋长、烈焰哥布林等分支。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "百科说明霍布按体质环境可进化兽人、哥布林萨满、霜冻哥布林、酋长、烈焰哥布林等分支。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-246-02",
+      "title": "事件｜第246源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第246源章第2条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》 P0018-P0055：蒂雅检查首只兽人，确认其恐惧和异种性欲后切除生殖器并开始无麻醉活体解剖。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 2,
+        "sourceText": "蒂雅检查首只兽人，确认其恐惧和异种性欲后切除生殖器并开始无麻醉活体解剖。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-246-03",
+      "title": "事件｜第246源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第246源章第3条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》 P0057-P0089：兽人双胃、大心肺、低光合、较大魔石但无黑暗碎片；蒂雅焚尸并向生命教团发布群体危险警告，却被人类轻视。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 3,
+        "sourceText": "兽人双胃、大心肺、低光合、较大魔石但无黑暗碎片；蒂雅焚尸并向生命教团发布群体危险警告，却被人类轻视。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-246-01",
+      "title": "世界设定事实｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第246源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》 P0009-P0015：霍布进化路线依潜能与环境分化；死亡地带出萨满、寒地出霜冻、统御型出酋长，烈焰型常自焚群落。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "霍布进化路线依潜能与环境分化；死亡地带出萨满、寒地出霜冻、统御型出酋长，烈焰型常自焚群落。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-246-02",
+      "title": "世界设定事实｜第246源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第246源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》 P0057-P0075：兽人远强人类，双胃、大心肺；体型增加使光合不足以维生，魔石约霍布两倍且无黑暗碎片。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 2,
+        "sourceText": "兽人远强人类，双胃、大心肺；体型增加使光合不足以维生，魔石约霍布两倍且无黑暗碎片。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-246-01",
+      "title": "新建立连续性｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第246源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：霍布多分支",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "霍布多分支"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-246-02",
+      "title": "新建立连续性｜第246源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第246源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：兽人器官与魔石",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 2,
+        "sourceText": "兽人器官与魔石"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-246-03",
+      "title": "新建立连续性｜第246源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第246源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：公共警告",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 3,
+        "sourceText": "公共警告"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-246-01",
+      "title": "未解决事项｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第246源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：警告执行",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "警告执行"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-246-02",
+      "title": "未解决事项｜第246源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第246源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：高阶进化",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 2,
+        "sourceText": "高阶进化"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-246-01",
+      "title": "主角龙形态｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第246源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：大角银发少女本体，树根束缚并亲自解剖。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "大角银发少女本体，树根束缚并亲自解剖。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-246-01",
+      "title": "主角龙状态｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第246源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：确认兽人威胁并发布预防警告。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "确认兽人威胁并发布预防警告。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-246-01",
+      "title": "主角龙知识边界｜第246源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第246源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "兽人.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第246源章《兽人.(1)》：尚不知道人类会忽视，也未知兽人以上进化。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 246,
+        "chapterTitle": "兽人.(1)",
+        "sequence": 1,
+        "sourceText": "尚不知道人类会忽视，也未知兽人以上进化。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-247-01",
+      "title": "事件｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第247源章第1条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》 P0001-P0033：人类无视警告后开拓村被绿皮屠灭；蒂雅火化尸体、拒绝无目的复活，交由死神引魂并前去报仇。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "人类无视警告后开拓村被绿皮屠灭；蒂雅火化尸体、拒绝无目的复活，交由死神引魂并前去报仇。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-247-02",
+      "title": "事件｜第247源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第247源章第2条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》 P0034-P0074：凶手群由约80哥布林、8霍布和智力型哥布林酋长组成；蒂雅以燃气炸洞全灭，解剖酋长后发布更直接警告。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 2,
+        "sourceText": "凶手群由约80哥布林、8霍布和智力型哥布林酋长组成；蒂雅以燃气炸洞全灭，解剖酋长后发布更直接警告。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-247-03",
+      "title": "事件｜第247源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第247源章第3条）",
+      "category": "event",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》 P0075-P0093：人类开始指标猎杀但已太迟；兽人群掠夺吞并形成绿皮王国，数百兽人向王供魔结茧，诞生巨人般食人魔。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 3,
+        "sourceText": "人类开始指标猎杀但已太迟；兽人群掠夺吞并形成绿皮王国，数百兽人向王供魔结茧，诞生巨人般食人魔。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-247-01",
+      "title": "世界设定事实｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第247源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》 P0034-P0046：哥布林酋长是智力专化霍布分支，会指挥、隐蔽巢穴和消除痕迹，肉体仅略强霍布。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "哥布林酋长是智力专化霍布分支，会指挥、隐蔽巢穴和消除痕迹，肉体仅略强霍布。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-247-02",
+      "title": "世界设定事实｜第247源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第247源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》 P0075-P0093：数百兽人供魔使兽人王结茧数日，蜕变为巨人高、捏岩怪力、咆哮震晕弱者的食人魔。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 2,
+        "sourceText": "数百兽人供魔使兽人王结茧数日，蜕变为巨人高、捏岩怪力、咆哮震晕弱者的食人魔。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-247-01",
+      "title": "新建立连续性｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第247源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：哥布林酋长",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "哥布林酋长"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-247-02",
+      "title": "新建立连续性｜第247源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第247源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：食人魔诞生",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 2,
+        "sourceText": "食人魔诞生"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-247-03",
+      "title": "新建立连续性｜第247源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第247源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "蒂雅",
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：蒂雅共情变淡",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 3,
+        "sourceText": "蒂雅共情变淡"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-247-01",
+      "title": "未解决事项｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第247源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：绿皮战争",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "绿皮战争"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-247-02",
+      "title": "未解决事项｜第247源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第247源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：情感异常",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 2,
+        "sourceText": "情感异常"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-247-01",
+      "title": "主角龙形态｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第247源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：大角银发本体，处理村庄遗体、爆破洞穴并解剖酋长。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，处理村庄遗体、爆破洞穴并解剖酋长。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-247-01",
+      "title": "主角龙状态｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第247源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：警告升级但绿皮王国和食人魔已经形成。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "警告升级但绿皮王国和食人魔已经形成。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-247-01",
+      "title": "主角龙知识边界｜第247源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第247源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "兽人.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第247源章《兽人.(2)》：尚不知食人魔战力上限与自己的情感淡化原因。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 247,
+        "chapterTitle": "兽人.(2)",
+        "sequence": 1,
+        "sourceText": "尚不知食人魔战力上限与自己的情感淡化原因。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-248-01",
+      "title": "事件｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第248源章第1条）",
+      "category": "event",
+      "keys": [
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》 P0001-P0030：食人魔与无翼龙兽角力并凭力量、敏捷、预判逼退对方，证明远超普通地表怪物。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "食人魔与无翼龙兽角力并凭力量、敏捷、预判逼退对方，证明远超普通地表怪物。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-248-02",
+      "title": "事件｜第248源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第248源章第2条）",
+      "category": "event",
+      "keys": [
+        "蒂雅",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》 P0031-P0043：蒂雅考虑放任食人魔摧毁村城作为永久警告，理智认为有效，残存人性反对，情感淡化加剧道德冲突。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 2,
+        "sourceText": "蒂雅考虑放任食人魔摧毁村城作为永久警告，理智认为有效，残存人性反对，情感淡化加剧道德冲突。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-248-03",
+      "title": "事件｜第248源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第248源章第3条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "塔罗斯",
+        "蒂雅",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》 P0044-P0098：沙玛什识别蒂雅仍担忧，提出让休假的塔罗斯演示并击杀；她还指出绿皮各阶模仿鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅推断是地底创造者盗版地表种族。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 3,
+        "sourceText": "沙玛什识别蒂雅仍担忧，提出让休假的塔罗斯演示并击杀；她还指出绿皮各阶模仿鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅推断是地底创造者盗版地表种族。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-248-01",
+      "title": "世界设定事实｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第248源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》 P0006-P0028：食人魔力量可与龙兽正面对峙，具高敏捷与战斗预判，肉体能承受龙兽攻击。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "食人魔力量可与龙兽正面对峙，具高敏捷与战斗预判，肉体能承受龙兽攻击。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-248-02",
+      "title": "世界设定事实｜第248源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第248源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "沙玛什",
+        "蒂雅",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》 P0075-P0097：绿皮阶层被沙玛什对应鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅认定其创造者模仿地表智慧种。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 2,
+        "sourceText": "绿皮阶层被沙玛什对应鼠兽人、人类、兽人/蜥蜴人、巨人，蒂雅认定其创造者模仿地表智慧种。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-248-01",
+      "title": "新建立连续性｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第248源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "塔罗斯",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：塔罗斯折中方案",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "塔罗斯折中方案"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-248-02",
+      "title": "新建立连续性｜第248源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第248源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：绿皮仿生假说",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 2,
+        "sourceText": "绿皮仿生假说"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-248-01",
+      "title": "未解决事项｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第248源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：联军战争",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "联军战争"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-248-02",
+      "title": "未解决事项｜第248源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第248源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：创造者",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 2,
+        "sourceText": "创造者"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-248-01",
+      "title": "主角龙形态｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第248源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "沙玛什",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：大角银发本体，与沙玛什隐蔽观察绿皮王国。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，与沙玛什隐蔽观察绿皮王国。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-248-01",
+      "title": "主角龙状态｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第248源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "塔罗斯",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：决定让塔罗斯受控参战而非放任大屠杀。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "决定让塔罗斯受控参战而非放任大屠杀。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-248-01",
+      "title": "主角龙知识边界｜第248源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第248源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "塔罗斯",
+        "食人魔.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第248源章《食人魔.(1)》：推定人工创造但无直接创造者证据；尚未联系塔罗斯。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 248,
+        "chapterTitle": "食人魔.(1)",
+        "sequence": 1,
+        "sourceText": "推定人工创造但无直接创造者证据；尚未联系塔罗斯。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-249-01",
+      "title": "事件｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第249源章第1条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》 P0001-P0050：绿皮毁塞梅尔村城与贸易要地；老年仍年轻的卢修斯承认自己也曾轻视警告，召集全国与所有种族，让长寿种传承血写教训。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "绿皮毁塞梅尔村城与贸易要地；老年仍年轻的卢修斯承认自己也曾轻视警告，召集全国与所有种族，让长寿种传承血写教训。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-249-02",
+      "title": "事件｜第249源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第249源章第2条）",
+      "category": "event",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》 P0052-P0084：联军包含罗马尼亚一万二千、生命祭司200、法师100、兽人2000、莱特金5000、精灵100、矮人200、蜥蜴人100。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 2,
+        "sourceText": "联军包含罗马尼亚一万二千、生命祭司200、法师100、兽人2000、莱特金5000、精灵100、矮人200、蜥蜴人100。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-249-03",
+      "title": "事件｜第249源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第249源章第3条）",
+      "category": "event",
+      "keys": [
+        "塔罗斯",
+        "蒂雅",
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》 P0085-P0104：蒂雅将塔罗斯封入玻璃珠，以延长休假为交换；计划食人魔出动即投放，事先通知人类亲眼见证。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 3,
+        "sourceText": "蒂雅将塔罗斯封入玻璃珠，以延长休假为交换；计划食人魔出动即投放，事先通知人类亲眼见证。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-249-01",
+      "title": "世界设定事实｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第249源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》 P0017-P0024：塞梅尔是通往普罗西亚与蜥蜴人的富裕贸易要地，地方强军仍被绿皮无声覆灭。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "塞梅尔是通往普罗西亚与蜥蜴人的富裕贸易要地，地方强军仍被绿皮无声覆灭。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-249-02",
+      "title": "世界设定事实｜第249源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第249源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》 P0055-P0065：第一次联军各族兵力与专业分工明确，矮人携移动锻造场和新兵器研究所。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 2,
+        "sourceText": "第一次联军各族兵力与专业分工明确，矮人携移动锻造场和新兵器研究所。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-249-03",
+      "title": "世界设定事实｜第249源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第249源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "塔罗斯",
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》 P0091-P0103：塔罗斯可被缩存玻璃珠再发射投放，参战报酬是延长地表休假。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 3,
+        "sourceText": "塔罗斯可被缩存玻璃珠再发射投放，参战报酬是延长地表休假。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-249-01",
+      "title": "新建立连续性｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第249源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：首次多种族联军",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "首次多种族联军"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-249-02",
+      "title": "新建立连续性｜第249源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第249源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "塔罗斯",
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：塔罗斯投放珠",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 2,
+        "sourceText": "塔罗斯投放珠"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-249-03",
+      "title": "新建立连续性｜第249源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第249源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：塞梅尔覆灭",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 3,
+        "sourceText": "塞梅尔覆灭"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-249-01",
+      "title": "未解决事项｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第249源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：战役结果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "战役结果"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-249-01",
+      "title": "主角龙形态｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第249源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "塔罗斯",
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：大角银发本体，持封存塔罗斯玻璃珠。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，持封存塔罗斯玻璃珠。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-249-01",
+      "title": "主角龙状态｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第249源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：以幕后安全阀身份加入联军但不取代凡人作战。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "以幕后安全阀身份加入联军但不取代凡人作战。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-249-01",
+      "title": "主角龙知识边界｜第249源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第249源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "食人魔.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第249源章《食人魔.(2)》：联军尚未与绿皮接战，不知伤亡与各族实际协同。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 249,
+        "chapterTitle": "食人魔.(2)",
+        "sequence": 1,
+        "sourceText": "联军尚未与绿皮接战，不知伤亡与各族实际协同。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-250-01",
+      "title": "事件｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第250源章第1条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》 P0001-P0056：精灵矮人争首攻，卢修斯以箭矢稀缺和精确性分工：矮人范围开战、精灵狙击指挥者；各族按计划就位。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "精灵矮人争首攻，卢修斯以箭矢稀缺和精确性分工：矮人范围开战、精灵狙击指挥者；各族按计划就位。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-250-02",
+      "title": "事件｜第250源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第250源章第2条）",
+      "category": "event",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》 P0057-P0086：矮人五台投石机以燃油木弹制造火雨，虽三台自燃仍造成大范围杀伤。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 2,
+        "sourceText": "矮人五台投石机以燃油木弹制造火雨，虽三台自燃仍造成大范围杀伤。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-250-03",
+      "title": "事件｜第250源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第250源章第3条）",
+      "category": "event",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》 P0087-P0098：骑士分割、兽人迂回、莱特金盾阵压线、蜥蜴突击、法师火攻、精灵狙击，联合战争正式开始。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 3,
+        "sourceText": "骑士分割、兽人迂回、莱特金盾阵压线、蜥蜴突击、法师火攻、精灵狙击，联合战争正式开始。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-250-01",
+      "title": "世界设定事实｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第250源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "卢修斯",
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》 P0041-P0045：卢修斯不败旗帜含神级复杂魔法阵，法师难辨、蜥蜴人视作神迹祈祷。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "卢修斯不败旗帜含神级复杂魔法阵，法师难辨、蜥蜴人视作神迹祈祷。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-250-02",
+      "title": "世界设定事实｜第250源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第250源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》 P0057-P0086：矮人原始投石机发射燃油木弹在空中碎裂成火雨，但油料安全性差会烧毁器械。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 2,
+        "sourceText": "矮人原始投石机发射燃油木弹在空中碎裂成火雨，但油料安全性差会烧毁器械。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-250-01",
+      "title": "新建立连续性｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第250源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：各族联合战术",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "各族联合战术"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-250-02",
+      "title": "新建立连续性｜第250源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第250源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：燃烧投石机首攻",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 2,
+        "sourceText": "燃烧投石机首攻"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-250-01",
+      "title": "未解决事项｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第250源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：食人魔出战",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "食人魔出战"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-250-02",
+      "title": "未解决事项｜第250源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第250源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：联军伤亡",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 2,
+        "sourceText": "联军伤亡"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-250-01",
+      "title": "主角龙形态｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第250源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：本章不直接出现，以旗帜、神谕与援军承诺提供后台支持。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "本章不直接出现，以旗帜、神谕与援军承诺提供后台支持。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-250-01",
+      "title": "主角龙状态｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第250源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：允许凡人联军自行展开战术。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "允许凡人联军自行展开战术。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-250-01",
+      "title": "主角龙知识边界｜第250源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第250源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "卢修斯",
+        "塔罗斯",
+        "第一次联合战争.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第250源章《第一次联合战争.(1)》：卢修斯只知会获生命女神援助，不知塔罗斯具体投放时机。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 250,
+        "chapterTitle": "第一次联合战争.(1)",
+        "sequence": 1,
+        "sourceText": "卢修斯只知会获生命女神援助，不知塔罗斯具体投放时机。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-251-01",
+      "title": "事件｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第251源章第1条）",
+      "category": "event",
+      "keys": [
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》 P0001-P0034：联军各兵种压倒绿皮，祭司后送治疗降低伤亡，蜥蜴人与兽人形成单挑战圈。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "联军各兵种压倒绿皮，祭司后送治疗降低伤亡，蜥蜴人与兽人形成单挑战圈。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-251-02",
+      "title": "事件｜第251源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第251源章第2条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》 P0035-P0083：食人魔落地破莱特金盾阵，精灵法师无效、蜥蜴人只能以断鳞断尾拖延；食人魔凭智力跳向后方锁定卢修斯旗帜连接。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 2,
+        "sourceText": "食人魔落地破莱特金盾阵，精灵法师无效、蜥蜴人只能以断鳞断尾拖延；食人魔凭智力跳向后方锁定卢修斯旗帜连接。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-251-03",
+      "title": "事件｜第251源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第251源章第3条）",
+      "category": "event",
+      "keys": [
+        "卢修斯",
+        "塔罗斯",
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》 P0084-P0112：卢修斯被震落，确认继承人和国家不会因己死崩塌后以旗尖迎战，塔罗斯从天而降。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 3,
+        "sourceText": "卢修斯被震落，确认继承人和国家不会因己死崩塌后以旗尖迎战，塔罗斯从天而降。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-251-01",
+      "title": "世界设定事实｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第251源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》 P0004-P0011：联军以盾阵正压、骑兵分割、兽人侧击、精灵狙特殊体、法师火墙协同。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "联军以盾阵正压、骑兵分割、兽人侧击、精灵狙特殊体、法师火墙协同。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-251-02",
+      "title": "世界设定事实｜第251源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第251源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "卢修斯",
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》 P0091-P0095：食人魔能感知卢修斯旗帜连接各军魔力，主动斩首指挥核心。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 2,
+        "sourceText": "食人魔能感知卢修斯旗帜连接各军魔力，主动斩首指挥核心。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-251-01",
+      "title": "新建立连续性｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第251源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》：食人魔斩首战术",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "食人魔斩首战术"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-251-02",
+      "title": "新建立连续性｜第251源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第251源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》：塔罗斯坠落",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 2,
+        "sourceText": "塔罗斯坠落"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-251-01",
+      "title": "未解决事项｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第251源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》：巨像决斗",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "巨像决斗"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-251-01",
+      "title": "主角龙形态｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第251源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》：本章末通过天空投放塔罗斯介入，本体仍不现身。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "本章末通过天空投放塔罗斯介入，本体仍不现身。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-251-01",
+      "title": "主角龙状态｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第251源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "卢修斯",
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》：在卢修斯即将遭斩首时启动安全阀。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "在卢修斯即将遭斩首时启动安全阀。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-251-01",
+      "title": "主角龙知识边界｜第251源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第251源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第一次联合战争.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第251源章《第一次联合战争.(2)》：战场众人尚不知援军具体身份和力量。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 251,
+        "chapterTitle": "第一次联合战争.(2)",
+        "sequence": 1,
+        "sourceText": "战场众人尚不知援军具体身份和力量。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-252-01",
+      "title": "事件｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第252源章第1条）",
+      "category": "event",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》 P0001-P0052：塔罗斯以头部硬接食人魔连击毫无损伤，食人魔双拳自毁；塔罗斯开始反击。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "塔罗斯以头部硬接食人魔连击毫无损伤，食人魔双拳自毁；塔罗斯开始反击。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-252-02",
+      "title": "事件｜第252源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第252源章第2条）",
+      "category": "event",
+      "keys": [
+        "萨加玛塔",
+        "卢修斯",
+        "世界树",
+        "蒂雅",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》 P0053-P0074：蒂雅、世界树、萨加玛塔远观，解释原本想放水但卢修斯危险而直接投下；食人魔不逃因需部下供魔。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 2,
+        "sourceText": "蒂雅、世界树、萨加玛塔远观，解释原本想放水但卢修斯危险而直接投下；食人魔不逃因需部下供魔。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-252-03",
+      "title": "事件｜第252源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第252源章第3条）",
+      "category": "event",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》 P0075-P0104：绿皮群体提供维生魔力，越高阶消耗越大；部下不足上位绿皮会枯死，塔罗斯一拳击飞食人魔头。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 3,
+        "sourceText": "绿皮群体提供维生魔力，越高阶消耗越大；部下不足上位绿皮会枯死，塔罗斯一拳击飞食人魔头。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-252-01",
+      "title": "世界设定事实｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第252源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》 P0085-P0100：绿皮群体既共享进化魔力也供高阶个体维生；越高阶占用越大，失去足够部下会魔力枯竭死亡。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "绿皮群体既共享进化魔力也供高阶个体维生；越高阶占用越大，失去足够部下会魔力枯竭死亡。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-252-02",
+      "title": "世界设定事实｜第252源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第252源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》 P0023-P0051：食人魔连击无法撼动塔罗斯，反因击打黑岩使自身拳骨肌肉破碎。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 2,
+        "sourceText": "食人魔连击无法撼动塔罗斯，反因击打黑岩使自身拳骨肌肉破碎。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-252-01",
+      "title": "新建立连续性｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第252源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》：高阶绿皮维生机制",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "高阶绿皮维生机制"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-252-02",
+      "title": "新建立连续性｜第252源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第252源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》：塔罗斯一拳终结",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 2,
+        "sourceText": "塔罗斯一拳终结"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-252-01",
+      "title": "未解决事项｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第252源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》：战后清剿和制度影响",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "战后清剿和制度影响"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-252-01",
+      "title": "主角龙形态｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第252源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "萨加玛塔",
+        "世界树",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》：大角银发本体，与世界树、萨加玛塔从高处远观。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "大角银发本体，与世界树、萨加玛塔从高处远观。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-252-01",
+      "title": "主角龙状态｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第252源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》：成功用塔罗斯阻止斩首并完成威胁展示。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "成功用塔罗斯阻止斩首并完成威胁展示。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-252-01",
+      "title": "主角龙知识边界｜第252源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第252源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "蒂雅",
+        "第一次联合战争.(3)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第252源章《第一次联合战争.(3)》：战场凡人不知道蒂雅原定放水或绿皮魔力人口模型。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 252,
+        "chapterTitle": "第一次联合战争.(3)",
+        "sequence": 1,
+        "sourceText": "战场凡人不知道蒂雅原定放水或绿皮魔力人口模型。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-253-01",
+      "title": "事件｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：事件（第253源章第1条）",
+      "category": "event",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》 P0001-P0039：塔罗斯一拳碎食人魔头并带尸返回；统治链断裂，精灵与各族狙杀兽人酋长，追猎逃散哥布林后战争结束。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "塔罗斯一拳碎食人魔头并带尸返回；统治链断裂，精灵与各族狙杀兽人酋长，追猎逃散哥布林后战争结束。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-253-02",
+      "title": "事件｜第253源章｜2",
+      "memo": "人类时代与第一次联合战争：事件（第253源章第2条）",
+      "category": "event",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》 P0041-P0085：战后形成哥布林见即清剿制度、魔法多派理论研究、骑士效仿塔罗斯发展铠甲，以及跨种族关系。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 2,
+        "sourceText": "战后形成哥布林见即清剿制度、魔法多派理论研究、骑士效仿塔罗斯发展铠甲，以及跨种族关系。"
+      }
+    },
+    {
+      "id": "era-14-human-age-event-253-03",
+      "title": "事件｜第253源章｜3",
+      "memo": "人类时代与第一次联合战争：事件（第253源章第3条）",
+      "category": "event",
+      "keys": [
+        "阿谢拉特",
+        "蒂雅",
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》 P0086-P0098：蒂雅通过生命教团神谕宣布这是最后一次直接援助，未来属地表众生，神不再亲降；她私下决定退居旁观，由阿谢拉特回应祈祷。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 3,
+        "sourceText": "蒂雅通过生命教团神谕宣布这是最后一次直接援助，未来属地表众生，神不再亲降；她私下决定退居旁观，由阿谢拉特回应祈祷。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-253-01",
+      "title": "世界设定事实｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第253源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》 P0041-P0048：联合战争后哥布林一经发现必须猎杀，发现霍布或兽人即由领主集军讨伐。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "联合战争后哥布林一经发现必须猎杀，发现霍布或兽人即由领主集军讨伐。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-253-02",
+      "title": "世界设定事实｜第253源章｜2",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第253源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》 P0049-P0070：哥布林特殊魔力推动元素、驯兽、强化、治疗、卷轴普及、外物操控、死灵与预言等魔法派系和理论化。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 2,
+        "sourceText": "哥布林特殊魔力推动元素、驯兽、强化、治疗、卷轴普及、外物操控、死灵与预言等魔法派系和理论化。"
+      }
+    },
+    {
+      "id": "era-14-human-age-world-fact-253-03",
+      "title": "世界设定事实｜第253源章｜3",
+      "memo": "人类时代与第一次联合战争：世界设定事实（第253源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "塔罗斯",
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》 P0071-P0081：骑士看到塔罗斯黑甲后开始追求全身防护，早期主要用金属加强要害。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 3,
+        "sourceText": "骑士看到塔罗斯黑甲后开始追求全身防护，早期主要用金属加强要害。"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-253-01",
+      "title": "新建立连续性｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第253源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：联合战争结束",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "联合战争结束"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-253-02",
+      "title": "新建立连续性｜第253源章｜2",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第253源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：魔法理论化",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 2,
+        "sourceText": "魔法理论化"
+      }
+    },
+    {
+      "id": "era-14-human-age-continuity-new-253-03",
+      "title": "新建立连续性｜第253源章｜3",
+      "memo": "人类时代与第一次联合战争：新建立连续性（第253源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：神不亲降神谕",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 3,
+        "sourceText": "神不亲降神谕"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-253-01",
+      "title": "未解决事项｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：未解决事项（第253源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "蒂雅",
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：蒂雅是否真能长期旁观",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "蒂雅是否真能长期旁观"
+      }
+    },
+    {
+      "id": "era-14-human-age-unresolved-253-02",
+      "title": "未解决事项｜第253源章｜2",
+      "memo": "人类时代与第一次联合战争：未解决事项（第253源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：更高绿皮与地底创造者",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 2,
+        "sourceText": "更高绿皮与地底创造者"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-form-253-01",
+      "title": "主角龙形态｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙形态（第253源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：本体不在战场显形；以生命女神神谕划时代，日后保持隐藏身份可能性。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "本体不在战场显形；以生命女神神谕划时代，日后保持隐藏身份可能性。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-state-253-01",
+      "title": "主角龙状态｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙状态（第253源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：结束直接地表干预，转为家里蹲式旁观。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "结束直接地表干预，转为家里蹲式旁观。"
+      }
+    },
+    {
+      "id": "era-14-human-age-protagonist-knowledge-253-01",
+      "title": "主角龙知识边界｜第253源章｜1",
+      "memo": "人类时代与第一次联合战争：主角龙知识边界（第253源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第一次联合战争.(4)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第253源章《第一次联合战争.(4)》：神谕接收者不知她仍会回应祈祷、可借非神身份行动的全部细节。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 253,
+        "chapterTitle": "第一次联合战争.(4)",
+        "sequence": 1,
+        "sourceText": "神谕接收者不知她仍会回应祈祷、可借非神身份行动的全部细节。"
+      }
+    },
+    {
+      "id": "era-14-human-age-secondary-character-01",
+      "title": "次要人物｜世界树",
+      "memo": "人类时代与第一次联合战争：次要人物 世界树",
+      "category": "secondary-character",
       "keys": [
         "世界树"
       ],
@@ -2609,25 +8300,19 @@
       "constant": false,
       "enabled": true,
       "vectorMatching": true,
-      "order": 620,
+      "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "人类时代与第一次联合战争的次要人物与 NPC 只限以下原文出场者。姓名未给者保持无名，不得补姓名、私史、血缘、能力或秘密。\n\n世界树：第242源章《人类的时代.(6)》：以已有众多孩子为由从妈妈改称母亲大人，报告精灵都觉得异常的智能怪物并承认已全部射杀样本。",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
-    },
-    {
-      "id": "era-14-human-age-boundaries",
-      "memo": "人类时代与第一次联合战争：未解事实与知识边界",
-      "category": "response-rule",
-      "keys": [],
-      "secondaryKeys": [],
-      "constant": true,
-      "enabled": true,
-      "order": 980,
-      "position": "before-character",
-      "depth": 4,
-      "content": "人类时代与第一次联合战争中未解决、不可擅自补完的事项如下：\n第237源章《人类的时代.(1)》：生命爆发后果\n第237源章《人类的时代.(1)》：布伦希尔德地上命运\n第238源章《人类的时代.(2)》：卢修斯加冕\n第238源章《人类的时代.(2)》：战争是否终结\n第239源章《人类的时代.(3)》：骑士制度扩散\n第239源章《人类的时代.(3)》：新国家治理\n第240源章《人类的时代.(4)》：制度实际后果\n第240源章《人类的时代.(4)》：国家命名\n第241源章《人类的时代.(5)》：制度执行\n第241源章《人类的时代.(5)》：十年决斗外交\n第242源章《人类的时代.(6)》：哥布林来源\n第242源章《人类的时代.(6)》：进化风险\n第243源章《哥布林.(1)》：进化条件\n第243源章《哥布林.(1)》：更高形态\n第244源章《哥布林.(2)》：创造者\n第244源章《哥布林.(2)》：清除方法\n第244源章《哥布林.(2)》：高阶进化\n第245源章《哥布林.(3)》：兽人研究\n第245源章《哥布林.(3)》：更大群体形态\n第246源章《兽人.(1)》：警告执行\n第246源章《兽人.(1)》：高阶进化\n第247源章《兽人.(2)》：绿皮战争\n第247源章《兽人.(2)》：情感异常\n第248源章《食人魔.(1)》：联军战争\n第248源章《食人魔.(1)》：创造者\n第249源章《食人魔.(2)》：战役结果\n第250源章《第一次联合战争.(1)》：食人魔出战\n第250源章《第一次联合战争.(1)》：联军伤亡\n第251源章《第一次联合战争.(2)》：巨像决斗\n第252源章《第一次联合战争.(3)》：战后清剿和制度影响\n第253源章《第一次联合战争.(4)》：蒂雅是否真能长期旁观\n第253源章《第一次联合战争.(4)》：更高绿皮与地底创造者\n\n主角龙的逐章知识边界如下：\n第237源章《人类的时代.(1)》：新生命繁荣的长期后果尚未知；阿谢拉特和天使已具独立自我但仍受体系约束。\n第238源章《人类的时代.(2)》：不确定卢修斯血统、无法保证统一全大陆，只判断其最可能收复旧阿卡迪亚。\n第239源章《人类的时代.(3)》：卢修斯只知称号来自生命女神，不知其文明设计目的；后世社团把史实再创作。\n第240源章《人类的时代.(4)》：蒂雅知道制度会制造摩擦但尚未看到罗马尼亚实际执行结果。\n第241源章《人类的时代.(5)》：对国家能否延续千年不确定，只对发展产生期待。\n第242源章《人类的时代.(6)》：尚不知道哥布林来源、繁殖原理和进化上限。\n第243源章《哥布林.(1)》：尚未知霉菌繁殖、共享魔力和更高进化。\n第244源章《哥布林.(2)》：尚不知创造者与共享网络致死弱点，也未验证霍布以上形态。\n第245源章《哥布林.(3)》：兽人具体能力与更高进化仍未知，创造者仍无证据。\n第246源章《兽人.(1)》：尚不知道人类会忽视，也未知兽人以上进化。\n第247源章《兽人.(2)》：尚不知食人魔战力上限与自己的情感淡化原因。\n第248源章《食人魔.(1)》：推定人工创造但无直接创造者证据；尚未联系塔罗斯。\n第249源章《食人魔.(2)》：联军尚未与绿皮接战，不知伤亡与各族实际协同。\n第250源章《第一次联合战争.(1)》：卢修斯只知会获生命女神援助，不知塔罗斯具体投放时机。\n第251源章《第一次联合战争.(2)》：战场众人尚不知援军具体身份和力量。\n第252源章《第一次联合战争.(3)》：战场凡人不知道蒂雅原定放水或绿皮魔力人口模型。\n第253源章《第一次联合战争.(4)》：神谕接收者不知她仍会回应祈祷、可借非神身份行动的全部细节。\n\n任何角色都不能因为世界书含有系统正典就自动读心、知道隐藏身份或预见未来。证据不足时保留未知。",
-      "knowledgeStatus": "system-rule"
+      "content": "世界树\n第242源章《人类的时代.(6)》：以已有众多孩子为由从妈妈改称母亲大人，报告精灵都觉得异常的智能怪物并承认已全部射杀样本。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 242,
+          "chapterTitle": "人类的时代.(6)",
+          "sourceText": "以已有众多孩子为由从妈妈改称母亲大人，报告精灵都觉得异常的智能怪物并承认已全部射杀样本。"
+        }
+      ]
     }
   ],
   "secondaryCharacterCount": 1

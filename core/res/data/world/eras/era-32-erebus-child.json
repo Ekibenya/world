@@ -1097,6 +1097,7 @@
   "lorebook": [
     {
       "id": "era-32-erebus-child-core",
+      "title": "幼年厄瑞玻斯｜时代边界",
       "memo": "幼年厄瑞玻斯：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1106,15 +1107,211 @@
       "order": 1000,
       "position": "before-character",
       "depth": 4,
-      "content": "幼年厄瑞玻斯是当前唯一有效的时代，原文范围为第652至第653源章。\n\n本时代只能使用截至第653源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第654源章以后的内容不可进入角色认知或场景。\n\n主角龙在本时代必须可选。其形态和状态按以下逐章证据处理：\n第652源章《厄瑞玻斯.(1)》：亚空间宅邸中照顾黑发幼神、为他读书的母亲形态。\n第653源章《厄瑞玻斯.(2)》：亚空间中抚养幼神、创造小熊教师的母亲形态。\n第652源章《厄瑞玻斯.(1)》：无聊被秘密育儿取代，重新获得明显快乐。\n第653源章《厄瑞玻斯.(2)》：以第二次育儿替代无聊，并把不读心、不给旧罪惩罚确立为当前原则。",
-      "knowledgeStatus": "system-canon"
+      "content": "幼年厄瑞玻斯是当前唯一有效的时代，原文范围为第652至第653源章。\n本时代只能使用截至第653源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第654源章以后的内容不可进入角色认知或场景。\n世界书中的系统正典不自动等于角色知识；证据不足时保持未知，不得补完。",
+      "knowledgeStatus": "system-rule"
     },
     {
-      "id": "era-32-erebus-child-world",
-      "memo": "幼年厄瑞玻斯：事件与世界状态",
-      "category": "event-history-system",
+      "id": "era-32-erebus-child-event-652-01",
+      "title": "事件｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：事件（第652源章第1条）",
+      "category": "event",
       "keys": [
-        "幼年厄瑞玻斯"
+        "齐格弗里德",
+        "厄瑞玻斯",
+        "黑暗骑士",
+        "尼克斯",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0001-P0041：尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-652-02",
+      "title": "事件｜第652源章｜2",
+      "memo": "幼年厄瑞玻斯：事件（第652源章第2条）",
+      "category": "event",
+      "keys": [
+        "露西亚",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0043-P0068：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 2,
+        "sourceText": "为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-652-03",
+      "title": "事件｜第652源章｜3",
+      "memo": "幼年厄瑞玻斯：事件（第652源章第3条）",
+      "category": "event",
+      "keys": [
+        "齐格弗里德",
+        "厄瑞玻斯",
+        "希尔芙",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0070-P0095：主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 3,
+        "sourceText": "主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-652-04",
+      "title": "事件｜第652源章｜4",
+      "memo": "幼年厄瑞玻斯：事件（第652源章第4条）",
+      "category": "event",
+      "keys": [
+        "幼年厄瑞玻斯",
+        "厄瑞玻斯",
+        "希尔芙",
+        "忒提斯",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0097-P0118：希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 4,
+        "sourceText": "希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-world-fact-652-01",
+      "title": "世界设定事实｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：世界设定事实（第652源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "齐格弗里德",
+        "厄瑞玻斯",
+        "黑暗骑士",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0015-P0035：黑暗骑士齐格弗里德拥有最多黑暗碎片；收集量达到阈值后化为疑似厄瑞玻斯的黑发幼神，但具体机制仍不确定。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "黑暗骑士齐格弗里德拥有最多黑暗碎片；收集量达到阈值后化为疑似厄瑞玻斯的黑发幼神，但具体机制仍不确定。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-world-fact-652-02",
+      "title": "世界设定事实｜第652源章｜2",
+      "memo": "幼年厄瑞玻斯：世界设定事实（第652源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "露西亚",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0051-P0056：亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 2,
+        "sourceText": "亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-world-fact-652-03",
+      "title": "世界设定事实｜第652源章｜3",
+      "memo": "幼年厄瑞玻斯：世界设定事实（第652源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "齐格弗里德",
+        "厄瑞玻斯",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》 P0080-P0089：亚空间可调为内一秒外十秒；幼神是厄瑞玻斯部分与齐格弗里德融合、无旧忆、低力量和弱信仰的状态。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 3,
+        "sourceText": "亚空间可调为内一秒外十秒；幼神是厄瑞玻斯部分与齐格弗里德融合、无旧忆、低力量和弱信仰的状态。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-continuity-new-652-01",
+      "title": "新建立连续性｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：新建立连续性（第652源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "幼年厄瑞玻斯",
+        "厄瑞玻斯",
+        "厄瑞玻斯.(1)"
       ],
       "secondaryKeys": [],
       "constant": false,
@@ -1123,13 +1320,610 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "幼年厄瑞玻斯的事件与世界状态只包含下列原文证据。它们属于系统正典，但并不自动成为每个角色都知道的事实；角色是否知道仍由角色卡的知识边界决定。\n\n第652源章《厄瑞玻斯.(1)》 P0001-P0041：尼克斯带来由黑暗骑士齐格弗里德收集大量地下城黑暗碎片后变成的黑发男孩神格；主龙仅推测形成厄瑞玻斯人格，因也可能是新存在而要求亲自照顾并继续确认。\n第652源章《厄瑞玻斯.(1)》 P0043-P0068：为避开万神殿赌博环境、皇帝和古神子女敌意，主龙把孩子安置在曾养索菲亚、教露西亚的亚空间宅邸。男孩醒来第一声叫她妈妈，主龙不据此定论，只先问身份。\n第652源章《厄瑞玻斯.(1)》 P0070-P0095：主龙对希尔芙隐瞒新孩子，把亚空间调为内一秒外十秒。调查认为男孩是厄瑞玻斯一部分与齐格弗里德融合、无过去记忆、力量不足其他孩子一半且无正式信仰的幼体；她主动决定将其视为厄瑞玻斯并读书照顾，誓不再养坏。\n第652源章《厄瑞玻斯.(1)》 P0097-P0118：希尔芙以主龙完全信任子女为弱点附上极微风潜入探查，古神们得知幼年厄瑞玻斯回归，担心其过去对母亲的异性爱慕；忒提斯认为真假与旧怨不重要，只需做当下该做的事。\n第653源章《厄瑞玻斯.(2)》 P0001-P0016：主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或因丑恶心声黑化。她回顾旧厄瑞玻斯事件时，把巨龙肉体消失称为愤怒爆发而非黑化。\n第653源章《厄瑞玻斯.(2)》 P0017-P0036：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。\n第653源章《厄瑞玻斯.(2)》 P0037-P0060：因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。\n第653源章《厄瑞玻斯.(2)》 P0061-P0088：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。\n第652源章《厄瑞玻斯.(1)》 P0015-P0035：黑暗骑士齐格弗里德拥有最多黑暗碎片；收集量达到阈值后化为疑似厄瑞玻斯的黑发幼神，但具体机制仍不确定。\n第652源章《厄瑞玻斯.(1)》 P0051-P0056：亚空间宅邸曾用于养索菲亚和教露西亚，现成为幼年黑暗神隔离住所。\n第652源章《厄瑞玻斯.(1)》 P0080-P0089：亚空间可调为内一秒外十秒；幼神是厄瑞玻斯部分与齐格弗里德融合、无旧忆、低力量和弱信仰的状态。\n第653源章《厄瑞玻斯.(2)》 P0017-P0024：神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬。\n第653源章《厄瑞玻斯.(2)》 P0040-P0048：生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师。\n第653源章《厄瑞玻斯.(2)》 P0052-P0057：旧黑龙领地冲突和幼龙牺牲引发龙战；旧厄瑞玻斯在鳞片被没收时自爆碎鳞，导致怪物、魔王等问题。\n第652源章《厄瑞玻斯.(1)》：幼年厄瑞玻斯融合体\n第652源章《厄瑞玻斯.(1)》：亚空间秘密育儿\n第652源章《厄瑞玻斯.(1)》：古神子女发现秘密\n第653源章《厄瑞玻斯.(2)》：沙利文教师魔像\n第653源章《厄瑞玻斯.(2)》：幼神无需神职\n第653源章《厄瑞玻斯.(2)》：古神默许秘密育儿",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
+      "content": "第652源章《厄瑞玻斯.(1)》：幼年厄瑞玻斯融合体",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "幼年厄瑞玻斯融合体"
+      }
     },
     {
-      "id": "era-32-erebus-child-secondary-cast",
-      "memo": "幼年厄瑞玻斯：次要人物与 NPC 合并条目",
-      "category": "secondary-cast",
+      "id": "era-32-erebus-child-continuity-new-652-02",
+      "title": "新建立连续性｜第652源章｜2",
+      "memo": "幼年厄瑞玻斯：新建立连续性（第652源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：亚空间秘密育儿",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 2,
+        "sourceText": "亚空间秘密育儿"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-continuity-new-652-03",
+      "title": "新建立连续性｜第652源章｜3",
+      "memo": "幼年厄瑞玻斯：新建立连续性（第652源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：古神子女发现秘密",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 3,
+        "sourceText": "古神子女发现秘密"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-unresolved-652-01",
+      "title": "未解决事项｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：未解决事项（第652源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：古神们如何处置",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "古神们如何处置"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-unresolved-652-02",
+      "title": "未解决事项｜第652源章｜2",
+      "memo": "幼年厄瑞玻斯：未解决事项（第652源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：幼神未来人格",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 2,
+        "sourceText": "幼神未来人格"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-protagonist-form-652-01",
+      "title": "主角龙形态｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：主角龙形态（第652源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：亚空间宅邸中照顾黑发幼神、为他读书的母亲形态。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "亚空间宅邸中照顾黑发幼神、为他读书的母亲形态。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-protagonist-state-652-01",
+      "title": "主角龙状态｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：主角龙状态（第652源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：无聊被秘密育儿取代，重新获得明显快乐。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "无聊被秘密育儿取代，重新获得明显快乐。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-protagonist-knowledge-652-01",
+      "title": "主角龙知识边界｜第652源章｜1",
+      "memo": "幼年厄瑞玻斯：主角龙知识边界（第652源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "厄瑞玻斯",
+        "厄瑞玻斯.(1)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第652源章《厄瑞玻斯.(1)》：幼神身份是融合体解释并由主龙选择称为厄瑞玻斯，不是完整旧厄瑞玻斯复活的确定结论。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 652,
+        "chapterTitle": "厄瑞玻斯.(1)",
+        "sequence": 1,
+        "sourceText": "幼神身份是融合体解释并由主龙选择称为厄瑞玻斯，不是完整旧厄瑞玻斯复活的确定结论。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-653-01",
+      "title": "事件｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：事件（第653源章第1条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0001-P0016：主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或因丑恶心声黑化。她回顾旧厄瑞玻斯事件时，把巨龙肉体消失称为愤怒爆发而非黑化。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "主龙认为育儿比创造困难，近乎全能仍不全知，也明确拒绝读心：不愿听到别人不愿说的内容或因丑恶心声黑化。她回顾旧厄瑞玻斯事件时，把巨龙肉体消失称为愤怒爆发而非黑化。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-653-02",
+      "title": "事件｜第653源章｜2",
+      "memo": "幼年厄瑞玻斯：事件（第653源章第2条）",
+      "category": "event",
+      "keys": [
+        "幼年厄瑞玻斯",
+        "厄瑞玻斯",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0017-P0036：幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 2,
+        "sourceText": "幼年厄瑞玻斯无信徒仍从对黑暗的恐惧敬畏获取神格；主龙不要求他履行神职，只要吃饭成长。男孩失落让她心痛，主龙把他称作心头肉并决心不再养废。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-653-03",
+      "title": "事件｜第653源章｜3",
+      "memo": "幼年厄瑞玻斯：事件（第653源章第3条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "沙利文",
+        "魔王",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0037-P0060：因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 3,
+        "sourceText": "因没有适合幼神的学校，主龙创造小熊玩偶魔像教师沙利文并灌入教育知识。她认为不应让无旧忆幼体为旧厄瑞玻斯自爆碎鳞、制造怪物和魔王等不在记忆中的罪受罚，因此继续对其他子女保密。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-event-653-04",
+      "title": "事件｜第653源章｜4",
+      "memo": "幼年厄瑞玻斯：事件（第653源章第4条）",
+      "category": "event",
+      "keys": [
+        "厄瑞玻斯",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0061-P0088：古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 4,
+        "sourceText": "古神子女知道母亲心软与快乐，回顾旧厄瑞玻斯将母亲当异性而非家人的爱。尽管担忧重演，他们判断强迫幼体付代价会激怒母亲，且母亲不可能接受恋爱，决定静观并继续隐瞒自己已知。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-world-fact-653-01",
+      "title": "世界设定事实｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：世界设定事实（第653源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0017-P0024：神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "神格可由对黑暗的恐惧和敬畏维持，信仰不只包含尊敬与憧憬。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-world-fact-653-02",
+      "title": "世界设定事实｜第653源章｜2",
+      "memo": "幼年厄瑞玻斯：世界设定事实（第653源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "沙利文",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0040-P0048：生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 2,
+        "sourceText": "生命教团基础教育院勉强承担幼儿园功能，但不适合幼神；沙利文魔像成为专属教师。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-world-fact-653-03",
+      "title": "世界设定事实｜第653源章｜3",
+      "memo": "幼年厄瑞玻斯：世界设定事实（第653源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "厄瑞玻斯",
+        "魔王",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》 P0052-P0057：旧黑龙领地冲突和幼龙牺牲引发龙战；旧厄瑞玻斯在鳞片被没收时自爆碎鳞，导致怪物、魔王等问题。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 3,
+        "sourceText": "旧黑龙领地冲突和幼龙牺牲引发龙战；旧厄瑞玻斯在鳞片被没收时自爆碎鳞，导致怪物、魔王等问题。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-continuity-new-653-01",
+      "title": "新建立连续性｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：新建立连续性（第653源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "沙利文",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：沙利文教师魔像",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "沙利文教师魔像"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-continuity-new-653-02",
+      "title": "新建立连续性｜第653源章｜2",
+      "memo": "幼年厄瑞玻斯：新建立连续性（第653源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：幼神无需神职",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 2,
+        "sourceText": "幼神无需神职"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-continuity-new-653-03",
+      "title": "新建立连续性｜第653源章｜3",
+      "memo": "幼年厄瑞玻斯：新建立连续性（第653源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：古神默许秘密育儿",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 3,
+        "sourceText": "古神默许秘密育儿"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-unresolved-653-01",
+      "title": "未解决事项｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：未解决事项（第653源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "幼年厄瑞玻斯",
+        "厄瑞玻斯",
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：幼年厄瑞玻斯成长",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "幼年厄瑞玻斯成长"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-unresolved-653-02",
+      "title": "未解决事项｜第653源章｜2",
+      "memo": "幼年厄瑞玻斯：未解决事项（第653源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：旧爱慕是否重现",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 2,
+        "sourceText": "旧爱慕是否重现"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-unresolved-653-03",
+      "title": "未解决事项｜第653源章｜3",
+      "memo": "幼年厄瑞玻斯：未解决事项（第653源章第3条）",
+      "category": "unresolved",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：子女与母亲何时坦白",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 3,
+        "sourceText": "子女与母亲何时坦白"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-protagonist-form-653-01",
+      "title": "主角龙形态｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：主角龙形态（第653源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：亚空间中抚养幼神、创造小熊教师的母亲形态。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "亚空间中抚养幼神、创造小熊教师的母亲形态。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-protagonist-state-653-01",
+      "title": "主角龙状态｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：主角龙状态（第653源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：以第二次育儿替代无聊，并把不读心、不给旧罪惩罚确立为当前原则。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "以第二次育儿替代无聊，并把不读心、不给旧罪惩罚确立为当前原则。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-protagonist-knowledge-653-01",
+      "title": "主角龙知识边界｜第653源章｜1",
+      "memo": "幼年厄瑞玻斯：主角龙知识边界（第653源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "厄瑞玻斯.(2)"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第653源章《厄瑞玻斯.(2)》：古神子女知道秘密但主龙不知道他们知道；幼体未来是否复现爱慕或旧人格完全未定。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 653,
+        "chapterTitle": "厄瑞玻斯.(2)",
+        "sequence": 1,
+        "sourceText": "古神子女知道秘密但主龙不知道他们知道；幼体未来是否复现爱慕或旧人格完全未定。"
+      }
+    },
+    {
+      "id": "era-32-erebus-child-secondary-character-01",
+      "title": "次要人物｜希尔芙",
+      "memo": "幼年厄瑞玻斯：次要人物 希尔芙",
+      "category": "secondary-character",
       "keys": [
         "希尔芙"
       ],
@@ -1137,25 +1931,19 @@
       "constant": false,
       "enabled": true,
       "vectorMatching": true,
-      "order": 620,
+      "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "幼年厄瑞玻斯的次要人物与 NPC 只限以下原文出场者。姓名未给者保持无名，不得补姓名、私史、血缘、能力或秘密。\n\n希尔芙：第652源章《厄瑞玻斯.(1)》：从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯。",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
-    },
-    {
-      "id": "era-32-erebus-child-boundaries",
-      "memo": "幼年厄瑞玻斯：未解事实与知识边界",
-      "category": "response-rule",
-      "keys": [],
-      "secondaryKeys": [],
-      "constant": true,
-      "enabled": true,
-      "order": 980,
-      "position": "before-character",
-      "depth": 4,
-      "content": "幼年厄瑞玻斯中未解决、不可擅自补完的事项如下：\n第652源章《厄瑞玻斯.(1)》：古神们如何处置\n第652源章《厄瑞玻斯.(1)》：幼神未来人格\n第653源章《厄瑞玻斯.(2)》：幼年厄瑞玻斯成长\n第653源章《厄瑞玻斯.(2)》：旧爱慕是否重现\n第653源章《厄瑞玻斯.(2)》：子女与母亲何时坦白\n\n主角龙的逐章知识边界如下：\n第652源章《厄瑞玻斯.(1)》：幼神身份是融合体解释并由主龙选择称为厄瑞玻斯，不是完整旧厄瑞玻斯复活的确定结论。\n第653源章《厄瑞玻斯.(2)》：古神子女知道秘密但主龙不知道他们知道；幼体未来是否复现爱慕或旧人格完全未定。\n\n任何角色都不能因为世界书含有系统正典就自动读心、知道隐藏身份或预见未来。证据不足时保留未知。",
-      "knowledgeStatus": "system-rule"
+      "content": "希尔芙\n第652源章《厄瑞玻斯.(1)》：从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 652,
+          "chapterTitle": "厄瑞玻斯.(1)",
+          "sourceText": "从母亲细微好心情察觉秘密，以极细风在完全信任自己的母亲身边跟踪并确认幼年厄瑞玻斯。"
+        }
+      ]
     }
   ],
   "secondaryCharacterCount": 1

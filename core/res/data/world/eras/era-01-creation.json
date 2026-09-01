@@ -1184,6 +1184,7 @@
   "lorebook": [
     {
       "id": "era-01-creation-core",
+      "title": "创世与第一批生命｜时代边界",
       "memo": "创世与第一批生命：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1193,15 +1194,66 @@
       "order": 1000,
       "position": "before-character",
       "depth": 4,
-      "content": "创世与第一批生命是当前唯一有效的时代，原文范围为第5至第10源章。\n\n本时代只能使用截至第10源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第11源章以后的内容不可进入角色认知或场景。\n\n主角龙在本时代必须可选。其形态和状态按以下逐章证据处理：\n第5源章《第 0 章：序言》：守护龙；本章没有外貌细节。\n第6源章《第 1 章：你好，世界！》：刚破壳的银鳞幼龙，头大、小翼、有角。\n第7源章《第 2 章：你好，世界！（2）》：银鳞幼龙，外形未新增变化。\n第8源章《第 3 章：你好，世界！（3）》：会飞的银鳞幼龙。\n第9源章《第 4 章：你好，世界！（4）》：银色龙体；可飞行、潜水并施放属性吐息。\n第10源章《第 5 章：你好，世界！（5）》：成年程度未明确的银色母龙；在数十年时间中持续活动。\n第5源章《第 0 章：序言》：已守护某对象上千年，嗜睡且厌烦被唤醒。\n第6源章《第 1 章：你好，世界！》：刚转世、尚未建立生态，也未掌握新身体。\n第7源章《第 2 章：你好，世界！（2）》：完成能力初测，开始亲手建立生态。\n第8源章《第 3 章：你好，世界！（3）》：从洞穴出生点转为全球播种与观察者。\n第9源章《第 4 章：你好，世界！（4）》：从生态播种者进一步成为新生智慧意识的命名与照料者。\n第10源章《第 5 章：你好，世界！（5）》：承担生态照料和七个孩子的教育，被它们视作母亲。",
-      "knowledgeStatus": "system-canon"
+      "content": "创世与第一批生命是当前唯一有效的时代，原文范围为第5至第10源章。\n本时代只能使用截至第10源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第11源章以后的内容不可进入角色认知或场景。\n世界书中的系统正典不自动等于角色知识；证据不足时保持未知，不得补完。",
+      "knowledgeStatus": "system-rule"
     },
     {
-      "id": "era-01-creation-world",
-      "memo": "创世与第一批生命：事件与世界状态",
-      "category": "event-history-system",
+      "id": "era-01-creation-event-5-01",
+      "title": "事件｜第5源章｜1",
+      "memo": "创世与第一批生命：事件（第5源章第1条）",
+      "category": "event",
       "keys": [
-        "创世与第一批生命"
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》 P0001-P0005：一位被称为守护龙的第一人称叙述者在睡眠中被人反复唤醒；她已保护对方上千年。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 1,
+        "sourceText": "一位被称为守护龙的第一人称叙述者在睡眠中被人反复唤醒；她已保护对方上千年。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-5-02",
+      "title": "事件｜第5源章｜2",
+      "memo": "创世与第一批生命：事件（第5源章第2条）",
+      "category": "event",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》 P0006-P0008：叙述者说明自己受神诱惑而转世成异世界之龙，故事始于创世不久。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 2,
+        "sourceText": "叙述者说明自己受神诱惑而转世成异世界之龙，故事始于创世不久。"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-5-01",
+      "title": "新建立连续性｜第5源章｜1",
+      "memo": "创世与第一批生命：新建立连续性（第5源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第 0 章：序言"
       ],
       "secondaryKeys": [],
       "constant": false,
@@ -1210,40 +1262,2254 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "创世与第一批生命的事件与世界状态只包含下列原文证据。它们属于系统正典，但并不自动成为每个角色都知道的事实；角色是否知道仍由角色卡的知识边界决定。\n\n第5源章《第 0 章：序言》 P0001-P0005：一位被称为守护龙的第一人称叙述者在睡眠中被人反复唤醒；她已保护对方上千年。\n第5源章《第 0 章：序言》 P0006-P0008：叙述者说明自己受神诱惑而转世成异世界之龙，故事始于创世不久。\n第6源章《第 1 章：你好，世界！》 P0003-P0037：无名创世神告知主角前世睡眠中死于心肌梗死，提出转世，并承诺她达成真正满意的成就后实现一个愿望；主角接受。\n第6源章《第 1 章：你好，世界！》 P0038-P0041：未来史料称守护龙是神的第一个造物和第一个智慧生物，且连她也不知道创世神目的。\n第6源章《第 1 章：你好，世界！》 P0042-P0065：主角破壳出生，成为银鳞幼龙：头相对较大、背生小翅膀、长角；洞穴外世界近乎没有动物生命，树木如幼苗。\n第6源章《第 1 章：你好，世界！》 P0077-P0107：神聊来信说明三项奖励：创造之力、查看其他世界信息、受限制的时间控制，并要求她用创造的生命充实世界。\n第6源章《第 1 章：你好，世界！》 P0108-P0114：主角获得能力知识并成功打开类似前世浏览器和搜索引擎的信息窗口。\n第7源章《第 2 章：你好，世界！（2）》 P0001-P0015：主角实测信息窗口可用意念输入、注视滚动、意念关闭，只能阅读。\n第7源章《第 2 章：你好，世界！（2）》 P0016-P0065：时间能力通过怀表操作，可暂停、加速、减速和倒流；倒流必须得到过去时间点同意。\n第7源章《第 2 章：你好，世界！（2）》 P0042-P0048：主角加速数日而不饥饿，判断自己已不属于普通生物。\n第7源章《第 2 章：你好，世界！（2）》 P0066-P0097：主角为建立生态，决定不直接创造人类，而先创造高适应、短寿、自繁殖、高变异的简单生物，让其自行进化；首个生命成为共同祖先。\n第8源章《第 3 章：你好，世界！（3）》 P0004-P0048：主角离开洞穴，依靠微弱魔力与翅膀首次飞行；曾因翅部痉挛坠落但未受伤，之后学会感知魔力。\n第8源章《第 3 章：你好，世界！（3）》 P0020：创世神来信称生态基础已预备、魔力浓度会随时间增加，龙能本能借魔法飞行并喷吐。\n第8源章《第 3 章：你好，世界！（3）》 P0049-P0062：主角飞遍世界散播自创生命；因柔软黏稠、自繁殖、适应、吞噬和分解废物等设定，结果成为黏液。\n第8源章《第 3 章：你好，世界！（3）》 P0063-P0071：未来教授主张黏液化石证明其为所有生物起源，随后被教会和万神殿宣布为异端并失踪；守护龙被传与失踪有关，但真相未明。\n第8源章《第 3 章：你好，世界！（3）》 P0072-P0087：不同环境的黏液产生差异进化；水生支系形成表面、嘴、鳍和水下呼吸结构，逐渐成为类鱼生物。\n第9源章《第 4 章：你好，世界！（4）》 P0001-P0030：主角探索海洋，确认龙体可在水下呼吸、睁眼和自由游动；她历经数日、数周、数月观察生命扩散。\n第9源章《第 4 章：你好，世界！（4）》 P0031-P0064：魔力浓度持续增加；主角把魔力理解为实现意志的力量，并可将吐息转为火、雷、寒与水。\n第9源章《第 4 章：你好，世界！（4）》 P0065-P0099：高浓度魔力使龙卷风等自然现象萌生意识；主角不愿消灭新生命，为首个意识命名西尔菲德。\n第9源章《第 4 章：你好，世界！（4）》 P0100-P0117：火山、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒也出现各不相同的意识。\n第10源章《第 5 章：你好，世界！（5）》 P0001-P0021：主角确认七个自然意识并命名：西尔菲德、伊夫利特、泰菲达、萨加玛塔、尤克特拉希尔、厄瑞玻斯、沙玛什；它们的灵魂在几十年间成长。\n第10源章《第 5 章：你好，世界！（5）》 P0022-P0056：七个意识一致把主角视为母亲；主角反对但未能改变称呼。\n第10源章《第 5 章：你好，世界！（5）》 P0057-P0076：主角不确定龙体性别；创世神数十年后只发信确认她是女性，令她强烈愤怒，但她在西尔菲德面前克制。\n第10源章《第 5 章：你好，世界！（5）》 P0077-P0090：过往伊夫利特因好奇烧死首批登陆生物，主角斥责后他不再焚烧其他生命。\n第10源章《第 5 章：你好，世界！（5）》 P0091-P0107：几十年后生态进入类似恐龙时代；未来博物馆称这是龙繁荣的时代，并把无翼龙化石陈列为龙。\n第6源章《第 1 章：你好，世界！》 P0069-P0075：创世初期洞穴外只有矮小植物，未听见昆虫或鸟类，主角判断几乎没有生命。\n第6源章《第 1 章：你好，世界！》 P0102-P0106：神聊目前只有主角与创世神使用；若未来出现其他神，可能加入。\n第7源章《第 2 章：你好，世界！（2）》 P0045-P0048：主角在时间快速流逝中不饥饿，且自认寿命与存在方式已超出普通生物。\n第7源章《第 2 章：你好，世界！（2）》 P0087-P0097：创造界面允许详细设定生物；首个被造生命是此后所有生物的共同祖先。\n第8源章《第 3 章：你好，世界！（3）》 P0055-P0062：原始黏液能自繁殖、适应、吸收空气能量、变异、吞噬小物体、分解废物，死亡后成为肥料。\n第8源章《第 3 章：你好，世界！（3）》 P0076-P0087：沼泽、寒地、火山、森林、矿区和水域各自形成不同黏液分支；水生分支走向鱼类。\n第9源章《第 4 章：你好，世界！（4）》 P0040-P0049：魔力随时间增强，能依照意图改变现象；主角称其如世界生命体血管中的血液。\n第9源章《第 4 章：你好，世界！（4）》 P0106-P0115：七类属性不同的自然现象获得意识，是否被刻意安排尚不确定。\n第10源章《第 5 章：你好，世界！（5）》 P0007-P0021：七个自然意识分别来自风、永恒火焰、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒。\n第10源章《第 5 章：你好，世界！（5）》 P0091-P0100：首批生命经快速进化形成充满大型生物的恐龙时代。\n第5源章《第 0 章：序言》：守护龙身份\n第5源章《第 0 章：序言》：千年以上守护\n第5源章《第 0 章：序言》：异世界转世\n第5源章《第 0 章：序言》：创世不久为故事起点\n第6源章《第 1 章：你好，世界！》：转世契约\n第6源章《第 1 章：你好，世界！》：银鳞幼龙形态\n第6源章《第 1 章：你好，世界！》：三项奖励\n第6源章《第 1 章：你好，世界！》：神聊\n第6源章《第 1 章：你好，世界！》：创世初期空世界\n第7源章《第 2 章：你好，世界！（2）》：时间怀表操作规则\n第7源章《第 2 章：你好，世界！（2）》：过去时间点同意限制\n第7源章《第 2 章：你好，世界！（2）》：共同祖先生命被创造\n第8源章《第 3 章：你好，世界！（3）》：魔力辅助飞行\n第8源章《第 3 章：你好，世界！（3）》：全球黏液生态\n第8源章《第 3 章：你好，世界！（3）》：未来教会与万神殿史料\n第9源章《第 4 章：你好，世界！（4）》：西尔菲德诞生与命名\n第9源章《第 4 章：你好，世界！（4）》：其余六个自然意识\n第9源章《第 4 章：你好，世界！（4）》：多属性吐息\n第10源章《第 5 章：你好，世界！（5）》：七个孩子全名与属性\n第10源章《第 5 章：你好，世界！（5）》：主角女性\n第10源章《第 5 章：你好，世界！（5）》：恐龙时代\n第10源章《第 5 章：你好，世界！（5）》：主角的教育责任",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
+      "content": "第5源章《第 0 章：序言》：守护龙身份",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 1,
+        "sourceText": "守护龙身份"
+      }
     },
     {
-      "id": "era-01-creation-secondary-cast",
-      "memo": "创世与第一批生命：次要人物与 NPC 合并条目",
-      "category": "secondary-cast",
+      "id": "era-01-creation-continuity-new-5-02",
+      "title": "新建立连续性｜第5源章｜2",
+      "memo": "创世与第一批生命：新建立连续性（第5源章第2条）",
+      "category": "continuity",
       "keys": [
-        "唤醒者（身份未明）",
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：千年以上守护",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 2,
+        "sourceText": "千年以上守护"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-5-03",
+      "title": "新建立连续性｜第5源章｜3",
+      "memo": "创世与第一批生命：新建立连续性（第5源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：异世界转世",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 3,
+        "sourceText": "异世界转世"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-5-04",
+      "title": "新建立连续性｜第5源章｜4",
+      "memo": "创世与第一批生命：新建立连续性（第5源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：创世不久为故事起点",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 4,
+        "sourceText": "创世不久为故事起点"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-5-01",
+      "title": "未解决事项｜第5源章｜1",
+      "memo": "创世与第一批生命：未解决事项（第5源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：唤醒者身份",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 1,
+        "sourceText": "唤醒者身份"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-5-02",
+      "title": "未解决事项｜第5源章｜2",
+      "memo": "创世与第一批生命：未解决事项（第5源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：守护对象",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 2,
+        "sourceText": "守护对象"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-5-03",
+      "title": "未解决事项｜第5源章｜3",
+      "memo": "创世与第一批生命：未解决事项（第5源章第3条）",
+      "category": "unresolved",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：转世条件的完整内容",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 3,
+        "sourceText": "转世条件的完整内容"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-form-5-01",
+      "title": "主角龙形态｜第5源章｜1",
+      "memo": "创世与第一批生命：主角龙形态（第5源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：守护龙；本章没有外貌细节。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 1,
+        "sourceText": "守护龙；本章没有外貌细节。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-state-5-01",
+      "title": "主角龙状态｜第5源章｜1",
+      "memo": "创世与第一批生命：主角龙状态（第5源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：已守护某对象上千年，嗜睡且厌烦被唤醒。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 1,
+        "sourceText": "已守护某对象上千年，嗜睡且厌烦被唤醒。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-knowledge-5-01",
+      "title": "主角龙知识边界｜第5源章｜1",
+      "memo": "创世与第一批生命：主角龙知识边界（第5源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第 0 章：序言"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第5源章《第 0 章：序言》：这是回顾式序言，知识显著晚于创世篇。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 5,
+        "chapterTitle": "第 0 章：序言",
+        "sequence": 1,
+        "sourceText": "这是回顾式序言，知识显著晚于创世篇。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-6-01",
+      "title": "事件｜第6源章｜1",
+      "memo": "创世与第一批生命：事件（第6源章第1条）",
+      "category": "event",
+      "keys": [
+        "无名创世神",
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0003-P0037：无名创世神告知主角前世睡眠中死于心肌梗死，提出转世，并承诺她达成真正满意的成就后实现一个愿望；主角接受。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "无名创世神告知主角前世睡眠中死于心肌梗死，提出转世，并承诺她达成真正满意的成就后实现一个愿望；主角接受。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-6-02",
+      "title": "事件｜第6源章｜2",
+      "memo": "创世与第一批生命：事件（第6源章第2条）",
+      "category": "event",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0038-P0041：未来史料称守护龙是神的第一个造物和第一个智慧生物，且连她也不知道创世神目的。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 2,
+        "sourceText": "未来史料称守护龙是神的第一个造物和第一个智慧生物，且连她也不知道创世神目的。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-6-03",
+      "title": "事件｜第6源章｜3",
+      "memo": "创世与第一批生命：事件（第6源章第3条）",
+      "category": "event",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0042-P0065：主角破壳出生，成为银鳞幼龙：头相对较大、背生小翅膀、长角；洞穴外世界近乎没有动物生命，树木如幼苗。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 3,
+        "sourceText": "主角破壳出生，成为银鳞幼龙：头相对较大、背生小翅膀、长角；洞穴外世界近乎没有动物生命，树木如幼苗。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-6-04",
+      "title": "事件｜第6源章｜4",
+      "memo": "创世与第一批生命：事件（第6源章第4条）",
+      "category": "event",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0077-P0107：神聊来信说明三项奖励：创造之力、查看其他世界信息、受限制的时间控制，并要求她用创造的生命充实世界。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 4,
+        "sourceText": "神聊来信说明三项奖励：创造之力、查看其他世界信息、受限制的时间控制，并要求她用创造的生命充实世界。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-6-05",
+      "title": "事件｜第6源章｜5",
+      "memo": "创世与第一批生命：事件（第6源章第5条）",
+      "category": "event",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0108-P0114：主角获得能力知识并成功打开类似前世浏览器和搜索引擎的信息窗口。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 5,
+        "sourceText": "主角获得能力知识并成功打开类似前世浏览器和搜索引擎的信息窗口。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-6-01",
+      "title": "世界设定事实｜第6源章｜1",
+      "memo": "创世与第一批生命：世界设定事实（第6源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0069-P0075：创世初期洞穴外只有矮小植物，未听见昆虫或鸟类，主角判断几乎没有生命。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "创世初期洞穴外只有矮小植物，未听见昆虫或鸟类，主角判断几乎没有生命。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-6-02",
+      "title": "世界设定事实｜第6源章｜2",
+      "memo": "创世与第一批生命：世界设定事实（第6源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》 P0102-P0106：神聊目前只有主角与创世神使用；若未来出现其他神，可能加入。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 2,
+        "sourceText": "神聊目前只有主角与创世神使用；若未来出现其他神，可能加入。"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-6-01",
+      "title": "新建立连续性｜第6源章｜1",
+      "memo": "创世与第一批生命：新建立连续性（第6源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：转世契约",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "转世契约"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-6-02",
+      "title": "新建立连续性｜第6源章｜2",
+      "memo": "创世与第一批生命：新建立连续性（第6源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：银鳞幼龙形态",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 2,
+        "sourceText": "银鳞幼龙形态"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-6-03",
+      "title": "新建立连续性｜第6源章｜3",
+      "memo": "创世与第一批生命：新建立连续性（第6源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：三项奖励",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 3,
+        "sourceText": "三项奖励"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-6-04",
+      "title": "新建立连续性｜第6源章｜4",
+      "memo": "创世与第一批生命：新建立连续性（第6源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：神聊",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 4,
+        "sourceText": "神聊"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-6-05",
+      "title": "新建立连续性｜第6源章｜5",
+      "memo": "创世与第一批生命：新建立连续性（第6源章第5条）",
+      "category": "continuity",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：创世初期空世界",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 5,
+        "sourceText": "创世初期空世界"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-6-01",
+      "title": "未解决事项｜第6源章｜1",
+      "memo": "创世与第一批生命：未解决事项（第6源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：满意成就的判定",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "满意成就的判定"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-6-02",
+      "title": "未解决事项｜第6源章｜2",
+      "memo": "创世与第一批生命：未解决事项（第6源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：时间控制的具体限制",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 2,
+        "sourceText": "时间控制的具体限制"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-6-03",
+      "title": "未解决事项｜第6源章｜3",
+      "memo": "创世与第一批生命：未解决事项（第6源章第3条）",
+      "category": "unresolved",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：神的目的",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 3,
+        "sourceText": "神的目的"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-form-6-01",
+      "title": "主角龙形态｜第6源章｜1",
+      "memo": "创世与第一批生命：主角龙形态（第6源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：刚破壳的银鳞幼龙，头大、小翼、有角。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "刚破壳的银鳞幼龙，头大、小翼、有角。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-state-6-01",
+      "title": "主角龙状态｜第6源章｜1",
+      "memo": "创世与第一批生命：主角龙状态（第6源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：刚转世、尚未建立生态，也未掌握新身体。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "刚转世、尚未建立生态，也未掌握新身体。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-knowledge-6-01",
+      "title": "主角龙知识边界｜第6源章｜1",
+      "memo": "创世与第一批生命：主角龙知识边界（第6源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第 1 章：你好，世界！"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第6源章《第 1 章：你好，世界！》：只知道神主动告知的能力说明和前世知识，不知道神的真实目的或后世历史。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 6,
+        "chapterTitle": "第 1 章：你好，世界！",
+        "sequence": 1,
+        "sourceText": "只知道神主动告知的能力说明和前世知识，不知道神的真实目的或后世历史。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-7-01",
+      "title": "事件｜第7源章｜1",
+      "memo": "创世与第一批生命：事件（第7源章第1条）",
+      "category": "event",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》 P0001-P0015：主角实测信息窗口可用意念输入、注视滚动、意念关闭，只能阅读。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "主角实测信息窗口可用意念输入、注视滚动、意念关闭，只能阅读。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-7-02",
+      "title": "事件｜第7源章｜2",
+      "memo": "创世与第一批生命：事件（第7源章第2条）",
+      "category": "event",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》 P0016-P0065：时间能力通过怀表操作，可暂停、加速、减速和倒流；倒流必须得到过去时间点同意。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 2,
+        "sourceText": "时间能力通过怀表操作，可暂停、加速、减速和倒流；倒流必须得到过去时间点同意。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-7-03",
+      "title": "事件｜第7源章｜3",
+      "memo": "创世与第一批生命：事件（第7源章第3条）",
+      "category": "event",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》 P0042-P0048：主角加速数日而不饥饿，判断自己已不属于普通生物。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 3,
+        "sourceText": "主角加速数日而不饥饿，判断自己已不属于普通生物。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-7-04",
+      "title": "事件｜第7源章｜4",
+      "memo": "创世与第一批生命：事件（第7源章第4条）",
+      "category": "event",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》 P0066-P0097：主角为建立生态，决定不直接创造人类，而先创造高适应、短寿、自繁殖、高变异的简单生物，让其自行进化；首个生命成为共同祖先。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 4,
+        "sourceText": "主角为建立生态，决定不直接创造人类，而先创造高适应、短寿、自繁殖、高变异的简单生物，让其自行进化；首个生命成为共同祖先。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-7-01",
+      "title": "世界设定事实｜第7源章｜1",
+      "memo": "创世与第一批生命：世界设定事实（第7源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》 P0045-P0048：主角在时间快速流逝中不饥饿，且自认寿命与存在方式已超出普通生物。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "主角在时间快速流逝中不饥饿，且自认寿命与存在方式已超出普通生物。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-7-02",
+      "title": "世界设定事实｜第7源章｜2",
+      "memo": "创世与第一批生命：世界设定事实（第7源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》 P0087-P0097：创造界面允许详细设定生物；首个被造生命是此后所有生物的共同祖先。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 2,
+        "sourceText": "创造界面允许详细设定生物；首个被造生命是此后所有生物的共同祖先。"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-7-01",
+      "title": "新建立连续性｜第7源章｜1",
+      "memo": "创世与第一批生命：新建立连续性（第7源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：时间怀表操作规则",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "时间怀表操作规则"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-7-02",
+      "title": "新建立连续性｜第7源章｜2",
+      "memo": "创世与第一批生命：新建立连续性（第7源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：过去时间点同意限制",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 2,
+        "sourceText": "过去时间点同意限制"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-7-03",
+      "title": "新建立连续性｜第7源章｜3",
+      "memo": "创世与第一批生命：新建立连续性（第7源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：共同祖先生命被创造",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 3,
+        "sourceText": "共同祖先生命被创造"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-7-01",
+      "title": "未解决事项｜第7源章｜1",
+      "memo": "创世与第一批生命：未解决事项（第7源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：过去时间点是谁或何物",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "过去时间点是谁或何物"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-7-02",
+      "title": "未解决事项｜第7源章｜2",
+      "memo": "创世与第一批生命：未解决事项（第7源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：进化能否按预期发展",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 2,
+        "sourceText": "进化能否按预期发展"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-form-7-01",
+      "title": "主角龙形态｜第7源章｜1",
+      "memo": "创世与第一批生命：主角龙形态（第7源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：银鳞幼龙，外形未新增变化。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "银鳞幼龙，外形未新增变化。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-state-7-01",
+      "title": "主角龙状态｜第7源章｜1",
+      "memo": "创世与第一批生命：主角龙状态（第7源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：完成能力初测，开始亲手建立生态。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "完成能力初测，开始亲手建立生态。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-knowledge-7-01",
+      "title": "主角龙知识边界｜第7源章｜1",
+      "memo": "创世与第一批生命：主角龙知识边界（第7源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第 2 章：你好，世界！（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第7源章《第 2 章：你好，世界！（2）》：尚无其他智慧生命陪伴；尚未观察长期进化结果。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 7,
+        "chapterTitle": "第 2 章：你好，世界！（2）",
+        "sequence": 1,
+        "sourceText": "尚无其他智慧生命陪伴；尚未观察长期进化结果。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-8-01",
+      "title": "事件｜第8源章｜1",
+      "memo": "创世与第一批生命：事件（第8源章第1条）",
+      "category": "event",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0004-P0048：主角离开洞穴，依靠微弱魔力与翅膀首次飞行；曾因翅部痉挛坠落但未受伤，之后学会感知魔力。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "主角离开洞穴，依靠微弱魔力与翅膀首次飞行；曾因翅部痉挛坠落但未受伤，之后学会感知魔力。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-8-02",
+      "title": "事件｜第8源章｜2",
+      "memo": "创世与第一批生命：事件（第8源章第2条）",
+      "category": "event",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0020：创世神来信称生态基础已预备、魔力浓度会随时间增加，龙能本能借魔法飞行并喷吐。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 2,
+        "sourceText": "创世神来信称生态基础已预备、魔力浓度会随时间增加，龙能本能借魔法飞行并喷吐。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-8-03",
+      "title": "事件｜第8源章｜3",
+      "memo": "创世与第一批生命：事件（第8源章第3条）",
+      "category": "event",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0049-P0062：主角飞遍世界散播自创生命；因柔软黏稠、自繁殖、适应、吞噬和分解废物等设定，结果成为黏液。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 3,
+        "sourceText": "主角飞遍世界散播自创生命；因柔软黏稠、自繁殖、适应、吞噬和分解废物等设定，结果成为黏液。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-8-04",
+      "title": "事件｜第8源章｜4",
+      "memo": "创世与第一批生命：事件（第8源章第4条）",
+      "category": "event",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0063-P0071：未来教授主张黏液化石证明其为所有生物起源，随后被教会和万神殿宣布为异端并失踪；守护龙被传与失踪有关，但真相未明。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 4,
+        "sourceText": "未来教授主张黏液化石证明其为所有生物起源，随后被教会和万神殿宣布为异端并失踪；守护龙被传与失踪有关，但真相未明。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-8-05",
+      "title": "事件｜第8源章｜5",
+      "memo": "创世与第一批生命：事件（第8源章第5条）",
+      "category": "event",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0072-P0087：不同环境的黏液产生差异进化；水生支系形成表面、嘴、鳍和水下呼吸结构，逐渐成为类鱼生物。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 5,
+        "sourceText": "不同环境的黏液产生差异进化；水生支系形成表面、嘴、鳍和水下呼吸结构，逐渐成为类鱼生物。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-8-01",
+      "title": "世界设定事实｜第8源章｜1",
+      "memo": "创世与第一批生命：世界设定事实（第8源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0055-P0062：原始黏液能自繁殖、适应、吸收空气能量、变异、吞噬小物体、分解废物，死亡后成为肥料。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "原始黏液能自繁殖、适应、吸收空气能量、变异、吞噬小物体、分解废物，死亡后成为肥料。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-8-02",
+      "title": "世界设定事实｜第8源章｜2",
+      "memo": "创世与第一批生命：世界设定事实（第8源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》 P0076-P0087：沼泽、寒地、火山、森林、矿区和水域各自形成不同黏液分支；水生分支走向鱼类。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 2,
+        "sourceText": "沼泽、寒地、火山、森林、矿区和水域各自形成不同黏液分支；水生分支走向鱼类。"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-8-01",
+      "title": "新建立连续性｜第8源章｜1",
+      "memo": "创世与第一批生命：新建立连续性（第8源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：魔力辅助飞行",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "魔力辅助飞行"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-8-02",
+      "title": "新建立连续性｜第8源章｜2",
+      "memo": "创世与第一批生命：新建立连续性（第8源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：全球黏液生态",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 2,
+        "sourceText": "全球黏液生态"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-8-03",
+      "title": "新建立连续性｜第8源章｜3",
+      "memo": "创世与第一批生命：新建立连续性（第8源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：未来教会与万神殿史料",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 3,
+        "sourceText": "未来教会与万神殿史料"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-8-01",
+      "title": "未解决事项｜第8源章｜1",
+      "memo": "创世与第一批生命：未解决事项（第8源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：未来教授失踪真相",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "未来教授失踪真相"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-8-02",
+      "title": "未解决事项｜第8源章｜2",
+      "memo": "创世与第一批生命：未解决事项（第8源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：守护龙是否涉入",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 2,
+        "sourceText": "守护龙是否涉入"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-form-8-01",
+      "title": "主角龙形态｜第8源章｜1",
+      "memo": "创世与第一批生命：主角龙形态（第8源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：会飞的银鳞幼龙。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "会飞的银鳞幼龙。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-state-8-01",
+      "title": "主角龙状态｜第8源章｜1",
+      "memo": "创世与第一批生命：主角龙状态（第8源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：从洞穴出生点转为全球播种与观察者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "从洞穴出生点转为全球播种与观察者。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-knowledge-8-01",
+      "title": "主角龙知识边界｜第8源章｜1",
+      "memo": "创世与第一批生命：主角龙知识边界（第8源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第 3 章：你好，世界！（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第8源章《第 3 章：你好，世界！（3）》：仍处世界最早期，只能凭前世常识解释演化。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 8,
+        "chapterTitle": "第 3 章：你好，世界！（3）",
+        "sequence": 1,
+        "sourceText": "仍处世界最早期，只能凭前世常识解释演化。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-9-01",
+      "title": "事件｜第9源章｜1",
+      "memo": "创世与第一批生命：事件（第9源章第1条）",
+      "category": "event",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》 P0001-P0030：主角探索海洋，确认龙体可在水下呼吸、睁眼和自由游动；她历经数日、数周、数月观察生命扩散。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "主角探索海洋，确认龙体可在水下呼吸、睁眼和自由游动；她历经数日、数周、数月观察生命扩散。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-9-02",
+      "title": "事件｜第9源章｜2",
+      "memo": "创世与第一批生命：事件（第9源章第2条）",
+      "category": "event",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》 P0031-P0064：魔力浓度持续增加；主角把魔力理解为实现意志的力量，并可将吐息转为火、雷、寒与水。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 2,
+        "sourceText": "魔力浓度持续增加；主角把魔力理解为实现意志的力量，并可将吐息转为火、雷、寒与水。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-9-03",
+      "title": "事件｜第9源章｜3",
+      "memo": "创世与第一批生命：事件（第9源章第3条）",
+      "category": "event",
+      "keys": [
+        "西尔菲德",
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》 P0065-P0099：高浓度魔力使龙卷风等自然现象萌生意识；主角不愿消灭新生命，为首个意识命名西尔菲德。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 3,
+        "sourceText": "高浓度魔力使龙卷风等自然现象萌生意识；主角不愿消灭新生命，为首个意识命名西尔菲德。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-9-04",
+      "title": "事件｜第9源章｜4",
+      "memo": "创世与第一批生命：事件（第9源章第4条）",
+      "category": "event",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》 P0100-P0117：火山、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒也出现各不相同的意识。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 4,
+        "sourceText": "火山、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒也出现各不相同的意识。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-9-01",
+      "title": "世界设定事实｜第9源章｜1",
+      "memo": "创世与第一批生命：世界设定事实（第9源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》 P0040-P0049：魔力随时间增强，能依照意图改变现象；主角称其如世界生命体血管中的血液。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "魔力随时间增强，能依照意图改变现象；主角称其如世界生命体血管中的血液。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-9-02",
+      "title": "世界设定事实｜第9源章｜2",
+      "memo": "创世与第一批生命：世界设定事实（第9源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》 P0106-P0115：七类属性不同的自然现象获得意识，是否被刻意安排尚不确定。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 2,
+        "sourceText": "七类属性不同的自然现象获得意识，是否被刻意安排尚不确定。"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-9-01",
+      "title": "新建立连续性｜第9源章｜1",
+      "memo": "创世与第一批生命：新建立连续性（第9源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "西尔菲德",
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：西尔菲德诞生与命名",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "西尔菲德诞生与命名"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-9-02",
+      "title": "新建立连续性｜第9源章｜2",
+      "memo": "创世与第一批生命：新建立连续性（第9源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：其余六个自然意识",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 2,
+        "sourceText": "其余六个自然意识"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-9-03",
+      "title": "新建立连续性｜第9源章｜3",
+      "memo": "创世与第一批生命：新建立连续性（第9源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：多属性吐息",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 3,
+        "sourceText": "多属性吐息"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-9-01",
+      "title": "未解决事项｜第9源章｜1",
+      "memo": "创世与第一批生命：未解决事项（第9源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：七意识是否被刻意安排",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "七意识是否被刻意安排"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-9-02",
+      "title": "未解决事项｜第9源章｜2",
+      "memo": "创世与第一批生命：未解决事项（第9源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：其余名称",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 2,
+        "sourceText": "其余名称"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-form-9-01",
+      "title": "主角龙形态｜第9源章｜1",
+      "memo": "创世与第一批生命：主角龙形态（第9源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：银色龙体；可飞行、潜水并施放属性吐息。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "银色龙体；可飞行、潜水并施放属性吐息。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-state-9-01",
+      "title": "主角龙状态｜第9源章｜1",
+      "memo": "创世与第一批生命：主角龙状态（第9源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：从生态播种者进一步成为新生智慧意识的命名与照料者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "从生态播种者进一步成为新生智慧意识的命名与照料者。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-knowledge-9-01",
+      "title": "主角龙知识边界｜第9源章｜1",
+      "memo": "创世与第一批生命：主角龙知识边界（第9源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第 4 章：你好，世界！（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第9源章《第 4 章：你好，世界！（4）》：尚未给其余六个意识命名，也不知道它们未来形态。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 9,
+        "chapterTitle": "第 4 章：你好，世界！（4）",
+        "sequence": 1,
+        "sourceText": "尚未给其余六个意识命名，也不知道它们未来形态。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-10-01",
+      "title": "事件｜第10源章｜1",
+      "memo": "创世与第一批生命：事件（第10源章第1条）",
+      "category": "event",
+      "keys": [
+        "尤克特拉希尔",
+        "萨加玛塔",
+        "厄瑞玻斯",
+        "西尔菲德",
+        "伊夫利特",
+        "沙玛什",
+        "泰菲达",
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0001-P0021：主角确认七个自然意识并命名：西尔菲德、伊夫利特、泰菲达、萨加玛塔、尤克特拉希尔、厄瑞玻斯、沙玛什；它们的灵魂在几十年间成长。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "主角确认七个自然意识并命名：西尔菲德、伊夫利特、泰菲达、萨加玛塔、尤克特拉希尔、厄瑞玻斯、沙玛什；它们的灵魂在几十年间成长。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-10-02",
+      "title": "事件｜第10源章｜2",
+      "memo": "创世与第一批生命：事件（第10源章第2条）",
+      "category": "event",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0022-P0056：七个意识一致把主角视为母亲；主角反对但未能改变称呼。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 2,
+        "sourceText": "七个意识一致把主角视为母亲；主角反对但未能改变称呼。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-10-03",
+      "title": "事件｜第10源章｜3",
+      "memo": "创世与第一批生命：事件（第10源章第3条）",
+      "category": "event",
+      "keys": [
+        "西尔菲德",
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0057-P0076：主角不确定龙体性别；创世神数十年后只发信确认她是女性，令她强烈愤怒，但她在西尔菲德面前克制。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 3,
+        "sourceText": "主角不确定龙体性别；创世神数十年后只发信确认她是女性，令她强烈愤怒，但她在西尔菲德面前克制。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-10-04",
+      "title": "事件｜第10源章｜4",
+      "memo": "创世与第一批生命：事件（第10源章第4条）",
+      "category": "event",
+      "keys": [
+        "伊夫利特",
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0077-P0090：过往伊夫利特因好奇烧死首批登陆生物，主角斥责后他不再焚烧其他生命。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 4,
+        "sourceText": "过往伊夫利特因好奇烧死首批登陆生物，主角斥责后他不再焚烧其他生命。"
+      }
+    },
+    {
+      "id": "era-01-creation-event-10-05",
+      "title": "事件｜第10源章｜5",
+      "memo": "创世与第一批生命：事件（第10源章第5条）",
+      "category": "event",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0091-P0107：几十年后生态进入类似恐龙时代；未来博物馆称这是龙繁荣的时代，并把无翼龙化石陈列为龙。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 5,
+        "sourceText": "几十年后生态进入类似恐龙时代；未来博物馆称这是龙繁荣的时代，并把无翼龙化石陈列为龙。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-10-01",
+      "title": "世界设定事实｜第10源章｜1",
+      "memo": "创世与第一批生命：世界设定事实（第10源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0007-P0021：七个自然意识分别来自风、永恒火焰、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "七个自然意识分别来自风、永恒火焰、海洋漩涡、最高山峰、巨树、绝对黑暗和极夜光芒。"
+      }
+    },
+    {
+      "id": "era-01-creation-world-fact-10-02",
+      "title": "世界设定事实｜第10源章｜2",
+      "memo": "创世与第一批生命：世界设定事实（第10源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》 P0091-P0100：首批生命经快速进化形成充满大型生物的恐龙时代。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 2,
+        "sourceText": "首批生命经快速进化形成充满大型生物的恐龙时代。"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-10-01",
+      "title": "新建立连续性｜第10源章｜1",
+      "memo": "创世与第一批生命：新建立连续性（第10源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：七个孩子全名与属性",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "七个孩子全名与属性"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-10-02",
+      "title": "新建立连续性｜第10源章｜2",
+      "memo": "创世与第一批生命：新建立连续性（第10源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：主角女性",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 2,
+        "sourceText": "主角女性"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-10-03",
+      "title": "新建立连续性｜第10源章｜3",
+      "memo": "创世与第一批生命：新建立连续性（第10源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：恐龙时代",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 3,
+        "sourceText": "恐龙时代"
+      }
+    },
+    {
+      "id": "era-01-creation-continuity-new-10-04",
+      "title": "新建立连续性｜第10源章｜4",
+      "memo": "创世与第一批生命：新建立连续性（第10源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：主角的教育责任",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 4,
+        "sourceText": "主角的教育责任"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-10-01",
+      "title": "未解决事项｜第10源章｜1",
+      "memo": "创世与第一批生命：未解决事项（第10源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "泰菲达",
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：泰菲达等译名后续是否变化",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "泰菲达等译名后续是否变化"
+      }
+    },
+    {
+      "id": "era-01-creation-unresolved-10-02",
+      "title": "未解决事项｜第10源章｜2",
+      "memo": "创世与第一批生命：未解决事项（第10源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：魔力增强真正原因",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 2,
+        "sourceText": "魔力增强真正原因"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-form-10-01",
+      "title": "主角龙形态｜第10源章｜1",
+      "memo": "创世与第一批生命：主角龙形态（第10源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：成年程度未明确的银色母龙；在数十年时间中持续活动。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "成年程度未明确的银色母龙；在数十年时间中持续活动。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-state-10-01",
+      "title": "主角龙状态｜第10源章｜1",
+      "memo": "创世与第一批生命：主角龙状态（第10源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：承担生态照料和七个孩子的教育，被它们视作母亲。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "承担生态照料和七个孩子的教育，被它们视作母亲。"
+      }
+    },
+    {
+      "id": "era-01-creation-protagonist-knowledge-10-01",
+      "title": "主角龙知识边界｜第10源章｜1",
+      "memo": "创世与第一批生命：主角龙知识边界（第10源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "第 5 章：你好，世界！（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第10源章《第 5 章：你好，世界！（5）》：不应知道未来后世将恐龙化石误认作古龙的具体博物馆叙事。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 10,
+        "chapterTitle": "第 5 章：你好，世界！（5）",
+        "sequence": 1,
+        "sourceText": "不应知道未来后世将恐龙化石误认作古龙的具体博物馆叙事。"
+      }
+    },
+    {
+      "id": "era-01-creation-secondary-character-01",
+      "title": "次要人物｜帝国大学某古生物研究教授（姓名未给）",
+      "memo": "创世与第一批生命：次要人物 帝国大学某古生物研究教授（姓名未给）",
+      "category": "secondary-character",
+      "keys": [],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 680,
+      "position": "before-character",
+      "depth": 4,
+      "content": "帝国大学某古生物研究教授（姓名未给）\n第8源章《第 3 章：你好，世界！（3）》：未来报告署名者；提出黏液起源论后失踪。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 8,
+          "chapterTitle": "第 3 章：你好，世界！（3）",
+          "sourceText": "未来报告署名者；提出黏液起源论后失踪。"
+        }
+      ]
+    },
+    {
+      "id": "era-01-creation-secondary-character-02",
+      "title": "次要人物｜唤醒者（身份未明）",
+      "memo": "创世与第一批生命：次要人物 唤醒者（身份未明）",
+      "category": "secondary-character",
+      "keys": [
+        "唤醒者（身份未明）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 680,
+      "position": "before-character",
+      "depth": 4,
+      "content": "唤醒者（身份未明）\n第5源章《第 0 章：序言》：只以呼喊声出现。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 5,
+          "chapterTitle": "第 0 章：序言",
+          "sourceText": "只以呼喊声出现。"
+        }
+      ]
+    },
+    {
+      "id": "era-01-creation-secondary-character-03",
+      "title": "次要人物｜历史学家爱德华・罗胡斯",
+      "memo": "创世与第一批生命：次要人物 历史学家爱德华・罗胡斯",
+      "category": "secondary-character",
+      "keys": [
         "历史学家爱德华・罗胡斯"
       ],
       "secondaryKeys": [],
       "constant": false,
       "enabled": true,
       "vectorMatching": true,
-      "order": 620,
+      "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "创世与第一批生命的次要人物与 NPC 只限以下原文出场者。姓名未给者保持无名，不得补姓名、私史、血缘、能力或秘密。\n\n帝国大学某古生物研究教授（姓名未给）：第8源章《第 3 章：你好，世界！（3）》：未来报告署名者；提出黏液起源论后失踪。\n唤醒者（身份未明）：第5源章《第 0 章：序言》：只以呼喊声出现。\n历史学家爱德华・罗胡斯：第6源章《第 1 章：你好，世界！》：只以未来史料署名出现。",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
-    },
-    {
-      "id": "era-01-creation-boundaries",
-      "memo": "创世与第一批生命：未解事实与知识边界",
-      "category": "response-rule",
-      "keys": [],
-      "secondaryKeys": [],
-      "constant": true,
-      "enabled": true,
-      "order": 980,
-      "position": "before-character",
-      "depth": 4,
-      "content": "创世与第一批生命中未解决、不可擅自补完的事项如下：\n第5源章《第 0 章：序言》：唤醒者身份\n第5源章《第 0 章：序言》：守护对象\n第5源章《第 0 章：序言》：转世条件的完整内容\n第6源章《第 1 章：你好，世界！》：满意成就的判定\n第6源章《第 1 章：你好，世界！》：时间控制的具体限制\n第6源章《第 1 章：你好，世界！》：神的目的\n第7源章《第 2 章：你好，世界！（2）》：过去时间点是谁或何物\n第7源章《第 2 章：你好，世界！（2）》：进化能否按预期发展\n第8源章《第 3 章：你好，世界！（3）》：未来教授失踪真相\n第8源章《第 3 章：你好，世界！（3）》：守护龙是否涉入\n第9源章《第 4 章：你好，世界！（4）》：七意识是否被刻意安排\n第9源章《第 4 章：你好，世界！（4）》：其余名称\n第10源章《第 5 章：你好，世界！（5）》：泰菲达等译名后续是否变化\n第10源章《第 5 章：你好，世界！（5）》：魔力增强真正原因\n\n主角龙的逐章知识边界如下：\n第5源章《第 0 章：序言》：这是回顾式序言，知识显著晚于创世篇。\n第6源章《第 1 章：你好，世界！》：只知道神主动告知的能力说明和前世知识，不知道神的真实目的或后世历史。\n第7源章《第 2 章：你好，世界！（2）》：尚无其他智慧生命陪伴；尚未观察长期进化结果。\n第8源章《第 3 章：你好，世界！（3）》：仍处世界最早期，只能凭前世常识解释演化。\n第9源章《第 4 章：你好，世界！（4）》：尚未给其余六个意识命名，也不知道它们未来形态。\n第10源章《第 5 章：你好，世界！（5）》：不应知道未来后世将恐龙化石误认作古龙的具体博物馆叙事。\n\n任何角色都不能因为世界书含有系统正典就自动读心、知道隐藏身份或预见未来。证据不足时保留未知。",
-      "knowledgeStatus": "system-rule"
+      "content": "历史学家爱德华・罗胡斯\n第6源章《第 1 章：你好，世界！》：只以未来史料署名出现。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 6,
+          "chapterTitle": "第 1 章：你好，世界！",
+          "sourceText": "只以未来史料署名出现。"
+        }
+      ]
     }
   ],
   "secondaryCharacterCount": 3

@@ -1581,6 +1581,7 @@
   "lorebook": [
     {
       "id": "era-05-gods-law-core",
+      "title": "神明、化身与成文法｜时代边界",
       "memo": "神明、化身与成文法：常驻时代边界",
       "category": "premise",
       "keys": [],
@@ -1590,15 +1591,193 @@
       "order": 1000,
       "position": "before-character",
       "depth": 4,
-      "content": "神明、化身与成文法是当前唯一有效的时代，原文范围为第41至第49源章。\n\n本时代只能使用截至第49源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第50源章以后的内容不可进入角色认知或场景。\n\n主角龙在本时代必须可选。其形态和状态按以下逐章证据处理：\n第41源章《神明（1）》：低干预观察状态，具体形态未说明。\n第42源章《神明（2）》：神明信使使用时形态未说明。\n第43源章《神明（3）》：语音被录为轻柔声线；具体外貌未说明。\n第44源章《神明（4）》：本时点神谕状态无外貌；未来插叙出现银发龙角女孩但身份需保留不确定。\n第45源章《神明（5）》：本体加首个银鳞蜥蜴人化身；化身可切换人类、精灵、侏儒、兽人外形。\n第46源章《第41章：神明（6）》：神明信使远程语音状态，形态未说明。\n第47源章《神明（7）》：形态未说明；以神力拳头执行教育。\n第48源章《神明（8）》：刻写晶碑时形态未明确。\n第49源章《神明（9）》：祝福与观察时形态未说明。\n第41源章《神明（1）》：从种族塑造期进入文字、国家和神明诞生期，同时神聊再次来信。\n第42源章《神明（2）》：正式成为可收祈祷、回神谕的创造之龙神明，同时承认忽略信徒。\n第43源章《神明（3）》：从被动接祈祷转为主动发神谕与制度创设。\n第44源章《神明（4）》：完成蜥蜴神权与英雄资格规则，转向魔法研究。\n第45源章《神明（5）》：从神谕制定者转为以化身进行魔法安全测试的研究者。\n第46源章《第41章：神明（6）》：建立与孩子的远程联系，开始计划共享化身法。\n第47源章《神明（7）》：从通信者转为法则神监护与伦理校正者。\n第48源章《神明（8）》：法术设计者与法典实际起草者，但拒绝夺取沙玛什神职署名。\n第49源章《神明（9）》：蜥蜴三职的制度担保者；重新审视孩子们的信仰分布。",
-      "knowledgeStatus": "system-canon"
+      "content": "神明、化身与成文法是当前唯一有效的时代，原文范围为第41至第49源章。\n本时代只能使用截至第49源章已经成立的人物、种族、地点、国家、制度、技术、能力、关系与公共知识。第50源章以后的内容不可进入角色认知或场景。\n世界书中的系统正典不自动等于角色知识；证据不足时保持未知，不得补完。",
+      "knowledgeStatus": "system-rule"
     },
     {
-      "id": "era-05-gods-law-world",
-      "memo": "神明、化身与成文法：事件与世界状态",
-      "category": "event-history-system",
+      "id": "era-05-gods-law-event-41-01",
+      "title": "事件｜第41源章｜1",
+      "memo": "神明、化身与成文法：事件（第41源章第1条）",
+      "category": "event",
       "keys": [
-        "神明、化身与成文法"
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0001-P0008：后世大地之心每五年由工匠竞赛授予五年，兼侏儒代表责任和准王冠地位，传说可碎龙鳞。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "后世大地之心每五年由工匠竞赛授予五年，兼侏儒代表责任和准王冠地位，传说可碎龙鳞。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-41-02",
+      "title": "事件｜第41源章｜2",
+      "memo": "神明、化身与成文法：事件（第41源章第2条）",
+      "category": "event",
+      "keys": [
+        "世界树",
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0009-P0031：各族发展成村城：侏儒深挖、精灵在世界树下食肉并契约、蜥蜴平和、兽人融入人类、巨人守寒地；银冠者统治最大城市，首国将生。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 2,
+        "sourceText": "各族发展成村城：侏儒深挖、精灵在世界树下食肉并契约、蜥蜴平和、兽人融入人类、巨人守寒地；银冠者统治最大城市，首国将生。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-41-03",
+      "title": "事件｜第41源章｜3",
+      "memo": "神明、化身与成文法：事件（第41源章第3条）",
+      "category": "event",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0032-P0045：主角低干预观察；蜥蜴人石板图画传播给人类，简化为原始表意文字，仍难学且不普及。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 3,
+        "sourceText": "主角低干预观察；蜥蜴人石板图画传播给人类，简化为原始表意文字，仍难学且不普及。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-41-04",
+      "title": "事件｜第41源章｜4",
+      "memo": "神明、化身与成文法：事件（第41源章第4条）",
+      "category": "event",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0046-P0055：文字与信仰使原始自然神形象化：巨人恐惧雷电形成苍穹之父，蜥蜴人信仰集中到主角。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 4,
+        "sourceText": "文字与信仰使原始自然神形象化：巨人恐惧雷电形成苍穹之父，蜥蜴人信仰集中到主角。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-41-05",
+      "title": "事件｜第41源章｜5",
+      "memo": "神明、化身与成文法：事件（第41源章第5条）",
+      "category": "event",
+      "keys": [
+        "世界树",
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0056-P0073：神聊信封出现；未来禁书列举创世龙、世界树、圣山、兽祖、苍穹父、水流与生命女神信仰，主张神是解释未知的幻想。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 5,
+        "sourceText": "神聊信封出现；未来禁书列举创世龙、世界树、圣山、兽祖、苍穹父、水流与生命女神信仰，主张神是解释未知的幻想。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-41-01",
+      "title": "世界设定事实｜第41源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第41源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0037-P0045：共同语言最初由主角教给龙与蜥蜴人再扩散；文字源自蜥蜴图画石板，经人类简化为表意文字。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "共同语言最初由主角教给龙与蜥蜴人再扩散；文字源自蜥蜴图画石板，经人类简化为表意文字。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-41-02",
+      "title": "世界设定事实｜第41源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第41源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》 P0046-P0055：信仰可把解释自然的分散概念滋养为有具体形象的弱神；文字似为信仰聚焦的重要条件。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 2,
+        "sourceText": "信仰可把解释自然的分散概念滋养为有具体形象的弱神；文字似为信仰聚焦的重要条件。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-41-01",
+      "title": "新建立连续性｜第41源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第41源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（1）"
       ],
       "secondaryKeys": [],
       "constant": false,
@@ -1607,41 +1786,3301 @@
       "order": 700,
       "position": "before-character",
       "depth": 4,
-      "content": "神明、化身与成文法的事件与世界状态只包含下列原文证据。它们属于系统正典，但并不自动成为每个角色都知道的事实；角色是否知道仍由角色卡的知识边界决定。\n\n第41源章《神明（1）》 P0001-P0008：后世大地之心每五年由工匠竞赛授予五年，兼侏儒代表责任和准王冠地位，传说可碎龙鳞。\n第41源章《神明（1）》 P0009-P0031：各族发展成村城：侏儒深挖、精灵在世界树下食肉并契约、蜥蜴平和、兽人融入人类、巨人守寒地；银冠者统治最大城市，首国将生。\n第41源章《神明（1）》 P0032-P0045：主角低干预观察；蜥蜴人石板图画传播给人类，简化为原始表意文字，仍难学且不普及。\n第41源章《神明（1）》 P0046-P0055：文字与信仰使原始自然神形象化：巨人恐惧雷电形成苍穹之父，蜥蜴人信仰集中到主角。\n第41源章《神明（1）》 P0056-P0073：神聊信封出现；未来禁书列举创世龙、世界树、圣山、兽祖、苍穹父、水流与生命女神信仰，主张神是解释未知的幻想。\n第42源章《神明（2）》 P0001-P0023：神聊在数千年未联系后自动祝贺文字与原始信仰激活神明信使，提示全能之路临近；主角对创世神目的仍不解。\n第42源章《神明（2）》 P0024-P0048：神明信使收件箱一次涌入蜥蜴人数千年积累的999+祈祷，可按首领、紧迫度与真诚度筛选。\n第42源章《神明（2）》 P0049-P0061：主角发现最近蜥蜴人祈祷减少，意识到自己长期忙于他族而忽略他们。\n第42源章《神明（2）》 P0062-P0084：她构思三权：世袭伟大首领、年度竞技伟大战士、魔法天赋伟大萨满；决定祝福现有武器而非统一赐物，并给萨满知识与直接沟通。\n第42源章《神明（2）》 P0085-P0094：未来白花节末日竞技选伟大战士，任期一年受创造龙祝福成为龙裔，身体复巅峰且疾病消失，祝福离开后病不复发。\n第43源章《神明（3）》 P0001-P0024：主角研究神明信使语音回复功能，决定竞技禁止死亡、只比身体与武器，平局由裁判或观众判断。\n第43源章《神明（3）》 P0025-P0032：她因需选萨满而决定先系统改良蜥蜴人借精灵附体增强身体的粗糙魔法。\n第43源章《神明（3）》 P0033-P0056：主角测试录音、播放、取消和发送，向首领发第一句神谕。\n第43源章《神明（3）》 P0057-P0076：首领狂喜并承认长老青年信仰衰退；主角愧疚，阻止立新碑和献不敬者头颅。\n第43源章《神明（3）》 P0077-P0083：主角正式下达无魔法、不得致死的锦标赛，称获胜者为自身利刃但内心无意利用。\n第44源章《神明（4）》 P0001-P0015：主角确定三职相互制约：首领世袭、战士每年更换、萨满任至更强天赋者出现。\n第44源章《神明（4）》 P0016-P0027：首领问同一人兼三职；主角规定其将称蜥蜴人英雄和自己的使徒。\n第44源章《神明（4）》 P0030-P0042：未来资料称首席魔法师把借力发展为元素精灵附身，需以友谊建立足够信任防止精灵夺身，不同于精灵契约。\n第44源章《神明（4）》 P0043-P0050：未来精灵与女蜥蜴祭司就契约还是友谊争论，后者称附身术由创造龙神传授。\n第44源章《神明（4）》 P0051-P0078：英雄队记录中，银发龙角女孩被当生命教会圣女照料；女蜥蜴祭司个人相信创造龙神与生命女神同一。\n第45源章《神明（5）》 P0001-P0014：为在蜥蜴人体质下测试魔法，主角随机取样创造银鳞蜥蜴人克隆并计划意识连接。\n第45源章《神明（5）》 P0015-P0029：她以精神同步形成一个意识两身体，主体与克隆难同时操控；由此创造高耗魔‘化身’，只有神级存在可用。\n第45源章《神明（5）》 P0030-P0035：化身可改成人类、精灵、侏儒、兽人并调外貌；角可去除但会降低力量上限，性别改变在本章显示为不可能/疑问。\n第45源章《神明（5）》 P0036-P0048：温顺火元素附体后蜥蜴身体半元素化、近乎免疫普通物理并显属性；问题是夺身欲、力量差与使用者魔力。\n第45源章《神明（5）》 P0049-P0059：主角把优秀萨满天赋定义为能安抚、结交元素精灵的亲和/照料能力，并计划教收魔冥想。\n第45源章《神明（5）》 P0060-P0072：神明列表出现伊格德拉西尔、萨加玛特哈、沙玛什；主角推断沙玛什因人类光明信仰成神，并再次承认支持人类。\n第46源章《第41章：神明（6）》 P0001-P0024：主角试通神明私聊，确认被信仰的孩子可远程联系；伊格德拉西尔因扎根尤其需要此功能。\n第46源章《第41章：神明（6）》 P0025-P0068：伊格德拉西尔受精灵信仰增强、根系扩大；主角警告勿傲慢并提出日后给她和萨加玛特哈化身。\n第46源章《第41章：神明（6）》 P0069-P0113：沙玛什误把主角当信徒威吓，认出母亲后道歉；她因照亮夜晚与辅助审判被人类奉为光明、正义与法则之神。\n第47源章《神明（7）》 P0001-P0030：主角质询沙玛什的正义观；沙玛什因关心母亲想代管世界，却只能提出发光、定规则和处决。\n第47源章《神明（7）》 P0031-P0063：所罗门式难题暴露沙玛什重效率、轻个体、宁错杀的神视角；主角决定必须纠正。\n第47源章《神明（7）》 P0064-P0086：沙玛什索要读心辨谎魔法；主角答应工具但拒绝无辜牺牲，并把她召来造成人类少女化身后敲头。\n第47源章《神明（7）》 P0087-P0091：沙玛什因本源被敲而全世界短暂失光，形成首次日蚀的蜥蜴石板记录。\n第48源章《神明（8）》 P0001-P0034：沙玛什背诵审判戒律；本源化身能完整感痛、损毁即回归原形，主角把化身法教给她。\n第48源章《神明（8）》 P0035-P0050：读心魔法完成并表面限定为只能读地位低者；主角隐瞒它理论上能读全人类，以防滥用。\n第48源章《神明（8）》 P0051-P0105：因人类无明文法，主角造纯白晶碑并以沙玛什名义起草十条根本规则及罪刑相称细则。\n第48源章《神明（8）》 P0106-P0112：未来《沙玛什法典》成为诸国法律根基，保存在光之神殿。\n第49源章《神明（9）》 P0001-P0024：法典由人类抄刻传播至各族；人类司法改善，非人族仅接受人类地盘由其律法管理；蜥蜴人把日蚀写成神话。\n第49源章《神明（9）》 P0025-P0049：首届伟大战士获无翼有角龙裔体与按本人意愿定制的武器祝福；首位大萨满因元素亲和与亲和性格获选，三职体系开始运转。\n第49源章《神明（9）》 P0050-P0077：神明列表仍只有伊格德拉西尔、萨加玛特哈、沙玛什；忒提丝、伊夫利特、西尔菲达因地理/环境/无形流动尚无信徒。\n第41源章《神明（1）》 P0037-P0045：共同语言最初由主角教给龙与蜥蜴人再扩散；文字源自蜥蜴图画石板，经人类简化为表意文字。\n第41源章《神明（1）》 P0046-P0055：信仰可把解释自然的分散概念滋养为有具体形象的弱神；文字似为信仰聚焦的重要条件。\n第42源章《神明（2）》 P0040-P0048：神明信使把信徒祈祷路由到所信神名，能跨激活前积累并提供细筛选。\n第42源章《神明（2）》 P0086-P0093：伟大战士祝福任期一年，包含巅峰恢复与疾病清除，疾病不会随祝福离开而复发。\n第43源章《神明（3）》 P0028-P0030：当时蜥蜴魔法用少量魔力借水精灵游泳、风精灵敏捷、火精灵保温，直接互动最低且效率粗糙。\n第44源章《神明（4）》 P0030-P0042：元素附身让精灵进入身体，以最低魔耗放大力量；若关系不足，渴望肉体的元素精灵会夺取控制。\n第44源章《神明（4）》 P0004-P0006：三职在继承、年度竞赛、持续天赋任命之间相互制约。\n第45源章《神明（5）》 P0022-P0029：化身用大量魔力塑造身体并连接意识，只有神级存在可承受。\n第45源章《神明（5）》 P0036-P0046：元素附身使肉体约半元素化、带属性并近免普通物理；强到能伤元素本体的攻击仍有效。\n第45源章《神明（5）》 P0063-P0067：神明信使联系人列表至少包含伊格德拉西尔、萨加玛特哈、沙玛什，说明其已获神格/信仰路由。\n第46源章《第41章：神明（6）》 P0033-P0036：信徒信仰会转为神明力量；对极强者可能弱到难以察觉，此后者仅是主角推测。\n第46源章《第41章：神明（6）》 P0101-P0107：沙玛什通过增强月光星光与调暗罪犯头顶光线获得光明、正义、法则神格。\n第47源章《神明（7）》 P0082-P0090：主角能以沙玛什本源即时造人类化身；击中化身会影响光之本体并造成日蚀。\n第48源章《神明（8）》 P0025-P0032：用本源造的化身可变回原形、感知完整疼痛，损毁不会死亡而回归本体。\n第48源章《神明（8）》 P0079-P0104：《沙玛什法典》由主角刻写、以沙玛什名义颁布，含神际尊重、亲属义务、生命、盗窃、说谎、自伤、休息与罪刑相称。\n第49源章《神明（9）》 P0037-P0048：伟大战士的身体与武器祝福一年后收回；大萨满终身任职，直到更优天赋者出现或本人自由卸任，婚姻不受限。\n第49源章《神明（9）》 P0058-P0076：成神需被智慧生命崇拜的契机；三名原初孩子此时因接触条件不足仍非神。\n第41源章《神明（1）》：首国前夜\n第41源章《神明（1）》：表意文字\n第41源章《神明（1）》：原始信仰成神\n第41源章《神明（1）》：神聊再现\n第42源章《神明（2）》：祈祷信箱\n第42源章《神明（2）》：三职构想\n第42源章《神明（2）》：伟大战士年度龙裔祝福\n第43源章《神明（3）》：首条神谕\n第43源章《神明（3）》：非致死无魔竞技规则\n第43源章《神明（3）》：改良蜥蜴魔法计划\n第44源章《神明（4）》：三职合一使徒\n第44源章《神明（4）》：元素附身未来体系\n第44源章《神明（4）》：创造龙神=生命女神个人信念\n第45源章《神明（5）》：银鳞蜥蜴人化身\n第45源章《神明（5）》：精神同步\n第45源章《神明（5）》：化身多族编辑\n第45源章《神明（5）》：萨满亲和判准\n第45源章《神明（5）》：神明联系人列表\n第46源章《第41章：神明（6）》：神明联系人私聊验证\n第46源章《第41章：神明（6）》：信仰增幅\n第46源章《第41章：神明（6）》：沙玛什三重神职\n第47源章《神明（7）》：沙玛什金发少女化身\n第47源章《神明（7）》：首次日蚀\n第47源章《神明（7）》：读心辨谎需求\n第48源章《神明（8）》：本源化身规则\n第48源章《神明（8）》：受限读心术\n第48源章《神明（8）》：《沙玛什法典》\n第49源章《神明（9）》：首届伟大战士\n第49源章《神明（9）》：首届大萨满\n第49源章《神明（9）》：三职正式运转\n第49源章《神明（9）》：法典跨族传播",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
+      "content": "第41源章《神明（1）》：首国前夜",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "首国前夜"
+      }
     },
     {
-      "id": "era-05-gods-law-secondary-cast",
-      "memo": "神明、化身与成文法：次要人物与 NPC 合并条目",
-      "category": "secondary-cast",
+      "id": "era-05-gods-law-continuity-new-41-02",
+      "title": "新建立连续性｜第41源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第41源章第2条）",
+      "category": "continuity",
       "keys": [
-        "《名为神明的幻想》作者（未名）",
-        "苍穹之父（新生神明）",
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：表意文字",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 2,
+        "sourceText": "表意文字"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-41-03",
+      "title": "新建立连续性｜第41源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第41源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：原始信仰成神",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 3,
+        "sourceText": "原始信仰成神"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-41-04",
+      "title": "新建立连续性｜第41源章｜4",
+      "memo": "神明、化身与成文法：新建立连续性（第41源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：神聊再现",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 4,
+        "sourceText": "神聊再现"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-41-01",
+      "title": "未解决事项｜第41源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第41源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：神聊内容",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "神聊内容"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-41-02",
+      "title": "未解决事项｜第41源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第41源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：主角自身神格变化",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 2,
+        "sourceText": "主角自身神格变化"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-41-01",
+      "title": "主角龙形态｜第41源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第41源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：低干预观察状态，具体形态未说明。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "低干预观察状态，具体形态未说明。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-41-01",
+      "title": "主角龙状态｜第41源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第41源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：从种族塑造期进入文字、国家和神明诞生期，同时神聊再次来信。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "从种族塑造期进入文字、国家和神明诞生期，同时神聊再次来信。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-41-01",
+      "title": "主角龙知识边界｜第41源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第41源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（1）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第41源章《神明（1）》：尚不知道来信内容与新神将如何发展。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 41,
+        "chapterTitle": "神明（1）",
+        "sequence": 1,
+        "sourceText": "尚不知道来信内容与新神将如何发展。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-42-01",
+      "title": "事件｜第42源章｜1",
+      "memo": "神明、化身与成文法：事件（第42源章第1条）",
+      "category": "event",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0001-P0023：神聊在数千年未联系后自动祝贺文字与原始信仰激活神明信使，提示全能之路临近；主角对创世神目的仍不解。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "神聊在数千年未联系后自动祝贺文字与原始信仰激活神明信使，提示全能之路临近；主角对创世神目的仍不解。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-42-02",
+      "title": "事件｜第42源章｜2",
+      "memo": "神明、化身与成文法：事件（第42源章第2条）",
+      "category": "event",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0024-P0048：神明信使收件箱一次涌入蜥蜴人数千年积累的999+祈祷，可按首领、紧迫度与真诚度筛选。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 2,
+        "sourceText": "神明信使收件箱一次涌入蜥蜴人数千年积累的999+祈祷，可按首领、紧迫度与真诚度筛选。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-42-03",
+      "title": "事件｜第42源章｜3",
+      "memo": "神明、化身与成文法：事件（第42源章第3条）",
+      "category": "event",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0049-P0061：主角发现最近蜥蜴人祈祷减少，意识到自己长期忙于他族而忽略他们。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 3,
+        "sourceText": "主角发现最近蜥蜴人祈祷减少，意识到自己长期忙于他族而忽略他们。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-42-04",
+      "title": "事件｜第42源章｜4",
+      "memo": "神明、化身与成文法：事件（第42源章第4条）",
+      "category": "event",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0062-P0084：她构思三权：世袭伟大首领、年度竞技伟大战士、魔法天赋伟大萨满；决定祝福现有武器而非统一赐物，并给萨满知识与直接沟通。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 4,
+        "sourceText": "她构思三权：世袭伟大首领、年度竞技伟大战士、魔法天赋伟大萨满；决定祝福现有武器而非统一赐物，并给萨满知识与直接沟通。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-42-05",
+      "title": "事件｜第42源章｜5",
+      "memo": "神明、化身与成文法：事件（第42源章第5条）",
+      "category": "event",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0085-P0094：未来白花节末日竞技选伟大战士，任期一年受创造龙祝福成为龙裔，身体复巅峰且疾病消失，祝福离开后病不复发。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 5,
+        "sourceText": "未来白花节末日竞技选伟大战士，任期一年受创造龙祝福成为龙裔，身体复巅峰且疾病消失，祝福离开后病不复发。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-42-01",
+      "title": "世界设定事实｜第42源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第42源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0040-P0048：神明信使把信徒祈祷路由到所信神名，能跨激活前积累并提供细筛选。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "神明信使把信徒祈祷路由到所信神名，能跨激活前积累并提供细筛选。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-42-02",
+      "title": "世界设定事实｜第42源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第42源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》 P0086-P0093：伟大战士祝福任期一年，包含巅峰恢复与疾病清除，疾病不会随祝福离开而复发。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 2,
+        "sourceText": "伟大战士祝福任期一年，包含巅峰恢复与疾病清除，疾病不会随祝福离开而复发。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-42-01",
+      "title": "新建立连续性｜第42源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第42源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：祈祷信箱",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "祈祷信箱"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-42-02",
+      "title": "新建立连续性｜第42源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第42源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：三职构想",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 2,
+        "sourceText": "三职构想"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-42-03",
+      "title": "新建立连续性｜第42源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第42源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：伟大战士年度龙裔祝福",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 3,
+        "sourceText": "伟大战士年度龙裔祝福"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-42-01",
+      "title": "未解决事项｜第42源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第42源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：伟大萨满选法",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "伟大萨满选法"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-42-02",
+      "title": "未解决事项｜第42源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第42源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：首轮赛事结果",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 2,
+        "sourceText": "首轮赛事结果"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-42-01",
+      "title": "主角龙形态｜第42源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第42源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：神明信使使用时形态未说明。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "神明信使使用时形态未说明。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-42-01",
+      "title": "主角龙状态｜第42源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第42源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：正式成为可收祈祷、回神谕的创造之龙神明，同时承认忽略信徒。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "正式成为可收祈祷、回神谕的创造之龙神明，同时承认忽略信徒。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-42-01",
+      "title": "主角龙知识边界｜第42源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第42源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（2）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第42源章《神明（2）》：三职制度仍停留构思，不得提前写成既成事实。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 42,
+        "chapterTitle": "神明（2）",
+        "sequence": 1,
+        "sourceText": "三职制度仍停留构思，不得提前写成既成事实。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-43-01",
+      "title": "事件｜第43源章｜1",
+      "memo": "神明、化身与成文法：事件（第43源章第1条）",
+      "category": "event",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》 P0001-P0024：主角研究神明信使语音回复功能，决定竞技禁止死亡、只比身体与武器，平局由裁判或观众判断。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "主角研究神明信使语音回复功能，决定竞技禁止死亡、只比身体与武器，平局由裁判或观众判断。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-43-02",
+      "title": "事件｜第43源章｜2",
+      "memo": "神明、化身与成文法：事件（第43源章第2条）",
+      "category": "event",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》 P0025-P0032：她因需选萨满而决定先系统改良蜥蜴人借精灵附体增强身体的粗糙魔法。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 2,
+        "sourceText": "她因需选萨满而决定先系统改良蜥蜴人借精灵附体增强身体的粗糙魔法。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-43-03",
+      "title": "事件｜第43源章｜3",
+      "memo": "神明、化身与成文法：事件（第43源章第3条）",
+      "category": "event",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》 P0033-P0056：主角测试录音、播放、取消和发送，向首领发第一句神谕。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 3,
+        "sourceText": "主角测试录音、播放、取消和发送，向首领发第一句神谕。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-43-04",
+      "title": "事件｜第43源章｜4",
+      "memo": "神明、化身与成文法：事件（第43源章第4条）",
+      "category": "event",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》 P0057-P0076：首领狂喜并承认长老青年信仰衰退；主角愧疚，阻止立新碑和献不敬者头颅。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 4,
+        "sourceText": "首领狂喜并承认长老青年信仰衰退；主角愧疚，阻止立新碑和献不敬者头颅。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-43-05",
+      "title": "事件｜第43源章｜5",
+      "memo": "神明、化身与成文法：事件（第43源章第5条）",
+      "category": "event",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》 P0077-P0083：主角正式下达无魔法、不得致死的锦标赛，称获胜者为自身利刃但内心无意利用。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 5,
+        "sourceText": "主角正式下达无魔法、不得致死的锦标赛，称获胜者为自身利刃但内心无意利用。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-43-01",
+      "title": "世界设定事实｜第43源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第43源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》 P0028-P0030：当时蜥蜴魔法用少量魔力借水精灵游泳、风精灵敏捷、火精灵保温，直接互动最低且效率粗糙。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "当时蜥蜴魔法用少量魔力借水精灵游泳、风精灵敏捷、火精灵保温，直接互动最低且效率粗糙。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-43-01",
+      "title": "新建立连续性｜第43源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第43源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：首条神谕",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "首条神谕"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-43-02",
+      "title": "新建立连续性｜第43源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第43源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：非致死无魔竞技规则",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 2,
+        "sourceText": "非致死无魔竞技规则"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-43-03",
+      "title": "新建立连续性｜第43源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第43源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：改良蜥蜴魔法计划",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 3,
+        "sourceText": "改良蜥蜴魔法计划"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-43-01",
+      "title": "未解决事项｜第43源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第43源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：萨满选拔",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "萨满选拔"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-43-02",
+      "title": "未解决事项｜第43源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第43源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：首领是否正确传达",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 2,
+        "sourceText": "首领是否正确传达"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-43-01",
+      "title": "主角龙形态｜第43源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第43源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：语音被录为轻柔声线；具体外貌未说明。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "语音被录为轻柔声线；具体外貌未说明。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-43-01",
+      "title": "主角龙状态｜第43源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第43源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：从被动接祈祷转为主动发神谕与制度创设。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "从被动接祈祷转为主动发神谕与制度创设。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-43-01",
+      "title": "主角龙知识边界｜第43源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第43源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（3）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第43源章《神明（3）》：不了解首届竞技实际执行。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 43,
+        "chapterTitle": "神明（3）",
+        "sequence": 1,
+        "sourceText": "不了解首届竞技实际执行。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-44-01",
+      "title": "事件｜第44源章｜1",
+      "memo": "神明、化身与成文法：事件（第44源章第1条）",
+      "category": "event",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0001-P0015：主角确定三职相互制约：首领世袭、战士每年更换、萨满任至更强天赋者出现。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "主角确定三职相互制约：首领世袭、战士每年更换、萨满任至更强天赋者出现。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-44-02",
+      "title": "事件｜第44源章｜2",
+      "memo": "神明、化身与成文法：事件（第44源章第2条）",
+      "category": "event",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0016-P0027：首领问同一人兼三职；主角规定其将称蜥蜴人英雄和自己的使徒。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 2,
+        "sourceText": "首领问同一人兼三职；主角规定其将称蜥蜴人英雄和自己的使徒。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-44-03",
+      "title": "事件｜第44源章｜3",
+      "memo": "神明、化身与成文法：事件（第44源章第3条）",
+      "category": "event",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0030-P0042：未来资料称首席魔法师把借力发展为元素精灵附身，需以友谊建立足够信任防止精灵夺身，不同于精灵契约。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 3,
+        "sourceText": "未来资料称首席魔法师把借力发展为元素精灵附身，需以友谊建立足够信任防止精灵夺身，不同于精灵契约。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-44-04",
+      "title": "事件｜第44源章｜4",
+      "memo": "神明、化身与成文法：事件（第44源章第4条）",
+      "category": "event",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0043-P0050：未来精灵与女蜥蜴祭司就契约还是友谊争论，后者称附身术由创造龙神传授。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 4,
+        "sourceText": "未来精灵与女蜥蜴祭司就契约还是友谊争论，后者称附身术由创造龙神传授。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-44-05",
+      "title": "事件｜第44源章｜5",
+      "memo": "神明、化身与成文法：事件（第44源章第5条）",
+      "category": "event",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0051-P0078：英雄队记录中，银发龙角女孩被当生命教会圣女照料；女蜥蜴祭司个人相信创造龙神与生命女神同一。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 5,
+        "sourceText": "英雄队记录中，银发龙角女孩被当生命教会圣女照料；女蜥蜴祭司个人相信创造龙神与生命女神同一。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-44-01",
+      "title": "世界设定事实｜第44源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第44源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0030-P0042：元素附身让精灵进入身体，以最低魔耗放大力量；若关系不足，渴望肉体的元素精灵会夺取控制。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "元素附身让精灵进入身体，以最低魔耗放大力量；若关系不足，渴望肉体的元素精灵会夺取控制。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-44-02",
+      "title": "世界设定事实｜第44源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第44源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》 P0004-P0006：三职在继承、年度竞赛、持续天赋任命之间相互制约。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 2,
+        "sourceText": "三职在继承、年度竞赛、持续天赋任命之间相互制约。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-44-01",
+      "title": "新建立连续性｜第44源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第44源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：三职合一使徒",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "三职合一使徒"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-44-02",
+      "title": "新建立连续性｜第44源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第44源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：元素附身未来体系",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 2,
+        "sourceText": "元素附身未来体系"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-44-03",
+      "title": "新建立连续性｜第44源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第44源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：创造龙神=生命女神个人信念",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 3,
+        "sourceText": "创造龙神=生命女神个人信念"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-44-01",
+      "title": "未解决事项｜第44源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第44源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：银发圣女真实身份",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "银发圣女真实身份"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-44-02",
+      "title": "未解决事项｜第44源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第44源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：使徒是否出现",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 2,
+        "sourceText": "使徒是否出现"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-44-01",
+      "title": "主角龙形态｜第44源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第44源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：本时点神谕状态无外貌；未来插叙出现银发龙角女孩但身份需保留不确定。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "本时点神谕状态无外貌；未来插叙出现银发龙角女孩但身份需保留不确定。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-44-01",
+      "title": "主角龙状态｜第44源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第44源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：完成蜥蜴神权与英雄资格规则，转向魔法研究。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "完成蜥蜴神权与英雄资格规则，转向魔法研究。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-44-01",
+      "title": "主角龙知识边界｜第44源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第44源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（4）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第44源章《神明（4）》：不得把未来英雄团队对话直接赋予本时点主角。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 44,
+        "chapterTitle": "神明（4）",
+        "sequence": 1,
+        "sourceText": "不得把未来英雄团队对话直接赋予本时点主角。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-45-01",
+      "title": "事件｜第45源章｜1",
+      "memo": "神明、化身与成文法：事件（第45源章第1条）",
+      "category": "event",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0001-P0014：为在蜥蜴人体质下测试魔法，主角随机取样创造银鳞蜥蜴人克隆并计划意识连接。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "为在蜥蜴人体质下测试魔法，主角随机取样创造银鳞蜥蜴人克隆并计划意识连接。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-45-02",
+      "title": "事件｜第45源章｜2",
+      "memo": "神明、化身与成文法：事件（第45源章第2条）",
+      "category": "event",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0015-P0029：她以精神同步形成一个意识两身体，主体与克隆难同时操控；由此创造高耗魔‘化身’，只有神级存在可用。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 2,
+        "sourceText": "她以精神同步形成一个意识两身体，主体与克隆难同时操控；由此创造高耗魔‘化身’，只有神级存在可用。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-45-03",
+      "title": "事件｜第45源章｜3",
+      "memo": "神明、化身与成文法：事件（第45源章第3条）",
+      "category": "event",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0030-P0035：化身可改成人类、精灵、侏儒、兽人并调外貌；角可去除但会降低力量上限，性别改变在本章显示为不可能/疑问。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 3,
+        "sourceText": "化身可改成人类、精灵、侏儒、兽人并调外貌；角可去除但会降低力量上限，性别改变在本章显示为不可能/疑问。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-45-04",
+      "title": "事件｜第45源章｜4",
+      "memo": "神明、化身与成文法：事件（第45源章第4条）",
+      "category": "event",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0036-P0048：温顺火元素附体后蜥蜴身体半元素化、近乎免疫普通物理并显属性；问题是夺身欲、力量差与使用者魔力。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 4,
+        "sourceText": "温顺火元素附体后蜥蜴身体半元素化、近乎免疫普通物理并显属性；问题是夺身欲、力量差与使用者魔力。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-45-05",
+      "title": "事件｜第45源章｜5",
+      "memo": "神明、化身与成文法：事件（第45源章第5条）",
+      "category": "event",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0049-P0059：主角把优秀萨满天赋定义为能安抚、结交元素精灵的亲和/照料能力，并计划教收魔冥想。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 5,
+        "sourceText": "主角把优秀萨满天赋定义为能安抚、结交元素精灵的亲和/照料能力，并计划教收魔冥想。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-45-06",
+      "title": "事件｜第45源章｜6",
+      "memo": "神明、化身与成文法：事件（第45源章第6条）",
+      "category": "event",
+      "keys": [
+        "伊格德拉西尔",
+        "萨加玛特哈",
+        "沙玛什",
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0060-P0072：神明列表出现伊格德拉西尔、萨加玛特哈、沙玛什；主角推断沙玛什因人类光明信仰成神，并再次承认支持人类。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 6,
+        "sourceText": "神明列表出现伊格德拉西尔、萨加玛特哈、沙玛什；主角推断沙玛什因人类光明信仰成神，并再次承认支持人类。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-45-01",
+      "title": "世界设定事实｜第45源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第45源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0022-P0029：化身用大量魔力塑造身体并连接意识，只有神级存在可承受。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "化身用大量魔力塑造身体并连接意识，只有神级存在可承受。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-45-02",
+      "title": "世界设定事实｜第45源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第45源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0036-P0046：元素附身使肉体约半元素化、带属性并近免普通物理；强到能伤元素本体的攻击仍有效。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 2,
+        "sourceText": "元素附身使肉体约半元素化、带属性并近免普通物理；强到能伤元素本体的攻击仍有效。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-45-03",
+      "title": "世界设定事实｜第45源章｜3",
+      "memo": "神明、化身与成文法：世界设定事实（第45源章第3条）",
+      "category": "world-fact",
+      "keys": [
+        "伊格德拉西尔",
+        "萨加玛特哈",
+        "沙玛什",
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》 P0063-P0067：神明信使联系人列表至少包含伊格德拉西尔、萨加玛特哈、沙玛什，说明其已获神格/信仰路由。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 3,
+        "sourceText": "神明信使联系人列表至少包含伊格德拉西尔、萨加玛特哈、沙玛什，说明其已获神格/信仰路由。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-45-01",
+      "title": "新建立连续性｜第45源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第45源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：银鳞蜥蜴人化身",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "银鳞蜥蜴人化身"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-45-02",
+      "title": "新建立连续性｜第45源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第45源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：精神同步",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 2,
+        "sourceText": "精神同步"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-45-03",
+      "title": "新建立连续性｜第45源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第45源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：化身多族编辑",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 3,
+        "sourceText": "化身多族编辑"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-45-04",
+      "title": "新建立连续性｜第45源章｜4",
+      "memo": "神明、化身与成文法：新建立连续性（第45源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：萨满亲和判准",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 4,
+        "sourceText": "萨满亲和判准"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-45-05",
+      "title": "新建立连续性｜第45源章｜5",
+      "memo": "神明、化身与成文法：新建立连续性（第45源章第5条）",
+      "category": "continuity",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：神明联系人列表",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 5,
+        "sourceText": "神明联系人列表"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-45-01",
+      "title": "未解决事项｜第45源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第45源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：化身共享给六子与否",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "化身共享给六子与否"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-45-02",
+      "title": "未解决事项｜第45源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第45源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "沙玛什",
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：沙玛什神明状态",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 2,
+        "sourceText": "沙玛什神明状态"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-45-03",
+      "title": "未解决事项｜第45源章｜3",
+      "memo": "神明、化身与成文法：未解决事项（第45源章第3条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：首届萨满",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 3,
+        "sourceText": "首届萨满"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-45-01",
+      "title": "主角龙形态｜第45源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第45源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：本体加首个银鳞蜥蜴人化身；化身可切换人类、精灵、侏儒、兽人外形。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "本体加首个银鳞蜥蜴人化身；化身可切换人类、精灵、侏儒、兽人外形。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-45-01",
+      "title": "主角龙状态｜第45源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第45源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：从神谕制定者转为以化身进行魔法安全测试的研究者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "从神谕制定者转为以化身进行魔法安全测试的研究者。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-45-01",
+      "title": "主角龙知识边界｜第45源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第45源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（5）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第45源章《神明（5）》：尚未把化身法分享给原初孩子，也未选出实际首席萨满。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 45,
+        "chapterTitle": "神明（5）",
+        "sequence": 1,
+        "sourceText": "尚未把化身法分享给原初孩子，也未选出实际首席萨满。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-46-01",
+      "title": "事件｜第46源章｜1",
+      "memo": "神明、化身与成文法：事件（第46源章第1条）",
+      "category": "event",
+      "keys": [
+        "伊格德拉西尔",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》 P0001-P0024：主角试通神明私聊，确认被信仰的孩子可远程联系；伊格德拉西尔因扎根尤其需要此功能。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "主角试通神明私聊，确认被信仰的孩子可远程联系；伊格德拉西尔因扎根尤其需要此功能。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-46-02",
+      "title": "事件｜第46源章｜2",
+      "memo": "神明、化身与成文法：事件（第46源章第2条）",
+      "category": "event",
+      "keys": [
+        "伊格德拉西尔",
+        "萨加玛特哈",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》 P0025-P0068：伊格德拉西尔受精灵信仰增强、根系扩大；主角警告勿傲慢并提出日后给她和萨加玛特哈化身。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 2,
+        "sourceText": "伊格德拉西尔受精灵信仰增强、根系扩大；主角警告勿傲慢并提出日后给她和萨加玛特哈化身。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-46-03",
+      "title": "事件｜第46源章｜3",
+      "memo": "神明、化身与成文法：事件（第46源章第3条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》 P0069-P0113：沙玛什误把主角当信徒威吓，认出母亲后道歉；她因照亮夜晚与辅助审判被人类奉为光明、正义与法则之神。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 3,
+        "sourceText": "沙玛什误把主角当信徒威吓，认出母亲后道歉；她因照亮夜晚与辅助审判被人类奉为光明、正义与法则之神。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-46-01",
+      "title": "世界设定事实｜第46源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第46源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》 P0033-P0036：信徒信仰会转为神明力量；对极强者可能弱到难以察觉，此后者仅是主角推测。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "信徒信仰会转为神明力量；对极强者可能弱到难以察觉，此后者仅是主角推测。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-46-02",
+      "title": "世界设定事实｜第46源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第46源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "沙玛什",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》 P0101-P0107：沙玛什通过增强月光星光与调暗罪犯头顶光线获得光明、正义、法则神格。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 2,
+        "sourceText": "沙玛什通过增强月光星光与调暗罪犯头顶光线获得光明、正义、法则神格。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-46-01",
+      "title": "新建立连续性｜第46源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第46源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：神明联系人私聊验证",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "神明联系人私聊验证"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-46-02",
+      "title": "新建立连续性｜第46源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第46源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：信仰增幅",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 2,
+        "sourceText": "信仰增幅"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-46-03",
+      "title": "新建立连续性｜第46源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第46源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "沙玛什",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：沙玛什三重神职",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 3,
+        "sourceText": "沙玛什三重神职"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-46-01",
+      "title": "未解决事项｜第46源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第46源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "沙玛什",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：沙玛什是否胜任正义与法则",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "沙玛什是否胜任正义与法则"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-46-02",
+      "title": "未解决事项｜第46源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第46源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：两名固定孩子的化身",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 2,
+        "sourceText": "两名固定孩子的化身"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-46-01",
+      "title": "主角龙形态｜第46源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第46源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：神明信使远程语音状态，形态未说明。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "神明信使远程语音状态，形态未说明。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-46-01",
+      "title": "主角龙状态｜第46源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第46源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：建立与孩子的远程联系，开始计划共享化身法。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "建立与孩子的远程联系，开始计划共享化身法。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-46-01",
+      "title": "主角龙知识边界｜第46源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第46源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "伊格德拉西尔",
+        "萨加玛特哈",
+        "第41章：神明（6）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第46源章《第41章：神明（6）》：不知道信仰力量的确切机制，也未制造伊格德拉西尔/萨加玛特哈化身。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 46,
+        "chapterTitle": "第41章：神明（6）",
+        "sequence": 1,
+        "sourceText": "不知道信仰力量的确切机制，也未制造伊格德拉西尔/萨加玛特哈化身。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-47-01",
+      "title": "事件｜第47源章｜1",
+      "memo": "神明、化身与成文法：事件（第47源章第1条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》 P0001-P0030：主角质询沙玛什的正义观；沙玛什因关心母亲想代管世界，却只能提出发光、定规则和处决。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "主角质询沙玛什的正义观；沙玛什因关心母亲想代管世界，却只能提出发光、定规则和处决。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-47-02",
+      "title": "事件｜第47源章｜2",
+      "memo": "神明、化身与成文法：事件（第47源章第2条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》 P0031-P0063：所罗门式难题暴露沙玛什重效率、轻个体、宁错杀的神视角；主角决定必须纠正。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 2,
+        "sourceText": "所罗门式难题暴露沙玛什重效率、轻个体、宁错杀的神视角；主角决定必须纠正。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-47-03",
+      "title": "事件｜第47源章｜3",
+      "memo": "神明、化身与成文法：事件（第47源章第3条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》 P0064-P0086：沙玛什索要读心辨谎魔法；主角答应工具但拒绝无辜牺牲，并把她召来造成人类少女化身后敲头。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 3,
+        "sourceText": "沙玛什索要读心辨谎魔法；主角答应工具但拒绝无辜牺牲，并把她召来造成人类少女化身后敲头。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-47-04",
+      "title": "事件｜第47源章｜4",
+      "memo": "神明、化身与成文法：事件（第47源章第4条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》 P0087-P0091：沙玛什因本源被敲而全世界短暂失光，形成首次日蚀的蜥蜴石板记录。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 4,
+        "sourceText": "沙玛什因本源被敲而全世界短暂失光，形成首次日蚀的蜥蜴石板记录。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-47-01",
+      "title": "世界设定事实｜第47源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第47源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》 P0082-P0090：主角能以沙玛什本源即时造人类化身；击中化身会影响光之本体并造成日蚀。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "主角能以沙玛什本源即时造人类化身；击中化身会影响光之本体并造成日蚀。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-47-01",
+      "title": "新建立连续性｜第47源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第47源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：沙玛什金发少女化身",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "沙玛什金发少女化身"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-47-02",
+      "title": "新建立连续性｜第47源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第47源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：首次日蚀",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 2,
+        "sourceText": "首次日蚀"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-47-03",
+      "title": "新建立连续性｜第47源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第47源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：读心辨谎需求",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 3,
+        "sourceText": "读心辨谎需求"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-47-01",
+      "title": "未解决事项｜第47源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第47源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "沙玛什",
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：沙玛什裁决观是否真正改变",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "沙玛什裁决观是否真正改变"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-47-02",
+      "title": "未解决事项｜第47源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第47源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：读心限制",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 2,
+        "sourceText": "读心限制"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-47-01",
+      "title": "主角龙形态｜第47源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第47源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：形态未说明；以神力拳头执行教育。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "形态未说明；以神力拳头执行教育。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-47-01",
+      "title": "主角龙状态｜第47源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第47源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：从通信者转为法则神监护与伦理校正者。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "从通信者转为法则神监护与伦理校正者。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-47-01",
+      "title": "主角龙知识边界｜第47源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第47源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（7）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第47源章《神明（7）》：读心魔法在本章末只承诺创造，尚未交付。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 47,
+        "chapterTitle": "神明（7）",
+        "sequence": 1,
+        "sourceText": "读心魔法在本章末只承诺创造，尚未交付。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-48-01",
+      "title": "事件｜第48源章｜1",
+      "memo": "神明、化身与成文法：事件（第48源章第1条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》 P0001-P0034：沙玛什背诵审判戒律；本源化身能完整感痛、损毁即回归原形，主角把化身法教给她。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "沙玛什背诵审判戒律；本源化身能完整感痛、损毁即回归原形，主角把化身法教给她。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-48-02",
+      "title": "事件｜第48源章｜2",
+      "memo": "神明、化身与成文法：事件（第48源章第2条）",
+      "category": "event",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》 P0035-P0050：读心魔法完成并表面限定为只能读地位低者；主角隐瞒它理论上能读全人类，以防滥用。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 2,
+        "sourceText": "读心魔法完成并表面限定为只能读地位低者；主角隐瞒它理论上能读全人类，以防滥用。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-48-03",
+      "title": "事件｜第48源章｜3",
+      "memo": "神明、化身与成文法：事件（第48源章第3条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》 P0051-P0105：因人类无明文法，主角造纯白晶碑并以沙玛什名义起草十条根本规则及罪刑相称细则。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 3,
+        "sourceText": "因人类无明文法，主角造纯白晶碑并以沙玛什名义起草十条根本规则及罪刑相称细则。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-48-04",
+      "title": "事件｜第48源章｜4",
+      "memo": "神明、化身与成文法：事件（第48源章第4条）",
+      "category": "event",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》 P0106-P0112：未来《沙玛什法典》成为诸国法律根基，保存在光之神殿。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 4,
+        "sourceText": "未来《沙玛什法典》成为诸国法律根基，保存在光之神殿。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-48-01",
+      "title": "世界设定事实｜第48源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第48源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》 P0025-P0032：用本源造的化身可变回原形、感知完整疼痛，损毁不会死亡而回归本体。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "用本源造的化身可变回原形、感知完整疼痛，损毁不会死亡而回归本体。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-48-02",
+      "title": "世界设定事实｜第48源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第48源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》 P0079-P0104：《沙玛什法典》由主角刻写、以沙玛什名义颁布，含神际尊重、亲属义务、生命、盗窃、说谎、自伤、休息与罪刑相称。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 2,
+        "sourceText": "《沙玛什法典》由主角刻写、以沙玛什名义颁布，含神际尊重、亲属义务、生命、盗窃、说谎、自伤、休息与罪刑相称。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-48-01",
+      "title": "新建立连续性｜第48源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第48源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：本源化身规则",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "本源化身规则"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-48-02",
+      "title": "新建立连续性｜第48源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第48源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：受限读心术",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 2,
+        "sourceText": "受限读心术"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-48-03",
+      "title": "新建立连续性｜第48源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第48源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：《沙玛什法典》",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 3,
+        "sourceText": "《沙玛什法典》"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-48-01",
+      "title": "未解决事项｜第48源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第48源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：法典跨族传播",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "法典跨族传播"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-48-02",
+      "title": "未解决事项｜第48源章｜2",
+      "memo": "神明、化身与成文法：未解决事项（第48源章第2条）",
+      "category": "unresolved",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：沙玛什长期司法表现",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 2,
+        "sourceText": "沙玛什长期司法表现"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-48-01",
+      "title": "主角龙形态｜第48源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第48源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：刻写晶碑时形态未明确。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "刻写晶碑时形态未明确。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-48-01",
+      "title": "主角龙状态｜第48源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第48源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "沙玛什",
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：法术设计者与法典实际起草者，但拒绝夺取沙玛什神职署名。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "法术设计者与法典实际起草者，但拒绝夺取沙玛什神职署名。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-48-01",
+      "title": "主角龙知识边界｜第48源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第48源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（8）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第48源章《神明（8）》：只建立初始法典，尚不知道传播效果。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 48,
+        "chapterTitle": "神明（8）",
+        "sequence": 1,
+        "sourceText": "只建立初始法典，尚不知道传播效果。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-49-01",
+      "title": "事件｜第49源章｜1",
+      "memo": "神明、化身与成文法：事件（第49源章第1条）",
+      "category": "event",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》 P0001-P0024：法典由人类抄刻传播至各族；人类司法改善，非人族仅接受人类地盘由其律法管理；蜥蜴人把日蚀写成神话。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "法典由人类抄刻传播至各族；人类司法改善，非人族仅接受人类地盘由其律法管理；蜥蜴人把日蚀写成神话。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-49-02",
+      "title": "事件｜第49源章｜2",
+      "memo": "神明、化身与成文法：事件（第49源章第2条）",
+      "category": "event",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》 P0025-P0049：首届伟大战士获无翼有角龙裔体与按本人意愿定制的武器祝福；首位大萨满因元素亲和与亲和性格获选，三职体系开始运转。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 2,
+        "sourceText": "首届伟大战士获无翼有角龙裔体与按本人意愿定制的武器祝福；首位大萨满因元素亲和与亲和性格获选，三职体系开始运转。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-event-49-03",
+      "title": "事件｜第49源章｜3",
+      "memo": "神明、化身与成文法：事件（第49源章第3条）",
+      "category": "event",
+      "keys": [
+        "伊格德拉西尔",
+        "萨加玛特哈",
+        "伊夫利特",
+        "沙玛什",
+        "忒提丝",
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 760,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》 P0050-P0077：神明列表仍只有伊格德拉西尔、萨加玛特哈、沙玛什；忒提丝、伊夫利特、西尔菲达因地理/环境/无形流动尚无信徒。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "event",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 3,
+        "sourceText": "神明列表仍只有伊格德拉西尔、萨加玛特哈、沙玛什；忒提丝、伊夫利特、西尔菲达因地理/环境/无形流动尚无信徒。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-49-01",
+      "title": "世界设定事实｜第49源章｜1",
+      "memo": "神明、化身与成文法：世界设定事实（第49源章第1条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》 P0037-P0048：伟大战士的身体与武器祝福一年后收回；大萨满终身任职，直到更优天赋者出现或本人自由卸任，婚姻不受限。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "伟大战士的身体与武器祝福一年后收回；大萨满终身任职，直到更优天赋者出现或本人自由卸任，婚姻不受限。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-world-fact-49-02",
+      "title": "世界设定事实｜第49源章｜2",
+      "memo": "神明、化身与成文法：世界设定事实（第49源章第2条）",
+      "category": "world-fact",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 720,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》 P0058-P0076：成神需被智慧生命崇拜的契机；三名原初孩子此时因接触条件不足仍非神。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "world-fact",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 2,
+        "sourceText": "成神需被智慧生命崇拜的契机；三名原初孩子此时因接触条件不足仍非神。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-49-01",
+      "title": "新建立连续性｜第49源章｜1",
+      "memo": "神明、化身与成文法：新建立连续性（第49源章第1条）",
+      "category": "continuity",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：首届伟大战士",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "首届伟大战士"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-49-02",
+      "title": "新建立连续性｜第49源章｜2",
+      "memo": "神明、化身与成文法：新建立连续性（第49源章第2条）",
+      "category": "continuity",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：首届大萨满",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 2,
+        "sourceText": "首届大萨满"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-49-03",
+      "title": "新建立连续性｜第49源章｜3",
+      "memo": "神明、化身与成文法：新建立连续性（第49源章第3条）",
+      "category": "continuity",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：三职正式运转",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 3,
+        "sourceText": "三职正式运转"
+      }
+    },
+    {
+      "id": "era-05-gods-law-continuity-new-49-04",
+      "title": "新建立连续性｜第49源章｜4",
+      "memo": "神明、化身与成文法：新建立连续性（第49源章第4条）",
+      "category": "continuity",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 700,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：法典跨族传播",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "continuity-new",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 4,
+        "sourceText": "法典跨族传播"
+      }
+    },
+    {
+      "id": "era-05-gods-law-unresolved-49-01",
+      "title": "未解决事项｜第49源章｜1",
+      "memo": "神明、化身与成文法：未解决事项（第49源章第1条）",
+      "category": "unresolved",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 900,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：三名无信徒孩子的成神契机",
+      "knowledgeStatus": "system-unresolved-do-not-complete",
+      "sourceRef": {
+        "type": "unresolved",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "三名无信徒孩子的成神契机"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-form-49-01",
+      "title": "主角龙形态｜第49源章｜1",
+      "memo": "神明、化身与成文法：主角龙形态（第49源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 840,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：祝福与观察时形态未说明。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-form",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "祝福与观察时形态未说明。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-state-49-01",
+      "title": "主角龙状态｜第49源章｜1",
+      "memo": "神明、化身与成文法：主角龙状态（第49源章第1条）",
+      "category": "character-state",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 830,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：蜥蜴三职的制度担保者；重新审视孩子们的信仰分布。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRef": {
+        "type": "protagonist-state",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "蜥蜴三职的制度担保者；重新审视孩子们的信仰分布。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-protagonist-knowledge-49-01",
+      "title": "主角龙知识边界｜第49源章｜1",
+      "memo": "神明、化身与成文法：主角龙知识边界（第49源章第1条）",
+      "category": "knowledge-boundary",
+      "keys": [
+        "神明（9）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 920,
+      "position": "before-character",
+      "depth": 4,
+      "content": "第49源章《神明（9）》：尚未遇见灵魂，仍无来世体系。",
+      "knowledgeStatus": "system-rule",
+      "sourceRef": {
+        "type": "protagonist-knowledge",
+        "sourceIndex": 49,
+        "chapterTitle": "神明（9）",
+        "sequence": 1,
+        "sourceText": "尚未遇见灵魂，仍无来世体系。"
+      }
+    },
+    {
+      "id": "era-05-gods-law-secondary-character-01",
+      "title": "次要人物｜《名为神明的幻想》作者（未名）",
+      "memo": "神明、化身与成文法：次要人物 《名为神明的幻想》作者（未名）",
+      "category": "secondary-character",
+      "keys": [
+        "《名为神明的幻想》作者（未名）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 680,
+      "position": "before-character",
+      "depth": 4,
+      "content": "《名为神明的幻想》作者（未名）\n第41源章《神明（1）》：未来无神论/祛魅作者，书被王国禁且读者会被万神殿判异端。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 41,
+          "chapterTitle": "神明（1）",
+          "sourceText": "未来无神论/祛魅作者，书被王国禁且读者会被万神殿判异端。"
+        }
+      ]
+    },
+    {
+      "id": "era-05-gods-law-secondary-character-02",
+      "title": "次要人物｜苍穹之父（新生神明）",
+      "memo": "神明、化身与成文法：次要人物 苍穹之父（新生神明）",
+      "category": "secondary-character",
+      "keys": [
+        "苍穹之父（新生神明）"
+      ],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 680,
+      "position": "before-character",
+      "depth": 4,
+      "content": "苍穹之父（新生神明）\n第41源章《神明（1）》：由巨人对雷电的恐惧与趴地避雷行为形成的高大雷声父神，强度仅略高于低级精灵。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 41,
+          "chapterTitle": "神明（1）",
+          "sourceText": "由巨人对雷电的恐惧与趴地避雷行为形成的高大雷声父神，强度仅略高于低级精灵。"
+        }
+      ]
+    },
+    {
+      "id": "era-05-gods-law-secondary-character-03",
+      "title": "次要人物｜火元素精灵测试者（未命名）",
+      "memo": "神明、化身与成文法：次要人物 火元素精灵测试者（未命名）",
+      "category": "secondary-character",
+      "keys": [],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 680,
+      "position": "before-character",
+      "depth": 4,
+      "content": "火元素精灵测试者（未命名）\n第45源章《神明（5）》：原为龙的温顺火精灵，因渴望身体立即扑入化身并半元素化。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 45,
+          "chapterTitle": "神明（5）",
+          "sourceText": "原为龙的温顺火精灵，因渴望身体立即扑入化身并半元素化。"
+        }
+      ]
+    },
+    {
+      "id": "era-05-gods-law-secondary-character-04",
+      "title": "次要人物｜未来生命教会银发龙角圣女（姓名未给）",
+      "memo": "神明、化身与成文法：次要人物 未来生命教会银发龙角圣女（姓名未给）",
+      "category": "secondary-character",
+      "keys": [],
+      "secondaryKeys": [],
+      "constant": false,
+      "enabled": true,
+      "vectorMatching": true,
+      "order": 680,
+      "position": "before-character",
+      "depth": 4,
+      "content": "未来生命教会银发龙角圣女（姓名未给）\n第44源章《神明（4）》：可爱、受照料、听见‘龙祭司’称呼便探头；身份与主角是否同一尚不能凭本章确定。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 44,
+          "chapterTitle": "神明（4）",
+          "sourceText": "可爱、受照料、听见‘龙祭司’称呼便探头；身份与主角是否同一尚不能凭本章确定。"
+        }
+      ]
+    },
+    {
+      "id": "era-05-gods-law-secondary-character-05",
+      "title": "次要人物｜无名创世神/自动系统",
+      "memo": "神明、化身与成文法：次要人物 无名创世神/自动系统",
+      "category": "secondary-character",
+      "keys": [
         "无名创世神/自动系统"
       ],
       "secondaryKeys": [],
       "constant": false,
       "enabled": true,
       "vectorMatching": true,
-      "order": 620,
+      "order": 680,
       "position": "before-character",
       "depth": 4,
-      "content": "神明、化身与成文法的次要人物与 NPC 只限以下原文出场者。姓名未给者保持无名，不得补姓名、私史、血缘、能力或秘密。\n\n《名为神明的幻想》作者（未名）：第41源章《神明（1）》：未来无神论/祛魅作者，书被王国禁且读者会被万神殿判异端。\n苍穹之父（新生神明）：第41源章《神明（1）》：由巨人对雷电的恐惧与趴地避雷行为形成的高大雷声父神，强度仅略高于低级精灵。\n火元素精灵测试者（未命名）：第45源章《神明（5）》：原为龙的温顺火精灵，因渴望身体立即扑入化身并半元素化。\n未来生命教会银发龙角圣女（姓名未给）：第44源章《神明（4）》：可爱、受照料、听见‘龙祭司’称呼便探头；身份与主角是否同一尚不能凭本章确定。\n无名创世神/自动系统：第42源章《神明（2）》：数千年后只以自动消息出现。",
-      "knowledgeStatus": "system-canon-not-automatic-character-knowledge"
-    },
-    {
-      "id": "era-05-gods-law-boundaries",
-      "memo": "神明、化身与成文法：未解事实与知识边界",
-      "category": "response-rule",
-      "keys": [],
-      "secondaryKeys": [],
-      "constant": true,
-      "enabled": true,
-      "order": 980,
-      "position": "before-character",
-      "depth": 4,
-      "content": "神明、化身与成文法中未解决、不可擅自补完的事项如下：\n第41源章《神明（1）》：神聊内容\n第41源章《神明（1）》：主角自身神格变化\n第42源章《神明（2）》：伟大萨满选法\n第42源章《神明（2）》：首轮赛事结果\n第43源章《神明（3）》：萨满选拔\n第43源章《神明（3）》：首领是否正确传达\n第44源章《神明（4）》：银发圣女真实身份\n第44源章《神明（4）》：使徒是否出现\n第45源章《神明（5）》：化身共享给六子与否\n第45源章《神明（5）》：沙玛什神明状态\n第45源章《神明（5）》：首届萨满\n第46源章《第41章：神明（6）》：沙玛什是否胜任正义与法则\n第46源章《第41章：神明（6）》：两名固定孩子的化身\n第47源章《神明（7）》：沙玛什裁决观是否真正改变\n第47源章《神明（7）》：读心限制\n第48源章《神明（8）》：法典跨族传播\n第48源章《神明（8）》：沙玛什长期司法表现\n第49源章《神明（9）》：三名无信徒孩子的成神契机\n\n主角龙的逐章知识边界如下：\n第41源章《神明（1）》：尚不知道来信内容与新神将如何发展。\n第42源章《神明（2）》：三职制度仍停留构思，不得提前写成既成事实。\n第43源章《神明（3）》：不了解首届竞技实际执行。\n第44源章《神明（4）》：不得把未来英雄团队对话直接赋予本时点主角。\n第45源章《神明（5）》：尚未把化身法分享给原初孩子，也未选出实际首席萨满。\n第46源章《第41章：神明（6）》：不知道信仰力量的确切机制，也未制造伊格德拉西尔/萨加玛特哈化身。\n第47源章《神明（7）》：读心魔法在本章末只承诺创造，尚未交付。\n第48源章《神明（8）》：只建立初始法典，尚不知道传播效果。\n第49源章《神明（9）》：尚未遇见灵魂，仍无来世体系。\n\n任何角色都不能因为世界书含有系统正典就自动读心、知道隐藏身份或预见未来。证据不足时保留未知。",
-      "knowledgeStatus": "system-rule"
+      "content": "无名创世神/自动系统\n第42源章《神明（2）》：数千年后只以自动消息出现。",
+      "knowledgeStatus": "system-canon-not-automatic-character-knowledge",
+      "sourceRefs": [
+        {
+          "type": "secondary-character-presence",
+          "sourceIndex": 42,
+          "chapterTitle": "神明（2）",
+          "sourceText": "数千年后只以自动消息出现。"
+        }
+      ]
     }
   ],
   "secondaryCharacterCount": 5

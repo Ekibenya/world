@@ -162,17 +162,35 @@ function showGame() {
 }
 
 function queryTerms(text) { const clean = String(text).replace(/[\s\p{P}\p{S}]+/gu, ''); const terms = new Set(); for (let i = 0; i < clean.length - 1; i += 1) terms.add(clean.slice(i, i + 2)); return [...terms]; }
-function retrieveLore(query) {
-  const manualMemory = window.WORLD_MVU_CONTENT?.memoryPrompt?.(); const always = state.era.lorebook.filter((entry) => entry.constant).map((entry) => entry.content); const terms = queryTerms(query);
-  const scored = state.era.lorebook.filter((entry) => !entry.constant).flatMap((entry) => entry.content.split('\n').map((line) => ({ line, score: terms.reduce((sum, term) => sum + (line.includes(term) ? 1 : 0), entry.keys.some((key) => query.includes(key)) ? 8 : 0) }))).filter((item) => item.line.trim()).sort((a, b) => b.score - a.score);
-  const chosen = []; const seen = new Set(); for (const item of scored) { if (chosen.length >= 90 || (item.score <= 0 && chosen.length >= 28)) break; if (!seen.has(item.line)) { seen.add(item.line); chosen.push(item.line); } }
-  return [manualMemory, ...always, chosen.join('\n')].filter(Boolean).join('\n\n');
+function retrieveLore(query, context = '') {
+  const manualMemory = window.WORLD_MVU_CONTENT?.memoryPrompt?.();
+  const enabled = state.era.lorebook.filter((entry) => entry.enabled !== false);
+  const always = enabled.filter((entry) => entry.constant).map((entry) => entry.content);
+  const terms = queryTerms(query);
+  const contextTerms = queryTerms(context);
+  const scored = enabled.filter((entry) => !entry.constant).map((entry) => {
+    const searchable = `${entry.title || ''}\n${entry.content || ''}`;
+    const termHits = terms.reduce((sum, term) => sum + (searchable.includes(term) ? 1 : 0), 0);
+    const contextHits = contextTerms.reduce((sum, term) => sum + (searchable.includes(term) ? 1 : 0), 0);
+    const keyHits = (entry.keys || []).reduce((sum, key) => sum + (key && query.includes(key) ? 1 : 0), 0);
+    const secondaryHits = (entry.secondaryKeys || []).reduce((sum, key) => sum + (key && query.includes(key) ? 1 : 0), 0);
+    return { entry, score: keyHits * 240 + secondaryHits * 90 + termHits * 8 + contextHits * .15 };
+  }).filter((item) => item.score > 0).sort((a, b) => b.score - a.score || (b.entry.order || 0) - (a.entry.order || 0));
+  const budget = Math.max(3000, Number($('#loreBud')?.value || 9000));
+  const chosen = []; let used = 0;
+  for (const { entry } of scored) {
+    const packet = `【${entry.title || entry.memo || entry.id}】\n${entry.content}`;
+    if (chosen.length && used + packet.length > budget) continue;
+    chosen.push(packet); used += packet.length;
+    if (used >= budget || chosen.length >= 80) break;
+  }
+  return [manualMemory, ...always, chosen.join('\n\n')].filter(Boolean).join('\n\n');
 }
 function compactCard(item) { return item ? { name: item.name, identityEvidence: item.canonIdentityEvidence, eraDragonChronology: item.eraDragonChronology, thoughtEngine: item.thoughtEngine, dialogueSamples: item.cumulativeVoiceArchiveThroughEraEnd.dialogue, innerThoughtSamples: item.cumulativeVoiceArchiveThroughEraEnd.innerThought, knowledgeBoundary: item.knowledgeBoundary, playerAgencyRule: item.playerAgencyRule, canonClosureRule: item.canonClosureRule } : null; }
 function buildSystem(query, customOpening) {
   const player = state.player.mode === 'preset' ? { route: 'preset', card: compactCard(state.player.card) } : { route: 'custom', settings: state.player.custom, anchorEvidenceOnly: compactCard(state.player.anchor) };
   const companions = state.player.companions.map((entry) => ({ ...entry, card: compactCard(state.era.cards.find((item) => item.name === entry.name)) }));
-  return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面提供的原文证据。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。证据不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成原文人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与时代证据冲突时必须停下列出来源内可选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的原文样本与决策证据，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于原文。' : '默认开局已逐字提供，不得重写。'}\n\n【当前时代】\n${state.era.name}，${rangeText(state.era.sourceRange)}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按请求检索到的世界书】\n${retrieveLore(`${query}\n${JSON.stringify(player)}\n${JSON.stringify(companions)}`)}`;
+  return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面提供的原文证据。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。证据不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成原文人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与时代证据冲突时必须停下列出来源内可选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的原文样本与决策证据，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于原文。' : '默认开局已逐字提供，不得重写。'}\n\n【当前时代】\n${state.era.name}，${rangeText(state.era.sourceRange)}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按请求检索到的世界书】\n${retrieveLore(query, `${JSON.stringify(player)}\n${JSON.stringify(companions)}`)}`;
 }
 async function generate(text, customOpening = false) { const config = apiSettings(); if (!config.endpoint || !config.model || !config.apiKey) throw new Error('请先填写接口、模型和密钥。'); return requestChatCompletion(config, [{ role: 'system', content: buildSystem(text, customOpening) }, ...state.history.map(({ role, content }) => ({ role, content })), { role: 'user', content: text }]); }
 async function sendMessageText(text) { if (!text || state.busy) return; state.error = ''; state.history.push({ role: 'user', content: text, label: '玩家' }); state.busy = true; showGame(); try { state.history.push({ role: 'assistant', content: await generate(text), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); } }
