@@ -369,19 +369,20 @@ function tex(data,w,h,srgb){var t=new T.DataTexture(data,w,h,T.RGBAFormat);t.fli
 /* ---------- 宇宙场景（立即建立：星野、星云、远行星、太阳辉光、占位星球） ---------- */
 function canvasTex(w,h,fn){var c=document.createElement('canvas');c.width=w;c.height=h;var g=c.getContext('2d'),img=g.createImageData(w,h);fn(img.data,w,h);g.putImageData(img,0,0);var t=new T.CanvasTexture(c);t.encoding=T.sRGBEncoding;return t;}
 function glowTex(){var c=document.createElement('canvas');c.width=c.height=128;var g=c.getContext('2d'),r=g.createRadialGradient(64,64,0,64,64,64);r.addColorStop(0,'rgba(255,255,255,1)');r.addColorStop(.18,'rgba(255,255,255,.75)');r.addColorStop(.5,'rgba(255,255,255,.12)');r.addColorStop(1,'rgba(255,255,255,0)');g.fillStyle=r;g.fillRect(0,0,128,128);return new T.CanvasTexture(c);}
-function nebulaTex(){
-  var w=MOBILE?512:1024,h=w/2;
+function nebulaTex(){   /* 银河带 + 两团星云：一进主菜单就要看得见，因此亮度给足、分辨率与八度数压低以免卡首帧 */
+  var w=MOBILE?512:768,h=w/2;
   return canvasTex(w,h,function(d,w,h){var x,y,i4,lon,lat,p,ax=[0.42,0.62,-0.66];
     for(y=0;y<h;y++){lat=(y+.5)/h*180-90;for(x=0;x<w;x++){lon=(x+.5)/w*360-180;p=sph(lon,lat,v3);i4=(y*w+x)*4;
-      var band=p[0]*ax[0]+p[1]*ax[1]+p[2]*ax[2];band=Math.exp(-band*band*9);
-      var f1=fbm(p[0]*2.3+7,p[1]*2.3,p[2]*2.3,5,2.1,.55)*.5+.5,f2=fbm(p[0]*4.1,p[1]*4.1+3,p[2]*4.1,4)*.5+.5,f3=fbm(p[0]*9+1,p[1]*9,p[2]*9,3)*.5+.5;
-      var dust=Math.pow(f1,1.6)*(.25+.75*band),teal=sstep(.5,.8,f2)*band,ember=sstep(.55,.85,f1)*sstep(.4,.8,f3)*(.2+.8*band),milk=band*(.4+.6*f2);
-      var r=6+dust*85+teal*28+ember*220+milk*56,g=8+dust*100+teal*150+ember*105+milk*62,b=16+dust*150+teal*190+ember*80+milk*84;
-      var dark=1-.45*sstep(.55,.9,f3)*band;r*=dark;g*=dark;b*=dark;
+      var band=p[0]*ax[0]+p[1]*ax[1]+p[2]*ax[2];band=Math.exp(-band*band*7);
+      var f1=fbm(p[0]*2.1+7,p[1]*2.1,p[2]*2.1,4,2.1,.55)*.5+.5,f2=fbm(p[0]*3.6,p[1]*3.6+3,p[2]*3.6,3)*.5+.5,f3=fbm(p[0]*7+1,p[1]*7,p[2]*7,3)*.5+.5;
+      var g1=Math.exp(-(Math.pow(wrapLon(lon+62)/34,2)+Math.pow((lat-12)/22,2))),g2=Math.exp(-(Math.pow(wrapLon(lon-118)/40,2)+Math.pow((lat+8)/24,2)));
+      var milk=band*(.35+.65*f2),dust=Math.pow(f1,1.5)*(.3+.7*band),teal=sstep(.42,.8,f2)*(g1*1.2+band*.5),ember=sstep(.45,.85,f1)*(g2*1.3+band*.35)*(.4+.6*f3),lane=1-.55*sstep(.55,.9,f3)*band;
+      var r=8+dust*80+teal*40+ember*230+milk*70,g=10+dust*95+teal*150+ember*110+milk*80,b=20+dust*150+teal*210+ember*90+milk*110;
+      r*=lane;g*=lane;b*=lane;
       d[i4]=Math.min(255,r);d[i4+1]=Math.min(255,g);d[i4+2]=Math.min(255,b);d[i4+3]=255;}}});
 }
 function planetTex(kind){
-  var w=512,h=256;
+  var w=kind==='moon'?256:192,h=w/2;
   return canvasTex(w,h,function(d,w,h){var x,y,i4,lon,lat,p;
     for(y=0;y<h;y++){lat=(y+.5)/h*180-90;for(x=0;x<w;x++){lon=(x+.5)/w*360-180;p=sph(lon,lat,v3);i4=(y*w+x)*4;var r,g,b;
       if(kind==='giant'){var tw=n3(p[0]*3,p[1]*3,p[2]*3)*.35,bd=Math.sin((lat*.19+tw)*7)*.5+.5,st=fbm(p[0]*6,p[1]*2,p[2]*6,4)*.5+.5;
@@ -417,12 +418,13 @@ function initSpace(){
   scene.add(stars);seed=save;
   nebula=new T.Mesh(new T.SphereGeometry(58,48,24),new T.MeshBasicMaterial({map:nebulaTex(),side:T.BackSide,depthWrite:false}));scene.add(nebula);
   sunGlow=new T.Sprite(new T.SpriteMaterial({map:glow,color:0xffe6b0,transparent:true,blending:T.AdditiveBlending,depthWrite:false,opacity:.9}));sunGlow.position.copy(sunDir).multiplyScalar(50);sunGlow.scale.set(14,14,1);scene.add(sunGlow);
-  var giant=new T.Mesh(new T.SphereGeometry(1.5,48,24),new T.MeshStandardMaterial({map:planetTex('giant'),roughness:1}));giant.userData.at=[-6.8,2.3,17];giant.userData.tilt=true;cosmos.add(giant);
-  var ring=new T.Mesh(new T.RingGeometry(2.05,3.4,96,1),new T.MeshStandardMaterial({map:ringTex(),transparent:true,side:T.DoubleSide,roughness:.9,depthWrite:false}));
-  var rg=ring.geometry,uv=rg.attributes.uv,pos=rg.attributes.position;for(var i=0;i<uv.count;i++){var rr=Math.hypot(pos.getX(i),pos.getY(i));uv.setXY(i,(rr-2.05)/1.35,.5);}
+  /* 远行星：按真实比例缩小并推远——卫星约本星球四分之一、在二十余倍半径之外，带环的巨行星与外行星只是远处的小圆盘 */
+  var giant=new T.Mesh(new T.SphereGeometry(.62,24,12),new T.MeshStandardMaterial({map:planetTex('giant'),roughness:1}));giant.userData.at=[-24,9,66];giant.userData.tilt=true;cosmos.add(giant);
+  var ring=new T.Mesh(new T.RingGeometry(.85,1.42,48,1),new T.MeshStandardMaterial({map:ringTex(),transparent:true,side:T.DoubleSide,roughness:.9,depthWrite:false}));
+  var rg=ring.geometry,uv=rg.attributes.uv,pos=rg.attributes.position;for(var i=0;i<uv.count;i++){var rr=Math.hypot(pos.getX(i),pos.getY(i));uv.setXY(i,(rr-.85)/.57,.5);}
   ring.rotation.x=PI/2;giant.add(ring);
-  var moon=new T.Mesh(new T.SphereGeometry(.42,32,16),new T.MeshStandardMaterial({map:planetTex('moon'),roughness:1}));moon.userData.at=[2.9,-1.7,9];cosmos.add(moon);
-  var blue=new T.Mesh(new T.SphereGeometry(.7,32,16),new T.MeshStandardMaterial({map:planetTex('blue'),roughness:.8}));blue.userData.at=[6.5,3.6,24];cosmos.add(blue);
+  var moon=new T.Mesh(new T.SphereGeometry(.27,24,12),new T.MeshStandardMaterial({map:planetTex('moon'),roughness:1}));moon.userData.at=[7.2,-3.4,22];cosmos.add(moon);
+  var blue=new T.Mesh(new T.SphereGeometry(.4,16,8),new T.MeshStandardMaterial({map:planetTex('blue'),roughness:.8}));blue.userData.at=[19,11,74];cosmos.add(blue);
   cosmos.userData={giant:giant,moon:moon,blue:blue};
   applyMode();resize();if(!raf)raf=requestAnimationFrame(loop);
 }
