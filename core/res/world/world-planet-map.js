@@ -19,23 +19,28 @@ function wrapLon(d){d=(d+540)%360;if(d<0)d+=360;return d-180;}
 function sph(lon,lat,out){var la=lat*D2R,lo=lon*D2R,c=Math.cos(la);out=out||[0,0,0];out[0]=c*Math.cos(lo);out[1]=Math.sin(la);out[2]=-c*Math.sin(lo);return out;}
 var seed=1337;function rnd(){seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;}
 
-/* ---------- simplex 3D ---------- */
-var G3=[[1,1,0],[-1,1,0],[1,-1,0],[-1,-1,0],[1,0,1],[-1,0,1],[1,0,-1],[-1,0,-1],[0,1,1],[0,-1,1],[0,1,-1],[0,-1,-1]];
-var P=new Uint8Array(512),PM=new Uint8Array(512);
-(function(){var p=[],i;for(i=0;i<256;i++)p[i]=i;for(i=255;i>0;i--){var j=Math.floor(rnd()*(i+1)),t=p[i];p[i]=p[j];p[j]=t;}for(i=0;i<512;i++){P[i]=p[i&255];PM[i]=P[i]%12;}})();
-var F3=1/3,G3c=1/6;
-function n3(x,y,z){
-  var s=(x+y+z)*F3,i=Math.floor(x+s),j=Math.floor(y+s),k=Math.floor(z+s),t=(i+j+k)*G3c;
-  var x0=x-(i-t),y0=y-(j-t),z0=z-(k-t),i1,j1,k1,i2,j2,k2;
-  if(x0>=y0){if(y0>=z0){i1=1;j1=0;k1=0;i2=1;j2=1;k2=0;}else if(x0>=z0){i1=1;j1=0;k1=0;i2=1;j2=0;k2=1;}else{i1=0;j1=0;k1=1;i2=1;j2=0;k2=1;}}
-  else{if(y0<z0){i1=0;j1=0;k1=1;i2=0;j2=1;k2=1;}else if(x0<z0){i1=0;j1=1;k1=0;i2=0;j2=1;k2=1;}else{i1=0;j1=1;k1=0;i2=1;j2=1;k2=0;}}
-  var x1=x0-i1+G3c,y1=y0-j1+G3c,z1=z0-k1+G3c,x2=x0-i2+2*G3c,y2=y0-j2+2*G3c,z2=z0-k2+2*G3c,x3=x0-1+3*G3c,y3=y0-1+3*G3c,z3=z0-1+3*G3c;
-  var ii=i&255,jj=j&255,kk=k&255,n=0,t0,g;
-  t0=.6-x0*x0-y0*y0-z0*z0;if(t0>0){g=G3[PM[ii+P[jj+P[kk]]]];t0*=t0;n+=t0*t0*(g[0]*x0+g[1]*y0+g[2]*z0);}
-  t0=.6-x1*x1-y1*y1-z1*z1;if(t0>0){g=G3[PM[ii+i1+P[jj+j1+P[kk+k1]]]];t0*=t0;n+=t0*t0*(g[0]*x1+g[1]*y1+g[2]*z1);}
-  t0=.6-x2*x2-y2*y2-z2*z2;if(t0>0){g=G3[PM[ii+i2+P[jj+j2+P[kk+k2]]]];t0*=t0;n+=t0*t0*(g[0]*x2+g[1]*y2+g[2]*z2);}
-  t0=.6-x3*x3-y3*y3-z3*z3;if(t0>0){g=G3[PM[ii+1+P[jj+1+P[kk+1]]]];t0*=t0;n+=t0*t0*(g[0]*x3+g[1]*y3+g[2]*z3);}
-  return 32*n;
+/* ---------- simplex 3D（Ashima/Gustavson 算法，与着色器里的 snoise 逐位一致） ---------- */
+function m289(x){return x-Math.floor(x*(1/289))*289;}
+function perm(x){return m289(((x*34)+1)*x);}
+function tis(r){return 1.79284291400159-0.85373472095314*r;}
+var NSX=2/7,NSY=1/14-1,NSZ=1/7;
+function n3(vx,vy,vz){
+  var s=(vx+vy+vz)/3,ix=Math.floor(vx+s),iy=Math.floor(vy+s),iz=Math.floor(vz+s),t=(ix+iy+iz)/6;
+  var x0x=vx-ix+t,x0y=vy-iy+t,x0z=vz-iz+t;
+  var gx=x0x>=x0y?1:0,gy=x0y>=x0z?1:0,gz=x0z>=x0x?1:0,lx=1-gx,ly=1-gy,lz=1-gz;
+  var i1x=Math.min(gx,lz),i1y=Math.min(gy,lx),i1z=Math.min(gz,ly),i2x=Math.max(gx,lz),i2y=Math.max(gy,lx),i2z=Math.max(gz,ly);
+  var x1x=x0x-i1x+1/6,x1y=x0y-i1y+1/6,x1z=x0z-i1z+1/6,x2x=x0x-i2x+1/3,x2y=x0y-i2y+1/3,x2z=x0z-i2z+1/3,x3x=x0x-.5,x3y=x0y-.5,x3z=x0z-.5;
+  ix=m289(ix);iy=m289(iy);iz=m289(iz);
+  var p0=perm(perm(perm(iz)+iy)+ix),p1=perm(perm(perm(iz+i1z)+iy+i1y)+ix+i1x),p2=perm(perm(perm(iz+i2z)+iy+i2y)+ix+i2x),p3=perm(perm(perm(iz+1)+iy+1)+ix+1);
+  var n=0,P=[p0,p1,p2,p3],X=[x0x,x1x,x2x,x3x],Y=[x0y,x1y,x2y,x3y],Z=[x0z,x1z,x2z,x3z],k;
+  for(k=0;k<4;k++){
+    var j=P[k]-49*Math.floor(P[k]*NSZ*NSZ),x_=Math.floor(j*NSZ),y_=Math.floor(j-7*x_),x=x_*NSX+NSY,y=y_*NSX+NSY,h=1-Math.abs(x)-Math.abs(y);
+    var sh=h<=0?-1:0,gx_=x+(Math.floor(x)*2+1)*sh,gy_=y+(Math.floor(y)*2+1)*sh,gz_=h;
+    var nm=tis(gx_*gx_+gy_*gy_+gz_*gz_);gx_*=nm;gy_*=nm;gz_*=nm;
+    var m=.6-(X[k]*X[k]+Y[k]*Y[k]+Z[k]*Z[k]);if(m<0)m=0;m*=m;
+    n+=m*m*(gx_*X[k]+gy_*Y[k]+gz_*Z[k]);
+  }
+  return 42*n;
 }
 function fbm(x,y,z,oct,lac,gain){var a=1,s=0,nrm=0,i;lac=lac||2;gain=gain||.5;for(i=0;i<oct;i++){s+=a*n3(x,y,z);nrm+=a;x*=lac;y*=lac;z*=lac;a*=gain;}return s/nrm;}
 function ridged(x,y,z,oct){var a=.5,s=0,w=1,i,r;for(i=0;i<oct;i++){r=1-Math.abs(n3(x,y,z));r=r*r*w;w=clamp(r*1.6,0,1);s+=r*a;x*=2.1;y*=2.1;z*=2.1;a*=.5;}return s;}
@@ -65,8 +70,9 @@ function eraFlags(o){return {nc:o>=12,cause:o>=6,crater:o>=23,pit:o>=20,blight:o
 /* ---------- 纹理 ---------- */
 var MOBILE=Math.min(window.innerWidth,window.innerHeight)<=760||(navigator.deviceMemory&&navigator.deviceMemory<4);
 var W=MOBILE?1024:2048,H=W/2;
-var HGT,LAND,RIV,RNG,ALB,NRM,RGH,EMI0,EMI,DSP,CW=1024,CH=512,CLD,LW,LH,DIST;
-function alloc(){HGT=new Float32Array(W*H);LAND=new Uint8Array(W*H);RIV=new Uint8Array(W*H);RNG=new Float32Array(W*H);ALB=new Uint8Array(W*H*4);NRM=new Uint8Array(W*H*4);RGH=new Uint8Array(W*H*4);EMI0=new Uint8Array(W*H*4);EMI=new Uint8Array(W*H*4);DSP=new Uint8Array(W*H*4);CLD=new Uint8Array(CW*CH*4);LW=W/4;LH=H/4;DIST=new Float32Array(LW*LH);}
+var HGT,HPRE,LAND,RIV,RNG,ALB,NRM,RGH,EMI0,EMI,DSP,FILL,CW=1024,CH=512,CLD,LW,LH,DIST;
+var ANALYTIC=!MOBILE;   /* 桌面：海岸线与湖岸在着色器里逐像素解析，不受贴图分辨率限制 */
+function alloc(){HGT=new Float32Array(W*H);HPRE=new Float32Array(W*H);FILL=new Uint8Array(W*H);LAND=new Uint8Array(W*H);RIV=new Uint8Array(W*H);RNG=new Float32Array(W*H);ALB=new Uint8Array(W*H*4);NRM=new Uint8Array(W*H*4);RGH=new Uint8Array(W*H*4);EMI0=new Uint8Array(W*H*4);EMI=new Uint8Array(W*H*4);DSP=new Uint8Array(W*H*4);CLD=new Uint8Array(CW*CH*4);LW=W/4;LH=H/4;DIST=new Float32Array(LW*LH);}
 var v3=[0,0,0];
 function lonOf(x){return (x+.5)/W*360-180;}function latOf(y){return (y+.5)/H*180-90;}
 var BASEF=eraFlags(16);
@@ -89,8 +95,9 @@ function heightPx(x,y,F){
     if(F.cause&&lat>74&&lat<81.5&&blobF(BLOB_CAUSE,lon,lat)>-.3)h=Math.min(h,.03);   /* 黑石长堤：贴着海面的低堤 */
     if(lat>81)h=Math.min(h,.06);   /* 极北冰岛：低矮的冰浪小岛 */
     if(h<.012)h=.012;
+    HPRE[idx]=h;
     h-=.5*gauss(lon,lat,36,27,3.2);if(h<.012&&h>-.02)h=.012;
-  }else{coast=sstep(0.02,-.4,f);h=-(.06+.9*coast)+.06*fbm(p[0]*3+5,p[1]*3,p[2]*3,4)*coast-.06*R;if(h>-.02)h=-.02;}
+  }else{HPRE[idx]=0;coast=sstep(0.02,-.4,f);h=-(.06+.9*coast)+.06*fbm(p[0]*3+5,p[1]*3,p[2]*3,4)*coast-.06*R;if(h>-.02)h=-.02;}
   HGT[idx]=clamp(h,-1,1.15);LAND[idx]=HGT[idx]>0?1:0;
 }
 function genRivers(){
@@ -174,7 +181,7 @@ function surfacePx(x,y,F){
   ALB[i4]=clamp(c[0],0,255);ALB[i4+1]=clamp(c[1],0,255);ALB[i4+2]=clamp(c[2],0,255);ALB[i4+3]=255;
   RGH[i4]=0;RGH[i4+1]=clamp(rough*255,0,255);RGH[i4+2]=0;RGH[i4+3]=255;
   EMI0[i4]=em0;EMI0[i4+1]=em1;EMI0[i4+2]=em2;EMI0[i4+3]=255;
-  var dsp=clamp(Math.max(0,h)/1.15,0,1)*255;DSP[i4]=dsp;DSP[i4+1]=dsp;DSP[i4+2]=dsp;DSP[i4+3]=255;
+  DSP[i4]=clamp(Math.max(0,h)/1.15,0,1)*255;DSP[i4+1]=clamp(-h,0,1)*255;DSP[i4+2]=clamp(HPRE[idx]/1.15,0,1)*255;DSP[i4+3]=255;
 }
 function genLights(o){
   EMI.set(EMI0);var F=eraFlags(o);if(!F.lights||!DATA)return;
@@ -204,6 +211,15 @@ function genClouds(){
     var band=.5+.35*Math.cos(lat*D2R*3)+.15*Math.cos(lat*D2R),al=sstep(.52,.78,a*band+.12*b-.04);al*=1-.55*sstep(.5,.9,a);
     var shade=200+55*sstep(.5,.85,a);CLD[i4]=shade;CLD[i4+1]=shade;CLD[i4+2]=Math.min(255,shade+8);CLD[i4+3]=al*255;}}
 }
+/* 陆色外扩（仅解析海岸线模式）：海侧纹素填最近的陆色，海水改由着色器按解析海岸线绘制 */
+function dilate(x0,y0,x1,y1,nx){
+  if(!ANALYTIC)return;var pass,x,y,k,idx,i4,dx,dy,n,cand;
+  for(y=y0;y<=y1;y++)for(x=0;x<=nx;x++){idx=y*W+((x0+x)%W);FILL[idx]=LAND[idx]?255:0;}
+  for(pass=1;pass<=4;pass++){cand=[];
+    for(y=Math.max(0,y0);y<=Math.min(H-1,y1);y++)for(x=0;x<=nx;x++){idx=y*W+((x0+x)%W);if(FILL[idx])continue;
+      for(dy=-1;dy<=1&&!cand[cand.length-1]!==idx;dy++)for(dx=-1;dx<=1;dx++){if(!dx&&!dy)continue;var yy=y+dy;if(yy<0||yy>=H)continue;n=yy*W+((idx%W)+dx+W)%W;var fv=FILL[n];if(fv===255||(fv>0&&fv<pass)){cand.push(idx,n);dy=2;break;}}}
+    for(k=0;k<cand.length;k+=2){idx=cand[k];n=cand[k+1];i4=idx*4;var j4=n*4;ALB[i4]=ALB[j4];ALB[i4+1]=ALB[j4+1];ALB[i4+2]=ALB[j4+2];RGH[i4+1]=RGH[j4+1];FILL[idx]=pass;}}
+}
 var PATCHES=[{b:[126,-158,-50,18],h:true},{b:[-47,-37,72,87],h:true},{b:[-77,-67,37,43],h:true},{b:[-42,-28,58,70],h:true},{b:[-70,-46,42,58]},{b:[76,94,40,54]},{b:[-100,-58,28,50]}];
 function pxOf(lon){return ((Math.floor((lon+180)/360*W)%W)+W)%W;}function pyOf(lat){return clamp(Math.floor((lat+90)/180*H),0,H-1);}
 var patchedFor=-1;
@@ -213,7 +229,8 @@ function applyEra(o){
   for(i=0;i<PATCHES.length;i++){pa=PATCHES[i];x0=pxOf(pa.b[0]);x1=pxOf(pa.b[1]);y0=pyOf(pa.b[2]);y1=pyOf(pa.b[3]);n=x1>=x0?x1-x0:x1+W-x0;
     if(pa.h){for(y=y0;y<=y1;y++)for(x=0;x<=n;x++)heightPx((x0+x)%W,y,F);}
     for(y=y0;y<=y1;y++)for(x=0;x<=n;x++)surfacePx((x0+x)%W,y,F);
-    if(pa.h){for(y=Math.max(0,y0-1);y<=Math.min(H-1,y1+1);y++)for(x=-1;x<=n+1;x++)normalPx((x0+x+W)%W,y);}}
+    if(pa.h){for(y=Math.max(0,y0-1);y<=Math.min(H-1,y1+1);y++)for(x=-1;x<=n+1;x++)normalPx((x0+x+W)%W,y);dilate(x0,y0,x1,y1,n);}}
+  if(SHU){SHU.uBlobOn.value[15]=F.cause?1:0;SHU.uBlobOn.value[16]=F.nc?1:0;SHU.uBlobOn.value[17]=F.nc?1:0;}
   genLights(o);if(TEXS)TEXS.forEach(function(t){t.needsUpdate=true;});
   if(rail)rail.visible=!!F.rail;if(isle)isle.visible=!!F.isle;
 }
@@ -227,12 +244,12 @@ function build(){
   rows(function(y){for(var x=0;x<W;x++)heightPx(x,y,BASEF);},'凝聚泛大陆 · 隆起山脉',0,.5,function(){
     prog(.52,'开凿河流');setTimeout(function(){genRivers();genDist();
       rows(function(y){for(var x=0;x<W;x++)surfacePx(x,y,BASEF);},'描绘生灵之地',.55,.85,function(){
-        prog(.86,'点亮城市灯火');setTimeout(function(){for(var y=0;y<H;y++)for(var x=0;x<W;x++)normalPx(x,y);prog(.92,'拂过云鲸之息');
+        prog(.86,'点亮城市灯火');setTimeout(function(){for(var y=0;y<H;y++)for(var x=0;x<W;x++)normalPx(x,y);dilate(0,0,W-1,H-1,W-1);prog(.92,'拂过云鲸之息');
           setTimeout(function(){genClouds();READY=true;BUILDING=false;initScene();applyEra(VIEW.ord);prog(1,'升起');refreshSites();},20);},20);});},20);});
 }
 
 /* ---------- 场景 ---------- */
-var renderer,scene,camera,planet,group,clouds,sunDir=T?new T.Vector3(5,1.6,2.8).normalize():null,sunView=T?new T.Vector3():null,atmoIn,atmoOut,rail,isle,stars,TEXS=null,DISP=.04;
+var SHU=null,renderer,scene,camera,planet,group,clouds,sunDir=T?new T.Vector3(5,1.6,2.8).normalize():null,sunView=T?new T.Vector3():null,atmoIn,atmoOut,rail,isle,stars,TEXS=null,DISP=.04;
 var cam={theta:1.22,phi:1.15,r:4.6,vt:0,vp:0,tr:3.6,tt:null,tp:null},idleAt=0,spinAngle=0,lastT=0,raf=0;
 var VIEW={ord:16,eraName:'',layer:'surface',mode:'forge',selected:null,free:null};
 var canvas=null,pinLayer=null,host=null,hostMode='',onPick=null,resizeObs=null,mini=null,mctx=null;
@@ -245,8 +262,45 @@ function initScene(){
   var mAlb=tex(ALB,W,H,true),mNrm=tex(NRM,W,H,false),mRgh=tex(RGH,W,H,false),mEmi=tex(EMI,W,H,true),mDsp=tex(DSP,W,H,false);TEXS=[mAlb,mNrm,mRgh,mEmi,mDsp];TEXS.forEach(function(t){t.anisotropy=an;});
   var mat=new T.MeshStandardMaterial({map:mAlb,normalMap:mNrm,normalScale:new T.Vector2(1,1),roughnessMap:mRgh,roughness:1,metalness:0,emissive:new T.Color(0xffffff),emissiveMap:mEmi,emissiveIntensity:1.1,displacementMap:mDsp,displacementScale:DISP});
   var sunU={value:sunView};
-  mat.onBeforeCompile=function(s){s.uniforms.uSun=sunU;s.fragmentShader=s.fragmentShader.replace('uniform vec3 emissive;','uniform vec3 emissive; uniform vec3 uSun;').replace('#include <emissivemap_fragment>','#ifdef USE_EMISSIVEMAP\n vec4 emissiveColor = texture2D( emissiveMap, vUv );\n emissiveColor.rgb = emissiveMapTexelToLinear( emissiveColor ).rgb;\n float ndl = dot( normalize( normal ), uSun );\n float night = smoothstep( 0.18, -0.16, ndl );\n totalEmissiveRadiance *= emissiveColor.rgb * mix( 0.05, 1.0, night );\n#endif');};
-  planet=new T.Mesh(new T.SphereGeometry(1,MOBILE?256:512,MOBILE?128:256),mat);group.add(planet);
+  var lin=function(c){var k=new T.Color(c[0]/255,c[1]/255,c[2]/255).convertSRGBToLinear();return new T.Vector3(k.r,k.g,k.b);};
+  SHU={uSun:sunU,uBlobs:{value:BLOBS.concat([BLOB_CAUSE],BLOB_NC).map(function(b){return new T.Vector4(b[0],b[1],b[2],b[3]);})},uBlobOn:{value:BLOBS.map(function(){return 1;}).concat([0,0,0])},
+    uTime:{value:0},uBump:{value:0},uHgt:{value:mDsp},uShoal:{value:lin(COL.shoal)},uShelf:{value:lin(COL.shelf)},uDeep:{value:lin(COL.deep)},uLake:{value:lin(COL.lake)},uSand:{value:lin(COL.sand)}};
+  var GLSL_NOISE='vec3 m289v3(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}\nvec4 m289v4(vec4 x){return x-floor(x*(1.0/289.0))*289.0;}\nvec4 permv4(vec4 x){return m289v4(((x*34.0)+1.0)*x);}\nvec4 tisv4(vec4 r){return 1.79284291400159-0.85373472095314*r;}\n'
+   +'float snoise(vec3 v){const vec2 C=vec2(1.0/6.0,1.0/3.0);const vec4 D=vec4(0.0,0.5,1.0,2.0);vec3 i=floor(v+dot(v,C.yyy));vec3 x0=v-i+dot(i,C.xxx);vec3 g=step(x0.yzx,x0.xyz);vec3 l=1.0-g;vec3 i1=min(g.xyz,l.zxy);vec3 i2=max(g.xyz,l.zxy);vec3 x1=x0-i1+C.xxx;vec3 x2=x0-i2+C.yyy;vec3 x3=x0-D.yyy;i=m289v3(i);vec4 p=permv4(permv4(permv4(i.z+vec4(0.0,i1.z,i2.z,1.0))+i.y+vec4(0.0,i1.y,i2.y,1.0))+i.x+vec4(0.0,i1.x,i2.x,1.0));float n_=0.142857142857;vec3 ns=n_*D.wyz-D.xzx;vec4 j=p-49.0*floor(p*ns.z*ns.z);vec4 x_=floor(j*ns.z);vec4 y_=floor(j-7.0*x_);vec4 x=x_*ns.x+ns.yyyy;vec4 y=y_*ns.x+ns.yyyy;vec4 h=1.0-abs(x)-abs(y);vec4 b0=vec4(x.xy,y.xy);vec4 b1=vec4(x.zw,y.zw);vec4 s0=floor(b0)*2.0+1.0;vec4 s1=floor(b1)*2.0+1.0;vec4 sh=-step(h,vec4(0.0));vec4 a0=b0.xzyw+s0.xzyw*sh.xxyy;vec4 a1=b1.xzyw+s1.xzyw*sh.zzww;vec3 p0=vec3(a0.xy,h.x);vec3 p1=vec3(a0.zw,h.y);vec3 p2=vec3(a1.xy,h.z);vec3 p3=vec3(a1.zw,h.w);vec4 norm=tisv4(vec4(dot(p0,p0),dot(p1,p1),dot(p2,p2),dot(p3,p3)));p0*=norm.x;p1*=norm.y;p2*=norm.z;p3*=norm.w;vec4 m=max(0.6-vec4(dot(x0,x0),dot(x1,x1),dot(x2,x2),dot(x3,x3)),0.0);m=m*m;return 42.0*dot(m*m,vec4(dot(p0,x0),dot(p1,x1),dot(p2,x2),dot(p3,x3)));}\n'
+   +'float wrapLonG(float d){return mod(d+540.0,360.0)-180.0;}\nfloat blobG(vec4 b,float lon,float lat){float dl=wrapLonG(lon-b.x)/b.z;float dy=(lat-b.y)/b.w;return 1.0-sqrt(dl*dl+dy*dy);}\n'
+   +'float maskG(float lon,float lat){float f=-9.0;for(int i=0;i<18;i++){if(uBlobOn[i]>0.5)f=max(f,blobG(uBlobs[i],lon,lat));}return max(f,(-lat-72.0)/6.0);}\n'
+   +'float fbm4(vec3 p){float a=1.0,s=0.0,n=0.0;for(int i=0;i<4;i++){s+=a*snoise(p);n+=a;p*=2.0;a*=0.5;}return s/n;}\n'
+   +'float gaussG(float lon,float lat,float cl,float ct,float s){float dl=wrapLonG(lon-cl)*cos(ct*0.017453292);float dy=lat-ct;return exp(-(dl*dl+dy*dy)/(s*s));}\n'
+   +'vec3 bumpArb(vec3 sp,vec3 sn,vec2 dH){vec3 sx=vec3(dFdx(sp.x),dFdx(sp.y),dFdx(sp.z));vec3 sy=vec3(dFdy(sp.x),dFdy(sp.y),dFdy(sp.z));vec3 r1=cross(sy,sn);vec3 r2=cross(sn,sx);float det=dot(sx,r1);vec3 g=sign(det)*(dH.x*r1+dH.y*r2);return normalize(abs(det)*sn-g);}\n';
+  var PRELUDE='vec3 sp=normalize(vSph);float latG=asin(clamp(sp.y,-1.0,1.0))*57.29577951;float lonG=atan(-sp.z,sp.x)*57.29577951;'
+   +'float wxG=snoise(vec3(sp.x*1.7+3.1,sp.y*1.7,sp.z*1.7));float wyG=snoise(vec3(sp.x*1.7,sp.y*1.7+7.3,sp.z*1.7));'
+   +'float lonW=lonG+10.0*wxG+3.0*snoise(vec3(sp.x*5.0+1.0,sp.y*5.0,sp.z*5.0));float latW=latG+8.0*wyG+2.5*snoise(vec3(sp.x*5.0,sp.y*5.0+2.0,sp.z*5.0));'
+   +'float gF=maskG(lonW,latW)+0.16*fbm4(sp*2.4);float gCoast=gF-0.02;float gAA=max(fwidth(gCoast),1e-5)*0.8;float gLand=smoothstep(-gAA,gAA,gCoast);float gWater=1.0-gLand;';
+  var MAPFRAG='#ifdef USE_MAP\n vec4 texelColor=texture2D(map,vUv);texelColor=mapTexelToLinear(texelColor);vec3 landCol=texelColor.rgb;'
+   +'vec3 dspT=texture2D(uHgt,vUv).rgb;float lakeV=0.5*gaussG(lonG,latG,36.0,27.0,3.2)-dspT.b*1.15;float lakeAA=max(fwidth(lakeV),1e-5);float gLake=smoothstep(-lakeAA,lakeAA,lakeV)*gLand;'
+   +'float depth=smoothstep(0.02,-0.4,gF);float onz=snoise(sp*3.0+vec3(5.0,0.0,0.0));float dd=0.06+0.9*depth+0.06*onz*depth;'
+   +'vec3 ocean=mix(uShoal,uShelf,smoothstep(0.0,0.12,dd));ocean=mix(ocean,uDeep,smoothstep(0.08,0.55,dd));ocean*=1.0+0.06*(snoise(sp*38.0)*0.5+snoise(sp*90.0)*0.25);'
+   +'float lum=dot(landCol,vec3(0.3333));float beach=smoothstep(0.045,0.0,gCoast)*(1.0-smoothstep(0.45,0.7,lum))*0.75;landCol=mix(landCol,uSand,beach);'
+   +'vec3 water=mix(ocean,uLake*(0.9+0.2*depth),gLake);gWater=max(gWater,gLake);'
+   +'diffuseColor.rgb*=mix(landCol,water,gWater);\n#endif';
+  var ROUGHFRAG='float roughnessFactor=roughness;\n#ifdef USE_ROUGHNESSMAP\n vec4 texelRoughness=texture2D(roughnessMap,vUv);roughnessFactor*=mix(texelRoughness.g,0.3,gWater);\n#endif';
+  var NORMALX='normal=normalize(mix(normal,normalize(vNormal),gWater));'
+   +'{float mh=gWater>0.5?(snoise(sp*360.0+vec3(uTime*0.03))*0.5+snoise(sp*820.0-vec3(0.0,uTime*0.02,0.0))*0.25)*0.12:(snoise(sp*110.0)*0.5+snoise(sp*280.0)*0.25+(1.0-abs(snoise(sp*62.0)))*texture2D(uHgt,vUv).r*0.7);'
+   +'vec2 dH=vec2(dFdx(mh),dFdy(mh))*uBump;normal=bumpArb(-vViewPosition,normal,dH);}';
+  var EMIFRAG='#ifdef USE_EMISSIVEMAP\n vec4 emissiveColor = texture2D( emissiveMap, vUv );\n emissiveColor.rgb = emissiveMapTexelToLinear( emissiveColor ).rgb;\n float ndl = dot( normalize( normal ), uSun );\n float night = smoothstep( 0.18, -0.16, ndl );\n totalEmissiveRadiance *= emissiveColor.rgb * mix( 0.05, 1.0, night );\n#endif';
+
+  mat.onBeforeCompile=function(s){
+    for(var k in SHU)s.uniforms[k]=SHU[k];
+    if(ANALYTIC){
+      s.vertexShader='varying vec3 vSph;\n'+s.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\n vSph = normalize( position );');
+      s.fragmentShader=s.fragmentShader.replace('uniform vec3 emissive;','uniform vec3 emissive; uniform vec3 uSun; varying vec3 vSph; uniform vec4 uBlobs[18]; uniform float uBlobOn[18]; uniform float uTime; uniform float uBump; uniform sampler2D uHgt; uniform vec3 uShoal; uniform vec3 uShelf; uniform vec3 uDeep; uniform vec3 uLake; uniform vec3 uSand;\n'+GLSL_NOISE)
+        .replace('void main() {','void main() {\n'+PRELUDE).replace('#include <map_fragment>',MAPFRAG).replace('#include <roughnessmap_fragment>',ROUGHFRAG)
+        .replace('#include <normal_fragment_maps>','#include <normal_fragment_maps>\n'+NORMALX).replace('#include <emissivemap_fragment>',EMIFRAG);
+    }else{
+      s.fragmentShader=s.fragmentShader.replace('uniform vec3 emissive;','uniform vec3 emissive; uniform vec3 uSun;').replace('#include <emissivemap_fragment>',EMIFRAG);
+    }
+  };
+  planet=new T.Mesh(new T.SphereGeometry(1,MOBILE?256:768,MOBILE?128:384),mat);group.add(planet);
   clouds=new T.Mesh(new T.SphereGeometry(1.022,128,64),new T.MeshStandardMaterial({map:tex(CLD,CW,CH,true),transparent:true,depthWrite:false,roughness:1,metalness:0,opacity:.92}));group.add(clouds);
   var atmoV='varying vec3 vN; varying vec3 vW; void main(){ vN = normalize( normalMatrix * normal ); vW = normalize( ( modelMatrix * vec4( position, 1.0 ) ).xyz ); gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 ); }';
   atmoOut=new T.Mesh(new T.SphereGeometry(1.09,96,48),new T.ShaderMaterial({uniforms:{uSunW:{value:sunDir}},vertexShader:atmoV,fragmentShader:'varying vec3 vN; varying vec3 vW; uniform vec3 uSunW; void main(){ float i = pow( 0.52 - dot( vN, vec3( 0.0, 0.0, 1.0 ) ), 3.2 ); float day = smoothstep( -0.35, 0.45, dot( vW, uSunW ) ); vec3 c = mix( vec3( 0.36, 0.55, 0.95 ), vec3( 0.95, 0.62, 0.36 ), pow( 1.0 - day, 3.0 ) * 0.6 ); gl_FragColor = vec4( c * i * ( 0.15 + 0.85 * day ), 1.0 ); }',side:T.BackSide,blending:T.AdditiveBlending,transparent:true,depthWrite:false}));scene.add(atmoOut);
@@ -367,6 +421,7 @@ function loop(t){
   group.rotation.y=spinAngle;group.updateMatrixWorld();
   camera.position.set(cam.r*Math.sin(cam.phi)*Math.cos(cam.theta),cam.r*Math.cos(cam.phi),cam.r*Math.sin(cam.phi)*Math.sin(cam.theta));camera.lookAt(0,0,0);camera.updateMatrixWorld();
   sunView.copy(sunDir).transformDirection(camera.matrixWorldInverse);if(clouds)clouds.rotation.y=spinAngle*.06+t*.000012;
+  if(SHU){SHU.uTime.value=t*.001;SHU.uBump.value=.0007*sstep(4.6,1.7,cam.r);}
   renderer.render(scene,camera);updatePins();if(mctx&&(t|0)%6===0)drawMini();
 }
 function drawMini(){
