@@ -76,3 +76,54 @@ html:has(#game.show) #foot{display:none!important}
 #dlgBook .cxMeta{display:flex;flex-wrap:wrap;gap:6px 14px;margin:-5px 0 16px;padding:9px 11px;border-left:2px solid rgba(132,88,0,.45);background:rgba(132,88,0,.06);color:#756d60;font-size:9.5px;line-height:1.7;letter-spacing:.04em}
 #dlgBook .cxMeta span{display:block}
 @media(max-width:760px){.world-opening{font-size:12px}.dlgActions{gap:12px}#dlgBook .cxSearchBar{margin-top:8px}#dlgBook .cxSearchBar input{font-size:16px}#dlgBook .cxSearchBar span{font-size:9px}#dlgBook .cxMeta{margin-bottom:10px}}
+
+/* ---- 泛大陆星球（开局「地点」步与正文地图面板共用） ---- */
+.wpmHost{position:absolute;inset:0;overflow:hidden}
+.wpmHost.space{background:#05070c}
+.wpmCv{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:grab;touch-action:none;outline:0}
+.wpmCv.drag{cursor:grabbing}
+.wpmPins{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.wpmPin{position:absolute;left:0;top:0;opacity:0;pointer-events:none;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap;transition:opacity .25s;will-change:transform}
+.wpmPin i{width:7px;height:7px;border-radius:50%;background:#d6a64e;box-shadow:0 0 0 2px rgba(5,7,12,.7),0 0 9px rgba(214,166,78,.7);flex:none}
+.wpmPin.k-sacred i{background:#6aa7b4;box-shadow:0 0 0 2px rgba(5,7,12,.7),0 0 9px rgba(106,167,180,.8)}
+.wpmPin.k-forbid i{background:#c8582c;box-shadow:0 0 0 2px rgba(5,7,12,.7),0 0 9px rgba(200,88,44,.9)}
+.wpmPin.k-god i{background:#fff3c4;box-shadow:0 0 0 2px rgba(5,7,12,.7),0 0 11px rgba(255,243,196,.9)}
+.wpmPin.k-gate i{background:#b08ad6;box-shadow:0 0 0 2px rgba(5,7,12,.7),0 0 9px rgba(176,138,214,.9)}
+.wpmPin.k-sea i{background:transparent;border:1.5px solid #cfd9d6;box-shadow:none}
+.wpmPin.k-free i{background:#fff;box-shadow:0 0 0 2px rgba(5,7,12,.7),0 0 9px #fff}
+.wpmPin span{font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:#ece5d4;text-shadow:0 1px 2px #000,0 0 8px rgba(0,0,0,.95)}
+.wpmPin.t1 span{font-size:13px;font-weight:700}
+.wpmPin.t3 span{font-size:11px;color:#b9b1a0}
+.wpmPin.sel i{transform:scale(1.5)}
+.wpmPin.sel span{color:#f1c76d}
+#feBg.planetOn #feMapIn img{display:none}
+#feBg.planetOn #feMap{cursor:default}
+#feWrap[data-step="loc"] #fePanR.locPlanet{display:flex}
+#feWrap[data-step="loc"] #fePanR.locPlanet #feLocInfo{display:block}
+#feWrap[data-step="loc"] #fePanR.locPlanet #feLocPreview{display:none}
+#feWrap[data-step="loc"] #fePanR.locPlanet .feGl{display:block;background:rgba(235,227,209,.82);border:0;box-shadow:none;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+#feWrap[data-step="loc"] #fePanR.locPlanet>.feIn{padding:22px 24px;overflow:auto}
+#feWrap[data-step="loc"] #fePanL .feIn{max-height:calc(100vh - 160px);overflow:auto}
+.feRouteH{margin:0 0 8px}
+.feRoutes{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:16px}
+.feRoutes .feLoc{padding:8px 10px}
+.feRoutes .feLoc b{font-size:11px}
+.feSite b{font-size:12px}
+#feLocInfo .lw br{content:"";display:block;margin-top:6px}
+/* 正文面板：星球挂在面板左缘，右侧地志 */
+#gmMap .wpmHost{background:radial-gradient(circle at 28% 50%,rgba(19,18,13,.34),rgba(19,18,13,0) 46%)}
+#worldMapDetail .wpmGeo{font-family:var(--mono);font-size:8.5px;letter-spacing:.06em;color:#6f6757}
+#worldMapDetail .wpmRef{font-size:8px;letter-spacing:.08em;color:#8a8170}
+#worldMapNotice{display:none}
+@media (max-width:860px){
+  #feWrap[data-step="loc"] #fePanL{height:auto;max-height:36%}
+  #feWrap[data-step="loc"] #fePanR.locPlanet{height:auto;max-height:30%}
+  #feWrap[data-step="loc"] #fePanR.locPlanet>.feIn{padding:12px 14px}
+  .wpmPin span{font-size:11px}
+}
+/* 地图面板两种版式 */
+#gmMap.wpmTall #worldMapHud{top:auto;left:12px;right:12px;bottom:14px;width:auto;max-height:44%}
+#gmMap.wpmTall #worldMapLayers{position:absolute;right:0;top:-8px;transform:translateY(-100%)}
+#gmMap.wpmTall #worldMapDetail{min-height:0;overflow:auto}
+#gmMap.wpmWide #worldMapHud{right:12px;top:48px;bottom:18px;width:46%}
+@media (max-width:760px){#gmMap.wpmWide #worldMapHud{width:48%}}

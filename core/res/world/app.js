@@ -6,7 +6,7 @@ const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => [...document.querySelectorAll(selector)];
 const esc = (value) => String(value ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const steps = ['loc', 'per', 'soc', 'sit'];
-const stepNames = { loc: '模式', per: '人物', soc: '同伴', sit: '开场' };
+const stepNames = { loc: '地点', per: '人物', soc: '同伴', sit: '开场' };
 const agency = [
   '不得替玩家角色说话或描写玩家未输入的内心决定',
   '告白、服从、原谅与关系升级必须由玩家明确选择',
@@ -17,7 +17,7 @@ const agency = [
 
 const state = {
   index: null, customization: null, intros: null, era: null, eraIndex: 0, step: 'loc', route: 'preset',
-  cardId: null, companions: new Map(), custom: {}, player: null, history: [], busy: false, error: '',
+  cardId: null, companions: new Map(), custom: {}, player: null, history: [], busy: false, error: '', loc: null,
 };
 
 function apiSettings() {
@@ -69,19 +69,34 @@ async function chooseEra() {
   const chosen = meta();
   try {
     const response = await fetch(`${DATA_ROOT}${chosen.bundle}`); if (!response.ok) throw new Error(`时代资料读取失败（${response.status}）`);
-    state.era = await response.json(); state.era.image = chosen.image; state.route = 'preset'; state.cardId = state.era.cards.find((item) => item.isMainDragon)?.id || state.era.cards[0].id; state.companions.clear(); state.custom = {}; state.step = 'loc';
+    state.era = await response.json(); state.era.image = chosen.image; state.route = 'preset'; state.cardId = state.era.cards.find((item) => item.isMainDragon)?.id || state.era.cards[0].id; state.companions.clear(); state.custom = {}; state.loc = null; state.step = 'loc';
     openForge();
   } catch (error) { $('#esEra').textContent = error.message; }
 }
 
 function openForge() {
-  hideAll(); const wrap = $('#feWrap'); wrap.classList.add('on'); $('#fePanR').classList.add('locArtOn'); $('#feMapImg').src = state.era.image; $('#feMapImg').alt = state.era.name; $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
+  hideAll(); const wrap = $('#feWrap'); wrap.classList.add('on'); $('#fePanR').classList.remove('locArtOn'); $('#fePanR').classList.add('locPlanet'); $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
+  mountPlanet('forge');
   state.step = ''; setStep('loc', false, true);
 }
+/* 星球：开局「地点」步铺满底层，正文时挂进地图面板；两处是同一颗星球。 */
+function planet() { return window.WORLD_PLANET_MAP || null; }
+function mountPlanet(mode) {
+  const map = planet(); if (!map) return;
+  if (!map._wired) {
+    map._wired = true;
+    map.onPick((site) => { if (!site) return; state.loc = site; if (state.step === 'loc' && $('#feWrap').classList.contains('on')) renderRoute(); if ($('#game').classList.contains('show')) $('#gLoc').textContent = gameHeader(); });
+    map.onProgress((f, label) => { const el = $('#feLocW'); if (el && state.step === 'loc' && !state.loc) el.textContent = f < 1 ? `星球生成中 · ${label} ${Math.round(f * 100)}%` : ''; });
+  }
+  if (mode === 'forge') { $('#feBg').classList.add('planetOn'); map.mountForge($('#feBg')); } else map.mountPanel($('#gmMap'));
+  map.render({ era: state.era });
+  if (state.loc) { if (state.loc.free && map.ready()) map.selectCoord(state.loc.lon, state.loc.lat); else if (!state.loc.free) map.select(state.loc.id); }
+}
+function gameHeader() { return `${state.era.name}${state.loc ? ' · ' + state.loc.name : ''} · ${state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name}`; }
 function applyStep(next) {
   if (state.step === 'per' && state.route === 'custom') state.custom = readCustom();
   state.step = next;
-  $('#fePanR').classList.toggle('locArtOn', next === 'loc');
+  $('#fePanR').classList.toggle('locPlanet', next === 'loc'); $('#feBg').classList.toggle('planetOn', next === 'loc');
   renderForge();
 }
 const FE_TURN = 190;
@@ -109,10 +124,15 @@ function renderForge() {
   $('#feHint').textContent = `● ${state.route === 'preset' ? 'VERBATIM' : 'PLAYER API'} · ${rangeText(state.era.sourceRange)}`;
 }
 function renderRoute() {
-  $('#feLocList').innerHTML = `<button class="feLoc ${state.route === 'preset' ? 'on' : ''}" data-route="preset"><b>默认正典开局</b><span>VERBATIM · 原文逐字</span></button><button class="feLoc ${state.route === 'custom' ? 'on' : ''}" data-route="custom"><b>自定义 API 开局</b><span>PLAYER API · 本局生成</span></button>`;
-  $('#feLocN').textContent = state.route === 'preset' ? '01' : '02'; $('#feLocCn').textContent = state.route === 'preset' ? '默认正典开局' : '自定义 API 开局';
-  $('#feLocD').textContent = state.route === 'preset' ? `直接显示《${state.era.opening.chapterTitle}》的正典开场，不改字、不拼接。` : '由玩家填写身份边界和当下目标，再交给玩家自己的 API；生成内容不写入正典。';
-  $('#feLocW').textContent = state.route === 'preset' ? '连续正典正文 · 无需 API' : '不得新增人物、国家、历史、能力、私交、秘密或后世知识。';
+  const map = planet(); const sites = map ? map.sitesFor(state.era.ordinal, 'surface') : [];
+  const routeHtml = `<div class="feColH feRouteH">开局方式</div><div class="feRoutes"><button class="feLoc feRoute ${state.route === 'preset' ? 'on' : ''}" data-route="preset"><b>默认正典开局</b><span>VERBATIM · 原文逐字</span></button><button class="feLoc feRoute ${state.route === 'custom' ? 'on' : ''}" data-route="custom"><b>自定义 API 开局</b><span>PLAYER API · 本局生成</span></button></div>`;
+  const siteHtml = sites.length ? `<div class="feColH feRouteH">这一代能落脚的地方 · ${sites.length}</div>` + sites.map((site, index) => `<button class="feLoc feSite ${state.loc && state.loc.id === site.id ? 'on' : ''}" data-site="${esc(site.id)}"><b>${esc(site.name)}</b><span>${String(index + 1).padStart(2, '0')} · ${esc(site.kind)}${site.unplaced ? ' · 方位未载' : ''}</span></button>`).join('') : `<div class="feNote">星球资料载入中…</div>`;
+  $('#feLocList').innerHTML = routeHtml + siteHtml;
+  const loc = state.loc;
+  $('#feLocN').textContent = loc ? (loc.free ? 'LOCVS' : String(Math.max(1, sites.findIndex((site) => site.id === loc.id) + 1)).padStart(2, '0')) : '—';
+  $('#feLocCn').textContent = loc ? loc.name : '在星球上拣一处';
+  $('#feLocD').textContent = loc ? loc.summary : '转动星球，点一处地名落脚；也可以点任意座标，神谕会按那里的地貌铺陈场面。留空则由默认开局决定。';
+  $('#feLocW').innerHTML = loc ? `${esc([loc.region, loc.biome, loc.elev].filter(Boolean).join(' · '))}${loc.coord ? ' · ' + esc(loc.coord) : ''}${loc.ref ? `<br>原文 · ${esc(loc.ref)}` : ''}<br>${state.route === 'preset' ? `开局仍按《${esc(state.era.opening.chapterTitle)}》原文逐字进入；地点写进玩家档案，供之后的对话取用。` : '自定义开局会把这一处的地貌与出处交给神谕。'}` : (state.route === 'preset' ? `连续正典正文 · 无需 API` : '不得新增人物、国家、历史、能力、私交、秘密或后世知识。');
 }
 function selectCard(id) { state.cardId = id; renderPersona(); }
 function renderPersona() {
@@ -169,7 +189,7 @@ async function beginGame() {
   try { const opening = await generate($('#feSit').value.trim() || '请依据玩家填写内容和本时代证据建立开局，在玩家必须回应处停下。', true); state.history.push({ role: 'assistant', content: opening, label: '玩家 API 自定义开局' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); }
 }
 function showGame() {
-  hideAll(); $('#game').classList.add('show'); $('#gLoc').textContent = `${state.era.name} · ${state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name}`;
+  hideAll(); $('#game').classList.add('show'); $('#gLoc').textContent = gameHeader(); mountPlanet('panel');
   $('#gNarr').innerHTML = `<p class="sys">▚&nbsp;ACTVS&nbsp;I</p>${state.error ? `<p class="world-error">${esc(state.error)}</p>` : ''}${state.history.map((message) => `<p class="${message.role === 'user' ? 'me' : ''}"><span class="world-label">${esc(message.label)}</span>${esc(message.content)}</p>`).join('')}${state.busy ? '<p class="sys">ORACVLVM · 玩家 API 正在生成…</p>' : ''}<div class="gEot">·&nbsp;&nbsp;·&nbsp;&nbsp;EOT&nbsp;&nbsp;·&nbsp;&nbsp;·</div>`;
   if (window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.render(state);
   $('#gIn').disabled = state.busy; $('#gSend').classList.toggle('off', state.busy); if (window.WORLD_GAME_UI) window.WORLD_GAME_UI.show(); if (window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.hydrate(); requestAnimationFrame(() => { $('#gNarr').scrollTop = $('#gNarr').scrollHeight; });
@@ -185,6 +205,8 @@ function stateAnchors() {
     `【时代名：${state.era.name}】`,
     `【路线：${state.route === 'preset' ? '默认正典开局' : '自定义API开局'}】`,
     `【开局节点：${state.era.opening.chapterTitle}】`,
+    state.loc && `【所在地点：${state.loc.name}${state.loc.kind ? '（' + state.loc.kind + '）' : ''}】`,
+    state.loc && `【地点地志：${[state.loc.region, state.loc.biome, state.loc.elev].filter(Boolean).join('，')}。${state.loc.summary}】`,
     playerName && `【玩家：${playerName}】`,
     ...companionNames.map((name) => `【同伴：${name}】`),
   ].filter(Boolean).join('\n');
@@ -232,6 +254,7 @@ async function sendMessage() { const input = $('#gIn'); const text = input.value
 
 document.addEventListener('click', (event) => {
   const route = event.target.closest('[data-route]'); if (route) { state.route = route.dataset.route; renderRoute(); return; }
+  const site = event.target.closest('[data-site]'); if (site) { planet()?.select(site.dataset.site); return; }
   const persona = event.target.closest('[data-card]'); if (persona) { selectCard(persona.dataset.card); return; }
   const companion = event.target.closest('[data-companion]'); if (companion) { const id = companion.dataset.companion; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); return; }
 });
@@ -255,9 +278,9 @@ async function init() {
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },
       showMenu,
-      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
+      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, loc: state.loc, cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
       saveAuto() { if (state.player) { localStorage.setItem('guardianDragonAutoSave', JSON.stringify(this.snapshot())); $('#miCont').style.display = ''; } },
-      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
+      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.loc = snapshot.loc || null; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
       async loadAuto() { const raw = localStorage.getItem('guardianDragonAutoSave'); if (raw) await this.restore(JSON.parse(raw)); },
       lore() { return state.era?.lorebook || []; },
       loreDebug(query = '') { const packet = state.era && state.player ? retrieveLore(query) : ''; return { packet, ...(state.lastLoreActivation || {}), sourceArchiveScanned: false }; },
@@ -265,7 +288,7 @@ async function init() {
       async redo() { if (state.busy || !state.lastUndone?.user) return; const text = state.lastUndone.user.content; state.lastUndone = null; await sendMessageText(text); },
     };
     window.WORLD_UI_STATE = () => state;
-    window.__FELVN_STATE__ = () => ({ panel: { npcs: (state.player?.companions || []).map((item) => ({ name: item.name, role: item.relation })), world: { '纪年': state.era?.name || '', '时地': state.era?.name || '' } }, op: { era: state.era?.name || '', scene: state.era?.name || '', year: state.era?.ordinal || 1 }, text: state.history.at(-1)?.content || '', hero: state.player?.mode === 'preset' ? state.player?.card?.name : state.player?.custom?.name });
+    window.__FELVN_STATE__ = () => ({ panel: { npcs: (state.player?.companions || []).map((item) => ({ name: item.name, role: item.relation })), world: { '纪年': state.era?.name || '', '时地': state.loc ? `${state.era?.name || ''} · ${state.loc.name}` : (state.era?.name || '') } }, op: { era: state.era?.name || '', scene: state.era?.name || '', year: state.era?.ordinal || 1 }, text: state.history.at(-1)?.content || '', hero: state.player?.mode === 'preset' ? state.player?.card?.name : state.player?.custom?.name });
     if (localStorage.getItem('guardianDragonAutoSave')) $('#miCont').style.display = '';
     showMenu();
   }

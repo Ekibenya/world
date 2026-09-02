@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/core/res/font/world-fonts.css?v=10">
   <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=12">
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
-  <link rel="stylesheet" href="/core/res/world/app.css?v=17">
+  <link rel="stylesheet" href="/core/res/world/app.css?v=18">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -153,16 +153,15 @@
   </div>
   <div class="gPanel" id="pnMap">
     <div id="gmMap" data-nodrag>
-      <canvas id="gmapCv" tabindex="0" aria-label="可拖动旋转、滚轮缩放的世界星球地图"></canvas>
       <div id="worldMapHud">
         <div id="worldMapLayers"><button type="button" class="on" data-layer="surface">地表</button><button type="button" data-layer="gateway">界门</button></div>
         <div id="worldMapStatus">同一世界 · 正典地理载入中</div>
         <div id="worldMapDetail"><b>世界地图</b><p>正在读取本书的大陆、国家与地点。</p></div>
         <div id="worldMapLoose"></div>
-        <div id="worldMapNotice">原文实证地理 · 轮廓与点位按相对方位示意</div>
+        <div id="worldMapNotice">原文实证地理 · 地形按原文相对方位与地貌生成</div>
       </div>
     </div>
-    <div class="pnTitle"><i>◆</i>&nbsp;世界星球图&nbsp;&nbsp;—&nbsp;&nbsp;拖动旋转 · 滚轮缩放<b class="tg" title="拖我，这扇窗跟着转">↔</b></div>
+    <div class="pnTitle"><i>◆</i>&nbsp;泛大陆星球&nbsp;&nbsp;—&nbsp;&nbsp;拖动旋转 · 滚轮缩放 · 双击定位<b class="tg" title="拖我，这扇窗跟着转">↔</b></div>
     <div class="pFade"></div>
   </div>
   <div class="gPanel" id="pnArm">
@@ -701,7 +700,7 @@
         <div class="feSec" data-s="loc">
           <div class="feColH">这一代能落脚的地方</div>
           <div id="feLocList"></div>
-          <div class="feNote">图上也可以直接点。</div>
+          <div class="feNote">星球上直接点地名，或点任意座标落脚。</div>
         </div>
         <div class="feSec" data-s="per">
           <div class="feColH">预设角色&nbsp;·&nbsp;此代在册者</div>
@@ -797,10 +796,11 @@
   <script src="/core/res/world/world-era-intro.js?v=19"></script>
   <script src="/core/res/world/mvu-shell.js?v=10"></script>
   <script src="/core/res/world/world-mvu-content.js?v=17"></script>
-  <script src="/core/res/world/world-planet-map.js?v=27"></script>
+  <script src="/core/res/vendor/three.r128.min.js"></script>
+  <script src="/core/res/world/world-planet-map.js?v=28"></script>
   <script src="/core/res/world/game-ui-shell.js?v=19"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
-  <script type="module" src="/core/res/world/app.js?v=20"></script>
+  <script type="module" src="/core/res/world/app.js?v=21"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
 </body>
 </html>
