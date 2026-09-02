@@ -13,6 +13,7 @@
   function anchor(){if(!W||!W.player)return null;return W.player.mode==='preset'?W.player.card:W.player.anchor;}
   function evidenceAt(list,idx){
     list=Array.isArray(list)?list:[];
+    if(list.length&&list.every(function(item){return item.sourceIndex==null;}))return list[0].text||'';
     for(var i=0;i<list.length;i++)if(Number(list[i].sourceIndex)===Number(idx))return list[i].text||'';
     for(var j=list.length-1;j>=0;j--)if(Number(list[j].sourceIndex)<=Number(idx))return list[j].text||'';
     return list[0]&&list[0].text||'';
@@ -67,7 +68,7 @@
   }
   function situationSection(){
     var op=W.era.opening,h='<div class="mSec"><div class="mHead"><i>◆</i>&nbsp;当前局势</div>';
-    h+=textRow('纪年',W.era.name)+textRow('时地',op.chapterTitle)+textRow('原文节点',op.startParagraph+'–'+op.endParagraph)+textRow('正典范围','第 '+W.era.sourceRange[0]+'–'+W.era.sourceRange[1]+' 源章');
+    h+=textRow('纪年',W.era.name)+textRow('时地',op.chapterTitle)+textRow('正典范围','当前时代完整剧情阶段');
     if(W.error)h+=textRow('神谕',W.error);
     return h+'</div>';
   }
@@ -112,9 +113,9 @@
   function refresh(){render();if(window.WORLD_MVU)window.WORLD_MVU.mount();requestAnimationFrame(hydrate);}
   function npcByName(name){return (W&&W.era&&W.era.cards||[]).find(function(c){return c.name===name;});}
   function dossier(name){
-    var c=npcByName(name);if(!c)return '';var idx=W.era.opening.sourceIndex,dialogs=(c.eraSafeDialogueSamples||[]).filter(function(x){return Number(x.sourceIndex)<=Number(idx);}).slice(-3),minds=(c.eraSafeInnerThoughtSamples||[]).filter(function(x){return Number(x.sourceIndex)<=Number(idx);}).slice(-3);
+    var c=npcByName(name);if(!c)return '';var idx=W.era.opening.sourceIndex,dialogs=(c.eraSafeDialogueSamples||[]).slice(0,3),minds=(c.eraSafeInnerThoughtSamples||[]).slice(0,3);
     function quotes(list){return list.length?list.map(function(x){return '<span class="fd-quote">'+esc(x.text)+'</span>';}).join(''):'<span class="fd-nd">无　载</span>';}
-    return '<div class="fd-row"><span class="fd-k">身份</span><span class="fd-v">'+esc(evidenceAt(c.canonIdentityEvidence,idx)||'无　载')+'</span></div><div class="fd-row"><span class="fd-k">原文对白</span><span class="fd-v">'+quotes(dialogs)+'</span></div><div class="fd-row"><span class="fd-k">原文心声</span><span class="fd-v">'+quotes(minds)+'</span></div><div class="fd-row"><span class="fd-k">知识边界</span><span class="fd-v">'+esc(c.knowledgeBoundary&&c.knowledgeBoundary.rule||'无　载')+'</span></div><div class="fd-last">SOURCE // THROUGH '+esc(W.era.opening.chapterTitle)+'</div>';
+    return '<div class="fd-row"><span class="fd-k">身份</span><span class="fd-v">'+esc(evidenceAt(c.canonIdentityEvidence,idx)||'无　载')+'</span></div><div class="fd-row"><span class="fd-k">对白声口</span><span class="fd-v">'+quotes(dialogs)+'</span></div><div class="fd-row"><span class="fd-k">直接心声</span><span class="fd-v">'+quotes(minds)+'</span></div><div class="fd-row"><span class="fd-k">知识边界</span><span class="fd-v">'+esc(c.knowledgeBoundary&&c.knowledgeBoundary.rule||'无　载')+'</span></div><div class="fd-last">当前时代 // 角色档案</div>';
   }
   function openDossier(name){
     selectedNpc=name;var old=document.getElementById('fdOv');if(old)old.remove();

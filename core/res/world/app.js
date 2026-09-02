@@ -11,8 +11,8 @@ const agency = [
   '不得替玩家角色说话或描写玩家未输入的内心决定',
   '告白、服从、原谅与关系升级必须由玩家明确选择',
   '杀人、牺牲与不可逆身体变化必须由玩家明确选择',
-  '不得让 NPC 自动读心；非当前视角的心声通过行为泄露',
-  '不得补写原文没有的人物、国家、历史、能力与隐藏真相',
+  '不得让非玩家人物自动读心；非当前视角的心声通过行为泄露',
+  '不得补写当前时代世界书没有的人物、国家、历史、能力与隐藏真相',
 ];
 
 const state = {
@@ -26,7 +26,7 @@ function apiSettings() {
 function meta() { return state.index.eras[state.eraIndex]; }
 function card(id = state.cardId) { return state.era?.cards.find((item) => item.id === id) || null; }
 function cardPortrait(item) { return item?.portrait || (item?.id ? `/art/portraits/${state.era.id}/${item.id}.png` : ''); }
-function rangeText(range) { return `第 ${range[0]}–${range[1]} 源章`; }
+function rangeText(range) { return `${range[1] - range[0] + 1} 个连续剧情节点`; }
 function hideAll() { $('#menu').classList.remove('show'); $('#eraSel').classList.remove('on'); $('#feWrap').classList.remove('on'); $('#game').classList.remove('show'); if (window.WORLD_MVU) window.WORLD_MVU.stop(); }
 function showMenu() { hideAll(); window.MENU.on = true; $('#menu').classList.add('show'); if (window.mosStart) window.mosStart(); }
 function openSettings(message = '') {
@@ -100,15 +100,15 @@ function renderForge() {
 function renderRoute() {
   $('#feLocList').innerHTML = `<button class="feLoc ${state.route === 'preset' ? 'on' : ''}" data-route="preset"><b>默认正典开局</b><span>VERBATIM · 原文逐字</span></button><button class="feLoc ${state.route === 'custom' ? 'on' : ''}" data-route="custom"><b>自定义 API 开局</b><span>PLAYER API · 本局生成</span></button>`;
   $('#feLocN').textContent = state.route === 'preset' ? '01' : '02'; $('#feLocCn').textContent = state.route === 'preset' ? '默认正典开局' : '自定义 API 开局';
-  $('#feLocD').textContent = state.route === 'preset' ? `直接显示《${state.era.opening.chapterTitle}》${state.era.opening.startParagraph}–${state.era.opening.endParagraph}，不改字、不拼接。` : '由玩家填写身份边界和当下目标，再交给玩家自己的 API；生成内容不写入正典。';
-  $('#feLocW').textContent = state.route === 'preset' ? `${state.era.opening.paragraphCount} 段连续原文 · 无需 API` : '不得新增人物、国家、历史、能力、私交、秘密或后世知识。';
+  $('#feLocD').textContent = state.route === 'preset' ? `直接显示《${state.era.opening.chapterTitle}》的正典开场，不改字、不拼接。` : '由玩家填写身份边界和当下目标，再交给玩家自己的 API；生成内容不写入正典。';
+  $('#feLocW').textContent = state.route === 'preset' ? '连续正典正文 · 无需 API' : '不得新增人物、国家、历史、能力、私交、秘密或后世知识。';
 }
 function selectCard(id) { state.cardId = id; renderPersona(); }
 function renderPersona() {
   const selected = card(); $('#fePreList').innerHTML = state.era.cards.map((item) => `<button class="fePre ${item.id === state.cardId ? 'on' : ''}" data-card="${esc(item.id)}"><b>${esc(item.name)}</b><span>${item.isMainDragon ? '主角龙 · 本时代形态' : '正典可选角色'} · ${item.eraSafeDialogueSamples.length} 条本期对白</span></button>`).join('');
   turnPortrait(cardPortrait(selected), selected.name, selected.name); $('#fePerT').textContent = state.route === 'preset' ? '人物档案' : '存在条件锚点';
   $('#fePerDoss').innerHTML = cardDossier(selected);
-  $('#fePerNote').textContent = state.route === 'preset' ? '对白、心声、思考方式与知识边界均来自原文证据。' : '锚点只限制自定义角色能否在本时代存在；不会把玩家变成该正典人物。';
+  $('#fePerNote').textContent = state.route === 'preset' ? '身份、判断方式、声口与知识边界均已整理为可直接扮演的正典角色档案。' : '锚点只限制自定义角色能否在本时代存在；不会把玩家变成该正典人物。';
   $('#fePerForm').innerHTML = state.route === 'custom' ? customFields() : '';
 }
 const FE_PTURN = 190;
@@ -121,15 +121,15 @@ function turnPortrait(src, alt, capText) {
   const preload = new Image(); preload.onload = () => { loaded = true; done(); }; preload.onerror = () => { if (box._run !== run) return; img.removeAttribute('src'); img.classList.remove('ready'); if (cap) cap.textContent = capText; box.classList.remove('pTurn', 'pEnter'); };
   box.classList.add('pTurn'); box._t = setTimeout(() => { box._t = 0; turned = true; done(); }, FE_PTURN); box._g = setTimeout(() => { box._g = 0; if (box._run === run && !loaded) box.classList.remove('pTurn', 'pEnter'); }, 2600); preload.src = src;
 }
-function evidence(items, limit = 4) { return (items || []).slice(0, limit).map((item) => `${esc(item.text)}<small>第 ${item.sourceIndex} 源章</small>`).join(''); }
+function evidence(items, limit = 4) { return (items || []).slice(0, limit).map((item) => esc(item.text ?? item)).join(''); }
 function cardDossier(item) {
   const dialogue = item.eraSafeDialogueSamples?.slice(0, 4) || []; const thoughts = item.eraSafeInnerThoughtSamples?.slice(0, 3) || [];
-  return `<b>身份与行动证据</b><div class="world-evidence">${evidence(item.canonIdentityEvidence)}</div><b>思考模式证据</b><div class="world-evidence">${evidence(item.thoughtEngine.privateEngineEvidence)}</div><b>原文对白样本</b><div class="world-evidence">${dialogue.length ? evidence(dialogue) : '本时代无可直接归属的对白，不伪造。'}</div><b>原文直接心声</b><div class="world-evidence">${thoughts.length ? evidence(thoughts) : esc(item.thoughtEngine.absenceRule)}</div>`;
+  return `<b>身份与处境</b><div class="world-evidence">${evidence(item.canonIdentityEvidence)}</div><b>判断与行动方式</b><div class="world-evidence">${evidence(item.thoughtEngine.privateEngineEvidence)}</div><b>对白声口样本</b><div class="world-evidence">${dialogue.length ? evidence(dialogue) : '本时代无可直接归属的对白，不伪造。'}</div><b>直接心声样本</b><div class="world-evidence">${thoughts.length ? evidence(thoughts) : esc(item.thoughtEngine.absenceRule)}</div>`;
 }
 function customFields() {
   const c = state.custom;
   const knowledge = ['只知道本时代公共知识', '不超过锚点角色已知范围', '比锚点知道得更少', '对隐藏真相一无所知'];
-  return `<label>玩家自定姓名<input id="cuName" maxlength="40" value="${esc(c.name)}" placeholder="不新增家族史"></label><label>物种与身体形态<input id="cuSpecies" maxlength="160" value="${esc(c.speciesForm)}" placeholder="由 API 按本时代原文核对"></label><label>社会位置<input id="cuSocial" maxlength="180" value="${esc(c.social)}" placeholder="只填写本时代已有的位置"></label><label>知识范围<select id="cuKnowledge">${knowledge.map((item) => `<option ${item === c.knowledge ? 'selected' : ''}>${item}</option>`).join('')}</select></label><label>能力与完整限制<textarea id="cuCapability" placeholder="能力、代价、触发条件和上限成组填写">${esc(c.capability)}</textarea></label><label>原文未限定的外观<textarea id="cuAppearance" placeholder="不能新增器官、血统或能力">${esc(c.appearance)}</textarea></label><label>眼前目标<textarea id="cuWant" placeholder="与本时代事件兼容的即时目标">${esc(c.want)}</textarea></label><label>惯常解释与盲点<textarea id="cuMind" placeholder="怎样解释、怎样误判、怎样修正">${esc(c.mentalEngine)}</textarea></label><label>压力反应<textarea id="cuPressure" placeholder="紧迫时先注意什么、如何恢复">${esc(c.pressureResponse)}</textarea></label><label>说话习惯<textarea id="cuVoice" placeholder="不复制正典角色台词">${esc(c.dialogueSignature)}</textarea></label><label>真实风险与代价<textarea id="cuRisk" placeholder="只能取自时代危机和身份限制">${esc(c.risk)}</textarea></label>`;
+  return `<label>玩家自定姓名<input id="cuName" maxlength="40" value="${esc(c.name)}" placeholder="不新增家族史"></label><label>物种与身体形态<input id="cuSpecies" maxlength="160" value="${esc(c.speciesForm)}" placeholder="由 API 按当前时代世界书核对"></label><label>社会位置<input id="cuSocial" maxlength="180" value="${esc(c.social)}" placeholder="只填写本时代已有的位置"></label><label>知识范围<select id="cuKnowledge">${knowledge.map((item) => `<option ${item === c.knowledge ? 'selected' : ''}>${item}</option>`).join('')}</select></label><label>能力与完整限制<textarea id="cuCapability" placeholder="能力、代价、触发条件和上限成组填写">${esc(c.capability)}</textarea></label><label>正典未限定的外观<textarea id="cuAppearance" placeholder="不能新增器官、血统或能力">${esc(c.appearance)}</textarea></label><label>眼前目标<textarea id="cuWant" placeholder="与本时代事件兼容的即时目标">${esc(c.want)}</textarea></label><label>惯常解释与盲点<textarea id="cuMind" placeholder="怎样解释、怎样误判、怎样修正">${esc(c.mentalEngine)}</textarea></label><label>压力反应<textarea id="cuPressure" placeholder="紧迫时先注意什么、如何恢复">${esc(c.pressureResponse)}</textarea></label><label>说话习惯<textarea id="cuVoice" placeholder="不复制正典角色台词">${esc(c.dialogueSignature)}</textarea></label><label>真实风险与代价<textarea id="cuRisk" placeholder="只能取自时代危机和身份限制">${esc(c.risk)}</textarea></label>`;
 }
 function readCustom() {
   const get = (id) => $(id)?.value.trim() || '';
@@ -144,7 +144,7 @@ function renderCompanions() {
 function renderOpening() {
   const isPreset = state.route === 'preset'; $('#feSit').style.display = isPreset ? 'none' : 'block'; const help = document.querySelector('#fePanL .feSec[data-s="sit"] .sub'); if (help) help.textContent = isPreset ? '下方是该节点选定的连续原文。不会按角色另写，也不会重述。' : '填写玩家希望发生在本时代正典边界内的眼前场面。内容将交给玩家自己的 API。';
   $('#feSit').placeholder = '只写玩家身份、眼前目标和可见场面；不要新增世界设定。';
-  $('#feSum').innerHTML = isPreset ? `<b>${esc(state.era.opening.chapterTitle)} · ${esc(state.era.opening.startParagraph)}–${esc(state.era.opening.endParagraph)}</b><div class="world-opening">${esc(state.era.opening.verbatim)}</div>` : `<b>PLAYER API</b> 自定义开局不会写入仓库，也不会被标记为原文。`;
+  $('#feSum').innerHTML = isPreset ? `<b>${esc(state.era.opening.chapterTitle)}</b><div class="world-opening">${esc(state.era.opening.verbatim)}</div>` : `<b>PLAYER API</b> 自定义开局不会写入仓库，也不会被标记为正典。`;
 }
 function companionPacket() { return [...state.companions].map(([id, relation]) => ({ name: card(id)?.name, relation })); }
 
@@ -174,7 +174,6 @@ function stateAnchors() {
     `【时代名：${state.era.name}】`,
     `【路线：${state.route === 'preset' ? '默认正典开局' : '自定义API开局'}】`,
     `【开局节点：${state.era.opening.chapterTitle}】`,
-    `【源章上限：${state.era.sourceRange[1]}】`,
     playerName && `【玩家：${playerName}】`,
     ...companionNames.map((name) => `【同伴：${name}】`),
   ].filter(Boolean).join('\n');
@@ -186,17 +185,35 @@ function retrieveLore(query) {
   const recentHistory = state.history.filter(({ role }) => role === 'user').slice(-4).map(({ content }) => `玩家: ${content}`).join('\n');
   const primaryScan = `${query}\n${recentHistory}\n${manualMemory || ''}`;
   const secondaryScan = `${primaryScan}\n${stateAnchors()}`;
-  const budget = Math.max(3000, Number($('#loreBud')?.value || 9000));
-  const result = selectLoreEntries({ entries: enabled, primaryScan, secondaryScan, budget, maxEntries: 24 });
+  const budget = Math.max(3000, Number($('#loreBud')?.value || 7000));
+  const alwaysCharacters = always.reduce((sum, content) => sum + content.length, 0);
+  const selectedBudget = Math.max(0, budget - alwaysCharacters - String(manualMemory || '').length);
+  const result = selectLoreEntries({ entries: enabled, primaryScan, secondaryScan, budget: selectedBudget, maxEntries: 16 });
   const activations = result.chosen.map(({ entry, primaryHits, secondaryHits }) => ({ id: entry.id, title: entry.title, primaryHits, secondaryHits }));
-  state.lastLoreActivation = { anchors: stateAnchors(), activations, usedCharacters: result.usedCharacters, candidateCount: result.candidateCount, scannedEntryCount: enabled.length - always.length };
+  state.lastLoreActivation = { anchors: stateAnchors(), activations, usedCharacters: alwaysCharacters + result.usedCharacters + String(manualMemory || '').length, candidateCount: result.candidateCount, scannedEntryCount: enabled.length - always.length };
   return [manualMemory, ...always, result.chosen.map((item) => item.packet).join('\n\n')].filter(Boolean).join('\n\n');
 }
-function compactCard(item) { return item ? { name: item.name, identityEvidence: item.canonIdentityEvidence, eraDragonChronology: item.eraDragonChronology, thoughtEngine: item.thoughtEngine, dialogueSamples: item.cumulativeVoiceArchiveThroughEraEnd.dialogue, innerThoughtSamples: item.cumulativeVoiceArchiveThroughEraEnd.innerThought, knowledgeBoundary: item.knowledgeBoundary, playerAgencyRule: item.playerAgencyRule, canonClosureRule: item.canonClosureRule } : null; }
+function runtimeTexts(items, limit) { return [...new Set((items || []).map((entry) => String(entry?.text ?? entry ?? '').replace(/\s+/g, ' ').trim()).filter(Boolean))].slice(0, limit); }
+function compactCard(item) {
+  if (!item) return null;
+  return {
+    name: item.name,
+    identityAndSituation: runtimeTexts(item.canonIdentityEvidence, 6),
+    decisionPatterns: runtimeTexts(item.thoughtEngine?.sourceDerivedDecisionPatterns ?? item.thoughtEngine?.privateEngineEvidence, 6),
+    currentForms: runtimeTexts(item.eraDragonChronology?.formEvidence, 3),
+    currentStates: runtimeTexts(item.eraDragonChronology?.stateEvidence, 3),
+    knowledgeLimits: runtimeTexts(item.eraDragonChronology?.knowledgeEvidence, 3),
+    dialogueSamples: runtimeTexts(item.eraSafeDialogueSamples, 5),
+    innerThoughtSamples: runtimeTexts(item.eraSafeInnerThoughtSamples, 3),
+    knowledgeBoundary: item.knowledgeBoundary?.rule ?? item.knowledgeBoundary,
+    playerAgencyRule: item.playerAgencyRule,
+    canonClosureRule: item.canonClosureRule,
+  };
+}
 function buildSystem(query, customOpening) {
   const player = state.player.mode === 'preset' ? { route: 'preset', card: compactCard(state.player.card) } : { route: 'custom', settings: state.player.custom, anchorEvidenceOnly: compactCard(state.player.anchor) };
   const companions = state.player.companions.map((entry) => ({ ...entry, card: compactCard(state.era.cards.find((item) => item.name === entry.name)) }));
-  return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面提供的原文证据。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。证据不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成原文人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与时代证据冲突时必须停下列出来源内可选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的原文样本与决策证据，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于原文。' : '默认开局已逐字提供，不得重写。'}\n\n【当前时代】\n${state.era.name}，${rangeText(state.era.sourceRange)}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按请求检索到的世界书】\n${retrieveLore(query)}`;
+  return `你正在运行《无论你是否称呼我为守护龙，我都要去睡觉》的封闭正典角色扮演。\n\n【绝对边界】\n只能使用下面注入的当前时代正典、角色档案与世界书。禁止新增人物、国家、历史、制度、能力、血缘、私交、秘密真相或后世知识。资料不足就让角色不知道。不得把系统正典自动变成角色知识。不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。\n\n【自定义玩家角色的唯一例外】\n自定义路线只允许玩家填写本局身份，不得把它写成正典人物或世界正典，也不得新增家族、国家、机构、种族、能力来源、旧交或其他人物。与当前世界书冲突时必须停下列出可用选项。\n\n【叙事与人物声音】\n使用自然中文，呈现韩国连载网文译文式的连续意识。当前视角依次经历感知、暂时解释、联想或自我辩解、修正判断和行动。对话依据每个角色自己的声口样本与决策方式，保持有限视角，不逐行跳进多个头脑。每次回应保持清楚因果，并在玩家必须回应处停下。\n\n【开局模式】\n${customOpening ? '玩家 API 自定义开局，不得声称生成内容属于正典。' : '默认正典开局已提供，不得重写。'}\n\n【当前时代】\n${state.era.name}。\n\n【玩家】\n${JSON.stringify(player, null, 2)}\n\n【同伴契约】\n${JSON.stringify(companions, null, 2)}\n\n【玩家主权】\n${agency.join('\n')}\n\n【按当前对话触发的世界书】\n${retrieveLore(query)}`;
 }
 async function generate(text, customOpening = false) { const config = apiSettings(); if (!config.endpoint || !config.model || !config.apiKey) throw new Error('请先填写接口、模型和密钥。'); return requestChatCompletion(config, [{ role: 'system', content: buildSystem(text, customOpening) }, ...state.history.map(({ role, content }) => ({ role, content })), { role: 'user', content: text }]); }
 async function sendMessageText(text) { if (!text || state.busy) return; state.error = ''; state.history.push({ role: 'user', content: text, label: '玩家' }); state.busy = true; showGame(); try { state.history.push({ role: 'assistant', content: await generate(text), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); } }

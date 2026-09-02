@@ -14,7 +14,7 @@ export function exactKeyHits(text, keys) {
   });
 }
 
-export function selectLoreEntries({ entries, primaryScan, secondaryScan, budget = 9000, maxEntries = 24 }) {
+export function selectLoreEntries({ entries, primaryScan, secondaryScan, budget = 7000, maxEntries = 16 }) {
   const scored = entries.filter((entry) => entry.enabled !== false && !entry.constant).map((entry) => {
     const primaryHits = exactKeyHits(primaryScan, entry.keys);
     const secondaryHits = exactKeyHits(secondaryScan, entry.secondaryKeys);
@@ -33,7 +33,7 @@ export function selectLoreEntries({ entries, primaryScan, secondaryScan, budget 
   let usedCharacters = 0;
   for (const item of scored) {
     const packet = `【${item.entry.title || item.entry.memo || item.entry.id}】\n${item.entry.content}`;
-    if (chosen.length && usedCharacters + packet.length > budget) continue;
+    if (usedCharacters + packet.length > budget) continue;
     chosen.push({ ...item, packet });
     usedCharacters += packet.length;
     if (usedCharacters >= budget || chosen.length >= maxEntries) break;

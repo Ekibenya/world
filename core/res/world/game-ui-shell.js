@@ -144,9 +144,7 @@
       {id:'setting-economy',section:'world',label:'经济与生活',categories:['setting-economy']},
       {id:'setting-power',section:'mechanics',label:'能力与系统',categories:['setting-power']},
       {id:'setting-object',section:'mechanics',label:'物件与资源',categories:['setting-object']},
-      {id:'history-event',section:'history',label:'正典事件',categories:['history-event']},
-      {id:'continuity-state',section:'history',label:'已建立状态',categories:['continuity-state']},
-      {id:'canon-unknown',section:'history',label:'未解事项',categories:['canon-unknown']},
+      {id:'history-event',section:'history',label:'剧情状态',categories:['history-event']},
       {id:'premise',section:'rules',label:'时代边界',categories:['premise']},
       {id:'canon-rule',section:'rules',label:'正典规则',categories:['canon-rule']},
       {id:'era-rule',section:'rules',label:'时代限制',categories:['era-rule']},
@@ -172,7 +170,7 @@
         .replace(/Ante、Be…/g,'底注、下注等规则…').replace(/Ante/g,'底注').replace(/Bet/g,'下注').replace(/Raise/g,'加注').replace(/Fold/g,'弃牌').replace(/Check/g,'让牌').replace(/Call/g,'跟注').replace(/All-?In/gi,'全押').replace(/Meta/g,'策略风向')
         .replace(/伊伦・M・普莱奥内/g,'伊伦・普莱奥内').replace(/V角/g,'双叉角');
     }
-    function fullTitle(entry,index){var value=entry.title||entry.keys&&entry.keys[0]||('条目 '+(index+1));if(/…$/.test(value)&&entry.sourceRef&&entry.sourceRef.sourceText){var prefix=(value.match(/^【[^】]+】/)||[''])[0];value=prefix+entry.sourceRef.sourceText;}value=chineseTitle(value);return value.length>72?value.slice(0,72)+'…':value;}
+    function fullTitle(entry,index){var value=entry.title||entry.keys&&entry.keys[0]||('条目 '+(index+1));value=chineseTitle(value);return value.length>72?value.slice(0,72)+'…':value;}
     function shortTitle(entry,index){return fullTitle(entry,index).replace(/^【[^】]+】/,'');}
     function subjectOf(entry,index){return shortTitle(entry,index).split('｜')[0].trim();}
     function facetRank(category){return ({'character-profile':0,'secondary-character-profile':0,'character-experience':1,'secondary-character-experience':1,'character-motivation':2,'secondary-character-motivation':2,'character-voice':3,'secondary-character-voice':3,'character-relations':4,'secondary-character-relations':4,'character-timeline':5})[category]||0;}
@@ -181,13 +179,13 @@
       var list=[];lore.forEach(function(entry,index){if(groupOf(entry).id!==group.id)return;if(query&&searchable(entry,index).indexOf(query)<0)return;list.push({entry:entry,i:index});});
       return list.sort(function(a,b){
         if(group.section==='characters'){var sa=subjectOf(a.entry,a.i),sb=subjectOf(b.entry,b.i),subjectOrder=sa.localeCompare(sb,'zh-CN');return subjectOrder||facetRank(a.entry.category)-facetRank(b.entry.category)||a.i-b.i;}
-        if(group.section==='history'){var ai=a.entry.sourceRef&&a.entry.sourceRef.sourceIndex||0,bi=b.entry.sourceRef&&b.entry.sourceRef.sourceIndex||0;return ai-bi||((a.entry.sourceRef&&a.entry.sourceRef.sequence||0)-(b.entry.sourceRef&&b.entry.sourceRef.sequence||0))||a.i-b.i;}
+        if(group.section==='history')return a.i-b.i;
         if(group.section==='rules')return (b.entry.order||0)-(a.entry.order||0)||fullTitle(a.entry,a.i).localeCompare(fullTitle(b.entry,b.i),'zh-CN');
         return fullTitle(a.entry,a.i).localeCompare(fullTitle(b.entry,b.i),'zh-CN');
       });
     }
     var tab=dialog.querySelector('.cxTab'),tag=dialog.querySelector('.tag'),heading=dialog.querySelector('h2'),wrap=dialog.querySelector('.cxWrap');
-    if(tab)tab.textContent='当前时代正典';if(tag)tag.textContent='世界书';if(heading)heading.textContent='资料库 · 世界书';
+    if(tab)tab.textContent='当前时代正典';if(tag)tag.textContent='世界书';if(heading)heading.textContent='当前时代 · 世界书';
     var search=dialog.querySelector('#cxSearch');if(!search&&wrap){var bar=document.createElement('div');bar.className='cxSearchBar';bar.innerHTML='<input id="cxSearch" type="search" placeholder="搜索人物、地点、事件、关键词或正文"><span id="cxSearchCount"></span>';wrap.parentNode.insertBefore(bar,wrap);search=bar.querySelector('#cxSearch');}
     var body=dialog.querySelector('.cxBody'),meta=dialog.querySelector('#cxMeta');if(!meta&&body){meta=document.createElement('div');meta.id='cxMeta';meta.className='cxMeta';body.insertBefore(meta,$('#cxTxt'));}
     var activeSection='characters',activeGroup='preset',query='';
@@ -196,9 +194,9 @@
     function visibleSections(){return sections.filter(function(section){return visibleGroups(section.id).length>0;});}
     function sectionCount(sectionId){return visibleGroups(sectionId).reduce(function(sum,group){return sum+countGroup(group);},0);}
     function showEntry(index){
-      var entry=lore[index];if(!entry)return;var group=groupOf(entry),keys=(entry.keys||[]).slice(0,8),source=entry.sourceRef&&entry.sourceRef.chapterTitle?entry.sourceRef.chapterTitle+(entry.sourceRef.sourceIndex?' · 第'+entry.sourceRef.sourceIndex+'节':''):'';
+      var entry=lore[index];if(!entry)return;var group=groupOf(entry),keys=(entry.keys||[]).slice(0,8);
       $('#cxTtl').textContent=fullTitle(entry,index);$('#cxTxt').textContent=entry.content||'';
-      if(meta)meta.innerHTML='<span>'+esc(sectionById[group.section].label)+'／'+esc(group.label)+'</span>'+(keys.length?'<span>触发词：'+esc(keys.join('、'))+'</span>':'<span>常驻条目</span>')+(source?'<span>原文来源：'+esc(source)+'</span>':'');
+      if(meta)meta.innerHTML='<span>'+esc(sectionById[group.section].label)+'／'+esc(group.label)+'</span>'+(keys.length?'<span>触发词：'+esc(keys.join('、'))+'</span>':'<span>常驻条目</span>');
       ents.querySelectorAll('.cxEnt').forEach(function(item){item.classList.toggle('on',Number(item.getAttribute('data-entry'))===index);});if(body)body.scrollTop=0;
     }
     function renderEntries(){
