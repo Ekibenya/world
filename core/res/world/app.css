@@ -133,3 +133,31 @@ html:has(#game.show) #foot{display:none!important}
 #menuStatus{position:absolute;left:50%;bottom:44px;transform:translateX(-50%);z-index:3;font-family:var(--mono);font-size:9px;letter-spacing:.3em;color:#7e7868;pointer-events:none;white-space:nowrap}
 #menuStatus:empty{display:none}
 #menu .mItems{z-index:3}
+/* 地图面板：不倾斜、放大 */
+#pnMap{--gpTilt:0deg;--gpFit:1;width:min(calc(100vw - 118px),1160px);top:34px;bottom:10px}
+#game.mapOpen #pnMap{transform:none}
+#gmMap.wpmWide #worldMapHud{width:40%;top:44px;bottom:16px;right:14px}
+#gmMap.wpmWide.wpmEditing #worldMapHud{width:42%}
+/* 地形编辑器 */
+#wmTools{display:flex;justify-content:flex-end;margin-top:8px;pointer-events:auto}
+#wmEdit{padding:6px 12px;background:rgba(126,91,32,.92);border:1px solid rgba(126,91,32,.95);color:#f2ecde;font-size:9.5px;letter-spacing:.16em;cursor:pointer}
+#wmEdit:hover{background:#5b3e12}
+#wmEdit[hidden]{display:none}
+#wmEditor{margin-top:10px;padding:10px 11px;background:rgba(237,231,217,.84);border:1px solid rgba(19,18,13,.17);pointer-events:auto;display:flex;flex-direction:column;gap:8px}
+#wmEditor[hidden]{display:none}
+.wmRow{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.wmRow>span{font-size:8.5px;letter-spacing:.18em;color:var(--mut);margin-right:2px}
+#wmEditor button{padding:5px 9px;background:rgba(255,255,255,.55);border:1px solid rgba(19,18,13,.18);color:#4a4237;font-size:9.5px;letter-spacing:.08em;cursor:pointer}
+#wmEditor button:hover{border-color:var(--gold)}
+#wmEditor button.on{background:rgba(126,91,32,.9);border-color:rgba(126,91,32,.95);color:#f2ecde}
+.wmSliders label{display:flex;align-items:center;gap:6px;font-size:8.5px;letter-spacing:.14em;color:var(--mut)}
+.wmSliders input[type=range]{width:110px;accent-color:#845800}
+.wmSliders b{font-weight:400;font-family:var(--mono);font-size:9px;color:#4a4237;min-width:38px}
+#wmStats{font-family:var(--mono);font-size:9px;letter-spacing:.06em;color:#513600}
+.wmActs{justify-content:flex-end;border-top:1px solid rgba(19,18,13,.12);padding-top:8px}
+#wmApply{background:#513600!important;border-color:#513600!important;color:#f2ecde!important;font-weight:600}
+#wmApply:hover{background:#2f1e00!important}
+.wmHint{font-size:7.5px;letter-spacing:.06em;line-height:1.55;color:rgba(73,67,56,.7)}
+#gmMap.wpmEditing #worldMapDetail,#gmMap.wpmEditing #worldMapLoose,#gmMap.wpmEditing #worldMapLayers{display:none}
+#gmMap.wpmEditing .wpmCv{cursor:crosshair}
+@media (max-width:760px){#pnMap{width:auto}#wmEditor{padding:7px 8px;gap:6px}.wmSliders input[type=range]{width:80px}#wmEditor button{padding:5px 7px;font-size:9px}}

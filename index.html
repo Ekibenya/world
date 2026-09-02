@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="/core/res/font/world-fonts.css?v=10">
   <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=13">
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
-  <link rel="stylesheet" href="/core/res/world/app.css?v=19">
+  <link rel="stylesheet" href="/core/res/world/app.css?v=20">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -154,6 +154,15 @@
     <div id="gmMap" data-nodrag>
       <div id="worldMapHud">
         <div id="worldMapLayers"><button type="button" class="on" data-layer="surface">地表</button><button type="button" data-layer="gateway">界门</button></div>
+        <div id="wmTools"><button type="button" id="wmEdit" hidden>✎ 修改世界地形</button></div>
+        <div id="wmEditor" hidden>
+          <div class="wmRow wmTools2"><button type="button" data-tool="raise" class="on">抬升陆地</button><button type="button" data-tool="lower">沉降为海</button><button type="button" data-tool="mount">隆起山脉</button><button type="button" data-tool="flat">夷平</button><button type="button" data-tool="pan">转动星球</button></div>
+          <div class="wmRow wmTypes"><span>地貌</span><button type="button" data-type="1">沙漠</button><button type="button" data-type="2">草原</button><button type="button" data-type="3">森林</button><button type="button" data-type="4">雪原</button><button type="button" data-type="5">焦土</button></div>
+          <div class="wmRow wmSliders"><label>笔刷<input id="wmSize" type="range" min="1" max="24" step="1" value="6"><b id="wmSizeV"></b></label><label>力度<input id="wmStr" type="range" min="1" max="10" step="1" value="5"><b id="wmStrV"></b></label></div>
+          <div id="wmStats"></div>
+          <div class="wmRow wmActs"><button type="button" id="wmUndo">撤销</button><button type="button" id="wmReset">全部还原</button><button type="button" id="wmCancel">取消</button><button type="button" id="wmApply">确认修改地形</button></div>
+          <div class="wmHint">拖动雕刻 · 右键或双指转动 · 滚轮缩放 · 确认后改动会作为世界事件交给神谕</div>
+        </div>
         <div id="worldMapStatus">同一世界 · 正典地理载入中</div>
         <div id="worldMapDetail"><b>世界地图</b><p>正在读取本书的大陆、国家与地点。</p></div>
         <div id="worldMapLoose"></div>
@@ -796,10 +805,10 @@
   <script src="/core/res/world/mvu-shell.js?v=10"></script>
   <script src="/core/res/world/world-mvu-content.js?v=17"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
-  <script src="/core/res/world/world-planet-map.js?v=30"></script>
+  <script src="/core/res/world/world-planet-map.js?v=31"></script>
   <script src="/core/res/world/game-ui-shell.js?v=19"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
-  <script type="module" src="/core/res/world/app.js?v=22"></script>
+  <script type="module" src="/core/res/world/app.js?v=23"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
 </body>
 </html>

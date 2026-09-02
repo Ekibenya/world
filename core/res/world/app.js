@@ -73,7 +73,7 @@ async function chooseEra() {
   const chosen = meta();
   try {
     const response = await fetch(`${DATA_ROOT}${chosen.bundle}`); if (!response.ok) throw new Error(`时代资料读取失败（${response.status}）`);
-    state.era = await response.json(); state.era.image = chosen.image; state.route = 'preset'; state.cardId = state.era.cards.find((item) => item.isMainDragon)?.id || state.era.cards[0].id; state.companions.clear(); state.custom = {}; state.loc = null; state.step = 'loc';
+    state.era = await response.json(); state.era.image = chosen.image; state.route = 'preset'; state.cardId = state.era.cards.find((item) => item.isMainDragon)?.id || state.era.cards[0].id; state.companions.clear(); state.custom = {}; state.loc = null; state.terrain = null; state.step = 'loc'; planet()?.resetEdits();
     openForge();
   } catch (error) { $('#esEra').textContent = error.message; }
 }
@@ -90,10 +90,12 @@ function mountPlanet(mode) {
   if (!map._wired) {
     map._wired = true;
     map.onPick((site) => { if (!site) return; state.loc = site; if (state.step === 'loc' && $('#feWrap').classList.contains('on')) renderRoute(); if ($('#game').classList.contains('show')) $('#gLoc').textContent = gameHeader(); });
+    map.onTerraform((report) => terraform(report));
     map.onProgress((f, label) => { const el = $('#feLocW'); if (el && state.step === 'loc' && !state.loc) el.textContent = f < 1 ? `星球生成中 · ${label} ${Math.round(f * 100)}%` : ''; });
   }
   if (mode === 'forge') { $('#feBg').classList.add('planetOn'); map.mountForge($('#feBg')); } else map.mountPanel($('#gmMap'));
   map.render({ era: state.era });
+  if (state.terrain) { map.replay(state.terrain); state.terrain = null; }
   if (state.loc) { if (state.loc.free && map.ready()) map.selectCoord(state.loc.lon, state.loc.lat); else if (!state.loc.free) map.select(state.loc.id); }
 }
 function gameHeader() { return `${state.era.name}${state.loc ? ' · ' + state.loc.name : ''} · ${state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name}`; }
@@ -254,6 +256,13 @@ function buildSystem(query, customOpening) {
 }
 async function generate(text, customOpening = false) { const config = apiSettings(); if (!config.endpoint || !config.model || !config.apiKey) throw new Error('请先填写接口、模型和密钥。'); return requestChatCompletion(config, [{ role: 'system', content: buildSystem(text, customOpening) }, ...state.history.map(({ role, content }) => ({ role, content })), { role: 'user', content: text }]); }
 async function sendMessageText(text) { if (!text || state.busy) return; state.error = ''; state.history.push({ role: 'user', content: text, label: '玩家' }); state.busy = true; showGame(); try { state.history.push({ role: 'assistant', content: await generate(text), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); } }
+/* 地形改动作为世界事件进入下一回合 */
+async function terraform(report) {
+  if (!report || state.busy) return; state.error = '';
+  const content = `【世界地形变动】\n${report}\n\n以上改动已经在世界中真实发生。请把它当作本回合的世界事件推进剧情：描写各地的见闻、受影响之地的处境与人物的反应，不得撤销、质疑或淡化这些改动。`;
+  state.history.push({ role: 'user', content, label: '创世 · 地形改动' }); state.busy = true; showGame();
+  try { state.history.push({ role: 'assistant', content: await generate(content), label: '叙事' }); } catch (error) { state.error = error.message; } finally { state.busy = false; showGame(); }
+}
 async function sendMessage() { const input = $('#gIn'); const text = input.value.trim(); if (!text || state.busy) return; input.value = ''; await sendMessageText(text); }
 
 document.addEventListener('click', (event) => {
@@ -282,9 +291,9 @@ async function init() {
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },
       showMenu,
-      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, loc: state.loc, cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
+      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, loc: state.loc, terrain: planet()?.strokes() || [], cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
       saveAuto() { if (state.player) { localStorage.setItem('guardianDragonAutoSave', JSON.stringify(this.snapshot())); $('#miCont').style.display = ''; } },
-      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.loc = snapshot.loc || null; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
+      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.loc = snapshot.loc || null; state.terrain = snapshot.terrain || null; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
       async loadAuto() { const raw = localStorage.getItem('guardianDragonAutoSave'); if (raw) await this.restore(JSON.parse(raw)); },
       lore() { return state.era?.lorebook || []; },
       loreDebug(query = '') { const packet = state.era && state.player ? retrieveLore(query) : ''; return { packet, ...(state.lastLoreActivation || {}), sourceArchiveScanned: false }; },

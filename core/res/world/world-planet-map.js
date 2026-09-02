@@ -71,33 +71,39 @@ function eraFlags(o){return {nc:o>=12,cause:o>=6,crater:o>=23,pit:o>=20,blight:o
 var MOBILE=Math.min(window.innerWidth,window.innerHeight)<=760||(navigator.deviceMemory&&navigator.deviceMemory<4);
 var W=MOBILE?1024:2048,H=W/2;
 var HGT,HPRE,LAND,RIV,RNG,ALB,NRM,RGH,EMI0,EMI,DSP,FILL,CW=1024,CH=512,CLD,LW,LH,DIST;
+var BF,BHL,BON,BT,BM,BDET,EF,EH,ET,EW,EDT;   /* 基底缓存（烘焙一次）与玩家编辑层（Δ陆地、Δ高度、地貌类型与权重） */
 var ANALYTIC=!MOBILE;   /* 桌面：海岸线与湖岸在着色器里逐像素解析，不受贴图分辨率限制 */
-function alloc(){HGT=new Float32Array(W*H);HPRE=new Float32Array(W*H);FILL=new Uint8Array(W*H);LAND=new Uint8Array(W*H);RIV=new Uint8Array(W*H);RNG=new Float32Array(W*H);ALB=new Uint8Array(W*H*4);NRM=new Uint8Array(W*H*4);RGH=new Uint8Array(W*H*4);EMI0=new Uint8Array(W*H*4);EMI=new Uint8Array(W*H*4);DSP=new Uint8Array(W*H*4);CLD=new Uint8Array(CW*CH*4);LW=W/4;LH=H/4;DIST=new Float32Array(LW*LH);}
+function alloc(){BF=new Float32Array(W*H);BHL=new Float32Array(W*H);BON=new Float32Array(W*H);BT=new Float32Array(W*H);BM=new Float32Array(W*H);BDET=new Float32Array(W*H);EF=new Float32Array(W*H);EH=new Float32Array(W*H);ET=new Uint8Array(W*H);EW=new Float32Array(W*H);EDT=new Uint8Array(W*H*4);HGT=new Float32Array(W*H);HPRE=new Float32Array(W*H);FILL=new Uint8Array(W*H);LAND=new Uint8Array(W*H);RIV=new Uint8Array(W*H);RNG=new Float32Array(W*H);ALB=new Uint8Array(W*H*4);NRM=new Uint8Array(W*H*4);RGH=new Uint8Array(W*H*4);EMI0=new Uint8Array(W*H*4);EMI=new Uint8Array(W*H*4);DSP=new Uint8Array(W*H*4);CLD=new Uint8Array(CW*CH*4);LW=W/4;LH=H/4;DIST=new Float32Array(LW*LH);}
 var v3=[0,0,0];
 function lonOf(x){return (x+.5)/W*360-180;}function latOf(y){return (y+.5)/H*180-90;}
 var BASEF=eraFlags(16);
-function heightPx(x,y,F){
-  var lat=latOf(y),lon=lonOf(x),idx=y*W+x,p=sph(lon,lat,v3),wx,wy,lonW,latW,f,land,coast,hills,R,rid,h;
+function heightPx(x,y,F){   /* 完整烘焙：写基底缓存，再按编辑层合成 */
+  var lat=latOf(y),lon=lonOf(x),idx=y*W+x,p=sph(lon,lat,v3),wx,wy,lonW,latW,f,coast,hills,R,rid,h;
   wx=n3(p[0]*1.7+3.1,p[1]*1.7,p[2]*1.7);wy=n3(p[0]*1.7,p[1]*1.7+7.3,p[2]*1.7);
   lonW=lon+10*wx+3*n3(p[0]*5+1,p[1]*5,p[2]*5);latW=lat+8*wy+2.5*n3(p[0]*5,p[1]*5+2,p[2]*5);
-  f=maskAt(lonW,latW,F.nc,F.cause)+.16*fbm(p[0]*2.4,p[1]*2.4,p[2]*2.4,4);land=f>0.02;
+  f=maskAt(lonW,latW,F.nc,F.cause)+.16*fbm(p[0]*2.4,p[1]*2.4,p[2]*2.4,4);
   R=rangeAt(lon,lat,F.nc);RNG[idx]=R;
-  if(land){
-    coast=sstep(0.02,.34,f);hills=fbm(p[0]*4.2+9,p[1]*4.2,p[2]*4.2,6,2.05,.5);
-    h=.03+coast*.14+(.09+.11*coast)*hills*(.5+.5*coast)+.05*Math.abs(hills);
-    if(R>.01){rid=ridged(p[0]*7+2,p[1]*7,p[2]*7,5);h+=R*(.28+.62*rid);}
-    h+=.55*gauss(lon,lat,-8,33,2.4)+.2*gauss(lon,lat,-8,33,6);
-    var dv=degDist(lon,lat,-45,8);if(dv<4.5){var cone=(1-dv/4.5);h+=.62*cone*cone;if(dv<.7)h-=.25*(1-dv/.7);}
-    if(F.nc)h+=.35*gauss(lon,lat,169,-15,3);
-    if(F.crater){var dc=degDist(lon,lat,-72,40);if(dc<2.2){h-=.13*sstep(2.2,.6,dc);if(dc>1.6&&dc<2.2)h+=.035;}}
-    if(F.pit){var dp=degDist(lon,lat,-35,64);if(dp<1.6){h-=.2*sstep(1.6,.4,dp);if(dp>1.2&&dp<1.6)h+=.03;}}
-    var dg=segDist(lon,lat,[-34,70],[-26,72.5]);if(dg<1.1)h-=.16*(1-dg/1.1);
-    if(F.cause&&lat>74&&lat<81.5&&blobF(BLOB_CAUSE,lon,lat)>-.3)h=Math.min(h,.03);   /* 黑石长堤：贴着海面的低堤 */
-    if(lat>81)h=Math.min(h,.06);   /* 极北冰岛：低矮的冰浪小岛 */
-    if(h<.012)h=.012;
-    HPRE[idx]=h;
-    h-=.5*gauss(lon,lat,36,27,3.2);if(h<.012&&h>-.02)h=.012;
-  }else{HPRE[idx]=0;coast=sstep(0.02,-.4,f);h=-(.06+.9*coast)+.06*fbm(p[0]*3+5,p[1]*3,p[2]*3,4)*coast-.06*R;if(h>-.02)h=-.02;}
+  coast=sstep(0.02,.34,f);hills=fbm(p[0]*4.2+9,p[1]*4.2,p[2]*4.2,6,2.05,.5);
+  h=.03+coast*.14+(.09+.11*coast)*hills*(.5+.5*coast)+.05*Math.abs(hills);
+  if(R>.01){rid=ridged(p[0]*7+2,p[1]*7,p[2]*7,5);h+=R*(.28+.62*rid);}
+  h+=.55*gauss(lon,lat,-8,33,2.4)+.2*gauss(lon,lat,-8,33,6);
+  var dv=degDist(lon,lat,-45,8);if(dv<4.5){var cone=(1-dv/4.5);h+=.62*cone*cone;if(dv<.7)h-=.25*(1-dv/.7);}
+  if(F.nc)h+=.35*gauss(lon,lat,169,-15,3);
+  if(F.crater){var dc=degDist(lon,lat,-72,40);if(dc<2.2){h-=.13*sstep(2.2,.6,dc);if(dc>1.6&&dc<2.2)h+=.035;}}
+  if(F.pit){var dp=degDist(lon,lat,-35,64);if(dp<1.6){h-=.2*sstep(1.6,.4,dp);if(dp>1.2&&dp<1.6)h+=.03;}}
+  var dg=segDist(lon,lat,[-34,70],[-26,72.5]);if(dg<1.1)h-=.16*(1-dg/1.1);
+  if(F.cause&&lat>74&&lat<81.5&&blobF(BLOB_CAUSE,lon,lat)>-.3)h=Math.min(h,.03);
+  if(lat>81)h=Math.min(h,.06);
+  if(h<.012)h=.012;
+  HPRE[idx]=h;
+  h-=.5*gauss(lon,lat,36,27,3.2);
+  BF[idx]=f;BHL[idx]=h;BON[idx]=fbm(p[0]*3+5,p[1]*3,p[2]*3,4);
+  composeHeight(idx,F);
+}
+function composeHeight(idx,F){
+  var f=Math.max(BF[idx],-.35)+EF[idx],h;   /* 深海的负值截到 -.35，玩家才抬得起新陆地 */
+  if(f>0.02){h=BHL[idx]+EH[idx];if(h<.012&&h>-.02)h=.012;}
+  else{var coast=sstep(0.02,-.4,f);h=-(.06+.9*coast)+.06*BON[idx]*coast-.06*RNG[idx]+Math.min(0,EH[idx]);if(h>-.02)h=-.02;}
   HGT[idx]=clamp(h,-1,1.15);LAND[idx]=HGT[idx]>0?1:0;
 }
 function genRivers(){
@@ -136,33 +142,41 @@ var COL={deep:C("#061a33"),shelf:C("#1d6f8c"),shoal:C("#3f9fb0"),sand:C("#d2b57a
 function mix3(a,b,t,o){o[0]=a[0]+(b[0]-a[0])*t;o[1]=a[1]+(b[1]-a[1])*t;o[2]=a[2]+(b[2]-a[2])*t;return o;}
 var c1=[0,0,0];
 /* 一个点的气候：温度、湿度（也供地志文字用） */
-function climate(x,y,lon,lat,h,p,F){
-  var T=Math.pow(Math.cos(lat*D2R),.9)*1.05-.55*Math.max(0,h)+.05*n3(p[0]*3+11,p[1]*3,p[2]*3);
+function climate(x,y,lon,lat,p,F){   /* 返回不含海拔项的温度 T0 与湿度 M */
+  var T=Math.pow(Math.cos(lat*D2R),.9)*1.05+.05*n3(p[0]*3+11,p[1]*3,p[2]*3);
   var M=.5+.5*fbm(p[0]*3.1+21,p[1]*3.1,p[2]*3.1,4);M=.33+.42*M+.3*Math.exp(-distAt(x,y)/22*(2048/W));
   M+=.16*Math.exp(-Math.pow((lat-4)/12,2))-.14*Math.exp(-Math.pow((Math.abs(lat)-24)/9,2));
   var wd=gauss(lon,lat,-42,13,11);M-=.9*wd;T+=.22*wd;var wf=gauss(lon,lat,-112,56,11);M+=.55*wf;
   var wa=gauss(lon,lat,-58,50,7);if(F.akk===2)M=lerp(M,.42,wa*.7);
   var wk=F.kun?gauss(lon,lat,85,47,6):0;M-=.8*wk;T+=.3*wk;
   if(F.deforest)M-=.14*gauss(lon,lat,-72,38,9)+.1*gauss(lon,lat,-92,44,5);
-  return {T:clamp(T,0,1),M:clamp(M,0,1),wf:wf,wa:wa,wk:wk,ww:gauss(lon,lat,-12,70,6)};
+  return {T0:T,M:clamp(M,0,1)};
 }
+function regional(lon,lat,F){return {wf:gauss(lon,lat,-112,56,11),ww:gauss(lon,lat,-12,70,6),wa:gauss(lon,lat,-58,50,7),wk:F.kun?gauss(lon,lat,85,47,6):0};}
 function biomeName(c,h,land){
   if(!land)return h>-.12?'近岸浅海':'深海';
   if(c.ww>.3)return '白夜冰原';var snow=clamp(sstep(.24,.1,c.T)+sstep(.64,.86,h)*sstep(.6,.3,c.T),0,1);
   if(snow>.5)return '雪线之上';if(h>.55)return '高山裸岩';if(c.wk>.3)return '焦土';if(c.M<.22&&c.T>.5)return '沙漠';if(c.M<.4)return '干草原';
   if(c.T<.3)return '苔原';if(c.M>.6&&c.T<.45)return '寒带针叶林';if(c.M>.6)return c.wf>.3?'精灵大森林':'温带森林';return c.T>.5?'草甸':'草原';
 }
-function surfacePx(x,y,F){
-  var lat=latOf(y),lon=lonOf(x),idx=y*W+x,i4=idx*4,h=HGT[idx],land=LAND[idx],p=sph(lon,lat,v3),c,det,coast,rough=.9,em0=0,em1=0,em2=0;
-  det=n3(p[0]*38,p[1]*38,p[2]*38)*.5+n3(p[0]*90,p[1]*90,p[2]*90)*.25;
-  if(!land||RIV[idx]){
-    var d=RIV[idx]?.12:-h;
-    if(RIV[idx]){c=mix3(COL.river,COL.lake,.4,c1);c[0]*=.85;c[1]*=.92;}
+function surfacePx(x,y,F){   /* 完整烘焙：缓存气候与细节噪声，再合成 */
+  var lat=latOf(y),lon=lonOf(x),idx=y*W+x,p=sph(lon,lat,v3);
+  BDET[idx]=n3(p[0]*38,p[1]*38,p[2]*38)*.5+n3(p[0]*90,p[1]*90,p[2]*90)*.25;
+  var k=climate(x,y,lon,lat,p,F);BT[idx]=k.T0;BM[idx]=k.M;
+  composeSurface(x,y,F);
+}
+function composeSurface(x,y,F){
+  var lat=latOf(y),lon=lonOf(x),idx=y*W+x,i4=idx*4,h=HGT[idx],land=LAND[idx],det=BDET[idx],c,coast,rough=.9,em0=0,em1=0,em2=0;
+  var ew=EW[idx],edited=ew>0||Math.abs(EF[idx])>.03||Math.abs(EH[idx])>.03,riv=RIV[idx]&&!edited;
+  if(!land||riv){
+    var d=riv?.12:-h;
+    if(riv){c=mix3(COL.river,COL.lake,.4,c1);c[0]*=.85;c[1]*=.92;}
     else{c=mix3(COL.shoal,COL.shelf,sstep(0,.12,d),c1);c=mix3(c,COL.deep,sstep(.08,.55,d),c1);var lk=gauss(lon,lat,36,27,3.6);if(lk>.05)c=mix3(c,COL.lake,lk*.8,c1);}
     c[0]*=1+det*.06;c[1]*=1+det*.06;c[2]*=1+det*.05;rough=.28+.06*(det+.5);
     var sd=gauss(lon,lat,-160,5,2.2);if(sd>.02){em0=60*sd;em1=150*sd;em2=170*sd;}
   }else{
-    var k=climate(x,y,lon,lat,h,p,F),T=k.T,M=k.M;
+    var T=clamp(BT[idx]-.55*Math.max(0,h),0,1),M=BM[idx],k=regional(lon,lat,F);
+    if(ew>0){var tp=ET[idx];if(tp===1){M=lerp(M,.05,ew);T=lerp(T,Math.max(T,.72),ew);}else if(tp===2){M=lerp(M,.48,ew);T=lerp(T,Math.max(T,.6),ew);}else if(tp===3){M=lerp(M,.9,ew);T=lerp(T,Math.max(T,.5),ew);}else if(tp===4){T=lerp(T,.02,ew);}}
     c=mix3(COL.grass,COL.meadow,sstep(.45,.62,M),c1);c=mix3(c,COL.forest,sstep(.56,.78,M)*sstep(.32,.52,T),c1);c=mix3(c,COL.elf,k.wf*sstep(.5,.75,M),c1);
     c=mix3(c,COL.dry,sstep(.42,.28,M),c1);c=mix3(c,COL.sand,sstep(.3,.14,M)*sstep(.45,.62,T),c1);c=mix3(c,COL.dune,sstep(.3,.14,M)*sstep(.45,.62,T)*(.5+.5*Math.abs(det))*.7,c1);
     c=mix3(c,COL.boreal,sstep(.52,.36,T)*sstep(.4,.6,M),c1);c=mix3(c,COL.tundra,sstep(.4,.22,T),c1);c=mix3(c,COL.rock,sstep(.42,.68,h),c1);c=mix3(c,COL.scree,sstep(.6,.82,h)*(.5+.5*det),c1);
@@ -170,11 +184,12 @@ function surfacePx(x,y,F){
     c=mix3(c,COL.ice,sstep(-70,-76,lat),c1);c=mix3(c,COL.wn,k.ww*.9,c1);if(k.ww>.03){em0=190*k.ww;em1=205*k.ww;em2=225*k.ww;}
     if(F.akk===1){var cw=k.wa*sstep(.2,.9,k.wa+.3);c=mix3(c,COL.curse,Math.min(1,cw*1.3)*(.8+.2*det),c1);}
     if(k.wk>.03)c=mix3(c,COL.scorch,Math.min(1,k.wk*1.2),c1);
+    if(ew>0&&ET[idx]===5)c=mix3(c,COL.scorch,ew*.9,c1);
     if(F.blight)c=mix3(c,COL.ash,gauss(lon,lat,-35,64,5)*.75,c1);
     if(F.pit){var dp=degDist(lon,lat,-35,64);if(dp<1.6)c=mix3(c,COL.rock,sstep(1.6,.6,dp)*.8,c1);}
     if(F.crater){var dc=degDist(lon,lat,-72,40);if(dc<2.2)c=mix3(c,COL.scree,sstep(2.2,1,dc)*.7,c1);}
     var dv=degDist(lon,lat,-45,8);
-    if(dv<5){var vw=sstep(5,2.5,dv);c=mix3(c,COL.ash,vw*.85,c1);var lv=sstep(2.6,.4,dv)*(.35+.65*Math.max(0,det*2+.5));c=mix3(c,COL.lava,vw,c1);var glow=clamp(lv*(0.6+0.8*Math.max(0,n3(p[0]*60,p[1]*60,p[2]*60))),0,1);em0=Math.max(em0,255*glow);em1=Math.max(em1,90*glow);em2=Math.max(em2,20*glow);}
+    if(dv<5){var vw=sstep(5,2.5,dv);c=mix3(c,COL.ash,vw*.85,c1);var lv=sstep(2.6,.4,dv)*(.35+.65*Math.max(0,det*2+.5));c=mix3(c,COL.lava,vw,c1);var pv=sph(lon,lat,v3),glow=clamp(lv*(0.6+0.8*Math.max(0,n3(pv[0]*60,pv[1]*60,pv[2]*60))),0,1);em0=Math.max(em0,255*glow);em1=Math.max(em1,90*glow);em2=Math.max(em2,20*glow);}
     coast=sstep(.03,.012,h);c=mix3(c,COL.sand,coast*(1-snow)*.8,c1);
     c[0]*=1+det*.14;c[1]*=1+det*.14;c[2]*=1+det*.12;rough=lerp(.92,.7,snow)-.05*det;
   }
@@ -182,6 +197,7 @@ function surfacePx(x,y,F){
   RGH[i4]=0;RGH[i4+1]=clamp(rough*255,0,255);RGH[i4+2]=0;RGH[i4+3]=255;
   EMI0[i4]=em0;EMI0[i4+1]=em1;EMI0[i4+2]=em2;EMI0[i4+3]=255;
   DSP[i4]=clamp(Math.max(0,h)/1.15,0,1)*255;DSP[i4+1]=clamp(-h,0,1)*255;DSP[i4+2]=clamp(HPRE[idx]/1.15,0,1)*255;DSP[i4+3]=255;
+  EDT[i4]=clamp(EF[idx]/.6*127.5+127.5,0,255);EDT[i4+1]=clamp(EH[idx]/.9*127.5+127.5,0,255);EDT[i4+2]=ET[idx];EDT[i4+3]=clamp(ew*255,0,255);
 }
 function genLights(o){
   EMI.set(EMI0);var F=eraFlags(o);if(!F.lights||!DATA)return;
@@ -235,6 +251,102 @@ function applyEra(o){
   if(rail)rail.visible=!!F.rail;if(isle)isle.visible=!!F.isle;
 }
 
+/* ---------- 地形编辑（捏大陆、隆山脉、改地貌） ---------- */
+var EDIT={on:false,tool:'raise',type:3,rad:6,str:5,gestures:[],cur:null,dirty:null,startIdx:0,baseLand:0,baseSites:null,onTerraform:null,pending:null,last:null};
+var TYPE_NAME={1:'沙漠',2:'草原',3:'森林',4:'雪原',5:'焦土'};
+function stampRect(op){var cl=Math.max(.15,Math.cos(op.lat*D2R)),rl=op.r*1.2/cl,rr=op.r*1.2;if(rl>=180)return {x0:0,x1:W-1,y0:pyOf(op.lat-rr),y1:pyOf(op.lat+rr)};return {x0:pxOf(op.lon-rl),x1:pxOf(op.lon+rl),y0:pyOf(op.lat-rr),y1:pyOf(op.lat+rr)};}
+function rectN(r){return r.x1>=r.x0?r.x1-r.x0:r.x1+W-r.x0;}
+function inRect(r,x,y){if(y<r.y0||y>r.y1)return false;return ((x-r.x0+W)%W)<=rectN(r);}
+function unionRect(a,b){if(!a)return {x0:b.x0,x1:b.x1,y0:b.y0,y1:b.y1};var r={y0:Math.min(a.y0,b.y0),y1:Math.max(a.y1,b.y1)};
+  if(a.x1<a.x0||b.x1<b.x0||Math.abs(a.x0-b.x0)>W/2){r.x0=0;r.x1=W-1;}else{r.x0=Math.min(a.x0,b.x0);r.x1=Math.max(a.x1,b.x1);}return r;}
+function applyStamp(op,clip){
+  var r=stampRect(op),n=rectN(r),x,y,idx,cl=Math.max(.15,Math.cos(op.lat*D2R)),F=eraFlags(VIEW.ord),k=op.s*.06;
+  for(y=r.y0;y<=r.y1;y++)for(x=0;x<=n;x++){var px=(r.x0+x)%W;if(clip&&!inRect(clip,px,y))continue;idx=y*W+px;
+    var lon=lonOf(px),lat=latOf(y),d=Math.sqrt(Math.pow(wrapLon(lon-op.lon)*cl,2)+Math.pow(lat-op.lat,2))/op.r;if(d>1.15)continue;
+    var w=Math.exp(-d*d*2.6)*(1-sstep(.85,1.15,d)),sv=k*w;if(sv<=0)continue;
+    if(op.t==='raise'){EF[idx]=Math.min(.6,EF[idx]+.3*sv);EH[idx]=Math.min(.9,EH[idx]+.05*sv);}
+    else if(op.t==='lower'){EF[idx]=Math.max(-.6,EF[idx]-.3*sv);EH[idx]=Math.max(-.9,EH[idx]-.06*sv);}
+    else if(op.t==='mount'){var p=sph(lon,lat,v3),rg=.6*(1-Math.abs(n3(p[0]*11+2,p[1]*11,p[2]*11)))+.4*(1-Math.abs(n3(p[0]*23,p[1]*23+1,p[2]*23)));EH[idx]=Math.min(.9,EH[idx]+.15*sv*(.25+.75*rg));if(Math.max(BF[idx],-.35)+EF[idx]<.05)EF[idx]=Math.min(.6,EF[idx]+.14*sv);}
+    else if(op.t==='flat'){if(LAND[idx])EH[idx]-=(HGT[idx]-.06)*Math.min(1,sv*.8);}
+    else if(op.t==='type'){if(ET[idx]!==op.k){if(sv>EW[idx]*.6){ET[idx]=op.k;EW[idx]=Math.min(1,sv*1.5);}}else EW[idx]=Math.min(1,EW[idx]+sv*1.5);}
+    composeHeight(idx,F);
+  }
+  return r;
+}
+function recompose(r){var n=rectN(r),x,y,F=eraFlags(VIEW.ord);
+  for(y=r.y0;y<=r.y1;y++)for(x=0;x<=n;x++)composeSurface((r.x0+x)%W,y,F);
+  for(y=Math.max(0,r.y0-1);y<=Math.min(H-1,r.y1+1);y++)for(x=-1;x<=n+1;x++)normalPx((r.x0+x+W)%W,y);
+  dilate(r.x0,r.y0,r.x1,r.y1,n);EDIT.dirty=unionRect(EDIT.dirty,r);
+}
+function rebuildRect(r){   /* 清零一块区域的编辑层，再把仍保留的笔触在该区域内重新叠加 */
+  var n=rectN(r),x,y,idx,F=eraFlags(VIEW.ord);
+  for(y=r.y0;y<=r.y1;y++)for(x=0;x<=n;x++){idx=y*W+((r.x0+x)%W);EF[idx]=0;EH[idx]=0;ET[idx]=0;EW[idx]=0;composeHeight(idx,F);}
+  EDIT.gestures.forEach(function(g){g.p.forEach(function(pt){applyStamp({t:g.t,k:g.k,r:g.r,s:g.s,lon:pt[0],lat:pt[1]},r);});});
+  recompose(r);
+}
+function gestureRect(g){var r=null;g.p.forEach(function(pt){r=unionRect(r,stampRect({lon:pt[0],lat:pt[1],r:g.r}));});return r;}
+function subTex(src,x0,y0,w,h){var out=new Uint8Array(w*h*4);for(var y=0;y<h;y++)out.set(src.subarray(((y0+y)*W+x0)*4,((y0+y)*W+x0+w)*4),y*w*4);var t=new T.DataTexture(out,w,h,T.RGBAFormat);t.flipY=false;return t;}
+function gpuPatch(r){if(!renderer||!TEXPAIRS)return;var rects=r.x1>=r.x0?[[r.x0,r.x1]]:[[r.x0,W-1],[0,r.x1]],h=r.y1-r.y0+1;
+  rects.forEach(function(q){var w=q[1]-q[0]+1;TEXPAIRS.forEach(function(pr){var st=subTex(pr[0],q[0],r.y0,w,h);try{renderer.copyTextureToTexture(new T.Vector2(q[0],r.y0),st,pr[1]);}catch(e){pr[1].needsUpdate=true;}st.dispose();});});}
+function texMips(on){if(!TEXS)return;TEXS.forEach(function(t){t.generateMipmaps=on;t.minFilter=on?T.LinearMipmapLinearFilter:T.LinearFilter;t.needsUpdate=true;});}
+function landFraction(){var y,x,acc=0,tot=0;for(y=0;y<H;y+=2){var wgt=Math.cos(latOf(y)*D2R);for(x=0;x<W;x+=2){tot+=wgt;if(LAND[y*W+x])acc+=wgt;}}return acc/tot;}
+function siteSnapshot(){var o={};if(DATA)DATA.sites.forEach(function(st){if(st.lat!=null&&inEra(st))o[st.id]=hAt(st.lon,st.lat);});return o;}
+var cursorRing=null;
+function startEdit(){
+  if(!READY||EDIT.on)return;EDIT.on=true;EDIT.startIdx=EDIT.gestures.length;EDIT.baseLand=landFraction();EDIT.baseSites=siteSnapshot();
+  texMips(false);if(host)host.classList.add('wpmEditing');if(pinLayer)pinLayer.style.display='none';cam.tt=cam.tp=null;
+  if(!cursorRing){var pts=[];for(var i=0;i<=64;i++)pts.push(new T.Vector3());cursorRing=new T.Line(new T.BufferGeometry().setFromPoints(pts),new T.LineBasicMaterial({color:0xf1c76d,transparent:true,opacity:.95,depthTest:false}));cursorRing.renderOrder=5;group.add(cursorRing);}
+  cursorRing.visible=false;syncEditor();
+}
+function endEdit(){EDIT.on=false;EDIT.cur=null;texMips(true);if(host)host.classList.remove('wpmEditing');if(pinLayer)pinLayer.style.display='';if(cursorRing)cursorRing.visible=false;syncEditor();renderHud();}
+function cancelEdit(){if(!EDIT.on)return;var dropped=EDIT.gestures.splice(EDIT.startIdx),r=null;dropped.forEach(function(g){r=unionRect(r,gestureRect(g));});if(r)rebuildRect(r);endEdit();}
+function undoEdit(){if(!EDIT.on||EDIT.gestures.length<=EDIT.startIdx)return;var g=EDIT.gestures.pop();rebuildRect(gestureRect(g));syncEditor();}
+function resetEdits(){var had=EDIT.gestures.length;EDIT.gestures=[];EDIT.cur=null;EDIT.startIdx=0;EDIT.pending=null;if(READY&&had){rebuildRect({x0:0,x1:W-1,y0:0,y1:H-1});if(TEXS)TEXS.forEach(function(t){t.needsUpdate=true;});}syncEditor();}
+function ringAt(lon,lat,rad){if(!cursorRing)return;var c=new T.Vector3().fromArray(sph(lon,lat)),up=Math.abs(c.y)>.9?new T.Vector3(1,0,0):new T.Vector3(0,1,0),e1=new T.Vector3().crossVectors(up,c).normalize(),e2=new T.Vector3().crossVectors(c,e1),rr=rad*D2R,R=surfaceR(lon,lat)+.012,pos=cursorRing.geometry.attributes.position,i;
+  for(i=0;i<=64;i++){var a=i/64*PI*2,v=c.clone().multiplyScalar(Math.cos(rr)).addScaledVector(e1,Math.sin(rr)*Math.cos(a)).addScaledVector(e2,Math.sin(rr)*Math.sin(a)).multiplyScalar(R);pos.setXYZ(i,v.x,v.y,v.z);}pos.needsUpdate=true;cursorRing.visible=true;}
+function stampAt(lon,lat){var g=EDIT.cur;if(!g)return;g.p.push([+lon.toFixed(2),+lat.toFixed(2)]);recompose(applyStamp({t:g.t,k:g.k,r:g.r,s:g.s,lon:lon,lat:lat}));}
+function beginGesture(lon,lat){EDIT.cur={t:EDIT.tool,k:EDIT.type,r:EDIT.rad,s:EDIT.str,p:[]};EDIT.last=[lon,lat];stampAt(lon,lat);}
+function dragGesture(lon,lat){if(!EDIT.cur)return;var l=EDIT.last,cl=Math.cos(lat*D2R),d=Math.sqrt(Math.pow(wrapLon(lon-l[0])*cl,2)+Math.pow(lat-l[1],2)),step=EDIT.rad*.3;if(d<step)return;var n=Math.min(12,Math.ceil(d/step)),i;for(i=1;i<=n;i++){var t=i/n;stampAt(l[0]+wrapLon(lon-l[0])*t,l[1]+(lat-l[1])*t);}EDIT.last=[lon,lat];}
+function endGesture(){if(!EDIT.cur)return;if(EDIT.cur.p.length)EDIT.gestures.push(EDIT.cur);EDIT.cur=null;syncEditor();}
+function strokesOut(){return EDIT.gestures.map(function(g){return {t:g.t,k:g.k,r:g.r,s:g.s,p:g.p};});}
+function replayStrokes(list){if(!list||!list.length)return;if(!READY){EDIT.pending=list;return;}EDIT.gestures=list.map(function(g){return {t:g.t,k:g.k||0,r:g.r,s:g.s,p:g.p||[]};});var r=null;EDIT.gestures.forEach(function(g){r=unionRect(r,gestureRect(g));});if(r){rebuildRect(r);if(TEXS)TEXS.forEach(function(t){t.needsUpdate=true;});}EDIT.dirty=null;}
+/* 把本次编辑归纳成可交给叙事 AI 的世界事件 */
+function dirName(dlon,dlat){var a=Math.atan2(dlat,dlon)*180/PI,names=['东','东北','北','西北','西','西南','南','东南'];return names[Math.round(((a+360)%360)/45)%8];}
+function editReport(){
+  var gs=EDIT.gestures.slice(EDIT.startIdx);if(!gs.length)return '';
+  var ops=[];
+  gs.forEach(function(g){var v=[0,0,0];g.p.forEach(function(pt){var q=sph(pt[0],pt[1]);v[0]+=q[0];v[1]+=q[1];v[2]+=q[2];});var l=Math.sqrt(v[0]*v[0]+v[1]*v[1]+v[2]*v[2])||1,lat=Math.asin(v[1]/l)/D2R,lon=Math.atan2(-v[2]/l,v[0]/l)/D2R,ext=0;
+    g.p.forEach(function(pt){ext=Math.max(ext,degDist(pt[0],pt[1],lon,lat));});var o={t:g.t,k:g.k,lon:lon,lat:lat,span:(ext+g.r)*2,n:g.p.length};
+    var last=ops[ops.length-1];if(last&&last.t===o.t&&last.k===o.k&&degDist(last.lon,last.lat,o.lon,o.lat)<(last.span+o.span)*.4){var w1=last.n,w2=o.n;last.lon=lon+wrapLon(last.lon-lon)*w1/(w1+w2);last.lat=(last.lat*w1+o.lat*w2)/(w1+w2);last.span=Math.max(last.span,o.span)+degDist(last.lon,last.lat,o.lon,o.lat);last.n+=o.n;}else ops.push(o);});
+  var lines=ops.map(function(o,i){var d=describe(o.lon,o.lat),where=d.region;
+    if(d.near&&d.nearDist<25)where+='、'+d.near.name+(d.nearDist<3?'所在处':dirName(wrapLon(o.lon-d.near.lon)*Math.cos(o.lat*D2R),o.lat-d.near.lat)+'约 '+Math.round(d.nearDist*111)+' 里');
+    var span='跨度约 '+Math.round(o.span*111)+' 里',t='';
+    if(o.t==='raise')t='在'+where+'抬升出'+span+'的陆地'+(d.land?'，如今是'+d.biome:'，原本的海面已成为陆地');
+    else if(o.t==='lower')t='把'+where+span+'的土地压沉'+(d.land?'为低地':'入海，海水淹没了那里');
+    else if(o.t==='mount')t='在'+where+'隆起一道'+span+'的山脉'+(d.h>.55?'，高耸入云':'');
+    else if(o.t==='flat')t='把'+where+span+'的地势夷为平地';
+    else t='把'+where+span+'的地面化作'+(TYPE_NAME[o.k]||'新的地貌');
+    return (i+1)+'. '+t+'。';});
+  var after=landFraction(),changed=[];
+  if(EDIT.baseSites&&DATA)DATA.sites.forEach(function(st){if(!(st.id in EDIT.baseSites))return;var h0=EDIT.baseSites[st.id],h1=hAt(st.lon,st.lat);
+    if(h0>0&&h1<=0)changed.push(st.name+'沉入海中');else if(h0<=0&&h1>0)changed.push(st.name+'从海中浮出');else if(h1-h0>.25)changed.push(st.name+'周围隆起为山地');else if(h0-h1>.2&&h1>0)changed.push(st.name+'周围地势下沉');});
+  var out='玩家以创世之力重塑了泛大陆的地形，共 '+ops.length+' 处改动：\n'+lines.join('\n')+'\n陆地占比由 '+(EDIT.baseLand*100).toFixed(1)+'% 变为 '+(after*100).toFixed(1)+'%。';
+  if(changed.length)out+='\n受影响的地点：'+changed.join('；')+'。';
+  return out;
+}
+function applyEdit(){if(!EDIT.on)return;var text=editReport();endEdit();if(text&&EDIT.onTerraform)try{EDIT.onTerraform(text);}catch(_){}}
+function syncEditor(){var ed=$('#wmEditor'),btn=$('#wmEdit');if(ed)ed.hidden=!EDIT.on;if(btn)btn.hidden=EDIT.on||!READY;
+  document.querySelectorAll('#wmEditor [data-tool]').forEach(function(b){b.classList.toggle('on',EDIT.tool===b.dataset.tool);});
+  document.querySelectorAll('#wmEditor [data-type]').forEach(function(b){b.classList.toggle('on',EDIT.tool==='type'&&EDIT.type===Number(b.dataset.type));});
+  var st=$('#wmStats');if(st&&EDIT.on){st.textContent='陆地 '+(EDIT.baseLand*100).toFixed(1)+'% → '+(landFraction()*100).toFixed(1)+'% · 本次 '+(EDIT.gestures.length-EDIT.startIdx)+' 笔';}
+  var sz=$('#wmSizeV');if(sz)sz.textContent=Math.round(EDIT.rad*111)+' 里';var sv=$('#wmStrV');if(sv)sv.textContent=EDIT.str;}
+function bindEditor(){
+  var on=function(id,fn){var e=$(id);if(e)e.addEventListener('click',fn);};
+  on('#wmEdit',startEdit);on('#wmApply',applyEdit);on('#wmCancel',cancelEdit);on('#wmUndo',undoEdit);on('#wmReset',function(){if(confirm('把星球恢复成原本的样子？这会清除全部改动。'))resetEdits();});
+  var ed=$('#wmEditor');if(!ed)return;
+  ed.addEventListener('click',function(e){var t=e.target.closest('[data-tool]');if(t){EDIT.tool=t.dataset.tool;syncEditor();return;}var k=e.target.closest('[data-type]');if(k){EDIT.tool='type';EDIT.type=Number(k.dataset.type);syncEditor();}});
+  var size=$('#wmSize'),str=$('#wmStr');if(size)size.addEventListener('input',function(){EDIT.rad=Number(size.value);syncEditor();});if(str)str.addEventListener('input',function(){EDIT.str=Number(str.value);syncEditor();});
+}
 /* ---------- 渐进生成 ---------- */
 var READY=false,BUILDING=false,progressCb=[];
 function prog(f,s){progressCb.forEach(function(cb){try{cb(f,s);}catch(_){}});}
@@ -245,11 +357,11 @@ function build(){
     prog(.52,'开凿河流');setTimeout(function(){genRivers();genDist();
       rows(function(y){for(var x=0;x<W;x++)surfacePx(x,y,BASEF);},'描绘生灵之地',.55,.85,function(){
         prog(.86,'点亮城市灯火');setTimeout(function(){for(var y=0;y<H;y++)for(var x=0;x<W;x++)normalPx(x,y);dilate(0,0,W-1,H-1,W-1);prog(.92,'拂过云鲸之息');
-          setTimeout(function(){genClouds();READY=true;BUILDING=false;initPlanet();applyEra(VIEW.ord);prog(1,'升起');refreshSites();},20);},20);});},20);});
+          setTimeout(function(){genClouds();READY=true;BUILDING=false;initPlanet();applyEra(VIEW.ord);if(EDIT.pending){var pl=EDIT.pending;EDIT.pending=null;replayStrokes(pl);}syncEditor();prog(1,'升起');refreshSites();},20);},20);});},20);});
 }
 
 /* ---------- 场景 ---------- */
-var SHU=null,renderer,scene,camera,planet,proto,cosmos,nebula,sunGlow,group,clouds,sunDir=T?new T.Vector3(5,1.6,2.8).normalize():null,sunView=T?new T.Vector3():null,atmoIn,atmoOut,rail,isle,stars,TEXS=null,DISP=.04;
+var SHU=null,TEXPAIRS=null,renderer,scene,camera,planet,proto,cosmos,nebula,sunGlow,group,clouds,sunDir=T?new T.Vector3(5,1.6,2.8).normalize():null,sunView=T?new T.Vector3():null,atmoIn,atmoOut,rail,isle,stars,TEXS=null,DISP=.04;
 var cam={theta:1.22,phi:1.15,r:4.6,vt:0,vp:0,tr:3.6,tt:null,tp:null},idleAt=0,spinAngle=0,lastT=0,raf=0;
 var VIEW={ord:16,eraName:'',layer:'surface',mode:'forge',selected:null,free:null};
 var canvas=null,pinLayer=null,host=null,hostMode='',onPick=null,resizeObs=null,mini=null,mctx=null;
@@ -319,12 +431,12 @@ function initPlanet(){
   if(!renderer)return;
   if(proto){group.remove(proto);proto=null;}
   var an=Math.min(8,renderer.capabilities.getMaxAnisotropy());
-  var mAlb=tex(ALB,W,H,true),mNrm=tex(NRM,W,H,false),mRgh=tex(RGH,W,H,false),mEmi=tex(EMI,W,H,true),mDsp=tex(DSP,W,H,false);TEXS=[mAlb,mNrm,mRgh,mEmi,mDsp];TEXS.forEach(function(t){t.anisotropy=an;});
+  var mAlb=tex(ALB,W,H,true),mNrm=tex(NRM,W,H,false),mRgh=tex(RGH,W,H,false),mEmi=tex(EMI,W,H,true),mDsp=tex(DSP,W,H,false),mEdt=tex(EDT,W,H,false);TEXS=[mAlb,mNrm,mRgh,mEmi,mDsp,mEdt];TEXPAIRS=[[ALB,mAlb],[NRM,mNrm],[RGH,mRgh],[EMI,mEmi],[DSP,mDsp],[EDT,mEdt]];TEXS.forEach(function(t){t.anisotropy=an;});
   var mat=new T.MeshStandardMaterial({map:mAlb,normalMap:mNrm,normalScale:new T.Vector2(1,1),roughnessMap:mRgh,roughness:1,metalness:0,emissive:new T.Color(0xffffff),emissiveMap:mEmi,emissiveIntensity:1.1,displacementMap:mDsp,displacementScale:DISP});
   var sunU={value:sunView};
   var lin=function(c){var k=new T.Color(c[0]/255,c[1]/255,c[2]/255).convertSRGBToLinear();return new T.Vector3(k.r,k.g,k.b);};
   SHU={uSun:sunU,uBlobs:{value:BLOBS.concat([BLOB_CAUSE],BLOB_NC).map(function(b){return new T.Vector4(b[0],b[1],b[2],b[3]);})},uBlobOn:{value:BLOBS.map(function(){return 1;}).concat([0,0,0])},
-    uTime:{value:0},uBump:{value:0},uHgt:{value:mDsp},uShoal:{value:lin(COL.shoal)},uShelf:{value:lin(COL.shelf)},uDeep:{value:lin(COL.deep)},uLake:{value:lin(COL.lake)},uSand:{value:lin(COL.sand)}};
+    uTime:{value:0},uBump:{value:0},uHgt:{value:mDsp},uEdit:{value:mEdt},uShoal:{value:lin(COL.shoal)},uShelf:{value:lin(COL.shelf)},uDeep:{value:lin(COL.deep)},uLake:{value:lin(COL.lake)},uSand:{value:lin(COL.sand)}};
   var GLSL_NOISE='vec3 m289v3(vec3 x){return x-floor(x*(1.0/289.0))*289.0;}\nvec4 m289v4(vec4 x){return x-floor(x*(1.0/289.0))*289.0;}\nvec4 permv4(vec4 x){return m289v4(((x*34.0)+1.0)*x);}\nvec4 tisv4(vec4 r){return 1.79284291400159-0.85373472095314*r;}\n'
    +'float snoise(vec3 v){const vec2 C=vec2(1.0/6.0,1.0/3.0);const vec4 D=vec4(0.0,0.5,1.0,2.0);vec3 i=floor(v+dot(v,C.yyy));vec3 x0=v-i+dot(i,C.xxx);vec3 g=step(x0.yzx,x0.xyz);vec3 l=1.0-g;vec3 i1=min(g.xyz,l.zxy);vec3 i2=max(g.xyz,l.zxy);vec3 x1=x0-i1+C.xxx;vec3 x2=x0-i2+C.yyy;vec3 x3=x0-D.yyy;i=m289v3(i);vec4 p=permv4(permv4(permv4(i.z+vec4(0.0,i1.z,i2.z,1.0))+i.y+vec4(0.0,i1.y,i2.y,1.0))+i.x+vec4(0.0,i1.x,i2.x,1.0));float n_=0.142857142857;vec3 ns=n_*D.wyz-D.xzx;vec4 j=p-49.0*floor(p*ns.z*ns.z);vec4 x_=floor(j*ns.z);vec4 y_=floor(j-7.0*x_);vec4 x=x_*ns.x+ns.yyyy;vec4 y=y_*ns.x+ns.yyyy;vec4 h=1.0-abs(x)-abs(y);vec4 b0=vec4(x.xy,y.xy);vec4 b1=vec4(x.zw,y.zw);vec4 s0=floor(b0)*2.0+1.0;vec4 s1=floor(b1)*2.0+1.0;vec4 sh=-step(h,vec4(0.0));vec4 a0=b0.xzyw+s0.xzyw*sh.xxyy;vec4 a1=b1.xzyw+s1.xzyw*sh.zzww;vec3 p0=vec3(a0.xy,h.x);vec3 p1=vec3(a0.zw,h.y);vec3 p2=vec3(a1.xy,h.z);vec3 p3=vec3(a1.zw,h.w);vec4 norm=tisv4(vec4(dot(p0,p0),dot(p1,p1),dot(p2,p2),dot(p3,p3)));p0*=norm.x;p1*=norm.y;p2*=norm.z;p3*=norm.w;vec4 m=max(0.6-vec4(dot(x0,x0),dot(x1,x1),dot(x2,x2),dot(x3,x3)),0.0);m=m*m;return 42.0*dot(m*m,vec4(dot(p0,x0),dot(p1,x1),dot(p2,x2),dot(p3,x3)));}\n'
    +'float wrapLonG(float d){return mod(d+540.0,360.0)-180.0;}\nfloat blobG(vec4 b,float lon,float lat){float dl=wrapLonG(lon-b.x)/b.z;float dy=(lat-b.y)/b.w;return 1.0-sqrt(dl*dl+dy*dy);}\n'
@@ -335,7 +447,7 @@ function initPlanet(){
   var PRELUDE='vec3 sp=normalize(vSph);float latG=asin(clamp(sp.y,-1.0,1.0))*57.29577951;float lonG=atan(-sp.z,sp.x)*57.29577951;'
    +'float wxG=snoise(vec3(sp.x*1.7+3.1,sp.y*1.7,sp.z*1.7));float wyG=snoise(vec3(sp.x*1.7,sp.y*1.7+7.3,sp.z*1.7));'
    +'float lonW=lonG+10.0*wxG+3.0*snoise(vec3(sp.x*5.0+1.0,sp.y*5.0,sp.z*5.0));float latW=latG+8.0*wyG+2.5*snoise(vec3(sp.x*5.0,sp.y*5.0+2.0,sp.z*5.0));'
-   +'float gF=maskG(lonW,latW)+0.16*fbm4(sp*2.4);float gCoast=gF-0.02;float gAA=max(fwidth(gCoast),1e-5)*0.8;float gLand=smoothstep(-gAA,gAA,gCoast);float gWater=1.0-gLand;';
+   +'float gF=max(maskG(lonW,latW)+0.16*fbm4(sp*2.4),-0.35)+(texture2D(uEdit,vUv).r*2.0-1.0)*0.6;float gCoast=gF-0.02;float gAA=max(fwidth(gCoast),1e-5)*0.8;float gLand=smoothstep(-gAA,gAA,gCoast);float gWater=1.0-gLand;';
   var MAPFRAG='#ifdef USE_MAP\n vec4 texelColor=texture2D(map,vUv);texelColor=mapTexelToLinear(texelColor);vec3 landCol=texelColor.rgb;'
    +'vec3 dspT=texture2D(uHgt,vUv).rgb;float lakeV=0.5*gaussG(lonG,latG,36.0,27.0,3.2)-dspT.b*1.15;float lakeAA=max(fwidth(lakeV),1e-5);float gLake=smoothstep(-lakeAA,lakeAA,lakeV)*gLand;'
    +'float depth=smoothstep(0.02,-0.4,gF);float onz=snoise(sp*3.0+vec3(5.0,0.0,0.0));float dd=0.06+0.9*depth+0.06*onz*depth;'
@@ -353,7 +465,7 @@ function initPlanet(){
     for(var k in SHU)s.uniforms[k]=SHU[k];
     if(ANALYTIC){
       s.vertexShader='varying vec3 vSph;\n'+s.vertexShader.replace('#include <begin_vertex>','#include <begin_vertex>\n vSph = normalize( position );');
-      s.fragmentShader=s.fragmentShader.replace('uniform vec3 emissive;','uniform vec3 emissive; uniform vec3 uSun; varying vec3 vSph; uniform vec4 uBlobs[18]; uniform float uBlobOn[18]; uniform float uTime; uniform float uBump; uniform sampler2D uHgt; uniform vec3 uShoal; uniform vec3 uShelf; uniform vec3 uDeep; uniform vec3 uLake; uniform vec3 uSand;\n'+GLSL_NOISE)
+      s.fragmentShader=s.fragmentShader.replace('uniform vec3 emissive;','uniform vec3 emissive; uniform vec3 uSun; varying vec3 vSph; uniform vec4 uBlobs[18]; uniform float uBlobOn[18]; uniform float uTime; uniform float uBump; uniform sampler2D uHgt; uniform sampler2D uEdit; uniform vec3 uShoal; uniform vec3 uShelf; uniform vec3 uDeep; uniform vec3 uLake; uniform vec3 uSand;\n'+GLSL_NOISE)
         .replace('void main() {','void main() {\n'+PRELUDE).replace('#include <map_fragment>',MAPFRAG).replace('#include <roughnessmap_fragment>',ROUGHFRAG)
         .replace('#include <normal_fragment_maps>','#include <normal_fragment_maps>\n'+NORMALX).replace('#include <emissivemap_fragment>',EMIFRAG);
     }else{
@@ -407,11 +519,11 @@ function updatePins(){
   if(freePin){var fr=VIEW.selected==='free'&&VIEW.free;if(fr){tmpW.copy(VIEW.free.local).applyMatrix4(group.matrixWorld);var fc=tmpW.clone().normalize().dot(camN);if(fc>.1){tmpV.copy(tmpW).project(camera);freePin.style.transform='translate('+((tmpV.x*.5+.5)*w).toFixed(1)+'px,'+((-tmpV.y*.5+.5)*h).toFixed(1)+'px) translate(-3px,-50%)';freePin.style.opacity=1;freePin.querySelector('span').textContent=VIEW.free.name;return;}}freePin.style.opacity=0;}
 }
 function flyToWorld(v,zoom){var n=v.clone().normalize();cam.tt=Math.atan2(n.z,n.x);cam.tp=clamp(Math.acos(clamp(n.y,-1,1)),.12,PI-.12);if(zoom)cam.tr=zoom;cam.vt=0;cam.vp=0;idleAt=performance.now();}
-function regionName(lon,lat){var h=hAt(lon,lat);if(lat<-70)return '南极冰盖';if(h<=0)return (wrapLon(lon)>130||wrapLon(lon)<-150)?'忒提丝之洋 · 远海':'忒提丝之洋';var l=wrapLon(lon);if(l>140||l<-170)return '新大陆';if(l>-2)return '东大陆';return '西大陆';}
+function regionName(lon,lat){var h=hAt(lon,lat);if(lat<-70)return '南极冰盖';if(h>0&&BF&&BF[pyOf(lat)*W+pxOf(lon)]<=.02)return '新造的陆地';if(h<=0)return (wrapLon(lon)>130||wrapLon(lon)<-150)?'忒提丝之洋 · 远海':'忒提丝之洋';var l=wrapLon(lon);if(l>140||l<-170)return '新大陆';if(l>-2)return '东大陆';return '西大陆';}
 function fmtLon(v){return Math.abs(v).toFixed(1)+'°'+(v<0?'W':'E');}function fmtLat(v){return Math.abs(v).toFixed(1)+'°'+(v<0?'S':'N');}
 /* 任意座标的地志（自由拣选用） */
 function describe(lon,lat){
-  if(!READY)return null;var x=pxOf(lon),y=pyOf(lat),idx=y*W+x,h=HGT[idx],land=LAND[idx],p=sph(lon,lat,v3),k=climate(x,y,lon,lat,h,p,eraFlags(VIEW.ord)),bio=biomeName(k,h,land);
+  if(!READY)return null;var x=pxOf(lon),y=pyOf(lat),idx=y*W+x,h=HGT[idx],land=LAND[idx],F=eraFlags(VIEW.ord),k=regional(lon,lat,F);k.T=clamp(BT[idx]-.55*Math.max(0,h),0,1);k.M=BM[idx];if(EW[idx]>0){var tp=ET[idx];if(tp===1)k.M=lerp(k.M,.05,EW[idx]);else if(tp===3)k.M=lerp(k.M,.9,EW[idx]);else if(tp===4)k.T=lerp(k.T,.02,EW[idx]);}var bio=ET[idx]===5&&EW[idx]>.4?'焦土':biomeName(k,h,land);
   var near=null,nd=1e9;ACTIVE.forEach(function(s){if(s.unplaced)return;var d=degDist(lon,lat,s.lon,s.lat);if(d<nd){nd=d;near=s;}});
   return {lon:lon,lat:lat,land:!!land,h:h,biome:bio,region:regionName(lon,lat),near:near,nearDist:nd,
     elev:h>0?'海拔约 '+(h*8800).toFixed(0)+' 米':'水深约 '+(-h*6000).toFixed(0)+' 米',
@@ -445,7 +557,7 @@ function ensureDom(){
   pinLayer=document.createElement('div');pinLayer.className='wpmPins';bindInput();
 }
 function mount(el,mode){
-  if(!el)return;ensureDom();host=el;hostMode=mode;VIEW.mode=mode;
+  if(!el)return;ensureDom();if(EDIT.on&&mode!=='panel')cancelEdit();host=el;hostMode=mode;VIEW.mode=mode;
   var wrap=el.querySelector('.wpmHost');if(!wrap){wrap=document.createElement('div');wrap.className='wpmHost';el.appendChild(wrap);}
   wrap.appendChild(canvas);wrap.appendChild(pinLayer);wrap.classList.toggle('space',mode==='forge'||mode==='menu');wrap.classList.toggle('menu',mode==='menu');pinLayer.style.display=mode==='menu'?'none':'';
   if(resizeObs)resizeObs.disconnect();if(window.ResizeObserver){resizeObs=new ResizeObserver(function(){resize();});resizeObs.observe(wrap);}
@@ -475,7 +587,8 @@ function loop(t){
     var cu=cosmos.userData;cu.moon.rotation.y=t*.00009;cu.blue.rotation.y=t*.00006;}
   if(!dragging){if(cam.tt!=null){var dth=Math.atan2(Math.sin(cam.tt-cam.theta),Math.cos(cam.tt-cam.theta)),dph=cam.tp-cam.phi,k=Math.min(1,dt*5);cam.theta+=dth*k;cam.phi+=dph*k;if(Math.abs(dth)<.002&&Math.abs(dph)<.002)cam.tt=cam.tp=null;}
     else{cam.theta+=cam.vt;cam.phi=clamp(cam.phi+cam.vp,.12,PI-.12);cam.vt*=.9;cam.vp*=.9;}}
-  if(hostMode!=='menu'&&!window.REDUCED&&!dragging&&!VIEW.selected&&cam.tt==null&&t-idleAt>6000)spinAngle+=dt*.035;
+  if(hostMode!=='menu'&&!EDIT.on&&!window.REDUCED&&!dragging&&!VIEW.selected&&cam.tt==null&&t-idleAt>6000)spinAngle+=dt*.035;
+  if(EDIT.dirty){gpuPatch(EDIT.dirty);EDIT.dirty=null;}
   group.rotation.y=spinAngle;group.updateMatrixWorld();
   camera.position.set(cam.r*Math.sin(cam.phi)*Math.cos(cam.theta),cam.r*Math.cos(cam.phi),cam.r*Math.sin(cam.phi)*Math.sin(cam.theta));camera.lookAt(0,0,0);camera.updateMatrixWorld();
   if(hostMode==='menu'){var fw=new T.Vector3();camera.getWorldDirection(fw);var rt=new T.Vector3().crossVectors(fw,camera.up).normalize(),upv=new T.Vector3().crossVectors(rt,fw).normalize();
@@ -483,7 +596,7 @@ function loop(t){
       if(o.userData.tilt){o.quaternion.copy(camera.quaternion);o.rotateX(-.55);o.rotateZ(.32);o.rotateY(t*.00004);}});}
   sunView.copy(sunDir).transformDirection(camera.matrixWorldInverse);if(clouds)clouds.rotation.y=spinAngle*.06+t*.000012;if(proto)proto.rotation.y=spinAngle;
   if(SHU){SHU.uTime.value=t*.001;SHU.uBump.value=.0007*sstep(4.6,1.7,cam.r);}
-  renderer.render(scene,camera);if(hostMode!=='menu')updatePins();if(mctx&&(t|0)%6===0)drawMini();
+  renderer.render(scene,camera);if(hostMode!=='menu'&&!EDIT.on)updatePins();if(mctx&&(t|0)%6===0)drawMini();
 }
 function drawMini(){
   if(!mini||!LAND||!camera)return;var w=mini.width,h=mini.height,cx=w*.5,cy=h*.5,R=Math.min(w,h)*.4;mctx.clearRect(0,0,w,h);mctx.strokeStyle='rgba(126,91,32,.35)';mctx.beginPath();mctx.arc(cx,cy,R,0,PI*2);mctx.stroke();
@@ -494,19 +607,26 @@ function worldAt(px,py){if(!camera)return null;var r=canvas.getBoundingClientRec
 function lonLatOf(v){var p=v.clone().applyMatrix4(new T.Matrix4().copy(group.matrixWorld).invert());return [Math.atan2(-p.z,p.x)/D2R,Math.asin(clamp(p.y,-1,1))/D2R];}
 function bindInput(){
   var down=false,lx=0,ly=0,moved=0,pinchD=0,ptrs={},lastTap=0;
-  canvas.addEventListener('pointerdown',function(e){ptrs[e.pointerId]=e;if(Object.keys(ptrs).length===1){down=true;lx=e.clientX;ly=e.clientY;moved=0;cam.vt=0;cam.vp=0;cam.tt=cam.tp=null;canvas.classList.add('drag');try{canvas.setPointerCapture(e.pointerId);}catch(_){}}});
+  var sculpt=false;
+  canvas.addEventListener('contextmenu',function(e){e.preventDefault();});
+  canvas.addEventListener('pointerdown',function(e){ptrs[e.pointerId]=e;if(Object.keys(ptrs).length===1){
+      if(EDIT.on&&EDIT.tool!=='pan'&&e.button===0&&READY){var ll=pickLonLat(e.clientX,e.clientY);if(ll){sculpt=true;beginGesture(ll[0],ll[1]);try{canvas.setPointerCapture(e.pointerId);}catch(_){}return;}}
+      down=true;lx=e.clientX;ly=e.clientY;moved=0;cam.vt=0;cam.vp=0;cam.tt=cam.tp=null;canvas.classList.add('drag');try{canvas.setPointerCapture(e.pointerId);}catch(_){}}
+    else if(sculpt){sculpt=false;endGesture();}});
   canvas.addEventListener('pointermove',function(e){
     if(ptrs[e.pointerId])ptrs[e.pointerId]=e;var ids=Object.keys(ptrs);
     if(ids.length===2){var a=ptrs[ids[0]],b=ptrs[ids[1]],d=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);if(pinchD)cam.tr=clamp(cam.tr*(pinchD/d),1.6,6);pinchD=d;idleAt=performance.now();return;}
+    if(EDIT.on&&READY){var ll2=pickLonLat(e.clientX,e.clientY);if(ll2&&EDIT.tool!=='pan')ringAt(ll2[0],ll2[1],EDIT.rad);else if(cursorRing)cursorRing.visible=false;if(sculpt){if(ll2)dragGesture(ll2[0],ll2[1]);return;}}
     if(!down)return;var dx=e.clientX-lx,dy=e.clientY-ly;lx=e.clientX;ly=e.clientY;moved+=Math.abs(dx)+Math.abs(dy);
     var k=.0036*Math.sqrt(cam.r/3)*(cam.r-1)/2.2;cam.vt=dx*k/Math.max(.35,Math.sin(cam.phi));cam.vp=-dy*k;cam.theta+=cam.vt;cam.phi=clamp(cam.phi+cam.vp,.12,PI-.12);idleAt=performance.now();
   });
-  function up(e){delete ptrs[e.pointerId];if(Object.keys(ptrs).length<2)pinchD=0;if(!Object.keys(ptrs).length){down=false;canvas.classList.remove('drag');
-    if(moved<4&&READY){var now=performance.now(),w=worldAt(e.clientX,e.clientY);if(now-lastTap<320){if(w)flyToWorld(w,Math.max(1.6,cam.tr*.62));}else if(w){var ll=lonLatOf(w);pickFree(ll[0],ll[1]);}lastTap=now;}}}
+  function up(e){delete ptrs[e.pointerId];if(Object.keys(ptrs).length<2)pinchD=0;if(sculpt&&!Object.keys(ptrs).length){sculpt=false;endGesture();return;}if(!Object.keys(ptrs).length){down=false;canvas.classList.remove('drag');
+    if(moved<4&&READY&&!EDIT.on){var now=performance.now(),w=worldAt(e.clientX,e.clientY);if(now-lastTap<320){if(w)flyToWorld(w,Math.max(1.6,cam.tr*.62));}else if(w){var ll=lonLatOf(w);pickFree(ll[0],ll[1]);}lastTap=now;}}}
   canvas.addEventListener('pointerup',up);canvas.addEventListener('pointercancel',up);
   canvas.addEventListener('wheel',function(e){e.preventDefault();e.stopPropagation();if(!camera)return;var r0=cam.tr,r1=clamp(cam.tr*Math.exp(e.deltaY*.0011),1.6,6);cam.tr=r1;idleAt=performance.now();
     if(r1<r0){var w=worldAt(e.clientX,e.clientY);if(w){var n=w.normalize(),f=(1-r1/r0)*1.15,tt=Math.atan2(n.z,n.x),tp=clamp(Math.acos(clamp(n.y,-1,1)),.12,PI-.12),dth=Math.atan2(Math.sin(tt-cam.theta),Math.cos(tt-cam.theta));cam.theta+=dth*f;cam.phi+=(tp-cam.phi)*f;cam.tt=cam.tp=null;}}},{passive:false});
   canvas.addEventListener('keydown',function(e){var st=.05;if(e.key==='ArrowLeft'){cam.theta-=st;}else if(e.key==='ArrowRight'){cam.theta+=st;}else if(e.key==='ArrowUp'){cam.phi=clamp(cam.phi-st,.12,PI-.12);}else if(e.key==='ArrowDown'){cam.phi=clamp(cam.phi+st,.12,PI-.12);}else if(e.key==='+'||e.key==='='){cam.tr=clamp(cam.tr*.85,1.6,6);}else if(e.key==='-'){cam.tr=clamp(cam.tr/.85,1.6,6);}else return;e.preventDefault();cam.tt=cam.tp=null;idleAt=performance.now();});
+  bindEditor();
   var layers=$('#worldMapLayers');if(layers)layers.addEventListener('click',function(e){var b=e.target.closest('[data-layer]');if(!b)return;VIEW.layer=b.dataset.layer;refreshSites();});
   var loose=$('#worldMapLoose');if(loose)loose.addEventListener('click',function(e){var b=e.target.closest('[data-map-site]');if(b)choose(b.dataset.mapSite,false);});
 }
@@ -524,6 +644,10 @@ window.WORLD_PLANET_MAP={
   onProgress:function(cb){progressCb.push(cb);},onPick:function(cb){onPick=cb;},
   mountForge:function(el){mount(el,'forge');},mountPanel:function(el){mount(el,'panel');},mountMenu:function(el){mount(el,'menu');},
   whenData:function(cb){if(DATA)cb();else pending=cb;},
+  startEdit:startEdit,cancelEdit:cancelEdit,applyEdit:applyEdit,undoEdit:undoEdit,resetEdits:resetEdits,editing:function(){return EDIT.on;},
+  setTool:function(t,k){EDIT.tool=t;if(k)EDIT.type=k;syncEditor();},setBrush:function(r,s){if(r)EDIT.rad=r;if(s)EDIT.str=s;syncEditor();},
+  sculpt:function(lon,lat){if(!EDIT.on)return;beginGesture(lon,lat);endGesture();},editReport:editReport,
+  strokes:strokesOut,replay:replayStrokes,onTerraform:function(cb){EDIT.onTerraform=cb;},
   describe:function(lon,lat){return describe(lon,lat);},
   destroy:function(){if(raf)cancelAnimationFrame(raf);raf=0;if(resizeObs)resizeObs.disconnect();}
 };
