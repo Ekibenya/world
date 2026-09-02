@@ -48,6 +48,15 @@ function annalsRows() {
     s: era.arcTitles?.length ? era.arcTitles.join(' · ') : `${era.presetCount} 个预设角色 · ${era.secondaryCharacterCount} 个次要人物记录`,
     recap: era.recap,
     synopsis: era.synopsis,
+    primer: state.intros?.standalonePrimer || '',
+    history: (state.intros?.historyMilestones || [])
+      .filter((item) => item.ordinal < era.ordinal - 1)
+      .map((item) => {
+        const title = state.index.eras.find((candidate) => candidate.ordinal === item.ordinal)?.name || '';
+        return `${String(item.ordinal).padStart(2, '0')}　${title}${title ? '：' : ''}${item.summary}`;
+      })
+      .join('\n'),
+    opening: era.opening?.chapterTitle || '',
     r: 1.5,
   }));
 }
