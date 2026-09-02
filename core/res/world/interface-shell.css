@@ -1574,9 +1574,9 @@ button:focus-visible,.go:focus-visible{outline:1px solid var(--gold);outline-off
   background:rgba(235,227,209,.82);border:0;
   box-shadow:none;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 #feWrap[data-step="loc"] #fePanR:not(.locArtOn){display:none}
-#fePanR.locArtOn #feLocInfo{display:none}
-#fePanR.locArtOn .feGl{display:none}
-#fePanR.locArtOn>.feIn{padding:0;overflow:visible}
+#feWrap[data-step="loc"] #fePanR.locArtOn #feLocInfo{display:none}
+#feWrap[data-step="loc"] #fePanR.locArtOn .feGl{display:none}
+#feWrap[data-step="loc"] #fePanR.locArtOn>.feIn{padding:0;overflow:visible}
 #feLocPreview{position:relative;width:100%;display:none;box-sizing:border-box;perspective:1700px}
 #feLocPreview.on{display:flex;align-items:center;justify-content:center}
 #feLocPreviewCard{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;

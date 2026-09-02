@@ -80,7 +80,9 @@ function openForge() {
 }
 function applyStep(next) {
   if (state.step === 'per' && state.route === 'custom') state.custom = readCustom();
-  state.step = next; renderForge();
+  state.step = next;
+  $('#fePanR').classList.toggle('locArtOn', next === 'loc');
+  renderForge();
 }
 const FE_TURN = 190;
 function enterStep(stage) {
