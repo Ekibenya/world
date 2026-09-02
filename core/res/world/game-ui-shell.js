@@ -59,12 +59,8 @@
     return out;
   }
   function renderMap(){
-    var host=$('#gmMapIn'),w=world(),era=w&&w.era;if(!host||!era)return;
-    var places=sourceItems('place');
-    host.innerHTML='<img src="'+esc(era.image||'')+'" alt="'+esc(era.name||'')+'">'
-      +'<div class="world-map-ledger"><b>◆ TABVLA · '+esc(era.name)+'</b>'
-      +(places.length?places.map(function(p){return '<button type="button" data-world-place="'+esc(p.name)+'">'+esc(p.name)+'</button>';}).join('')
-        :'<span>本时代资料尚无可核实地点条目；不从 Cat 或模型补造地点。</span>')+'</div>';
+    var w=world(),era=w&&w.era;if(!era)return;
+    if(window.WORLD_PLANET_MAP)window.WORLD_PLANET_MAP.render({era:era});
   }
   function renderArm(){
     var host=$('#armWrap');if(!host)return;

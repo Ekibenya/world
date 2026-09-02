@@ -1,17 +1,18 @@
-const CACHE = 'guardian-dragon-art-v21';
+const CACHE = 'guardian-dragon-art-v22';
 const CORE = [
   '/',
   '/index.html',
   '/core/res/font/world-fonts.css?v=10',
   '/core/res/world/interface-shell.css?v=12',
   '/core/res/world/visual-novel.css?v=10',
-  '/core/res/world/app.css?v=16',
+  '/core/res/world/app.css?v=17',
   '/core/res/world/menu-shell.js?v=10',
   '/core/res/world/annals-shell.js?v=15',
   '/core/res/world/world-era-intro.js?v=19',
   '/core/res/world/mvu-shell.js?v=10',
   '/core/res/world/world-mvu-content.js?v=17',
-  '/core/res/world/game-ui-shell.js?v=18',
+  '/core/res/world/world-planet-map.js?v=27',
+  '/core/res/world/game-ui-shell.js?v=19',
   '/core/res/world/visual-novel.js?v=10',
   '/core/res/world/app.js?v=20',
   '/core/res/world/lore-retrieval.mjs',
@@ -21,6 +22,7 @@ const CORE = [
   '/core/res/data/world/timeline-arcs.json',
   '/core/res/data/world/era-intros.json',
   '/core/res/data/world/vn-images.json',
+  '/core/res/data/world/world-map.json',
 ];
 
 self.addEventListener('install', (event) => {

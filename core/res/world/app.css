@@ -38,11 +38,24 @@ html:has(#game.show) #brand,
 html:has(#game.show) #glyphs,
 html:has(#game.show) #rail,
 html:has(#game.show) #foot{display:none!important}
-#gmMapIn{width:100%;height:100%}
-#gmMapIn>img{inset:0;width:100%;height:100%;object-fit:cover;opacity:.34;filter:saturate(.6) contrast(.85)}
-.world-map-ledger{position:absolute;left:8%;right:8%;top:16%;display:grid;gap:8px;padding:18px;background:rgba(237,231,217,.80);border:1px solid rgba(19,18,13,.2);color:var(--mut);font-size:10px;line-height:1.8}
-.world-map-ledger b{color:var(--gold-hi);letter-spacing:.16em;font-weight:400}
-.world-map-ledger button{padding:7px 10px;background:rgba(255,255,255,.26);border:1px solid rgba(19,18,13,.18);text-align:left;cursor:pointer}
+#gmapCv{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none;outline:0}
+#gmapCv:active{cursor:grabbing}
+#worldMapHud{position:absolute;z-index:3;right:12px;top:48px;bottom:18px;width:49%;display:flex;flex-direction:column;align-items:stretch;pointer-events:none;color:var(--txt)}
+#worldMapLayers{display:flex;justify-content:flex-end;gap:5px;pointer-events:auto}
+#worldMapLayers button{padding:5px 10px;background:rgba(237,231,217,.72);border:1px solid rgba(19,18,13,.18);color:var(--mut);font-size:9px;letter-spacing:.18em;cursor:pointer}
+#worldMapLayers button.on{background:rgba(126,91,32,.9);border-color:rgba(126,91,32,.95);color:#f2ecde}
+#worldMapStatus{margin-top:10px;padding-bottom:7px;border-bottom:1px solid rgba(19,18,13,.15);font-size:9px;line-height:1.55;letter-spacing:.08em;color:var(--gold-hi)}
+#worldMapDetail{margin-top:10px;min-height:108px;padding:11px 12px;background:rgba(237,231,217,.78);border:1px solid rgba(19,18,13,.17);box-shadow:0 8px 24px rgba(61,48,27,.08)}
+#worldMapDetail b{display:block;font-size:13px;line-height:1.45;letter-spacing:.04em;color:#513600}
+#worldMapDetail i{display:block;margin-top:3px;font-style:normal;font-size:8px;letter-spacing:.16em;color:var(--gold)}
+#worldMapDetail p{margin:8px 0 0;font-size:9.5px;line-height:1.75;color:#4b473d}
+#worldMapLoose{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px;pointer-events:auto}
+#worldMapLoose:empty{display:none}
+#worldMapLoose>span{flex-basis:100%;font-size:8px;letter-spacing:.18em;color:var(--mut)}
+#worldMapLoose button{padding:4px 7px;background:rgba(237,231,217,.72);border:1px solid rgba(19,18,13,.16);font-size:8.5px;line-height:1.35;color:var(--mut);cursor:pointer}
+#worldMapLoose button.on{border-color:var(--gold);color:var(--gold-hi)}
+#worldMapNotice{margin-top:auto;padding-top:7px;border-top:1px solid rgba(19,18,13,.12);font-size:7.5px;line-height:1.55;letter-spacing:.06em;color:rgba(73,67,56,.66)}
+@media(max-width:760px){#worldMapHud{right:8px;top:42px;bottom:10px;width:48%}#worldMapDetail{padding:8px;min-height:82px}#worldMapDetail b{font-size:11px}#worldMapDetail p{font-size:8.5px;line-height:1.6}#worldMapNotice{display:none}}
 #dlgBook{background:rgba(239,233,219,.86)}
 #dlgBook .box{background:rgba(237,231,217,.97);box-shadow:0 18px 48px rgba(19,18,13,.24);color:#25241d}
 #dlgBook .cxWrap{border:1px solid rgba(19,18,13,.14);background:rgba(255,255,255,.22)}
