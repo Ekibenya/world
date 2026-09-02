@@ -101,36 +101,21 @@ canvas{display:block}
 #foot .go:hover{color:var(--gold-hi)}
 
 :root{--cream:#ede7d9}
-#menu:not(.era):not(.gbg){background:var(--cream)}
-#menu:not(.era):not(.gbg) #menuCv{display:none}
-#menu:not(.era):not(.gbg)::before{content:"";position:absolute;inset:0;pointer-events:none;
-  opacity:.13;mix-blend-mode:multiply;z-index:1;
-  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='4'/></filter><rect width='260' height='260' filter='url(%23p)' opacity='.5'/></svg>");
-  background-size:260px 260px}
+#menu:not(.era):not(.gbg){background:#05070c}
 
 #pnTx,.g3dRail{display:block!important}
-#menu #mosCv{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;
-  transform:translateZ(0)}
-#menu.era #mosCv,#menu.gbg #mosCv{display:none}
-#menu #mosRiso{position:absolute;inset:0;pointer-events:none;z-index:2;
-  opacity:0;transition:opacity 1.1s ease;mix-blend-mode:multiply;
-  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='1.1' numOctaves='2'/></filter><rect width='180' height='180' filter='url(%23g)'/></svg>");
-  background-size:180px 180px}
-#menu #mosRiso.on{opacity:.2}
-#menu.era #mosRiso,#menu.gbg #mosRiso{display:none}
 #menu:not(.era):not(.gbg) .mItems{top:auto;bottom:104px;transform:translateX(-50%);z-index:3}
-#menu:not(.era):not(.gbg) .mItem{color:#463d2f}
-#menu:not(.era):not(.gbg) .mItem i{color:#916a24}
+#menu:not(.era):not(.gbg) .mItem{color:#d9d0bc}
+#menu:not(.era):not(.gbg) .mItem i{color:#d6a64e}
 #menu:not(.era):not(.gbg) .mItem:hover,
-#menu:not(.era):not(.gbg) .mItem:active{color:#9a742a;background:transparent;
-  text-shadow:0 0 12px rgba(154,116,42,.48)}
-#menu:not(.era):not(.gbg) .mFoot{color:#978a72;z-index:3;bottom:68px}
-#menu:not(.era):not(.gbg) #luxTg{color:#463d2f;border-color:rgba(70,61,47,.35)}
-#menu:not(.era):not(.gbg) #luxTg:hover{border-color:#916a24}
+#menu:not(.era):not(.gbg) .mItem:active{color:#f1c76d;background:transparent;
+  text-shadow:0 0 14px rgba(241,199,109,.55)}
+#menu:not(.era):not(.gbg) .mFoot{color:#8b8474;z-index:3;bottom:68px}
+#menu:not(.era):not(.gbg) #luxTg{color:#d9d0bc;border-color:rgba(217,208,188,.35)}
+#menu:not(.era):not(.gbg) #luxTg:hover{border-color:#d6a64e}
 #menu{position:fixed;inset:0;z-index:40;background:var(--ink);opacity:0;
       pointer-events:none;transition:opacity .8s ease}
 #menu.show{opacity:1;pointer-events:auto}
-#menuCv{position:absolute;inset:0;width:100%;height:100%}
 #menu .mItems{position:absolute;left:50%;top:56%;transform:translateX(-50%);
       display:flex;gap:4vw;white-space:nowrap}
 #menu .mItem{font-size:11px;letter-spacing:.42em;color:#918d80;cursor:pointer;
@@ -291,7 +276,6 @@ canvas{display:block}
 #menu canvas{transform:translateZ(0)}
 #menu.gbg .mItems,#menu.gbg .mFoot,#menu.gbg #eraHud{display:none}
 
-#menu.gbg #menuCv{display:none}
 #game.show{display:block}
 
 html:has(#game.show) #terrain,

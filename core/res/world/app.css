@@ -127,3 +127,9 @@ html:has(#game.show) #foot{display:none!important}
 #gmMap.wpmTall #worldMapDetail{min-height:0;overflow:auto}
 #gmMap.wpmWide #worldMapHud{right:12px;top:48px;bottom:18px;width:46%}
 @media (max-width:760px){#gmMap.wpmWide #worldMapHud{width:48%}}
+/* 主菜单：宇宙场景与自转星球 */
+#menuSpace{position:absolute;inset:0;z-index:0}
+#menuSpace .wpmHost{pointer-events:none}
+#menuStatus{position:absolute;left:50%;bottom:44px;transform:translateX(-50%);z-index:3;font-family:var(--mono);font-size:9px;letter-spacing:.3em;color:#7e7868;pointer-events:none;white-space:nowrap}
+#menuStatus:empty{display:none}
+#menu .mItems{z-index:3}

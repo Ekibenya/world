@@ -28,7 +28,11 @@ function card(id = state.cardId) { return state.era?.cards.find((item) => item.i
 function cardPortrait(item) { return item?.portrait || (item?.id ? `/art/portraits/${state.era.id}/${item.id}.png` : ''); }
 function rangeText(range) { return `${range[1] - range[0] + 1} 个连续剧情节点`; }
 function hideAll() { $('#menu').classList.remove('show'); $('#eraSel').classList.remove('on'); $('#feWrap').classList.remove('on'); $('#game').classList.remove('show'); if (window.WORLD_MVU) window.WORLD_MVU.stop(); }
-function showMenu() { hideAll(); window.MENU.on = true; $('#menu').classList.add('show'); if (window.mosStart) window.mosStart(); }
+function showMenu() {
+  hideAll(); window.MENU.on = true; $('#menu').classList.add('show');
+  const map = window.WORLD_PLANET_MAP; if (!map) return; map.mountMenu($('#menuSpace'));
+  if (!map._menuWired) { map._menuWired = true; map.onProgress((f, label) => { const el = $('#menuStatus'); if (el) el.textContent = f < 1 ? `${label} · ${Math.round(f * 100)}%` : ''; }); }
+}
 function openSettings(message = '') {
   const saved = apiSettings();
   $('#apiBase').value = saved.endpoint || ''; $('#apiModel').value = saved.model || ''; $('#apiKey').value = saved.apiKey || '';
@@ -61,7 +65,7 @@ function annalsRows() {
   }));
 }
 function showEras() {
-  hideAll(); window.MENU.on = false; if (window.mosStop) window.mosStop();
+  hideAll(); window.MENU.on = false;
   window.esOpen('world');
 }
 
