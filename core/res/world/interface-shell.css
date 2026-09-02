@@ -1563,16 +1563,16 @@ button:focus-visible,.go:focus-visible{outline:1px solid var(--gold);outline-off
 #feWrap[data-step="per"] .fePan,
 #feWrap[data-step="soc"] .fePan,
 #feWrap[data-step="sit"] .fePan{
-  -webkit-mask-image:url(/core/res/img/annals/edge-h.png);-webkit-mask-size:100% 100%;
-  -webkit-mask-repeat:no-repeat;-webkit-mask-position:center;
-          mask-image:url(/core/res/img/annals/edge-h.png);mask-size:100% 100%;
-          mask-repeat:no-repeat;mask-position:center;
   filter:drop-shadow(0 10px 18px rgba(82,60,25,.28))}
 #feWrap[data-step="per"] .fePan .feGl,
 #feWrap[data-step="soc"] .fePan .feGl,
 #feWrap[data-step="sit"] .fePan .feGl{
   background:rgba(235,227,209,.82);border:0;
-  box-shadow:none;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+  box-shadow:none;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);
+  -webkit-mask-image:url(/core/res/img/annals/edge-h.png);-webkit-mask-size:105% 120%;
+  -webkit-mask-repeat:no-repeat;-webkit-mask-position:center;
+          mask-image:url(/core/res/img/annals/edge-h.png);mask-size:105% 120%;
+          mask-repeat:no-repeat;mask-position:center}
 #feWrap[data-step="loc"] #fePanR:not(.locArtOn){display:none}
 #feWrap[data-step="loc"] #fePanR.locArtOn #feLocInfo{display:none}
 #feWrap[data-step="loc"] #fePanR.locArtOn .feGl{display:none}
