@@ -14,7 +14,7 @@ export function exactKeyHits(text, keys) {
   });
 }
 
-export function selectLoreEntries({ entries, primaryScan, secondaryScan, budget = 7000, maxEntries = 16 }) {
+export function selectLoreEntries({ entries, primaryScan, secondaryScan, budget = 9000, maxEntries = 16 }) {
   const scored = entries.filter((entry) => entry.enabled !== false && !entry.constant).map((entry) => {
     const primaryHits = exactKeyHits(primaryScan, entry.keys);
     const secondaryHits = exactKeyHits(secondaryScan, entry.secondaryKeys);

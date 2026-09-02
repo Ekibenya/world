@@ -136,6 +136,7 @@
       {id:'preset',section:'characters',label:'预设角色',categories:['character-profile','character-experience','character-motivation','character-voice','character-relations']},
       {id:'secondary',section:'characters',label:'次要人物',categories:['secondary-character-profile','secondary-character-experience','secondary-character-motivation','secondary-character-voice','secondary-character-relations']},
       {id:'dragon-timeline',section:'characters',label:'主龙时间线',categories:['character-timeline']},
+      {id:'shared-canon',section:'world',label:'共同背景',categories:['shared-canon']},
       {id:'setting-fact',section:'world',label:'综合设定',categories:['setting-fact']},
       {id:'setting-place',section:'world',label:'地点与环境',categories:['setting-place']},
       {id:'setting-institution',section:'world',label:'机构与势力',categories:['setting-institution']},

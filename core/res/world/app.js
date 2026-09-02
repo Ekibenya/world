@@ -185,7 +185,7 @@ function retrieveLore(query) {
   const recentHistory = state.history.filter(({ role }) => role === 'user').slice(-4).map(({ content }) => `玩家: ${content}`).join('\n');
   const primaryScan = `${query}\n${recentHistory}\n${manualMemory || ''}`;
   const secondaryScan = `${primaryScan}\n${stateAnchors()}`;
-  const budget = Math.max(3000, Number($('#loreBud')?.value || 7000));
+  const budget = Math.max(3000, Number($('#loreBud')?.value || 9000));
   const alwaysCharacters = always.reduce((sum, content) => sum + content.length, 0);
   const selectedBudget = Math.max(0, budget - alwaysCharacters - String(manualMemory || '').length);
   const result = selectLoreEntries({ entries: enabled, primaryScan, secondaryScan, budget: selectedBudget, maxEntries: 16 });

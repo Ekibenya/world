@@ -264,8 +264,8 @@
     </div>
     <div class="cfgPane" id="cp_lore" style="display:none">
       <div class="sub">你写的世界书条目与本卡自带世界书一同生效：正文近几轮提到「关键词」时自动注入该条设定；勾选常驻则每轮必注入（占用篇幅，慎用）。已支持&nbsp;ST&nbsp;高级字段：「次级关键词」（须与主关键词同时命中）、注入「顺序」、触发「概率」；导入的扫描深度与递归设置也自动生效。条目只存于你这台设备的浏览器。</div>
-      <div class="sub" style="margin-top:10px">注入预算：每轮注入世界书的总字数上限（默认&nbsp;7k）。每轮只发送常驻规则和最近对话明确命中的条目，不会把整本世界书或小说正文全量重发；拉高会允许更多同时命中的设定进入本轮。</div>
-      <div class="sRow"><span>注入预算（字）</span><span style="display:flex;gap:10px;align-items:center"><input type="range" id="loreBud" min="3000" max="30000" step="1000" value="7000"><b id="loreBudV" style="font-weight:400;color:var(--gold-hi);font-size:10px">7000</b></span></div>
+      <div class="sub" style="margin-top:10px">注入预算：每轮注入世界书的总字数上限（默认&nbsp;9k）。每轮只发送共同背景、常驻规则和最近对话明确命中的条目，不会把整本世界书或小说正文全量重发；拉高会允许更多同时命中的设定进入本轮。</div>
+      <div class="sRow"><span>注入预算（字）</span><span style="display:flex;gap:10px;align-items:center"><input type="range" id="loreBud" min="3000" max="30000" step="1000" value="9000"><b id="loreBudV" style="font-weight:400;color:var(--gold-hi);font-size:10px">9000</b></span></div>
       <div class="sRow"><span>扫描最近消息数</span><input class="aIn" id="loreDepth" inputmode="numeric" min="1" max="100" style="width:80px"></div>
       <div class="sRow"><span>递归扫描</span><input type="checkbox" id="loreRecursive"></div>
       <div class="sRow"><span>关键词整词匹配</span><input type="checkbox" id="loreFullWord"></div>
@@ -788,9 +788,9 @@
   <script src="/core/res/world/world-era-intro.js?v=14"></script>
   <script src="/core/res/world/mvu-shell.js?v=10"></script>
   <script src="/core/res/world/world-mvu-content.js?v=17"></script>
-  <script src="/core/res/world/game-ui-shell.js?v=17"></script>
+  <script src="/core/res/world/game-ui-shell.js?v=18"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
-  <script type="module" src="/core/res/world/app.js?v=17"></script>
+  <script type="module" src="/core/res/world/app.js?v=18"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
 </body>
 </html>
