@@ -83,6 +83,8 @@
 .genBar .gbStop:hover{border-color:#ff7f63;box-shadow:0 0 9px rgba(255,127,99,.3)}
 .gDlg{background:rgba(20,34,28,0.79)}
 .gDlg .box{border:1px solid rgba(241,210,140,0.44);background:rgba(20,34,28,0.65);box-shadow:0 18px 48px rgba(0,0,0,0.5)}
+#dlgEra .box{background:rgba(20,34,28,0.89);filter:drop-shadow(0 10px 18px rgba(0,0,0,0.39))}
+#dlgEra .eBtn:hover,#dlgEra .eBtn:active{border-bottom-color:#f1d28c;color:#f1d28c}
 .risuSet{border:1px solid rgba(241,210,140,0.43)}
 .risuSet textarea{border:1px solid rgba(241,210,140,0.26);color:#efe4c8}
 .risuSet select{background:rgba(20,34,28,0.97);border:1px solid rgba(241,210,140,0.26)}
@@ -181,4 +183,78 @@ input[type=range]::-moz-range-thumb{box-shadow:0 0 0 1px rgba(0,0,0,0.77)}
 .mvFoot .go{border:1px solid rgba(241,210,140,0.31)}
 .svFold:hover{border-color:rgba(241,210,140,0.9);box-shadow:0 0 0 1px rgba(241,210,140,0.12),0 4px 14px rgba(0,0,0,0.45)}
 .svFold:active{background:rgba(241,210,140,0.16)}
+#feWrap{background:rgba(20,34,28,0.97);color:#efe4c8}
+#fePerPortraitImg{filter:drop-shadow(0 12px 14px rgba(0,0,0,0.31))}
+#fePerPortraitCap{border:1px solid rgba(241,210,140,0.57);background:rgba(20,34,28,0.97);color:#efe4c8}
+.feGl{background:rgba(20,34,28,0.69);border:1px solid rgba(241,210,140,0.26);box-shadow:0 14px 34px rgba(0,0,0,0.45)}
+.feIn::-webkit-scrollbar-thumb{background:rgba(241,210,140,0.3)}
+.feLn{background:rgba(241,210,140,0.5)}
+.feMk .dot{border:2px solid #f1d28c;background:rgba(20,34,28,0.91)}
+.feMk .nm{color:#efe4c8;background:rgba(20,34,28,0.93)}
+.feMk:hover .dot{background:#f1d28c}
+.feMk:hover .nm{color:#efe4c8}
+.feMk.on .dot{background:#f1d28c;box-shadow:0 0 0 4px rgba(241,210,140,0.11)}
+.feMk.on .nm{color:#efe4c8;background:rgba(20,34,28,0.95);border-bottom:1px solid #f1d28c}
+.feMk.pict .dot{border-color:rgba(241,210,140,0.28);background:rgba(20,34,28,0.97);box-shadow:0 0 0 3px rgba(0,0,0,0.1)}
+.feMk.pict:hover .dot,.feMk.pict.on .dot{background:rgba(241,210,140,0.12);border-color:rgba(241,210,140,0.28);box-shadow:0 0 0 4px rgba(0,0,0,0.14)}
+.feMk.pict .nm{color:#a89d80}
+.feMk.pict.on .nm{border-bottom-color:rgba(241,210,140,0.28)}
+.feLoc{color:#a89d80}
+.feLoc:hover{background:rgba(20,34,28,0.76);color:#efe4c8}
+.feLoc.on{background:rgba(20,34,28,0.85);color:#efe4c8;border-left-color:#f1d28c}
+.feLoc span{color:#f1d28c}
+#feLocInfo .lt{color:#efe4c8}
+#feLocInfo .lt span{color:#f1d28c}
+#feLocInfo .ld{color:#efe4c8}
+#feLocInfo .lw{color:#a89d80;border-top:1px solid rgba(241,210,140,0.37)}
+#feWrap[data-step="loc"] #fePanL{filter:drop-shadow(0 10px 18px rgba(0,0,0,0.39))}
+#feWrap[data-step="loc"] #fePanL .feGl{background:rgba(20,34,28,0.89)}
+#feWrap[data-step="per"] .fePan,
+#feWrap[data-step="soc"] .fePan,
+#feWrap[data-step="sit"] .fePan{filter:drop-shadow(0 10px 18px rgba(0,0,0,0.39))}
+#feWrap[data-step="per"] .fePan .feGl,
+#feWrap[data-step="soc"] .fePan .feGl,
+#feWrap[data-step="sit"] .fePan .feGl{background:rgba(20,34,28,0.89)}
+#feLocPreviewCard{color:#efe4c8}
+#feLocPreviewArt{filter:drop-shadow(0 18px 35px rgba(0,0,0,0.67))}
+#feLocPreviewX{color:#efe4c8;text-shadow:0 1px 3px rgba(0,0,0,0.85),0 0 7px rgba(0,0,0,0.85)}
+#feLocPreviewMeta b{color:#efe4c8;-webkit-text-stroke:.2px #efe4c8;text-shadow:0 1px 0 rgba(0,0,0,0.8),0 0 7px rgba(0,0,0,0.8)}
+#feLocPreviewMeta span{color:#efe4c8;text-shadow:0 1px 0 rgba(0,0,0,0.8),0 0 7px rgba(0,0,0,0.8)}
+#feLocPreviewChoose{color:#efe4c8;text-shadow:0 1px 0 rgba(0,0,0,0.8),0 0 7px rgba(0,0,0,0.8)}
+#feLocPreviewChoose:hover,#feLocPreviewChoose:active{border-color:rgba(241,210,140,0.7);color:#efe4c8}
+.feColH{color:#f1d28c}
+.fePre{color:#a89d80}
+.fePre:hover{background:rgba(20,34,28,0.76);color:#efe4c8}
+.fePre.on{background:rgba(20,34,28,0.85);color:#efe4c8;border-left-color:#f1d28c}
+.fePre span{color:#a89d80}
+.feF>label{color:#f1d28c}
+.feF input,.feF select,.feF textarea{color:#efe4c8;background:rgba(20,34,28,0.81);border:1px solid rgba(241,210,140,0.45)}
+.feF select{background-image:linear-gradient(45deg,transparent 50%,#f1d28c 50%),
+  linear-gradient(135deg,#f1d28c 50%,transparent 50%)}
+.feF input:focus,.feF select:focus,.feF textarea:focus{border-color:#f1d28c;background:rgba(20,34,28,0.93)}
+.feRow .t{color:#efe4c8}
+.feBtn{color:#f1d28c;border:1px solid rgba(241,210,140,0.6);background:rgba(20,34,28,0.76)}
+.feBtn:hover{color:#efe4c8;border-color:#f1d28c}
+.feNote{color:#a89d80}
 .sub{color:#a89d80}
+#fePerDoss{color:#efe4c8;border-top:1px solid rgba(241,210,140,0.37)}
+#fePerDoss b{color:#f1d28c}
+.feCard{border:1px solid rgba(241,210,140,0.43);background:rgba(20,34,28,0.74)}
+.feCard:hover{border-color:#f1d28c;background:rgba(20,34,28,0.85)}
+.feCard.on{border-color:#f1d28c;background:rgba(20,34,28,0.92);box-shadow:inset 3px 0 0 rgba(241,210,140,0.5)}
+.feCard.cur{outline:1px dashed rgba(241,210,140,0.75)}
+.feCard b{color:#efe4c8}
+.feCard i{color:#f1d28c}
+.feCard span{color:#a89d80}
+#feDoss{color:#efe4c8;border-left:2px solid rgba(241,210,140,0.45)}
+#feDoss b{color:#f1d28c}
+#feSit{color:#efe4c8;background:rgba(20,34,28,0.81);border:1px solid rgba(241,210,140,0.45)}
+#feSit:focus{border-color:#f1d28c;background:rgba(20,34,28,0.93)}
+#feSum{color:#efe4c8;border-top:1px solid rgba(241,210,140,0.37)}
+#feSum b{color:#f1d28c}
+@media (max-width:860px){#feWrap[data-step="loc"] #fePanR.locArtOn #feLocPreviewMeta b{color:#efe4c8;text-shadow:0 1px 2px rgba(0,0,0,0.85),0 0 5px rgba(0,0,0,0.85),0 0 11px rgba(0,0,0,0.81)}}
+@media (max-width:860px){#feArtVeil{background:rgba(241,210,140,0.21)}}
+@media (max-width:860px){#feArtX{border:1px solid rgba(241,210,140,0.25);background:rgba(241,210,140,0.36);color:rgba(239,228,200,0.9)}}
+@media (max-width:860px){#feArtP,#feArtN{color:rgba(239,228,200,0.92);text-shadow:0 1px 6px rgba(0,0,0,0.85),0 0 10px rgba(0,0,0,0.85),0 0 2px rgba(0,0,0,0.85)}}
+@media (max-width:860px){#feArtOk{border:1px solid rgba(241,210,140,0.25);background:rgba(241,210,140,0.36);color:rgba(239,228,200,0.92);text-shadow:0 1px 4px rgba(0,0,0,0.85)}}
+@media (max-width:860px){#feWrap.artOn #fePerPortraitCap{color:rgba(239,228,200,0.86);text-shadow:0 1px 6px rgba(0,0,0,0.85),0 0 10px rgba(0,0,0,0.85),0 0 2px rgba(0,0,0,0.85)}}
