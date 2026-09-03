@@ -2587,15 +2587,27 @@ function risuInvoke(messages,cb,err,opt){
   if(mt<64)mt=3200;
   var minChars=num(opt.min_chars,aux?0:((typeof SET!=='undefined'&&SET.samp.minc)?SET.samp.minc:900));
   delete opt.min_chars;
-  var timeoutMs=num(opt.timeoutMs,aux?25000:40000);delete opt.timeoutMs;
+  /* [world] 超时改为「无动静」计时：规划、首字、每一段流式增量都会把表重拨。
+     原来是整回合硬上限 40 秒，接思考模型时规划＋正文常常超过，回合被白白掐断。
+     生成引擎面板里填了「超时（秒）」就按它来，默认 90 秒无动静才断。 */
+  var _cfgTo=parseInt(((typeof SET!=='undefined'&&SET.risu)||{}).timeout,10);
+  var timeoutMs=num(opt.timeoutMs,aux?25000:((_cfgTo>0?_cfgTo:90)*1000));delete opt.timeoutMs;
   var ac=window.AbortController?new AbortController():null;
   if(!aux)GENAC=ac;
-  var fired=false,timedOut=false,timer=setTimeout(function(){
-    if(fired)return;timedOut=true;try{if(ac)ac.abort();}catch(_){}
-    fail(new Error('接口 '+Math.round(timeoutMs/1000)+' 秒没有返回'));
-  },timeoutMs);
+  var fired=false,timedOut=false,timer=null;
+  function armTimer(){
+    if(timer)clearTimeout(timer);
+    timer=setTimeout(function(){
+      if(fired)return;timedOut=true;try{if(ac)ac.abort();}catch(_){}
+      fail(new Error('接口 '+Math.round(timeoutMs/1000)+' 秒没有动静'));
+    },timeoutMs);
+  }
+  armTimer();
+  (function(){var _d=onDelta,_p=onPhase;
+    onDelta=function(t){if(!fired)armTimer();if(_d)return _d(t);};
+    onPhase=function(ph){if(!fired)armTimer();if(_p)return _p(ph);};})();
   function fail(e){if(fired)return;fired=true;clearTimeout(timer);
-    err(timedOut?('接口 '+Math.round(timeoutMs/1000)+' 秒没有返回，已中断'):felPublicError(e));}
+    err(timedOut?('接口 '+Math.round(timeoutMs/1000)+' 秒没有动静，已中断'):felPublicError(e));}
   (aux?felRisuBoot().then(function(risu){
     var ei=_eraNow()||1;return risu.activateEra(ei,felRisuNpcKeys(ei)).then(function(){return risu;});
   }):felRisuPrepare(messages,{firstMessage:opening?'':undefined})).then(function(risu){

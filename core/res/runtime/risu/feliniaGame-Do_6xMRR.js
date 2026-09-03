@@ -144,10 +144,11 @@ async function x(e) {
 function ee(e) {
 	return e.slice(-4).map((e) => e.scanContent ?? e.content).join("\n");
 }
+var Sx = 0;
 async function S(e, t, n) {
-	if (!n.some((e) => e.vector?.length)) return;
-	let r = v([c(e)], t).then((e) => e.values[0]).catch(() => void 0);
-	return Promise.race([r, new Promise((e) => setTimeout(() => e(void 0), 1200))]);
+	if (Sx >= 4 || !n.some((e) => e.vector?.length)) return;
+	let r = v([c(e)], t).then((e) => e.values[0]).catch(() => (Sx += 2, void 0)), i = await Promise.race([r, new Promise((e) => setTimeout(() => e(void 0), 1200))]);
+	return i === void 0 && Sx++, i;
 }
 async function C(e) {
 	if (!e.enabled || !e.sessionId) return {
@@ -790,7 +791,7 @@ async function U(e) {
 	if (!r || r.type === "group") throw Error("No FELINIA era is active");
 	r.supaMemory = e.enabled && e.mode !== "off", n.hypaV3 = r.supaMemory, n.hypav2 = !1, n.hypaMemory = !1, n.hypaModel = e.gpu === !1 ? "multiMiniLM" : "multiMiniLMGPU";
 	let i = n.hypaV3Presets?.[n.hypaV3PresetId];
-	i && (i.settings.summarizationModel = "feliniaVerbatim", i.settings.maxChatsPerSummary = 2, i.settings.queryChatCount = 4), e.mode === "api" && e.apiKey !== void 0 && (n.supaMemoryKey = e.apiKey);
+	i && (i.settings.summarizationModel = "feliniaVerbatim", i.settings.maxChatsPerSummary = 2, i.settings.queryChatCount = 4, i.settings.recentMemoryRatio = 1, i.settings.similarMemoryRatio = 0, i.settings.enableSimilarityCorrection = !1), e.mode === "api" && e.apiKey !== void 0 && (n.supaMemoryKey = e.apiKey);
 	let a = I(r);
 	a && (a.palaceEnabled = r.supaMemory, a.palaceSessionId = String(e.sessionId || ""), a.palaceBudgetChars = Math.max(400, Math.min(12e3, e.budgetChars || 3e3)), a.palaceTopK = Math.max(1, Math.min(12, e.topK || 8)), a.palaceGpu = e.gpu !== !1, a.palaceVectors = e.mode !== "lexical", a.palaceRecallActive = !1, r.extentions.felinia = a), t.database.setCurrentCharacter(r);
 }
