@@ -163,3 +163,5 @@ html:has(#game.show) #foot{display:none!important}
 .wpmBrush{position:absolute;left:0;top:0;pointer-events:none;z-index:4;border-radius:50%;border:1.5px solid rgba(255,255,255,.92);box-shadow:0 0 0 1px rgba(0,0,0,.55),inset 0 0 0 1px rgba(0,0,0,.35);will-change:transform,width,height;display:none}
 .wpmBrush i{position:absolute;left:50%;top:50%;width:3px;height:3px;margin:-1.5px 0 0 -1.5px;border-radius:50%;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.6)}
 @media (max-width:760px){#pnMap{width:auto}#wmEditor{padding:7px 8px;gap:6px}.wmSliders input[type=range]{width:80px}#wmEditor button{padding:5px 7px;font-size:9px}}
+/* 开局界面底色改为深空：星球画布挂入前那一帧不会闪白 */
+#feWrap{background:#05070c}

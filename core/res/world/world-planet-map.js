@@ -669,7 +669,7 @@ function mount(el,mode){
   wrap.appendChild(canvas);wrap.appendChild(pinLayer);wrap.classList.toggle('space',mode==='forge'||mode==='menu');wrap.classList.toggle('menu',mode==='menu');pinLayer.style.display=mode==='menu'?'none':'';
   if(resizeObs)resizeObs.disconnect();if(window.ResizeObserver){resizeObs=new ResizeObserver(function(){resize();});resizeObs.observe(wrap);}
   initSpace();if(!READY)build();else{if(DATA&&!pins.length)buildPins();}
-  applyMode();resize();
+  applyMode();resize();if(renderer&&camera)try{renderer.render(scene,camera);}catch(_){}   /* 换宿主后立刻画一帧，避免空白 */
   mini=document.querySelector('#arrMap .mmap');mctx=mini&&mini.getContext('2d');
 }
 function applyMode(){if(!renderer)return;var space=hostMode==='forge'||hostMode==='menu';if(stars)stars.visible=space;if(nebula)nebula.visible=space;if(cosmos)cosmos.visible=hostMode==='menu';if(sunGlow)sunGlow.visible=space;

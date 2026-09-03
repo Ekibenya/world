@@ -261,7 +261,8 @@ function esEngage(){
   }catch(_){}
   esEnter(d);
 }
-function esEnter(d){esClose();if(window.WORLD_UI)window.WORLD_UI.enterEra(d);}
+/* 进入时代不先收掉插画页：时代资料还在读取时，页面底下的壳层会露出来闪一下；等 app 那边资料到位、开局界面亮起后再由它调用 esClose 清理 */
+function esEnter(d){if(window.WORLD_UI)window.WORLD_UI.enterEra(d);}
 function esBackToLines(){esClose();if(window.WORLD_UI)window.WORLD_UI.showMenu();}
 
 (function(){

@@ -79,7 +79,7 @@ async function chooseEra() {
 }
 
 function openForge() {
-  hideAll(); const wrap = $('#feWrap'); wrap.classList.add('on'); $('#fePanR').classList.remove('locArtOn'); $('#fePanR').classList.add('locPlanet'); $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
+  const wrap = $('#feWrap'); wrap.classList.add('on'); hideAll(); if (window.esClose) window.esClose(); $('#fePanR').classList.remove('locArtOn'); $('#fePanR').classList.add('locPlanet'); $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
   mountPlanet('forge');
   state.step = ''; setStep('loc', false, true);
 }
