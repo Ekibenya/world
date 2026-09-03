@@ -65,6 +65,7 @@ function annalsRows() {
   }));
 }
 function showEras() {
+  if (!state.index) return;
   hideAll(); window.MENU.on = false;
   window.esOpen('world');
 }
@@ -79,7 +80,7 @@ async function chooseEra() {
 }
 
 function openForge() {
-  const wrap = $('#feWrap'); wrap.classList.add('on'); hideAll(); if (window.esClose) window.esClose(); $('#fePanR').classList.remove('locArtOn'); $('#fePanR').classList.add('locPlanet'); $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
+  hideAll(); const wrap = $('#feWrap'); wrap.classList.add('on'); if (window.esClose) window.esClose();   /* 同一同步块内切换，不会被绘制出中间帧 */ $('#fePanR').classList.remove('locArtOn'); $('#fePanR').classList.add('locPlanet'); $('#feEraLbl').textContent = `AETAS ${String(state.era.ordinal).padStart(2, '0')} · ${state.era.name}`;
   mountPlanet('forge');
   state.step = ''; setStep('loc', false, true);
 }
@@ -282,6 +283,7 @@ $('#apiEye').addEventListener('pointerup', () => { $('#apiKey').type = $('#apiKe
 addEventListener('keydown', (event) => { if (event.key === 'Escape') { if ($('#dlgApi').style.display === 'flex') closeSettings(); else if ($('#game').classList.contains('show')) showMenu(); else if ($('#feWrap').classList.contains('on')) { const index = steps.indexOf(state.step); if (index > 0) setStep(steps[index - 1], true); else showEras(); } } });
 
 async function init() {
+  showMenu();   /* 先亮菜单与星球，正典资料在后台读取 */
   try {
     const [a, b, c, d] = await Promise.all([fetch(`${DATA_ROOT}index.json`), fetch(`${DATA_ROOT}customization.json`), fetch(`${DATA_ROOT}timeline-arcs.json`), fetch(`${DATA_ROOT}era-intros.json`)]); if (!a.ok || !b.ok || !c.ok || !d.ok) throw new Error('正典资料索引读取失败。');
     state.index = await a.json(); state.customization = await b.json(); const timeline = await c.json(); state.intros = await d.json();
@@ -303,7 +305,6 @@ async function init() {
     window.WORLD_UI_STATE = () => state;
     window.__FELVN_STATE__ = () => ({ panel: { npcs: (state.player?.companions || []).map((item) => ({ name: item.name, role: item.relation })), world: { '纪年': state.era?.name || '', '时地': state.loc ? `${state.era?.name || ''} · ${state.loc.name}` : (state.era?.name || '') } }, op: { era: state.era?.name || '', scene: state.era?.name || '', year: state.era?.ordinal || 1 }, text: state.history.at(-1)?.content || '', hero: state.player?.mode === 'preset' ? state.player?.card?.name : state.player?.custom?.name });
     if (localStorage.getItem('guardianDragonAutoSave')) $('#miCont').style.display = '';
-    showMenu();
   }
   catch (error) { $('#menu .mFoot').textContent = error.message; }
 }

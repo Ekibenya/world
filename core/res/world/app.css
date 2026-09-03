@@ -165,3 +165,5 @@ html:has(#game.show) #foot{display:none!important}
 @media (max-width:760px){#pnMap{width:auto}#wmEditor{padding:7px 8px;gap:6px}.wmSliders input[type=range]{width:80px}#wmEditor button{padding:5px 7px;font-size:9px}}
 /* 开局界面底色改为深空：星球画布挂入前那一帧不会闪白 */
 #feWrap{background:#05070c}
+/* 页面底色即深空：任何过渡瞬间露出的都是宇宙，不再是米色壳层 */
+body{background:#05070c}
