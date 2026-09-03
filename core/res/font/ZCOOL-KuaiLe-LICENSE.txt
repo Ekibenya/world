@@ -1,0 +1,10 @@
+ZCOOL KuaiLe (站酷快乐体)
+Copyright 2018 The ZCOOL KuaiLe Project Authors (https://github.com/googlefonts/zcool-kuaile)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+zcool-kuaile-menu.ttf is a subset of the original font containing only the
+characters used by the main-menu buttons (开始 继续游戏 连接 存档).
+If new Chinese labels are added to the menu, regenerate the subset from the
+full font.

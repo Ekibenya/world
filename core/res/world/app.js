@@ -306,6 +306,6 @@ async function init() {
     window.__FELVN_STATE__ = () => ({ panel: { npcs: (state.player?.companions || []).map((item) => ({ name: item.name, role: item.relation })), world: { '纪年': state.era?.name || '', '时地': state.loc ? `${state.era?.name || ''} · ${state.loc.name}` : (state.era?.name || '') } }, op: { era: state.era?.name || '', scene: state.era?.name || '', year: state.era?.ordinal || 1 }, text: state.history.at(-1)?.content || '', hero: state.player?.mode === 'preset' ? state.player?.card?.name : state.player?.custom?.name });
     if (localStorage.getItem('guardianDragonAutoSave')) $('#miCont').style.display = '';
   }
-  catch (error) { $('#menu .mFoot').textContent = error.message; }
+  catch (error) { $('#menuStatus').textContent = error.message; }
 }
 init();
