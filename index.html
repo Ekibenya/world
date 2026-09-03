@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/core/res/font/world-fonts.css?v=10">
   <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=13">
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
-  <link rel="stylesheet" href="/core/res/world/app.css?v=28">
+  <link rel="stylesheet" href="/core/res/world/app.css?v=29">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -37,8 +37,54 @@
 <div id="menu">
   <div id="menuSpace"></div>
   <div id="menuTitle" aria-label="The Dragon World Online">
-    <span class="t1">THE DRAGON WORLD</span>
-    <span class="t2">ONLINE</span>
+    <svg viewBox="0 0 1400 400" preserveAspectRatio="xMidYMid meet" role="img" aria-hidden="true">
+      <defs>
+        <text id="mtT" x="700" y="176" text-anchor="middle" font-size="150" textLength="1240" lengthAdjust="spacingAndGlyphs">THE DRAGON WORLD</text>
+        <text id="mtS" x="712" y="292" text-anchor="middle" font-size="40" letter-spacing="26">ONLINE</text>
+        <linearGradient id="mtFace" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#fff3cc"/><stop offset=".30" stop-color="#f6dc98"/><stop offset=".47" stop-color="#eccb7e"/>
+          <stop offset=".50" stop-color="#fff9df"/><stop offset=".54" stop-color="#e9c674"/><stop offset=".82" stop-color="#d4a94e"/><stop offset="1" stop-color="#bf9440"/>
+        </linearGradient>
+        <linearGradient id="mtRule" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#f1d28c" stop-opacity="0"/><stop offset=".5" stop-color="#f1d28c" stop-opacity=".9"/><stop offset="1" stop-color="#f1d28c" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="mtSweep" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0">
+          <stop offset="0" stop-color="#fff8e6" stop-opacity="0"/><stop offset=".42" stop-color="#fff8e6" stop-opacity="0"/>
+          <stop offset=".50" stop-color="#ffffff" stop-opacity=".85"/><stop offset=".56" stop-color="#ffe9b8" stop-opacity=".35"/><stop offset=".66" stop-color="#ffe9b8" stop-opacity="0"/><stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+          <animateTransform id="mtSw" attributeName="gradientTransform" type="translate" from="-700 0" to="1500 0" dur="3.4s" begin="1.6s;mtSw.end+8s" calcMode="spline" keyTimes="0;1" keySplines=".4 .05 .45 1"/>
+        </linearGradient>
+        <filter id="mtMetal" x="-6%" y="-25%" width="112%" height="150%" color-interpolation-filters="sRGB">
+          <feTurbulence type="fractalNoise" baseFrequency="0.02 0.6" numOctaves="2" seed="5" result="tx"/>
+          <feColorMatrix in="tx" type="matrix" values=".33 .33 .33 0 .42  .33 .33 .33 0 .42  .33 .33 .33 0 .42  0 0 0 0 1" result="brush"/>
+          <feComposite in="SourceGraphic" in2="brush" operator="arithmetic" k1=".18" k2=".88" k3="0" k4="0" result="brushed"/>
+          <feGaussianBlur in="SourceAlpha" stdDeviation="1.6" result="bl"/>
+          <feDiffuseLighting in="bl" surfaceScale="2.6" diffuseConstant="1" lighting-color="#ffffff" result="dif"><feDistantLight azimuth="235" elevation="55"/></feDiffuseLighting>
+          <feComposite in="brushed" in2="dif" operator="arithmetic" k1="1.12" k2="0" k3="0" k4="0" result="shaded"/>
+          <feSpecularLighting in="bl" surfaceScale="2.6" specularConstant=".55" specularExponent="24" lighting-color="#fff9ea" result="spec"><feDistantLight azimuth="235" elevation="45"/></feSpecularLighting>
+          <feComposite in="spec" in2="SourceAlpha" operator="in" result="specIn"/>
+          <feComposite in="shaded" in2="specIn" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="lit"/>
+          <feComposite in="lit" in2="SourceAlpha" operator="in"/>
+        </filter>
+        <filter id="mtHalo" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+        <filter id="mtAura" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+        <filter id="mtGlow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
+      </defs>
+      <g class="mtLogo">
+        <use href="#mtT" filter="url(#mtHalo)" fill="#05070c" opacity=".78"/>
+        <use href="#mtT" filter="url(#mtAura)" fill="#f1c862" opacity=".5"/>
+        <use href="#mtT" transform="translate(0,1.6)" fill="#5a4318" opacity=".9"/>
+        <use href="#mtT" fill="url(#mtFace)" stroke="#4a3714" stroke-width="1" stroke-opacity=".7" paint-order="stroke" filter="url(#mtMetal)"/>
+        <g class="mtFlame"><use href="#mtT" fill="url(#mtSweep)" filter="url(#mtGlow)" opacity=".7"/><use href="#mtT" fill="url(#mtSweep)"/></g>
+        <g class="mtRules">
+          <rect x="250" y="279" width="290" height="1.4" fill="url(#mtRule)"/><rect x="860" y="279" width="290" height="1.4" fill="url(#mtRule)"/>
+          <path d="M552 279.7 l6 -5 6 5 -6 5z M842 279.7 l6 -5 6 5 -6 5z" fill="#f1d28c" opacity=".85"/>
+        </g>
+        <use href="#mtS" filter="url(#mtHalo)" fill="#05070c" opacity=".7"/>
+        <use href="#mtS" filter="url(#mtAura)" fill="#f1c862" opacity=".38"/>
+        <use href="#mtS" fill="url(#mtFace)" stroke="#4a3714" stroke-width=".6" stroke-opacity=".6" paint-order="stroke"/>
+        <g class="mtFlame"><use href="#mtS" fill="url(#mtSweep)" filter="url(#mtGlow)" opacity=".6"/><use href="#mtS" fill="url(#mtSweep)"/></g>
+      </g>
+    </svg>
   </div>
   <div id="menuStatus"></div>
   <div id="luxTg" title="白昼／黑夜切换">☀</div>
@@ -778,7 +824,7 @@
   </div>
 </div>
   <script>window.$=(s)=>document.querySelector(s);window.MENU={on:true};</script>
-  <script src="/core/res/world/menu-shell.js?v=13"></script>
+  <script src="/core/res/world/menu-shell.js?v=14"></script>
   <script src="/core/res/world/annals-shell.js?v=16"></script>
   <script src="/core/res/world/world-era-intro.js?v=19"></script>
   <script src="/core/res/world/mvu-shell.js?v=10"></script>

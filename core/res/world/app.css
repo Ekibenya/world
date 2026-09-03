@@ -167,10 +167,11 @@ html:has(#game.show) #foot{display:none!important}
 #feWrap{background:#05070c}
 /* 页面底色即深空：任何过渡瞬间露出的都是宇宙，不再是米色壳层 */
 body{background:#05070c}
-/* ---- 封面标题：巴黎地铁 Métropolitain 字体，纯色不加特效 ---- */
+/* ---- 封面标题：巴黎地铁 Métropolitain 字体；SVG 内做浮雕金属（拉丝纹理 + 漫反射/高光斜面 + 挤出层 + 投影），火光沿字面从左扫到右 ---- */
 @font-face{font-family:'Metropolitain';src:url(/core/res/font/metropolitain.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap}
-#menuTitle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;text-align:center;font-family:'Metropolitain','Cinzel',Georgia,serif;color:#f1d28c;user-select:none;white-space:nowrap}
-#menuTitle span{display:block}
-#menuTitle .t1{font-size:clamp(38px,6.2vw,100px);line-height:1;letter-spacing:.04em;word-spacing:-.2em}
-#menuTitle .t2{font-size:clamp(15px,1.9vw,30px);letter-spacing:.7em;margin-top:.55em;padding-left:.7em}
-@media (max-width:760px){#menuTitle .t1{letter-spacing:.02em}#menuTitle .t2{letter-spacing:.4em;padding-left:.4em}}
+#menuTitle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;width:min(70vw,980px);user-select:none}
+#menuTitle svg{display:block;width:100%;height:auto;overflow:visible}
+#menuTitle text{font-family:'Metropolitain','Cinzel',Georgia,serif;font-weight:400}
+#menuTitle .mtFlame{mix-blend-mode:screen}
+@media (prefers-reduced-motion:reduce){#menuTitle .mtFlame{display:none}}
+@media (max-width:760px){#menuTitle{width:92vw}}
