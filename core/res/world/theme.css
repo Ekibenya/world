@@ -33,7 +33,7 @@ html:has(#game.show) body{background:var(--sky)}
 #game .gt:hover,#game .gTools .gt.on{color:var(--star-hi);border-color:var(--star);box-shadow:0 0 12px rgba(241,210,140,.18)}
 
 /* 正文：一张羊皮纸 */
-#game .gNarr{background:linear-gradient(180deg,var(--vellum) 0%,var(--vellum2) 100%);
+#game .gNarr{background:rgba(236,227,205,.7);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
   border-left:1px solid rgba(241,210,140,.14);border-right:1px solid rgba(241,210,140,.14);
   box-shadow:0 0 0 1px rgba(0,0,0,.35),0 30px 90px rgba(0,0,0,.55)}
 #game .gNarr .sys{font-family:var(--dispf);color:#8a7a52}
@@ -67,9 +67,10 @@ html:has(#game.show) body{background:var(--sky)}
 #game .gMfd{background:rgba(5,7,12,.32);border-left:1px solid rgba(241,210,140,.12)}
 #game .gMfd .mvCard,#game .gMfd .mvWin{--txt:#25241d;--mut:#5f5c53;--gold:#845800;--gold-hi:#523000;--paper:#13120d}
 .gMfd.mvDeck .mvWin{border-color:rgba(132,88,0,.4);box-shadow:0 20px 60px rgba(0,0,0,.55)}
-.mvCard .cfr,.gMfd.mvDeck .mvCard .cfr{background:rgba(236,227,205,.95);border-color:rgba(132,88,0,.35)}
-.mvCard.on .cfr,.gMfd.mvDeck .mvCard.on .cfr{background:rgba(236,227,205,.98)}
-.gMfd.mvDeck .mvCard.thumb .cfr{background:rgba(236,227,205,.86) !important}
+.mvCard .cfr,.gMfd.mvDeck .mvCard .cfr{background:rgba(236,227,205,.74);border-color:rgba(132,88,0,.35)}
+.mvCard.on .cfr,.gMfd.mvDeck .mvCard.on .cfr{background:rgba(236,227,205,.80)}
+.gMfd.mvDeck .mvCard.thumb .cfr{background:rgba(236,227,205,.62) !important}
+.gMfd.mvDeck .mvWin{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 #game .gMfd .mHead{font-family:var(--dispf);font-weight:400}
 #game .gMfd .mBar{background:rgba(241,210,140,.16)}
 #game .gMfd .mvCard .mBar{background:rgba(19,18,13,.10)}
@@ -106,3 +107,43 @@ html:has(#game.show) body{background:var(--sky)}
 .svAct:hover{border-color:var(--star);color:var(--star-hi)}
 .svfbtn{color:var(--frame-txt)}
 .svfbtn:hover{color:var(--star-hi)}
+
+/* 纪年插画页 ANNALES：深空底，金色牌 */
+#eraSel{--gold:var(--star);--gold-hi:var(--star-hi);--paper:var(--star);--txt:var(--frame-txt);--mut:var(--frame-mut);--ink:var(--sky);
+  background:radial-gradient(ellipse 58% 48% at 16% 18%,rgba(78,62,128,.40),transparent 70%),
+    radial-gradient(ellipse 50% 44% at 84% 80%,rgba(128,66,100,.30),transparent 70%),
+    radial-gradient(ellipse 70% 58% at 58% 32%,rgba(30,50,104,.36),transparent 72%) var(--sky)}
+#esReel::before{background:linear-gradient(90deg,var(--sky) 0%,rgba(5,7,12,.7) 45%,rgba(5,7,12,0) 100%)}
+#esReel::after{background:linear-gradient(270deg,var(--sky) 0%,rgba(5,7,12,.7) 45%,rgba(5,7,12,0) 100%)}
+#esMission .m-tag .tag{background:var(--star);color:#2a1d06}
+#esMission .num{background:var(--star);color:#2a1d06;font-family:var(--dispf);font-weight:400;text-shadow:none}
+#esMission .ttl span{background:var(--star);color:#2a1d06}
+#esMission .era{color:#cdb87a}
+#esFoot{background:rgba(5,7,12,.9);border-top:1px solid rgba(241,210,140,.12)}
+#esFoot .go{font-family:var(--dispf);font-weight:400}
+#esBrand{font-family:var(--dispf);color:var(--star-dim)}
+#esBrand b{color:var(--star)}
+#eraSel::after,#feWrap::after{content:none !important}
+
+/* 铸局页 WORLD：顶栏与底栏收进深空，羊皮纸板不动 */
+#feHead{background:linear-gradient(180deg,rgba(5,7,12,.96) 0%,rgba(5,7,12,.62) 62%,rgba(5,7,12,0) 100%)}
+#feHead b{color:var(--frame-txt);font-family:var(--dispf);font-weight:400}
+#feHead .st{color:var(--star)}
+#feHead .er{color:var(--frame-mut)}
+#feSteps{color:#6f6852}
+#feSteps i{font-family:var(--dispf)}
+#feSteps i.on{color:var(--star)}
+#feSteps i.done{color:#cdb87a}
+#feFoot{color:var(--frame-mut);background:linear-gradient(0deg,rgba(5,7,12,.96) 0%,rgba(5,7,12,.62) 62%,rgba(5,7,12,0) 100%)}
+#feFoot .go{color:var(--frame-txt);font-family:var(--dispf);font-weight:400}
+#feFoot .go:hover,#feFoot .go:active{color:var(--star-hi);border-bottom-color:var(--star)}
+#feFoot .go.off:hover,#feFoot .go.off:active{color:var(--frame-txt)}
+.feGl{border-color:rgba(132,88,0,.32);box-shadow:0 20px 50px rgba(0,0,0,.55)}
+#fePerPortraitCap{background:var(--star);border-color:var(--star);color:#2a1d06}
+#eraSel .pl{filter:brightness(.5) saturate(.72) contrast(1.05)}
+#eraSel .pl:hover{filter:brightness(.68) saturate(.8) contrast(1.05)}
+#eraSel .pl.on{filter:none}
+#eraSel .pl.on::before{background:linear-gradient(0deg,rgba(5,7,12,.9) 0%,rgba(5,7,12,.55) 15%,rgba(5,7,12,0) 40%)}
+#eraSel .pip i{filter:brightness(.5) saturate(.72) contrast(1.05)}
+#eraSel .pip:hover i{filter:brightness(.75) saturate(.85) contrast(1.05)}
+#eraSel .pip.on i{filter:none}

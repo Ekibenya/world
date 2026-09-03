@@ -3830,25 +3830,26 @@ function applyGlass(){
     +'.gPanel,#pnTx{background:rgba('+GLS+','+(.20+.40*a).toFixed(2)+') !important}'
     +'#game #pnMap,#game #pnArm,#game #pnShop'
     +'{background:rgba('+VEL+','+(.80+.18*a).toFixed(2)+') !important}'
-    +'.gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.86+.12*a).toFixed(2)+') !important}'
-    +'.feGl{background:rgba(250,249,246,'+(.52+.26*a).toFixed(2)+') !important}'
+    +'.gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.46+.32*a).toFixed(2)+') !important}'
+    +'.feGl{background:rgba('+VEL+','+(.62+.24*a).toFixed(2)+') !important}'
     +'#feWrap[data-step="loc"] .feGl'
-    +'{background:rgba(250,249,246,'+(.58+.26*a).toFixed(2)+') !important}'
+    +'{background:rgba('+VEL+','+(.68+.24*a).toFixed(2)+') !important}'
+    +'#game .gNarr{background:rgba('+VEL+','+(.42+.34*a).toFixed(2)+') !important}'
     +'@media (max-width:860px){'
-    +'.feGl{background:rgba(250,249,246,'+(.26+.22*a).toFixed(2)+') !important}'
+    +'.feGl{background:rgba('+VEL+','+(.50+.26*a).toFixed(2)+') !important}'
     +'#feWrap[data-step="loc"] .feGl'
-    +'{background:rgba(250,249,246,'+(.30+.22*a).toFixed(2)+') !important}'
+    +'{background:rgba('+VEL+','+(.56+.26*a).toFixed(2)+') !important}'
     +'}'
     +'#game.txBig #pnTx{background:rgba('+SKY+','+(.28+.18*a).toFixed(2)+') !important}'
     +'@media (min-width:761px){'
-    +'#game.txBig .gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.90+.10*a).toFixed(2)+') !important}'
-    +'#game.txBig .gMfd.mvDeck .mvCard .cfr{background:rgba('+VEL+','+(.86+.12*a).toFixed(2)+') !important}'
+    +'#game.txBig .gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.66+.26*a).toFixed(2)+') !important}'
+    +'#game.txBig .gMfd.mvDeck .mvCard .cfr{background:rgba('+VEL+','+(.66+.26*a).toFixed(2)+') !important}'
     +'}'
     +'.gDlg .box,#eraBox .box,#persona .box,#psRes .box,.fd-win,.svFold,.svFold .tab,#game .gmMenu'
     +'{background:rgba('+VEL+','+(.84+.14*a).toFixed(2)+') !important}'
     +'@media (max-width:760px){'
     +'#game .gPanel{background:rgba('+GLS+','+(.50+.30*a).toFixed(2)+') !important}'
-    +'#game .gMfd.mvDeck .mvWin{background:rgba('+VEL+',.97) !important;'
+    +'#game .gMfd.mvDeck .mvWin{background:rgba('+VEL+',.92) !important;'
     +'-webkit-backdrop-filter:none !important;backdrop-filter:none !important}'
     +'}';
 }
@@ -9487,12 +9488,13 @@ function bgmUi(){
 })();
 /* 昼夜：本作保留白昼／黑夜两档（引擎原版只有白昼） */
 function luxApply(v){
-  if(v==null)v=LUX;LUX=v?1:0;
-  document.documentElement.classList.toggle('lux',!!LUX);
+  /* [world] 主题是深空底，纪年插画页与铸局页不再走白昼反色层 */
+  LUX=0;
+  document.documentElement.classList.remove('lux');
   var cb=$('#cfgLux');if(cb){cb.checked=!!LUX;cb.disabled=false;}
   try{localStorage.setItem('guardianDragonLux',LUX?'1':'0');}catch(_){}
 }
-try{LUX=(localStorage.getItem('guardianDragonLux')==='0')?0:1;luxApply(LUX);}catch(_){}
+try{luxApply(0);}catch(_){}
 window.WORLD_ENGINE={
   setEra:worldSetEra,start:worldStart,forge:worldForge,show:gameShow,exit:gameExit,
   send:function(t){sendText(String(t||''));},busy:function(){return !!BUSY;},on:function(){return !!GAME.on;},
