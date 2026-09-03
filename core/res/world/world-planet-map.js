@@ -673,12 +673,12 @@ function mount(el,mode){
   mini=document.querySelector('#arrMap .mmap');mctx=mini&&mini.getContext('2d');
 }
 function applyMode(){if(!renderer)return;var space=hostMode==='forge'||hostMode==='menu';if(stars)stars.visible=space;if(nebula)nebula.visible=space;if(cosmos)cosmos.visible=hostMode==='menu';if(sunGlow)sunGlow.visible=space;
-  renderer.setClearColor(space?0x05070c:0x000000,space?1:0);cam.tr=hostMode==='menu'?6.1:hostMode==='forge'?Math.max(cam.tr,3.4):4.8;if(hostMode==='menu'){cam.tt=cam.tp=null;cam.phi=1.22;}}
+  renderer.setClearColor(space?0x05070c:0x000000,space?1:0);cam.tr=hostMode==='menu'?6.55:hostMode==='forge'?Math.max(cam.tr,3.4):4.8;if(hostMode==='menu'){cam.tt=cam.tp=null;cam.phi=1.22;}}
 function resize(){
   if(!renderer||!canvas)return;var w=canvas.clientWidth||host.clientWidth||300,h=canvas.clientHeight||host.clientHeight||200;if(w<4||h<4)return;
   renderer.setSize(w,h,false);
   var wide=w>h*1.1;if(host&&host.id==='gmMap'){host.classList.toggle('wpmWide',wide);host.classList.toggle('wpmTall',!wide);}
-  if(hostMode==='menu'){var mw=w*(wide?1.18:1.0),mh=h*1.22;camera.aspect=mw/mh;camera.setViewOffset(mw,mh,wide?w*.03:0,h*.11,w,h);}   /* 菜单：星球居中偏下，上方留给标题 */
+  if(hostMode==='menu'){var mw=w*(wide?1.18:1.0),mh=h*1.22;camera.aspect=mw/mh;camera.setViewOffset(mw,mh,wide?w*.03:0,h*.075,w,h);}   /* 菜单：星球居中偏下，上方留给标题 */
   else if(hostMode==='panel'&&wide){var fw=w*1.6;camera.aspect=fw/h;camera.setViewOffset(fw,h,w*.52,0,w,h);}          /* 横版：星球挂左，地志在右 */
   else if(hostMode==='panel'){var fh=h*1.3;camera.aspect=w/fh;camera.setViewOffset(w,fh,0,h*.27,w,h);}             /* 竖版：星球在上，地志在下 */
   else{camera.clearViewOffset();camera.aspect=w/h;}
