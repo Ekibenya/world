@@ -167,3 +167,24 @@ html:has(#game.show) #foot{display:none!important}
 #feWrap{background:#05070c}
 /* 页面底色即深空：任何过渡瞬间露出的都是宇宙，不再是米色壳层 */
 body{background:#05070c}
+/* ---- 封面标题：巴黎地铁 Métropolitain 字体，金属浮雕 + 火光从左到右扫过 ---- */
+@font-face{font-family:'Metropolitain';src:url(/core/res/font/metropolitain.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap}   /* 吉马尔巴黎地铁站牌字 */
+#menuTitle{position:absolute;left:50%;top:5.5%;transform:translateX(-50%);z-index:3;pointer-events:none;text-align:center;font-family:'Metropolitain','Cinzel',Georgia,serif;text-transform:uppercase;user-select:none;white-space:nowrap}
+#menuTitle span{position:relative;display:block;color:transparent;
+  background:linear-gradient(180deg,#fff4d2 0%,#f5d98a 22%,#d9a648 46%,#7a4d14 52%,#c7913a 66%,#f1d28c 84%,#fff3cf 100%);
+  -webkit-background-clip:text;background-clip:text;
+  filter:drop-shadow(0 2px 0 #6d4512) drop-shadow(0 4px 0 #4e3010) drop-shadow(0 7px 0 #33200a) drop-shadow(0 12px 18px rgba(0,0,0,.75))}
+#menuTitle .t1{font-size:clamp(40px,6.6vw,104px);line-height:1;letter-spacing:.04em;word-spacing:-.22em;
+  filter:drop-shadow(0 2px 0 #6d4512) drop-shadow(0 4px 0 #4e3010) drop-shadow(0 6px 0 #3a2410) drop-shadow(0 9px 0 #241608) drop-shadow(0 16px 22px rgba(0,0,0,.8))}
+#menuTitle .t2{font-size:clamp(15px,1.9vw,30px);letter-spacing:.7em;margin-top:.6em;padding-left:.7em}
+/* 火光：两层同文字的伪元素——细亮的光带 + 模糊的橙红焰晕，沿 background-position 从左扫到右 */
+#menuTitle span::before,#menuTitle span::after{content:attr(data-text);position:absolute;left:0;top:0;width:100%;color:transparent;
+  background:linear-gradient(100deg,rgba(255,255,255,0) 38%,rgba(255,236,190,.45) 45%,#fff8e6 49%,#ffb347 52%,rgba(255,90,20,.55) 56%,rgba(255,255,255,0) 63%);
+  background-size:280% 100%;background-position:150% 0;-webkit-background-clip:text;background-clip:text;
+  animation:menuFlame 7s cubic-bezier(.55,.05,.35,1) infinite;pointer-events:none}
+#menuTitle span::after{filter:blur(7px);opacity:.85;animation-name:menuFlameGlow}
+#menuTitle .t2::before,#menuTitle .t2::after{animation-delay:.35s}
+@keyframes menuFlame{0%{background-position:150% 0}38%{background-position:-150% 0}100%{background-position:-150% 0}}
+@keyframes menuFlameGlow{0%{background-position:150% 0;opacity:.85}38%{background-position:-150% 0;opacity:.85}45%{opacity:0}100%{background-position:-150% 0;opacity:0}}
+@media (prefers-reduced-motion:reduce){#menuTitle span::before,#menuTitle span::after{animation:none;opacity:0}}
+@media (max-width:760px){#menuTitle{top:4%}#menuTitle .t1{letter-spacing:.03em}#menuTitle .t2{letter-spacing:.4em;padding-left:.4em}}
