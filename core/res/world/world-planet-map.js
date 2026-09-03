@@ -255,8 +255,12 @@ function applyEra(o){
 }
 
 /* ---------- 地形编辑（捏大陆、隆山脉、改地貌） ---------- */
-var EDIT={on:false,tool:'raise',type:3,rad:6,str:5,gestures:[],cur:null,dirty:null,startIdx:0,baseLand:0,baseSites:null,onTerraform:null,pending:null,last:null};
+var EDIT={on:false,tool:'raise',type:3,rad:2,str:5,gestures:[],cur:null,dirty:null,startIdx:0,baseLand:0,baseSites:null,onTerraform:null,pending:null,last:null};
 var TYPE_NAME={1:'沙漠',2:'草原',3:'森林',4:'雪原',5:'焦土'};
+/* 笔刷滑杆按对数刻度：0→0.25°（约 28 里），100→24°，小尺度档位才够细 */
+var BR_MIN=.25,BR_MAX=24;
+function sizeFromSlider(v){return BR_MIN*Math.pow(BR_MAX/BR_MIN,clamp(v,0,100)/100);}
+function sliderFromSize(r){return 100*Math.log(clamp(r,BR_MIN,BR_MAX)/BR_MIN)/Math.log(BR_MAX/BR_MIN);}
 function stampRect(op){var cl=Math.max(.15,Math.cos(op.lat*D2R)),rl=op.r*1.2/cl,rr=op.r*1.2;if(rl>=180)return {x0:0,x1:W-1,y0:pyOf(op.lat-rr),y1:pyOf(op.lat+rr)};return {x0:pxOf(op.lon-rl),x1:pxOf(op.lon+rl),y0:pyOf(op.lat-rr),y1:pyOf(op.lat+rr)};}
 function rectN(r){return r.x1>=r.x0?r.x1-r.x0:r.x1+W-r.x0;}
 function inRect(r,x,y){if(y<r.y0||y>r.y1)return false;return ((x-r.x0+W)%W)<=rectN(r);}
@@ -349,13 +353,15 @@ function syncEditor(){var ed=$('#wmEditor'),btn=$('#wmEdit');if(ed)ed.hidden=!ED
   document.querySelectorAll('#wmEditor [data-tool]').forEach(function(b){b.classList.toggle('on',EDIT.tool===b.dataset.tool);});
   document.querySelectorAll('#wmEditor [data-type]').forEach(function(b){b.classList.toggle('on',EDIT.tool==='type'&&EDIT.type===Number(b.dataset.type));});
   var st=$('#wmStats');if(st&&EDIT.on){st.textContent='陆地 '+(EDIT.baseLand*100).toFixed(1)+'% → '+(landFraction()*100).toFixed(1)+'% · 本次 '+(EDIT.gestures.length-EDIT.startIdx)+' 笔';}
-  var sz=$('#wmSizeV');if(sz)sz.textContent=Math.round(EDIT.rad*111)+' 里';var sv=$('#wmStrV');if(sv)sv.textContent=EDIT.str;}
+  var sz=$('#wmSizeV');if(sz)sz.textContent=(EDIT.rad*111<100?(EDIT.rad*111).toFixed(1):Math.round(EDIT.rad*111))+' 里';var sv=$('#wmStrV');if(sv)sv.textContent=EDIT.str;
+  var size=$('#wmSize');if(size&&document.activeElement!==size)size.value=Math.round(sliderFromSize(EDIT.rad));}
 function bindEditor(){
   var on=function(id,fn){var e=$(id);if(e)e.addEventListener('click',fn);};
   on('#wmEdit',startEdit);on('#wmApply',applyEdit);on('#wmCancel',cancelEdit);on('#wmUndo',undoEdit);on('#wmReset',function(){if(confirm('把星球恢复成原本的样子？这会清除全部改动。'))resetEdits();});
   var ed=$('#wmEditor');if(!ed)return;
   ed.addEventListener('click',function(e){var t=e.target.closest('[data-tool]');if(t){EDIT.tool=t.dataset.tool;syncEditor();return;}var k=e.target.closest('[data-type]');if(k){EDIT.tool='type';EDIT.type=Number(k.dataset.type);syncEditor();}});
-  var size=$('#wmSize'),str=$('#wmStr');if(size)size.addEventListener('input',function(){EDIT.rad=Number(size.value);syncEditor();});if(str)str.addEventListener('input',function(){EDIT.str=Number(str.value);syncEditor();});
+  var size=$('#wmSize'),str=$('#wmStr');if(size)size.addEventListener('input',function(){EDIT.rad=sizeFromSlider(Number(size.value));syncEditor();});
+  document.addEventListener('keydown',function(e){if(!EDIT.on||/input|textarea/i.test(e.target&&e.target.tagName))return;if(e.key==='['||e.key===']'){EDIT.rad=sizeFromSlider(sliderFromSize(EDIT.rad)+(e.key===']'?3:-3));syncEditor();e.preventDefault();}});if(str)str.addEventListener('input',function(){EDIT.str=Number(str.value);syncEditor();});
 }
 /* ---------- 渐进生成 ---------- */
 var READY=false,FULL=false,BUILDING=false,progressCb=[];
