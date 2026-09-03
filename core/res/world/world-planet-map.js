@@ -302,7 +302,7 @@ function brushCursor(px,py,lon,lat){   /* Photoshop 式圆圈光标：直径 = �
     var c0=c.clone().multiplyScalar(R).applyMatrix4(group.matrixWorld).project(camera);
     for(k=0;k<4;k++){var a=k*PI/2,v=c.clone().multiplyScalar(Math.cos(rr)).addScaledVector(e1,Math.sin(rr)*Math.cos(a)).addScaledVector(e2,Math.sin(rr)*Math.sin(a)).multiplyScalar(R).applyMatrix4(group.matrixWorld).project(camera);best=Math.max(best,Math.hypot((v.x-c0.x)*.5*r.width,(v.y-c0.y)*.5*r.height));}
     d=Math.max(8,Math.min(r.width,best*2));brushEl._d=d;}
-  brushEl.style.transform='translate('+(x-d/2).toFixed(1)+'px,'+(y-d/2).toFixed(1)+'px)';brushEl.style.width=brushEl.style.height=d.toFixed(1)+'px';brushEl.style.display='';
+  brushEl.style.transform='translate('+(x-d/2).toFixed(1)+'px,'+(y-d/2).toFixed(1)+'px)';brushEl.style.width=brushEl.style.height=d.toFixed(1)+'px';brushEl.style.display='block';
 }
 function hideBrush(){if(brushEl)brushEl.style.display='none';}
 function startEdit(){
