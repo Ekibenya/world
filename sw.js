@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v44';
+const CACHE = 'guardian-dragon-art-v45';
 const CORE = [
   '/',
   '/index.html',
@@ -6,7 +6,7 @@ const CORE = [
   '/core/res/font/metropolitain.ttf',
   '/core/res/world/interface-shell.css?v=13',
   '/core/res/world/visual-novel.css?v=10',
-  '/core/res/world/app.css?v=31',
+  '/core/res/world/app.css?v=32',
   '/core/res/world/menu-shell.js?v=14',
   '/core/res/world/annals-shell.js?v=16',
   '/core/res/world/world-era-intro.js?v=19',

@@ -172,4 +172,9 @@ body{background:#05070c}
 #menuTitle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;width:min(70vw,980px);user-select:none}
 #menuTitle svg{display:block;width:100%;height:auto;overflow:visible}
 #menuTitle text{font-family:'Metropolitain','Cinzel',Georgia,serif;font-weight:400}
+#menu:not(.era):not(.gbg) .mItem{font-family:'Metropolitain','Cinzel',Georgia,serif;font-size:14px;letter-spacing:.14em;text-transform:uppercase;color:#f1d28c;text-shadow:1px 1px 0 #3b2a0e,2px 2px 0 #3b2a0e,0 4px 10px rgba(0,0,0,.8)}
+#menu:not(.era):not(.gbg) .mItem b{font-weight:400;letter-spacing:.2em}
+#menu:not(.era):not(.gbg) .mItem i{color:#d6a64e}
+#menu:not(.era):not(.gbg) .mItem:hover,#menu:not(.era):not(.gbg) .mItem:active{color:#fff1c4;text-shadow:1px 1px 0 #3b2a0e,2px 2px 0 #3b2a0e,0 0 16px rgba(241,210,140,.6)}
+#menu:not(.era):not(.gbg) .mFoot{font-family:'Metropolitain','Cinzel',Georgia,serif;font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:#a89a7a;text-shadow:1px 1px 0 #1a1208,0 2px 8px rgba(0,0,0,.8)}
 @media (max-width:760px){#menuTitle{width:92vw}}
