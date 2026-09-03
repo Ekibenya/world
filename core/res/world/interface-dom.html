@@ -23,7 +23,7 @@
 <div id="menu">
   <div id="menuSpace"></div>
   <div id="menuTitle" aria-label="The Dragon World Online">
-    <svg viewBox="0 0 1400 400" preserveAspectRatio="xMidYMid meet" role="img" aria-hidden="true">
+    <svg viewBox="0 0 1400 400" preserveAspectRatio="xMidYMid meet" overflow="visible" role="img" aria-hidden="true">
       <defs>
         <text id="mtT" x="700" y="176" text-anchor="middle" font-size="112" letter-spacing="4.5">THE DRAGON WORLD</text>
         <text id="mtS" x="712" y="292" text-anchor="middle" font-size="40" letter-spacing="26">ONLINE</text>
@@ -34,11 +34,23 @@
         <linearGradient id="mtRule" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0" stop-color="#f1d28c" stop-opacity="0"/><stop offset=".5" stop-color="#f1d28c" stop-opacity=".9"/><stop offset="1" stop-color="#f1d28c" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="mtSweep" gradientUnits="userSpaceOnUse" x1="-900" y1="0" x2="-380" y2="0">
-          <stop offset="0" stop-color="#fff8e6" stop-opacity="0"/><stop offset=".42" stop-color="#fff8e6" stop-opacity="0"/>
-          <stop offset=".50" stop-color="#ffffff" stop-opacity=".85"/><stop offset=".56" stop-color="#ffe9b8" stop-opacity=".35"/><stop offset=".66" stop-color="#ffe9b8" stop-opacity="0"/><stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
-          <animateTransform id="mtSw" attributeName="gradientTransform" type="translate" from="0 0" to="2500 0" dur="3.4s" begin="1.6s;mtSw.end+8s" calcMode="spline" keyTimes="0;1" keySplines=".4 .05 .45 1"/>
+        <linearGradient id="mtFireGrad" x1="0" y1="1" x2="0" y2="0">
+          <stop offset="0" stop-color="#fff8d0"/><stop offset=".28" stop-color="#ffd65e"/><stop offset=".48" stop-color="#ff9a22"/>
+          <stop offset=".68" stop-color="#ff4a0a" stop-opacity=".95"/><stop offset=".86" stop-color="#9a1206" stop-opacity=".55"/><stop offset="1" stop-color="#3a0402" stop-opacity="0"/>
         </linearGradient>
+        <filter id="mtFire" filterUnits="userSpaceOnUse" x="-40" y="-170" width="1480" height="840" color-interpolation-filters="sRGB">
+          <feTurbulence type="fractalNoise" baseFrequency="0.02 0.055" numOctaves="2" seed="7" stitchTiles="stitch" x="0" y="0" width="400" height="256" result="n0"/>
+          <feTile in="n0" result="n1"/>
+          <feOffset in="n1" dy="0" result="n2"><animate attributeName="dy" from="0" to="-256" dur="3.4s" repeatCount="indefinite"/></feOffset>
+          <feGaussianBlur in="SourceGraphic" stdDeviation="2.5 13" result="smear"/>
+          <feDisplacementMap in="smear" in2="n2" scale="74" xChannelSelector="R" yChannelSelector="G" result="d"/>
+          <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 3.6 -1.05" result="tg"/>
+          <feComposite in="d" in2="tg" operator="in" result="f"/>
+          <feColorMatrix in="f" type="matrix" values="1.3 0 0 0 0  0 1.12 0 0 0  0 0 1 0 0  0 0 0 1.7 0"/>
+        </filter>
+        <clipPath id="mtClipT"><rect x="-200" y="-400" width="1800" height="583"/></clipPath>
+        <clipPath id="mtClipS"><rect x="-200" y="-400" width="1800" height="697"/></clipPath>
+        <filter id="mtFireGlow" x="-15%" y="-150%" width="130%" height="300%"><feGaussianBlur stdDeviation="18"/></filter>
         <filter id="mtMetal" x="-6%" y="-25%" width="112%" height="150%" color-interpolation-filters="sRGB">
           <feTurbulence type="fractalNoise" baseFrequency="0.02 0.6" numOctaves="2" seed="5" result="tx"/>
           <feColorMatrix in="tx" type="matrix" values=".33 .33 .33 0 .42  .33 .33 .33 0 .42  .33 .33 .33 0 .42  0 0 0 0 1" result="brush"/>
@@ -58,17 +70,22 @@
       <g class="mtLogo">
         <use href="#mtT" filter="url(#mtHalo)" fill="#05070c" opacity=".78"/>
         <use href="#mtT" filter="url(#mtAura)" fill="#f1c862" opacity=".5"/>
+        <g class="mtFire" clip-path="url(#mtClipT)">
+          <use href="#mtT" transform="translate(700 176) scale(1 1.9) translate(-700 -176)" fill="url(#mtFireGrad)" filter="url(#mtFireGlow)" opacity=".55"/>
+          <use href="#mtT" transform="translate(700 176) scale(1 1.9) translate(-700 -176)" fill="url(#mtFireGrad)" filter="url(#mtFire)"/>
+        </g>
         <use href="#mtT" transform="translate(0,1.6)" fill="#5a4318" opacity=".9"/>
         <use href="#mtT" fill="url(#mtFace)" stroke="#4a3714" stroke-width="1" stroke-opacity=".7" paint-order="stroke" filter="url(#mtMetal)"/>
-        <g class="mtFlame"><use href="#mtT" fill="url(#mtSweep)" filter="url(#mtGlow)" opacity=".7"/><use href="#mtT" fill="url(#mtSweep)"/></g>
         <g class="mtRules">
           <rect x="250" y="279" width="290" height="1.4" fill="url(#mtRule)"/><rect x="860" y="279" width="290" height="1.4" fill="url(#mtRule)"/>
           <path d="M552 279.7 l6 -5 6 5 -6 5z M842 279.7 l6 -5 6 5 -6 5z" fill="#f1d28c" opacity=".85"/>
         </g>
         <use href="#mtS" filter="url(#mtHalo)" fill="#05070c" opacity=".7"/>
         <use href="#mtS" filter="url(#mtAura)" fill="#f1c862" opacity=".38"/>
+        <g class="mtFire" clip-path="url(#mtClipS)">
+          <use href="#mtS" transform="translate(712 292) scale(1 1.5) translate(-712 -292)" fill="url(#mtFireGrad)" filter="url(#mtFire)" opacity=".7"/>
+        </g>
         <use href="#mtS" fill="url(#mtFace)" stroke="#4a3714" stroke-width=".6" stroke-opacity=".6" paint-order="stroke"/>
-        <g class="mtFlame"><use href="#mtS" fill="url(#mtSweep)" filter="url(#mtGlow)" opacity=".6"/><use href="#mtS" fill="url(#mtSweep)"/></g>
       </g>
     </svg>
   </div>

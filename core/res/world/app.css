@@ -167,11 +167,11 @@ html:has(#game.show) #foot{display:none!important}
 #feWrap{background:#05070c}
 /* 页面底色即深空：任何过渡瞬间露出的都是宇宙，不再是米色壳层 */
 body{background:#05070c}
-/* ---- 封面标题：巴黎地铁 Métropolitain 字体；SVG 内做浮雕金属（拉丝纹理 + 漫反射/高光斜面 + 挤出层 + 投影），火光沿字面从左扫到右 ---- */
+/* ---- 封面标题：巴黎地铁 Métropolitain 字体；SVG 内做浮雕金属，字后是用湍流噪声位移出来、不断向上窜的火焰 ---- */
 @font-face{font-family:'Metropolitain';src:url(/core/res/font/metropolitain.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap}
 #menuTitle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;width:min(70vw,980px);user-select:none}
 #menuTitle svg{display:block;width:100%;height:auto;overflow:visible}
 #menuTitle text{font-family:'Metropolitain','Cinzel',Georgia,serif;font-weight:400}
-#menuTitle .mtFlame{mix-blend-mode:screen}
-@media (prefers-reduced-motion:reduce){#menuTitle .mtFlame{display:none}}
+#menuTitle .mtFire{mix-blend-mode:screen}
+@media (prefers-reduced-motion:reduce){#menuTitle .mtFire{display:none}}
 @media (max-width:760px){#menuTitle{width:92vw}}
