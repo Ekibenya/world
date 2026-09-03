@@ -172,6 +172,4 @@ body{background:#05070c}
 #menuTitle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;width:min(70vw,980px);user-select:none}
 #menuTitle svg{display:block;width:100%;height:auto;overflow:visible}
 #menuTitle text{font-family:'Metropolitain','Cinzel',Georgia,serif;font-weight:400}
-#menuTitle .mtFire{mix-blend-mode:screen}
-@media (prefers-reduced-motion:reduce){#menuTitle .mtFire{display:none}}
 @media (max-width:760px){#menuTitle{width:92vw}}

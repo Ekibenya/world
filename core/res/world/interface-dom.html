@@ -27,65 +27,30 @@
       <defs>
         <text id="mtT" x="700" y="176" text-anchor="middle" font-size="112" letter-spacing="4.5">THE DRAGON WORLD</text>
         <text id="mtS" x="712" y="292" text-anchor="middle" font-size="40" letter-spacing="26">ONLINE</text>
-        <linearGradient id="mtFace" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#fff3cc"/><stop offset=".30" stop-color="#f6dc98"/><stop offset=".47" stop-color="#eccb7e"/>
-          <stop offset=".50" stop-color="#fff9df"/><stop offset=".54" stop-color="#e9c674"/><stop offset=".82" stop-color="#d4a94e"/><stop offset="1" stop-color="#bf9440"/>
-        </linearGradient>
         <linearGradient id="mtRule" x1="0" y1="0" x2="1" y2="0">
           <stop offset="0" stop-color="#f1d28c" stop-opacity="0"/><stop offset=".5" stop-color="#f1d28c" stop-opacity=".9"/><stop offset="1" stop-color="#f1d28c" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="mtFireGrad" x1="0" y1="1" x2="0" y2="0">
-          <stop offset="0" stop-color="#fff8d0"/><stop offset=".28" stop-color="#ffd65e"/><stop offset=".48" stop-color="#ff9a22"/>
-          <stop offset=".68" stop-color="#ff4a0a" stop-opacity=".95"/><stop offset=".86" stop-color="#9a1206" stop-opacity=".55"/><stop offset="1" stop-color="#3a0402" stop-opacity="0"/>
-        </linearGradient>
-        <filter id="mtFire" filterUnits="userSpaceOnUse" x="-40" y="-170" width="1480" height="840" color-interpolation-filters="sRGB">
-          <feTurbulence type="fractalNoise" baseFrequency="0.02 0.055" numOctaves="2" seed="7" stitchTiles="stitch" x="0" y="0" width="400" height="256" result="n0"/>
-          <feTile in="n0" result="n1"/>
-          <feOffset in="n1" dy="0" result="n2"><animate attributeName="dy" from="0" to="-256" dur="3.4s" repeatCount="indefinite"/></feOffset>
-          <feGaussianBlur in="SourceGraphic" stdDeviation="2.5 13" result="smear"/>
-          <feDisplacementMap in="smear" in2="n2" scale="74" xChannelSelector="R" yChannelSelector="G" result="d"/>
-          <feColorMatrix in="n2" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 3.6 -1.05" result="tg"/>
-          <feComposite in="d" in2="tg" operator="in" result="f"/>
-          <feColorMatrix in="f" type="matrix" values="1.3 0 0 0 0  0 1.12 0 0 0  0 0 1 0 0  0 0 0 1.7 0"/>
-        </filter>
-        <clipPath id="mtClipT"><rect x="-200" y="-400" width="1800" height="583"/></clipPath>
-        <clipPath id="mtClipS"><rect x="-200" y="-400" width="1800" height="697"/></clipPath>
-        <filter id="mtFireGlow" x="-15%" y="-150%" width="130%" height="300%"><feGaussianBlur stdDeviation="18"/></filter>
-        <filter id="mtMetal" x="-6%" y="-25%" width="112%" height="150%" color-interpolation-filters="sRGB">
-          <feTurbulence type="fractalNoise" baseFrequency="0.02 0.6" numOctaves="2" seed="5" result="tx"/>
-          <feColorMatrix in="tx" type="matrix" values=".33 .33 .33 0 .42  .33 .33 .33 0 .42  .33 .33 .33 0 .42  0 0 0 0 1" result="brush"/>
-          <feComposite in="SourceGraphic" in2="brush" operator="arithmetic" k1=".18" k2=".88" k3="0" k4="0" result="brushed"/>
-          <feGaussianBlur in="SourceAlpha" stdDeviation="1.6" result="bl"/>
-          <feDiffuseLighting in="bl" surfaceScale="2.6" diffuseConstant="1" lighting-color="#ffffff" result="dif"><feDistantLight azimuth="235" elevation="55"/></feDiffuseLighting>
-          <feComposite in="brushed" in2="dif" operator="arithmetic" k1="1.12" k2="0" k3="0" k4="0" result="shaded"/>
-          <feSpecularLighting in="bl" surfaceScale="2.6" specularConstant=".55" specularExponent="24" lighting-color="#fff9ea" result="spec"><feDistantLight azimuth="235" elevation="45"/></feSpecularLighting>
-          <feComposite in="spec" in2="SourceAlpha" operator="in" result="specIn"/>
-          <feComposite in="shaded" in2="specIn" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="lit"/>
-          <feComposite in="lit" in2="SourceAlpha" operator="in"/>
-        </filter>
-        <filter id="mtHalo" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
-        <filter id="mtAura" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
-        <filter id="mtGlow" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
+        <filter id="mtShade" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+        <filter id="mtDrop" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
       </defs>
       <g class="mtLogo">
-        <use href="#mtT" filter="url(#mtHalo)" fill="#05070c" opacity=".78"/>
-        <use href="#mtT" filter="url(#mtAura)" fill="#f1c862" opacity=".5"/>
-        <g class="mtFire" clip-path="url(#mtClipT)">
-          <use href="#mtT" transform="translate(700 176) scale(1 1.9) translate(-700 -176)" fill="url(#mtFireGrad)" filter="url(#mtFireGlow)" opacity=".55"/>
-          <use href="#mtT" transform="translate(700 176) scale(1 1.9) translate(-700 -176)" fill="url(#mtFireGrad)" filter="url(#mtFire)"/>
+        <use href="#mtT" transform="translate(6,14)" filter="url(#mtShade)" fill="#000" opacity=".85"/>
+        <use href="#mtT" transform="translate(4,8)" filter="url(#mtDrop)" fill="#000" opacity=".7"/>
+        <g class="mtDepth" fill="#3b2a0e">
+          <use href="#mtT" transform="translate(6,6)"/><use href="#mtT" transform="translate(5,5)"/><use href="#mtT" transform="translate(4,4)"/>
+          <use href="#mtT" transform="translate(3,3)"/><use href="#mtT" transform="translate(2,2)"/><use href="#mtT" transform="translate(1,1)"/>
         </g>
-        <use href="#mtT" transform="translate(0,1.6)" fill="#5a4318" opacity=".9"/>
-        <use href="#mtT" fill="url(#mtFace)" stroke="#4a3714" stroke-width="1" stroke-opacity=".7" paint-order="stroke" filter="url(#mtMetal)"/>
+        <use href="#mtT" fill="#f1d28c"/>
         <g class="mtRules">
           <rect x="250" y="279" width="290" height="1.4" fill="url(#mtRule)"/><rect x="860" y="279" width="290" height="1.4" fill="url(#mtRule)"/>
           <path d="M552 279.7 l6 -5 6 5 -6 5z M842 279.7 l6 -5 6 5 -6 5z" fill="#f1d28c" opacity=".85"/>
         </g>
-        <use href="#mtS" filter="url(#mtHalo)" fill="#05070c" opacity=".7"/>
-        <use href="#mtS" filter="url(#mtAura)" fill="#f1c862" opacity=".38"/>
-        <g class="mtFire" clip-path="url(#mtClipS)">
-          <use href="#mtS" transform="translate(712 292) scale(1 1.5) translate(-712 -292)" fill="url(#mtFireGrad)" filter="url(#mtFire)" opacity=".7"/>
+        <use href="#mtS" transform="translate(4,9)" filter="url(#mtShade)" fill="#000" opacity=".8"/>
+        <use href="#mtS" transform="translate(2,4)" filter="url(#mtDrop)" fill="#000" opacity=".7"/>
+        <g class="mtDepth" fill="#3b2a0e">
+          <use href="#mtS" transform="translate(3,3)"/><use href="#mtS" transform="translate(2,2)"/><use href="#mtS" transform="translate(1,1)"/>
         </g>
-        <use href="#mtS" fill="url(#mtFace)" stroke="#4a3714" stroke-width=".6" stroke-opacity=".6" paint-order="stroke"/>
+        <use href="#mtS" fill="#f1d28c"/>
       </g>
     </svg>
   </div>
