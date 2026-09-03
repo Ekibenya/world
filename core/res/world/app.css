@@ -179,3 +179,6 @@ html:has(#game.show) body{background:var(--ink)}
 #menu:not(.era):not(.gbg) .mItem i{color:#d6a64e}
 #menu:not(.era):not(.gbg) .mItem:hover,#menu:not(.era):not(.gbg) .mItem:active{color:#fff1c4;text-shadow:1px 1px 0 #3b2a0e,2px 2px 0 #3b2a0e,0 0 16px rgba(241,210,140,.6)}
 @media (max-width:760px){#menuTitle{width:92vw}}
+
+/* 正文顶栏不再显示系统名，地点标签居中于空余处 */
+#game .gTop .gLoc{margin:0 auto}

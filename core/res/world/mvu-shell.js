@@ -150,8 +150,7 @@ function mvRingMount(){
   foot.innerHTML='<span class="l">TABVLARIVM&nbsp;·&nbsp;情报台</span>'
     +'<span class="r"><b class="mvIdx"></b>'
     +'<span class="go" data-mv="up" title="上一段（也可直接点上面那一条）">▲</span>'
-    +'<span class="go" data-mv="dn" title="下一段（也可直接点下面那一条）">▼</span>'
-    +'<span class="go" data-mv="list" title="切回一栏到底的列表">列表</span></span>';
+    +'<span class="go" data-mv="dn" title="下一段（也可直接点下面那一条）">▼</span></span>';
 
   var cards=[];
   for(var k=0;k<secs.length;k++){
@@ -256,7 +255,6 @@ function mvBind(){
     var a=g.getAttribute('data-mv');
     if(a==='up')MV.tgt=mvCyc()?Math.round(MV.pos)-1:Math.max(0,Math.round(MV.pos)-1);
     else if(a==='dn')MV.tgt=mvCyc()?Math.round(MV.pos)+1:Math.min(MV.n-1,Math.round(MV.pos)+1);
-    else if(a==='list'){SET.mvuRing=0;try{setStore();}catch(_){}try{setSeg('#sgMvu',0);}catch(_){}mvRingMount();}
   });
   MV.rail.addEventListener('pointerdown',mvRailPick);
   MV.rail.addEventListener('pointermove',function(e){if(e.buttons&1)mvRailPick(e);});
