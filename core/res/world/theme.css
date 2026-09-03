@@ -1,112 +1,169 @@
-/* 守护龙纪事 · 界面主题「星图上的羊皮纸」
-   框架——页面底、顶栏、工具钮、左舷抽屉、输入条、弹窗底、档案馆——沿用菜单的深空与金；
-   阅读面——正文、情报卡、弹窗盒、世界书、地图/装备/商店抽屉——保持羊皮纸。
-   只换颜色、字体与质感；布局、层级、按钮位置与交互一律不动。 */
+/* 守护龙纪事 · 界面主题「地铁口的新艺术」
+   菜单与纪年插画页的深空与金是底；正文舞台按 Guimard 巴黎地铁口的语汇重做：
+   铸铁珐琅绿的板面、金色鞭形曲线、珐琅招牌式的地名牌、琥珀灯球的发送钮。
+   只换材质、颜色、字体与装饰；每个按钮、面板、弹窗都在原来的位置，功能与交互不变。
+   nouveau-base.css 是壳样式表自动换色出来的底色，这一份是手绘的装饰层。 */
 :root{
   --sky:#05070c;--sky2:#0d1220;
-  --star:#f1d28c;--star-hi:#ffe9b8;--star-dim:#b79c62;
+  --star:#f1d28c;--star-hi:#ffe9b8;--star-dim:#b79c62;--amber:#ffb257;
+  --ena:#14221c;--ena2:#1b2d26;--ena0:#0f1a15;--verdigris:#5f8a72;
   --vellum:#ece3cd;--vellum2:#e2d7bb;
   --dispf:'Metropolitain',var(--mono);
   --frame-txt:#efe4c8;--frame-mut:#a89d80;
+  --whip:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 40'><g fill='none' stroke='%23f1d28c' stroke-width='1.4' stroke-linecap='round'><path d='M0 30 C90 30 120 8 170 12 C220 16 240 32 300 32 C360 32 380 16 430 12 C480 8 510 30 600 30'/><path d='M300 32 c-10 -12 -2 -22 8 -18 c8 4 4 14 -4 12' opacity='.9'/><path d='M130 14 c-8 -10 -22 -4 -18 6 c3 7 12 5 12 -1' opacity='.7'/><path d='M470 14 c8 -10 22 -4 18 6 c-3 7 -12 5 -12 -1' opacity='.7'/></g><circle cx='300' cy='34' r='2.2' fill='%23ffb257'/></svg>");--corner:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'><g fill='none' stroke='%23f1d28c' stroke-width='1.3' stroke-linecap='round'><path d='M3 77 C3 30 30 3 77 3'/><path d='M9 70 C10 40 40 10 70 9' opacity='.55'/><path d='M14 36 c-7 -10 6 -22 15 -12 c6 7 -3 14 -9 9' /><path d='M36 14 c-10 -7 -22 6 -12 15 c7 6 14 -3 9 -9'/></g><circle cx='22' cy='22' r='2' fill='%23ffb257'/></svg>");--corner-br:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'><g transform='rotate(180 40 40)' fill='none' stroke='%23f1d28c' stroke-width='1.3' stroke-linecap='round'><path d='M3 77 C3 30 30 3 77 3'/><path d='M9 70 C10 40 40 10 70 9' opacity='.55'/><path d='M14 36 c-7 -10 6 -22 15 -12 c6 7 -3 14 -9 9'/><path d='M36 14 c-10 -7 -22 6 -12 15 c7 6 14 -3 9 -9'/></g><circle cx='58' cy='58' r='2' fill='%23ffb257'/></svg>");
 }
+#game,.gDlg,#dlgSave{color-scheme:dark}
 /* 深空底与星云 */
 html:has(#game.show) body{background:var(--sky)}
-#game,#dlgSave::before{
-  background:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='420' height='420'><g fill='%23f1d28c'><circle cx='23' cy='61' r='.9' opacity='.55'/><circle cx='118' cy='22' r='.7' opacity='.4'/><circle cx='204' cy='97' r='1.1' opacity='.5'/><circle cx='301' cy='48' r='.6' opacity='.45'/><circle cx='372' cy='131' r='.9' opacity='.35'/><circle cx='66' cy='188' r='.6' opacity='.5'/><circle cx='159' cy='241' r='.8' opacity='.35'/><circle cx='257' cy='203' r='.6' opacity='.55'/><circle cx='344' cy='276' r='1' opacity='.4'/><circle cx='31' cy='318' r='.7' opacity='.45'/><circle cx='127' cy='362' r='1' opacity='.3'/><circle cx='229' cy='331' r='.6' opacity='.5'/><circle cx='398' cy='389' r='.8' opacity='.45'/><circle cx='283' cy='402' r='.6' opacity='.35'/></g></svg>") repeat,
-    radial-gradient(ellipse 58% 48% at 16% 18%,rgba(78,62,128,.46),transparent 70%),
-    radial-gradient(ellipse 50% 44% at 84% 80%,rgba(128,66,100,.34),transparent 70%),
-    radial-gradient(ellipse 70% 58% at 58% 32%,rgba(30,50,104,.40),transparent 72%),
-    radial-gradient(ellipse 90% 80% at 50% 45%,transparent 48%,rgba(0,0,0,.6) 100%) var(--sky)}
+#game,#dlgSave::before{background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='420' height='420'><g fill='%23f1d28c'><circle cx='23' cy='61' r='.9' opacity='.55'/><circle cx='118' cy='22' r='.7' opacity='.4'/><circle cx='204' cy='97' r='1.1' opacity='.5'/><circle cx='301' cy='48' r='.6' opacity='.45'/><circle cx='372' cy='131' r='.9' opacity='.35'/><circle cx='66' cy='188' r='.6' opacity='.5'/><circle cx='159' cy='241' r='.8' opacity='.35'/><circle cx='257' cy='203' r='.6' opacity='.55'/><circle cx='344' cy='276' r='1' opacity='.4'/><circle cx='31' cy='318' r='.7' opacity='.45'/><circle cx='127' cy='362' r='1' opacity='.3'/><circle cx='229' cy='331' r='.6' opacity='.5'/><circle cx='398' cy='389' r='.8' opacity='.45'/><circle cx='283' cy='402' r='.6' opacity='.35'/></g></svg>") repeat,radial-gradient(ellipse 58% 48% at 16% 18%,rgba(78,62,128,.46),transparent 70%),radial-gradient(ellipse 50% 44% at 84% 80%,rgba(128,66,100,.34),transparent 70%),radial-gradient(ellipse 70% 58% at 58% 32%,rgba(30,50,104,.40),transparent 72%),radial-gradient(ellipse 90% 80% at 50% 45%,transparent 48%,rgba(0,0,0,.6) 100%) var(--sky)}
 #dlgSave::before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none}
+#game::before{background:radial-gradient(ellipse 90% 80% at 50% 42%,transparent 50%,rgba(0,0,0,.55) 100%)}
+/* 全局字色令牌：正文舞台与弹窗都是深底 */
+#game,.gDlg,#dlgSave,#dlgBook{--txt:var(--frame-txt);--mut:var(--frame-mut);--gold:var(--star);--gold-hi:var(--star-hi);--paper:var(--star);--ink:var(--ena)}
 
-/* 深色框架内的字色令牌（只作用于框架，不进羊皮纸） */
-#game .gTop,#game .gInput,#game .gRail,#game .g3dRail,#game .gMfd,#dlgSave{
-  --txt:var(--frame-txt);--mut:var(--frame-mut);--gold:var(--star);--gold-hi:var(--star-hi);--paper:var(--star)}
+/* ── 顶栏：珐琅地名牌 ── */
+#game .gTop{background:linear-gradient(180deg,rgba(5,7,12,.94),rgba(5,7,12,.6) 70%,rgba(5,7,12,0))}
+#game .gLoc{font-family:var(--dispf);font-size:11px;letter-spacing:.24em;color:var(--frame-txt);
+  background:linear-gradient(180deg,var(--ena2),var(--ena0));border:1px solid var(--star);border-radius:18px;padding:6px 22px;height:auto;line-height:1.3;
+  box-shadow:inset 0 0 0 2px var(--ena0),inset 0 0 0 3px rgba(241,210,140,.45),0 6px 18px rgba(0,0,0,.55)}
+#game .gLoc i{color:var(--amber)}
+#game .gTools .gt{border-radius:13px;border:1px solid rgba(241,210,140,.6);color:var(--star);
+  background:radial-gradient(circle at 50% 30%,#243d32,#0f1a15 70%);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 3px 10px rgba(0,0,0,.55)}
+#game .gTools .gt:hover,#game .gTools .gt.on{color:#2a1d06;border-color:var(--star-hi);background:radial-gradient(circle at 50% 30%,#ffe9b8,#f1d28c 55%,#c79b3f);box-shadow:0 0 16px rgba(255,178,87,.55)}
 
-/* 顶栏 */
-#game .gTop{background:linear-gradient(180deg,rgba(5,7,12,.96),rgba(5,7,12,.74) 78%,rgba(5,7,12,0));
-  border-bottom:0}
-#game .gLoc{font-family:var(--dispf);font-size:11px;color:var(--star)}
-#game .gLoc i{color:var(--star-hi)}
-#game .gt{border-color:rgba(241,210,140,.28);color:#cdb87a}
-#game .gt:hover,#game .gTools .gt.on{color:var(--star-hi);border-color:var(--star);box-shadow:0 0 12px rgba(241,210,140,.18)}
+/* ── 正文舞台：珐琅板 + 鞭形曲线 ── */
+#game .gMain{isolation:isolate}
+#game .gNarr{background:linear-gradient(180deg,rgba(20,34,28,.80),rgba(12,22,18,.86));color:#e8dcc0;
+  border-left:1px solid rgba(241,210,140,.5);border-right:1px solid rgba(241,210,140,.5);
+  box-shadow:inset 3px 0 0 var(--ena0),inset -3px 0 0 var(--ena0),inset 4px 0 0 rgba(241,210,140,.28),inset -4px 0 0 rgba(241,210,140,.28),inset 0 0 90px rgba(0,0,0,.35),0 30px 90px rgba(0,0,0,.55);
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+#game .gNarr p{color:#e8dcc0}
+#game .gNarr .q{color:var(--star)}
+#game .gNarr .heart{color:var(--star-hi)}
+#game .gNarr .me{color:var(--amber)}
+#game .gNarr .sys{font-family:var(--dispf);color:var(--frame-mut)}
+#game .gEot{font-family:var(--dispf);color:var(--star-dim)}
+#game .gMain::before{content:'';position:absolute;left:8%;right:8%;height:28px;z-index:3;pointer-events:none;top:calc(46px*var(--ui) + 6px);
+  background:var(--whip) center/auto 100% no-repeat;opacity:.95;filter:drop-shadow(0 0 6px rgba(241,210,140,.35))}
+#game .gLine{position:relative}
+#game .gLine::before{content:'';position:absolute;inset:4px 12% 8px;pointer-events:none;background:var(--whip) center/auto 100% no-repeat;opacity:.22;transform:scaleY(-1)}
 
-/* 正文：一张羊皮纸 */
-#game .gNarr{background:rgba(236,227,205,.7);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
-  border-left:1px solid rgba(241,210,140,.14);border-right:1px solid rgba(241,210,140,.14);
-  box-shadow:0 0 0 1px rgba(0,0,0,.35),0 30px 90px rgba(0,0,0,.55)}
-#game .gNarr .sys{font-family:var(--dispf);color:#8a7a52}
-#game .gEot{font-family:var(--dispf);color:#a89468}
-
-/* 输入条 */
-#game .gLine{background:linear-gradient(0deg,rgba(5,7,12,.94),rgba(5,7,12,.82));
-  border-top:1px solid rgba(241,210,140,.16);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-#game .gLine input{color:var(--frame-txt);border-bottom-color:rgba(241,210,140,.34)}
+/* ── 输入条：铸铁横楣，琥珀灯球 ── */
+#game .gLine{background:linear-gradient(0deg,#0b1410,#14221c);border-top:1px solid rgba(241,210,140,.45);
+  box-shadow:0 -3px 0 var(--ena0),0 -4px 0 rgba(241,210,140,.25),0 -14px 40px rgba(0,0,0,.5)}
+#game .gLine input{color:var(--frame-txt);border-bottom-color:rgba(241,210,140,.4)}
 #game .gLine input::placeholder,#game #gIn.hasSug::placeholder,#game #gIn.hasSug::-webkit-input-placeholder{color:rgba(239,228,200,.42)}
-#game .gm,#game .gsug,#game .gmBtn,#game .gAux{border-color:rgba(241,210,140,.26)}
-#game .gm.on,#game #dreamIn.on,#game #dreamOut.on,#game .gAux.on{color:#1b1407;background:var(--star);border-color:var(--star)}
-#game .gSend{border-color:var(--star);color:var(--star)}
-#game .gSend:hover{background:var(--star);color:#1b1407}
-#game .gmBtn{font-family:var(--dispf)}
-#game .gmMenu{--txt:#25241d;--mut:#6f6757;--gold:#845800;--gold-hi:#523000;
-  background:rgba(236,227,205,.97);border-color:rgba(132,88,0,.4);box-shadow:0 18px 48px rgba(0,0,0,.6)}
+#game .gmBtn,#game .gsug,#game .gm,#game .gAux{border-radius:15px;border:1px solid rgba(241,210,140,.5);background:linear-gradient(180deg,#1f3429,#0f1a15);color:var(--star)}
+#game .gmBtn{font-family:var(--dispf);box-shadow:inset 0 0 0 2px var(--ena0),inset 0 0 0 3px rgba(241,210,140,.28)}
+#game .gm.on,#game #dreamIn.on,#game #dreamOut.on,#game .gAux.on,#game .gsug.on{color:#2a1d06;background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55);border-color:var(--star-hi)}
+#game .gSend{border-radius:50%;border:1px solid var(--star);color:#2a1d06;
+  background:radial-gradient(circle at 38% 32%,#ffe1a8,#ffa63c 55%,#b85f10);box-shadow:0 0 18px rgba(255,178,87,.55),inset 0 -3px 8px rgba(120,50,0,.6)}
+#game .gSend:hover{background:radial-gradient(circle at 38% 32%,#fff1cf,#ffb862 55%,#c96d18);box-shadow:0 0 28px rgba(255,178,87,.8)}
+#game .gmMenu{background:linear-gradient(180deg,#1b2d26,#0f1a15);border:1px solid rgba(241,210,140,.5);border-radius:12px;box-shadow:inset 0 0 0 2px var(--ena0),inset 0 0 0 3px rgba(241,210,140,.25),0 18px 48px rgba(0,0,0,.7)}
 
-/* 左舷：地图 / 商店 / 装备 / 视觉小说 */
-.gArr .win{background:rgba(13,18,32,.66);border-color:rgba(241,210,140,.30)}
-.gArr.hv .win{border-color:var(--star)}
-.gArr .ic{background:#12101a;border-color:rgba(241,210,140,.45);color:var(--star)}
-.gArr .t{color:#cdb87a;font-family:var(--dispf);font-weight:400;font-size:8px}
+/* ── 左舷：拱顶铸铁小窗 ── */
+.gArr .win{border-radius:46% 46% 6px 6px / 40% 40% 6px 6px;background:rgba(14,26,21,.82);border:1px solid rgba(241,210,140,.6);
+  box-shadow:inset 0 0 0 2px var(--ena0),inset 0 0 0 3px rgba(241,210,140,.3),0 8px 20px rgba(0,0,0,.5)}
+.gArr.hv .win{border-color:var(--star-hi);box-shadow:inset 0 0 0 2px var(--ena0),inset 0 0 0 3px rgba(241,210,140,.5),0 0 18px rgba(255,178,87,.35)}
+.gArr .ic{border-radius:50%;background:linear-gradient(180deg,#ffe9b8,#f1d28c);border:1px solid #3b2a0e;color:#2a1d06}
+.gArr .t{color:var(--star-dim);font-family:var(--dispf);font-weight:400;font-size:8px}
 #game.mapOpen #arrMap .t,#game.armOpen #arrArm .t,#game.shopOpen #arrShop .t,#game.txOpen #arr3d .t{color:var(--star-hi)}
 
-/* 三个抽屉：羊皮纸 */
-#pnMap,#pnArm,#pnShop{background:rgba(236,227,205,.97);border:1px solid rgba(132,88,0,.32);
-  box-shadow:0 0 0 1px rgba(241,210,140,.12),0 30px 80px rgba(0,0,0,.62)}
+/* ── 三个抽屉：珐琅板 ── */
+#pnMap,#pnArm,#pnShop{background:linear-gradient(180deg,rgba(27,45,38,.96),rgba(15,26,21,.97));border:1px solid rgba(241,210,140,.55);border-radius:8px;
+  box-shadow:inset 0 0 0 3px var(--ena0),inset 0 0 0 4px rgba(241,210,140,.3),0 30px 80px rgba(0,0,0,.65)}
+#worldMapLayers button,#worldMapLoose button{background:rgba(15,26,21,.8);border-color:rgba(241,210,140,.35);color:var(--frame-mut)}
+#worldMapLayers button.on{background:var(--star);border-color:var(--star);color:#2a1d06}
+#worldMapLoose button.on{border-color:var(--star);color:var(--star)}
+#worldMapStatus{border-bottom-color:rgba(241,210,140,.2);color:var(--star)}
+#worldMapDetail{background:rgba(15,26,21,.85);border-color:rgba(241,210,140,.35);box-shadow:0 8px 24px rgba(0,0,0,.5)}
+#worldMapDetail b{color:var(--star-hi)} #worldMapDetail i{color:var(--star)} #worldMapDetail p{color:#d9cdb0}
+#worldMapLoose>span{color:var(--frame-mut)} #worldMapNotice{border-top-color:rgba(241,210,140,.15);color:rgba(239,228,200,.55)}
+#worldMapHud{color:var(--frame-txt)}
 
-/* 情报台：深色底，卡片仍是纸 */
-#game .gMfd{background:rgba(5,7,12,.32);border-left:1px solid rgba(241,210,140,.12)}
-#game .gMfd .mvCard,#game .gMfd .mvWin{--txt:#25241d;--mut:#5f5c53;--gold:#845800;--gold-hi:#523000;--paper:#13120d}
-.gMfd.mvDeck .mvWin{border-color:rgba(132,88,0,.4);box-shadow:0 20px 60px rgba(0,0,0,.55)}
-.mvCard .cfr,.gMfd.mvDeck .mvCard .cfr{background:rgba(236,227,205,.74);border-color:rgba(132,88,0,.35)}
-.mvCard.on .cfr,.gMfd.mvDeck .mvCard.on .cfr{background:rgba(236,227,205,.80)}
-.gMfd.mvDeck .mvCard.thumb .cfr{background:rgba(236,227,205,.62) !important}
-.gMfd.mvDeck .mvWin{-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
-#game .gMfd .mHead{font-family:var(--dispf);font-weight:400}
-#game .gMfd .mBar{background:rgba(241,210,140,.16)}
-#game .gMfd .mvCard .mBar{background:rgba(19,18,13,.10)}
+/* ── 情报台：珐琅卡片，角上鞭形花饰 ── */
+#game .gMfd{background:rgba(5,7,12,.3);border-left:1px solid rgba(241,210,140,.12)}
+.gMfd.mvDeck .mvWin,.mvCard .cfr,.gMfd.mvDeck .mvCard .cfr{background:linear-gradient(180deg,rgba(27,45,38,.92),rgba(15,26,21,.94)),var(--corner) left top/64px 64px no-repeat,var(--corner-br) right bottom/64px 64px no-repeat;
+  background-blend-mode:normal;border:1px solid rgba(241,210,140,.55);border-radius:6px;
+  box-shadow:inset 0 0 0 3px var(--ena0),inset 0 0 0 4px rgba(241,210,140,.28),0 20px 60px rgba(0,0,0,.6)}
+.gMfd.mvDeck .mvWin{background-image:var(--corner),var(--corner-br),linear-gradient(180deg,rgba(27,45,38,.9),rgba(15,26,21,.93));background-position:left top,right bottom,0 0;background-size:64px 64px,64px 64px,100% 100%;background-repeat:no-repeat;
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.mvCard .cfr,.gMfd.mvDeck .mvCard .cfr{background-image:var(--corner),var(--corner-br),linear-gradient(180deg,rgba(27,45,38,.92),rgba(15,26,21,.94));background-position:left top,right bottom,0 0;background-size:48px 48px,48px 48px,100% 100%;background-repeat:no-repeat}
+.gMfd.mvDeck .mvCard.on .cfr{border-color:var(--star) !important}
+.gMfd.mvDeck .mvCard.thumb .cfr{background:rgba(15,26,21,.85) !important;background-image:none !important}
+#game .gMfd .mHead{font-family:var(--dispf);font-weight:400;color:var(--star)}
+#game .gMfd .mHead i{color:var(--amber)}
+#game .gMfd .mRow{color:var(--frame-mut)} #game .gMfd .mRow b{color:var(--frame-txt)}
+#game .gMfd .mLead{color:#e8dcc0} #game .gMfd .mLead i{color:var(--star)}
+#game .gMfd .mBar{background:rgba(241,210,140,.14);height:3px}
+#game .gMfd .mBar i{background:linear-gradient(90deg,#b79c62,#f1d28c 70%,#ffb257);box-shadow:0 0 8px rgba(255,178,87,.45)}
+#game .gMfd .mStep{border-top-color:rgba(241,210,140,.18)} #game .gMfd .mStep.on{border-top-color:var(--star);color:var(--star-hi)}
+#game .gMfd .mOp{border-color:rgba(241,210,140,.3)} #game .gMfd .mOp.on{border-color:var(--star);color:var(--star-hi)}
 
-/* 弹窗：深空底，羊皮纸盒 */
-.gDlg{background:rgba(5,7,12,.76)}
-.gDlg .box,#eraBox .box,#persona .box,#psRes .box{background:rgba(236,227,205,.96);border-color:rgba(132,88,0,.36);
-  box-shadow:0 0 0 1px rgba(241,210,140,.12),0 30px 90px rgba(0,0,0,.66)}
-#dlgBook{background:rgba(5,7,12,.8)}
-#dlgBook .box{background:rgba(236,227,205,.98);box-shadow:0 0 0 1px rgba(241,210,140,.12),0 30px 90px rgba(0,0,0,.66)}
-.tag{background:var(--star);color:#2a1d06;font-family:var(--dispf);font-weight:400;letter-spacing:.24em;padding:3px 8px 2px}
+/* ── 弹窗：珐琅匾额，金边双线，角花 ── */
+.gDlg{background:rgba(5,7,12,.78)}
+.gDlg .box,#eraBox .box,#persona .box,#psRes .box,#dlgBook .box{color:var(--frame-txt);
+  background-image:var(--corner),var(--corner-br),linear-gradient(180deg,#1b2d26,#0f1a15);background-position:left top,right bottom,0 0;background-size:88px 88px,88px 88px,100% 100%;background-repeat:no-repeat;
+  border:1px solid rgba(241,210,140,.65);border-radius:8px;
+  box-shadow:inset 0 0 0 3px var(--ena0),inset 0 0 0 4px rgba(241,210,140,.35),0 30px 90px rgba(0,0,0,.7)}
+#dlgBook{background:rgba(5,7,12,.82)}
+.tag{background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55);color:#2a1d06;font-family:var(--dispf);font-weight:400;letter-spacing:.24em;padding:4px 12px 3px;border-radius:12px 3px 12px 3px;box-shadow:0 2px 6px rgba(0,0,0,.5)}
 #mission .m-tag .tag{background:var(--gold);color:#e9e3d6}
-.gDlg h2{font-family:var(--dispf);font-weight:400;color:#3b2a0e}
-.esc2{font-family:var(--dispf)}
-.eBtn{font-family:var(--dispf)}
-.cfgTabs span.on{color:#1b1407;background:var(--star);font-weight:400}
+.gDlg h2{font-family:var(--dispf);font-weight:400;color:var(--frame-txt);letter-spacing:.3em}
+.gDlg .sub{color:var(--frame-mut)}
+.esc2{font-family:var(--dispf);color:var(--star-dim)}
+.eBtn{font-family:var(--dispf);border-radius:14px;border:1px solid rgba(241,210,140,.5);background:linear-gradient(180deg,#1f3429,#0f1a15);color:var(--star)}
+.eBtn:hover{border-color:var(--star-hi);color:#2a1d06;background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55)}
+.cfgTabs span{color:var(--frame-mut);border-radius:12px}
+.cfgTabs span.on{color:#2a1d06;background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55);font-weight:400}
+.cfgTabs span:not(.on):hover{color:var(--star-hi)}
+.gDlg .sRow,.gDlg .lRow,.gDlg label{color:var(--frame-txt)}
+.gDlg .sRow>span:first-child{font-family:var(--dispf);letter-spacing:.2em}
+.gDlg input:not([type=range]):not([type=checkbox]):not([type=radio]),.gDlg textarea,.gDlg select,#dlgBook input{background:rgba(241,210,140,.06);border:1px solid rgba(241,210,140,.3);color:var(--frame-txt);border-radius:6px}
+.gDlg input:focus,.gDlg textarea:focus,.gDlg select:focus{border-color:var(--star);background:rgba(241,210,140,.1);outline:0}
+.gDlg select,.gDlg select option,#game select{background:#14221c !important;color:#efe4c8 !important;border:1px solid rgba(241,210,140,.35) !important}
+.gDlg input[type=number],.gDlg input[type=text],.gDlg input[type=password],.gDlg input[type=url],.gDlg .aIn{background:rgba(241,210,140,.09) !important;border:1px solid rgba(241,210,140,.32) !important}
+.gDlg input[type=range]{accent-color:#f1d28c} .gDlg input[type=checkbox]{accent-color:#f1d28c}
+.sSeg span{border-color:rgba(241,210,140,.3);color:var(--frame-mut);border-radius:10px}
+.sSeg span.on{background:var(--star);color:#2a1d06;border-color:var(--star)}
+.gDlg .gt,#dlgCfg .gt,#dlgApi .gt{border-radius:12px;border-color:rgba(241,210,140,.4);color:var(--star);background:linear-gradient(180deg,#1f3429,#0f1a15)}
+.gDlg .gt:hover{color:#2a1d06;background:var(--star);border-color:var(--star)}
+.gDlg hr,.gDlg .vLine{border-color:rgba(241,210,140,.2)}
+/* 世界书 LIBER（app.css 里那套羊皮纸色单独压回） */
+#dlgBook .box{color:var(--frame-txt)}
+#dlgBook .cxWrap{border:1px solid rgba(241,210,140,.3);background:rgba(0,0,0,.25)}
+#dlgBook .cxTop,#dlgBook .cxCat,#dlgBook .cxEnt{color:var(--frame-mut)}
+#dlgBook .cxTop.on,#dlgBook .cxCat.on{color:#2a1d06;background:var(--star)}
+#dlgBook .cxEnt.on{color:var(--star-hi)}
+#dlgBook .cxBody h3{color:var(--star);font-family:var(--dispf);font-weight:400}
+#dlgBook .cxBody p{color:#e8dcc0}
+#dlgBook .cxSearchBar input{background:rgba(241,210,140,.06);border-color:rgba(241,210,140,.3);color:var(--frame-txt)}
+#dlgBook .cxSearchBar input:focus{border-color:var(--star);background:rgba(241,210,140,.1)}
+#dlgBook .cxSearchBar span{color:var(--frame-mut)}
+.shHead,.shTabs{background:rgba(15,26,21,.96);border-bottom-color:rgba(241,210,140,.2)}
+.shRow{border-bottom-color:rgba(241,210,140,.1)} .shRow:hover{background:rgba(241,210,140,.06)}
+.shRow .bu{border-color:rgba(241,210,140,.35);color:var(--star);border-radius:10px}
+.shTabs span.on{background:var(--star);color:#2a1d06}
 
-/* 档案馆 ARCHIVVM */
-#dlgSave{background:var(--sky)}
-#svBg,#svField,#svCore,#svClock,#svFootBar,#svRedX,.svhud{position:absolute}
+/* ── 档案馆 ARCHIVVM ── */
+#dlgSave{background:var(--sky) !important}
 #dlgSave>*{z-index:1}
 .svhud{font-family:var(--dispf);color:var(--star-dim)}
 .svhud i{color:var(--star)}
-.svFold{background:rgba(236,227,205,.92);border-color:rgba(132,88,0,.5)}
-.svFold .tab{background:rgba(236,227,205,.92);border-color:rgba(132,88,0,.5)}
-.svFold .num{font-family:var(--dispf)}
-.svFold:hover{border-color:var(--star)}
-.svFold.on{border-color:rgba(132,88,0,.8)}
-.svFold.sel,.svFold.sel .tab{background:#fff3d2;border-color:var(--star);box-shadow:0 0 18px rgba(241,210,140,.45)}
+.svFold{background:linear-gradient(180deg,#1b2d26,#0f1a15);border-color:rgba(241,210,140,.55);border-radius:4px 10px 4px 4px;box-shadow:inset 0 0 0 1px rgba(241,210,140,.15),0 6px 16px rgba(0,0,0,.5)}
+.svFold .tab{background:#1b2d26;border-color:rgba(241,210,140,.55)}
+.svFold .num{font-family:var(--dispf);color:var(--star)}
+.svFold .lb{color:var(--frame-mut)}
+.svFold:hover{border-color:var(--star-hi)}
+.svFold.on{border-color:var(--star)} .svFold.on .num{color:var(--star-hi)} .svFold.on .lb{color:var(--frame-txt)}
+.svFold.sel,.svFold.sel .tab{background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55);border-color:var(--star-hi);box-shadow:0 0 18px rgba(255,178,87,.5)}
+.svFold.sel .num,.svFold.sel .lb{color:#2a1d06}
 #svCoreT{font-family:var(--dispf);color:var(--star);text-shadow:1px 1px 0 #3b2a0e,2px 2px 0 #3b2a0e,0 6px 18px rgba(0,0,0,.6)}
-#svCoreSub{font-family:var(--dispf);color:#2a1d06;background:var(--star);border-color:var(--star)}
+#svCoreSub{font-family:var(--dispf);color:#2a1d06;background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55);border-color:var(--star);border-radius:12px 3px 12px 3px}
 #svClock{font-family:var(--dispf);color:var(--star)}
-.svAct{border-color:rgba(241,210,140,.36);color:#e6d7ae}
-.svAct:hover{border-color:var(--star);color:var(--star-hi)}
-.svfbtn{color:var(--frame-txt)}
-.svfbtn:hover{color:var(--star-hi)}
+.svAct{border-color:rgba(241,210,140,.4);color:#e6d7ae;border-radius:12px;background:linear-gradient(180deg,#1f3429,#0f1a15)}
+.svAct:hover{border-color:var(--star);color:#2a1d06;background:var(--star)}
+.svfbtn{color:var(--frame-txt)} .svfbtn:hover{color:var(--star-hi)}
 
 /* 纪年插画页 ANNALES：深空底，金色牌 */
 #eraSel{--gold:var(--star);--gold-hi:var(--star-hi);--paper:var(--star);--txt:var(--frame-txt);--mut:var(--frame-mut);--ink:var(--sky);

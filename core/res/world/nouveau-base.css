@@ -1,0 +1,184 @@
+/* 守护龙纪事 · 新艺术底色：由界面壳样式表自动换色生成（羊皮纸→珐琅绿与金），不改任何布局 */
+*{scrollbar-color:rgba(241,210,140,0.57) transparent}
+::-webkit-scrollbar-track{background:rgba(241,210,140,0.03)}
+::-webkit-scrollbar-thumb{background:rgba(241,210,140,0.34)}
+::-webkit-scrollbar-thumb:hover{background:rgba(241,210,140,0.66)}
+.tag{color:#2a1d06}
+#flash{background:#f1d28c}
+.ebEraBtn{border:1px solid rgba(241,210,140,0.35)}
+.ebEraBtn.on{color:#2a1d06}
+.eBtn{border:1px solid rgba(241,210,140,0.4)}
+.psDoc{border-left:2px solid rgba(241,210,140,0.6)}
+.psDoc .pdT{color:#efe4c8}
+#game{background:rgba(20,34,28,0.66)}
+#game::before{background:radial-gradient(ellipse 90% 80% at 50% 42%,transparent 55%,rgba(20,34,28,0.78) 100%)}
+#game .gt{border:1px solid rgba(241,210,140,0.28)}
+#game .gNarr{color:#efe4c8}
+#game .gNarr .heart{color:#efe4c8}
+#game .gNarr .me{color:#ffb257}
+#game .gEot{color:#a89d80}
+#game .gInput{background:linear-gradient(0deg,rgba(20,34,28,0.92) 0%,rgba(20,34,28,0.83) 42%,rgba(20,34,28,0) 76%)}
+#game .gm{background:rgba(20,34,28,0.8)}
+#game .gm.on{color:#2a1d06}
+#game .gmBtn{border:1px solid rgba(241,210,140,0.57);background:rgba(20,34,28,0.8)}
+#game .gmMenu{background:rgba(20,34,28,0.65);border:1px solid rgba(241,210,140,0.44);box-shadow:0 18px 48px rgba(0,0,0,0.5)}
+#game .gmMenu b{color:#efe4c8}
+#game .gmMenu .gm.on,#game .gmMenu .gsug.on{background:rgba(241,210,140,0.16)}
+#game .gmMenu .gm:hover,#game .gmMenu .gsug:hover{background:rgba(241,210,140,0.03)}
+#game .gmSep{background:rgba(241,210,140,0.07)}
+#game .gsug{border:1px solid rgba(241,210,140,0.43);background:rgba(20,34,28,0.8)}
+#game #dreamIn.on,#game #dreamOut.on{color:#2a1d06}
+#game #gIn.hasSug::placeholder{color:rgba(239,228,200,0.72)}
+#game #gIn.hasSug::-webkit-input-placeholder{color:rgba(239,228,200,0.72)}
+#game .gLine input{border-bottom:1px solid rgba(241,210,140,0.3)}
+#game .gAux{border:1px solid rgba(241,210,140,0.26)}
+#game .gAux.on{color:#2a1d06}
+.cfgTabs{border-bottom:1px solid rgba(241,210,140,0.22)}
+.cfgTabs span{color:#efe4c8}
+.cfgTabs span.on{color:#2a1d06}
+.lRow{border-bottom:1px solid rgba(241,210,140,0.17);color:#efe4c8}
+.aIn{border-bottom:1px solid rgba(241,210,140,0.35)}
+.vLine{color:#efe4c8}
+.vLine.me{color:#ffb257}
+#game .gSend:hover{color:#2a1d06}
+#game .gMfd{border-left:1px solid rgba(241,210,140,0.21);background:rgba(20,34,28,0.66)}
+.mBar{background:rgba(241,210,140,0.05)}
+.mBar.red i{background:#ff7f63}
+.mStep{border-top:2px solid rgba(241,210,140,0.19)}
+.mLead{color:#efe4c8}
+.mOp{border:1px solid rgba(241,210,140,0.24)}
+.gArr .win{background:rgba(20,34,28,0.73);border:1px solid rgba(241,210,140,0.35)}
+.gArr .ic{background:rgba(20,34,28,0.97);border:1px solid rgba(241,210,140,0.39)}
+@media (max-width:760px){.gArr .win{background:rgba(20,34,28,0.63)}}
+@media (max-width:760px){.gArr .t{color:#efe4c8}}
+@media (max-width:760px){.gMfd.mvDeck .mvCard.thumb .cfr{background:rgba(20,34,28,0.63) !important}}
+@media (max-width:760px){#game .gPanel{border:1px solid rgba(241,210,140,0.26) !important;box-shadow:0 14px 34px rgba(0,0,0,0.45) !important}}
+@media (max-width:760px){#game:not(.mvOpen) .gMfd.mvDeck .mvCard.on .cfr{border-color:rgba(241,210,140,0.35) !important}}
+@media (max-width:760px){#game:not(.mvOpen) .gMfd.mvDeck .mvCard.on .ic{border-color:rgba(241,210,140,0.39) !important;background:rgba(20,34,28,0.97) !important}}
+@media (max-width:760px){#game .gMfd.mvDeck .mvCard.thumb .mvGhost .g3{color:#efe4c8}}
+#game.mapOpen #arrMap .ic,#game.armOpen #arrArm .ic,#game.shopOpen #arrShop .ic,#game.txOpen #arr3d .ic{color:#2a1d06}
+.gPanel{background:rgba(20,34,28,0.69);border:1px solid rgba(241,210,140,0.26);box-shadow:0 14px 34px rgba(0,0,0,0.45)}
+#pnArm::before{background:linear-gradient(180deg,rgba(20,34,28,0.94) 0%,rgba(20,34,28,0.81) 46%,rgba(20,34,28,0) 100%)}
+.shRow{border-bottom:1px solid rgba(241,210,140,0.14)}
+.shRow:hover{background:rgba(241,210,140,0.02)}
+.shRow .bu{border:1px solid rgba(241,210,140,0.33)}
+.shHead{background:rgba(20,34,28,0.94);border-bottom:1px solid rgba(241,210,140,0.21)}
+.shTabs{background:rgba(20,34,28,0.94);border-bottom:1px solid rgba(241,210,140,0.21)}
+.shSec{border-bottom:1px solid rgba(241,210,140,0.17)}
+.aSlot{border:1px solid rgba(241,210,140,0.22)}
+.aSlot .ic{border:1px solid rgba(241,210,140,0.5)}
+.aSlot.empty .ic{color:rgba(241,210,140,0.28)}
+.bCell{border:1px solid rgba(241,210,140,0.24)}
+.bCell.emptyc{border-color:rgba(241,210,140,0.17)}
+.armDet{border:1px solid rgba(241,210,140,0.22)}
+.armDet .ops span{border:1px solid rgba(241,210,140,0.3)}
+.armDet .ops span.warn{color:#f36a4b;border-color:rgba(243,106,75,.55)}
+.pnTitle .tg{border:1px solid rgba(241,210,140,0.6);background:rgba(20,34,28,0.93)}
+#pnMap .pnTitle{background:rgba(20,34,28,0.91)}
+.pFade{background:linear-gradient(to bottom,rgba(20,34,28,0),rgba(20,34,28,0.93))}
+.aRow{border-bottom:1px solid rgba(241,210,140,0.19)}
+.genBar .gbTrack{border:1px solid rgba(241,210,140,0.28);background:rgba(241,210,140,0.01)}
+.genBar .gbTrack i{background:linear-gradient(90deg,rgba(241,210,140,0.16),rgba(241,210,140,0.34))}
+.genBar .gbStop{border:1px solid rgba(255,127,99,.45);color:#ff7f63}
+.genBar .gbStop:hover{border-color:#ff7f63;box-shadow:0 0 9px rgba(255,127,99,.3)}
+.gDlg{background:rgba(20,34,28,0.79)}
+.gDlg .box{border:1px solid rgba(241,210,140,0.44);background:rgba(20,34,28,0.65);box-shadow:0 18px 48px rgba(0,0,0,0.5)}
+.risuSet{border:1px solid rgba(241,210,140,0.43)}
+.risuSet textarea{border:1px solid rgba(241,210,140,0.26);color:#efe4c8}
+.risuSet select{background:rgba(20,34,28,0.97);border:1px solid rgba(241,210,140,0.26)}
+#dlgCfg .gt,#dlgApi .gt{border:1px solid rgba(241,210,140,0.28)}
+.sRow{border-bottom:1px solid rgba(241,210,140,0.19)}
+.sRow
+input[type=range]{background:linear-gradient(90deg,var(--gold) 0 calc(var(--rv,0)*100%),
+                 rgba(241,210,140,0.13) calc(var(--rv,0)*100%) 100%) no-repeat center/100% 1px}
+input[type=range]::-webkit-slider-thumb{box-shadow:0 0 0 1px rgba(0,0,0,0.77)}
+input[type=range]::-moz-range-thumb{box-shadow:0 0 0 1px rgba(0,0,0,0.77)}
+.sSeg span{border:1px solid rgba(241,210,140,0.26)}
+.sSeg span.on{color:#2a1d06}
+.cxTab{border:1px solid rgba(241,210,140,0.28)}
+.cxTab.on{color:#2a1d06}
+.cxTops{border-right:1px solid rgba(241,210,140,0.21)}
+.cxTop.on{color:#2a1d06}
+.cxCats{border-right:1px solid rgba(241,210,140,0.21)}
+.cxCat.on{color:#2a1d06}
+.cxEnts{border-right:1px solid rgba(241,210,140,0.21)}
+.cxEnt.on{background:rgba(241,210,140,0.1)}
+.cxBody p{color:#efe4c8}
+.ebTab{border:1px solid rgba(241,210,140,0.28)}
+.ebTab.on{color:#2a1d06}
+.ebOp{border:1px solid rgba(241,210,140,0.21)}
+.mNpc{border:1px solid rgba(241,210,140,0.19)}
+.mNpc .nLine{color:#efe4c8}
+.mMind{border-left:1px solid rgba(241,210,140,0.7)}
+.mMind.mute{border-left-color:rgba(241,210,140,0.24)}
+.mNpc .nEye{border-left:2px solid rgba(241,210,140,0.5)}
+.svSlot{border:1px solid rgba(241,210,140,0.24)}
+#dlgSave{background:rgba(20,34,28,0.97)}
+.svFold{background:rgba(20,34,28,0.65);border:1px solid rgba(241,210,140,0.35)}
+.svFold .tab{background:rgba(20,34,28,0.65);border:1px solid rgba(241,210,140,0.35)}
+.svFold .num{color:#efe4c8;border:1px solid rgba(241,210,140,0.28)}
+.svFold .lb{color:#efe4c8}
+.svFold.on{border-color:rgba(241,210,140,0.71)}
+.svFold.on .tab{border-color:rgba(241,210,140,0.71)}
+.svFold.on .num{color:#efe4c8;border-color:rgba(241,210,140,0.53)}
+.svFold.on .lb{color:#efe4c8}
+.svFold.sel{border-color:#f1d28c;background:rgba(20,34,28,0.94);box-shadow:0 0 14px rgba(0,0,0,0.39)}
+.svFold.sel .tab{border-color:#f1d28c;background:rgba(20,34,28,0.94)}
+#svCoreT{color:#efe4c8}
+#svCoreSub{color:#efe4c8;border:1px solid rgba(241,210,140,0.33);background:rgba(20,34,28,0.91)}
+.svAct{border:1px solid rgba(241,210,140,0.4);background:rgba(20,34,28,0.89)}
+.svAct.warn{border-color:rgba(255,127,99,.5);color:#ff7f63}
+#svClock{color:#efe4c8}
+#svRedX{border:1px solid rgba(255,127,99,.7);color:#ff7f63;background:rgba(20,34,28,0.76)}
+#svRedX:hover{border-color:#ff7f63;box-shadow:0 0 10px rgba(255,127,99,.35)}
+@media (max-width:760px){#game[data-pg=map] #pnArm{border-top:1px solid rgba(241,210,140,0.22)}}
+@media (max-width:760px){.gNav{border:1px solid rgba(241,210,140,0.28);background:rgba(20,34,28,0.85)}}
+@media (max-width:760px){.gNav span.on{color:#2a1d06}}
+@media (max-width:760px){#dlgBook .cxTops,#dlgBook .cxCats,#dlgBook .cxEnts{border-bottom:1px solid rgba(241,210,140,0.21)}}
+@media (max-width:760px){#dlgBook .cxTop,#dlgBook .cxCat,#dlgBook .cxEnt{border:1px solid rgba(241,210,140,0.22)}}
+.zjP .gbtn{color:#2a1d06}
+.zjP .obtn{border:1px solid rgba(241,210,140,0.28)}
+.zjP .obtn:hover{color:#efe4c8;background:rgba(241,210,140,0.02)}
+.zjP input::placeholder,.zjP textarea::placeholder{color:#a89d80}
+#zjGraphSvg .gph-nm{fill:#efe4c8}
+#zjGraphSvg g[data-npc]:hover .fd-fold>rect:first-child{stroke:#ffe9b8}
+#zjGraphSvg g[data-npc]:hover .gph-nm{fill:#ffe9b8}
+#zjGraphSvg g.gph-sel .fd-fold>rect:first-child{stroke:#ffe9b8}
+#zjGraphSvg g.gph-sel .gph-nm{fill:#ffe9b8}
+.fd-ov{background:rgba(20,34,28,0.68)}
+.fd-win{border:1px solid rgba(241,210,140,0.44);background:rgba(20,34,28,0.65);box-shadow:0 18px 48px rgba(0,0,0,0.5);color:#efe4c8}
+.fd-win h2{color:#efe4c8}
+.fd-row{border-bottom:1px solid rgba(241,210,140,0.19)}
+.fd-k{color:#a89d80}
+.fd-v{color:#efe4c8}
+.fd-nd{color:#a89d80}
+.fd-bar{background:rgba(241,210,140,0.05)}
+.fd-quote{color:#ffe9b8}
+.fd-last{color:#a89d80}
+.fd-btn{border:1px solid rgba(241,210,140,0.4);color:#efe4c8}
+.fd-btn.fd-warn{color:#ff7f63;border-color:rgba(255,127,99,.5)}
+.fd-nav{border:1px solid rgba(241,210,140,0.4);color:#efe4c8}
+#pnTx{background:rgba(20,34,28,0.69);border:1px solid rgba(241,210,140,0.26);box-shadow:0 14px 34px rgba(0,0,0,0.45)}
+#pnTx{filter:drop-shadow(0 10px 18px rgba(0,0,0,0.39))}
+#pnTx #modScene3D{background:rgba(20,34,28,0.85) !important}
+#pnTx::after{background:linear-gradient(180deg,rgba(20,34,28,0.63) 0%,rgba(20,34,28,0) 40%,rgba(20,34,28,0.64) 100%);box-shadow:inset 0 0 48px rgba(0,0,0,0.27)}
+#game.txBig #pnTx{background:rgba(20,34,28,0.74)}
+#txHint{color:#f1d28c;text-shadow:0 1px 3px rgba(0,0,0,0.8)}
+.mvVig{background:radial-gradient(ellipse 92% 76% at 50% 46%,transparent 48%,rgba(20,34,28,0.83) 100%)}
+.mvCard .cfr{background:rgba(20,34,28,0.8)}
+.mvCard.on .cfr{background:rgba(20,34,28,0.83)}
+.gMfd.mvDeck .mvFoot{border-left:1px solid rgba(241,210,140,0.7)}
+.gMfd.mvDeck .mvCard .cfr{background:rgba(20,34,28,0.88);border:1px solid rgba(241,210,140,0.26);box-shadow:0 14px 34px rgba(0,0,0,0.45)}
+.gMfd.mvDeck
+  .mvCard.thumb .cfr{background:rgba(20,34,28,0.73) !important;border-color:rgba(241,210,140,0.35)}
+.mvCard .ic{background:rgba(20,34,28,0.97);border:1px solid rgba(241,210,140,0.39)}
+.gMfd.mvDeck .mvWin{background:rgba(20,34,28,0.69);border:1px solid rgba(241,210,140,0.26);box-shadow:0 14px 34px rgba(0,0,0,0.45)}
+#game.txBig .gMfd.mvDeck .mvWin{border-color:rgba(241,210,140,0.39);box-shadow:0 16px 40px rgba(0,0,0,0.7)}
+.gMfd.mvDeck .mvCard.on .cfr{border-color:rgba(241,210,140,0.87) !important}
+.gMfd.mvDeck .mvCard.on .ic{border-color:rgba(241,210,140,0.95);background:rgba(241,210,140,0.16)}
+.mvGhost .g2{-webkit-text-stroke:1px rgba(239,228,200,0.92)}
+.mvFoot{border-top:1px solid rgba(241,210,140,0.7);background:rgba(20,34,28,0.85)}
+.mvFoot .go{border:1px solid rgba(241,210,140,0.31)}
+.svFold:hover{border-color:rgba(241,210,140,0.9);box-shadow:0 0 0 1px rgba(241,210,140,0.12),0 4px 14px rgba(0,0,0,0.45)}
+.svFold:active{background:rgba(241,210,140,0.16)}
+.sub{color:#a89d80}

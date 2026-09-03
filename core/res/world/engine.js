@@ -3834,19 +3834,19 @@ var glassCss=document.createElement('style');document.head.appendChild(glassCss)
 function applyGlass(){
   /* [world] 主题「星图上的羊皮纸」：拉杆仍是面板透明度，但框架层（台底、输入条、
      情报窗）压的是深空，阅读层（抽屉、弹窗、档案夹、卡片）压的是羊皮纸。 */
-  var a=SET.glass/100,SKY='5,7,12',GLS='13,18,32',VEL='236,227,205';
+  var a=SET.glass/100,SKY='5,7,12',GLS='13,18,32',VEL='236,227,205',ENA='18,31,25';
   glassCss.textContent='#game::before{background:radial-gradient(ellipse 90% 80% at 50% 42%,'
     +'transparent 50%,rgba(0,0,0,'+(.30+.40*a).toFixed(2)+') 100%) !important}'
     +'#game .gMfd{background:rgba('+SKY+','+(.16+.30*a).toFixed(2)+') !important}'
     +'#game .gInput{background:linear-gradient(0deg,rgba('+SKY+','+(.62+.34*a).toFixed(2)+') 0%,rgba('+SKY+','+(.40+.34*a).toFixed(2)+') 42%,rgba('+SKY+',0) 76%) !important}'
     +'.gPanel,#pnTx{background:rgba('+GLS+','+(.20+.40*a).toFixed(2)+') !important}'
     +'#game #pnMap,#game #pnArm,#game #pnShop'
-    +'{background:rgba('+VEL+','+(.80+.18*a).toFixed(2)+') !important}'
-    +'.gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.46+.32*a).toFixed(2)+') !important}'
+    +'{background:rgba('+ENA+','+(.80+.18*a).toFixed(2)+') !important}'
+    +'.gMfd.mvDeck .mvWin{background:rgba('+ENA+','+(.46+.32*a).toFixed(2)+') !important}'
     +'.feGl{background:rgba('+VEL+','+(.62+.24*a).toFixed(2)+') !important}'
     +'#feWrap[data-step="loc"] .feGl'
     +'{background:rgba('+VEL+','+(.68+.24*a).toFixed(2)+') !important}'
-    +'#game .gNarr{background:rgba('+VEL+','+(.42+.34*a).toFixed(2)+') !important}'
+    +'#game .gNarr{background:rgba('+ENA+','+(.42+.34*a).toFixed(2)+') !important}'
     +'@media (max-width:860px){'
     +'.feGl{background:rgba('+VEL+','+(.50+.26*a).toFixed(2)+') !important}'
     +'#feWrap[data-step="loc"] .feGl'
@@ -3854,14 +3854,14 @@ function applyGlass(){
     +'}'
     +'#game.txBig #pnTx{background:rgba('+SKY+','+(.28+.18*a).toFixed(2)+') !important}'
     +'@media (min-width:761px){'
-    +'#game.txBig .gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.66+.26*a).toFixed(2)+') !important}'
-    +'#game.txBig .gMfd.mvDeck .mvCard .cfr{background:rgba('+VEL+','+(.66+.26*a).toFixed(2)+') !important}'
+    +'#game.txBig .gMfd.mvDeck .mvWin{background:rgba('+ENA+','+(.66+.26*a).toFixed(2)+') !important}'
+    +'#game.txBig .gMfd.mvDeck .mvCard .cfr{background:rgba('+ENA+','+(.66+.26*a).toFixed(2)+') !important}'
     +'}'
     +'.gDlg .box,#eraBox .box,#persona .box,#psRes .box,.fd-win,.svFold,.svFold .tab,#game .gmMenu'
-    +'{background:rgba('+VEL+','+(.84+.14*a).toFixed(2)+') !important}'
+    +'{background:rgba('+ENA+','+(.84+.14*a).toFixed(2)+') !important}'
     +'@media (max-width:760px){'
     +'#game .gPanel{background:rgba('+GLS+','+(.50+.30*a).toFixed(2)+') !important}'
-    +'#game .gMfd.mvDeck .mvWin{background:rgba('+VEL+',.92) !important;'
+    +'#game .gMfd.mvDeck .mvWin{background:rgba('+ENA+',.92) !important;'
     +'-webkit-backdrop-filter:none !important;backdrop-filter:none !important}'
     +'}';
 }
