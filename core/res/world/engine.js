@@ -1181,7 +1181,7 @@ function shopRender(){
         +'<span class="ic">'+armIcon(it.ic,22)+'</span>'
         +'<span class="nm">'+esc2(it.cn)+'<i>'+esc2(it.la||'')+'</i></span>'
         +'<span class="pr">'+(banned?esc2(it.ban):(it.price+'&nbsp;'+esc2(FEG.unit)))+'</span>'
-        +'<span class="bu">'+(banned?'禁':(poor?'钱不够':'买&nbsp;入'))+'</span>'
+        +'<span class="bu">'+(banned?(FEG.canon?'阅':'禁'):(poor?'钱不够':'买&nbsp;入'))+'</span>'
         +'</div>';
     }
   }
@@ -1191,9 +1191,10 @@ function shopRender(){
     +(FEG.note?esc2(FEG.note)+'<br>'
       :('秦市有市亭、有市籍，物勒工名，贾人立于肆中。价钱随年成走，'
         +'这里列的是平年咸阳市的常价。<br>'))
-    +'买进的东西当场进行囊，钱当场从◆钱那一栏扣掉；'
-    +'卖出去要在装备里点开那一件，只作价一半。<br>'
-    +'官造的兵甲市上不卖，私藏要坐罪。'
+    +(FEG.canon?'点开一件可读它在世界书里的条目。':
+      ('买进的东西当场进行囊，钱当场从◆钱那一栏扣掉；'
+      +'卖出去要在装备里点开那一件，只作价一半。<br>'
+      +'官造的兵甲市上不卖，私藏要坐罪。'))
     +'</div>';
   host.innerHTML=h;
 }
@@ -1205,7 +1206,9 @@ $('#shopWrap').addEventListener('click',function(e){
   if(tab!=null){SHOPTAB=parseInt(tab,10)||0;shopRender();this.scrollTop=0;return;}
   var k=t.getAttribute('data-buy'),it=ARMDB[k];
   if(!it)return;
-  if(it.ban){if(window.SX)SX('deny');invSys(it.cn+'&nbsp;是官造之物，市上买不着；私藏要坐罪');return;}
+  if(it.ban){if(window.SX)SX(FEG.canon?'tap':'deny');
+    if(FEG.canon){var d=armDesc(k);invSys(it.cn+(d?('&nbsp;·&nbsp;'+esc2(d)):'&nbsp;·&nbsp;世界书未载其详'));return;}
+    invSys(it.cn+'&nbsp;是官造之物，市上买不着；私藏要坐罪');return;}
   var cash=walletRead();
   if(it.price>cash){if(window.SX)SX('deny');invSys('钱不够。'+it.cn+'&nbsp;要&nbsp;'+it.price
     +'&nbsp;钱，手上只有&nbsp;'+cash+'&nbsp;钱');shopRender();return;}
@@ -2095,7 +2098,7 @@ function mvuSpec(){
      设定带回正文。保留 Risu 的完整快照机制，但协议只写本游戏真正需要的字段。 */
   if(cardHeroless()){
     var base=last||op;
-    return '【FELINIA 状态快照·必须执行】\n'
+    return '【状态快照·必须执行】\n'
       +(felTrOn()
         ?'1. 先写韩语正文，最后才写一个完整 <mvu_panel>；状态块之后不要再写正文。\n'
           +'2. 标签、中文字段名、行首 ◆◈◇、半角竖线 | 必须逐字保留，绝对不要翻成韩语。\n'
@@ -3384,7 +3387,7 @@ $('#gtFull').addEventListener('click',function(){
   else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();
 });
 /* ============ 设置·控制中枢（12页签，代码级对齐 Ghost setBody） ============ */
-var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:9000,context:65536,
+var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,
   tts:{src:0,base:'',key:'',model:'tts-1',voice:'',rate:105,scope:0,auto:0},
   img:{on:0,base:'',key:'',model:'',size:0,style:0},   /* style 0 ＝ NovelAI，见 IMGSTY */
   sub:{format:'openai',base:'',key:'',model:''},
@@ -3407,7 +3410,7 @@ try{var _s=JSON.parse(localStorage.getItem('guardianDragonSet')||'{}');
    「绘此幕」点了整个函数当场中断、毫无反应；cam/disp 为 undefined 则查表得 undefined，
    提示词里混进字面量「undefined」、图片显示宽度失效。这就是「设置里某些项目不作用」。 */
 (function(){
-  var D={glass:80,forma:0,face:0,mvuRing:1,loreBud:9000,context:65536,
+  var D={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,
     tts:{src:0,base:'',key:'',model:'tts-1',voice:'',rate:105,scope:0,auto:0},
     img:{on:0,auto:0,count:0,cam:0,disp:2,base:'',key:'',model:'',size:0,style:0,
          steps:'',cfg:'',w:'',h:'',seed:'',workflow:''},
@@ -3460,7 +3463,7 @@ function felPublicError(e){
   if(/failed to fetch|networkerror|load failed/i.test(message))
     return '浏览器直连失败：接口未允许跨域（CORS）、HTTPS 页面连接了 HTTP 接口，或地址不可达';
   return message
-    .replace(/Risu\s*AI|RisuAI|Risuai/gi,'FELINIA')
+    .replace(/Risu\s*AI|RisuAI|Risuai/gi,'叙事内核')
     .replace(/```risuerror\s*/gi,'').replace(/```/g,'').trim();
 }
 function felRisuLoad(){
@@ -3469,7 +3472,7 @@ function felRisuLoad(){
     FEL_RISU=mod.FeliniaRisu;return FEL_RISU;});}
   if(window.RisuHeadless)return take();
   return new Promise(function(resolve,reject){
-    var tm=setTimeout(function(){reject(new Error('FELINIA 叙事内核没有载入'));},20000);
+    var tm=setTimeout(function(){reject(new Error('叙事内核没有载入'));},20000);
     addEventListener('risu-headless-ready',function ready(){
       removeEventListener('risu-headless-ready',ready);clearTimeout(tm);take().then(resolve,reject);
     });
@@ -3479,7 +3482,7 @@ function felRisuBoot(){
   if(FEL_RISU_BOOT)return FEL_RISU_BOOT;
   FEL_RISU_BOOT=felRisuLoad().then(function(risu){return new Promise(function(resolve,reject){
     function install(){
-      if(!FE||!FE.eras||!FE.eras.length){reject(new Error('FELINIA 时代资料没有载入'));return;}
+      if(!FE||!FE.eras||!FE.eras.length){reject(new Error('本纪资料没有载入'));return;}
       /* 范文只教实时意识与对白反应，不承担世界事实；写作规范本身在每局作者层。 */
       var _baseCard=window.__GAME_LUZHI__||CARDS.luzhi;
       var _risuCard=Object.assign({},_baseCard,{mes_example:[_baseCard.mes_example||'',FELINIA_VOICE_EXAMPLE]
@@ -3489,7 +3492,7 @@ function felRisuBoot(){
       },reject);
     }
     if(FE&&FE.eras&&FE.eras.length){install();return;}
-    feLoad(function(ok){if(ok)install();else reject(new Error('FELINIA 时代资料载入失败'));});
+    feLoad(function(ok){if(ok)install();else reject(new Error('本纪资料载入失败'));});
   });});
   return FEL_RISU_BOOT;
 }
@@ -3568,7 +3571,7 @@ function felRisuProvider(source){
 }
 function felRisuRegexScripts(){
   return (SET.rx||[]).filter(function(r){return r&&r.on!==false&&r.find;}).map(function(r){
-    return {comment:r.name||'FELINIA',in:r.find,out:r.rep||'',type:r.type||(r.scope===1?'editprocess':'editdisplay'),
+    return {comment:r.name||'规则',in:r.find,out:r.rep||'',type:r.type||(r.scope===1?'editprocess':'editdisplay'),
       flag:r.flag||'g',ableFlag:!!r.ableFlag};
   });
 }
@@ -3583,10 +3586,12 @@ function felRisuPrepare(messages,options){
     });
     var first=(options&&options.firstMessage!==undefined)?options.firstMessage:
       (felTrOn()?(GAME.opText||''):(((GAME.op&&GAME.op.text)||GAME.opText)||''));
+    /* 开场已作为第一条 assistant 进了 history，firstMessage 再带一遍就会在提示里出现两次 */
+    if(first&&history.length&&history[0].role==='assistant'&&String(history[0].content||'')===String(first))first='';
     return risu.activateEra(ei,felRisuNpcKeys(ei)).then(function(){
       return risu.setSessionContent({systemPrompt:system,authorNote:FELINIA_AUTHOR_NOTE,firstMessage:first,
         localLore:loreCustomGet().filter(function(e){return e&&e.on!==false;}),
-        loreTokenBudget:Math.max(64,Math.round((parseInt(SET.loreBud,10)||9000)/4)),
+        loreTokenBudget:Math.max(64,Math.round((parseInt(SET.loreBud,10)||20000)*1.1)),
         loreScanDepth:parseInt((SET.risu||{}).loreDepth,10)||5,
         recursiveLoreScanning:(SET.risu||{}).loreRecursive!==0,
         fullWordLoreMatching:(SET.risu||{}).loreFullWord!==0,
@@ -4744,8 +4749,8 @@ function semPaneSync(){
 $('#trProvider').addEventListener('change',function(){SET.trans.provider=this.value;setStore();trPaneSync();if(this.value==='browser')felNativeTranslationWarm();});
 $('#trDeepLXInstall').addEventListener('click',function(){
   var ua=(navigator.userAgent||'')+' '+(navigator.platform||''),file='';
-  if(/Windows/i.test(ua))file='/core/res/install/FELINIA-DeepLX-Windows.cmd';
-  else if(/Macintosh|MacIntel|Mac OS X/i.test(ua))file='/core/res/install/FELINIA-DeepLX-macOS.zip';
+  if(/Windows/i.test(ua))file='/core/res/install/DeepLX-Windows.cmd';
+  else if(/Macintosh|MacIntel|Mac OS X/i.test(ua))file='/core/res/install/DeepLX-macOS.zip';
   else {felTrStatus('当前一键安装支持 macOS 与 Windows；其他系统请填写已有 DeepLX 服务地址',1);return;}
   var a=document.createElement('a');a.href=file;a.download=file.split('/').pop();document.body.appendChild(a);a.click();a.remove();
   felTrStatus('安装文件已下载 · 打开它一次即可安装并启动本地翻译服务',0);
@@ -6500,7 +6505,7 @@ document.querySelector('#game .gMfd').addEventListener('click',function(e){
     if(!FEL_RISU||typeof FEL_RISU.getPalaceDrawers!=='function')return;
     var _pid=felMemoryId();
     FEL_RISU.getPalaceDrawers(_pid).then(function(drawers){
-      var gn=(CARDS[ACTIVE]&&CARDS[ACTIVE].name)||'FELINIA';
+      var gn=(CARDS[ACTIVE]&&CARDS[ACTIVE].name)||'守护龙纪事';
       var payload={version:1,sessionId:_pid,drawers:drawers||[]};
       var mb=new Blob([JSON.stringify(payload,null,1)],{type:'application/json'}),mu=URL.createObjectURL(mb),ma=document.createElement('a');
       ma.href=mu;ma.download=gn+'-记忆宫殿.json';document.body.appendChild(ma);ma.click();ma.remove();setTimeout(function(){URL.revokeObjectURL(mu);},4000);
@@ -9321,8 +9326,37 @@ function worldEraEntry(era,meta){
       d:worldText(c.canonIdentityEvidence&&c.canonIdentityEvidence[0]),
       q:(c.eraSafeDialogueSamples||[]).slice(0,6).map(worldText)};})};
 }
+/* [world] 正典物件：ARMA 与 MERCATVS 两个抽屉不再摆秦市货，改列本纪世界书登记的物件，只可查阅。 */
+function worldItemName(t){
+  t=String(t||'').replace(/^【[^】]*】/,'').trim();
+  var m=t.split(/[，。；：,;:（(]/)[0]||t;
+  return m.length>22?(m.slice(0,22)+'…'):m;
+}
+function worldItemIcon(t){
+  var R=[[/剑|刃/,'sword'],[/匕|短刀/,'dagger'],[/枪|矛|戟|杖/,'spear'],[/弓/,'bow'],[/弩/,'crossbow'],[/箭/,'arrow'],[/盾/,'shield'],[/甲|铠/,'armor'],[/盔|冠|帽/,'helm'],
+    [/斗篷|披风/,'cloak'],[/袍|衣|裙|衫/,'robe'],[/靴|鞋/,'boot'],[/戒|环|链|项/,'chain'],[/书|卷|典|册|信|契|符|文/,'tablet'],[/印|玺|徽/,'seal'],[/灯|火|烛/,'lamp'],
+    [/药|草|丹/,'herb'],[/酒/,'winejar'],[/粮|饭|饼|面包|仓/,'bread'],[/肉/,'meat'],[/鱼/,'fish'],[/石|矿|晶|玉|珠|核/,'stone'],[/袋|囊|包/,'pouch'],[/箱|匣|柜/,'chest'],
+    [/镜/,'mirror'],[/币|钱|金/,'coin'],[/像|偶/,'pin'],[/瓶|壶|罐/,'flask']];
+  for(var i=0;i<R.length;i++)if(R[i][0].test(t))return R[i][1];
+  return 'tag';
+}
+function worldItems(era){
+  var k;for(k in ARMDB)delete ARMDB[k];
+  (era.lorebook||[]).forEach(function(e){
+    if(!e||e.category!=='setting-object'||e.enabled===false)return;
+    var name=worldItemName(e.title||e.memo);
+    ARMDB[e.id]={la:'',cn:name,cat:'物件',slot:'',ic:worldItemIcon(name),ban:'正典物件 · 只可查阅'};
+  });
+  SHOP_TABS.length=0;SHOP_TABS.push(['全部',null],['物件',['物件']]);
+  SHOP_SEC.length=0;SHOP_SEC.push('物件');
+  for(k in INVSETS)delete INVSETS[k];INVSETS._={eq:{},bag:[]};
+  FEG.unit='';FEG.set=null;FEG.at='';FEG.canon=true;
+  FEG.note='第 '+era.ordinal+' 纪世界书登记的物件。价格、产地与得失只按正典条目写明的来，市上无价可标，亦无买卖。';
+  SHOPTAB=0;
+}
 function worldSetEra(era,meta){
   var ord=era.ordinal;
+  worldItems(era);
   CARDS.luzhi={name:'守护龙纪事',heroName:'玩家',heroless:true,panelSpec:WORLD_PANEL,description:'',personality:'',scenario:'',system_prompt:'',post_history_instructions:'',mes_example:'',first_mes:'',openings:[],annals:[],timeline:[],
     lorebook:(era.lorebook||[]).map(function(e){return worldLore(e,ord);})};
   try{(JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[]).forEach(function(e){if(e&&e.title&&e.content)CARDS.luzhi.lorebook.push(e);});}catch(_){}
@@ -9423,6 +9457,7 @@ function gameShow(){
   try{if(window.FELVN&&window.FELVN.tick)window.FELVN.tick();}catch(_){}
 }
 function gameExit(){
+  try{autoSave(1);}catch(_){}
   TYPE_GEN++;
   try{if(GENAC)GENAC.abort();}catch(_){}
   BUSY=false;try{genClose();}catch(_){}

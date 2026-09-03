@@ -300,6 +300,7 @@ function me(e, t) {
 	return /^\s*\u00b7/.test(e) && !/^\s*\u00b7/.test(r) ? `\u00b7 ${r}` : r;
 }
 function T(e, t) {
+	if (t >= 99999) return String(e || "");
 	return String(e || "").split("\n").map((e) => me(e, t)).filter(Boolean).join("\n");
 }
 var E = {
@@ -432,6 +433,7 @@ function D(e, t) {
 }
 function ve(e, t) {
 	let n = /* @__PURE__ */ new Map();
+	if (t < 2) return new Set();
 	for (let t of e) if (!(t.era == null || t.lay === "figures")) for (let e of new Set(String(t.content || "").split("\n").map((e) => e.trim()).filter(Boolean))) {
 		let r = n.get(e) || /* @__PURE__ */ new Set();
 		r.add(t.era), n.set(e, r);
@@ -496,7 +498,7 @@ function be() {
 	return {
 		message: [],
 		note: "",
-		name: "FELINIA",
+		name: "守护龙纪事",
 		localLore: [],
 		scriptstate: {},
 		fmIndex: -1,
@@ -561,7 +563,7 @@ function P(e, t) {
 			index: i.i,
 			year: i.y,
 			label: [i.ys, i.t].filter(Boolean).join(" · "),
-			name: `FELINIA · ${[i.ys, i.t].filter(Boolean).join(" · ")}`,
+			name: `守护龙纪事 · ${[i.ys, i.t].filter(Boolean).join(" · ")}`,
 			description: [i.s, i.nm].filter(Boolean).join("\n"),
 			system_prompt: ge(e.system_prompt, t),
 			scenario: [
