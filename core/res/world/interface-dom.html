@@ -1,5 +1,3 @@
-
-
 <div id="eraSel">
   <div id="esBrand"><b>ANNALES</b>&nbsp;·&nbsp;纪年选择</div>
 
@@ -65,13 +63,6 @@
   <div id="eraHud"><b id="ehYear"></b><span>拖动旋转&nbsp;·&nbsp;滚轮／双指缩放&nbsp;·&nbsp;点击地点（或任意座标）进入角色编辑&nbsp;·&nbsp;ESC&nbsp;返回</span></div>
 </div>
 
-<div id="intro">
-  <canvas id="introCv"></canvas>
-  <div class="iEyebrow">─&nbsp;&nbsp;CHRONICA&nbsp;DRACONIS&nbsp;//&nbsp;WORLD&nbsp;&nbsp;─</div>
-  <div class="iSub">VNVS&nbsp;SOL&nbsp;IN&nbsp;CAELO&nbsp;·&nbsp;VNVS&nbsp;DOMINVS&nbsp;IN&nbsp;TERRA</div>
-  <div class="iBtn" id="iBtn" tabindex="0">INTRARE</div>
-  <div class="iFoot">CAELO&nbsp;AETERNO&nbsp;VOLENTE&nbsp;&nbsp;·&nbsp;&nbsp;MMXXIX</div>
-</div>
 
 <div id="game">
   <canvas id="gTerr"></canvas>
@@ -142,8 +133,25 @@
       <span class="t">视觉小说</span></div>
   </div>
   <div class="gPanel" id="pnMap">
-    <div id="gmMap" data-nodrag><div id="gmMapIn"></div></div>
-    <div class="pnTitle"><i>◆</i>&nbsp;TABVLA&nbsp;·&nbsp;地图&nbsp;&nbsp;—&nbsp;&nbsp;滚轮缩放<b class="tg" title="拖我，这扇窗跟着转">↔</b></div>
+    <div id="gmMap" data-nodrag>
+      <div id="worldMapHud">
+        <div id="worldMapLayers"><button type="button" class="on" data-layer="surface">地表</button><button type="button" data-layer="gateway">界门</button></div>
+        <div id="wmTools"><button type="button" id="wmEdit" hidden>✎ 修改世界地形</button></div>
+        <div id="wmEditor" hidden>
+          <div class="wmRow wmTools2"><button type="button" data-tool="raise" class="on">抬升陆地</button><button type="button" data-tool="lower">沉降为海</button><button type="button" data-tool="mount">隆起山脉</button><button type="button" data-tool="flat">夷平</button><button type="button" data-tool="pan">转动星球</button></div>
+          <div class="wmRow wmTypes"><span>地貌</span><button type="button" data-type="1">沙漠</button><button type="button" data-type="2">草原</button><button type="button" data-type="3">森林</button><button type="button" data-type="4">雪原</button><button type="button" data-type="5">焦土</button></div>
+          <div class="wmRow wmSliders"><label>笔刷<input id="wmSize" type="range" min="0" max="100" step="1" value="35"><b id="wmSizeV"></b></label><label>力度<input id="wmStr" type="range" min="1" max="10" step="1" value="5"><b id="wmStrV"></b></label></div>
+          <div id="wmStats"></div>
+          <div class="wmRow wmActs"><button type="button" id="wmUndo">撤销</button><button type="button" id="wmReset">全部还原</button><button type="button" id="wmCancel">取消</button><button type="button" id="wmApply">确认修改地形</button></div>
+          <div class="wmHint">拖动雕刻 · 右键或双指转动 · 滚轮缩放 · [ ] 调笔刷 · 确认后改动会作为世界事件交给神谕</div>
+        </div>
+        <div id="worldMapStatus">同一世界 · 正典地理载入中</div>
+        <div id="worldMapDetail"><b>世界地图</b><p>正在读取本书的大陆、国家与地点。</p></div>
+        <div id="worldMapLoose"></div>
+        <div id="worldMapNotice">原文实证地理 · 地形按原文相对方位与地貌生成</div>
+      </div>
+    </div>
+    <div class="pnTitle"><i>◆</i>&nbsp;泛大陆星球&nbsp;&nbsp;—&nbsp;&nbsp;拖动旋转 · 滚轮缩放 · 双击定位<b class="tg" title="拖我，这扇窗跟着转">↔</b></div>
     <div class="pFade"></div>
   </div>
   <div class="gPanel" id="pnArm">
@@ -178,7 +186,7 @@
       <div class="sRow"><span>MOTVS&nbsp;·&nbsp;动效</span><span class="sSeg" id="sgMotus"><span class="on">全开</span><span>减弱（低配）</span></span></div>
       <div class="sRow"><span>VELOCITAS&nbsp;·&nbsp;文字速度</span><span class="sSeg" id="sgVelo"><span>缓</span><span class="on">中</span><span>疾</span><span>瞬</span></span></div>
       <div class="sRow"><span>LITTERAE&nbsp;·&nbsp;正文字体</span><span style="display:flex;gap:10px;align-items:center;flex:1;justify-content:flex-end"><input type="number" id="cfgNarr" min="12" max="30" step="1" value="17" inputmode="numeric" style="width:84px;text-align:right;background:rgba(19,18,13,.04);border:1px solid rgba(19,18,13,.25);color:var(--txt);padding:6px 8px;font-family:var(--mono);font-size:13px"><b id="cfgNarrVal" style="font-weight:400;font-size:10px;letter-spacing:.1em;color:var(--gold-hi);min-width:3.6em;text-align:right">17px</b></span></div><div class="sub">只改叙事正文那一栏的字号，单位像素，12–30，17 为默认。界面其余部分不动。</div><div class="sRow"><span>INTERFACIES&nbsp;·&nbsp;界面字体</span><span style="display:flex;gap:10px;align-items:center;flex:1;justify-content:flex-end"><input type="number" id="cfgUi" min="0" max="100" step="1" value="22" inputmode="numeric" style="width:84px;text-align:right;background:rgba(19,18,13,.04);border:1px solid rgba(19,18,13,.25);color:var(--txt);padding:6px 8px;font-family:var(--mono);font-size:13px"><b id="cfgUiVal" style="font-weight:400;font-size:10px;letter-spacing:.1em;color:var(--gold-hi);min-width:3.6em;text-align:right">22%</b></span></div><div class="sub">填 0-100 的整数整体缩放界面——情报台状态栏、顶栏、输入区与全部弹窗（含本设置与世界书）一同放大缩小；正文另有上面那一档，三维场景不受影响。0 最小、100 最大，22 为原始尺寸；输入后回车或点开生效，上下箭头可 1% 微调。</div><div class="sRow"><span>LVX&nbsp;·&nbsp;白昼模式</span><span style="flex:1;text-align:right"><input type="checkbox" id="cfgLux" style="accent-color:var(--gold);width:15px;height:15px;cursor:pointer"></span></div><div class="sub">把全站换成浅色（白昼）配色，正文黑字白底更近纸面；三维画面与配图保持原貌。主菜单右上角的&nbsp;☀/☾&nbsp;也能随时切换，两处同步。</div><div class="sRow"><span>CONSILIVM&nbsp;·&nbsp;浅字提示</span><span style="flex:1;text-align:right"><input type="checkbox" id="cfgSugg" checked style="accent-color:var(--gold);width:15px;height:15px;cursor:pointer"></span></div><div class="sub">开启后，每一幕落定就由参谋按当下局势在输入框里用浅字提一句你可能想打的话。按&nbsp;Tab&nbsp;（或&nbsp;→）收下来——只是填进框里，不会替你发出去，收下来还能再改；不想要直接打字就盖掉了。输入模式那张单子最底下那枚「浅字提示」也能随时开关，两处同步。</div>
-      <div class="sub">透明度：拖动即时生效——拉到最左＝完全透明（直接看穿到后面的动态背景）；拉到最右＝完全不透明（纯色纸底，彻底看不穿）。开低配模式时模糊被关闭。版式：自动依屏幕宽窄选择版式，也可强制使用电脑或手机布局。</div>
+      <div class="sub">透明度拖动即时生效：最左最通透，最右最接近纸面。开低配模式时会同时减弱正文界面的动效。</div>
       <div class="sRow"><span>OBSCVRITAS&nbsp;·&nbsp;面板透明度</span><input type="range" id="cfgGlass" min="0" max="100" value="80"></div>
       <div class="sRow"><span>FORMA&nbsp;·&nbsp;版式</span><span class="sSeg" id="sgForma"><span class="on">自动</span><span>桌面</span><span>手机</span></span></div>
       <div class="sRow"><span>TABVLARIVM&nbsp;·&nbsp;情报台</span><span class="sSeg" id="sgMvu"><span>列表</span><span class="on">卡叠</span><span>环</span></span></div>
@@ -258,8 +266,8 @@
     </div>
     <div class="cfgPane" id="cp_lore" style="display:none">
       <div class="sub">你写的世界书条目与本卡自带世界书一同生效：正文近几轮提到「关键词」时自动注入该条设定；勾选常驻则每轮必注入（占用篇幅，慎用）。已支持&nbsp;ST&nbsp;高级字段：「次级关键词」（须与主关键词同时命中）、注入「顺序」、触发「概率」；导入的扫描深度与递归设置也自动生效。条目只存于你这台设备的浏览器。</div>
-      <div class="sub" style="margin-top:10px">注入预算：每轮注入世界书的总字数上限（默认&nbsp;7k）。每轮只发送常驻规则和最近对话明确命中的条目，不会把整本世界书或小说正文全量重发；拉高会允许更多同时命中的设定进入本轮。</div>
-      <div class="sRow"><span>注入预算（字）</span><span style="display:flex;gap:10px;align-items:center"><input type="range" id="loreBud" min="3000" max="30000" step="1000" value="7000"><b id="loreBudV" style="font-weight:400;color:var(--gold-hi);font-size:10px">7000</b></span></div>
+      <div class="sub" style="margin-top:10px">注入预算：每轮注入世界书的总字数上限（默认&nbsp;9k）。每轮只发送共同背景、常驻规则和最近对话明确命中的条目，不会把整本世界书或小说正文全量重发；拉高会允许更多同时命中的设定进入本轮。</div>
+      <div class="sRow"><span>注入预算（字）</span><span style="display:flex;gap:10px;align-items:center"><input type="range" id="loreBud" min="3000" max="30000" step="1000" value="9000"><b id="loreBudV" style="font-weight:400;color:var(--gold-hi);font-size:10px">9000</b></span></div>
       <div class="sRow"><span>扫描最近消息数</span><input class="aIn" id="loreDepth" inputmode="numeric" min="1" max="100" style="width:80px"></div>
       <div class="sRow"><span>递归扫描</span><input type="checkbox" id="loreRecursive"></div>
       <div class="sRow"><span>关键词整词匹配</span><input type="checkbox" id="loreFullWord"></div>
@@ -686,7 +694,7 @@
         <div class="feSec" data-s="loc">
           <div class="feColH">这一代能落脚的地方</div>
           <div id="feLocList"></div>
-          <div class="feNote">图上也可以直接点。</div>
+          <div class="feNote">星球上直接点地名，或点任意座标落脚。</div>
         </div>
         <div class="feSec" data-s="per">
           <div class="feColH">预设角色&nbsp;·&nbsp;此代在册者</div>

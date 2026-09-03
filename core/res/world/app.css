@@ -23,7 +23,6 @@ button{border:0}
 
 /* WORLD 只保留已经接通的正文工具。Cat 的曲库、密语和浅字参谋没有在本项目
    接入运行层，继续露出只会形成能点却无结果的假按钮。 */
-#game #gtSnd,#game #gtVoc,#game #gSug,#dlgBook #cxAdd,#dlgBook #cxImp{display:none!important}
 
 /* 情报卡左下角的两位序号属于 Cat 调试式卡列标记；在 WORLD 正文层会孤零零
    露成一个“1”，与卡片标题和底栏的完整页码重复。 */
