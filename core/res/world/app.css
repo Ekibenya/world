@@ -165,8 +165,9 @@ html:has(#game.show) #foot{display:none!important}
 @media (max-width:760px){#pnMap{width:auto}#wmEditor{padding:7px 8px;gap:6px}.wmSliders input[type=range]{width:80px}#wmEditor button{padding:5px 7px;font-size:9px}}
 /* 开局界面底色改为深空：星球画布挂入前那一帧不会闪白 */
 #feWrap{background:#05070c}
-/* 页面底色即深空：任何过渡瞬间露出的都是宇宙，不再是米色壳层 */
+/* 页面底色即深空：任何过渡瞬间露出的都是宇宙，不再是米色壳层；正文界面仍铺在原本的纸色之上 */
 body{background:#05070c}
+html:has(#game.show) body{background:var(--ink)}
 /* ---- 封面标题：巴黎地铁 Métropolitain 字体；SVG 内做浮雕金属，字后是用湍流噪声位移出来、不断向上窜的火焰 ---- */
 @font-face{font-family:'Metropolitain';src:url(/core/res/font/metropolitain.ttf) format('truetype');font-weight:400;font-style:normal;font-display:swap}
 #menuTitle{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;width:min(70vw,980px);user-select:none}
