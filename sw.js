@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v48';
+const CACHE = 'guardian-dragon-art-v49';
 const CORE = [
   '/',
   '/index.html',
@@ -17,7 +17,7 @@ const CORE = [
   '/core/res/world/world-planet-map.js?v=40',
   '/core/res/world/game-ui-shell.js?v=19',
   '/core/res/world/visual-novel.js?v=10',
-  '/core/res/world/app.js?v=26',
+  '/core/res/world/app.js?v=27',
   '/core/res/world/lore-retrieval.mjs',
   '/core/res/world/runtime.mjs',
   '/core/res/data/world/index.json',

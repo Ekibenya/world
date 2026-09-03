@@ -17,7 +17,7 @@ const agency = [
 
 const state = {
   index: null, customization: null, intros: null, era: null, eraIndex: 0, step: 'loc', route: 'preset',
-  cardId: null, companions: new Map(), custom: {}, player: null, history: [], busy: false, error: '', loc: null,
+  cardId: null, companionFocusId: null, companions: new Map(), custom: {}, player: null, history: [], busy: false, error: '', loc: null,
 };
 
 function apiSettings() {
@@ -74,7 +74,7 @@ async function chooseEra() {
   const chosen = meta();
   try {
     const response = await fetch(`${DATA_ROOT}${chosen.bundle}`); if (!response.ok) throw new Error(`时代资料读取失败（${response.status}）`);
-    state.era = await response.json(); state.era.image = chosen.image; state.route = 'preset'; state.cardId = state.era.cards.find((item) => item.isMainDragon)?.id || state.era.cards[0].id; state.companions.clear(); state.custom = {}; state.loc = null; state.terrain = null; state.step = 'loc'; planet()?.resetEdits();
+    state.era = await response.json(); state.era.image = chosen.image; state.route = 'preset'; state.cardId = state.era.cards.find((item) => item.isMainDragon)?.id || state.era.cards[0].id; state.companionFocusId = null; state.companions.clear(); state.custom = {}; state.loc = null; state.terrain = null; state.step = 'loc'; planet()?.resetEdits();
     openForge();
   } catch (error) { $('#esEra').textContent = error.message; }
 }
@@ -103,6 +103,7 @@ function gameHeader() { return `${state.era.name}${state.loc ? ' · ' + state.lo
 function applyStep(next) {
   if (state.step === 'per' && state.route === 'custom') state.custom = readCustom();
   state.step = next;
+  $('#feWrap').classList.remove('artOn');
   $('#fePanR').classList.toggle('locPlanet', next === 'loc'); $('#feBg').classList.toggle('planetOn', next === 'loc');
   renderForge();
 }
@@ -176,8 +177,20 @@ function readCustom() {
 }
 function renderCompanions() {
   const selected = card(); const others = state.era.cards.filter((item) => item.id !== selected.id);
-  $('#feSocList').innerHTML = others.map((item) => `<button class="feCard ${state.companions.has(item.id) ? 'on' : ''}" data-companion="${esc(item.id)}"><b>${esc(item.name)}</b><i>${state.companions.get(item.id) || '希望争取同行'}</i><span>${esc(item.canonIdentityEvidence?.[0]?.text || '本时代正典人物')}</span></button>`).join('');
-  $('#feDoss').innerHTML = `<b>${esc(selected.name)}</b><br><br>已选择 ${state.companions.size} / 5。同行选择只是本局希望同行、求助、追踪或避免的意向，不自动写成旧交、血缘或恋爱。`;
+  if (!others.some((item) => item.id === state.companionFocusId)) state.companionFocusId = others[0]?.id || null;
+  const focused = card(state.companionFocusId) || others[0] || selected;
+  $('#feSocList').innerHTML = others.map((item) => `<button class="feCard ${state.companions.has(item.id) ? 'on' : ''} ${item.id === focused.id ? 'focus' : ''}" data-companion="${esc(item.id)}"><b>${esc(item.name)}</b><i>${state.companions.get(item.id) || '希望争取同行'}</i><span>${esc(item.canonIdentityEvidence?.[0]?.text || '本时代正典人物')}</span></button>`).join('');
+  turnPortrait(cardPortrait(focused), focused.name, focused.name);
+  $('#feDoss').innerHTML = `${cardDossier(focused)}<b>同行状态</b><div class="world-evidence">${state.companions.has(focused.id) ? '已选择带进本局。' : '尚未选择。'}目前已选择 ${state.companions.size} / 5。同行选择只是本局希望同行、求助、追踪或避免的意向，不自动写成旧交、血缘或恋爱。</div>`;
+}
+function cycleForgePortrait(direction) {
+  const candidates = state.step === 'soc' ? state.era.cards.filter((item) => item.id !== state.cardId) : state.era.cards;
+  if (!candidates.length) return;
+  const currentId = state.step === 'soc' ? state.companionFocusId : state.cardId;
+  const current = Math.max(0, candidates.findIndex((item) => item.id === currentId));
+  const next = candidates[(current + direction + candidates.length) % candidates.length];
+  if (state.step === 'soc') { state.companionFocusId = next.id; renderCompanions(); }
+  else selectCard(next.id);
 }
 function renderOpening() {
   const isPreset = state.route === 'preset'; $('#feSit').style.display = isPreset ? 'none' : 'block'; const help = document.querySelector('#fePanL .feSec[data-s="sit"] .sub'); if (help) help.textContent = isPreset ? '下方是该节点选定的连续原文。不会按角色另写，也不会重述。' : '填写玩家希望发生在本时代正典边界内的眼前场面。内容将交给玩家自己的 API。';
@@ -269,9 +282,13 @@ async function sendMessage() { const input = $('#gIn'); const text = input.value
 document.addEventListener('click', (event) => {
   const route = event.target.closest('[data-route]'); if (route) { state.route = route.dataset.route; renderRoute(); return; }
   const site = event.target.closest('[data-site]'); if (site) { planet()?.select(site.dataset.site); return; }
-  const persona = event.target.closest('[data-card]'); if (persona) { selectCard(persona.dataset.card); return; }
-  const companion = event.target.closest('[data-companion]'); if (companion) { const id = companion.dataset.companion; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); return; }
+  const persona = event.target.closest('[data-card]'); if (persona) { selectCard(persona.dataset.card); $('#feWrap').classList.add('artOn'); return; }
+  const companion = event.target.closest('[data-companion]'); if (companion) { const id = companion.dataset.companion; state.companionFocusId = id; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); $('#feWrap').classList.add('artOn'); return; }
 });
+$('#feArtX').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));
+$('#feArtOk').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));
+$('#feArtP').addEventListener('pointerup', () => cycleForgePortrait(-1));
+$('#feArtN').addEventListener('pointerup', () => cycleForgePortrait(1));
 $('#miMiss').addEventListener('pointerup', showEras); $('#miOrac').addEventListener('pointerup', () => openSettings());
 $('#feGo').addEventListener('pointerup', () => { const index = steps.indexOf(state.step); if (index < steps.length - 1) setStep(steps[index + 1]); else beginGame(); });
 $('#feBack').addEventListener('pointerup', () => { const index = steps.indexOf(state.step); if (index > 0) setStep(steps[index - 1], true); else showEras(); });
