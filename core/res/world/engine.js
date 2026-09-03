@@ -3820,71 +3820,35 @@ function felRetranslateTurn(tIdx,button){
 /* —— 显示：透明度 / 版式 / 字体 —— */
 var glassCss=document.createElement('style');document.head.appendChild(glassCss);
 function applyGlass(){
-  var a=SET.glass/100;
-  /* 这一层跟着 CSS 里那条改成暗角：平铺的黑会把山脉盖成灰纸。
-     拉杆只调四角收多深，中间那 55% 一律不压。 */
+  /* [world] 主题「星图上的羊皮纸」：拉杆仍是面板透明度，但框架层（台底、输入条、
+     情报窗）压的是深空，阅读层（抽屉、弹窗、档案夹、卡片）压的是羊皮纸。 */
+  var a=SET.glass/100,SKY='5,7,12',GLS='13,18,32',VEL='236,227,205';
   glassCss.textContent='#game::before{background:radial-gradient(ellipse 90% 80% at 50% 42%,'
-    +'transparent 55%,rgba(242,236,222,'+(.12+.28*a).toFixed(2)+') 100%) !important}'
-    +'#game .gMfd{background:rgba(235,229,215,'+(.02+.10*a).toFixed(2)+') !important}'
-    +'#game .gInput{background:linear-gradient(0deg,rgba(237,231,217,'+(.55+.4*a).toFixed(2)+') 0%,rgba(237,231,217,'+(.35+.35*a).toFixed(2)+') 42%,rgba(237,231,217,0) 76%) !important}'
-    /* 情报台那几扇窗跟着同一根「面板透明度」拉杆走——它们就是同一种窗，
-       底色不该有两套。 */
-    +'.gPanel,#pnTx{background:rgba(237,231,217,'+(.04+.16*a).toFixed(2)+') !important}'
-    /* 地图·装备·商店三扇一起再实一档。它们是成列的字与数目，
-       底下那层三维画面透太多，字就浮在花纹上读不动。视觉小说（#pnTx）不在此列。 */
+    +'transparent 50%,rgba(0,0,0,'+(.30+.40*a).toFixed(2)+') 100%) !important}'
+    +'#game .gMfd{background:rgba('+SKY+','+(.16+.30*a).toFixed(2)+') !important}'
+    +'#game .gInput{background:linear-gradient(0deg,rgba('+SKY+','+(.62+.34*a).toFixed(2)+') 0%,rgba('+SKY+','+(.40+.34*a).toFixed(2)+') 42%,rgba('+SKY+',0) 76%) !important}'
+    +'.gPanel,#pnTx{background:rgba('+GLS+','+(.20+.40*a).toFixed(2)+') !important}'
     +'#game #pnMap,#game #pnArm,#game #pnShop'
-    +'{background:rgba(237,231,217,'+(.16+.26*a).toFixed(2)+') !important}'
-    /* 情报台那六扇又拆出来单给一档更薄的。
-       先前并进上面那一条，是为了跟左边三扇长得一样 —— 是长一样了，
-       可这六扇身后还压着台底（.gMfd）和暗角，三层奶油叠起来就成了实心板。
-       发黄那一次的病根是 saturate，已经拆掉；薄这一件事得单独再压一道。 */
-    +'.gMfd.mvDeck .mvWin{background:rgba(237,231,217,'+(.02+.09*a).toFixed(2)+') !important}'
-    /* 铸局四步那两扇：玻璃配方照抄情报台（边框·投影·blur(3px) 都一样），
-       只有底色单开一档更实的 —— 情报台那六扇身后是三维画面，透到 .09 也读得动；
-       这两扇身后是整幅马赛克世界图，颗粒碎、明暗跳，透到那一档字就浮起来了。 */
-    /* 由 .22+.32*a 提到 .42+.30*a：预设拉杆 80 时由 .48 提到 .66。
-       透一半的时候身后那幅马赛克透上来，板子就发黄；实一档，黄味就淡了。
-       底色不动，还是那片暖奶油 —— 要的是别那么黄，不是换成白的。 */
+    +'{background:rgba('+VEL+','+(.80+.18*a).toFixed(2)+') !important}'
+    +'.gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.86+.12*a).toFixed(2)+') !important}'
     +'.feGl{background:rgba(250,249,246,'+(.52+.26*a).toFixed(2)+') !important}'
-    /* 地点那一步单独一档，浓度是其余三步的两倍：那一步两块板子是浮在
-       整幅世界图上的，身后连地名标记一起动，同一档下字压不住底纹。 */
     +'#feWrap[data-step="loc"] .feGl'
     +'{background:rgba(250,249,246,'+(.58+.26*a).toFixed(2)+') !important}'
-    /* 窄屏单给一档薄得多的。宽屏那两条板子只占屏幕的三成宽，身后大片纸底露着，
-       所以 .7 上下看着仍是「一层玻璃」；窄屏这两块几乎盖满整屏，同一个数
-       等于把整面屏糊上一层奶油，肉眼看就是不透明。系数与起点一起压下来，
-       毛玻璃那 8 像素照旧——底薄了正靠它把身后的马赛克世界图糊开，字才压得住。 */
     +'@media (max-width:860px){'
     +'.feGl{background:rgba(250,249,246,'+(.26+.22*a).toFixed(2)+') !important}'
     +'#feWrap[data-step="loc"] .feGl'
     +'{background:rgba(250,249,246,'+(.30+.22*a).toFixed(2)+') !important}'
     +'}'
-    /* 全屏档背后被自己盖满，透太多只会把正文透出来糊成一片，单给一档更实的 */
-    +'#game.txBig #pnTx{background:rgba(237,231,217,'+(.28+.18*a).toFixed(2)+') !important}'
-    /* 视觉小说进了全屏，情报台那六扇与缩略那一列就浮在整幅立绘上了。
-       平时它们身后是三维画面加台底，透到 .09 也读得动；换成大块高对比的
-       立绘与背景画，同一档下字就没法读。全屏单给一档实得多的，退出即还原。
-       仍旧挂在这根拉杆上——玩家把面板调透，这一档跟着一起透，只是起点高。
-       760 以下不进这一条：手机那边下面另有一条 .97 的，比这更实，别抢它。 */
+    +'#game.txBig #pnTx{background:rgba('+SKY+','+(.28+.18*a).toFixed(2)+') !important}'
     +'@media (min-width:761px){'
-    +'#game.txBig .gMfd.mvDeck .mvWin{background:rgba(237,231,217,'+(.62+.30*a).toFixed(2)+') !important}'
-    +'#game.txBig .gMfd.mvDeck .mvCard .cfr{background:rgba(237,231,217,'+(.66+.28*a).toFixed(2)+') !important}'
+    +'#game.txBig .gMfd.mvDeck .mvWin{background:rgba('+VEL+','+(.90+.10*a).toFixed(2)+') !important}'
+    +'#game.txBig .gMfd.mvDeck .mvCard .cfr{background:rgba('+VEL+','+(.86+.12*a).toFixed(2)+') !important}'
     +'}'
-    /* 弹窗类：身后隔着一层遮罩，比贴着画面的那几扇给厚一档 */
     +'.gDlg .box,#eraBox .box,#persona .box,#psRes .box,.fd-win,.svFold,.svFold .tab,#game .gmMenu'
-    +'{background:rgba(237,231,217,'+(.09+.19*a).toFixed(2)+') !important}'
-    /* 这里一度给 #dlgEra .box 单开过一档更实的（.40），为的是压住「开窗时变色」。
-       那是照着错的诊断开的方子 —— 真因是遮罩把深色的纪年轴扫成浅奶油，
-       已经在 felinia-era.js 里让遮罩一上来就到位。方子撤掉，底色回到与
-       其余弹窗同一档。 */
-    /* 窄屏那两扇：原先在样式表里写死 .62 且带 #game，拉杆够不着。挪到这里，
-       同样带 #game 才压得住余下的规则，拉杆这才对手机也管用。
-       系数比宽屏高一档但远低于原来的 .62——浮在正文上的窗要留一点底。 */
+    +'{background:rgba('+VEL+','+(.84+.14*a).toFixed(2)+') !important}'
     +'@media (max-width:760px){'
-    +'#game .gPanel{background:rgba(237,231,217,'+(.08+.18*a).toFixed(2)+') !important}'
-    /* 手机上这六扇是浮在正文之上的，背后字压字，透一点都读不动 —— 一律不透。
-       既然不透，毛玻璃也一并关掉：整屏的 backdrop 每帧重算，而它背后已被自己盖满。 */
-    +'#game .gMfd.mvDeck .mvWin{background:rgba(237,231,217,.97) !important;'
+    +'#game .gPanel{background:rgba('+GLS+','+(.50+.30*a).toFixed(2)+') !important}'
+    +'#game .gMfd.mvDeck .mvWin{background:rgba('+VEL+',.97) !important;'
     +'-webkit-backdrop-filter:none !important;backdrop-filter:none !important}'
     +'}';
 }
@@ -8079,14 +8043,15 @@ function svDiscMake(){
     var rr=R*(.30+ri/20*.70),n=Math.max(6,Math.round(rr/(2.8*DPR)));
     for(var k=0;k<n;k++){
       var aa=k/n*Math.PI*2+ri*.21,d=(1-ri/20)*.55+.16;
-      g.fillStyle='rgba(38,37,31,'+(d*(.25+svRnd(ri*97+k,11)*.5)).toFixed(3)+')';
+      g.fillStyle='rgba('+SV_INK+','+(d*(.25+svRnd(ri*97+k,11)*.5)).toFixed(3)+')';
       g.fillRect(cx+Math.cos(aa)*rr,cy+Math.sin(aa)*rr,1.5*DPR,1.5*DPR);
     }
   }
-  g.strokeStyle='rgba(19,18,13,.16)';g.lineWidth=DPR;
+  g.strokeStyle='rgba('+SV_INK+',.16)';g.lineWidth=DPR;
   g.beginPath();g.arc(cx,cy,R*.42,0,Math.PI*2);g.stroke();
   SVDISC=c;
 }
+var SV_INK='241,210,140',SV_HI='255,233,184';
 function svBgDraw(){
   var cv=$('#svBg');if(!cv)return;
   cv.width=Math.round(innerWidth*DPR);cv.height=Math.round(innerHeight*DPR);
@@ -8119,7 +8084,7 @@ function svFx(t){
     var r1=L.r1*DIAG;
     var ca=Math.cos(aa),sa=Math.sin(aa);
     /* 底线：全长连续、恒在（不断线） */
-    g.strokeStyle='rgba(19,18,13,'+(L.al*sh*.72).toFixed(3)+')';
+    g.strokeStyle='rgba('+SV_INK+','+(L.al*sh*.72).toFixed(3)+')';
     g.lineWidth=L.w*DPR*.8;
     g.beginPath();g.moveTo(cx+ca*r0,cy+sa*r0);g.lineTo(cx+ca*r1,cy+sa*r1);g.stroke();
     /* 高光：沿同一条线由内向外加速奔行＝穿梭动感（叠加在底线上，底线不受影响） */
@@ -8128,14 +8093,14 @@ function svFx(t){
     if(h1>r1)h1=r1;
     var hf=Math.sin(Math.PI*hp);                    /* 正弦包络：进出皆平滑，无突现突灭 */
     if(hf>.02){
-      g.strokeStyle='rgba(11,11,6,'+(L.al*.80*hf).toFixed(3)+')';
+      g.strokeStyle='rgba('+SV_HI+','+(L.al*.80*hf).toFixed(3)+')';
       g.lineWidth=L.w*DPR*1.0;
       g.beginPath();g.moveTo(cx+ca*h0,cy+sa*h0);g.lineTo(cx+ca*h1,cy+sa*h1);g.stroke();
     }
   }
   for(var q=0;q<SVLS.length;q++){
     var S=SVLS[q],x=((S.x+t*S.sp)%1-.05)*W,y=S.y*H,ln=S.len*W;
-    g.strokeStyle='rgba(19,18,13,'+S.al.toFixed(3)+')';g.lineWidth=DPR*.8;
+    g.strokeStyle='rgba('+SV_INK+','+S.al.toFixed(3)+')';g.lineWidth=DPR*.8;
     g.beginPath();g.moveTo(x,y);g.lineTo(x+ln,y);
     g.moveTo(x-W,y);g.lineTo(x-W+ln,y);      /* 环绕副本：卷回不闪断 */
     g.stroke();
@@ -9386,7 +9351,9 @@ function worldStart(o){
   var ei=o.eraOrdinal|0;
   var keys=soc.map(function(k){return 'era:'+ei+':npc:'+k+':'+figs[k].n;});
   var text=String(o.opening||'').trim()+'\n\n'+worldPanel(o);
-  loadOpening('luzhi',{id:o.eraId,year:ei,era:'AETAS '+(ei<10?'0':'')+ei+' · '+o.eraName,ei:ei,scene:o.scene||'',text:text,feLocs:[],world:o.world||null},o.locLabel||'');
+  /* 顶栏：locLabel 已含纪名与玩家名，scene 只在真有地点或章题时才补在后面 */
+  var scene=(o.scene&&o.scene!==o.eraName)?o.scene:(o.chapter||'');
+  loadOpening('luzhi',{id:o.eraId,year:ei,era:'AETAS '+(ei<10?'0':'')+ei+' · '+o.eraName,ei:ei,scene:scene,text:text,feLocs:[],world:o.world||null},o.locLabel||'');
   GAME.hero=(o.player&&o.player.mode==='custom')?{n:name,g:(o.player.custom&&o.player.custom.social)||'',a:'',o:(o.player.custom&&o.player.custom.speciesForm)||''}:null;
   GAME.risuNpcKeys=keys;
   gameShow();
