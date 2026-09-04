@@ -1,0 +1,3806 @@
+{
+  "var": {
+    "name": "triggerConditionsVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "operator": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "!=",
+          ">",
+          "<",
+          ">=",
+          "<=",
+          "null",
+          "true"
+        ]
+      }
+    }
+  },
+  "triggercode": {
+    "name": "triggerCode",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "triggercode",
+          "triggerlua"
+        ]
+      },
+      "code": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "chatindex": {
+    "name": "triggerConditionsChatIndex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "chatindex"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "operator": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "!=",
+          ">",
+          "<",
+          ">=",
+          "<=",
+          "null",
+          "true"
+        ]
+      }
+    }
+  },
+  "exists": {
+    "name": "triggerConditionsExists",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "exists"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "type2": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "strict",
+          "loose",
+          "regex"
+        ]
+      },
+      "depth": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "setvar": {
+    "name": "triggerEffectSetvar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "setvar"
+        ]
+      },
+      "operator": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "+=",
+          "-=",
+          "*=",
+          "/="
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "cutchat": {
+    "name": "triggerEffectCutChat",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "cutchat"
+        ]
+      },
+      "start": {
+        "kind": "string",
+        "optional": false
+      },
+      "end": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "modifychat": {
+    "name": "triggerEffectModifyChat",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "modifychat"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "systemprompt": {
+    "name": "triggerEffectSystemPrompt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "systemprompt"
+        ]
+      },
+      "location": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "start",
+          "historyend",
+          "promptend"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "impersonate": {
+    "name": "triggerEffectImpersonate",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "impersonate"
+        ]
+      },
+      "role": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "user",
+          "char"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "command": {
+    "name": "triggerEffectCommand",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "command"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "extractRegex": {
+    "name": "triggerEffectRegex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "extractRegex"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "regex": {
+        "kind": "string",
+        "optional": false
+      },
+      "flags": {
+        "kind": "string",
+        "optional": false
+      },
+      "result": {
+        "kind": "string",
+        "optional": false
+      },
+      "inputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "showAlert": {
+    "name": "triggerEffectShowAlert",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "showAlert"
+        ]
+      },
+      "alertType": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "inputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "runtrigger": {
+    "name": "triggerEffectRunTrigger",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "runtrigger"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "stop": {
+    "name": "triggerEffectStop",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "stop"
+        ]
+      }
+    }
+  },
+  "sendAIprompt": {
+    "name": "triggerEffectSendAIprompt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "sendAIprompt"
+        ]
+      }
+    }
+  },
+  "runImgGen": {
+    "name": "triggerEffectImgGen",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "runImgGen"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "negValue": {
+        "kind": "string",
+        "optional": false
+      },
+      "inputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "checkSimilarity": {
+    "name": "triggerEffectCheckSimilarity",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "checkSimilarity"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "inputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "runLLM": {
+    "name": "triggerEffectRunLLM",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "runLLM"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "inputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "runAxLLM": {
+    "name": "triggerEffectRunAxLLM",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "runAxLLM"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "inputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "v2Header": {
+    "name": "triggerV2Header",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Header"
+        ]
+      },
+      "code": {
+        "kind": "string",
+        "optional": true
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2If": {
+    "name": "triggerV2IfVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2If"
+        ]
+      },
+      "condition": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "!=",
+          ">",
+          "<",
+          ">=",
+          "<="
+        ]
+      },
+      "targetType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "target": {
+        "kind": "string",
+        "optional": false
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Else": {
+    "name": "triggerV2Else",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Else"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2EndIndent": {
+    "name": "triggerV2EndIndent",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2EndIndent"
+        ]
+      },
+      "endOfLoop": {
+        "kind": "boolean",
+        "optional": true
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetVar": {
+    "name": "triggerV2SetVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetVar"
+        ]
+      },
+      "operator": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "+=",
+          "-=",
+          "*=",
+          "/=",
+          "%="
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Loop": {
+    "name": "triggerV2Loop",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Loop"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2LoopNTimes": {
+    "name": "triggerV2LoopNTimes",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2LoopNTimes"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2BreakLoop": {
+    "name": "triggerV2BreakLoop",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2BreakLoop"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2RunTrigger": {
+    "name": "triggerV2RunTrigger",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2RunTrigger"
+        ]
+      },
+      "target": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ConsoleLog": {
+    "name": "triggerV2ConsoleLog",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ConsoleLog"
+        ]
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2StopTrigger": {
+    "name": "triggerV2StopTrigger",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2StopTrigger"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2CutChat": {
+    "name": "triggerV2CutChat",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2CutChat"
+        ]
+      },
+      "start": {
+        "kind": "string",
+        "optional": false
+      },
+      "startType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "end": {
+        "kind": "string",
+        "optional": false
+      },
+      "endType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ModifyChat": {
+    "name": "triggerV2ModifyChat",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ModifyChat"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SystemPrompt": {
+    "name": "triggerV2SystemPrompt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SystemPrompt"
+        ]
+      },
+      "location": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "start",
+          "historyend",
+          "promptend"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Impersonate": {
+    "name": "triggerV2Impersonate",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Impersonate"
+        ]
+      },
+      "role": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "user",
+          "char"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Command": {
+    "name": "triggerV2Command",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Command"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SendAIprompt": {
+    "name": "triggerV2SendAIprompt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SendAIprompt"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ImgGen": {
+    "name": "triggerV2ImgGen",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ImgGen"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "negValue": {
+        "kind": "string",
+        "optional": false
+      },
+      "negValueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2CheckSimilarity": {
+    "name": "triggerV2CheckSimilarity",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2CheckSimilarity"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2RunLLM": {
+    "name": "triggerV2RunLLM",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2RunLLM"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "model": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "model",
+          "submodel"
+        ]
+      },
+      "streaming": {
+        "kind": "boolean",
+        "optional": true
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ShowAlert": {
+    "name": "triggerV2ShowAlert",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ShowAlert"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ExtractRegex": {
+    "name": "triggerV2ExtractRegex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ExtractRegex"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "regex": {
+        "kind": "string",
+        "optional": false
+      },
+      "regexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "flags": {
+        "kind": "string",
+        "optional": false
+      },
+      "flagsType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "result": {
+        "kind": "string",
+        "optional": false
+      },
+      "resultType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLastMessage": {
+    "name": "triggerV2GetLastMessage",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLastMessage"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetMessageAtIndex": {
+    "name": "triggerV2GetMessageAtIndex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetMessageAtIndex"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetMessageCount": {
+    "name": "triggerV2GetMessageCount",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetMessageCount"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ModifyLorebook": {
+    "name": "triggerV2ModifyLorebook",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ModifyLorebook"
+        ]
+      },
+      "target": {
+        "kind": "string",
+        "optional": false
+      },
+      "targetType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebook": {
+    "name": "triggerV2GetLorebook",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebook"
+        ]
+      },
+      "target": {
+        "kind": "string",
+        "optional": false
+      },
+      "targetType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebookCount": {
+    "name": "triggerV2GetLorebookCount",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebookCount"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebookEntry": {
+    "name": "triggerV2GetLorebookEntry",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebookEntry"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetLorebookActivation": {
+    "name": "triggerV2SetLorebookActivation",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetLorebookActivation"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "boolean",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebookIndexViaName": {
+    "name": "triggerV2GetLorebookIndexViaName",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebookIndexViaName"
+        ]
+      },
+      "name": {
+        "kind": "string",
+        "optional": false
+      },
+      "nameType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Random": {
+    "name": "triggerV2Random",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Random"
+        ]
+      },
+      "min": {
+        "kind": "string",
+        "optional": false
+      },
+      "minType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "max": {
+        "kind": "string",
+        "optional": false
+      },
+      "maxType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetCharAt": {
+    "name": "triggerV2GetCharAt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetCharAt"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetCharCount": {
+    "name": "triggerV2GetCharCount",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetCharCount"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ToLowerCase": {
+    "name": "triggerV2ToLowerCase",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ToLowerCase"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ToUpperCase": {
+    "name": "triggerV2ToUpperCase",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ToUpperCase"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetCharAt": {
+    "name": "triggerV2SetCharAt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetCharAt"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SplitString": {
+    "name": "triggerV2SplitString",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SplitString"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "delimiter": {
+        "kind": "string",
+        "optional": false
+      },
+      "delimiterType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value",
+          "regex"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2JoinArrayVar": {
+    "name": "triggerV2JoinArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2JoinArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "delimiter": {
+        "kind": "string",
+        "optional": false
+      },
+      "delimiterType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetCharacterDesc": {
+    "name": "triggerV2GetCharacterDesc",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetCharacterDesc"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetCharacterDesc": {
+    "name": "triggerV2SetCharacterDesc",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetCharacterDesc"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetPersonaDesc": {
+    "name": "triggerV2GetPersonaDesc",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetPersonaDesc"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetPersonaDesc": {
+    "name": "triggerV2SetPersonaDesc",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetPersonaDesc"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2MakeArrayVar": {
+    "name": "triggerV2MakeArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2MakeArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetArrayVarLength": {
+    "name": "triggerV2GetArrayVarLength",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetArrayVarLength"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetArrayVar": {
+    "name": "triggerV2GetArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetArrayVar": {
+    "name": "triggerV2SetArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2PushArrayVar": {
+    "name": "triggerV2PushArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2PushArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2PopArrayVar": {
+    "name": "triggerV2PopArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2PopArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ShiftArrayVar": {
+    "name": "triggerV2ShiftArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ShiftArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2UnshiftArrayVar": {
+    "name": "triggerV2UnshiftArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2UnshiftArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SpliceArrayVar": {
+    "name": "triggerV2SpliceArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SpliceArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "start": {
+        "kind": "string",
+        "optional": false
+      },
+      "startType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "item": {
+        "kind": "string",
+        "optional": false
+      },
+      "itemType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SliceArrayVar": {
+    "name": "triggerV2SliceArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SliceArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "start": {
+        "kind": "string",
+        "optional": false
+      },
+      "startType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "end": {
+        "kind": "string",
+        "optional": false
+      },
+      "endType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetIndexOfValueInArrayVar": {
+    "name": "triggerV2GetIndexOfValueInArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetIndexOfValueInArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2RemoveIndexFromArrayVar": {
+    "name": "triggerV2RemoveIndexFromArrayVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2RemoveIndexFromArrayVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ConcatString": {
+    "name": "triggerV2ConcatString",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ConcatString"
+        ]
+      },
+      "source1": {
+        "kind": "string",
+        "optional": false
+      },
+      "source1Type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "source2": {
+        "kind": "string",
+        "optional": false
+      },
+      "source2Type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLastUserMessage": {
+    "name": "triggerV2GetLastUserMessage",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLastUserMessage"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLastCharMessage": {
+    "name": "triggerV2GetLastCharMessage",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLastCharMessage"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetFirstMessage": {
+    "name": "triggerV2GetFirstMessage",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetFirstMessage"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetAlertInput": {
+    "name": "triggerV2GetAlertInput",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetAlertInput"
+        ]
+      },
+      "display": {
+        "kind": "string",
+        "optional": false
+      },
+      "displayType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetDisplayState": {
+    "name": "triggerV2GetDisplayState",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetDisplayState"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetDisplayState": {
+    "name": "triggerV2SetDisplayState",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetDisplayState"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetRequestState": {
+    "name": "triggerV2GetRequestState",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetRequestState"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetRequestStateRole": {
+    "name": "triggerV2GetRequestStateRole",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetRequestStateRole"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetRequestState": {
+    "name": "triggerV2SetRequestState",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetRequestState"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetRequestStateRole": {
+    "name": "triggerV2SetRequestStateRole",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetRequestStateRole"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetRequestStateLength": {
+    "name": "triggerV2GetRequestStateLength",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetRequestStateLength"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2UpdateGUI": {
+    "name": "triggerV2UpdateGUI",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2UpdateGUI"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2UpdateChatAt": {
+    "name": "triggerV2UpdateChatAt",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2UpdateChatAt"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Wait": {
+    "name": "triggerV2Wait",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Wait"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2IfAdvanced": {
+    "name": "triggerV2IfAdvanced",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2IfAdvanced"
+        ]
+      },
+      "condition": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "!=",
+          ">",
+          "<",
+          ">=",
+          "<=",
+          "≒",
+          "∋",
+          "∈",
+          "∌",
+          "∉",
+          "≡"
+        ]
+      },
+      "targetType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "target": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2QuickSearchChat": {
+    "name": "triggerV2QuickSearchChat",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2QuickSearchChat"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "condition": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "loose",
+          "strict",
+          "regex"
+        ]
+      },
+      "depth": {
+        "kind": "string",
+        "optional": false
+      },
+      "depthType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2StopPromptSending": {
+    "name": "triggerV2StopPromptSending",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2StopPromptSending"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Tokenize": {
+    "name": "triggerV2Tokenize",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Tokenize"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  },
+  "v2GetAllLorebooks": {
+    "name": "triggerV2GetAllLorebooks",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetAllLorebooks"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2RegexTest": {
+    "name": "triggerV2RegexTest",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2RegexTest"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "regex": {
+        "kind": "string",
+        "optional": false
+      },
+      "regexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "flags": {
+        "kind": "string",
+        "optional": false
+      },
+      "flagsType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebookByName": {
+    "name": "triggerV2GetLorebookByName",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebookByName"
+        ]
+      },
+      "name": {
+        "kind": "string",
+        "optional": false
+      },
+      "nameType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebookByIndex": {
+    "name": "triggerV2GetLorebookByIndex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebookByIndex"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2CreateLorebook": {
+    "name": "triggerV2CreateLorebook",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2CreateLorebook"
+        ]
+      },
+      "name": {
+        "kind": "string",
+        "optional": false
+      },
+      "nameType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "key": {
+        "kind": "string",
+        "optional": false
+      },
+      "keyType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "content": {
+        "kind": "string",
+        "optional": false
+      },
+      "contentType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "insertOrder": {
+        "kind": "string",
+        "optional": false
+      },
+      "insertOrderType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ModifyLorebookByIndex": {
+    "name": "triggerV2ModifyLorebookByIndex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ModifyLorebookByIndex"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "name": {
+        "kind": "string",
+        "optional": false
+      },
+      "nameType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "key": {
+        "kind": "string",
+        "optional": false
+      },
+      "keyType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "content": {
+        "kind": "string",
+        "optional": false
+      },
+      "contentType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "insertOrder": {
+        "kind": "string",
+        "optional": false
+      },
+      "insertOrderType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2DeleteLorebookByIndex": {
+    "name": "triggerV2DeleteLorebookByIndex",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2DeleteLorebookByIndex"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetLorebookCountNew": {
+    "name": "triggerV2GetLorebookCountNew",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetLorebookCountNew"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetLorebookAlwaysActive": {
+    "name": "triggerV2SetLorebookAlwaysActive",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetLorebookAlwaysActive"
+        ]
+      },
+      "index": {
+        "kind": "string",
+        "optional": false
+      },
+      "indexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "boolean",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetAlertSelect": {
+    "name": "triggerV2GetAlertSelect",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetAlertSelect"
+        ]
+      },
+      "display": {
+        "kind": "string",
+        "optional": false
+      },
+      "displayType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetReplaceGlobalNote": {
+    "name": "triggerV2GetReplaceGlobalNote",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetReplaceGlobalNote"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetReplaceGlobalNote": {
+    "name": "triggerV2SetReplaceGlobalNote",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetReplaceGlobalNote"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetAuthorNote": {
+    "name": "triggerV2GetAuthorNote",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetAuthorNote"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetAuthorNote": {
+    "name": "triggerV2SetAuthorNote",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetAuthorNote"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2MakeDictVar": {
+    "name": "triggerV2MakeDictVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2MakeDictVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetDictVar": {
+    "name": "triggerV2GetDictVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetDictVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "key": {
+        "kind": "string",
+        "optional": false
+      },
+      "keyType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2SetDictVar": {
+    "name": "triggerV2SetDictVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2SetDictVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "key": {
+        "kind": "string",
+        "optional": false
+      },
+      "keyType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2DeleteDictKey": {
+    "name": "triggerV2DeleteDictKey",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2DeleteDictKey"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "key": {
+        "kind": "string",
+        "optional": false
+      },
+      "keyType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2HasDictKey": {
+    "name": "triggerV2HasDictKey",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2HasDictKey"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "key": {
+        "kind": "string",
+        "optional": false
+      },
+      "keyType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ClearDict": {
+    "name": "triggerV2ClearDict",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ClearDict"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetDictSize": {
+    "name": "triggerV2GetDictSize",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetDictSize"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetDictKeys": {
+    "name": "triggerV2GetDictKeys",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetDictKeys"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2GetDictValues": {
+    "name": "triggerV2GetDictValues",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2GetDictValues"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "varType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Calculate": {
+    "name": "triggerV2Calculate",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Calculate"
+        ]
+      },
+      "expression": {
+        "kind": "string",
+        "optional": false
+      },
+      "expressionType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2ReplaceString": {
+    "name": "triggerV2ReplaceString",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2ReplaceString"
+        ]
+      },
+      "source": {
+        "kind": "string",
+        "optional": false
+      },
+      "sourceType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "regex": {
+        "kind": "string",
+        "optional": false
+      },
+      "regexType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "result": {
+        "kind": "string",
+        "optional": false
+      },
+      "resultType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "replacement": {
+        "kind": "string",
+        "optional": false
+      },
+      "replacementType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "flags": {
+        "kind": "string",
+        "optional": false
+      },
+      "flagsType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "outputVar": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2Comment": {
+    "name": "triggerV2Comment",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2Comment"
+        ]
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "v2DeclareLocalVar": {
+    "name": "triggerV2DeclareLocalVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "v2DeclareLocalVar"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "valueType": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "indent": {
+        "kind": "number",
+        "optional": false
+      }
+    }
+  },
+  "value": {
+    "name": "triggerConditionsVar",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "var",
+          "value"
+        ]
+      },
+      "var": {
+        "kind": "string",
+        "optional": false
+      },
+      "value": {
+        "kind": "string",
+        "optional": false
+      },
+      "operator": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "=",
+          "!=",
+          ">",
+          "<",
+          ">=",
+          "<=",
+          "null",
+          "true"
+        ]
+      }
+    }
+  },
+  "triggerlua": {
+    "name": "triggerCode",
+    "fields": {
+      "type": {
+        "kind": "string",
+        "optional": false,
+        "options": [
+          "triggercode",
+          "triggerlua"
+        ]
+      },
+      "code": {
+        "kind": "string",
+        "optional": false
+      }
+    }
+  }
+}

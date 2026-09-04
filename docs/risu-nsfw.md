@@ -19,9 +19,10 @@ YES / NO 直接读写 Risu database 的 `jailbreakToggle`。
 97faaa796ad9198f1b98be468a2add4fc2932392e2c2d18eb8cc911e957dce65
 ```
 
-此次修改没有改动、替换或删除 `core/res/runtime/risu/` 内的任何文件。
-该目录的 76 个文件与修改前的 World commit
-`91194ce7f0eee0f20c3659c4132fd37e09762be9` 逐字一致。
+最初的 NSFW 接入未修改运行库。后续完整设置接入仅扩展了 World 专用的
+`feliniaGame-Do_6xMRR.js` 连接适配器（参数应用回调、辅助任务路由）。
+其余 75 个文件仍与 World commit `91194ce7f0eee0f20c3659c4132fd37e09762be9` 逐字一致，
+包括全部 NSFW 默认值、开关、宏与提示词执行代码。详见 [完整设置接入](risu-native-settings.md)。
 默认值、模板解析、宏、提示词排序、预设导入和发送流程继续使用现有运行库。
 
 ## 保存与生效
@@ -32,7 +33,7 @@ World 的 `guardianDragonSet.risu` 保存手动选择的开关、未裁剪的文
 安装纪年重建数据库后，通过原生 `changeToPreset` 恢复预设，再恢复开关与手动文本。
 原生预设导入在主菜单即可使用，无须先选纪年。
 
-正文继续走 `FeliniaRisu.generateTurn` → 原生 `sendChat`。
+正文继续走 `FeliniaRisu.generate` → 原生 `sendChat`。
 适配层不追加第二份 Jailbreak、不强制改为末位，也不替换原生模板。
 原生模板是否使用该开关、utility bot 等条件均保持原行为。
 World 自有的 SillyTavern/纯文本预设列表仍按各条目的开关和位置生效。
@@ -44,5 +45,5 @@ World 自有的 SillyTavern/纯文本预设列表仍按各条目的开关和位�
 - 原生 formatting order 和 Jailbreak 模板：关闭时不注入，开启时注入，`{{char}}` 正常展开。
 - 模板里的 `{{jbtoggled}}` 随开关返回 `0` / `1`。
 - 原生预设导入、序列化、重新安装纪年、恢复：模板、自定义字段、开关和文本保留；明确保存的空字符串不被默认值替换。
-- JavaScript 语法检查、静态构建通过；运行库目录无 diff。
+- JavaScript 语法检查、静态构建通过；NSFW 核心无 diff。
 - 浏览器验证环境无法访问本地服务器，因此本次未完成实际浏览器点击与视觉验证。

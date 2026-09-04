@@ -845,7 +845,9 @@ function Te(e, t) {
 	}, e.chainOfThought = t.chainOfThought ?? !1, e.jsonSchemaEnabled = t.jsonSchemaEnabled ?? !1, e.jsonSchema = t.jsonSchema ?? "", e.strictJsonSchema = t.strictJsonSchema ?? !0, e.extractJson = t.extractJson ?? "", e.thinkingTokens = Math.max(0, Math.trunc(t.thinkingTokens ?? 0)), e.thinkingType = t.thinkingType ?? "budget", e.adaptiveThinkingEffort = t.adaptiveThinkingEffort ?? "high", e.deepseekThinkingType = t.deepseekThinkingType ?? "off", e.deepseekReasoningEffort = t.deepseekReasoningEffort ?? "high", e.verbosity = Math.max(0, Math.min(2, Math.trunc(t.verbosity ?? 1))), e.automaticCachePoint = t.automaticCachePoint ?? !1, e.claudeRetrivalCaching = t.claudeRetrievalCaching ?? !1, e.claudeBatching = t.claudeBatching ?? !1, e.claude1HourCaching = t.claudeOneHourCaching ?? !1, e.antiServerOverloads = t.antiServerOverloads ?? !1, e.fallbackWhenBlankResponse = t.fallbackWhenBlankResponse ?? !1, e.modelTools = [...t.modelTools ?? []], e.openAIFlexProcessing = t.openAIFlexProcessing ?? !1, e.streamGeminiThoughts = t.streamGeminiThoughts ?? !1, e.inlayErrorResponse = !0, e;
 }
 async function K(e) {
-	Te((await L()).database.getDatabase(), e);
+	const database = (await L()).database.getDatabase();
+	Te(database, e);
+	e.afterConfigure?.(database);
 }
 function Ee(e, t) {
 	let n = [...e.message.slice(t)].reverse().find((e) => e.role === "char" && /```risuerror\b/i.test(e.data || ""));
@@ -1110,10 +1112,10 @@ async function $(e) {
 		useStreaming: !!e.onDelta,
 		forceStreaming: !!e.onDelta,
 		maxTokens: e.maxTokens,
-		staticModel: "reverse_proxy",
+		staticModel: t.database.getDatabase().seperateModelsForAxModels ? undefined : "reverse_proxy",
 		bias: {},
 		biasString: []
-	}, "otherAx", e.signal);
+	}, e.task || "otherAx", e.signal);
 	if (i.type === "fail") throw Error(i.result);
 	if (i.type === "streaming") {
 		let t = i.result.getReader(), n = "";

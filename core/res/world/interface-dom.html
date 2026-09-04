@@ -265,6 +265,7 @@
       <div style="display:flex;gap:12px;margin-top:14px"><span class="eBtn" id="ttsTry" style="margin-top:0">试听</span><span class="eBtn" id="ttsStop" style="margin-top:0">停止</span></div>
     </div>
     <div class="cfgPane" id="cp_lore" style="display:none">
+      <div id="native-lore"></div>
       <div class="sub">你写的世界书条目与本卡自带世界书一同生效：正文近几轮提到「关键词」时自动注入该条设定；勾选常驻则每轮必注入（占用篇幅，慎用）。已支持&nbsp;ST&nbsp;高级字段：「次级关键词」（须与主关键词同时命中）、注入「顺序」、触发「概率」；导入的扫描深度与递归设置也自动生效。条目只存于你这台设备的浏览器。</div>
       <div class="sub" style="margin-top:10px">注入预算：每轮注入世界书的总字数上限（默认&nbsp;9k）。每轮只发送共同背景、常驻规则和最近对话明确命中的条目，不会把整本世界书或小说正文全量重发；拉高会允许更多同时命中的设定进入本轮。</div>
       <div class="sRow"><span>注入预算（字）</span><span style="display:flex;gap:10px;align-items:center"><input type="range" id="loreBud" min="3000" max="40000" step="1000" value="20000"><b id="loreBudV" style="font-weight:400;color:var(--gold-hi);font-size:10px">20000</b></span></div>
@@ -307,6 +308,7 @@
       </div>
     </div>
     <div class="cfgPane" id="cp_js" style="display:none">
+      <div id="native-js"></div>
       <div class="sub">运行「酒馆助手（Tavern&nbsp;Helper）」风格的&nbsp;JS&nbsp;脚本。脚本在「隔离沙箱」里执行，接触不到你的&nbsp;API&nbsp;密钥与页面本体。当前支持的&nbsp;API：text（本幕正文，返回字符串即替换显示）。依赖酒馆本体界面或其他扩展的脚本无法运行。</div>
       <div id="jsList" style="margin-top:12px;max-height:160px;overflow-y:auto"></div>
       <div style="display:flex;gap:12px;margin-top:12px">
@@ -321,6 +323,7 @@
       </div>
     </div>
     <div class="cfgPane" id="cp_api" style="display:none">
+      <div id="native-api"></div>
       <div class="sub">主接口在&nbsp;ORACVLVM&nbsp;弹窗（顶栏）配置&nbsp;·&nbsp;此处可同步选择协议，并配置档案／副模型／采样</div>
       <div class="sRow"><span>主接口类型</span><select id="apFormat" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:5px;max-width:240px"><option value="openai">OpenAI&nbsp;兼容（含&nbsp;Gemini&nbsp;CLI）</option><option value="responses">OpenAI&nbsp;Responses</option><option value="anthropic">Anthropic&nbsp;原生</option><option value="gemini">Google&nbsp;Gemini&nbsp;原生</option><option value="mistral">Mistral&nbsp;原生</option><option value="ollama">Ollama&nbsp;原生</option></select></div>
       <div class="sRow"><span>接口档案</span><span style="display:flex;gap:8px;align-items:center"><select id="apProfs" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:5px;max-width:150px"></select><span class="gt" id="apProfSave">存当前</span><span class="gt" id="apProfDel">删</span><span class="gt" id="apOpen">主接口⇗</span></span></div>
@@ -353,6 +356,7 @@
       <div class="sub" id="semStatus">两套记忆按存档隔离；本地模型按需下载并由浏览器缓存，任一记忆失败都不会阻断正常回复。</div>
     </div>
     <div class="cfgPane" id="cp_engine" style="display:none">
+      <div id="native-engine"></div>
       <div class="sub">这里是当前内置叙事核心可实际生效的完整生成设置。守护龙纪事的全部时代、角色、世界书、文风、界面与已有设置不变；空白数值表示交给接口默认。</div>
       <details open class="risuSet"><summary>采样与长度</summary>
         <div class="sRow"><span>最大上下文&nbsp;tokens</span><input class="aIn" id="reContext" inputmode="numeric" style="width:100px"></div>
@@ -422,6 +426,7 @@
       <div style="display:flex;gap:12px;margin-top:14px;align-items:center;flex-wrap:wrap"><span class="eBtn" id="reDefaults" style="margin-top:0">恢复引擎默认</span><span class="sub" id="reStatus">改动即时保存，下一次请求生效。</span></div>
     </div>
     <div class="cfgPane" id="cp_preset" style="display:none">
+      <div id="native-preset"></div>
       <div class="sub">支持&nbsp;SillyTavern&nbsp;聊天补全预设&nbsp;JSON（读取&nbsp;prompts，自动跳过占位条目），也可直接粘贴纯文本提示词。启用后每一轮都会按原顺序注入系统提示：位于对话历史之前的条目前置，之后的（如&nbsp;jailbreak）末位注入。预设存于本浏览器，刷新不丢。</div>
       <div id="preList" style="margin-top:12px;max-height:180px;overflow-y:auto"></div>
       <div style="display:flex;gap:12px;margin-top:12px">
@@ -542,6 +547,7 @@
       <div class="sub">开局前的快速接入&nbsp;·&nbsp;不必先进游戏</div>
       <div style="display:flex;gap:12px;margin-top:12px;flex-wrap:wrap">
         <span class="eBtn" id="qkPre" style="margin-top:0">导入预设</span>
+        <button class="eBtn" id="qkSettings" type="button" style="margin-top:0">全部设置</button>
         <span class="eBtn" id="qkLore" style="margin-top:0">导入世界书</span>
         <span class="eBtn" id="qkImg" style="margin-top:0">生图通道</span>
       </div>

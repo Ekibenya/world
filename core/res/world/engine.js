@@ -411,7 +411,8 @@ function felNewMemoryId(){
   return 'fel-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
 }
 function felMemoryId(){
-  if(!GAME.memoryId)GAME.memoryId=felNewMemoryId();
+  if(!GAME.memoryId)GAME.risuNative={};
+  GAME.memoryId=felNewMemoryId();
   return GAME.memoryId;
 }
 function buildActs(y){
@@ -2662,6 +2663,7 @@ function risuInvoke(messages,cb,err,opt){
       onPhase:onPhase,onDelta:noStream?undefined:onDelta});
   }).then(function(result){
     if(fired)return;fired=true;clearTimeout(timer);
+    if(FEL_RISU_NATIVE)FEL_RISU_NATIVE.saveSession();
     var text=String(result.text||'');
     var trunc=!!wantTag&&text.indexOf(wantTag)<0;
     if(!aux&&result.cognition!==undefined)GAME.cognition=result.cognition||null;
@@ -3544,6 +3546,30 @@ function felRisuPrompts(){
   FEL_RISU_PROMPTS.catch(function(){FEL_RISU_PROMPTS=null;});
   return FEL_RISU_PROMPTS;
 }
+var FEL_RISU_NATIVE=null,FEL_RISU_NATIVE_READY=null,FEL_RISU_NATIVE_UI=null;
+function felRisuNative(){
+  if(FEL_RISU_NATIVE_READY)return FEL_RISU_NATIVE_READY;
+  FEL_RISU_NATIVE_READY=felRisuPrompts().then(function(){return Promise.all([
+    import('./risu-native-settings.mjs'),import('./risu-native-ui.mjs')
+  ]);}).then(function(parts){
+    return parts[0].createNativeSettings({load:function(name){return window.RisuHeadless.load(name);},
+      getSettings:function(){return SET.risu;},save:function(){if(!lsSet('guardianDragonSet',JSON.stringify(SET)))throw new Error('设置未能保存：本机存储已满');if(typeof autoSave==='function')autoSave(true);},
+      getSession:function(){return typeof GAME!=='undefined'&&GAME?(GAME.risuNative||(GAME.risuNative={})):null;}
+    }).then(function(native){
+      FEL_RISU_NATIVE=native;native.restore();parts[1].installNativeAlerts(native.stores,native.db);
+      FEL_RISU_NATIVE_UI=parts[1].createNativeUI(native,{save:setStore,
+        getTriggers:function(){return SET.triggers||[];},setTriggers:function(value){SET.triggers=value;},
+        prepareSession:function(){return felRisuPrepare([{role:'system',content:sysPrompt()}].concat((TURNS||[]).filter(function(t){return t.role==='user'||t.role==='assistant';})));},
+        onPresetChanged:function(){felRisuPrompts().then(function(controls){felRisuPromptRender(controls.read());});}});
+      return native;
+    });
+  });
+  FEL_RISU_NATIVE_READY.catch(function(){FEL_RISU_NATIVE_READY=null;});return FEL_RISU_NATIVE_READY;
+}
+function nativeSettingsRender(key){
+  if(!document.getElementById('native-'+key))return;
+  felRisuNative().then(function(native){return key==='js'?native.startPlugins():null;}).then(function(){return FEL_RISU_NATIVE_UI.render(key);}).catch(function(e){document.getElementById('native-'+key).textContent='原生设置载入失败：'+felPublicError(e);});
+}
 function felRisuPromptRender(view){
   $('#apiNsfwYes').checked=!!view.enabled;$('#apiNsfwNo').checked=!view.enabled;
   $('#apiNsfwYes').disabled=false;$('#apiNsfwNo').disabled=false;
@@ -3563,7 +3589,7 @@ function felRisuBoot(){
         .filter(Boolean).join('\n\n')});
       risu.installContent(_risuCard,FE.eras).then(function(info){
         window.__FEL_RISU_INSTALL__=info;
-        felRisuPrompts().then(function(controls){controls.apply(SET.risu,true);return risu;}).then(resolve,reject);
+        felRisuPrompts().then(function(controls){controls.apply(SET.risu,true);return felRisuNative();}).then(function(native){native.restore();return native.startPlugins();}).then(function(){return risu;}).then(resolve,reject);
       },reject);
     }
     if(FE&&FE.eras&&FE.eras.length){install();return;}
@@ -3623,7 +3649,7 @@ function felRisuProvider(source){
   var reason=parseInt(SET.samp&&SET.samp.reason,10);
   if(isNaN(reason))reason=1;
   reason=Math.max(0,Math.min(3,reason));
-  return {base:source.base,key:source.key||API.key,model:source.model,format:felRisuFormat(source.format),
+  return {afterConfigure:function(db){if(FEL_RISU_NATIVE)FEL_RISU_NATIVE.afterProvider(db);},base:source.base,key:source.key||API.key,model:source.model,format:felRisuFormat(source.format),
     temperature:isNaN(temp)?undefined:temp,topP:isNaN(top)?undefined:top,reasoningEffort:reason-1,maxTokens:mt<64?4096:mt,
     contextTokens:parseInt(SET.context,10)||65536,stream:r.stream!==0,autofillRequestUrl:r.autoUrl!==0,
     frequencyPenalty:felRisuOptionalNumber(r.freq),presencePenalty:felRisuOptionalNumber(r.pres),topK:felRisuOptionalNumber(r.topk),
@@ -3674,11 +3700,12 @@ function felRisuPrepare(messages,options){
         recursiveLoreScanning:(SET.risu||{}).loreRecursive!==0,
         fullWordLoreMatching:(SET.risu||{}).loreFullWord!==0,
         regexScripts:felRisuRegexScripts(),
+        triggerScripts:(SET.triggers||[]).filter(function(t){return t.worldEnabled!==false;}),
         defaultVariables:Object.assign({},SET.gvars||{},SET.vars||{})});
     }).then(function(){var sm=SET.semantic||{};return risu.configureMemory({enabled:sm.on!==0,
         mode:sm.mode||'hybrid',apiKey:(sm.mode==='api'?(API.key||''):undefined),
         sessionId:felMemoryId(),budgetChars:sm.budget||3000,topK:sm.topK||8,gpu:sm.gpu!==0});
-    }).then(function(){return risu.setHistory(history);}).then(function(){return risu;});
+    }).then(function(){if(FEL_RISU_NATIVE){FEL_RISU_NATIVE.memorySettings();FEL_RISU_NATIVE.applySession();}return risu.setHistory(history);}).then(function(){return risu;});
   });
 }
 function felRisuStart(){
@@ -3888,7 +3915,7 @@ function felRetranslateTurn(tIdx,button){
       tb.classList.add('on');
       document.querySelectorAll('.cfgPane').forEach(function(p){p.style.display='none';});
       $('#cp_'+tb.getAttribute('data-cp')).style.display='';
-      var k=tb.getAttribute('data-cp');
+      var k=tb.getAttribute('data-cp');nativeSettingsRender(k);
       if(k==='lore')loreRender();if(k==='rx')rxRender();if(k==='js')jsRender();
       if(k==='preset')preRender();if(k==='mem')memRender();
       if(k==='imgc')imgcRender();if(k==='api')apPaneLoad();if(k==='engine')enginePaneLoad();
@@ -4772,11 +4799,11 @@ $('#reContext').addEventListener('input',function(){
 $('#reDefaults').addEventListener('click',function(){
   if(!confirm('只恢复“生成引擎”这一页的默认值？接口、游戏、存档和其他设置都不会改变。'))return;
   SET.context=65536;
-  SET.risu={freq:'',pres:'',topk:'',rep:'',minp:'',topa:'',seed:'-1',verbosity:1,
+  SET.risu=Object.assign({},SET.risu,{freq:'',pres:'',topk:'',rep:'',minp:'',topa:'',seed:'-1',verbosity:1,
     stream:1,strict:1,autoUrl:1,retries:2,timeout:600,stops:'',autoCont:0,autoMin:0,removeIncomplete:0,blankFallback:0,newOai:1,vision:'low',
     thinkType:'budget',thinkTokens:0,adaptive:'high',deepType:'off',deepEffort:'high',cot:0,
     instruct:0,tokenizer:'tik',template:'chatml',jinja:'',sysReplace:'system: {{slot}}',sysRole:'user',prefill:'',postEnd:'',chatSystem:0,sendName:0,thoughtDepth:-1,
-    jsonOn:0,jsonStrict:1,json:'',extract:'',params:'',paramsAll:0,tools:'',autoCache:0,claudeRetrieval:0,claudeBatch:0,claudeHour:0,overload:0,flex:0,geminiThoughts:0,loreDepth:5,loreRecursive:0,loreFullWord:0};
+    jsonOn:0,jsonStrict:1,json:'',extract:'',params:'',paramsAll:0,tools:'',autoCache:0,claudeRetrieval:0,claudeBatch:0,claudeHour:0,overload:0,flex:0,geminiThoughts:0,loreDepth:5,loreRecursive:0,loreFullWord:0});
   setStore();enginePaneLoad();engineStatus('已恢复引擎默认；其他设置与存档未改变',0);
 });
 function trPaneSync(){
@@ -4945,9 +4972,9 @@ $('#preFile').addEventListener('change',function(){
     done('已导入 '+list.length+' 条（'+how+'）·可逐条开关与改注入位置');
   }
   function native(){
-    return f.arrayBuffer().then(function(buf){return felRisuPrompts().then(function(controls){
+    return felRisuNative().then(function(){return f.arrayBuffer();}).then(function(buf){return felRisuPrompts().then(function(controls){
       return felRisuLoad().then(function(risu){return risu.importPreset(f.name,new Uint8Array(buf));})
-        .then(function(){var view=controls.capturePreset(SET.risu);setStore();felRisuPromptRender(view);});
+        .then(function(){var view=controls.capturePreset(SET.risu);return felRisuNative().then(function(native){native.changePreset(native.db().botPresetsId);setStore();felRisuPromptRender(view);nativeSettingsRender('preset');});});
     });}).then(function(){done('原生预设已经启用并保存 · 刷新与换纪年后保留');});
   }
   var binary=/\.(risupreset|risup|risum|bin|gz|zip|png)$/i.test(f.name);
@@ -5216,6 +5243,7 @@ function apiOpen(){
   $('#apiMsg').textContent=apiReady()?'状态：已配置 · '+API.model:'状态：未接线';
   gDlgShow('#dlgApi');
   $('#apiNsfwYes').disabled=true;$('#apiNsfwNo').disabled=true;
+  nativeSettingsRender('api');
   felRisuPrompts().then(function(controls){felRisuPromptRender(controls.read());}).catch(felRisuPromptError);
 }
 /* —— 开局前的快速接入 ——
@@ -5231,6 +5259,7 @@ function qkImport(fileSel,msgSel){
   input.click();
 }
 $('#qkPre').addEventListener('click',function(){qkImport('#preFile','#preMsg');});
+$('#qkSettings').addEventListener('click',function(){applyCfg();gDlgShow('#dlgCfg');var tab=document.querySelector('#cfgTabs span[data-cp="preset"]');if(tab)tab.click();});
 $('#qkLore').addEventListener('click',function(){qkImport('#loreFile','#loreMsg');});
 $('#qkImg').addEventListener('click',function(){
   /* 两层 gDlg 叠著时后出现的反而在下（#dlgApi 在 DOM 里更靠后），所以先收本窗 */
@@ -7825,6 +7854,7 @@ zjLoadPref();
 function loadOpening(side,op,locOverride){
   ACTIVE=side;
   TYPE_GEN++;TURNS=[];TURNI=0;BUSY=false;
+  GAME.risuNative={};
   GAME.memoryId=felNewMemoryId();             /* 每一局一座独立宫殿，绝不串档 */
   /* Risu 的 chat variables 与世界书开关属于这一局；global variables 才跨局。
      新开一局必须清掉上一局触发器留下的局部状态，再执行 start 生命周期。 */
@@ -8011,6 +8041,7 @@ function svSnap(){
     lastPanel:(function(){try{return JSON.parse(JSON.stringify(GAME.lastPanel||null));}catch(_){return null;}})(),
     /* Risu 兼容的 chat variables 与触发器世界书开关随这一局存取；global variables
        仍留在设置中跨局共享。 */
+    risuNative:JSON.parse(JSON.stringify(GAME.risuNative||{})),
     runtime:{vars:JSON.parse(JSON.stringify((SET&&SET.vars)||{})),
              loreState:JSON.parse(JSON.stringify((SET&&SET.loreState)||{}))},
     zj:{mem:S.mem,memN:S.memN,memOn:S.memOn,npcMeta:S.npcMeta,graphHidden:S.graphHidden},
@@ -8072,6 +8103,7 @@ function svLoadCore(v){
       if(TURNS[_ci].role==='assistant'&&TURNS[_ci].cognition){GAME.cognition=TURNS[_ci].cognition;break;}
     }
   }
+  GAME.risuNative=v.risuNative||{};
   if(v.runtime){SET.vars=v.runtime.vars||{};SET.loreState=v.runtime.loreState||{};}
   else{SET.vars={};SET.loreState={};}
   setStore();
