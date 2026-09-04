@@ -296,6 +296,35 @@
      "n": 1
     }
    ]
+  },
+  "蒂雅／主角龙": {
+   "eq": {
+    "dext": "e12_tiya_dachi",
+    "sin": "e12_deep_sage_stone_tablet",
+    "corp": "e12_asterius_white_tunic",
+    "cap": "e12_laurel_wreath_mortal",
+    "hum": "e12_asterius_leather_cloak",
+    "cing": "e12_leather_belt_common",
+    "ped": "e12_leather_travel_boots"
+   },
+   "bag": [
+    {
+     "k": "e12_tiya_pocket_clock",
+     "n": 1
+    },
+    {
+     "k": "e12_pantheon_scroll_of_names",
+     "n": 1
+    },
+    {
+     "k": "e12_baal_heart_silver_box",
+     "n": 1
+    },
+    {
+     "k": "e12_bronze_mirror_relic",
+     "n": 1
+    }
+   ]
   }
  },
  "items": [

@@ -6,23 +6,24 @@
  "note": "阿尔门及周边通用银币，银龙之爪团与冒险团互助基金另有内部记账，不与银币直接挂钩；伊德里斯家族商团靠信誉与护卫扩张，账目多为私下往来。",
  "kits": {
   "default": {
-   "eq": {},
+   "eq": {
+    "dext": "e22_sirius_gear51",
+    "corp": "e22_sagarm_gear3",
+    "ped": "e22_minoa_gear55"
+   },
    "bag": []
   },
   "洛伦／蒂雅／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e22_sirius_gear51",
+    "corp": "e22_sagarm_gear3",
+    "hum": "e22_templu_gear71",
+    "cing": "e22_procyo_gear43",
+    "ped": "e22_minoa_gear55"
+   },
    "bag": [
     {
-     "k": "e22_enoch_black_flag",
-     "n": 1
-    }
-   ]
-  },
-  "以诺": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e22_enoch_black_flag",
+     "k": "e22_regicide_arrow",
      "n": 1
     },
     {
@@ -31,30 +32,53 @@
     }
    ]
   },
-  "杰里亚·伊德里斯": {
-   "eq": {},
+  "以诺": {
+   "eq": {
+    "dext": "e22_betelg_gear47",
+    "sin": "e22_mare_gear23",
+    "corp": "e22_bestia_gear75",
+    "hum": "e22_desert_gear15",
+    "cing": "e22_steppa_gear79",
+    "ped": "e22_wallac_gear87"
+   },
    "bag": [
     {
-     "k": "e22_idris_manor_seal",
+     "k": "e22_enoch_black_flag",
      "n": 1
     },
     {
-     "k": "e22_ruberos_founding_scroll",
+     "k": "e22_unbeaten_banner",
+     "n": 1
+    },
+    {
+     "k": "e22_adventurer_union_fund_ledger",
+     "n": 1
+    }
+   ]
+  },
+  "杰里亚·伊德里斯": {
+   "eq": {
+    "dext": "e22_labyri_gear59",
+    "corp": "e22_letkin_gear63",
+    "cap": "e22_terra_gear67",
+    "cing": "e22_procyo_gear43",
+    "ped": "e22_utgard_gear91"
+   },
+   "bag": [
+    {
+     "k": "e22_idris_manor_seal",
      "n": 1
     }
    ]
   },
   "阿尔忒西亚·德拉格玛": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e22_unbeaten_banner",
-     "n": 1
-    }
-   ]
-  },
-  "以莉亚·伊德里斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e22_semeri_gear83",
+    "corp": "e22_teocal_gear95",
+    "cap": "e22_nox_gear35",
+    "hum": "e22_desert_gear15",
+    "ped": "e22_glacie_gear31"
+   },
    "bag": [
     {
      "k": "e22_ruberos_founding_scroll",
@@ -62,11 +86,32 @@
     }
    ]
   },
-  "贝洛·伊德里斯": {
-   "eq": {},
+  "以莉亚·伊德里斯": {
+   "eq": {
+    "dext": "e22_palus_gear19",
+    "corp": "e22_yggdra_gear7",
+    "cap": "e22_rubero_gear107",
+    "cing": "e22_steppa_gear79",
+    "ped": "e22_minoa_gear55"
+   },
    "bag": [
     {
      "k": "e22_idris_manor_seal",
+     "n": 1
+    }
+   ]
+  },
+  "贝洛·伊德里斯": {
+   "eq": {
+    "dext": "e22_arbor_gear27",
+    "corp": "e22_mons_gear11",
+    "cap": "e22_terra_gear67",
+    "cing": "e22_procyo_gear43",
+    "ped": "e22_utgard_gear91"
+   },
+   "bag": [
+    {
+     "k": "e22_adventurer_union_fund_ledger",
      "n": 1
     }
    ]

@@ -212,6 +212,36 @@
      "n": 1
     }
    ]
+  },
+  "蒂雅／主角龙": {
+   "eq": {
+    "dext": "e11_bone_dagger",
+    "sin": "e11_leather_bracer",
+    "corp": "e11_coarse_tunic",
+    "cap": "e11_hero_horn_illusion_headdress",
+    "hum": "e11_traveler_cloak",
+    "cing": "e11_dimensional_pouch",
+    "ped": "e11_monster_hide_boots",
+    "terg": "e11_remote_viewing_bell"
+   },
+   "bag": [
+    {
+     "k": "e11_dowsing_rod_holy",
+     "n": 1
+    },
+    {
+     "k": "e11_infinite_food_sack",
+     "n": 1
+    },
+    {
+     "k": "e11_mother_letter",
+     "n": 1
+    },
+    {
+     "k": "e11_hot_cocoa_cup",
+     "n": 1
+    }
+   ]
   }
  },
  "items": [

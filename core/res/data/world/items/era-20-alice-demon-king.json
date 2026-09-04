@@ -10,10 +10,18 @@
    "bag": []
   },
   "蒂雅／萝蕾娜／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e20_caladbolg",
+    "sin": "e20_wallac_gear87",
+    "corp": "e20_sagarm_gear3",
+    "cap": "e20_letkin_gear63",
+    "hum": "e20_mare_gear23",
+    "cing": "e20_yggdra_gear7",
+    "ped": "e20_sirius_gear51"
+   },
    "bag": [
     {
-     "k": "e20_soul_po_vial",
+     "k": "e20_conch_of_wish",
      "n": 1
     }
    ]
@@ -36,19 +44,59 @@
    ]
   },
   "魔贤者／洛基": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e20_nox_gear35",
+    "sin": "e20_bestia_gear75",
+    "corp": "e20_insula_gear103",
+    "cap": "e20_letkin_gear63",
+    "hum": "e20_labyri_gear59",
+    "cing": "e20_semeri_gear83",
+    "ped": "e20_teocal_gear95"
+   },
+   "bag": [
+    {
+     "k": "e20_insula_volans_permit",
+     "n": 1
+    }
+   ]
   },
   "原魔王": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e20_templu_gear71",
+    "sin": "e20_porta_gear39",
+    "corp": "e20_utgard_gear91",
+    "hum": "e20_steppa_gear79",
+    "cing": "e20_mons_gear11",
+    "ped": "e20_desert_gear15"
+   },
+   "bag": [
+    {
+     "k": "e20_soul_po_vial",
+     "n": 1
+    }
+   ]
   },
   "库茨": {
-   "eq": {},
+   "eq": {
+    "dext": "e20_minoa_gear55",
+    "sin": "e20_bestia_gear75",
+    "corp": "e20_arbor_gear27",
+    "cap": "e20_letkin_gear63",
+    "hum": "e20_procyo_gear43",
+    "cing": "e20_terra_gear67",
+    "ped": "e20_sirius_gear51"
+   },
    "bag": []
   },
   "巫妖": {
-   "eq": {},
+   "eq": {
+    "dext": "e20_glacie_gear31",
+    "sin": "e20_porta_gear39",
+    "corp": "e20_sadalm_gear99",
+    "hum": "e20_labyri_gear59",
+    "cing": "e20_semeri_gear83",
+    "ped": "e20_teocal_gear95"
+   },
    "bag": [
     {
      "k": "e20_mad_lich_phylactery",
@@ -57,22 +105,27 @@
    ]
   },
   "生命教团祭司长": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e20_soul_po_vial",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e20_templu_gear71",
+    "sin": "e20_wallac_gear87",
+    "corp": "e20_betelg_gear47",
+    "cap": "e20_letkin_gear63",
+    "hum": "e20_mare_gear23",
+    "cing": "e20_yggdra_gear7",
+    "ped": "e20_desert_gear15"
+   },
+   "bag": []
   },
   "佩尔": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e20_insula_volans_permit",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e20_palus_gear19",
+    "sin": "e20_bestia_gear75",
+    "corp": "e20_sagarm_gear3",
+    "hum": "e20_steppa_gear79",
+    "cing": "e20_terra_gear67",
+    "ped": "e20_sirius_gear51"
+   },
+   "bag": []
   }
  },
  "items": [

@@ -278,6 +278,58 @@
      "n": 2
     }
    ]
+  },
+  "蒂雅／主角龙": {
+   "eq": {
+    "dext": "e13_lekren_club",
+    "sin": "e13_round_wood_buckler_common",
+    "corp": "e13_hades_shadow_robe",
+    "cap": "e13_hades_dark_veil",
+    "hum": "e13_akkad_patrol_cloak",
+    "cing": "e13_leather_belt_common",
+    "ped": "e13_leather_travel_boots",
+    "terg": "e13_lekren_bow"
+   },
+   "bag": [
+    {
+     "k": "e13_hades_medicine_box",
+     "n": 1
+    },
+    {
+     "k": "e13_soul_return_box",
+     "n": 1
+    },
+    {
+     "k": "e13_epona_challenge_letter",
+     "n": 1
+    }
+   ]
+  },
+  "奥丁／洛基": {
+   "eq": {
+    "dext": "e13_gungnir",
+    "sin": "e13_lekren_dagger",
+    "corp": "e13_dwarf_plate_armor",
+    "cap": "e13_einherjar_helm",
+    "hum": "e13_aesir_fur_cloak",
+    "cing": "e13_leather_belt_common",
+    "ped": "e13_leather_travel_boots",
+    "terg": "e13_storm_giant_javelin"
+   },
+   "bag": [
+    {
+     "k": "e13_odin_raven_charm",
+     "n": 1
+    },
+    {
+     "k": "e13_moros_ledger_seal",
+     "n": 1
+    },
+    {
+     "k": "e13_pilgrim_binding_rope",
+     "n": 1
+    }
+   ]
   }
  },
  "items": [

@@ -10,16 +10,14 @@
    "bag": []
   },
   "洛伦／蒂雅／生命女神／创世神龙／主角龙": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e24_inspector_truth_charm",
-     "n": 1
-    }
-   ]
-  },
-  "诺亚·德拉格玛·伊德里斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e24_rubero_gear107",
+    "sin": "e24_minoa_gear55",
+    "corp": "e24_mare_gear23",
+    "cap": "e24_sirius_gear51",
+    "hum": "e24_templu_gear71",
+    "ped": "e24_arbor_gear27"
+   },
    "bag": [
     {
      "k": "e24_dragon_true_form_seal",
@@ -27,12 +25,15 @@
     }
    ]
   },
-  "以诺": {
-   "eq": {},
-   "bag": []
-  },
-  "索菲亚／纳玛": {
-   "eq": {},
+  "诺亚·德拉格玛·伊德里斯": {
+   "eq": {
+    "dext": "e24_letkin_gear63",
+    "sin": "e24_porta_gear39",
+    "corp": "e24_bestia_gear75",
+    "cap": "e24_procyo_gear43",
+    "hum": "e24_mons_gear11",
+    "ped": "e24_utgard_gear91"
+   },
    "bag": [
     {
      "k": "e24_empress_selection_token",
@@ -40,24 +41,88 @@
     }
    ]
   },
+  "以诺": {
+   "eq": {
+    "dext": "e24_terra_gear67",
+    "sin": "e24_sadalm_gear99",
+    "corp": "e24_steppa_gear79",
+    "cap": "e24_insula_gear103",
+    "hum": "e24_betelg_gear47",
+    "ped": "e24_semeri_gear83"
+   },
+   "bag": []
+  },
+  "索菲亚／纳玛": {
+   "eq": {
+    "dext": "e24_desert_gear15",
+    "sin": "e24_minoa_gear55",
+    "corp": "e24_nox_gear35",
+    "cap": "e24_glacie_gear31",
+    "hum": "e24_templu_gear71",
+    "ped": "e24_teocal_gear95"
+   },
+   "bag": [
+    {
+     "k": "e24_orphanage_token",
+     "n": 1
+    }
+   ]
+  },
   "伊夫利特／里赫特": {
-   "eq": {},
+   "eq": {
+    "dext": "e24_yggdra_gear7",
+    "sin": "e24_porta_gear39",
+    "corp": "e24_palus_gear19",
+    "cap": "e24_sirius_gear51",
+    "hum": "e24_mons_gear11",
+    "ped": "e24_arbor_gear27"
+   },
    "bag": []
   },
   "杰里亚": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e24_rubero_gear107",
+    "sin": "e24_sadalm_gear99",
+    "corp": "e24_labyri_gear59",
+    "cap": "e24_procyo_gear43",
+    "hum": "e24_betelg_gear47",
+    "ped": "e24_utgard_gear91"
+   },
+   "bag": [
+    {
+     "k": "e24_racehorse_brand",
+     "n": 1
+    }
+   ]
   },
   "阿尔忒西亚／希雅": {
-   "eq": {},
+   "eq": {
+    "dext": "e24_desert_gear15",
+    "sin": "e24_minoa_gear55",
+    "corp": "e24_wallac_gear87",
+    "cap": "e24_insula_gear103",
+    "hum": "e24_templu_gear71",
+    "ped": "e24_semeri_gear83"
+   },
    "bag": []
   },
   "天狼星分灵": {
-   "eq": {},
+   "eq": {
+    "dext": "e24_letkin_gear63",
+    "sin": "e24_porta_gear39",
+    "corp": "e24_sagarm_gear3",
+    "cap": "e24_glacie_gear31",
+    "hum": "e24_mons_gear11",
+    "ped": "e24_teocal_gear95"
+   },
    "bag": [
     {
-     "k": "e24_racetrack_ticket",
-     "n": 3
+     "k": "e24_inspector_truth_charm",
+     "n": 1
+    },
+    {
+     "k": "e24_tax_audit_ledger",
+     "n": 1
     }
    ]
   }

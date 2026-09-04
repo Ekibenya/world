@@ -192,35 +192,44 @@
    ]
   },
   "哈迪斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e10_temple_exorcism_staff",
+    "sin": "e10_dwarf_iron_shield",
+    "corp": "e10_priest_vestment",
+    "cap": "e10_shadow_veil",
+    "hum": "e10_arena_arm_guard",
+    "cing": "e10_dwarf_apron",
+    "ped": "e10_wrap_boots"
+   },
    "bag": [
     {
      "k": "e10_hades_tablet",
      "n": 1
     },
     {
-     "k": "e10_hades_ledger_page",
-     "n": 3
+     "k": "e10_pantheon_pass_tag",
+     "n": 1
     }
    ]
   },
   "天狼星／原初兽神": {
-   "eq": {},
+   "eq": {
+    "dext": "e10_aesir_axe",
+    "sin": "e10_dwarf_iron_shield",
+    "corp": "e10_desert_scale_guard",
+    "cap": "e10_travel_hood",
+    "hum": "e10_arena_arm_guard",
+    "cing": "e10_aesir_fur_band",
+    "ped": "e10_glacies_seal_boots",
+    "terg": "e10_elf_hunter_cloak"
+   },
    "bag": [
     {
-     "k": "e10_sirius_guard_bell",
+     "k": "e10_stone_fragment",
      "n": 1
     },
     {
-     "k": "e10_dwarf_lamp",
-     "n": 1
-    },
-    {
-     "k": "e10_baal_amulet",
-     "n": 1
-    },
-    {
-     "k": "e10_underworld_toll_coin",
+     "k": "e10_pantheon_pass_tag",
      "n": 1
     }
    ]

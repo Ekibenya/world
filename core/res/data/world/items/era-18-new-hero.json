@@ -15,10 +15,26 @@
    ]
   },
   "蒂雅／萝蕾娜／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e18_clau_solas",
+    "sin": "e18_vh_companion_ring",
+    "corp": "e18_vh_silver_armor",
+    "cap": "e18_sirius_guard_helm",
+    "hum": "e18_vh_wing_cloak",
+    "cing": "e18_demon_warg_collar",
+    "ped": "e18_ygg_scout_boot"
+   },
    "bag": [
     {
-     "k": "e18_grain_report_scroll",
+     "k": "e18_temple_round_table_seal",
+     "n": 1
+    },
+    {
+     "k": "e18_vh_recall_whistle",
+     "n": 1
+    },
+    {
+     "k": "e18_demon_territory_map",
      "n": 1
     }
    ]
@@ -55,28 +71,66 @@
    ]
   },
   "阿谢拉特": {
-   "eq": {},
+   "eq": {
+    "dext": "e18_sag_envoy_axe",
+    "sin": "e18_sag_work_gloves",
+    "corp": "e18_temple_acolyte_robe",
+    "cap": "e18_wal_fur_hat",
+    "hum": "e18_north_refugee_coat",
+    "ped": "e18_pro_mage_boot"
+   },
    "bag": [
     {
-     "k": "e18_temple_calm_tea",
+     "k": "e18_grain_report_scroll",
+     "n": 1
+    },
+    {
+     "k": "e18_temple_donation_ledger",
+     "n": 1
+    },
+    {
+     "k": "e18_let_grain_vault_key",
      "n": 1
     }
    ]
   },
   "魔王": {
-   "eq": {},
+   "eq": {
+    "dext": "e18_temple_sentry_spear",
+    "sin": "e18_let_legion_shield",
+    "corp": "e18_bes_marine_armor",
+    "cap": "e18_sag_mil_helm",
+    "hum": "e18_vh_wing_cloak",
+    "cing": "e18_demon_warg_collar",
+    "ped": "e18_steppa_felt_boot"
+   },
    "bag": [
     {
      "k": "e18_demon_territory_map",
+     "n": 1
+    },
+    {
+     "k": "e18_demon_army_badge",
      "n": 1
     }
    ]
   },
   "龙祭司长": {
-   "eq": {},
+   "eq": {
+    "dext": "e18_temple_guard_mace",
+    "sin": "e18_pro_envoy_staff",
+    "corp": "e18_temple_acolyte_robe",
+    "cap": "e18_wal_fur_hat",
+    "hum": "e18_north_refugee_coat",
+    "ped": "e18_pro_mage_boot"
+   },
    "bag": [
     {
-     "k": "e18_temple_round_table_seal",
+     "k": "e18_vh_recall_whistle",
+     "n": 1
+    },
+    {
+     "k": "e18_temple_donation_ledger",
      "n": 1
     }
    ]
@@ -93,10 +147,21 @@
    ]
   },
   "别西卜": {
-   "eq": {},
+   "eq": {
+    "dext": "e18_wal_guard_sword",
+    "sin": "e18_bes_coral_ring",
+    "corp": "e18_ygg_scout_leather",
+    "cap": "e18_sag_mil_helm",
+    "hum": "e18_vh_wing_cloak",
+    "ped": "e18_ygg_scout_boot"
+   },
    "bag": [
     {
      "k": "e18_beelzebub_wing_shard",
+     "n": 1
+    },
+    {
+     "k": "e18_mantis_scorpion_tail",
      "n": 1
     }
    ]
@@ -108,10 +173,21 @@
    "bag": []
   },
   "魔贤者": {
-   "eq": {},
+   "eq": {
+    "dext": "e18_temple_guard_mace",
+    "sin": "e18_pro_envoy_staff",
+    "corp": "e18_sem_linen_robe",
+    "cap": "e18_wal_fur_hat",
+    "hum": "e18_north_refugee_coat",
+    "ped": "e18_pro_mage_boot"
+   },
    "bag": [
     {
      "k": "e18_demon_sage_tome",
+     "n": 1
+    },
+    {
+     "k": "e18_north_relic_shard",
      "n": 1
     }
    ]

@@ -15,8 +15,20 @@
    ]
   },
   "蒂雅／萝蕾娜／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e21_mare_gear23",
+    "sin": "e21_letkin_gear63",
+    "corp": "e21_palus_gear19",
+    "cap": "e21_sirius_gear51",
+    "hum": "e21_porta_gear39",
+    "cing": "e21_sagarm_gear3",
+    "ped": "e21_minoa_gear55"
+   },
    "bag": [
+    {
+     "k": "e21_guild_rank_tag",
+     "n": 1
+    },
     {
      "k": "e21_dungeon_point_token",
      "n": 1
@@ -24,7 +36,15 @@
    ]
   },
   "魔贤者／洛基": {
-   "eq": {},
+   "eq": {
+    "dext": "e21_procyo_gear43",
+    "sin": "e21_letkin_gear63",
+    "corp": "e21_terra_gear67",
+    "cap": "e21_insula_gear103",
+    "hum": "e21_porta_gear39",
+    "cing": "e21_labyri_gear59",
+    "ped": "e21_nox_gear35"
+   },
    "bag": [
     {
      "k": "e21_demon_guild_badge",
@@ -44,7 +64,15 @@
    ]
   },
   "亚瑟（中年冒险者）": {
-   "eq": {},
+   "eq": {
+    "dext": "e21_desert_gear15",
+    "sin": "e21_letkin_gear63",
+    "corp": "e21_steppa_gear79",
+    "cap": "e21_yggdra_gear7",
+    "hum": "e21_porta_gear39",
+    "cing": "e21_betelg_gear47",
+    "ped": "e21_templu_gear71"
+   },
    "bag": [
     {
      "k": "e21_guild_rank_tag",
@@ -63,8 +91,18 @@
    "bag": []
   },
   "冒险者公会接待员": {
-   "eq": {},
+   "eq": {
+    "dext": "e21_utgard_gear91",
+    "corp": "e21_semeri_gear83",
+    "cap": "e21_arbor_gear27",
+    "cing": "e21_mons_gear11",
+    "ped": "e21_sadalm_gear99"
+   },
    "bag": [
+    {
+     "k": "e21_guild_rank_tag",
+     "n": 1
+    },
     {
      "k": "e21_nyx_temple_bed_token",
      "n": 1

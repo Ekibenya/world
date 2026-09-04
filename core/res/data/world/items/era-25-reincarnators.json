@@ -10,11 +10,30 @@
    "bag": []
   },
   "洛伦／蒂雅／生命女神／创世神龙／主角龙": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e25_daensleif_recovered",
+    "corp": "e25_templu_gear71",
+    "cap": "e25_terra_gear67",
+    "hum": "e25_betelg_gear47",
+    "cing": "e25_sagarm_gear3",
+    "ped": "e25_yggdra_gear7"
+   },
+   "bag": [
+    {
+     "k": "e25_guardian_oath_scroll",
+     "n": 1
+    }
+   ]
   },
   "露西亚·马格努斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e25_procyo_gear43",
+    "corp": "e25_nox_gear35",
+    "cap": "e25_terra_gear67",
+    "hum": "e25_insula_gear103",
+    "cing": "e25_desert_gear15",
+    "ped": "e25_steppa_gear79"
+   },
    "bag": [
     {
      "k": "e25_lucia_alchemy_thesis",
@@ -23,39 +42,49 @@
    ]
   },
   "西蒙": {
-   "eq": {},
+   "eq": {
+    "dext": "e25_sirius_gear51",
+    "corp": "e25_labyri_gear59",
+    "hum": "e25_betelg_gear47",
+    "cing": "e25_mare_gear23",
+    "ped": "e25_rubero_gear107"
+   },
    "bag": [
     {
      "k": "e25_west_dragon_egg_shell",
-     "n": 1
-    },
-    {
-     "k": "e25_green_tower_scroll",
      "n": 1
     }
    ]
   },
   "拉皮斯": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e25_dwarf_mana_stone_tool",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e25_minoa_gear55",
+    "corp": "e25_semeri_gear83",
+    "hum": "e25_insula_gear103",
+    "cing": "e25_arbor_gear27",
+    "ped": "e25_yggdra_gear7"
+   },
+   "bag": []
   },
   "维罗妮卡": {
-   "eq": {},
+   "eq": {
+    "dext": "e25_bestia_gear75",
+    "corp": "e25_nox_gear35",
+    "hum": "e25_betelg_gear47",
+    "cing": "e25_porta_gear39",
+    "ped": "e25_steppa_gear79"
+   },
    "bag": []
   },
   "西比拉": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e25_priestess_book_revised",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e25_teocal_gear95",
+    "corp": "e25_labyri_gear59",
+    "hum": "e25_insula_gear103",
+    "cing": "e25_letkin_gear63",
+    "ped": "e25_rubero_gear107"
+   },
+   "bag": []
   },
   "诺亚·德拉格玛·伊德里斯": {
    "eq": {
@@ -69,17 +98,30 @@
    ]
   },
   "生命教团祭司长": {
-   "eq": {},
+   "eq": {
+    "dext": "e25_mons_gear11",
+    "corp": "e25_templu_gear71",
+    "cap": "e25_terra_gear67",
+    "hum": "e25_betelg_gear47",
+    "cing": "e25_utgard_gear91",
+    "ped": "e25_yggdra_gear7"
+   },
+   "bag": []
+  },
+  "炼金学派副首领": {
+   "eq": {
+    "dext": "e25_palus_gear19",
+    "corp": "e25_semeri_gear83",
+    "hum": "e25_insula_gear103",
+    "cing": "e25_sadalm_gear99",
+    "ped": "e25_steppa_gear79"
+   },
    "bag": [
     {
      "k": "e25_starmelt_brand",
      "n": 1
     }
    ]
-  },
-  "炼金学派副首领": {
-   "eq": {},
-   "bag": []
   }
  },
  "items": [

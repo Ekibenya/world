@@ -38,18 +38,27 @@
    ]
   },
   "主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e3_spear_dragonbone",
+    "sin": "e3_shield_scale",
+    "corp": "e3_armor_dragonbone",
+    "cap": "e3_helm_dragonscale",
+    "hum": "e3_pauldron_scale",
+    "cing": "e3_belt_hide",
+    "ped": "e3_greaves_hide",
+    "terg": "e3_cloak_hide"
+   },
    "bag": [
     {
      "k": "e3_watch_time",
      "n": 1
     },
     {
-     "k": "e3_note_matron",
+     "k": "e3_token_ceasefire",
      "n": 1
     },
     {
-     "k": "e3_ore_gem",
+     "k": "e3_note_matron",
      "n": 1
     }
    ]

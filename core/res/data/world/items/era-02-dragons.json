@@ -8,194 +8,124 @@
   "default": {
    "eq": {
     "dext": "e2_flint_dagger",
-    "corp": "e2_hide_loincloth",
+    "corp": "e2_dino_hide_armor",
+    "cap": "e2_hide_helm",
+    "ped": "e2_bone_greave"
+   },
+   "bag": []
+  },
+  "主角龙": {
+   "eq": {
+    "dext": "e2_bone_greatsword",
+    "sin": "e2_bone_shield",
+    "corp": "e2_dino_hide_armor",
+    "cap": "e2_hide_helm",
+    "hum": "e2_tooth_necklace",
     "cing": "e2_shell_belt",
     "ped": "e2_bone_greave",
-    "cap": "e2_feather_headband"
+    "terg": "e2_shell_backplate"
    },
    "bag": [
     {
-     "k": "e2_dino_meat",
-     "n": 2
-    },
-    {
-     "k": "e2_waterskin",
-     "n": 1
-    },
-    {
-     "k": "e2_firestarter",
-     "n": 1
-    },
-    {
-     "k": "e2_herb_poultice",
-     "n": 1
-    },
-    {
-     "k": "e2_tally_cord",
-     "n": 1
-    }
-   ]
-  },
-  "主角龙": {
-   "eq": {},
-   "bag": [
-    {
      "k": "e2_scale_silver",
-     "n": 3
-    },
-    {
-     "k": "e2_white_flower",
-     "n": 1
-    },
-    {
-     "k": "e2_stone_meat",
-     "n": 2
-    },
-    {
-     "k": "e2_dragon_heart_crystal",
      "n": 1
     }
    ]
   },
   "西尔菲德": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_wood_javelin",
+    "sin": "e2_hide_bracer",
+    "corp": "e2_reed_skirt",
+    "cap": "e2_feather_headband"
+   },
    "bag": [
     {
      "k": "e2_scale_white",
-     "n": 2
-    },
-    {
-     "k": "e2_scale_silver",
      "n": 1
-    },
-    {
-     "k": "e2_swift_feather",
-     "n": 3
     }
    ]
   },
   "伊弗利特": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_obsidian_spear",
+    "sin": "e2_bone_gauntlet",
+    "corp": "e2_desert_cloak",
+    "cap": "e2_horn_browguard"
+   },
    "bag": [
     {
      "k": "e2_scale_red",
-     "n": 2
-    },
-    {
-     "k": "e2_scale_silver",
-     "n": 1
-    },
-    {
-     "k": "e2_sulfur_chunk",
-     "n": 1
-    },
-    {
-     "k": "e2_lava_crystal",
      "n": 1
     }
    ]
   },
   "伊格德拉西尔": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_priest_staff",
+    "sin": "e2_hide_wristlet",
+    "corp": "e2_reed_skirt",
+    "hum": "e2_totem_collar"
+   },
    "bag": [
     {
      "k": "e2_scale_green",
-     "n": 2
-    },
-    {
-     "k": "e2_scale_silver",
-     "n": 1
-    },
-    {
-     "k": "e2_yggdrasil_leaf",
-     "n": 2
-    },
-    {
-     "k": "e2_yggdrasil_seed",
      "n": 1
     }
    ]
   },
   "沙玛什": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_horn_spear",
+    "sin": "e2_bone_gauntlet",
+    "corp": "e2_dino_hide_armor",
+    "cap": "e2_feather_headband"
+   },
    "bag": [
     {
      "k": "e2_scale_gold",
-     "n": 2
-    },
-    {
-     "k": "e2_scale_silver",
-     "n": 1
-    },
-    {
-     "k": "e2_golden_feather",
-     "n": 1
-    },
-    {
-     "k": "e2_dew_fruit",
      "n": 1
     }
    ]
   },
   "萨加玛塔": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_stone_hammer",
+    "sin": "e2_bone_shield",
+    "corp": "e2_polar_hide_armor",
+    "cap": "e2_hide_helm"
+   },
    "bag": [
     {
      "k": "e2_scale_gem",
-     "n": 2
-    },
-    {
-     "k": "e2_scale_silver",
      "n": 1
-    },
-    {
-     "k": "e2_mountain_crystal_sand",
-     "n": 2
     }
    ]
   },
   "忒提斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_serpent_harpoon",
+    "sin": "e2_serpent_shield",
+    "corp": "e2_serpent_scale_armor",
+    "cing": "e2_shell_belt"
+   },
    "bag": [
     {
      "k": "e2_scale_blue",
-     "n": 2
-    },
-    {
-     "k": "e2_scale_silver",
-     "n": 1
-    },
-    {
-     "k": "e2_coral_branch",
-     "n": 1
-    },
-    {
-     "k": "e2_dried_kelp",
-     "n": 2
-    },
-    {
-     "k": "e2_portal_residue",
      "n": 1
     }
    ]
   },
   "厄瑞玻斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e2_serrated_blade",
+    "sin": "e2_hide_bracer",
+    "corp": "e2_drake_wing_armor",
+    "hum": "e2_hide_shawl"
+   },
    "bag": [
     {
-     "k": "e2_scale_silver",
-     "n": 1
-    },
-    {
-     "k": "e2_dark_crystal_shard",
-     "n": 1
-    },
-    {
-     "k": "e2_tally_cord",
-     "n": 2
-    },
-    {
-     "k": "e2_dragon_heart_crystal",
+     "k": "e2_scale_black",
      "n": 1
     }
    ]

@@ -207,6 +207,32 @@
      "n": 2
     }
    ]
+  },
+  "巴别城主／首个恶魔": {
+   "eq": {
+    "dext": "e8_dwarf_iron_sword",
+    "sin": "e8_dwarf_tower_shield",
+    "corp": "e8_shengdu_silk",
+    "cap": "e8_desert_veil",
+    "hum": "e8_mourning_shroud",
+    "cing": "e8_silver_coin_purse",
+    "ped": "e8_travel_boots",
+    "terg": "e8_saipan_wool_blanket"
+   },
+   "bag": [
+    {
+     "k": "e8_mayor_journal",
+     "n": 1
+    },
+    {
+     "k": "e8_mana_stone_tainted",
+     "n": 1
+    },
+    {
+     "k": "e8_demon_ash_relic",
+     "n": 1
+    }
+   ]
   }
  },
  "items": [

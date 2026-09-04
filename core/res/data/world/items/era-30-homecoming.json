@@ -15,15 +15,53 @@
    ]
   },
   "洛伦／主角龙": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e30_templu_gear71",
+    "sin": "e30_sirius_gear51",
+    "corp": "e30_palus_gear19",
+    "cap": "e30_nox_gear35",
+    "hum": "e30_mare_gear23",
+    "cing": "e30_terra_gear67",
+    "ped": "e30_yggdra_gear7"
+   },
+   "bag": [
+    {
+     "k": "e30_rail_knight_badge",
+     "n": 1
+    },
+    {
+     "k": "e30_steamship_blueprint",
+     "n": 1
+    }
+   ]
   },
   "阿谢拉特": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e30_betelg_gear47",
+    "sin": "e30_minoa_gear55",
+    "corp": "e30_procyo_gear43",
+    "cap": "e30_porta_gear39",
+    "hum": "e30_bestia_gear75",
+    "cing": "e30_letkin_gear63",
+    "ped": "e30_sadalm_gear95"
+   },
+   "bag": [
+    {
+     "k": "e30_old_merchant_license",
+     "n": 1
+    }
+   ]
   },
   "萨加玛塔": {
-   "eq": {},
+   "eq": {
+    "dext": "e30_mons_gear11",
+    "sin": "e30_arbor_gear27",
+    "corp": "e30_steppa_gear79",
+    "cap": "e30_labyri_gear59",
+    "hum": "e30_sagarm_gear3",
+    "cing": "e30_glacie_gear31",
+    "ped": "e30_rubero_gear103"
+   },
    "bag": [
     {
      "k": "e30_dwarf_steam_locomotive_part",
@@ -32,7 +70,15 @@
    ]
   },
   "帝国皇帝": {
-   "eq": {},
+   "eq": {
+    "dext": "e30_desert_gear15",
+    "sin": "e30_sirius_gear51",
+    "corp": "e30_semeri_gear83",
+    "cap": "e30_nox_gear35",
+    "hum": "e30_mare_gear23",
+    "cing": "e30_teocal_gear91",
+    "ped": "e30_yggdra_gear7"
+   },
    "bag": [
     {
      "k": "e30_rail_knight_badge",
@@ -41,19 +87,42 @@
    ]
   },
   "伽拉忒亚II": {
-   "eq": {},
+   "eq": {
+    "dext": "e30_utgard_gear87",
+    "sin": "e30_insula_gear99",
+    "corp": "e30_regnum_gear107",
+    "cap": "e30_porta_gear39",
+    "hum": "e30_bestia_gear75",
+    "cing": "e30_letkin_gear63",
+    "ped": "e30_sadalm_gear95"
+   },
    "bag": []
   },
   "生命教团祭司长": {
-   "eq": {},
+   "eq": {
+    "dext": "e30_templu_gear71",
+    "sin": "e30_minoa_gear55",
+    "corp": "e30_palus_gear19",
+    "cap": "e30_labyri_gear59",
+    "hum": "e30_sagarm_gear3",
+    "cing": "e30_glacie_gear31",
+    "ped": "e30_rubero_gear103"
+   },
    "bag": []
   },
   "德武夫大锻造师": {
-   "eq": {},
+   "eq": {
+    "dext": "e30_mons_gear11",
+    "sin": "e30_arbor_gear27",
+    "corp": "e30_steppa_gear79",
+    "cap": "e30_nox_gear35",
+    "cing": "e30_teocal_gear91",
+    "ped": "e30_yggdra_gear7"
+   },
    "bag": [
     {
      "k": "e30_dwarf_steam_locomotive_part",
-     "n": 2
+     "n": 1
     },
     {
      "k": "e30_elf_stone_sleeper",

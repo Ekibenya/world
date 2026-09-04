@@ -85,14 +85,20 @@
    ]
   },
   "哈迪斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e15_lizard_obsidian_knife",
+    "sin": "e15_mage_staff",
+    "corp": "e15_mage_robe",
+    "hum": "e15_gla_frost_coat",
+    "ped": "e15_dwarf_boots"
+   },
    "bag": [
     {
-     "k": "e15_por_black_stone",
+     "k": "e15_ign_fire_flask",
      "n": 1
     },
     {
-     "k": "e15_holy_water_vial",
+     "k": "e15_por_black_stone",
      "n": 1
     }
    ]

@@ -166,18 +166,22 @@
    ]
   },
   "沙玛什": {
-   "eq": {},
+   "eq": {
+    "dext": "e14_lizard_obsidian_blade",
+    "sin": "e14_dwarf_buckler",
+    "corp": "e14_mage_robe_procyon",
+    "cap": "e14_immortal_crown_replica",
+    "hum": "e14_bestia_collar",
+    "cing": "e14_swordbelt",
+    "ped": "e14_woven_sandals"
+   },
    "bag": [
     {
      "k": "e14_shamash_judgement_tablet",
      "n": 1
     },
     {
-     "k": "e14_mars_prayer_tablet",
-     "n": 1
-    },
-    {
-     "k": "e14_bronze_mirror",
+     "k": "e14_angel_feather_token",
      "n": 1
     }
    ]
@@ -201,6 +205,32 @@
     },
     {
      "k": "e14_healing_poultice",
+     "n": 1
+    }
+   ]
+  },
+  "蒂雅／主角龙": {
+   "eq": {
+    "dext": "e14_elf_dagger",
+    "sin": "e14_kite_shield",
+    "corp": "e14_priestrobe_life",
+    "cap": "e14_wool_kerchief",
+    "hum": "e14_merchant_cloak",
+    "cing": "e14_swordbelt",
+    "ped": "e14_elf_boot_soft",
+    "terg": "e14_elf_quiver"
+   },
+   "bag": [
+    {
+     "k": "e14_sirius_invitation",
+     "n": 1
+    },
+    {
+     "k": "e14_lizard_egg_charm",
+     "n": 1
+    },
+    {
+     "k": "e14_yggdrasil_leaf_charm",
      "n": 1
     }
    ]
