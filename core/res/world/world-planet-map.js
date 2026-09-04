@@ -454,7 +454,7 @@ function build(){
   }).then(finishFull).catch(function(e){try{console.warn('planet bake fallback',e);}catch(_){}fullBakeMain().then(function(){saveCache();finishFull();});});
 }
 /* ---------- 场景 ---------- */
-var SHU=null,TEXPAIRS=null,renderer,scene,camera,planet,proto,cosmos,nebula,sunGlow,group,clouds,sunDir=T?new T.Vector3(5,1.6,2.8).normalize():null,sunView=T?new T.Vector3():null,atmoIn,atmoOut,rail,isle,stars,TEXS=null,DISP=.04;
+var SHU=null,TEXPAIRS=null,renderer,scene,camera,planet,proto,cosmos,nebula,sunGlow,group,clouds,sunDir=T?new T.Vector3(5,1.6,2.8).normalize():null,sunView=T?new T.Vector3():null,atmoIn,atmoOut,rail,isle,volcano,stars,TEXS=null,DISP=.04;
 var cam={theta:1.22,phi:1.15,r:4.6,vt:0,vp:0,tr:3.6,tt:null,tp:null},idleAt=0,spinAngle=0,lastT=0,raf=0;
 var VIEW={ord:16,eraName:'',layer:'surface',mode:'forge',selected:null,free:null};
 var canvas=null,pinLayer=null,host=null,hostMode='',onPick=null,resizeObs=null,mini=null,mctx=null;
@@ -533,7 +533,7 @@ function swapTextures(){
   m.map=t.mAlb;m.normalMap=t.mNrm;m.roughnessMap=t.mRgh;m.emissiveMap=t.mEmi;m.displacementMap=t.mDsp;if(SHU){SHU.uHgt.value=t.mDsp;SHU.uEdit.value=t.mEdt;}
   if(clouds){clouds.material.map=t.mCld;clouds.material.needsUpdate=true;}
   old.forEach(function(x){x.dispose();});if(oc)oc.dispose();
-  pins.forEach(function(s){if(s.lat!=null)s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(s.id==='isle'?1.19:surfaceR(s.lon,s.lat)+.008);});
+  pins.forEach(function(s){if(s.lat!=null)s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(s.id==='isle'?1.19:s.id==='fire'?1.085:surfaceR(s.lon,s.lat)+.008);});
   if(rail){group.remove(rail);rail=makeArc(-92,44,-8,33,0xd6a64e);rail.visible=!!eraFlags(VIEW.ord).rail;group.add(rail);}
 }
 function initPlanet(){
@@ -582,7 +582,7 @@ function initPlanet(){
   };
   planet=new T.Mesh(new T.SphereGeometry(1,MOBILE?256:768,MOBILE?128:384),mat);group.add(planet);
   clouds=new T.Mesh(new T.SphereGeometry(1.022,128,64),new T.MeshStandardMaterial({map:tx.mCld,transparent:true,depthWrite:false,roughness:1,metalness:0,opacity:.92}));group.add(clouds);
-  rail=makeArc(-92,44,-8,33,0xd6a64e);group.add(rail);isle=makeIsle(-35,64);group.add(isle);
+  rail=makeArc(-92,44,-8,33,0xd6a64e);group.add(rail);isle=makeIsle(-35,64);group.add(isle);volcano=makeVolcano(-45,8);group.add(volcano);
   buildPins();applyMode();resize();
 }
 function hAt(lon,lat){if(!HGT)return 0;var x=Math.floor((wrapLon(lon)+180)/360*W)%W,y=clamp(Math.floor((lat+90)/180*H),0,H-1);return HGT[y*W+x];}
@@ -612,6 +612,27 @@ function makeIsle(lon,lat){
   shadow.rotation.x=-PI/2;shadow.position.y=surfaceR(lon,lat)-1+.0035;root.add(shadow);
   var nrm=new T.Vector3().fromArray(sph(lon,lat));root.position.copy(nrm);root.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),nrm);
   root.userData={fly:fly,debris:debris};return root;}
+function makeVolcano(lon,lat){
+  var sc=function(h){return new T.Color(h).convertSRGBToLinear();},root=new T.Group(),i,x,y,z,r,t,a,k;
+  var rockM=new T.MeshStandardMaterial({color:sc(0x3b312d),roughness:.96,flatShading:true}),lavaM=new T.MeshStandardMaterial({color:sc(0x2a1512),emissive:sc(0xff5a12),emissiveIntensity:1.6,roughness:.7});
+  /* 锥体：底部埋进地表，锥顶留出火口；按方位角起伏，下半段更宽 */
+  var g=new T.CylinderGeometry(.014,.082,.1,28,7,true),p=g.attributes.position;
+  for(i=0;i<p.count;i++){x=p.getX(i);y=p.getY(i);z=p.getZ(i);r=Math.hypot(x,z);if(r<1e-6)continue;a=Math.atan2(z,x);t=(y+.05)/.1;
+    k=(.014+(.082-.014)*Math.pow(1-t,1.5))/(.014+(.082-.014)*(1-t));k*=1+.16*(1-t*.6)*n3(Math.cos(a)*2.6+9,Math.sin(a)*2.6,y*30)+.05*n3(x*300,y*300,z*300);
+    p.setXYZ(i,x*k,y+.004*n3(x*220,y*220+4,z*220)*(1-t),z*k);}
+  g.computeVertexNormals();var cone=new T.Mesh(g,rockM);cone.position.y=.05-.03;root.add(cone);
+  /* 火口熔岩与热光 */
+  var lava=new T.Mesh(new T.CircleGeometry(.012,20),lavaM);lava.rotation.x=-PI/2;lava.position.y=.05-.03+.046;root.add(lava);
+  var glowTex=(function(){var c=document.createElement('canvas');c.width=c.height=64;var cx=c.getContext('2d'),gr=cx.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,'rgba(255,120,40,.9)');gr.addColorStop(.35,'rgba(255,70,15,.4)');gr.addColorStop(1,'rgba(255,60,0,0)');cx.fillStyle=gr;cx.fillRect(0,0,64,64);var tx=new T.CanvasTexture(c);return tx;})();
+  var glow=new T.Sprite(new T.SpriteMaterial({map:glowTex,transparent:true,blending:T.AdditiveBlending,depthWrite:false,opacity:.6}));glow.scale.set(.05,.05,1);glow.position.y=.05-.03+.05;root.add(glow);
+  /* 烟柱：几团缓慢上升的半透明烟 */
+  var smokeM=new T.MeshBasicMaterial({color:0x4a4442,transparent:true,opacity:.45,depthWrite:false}),puffs=[];
+  for(i=0;i<5;i++){var pf=new T.Mesh(new T.SphereGeometry(.009+.003*i,8,6),smokeM.clone());pf.material.opacity=.42-.06*i;var o={m:pf,ph:i/5,a:i*1.7};puffs.push(o);root.add(pf);}
+  var nrm=new T.Vector3().fromArray(sph(lon,lat));root.position.copy(nrm).multiplyScalar(1.004);root.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),nrm);
+  root.userData={puffs:puffs,glow:glow};return root;}
+function animVolcano(t,dt){if(!volcano||!volcano.visible)return;var u=volcano.userData,base=.05-.03+.046;
+  u.puffs.forEach(function(o,i){var f=window.REDUCED?o.ph:((t*.00012+o.ph)%1);o.m.position.set(Math.cos(o.a+f*2)*.008*f*3,base+.005+f*.075,Math.sin(o.a+f*2)*.008*f*3);var sz=1+f*2.2;o.m.scale.set(sz,sz,sz);o.m.material.opacity=(.42-.06*i)*(1-f)*(f<.08?f/.08:1);});
+  if(!window.REDUCED)u.glow.material.opacity=.5+.2*Math.sin(t*.004);}
 function animIsle(t,dt){if(!isle||!isle.visible||window.REDUCED)return;var u=isle.userData;if(!u.fly)return;u.fly.position.y=.1+.004*Math.sin(t*.0009);u.fly.rotation.y=t*.00003;
   u.debris.forEach(function(d){d.a+=dt*d.v;d.m.position.set(Math.cos(d.a)*d.r,d.y+.003*Math.sin(t*.0012+d.a),Math.sin(d.a)*d.r);d.m.rotation.x+=dt*.6;d.m.rotation.z+=dt*.4;});}
 
@@ -632,7 +653,7 @@ function buildPins(){
   DATA.sites.forEach(function(s){if(s.unplaced||s.lat==null)return;var d=document.createElement('div');d.className='wpmPin t'+(s.t||s.tier||2)+(s.layer==='gateway'?' k-gate':/禁地/.test(s.kind)?' k-forbid':/神/.test(s.kind)?' k-god':/海|洋/.test(s.kind)?' k-sea':/圣|信仰/.test(s.kind)?' k-sacred':/都|之城|首都/.test(s.kind)?' k-cap':'');
     d.innerHTML='<i></i><span>'+esc(s.name)+'</span>';d.setAttribute('role','button');d.tabIndex=0;
     d.addEventListener('pointerdown',function(e){e.stopPropagation();});d.addEventListener('click',function(e){e.stopPropagation();choose(s.id,true);});d.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(s.id,true);}});
-    pinLayer.appendChild(d);var lift=s.id==='isle'?1.19:surfaceR(s.lon,s.lat)+.008;s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(lift);s.el=d;pins.push(s);});
+    pinLayer.appendChild(d);var lift=s.id==='isle'?1.19:s.id==='fire'?1.085:surfaceR(s.lon,s.lat)+.008;s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(lift);s.el=d;pins.push(s);});
   var f=document.createElement('div');f.className='wpmPin k-free';f.innerHTML='<i></i><span></span>';pinLayer.appendChild(f);freePin=f;
 }
 var freePin=null;
@@ -747,7 +768,7 @@ function loop(t){
     cosmos.children.forEach(function(o){var a=o.userData.at;if(!a)return;o.position.copy(camera.position).addScaledVector(rt,a[0]).addScaledVector(upv,a[1]).addScaledVector(fw,a[2]);
       if(o.userData.tilt){o.quaternion.copy(camera.quaternion);o.rotateX(-.55);o.rotateZ(.32);o.rotateY(t*.00004);}});}
   sunView.copy(sunDir).transformDirection(camera.matrixWorldInverse);if(clouds)clouds.rotation.y=spinAngle*.06+t*.000012;if(proto)proto.rotation.y=spinAngle;
-  if(SHU){SHU.uTime.value=t*.001;SHU.uBump.value=.0007*sstep(4.6,1.7,cam.r);}animIsle(t,dt);
+  if(SHU){SHU.uTime.value=t*.001;SHU.uBump.value=.0007*sstep(4.6,1.7,cam.r);}animIsle(t,dt);animVolcano(t,dt);
   renderer.render(scene,camera);if(hostMode!=='menu'&&!EDIT.on)updatePins();if(mctx&&(t|0)%6===0)drawMini();
 }
 function drawMini(){
