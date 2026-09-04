@@ -621,7 +621,11 @@ html.lux #game #gIn.hasSug::placeholder{color:rgba(28,26,22,.34)}
 
 .shRow{display:flex;align-items:center;gap:10px;padding:7px 12px;border-bottom:1px solid rgba(19,18,13,.07)}
 .shRow:hover{background:rgba(19,18,13,.045)}
-.shRow .ic{width:22px;height:22px;flex:0 0 22px;opacity:.82}
+.shRow .ic{width:22px;height:22px;flex:0 0 22px;opacity:.82;color:var(--gold)}
+/* 货架图标走 currentColor，可这一条原来没给 color，于是继承正文的深墨——
+   浅羊皮纸底下看得见，换到深底主题上就成了黑线画在墨绿上（对比度 1.19），
+   等于整列图标凭空消失。装备栏的 .aSlot 与 .bCell 本来就写了 var(--gold)，
+   所以只有商店这一处漏了；两个主题下 --gold 各有各的值，照它给即可。 */
 .shRow .nm{flex:1;font-size:12px;letter-spacing:.04em;color:var(--txt)}
 .shRow .nm i{display:block;font-style:normal;font-size:9px;color:var(--mut);letter-spacing:.16em}
 .shRow .pr{font-size:11px;color:var(--gold2);letter-spacing:.06em;min-width:56px;text-align:right}
