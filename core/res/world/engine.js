@@ -4021,7 +4021,7 @@ function applyForma(){
   else formaCss.textContent='';
 }
 applyForma();setSeg('#sgForma',SET.forma);
-setSeg('#sgMvu',SET.mvuRing);try{mvRingMount();}catch(_){}
+try{mvRingMount();}catch(_){}
 var faceCss=document.createElement('style');document.head.appendChild(faceCss);
 function applyFace(){
   var fam=['','Georgia,\"Times New Roman\",serif','system-ui,sans-serif'][SET.face]||'';
@@ -5244,7 +5244,6 @@ $('#cxFile').addEventListener('change',function(){
 
         if(typeof SET!=='undefined'){
           if(sg.id==='sgForma'){SET.forma=idx;applyForma();setStore();}
-          if(sg.id==='sgMvu'){SET.mvuRing=idx;setStore();try{mvRingMount();}catch(_){}}
           if(sg.id==='sgFace'){SET.face=idx;try{localStorage.removeItem('guardianDragonFont');}catch(_){}applyFace();setStore();}
           if(sg.id==='sgImgOn'){SET.img.on=idx;setStore();}
           if(sg.id==='sgImgAuto'){SET.img.auto=idx;setStore();}
@@ -8377,9 +8376,9 @@ addEventListener('resize',function(){if(GAME.on){if(GMMV)GMMV.fit='';setTimeout(
 var MV={pos:0,tgt:null,drag:null,n:0,cards:[],raf:0,R:600,ang:[],maxH:600,
         box:null,stage:null,track:null,bg:null,bgx:null,rail:null,railx:null,foot:null,
         bgT:0,w:0,h:0,scroll:{}};
-function mvOn(){try{return SET&&SET.mvuRing>0;}catch(_){return false;}}
-function mvMode(){try{return SET.mvuRing===2?2:1;}catch(_){return 1;}}   /* 1＝卡叠　2＝环 */
-function mvCyc(){return MV.mode===2;}                       /* 只有「环」是闭的 */
+function mvOn(){return true;}                                /* [world] 情报台只留卡叠这一种排法 */
+function mvMode(){return 1;}
+function mvCyc(){return false;}
 function mvWrap(x){var n=MV.n||1;if(!mvCyc())return Math.max(0,Math.min(n-1,Math.round(x)));return ((x%n)+n)%n;}
 function mvNear(t){                                        /* 取绕得最近的那个目标，别横穿整圈 */
   var n=MV.n||1;
@@ -8454,12 +8453,9 @@ function mvRingMount(){
   var bg=document.createElement('canvas');bg.className='mvBg';
   var vig=document.createElement('div');vig.className='mvVig';
   var rail=document.createElement('canvas');rail.className='mvRail';
+  /* [world] 情报台只剩卡叠一种排法，段号与 ▲▼／列表 那一排随之撤掉 */
   var foot=document.createElement('div');foot.className='mvFoot';
-  foot.innerHTML='<span class="l">TABVLARIVM&nbsp;·&nbsp;情报台</span>'
-    +'<span class="r"><b class="mvIdx"></b>'
-    +'<span class="go" data-mv="up" title="上一段（也可直接点上面那一条）">▲</span>'
-    +'<span class="go" data-mv="dn" title="下一段（也可直接点下面那一条）">▼</span>'
-    +'<span class="go" data-mv="list" title="切回一栏到底的列表">列表</span></span>';
+
 
   var cards=[];
   for(var k=0;k<secs.length;k++){
@@ -8578,13 +8574,6 @@ function mvBind(){
     if(mvPhone()){try{gEl.classList.add('mvOpen');}catch(_){}}
     try{if(gEl)gEl.classList.remove('txMvShut');}catch(_){}
   },true);
-  MV.foot.addEventListener('click',function(e){
-    var g=e.target.closest?e.target.closest('[data-mv]'):null;if(!g)return;
-    var a=g.getAttribute('data-mv');
-    if(a==='up')MV.tgt=mvCyc()?Math.round(MV.pos)-1:Math.max(0,Math.round(MV.pos)-1);
-    else if(a==='dn')MV.tgt=mvCyc()?Math.round(MV.pos)+1:Math.min(MV.n-1,Math.round(MV.pos)+1);
-    else if(a==='list'){SET.mvuRing=0;try{setStore();}catch(_){}try{setSeg('#sgMvu',0);}catch(_){}mvRingMount();}
-  });
   MV.rail.addEventListener('pointerdown',mvRailPick);
   MV.rail.addEventListener('pointermove',function(e){if(e.buttons&1)mvRailPick(e);});
 }
@@ -8688,7 +8677,7 @@ function mvSize(){
      不清缓存它就以为自己写过了，卡会一直挂着 cw 那个宽度不动。 */
   for(i=0;i<C.length;i++){C[i].k='';C[i].w=-1;C[i].h=-1;C[i].bk='';C[i].mwk='';C[i].wk='';}
   /* 卡叠不再按内容量高：窗是固定一扇，长了自己滚。 */
-  if(MV.mode===2)mvHeights();
+
   var d=Math.min(devicePixelRatio||1,2);
   MV.bg.width=Math.max(1,Math.round(MV.box.clientWidth*d));
   MV.bg.height=Math.max(1,Math.round(MV.box.clientHeight*d));
@@ -8718,21 +8707,6 @@ function mvRemeasure(){
 }
 /* 卡高与转角表都随 pos 变（手风琴），每帧重算一次。写样式前先比一比，
    差不到一像素就不写——否则每帧六次无谓的重排。 */
-function mvHeights(){
-  var C=MV.cards,n=C.length;if(!n||!MV.full||MV.full.length!==n)return;
-  var hs=[],i;
-  for(i=0;i<n;i++){
-    var d=Math.abs(MV.pos-i);d=Math.min(d,n-d);         /* 环是闭的，距离也要绕着算 */
-    var w=clamp01(1-d);
-    var h=Math.round(MV.small+(MV.full[i]-MV.small)*w);
-    hs.push(h);
-    if(Math.abs((C[i].h||0)-h)>=1){C[i].el.style.height=h+'px';C[i].h=h;}
-  }
-  MV.ang=[0];
-  for(i=1;i<n;i++)MV.ang.push(MV.ang[i-1]+((hs[i-1]+hs[i])/2+MV.gap)/MV.R);
-  /* 闭合：最后一段绕回第一段的那一节弧也要算进去，总角 TOT 就是这只轮子的一整圈。 */
-  MV.tot=MV.ang[n-1]+((hs[n-1]+hs[0])/2+MV.gap)/MV.R;
-}
 /* 卡叠：每张卡都按自己的内容量高（不再拉手风琴——压在后面的只露一条抬头，
    伸缩没人看得见，反倒让翻页时高度一直在动）。 */
 function mvHeightsDeck(){
@@ -8742,91 +8716,6 @@ function mvHeightsDeck(){
     if(Math.abs((C[i].h||0)-h)>=1){C[i].el.style.height=h+'px';C[i].h=h;}
   }
 }
-function mvSeg(i){                                 /* 第 i 段到下一段的弧角（闭环，末段接回首段） */
-  var A=MV.ang,n=MV.n;
-  return (i<n-1?A[i+1]-A[i]:MV.tot-A[n-1])||1e-6;
-}
-function mvRot(){                                 /* 当前 pos 落在转角表上的角度 */
-  var A=MV.ang,n=MV.n;if(n<1)return 0;if(n<2)return A[0];
-  var p=((MV.pos%n)+n)%n,i=Math.floor(p);
-  return A[i]+(p-i)*mvSeg(i);
-}
-function mvPosFromRot(r){                          /* 反解：拖动按角度走，要换回段号 */
-  var A=MV.ang,n=MV.n,T=MV.tot;if(n<2||!T)return 0;
-  var q=((r%T)+T)%T;
-  for(var i=n-1;i>=0;i--)if(q>=A[i])return i+(q-A[i])/mvSeg(i);
-  return 0;
-}
-/* 把一张卡当作轮圈上的一段弧来描。
-     th   这张卡占的弧角（卡高 ÷ 半径）
-     sag  上下两端比中线退后多少   = R(1-cos(th/2))
-     f    退后之后端部收窄到中线的几成 = P / (P+sag)
-   端部的收窄是真透视：同一块面，退后的地方在屏幕上就是窄。
-   矮的侧卡占弧小、sag 近乎零，本来就该几乎是平的——这是对的，不是没生效。 */
-function mvShell(C,w,h,R,P,a,curve){
-  if(!curve){                                   /* 卡叠：面是平的，一只规规矩矩的方框 */
-    var k0=(w|0)+'x'+(h|0)+'-flat';
-    if(C.k===k0)return;
-    C.k=k0;
-    var x0=.5,x1=w-.5,t0=.5,t1=h-.5,bb=7;
-    C.p1.setAttribute('d','M'+x0+' '+t0+'H'+x1.toFixed(1)+'V'+t1.toFixed(1)+'H'+x0+'Z');
-    C.p1.setAttribute('stroke','rgba(19,18,13,.5)');C.p1.setAttribute('stroke-width','1');
-    C.p2.setAttribute('d','M'+x0+' '+(t0+bb)+'V'+t0+'H'+(x0+bb)
-      +'M'+(x1-bb).toFixed(1)+' '+t0+'H'+x1.toFixed(1)+'V'+(t0+bb)
-      +'M'+x1.toFixed(1)+' '+(t1-bb).toFixed(1)+'V'+t1.toFixed(1)+'H'+(x1-bb).toFixed(1)
-      +'M'+(x0+bb)+' '+t1.toFixed(1)+'H'+x0+'V'+(t1-bb).toFixed(1));
-    C.p2.setAttribute('stroke','var(--paper)');C.p2.setAttribute('stroke-width','1');
-    C.svg.setAttribute('viewBox','0 0 '+w.toFixed(1)+' '+h.toFixed(1));
-    C.fr.style.clipPath='none';
-    if(C.pad!==5){C.pad=5;C.body.style.left='5px';C.body.style.right='5px';}
-    return;
-  }
-  var th=h/R, e=P-R;
-  /* 站在胎内：卡的上下两端沿着内壁绕过来，离眼比中线更近，投影因此更宽。
-     f = 端宽 / 腰宽 = (e+R) / (e + R·cos(θ/2)) > 1 —— 腰细端宽。
-     实算只有百分之几，肉眼到不了分辨门槛，所以夸张 1.6 倍并封顶。 */
-  var f=(e+R)/(e+R*Math.cos(th/2));
-  f=Math.max(1.014,Math.min(1.26,1+(f-1)*1.6));
-  /* 腰收进去多少是按半宽算的，面板越宽收得越狠：手机上一张 372px 的卡能收掉 31px，
-     正文贴着边就被弧切掉半个字。绝对量封在 26px 以内。 */
-  f=Math.min(f,1+26/Math.max(40,w/2-1));
-  var key=(w|0)+'x'+(h|0)+'x'+f.toFixed(4);
-  if(C.k===key)return;
-  C.k=key;
-  var cx=w/2, hw1=w/2-1, hw0=hw1/f, y0=.5, y1=h-.5, ym=h/2;   /* hw1＝端宽，hw0＝腰宽 */
-  /* 正文左右各让开「腰比端窄的那一截」，字才不会被弧啃掉 */
-  var pad=Math.round(hw1-hw0)+3;
-  if(C.pad!==pad){C.pad=pad;C.body.style.left=pad+'px';C.body.style.right=pad+'px';}
-  var qx=2*hw0-hw1;                                  /* 二次贝塞尔控制点：让中点正好落在 hw0 */
-  var d='M'+(cx-hw1).toFixed(1)+' '+y0.toFixed(1)
-       +'H'+(cx+hw1).toFixed(1)
-       +'Q'+(cx+qx).toFixed(1)+' '+ym.toFixed(1)+' '+(cx+hw1).toFixed(1)+' '+y1.toFixed(1)
-       +'H'+(cx-hw1).toFixed(1)
-       +'Q'+(cx-qx).toFixed(1)+' '+ym.toFixed(1)+' '+(cx-hw1).toFixed(1)+' '+y0.toFixed(1)+'Z';
-  C.p1.setAttribute('d',d);
-  C.p1.setAttribute('stroke','rgba(19,18,13,.5)');
-  C.p1.setAttribute('stroke-width','1');
-  /* 四角括号：跟着弧走，钉在轮廓的四个角上 */
-  var b=7;
-  C.p2.setAttribute('d',
-     'M'+(cx-hw1).toFixed(1)+' '+(y0+b)+'V'+y0.toFixed(1)+'H'+(cx-hw1+b).toFixed(1)
-    +'M'+(cx+hw1-b).toFixed(1)+' '+y0.toFixed(1)+'H'+(cx+hw1).toFixed(1)+'V'+(y0+b)
-    +'M'+(cx+hw1).toFixed(1)+' '+(y1-b)+'V'+y1.toFixed(1)+'H'+(cx+hw1-b).toFixed(1)
-    +'M'+(cx-hw1+b).toFixed(1)+' '+y1.toFixed(1)+'H'+(cx-hw1).toFixed(1)+'V'+(y1-b));
-  C.p2.setAttribute('stroke','var(--paper)');
-  C.p2.setAttribute('stroke-width','1');
-  C.svg.setAttribute('viewBox','0 0 '+w.toFixed(1)+' '+h.toFixed(1));
-  /* 同一条弧扣成 clip-path，正文被弧裁住——弯的是整块面，不只是一圈线 */
-  var pts=[],k,pp,hw,N=9;
-  for(k=0;k<=N;k++){pp=-1+2*k/N;hw=hw0+(hw1-hw0)*pp*pp;
-    pts.push((cx+hw).toFixed(1)+'px '+(ym+pp*(h/2-.5)).toFixed(1)+'px');}
-  for(k=N;k>=0;k--){pp=-1+2*k/N;hw=hw0+(hw1-hw0)*pp*pp;
-    pts.push((cx-hw).toFixed(1)+'px '+(ym+pp*(h/2-.5)).toFixed(1)+'px');}
-  C.fr.style.clipPath='polygon('+pts.join(',')+')';
-}
-/* 卡叠：正前那张平摊在最前，其余的按远近一层层往后退，各自只露出抬头的一条。
-   没有任何旋转——面是平的，纵深全由「退后＋缩小＋压暗」给。翻页就是这一叠往上或
-   往下走一格，和切换视窗一个道理。 */
 function mvDeck(){
   var n=MV.n,C0=MV.cards;
   if(!n||!C0[0]||!C0[0].win)return;                /* 还没按卡叠挂载（刚从环模式切过来）*/
@@ -8918,51 +8807,7 @@ function mvDeck(){
      两帧＝三十几毫秒，看不出来。 */
   if((MV.stableN||0)>=2&&MV.box&&MV.box.classList.contains('mvBoot'))MV.box.classList.remove('mvBoot');
 }
-function mvLayout(){
-  if(MV.mode!==2)return mvDeck();
-  mvHeights();
-  var R=MV.R,rot=mvRot(),DEG=180/Math.PI,T=MV.tot||6.283;
-  var half=T*DEG/2;                       /* 环的半圈：绕过这里就该从另一头接上了 */
-  var fade=Math.max(12,half*.55);
-  for(var i=0;i<MV.n;i++){
-    var C=MV.cards[i],a=(MV.ang[i]-rot)*DEG;
-    /* 闭环：同一张卡在环上有无数个等价位置（每隔一整圈一个），取离正前最近的那一个。
-       所以转到末段时，第一段是从另一头转进来的，不会走到头就空掉。 */
-    a=((a%(half*2))+half*3)%(half*2)-half;
-    var aa=Math.abs(a),c=Math.cos(a*Math.PI/180);
-    var hid=(aa>=half-.5||aa>78);   /* 78° 往后离眼太近，投影要炸 */
-    C.el.style.transform=hid?'translate(-50%,-50%) scale(0)'
-      :('translate(-50%,-50%) rotateX('+a.toFixed(2)+'deg) translateZ('+(-R).toFixed(1)+'px)');
-    C.el.style.opacity=(hid?0:clamp01((half-aa)/fade)).toFixed(3);
-    C.el.style.visibility=hid?'hidden':'visible';
-    C.el.style.pointerEvents=hid?'none':'auto';
-    /* 转开的那几段离眼更近，投影会放大；宽度不补一下就要横着挤出面板，
-       段名当场被切掉半截。按放大率的 0.8 次方回缩：仍然比正前那张宽一点
-       （「贴着脸擦过去」的感觉留着），但不会溢出。 */
-    if(!hid){
-      var P0=MV.P||(R*1.3);
-      var mag=P0/Math.max(1,P0-R*(1-c));
-      var wq=Math.max(60,Math.round((MV.cw||C.el.clientWidth)/Math.pow(mag,.8)/2)*2);
-      if(C.w!==wq){C.w=wq;C.el.style.width=wq+'px';}
-      mvShell(C,wq,C.h||1,R,P0,a,true);
-    }
-    /* 明暗按曲面算，不是给平板糊一层渐变：光从轮心来，面上某一点的明暗取决于
-       那一点的法线偏离视线多少，也就是 cos(卡的角度 + 该点在卡内的弧偏移)。
-       于是最亮的那道横带并不钉在卡中间——卡一转，它就顺着弧面往近的一端滑。 */
-    var th=(C.h||1)/R, lum=[], q;
-    for(q=0;q<=4;q++){
-      var dl=(q/4-.5)*th*180/Math.PI;
-      lum.push('rgba(242,236,222,'+(0.94*(1-Math.pow(clamp01(Math.cos((a+dl)*Math.PI/180)),.9))).toFixed(3)+') '+(q*25)+'%');
-    }
-    C.fr.style.filter='brightness('+(.46+.54*Math.pow(clamp01(c),.7)).toFixed(3)+')';
-    C.shade.style.background='linear-gradient(to bottom,'+lum.join(',')+')';
-    C.shade.style.opacity='1';
-    /* 侧卡留住正文：斜过去的那几行字是立体感真正的来源，只剩一只空框就又平回去了。 */
-    C.ghost.style.opacity=clamp01(aa/22-.5).toFixed(3);
-    C.body.style.opacity=clamp01(1-aa/(half*1.25)).toFixed(3);
-    C.el.classList.toggle('on',aa<6);
-  }
-}
+function mvLayout(){return mvDeck();}
 function mvRailDraw(){
   var c=MV.rail,g=MV.railx;if(!g)return;
   /* 这一条导轨只跟「共几段、停在第几段、拨到哪儿」有关。三样都没变就别重画——
@@ -8998,11 +8843,11 @@ function mvBgDraw(now){
   /* 山只跟「拨到哪一段」有关。原来还把 now 一起喂进去，于是时间一走它就变，
      二十赫兹重画一张铺满面板的画布，整页的滤镜与毛玻璃跟着重来二十次。
      那点随时间的漂移本来也看不出来，去掉；位置变了照旧重画。 */
-  var _sig=[W,H,MV.mode,(MV.mode===2?mvRot():MV.pos).toFixed(2)].join('|');
+  var _sig=[W,H,MV.mode,MV.pos.toFixed(2)].join('|');
   if(MV.bg._sig===_sig)return;
   MV.bg._sig=_sig;
   now=0;
-  try{terrainPaint(MV.bgx,W,H,now,(MV.mode===2?mvRot()*420:MV.pos*230),0,.55);}catch(_){}
+  try{terrainPaint(MV.bgx,W,H,now,MV.pos*230,0,.55);}catch(_){}
 }
 function mvTick(){
   MV.raf=0;
@@ -9058,8 +8903,6 @@ function mvTick(){
     mvLayout();mvRailDraw();
     if(REDUCED){if(!MV.bgT){MV.bgT=now;mvBgDraw(now);}}
     else if(now-MV.bgT>48){MV.bgT=now;mvBgDraw(now);}    /* 山脉 20Hz 足够，别跟着满帧跑 */
-    var ix=MV.foot.querySelector('.mvIdx');
-    if(ix){var lab=pad(mvWrap(Math.round(MV.pos))+1)+'/'+pad(MV.n);if(ix.textContent!==lab)ix.textContent=lab;}
   }
   MV.raf=requestAnimationFrame(mvTick);
 }

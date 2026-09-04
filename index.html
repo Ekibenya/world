@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
   <link rel="stylesheet" href="/core/res/world/app.css?v=36">
   <link rel="stylesheet" href="/core/res/world/nouveau-base.css?v=2">
-  <link rel="stylesheet" href="/core/res/world/theme.css?v=25">
+  <link rel="stylesheet" href="/core/res/world/theme.css?v=26">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -207,8 +207,7 @@
       <div class="sub">透明度拖动即时生效：最左最通透，最右最接近纸面。开低配模式时会同时减弱正文界面的动效。</div>
       <div class="sRow"><span>OBSCVRITAS&nbsp;·&nbsp;面板透明度</span><input type="range" id="cfgGlass" min="0" max="100" value="80"></div>
       <div class="sRow"><span>FORMA&nbsp;·&nbsp;版式</span><span class="sSeg" id="sgForma"><span class="on">自动</span><span>桌面</span><span>手机</span></span></div>
-      <div class="sRow"><span>TABVLARIVM&nbsp;·&nbsp;情报台</span><span class="sSeg" id="sgMvu"><span>列表</span><span class="on">卡叠</span><span>环</span></span></div>
-      <div class="sub">情报台的排法。「列表」是一栏到底的老样子。「卡叠」把每一段立成一张卡，正前那张平着摊开，其余的往后一层层压住、只露出各自的抬头，像切换视窗——面是平的，不歪不弯。「环」是围成一圈绕横轴转的那一版，面会随角度斜过去，晕的话别选。<b>换段一律靠点：点上面或下面那一条抬头，它就翻上来；上下滑动只滚正前那张卡里的正文，两件事互不相干。</b>底条的&nbsp;▲▼&nbsp;与右侧刻度也能翻。底条上的「列表」可随时切回。</div>
+      
       <div class="sRow"><span>字体</span><span style="display:flex;gap:8px;align-items:center"><span class="sSeg" id="sgFace"><span class="on">等宽</span><span>衬线</span><span>系统</span></span><span class="gt" id="fontUp">自定义字体</span><input type="file" id="fontFile" accept=".ttf,.otf,.woff,.woff2" style="display:none"></span></div>
       <div class="sub" id="dispMsg" style="margin-top:8px"></div>
     </div>
@@ -808,7 +807,7 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=41"></script>
-  <script src="/core/res/world/engine.js?v=12"></script>
+  <script src="/core/res/world/engine.js?v=13"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>

@@ -282,7 +282,7 @@ html:has(#game.show) body{background:var(--sky)}
 #game .gmMenu{border-image-width:24px 32px;box-shadow:inset 0 0 0 3px transparent,inset 0 0 0 4px rgba(241,210,140,.16),0 20px 60px rgba(0,0,0,.55)}
 .feGl,#pnMap,#pnArm,#pnShop{border-image-width:46px 60px}
 /* 郁金香角花框（Jugendstil）——所有弹窗 */
-.gDlg .box,#dlgBook .box{border-image:url(/core/res/img/nouveau/frame-whiplash.svg) 26% 21% / 54px 84px / 0 round;box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.7);
+.gDlg .box,#dlgBook .box{border-image:var(--frame) 46% 30% / 58px 74px / 0 stretch;box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.7);
   background-image:var(--rosette),var(--tile),var(--ena-grad) !important;
   background-position:center 58%,center top,0 0 !important;background-size:min(72%,560px) auto,384px 384px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
 #dlgExit .box,#dlgEra .box,#dlgVoc .box,#dlgBgm .box{background-image:var(--dragon),var(--tile),var(--ena-grad) !important;
@@ -384,7 +384,8 @@ html:has(#game.show) body{background:var(--sky)}
 #feWrap .fePan{filter:none !important}
 .feGl{border:1px solid rgba(241,210,140,.5) !important;border-image:var(--frame) 46% 30% / 46px 60px / 0 stretch !important;border-radius:0;
   box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.7) !important}
-#feWrap[data-step="loc"] #fePanR.locPlanet .feGl{border:1px solid rgba(241,210,140,.5) !important}
+#feWrap[data-step="loc"] #fePanR.locPlanet .feGl{border:1px solid rgba(241,210,140,.5) !important;
+  border-image:var(--frame) 46% 30% / 46px 60px / 0 stretch !important;box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16) !important}
 /* 纪年插画页：时间轴不再压住插画 */
 #esReel{top:4vh;height:min(70vh,calc(100vh - 240px))}
 
@@ -415,3 +416,6 @@ html:has(#game.show) body{background:var(--sky)}
   --br:rgba(241,210,140,.25);--br-hi:#f1d28c;--br-corner:rgba(241,210,140,.4);--inv-bg:#d9b96a;
   --ink:#efe4c8;--ink2:#e8dcc0;--gold:#f1d28c;--gold2:#ffe9b8;--gold3:#efe4c8;
   --mut:#b6ab90;--grn2:#f1d28c;--red:#ff9d84;--red2:#ffb9a4}
+
+/* [world] 情报台只剩卡叠：段号与 ▲▼／列表 那一排不再出现 */
+.mvFoot{display:none !important}
