@@ -3311,6 +3311,7 @@ function bgmEl(){
 var BGK='AurumSilentiumRomaeCanit';
 function bgmSrc(i,cb){                       /* 资材同制：哈希 .dat + 滚动异或，取后于本机还原为音频流 */
   var e=BGM_LIST[i];
+  if(e.u)return cb(e.u);                    /* 本作自有曲库：直接播放静态音频 */
   if(e._u)return cb(e._u);
   fetch('/core/res/data/idx/v1/'+e.d+'.dat').then(function(r){return r.arrayBuffer();}).then(function(ab){
     var u=new Uint8Array(ab);
@@ -9534,8 +9535,15 @@ function svLoad(v){
     });
   }else svLoadCore(v);
 }
-/* 幕间乐：本作尚未收录曲库时退回程序化氛围 */
-BGM_LIST.length=0;
+/* 幕间乐：Desert Music Pack 六首完整曲目，按列表顺序连播 */
+BGM_LIST.splice(0,BGM_LIST.length,
+  {u:'/core/res/world/music/desert/01-dunes-of-silence.mp3',t:'Dunes of Silence'},
+  {u:'/core/res/world/music/desert/02-scorchlight-mirage.mp3',t:'Scorchlight Mirage'},
+  {u:'/core/res/world/music/desert/03-whispers-in-the-sand.mp3',t:'Whispers in the Sand'},
+  {u:'/core/res/world/music/desert/04-canyon-echoes.mp3',t:'Canyon Echoes'},
+  {u:'/core/res/world/music/desert/05-sunblade-horizon.mp3',t:'Sunblade Horizon'},
+  {u:'/core/res/world/music/desert/06-ash-and-oasis.mp3',t:'Ash and Oasis'}
+);
 function bgmPlay(i){
   if(!BGM_LIST.length){
     if(!auInit()){return;}
@@ -9568,6 +9576,8 @@ function bgmUi(){
   var ls=$('#bgList');
   if(ls&&ls.children.length)for(var i=0;i<ls.children.length;i++)ls.children[i].style.color=(i===BGM.i&&BGM.a&&BGM.a.src)?'var(--gold-hi)':'';
 }
+/* 页面打开即尝试播放首曲；浏览器若禁止有声自动播放，bgmArm 会在首次交互时继续。 */
+try{if(BGM_LIST.length&&!BGM.a)bgmPlay(0);}catch(_){}
 /* 主菜单三钮 */
 (function(){
   var c=$('#miCont');if(c)c.addEventListener('pointerup',function(e){e.stopPropagation();
