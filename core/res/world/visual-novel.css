@@ -55,6 +55,9 @@
 #vnZoom:hover,#vnHome:hover{border-color:rgba(201,155,63,.7);color:#fff}
 
 #vnLoc{top:68px;max-height:calc(65% - 58px)}
+/* 全屏这一档画框铺到窗子左缘，左舷那四枚缩略窗（z34）正压在纪年题头上。
+   只有这一档要让开那一列的宽度；小窗与放大两档画框本来就从 100px 起。 */
+@media (min-width:761px){#game.txBig #vnEra{left:96px;max-width:calc(62% - 96px)}}
 
 #vnCast .vnName{position:absolute;bottom:calc(var(--vnTalkH,0px) + var(--vnGap,0px) + 6px);z-index:4;
   transform:translateX(-50%);white-space:nowrap;pointer-events:none;

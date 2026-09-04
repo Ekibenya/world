@@ -3875,6 +3875,9 @@ function applyGlass(){
   glassCss.textContent='#game::before{background:radial-gradient(ellipse 90% 80% at 50% 42%,'
     +'transparent 50%,rgba(0,0,0,'+(.30+.40*a).toFixed(2)+') 100%) !important}'
     +'#game .gMfd{background-color:rgba('+SKY+','+(.16+.30*a).toFixed(2)+') !important}'
+    /* [world] 视觉小说全屏时这一列压在整幅画面上，再自带底色就是画面右边
+       横着一条 322px 的暗板子。卡叠自己带框，浮在画上就够了。 */
+    +'#game.txBig .gMfd{background-color:transparent !important;border-left-color:transparent !important}'
     +'#game .gInput{background:linear-gradient(0deg,rgba('+SKY+','+(.62+.34*a).toFixed(2)+') 0%,rgba('+SKY+','+(.40+.34*a).toFixed(2)+') 42%,rgba('+SKY+',0) 76%) !important}'
     +'.gPanel,#pnTx{background-color:rgba('+GLS+','+(.20+.40*a).toFixed(2)+') !important}'
     +'#game #pnMap,#game #pnArm,#game #pnShop'

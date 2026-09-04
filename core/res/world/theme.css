@@ -85,6 +85,10 @@ html:has(#game.show) body{background:var(--sky)}
 
 /* ── 情报台：珐琅卡片，角上鞭形花饰 ── */
 #game .gMfd{background:rgba(5,7,12,.3);border-left:1px solid rgba(241,210,140,.12)}
+/* 视觉小说全屏时这一列压在整幅画面上：再自带底色，右边就横着一条 322px 的
+   深色板子，像把画挖掉一块。卡叠自己带框，浮在画面上就够了。
+   小窗与放大两档不动——那两档画框本来就让开了这一列，底色是它自己的台面。 */
+#game.txBig .gMfd{background:transparent !important;border-left-color:transparent !important}
 .gMfd.mvDeck .mvWin,.mvCard .cfr,.gMfd.mvDeck .mvCard .cfr{background:linear-gradient(180deg,rgba(27,45,38,.92),rgba(15,26,21,.94)),var(--corner) left top/64px 64px no-repeat,var(--corner-br) right bottom/64px 64px no-repeat;
   background-blend-mode:normal;border:1px solid rgba(241,210,140,.55);border-radius:6px;
   box-shadow:inset 0 0 0 3px var(--ena0),inset 0 0 0 4px rgba(241,210,140,.28),0 20px 60px rgba(0,0,0,.6)}

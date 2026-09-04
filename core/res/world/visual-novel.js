@@ -97,19 +97,37 @@
     var a=$('vnBgA'),b=$('vnBgB'),show=V.bgFlip?a:b,hide=V.bgFlip?b:a;V.bgFlip=!V.bgFlip;
     var im=new Image();im.onload=function(){show.src=asset.src;show.style.opacity='1';hide.style.opacity='0';mark(asset.src);};im.src=asset.src;
   }
+  function normName(text){return String(text||'').replace(/[\s　]+/g,'').replace(/[（(].*?[）)]$/,'');}
+  /* 名录里一个人常写成「蒂雅／萝蕾娜／主角龙」这一串别名，而面板递过来的
+     只会是其中一个（「蒂雅」）。只比整串的话谁也对不上，于是人人退到通用池——
+     可本作的通用池是空的（species 只有 dragon 与 character 两种，没有 human），
+     结果一张立绘也出不来。所以这儿把别名拆开，两个方向各认一次。 */
+  function aliases(name){return normName(name).split(/[／\/｜|·・,，]/).filter(Boolean);}
   function rosterEntry(era,name){
-    var key=String(name||'').replace(/[\s　]+/g,'').replace(/[（(].*?[）)]$/,'');
-    for(var i=0;i<era.characters.length;i++)if(era.characters[i].name.replace(/[\s　]+/g,'')===key)return era.characters[i];
+    var key=normName(name);if(!key)return null;
+    var i,j,alts;
+    for(i=0;i<era.characters.length;i++)if(normName(era.characters[i].name)===key)return era.characters[i];
+    for(i=0;i<era.characters.length;i++){
+      alts=aliases(era.characters[i].name);
+      for(j=0;j<alts.length;j++)if(alts[j]===key)return era.characters[i];
+    }
+    var mine=aliases(name);
+    for(i=0;i<era.characters.length;i++){
+      alts=aliases(era.characters[i].name);
+      for(j=0;j<alts.length;j++)if(mine.indexOf(alts[j])>=0)return era.characters[i];
+    }
     return null;
   }
+  /* 认不出来的人也得有一张脸：本作的立绘只按 dragon／character 两类归档，
+     退回 cat 那边的 'human' 等于退回一个空池子。 */
   function speciesOf(era,npc){
     var known=rosterEntry(era,npc.name);if(known)return known.species;
-    return CAT_RX.test([npc.role,npc.state,npc.thought,npc.name].join('|'))?'dragon':'human';
+    return CAT_RX.test([npc.role,npc.state,npc.thought,npc.name].join('|'))?'dragon':'character';
   }
   function heroNameSafe(state){if(state&&state.hero)return state.hero;try{return heroName()||'你';}catch(_){return '你';}}
   function castOf(era,state){
     var p=state.panel||{},hero=heroNameSafe(state),knownHero=rosterEntry(era,hero);
-    var out=[{name:hero,role:'玩家',species:knownHero?knownHero.species:'cat',hero:true}],seen={};seen[out[0].name]=1;
+    var out=[{name:hero,role:'玩家',species:knownHero?knownHero.species:'dragon',hero:true}],seen={};seen[out[0].name]=1;
     (p.npcs||[]).forEach(function(n){var name=String(n.name||'').trim();if(!name||seen[name])return;seen[name]=1;out.push({name:name,role:n.role||'',species:speciesOf(era,n),source:n});});
     return out;
   }
@@ -212,7 +230,7 @@
     var host=$('vnEnsemble');if(!host)return;host.innerHTML='';
     var body=String(state.text||''),crowd=cast.length>4||/众人|人群|队伍|全队|工场|军阵|家人/.test(body);
     if(!crowd)return false;
-    ['dragon','human'].forEach(function(sp,si){
+    ['dragon','character'].forEach(function(sp,si){
       if(!cast.some(function(p){return p.species===sp;}))return;
       var pool=era.assets.group.filter(function(a){return a.species===sp;});if(!pool.length)return;
       var asset=pool[0],node=plate('',asset.src,function(){mark(asset.src);});
@@ -329,16 +347,22 @@
   }
   /* 对白只认真正的署名关系：姓名标签、姓名+说话动词、或引号后的“某某说”。
      引号里的被称呼者不参与判定；多人在场又没有署名时保持中性。 */
+  /* 玩家自己那一位从前完全不参与判定（actorsOf 把 hero 滤掉了），于是
+     「蒂雅答：『……』」这种明写了署名的句子，在场只有一位 NPC 时会被
+     「只有一位就是她」那条捷径判给 NPC——亮错人的立绘。所以先按署名认
+     一遍全体（含玩家），认不出署名才退回那条捷径。 */
   function dialogueOwner(item,cast){
-    var actors=actorsOf(cast);if(!actors.length)return '';
-    if(actors.length===1)return actors[0].name;
+    var actors=actorsOf(cast);
+    var heroes=(cast||[]).filter(function(p){return p&&p.hero&&String(p.name||'').trim();});
+    var pool=actors.concat(heroes);
+    if(!pool.length)return '';
     var par=item.par,start=item.start,local=item.text;
     var rel=local.search(/[「“]/),open=rel>=0?start+rel:start;
     var close=Math.max(par.lastIndexOf('」',start+local.length),par.lastIndexOf('”',start+local.length));
     var before=par.slice(Math.max(0,open-64),open),after=close>=open?par.slice(close+1,close+54):'';
     var verb='(?:说|问|答|喊|叫|道|骂|吼|嘀咕|低声说|开口|出声|应声|接话|回话|喝道|嚷道)';
     var scored=[];
-    actors.forEach(function(p){
+    pool.forEach(function(p){
       var n=rxEsc(p.name),score=0;
       if(new RegExp(n+'\\s*(?:对|向|朝)\\s*[^。！？\\n「”]{0,24}'+verb+'[：:,，\\s]*$').test(before))score=Math.max(score,190);
       if(new RegExp(n+'[^。！？\\n「”]{0,20}'+verb+'[：:,，\\s]*$').test(before))score=Math.max(score,150);
@@ -347,8 +371,8 @@
       if(score)scored.push({name:p.name,score:score});
     });
     scored.sort(function(a,b){return b.score-a.score;});
-    if(!scored.length||scored[1]&&scored[1].score===scored[0].score)return '';
-    return scored[0].name;
+    if(scored.length&&!(scored[1]&&scored[1].score===scored[0].score))return scored[0].name;
+    return actors.length===1?actors[0].name:'';
   }
   function talkStop(){T.gen++;if(T.timer){clearTimeout(T.timer);T.timer=0;}T.typing=0;}
   function talkClose(){
