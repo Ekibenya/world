@@ -3693,7 +3693,7 @@ function felRisuPrepare(messages,options){
     return felRisuPrompts().then(function(controls){controls.apply(SET.risu);
       return risu.activateEra(ei,felRisuNpcKeys(ei));
     }).then(function(){
-      return risu.setSessionContent({systemPrompt:system,authorNote:FELINIA_AUTHOR_NOTE,firstMessage:first,
+      return risu.setSessionContent({systemPrompt:FEL_RISU_NATIVE.composeSystemPrompt(system),authorNote:FELINIA_AUTHOR_NOTE,firstMessage:first,
         localLore:loreCustomGet().filter(function(e){return e&&e.on!==false;}),
         loreTokenBudget:Math.max(64,Math.round((parseInt(SET.loreBud,10)||20000)*1.1)),
         loreScanDepth:parseInt((SET.risu||{}).loreDepth,10)||5,

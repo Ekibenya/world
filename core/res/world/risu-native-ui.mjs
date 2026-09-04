@@ -42,7 +42,7 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
  const refresh=key=>render(key);
  function changed(){persist();onPresetChanged?.();refresh('preset');}
  function presetPane(host){
-  const manager=section(host,'Risu 原生预设','选择后立即启用；选项保持作者定义与已保存的值。');
+  const manager=section(host,'Risu 原生预设','首次进入自动使用 Default，与 World 游戏规则共同生效；重复的生成参数默认使用 World 设置。');
   const list=native.db().botPresets||[];
   field(manager,'当前预设',native.db().botPresetsId,v=>{native.changePreset(Number(v));onPresetChanged?.();refresh('preset');},'text',Object.fromEntries(list.map((p,i)=>[i,p.name||`预设 ${i+1}`])));
   manager.append(button('新建',()=>{native.addPreset();refresh('preset');}),button('复制当前预设',()=>{native.addPreset({...clone(native.preset()),name:(native.preset()?.name||'预设')+' Copy'});refresh('preset');}),button('删除当前预设',()=>{if(confirm('删除当前原生预设？')){native.deletePreset(native.db().botPresetsId);refresh('preset');}}),button('导出 .risup',async()=>{const p=await native.exportPreset();download((p.data.name||'preset')+'.risup',p.buf);}));
@@ -51,6 +51,8 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
   const p=clone(native.preset());if(!p){manager.append(el('p','尚未导入原生预设，可新建或导入后编辑模板。',{className:'sub'}));manager.querySelector('select').disabled=true;for(const b of manager.querySelectorAll('button'))if(['复制当前预设','删除当前预设','导出 .risup'].includes(b.textContent))b.disabled=true;return;}
   field(manager,'名称',p.name,v=>{p.name=v;native.editPreset(p);changed();});
   field(manager,'生成参数来源',native.parameterSource(),v=>{native.setParameterSource(v);},'text',{preset:'使用当前原生预设',world:'使用 World 生成引擎设置'});
+  field(manager,'叠加原生主提示词',!!native.state().combineWorldPrompt,v=>{native.state().combineWorldPrompt=v;persist();},'checkbox');
+  manager.append(el('p',p.promptTemplate?'当前使用自定义模板，提示词按模板内容和顺序执行；主提示词叠加仅用于非模板预设。':'开启后，原生主提示词在前，World 游戏规则和玩家指令在后。NSFW 由连接 AI 中的 YES / NO 单独控制。',{className:'sub'}));
   const template=section(host,'提示模板','条目顺序就是执行顺序；条件使用 Risu 原生宏。修改后点击保存模板。');
   const draft=clone(p);draft.promptTemplate??=[];
   field(template,'使用提示模板',p.promptTemplate!=null,v=>{p.promptTemplate=v?draft.promptTemplate:null;native.editPreset(p);changed();},'checkbox');

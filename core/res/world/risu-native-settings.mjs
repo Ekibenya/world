@@ -43,11 +43,26 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   }
   function restore() {
     const s=state(),d=db();
+    // Felinia installs an empty library. Seed the exact native default once;
+    // World supplies the game prompt and the single set of request parameters.
+    const seed=!s.presets?.length&&!getSettings().nativePreset;
+    if(seed){
+      s.presets=[{...clone(database.presetTemplate),name:'Default'}];s.index=0;
+      s.parameterSource??='world';s.combineWorldPrompt??=true;
+      getSettings().nativePreset=clone(s.presets[0]);
+    }
     if(s.presets?.length){d.botPresets=clone(s.presets);d.botPresetsId=Math.min(s.index||0,s.presets.length-1);database.changeToPreset(d.botPresetsId,false);}
     for(const key of STORAGE)if(s[key]!==undefined)d[key]=clone(s[key]);
     applyModels();modules.refreshModules();
     if(typeof getSettings().jailbreakToggle==='boolean')d.jailbreakToggle=getSettings().jailbreakToggle;
     if(typeof getSettings().jailbreak==='string')d.jailbreak=getSettings().jailbreak;
+    if(seed)capture();
+  }
+  function composeSystemPrompt(worldPrompt='') {
+    // Native legacy assembly expands {{original}} itself. Template presets
+    // retain their author's order and fields, without an extra injected block.
+    if(!state().combineWorldPrompt||db().promptTemplate||worldPrompt.includes('{{original}}'))return worldPrompt;
+    return ['{{original}}',worldPrompt].filter(Boolean).join('\n\n');
   }
   function applyModels() {
     const m=state().models,d=db();
@@ -137,5 +152,5 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   }
   return {database,modules,plugins,stores,triggers,db,state,preset,capture,restore,afterProvider,startPlugins,
     changePreset,editPreset,addPreset,deletePreset,exportPreset,parameterSource,setParameterSource,options,getVar,setVar,setLocal,unpin,
-    applySession,saveSession,memorySettings,runManual,applyModels};
+    applySession,saveSession,memorySettings,runManual,applyModels,composeSystemPrompt};
 }
