@@ -32,7 +32,9 @@ html:has(#game.show) body{background:var(--sky)}
 #game .gTools .gt:hover,#game .gTools .gt.on{color:#2a1d06;border-color:var(--star-hi);background:radial-gradient(circle at 50% 30%,#ffe9b8,#f1d28c 55%,#c79b3f);box-shadow:0 0 16px rgba(255,178,87,.55)}
 
 /* ── 正文舞台：珐琅板 + 鞭形曲线 ── */
-#game .gMain{isolation:isolate}
+/* .gMain 不能加 isolation:isolate：那会把里头的 .gInput（z27）关进 .gMain 自己的层叠上下文，
+   视觉小说全屏时 #pnTx（z27 之下的 z25，但在 .gMain 之后绘制）就会盖住输入条。
+   cat 那边没有这一层隔离，所以能一边看全屏立绘一边打字——这里照 cat 来。 */
 #game .gNarr{background:linear-gradient(180deg,rgba(20,34,28,.80),rgba(12,22,18,.86));color:#e8dcc0;
   border-left:1px solid rgba(241,210,140,.5);border-right:1px solid rgba(241,210,140,.5);
   box-shadow:inset 3px 0 0 var(--ena0),inset -3px 0 0 var(--ena0),inset 4px 0 0 rgba(241,210,140,.28),inset -4px 0 0 rgba(241,210,140,.28),inset 0 0 90px rgba(0,0,0,.35),0 30px 90px rgba(0,0,0,.55);
@@ -426,25 +428,79 @@ html:has(#game.show) body{background:var(--sky)}
   background:var(--gold-matte);border:1px solid var(--gold-matte);border-radius:12px 3px 12px 3px;transition:background .18s,box-shadow .18s}
 #worldMapDetail #wmGo:hover{background:var(--star);box-shadow:0 0 16px rgba(241,210,140,.4)}
 .wmRow.wmPlace span{color:var(--frame-mut)}
-#wmPlaceForm{margin-top:8px;padding:10px 12px;border:1px solid rgba(241,210,140,.4);border-radius:3px;
-  background:rgba(0,0,0,.34);display:grid;gap:7px}
-#wmPlaceForm .wmRow{display:flex;align-items:center;gap:8px;margin:0}
-#wmPlaceForm .wmPlaceHead{justify-content:space-between}
-#wmPlaceForm b{font-family:var(--dispf);font-weight:400;letter-spacing:.2em;color:var(--star)}
-#wmPlaceForm #wmPlaceAt{font-size:9px;letter-spacing:.08em;color:var(--frame-mut)}
-#wmPlaceForm label>span{flex:none;width:44px;font-size:9.5px;letter-spacing:.1em;color:var(--frame-mut)}
-#wmPlaceForm input,#wmPlaceForm textarea{flex:1;min-width:0;padding:6px 8px;font-family:inherit;font-size:10.5px;line-height:1.7;
-  color:var(--frame-txt);background:rgba(0,0,0,.3);border:1px solid rgba(241,210,140,.3);border-radius:3px;outline:0;resize:vertical}
-#wmPlaceForm input:focus,#wmPlaceForm textarea:focus{border-color:var(--ln-hi);background:rgba(0,0,0,.4)}
-#wmPlaceForm input:disabled{opacity:.55}
-#wmPlaceForm #wmPlaceOk{color:#1b1407 !important;background:var(--gold-matte) !important;border-color:var(--gold-matte) !important}
-/* 标注表单浮在两处宿主之上（开局选地点／正文地图） */
-#wmPlaceForm{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:92;width:min(92vw,360px);
-  box-shadow:0 26px 70px rgba(0,0,0,.7)}
+
+/* ── 立碑弹窗：和其余弹窗同一副金边珐琅匾额 ── */
+#wmPlaceScrim{position:fixed;inset:0;z-index:91;background:rgba(5,7,12,.72);
+  -webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+#wmPlaceScrim[hidden]{display:none !important}
+#wmPlaceForm{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:92;
+  width:min(94vw,480px);max-height:88vh;overflow:auto;box-sizing:border-box;
+  display:grid;gap:0;padding:40px 58px 36px;color:var(--frame-txt);
+  border:1px solid rgba(241,210,140,.55);
+  border-image:var(--frame) 46% 30% / 46px 58px / 0 stretch;
+  background-image:var(--tile),var(--ena-grad);
+  background-size:384px 384px,100% 100%;background-position:center top,0 0;background-repeat:repeat,no-repeat;
+  background-blend-mode:soft-light,normal;background-color:#14221c;
+  box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.72)}
+#wmPlaceForm[hidden]{display:none !important}
+/* 抬头：小字眉标 · 主标 · 坐标读数 */
+#wmPlaceForm .wmPlaceHead{display:grid;grid-template-columns:1fr auto;grid-template-areas:'eye eye' 'ttl at';align-items:baseline;gap:2px 12px}
+#wmPlaceForm .wmPlaceEye{grid-area:eye;font-family:var(--dispf);font-style:normal;font-size:8.5px;
+  letter-spacing:.34em;color:var(--star-dim);opacity:.85}
+#wmPlaceForm b{grid-area:ttl;font-family:var(--dispf);font-weight:400;font-size:16px;
+  letter-spacing:.26em;color:var(--frame-txt);text-shadow:0 0 12px rgba(241,210,140,.28)}
+#wmPlaceForm #wmPlaceAt{grid-area:at;justify-self:end;font-family:var(--mono);font-size:9px;
+  letter-spacing:.06em;font-variant-numeric:tabular-nums;color:var(--star-dim);
+  padding:3px 9px 2px;border:1px solid rgba(241,210,140,.28);border-radius:10px 3px 10px 3px;
+  background:rgba(241,210,140,.06);white-space:nowrap}
+/* 抬头与表单之间的一枝藤 */
+#wmPlaceForm .wmPlaceRule{position:relative;height:1px;margin:16px 0 18px;
+  background:linear-gradient(90deg,transparent,rgba(241,210,140,.42) 18%,rgba(241,210,140,.42) 82%,transparent)}
+#wmPlaceForm .wmPlaceRule::after{content:'';position:absolute;left:50%;top:50%;width:7px;height:7px;
+  transform:translate(-50%,-50%) rotate(45deg);
+  background:var(--amber);box-shadow:0 0 0 3px #14221c,0 0 10px rgba(255,178,87,.5)}
+/* 表单：地名与坐标名并排，志略通栏；标签在框上方 */
+#wmPlaceForm .wmPlaceBody{display:grid;grid-template-columns:1fr 1fr;gap:14px 16px;margin-bottom:22px}
+#wmPlaceForm .wmField{display:grid;gap:5px;margin:0;min-width:0}
+#wmPlaceForm .wmFieldWide{grid-column:1 / -1}
+#wmPlaceForm .wmField>span{font-family:var(--dispf);font-size:9px;letter-spacing:.24em;
+  color:var(--star-dim);padding-left:1px}
+#wmPlaceForm input,#wmPlaceForm textarea{width:100%;min-width:0;box-sizing:border-box;
+  padding:8px 10px;font-family:inherit;font-size:11.5px;line-height:1.75;
+  color:var(--frame-txt);background:rgba(241,210,140,.07);
+  border:0;border-bottom:1px solid rgba(241,210,140,.32);border-radius:4px 4px 0 0;
+  outline:0;resize:vertical;transition:border-color .18s,background .18s,box-shadow .18s}
+#wmPlaceForm textarea{line-height:1.9}
+#wmPlaceForm input::placeholder,#wmPlaceForm textarea::placeholder{color:rgba(182,171,144,.5)}
+#wmPlaceForm input:focus,#wmPlaceForm textarea:focus{background:rgba(241,210,140,.12);
+  border-bottom-color:var(--star);box-shadow:0 1px 0 0 var(--star),0 6px 18px -12px rgba(241,210,140,.8)}
+#wmPlaceForm input:disabled{opacity:.5;border-bottom-style:dashed}
+/* 页脚两钮：幽灵描边 + 哑光金主钮 */
+#wmPlaceForm .wmActs{display:flex;justify-content:flex-end;gap:10px;margin:0}
+#wmPlaceForm .wmActs button{padding:9px 22px;cursor:pointer;font-family:var(--dispf);font-weight:400;
+  font-size:11px;letter-spacing:.2em;border-radius:12px 3px 12px 3px;
+  transition:color .18s,background .18s,border-color .18s,box-shadow .18s}
+#wmPlaceForm #wmPlaceCancel{color:var(--frame-mut);background:transparent;
+  border:1px solid rgba(241,210,140,.32)}
+#wmPlaceForm #wmPlaceCancel:hover{color:var(--star-hi);border-color:var(--star);background:rgba(241,210,140,.08)}
+#wmPlaceForm #wmPlaceOk{color:#2a1d06;border:1px solid rgba(209,171,85,.9);
+  background:linear-gradient(180deg,#ffe9b8,#f1d28c 60%,#d1ab55);
+  box-shadow:0 2px 8px rgba(0,0,0,.45)}
+#wmPlaceForm #wmPlaceOk:hover{background:linear-gradient(180deg,#fff4d8,#ffe0a0 60%,#e0bc63);
+  box-shadow:0 2px 10px rgba(0,0,0,.45),0 0 22px rgba(241,210,140,.45)}
+@media (max-width:560px){
+  #wmPlaceForm{padding:32px 40px 30px;border-image-width:34px 42px}
+  #wmPlaceForm .wmPlaceBody{grid-template-columns:1fr}
+  #wmPlaceForm b{font-size:14px}
+}
 .wpmPlacing canvas{cursor:crosshair}
 .fePlace{display:flex;gap:6px;margin-bottom:6px}
 .fePlaceBtn{flex:1;text-align:center;padding:7px 4px;font-size:10.5px;border:1px solid var(--ln) !important;border-radius:3px;color:var(--txt-btn) !important;background:transparent !important;cursor:pointer}
 .fePlaceBtn:hover{border-color:var(--ln-hi) !important;color:var(--star-hi) !important;background:var(--haze) !important}
 .fePlaceBtn.on{border-color:var(--ln-hi) !important;color:var(--star-hi) !important;background:var(--haze) !important}
 .fePlaceHint{margin:0 0 16px;font-size:9.5px;line-height:1.8;letter-spacing:.06em;color:var(--frame-mut)}
-#wmPlaceForm[hidden]{display:none !important}
+
+/* 开局选地点：右侧地志再往右挪，别压到星球 */
+@media (min-width:861px){
+  #feWrap[data-step="loc"] #fePanR.locPlanet{right:1.2%;width:30%}
+}

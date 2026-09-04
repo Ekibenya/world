@@ -153,10 +153,12 @@ function openPlaceForm(tool, lon, lat, geo) {
   $('#wmPlaceKind').value = tool === 'city' ? '城市' : tool === 'village' ? '村庄' : '';
   $('#wmPlaceKind').disabled = tool !== 'site';
   $('#wmPlaceDesc').value = '';
+  const sc = $('#wmPlaceScrim'); if (sc) sc.hidden = false;
   form.hidden = false; $('#wmPlaceName').focus();
 }
 function closePlaceForm() {
   PLACE_AT = null; const f = $('#wmPlaceForm'); if (f) f.hidden = true;
+  const sc = $('#wmPlaceScrim'); if (sc) sc.hidden = true;
   if (PLACING) { PLACING = null; planet()?.stopPlace(); if (state.step === 'loc') renderRoute(); }
 }
 function commitPlace() {
@@ -391,6 +393,8 @@ document.addEventListener('click', (event) => {
 });
 $('#wmPlaceOk')?.addEventListener('click', commitPlace);
 $('#wmPlaceCancel')?.addEventListener('click', closePlaceForm);
+$('#wmPlaceScrim')?.addEventListener('click', closePlaceForm);
+$('#wmPlaceForm')?.addEventListener('keydown', (e) => { if (e.key === 'Escape') { e.preventDefault(); closePlaceForm(); } });
 $('#wmPlaceName')?.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); commitPlace(); } });
 $('#feArtX').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));
 $('#feArtOk').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));

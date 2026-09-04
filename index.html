@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
   <link rel="stylesheet" href="/core/res/world/app.css?v=36">
   <link rel="stylesheet" href="/core/res/world/nouveau-base.css?v=2">
-  <link rel="stylesheet" href="/core/res/world/theme.css?v=30">
+  <link rel="stylesheet" href="/core/res/world/theme.css?v=31">
   <title>守护龙纪事</title>
   <script defer src="/_vercel/insights/script.js"></script>
 </head>
@@ -814,14 +814,22 @@
   <script src="/core/res/world/visual-novel.js?v=13"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>
   <script type="module" src="/core/res/runtime/risu/risu-headless.js?v=36"></script>
-  <script type="module" src="/core/res/world/app.js?v=31"></script>
+  <script type="module" src="/core/res/world/app.js?v=32"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
-  <div id="wmPlaceForm" hidden>
-    <div class="wmRow wmPlaceHead"><b id="wmPlaceTitle">新增地点</b><span id="wmPlaceAt"></span></div>
-    <label class="wmRow"><span>地名</span><input id="wmPlaceName" type="text" maxlength="24" placeholder="例：黑鸦渡口"></label>
-    <label class="wmRow"><span>坐标名</span><input id="wmPlaceKind" type="text" maxlength="16" placeholder="例：渡口、关隘、废墟"></label>
-    <label class="wmRow"><span>介绍</span><textarea id="wmPlaceDesc" rows="2" maxlength="220" placeholder="这里有什么、谁在这里、为何值得一去…"></textarea></label>
-    <div class="wmRow wmActs"><button type="button" id="wmPlaceCancel">取消</button><button type="button" id="wmPlaceOk">落 定</button></div>
+  <div id="wmPlaceScrim" hidden></div>
+  <div id="wmPlaceForm" hidden role="dialog" aria-modal="true" aria-labelledby="wmPlaceTitle">
+    <div class="wmPlaceHead">
+      <i class="wmPlaceEye">TERRA · 立 碑</i>
+      <b id="wmPlaceTitle">新增地点</b>
+      <span id="wmPlaceAt"></span>
+    </div>
+    <div class="wmPlaceRule" aria-hidden="true"></div>
+    <div class="wmPlaceBody">
+      <label class="wmField"><span>地名</span><input id="wmPlaceName" type="text" maxlength="24" placeholder="例：黑鸦渡口"></label>
+      <label class="wmField"><span>坐标名</span><input id="wmPlaceKind" type="text" maxlength="16" placeholder="例：渡口、关隘、废墟"></label>
+      <label class="wmField wmFieldWide"><span>志 略</span><textarea id="wmPlaceDesc" rows="3" maxlength="220" placeholder="这里有什么、谁在这里、为何值得一去…"></textarea></label>
+    </div>
+    <div class="wmActs"><button type="button" id="wmPlaceCancel">取 消</button><button type="button" id="wmPlaceOk">落 定</button></div>
   </div>
 </body>
 </html>
