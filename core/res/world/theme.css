@@ -265,7 +265,7 @@ html:has(#game.show) body{background:var(--sky)}
 
 /* ═══ 真迹装饰：公共领域新艺术素材（见 core/res/img/nouveau/CREDITS.md） ═══ */
 :root{--n:/core/res/img/nouveau;
-  --frame:url(/core/res/img/nouveau/frame-whiplash-corners.svg);--frame2:url(/core/res/img/nouveau/frame-tulip-corners.svg);
+  --frame:url(/core/res/img/nouveau/frame-corners.png);--frame2:url(/core/res/img/nouveau/frame-tulip-corners.svg);
   --tile:url(/core/res/img/nouveau/tile-faint.png);--wings:url(/core/res/img/nouveau/divider-whiplash.svg);
   --divider:url(/core/res/img/nouveau/divider-buds.svg);
   --sep:url(/core/res/img/nouveau/separator-seroes.svg);--tail:url(/core/res/img/nouveau/tailpiece-leaf.svg);
@@ -284,11 +284,11 @@ html:has(#game.show) body{background:var(--sky)}
 /* 郁金香角花框（Jugendstil）——所有弹窗 */
 .gDlg .box,#dlgBook .box{border-image:var(--frame) 46% 30% / 46px 60px / 16px stretch;box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.7);
   background-image:var(--rosette),var(--tile),var(--ena-grad) !important;
-  background-position:center 58%,center top,0 0 !important;background-size:min(72%,560px) auto,256px 256px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
+  background-position:center 58%,center top,0 0 !important;background-size:min(72%,560px) auto,384px 384px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
 #dlgExit .box,#dlgEra .box,#dlgVoc .box,#dlgBgm .box{background-image:var(--dragon),var(--tile),var(--ena-grad) !important;
-  background-position:right 4% bottom 6%,center top,0 0 !important;background-size:min(46%,380px) auto,256px 256px,100% 100% !important}
+  background-position:right 4% bottom 6%,center top,0 0 !important;background-size:min(46%,380px) auto,384px 384px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
 .gMfd.mvDeck .mvWin{background-image:var(--rosette2),var(--tile),var(--ena-grad) !important;
-  background-position:center 46%,center top,0 0 !important;background-size:118% auto,256px 256px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
+  background-position:center 46%,center top,0 0 !important;background-size:118% auto,384px 384px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
 #game .gNarr{background-image:var(--tile),linear-gradient(180deg,rgba(20,34,28,.80),rgba(12,22,18,.86)) !important}
 /* 顶栏藤翼：新艺术分隔线在地名牌后展开 */
 #game .gTop::after{content:none}
@@ -387,3 +387,15 @@ html:has(#game.show) body{background:var(--sky)}
 #feWrap[data-step="loc"] #fePanR.locPlanet .feGl{border:1px solid rgba(241,210,140,.5) !important}
 /* 纪年插画页：时间轴不再压住插画 */
 #esReel{top:4vh;height:min(70vh,calc(100vh - 240px))}
+
+/* 纪年简介：字要读得清 */
+#dlgEra .box{color:var(--frame-txt)}
+#dlgEra #erDl dt{color:var(--star)}
+#dlgEra #erDl dd{color:#e8dcc0}
+#dlgEra #erYr{color:#cdc1a4}
+
+/* 正文地图抽屉：星球背后要有宇宙与星云 */
+#gmMap .wpmHost{background:#05070c !important}
+
+/* 纪年简介弹窗与其他弹窗同一副框（覆盖最早那条 fill 规则） */
+#dlgEra .box{border-image:var(--frame) 46% 30% / 46px 60px / 16px stretch !important}
