@@ -16,3 +16,4 @@ All pieces below are public-domain / CC0 works, recoloured to the theme gold and
 | sphinx.svg (+ sphinx-faint.svg) | OpenClipart #326109 "Art Nouveau sphinx" | CC0 / Public Domain |
 | tile-seamless.png, tile-faint.png | OpenClipart #237840 "Art Nouveau ornament seamless pattern" (rasterised) | CC0 / Public Domain |
 | separator-seroes.svg | Wikimedia Commons "Art Nouveau separator, Serões, 1901" (Portuguese magazine, 1901) | Public Domain (published 1901) |
+core/res/img/vn/bg/*.webp — 场景背景取自 cat 游戏视觉小说的「背景图」（同一作者的自绘素材），按题材对应到本作各纪。

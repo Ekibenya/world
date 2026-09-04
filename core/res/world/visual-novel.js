@@ -44,6 +44,12 @@
   function resolveEra(state){
     if(!V.manifest)return null;
     var p=state.panel||{},op=state.op||{},world=p.world||{};
+    /* [world] 本作每一纪就是一个 eraIndex，开局那一包里带着它；先认这个，别去猜年份 */
+    var ei=op.ei!=null?Number(op.ei):null;
+    if(ei!=null&&!isNaN(ei)){
+      var byIdx=V.manifest.eras.filter(function(e){return e.eraIndex===ei;});
+      if(byIdx.length)return byIdx[0];
+    }
     var year=op.year!=null?Number(op.year):parseYear(world['纪年']||world['紀年']);
     if(year!=null&&!isNaN(year)){
       var exact=V.manifest.eras.filter(function(e){return e.year===year;});
@@ -60,7 +66,9 @@
     if(year!=null&&!isNaN(year)){
       return V.manifest.eras.slice().sort(function(a,b){return Math.abs(a.year-year)-Math.abs(b.year-year);})[0];
     }
-    return V.manifest.eras[0];
+    /* 认不出来就守住上一次认定的那一纪；从前这里直接退回第一纪，
+       开局那几拍会先闪一张别的时代的背景，之后再也换不回来。 */
+    return V.lastEra||V.manifest.eras[0];
   }
   function sceneIndex(era,loc,weather){
     var base=-1;
@@ -69,9 +77,22 @@
     var sky=/雪|霜/.test(weather+loc)?4:/雨|雾|霾/.test(weather+loc)?3:NIGHT_RX.test(loc)?2:/晴|晨|朝|午/.test(weather+loc)?1:0;
     return base+sky*Math.max(1,era.locations.length);
   }
+  /* 背景取自 cat 的视觉小说场景图库：先按这一张自带的场景词认地方（港、雪、修院、
+     学堂…），认不出来再退回 cat 原来那套「地点＋天色」的散列，保证同一场戏不跳图。 */
+  function pickBackground(era,loc,weather){
+    var list=era.assets.background;if(!list.length)return null;
+    var hay=String(loc||'')+'|'+String(weather||''),score=0,hit=[];
+    list.forEach(function(a){
+      var s=0;(a.tags||[]).forEach(function(k){if(k&&hay.indexOf(k)>=0)s+=k.length;});
+      if(s>score){score=s;hit=[a];}else if(s===score&&s>0)hit.push(a);
+    });
+    /* 认出了地方就在这一组同题材的画面里按场景与天色散开，别一整代都用同一张 */
+    var pool=hit.length?hit:list;
+    return pool[sceneIndex(era,loc,weather)%pool.length];
+  }
   function setBackground(era,loc,weather){
     var list=era.assets.background;if(!list.length)return;
-    var asset=list[sceneIndex(era,loc,weather)%list.length];
+    var asset=pickBackground(era,loc,weather);if(!asset)return;
     var key=era.eraIndex+'|'+asset.src;if(key===V.bgKey)return;V.bgKey=key;
     var a=$('vnBgA'),b=$('vnBgB'),show=V.bgFlip?a:b,hide=V.bgFlip?b:a;V.bgFlip=!V.bgFlip;
     var im=new Image();im.onload=function(){show.src=asset.src;show.style.opacity='1';hide.style.opacity='0';mark(asset.src);};im.src=asset.src;
@@ -481,7 +502,7 @@
     
   }
   function init(){
-    fetch('/core/res/data/world/vn-images.json?v=8').then(function(r){if(!r.ok)throw new Error('image index '+r.status);return r.json();}).then(function(data){
+    fetch('/core/res/data/world/vn-images.json?v=9').then(function(r){if(!r.ok)throw new Error('image index '+r.status);return r.json();}).then(function(data){
       V.manifest=data;V.ready=true;tick();
       setInterval(tick,600);
     }).catch(function(err){try{console.warn('[visual-novel]',err);}catch(_){}});
