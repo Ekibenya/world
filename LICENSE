@@ -1,0 +1,76 @@
+MIT License
+
+Copyright (c) 2026 Ekibenya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+适用范围 · SCOPE
+================================================================================
+
+上面的 MIT 许可只适用于本仓库的**程序代码**，也就是引擎、界面、样式与构建脚本：
+
+    index.html          sw.js          cf-build.sh
+    core/res/world/*.js        core/res/world/*.css
+
+The MIT license above covers the program code of this repository only —
+the engine, interface, styles and build scripts listed above.
+
+--------------------------------------------------------------------------------
+以下内容不在 MIT 许可范围内 · NOT covered by the MIT license
+--------------------------------------------------------------------------------
+
+1. 游戏文本与设定数据（core/res/data/**）
+   这是一部同人作品。三十二个纪年的世界书、人物卡、器物表与开局原文段落，
+   取材并改编自小说《无论你是否称呼我为守护龙，我都要去睡觉》。
+   原作的一切权利属于其作者与版权方，本仓库不主张任何原作权利，
+   也不授权他人将这些数据用于任何商业用途。
+
+   Game text and setting data are fan-made, derived from and adapted from the
+   novel it is based on. All rights in the original work remain with its
+   author and rights holders. No rights to the original work are claimed or
+   granted here, and no commercial use of this data is permitted.
+
+2. 美术素材（art/**、core/res/img/**）
+   立绘、纪年插画与视觉小说场景背景仅供本作在本仓库内使用，保留一切权利，
+   不随 MIT 许可一并授出。
+
+   Artwork is reserved for use within this project only. All rights reserved;
+   it is not licensed under the MIT terms above.
+
+3. 第三方组件（core/res/runtime/**、core/res/vendor/**、core/res/font/**）
+   RisuAI 无头运行时、three.js 与各字体分别遵循各自的原始许可，
+   请以各组件自带的许可文件为准。
+
+   Third-party components — the RisuAI headless runtime, three.js and the
+   bundled fonts — remain under their own respective licenses.
+
+4. 新艺术装饰素材（core/res/img/nouveau/**）
+   来源与授权逐件记录在 core/res/img/nouveau/CREDITS.md。
+
+   Provenance and licensing for each ornament are recorded in
+   core/res/img/nouveau/CREDITS.md.
+
+--------------------------------------------------------------------------------
+
+本作不出售、不接受赞助，也不提供任何形式的付费内容。
+若原作权利方希望本仓库下架任何内容，请开 issue 联系。
+
+This project is not sold, sponsored, or monetised in any form. If a rights
+holder would like any material removed, please open an issue.

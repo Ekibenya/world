@@ -17,6 +17,8 @@
 /_work/
 
 # 远端构建只上传游戏实际会复制进 _site 的最终资产。
+# docs/ 只有 README 的截图，cf-build.sh 从不读它。
+/docs/
 /art/sheets/
 /art/portraits/*.png
 /art/*.json
