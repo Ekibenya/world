@@ -896,7 +896,33 @@ var ARMICONS={
   winejar:'M9 3h6v3l2 4v9a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2v-9l2-4V3zM8 14h8',
   candy:'M8 12a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM4 9l3 3-3 3V9zM20 9l-3 3 3 3V9z',
   greens:'M12 21V9M12 9c0-3 2-5 5-5 0 3-2 5-5 5zM12 12c0-3-2-5-5-5 0 3 2 5 5 5z',
-  taro:'M12 21a6 6 0 0 0 6-6c0-4-6-9-6-9s-6 5-6 9a6 6 0 0 0 6 6zM12 6V3M12 6l3-2'
+  taro:'M12 21a6 6 0 0 0 6-6c0-4-6-9-6-9s-6 5-6 9a6 6 0 0 0 6 6zM12 6V3M12 6l3-2',
+  /* [world] 本纪货单另有二十五样图形：秦市那一套画不出宝石、卷轴、法杖这一路东西。 */
+  gem:'M6 3h12l4 6-10 12L2 9zM2 9h20M9 3l3 6-3 12M15 3l-3 6 3 12',
+  crystal:'M12 2l6 5-2 8-4 7-4-7-2-8zM8 7h8M9.5 10h5',
+  scroll:'M6 3h12v5a3 3 0 0 0 3 3H9a3 3 0 0 1-3-3V3zM6 21h12v-5a3 3 0 0 0-3-3H6a3 3 0 0 0 0 6z',
+  book:'M4 4c3-1.5 6-1.5 8 0v16c-2-1.5-5-1.5-8 0V4zM20 4c-3-1.5-6-1.5-8 0v16c2-1.5 5-1.5 8 0V4z',
+  amulet:'M12 2l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-1.5zM12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6z',
+  rope:'M4 6a3 3 0 1 1 5 2M9 8a3 3 0 1 1 5 2M14 10a3 3 0 1 1 5 2M4 6c1 6 6 11 15 6',
+  axe:'M13 2 4 11l3 3 9-9zM7 14l-4 7 7-4zM13 2c3 1 6 4 7 7-2 1-5 0-7-2s-3-4-2-5z',
+  bone:'M6 4a2.3 2.3 0 1 0-3 3l12 12a2.3 2.3 0 1 0 3-3zM4.5 8.5a2.3 2.3 0 1 0 3-3M16.5 19.5a2.3 2.3 0 1 0 3-3',
+  feather:'M20 4C11 4 4 11 4 20h3c0-2 1-4 2-4l9-9c1-1 2-2 2-3zM9 15l4-4M6 18l4-4',
+  hammer:'M14 3l7 7-3 3-7-7zM11 6l3 3-9 9-3-3z',
+  torch:'M9 3h6l-1 6h-4zM8 9h8l-1 8a3 3 0 0 1-3 3h0a3 3 0 0 1-3-3zM12 3V1',
+  horn:'M4 8c8-3 12-5 16-6-2 5-2 9 0 14-4-1-8-3-16-6zM4 8v4M4 12l3 5',
+  bell:'M6 16V10a6 6 0 0 1 12 0v6l2 3H4zM10 21a2 2 0 0 0 4 0',
+  potion:'M10 2h4v4l3 5v6a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3v-6l3-5zM8.5 14h7',
+  lantern:'M8 4h8M9 4v3h6V4M6 8h12l-1.5 11a2 2 0 0 1-2 2h-5a2 2 0 0 1-2-2zM12 21v2',
+  wand:'M3 21 15 9M17 4l1.2 2.8L21 8l-2.8 1.2L17 12l-1.2-2.8L13 8l2.8-1.2z',
+  ticket:'M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4z',
+  ring:'M12 22a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM9 12l3-10 3 10',
+  staff:'M12 2a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8zM12 7v15',
+  map:'M9 3 3 5v16l6-2 6 2 6-2V3l-6 2-6-2zM9 3v16M15 5v16',
+  dice:'M4 8 12 4l8 4v8l-8 4-8-4zM4 8l8 4 8-4M12 12v8M8 10h.01M16 10h.01',
+  card:'M3 6h18v12H3zM3 10h18M7 14h4',
+  clock:'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l4 2',
+  key:'M9 15a4.5 4.5 0 1 1 4.24-6H21v4h-2v3h-3v-3H13.2A4.5 4.5 0 0 1 9 15z',
+  bomb:'M13 5a5 5 0 1 0 3 9l1.5 1.5M17 4l3 3M18 3l-1.5 1.5M19.5 5.5 21 4'
 };
 function armIcon(ic,s){
   return '<svg viewBox="0 0 24 24" width="'+s+'" height="'+s+'" fill="none" stroke="currentColor" '
@@ -1002,7 +1028,9 @@ var INVSETS={
 };
 function invPreset(op){
   if(typeof cardHeroless==='function'&&cardHeroless()){
-    INV={eq:{},bag:[]};INVSEL=null;USED1={};
+    /* [world] 无本尊之卡原来一律空手入局。本纪货单带了 kits，就照 default 那一份发，
+       否则装备栏进去是八个空格，玩家还以为没做。存过档的按存档来，不覆盖。 */
+    INV=worldKitInv();INVSEL=null;USED1={};
     invStore();try{invRender();}catch(_){}
     return;
   }
@@ -1018,7 +1046,10 @@ var INV=INVSETS._;
 INV={eq:(function(){var o={},k;for(k in INVSETS._.eq)o[k]=INVSETS._.eq[k];return o;})(),
      bag:INVSETS._.bag.map(function(b){return {id:b.id,n:b.n};})};
 try{var _iv=JSON.parse(localStorage.getItem('guardianDragonInv')||'null');if(_iv&&_iv.eq&&_iv.bag)INV=_iv;}catch(_){}
-function invStore(){lsSet('guardianDragonInv',JSON.stringify(INV))}
+/* [world] 行囊按纪存：三十二纪各有各的货单，共用一个键的话，
+   上一纪的东西会带着它自己的 k 混进这一纪的行囊，详情卡查无此物只能画成空格。 */
+var WINVKEY='';
+function invStore(){lsSet(WINVKEY||'guardianDragonInv',JSON.stringify(INV))}
 var INVSEL=null;var USED1={};  /* 一局只准用一次的东西（假苏、木天蓼） */   /* {w:'eq'|'bag', k:slotKey|bagIndex, confirm:bool} */
 function armDesc(id){
   var it=ARMDB[id];if(!it)return '';
@@ -1101,7 +1132,10 @@ function walletRead(){
       return isNaN(n)?0:n;
     }
   }catch(_){}
-  return 0;
+  /* 面板还没落地（刚装好一纪、开场尚未生成）时，钱按本纪货单的 start 算。
+     原来一律读作 0，于是抽屉里每一样都写着「钱不够」，一件也买不动。
+     秦那张卡没有货单，worldCoinStart 返回 0，行为与从前一样。 */
+  return worldCoinStart();
 }
 function walletWrite(n){
   n=Math.max(0,Math.round(n||0));
@@ -1207,8 +1241,11 @@ $('#shopWrap').addEventListener('click',function(e){
   var k=t.getAttribute('data-buy'),it=ARMDB[k];
   if(!it)return;
   if(it.ban){if(window.SX)SX(FEG.canon?'tap':'deny');
-    if(FEG.canon){var d=armDesc(k);invSys(it.cn+(d?('&nbsp;·&nbsp;'+esc2(d)):'&nbsp;·&nbsp;世界书未载其详'));return;}
-    invSys(it.cn+'&nbsp;是官造之物，市上买不着；私藏要坐罪');return;}
+    /* 买不着的东西点开就读它的条目。原来这里写死了秦的市律（「官造之物…私藏要坐罪」），
+       摆到本纪的独有之物上文不对题——改用这一件自己写明的缘由。 */
+    var d=armDesc(k);
+    if(FEG.canon){invSys(it.cn+(d?('&nbsp;·&nbsp;'+esc2(d)):'&nbsp;·&nbsp;世界书未载其详'));return;}
+    invSys(it.cn+'&nbsp;·&nbsp;'+esc2(it.ban)+(d?('&nbsp;·&nbsp;'+esc2(d)):''));return;}
   var cash=walletRead();
   if(it.price>cash){if(window.SX)SX('deny');invSys('钱不够。'+it.cn+'&nbsp;要&nbsp;'+it.price
     +'&nbsp;钱，手上只有&nbsp;'+cash+'&nbsp;钱');shopRender();return;}
@@ -9283,7 +9320,7 @@ function abacusBand(){return '';}
 function nowYear(){return 0;}
 function feliniaGlobalRules(t){return String(t||'');}
 function feliniaEraContext(){try{var e=FE.era;return e?('【当前纪年】第 '+e.i+' 纪 · '+e.t):'';}catch(_){return '';}}
-var WORLD_PANEL={textOrder:['形态','衣着','持物','体况','所在'],reserved:['史笔'],badge:'AETAS',badgeLabel:'纪年',
+var WORLD_PANEL={textOrder:['形态','衣着','持物','体况','所在','钱'],reserved:['史笔'],badge:'AETAS',badgeLabel:'纪年',
   widgets:[{type:'bar',k:'体力',label:'体力',caps:[[0,'力竭'],[20,'虚弱'],[40,'还撑得住'],[60,'尚可'],[80,'充沛'],[95,'游刃有余']]},
            {type:'bar',k:'魔力',label:'魔力',caps:[[0,'枯竭'],[20,'见底'],[40,'勉强'],[60,'充足'],[80,'丰沛'],[95,'满溢']]}]};
 var WORLD_CAT={'character-profile':'人物 · 档案','character-experience':'人物 · 经历','character-motivation':'人物 · 动机','character-voice':'人物 · 声口','character-relations':'人物 · 关系','character-timeline':'人物 · 主龙时间线',
@@ -9318,25 +9355,103 @@ function worldItemIcon(t){
   for(var i=0;i<R.length;i++)if(R[i][0].test(t))return R[i][1];
   return 'tag';
 }
-function worldItems(era){
+/* [world] 本纪货单：core/res/data/world/items/<era.id>.json。
+   原来这两个抽屉只摆世界书里 setting-object 那几条，且一律「只可查阅」——
+   第一纪与第三十二纪一条都没有，点开商店是空的。货单载到之后按它摆，
+   吃食、药、衣物、器物有价可买，兵甲魔具可以上身，正典物件仍旧只列不卖。 */
+var WITEMS=null;
+function worldCoinStart(){
+  var n=NaN;try{n=parseInt(WITEMS&&WITEMS.start,10);}catch(_){}
+  return isNaN(n)?0:n;
+}
+function worldKitInv(){
+  var kit=null;
+  try{kit=WITEMS&&WITEMS.kits&&(WITEMS.kits['default']||WITEMS.kits._);}catch(_){}
+  if(!kit)return {eq:{},bag:[]};
+  var eq={},bag=[],i;
+  for(i in (kit.eq||{}))if(ARMDB[kit.eq[i]])eq[i]=kit.eq[i];
+  (kit.bag||[]).forEach(function(b){
+    var id=b.k||b.id;if(ARMDB[id])bag.push({id:id,n:b.n||1});});
+  return {eq:eq,bag:bag};
+}
+function worldItemsBundle(era){
+  return fetch('/core/res/data/world/items/'+era.id+'.json')
+    .then(function(r){return r.ok?r.json():null;})
+    .catch(function(){return null;});
+}
+function worldItems(era,bundle){
   var k;for(k in ARMDB)delete ARMDB[k];
+  WITEMS=bundle||null;
+  /* 世界书登记的正典物件照旧收进来：它们与货单不重，且只可查阅。 */
   (era.lorebook||[]).forEach(function(e){
     if(!e||e.category!=='setting-object'||e.enabled===false)return;
     var name=worldItemName(e.title||e.memo);
-    ARMDB[e.id]={la:'',cn:name,cat:'物件',slot:'',ic:worldItemIcon(name),ban:'正典物件 · 只可查阅'};
+    ARMDB[e.id]={la:'',cn:name,cat:'正典物件',slot:'',ic:worldItemIcon(name),stack:0,price:null,
+      ban:'正典物件 · 只可查阅'};
   });
-  SHOP_TABS.length=0;SHOP_TABS.push(['全部',null],['物件',['物件']]);
-  SHOP_SEC.length=0;SHOP_SEC.push('物件');
+  var items=(bundle&&bundle.items)||[];
+  items.forEach(function(it){
+    if(!it||!it.k)return;
+    var d={la:it.la||'',cn:it.cn||'',cat:it.cat||'杂物',slot:it.slot||'',
+           ic:(ARMICONS[it.ic]?it.ic:'tag'),stack:it.stack?1:0,
+           price:(it.price==null?null:it.price),at:it.at||null,
+           spec:it.spec||'',lore:it.lore||'',src:it.src||''};
+    if(it.use&&it.use.act)d.use={act:it.use.act,eff:it.use.eff||''};
+    /* 无价的是独有之物：照摆，可点开读它的条目，但市上买不着。 */
+    if(d.price==null)d.ban='独有之物 · 市上无价';
+    ARMDB[it.k]=d;
+  });
+  SHOP_TABS.length=0;
+  SHOP_TABS.push(['全部',null],['吃食',['吃食']],['药',['药']],['衣物',['衣物']],
+    ['器用',['杂物','器物','消耗']],['兵甲',['武器','防具']],
+    ['法宝',['魔具','书卷']],['正典',['正典物件']]);
+  SHOP_SEC.length=0;
+  ['吃食','药','衣物','武器','防具','魔具','书卷','消耗','器物','杂物','正典物件']
+    .forEach(function(s){SHOP_SEC.push(s);});
   for(k in INVSETS)delete INVSETS[k];INVSETS._={eq:{},bag:[]};
-  FEG.unit='';FEG.set=null;FEG.at='';FEG.canon=true;
-  FEG.note='第 '+era.ordinal+' 纪世界书登记的物件。价格、产地与得失只按正典条目写明的来，市上无价可标，亦无买卖。';
+  /* at 是「这一纪哪几处有卖」。当前地点没定下来之前不按地点筛，
+     否则一进商店就是空的——玩家看不出是没货还是没做。 */
+  FEG.unit=(bundle&&bundle.unit)||'';FEG.set=null;FEG.at='';FEG.canon=!items.length;
+  FEG.note=(bundle&&bundle.note)
+    ||('第 '+era.ordinal+' 纪世界书登记的物件。价格、产地与得失只按正典条目写明的来，市上无价可标，亦无买卖。');
   SHOPTAB=0;
+  WINVKEY='guardianDragonInv_'+era.id;
+  var saved=null;try{saved=JSON.parse(localStorage.getItem(WINVKEY)||'null');}catch(_){}
+  INV=(saved&&saved.eq&&saved.bag)?saved:worldKitInv();
+  INVSEL=null;USED1={};
+  try{invRender();}catch(_){}
+  try{if(GAME.shopOpen)shopRender();}catch(_){}
 }
+/* 世界书「物品」：货单每一件都落一条，与人物、地点那些条目并列可查。
+   armDesc 按 id 找的就是这里，详情卡上那一段说明由它供。 */
+function worldItemLore(era){
+  var items=(WITEMS&&WITEMS.items)||[],unit=(WITEMS&&WITEMS.unit)||'',out=[];
+  items.forEach(function(it){
+    var body=(it.la?(it.la+' · '):'')+(it.cat||'')
+      +(it.price==null?' · 独有之物，不可购买':(' · 价 '+it.price+' '+unit))+'\n'+(it.spec||'');
+    if(it.use&&it.use.act)body+='\n\n用法：'+it.use.act+'\n效用：'+(it.use.eff||'');
+    if(it.lore)body+='\n\n'+it.lore;
+    if(it.src)body+='\n\n出处：'+it.src;
+    out.push({id:it.k,title:'【'+(it.cat||'物品')+'】'+(it.cn||''),memo:it.cn||'',
+      cat:'物品 · '+(it.cat||'杂项'),lay:'world',era:era.ordinal,
+      keys:[it.cn,it.la].filter(Boolean),keys2:[],constant:false,selective:true,
+      on:true,ord:120,content:body,category:'item-'+(it.cat||'杂物')});
+  });
+  return out;
+}
+/* 货单是异步取的，而世界书「物品」与神谕的开局提示词都要用它，
+   所以先把它取回来再装卡；取不到就照旧只摆世界书里的正典物件，不拦着入局。 */
 function worldSetEra(era,meta){
+  return worldItemsBundle(era).then(function(bundle){
+    return worldSetEraNow(era,meta,bundle);
+  });
+}
+function worldSetEraNow(era,meta,bundle){
   var ord=era.ordinal;
-  worldItems(era);
+  worldItems(era,bundle);
   CARDS.luzhi={name:'守护龙纪事',heroName:'玩家',heroless:true,panelSpec:WORLD_PANEL,description:'',personality:'',scenario:'',system_prompt:'',post_history_instructions:'',mes_example:'',first_mes:'',openings:[],annals:[],timeline:[],
     lorebook:(era.lorebook||[]).map(function(e){return worldLore(e,ord);})};
+  worldItemLore(era).forEach(function(e){CARDS.luzhi.lorebook.push(e);});
   try{(JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[]).forEach(function(e){if(e&&e.title&&e.content)CARDS.luzhi.lorebook.push(e);});}catch(_){}
   var entry=worldEraEntry(era,meta);
   FE.eras=[entry];FE.era=entry;FE.ld=2;FE.soc=[];
@@ -9351,6 +9466,9 @@ function worldPanel(o){
   var form=worldText(forms[0])||(o.player&&o.player.custom&&o.player.custom.speciesForm)||'—';
   return '<mvu_panel>\n<sec_char>\n'
     +'◆形态|'+form.slice(0,60)+'\n◆衣着|—\n◆持物|—\n◆体况|无伤\n◆所在|'+loc+'\n◆体力|80\n◆魔力|80\n'
+    /* 钱这一栏是商店的账本：walletRead 认的就是它。面板里不写，钱永远读作 0，
+       市上每一样都显示「钱不够」——抽屉摆得再满也买不动。 */
+    +'◆钱|'+worldCoinStart()+'\n'
     +'◆心声|——\n◆史笔|第 '+o.eraOrdinal+' 纪，'+(o.chapter||o.eraName)+'。此幕自此写起。\n</sec_char>\n<sec_npc>\n'
     +comps.map(function(n){return '◈'+n+'|初逢|50|（尚未开口）|正典人物|'+loc+'|不详|不详|（还没看清是谁）';}).join('\n')
     +'\n</sec_npc>\n<sec_world>\n◇纪年|第 '+o.eraOrdinal+' 纪 · '+o.eraName+'\n◇时地|'+loc+'\n◇天气|晴\n◇安稳|60\n◇大势|尚未分明\n◇将临|尚未分明\n</sec_world>\n</mvu_panel>';
