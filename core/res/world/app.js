@@ -95,12 +95,88 @@ function mountPlanet(mode) {
     map._wired = true;
     map.onPick((site) => { if (!site) return; state.loc = site; if (state.step === 'loc' && $('#feWrap').classList.contains('on')) renderRoute(); if ($('#game').classList.contains('show')) $('#gLoc').textContent = gameHeader(); });
     map.onTerraform((report) => terraform(report));
+    map.onPlace((tool, lon, lat, geo) => openPlaceForm(tool, lon, lat, geo));
+    addEventListener('world-map-change', syncTravelBtn);
     map.onProgress((f, label) => { const el = $('#feLocW'); if (el && state.step === 'loc' && !state.loc) el.textContent = f < 1 ? `星球生成中 · ${label} ${Math.round(f * 100)}%` : ''; });
   }
   if (mode === 'forge') { $('#feBg').classList.add('planetOn'); map.mountForge($('#feBg')); } else map.mountPanel($('#gmMap'));
   map.render({ era: state.era });
   if (state.terrain) { map.replay(state.terrain); state.terrain = null; }
+  if (state.sites?.length) { map.whenData(() => state.sites.forEach((site) => map.addSite(site))); }
   if (state.loc) { if (state.loc.free && map.ready()) map.selectCoord(state.loc.lon, state.loc.lat); else if (!state.loc.free) map.select(state.loc.id); }
+}
+/* 正文里的地图：拣中一处就在地志卡下面出一枚「确认前往」，按下即以 ITER 起一回路程。 */
+const PLACE_LABEL = { site: '新增地点', city: '城市', village: '村庄' };
+function syncTravelBtn() {
+  const host = $('#worldMapDetail'); if (!host) return;
+  host.querySelector('#wmGo')?.remove();
+  if (!$('#game').classList.contains('show')) return;
+  const map = planet(); if (!map || map.editing?.()) return;
+  const site = map.inspect?.().selectedSite; if (!site || !site.name) return;
+  if (state.loc && state.loc.name === site.name && state.arrived) return;
+  const btn = document.createElement('button');
+  btn.type = 'button'; btn.id = 'wmGo';
+  btn.textContent = `确认前往 · ${site.name}`;
+  btn.addEventListener('click', () => travelTo(site));
+  host.appendChild(btn);
+}
+function travelTo(site) {
+  const eng = engine();
+  if (eng && eng.busy?.()) return;
+  state.loc = site; state.arrived = true;
+  $('#gLoc').textContent = gameHeader();
+  try { window.GAME && (window.GAME.dest = site.name); } catch (_) {}
+  const where = [site.kind, site.region].filter(Boolean).join(' · ');
+  const text = `【ITER】动身前往「${site.name}」${where ? `（${where}）` : ''}。`
+    + `${site.summary ? `\n那里的情形：${site.summary}` : ''}`
+    + `\n写这一路的见闻与抵达时眼前的场面，落笔停在我该决定下一步的那一刻。`;
+  $('#game').classList.remove('mapOpen');
+  if (eng && eng.on()) { eng.send(text); return; }
+  sendMessageText(text);
+}
+
+/* 标注：在星球上落一个玩家自己的地点／城市／村庄 */
+let PLACE_AT = null, PLACING = null;
+function setPlacing(kind) {
+  const map = planet(); if (!map) return;
+  PLACING = PLACING === kind ? null : kind;
+  if (PLACING) map.startPlace(PLACING); else map.stopPlace();
+  if (state.step === 'loc' && $('#feWrap').classList.contains('on')) renderRoute();
+}
+function openPlaceForm(tool, lon, lat, geo) {
+  PLACE_AT = { tool, lon, lat, geo };
+  const form = $('#wmPlaceForm'); if (!form) return;
+  $('#wmPlaceTitle').textContent = PLACE_LABEL[tool] || '新增地点';
+  $('#wmPlaceAt').textContent = `${Math.abs(lon).toFixed(1)}°${lon < 0 ? 'W' : 'E'} ${Math.abs(lat).toFixed(1)}°${lat < 0 ? 'S' : 'N'}`
+    + (geo?.region ? ` · ${geo.region}` : '');
+  $('#wmPlaceName').value = '';
+  $('#wmPlaceKind').value = tool === 'city' ? '城市' : tool === 'village' ? '村庄' : '';
+  $('#wmPlaceKind').disabled = tool !== 'site';
+  $('#wmPlaceDesc').value = '';
+  form.hidden = false; $('#wmPlaceName').focus();
+}
+function closePlaceForm() {
+  PLACE_AT = null; const f = $('#wmPlaceForm'); if (f) f.hidden = true;
+  if (PLACING) { PLACING = null; planet()?.stopPlace(); if (state.step === 'loc') renderRoute(); }
+}
+function commitPlace() {
+  if (!PLACE_AT) return;
+  const map = planet(); if (!map) return;
+  const name = $('#wmPlaceName').value.trim();
+  if (!name) { $('#wmPlaceName').focus(); return; }
+  const { tool, lon, lat, geo } = PLACE_AT;
+  const kind = ($('#wmPlaceKind').value.trim() || PLACE_LABEL[tool] || '地点');
+  const summary = $('#wmPlaceDesc').value.trim();
+  const spec = { name, kind, summary, lon, lat, tier: tool === 'city' ? 1 : 2, layer: 'surface' };
+  const site = map.addSite(spec); if (!site) return;
+  (state.sites ||= []).push({ ...spec, id: site.id });
+  closePlaceForm();
+  map.select(site.id);
+  if ($('#game').classList.contains('show')) {
+    const born = tool === 'city' ? '一座城市' : tool === 'village' ? '一座村庄' : '一处地方';
+    terraform(`在${geo?.region || '世界'}（${Math.abs(lon).toFixed(1)}°${lon < 0 ? 'W' : 'E'} ${Math.abs(lat).toFixed(1)}°${lat < 0 ? 'S' : 'N'}）立起了${born}：`
+      + `「${name}」（${kind}）。${summary || ''}`);
+  } else if (state.step === 'loc') renderRoute();
 }
 function gameHeader() { return `${state.era.name}${state.loc ? ' · ' + state.loc.name : ''} · ${state.player.mode === 'preset' ? state.player.card.name : state.player.custom.name}`; }
 function applyStep(next) {
@@ -139,7 +215,10 @@ function renderRoute() {
   const map = planet(); const sites = map ? map.sitesFor(state.era.ordinal, 'surface') : [];
   const routeHtml = `<div class="feColH feRouteH">开局方式</div><div class="feRoutes"><button class="feLoc feRoute ${state.route === 'preset' ? 'on' : ''}" data-route="preset"><b>默认正典开局</b><span>VERBATIM · 原文逐字</span></button><button class="feLoc feRoute ${state.route === 'custom' ? 'on' : ''}" data-route="custom"><b>自定义 API 开局</b><span>PLAYER API · 本局生成</span></button></div>`;
   const siteHtml = sites.length ? `<div class="feColH feRouteH">这一代能落脚的地方 · ${sites.length}</div>` + sites.map((site, index) => `<button class="feLoc feSite ${state.loc && state.loc.id === site.id ? 'on' : ''}" data-site="${esc(site.id)}"><b>${esc(site.name)}</b><span>${String(index + 1).padStart(2, '0')} · ${esc(site.kind)}${site.unplaced ? ' · 方位未载' : ''}</span></button>`).join('') : `<div class="feNote">星球资料载入中…</div>`;
-  $('#feLocList').innerHTML = routeHtml + siteHtml;
+  const placeHtml = `<div class="feColH feRouteH">在星球上添一处</div><div class="fePlace">`
+    + Object.entries(PLACE_LABEL).map(([k, label]) => `<button type="button" class="feLoc fePlaceBtn${PLACING === k ? ' on' : ''}" data-place="${k}">${label}</button>`).join('')
+    + `</div><div class="fePlaceHint">${PLACING ? '在星球上点一处落定它。' : '自己造一处地方，落定后它就成为可落脚的座标。'}</div>`;
+  $('#feLocList').innerHTML = routeHtml + placeHtml + siteHtml;
   const loc = state.loc;
   $('#feLocN').textContent = loc ? (loc.free ? 'LOCVS' : String(Math.max(1, sites.findIndex((site) => site.id === loc.id) + 1)).padStart(2, '0')) : '—';
   $('#feLocCn').textContent = loc ? loc.name : '在星球上拣一处';
@@ -305,10 +384,14 @@ async function sendMessage() { const input = $('#gIn'); const text = input.value
 
 document.addEventListener('click', (event) => {
   const route = event.target.closest('[data-route]'); if (route) { try { if (window.SX) SX('click'); } catch (_) {} state.route = route.dataset.route; renderRoute(); return; }
+  const place = event.target.closest('[data-place]'); if (place) { try { if (window.SX) SX('click'); } catch (_) {} setPlacing(place.dataset.place); return; }
   const site = event.target.closest('[data-site]'); if (site) { try { if (window.SX) SX('site'); } catch (_) {} planet()?.select(site.dataset.site); return; }
   const persona = event.target.closest('[data-card]'); if (persona) { try { if (window.SX) SX('slide'); } catch (_) {} selectCard(persona.dataset.card); $('#feWrap').classList.add('artOn'); return; }
   const companion = event.target.closest('[data-companion]'); if (companion) { try { if (window.SX) SX('pick'); } catch (_) {} const id = companion.dataset.companion; state.companionFocusId = id; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); $('#feWrap').classList.add('artOn'); return; }
 });
+$('#wmPlaceOk')?.addEventListener('click', commitPlace);
+$('#wmPlaceCancel')?.addEventListener('click', closePlaceForm);
+$('#wmPlaceName')?.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); commitPlace(); } });
 $('#feArtX').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));
 $('#feArtOk').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));
 $('#feArtP').addEventListener('pointerup', () => cycleForgePortrait(-1));
@@ -336,11 +419,11 @@ async function init() {
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },
       showMenu, hideAll, systemCore, mountPanel: () => mountPlanet('panel'),
-      snapshotExtra() { return { eraIndex: state.eraIndex, route: state.route, loc: state.loc, terrain: planet()?.strokes() || [], cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player }; },
-      async restoreExtra(extra) { const meta = state.index.eras[extra.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = extra.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = extra.route || 'preset'; state.loc = extra.loc || null; state.terrain = extra.terrain || null; state.cardId = extra.cardId; state.companions = new Map(extra.companions || []); state.custom = extra.custom || {}; state.player = extra.player; state.error = ''; await engineSetEra(); },
-      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, loc: state.loc, terrain: planet()?.strokes() || [], cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
+      snapshotExtra() { return { eraIndex: state.eraIndex, route: state.route, loc: state.loc, terrain: planet()?.strokes() || [], sites: planet()?.userSites?.() || [], cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player }; },
+      async restoreExtra(extra) { const meta = state.index.eras[extra.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = extra.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = extra.route || 'preset'; state.loc = extra.loc || null; state.terrain = extra.terrain || null; state.sites = extra.sites || []; state.cardId = extra.cardId; state.companions = new Map(extra.companions || []); state.custom = extra.custom || {}; state.player = extra.player; state.error = ''; await engineSetEra(); },
+      snapshot() { return { version: 1, eraIndex: state.eraIndex, route: state.route, loc: state.loc, terrain: planet()?.strokes() || [], sites: planet()?.userSites?.() || [], cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player, history: state.history, mvu: window.WORLD_MVU_CONTENT?.snapshot?.(), savedAt: new Date().toISOString() }; },
       saveAuto() { if (window.WORLD_ENGINE) { window.WORLD_ENGINE.autoSave(); return; } if (state.player) { localStorage.setItem('guardianDragonAutoSave', JSON.stringify(this.snapshot())); $('#miCont').style.display = ''; } },
-      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.loc = snapshot.loc || null; state.terrain = snapshot.terrain || null; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
+      async restore(snapshot) { const meta = state.index.eras[snapshot.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = snapshot.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = snapshot.route || 'preset'; state.loc = snapshot.loc || null; state.terrain = snapshot.terrain || null; state.sites = snapshot.sites || []; state.cardId = snapshot.cardId; state.companions = new Map(snapshot.companions || []); state.custom = snapshot.custom || {}; state.player = snapshot.player; state.history = snapshot.history || []; state.error = ''; if (snapshot.mvu&&window.WORLD_MVU_CONTENT) window.WORLD_MVU_CONTENT.restore(snapshot.mvu); showGame(); },
       async loadAuto() { if (window.WORLD_ENGINE) { window.WORLD_ENGINE.loadAuto(); return; } const raw = localStorage.getItem('guardianDragonAutoSave'); if (raw) await this.restore(JSON.parse(raw)); },
       lore() { return state.era?.lorebook || []; },
       loreDebug(query = '') { const packet = state.era && state.player ? retrieveLore(query) : ''; return { packet, ...(state.lastLoreActivation || {}), sourceArchiveScanned: false }; },

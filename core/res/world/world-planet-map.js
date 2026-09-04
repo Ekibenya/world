@@ -592,6 +592,8 @@ function makeIsle(lon,lat){var g=new T.CylinderGeometry(.022,.004,.026,14,3),p=g
   var nrm=new T.Vector3().fromArray(sph(lon,lat));m.position.copy(nrm).multiplyScalar(1.105);m.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),nrm);return m;}
 
 /* ---------- 地点 ---------- */
+var PLACE={site:'自定地点',city:'城市',village:'村庄'};
+function isPlaceTool(){return !!PLACE[EDIT.tool]&&(EDIT.on||!!EDIT.placeOnly);}
 var DATA=null,ACTIVE=[],pins=[],tmpV=T?new T.Vector3():null,tmpW=T?new T.Vector3():null;
 function inEra(s){return VIEW.ord>=(s.from||1)&&VIEW.ord<=(s.to||99);}
 function refreshSites(){
@@ -635,6 +637,25 @@ function describe(lon,lat){
   return {lon:lon,lat:lat,land:!!land,h:h,biome:bio,region:regionName(lon,lat),near:near,nearDist:nd,
     elev:h>0?'海拔约 '+(h*8800).toFixed(0)+' 米':'水深约 '+(-h*6000).toFixed(0)+' 米',
     text:regionName(lon,lat)+'，'+bio+(land?'，'+(h>0?'海拔约 '+(h*8800).toFixed(0)+' 米':''):'')+(near&&nd<25?'；距'+near.name+'约 '+(nd*111).toFixed(0)+' 里程':'')};
+}
+function addSite(spec){
+  if(!DATA||!spec||spec.lon==null||spec.lat==null)return null;
+  var id=spec.id||('user-'+Date.now().toString(36)+Math.random().toString(36).slice(2,6));
+  var s={id:id,name:String(spec.name||'无名之地'),latin:spec.latin||'',kind:spec.kind||'自定地点',
+    summary:String(spec.summary||''),lon:Number(spec.lon),lat:Number(spec.lat),
+    layer:spec.layer||'surface',tier:spec.tier||2,t:spec.tier||2,from:1,to:99,user:true};
+  for(var i=DATA.sites.length-1;i>=0;i--)if(DATA.sites[i].id===id)DATA.sites.splice(i,1);
+  DATA.sites.push(s);
+  if(READY&&pinLayer)buildPins();
+  refreshSites();
+  return {id:s.id,name:s.name,kind:s.kind,summary:s.summary,lon:s.lon,lat:s.lat};
+}
+function userSites(){return (DATA?DATA.sites:[]).filter(function(s){return s.user;}).map(function(s){
+  return {id:s.id,name:s.name,kind:s.kind,summary:s.summary,lon:s.lon,lat:s.lat,tier:s.tier,layer:s.layer};});}
+function clearUserSites(){
+  if(!DATA)return;var had=DATA.sites.length;
+  DATA.sites=DATA.sites.filter(function(s){return !s.user;});
+  if(had!==DATA.sites.length){if(READY&&pinLayer)buildPins();refreshSites();}
 }
 function choose(id,fly){
   VIEW.selected=id;var s=siteById(id);renderHud();
@@ -718,18 +739,20 @@ function bindInput(){
   var sculpt=false;
   canvas.addEventListener('contextmenu',function(e){e.preventDefault();});
   canvas.addEventListener('pointerdown',function(e){ptrs[e.pointerId]=e;if(Object.keys(ptrs).length===1){
+      if(isPlaceTool()&&e.button===0&&READY){var lp=pickLonLat(e.clientX,e.clientY);
+        if(lp){hideBrush();if(EDIT.onPlace)try{EDIT.onPlace(EDIT.tool,lp[0],lp[1],describe(lp[0],lp[1]));}catch(_){}return;}}
       if(EDIT.on&&EDIT.tool!=='pan'&&e.button===0&&READY){var ll=pickLonLat(e.clientX,e.clientY);if(ll){sculpt=true;beginGesture(ll[0],ll[1]);try{canvas.setPointerCapture(e.pointerId);}catch(_){}return;}}
       down=true;lx=e.clientX;ly=e.clientY;moved=0;cam.vt=0;cam.vp=0;cam.tt=cam.tp=null;canvas.classList.add('drag');try{canvas.setPointerCapture(e.pointerId);}catch(_){}}
     else if(sculpt){sculpt=false;endGesture();}});
   canvas.addEventListener('pointermove',function(e){
     if(ptrs[e.pointerId])ptrs[e.pointerId]=e;var ids=Object.keys(ptrs);
     if(ids.length===2){var a=ptrs[ids[0]],b=ptrs[ids[1]],d=Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY);if(pinchD)cam.tr=clamp(cam.tr*(pinchD/d),1.6,6);pinchD=d;idleAt=performance.now();return;}
-    if(EDIT.on&&READY){var ll2=pickLonLat(e.clientX,e.clientY);if(EDIT.tool!=='pan')brushCursor(e.clientX,e.clientY,ll2?ll2[0]:null,ll2?ll2[1]:null);else hideBrush();if(sculpt){if(ll2)dragGesture(ll2[0],ll2[1]);return;}}
+    if((EDIT.on||EDIT.placeOnly)&&READY){var ll2=pickLonLat(e.clientX,e.clientY);if(EDIT.tool!=='pan'&&!isPlaceTool())brushCursor(e.clientX,e.clientY,ll2?ll2[0]:null,ll2?ll2[1]:null);else hideBrush();if(isPlaceTool())hideBrush();if(sculpt){if(ll2)dragGesture(ll2[0],ll2[1]);return;}}
     if(!down)return;var dx=e.clientX-lx,dy=e.clientY-ly;lx=e.clientX;ly=e.clientY;moved+=Math.abs(dx)+Math.abs(dy);
     var k=.0036*Math.sqrt(cam.r/3)*(cam.r-1)/2.2;cam.vt=dx*k/Math.max(.35,Math.sin(cam.phi));cam.vp=-dy*k;cam.theta+=cam.vt;cam.phi=clamp(cam.phi+cam.vp,.12,PI-.12);idleAt=performance.now();
   });
   function up(e){delete ptrs[e.pointerId];if(Object.keys(ptrs).length<2)pinchD=0;if(sculpt&&!Object.keys(ptrs).length){sculpt=false;endGesture();return;}if(!Object.keys(ptrs).length){down=false;canvas.classList.remove('drag');
-    if(moved<4&&READY&&!EDIT.on){var now=performance.now(),w=worldAt(e.clientX,e.clientY);if(now-lastTap<320){if(w)flyToWorld(w,Math.max(1.6,cam.tr*.62));}else if(w){var ll=lonLatOf(w);pickFree(ll[0],ll[1]);}lastTap=now;}}}
+    if(moved<4&&READY&&!EDIT.on&&!isPlaceTool()){var now=performance.now(),w=worldAt(e.clientX,e.clientY);if(now-lastTap<320){if(w)flyToWorld(w,Math.max(1.6,cam.tr*.62));}else if(w){var ll=lonLatOf(w);pickFree(ll[0],ll[1]);}lastTap=now;}}}
   canvas.addEventListener('pointerup',up);canvas.addEventListener('pointercancel',up);canvas.addEventListener('pointerleave',function(){if(!sculpt)hideBrush();});
   canvas.addEventListener('wheel',function(e){e.preventDefault();e.stopPropagation();if(!camera)return;var r0=cam.tr,r1=clamp(cam.tr*Math.exp(e.deltaY*.0011),1.6,6);cam.tr=r1;idleAt=performance.now();
     if(r1<r0){var w=worldAt(e.clientX,e.clientY);if(w){var n=w.normalize(),f=(1-r1/r0)*1.15,tt=Math.atan2(n.z,n.x),tp=clamp(Math.acos(clamp(n.y,-1,1)),.12,PI-.12),dth=Math.atan2(Math.sin(tt-cam.theta),Math.cos(tt-cam.theta));cam.theta+=dth*f;cam.phi+=(tp-cam.phi)*f;cam.tt=cam.tp=null;}}},{passive:false});
@@ -754,6 +777,11 @@ window.WORLD_PLANET_MAP={
   whenData:function(cb){if(DATA)cb();else pending=cb;},
   startEdit:startEdit,cancelEdit:cancelEdit,applyEdit:applyEdit,undoEdit:undoEdit,resetEdits:resetEdits,editing:function(){return EDIT.on;},
   setTool:function(t,k){EDIT.tool=t;if(k)EDIT.type=k;syncEditor();},setBrush:function(r,s){if(r)EDIT.rad=r;if(s)EDIT.str=s;syncEditor();},
+  addSite:addSite,userSites:userSites,clearUserSites:clearUserSites,
+  onPlace:function(cb){EDIT.onPlace=cb;},
+  startPlace:function(kind){if(!PLACE[kind])return;EDIT.tool=kind;EDIT.placeOnly=true;if(host)host.classList.add('wpmPlacing');},
+  stopPlace:function(){EDIT.placeOnly=false;if(!EDIT.on)EDIT.tool='raise';hideBrush();if(host)host.classList.remove('wpmPlacing');},
+  placing:function(){return !!EDIT.placeOnly&&!!PLACE[EDIT.tool];},
   sculpt:function(lon,lat){if(!EDIT.on)return;beginGesture(lon,lat);endGesture();},editReport:editReport,
   strokes:strokesOut,replay:replayStrokes,onTerraform:function(cb){EDIT.onTerraform=cb;},
   describe:function(lon,lat){return describe(lon,lat);},

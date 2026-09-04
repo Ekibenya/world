@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
   <link rel="stylesheet" href="/core/res/world/app.css?v=36">
   <link rel="stylesheet" href="/core/res/world/nouveau-base.css?v=2">
-  <link rel="stylesheet" href="/core/res/world/theme.css?v=26">
+  <link rel="stylesheet" href="/core/res/world/theme.css?v=30">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -158,6 +158,7 @@
         <div id="wmEditor" hidden>
           <div class="wmRow wmTools2"><button type="button" data-tool="raise" class="on">抬升陆地</button><button type="button" data-tool="lower">沉降为海</button><button type="button" data-tool="mount">隆起山脉</button><button type="button" data-tool="flat">夷平</button><button type="button" data-tool="pan">转动星球</button></div>
           <div class="wmRow wmTypes"><span>地貌</span><button type="button" data-type="1">沙漠</button><button type="button" data-type="2">草原</button><button type="button" data-type="3">森林</button><button type="button" data-type="4">雪原</button><button type="button" data-type="5">焦土</button></div>
+          <div class="wmRow wmPlace"><span>标注</span><button type="button" data-tool="site">新增地点</button><button type="button" data-tool="city">增加城市</button><button type="button" data-tool="village">增加村庄</button></div>
           <div class="wmRow wmSliders"><label>笔刷<input id="wmSize" type="range" min="0" max="100" step="1" value="35"><b id="wmSizeV"></b></label><label>力度<input id="wmStr" type="range" min="1" max="10" step="1" value="5"><b id="wmStrV"></b></label></div>
           <div id="wmStats"></div>
           <div class="wmRow wmActs"><button type="button" id="wmUndo">撤销</button><button type="button" id="wmReset">全部还原</button><button type="button" id="wmCancel">取消</button><button type="button" id="wmApply">确认修改地形</button></div>
@@ -806,13 +807,20 @@
   <script src="/core/res/world/annals-shell.js?v=17"></script>
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
-  <script src="/core/res/world/world-planet-map.js?v=41"></script>
+  <script src="/core/res/world/world-planet-map.js?v=43"></script>
   <script src="/core/res/world/engine.js?v=13"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>
   <script type="module" src="/core/res/runtime/risu/risu-headless.js?v=36"></script>
-  <script type="module" src="/core/res/world/app.js?v=29"></script>
+  <script type="module" src="/core/res/world/app.js?v=31"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
+  <div id="wmPlaceForm" hidden>
+    <div class="wmRow wmPlaceHead"><b id="wmPlaceTitle">新增地点</b><span id="wmPlaceAt"></span></div>
+    <label class="wmRow"><span>地名</span><input id="wmPlaceName" type="text" maxlength="24" placeholder="例：黑鸦渡口"></label>
+    <label class="wmRow"><span>坐标名</span><input id="wmPlaceKind" type="text" maxlength="16" placeholder="例：渡口、关隘、废墟"></label>
+    <label class="wmRow"><span>介绍</span><textarea id="wmPlaceDesc" rows="2" maxlength="220" placeholder="这里有什么、谁在这里、为何值得一去…"></textarea></label>
+    <div class="wmRow wmActs"><button type="button" id="wmPlaceCancel">取消</button><button type="button" id="wmPlaceOk">落 定</button></div>
+  </div>
 </body>
 </html>

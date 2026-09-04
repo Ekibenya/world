@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v62';
+const CACHE = 'guardian-dragon-art-v64';
 const CORE = [
   '/',
   '/index.html',
@@ -9,14 +9,14 @@ const CORE = [
   '/core/res/world/visual-novel.css?v=10',
   '/core/res/world/app.css?v=36',
   '/core/res/world/nouveau-base.css?v=2',
-  '/core/res/world/theme.css?v=26',
+  '/core/res/world/theme.css?v=30',
   '/core/res/world/menu-shell.js?v=14',
   '/core/res/world/annals-shell.js?v=17',
   '/core/res/world/world-era-intro.js?v=20',
   '/core/res/vendor/three.r128.min.js',
-  '/core/res/world/world-planet-map.js?v=41',
+  '/core/res/world/world-planet-map.js?v=43',
   '/core/res/world/visual-novel.js?v=10',
-  '/core/res/world/app.js?v=29',
+  '/core/res/world/app.js?v=31',
   '/core/res/world/engine.js?v=13',
   '/core/res/world/sonus.js?v=1',
   '/core/res/world/lore-retrieval.mjs',

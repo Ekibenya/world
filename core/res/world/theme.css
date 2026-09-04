@@ -419,3 +419,32 @@ html:has(#game.show) body{background:var(--sky)}
 
 /* [world] 情报台只剩卡叠：段号与 ▲▼／列表 那一排不再出现 */
 .mvFoot{display:none !important}
+
+/* ═══ 地图：确认前往 · 标注地点 ═══ */
+#worldMapDetail #wmGo{display:block;width:100%;margin-top:12px;padding:9px 12px;cursor:pointer;
+  font-family:var(--dispf);font-size:11px;letter-spacing:.22em;color:#1b1407;
+  background:var(--gold-matte);border:1px solid var(--gold-matte);border-radius:12px 3px 12px 3px;transition:background .18s,box-shadow .18s}
+#worldMapDetail #wmGo:hover{background:var(--star);box-shadow:0 0 16px rgba(241,210,140,.4)}
+.wmRow.wmPlace span{color:var(--frame-mut)}
+#wmPlaceForm{margin-top:8px;padding:10px 12px;border:1px solid rgba(241,210,140,.4);border-radius:3px;
+  background:rgba(0,0,0,.34);display:grid;gap:7px}
+#wmPlaceForm .wmRow{display:flex;align-items:center;gap:8px;margin:0}
+#wmPlaceForm .wmPlaceHead{justify-content:space-between}
+#wmPlaceForm b{font-family:var(--dispf);font-weight:400;letter-spacing:.2em;color:var(--star)}
+#wmPlaceForm #wmPlaceAt{font-size:9px;letter-spacing:.08em;color:var(--frame-mut)}
+#wmPlaceForm label>span{flex:none;width:44px;font-size:9.5px;letter-spacing:.1em;color:var(--frame-mut)}
+#wmPlaceForm input,#wmPlaceForm textarea{flex:1;min-width:0;padding:6px 8px;font-family:inherit;font-size:10.5px;line-height:1.7;
+  color:var(--frame-txt);background:rgba(0,0,0,.3);border:1px solid rgba(241,210,140,.3);border-radius:3px;outline:0;resize:vertical}
+#wmPlaceForm input:focus,#wmPlaceForm textarea:focus{border-color:var(--ln-hi);background:rgba(0,0,0,.4)}
+#wmPlaceForm input:disabled{opacity:.55}
+#wmPlaceForm #wmPlaceOk{color:#1b1407 !important;background:var(--gold-matte) !important;border-color:var(--gold-matte) !important}
+/* 标注表单浮在两处宿主之上（开局选地点／正文地图） */
+#wmPlaceForm{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:92;width:min(92vw,360px);
+  box-shadow:0 26px 70px rgba(0,0,0,.7)}
+.wpmPlacing canvas{cursor:crosshair}
+.fePlace{display:flex;gap:6px;margin-bottom:6px}
+.fePlaceBtn{flex:1;text-align:center;padding:7px 4px;font-size:10.5px;border:1px solid var(--ln) !important;border-radius:3px;color:var(--txt-btn) !important;background:transparent !important;cursor:pointer}
+.fePlaceBtn:hover{border-color:var(--ln-hi) !important;color:var(--star-hi) !important;background:var(--haze) !important}
+.fePlaceBtn.on{border-color:var(--ln-hi) !important;color:var(--star-hi) !important;background:var(--haze) !important}
+.fePlaceHint{margin:0 0 16px;font-size:9.5px;line-height:1.8;letter-spacing:.06em;color:var(--frame-mut)}
+#wmPlaceForm[hidden]{display:none !important}
