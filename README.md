@@ -4,8 +4,6 @@
 
 **THE DRAGON WORLD ONLINE**
 
-三十二个纪年，同一颗星球。挑一处落脚，然后自己写下去。
-
 </div>
 
 ![主菜单](docs/shots/menu.webp)
