@@ -159,6 +159,10 @@ html:has(#game.show) #foot{display:none!important}
 .wmHint{font-size:7.5px;letter-spacing:.06em;line-height:1.55;color:rgba(73,67,56,.7)}
 #gmMap.wpmEditing #worldMapDetail,#gmMap.wpmEditing #worldMapLoose,#gmMap.wpmEditing #worldMapLayers{display:none}
 #gmMap.wpmEditing .wpmCv{cursor:none}
+/* 藏真光标只对笔刷类工具成立：那三样（抬地／造山／铺群系）有一圈跟着走的笔刷圈顶上。
+   落点这三样（自定地点／城市／村庄）没有笔刷圈——pointermove 里 isPlaceTool() 就 hideBrush()——
+   再把真光标一并藏了，屏幕上就什么都不剩，玩家不知道自己点在哪。所以这一档给回十字准星。 */
+#gmMap.wpmEditing.wpmPlacing .wpmCv{cursor:crosshair}
 .wpmBrush{position:absolute;left:0;top:0;pointer-events:none;z-index:4;border-radius:50%;border:1.5px solid rgba(255,255,255,.92);box-shadow:0 0 0 1px rgba(0,0,0,.55),inset 0 0 0 1px rgba(0,0,0,.35);will-change:transform,width,height;display:none}
 .wpmBrush i{position:absolute;left:50%;top:50%;width:3px;height:3px;margin:-1.5px 0 0 -1.5px;border-radius:50%;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.6)}
 @media (max-width:760px){#pnMap{width:auto}#wmEditor{padding:7px 8px;gap:6px}.wmSliders input[type=range]{width:80px}#wmEditor button{padding:5px 7px;font-size:9px}}
