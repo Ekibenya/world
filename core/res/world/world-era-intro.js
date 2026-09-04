@@ -41,10 +41,10 @@
 
   function put(label,text){
     var dt=document.createElement('dt');
-    dt.className='sub';dt.style.cssText='line-height:1.8;white-space:nowrap;color:#9a742a';
+    dt.className='sub';dt.style.cssText='line-height:1.8;white-space:nowrap;color:#f1d28c';
     dt.textContent=label;
     var dd=document.createElement('dd');
-    dd.style.cssText='margin:0;font-size:12px;line-height:2;letter-spacing:.045em;color:#35342b;white-space:pre-line';
+    dd.style.cssText='margin:0;font-size:12px;line-height:2;letter-spacing:.045em;color:#e8dcc0;white-space:pre-line';
     dd.textContent=text||'本节点资料尚未载入。';
     B.querySelector('#erDl').append(dt,dd);
   }

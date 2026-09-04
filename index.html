@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=10">
   <link rel="stylesheet" href="/core/res/world/app.css?v=36">
   <link rel="stylesheet" href="/core/res/world/nouveau-base.css?v=2">
-  <link rel="stylesheet" href="/core/res/world/theme.css?v=19">
+  <link rel="stylesheet" href="/core/res/world/theme.css?v=25">
   <title>守护龙纪事</title>
 </head>
 <body>
@@ -226,7 +226,7 @@
         <details style="margin-top:6px"><summary class="sub" style="cursor:pointer">▸&nbsp;没有／不想用&nbsp;GitHub？（方法二：复制代码手动贴）</summary>
           <div style="display:flex;gap:12px;align-items:center;margin-top:8px"><span class="eBtn" id="imgCopyWorker" style="margin-top:0">复制中转代码</span><span class="sub">复制后按下面&nbsp;5&nbsp;步贴到&nbsp;Cloudflare</span></div>
           <div class="sub" style="line-height:2.1;margin-top:8px">①&nbsp;打开&nbsp;dash.cloudflare.com，注册／登录（免费）<br>②&nbsp;左侧点&nbsp;Compute&nbsp;(Workers)<br>③&nbsp;Create&nbsp;Worker&nbsp;→&nbsp;起名&nbsp;→&nbsp;Deploy<br>④&nbsp;Edit&nbsp;code&nbsp;→&nbsp;原代码全删，贴上刚复制的&nbsp;→&nbsp;再点&nbsp;Deploy<br>⑤&nbsp;复制它给你的网址，填到下面「接口地址」</div>
-          <textarea id="imgWorkerTa" readonly rows="4" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#3a4b5a;font-family:inherit;font-size:9px;line-height:1.6;padding:6px;outline:none"></textarea>
+          <textarea id="imgWorkerTa" readonly rows="4" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:9px;line-height:1.6;padding:6px;outline:none"></textarea>
         </details>
         <div class="sub" style="margin-top:10px">✎&nbsp;参谋拼网址（懒得找长链接就填这两框）：左框＝Worker&nbsp;名（没改名留空，默认&nbsp;nai-proxy）；右框＝workers.dev&nbsp;子域名（xxx.workers.dev&nbsp;的&nbsp;xxx，常与&nbsp;GitHub&nbsp;用户名一致）</div>
         <div style="display:flex;gap:8px;margin-top:6px"><input class="aIn" id="naiWkName" placeholder="nai-proxy" style="width:110px"><input class="aIn" id="naiWkSub" placeholder="你的子域名" style="width:130px"></div>
@@ -245,7 +245,7 @@
       <div id="imgComfyHelp" style="display:none;border:1px solid rgba(132,88,0,.4);padding:12px;margin-top:10px">
         <div class="sub" style="line-height:2.1">本地&nbsp;ComfyUI：启动时加&nbsp;<b style="color:var(--gold-hi)">--enable-cors-header</b>&nbsp;允许网页调用（127.0.0.1&nbsp;不受&nbsp;https&nbsp;混合内容限制）。「接口地址」填&nbsp;<b style="color:var(--gold-hi)">http://127.0.0.1:8188</b>，「模型」填&nbsp;checkpoint&nbsp;文件名（如&nbsp;sd_xl_base_1.0.safetensors），采样参数照常填。<br>进阶：下方可贴你自己的&nbsp;API&nbsp;格式工作流（ComfyUI&nbsp;里&nbsp;Save&nbsp;(API&nbsp;Format)&nbsp;导出），用&nbsp;%prompt%&nbsp;%negative%&nbsp;%seed%&nbsp;%steps%&nbsp;%cfg%&nbsp;%width%&nbsp;%height%&nbsp;%ckpt%&nbsp;作占位符；留空用内置默认&nbsp;txt2img。</div>
         <div style="display:flex;gap:12px;margin-top:8px"><span class="eBtn" id="comfyPull" style="margin-top:0">拉取模型</span><select id="comfyModels" style="display:none;background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:5px;max-width:240px"></select></div>
-        <textarea id="imgWorkflow" rows="3" placeholder="（可选）API 格式工作流 JSON…" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#3a4b5a;font-family:inherit;font-size:9px;line-height:1.6;padding:6px;outline:none"></textarea>
+        <textarea id="imgWorkflow" rows="3" placeholder="（可选）API 格式工作流 JSON…" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:9px;line-height:1.6;padding:6px;outline:none"></textarea>
       </div>
       <div class="sRow"><span>接口地址</span><input class="aIn" id="imgBase" placeholder="https://api.example.com/v1" style="width:260px"></div>
       <div class="sRow"><span>密钥（本地&nbsp;SD／Comfy&nbsp;可留空）</span><input class="aIn" id="imgKey" type="password" style="width:200px"></div>
@@ -303,7 +303,7 @@
         <div class="sRow"><span>次级关键词（可选·须同时命中）</span><input class="aIn" id="lfKeys2" style="width:180px"></div>
         <div class="sRow"><span>顺序&nbsp;/&nbsp;概率%</span><span style="display:flex;gap:8px"><input class="aIn" id="lfOrd" value="100" style="width:60px"><input class="aIn" id="lfProb" value="100" style="width:60px"></span></div>
         <div class="sRow"><span>常驻（每轮必注入）</span><span class="sSeg" id="sgLfConst"><span class="on">否</span><span>是</span></span></div>
-        <textarea id="lfTxt" rows="4" placeholder="写给神谕看的背景资料…" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#35342b;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
+        <textarea id="lfTxt" rows="4" placeholder="写给神谕看的背景资料…" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
         <div style="display:flex;gap:12px;margin-top:10px"><span class="eBtn" id="lfSave" style="margin-top:0">保存</span><span class="eBtn" id="lfCancel" style="margin-top:0">取消</span></div>
       </div>
     </div>
@@ -334,7 +334,7 @@
       </div>
       <div id="jsForm" style="display:none;margin-top:12px;border:1px solid rgba(132,88,0,.35);padding:12px">
         <div class="sRow"><span>脚本名</span><input class="aIn" id="jsfName" style="width:220px"></div>
-        <textarea id="jsfTxt" rows="4" placeholder="return text + '\n——编年已录。';" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#3a4b5a;font-family:inherit;font-size:10px;line-height:1.8;padding:8px;outline:none"></textarea>
+        <textarea id="jsfTxt" rows="4" placeholder="return text + '\n——编年已录。';" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:10px;line-height:1.8;padding:8px;outline:none"></textarea>
         <div style="display:flex;gap:12px;margin-top:10px"><span class="eBtn" id="jsfSave" style="margin-top:0">保存</span><span class="eBtn" id="jsfCancel" style="margin-top:0">取消</span></div>
       </div>
     </div>
@@ -464,7 +464,7 @@
         <span class="sub" id="memMsg"></span>
       </div>
       <div id="memForm" style="display:none;margin-top:12px;border:1px solid rgba(132,88,0,.35);padding:12px">
-        <textarea id="mfTxt" rows="3" style="width:100%;background:transparent;border:1px solid rgba(19,18,13,.2);color:#35342b;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
+        <textarea id="mfTxt" rows="3" style="width:100%;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
         <div style="display:flex;gap:12px;margin-top:10px"><span class="eBtn" id="mfSave" style="margin-top:0">保存</span><span class="eBtn" id="mfCancel" style="margin-top:0">取消</span></div>
       </div>
     </div>
@@ -514,7 +514,7 @@
       <div class="sRow"><span>分类</span><input class="aIn" id="cxfCat" placeholder="自写" style="width:120px"></div>
       <div class="sRow"><span>标题</span><input class="aIn" id="cxfTtl" style="width:240px"></div>
       <div class="sRow"><span>触发词（逗号分隔）</span><input class="aIn" id="cxfKeys" style="width:240px"></div>
-      <textarea id="cxfTxt" rows="4" placeholder="条目内容…" style="width:100%;margin-top:10px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#35342b;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
+      <textarea id="cxfTxt" rows="4" placeholder="条目内容…" style="width:100%;margin-top:10px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
       <div style="display:flex;gap:12px;margin-top:12px"><span class="eBtn" id="cxfSave" style="margin-top:0">存入此卷</span><span class="eBtn" id="cxfCancel" style="margin-top:0">取消</span></div>
     </div>
     <div class="esc2">ESC&nbsp;//&nbsp;RETVRN</div>
@@ -613,7 +613,7 @@
   <div class="box" style="max-width:460px">
     <div id="itScene"><img id="itSceneImg" alt=""></div>
     <h2 id="itTitle"></h2>
-    <div class="sub" id="itBrief" style="font-size:11px;line-height:2.2;letter-spacing:.08em;color:#35342b;margin-top:14px"></div>
+    <div class="sub" id="itBrief" style="font-size:11px;line-height:2.2;letter-spacing:.08em;color:#e8dcc0;margin-top:14px"></div>
     <div class="itActions">
       <span class="eBtn" id="itGo">确认前往&nbsp;⏎</span>
       <span class="eBtn" id="itNo">取消</span>
@@ -625,7 +625,7 @@
   <div class="box" style="max-width:480px">
     <span class="tag">INITIVM</span>
     <h2 id="opTitle"></h2>
-    <div class="sub" id="opBrief" style="font-size:11px;line-height:2.2;letter-spacing:.08em;color:#35342b;margin-top:14px"></div>
+    <div class="sub" id="opBrief" style="font-size:11px;line-height:2.2;letter-spacing:.08em;color:#e8dcc0;margin-top:14px"></div>
     <div style="display:flex;gap:14px;margin-top:26px">
       <span class="eBtn" id="opGo" style="margin-top:0;flex:1;text-align:center">INTRARE&nbsp;·&nbsp;进入&nbsp;⏎</span>
       <span class="eBtn" id="opNo" style="margin-top:0">返回</span>
@@ -805,10 +805,10 @@
   <script>window.$=(s)=>document.querySelector(s);window.MENU={on:true};</script>
   <script src="/core/res/world/menu-shell.js?v=14"></script>
   <script src="/core/res/world/annals-shell.js?v=17"></script>
-  <script src="/core/res/world/world-era-intro.js?v=19"></script>
+  <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=41"></script>
-  <script src="/core/res/world/engine.js?v=10"></script>
+  <script src="/core/res/world/engine.js?v=11"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/visual-novel.js?v=10"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>
