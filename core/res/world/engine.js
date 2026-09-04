@@ -4501,7 +4501,11 @@ function imgcRender(){
 $('#imgcClear').addEventListener('dblclick',function(){imgsPut([]);imgcRender();});
 /* —— 书·世界书管理（统一自写条目） —— */
 function loreCustomGet(){try{return JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]');}catch(_){return[];}}
-function loreCustomPut(a){lsSet('guardianDragonLoreCustom',JSON.stringify(a))}
+function loreCustomPut(a){
+  lsSet('guardianDragonLoreCustom',JSON.stringify(a));
+  /* 世界书面板开着的话当场重画：删掉一条之后它不该还列在那儿。 */
+  try{var d=$('#dlgBook');if(d&&getComputedStyle(d).display!=='none')bookRender();}catch(_){}
+}
 var LFEDIT=-1;
 $('#loreBud').value=SET.loreBud;$('#loreBudV').textContent=SET.loreBud;
 $('#loreBud').addEventListener('input',function(){
@@ -5301,10 +5305,8 @@ $('#cxfSave').addEventListener('click',function(){
     keys:$('#cxfKeys').value.split(/[,，]/).map(function(s){return s.trim();}).filter(Boolean),
     content:$('#cxfTxt').value.trim(),custom:true};
   if(!e.title||!e.content){$('#cxMsg').textContent='标题与内容必填';return;}
-  try{
-    var cl=JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]');
-    cl.push(e);localStorage.setItem('guardianDragonLoreCustom',JSON.stringify(cl));
-  }catch(_){}
+  loreCustomPut(loreCustomGet().concat([e]));
+  try{loreRender();}catch(_){}
   $('#cxfTtl').value='';$('#cxfKeys').value='';$('#cxfTxt').value='';
   $('#cxForm').style.display='none';$('#cxMsg').textContent='已存入当前时代世界书';
   BOOK.side='luzhi';bookRender();
@@ -5319,8 +5321,8 @@ $('#cxFile').addEventListener('change',function(){
       if(!Array.isArray(arr))arr=arr.lorebook||[];
       var ok=0;
       arr.forEach(function(e){if(e&&e.title&&e.content){e.custom=true;ok++;}});
-      var cl=JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]');
-      localStorage.setItem('guardianDragonLoreCustom',JSON.stringify(cl.concat(arr.filter(function(e){return e&&e.title&&e.content;}))));
+      loreCustomPut(loreCustomGet().concat(arr.filter(function(e){return e&&e.title&&e.content;})));
+      try{loreRender();}catch(_){}
       $('#cxMsg').textContent='汇入 '+ok+' 条';bookRender();
     }catch(_){$('#cxMsg').textContent='JSON 解析失败';}
   };
@@ -5383,10 +5385,12 @@ $('#cxFile').addEventListener('change',function(){
 })();
 /* ============ dual-card worldbook (罗马 / 周 · two mother layers, zero mixing) ============ */
 var CARDS={luzhi:window.__GAME_LUZHI__||{openings:[],lorebook:[]}};
-/* 自写世界书条目（本地持久）并入罗马卷 */
-try{(JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[]).forEach(function(e){
-  if(e&&e.title&&e.content)CARDS.luzhi.lorebook.push(e);
-});}catch(_){}
+/* 自写条目不再烙进卡的 lorebook。从前开页时把它们 push 进去、选定纪年时再 push 一次，
+   于是那份数组成了第二个副本——设置里把条目删掉，删的只是 localStorage 那个真身，
+   卡里那一份还在：世界书面板照旧列着它，装进内核的底本里也照旧带着它，
+   非得重选一次纪年或刷新页面才消失。现在只留一个真身：
+   进提示词走 felRisuPrepare 的 localLore（每回合按当前清单重发），
+   世界书面板则在渲染时现拼（见 bookList）。 */
 var ACTIVE='luzhi';                       /* which card drives the running game session */
 var BOOK={side:'luzhi',top:0,cat:0,ent:0};
 /* 左边那一列原来只有「类目」一层，而类目是按条目自己的 cat 分的：
@@ -5475,8 +5479,19 @@ function bookCatLabel(c){
   return String(c==null?'':c).replace(/^(人|文字)\s*·\s*/,'');
 }
 /* 两层目录：大母项 → 类目 → 条目下标。次序按 BOOK_TOPS，表上没有的排在最后。 */
+/* 正典条目 + 当前启用的自写条目。现拼，不留副本：增删改在同一拍就反映出来。 */
+function loreCustomLive(){
+  try{
+    return (JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[])
+      .filter(function(e){return e&&e.title&&e.content&&e.on!==false;});
+  }catch(_){return [];}
+}
+function bookList(side){
+  var lb=(CARDS[side]&&CARDS[side].lorebook)||[];
+  return side==='luzhi'?lb.concat(loreCustomLive()):lb.slice();
+}
 function bookCats(side){
-  var lb=(CARDS[side]&&CARDS[side].lorebook)||[],tops=[],tmap={},i;
+  var lb=bookList(side),tops=[],tmap={},i;
   bookYearScan(lb);
   for(i=0;i<lb.length;i++){
     if(bookHide(lb[i]))continue;
@@ -5490,7 +5505,7 @@ function bookCats(side){
   return{tops:tops,tmap:tmap};
 }
 function bookRender(){
-  var side=BOOK.side,lb=CARDS[side].lorebook||[],bc=bookCats(side);
+  var side=BOOK.side,lb=bookList(side),bc=bookCats(side);
   var tabs=document.querySelectorAll('#dlgBook .cxTab');
   for(var t=0;t<tabs.length;t++)tabs[t].classList.toggle('on',tabs[t].getAttribute('data-side')===side);
   var topsEl=$('#cxTops'),catsEl=$('#cxCats'),entsEl=$('#cxEnts');
@@ -9431,7 +9446,6 @@ function worldSetEraNow(era,meta,bundle){
   CARDS.luzhi={name:'守护龙纪事',heroName:'玩家',heroless:true,panelSpec:WORLD_PANEL,description:'',personality:'',scenario:'',system_prompt:'',post_history_instructions:'',mes_example:'',first_mes:'',openings:[],annals:[],timeline:[],
     lorebook:(era.lorebook||[]).map(function(e){return worldLore(e,ord);})};
   worldItemLore(era).forEach(function(e){CARDS.luzhi.lorebook.push(e);});
-  try{(JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[]).forEach(function(e){if(e&&e.title&&e.content)CARDS.luzhi.lorebook.push(e);});}catch(_){}
   var entry=worldEraEntry(era,meta);
   FE.eras=[entry];FE.era=entry;FE.ld=2;FE.soc=[];
   window.__GAME_LUZHI__=CARDS.luzhi;
