@@ -3545,15 +3545,10 @@ function felRisuPrompts(){
   return FEL_RISU_PROMPTS;
 }
 function felRisuPromptRender(view){
-  $('#apiNsfw').checked=!!view.enabled;
-  $('#apiJailbreak').value=view.text;
-  $('#apiNsfw').disabled=false;$('#apiJailbreak').disabled=false;$('#apiJailbreakReset').disabled=false;
-  $('#apiNsfwStatus').textContent=(view.enabled?'已开启':'已关闭')+
-    (view.presetName?' · '+view.presetName:'')+
-    (!view.hasJailbreakPrompt?' · 当前原生预设没有使用此开关的提示词':
-      (view.template?' · 按原生预设模板生效':' · 使用原生 Jailbreak 提示词'));
+  $('#apiNsfwYes').checked=!!view.enabled;$('#apiNsfwNo').checked=!view.enabled;
+  $('#apiNsfwYes').disabled=false;$('#apiNsfwNo').disabled=false;
 }
-function felRisuPromptError(e){$('#apiNsfwStatus').textContent='读取或保存失败：'+felPublicError(e);}
+function felRisuPromptError(e){$('#apiMsg').textContent='NSFW 模式设置失败：'+felPublicError(e);}
 function felRisuBoot(){
   if(FEL_RISU_BOOT)return FEL_RISU_BOOT;
   /* 失败的那一份不留：本纪资料是选定纪年之后才装的，开页时装不上是正常的。
@@ -5220,8 +5215,7 @@ function apiOpen(){
   $('#apiReason').value=String(SET.samp.reason==null?1:SET.samp.reason);
   $('#apiMsg').textContent=apiReady()?'状态：已配置 · '+API.model:'状态：未接线';
   gDlgShow('#dlgApi');
-  $('#apiNsfw').disabled=true;$('#apiJailbreak').disabled=true;$('#apiJailbreakReset').disabled=true;
-  $('#apiNsfwStatus').textContent='读取原生提示词…';
+  $('#apiNsfwYes').disabled=true;$('#apiNsfwNo').disabled=true;
   felRisuPrompts().then(function(controls){felRisuPromptRender(controls.read());}).catch(felRisuPromptError);
 }
 /* —— 开局前的快速接入 ——
@@ -5244,23 +5238,15 @@ $('#qkImg').addEventListener('click',function(){
   applyCfg();gDlgShow('#dlgCfg');
   var tb=document.querySelector('#cfgTabs span[data-cp="img"]');if(tb)tb.click();
 });
-$('#apiNsfw').addEventListener('change',function(){
-  var enabled=this.checked;
-  felRisuPrompts().then(function(controls){
-    SET.risu.jailbreakToggle=enabled;
-    felRisuPromptRender(controls.apply(SET.risu));setStore();
-  }).catch(felRisuPromptError);
-});
-$('#apiJailbreak').addEventListener('input',function(){
-  var text=this.value;
-  felRisuPrompts().then(function(controls){
-    SET.risu.jailbreak=text;controls.apply(SET.risu);setStore();
-  }).catch(felRisuPromptError);
-});
-$('#apiJailbreakReset').addEventListener('click',function(){
-  felRisuPrompts().then(function(controls){
-    felRisuPromptRender(controls.resetPrompt(SET.risu));setStore();
-  }).catch(felRisuPromptError);
+['#apiNsfwYes','#apiNsfwNo'].forEach(function(selector){
+  $(selector).addEventListener('change',function(){
+    if(!this.checked)return;
+    var enabled=this.value==='yes';
+    felRisuPrompts().then(function(controls){
+      SET.risu.jailbreakToggle=enabled;
+      felRisuPromptRender(controls.apply(SET.risu));setStore();
+    }).catch(felRisuPromptError);
+  });
 });
 $('#apiEye').addEventListener('click',function(){
   var k=$('#apiKey');k.type=k.type==='password'?'text':'password';

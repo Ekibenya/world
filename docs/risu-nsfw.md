@@ -1,8 +1,9 @@
 # Risu 原生 NSFW / Jailbreak 接入
 
-连接 AI 面板的开关直接读写 Risu database 的 `jailbreakToggle`。
-提示词编辑框直接读写 `database.jailbreak`，恢复按钮读取原生
-`presetTemplate.jailbreak`，没有另写或删改默认提示词。
+连接 AI 面板只显示「是否开启NSFW模式？」及 YES / NO。
+YES / NO 直接读写 Risu database 的 `jailbreakToggle`。
+默认提示词继续读取原生数据库，已有自定义文本与原生预设继续保留。
+界面不展示技术名称或提示词编辑区。
 
 ## 对应源码
 
@@ -33,7 +34,7 @@ World 的 `guardianDragonSet.risu` 保存手动选择的开关、未裁剪的文
 
 正文继续走 `FeliniaRisu.generateTurn` → 原生 `sendChat`。
 适配层不追加第二份 Jailbreak、不强制改为末位，也不替换原生模板。
-若原生模板未使用该开关，界面会提示；原生 utility bot 等条件也保持原行为。
+原生模板是否使用该开关、utility bot 等条件均保持原行为。
 World 自有的 SillyTavern/纯文本预设列表仍按各条目的开关和位置生效。
 
 ## 验证
