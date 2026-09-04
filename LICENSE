@@ -55,11 +55,11 @@ the engine, interface, styles and build scripts listed above.
    it is not licensed under the MIT terms above.
 
 3. 第三方组件（core/res/runtime/**、core/res/vendor/**、core/res/font/**）
-   RisuAI 无头运行时、three.js 与各字体分别遵循各自的原始许可，
+   无头叙事运行时、three.js 与各字体分别遵循各自的原始许可，
    请以各组件自带的许可文件为准。
 
-   Third-party components — the RisuAI headless runtime, three.js and the
-   bundled fonts — remain under their own respective licenses.
+   Third-party components — the headless narrative runtime, three.js and
+   the bundled fonts — remain under their own respective licenses.
 
 4. 新艺术装饰素材（core/res/img/nouveau/**）
    来源与授权逐件记录在 core/res/img/nouveau/CREDITS.md。
