@@ -3531,6 +3531,9 @@ function felRisuLoad(){
 }
 function felRisuBoot(){
   if(FEL_RISU_BOOT)return FEL_RISU_BOOT;
+  /* 失败的那一份不留：本纪资料是选定纪年之后才装的，开页时装不上是正常的。
+     从前这里把已拒绝的 promise 一直缓存着，于是「在主菜单点过一次」就等于
+     整局都废了——之后进了游戏，凡是走 felRisuBoot 的地方拿到的还是那句旧错。 */
   FEL_RISU_BOOT=felRisuLoad().then(function(risu){return new Promise(function(resolve,reject){
     function install(){
       if(!FE||!FE.eras||!FE.eras.length){reject(new Error('本纪资料没有载入'));return;}
@@ -3545,6 +3548,7 @@ function felRisuBoot(){
     if(FE&&FE.eras&&FE.eras.length){install();return;}
     feLoad(function(ok){if(ok)install();else reject(new Error('本纪资料载入失败'));});
   });});
+  FEL_RISU_BOOT.catch(function(){FEL_RISU_BOOT=null;});
   return FEL_RISU_BOOT;
 }
 function felRisuNpcKeys(eraIndex){
@@ -5214,7 +5218,11 @@ $('#apiPull').addEventListener('click',function(){
   if(!base){$('#apiMsg').textContent='先填 BASE URL';return;}
   btn.setAttribute('aria-busy','true');btn.style.pointerEvents='none';
   $('#apiMsg').textContent='拉取模型中…';
-  felRisuBoot().then(function(risu){return risu.listModels(felRisuProvider({format:format,base:base,key:key,model:'model-list'}));}).then(function(list){
+  /* 列模型只是朝接口发一个 GET，内核里那一份 listModels 也只用到 globalFetch，
+     跟本纪资料、角色卡一概无关。原来这里走 felRisuBoot——那是要把三十二纪的
+     全部内容装进内核的，而纪年是选局时才定的，于是从主菜单点这枚钮永远只得到
+     一句「本纪资料没有载入」，看着就像按钮点不动。改成只加载内核本体。 */
+  felRisuLoad().then(function(risu){return risu.listModels(felRisuProvider({format:format,base:base,key:key,model:'model-list'}));}).then(function(list){
     if(!list.length)throw new Error('空列表');
     var sel=$('#apiModels');sel.innerHTML='';
     list.forEach(function(id){var o=document.createElement('option');o.value=o.textContent=id;sel.appendChild(o);});
@@ -5232,10 +5240,20 @@ $('#apiTest').addEventListener('click',function(){
   var format=felRisuFormat($('#apiFormat').value),base=$('#apiBase').value.trim(),key=$('#apiKey').value.trim(),model=$('#apiModel').value.trim();
   if(!base||!model){$('#apiMsg').textContent='BASE URL 与 MODEL 必填';return;}
   $('#apiMsg').textContent='测试中…';
-  felRisuBoot().then(function(risu){return risu.request({provider:Object.assign(felRisuProvider({format:format,base:base,key:key,model:model}),{maxTokens:8,stream:false}),
+  /* 整轮生成得有一位在场的角色（内核里 request 拿不到当前角色就直接报错），
+     而角色是选定纪年之后才装的。所以在主菜单这一档退回列模型来验连通——
+     那一条只发一个 GET，不碰本纪资料，能列出模型就说明地址、密钥、网络都通。 */
+  var prov=felRisuProvider({format:format,base:base,key:key,model:model});
+  felRisuBoot().then(function(risu){return risu.request({provider:Object.assign({},prov,{maxTokens:8,stream:false}),
     messages:[{role:'user',content:'Reply only: pong'}],maxTokens:8});})
   .then(function(){$('#apiMsg').textContent='✓ 通了。SERVARE 储存后即可对话';})
-  .catch(function(e){$('#apiMsg').textContent='✕ 不通：'+felPublicError(e);});
+  .catch(function(e){
+    var m=String((e&&e.message)||e||'');
+    if(!/本纪资料|No FELINIA era/i.test(m)){$('#apiMsg').textContent='✕ 不通：'+felPublicError(e);return;}
+    return felRisuLoad().then(function(risu){return risu.listModels(prov);}).then(function(list){
+      $('#apiMsg').textContent='✓ 接口通了（列到 '+list.length+' 个模型）· 整轮生成测试要进入一局之后再做';
+    }).catch(function(e2){$('#apiMsg').textContent='✕ 不通：'+felPublicError(e2);});
+  });
 });
 $('#apiSave').addEventListener('click',function(){
   API.format=felRisuFormat($('#apiFormat').value);
