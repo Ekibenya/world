@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v81';
+const CACHE = 'guardian-dragon-art-v82';
 const CORE = [
   '/',
   '/index.html',
@@ -17,11 +17,12 @@ const CORE = [
   '/core/res/world/world-planet-map.js?v=43',
   '/core/res/world/visual-novel.js?v=14',
   '/core/res/world/app.js?v=33',
-  '/core/res/world/engine.js?v=18',
+  '/core/res/world/engine.js?v=19',
   '/core/res/world/sonus.js?v=1',
   '/core/res/world/cosmos.js?v=4',
   '/core/res/world/lore-retrieval.mjs',
   '/core/res/world/runtime.mjs',
+  '/core/res/world/risu-prompt-settings.mjs',
   '/core/res/data/world/index.json',
   '/core/res/data/world/customization.json',
   '/core/res/data/world/timeline-arcs.json',

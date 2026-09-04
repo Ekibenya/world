@@ -2647,7 +2647,9 @@ function risuInvoke(messages,cb,err,opt){
   function fail(e){if(fired)return;fired=true;clearTimeout(timer);
     err(timedOut?('接口 '+Math.round(timeoutMs/1000)+' 秒没有动静，已中断'):felPublicError(e));}
   (aux?felRisuBoot().then(function(risu){
-    var ei=_eraNow()||1;return risu.activateEra(ei,felRisuNpcKeys(ei)).then(function(){return risu;});
+    var ei=_eraNow()||1;return felRisuPrompts().then(function(controls){controls.apply(SET.risu);
+      return risu.activateEra(ei,felRisuNpcKeys(ei));
+    }).then(function(){return risu;});
   }):felRisuPrepare(messages,{firstMessage:opening?'':undefined})).then(function(risu){
     return risu.configureTranslation(felTrCfg()).then(function(){return risu;});
   }).then(function(risu){
@@ -3529,6 +3531,29 @@ function felRisuLoad(){
     });
   });
 }
+/* Persist the native prompt controls independently of era database resets. */
+var FEL_RISU_PROMPTS=null;
+function felRisuPrompts(){
+  if(FEL_RISU_PROMPTS)return FEL_RISU_PROMPTS;
+  FEL_RISU_PROMPTS=felRisuLoad().then(function(){return Promise.all([
+    window.RisuHeadless.load('database'),import('./risu-prompt-settings.mjs')
+  ]);}).then(function(parts){
+    var controls=parts[1].createRisuPromptSettings(parts[0]);
+    controls.apply(SET.risu,true);return controls;
+  });
+  FEL_RISU_PROMPTS.catch(function(){FEL_RISU_PROMPTS=null;});
+  return FEL_RISU_PROMPTS;
+}
+function felRisuPromptRender(view){
+  $('#apiNsfw').checked=!!view.enabled;
+  $('#apiJailbreak').value=view.text;
+  $('#apiNsfw').disabled=false;$('#apiJailbreak').disabled=false;$('#apiJailbreakReset').disabled=false;
+  $('#apiNsfwStatus').textContent=(view.enabled?'已开启':'已关闭')+
+    (view.presetName?' · '+view.presetName:'')+
+    (!view.hasJailbreakPrompt?' · 当前原生预设没有使用此开关的提示词':
+      (view.template?' · 按原生预设模板生效':' · 使用原生 Jailbreak 提示词'));
+}
+function felRisuPromptError(e){$('#apiNsfwStatus').textContent='读取或保存失败：'+felPublicError(e);}
 function felRisuBoot(){
   if(FEL_RISU_BOOT)return FEL_RISU_BOOT;
   /* 失败的那一份不留：本纪资料是选定纪年之后才装的，开页时装不上是正常的。
@@ -3542,7 +3567,8 @@ function felRisuBoot(){
       var _risuCard=Object.assign({},_baseCard,{mes_example:[_baseCard.mes_example||'',FELINIA_VOICE_EXAMPLE]
         .filter(Boolean).join('\n\n')});
       risu.installContent(_risuCard,FE.eras).then(function(info){
-        window.__FEL_RISU_INSTALL__=info;resolve(risu);
+        window.__FEL_RISU_INSTALL__=info;
+        felRisuPrompts().then(function(controls){controls.apply(SET.risu,true);return risu;}).then(resolve,reject);
       },reject);
     }
     if(FE&&FE.eras&&FE.eras.length){install();return;}
@@ -3643,7 +3669,9 @@ function felRisuPrepare(messages,options){
       (felTrOn()?(GAME.opText||''):(((GAME.op&&GAME.op.text)||GAME.opText)||''));
     /* 开场已作为第一条 assistant 进了 history，firstMessage 再带一遍就会在提示里出现两次 */
     if(first&&history.length&&history[0].role==='assistant'&&String(history[0].content||'')===String(first))first='';
-    return risu.activateEra(ei,felRisuNpcKeys(ei)).then(function(){
+    return felRisuPrompts().then(function(controls){controls.apply(SET.risu);
+      return risu.activateEra(ei,felRisuNpcKeys(ei));
+    }).then(function(){
       return risu.setSessionContent({systemPrompt:system,authorNote:FELINIA_AUTHOR_NOTE,firstMessage:first,
         localLore:loreCustomGet().filter(function(e){return e&&e.on!==false;}),
         loreTokenBudget:Math.max(64,Math.round((parseInt(SET.loreBud,10)||20000)*1.1)),
@@ -4922,9 +4950,10 @@ $('#preFile').addEventListener('change',function(){
     done('已导入 '+list.length+' 条（'+how+'）·可逐条开关与改注入位置');
   }
   function native(){
-    return f.arrayBuffer().then(function(buf){return felRisuBoot().then(function(risu){
-      return risu.importPreset(f.name,new Uint8Array(buf));
-    });}).then(function(){done('原生预设已经启用');});
+    return f.arrayBuffer().then(function(buf){return felRisuPrompts().then(function(controls){
+      return felRisuLoad().then(function(risu){return risu.importPreset(f.name,new Uint8Array(buf));})
+        .then(function(){var view=controls.capturePreset(SET.risu);setStore();felRisuPromptRender(view);});
+    });}).then(function(){done('原生预设已经启用并保存 · 刷新与换纪年后保留');});
   }
   var binary=/\.(risupreset|risup|risum|bin|gz|zip|png)$/i.test(f.name);
   (binary?native():f.text().then(function(txt){
@@ -5191,6 +5220,9 @@ function apiOpen(){
   $('#apiReason').value=String(SET.samp.reason==null?1:SET.samp.reason);
   $('#apiMsg').textContent=apiReady()?'状态：已配置 · '+API.model:'状态：未接线';
   gDlgShow('#dlgApi');
+  $('#apiNsfw').disabled=true;$('#apiJailbreak').disabled=true;$('#apiJailbreakReset').disabled=true;
+  $('#apiNsfwStatus').textContent='读取原生提示词…';
+  felRisuPrompts().then(function(controls){felRisuPromptRender(controls.read());}).catch(felRisuPromptError);
 }
 /* —— 开局前的快速接入 ——
    完整设置面板本来只挂在游戏内的工具栏上，开局之前根本够不著预设、世界书、生图这几项。
@@ -5211,6 +5243,24 @@ $('#qkImg').addEventListener('click',function(){
   $('#dlgApi').style.display='none';
   applyCfg();gDlgShow('#dlgCfg');
   var tb=document.querySelector('#cfgTabs span[data-cp="img"]');if(tb)tb.click();
+});
+$('#apiNsfw').addEventListener('change',function(){
+  var enabled=this.checked;
+  felRisuPrompts().then(function(controls){
+    SET.risu.jailbreakToggle=enabled;
+    felRisuPromptRender(controls.apply(SET.risu));setStore();
+  }).catch(felRisuPromptError);
+});
+$('#apiJailbreak').addEventListener('input',function(){
+  var text=this.value;
+  felRisuPrompts().then(function(controls){
+    SET.risu.jailbreak=text;controls.apply(SET.risu);setStore();
+  }).catch(felRisuPromptError);
+});
+$('#apiJailbreakReset').addEventListener('click',function(){
+  felRisuPrompts().then(function(controls){
+    felRisuPromptRender(controls.resetPrompt(SET.risu));setStore();
+  }).catch(felRisuPromptError);
 });
 $('#apiEye').addEventListener('click',function(){
   var k=$('#apiKey');k.type=k.type==='password'?'text':'password';

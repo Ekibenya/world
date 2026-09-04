@@ -531,6 +531,14 @@
     <div class="sRow"><span>MODEL</span><span style="display:flex;gap:6px;align-items:center"><input class="aIn" id="apiModel" placeholder="模型名 · 或点击拉取" style="width:180px"><span class="gt" id="apiPull">拉取模型</span></span></div>
     <div class="sRow" id="apiModelsRow" style="display:none"><span>可用模型</span><select id="apiModels" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"></select></div>
     <div class="sRow"><span>推理强度</span><select id="apiReason" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"><option value="0">关闭</option><option value="1" selected>低（默认）</option><option value="2">中</option><option value="3">高</option></select></div>
+    <div class="sRow"><label for="apiNsfw">NSFW / Jailbreak · 使用越狱提示词</label><input type="checkbox" id="apiNsfw" role="switch" aria-describedby="apiNsfwStatus" disabled></div>
+    <div class="sub" id="apiNsfwStatus" role="status" aria-live="polite">读取原生提示词…</div>
+    <details style="margin-top:12px">
+      <summary style="cursor:pointer">Risu 原生 Jailbreak 提示词</summary>
+      <label class="sub" for="apiJailbreak">自动保存。使用模板的预设会按模板中的 Jailbreak 条目及开关条件生效。</label>
+      <textarea class="aIn" id="apiJailbreak" rows="7" spellcheck="false" style="box-sizing:border-box;width:100%;margin-top:8px;resize:vertical" disabled></textarea>
+      <button type="button" class="eBtn" id="apiJailbreakReset" disabled>恢复原生默认提示词</button>
+    </details>
     <div class="sRow"><span>生图接口（可选）</span><input class="aIn" id="apiImg" placeholder="https://…（暂存配置）" style="width:280px"></div>
     <div style="display:flex;gap:12px;margin-top:22px">
       <span class="eBtn" id="apiTest">PROBARE&nbsp;测试</span>
