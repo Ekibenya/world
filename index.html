@@ -270,7 +270,7 @@
       <div style="display:flex;gap:12px;margin-top:14px"><span class="eBtn" id="imgDraw" style="margin-top:0">PINGERE&nbsp;绘此幕</span><span class="sub" id="imgMsg"></span></div>
     </div>
     <div class="cfgPane" id="cp_voice" style="display:none">
-      <div class="sub">把正文读出来：「浏览器内置」零配置免费（系统自带音色）；「自带接口」走&nbsp;OpenAI&nbsp;兼容&nbsp;/audio/speech（tts-1&nbsp;及各中转），密钥只存本机。每回正文下有「诵此回」。</div>
+      <div class="sub">把正文读出来：「浏览器内置」零配置免费��系统自带音色）；「自带接口」走&nbsp;OpenAI&nbsp;兼容&nbsp;/audio/speech（tts-1&nbsp;及各中转），密钥只存本机。每回正文下有「诵此回」。</div>
       <div class="sRow"><span>语音来源</span><span class="sSeg" id="sgTtsSrc"><span class="on">浏览器</span><span>自带接口</span></span></div>
       <div class="sRow"><span>接口地址</span><input class="aIn" id="ttsBase" placeholder="https://…/v1" style="width:240px"></div>
       <div class="sRow"><span>密钥</span><input class="aIn" id="ttsKey" type="password" style="width:200px"></div>
@@ -423,7 +423,7 @@
         <div class="sRow"><span>严格&nbsp;Schema</span><input type="checkbox" id="reJsonStrict"></div>
         <div class="sRow"><span>JSON&nbsp;Schema</span><textarea id="reJson" rows="6" placeholder='{"type":"object","properties":{}}'></textarea></div>
         <div class="sRow"><span>提取字段</span><input class="aIn" id="reExtract" placeholder="留空返回完整结果" style="width:220px"></div>
-        <div class="sRow"><span>附加请求参数</span><textarea id="reParams" rows="5" placeholder="每行：参数名 = JSON值&#10;例如：service_tier = &quot;auto&quot;"></textarea></div>
+        <div class="sRow"><span>附加请求��数</span><textarea id="reParams" rows="5" placeholder="每行：参数名 = JSON值&#10;例如：service_tier = &quot;auto&quot;"></textarea></div>
         <div class="sRow"><span>附加参数应用到所有模型</span><input type="checkbox" id="reParamsAll"></div>
         <div class="sRow"><span>模型工具</span><input class="aIn" id="reTools" placeholder="逗号分隔，如 search" style="width:260px"></div>
       </details>
@@ -814,5 +814,9 @@
   <script type="module" src="/core/res/runtime/risu/risu-headless.js?v=36"></script>
   <script type="module" src="/core/res/world/app.js?v=29"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
+  <script type="module">
+    import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/dist/index.mjs';
+    inject();
+  </script>
 </body>
 </html>

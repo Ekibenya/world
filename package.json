@@ -1,0 +1,24 @@
+{
+  "name": "world",
+  "version": "1.0.0",
+  "description": "The Dragon World Online",
+  "main": "sw.js",
+  "scripts": {
+    "build": "sh cf-build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekibenya/world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ekibenya/world/issues"
+  },
+  "homepage": "https://github.com/Ekibenya/world#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
