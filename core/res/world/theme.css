@@ -408,10 +408,14 @@ html:has(#game.show) body{background:var(--sky)}
 /* 纪年简介弹窗的复杂款花边：还是原来这张 frame-whiplash.svg，但不许它平铺。
    round 会把侧边中段一格一格接起来，而这张是一次成画的整幅——那一格的上下
    两端本来就对不上（上边界三股线、下边界另一副样子），每接一次断一次。
-   改成 stretch：四角按 54/84 的比例原样摆好（这个比值贴着角块 428×284 的原比例，
-   所以角上的花不变形），中间四条边整段拉开填满——线是一根到底的，既不平铺也不截断，
-   只有左右两条边随弹窗高度纵向拉伸，而那一段本来就是几根细长的曲线，拉长看不出来。 */
-#dlgEra .box{border-image:url(/core/res/img/nouveau/frame-whiplash.svg) 26% 21% / 54px 84px / 0 stretch !important}
+   改成 stretch：四角按 border-image-width 原样摆好，不参与拉伸；
+   中间四条边整段拉开填满——线是一根到底的，既不平铺也不截断。
+   花边的厚度要跟着一起加，不然只拉长度不加宽度，线就被抻成一根根细丝。
+   102/154：左右的形变从 7.17 降到 3.31，上下从 2.92 降到 1.20（1.00 即不变形）。
+   154/102 = 1.51，正好是角块 428×283 的原比例，所以角上那四朵花一点不变形。
+   墨迹只占边带外侧的 46%（左右 71px）与 37%（上下 38px），内边距给到 50/82 就压不到字。 */
+#dlgEra .box{border-image:url(/core/res/img/nouveau/frame-whiplash.svg) 26% 21% / 102px 154px / 0 stretch !important;
+  padding:50px 82px !important}
 
 /* 纪年简介：壳样式里的撕边遮罩与 border:0 会吃掉花边框，正文字色也要亮 */
 #dlgEra .box{border-width:1px !important;border-style:solid !important;border-color:rgba(241,210,140,.5) !important;-webkit-mask-image:none !important;mask-image:none !important;filter:none !important}
