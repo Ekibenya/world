@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v84';
+const CACHE = 'guardian-dragon-art-v85';
 const CORE = [
   '/',
   '/index.html',

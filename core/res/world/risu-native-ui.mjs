@@ -50,7 +50,7 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
   const options=section(host,'预设与模块选项');renderOptions(options);
   const p=clone(native.preset());if(!p){manager.append(el('p','尚未导入原生预设，可新建或导入后编辑模板。',{className:'sub'}));manager.querySelector('select').disabled=true;for(const b of manager.querySelectorAll('button'))if(['复制当前预设','删除当前预设','导出 .risup'].includes(b.textContent))b.disabled=true;return;}
   field(manager,'名称',p.name,v=>{p.name=v;native.editPreset(p);changed();});
-  field(manager,'生成参数来源',native.state().parameterSource||'preset',v=>{native.state().parameterSource=v;persist();},'text',{preset:'使用当前原生预设',world:'使用 World 生成引擎设置'});
+  field(manager,'生成参数来源',native.parameterSource(),v=>{native.setParameterSource(v);},'text',{preset:'使用当前原生预设',world:'使用 World 生成引擎设置'});
   const template=section(host,'提示模板','条目顺序就是执行顺序；条件使用 Risu 原生宏。修改后点击保存模板。');
   const draft=clone(p);draft.promptTemplate??=[];
   field(template,'使用提示模板',p.promptTemplate!=null,v=>{p.promptTemplate=v?draft.promptTemplate:null;native.editPreset(p);changed();},'checkbox');

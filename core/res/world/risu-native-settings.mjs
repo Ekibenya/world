@@ -26,6 +26,12 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   const session = () => getSession?.();
   let loadedPlugins = false;
   function preset() {return db().botPresets?.[db().botPresetsId];}
+  function parameterSource(){return state().parameterSource||(getSettings().nativePreset?'preset':'world');}
+  function setParameterSource(value){
+    if(!['preset','world'].includes(value))throw Error('未知参数来源');
+    if(value==='preset'){if(!preset())throw Error('请先导入或新建原生预设');getSettings().nativePreset=clone(preset());}
+    state().parameterSource=value;capture();
+  }
   function capture() {
     const s=state(), d=db();
     s.presets=clone(d.botPresets);s.index=d.botPresetsId;
@@ -51,7 +57,7 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   }
   function afterProvider(d) {
     // configureProvider owns endpoint/protocol; native setPreset owns every preset field.
-    if(getSettings().nativePreset && state().parameterSource!=='world'){
+    if(getSettings().nativePreset && parameterSource()==='preset'){
       const connection=Object.fromEntries(CONNECTION.map(key=>[key,clone(d[key])]));
       database.setPreset(d,clone(preset()||getSettings().nativePreset));
       Object.assign(d,connection);
@@ -130,6 +136,6 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
     saveSession();return result;
   }
   return {database,modules,plugins,stores,triggers,db,state,preset,capture,restore,afterProvider,startPlugins,
-    changePreset,editPreset,addPreset,deletePreset,exportPreset,options,getVar,setVar,setLocal,unpin,
+    changePreset,editPreset,addPreset,deletePreset,exportPreset,parameterSource,setParameterSource,options,getVar,setVar,setLocal,unpin,
     applySession,saveSession,memorySettings,runManual,applyModels};
 }

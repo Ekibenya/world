@@ -19,9 +19,9 @@ await fel.install({base:{name:'World Test'},eras:[{index:1,year:1000,name:'Era T
 const {createNativeSettings,clone}=await import('../core/res/world/risu-native-settings.mjs');
 let settings={},session={},writes=0;
 const native=await createNativeSettings({load,getSettings:()=>settings,getSession:()=>session,save:()=>writes++});
-native.capture();assert.equal(settings.nativePreset,undefined,'saving a module must not activate a default preset');
+native.capture();assert.equal(native.parameterSource(),'world');assert.equal(settings.nativePreset,undefined,'saving a module must not activate a default preset');
 const p={...clone(database.presetTemplate),name:'Fixture',temperature:137,maxResponse:333,maxContext:8192,promptTemplate:[{type:'plain',type2:'normal',role:'system',text:'OPTION {{getglobalvar::toggle_story}}'},{type:'jailbreak',role:'system',text:'NSFW_TEST {{char}}'},{type:'chat',rangeStart:0,rangeEnd:'end'}],customPromptTemplateToggle:'story=Story\nstyle=Style=select=Quiet,Loud\nnotes=Notes=textarea',templateDefaultVariables:'counter=1',customUnrecognizedField:{keep:['all']}};
-native.addPreset(p);settings.jailbreakToggle=true;database.getDatabase().jailbreakToggle=true;
+native.addPreset(p);assert.equal(native.parameterSource(),'preset');native.setParameterSource('world');assert.equal(native.parameterSource(),'world');native.setParameterSource('preset');settings.jailbreakToggle=true;database.getDatabase().jailbreakToggle=true;
 native.setVar('toggle_story','1');native.setVar('toggle_style','1');native.setVar('toggle_notes','a\nb');
 assert.equal(native.options().length,3);assert.equal(native.getVar('toggle_story'),'1');
 native.setLocal(true);native.setVar('toggle_story','0');assert.equal(native.getVar('toggle_story'),'0');assert.equal(database.getDatabase().globalChatVariables.toggle_story,'1');native.unpin('toggle_story');assert.equal(native.getVar('toggle_story'),'1');native.setVar('toggle_story','0');native.setLocal(false);native.setVar('toggle_story','1');assert.equal(database.getCurrentChat().GLGlobalVariables.toggle_story,undefined,'global edit removes local override like upstream');

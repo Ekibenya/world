@@ -62,3 +62,7 @@ WORLD_QA_MODULES=/absolute/path/to/node_modules node scripts/check-risu-native.m
 多预设恢复、自定义字段、全局与本局选项、模块导入导出及启用、手动触发器变量写入、
 模板选项与 NSFW 展开、参数优先级、四种任务的实际 HTTP 请求模型字段、设置页顺序修改。
 HTTP 传输使用本地替身，不调用付费服务。另行执行 NSFW 原生默认值与 YES/NO DOM 回归。
+
+线上浏览器验证：连接 AI 的全部设置入口、预设/模块/触发器/副模型页面可访问；
+API 3.0 测试插件在原生 iframe 中注册设置并成功执行回调、显示原生弹窗。
+初次使用尚未启用原生预设时，参数来源显示 World；明确选择预设来源后启用原生参数。
