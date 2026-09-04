@@ -1,0 +1,3222 @@
+{
+ "eraId": "era-12-god-war",
+ "ordinal": 12,
+ "unit": "银币",
+ "start": 25,
+ "note": "西边城邦——普罗西亚、天狼星、参宿四这些地方——通行银币计价，商队与市集账目都折算成它；东边盛都自有一套铜钱兑法，与银币大致三十换一，商旅心里都有本账。神明之间另有一套「信仰值」结算供奉、神器与情报，那是众神自己的货币，凡人既看不见也用不上。矮人、精灵与蜥蜴人各守部落旧俗，多半仍以物易物，标价只供外人参考。诸神之战打得越久，军需与草药越贵，独一无二的神器、神明本体的佩饰、龙族巫女的私物一概不标价，只在开局行囊或世界书中出现。",
+ "kits": {
+  "default": {
+   "eq": {
+    "dext": "e12_common_dagger",
+    "corp": "e12_simple_tunic",
+    "cing": "e12_leather_belt_common",
+    "ped": "e12_leather_travel_boots"
+   },
+   "bag": [
+    {
+     "k": "e12_travel_bread_loaf",
+     "n": 2
+    },
+    {
+     "k": "e12_travel_waterskin",
+     "n": 1
+    },
+    {
+     "k": "e12_bandage_roll_common",
+     "n": 2
+    },
+    {
+     "k": "e12_rope_coil_common",
+     "n": 1
+    },
+    {
+     "k": "e12_torch_common",
+     "n": 1
+    }
+   ]
+  },
+  "蒂雅": {
+   "eq": {
+    "dext": "e12_tiya_dachi",
+    "cing": "e12_leather_belt_common"
+   },
+   "bag": [
+    {
+     "k": "e12_tiya_pocket_clock",
+     "n": 1
+    },
+    {
+     "k": "e12_baal_heart_silver_box",
+     "n": 1
+    },
+    {
+     "k": "e12_pantheon_scroll_of_names",
+     "n": 1
+    },
+    {
+     "k": "e12_tiya_prying_shortknife",
+     "n": 1
+    },
+    {
+     "k": "e12_elven_history_scroll",
+     "n": 1
+    },
+    {
+     "k": "e12_olive_oil_flask",
+     "n": 1
+    }
+   ]
+  },
+  "宙斯": {
+   "eq": {
+    "cap": "e12_golden_laurel_crown_unique",
+    "corp": "e12_olympian_breastplate",
+    "sin": "e12_hoplite_round_shield",
+    "ped": "e12_olympian_greaves",
+    "dext": "e12_thunder_pattern_spear"
+   },
+   "bag": [
+    {
+     "k": "e12_bronze_short_sword",
+     "n": 1
+    },
+    {
+     "k": "e12_votive_wine_jar",
+     "n": 2
+    },
+    {
+     "k": "e12_dried_fig_string",
+     "n": 2
+    },
+    {
+     "k": "e12_hephaestus_masterwork_blade",
+     "n": 1
+    }
+   ]
+  },
+  "阿斯忒里俄斯": {
+   "eq": {
+    "dext": "e12_asterius_labrys",
+    "corp": "e12_asterius_shoulder_chest_guard",
+    "sin": "e12_asterius_leg_guard",
+    "hum": "e12_asterius_leather_cloak",
+    "ped": "e12_leather_thong_sandal"
+   },
+   "bag": [
+    {
+     "k": "e12_asterius_white_tunic",
+     "n": 1
+    },
+    {
+     "k": "e12_indra_lightning_charm",
+     "n": 1
+    },
+    {
+     "k": "e12_travel_wool_bedding",
+     "n": 1
+    },
+    {
+     "k": "e12_travel_cook_pot",
+     "n": 1
+    },
+    {
+     "k": "e12_large_travel_sack",
+     "n": 1
+    },
+    {
+     "k": "e12_travel_bread_loaf",
+     "n": 2
+    }
+   ]
+  },
+  "高马": {
+   "eq": {
+    "dext": "e12_bear_kin_claw_gauntlet",
+    "corp": "e12_fur_pelt_vest",
+    "ped": "e12_gao_ma_bear_fur_boots"
+   },
+   "bag": [
+    {
+     "k": "e12_mugwort_rice_cake",
+     "n": 2
+    },
+    {
+     "k": "e12_river_caught_fish_bundle",
+     "n": 1
+    },
+    {
+     "k": "e12_bracken_fern_processed",
+     "n": 1
+    },
+    {
+     "k": "e12_honey_jar_small",
+     "n": 1
+    },
+    {
+     "k": "e12_boar_tusk_trophy",
+     "n": 1
+    }
+   ]
+  },
+  "虎幻": {
+   "eq": {
+    "dext": "e12_tiger_kin_claw_bracer",
+    "corp": "e12_fur_pelt_vest",
+    "cing": "e12_hu_huan_tiger_stripe_wrap"
+   },
+   "bag": [
+    {
+     "k": "e12_wild_garlic_namul",
+     "n": 2
+    },
+    {
+     "k": "e12_hunted_venison_leg",
+     "n": 1
+    },
+    {
+     "k": "e12_boar_tusk_trophy",
+     "n": 1
+    },
+    {
+     "k": "e12_steamed_rice_bowl",
+     "n": 2
+    }
+   ]
+  },
+  "雅典娜": {
+   "eq": {
+    "cap": "e12_athena_war_helm",
+    "sin": "e12_athena_true_aegis",
+    "dext": "e12_thunder_pattern_spear",
+    "corp": "e12_olympian_breastplate",
+    "ped": "e12_olympian_greaves"
+   },
+   "bag": [
+    {
+     "k": "e12_laurel_wreath_mortal",
+     "n": 1
+    },
+    {
+     "k": "e12_votive_wine_jar",
+     "n": 1
+    },
+    {
+     "k": "e12_dried_fig_string",
+     "n": 2
+    }
+   ]
+  },
+  "赫尔墨斯": {
+   "eq": {
+    "ped": "e12_hermes_winged_sandals",
+    "dext": "e12_hermes_caduceus",
+    "hum": "e12_messenger_light_satchel",
+    "corp": "e12_simple_tunic"
+   },
+   "bag": [
+    {
+     "k": "e12_dried_fig_string",
+     "n": 3
+    },
+    {
+     "k": "e12_travel_waterskin",
+     "n": 1
+    },
+    {
+     "k": "e12_torch_common",
+     "n": 1
+    }
+   ]
+  },
+  "因陀罗": {
+   "eq": {
+    "dext": "e12_vajra_thunder_rod",
+    "cap": "e12_indra_blessing_feather_crown"
+   },
+   "bag": [
+    {
+     "k": "e12_monsoon_grain_sack",
+     "n": 1
+    },
+    {
+     "k": "e12_peacock_feather_fan",
+     "n": 1
+    },
+    {
+     "k": "e12_votive_wine_jar",
+     "n": 1
+    }
+   ]
+  },
+  "深林贤者": {
+   "eq": {
+    "corp": "e12_deep_sage_thick_wrap",
+    "sin": "e12_deep_sage_stone_tablet"
+   },
+   "bag": [
+    {
+     "k": "e12_world_tree_bark_amulet",
+     "n": 1
+    },
+    {
+     "k": "e12_sagarmatha_stone_seat_relic",
+     "n": 1
+    },
+    {
+     "k": "e12_phosphor_moss_lamp",
+     "n": 1
+    }
+   ]
+  },
+  "后世人类研究者": {
+   "eq": {
+    "dext": "e12_tiya_prying_shortknife",
+    "corp": "e12_simple_tunic",
+    "ped": "e12_leather_travel_boots"
+   },
+   "bag": [
+    {
+     "k": "e12_researcher_ink_quill_set",
+     "n": 1
+    },
+    {
+     "k": "e12_researcher_notebook_stack",
+     "n": 2
+    },
+    {
+     "k": "e12_elven_history_scroll",
+     "n": 1
+    },
+    {
+     "k": "e12_bronze_mirror_relic",
+     "n": 1
+    },
+    {
+     "k": "e12_torch_common",
+     "n": 1
+    }
+   ]
+  }
+ },
+ "items": [
+  {
+   "k": "e12_vajra_thunder_rod",
+   "cn": "雷杵",
+   "la": "VAJRA FVLGVRIS",
+   "cat": "武器",
+   "price": 45,
+   "ic": "wand",
+   "spec": "青铜双头杵 · 长约 40 厘米 · 中段收窄便于握持 · 洛卡帕拉仪仗兵器",
+   "stack": 0,
+   "at": [
+    "LOKAPALA"
+   ],
+   "src": "供养.(1)",
+   "lore": "洛卡帕拉神明与信众常持的双头短杵，仿因陀罗执掌雷霆之势打造。因陀罗掏心明志后，洛卡帕拉几乎全灭于诸神之战，这兵器如今在其他大陆反倒更容易见到，都是幸存信徒流散带出的。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_indra_blessing_feather_crown",
+   "cn": "羽冠",
+   "la": "CORONA PENNATA",
+   "cat": "衣物",
+   "price": 19,
+   "ic": "headband",
+   "spec": "孔雀羽与彩绳编成 · 洛卡帕拉信众礼冠 · 加冕或宣誓时佩戴",
+   "stack": 0,
+   "at": [
+    "LOKAPALA"
+   ],
+   "src": "供养.(1)",
+   "lore": "洛卡帕拉信众在重要仪式上佩戴的羽冠，取当地孔雀羽编织。因陀罗率众向广场跪求生命女神不要放弃这个世界时，随行的神明皆戴着这种羽冠，如今成了那场悲壮誓约的象征。",
+   "slot": "cap"
+  },
+  {
+   "k": "e12_indra_lightning_charm",
+   "cn": "因陀罗赐福符",
+   "la": "AMVLETVM INDRAE",
+   "cat": "魔具",
+   "price": null,
+   "ic": "amulet",
+   "spec": "电流常年在符文间游走 · 因陀罗离去前亲手所赐 · 独一无二 · 佩者不惧雷击",
+   "stack": 0,
+   "at": [
+    "LOKAPALA"
+   ],
+   "src": "向东.(1)",
+   "lore": "因陀罗以雷光加持阿斯忒里俄斯时留下的印记，虽非实体饰物，却像随身的护符一般存在，佩者从此不再畏惧雷电。因陀罗说，愿这份微力能在众神时代终结后助其一臂之力。",
+   "use": {
+    "act": "引动符内残存的雷光",
+    "eff": "短时间内免疫雷击伤害，并能感应到周遭雷电将至"
+   }
+  },
+  {
+   "k": "e12_monsoon_grain_sack",
+   "cn": "季风谷袋",
+   "la": "SACCVS FRVMENTI MONSVNICI",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "greens",
+   "spec": "一袋约 2 千克 · 东南季风带谷物 · 耐潮不易霉变 · 洛卡帕拉信众常备",
+   "stack": 1,
+   "at": [
+    "LOKAPALA"
+   ],
+   "src": "推定：供养.(1)",
+   "lore": "东南大陆季风带出产的谷物，耐潮气不易发霉，洛卡帕拉信众远行时必带一袋。因陀罗自尽献祭、洛卡帕拉神明尽数隐匿的十年间，这谷种反倒随着零散信徒传到了更远的地方。",
+   "use": {
+    "act": "取谷物自行蒸煮食用",
+    "eff": "饱腹，需自备炊具加工后食用"
+   }
+  },
+  {
+   "k": "e12_peacock_feather_fan",
+   "cn": "孔雀羽扇",
+   "la": "FLABELLVM PAVONIS",
+   "cat": "杂物",
+   "price": 8,
+   "ic": "fan",
+   "spec": "羽毛扇一柄 · 东南特产孔雀羽制 · 礼仪与纳凉两用",
+   "stack": 1,
+   "at": [
+    "LOKAPALA"
+   ],
+   "src": "推定：供养.(1)",
+   "lore": "东南大陆特产的孔雀羽扇，既能纳凉也是礼仪场合的必备物件。洛卡帕拉的祭祀仪式上常见执扇的侍者站在神像两侧，如今这仪式已随神系凋零多年未曾复现。"
+  },
+  {
+   "k": "e12_elf_deerskin_pouch",
+   "cn": "精灵鹿皮囊",
+   "la": "MARSVPIVM CERVINVM",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "pouch",
+   "spec": "软鞣鹿皮制 · 系绳收口 · 防水轻便 · 精灵猎手随身",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：诸神之战.(2)",
+   "lore": "精灵猎手随身携带的小皮囊，鞣制得极软，装草药或箭簇都不硌手。精灵鞣皮的手艺在各族中首屈一指，只是他们几乎不用植物原料造物，几本用羊皮纸写就的典籍在外族人手里都是稀罕物。"
+  },
+  {
+   "k": "e12_elven_history_scroll",
+   "cn": "精灵典籍羊皮卷",
+   "la": "VOLVMEN ELPHICVM",
+   "cat": "书卷",
+   "price": 120,
+   "ic": "scroll",
+   "spec": "厚羊皮纸卷 · 精灵古文书写 · 部分双层黏合暗藏古老记载 · 外族难以购得",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "精灵以寿命之长记下人类历史之前的诸事，这种典籍寻常人穷尽家财也未必求得一卷。有心人若细察某些页面的厚度异常，或能发现黏合的双层纸下藏着更古老的记录——但撬开无异于损毁文物。",
+   "use": {
+    "act": "借黄铜镜或古董商代为求购一卷",
+    "eff": "获取一段本时代前的零星记载，能否读懂全凭自己的学识"
+   }
+  },
+  {
+   "k": "e12_world_tree_bark_amulet",
+   "cn": "世界树皮护符",
+   "la": "AMVLETVM CORTICIS",
+   "cat": "魔具",
+   "price": 26,
+   "ic": "amulet",
+   "spec": "世界树自然剥落树皮所制 · 精灵仅赠予信任之人 · 求林间庇护",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：诸神之战.(2)",
+   "lore": "取自世界树自然剥落树皮做的小护符，精灵极少赠予外族。持此物穿行大森林据说能少受浓雾与迷路之扰，但黑暗精灵仍旧会依常规盘查来客，护符并不能替人通行。"
+  },
+  {
+   "k": "e12_elf_leather_gloves",
+   "cn": "精灵软皮手套",
+   "la": "CHIROTHECAE ELPHICAE",
+   "cat": "衣物",
+   "price": 9,
+   "ic": "chain",
+   "spec": "软鞣兽皮 · 贴合指节 · 便于持弓与执笔 · 精灵工艺享誉四方",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "精灵鞣皮手艺做出的软皮手套，贴手不碍持弓拉弦，抄书写字也不硌手。皮革工艺当属精灵第一，这话在各族商人间早已是公论。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_phosphor_moss_lamp",
+   "cn": "发光苔藓灯",
+   "la": "LVCERNA MVSCI LVCENTIS",
+   "cat": "器物",
+   "price": 11,
+   "ic": "bulb",
+   "spec": "陶罐内养发光苔藓 · 微光不灭 · 无需灯油 · 黑暗精灵守根人所用",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "世界树根下的黑暗精灵靠这种发光苔藓照明守护根系，不必费灯油也不怕被风吹熄。少量流出树根洞窟的苔藓灯在外面的市集上颇受欢迎，只是离土太久苔藓会渐渐黯淡。",
+   "use": {
+    "act": "轻晃陶罐唤醒苔藓微光",
+    "eff": "照亮周身一小片区域，光弱但持续，不惊扰暗处的生物"
+   }
+  },
+  {
+   "k": "e12_dwarf_pickaxe",
+   "cn": "矮人凿岩镐",
+   "la": "DOLABRA MONTANA",
+   "cat": "武器",
+   "price": 24,
+   "ic": "pick",
+   "spec": "铁头木柄 · 单手可用 · 矿工兼护身两用 · 萨加玛塔矿道通行工具",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：弑神之法.(2)",
+   "lore": "矮人凿山采矿的镐具，山体内层层城市都是靠这个一寸寸凿出来的，紧急时也能当武器使。矿工下矿前都要检查镐头有无裂纹，山中魔石矿脉锋利的边角能轻易崩坏劣质的铁器。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_dwarf_ore_lantern",
+   "cn": "魔石矿灯",
+   "la": "LVCERNA MINERALIS",
+   "cat": "器物",
+   "price": 16,
+   "ic": "lantern",
+   "spec": "铁笼嵌小块魔石 · 微光恒定 · 不惧矿道穿堂风 · 矮人矿工标配",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：弑神之法.(2)",
+   "lore": "矮人矿工下矿必带的灯具，笼中嵌一小块魔石取代油火，穿堂风灌进矿道也吹不灭。萨加玛塔内部被凿成层层城市后，这种灯连带矿车轨道一并铺进了每一层。",
+   "use": {
+    "act": "扭动灯笼卡榫点亮魔石",
+    "eff": "照明持续极久，且不惧地下穿堂风与潮气"
+   }
+  },
+  {
+   "k": "e12_dwarf_beard_ring",
+   "cn": "矮人须环",
+   "la": "ANVLVS BARBAE",
+   "cat": "杂物",
+   "price": 13,
+   "ic": "ring",
+   "spec": "小铁环或铜环 · 束在胡须末端 · 环数代表功绩 · 外族极少能得",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：熊与虎.(1)",
+   "lore": "矮人按功绩给胡须末端系环，环数越多越受尊敬。旅人调解过精灵与矮人纷争后，偶尔能得矮人赠一枚示好的须环，虽然自己没胡子可系，收下也是一份体面的谢礼。"
+  },
+  {
+   "k": "e12_dwarf_forged_axe_gift",
+   "cn": "矮人锻斧",
+   "la": "SECVRIS NANORVM",
+   "cat": "武器",
+   "price": 70,
+   "ic": "axe",
+   "spec": "青铜混矿石锻打 · 重逾常人可负 · 双刃对称 · 矮人谢礼级兵器",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "熊与虎.(1)",
+   "lore": "受过恩惠的矮人重新为持斧者锻造的谢礼级战斧，比市面寻常青铜斧更沉更利。阿斯忒里俄斯周游世界途中，正是靠调解精灵与矮人纷争才换来矮人重新锻造他手中那柄巨斧的这份情分。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_sagarmatha_stone_seat_relic",
+   "cn": "凿岩石座残片",
+   "la": "FRAGMENTVM SEDIS SAXEAE",
+   "cat": "杂物",
+   "price": 30,
+   "ic": "stone",
+   "spec": "一块打磨过的岩石 · 据传取自萨加玛塔洞穴议事石座 · 沉重难携",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神座空位.(4)",
+   "lore": "萨加玛塔内部洞穴深处，六位古代神曾围坐的圆桌石座据说就是就地削凿而成，偶有崩落的碎块流入市面，被当作稀奇物件收藏，实则毫无神力，纯粹图个来历。"
+  },
+  {
+   "k": "e12_mine_cart_bell",
+   "cn": "矿车铜铃",
+   "la": "TINTINNABVLVM CVRRVS",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "bell",
+   "spec": "小铜铃一枚 · 系于矿车头 · 报讯用 · 萨加玛塔有线信息网前身",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：弑神之法.(2)",
+   "lore": "矮人矿车前挂的铜铃，转弯或进出岔道时摇响示警，各层城市间靠这个土办法传递简单讯号。后世萨加玛塔铺设有线信息网，最早的雏形据说就是这一路矿车铃声接力传出来的。"
+  },
+  {
+   "k": "e12_khopesh_blade",
+   "cn": "镰刃弯刀",
+   "la": "KHOPESH AENEVM",
+   "cat": "武器",
+   "price": 28,
+   "ic": "sword",
+   "spec": "青铜铸 · 刃身外弯如镰 · 长约 55 厘米 · 劈斩为主 · 九神会信徒常用",
+   "stack": 0,
+   "at": [
+    "DESERTUM",
+    "MONS IGNIS",
+    "PROCYON"
+   ],
+   "src": "诸神之战.(3)",
+   "lore": "阿蒙冲阵时双手各持一柄的独特弯刀便是这一式样的放大版，凡人只用得动单手小号。九神会的信徒卫队人手一柄，沙暴掩护下近身砍杀极为凶悍。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_sand_veil_wrap",
+   "cn": "防沙面纱",
+   "la": "VELVM ARENAE",
+   "cat": "衣物",
+   "price": 6,
+   "ic": "veil",
+   "spec": "长布缠头裹面 · 留缝观察 · 防风沙迷眼 · 沙漠通行必备",
+   "stack": 0,
+   "at": [
+    "DESERTUM",
+    "MONS IGNIS",
+    "PROCYON"
+   ],
+   "src": "灼热沙漠.(1)",
+   "lore": "穿越灼热沙漠的商队与信徒都要缠上的裹面布，挡沙也挡灼热的阳光。伊芙利特信仰圈子的人尤其讲究缠法，据说不同缠法能表明信众的资历深浅。",
+   "slot": "cap"
+  },
+  {
+   "k": "e12_desert_wind_sand",
+   "cn": "南方风砂袋",
+   "la": "ARENA VENTI AVSTRALIS",
+   "cat": "杂物",
+   "price": 9,
+   "ic": "pouch",
+   "spec": "一袋约半升 · 蕴含南方热风之气 · 强化风之精灵的材料 · 密封陶罐盛放",
+   "stack": 1,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：灼热沙漠.(1)",
+   "lore": "灼热沙漠中心特有的细砂，蕴含着南方热风的气息，是驯风者用来强化风元素精灵的原料。距火焰山越近砂子越烫手，采集者得裹厚手套才敢下手。"
+  },
+  {
+   "k": "e12_purification_flame_ash",
+   "cn": "净化圣灰",
+   "la": "CINIS PVRGATORIVS",
+   "cat": "药",
+   "price": 15,
+   "ic": "powder",
+   "spec": "小陶罐装 · 取自火焰山常燃圣火余烬 · 涂抹伤口防腐 · 传信可减罪孽",
+   "stack": 1,
+   "at": [
+    "MONS IGNIS",
+    "DESERTUM"
+   ],
+   "src": "弑神之法.(2)",
+   "lore": "取自火焰山那永不熄灭的圣火余烬，伊芙利特信众相信这灰能净化死者的罪孽，凡人则拿它敷伤口防腐止血，效果确实比寻常草药灰要好上一截。",
+   "use": {
+    "act": "将圣灰敷在伤口上",
+    "eff": "止血并抑制化脓，兼具信众心理上的安定作用"
+   }
+  },
+  {
+   "k": "e12_efreet_incense",
+   "cn": "伊芙利特香料",
+   "la": "THVS EFRIT",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "bulb",
+   "spec": "小束 · 沙漠特有树脂 · 燃烧生浓烟 · 火神神殿日夜焚烧",
+   "stack": 1,
+   "at": [
+    "MONS IGNIS",
+    "DESERTUM"
+   ],
+   "src": "弑神之法.(2)",
+   "lore": "只产于灼热沙漠边缘的树脂，火神的神殿终日焚烧不断，烟气呛人却被认为能上达天听。诸神之战期间供奉减少，神殿库存反倒堆积如山，商队趁机低价收购转卖。",
+   "use": {
+    "act": "点燃焚香献于火前",
+    "eff": "完成一次简易的供火仪式，浓烟亦可暂时驱散蚊虫"
+   }
+  },
+  {
+   "k": "e12_ammon_curved_twin_blades",
+   "cn": "阿蒙式双弯剑",
+   "la": "GLADII GEMINI AMMONIS",
+   "cat": "武器",
+   "price": 210,
+   "ic": "sword2",
+   "spec": "一对 · S 形弯刃 · 青铜混合陨铁 · 极重双手武器 · 仿阿蒙持械所铸",
+   "stack": 0,
+   "at": [
+    "DESERTUM",
+    "MONS IGNIS"
+   ],
+   "src": "诸神之战.(2)",
+   "lore": "仿九神会首领阿蒙那对贯穿战场的S形双剑打造的兵器，寻常人双手都未必舞得动。阿蒙本人持这对剑冲阵时如狼入羊群，凡间铁匠费尽心血也只能仿出七分神韵。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_desert_date_bundle",
+   "cn": "椰枣串",
+   "la": "PALMVLAE SICCAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "jerky",
+   "spec": "十枚一串 · 天然晒干 · 高糖耐存 · 沙漠商队标配口粮",
+   "stack": 1,
+   "at": [
+    "DESERTUM",
+    "MONS IGNIS",
+    "PROCYON"
+   ],
+   "src": "推定：灼热沙漠.(1)",
+   "lore": "穿越灼热沙漠的商队人人都要带的干粮，甜度高又耐放，一串能顶大半天的力气。守护龙教导蜥蜴人调节体温的本事传开后，连蜥蜴人商队也开始跟着带这个。",
+   "use": {
+    "act": "取一枚食用",
+    "eff": "快速补充体力，糖分高但不解渴，须配水食用"
+   }
+  },
+  {
+   "k": "e12_waterskin_desert",
+   "cn": "沙漠双层水囊",
+   "la": "VTER BILAMINATVS",
+   "cat": "器物",
+   "price": 7,
+   "ic": "pail",
+   "spec": "皮革双层缝制 · 容约 3 升 · 外层防晒内层防渗 · 沙漠穿越必备",
+   "stack": 1,
+   "at": [
+    "DESERTUM",
+    "MONS IGNIS",
+    "PROCYON"
+   ],
+   "src": "灼热沙漠.(1)",
+   "lore": "两层皮革缝合的水囊，外层挡烈日暴晒不至于把水晒热，内层加脂防渗漏。没有这种水囊准备不足者连沙漠都穿不过，更别提抵达火焰山了。",
+   "use": {
+    "act": "拧开囊口饮水",
+    "eff": "解除口渴，沙漠行进中每日至少需消耗两囊"
+   }
+  },
+  {
+   "k": "e12_aesir_mead_horn",
+   "cn": "蜂蜜酒角杯",
+   "la": "CORNV MELLIS",
+   "cat": "器物",
+   "price": 9,
+   "ic": "jar",
+   "spec": "牛角制 · 容约 400 毫升 · 无法平放 · 需一饮而尽或架于座上",
+   "stack": 1,
+   "at": [
+    "AESIR"
+   ],
+   "src": "深林贤者.(4)",
+   "lore": "阿萨神族饮宴用的牛角杯，底部不平放不住，规矩就是斟满一杯得喝干净才能撂下。埃西尔的神明托尔独自饮酒时用的就是这种杯，一杯接一杯灌得毫不含糊。"
+  },
+  {
+   "k": "e12_aesir_gold_mead",
+   "cn": "埃西尔黄金蜂蜜酒",
+   "la": "HYDROMEL AVREVM",
+   "cat": "吃食",
+   "price": 7,
+   "ic": "winejar",
+   "spec": "一皮囊约 1 升 · 蜂蜜与谷物发酵 · 色泽金黄 · 后劲颇重",
+   "stack": 1,
+   "at": [
+    "AESIR"
+   ],
+   "src": "深林贤者.(4)",
+   "lore": "阿萨神族宴饮离不了的蜂蜜酒，色如黄金，托尔独自饮酒时一杯接一杯倒的就是这种。北方战士出征前必先喝上一巡，图个胆气，喝多了却容易误事。",
+   "use": {
+    "act": "斟满角杯一饮而尽",
+    "eff": "壮胆提神，短时内近战意志更坚，但判断力随之下降"
+   }
+  },
+  {
+   "k": "e12_aesir_battle_axe",
+   "cn": "埃西尔战斧",
+   "la": "SECVRIS AESIR",
+   "cat": "武器",
+   "price": 38,
+   "ic": "axe",
+   "spec": "单刃阔斧 · 木柄长约 1 米 · 双手挥舞 · 北地铁矿打造 · 刃口厚重",
+   "stack": 0,
+   "at": [
+    "AESIR",
+    "SAGARMATHA"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "阿萨神族战士惯用的阔刃战斧，讲究一刀劈开对手的盾牌而非精巧的剑术。托尔那句「战士只有拼死夺胜或战败失去一切」，说的就是这类兵器的用法。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_thor_hammer_replica",
+   "cn": "雷神战锤仿铸",
+   "la": "MALLEVS TONITRVS",
+   "cat": "武器",
+   "price": 60,
+   "ic": "hammer",
+   "spec": "锤头以陨铁掺铜铸成 · 柄短而重 · 单手挥砸 · 仿托尔佩锤所铸 · 存世不多",
+   "stack": 0,
+   "at": [
+    "AESIR"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "北地铁匠仿托尔腰间那柄战锤打的凡人版，锤头虽无碎桌之力，砸人一样能骨断筋折。托尔本人的战锤桌子砸碎了都能自己复原，这仿品可没那本事，用久了锤柄会裂。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_felt_battle_cloak",
+   "cn": "毛毡战袍",
+   "la": "PALLIVM PILEVM",
+   "cat": "衣物",
+   "price": 13,
+   "ic": "felt",
+   "spec": "厚毛毡制 · 抵御雪原寒风 · 内层缝皮革加固 · 埃西尔战士常服",
+   "stack": 0,
+   "at": [
+    "AESIR",
+    "GLACIES AUSTRALIS",
+    "NOX ALBA"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "北方雪原一带惯用的厚毛毡战袍，比皮革更保暖也更耐磨。埃西尔的神明与其信徒常年身着此物，即便围坐饮宴也不脱下，仿佛随时准备提锤出战。",
+   "slot": "hum"
+  },
+  {
+   "k": "e12_wolf_pelt_mantle",
+   "cn": "狼皮披肩",
+   "la": "PELLIS LVPI",
+   "cat": "衣物",
+   "price": 17,
+   "ic": "felt",
+   "spec": "整张狼皮 · 保留头部为饰 · 极寒地带御寒首选 · 猎狼所得",
+   "stack": 0,
+   "at": [
+    "AESIR",
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "北地猎人剥下的整张狼皮制成的披肩，狼头留在肩上当装饰，也是勇气的证明。阿萨神族的战士偏爱这种披肩，据说披着它冲锋时连自己人都分不清是人是狼。",
+   "slot": "hum"
+  },
+  {
+   "k": "e12_norse_round_shield",
+   "cn": "北地圆盾",
+   "la": "SCVTVM AESIR",
+   "cat": "防具",
+   "price": 24,
+   "ic": "shield",
+   "spec": "木制蒙皮 · 铁边加固 · 中心铁钉护手 · 埃西尔战士标准配备",
+   "stack": 0,
+   "at": [
+    "AESIR"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "北方战士列阵时用的圆盾，边缘包铁防止劈裂，中心一枚铁钉挡正面突刺。诸神之战波及埃西尔外围时，铁匠铺连夜赶制了大批同款供战士领用。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_odin_raven_feather",
+   "cn": "乌鸦羽毛",
+   "la": "PENNA CORVI",
+   "cat": "杂物",
+   "price": 11,
+   "ic": "feather",
+   "spec": "单支黑羽 · 据传取自奥丁双鸦之一 · 真伪难辨 · 埃西尔集市偶有出售",
+   "stack": 1,
+   "at": [
+    "AESIR"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "自称取自奥丁那对巡游世间的乌鸦身上的羽毛，在埃西尔的市集偶尔能买到，多半是普通乌鸦拔的冒充货。奥丁闭门自守传闻传开后，这东西反倒成了热议的谈资，价钱涨了不少。"
+  },
+  {
+   "k": "e12_rune_carved_stone",
+   "cn": "符文刻石",
+   "la": "LAPIS RVNARVM",
+   "cat": "魔具",
+   "price": 14,
+   "ic": "stone",
+   "spec": "掌心大小 · 刻北地古老符文 · 无明确神力 · 埃西尔匠人贩售 · 求平安或胜负",
+   "stack": 1,
+   "at": [
+    "AESIR"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "埃西尔工匠按古老图样刻的护身石，出征前揣一块图个吉利，具体灵不灵谁也说不准。近来奥丁闭门谋划的传闻四起，求刻石的人反倒比平日多了几分。",
+   "use": {
+    "act": "紧握符文石默诵祝词",
+    "eff": "获得一次心理上的镇定，短时内不易因恐惧而溃逃"
+   }
+  },
+  {
+   "k": "e12_smoked_dried_fish",
+   "cn": "北地熏鱼",
+   "la": "PISCIS FVMATVS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "fish",
+   "spec": "整条熏制 · 可存数月 · 咸重耐嚼 · 埃西尔与雪原渔民主食之一",
+   "stack": 1,
+   "at": [
+    "AESIR",
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "北方渔民惯用的熏鱼保存法，烟熏透芯后能撑过整个漫长的雪季。阿萨神族的信徒出征时行囊里少不了这个，配一口蜂蜜酒正好压住那股烟熏的重口味。",
+   "use": {
+    "act": "撕下一块干嚼",
+    "eff": "饱腹且耐存放，长途跋涉的首选口粮"
+   }
+  },
+  {
+   "k": "e12_iron_bracer_pair",
+   "cn": "铁护腕",
+   "la": "MANICAE FERREAE",
+   "cat": "防具",
+   "price": 12,
+   "ic": "chain",
+   "spec": "一对 · 锻铁打造 · 护住手腕至前臂 · 挥斧劈砍时防震",
+   "stack": 0,
+   "at": [
+    "AESIR",
+    "SAGARMATHA"
+   ],
+   "src": "推定：深林贤者.(4)",
+   "lore": "北地战士挥斧劈砍时用来护腕的铁具，兼能卸去一部分震动，久用不换的话虎口容易震裂。矮人锻造的这批质量最好，价钱也贵出一截。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_olympian_breastplate",
+   "cn": "奥林匹斯胸甲",
+   "la": "THORAX OLYMPI",
+   "cat": "防具",
+   "price": 34,
+   "ic": "armor",
+   "spec": "青铜锤打成形 · 重约 9 千克 · 内衬亚麻 · 胸口錾刻雷纹 · 需专人系带",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "赫菲斯托斯督造的制式胸甲，奥林匹斯下阶神明与其信徒卫队都穿这一式样。锤纹深浅代表所属分队，私自加纹会被没收。战争年间产量骤增，市面上流通的多是赶工货，接缝处不如早年结实。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_olympian_greaves",
+   "cn": "青铜护胫",
+   "la": "OCREAE OLYMPI",
+   "cat": "防具",
+   "price": 14,
+   "ic": "boot",
+   "spec": "一对 · 青铜薄片 · 皮带扣紧 · 护住膝下至脚踝 · 与胸甲配套贩售",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "配合奥林匹斯胸甲的护胫，薄而轻，牺牲防御换取奔跑速度。诸神之战爆发后，铁匠铺按军令批量打造，同一炉出的护胫编号相连，方便阵亡后清点。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_bronze_crest_helm",
+   "cn": "青铜鬃盔",
+   "la": "GALEA CRISTATA",
+   "cat": "防具",
+   "price": 22,
+   "ic": "helm",
+   "spec": "青铜整锻 · 护鼻片 · 马鬃或染色麻缨为饰 · 视野受限 · 战时统一编队色",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "BETELGEUSE"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "护鼻片挡刀不挡箭，缨饰颜色是队伍标记，混战里靠这个认自己人。奥林匹斯与九神会开战后，两边都抢购这种盔，市面价一度翻了两倍。",
+   "slot": "cap"
+  },
+  {
+   "k": "e12_hoplite_round_shield",
+   "cn": "圆盾",
+   "la": "CLIPEVS AENEVS",
+   "cat": "防具",
+   "price": 26,
+   "ic": "shield",
+   "spec": "径约 90 厘米 · 木芯包铜边 · 内侧皮带握把 · 重约 7 千克 · 边缘常年磕碰变形",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "BETELGEUSE"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "步战神明与信徒卫队的标准盾，排墙对撞时靠它挡住对方的枪尖。诸神之战里雅典娜的盾牌当众被阿蒙劈裂的消息传开后，铁匠铺借机把加厚款卖出天价。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_thunder_pattern_spear",
+   "cn": "雷纹枪",
+   "la": "HASTA FVLGVRIS",
+   "cat": "武器",
+   "price": 30,
+   "ic": "spear",
+   "spec": "青铜枪头 · 木杆长约 2 米 · 枪颈刻锯齿雷纹 · 单手可用 · 需常年操练",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "仿雅典娜战枪打制的凡人版长枪，枪头形似闪电，实际并无雷电之力。奥林匹斯卫队制式武器，战争期间被大量征用，市面存货一度告罄。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_aegis_ward_shield",
+   "cn": "埃癸斯纹样小盾",
+   "la": "PARMA AEGIDIS",
+   "cat": "防具",
+   "price": 18,
+   "ic": "shield",
+   "spec": "径约 40 厘米 · 錾刻蛇发女怪纹 · 无实际神力 · 传说仿品 · 只作仪仗",
+   "stack": 0,
+   "at": [
+    "PANTHEON"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "雅典娜真正的埃癸斯盾裂在阿蒙剑下的消息传遍万神殿后，有工匠仿其纹样打了一批小盾出售，声称能借几分威名，实则只是青铜片，买家图个心安。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_bronze_short_sword",
+   "cn": "青铜短剑",
+   "la": "GLADIVS AENEVS",
+   "cat": "武器",
+   "price": 16,
+   "ic": "sword",
+   "spec": "刃长约 45 厘米 · 双刃叶形 · 皮革缠柄 · 近战格斗用 · 需时常磨刃",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "BETELGEUSE",
+    "PROCYON"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各城邦通行的制式短剑，神明卫队与凡人佣兵都用得上。诸神之战期间需求暴增，铁匠铺日夜赶工，剑身常带着未及打磨的锤痕。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_hephaestus_masterwork_blade",
+   "cn": "赫菲斯托斯监制剑",
+   "la": "GLADIVS HEPHAESTI",
+   "cat": "武器",
+   "price": 95,
+   "ic": "sword2",
+   "spec": "刃长约 50 厘米 · 反复折叠锻打 · 剑脊嵌铜丝 · 存世极少 · 需当面验刻印",
+   "stack": 0,
+   "at": [
+    "PANTHEON"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "宙斯下令让赫菲斯托斯为奥林匹斯打造武装神明的兵器，其中少量流入凡人市场，剑脊都嵌有他的工匠印记。战时物料紧张，他甚至熔了青铜铸像来凑数，故每一柄成色都不尽相同。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_chariot_wheel_charm",
+   "cn": "战车轮纹护符",
+   "la": "AMVLETVM RHEDAE",
+   "cat": "魔具",
+   "price": 20,
+   "ic": "amulet",
+   "spec": "青铜小轮 · 穿绳可挂 · 无独立神力 · 求驾车不翻覆 · 战场信使常佩",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS"
+   ],
+   "src": "推定：诸神之战.(2)",
+   "lore": "仿雅典娜战车车轮打的护符，信使与传令兵佩戴求个平安，声称能让脚下不失稳。诸神之战里雅典娜战车折损的消息传开后，这护符反倒卖得更好，买主图的是那份不服输的意气。",
+   "use": {
+    "act": "摩挲护符默念一句",
+    "eff": "短暂稳住脚步与心神，这一幕里不因慌乱而失手"
+   }
+  },
+  {
+   "k": "e12_laurel_wreath_mortal",
+   "cn": "月桂叶冠",
+   "la": "CORONA LAVREA",
+   "cat": "衣物",
+   "price": 8,
+   "ic": "headband",
+   "spec": "橄榄叶或月桂叶编成 · 一次性 · 竞技与献祭皆用 · 干后易碎",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "BETELGEUSE"
+   ],
+   "src": "推定：供养.(1)",
+   "lore": "凡人仿众神之王月桂冠编的叶环，献祭、竞技夺魁、婚礼皆可戴，与宙斯那顶锁着雷霆的黄金月桂冠毫无关系，纯是讨个彩头的编织物，戴不了几天就枯了。",
+   "slot": "cap"
+  },
+  {
+   "k": "e12_golden_laurel_crown_unique",
+   "cn": "黄金月桂冠",
+   "la": "CORONA AVREA FVLGVRIS",
+   "cat": "魔具",
+   "price": null,
+   "ic": "amulet",
+   "spec": "纯金打造 · 内嵌不熄闪电 · 巴尔权柄之限流器 · 独一无二 · 唯宙斯可佩",
+   "stack": 0,
+   "at": [
+    "PANTHEON"
+   ],
+   "src": "神座空位.(4)",
+   "lore": "宙斯用来限制并调用巴尔碎片中那份无法完全驾驭的权柄与雷霆的冠冕，戴上便能借出部分天空之力。若非黄金月桂冠约束，连身为分灵的宙斯也承受不住那力量的反噬。",
+   "slot": "cap",
+   "use": {
+    "act": "戴上冠冕引动残存的天空权柄",
+    "eff": "短暂借出被冠冕限流的雷霆之力，代价是佩戴者自身也承受相应反噬"
+   }
+  },
+  {
+   "k": "e12_olive_oil_flask",
+   "cn": "橄榄油瓶",
+   "la": "AMPHORA OLEI",
+   "cat": "消耗",
+   "price": 3,
+   "ic": "flask",
+   "spec": "陶瓶装 · 约半升 · 供燃灯、涂身、烹调三用 · 封蜡防漏",
+   "stack": 1,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "PROCYON"
+   ],
+   "src": "推定：供养.(1)",
+   "lore": "地中海一带最常见的油，庙里点长明灯要它，竞技场斗士赛前涂身也要它，厨房炒菜同样离不了。诸神之战期间橄榄园遭战火波及，油价一度涨了三成。",
+   "use": {
+    "act": "倒出油脂涂身或添入灯盏",
+    "eff": "可作战斗前润滑关节减轻僵硬，或续满一盏灯的燃时"
+   }
+  },
+  {
+   "k": "e12_votive_wine_jar",
+   "cn": "祭酒陶罐",
+   "la": "AMPHORA VOTIVA",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "winejar",
+   "spec": "容约 3 升 · 掺水稀释后饮用 · 罐身绘神像 · 敬献后倾倒于地",
+   "stack": 1,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "BETELGEUSE"
+   ],
+   "src": "供养.(1)",
+   "lore": "献祭时先在神像前倾倒一部分的酒，余下的凡人才可自饮。战乱年间不少人省下这份供奉直接喝掉，祭司睁一只眼闭一只眼——反正神明未必真的在意。",
+   "use": {
+    "act": "开罐倾倒祭酒后自饮",
+    "eff": "完成一次简易供养仪式，同时解除口渴，微醺状态下胆气略壮"
+   }
+  },
+  {
+   "k": "e12_temple_offering_bread",
+   "cn": "神殿供饼",
+   "la": "PANIS SACER",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "bread",
+   "spec": "圆饼一枚 · 约 300 克 · 表面压神徽 · 供台放足一日方可食用",
+   "stack": 1,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "TEMPLUM VITAE"
+   ],
+   "src": "供养.(1)",
+   "lore": "在祭坛上摆足一整日、接受过香火的麦饼，之后由祭司分给排队的信众。诸神之战期间前来供奉的人骤减，不少神殿的供饼反倒堆积发霉，白白浪费。",
+   "use": {
+    "act": "取下供过神的饼进食",
+    "eff": "饱腹一顿，信众相信此举能得神明一份微末庇佑"
+   }
+  },
+  {
+   "k": "e12_dried_fig_string",
+   "cn": "无花果干串",
+   "la": "FICVS SICCA",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "jerky",
+   "spec": "十枚一串 · 阳光晒干 · 可存半年 · 地中海沿岸常见行粮",
+   "stack": 1,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "BETELGEUSE",
+    "PROCYON"
+   ],
+   "src": "推定：诸神之战.(2)",
+   "lore": "晒干串起来卖的无花果，甜而耐放，是商队与信使最常带的干粮之一。赫尔墨斯这类到处跑腿的神明信徒，行囊里常年备着这么一串。",
+   "use": {
+    "act": "摘一枚咀嚼",
+    "eff": "快速补充体力，甜味能提神但吃多了牙疼"
+   }
+  },
+  {
+   "k": "e12_honey_jar_small",
+   "cn": "蜂蜜罐",
+   "la": "MEL IN VASE",
+   "cat": "吃食",
+   "price": 6,
+   "ic": "jar",
+   "spec": "陶罐装 · 约半升 · 蜂巢滤渣后所得 · 长期不腐 · 供药用与调味",
+   "stack": 1,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "AESIR"
+   ],
+   "src": "推定：供养.(1)",
+   "lore": "地中海与北地都产的蜂蜜，既是甜味调料也是伤口消炎的土方。神殿常用它拌药给伤兵服下，价钱不便宜，寻常人家舍不得常吃。",
+   "use": {
+    "act": "以指蘸食或涂抹伤口",
+    "eff": "可稍缓饥饿，涂在浅创口上有一定防腐效果"
+   }
+  },
+  {
+   "k": "e12_marble_votive_tablet",
+   "cn": "大理石还愿牌",
+   "la": "TABVLA MARMOREA",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "tablet",
+   "spec": "一块 · 约巴掌大 · 刻还愿文字或浮雕 · 供于神殿墙面 · 刻工另计",
+   "stack": 1,
+   "at": [
+    "PANTHEON",
+    "SIRIUS"
+   ],
+   "src": "供养.(1)",
+   "lore": "许愿应验后凡人订制的小石牌，刻上感谢的话与浮雕挂在神殿墙上，年深日久整面墙都挂满了。诸神之战爆发后，许多还愿牌无人认领，成了空神殿里唯一还热闹的角落。"
+  },
+  {
+   "k": "e12_lizardfolk_bronze_spear",
+   "cn": "蜥蜴人青铜矛",
+   "la": "HASTA LACERTARVM",
+   "cat": "武器",
+   "price": 20,
+   "ic": "spear",
+   "spec": "青铜矛头 · 竹木杆 · 全程不含铁件 · 湿地渔猎两用",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人惯用的矛，通体不带一片铁，矛头矛箍全用青铜替代。潮湿使铁器易锈，蜥蜴人自守护龙教会他们用火调节体温、突破生存范围以来，就一直拒绝铁器进入部落。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_lizardfolk_scale_vest",
+   "cn": "鳞皮背心",
+   "la": "THORAX SQVAMOSVS",
+   "cat": "防具",
+   "price": 23,
+   "ic": "chest",
+   "spec": "蜥蜴人再生鳞片鞣制拼接 · 防水防潮 · 无铁件 · 部落自制",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "用蜥蜴人自身可再生鳞片鞣制拼接的护甲，天生防水抗潮，全身上下找不到一片铁。这种鳞片是蜥蜴人与水精灵交换净水时的硬通货，制成护甲后自用倒不心疼。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_swamp_fire_pot",
+   "cn": "湿地随身火盆",
+   "la": "IGNITABVLVM PALVSTRE",
+   "cat": "器物",
+   "price": 10,
+   "ic": "lamp",
+   "spec": "陶盆嵌炭 · 可提携 · 蜥蜴人调节体温所用 · 湿地必备",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(2)",
+   "lore": "守护龙教蜥蜴人用火调节体温后流传下来的随身小火盆，湿冷天气里揣在怀里能续几个时辰的暖。没有这个，蜥蜴人族群本无法长期活动在河流沼泽之外的地方。",
+   "use": {
+    "act": "拨旺盆中炭火取暖",
+    "eff": "持续驱散周身寒气，湿地夜行必备"
+   }
+  },
+  {
+   "k": "e12_water_spirit_traded_water",
+   "cn": "精灵净水囊",
+   "la": "VTER AQVAE PVRAE",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "pail",
+   "spec": "容约 2 升 · 蜥蜴人鳞片换来的精灵净水 · 三日不腥 · 沙漠里一人一日要两囊",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "DESERTUM"
+   ],
+   "src": "蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人用自己再生的鳞片向水精灵换来净水，装进缝口涂脂的皮囊里带去沙漠贩卖。囊里的水是精灵化过的，三天不发腥，但换水的那个精灵认人，囊不能随便转手。",
+   "use": {
+    "act": "拧开囊口喝一口",
+    "eff": "口渴解除，这一幕里不再因为缺水掉体力"
+   }
+  },
+  {
+   "k": "e12_marsh_reed_sandal",
+   "cn": "湿地芦苇履",
+   "la": "SOLEA HARVNDINIS",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "slipper",
+   "spec": "芦苇编底 · 皮绳固定 · 不易在泥沼中打滑陷落",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人与沼泽居民就地取材编的鞋履，鞋底疏松却能有效分散体重，在泥沼里比皮靴更不容易陷进去。外族商人穿过湿地进货时，大多都会临时买一双换上。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_swamp_smoked_fish",
+   "cn": "湿地熏鱼干",
+   "la": "PISCIS PALVSTRIS FVMATVS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "fish",
+   "spec": "整条烟熏 · 湿地芦苇为柴 · 可存数周 · 蜥蜴人部落常食",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "用湿地芦苇熏制的鱼干，是蜥蜴人部落最常见的存粮方式之一，河流与沼泽间的水产从不短缺，愁的只是保存不发臭。",
+   "use": {
+    "act": "撕开鱼干食用",
+    "eff": "饱腹，风味偏重，配一口净水正好"
+   }
+  },
+  {
+   "k": "e12_tethys_offering_pearl",
+   "cn": "献海珍珠",
+   "la": "MARGARITA OBLATA",
+   "cat": "杂物",
+   "price": 25,
+   "ic": "gem",
+   "spec": "天然珠贝所产 · 献给海神以求航路平安 · 海盗与渔民惯例贡品",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "海上讨生活的人向忒提丝献贡的珍珠，图的是航路平安，海盗也不例外。新大陆隆起时洋流一度全乱，触怒忒提斯者曾令整片海洋被暴风雨与巨浪封锁，从那以后献珠的规矩就更没人敢省了。"
+  },
+  {
+   "k": "e12_sailor_oilskin_cloak",
+   "cn": "水手油皮斗篷",
+   "la": "PALLIVM OLEATVM",
+   "cat": "衣物",
+   "price": 21,
+   "ic": "cloak",
+   "spec": "厚布浸油脂反复处理 · 防水防浪 · 领口系带 · 远洋水手必备",
+   "stack": 0,
+   "at": [
+    "MARE TETHYS",
+    "SIRIUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "远洋水手浸油处理过的厚布斗篷，海浪打上甲板也能保持身上干爽。忒提丝之洋的洋流自新大陆隆起后变得诡谲难测，出海的人越发讲究行头齐全，图一个心安。",
+   "slot": "hum"
+  },
+  {
+   "k": "e12_compass_shell",
+   "cn": "贝壳罗盘",
+   "la": "CONCHA DIRECTORIA",
+   "cat": "器物",
+   "price": 34,
+   "ic": "gem",
+   "spec": "贝壳镶浮针 · 借海流与星位定向 · 精度有限 · 忒提丝之洋商船配备",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS",
+    "SIRIUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "水手用贝壳镶浮针制成的简易定向器具，精度远不能与后世相比，好歹能在洋流紊乱时给出个大概方向。新大陆浮起后洋流剧变，老水手都说这东西现在一多半时候都得凭经验修正。"
+  },
+  {
+   "k": "e12_sea_snake_scale",
+   "cn": "海蛇鳞片",
+   "la": "SQVAMA SERPENTIS MARINAE",
+   "cat": "杂物",
+   "price": 18,
+   "ic": "stone",
+   "spec": "青色鳞片一枚 · 触之微凉 · 传说取自获得智慧的海蛇 · 罕见收藏品",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "弑神名单.(3)",
+   "lore": "据说取自那条不知为何获得智慧、被尊为海神的海蛇——龙牙——蜕下的鳞片，微凉触感与常见鱼鳞不同。这类真伪难辨的稀罕物在沿海市集偶有流通，价钱全凭卖家一张嘴。"
+  },
+  {
+   "k": "e12_dried_kelp_bundle",
+   "cn": "干海带束",
+   "la": "ALGA SICCA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "一束约 500 克 · 海边晒制 · 耐存耐煮 · 忒提丝沿岸渔村常食",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "沿海渔村晒干后成捆出售的海带，煮汤炖菜皆可，耐放又便宜，是渔民出海时最不心疼的干粮之一。",
+   "use": {
+    "act": "泡发后煮汤或直接嚼食",
+    "eff": "补充体力，耐存放的沿海口粮"
+   }
+  },
+  {
+   "k": "e12_mugwort_rice_cake",
+   "cn": "艾草糕",
+   "la": "PLACENTA ARTEMISIAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "cake",
+   "spec": "米粉掺艾草蒸制 · 一屉约十块 · 微苦回甘 · 神檀树下村落常食",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(2)",
+   "lore": "米粉掺入艾草蒸出的糕点，带一点药草的苦味。熊族族长坦言自己不太喜欢艾草的气味，却仍以此为耐力比试的考题——熊本是杂食，纵使不爱吃也不至于伤身。",
+   "use": {
+    "act": "取一块食用",
+    "eff": "饱腹兼有清热之效，长期只吃这个会腻烦难忍"
+   }
+  },
+  {
+   "k": "e12_wild_garlic_namul",
+   "cn": "山蒜凉拌菜",
+   "la": "OLYRA MONTANA CONDITA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "山蒜与野菜凉拌 · 气味刺鼻 · 山间村落自制 · 虎兽人尤其厌恶",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(3)",
+   "lore": "用山间野生的山蒜凉拌而成，味道浓烈刺鼻，虎兽人幻本名便是取自这道菜的别称。当地既无酱油也无别的调料，做法简朴，全靠山蒜本身那股冲味压住其他食材的腥气。",
+   "use": {
+    "act": "夹一口凉拌菜咽下",
+    "eff": "饱腹，气味浓烈者短时内嗅觉会被压制"
+   }
+  },
+  {
+   "k": "e12_steamed_rice_bowl",
+   "cn": "蒸米饭",
+   "la": "ORYZA COCTA",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "ricebowl",
+   "spec": "一碗约 200 克 · 陶碗盛装 · 神檀树下部落主食",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS",
+    "SHENGDU"
+   ],
+   "src": "熊与虎.(3)",
+   "lore": "神檀树下聚居的部落人的日常主食，就着艾草糕与山蒜凉拌菜吃是当地最寻常的一餐。耐力对决那二十多天里，这碗白饭大概是唯二没让高马和幻发愁的东西之一。",
+   "use": {
+    "act": "盛一碗趁热食用",
+    "eff": "扎实饱腹，配菜吃更顺口"
+   }
+  },
+  {
+   "k": "e12_bracken_fern_raw",
+   "cn": "蕨菜（生）",
+   "la": "PTERIDIVM CRVDVM",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "greens",
+   "spec": "未经处理的蕨菜嫩茎 · 含有害成分 · 需焯水去毒后方可食用 · 生食有害",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(2)",
+   "lore": "山野常见的蕨菜嫩芽，直接生食含有对身体有害的成分，熊族部落自有一套去毒的法子才敢下锅。比试粮食储备那次，正是因为高马混带了没处理过的蕨菜，一度被判犯规。",
+   "use": {
+    "act": "不经处理直接生食",
+    "eff": "引发肠胃不适甚至中毒，正确做法是先焯水去毒"
+   },
+   "ban": "含毒未处理，商店照摆不能直接买卖"
+  },
+  {
+   "k": "e12_bracken_fern_processed",
+   "cn": "焯水蕨菜干",
+   "la": "PTERIDIVM PVRGATVM",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "已焯水去毒 · 阴干可久存 · 熊族部落传统食材 · 食用安全",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(2)",
+   "lore": "经过焯水去毒工序处理过的蕨菜干，熊族部落世代相传的手艺，处理得当便是寻常山菜，处理不到位仍会伤身，因此外族人极少敢自行采买生蕨菜自制。",
+   "use": {
+    "act": "温水泡发后凉拌或炖煮",
+    "eff": "补充体力，处理妥当则无碍身体"
+   }
+  },
+  {
+   "k": "e12_bear_kin_claw_gauntlet",
+   "cn": "熊爪护手",
+   "la": "MANICA VNGVIVM VRSI",
+   "cat": "武器",
+   "price": 26,
+   "ic": "chain",
+   "spec": "熊爪与皮革缝制护手 · 增强抓握与近身撕扯 · 熊兽人部落自制",
+   "stack": 0,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(1)",
+   "lore": "熊兽人部落自制的护手，缝入几枚兽爪加强抓握与近身撕打的威力。高马与虎兽人幻交手数月不分胜负时，靠的正是这份近身缠斗的功夫，而非什么趁手的兵刃。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_tiger_kin_claw_bracer",
+   "cn": "虎爪护腕",
+   "la": "MANICA VNGVIVM TIGRIS",
+   "cat": "武器",
+   "price": 28,
+   "ic": "chain",
+   "spec": "虎爪嵌于皮革护腕 · 撕抓利落 · 老虎部落传统近战具",
+   "stack": 0,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(1)",
+   "lore": "老虎部落惯用的近战护具，几枚利爪嵌在护腕上，挥抓间与野兽本能的攻势并无二致。虎兽人幻在耐力对决被逼到极限时，理智涣散所显露的野性，与这护具的杀气正是一脉相承。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_fur_pelt_vest",
+   "cn": "兽皮背心",
+   "la": "VESTIS PELLICEA",
+   "cat": "衣物",
+   "price": 11,
+   "ic": "cloak",
+   "spec": "熊皮或虎皮鞣制 · 保留部分毛色作部落标记 · 神檀树下常服",
+   "stack": 0,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(1)",
+   "lore": "神檀树下部落的常服，用本族图腾兽的皮鞣制而成，毛色花纹留存下来正好当作部落标记。熊族与老虎部落合并后，年轻一代渐渐开始混穿两族的花色，老一辈对此颇有微词。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_bronze_tip_patrol_spear",
+   "cn": "巡逻青铜枪",
+   "la": "HASTA VIGILIAE",
+   "cat": "武器",
+   "price": 18,
+   "ic": "spear",
+   "spec": "青铜枪头 · 木杆 · 部落巡逻常备 · 神檀树下村落栅栏内外可见",
+   "stack": 0,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(1)",
+   "lore": "神檀树下的大村落用圆木栅栏围起，村里各处都有手持这种青铜枪头长矛的人在巡逻。人口即兵力，熊族与老虎部落合并吞并小部落的过程里，这类枪具也跟着换了一茬又一茬的主人。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_log_palisade_token",
+   "cn": "圆木栅栏令牌",
+   "la": "TESSERA VALLI",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "tag",
+   "spec": "木牌一枚 · 刻部落标记 · 凭此出入村落栅栏 · 外人须由族人担保领取",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(1)",
+   "lore": "神檀树下大村落的出入凭证，本族人天生就有，外来者需族人担保才能领到一枚，没有它想在栅栏内外自由走动会被巡逻的人拦下盘问。"
+  },
+  {
+   "k": "e12_temple_tree_bark_charm",
+   "cn": "神檀树皮符",
+   "la": "AMVLETVM DRVADIS CORTICIS",
+   "cat": "魔具",
+   "price": 16,
+   "ic": "amulet",
+   "spec": "神檀树自然剥落树皮所制 · 树荫下部落信众佩戴 · 求庇佑与幸福",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(4)",
+   "lore": "神檀树荫下的后裔佩戴的护符，取材自树身自然剥落的树皮。树中孕育的幼小神性只回应树荫下且行事正道的部落后裔，随手买来的护符戴在外人身上并无特别效验，更多是身份的象征。"
+  },
+  {
+   "k": "e12_hunted_venison_leg",
+   "cn": "猎获鹿腿肉",
+   "la": "CRVS CERVI VENATI",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "meat",
+   "spec": "整条鹿腿 · 带皮带骨 · 需自行处理 · 山林猎手常见战利品",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(2)",
+   "lore": "虎兽人幻凭本族狩猎本能徒手猎获的常见战利品之一，脖颈一扭便能撂倒整头鹿。粮食储备比试那日，幻堆起的猎物大半是这种大块头，只是论重量终究还是没能赢过高马那堆鱼获与草料。",
+   "use": {
+    "act": "剥皮处理后架火炙烤",
+    "eff": "加工为熟食后可饱腹，生食须自行承担风险"
+   }
+  },
+  {
+   "k": "e12_boar_tusk_trophy",
+   "cn": "野猪獠牙",
+   "la": "DENS APRI",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "bone",
+   "spec": "一对獠牙 · 猎获野猪所得 · 部落青年狩猎凭证 · 可磨制饰物",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "推定：熊与虎.(2)",
+   "lore": "猎获野猪后留下的獠牙，神檀树下的部落青年常把它磨成饰物挂在身上，算是狩猎本领的凭证。比试粮食储备那场，虎兽人幻带回的猎物里就有脑袋被砸碎的野猪，獠牙倒是完好无损。"
+  },
+  {
+   "k": "e12_river_caught_fish_bundle",
+   "cn": "徒手所获鱼获",
+   "la": "PISCES MANV CAPTI",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "fish",
+   "spec": "数条 · 水边徒手捕获 · 熊兽人族传统技艺 · 需当日处理",
+   "stack": 1,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(2)",
+   "lore": "熊兽人徒手把水里游的鱼直接拍飞甩上岸的技艺所得，动作与棕熊捕鲑鱼别无二致。粮食储备比试那场，高马靠着这份手艺加上大量草料，最终险胜猎获大型猎物的虎兽人幻。",
+   "use": {
+    "act": "处理后架火烤熟食用",
+    "eff": "饱腹，当日捕获需当日处理否则易腐坏"
+   }
+  },
+  {
+   "k": "e12_blubber_lamp_oil",
+   "cn": "脂油灯油",
+   "la": "OLEVM ADIPIS",
+   "cat": "消耗",
+   "price": 8,
+   "ic": "flask",
+   "spec": "海兽脂炼制 · 燃烧持久耐寒 · 南极冰盖远征队常备",
+   "stack": 1,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "南极冰原上炼取的海兽脂油，比普通灯油更耐严寒，寻常油脂在极寒中会凝固不流动。远征最南端的人若无火神相助，多半要靠这种脂油撑过漫漫极夜。",
+   "use": {
+    "act": "倒入灯盏点燃",
+    "eff": "持续照明并提供局部微弱暖意，耐寒不易凝固"
+   }
+  },
+  {
+   "k": "e12_ice_pick_tool",
+   "cn": "破冰凿",
+   "la": "DOLABRA GLACIEI",
+   "cat": "武器",
+   "price": 19,
+   "ic": "pick",
+   "spec": "铁头木柄 · 凿冰取水或防身两用 · 南极远征装备",
+   "stack": 0,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "南极冰盖远征队随身的凿冰工具，取饮用水、开路、防身皆可一用。传闻世界最南端与最北端一样酷寒难行，没有火神相助的远征者常常要靠这凿子硬生生凿出一条路。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_thick_fur_boots",
+   "cn": "厚毛皮靴",
+   "la": "CALCEI PELLICEI CRASSI",
+   "cat": "衣物",
+   "price": 15,
+   "ic": "boot",
+   "spec": "多层毛皮缝制 · 内衬干草保暖 · 南极冰原专用",
+   "stack": 0,
+   "at": [
+    "GLACIES AUSTRALIS",
+    "NOX ALBA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "专为南极与北方极昼严寒打造的厚毛皮靴，内衬干草增加保暖，普通皮靴穿进这片冰封之地用不了几天脚就会冻伤。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_penguin_egg_preserved",
+   "cn": "腌渍海鸟蛋",
+   "la": "OVVM AVIS MARINAE CONDITVM",
+   "cat": "吃食",
+   "price": 5,
+   "ic": "egg",
+   "spec": "盐渍处理 · 可存数月 · 南极沿岸猎人所获",
+   "stack": 1,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "南极冰盖沿岸猎人盐渍保存的海鸟蛋，蛋腥味重却是极地少有的蛋白质来源，远征队伍都视若珍宝。",
+   "use": {
+    "act": "剥壳食用",
+    "eff": "饱腹且耐寒，长期食用略嫌单调"
+   }
+  },
+  {
+   "k": "e12_snow_blindness_veil",
+   "cn": "雪盲护目布",
+   "la": "VELVM CONTRA CANDOREM",
+   "cat": "衣物",
+   "price": 7,
+   "ic": "veil",
+   "spec": "细缝窄条布带 · 遮眼防强光反射 · 冰原与永昼平原通用",
+   "stack": 0,
+   "at": [
+    "GLACIES AUSTRALIS",
+    "NOX ALBA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "在冰雪反射的强光下长时间行走容易致盲，南极与北方永昼平原的旅人都要缠上这种留细缝的护目布条，牺牲视野换取双眼的安全。",
+   "slot": "cap"
+  },
+  {
+   "k": "e12_shamash_judgment_tablet",
+   "cn": "审判泥板",
+   "la": "TABVLA IVDICII",
+   "cat": "书卷",
+   "price": 10,
+   "ic": "tablet",
+   "spec": "泥板刻字 · 记录一桩判决 · 沙玛什信仰圈通用格式 · 干燥后不可更改",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "SIRIUS"
+   ],
+   "src": "神座空位.(1)",
+   "lore": "沙玛什信仰圈记录判决用的泥板，字迹刻入湿泥后阴干定型，不可再涂改，以示公正不阿。审判鼠兽人高层那桩案子，据说判词底稿用的就是这种泥板。"
+  },
+  {
+   "k": "e12_nox_alba_light_ward",
+   "cn": "强光护符",
+   "la": "AMVLETVM LVCIS",
+   "cat": "魔具",
+   "price": 17,
+   "ic": "amulet",
+   "spec": "小型符牌 · 求光明神庇佑 · 永昼平原信众佩戴 · 声称可稍缓强光刺目",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "白夜信众佩戴的护符，声称能借光明神沙玛什之力稍缓强光刺目，实际效验因人而异。永昼平原上光元素精灵与适寒怪物混杂，赶路的人多半还是更信赖厚实的护目布条。"
+  },
+  {
+   "k": "e12_polar_light_crystal",
+   "cn": "极光结晶",
+   "la": "CRYSTALLVS AVRORAE",
+   "cat": "魔具",
+   "price": 40,
+   "ic": "crystal",
+   "spec": "半透明结晶 · 白夜光元素精灵活动区域所产 · 微光自发 · 罕见",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "永无黑夜的北方平原上，光元素精灵活跃处偶尔会凝出这种自发微光的结晶。魔法师与学者对此颇感兴趣，但白夜的严寒与怪物让采集者望而却步，市面上流通的极少。"
+  },
+  {
+   "k": "e12_charon_ferry_coin",
+   "cn": "渡魂币",
+   "la": "NVMMVS PORTITORIS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "coin",
+   "spec": "小铜币一枚 · 灵魂渡河惯例所用 · 生人携带无实际效用",
+   "stack": 1,
+   "at": [
+    "PORTA INFERI"
+   ],
+   "src": "推定：神座空位.(3)",
+   "lore": "冥界渡河习俗里，据说灵魂需备一枚小币才好过河，生人带着这枚铜币纯粹是求个心安，穿过塔罗斯守卫的极北长堤时揣一枚，多少能让人少些惧意。"
+  },
+  {
+   "k": "e12_tartaros_stone_fragment",
+   "cn": "塔罗斯石屑",
+   "la": "FRAGMENTVM TARTARI",
+   "cat": "杂物",
+   "price": 12,
+   "ic": "stone",
+   "spec": "岩石碎屑 · 据传取自冥界守门魔像塔罗斯身上剥落之物 · 沉重坚硬",
+   "stack": 1,
+   "at": [
+    "PORTA INFERI"
+   ],
+   "src": "推定：神座空位.(3)",
+   "lore": "极北长堤守门的魔像塔罗斯身上偶有碎屑剥落，被胆大的旅人捡去当作纪念或护身符，实则不过是普通岩石，毫无神力可言，纯粹图一份「曾走近冥界之门」的谈资。"
+  },
+  {
+   "k": "e12_mourning_black_wrap",
+   "cn": "丧礼黑裹布",
+   "la": "VELAMEN LVGVBRE",
+   "cat": "衣物",
+   "price": 9,
+   "ic": "kerchief",
+   "spec": "黑麻布长条 · 缠身或蒙面 · 送灵仪式所用 · 极北一带常备",
+   "stack": 0,
+   "at": [
+    "PORTA INFERI",
+    "SIRIUS"
+   ],
+   "src": "推定：神座空位.(3)",
+   "lore": "为亡者送行时缠身或蒙面用的黑麻布，极北长堤附近往来送灵的人家常年备着。灵魂魂魄分离偶有失败、携带前世记忆转生的传闻流传后，不少人家送灵时格外郑重，唯恐哪个环节出了差错。",
+   "slot": "hum"
+  },
+  {
+   "k": "e12_underworld_toll_lantern",
+   "cn": "冥途引路灯",
+   "la": "LVCERNA VIAE MORTIS",
+   "cat": "器物",
+   "price": 13,
+   "ic": "lantern",
+   "spec": "小铁灯 · 长明油芯 · 送灵人持灯引路的仪式用具",
+   "stack": 1,
+   "at": [
+    "PORTA INFERI"
+   ],
+   "src": "推定：神座空位.(3)",
+   "lore": "送灵仪式上持灯引路用的小铁灯，寓意为亡魂照亮往冥界去的路。极北这道由黑石填海筑成的长堤终年寒风呼啸，灯芯需选耐风的油脂配方，否则走不到堤的另一端就会熄灭。"
+  },
+  {
+   "k": "e12_cursed_land_dust_vial",
+   "cn": "诅咒荒土瓶",
+   "la": "AMPVLLA PVLVERIS DAMNATI",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "powder",
+   "spec": "小瓶装 · 取自阿卡德废土表层 · 寸草不生的诅咒之土 · 后裔巡逻时常检验",
+   "stack": 1,
+   "at": [
+    "AKKAD VASTATA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "取自阿卡德灭亡后被生命女神诅咒的荒原表土，寸草不生，阿卡德后裔巡逻时会定期取样检验诅咒是否松动，期待着解除诅咒、重返故土的那一天。"
+  },
+  {
+   "k": "e12_akkad_ruin_tablet_shard",
+   "cn": "阿卡德残碑片",
+   "la": "FRAGMENTVM STELAE AKKADIS",
+   "cat": "书卷",
+   "price": 22,
+   "ic": "tablet",
+   "spec": "泥板残片 · 阿卡德灭亡前的记事 · 字迹多已风化难辨",
+   "stack": 1,
+   "at": [
+    "AKKAD VASTATA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "阿卡德灭亡前留下的记事泥板残片，多数字迹已被风沙磨去，只剩零星笔画。阿卡德后裔视其为故土遗物，绝不轻易出售给外族，市面上流通的多是散佚在废土边缘的碎片。"
+  },
+  {
+   "k": "e12_wasteland_travel_ration",
+   "cn": "荒原干粮包",
+   "la": "ANNONA DESERTA",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "jerky",
+   "spec": "压缩谷物与肉干混制 · 耐存耐嚼 · 阿卡德巡逻队标配",
+   "stack": 1,
+   "at": [
+    "AKKAD VASTATA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "阿卡德后裔巡逻荒原时携带的压缩干粮，谷物与肉干混压成块，扛饿又不占地方。故土诅咒未解，巡逻队仍是一年年地在寸草不生的地界上往返。",
+   "use": {
+    "act": "掰开一块食用",
+    "eff": "扎实饱腹，长期食用略显干涩"
+   }
+  },
+  {
+   "k": "e12_bronze_hairpin_shengdu",
+   "cn": "青铜发笄",
+   "la": "ACVS CAPILLARIS AENEA",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "needle",
+   "spec": "青铜打制 · 盛都日常首饰 · 亦可作简易利器",
+   "stack": 1,
+   "at": [
+    "SHENGDU"
+   ],
+   "src": "推定：地点条目",
+   "lore": "盛都城中常见的青铜发笄，寻常人家女子束发所用，磨尖了也能应急防身。燕国首都盛都是东方最大的城市，市集上这类日用铜器随处可见，价钱也算不得贵。"
+  },
+  {
+   "k": "e12_mangshan_incense_bundle",
+   "cn": "芒山祭香束",
+   "la": "THVS MONTIS MANG",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "bulb",
+   "spec": "香束一捆 · 焚于坟前 · 芒山旧俗延续至今",
+   "stack": 1,
+   "at": [
+    "SHENGDU"
+   ],
+   "src": "推定：地点条目",
+   "lore": "盛都城北芒山原是公共坟山，满山坟墓自古便有焚香祭扫的习俗。传闻芒山因坟冢过密触怒神灵，后化作冥界入口沉入死后世界，如今城中人扫墓祭祖仍循旧俗，只是再不敢深入山中腹地。",
+   "use": {
+    "act": "于坟前焚香祭拜",
+    "eff": "完成一次祭扫仪式，图个心安"
+   }
+  },
+  {
+   "k": "e12_shengdu_silk_bolt",
+   "cn": "盛都绢帛",
+   "la": "SERICVM SHENGDVENSE",
+   "cat": "衣物",
+   "price": 30,
+   "ic": "robe",
+   "spec": "一匹约十米 · 东方织造 · 轻软透气 · 贵族与富商所购",
+   "stack": 0,
+   "at": [
+    "SHENGDU"
+   ],
+   "src": "推定：地点条目",
+   "lore": "盛都城中织造的绢帛，轻软透气，是东方最大城市里贵族与富商争相购置的衣料。与西方城邦的厚重毛料截然不同，穿在身上一望便知是东方来客。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_shengdu_bronze_seal",
+   "cn": "盛都青铜印",
+   "la": "SIGILLVM AENEVM SHENGDVENSE",
+   "cat": "杂物",
+   "price": 18,
+   "ic": "seal",
+   "spec": "方形铜印 · 刻家族或商号名号 · 用以封泥或加盖文书",
+   "stack": 1,
+   "at": [
+    "SHENGDU"
+   ],
+   "src": "推定：地点条目",
+   "lore": "盛都商号与官府往来文书上加盖的铜印，刻着各自的名号，封泥一按便是凭证。城中商贸繁盛，没有这枚印章，大宗货物的交割在市集上几乎寸步难行。"
+  },
+  {
+   "k": "e12_procyon_apprentice_wand",
+   "cn": "学徒法杖",
+   "la": "BACVLVM TIRONIS",
+   "cat": "武器",
+   "price": 25,
+   "ic": "wand",
+   "spec": "硬木杆 · 顶端嵌小块魔石 · 七塔学徒统一制式 · 初学者引导施法用具",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "普罗西亚七座魔塔发给学徒的制式法杖，帮初学者引导凌乱的魔力。这座城市的前身是被迫害法师所建的巴别城，通天塔被神罚夷平后更名普罗西亚，如今七塔——白、紫、赤、绿等——依旧林立城中，各塔学徒的法杖顶饰略有区别。",
+   "slot": "dext",
+   "use": {
+    "act": "举杖引导体内魔力施法",
+    "eff": "辅助施展一次法术，脱手离身则法力涣散难以成形"
+   }
+  },
+  {
+   "k": "e12_procyon_mage_robe",
+   "cn": "法师长袍",
+   "la": "VESTIS MAGICA",
+   "cat": "衣物",
+   "price": 28,
+   "ic": "robe",
+   "spec": "宽袖长袍 · 依所属塔色染布 · 内绣简易防护纹样 · 七塔通用款式",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "按所属魔塔颜色染制的长袍，白、紫、赤、绿各塔学徒一望便知归属。塔名取自小犬座α，城中人也以此为荣，穿这身袍走在普罗西亚街头，商贩多半会客气几分。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_mana_crystal_raw",
+   "cn": "粗炼魔石",
+   "la": "GEMMA MANAE CRVDA",
+   "cat": "魔具",
+   "price": 22,
+   "ic": "crystal",
+   "spec": "拳头大小 · 未经提纯 · 施法辅助材料 · 普罗西亚炼制坊原料",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "TERRA NOVA"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "尚未提纯的原始魔石，普罗西亚各塔炼制坊拿它当基础材料。自新大陆隆起后，这类原石的供应忽然充裕了不少，只是纯度参差不齐，价钱也跟着起起落落。"
+  },
+  {
+   "k": "e12_scroll_of_minor_ward",
+   "cn": "小型护体咒卷",
+   "la": "CHARTA TVTELAE MINORIS",
+   "cat": "消耗",
+   "price": 14,
+   "ic": "scroll",
+   "spec": "一次性咒纸 · 撕开即触发 · 普罗西亚学徒常备 · 效力短暂",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "普罗西亚学徒批量誊写贩售的一次性护体咒纸，撕开便能触发短暂的防护，威力有限却胜在便宜省事，是没什么法力根基的外来客最常买的保命符。",
+   "use": {
+    "act": "撕开咒纸触发防护",
+    "eff": "获得一次短暂的轻微防护，抵挡一次轻微伤害后咒力耗尽"
+   }
+  },
+  {
+   "k": "e12_tower_entry_badge",
+   "cn": "魔塔通行牌",
+   "la": "TESSERA TVRRIS",
+   "cat": "杂物",
+   "price": 9,
+   "ic": "tag",
+   "spec": "小铜牌 · 刻塔徽 · 凭此出入所属魔塔各层 · 遗失需重新登记",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "普罗西亚七塔各自发放的通行牌，没有它连塔门都进不去，遗失了要花不少手续与银钱重新登记。城中管理森严，据传与当年通天塔被神罚夷平的教训脱不开关系。"
+  },
+  {
+   "k": "e12_procyon_star_chart",
+   "cn": "星位测算图",
+   "la": "TABVLA STELLARVM",
+   "cat": "书卷",
+   "price": 35,
+   "ic": "map",
+   "spec": "羊皮纸绘制 · 记录小犬座与周边星位 · 占星与航海测算两用",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "SIRIUS"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "普罗西亚学者绘制的星位图，塔名皆取自小犬座α一带的星位，图上详细标注供占星测算与航海定位之用。翻越萨加玛塔几乎不可能，东西两块大陆长期隔绝，这类星图便成了远行者判断方向的重要依凭。"
+  },
+  {
+   "k": "e12_firestarter_flint_kit",
+   "cn": "燧石取火具",
+   "la": "IGNIARIVM SILICIS",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "stone",
+   "spec": "燧石与火镰一套 · 皮袋收纳 · 各地通行的取火工具",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地旅人行囊里常见的取火工具，燧石相击迸出火星引燃干绒草。不论是穿越沙漠、翻越雪原还是夜宿荒野，没有这套东西，光靠双手是生不起火的。",
+   "use": {
+    "act": "敲击燧石与火镰取火",
+    "eff": "点燃干燥的柴草，用于取暖或生火做饭"
+   }
+  },
+  {
+   "k": "e12_betelgeuse_gladiator_net",
+   "cn": "斗士网索",
+   "la": "RETE GLADIATORIS",
+   "cat": "武器",
+   "price": 21,
+   "ic": "rope",
+   "spec": "麻绳编网 · 边缘缀小铅坠 · 竞技场缠斗兵器 · 需长期训练方能娴熟",
+   "stack": 0,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "参宿四竞技场里常见的缠斗兵器，网抛出去缠住对手兵刃或四肢，是场上以巧破力的经典组合之一。这座城由龙族巫女与生命女神共同造出，专为化解精灵与矮人之战而生，全城便是为竞技场而建。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_betelgeuse_trident",
+   "cn": "斗士三叉戟",
+   "la": "TRIDENS ARENAE",
+   "cat": "武器",
+   "price": 33,
+   "ic": "spear",
+   "spec": "青铜三齿 · 木杆 · 与网索搭配的经典竞技兵器组合",
+   "stack": 0,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "与斗士网索搭配使用的三叉戟，竞技场上持此二物的组合最受观众欢迎。参宿四流血却不致死——伤者自会被场地本身的力量托住性命，因此这里的搏斗比别处更放得开手脚。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_arena_victory_token",
+   "cn": "竞技胜利徽",
+   "la": "TESSERA VICTORIAE",
+   "cat": "杂物",
+   "price": 15,
+   "ic": "card",
+   "spec": "青铜小牌 · 竞技场发放 · 记录胜场数 · 可折抵下场报名费",
+   "stack": 1,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "参宿四竞技场发给获胜者的记功徽牌，胜场累积到一定数目可折抵报名费甚至换取赏金。每四年一度的种族大战决定由谁统治这座城市，平日的小型竞技则更多是斗士们攒声望的舞台。"
+  },
+  {
+   "k": "e12_arena_healing_draught",
+   "cn": "竞技场速愈药水",
+   "la": "POTIO SANATIONIS ARENAE",
+   "cat": "药",
+   "price": 30,
+   "ic": "potion",
+   "spec": "小瓶装 · 场地特制 · 加速轻伤愈合 · 不治重创断肢",
+   "stack": 1,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "参宿四竞技场特制的伤药，专治场上常见的皮肉伤，愈合速度比寻常草药快得多。这座城市本就流血却不轻易致死，场方备下这药水，也是为了让斗士们能一场接一场地上场娱乐观众。",
+   "use": {
+    "act": "饮下药水",
+    "eff": "加速轻度外伤愈合，对断肢或致命伤无效"
+   }
+  },
+  {
+   "k": "e12_arena_ticket_wood",
+   "cn": "竞技场观赛木牌",
+   "la": "TESSERA SPECTATORIS",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "ticket",
+   "spec": "薄木牌一枚 · 刻场次与座位区 · 凭此入场观赛",
+   "stack": 1,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "参宿四竞技场的观赛凭证，薄木片刻着场次与大致座位区，凭牌入场。每逢种族大战临近，这种木牌常被黄牛炒到数倍原价，场外常有人为一张牌争得面红耳赤。"
+  },
+  {
+   "k": "e12_arena_skewer_meat",
+   "cn": "竞技场烤肉串",
+   "la": "OFFA ASSA ARENARIA",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "skewer",
+   "spec": "数串 · 场外摊贩现烤 · 观赛必备零食 · 参宿四街市常见",
+   "stack": 1,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "参宿四竞技场外摊贩现烤现卖的肉串，油香四溢，是看客们观赛时人手一串的零食。种族大战期间摊位常常从早排到晚，攒够本钱的商贩借着这几日的生意能吃喝一整年。",
+   "use": {
+    "act": "就着炭火余温吃下",
+    "eff": "饱腹提神，观赛间隙垫肚子的首选"
+   }
+  },
+  {
+   "k": "e12_gladiator_leather_guard",
+   "cn": "斗士皮甲",
+   "la": "LORICA GLADIATORIA",
+   "cat": "防具",
+   "price": 25,
+   "ic": "chest",
+   "spec": "皮革缝制 · 护住要害而不过分累赘 · 参宿四竞技场标准装束",
+   "stack": 0,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "参宿四竞技场斗士的标准护具，只护要害不过分累赘，保证场上动作的观赏性不被沉重的甲胄拖累。城中的斗士大多以此谋生，一身好皮甲往往是他们最值钱的家当。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_sirius_temple_incense",
+   "cn": "天狼星神殿香",
+   "la": "THVS TEMPLI SIRII",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "bulb",
+   "spec": "一束 · 守护神殿入口的香料 · 万神殿云上入口所在城市常见供品",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "供奉天狼星神殿的常见香料，这座城市因诸神时代得名，云上万神殿的入口正由天狼星把守。城中商贩深谙来往香客的需求，这类祭祀用品终年不缺货。",
+   "use": {
+    "act": "焚香献于神殿前",
+    "eff": "完成一次简易的供奉仪式"
+   }
+  },
+  {
+   "k": "e12_sirius_merchant_ledger",
+   "cn": "天狼星商行账板",
+   "la": "TABVLA MERCATORIS SIRII",
+   "cat": "书卷",
+   "price": 8,
+   "ic": "tablet",
+   "spec": "木板夹纸 · 记货物往来 · 千年古都商贸繁盛所需",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "天狼星城中商行常用的记账木板，夹着一沓可替换的纸页。这座千年古都商贸繁盛，往来货物种类繁杂，没有一本清楚的账目，生意很快就会乱成一团。"
+  },
+  {
+   "k": "e12_guardian_watch_horn",
+   "cn": "守望号角",
+   "la": "CORNV VIGILIAE",
+   "cat": "器物",
+   "price": 12,
+   "ic": "horn",
+   "spec": "兽角制 · 吹响示警 · 天狼星城防用具",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "天狼星城防用来示警的号角，吹响时城中各处岗哨依次接力传讯。守护神天狼星守着云上万神殿入口不容任何敌意靠近，城中守卫同样一丝不苟，这号角一响，全城岗哨都会立刻戒备。",
+   "use": {
+    "act": "吹响号角",
+    "eff": "向周围传递示警讯号，惊动附近的岗哨与守卫"
+   }
+  },
+  {
+   "k": "e12_sirius_bronze_lamp",
+   "cn": "天狼星青铜灯",
+   "la": "LVCERNA AENEA SIRII",
+   "cat": "器物",
+   "price": 10,
+   "ic": "lamp",
+   "spec": "青铜灯座 · 油芯可换 · 千年古都街市常见照明用具",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "天狼星城中街市常见的青铜油灯，样式古朴，据说沿用了几百年未曾大改。这座城市因诸神时代得名，如今仍是往来商旅必经的热闹之地。",
+   "use": {
+    "act": "添油点燃",
+    "eff": "提供稳定照明，室内室外皆可使用"
+   }
+  },
+  {
+   "k": "e12_minoa_thread_spool",
+   "cn": "引路线团",
+   "la": "GLOMVS FILI",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "vine",
+   "spec": "一大团麻线 · 迷宫探索必备 · 沿路系留标记回程",
+   "stack": 1,
+   "at": [
+    "MINOA",
+    "LABYRINTHUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "进入无尽迷宫前几乎人人都要备上的麻线团，边走边放线做标记，指望着能循线走回入口。只是迷宫墙壁每日随机移动，据传就算牵着线也未必管用，多数探索者最终还是靠运气与直觉。"
+  },
+  {
+   "k": "e12_labyrinth_chalk_stick",
+   "cn": "迷宫粉笔",
+   "la": "CRETA LABYRINTHI",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "powder",
+   "spec": "一小盒 · 在墙壁刻痕留记 · 迷宫每日变化令标记时常失效",
+   "stack": 1,
+   "at": [
+    "MINOA",
+    "LABYRINTHUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "探索者在无尽迷宫墙壁上做记号用的粉笔，只是墙壁每天都会随机移动，今天做的标记明天多半就找不到原处了。老练的向导都劝新人别太依赖这个，权当聊胜于无。",
+   "use": {
+    "act": "在墙面刻画记号",
+    "eff": "短时间内标记当前位置，隔日迷宫墙壁移动后记号即失效"
+   }
+  },
+  {
+   "k": "e12_minotaur_horn_fragment",
+   "cn": "牛头骨面具残片",
+   "la": "FRAGMENTVM LARVAE TAVRINAE",
+   "cat": "杂物",
+   "price": 40,
+   "ic": "bone",
+   "spec": "面具碎片 · 据传与米诺亚战神阿斯忒里俄斯有关 · 收藏者众多",
+   "stack": 1,
+   "at": [
+    "MINOA"
+   ],
+   "src": "向东.(1)",
+   "lore": "阿斯忒里俄斯幼时被困迷宫，脸上曾长年戴着牛头骨形状的面具，直至面具破碎消失才露出真容。米诺亚市集上偶有商贩兜售所谓的「面具残片」，真假难辨，多半是仿制的赝品，图的是这段传说的名气。"
+  },
+  {
+   "k": "e12_minoa_port_rope_coil",
+   "cn": "港口缆绳",
+   "la": "RVDENS PORTVS",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "rope",
+   "spec": "一卷约 10 米 · 麻绳浸油防腐 · 米诺亚港口通用系船具",
+   "stack": 1,
+   "at": [
+    "MINOA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "米诺亚港口常用的系船缆绳，浸油处理延缓海水腐蚀。港口是比斯蒂亚领地中最大的港口，往来船只终日不绝，缆绳这类耗材向来供不应求。"
+  },
+  {
+   "k": "e12_cretan_bull_charm",
+   "cn": "公牛护符",
+   "la": "AMVLETVM TAVRI CRETENSIS",
+   "cat": "魔具",
+   "price": 15,
+   "ic": "amulet",
+   "spec": "青铜小牛护符 · 米诺亚特产 · 求勇力与庇佑",
+   "stack": 1,
+   "at": [
+    "MINOA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "米诺亚特产的护符，取牛的形象铸成，当地人相信能带来勇力与庇佑。宫殿遗址下藏着的无尽迷宫是七大禁地中唯一对冒险者开放的一处，这护符也常被下迷宫的人当作壮胆的随身物。"
+  },
+  {
+   "k": "e12_letkinia_grand_shield",
+   "cn": "盾牌军团巨盾",
+   "la": "SCVTVM MAGNVM LETKINIAE",
+   "cat": "防具",
+   "price": 42,
+   "ic": "shield",
+   "spec": "木芯铁边 · 高及胸口 · 双人合力方能全力施展阵形 · 盾牌军团标志兵器",
+   "stack": 0,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "鼠兽人国度莱特基尼亚盾牌军团闻名的巨盾，单兵持用已属吃力，列阵推进时却固若城墙。鼠神在新形成的平原上为鼠兽人建立这个国度，粮食产量可观，也养得起这般厚重的军备。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_letkinia_grain_sack",
+   "cn": "莱特金谷袋",
+   "la": "SACCVS FRVMENTI LETKINIAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "一袋约 3 千克 · 平原新垦良田所产 · 颗粒饱满 · 出口各地",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "莱特基尼亚平原新垦土地所产的谷物，颗粒饱满产量可观，是这个国度赖以立足的根本。往来商队常年在此采购谷物转卖，粮价比周边地区都要低上一截。",
+   "use": {
+    "act": "取谷物自行烹煮",
+    "eff": "饱腹，需自备炊具加工后食用"
+   }
+  },
+  {
+   "k": "e12_rat_kin_whisker_charm",
+   "cn": "鼠须护符",
+   "la": "AMVLETVM VIBRISSAE",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "feather",
+   "spec": "鼠兽人自然脱落须毛所制 · 求敏锐感知 · 莱特基尼亚民间信物",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "推定：地点条目",
+   "lore": "鼠兽人自然脱落的须毛制成的小护符，民间相信佩戴能借得几分鼠兽人的敏锐感知。莱特基尼亚后来与南罗马尼亚海路结盟，与北罗马尼亚隔国境线对峙，这类民间信物也随商队流传到了不少地方。"
+  },
+  {
+   "k": "e12_kunlun_sun_scorched_stone",
+   "cn": "焦阳裂石",
+   "la": "LAPIS SOLE FISSVS",
+   "cat": "杂物",
+   "price": 10,
+   "ic": "stone",
+   "spec": "石块表面焦黑龟裂 · 取自昆仑十日横空时受灾之地 · 沉重",
+   "stack": 1,
+   "at": [
+    "KUNLUN"
+   ],
+   "src": "熊与虎.(3)",
+   "lore": "十个太阳神令大地被酷热覆盖那场灾祸留下的痕迹，石头表面焦黑龟裂，昆仑周边至今能捡到不少这样的石块。鸡兽人射落九个太阳后昆仑半毁，这石头也成了那场浩劫最直接的见证。"
+  },
+  {
+   "k": "e12_rooster_kin_arrow",
+   "cn": "射日箭",
+   "la": "SAGITTA SOLARIS",
+   "cat": "消耗",
+   "price": 8,
+   "ic": "arrow",
+   "spec": "一支 · 特制粗箭杆 · 传闻仿鸡兽人射落太阳所用箭矢打造 · 威力寻常",
+   "stack": 1,
+   "at": [
+    "KUNLUN"
+   ],
+   "src": "推定：熊与虎.(3)",
+   "lore": "仿传说中鸡兽人射落九个太阳所用箭矢打造的仿品，箭杆比寻常箭粗重，实际杀伤与普通箭矢并无二致，纯粹是沾了那段传说的彩头，昆仑周边猎手偶尔会买一两支挂在箭袋里显摆。",
+   "use": {
+    "act": "搭弓射出",
+    "eff": "造成一次远程箭伤，箭杆粗重命中后创口略大"
+   }
+  },
+  {
+   "k": "e12_kunlun_scorched_grain",
+   "cn": "焦土余粮",
+   "la": "FRVMENTVM TERRAE VSTAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "jerky",
+   "spec": "耐旱谷物压制而成 · 昆仑半毁后当地人改种此物 · 味涩耐存",
+   "stack": 1,
+   "at": [
+    "KUNLUN"
+   ],
+   "src": "推定：熊与虎.(3)",
+   "lore": "昆仑半毁、地面曾被酷热覆盖之后，当地人改种更耐旱的谷物压制成干粮，味道略涩但极耐存放。连自家太阳神都管不好的地方，人们只能自己想办法活下去。",
+   "use": {
+    "act": "掰下一块食用",
+    "eff": "扎实饱腹，口感干涩需配水食用"
+   }
+  },
+  {
+   "k": "e12_terra_nova_unstable_ore",
+   "cn": "新大陆浮现矿",
+   "la": "MINERA NOVA INSTABILIS",
+   "cat": "杂物",
+   "price": 28,
+   "ic": "crystal",
+   "spec": "块状矿石 · 蕴含庞大魔力却极不稳定 · 触感忽冷忽热 · 采集需谨慎",
+   "stack": 1,
+   "at": [
+    "TERRA NOVA"
+   ],
+   "src": "神座空位.(1)",
+   "lore": "众神之王巴尔肉体湮灭、海底隆起而成的这片新大陆，带着庞大而不稳定的魔力，连地表矿石都受了感染。触感忽冷忽热，普罗西亚的炼制坊高价收购，只是运输途中偶有炸裂伤人的事故传出。"
+  },
+  {
+   "k": "e12_terra_nova_disturbed_fish",
+   "cn": "乱流异鱼",
+   "la": "PISCIS FLVMINIS TVRBATI",
+   "cat": "吃食",
+   "price": 5,
+   "ic": "sashimi",
+   "spec": "银灰色鱼身 · 因新大陆隆起洋流剧变而现踪 · 肉质紧实 · 产地未定",
+   "stack": 1,
+   "at": [
+    "TERRA NOVA",
+    "MARE TETHYS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "新大陆隆起打乱了忒提丝之洋原本的洋流，从未见过的鱼种也随着乱流游到了近海。肉质出奇紧实，渔民起初不敢下口，试过之后发现味道尚可，如今偶尔能在沿海市集见到。",
+   "use": {
+    "act": "生食或简单炙烤",
+    "eff": "饱腹，味道鲜美但产地未明，谨慎者多选择烤熟再吃"
+   }
+  },
+  {
+   "k": "e12_uncharted_mountain_moss",
+   "cn": "无名山脉苔藓",
+   "la": "MVSCVS MONTIS INNOMINATI",
+   "cat": "药",
+   "price": 20,
+   "ic": "herb",
+   "spec": "新大陆中心偏东巨大山脉所产 · 药效尚不明确 · 炼金学徒争相研究",
+   "stack": 1,
+   "at": [
+    "TERRA NOVA"
+   ],
+   "src": "推定：向东.(1)",
+   "lore": "新大陆中心偏东那座巨大山脉上生长的苔藓，因这片大陆本身浮现未久，其药性还未被完全摸清，只知涂抹伤口似有一定止血之效。炼金学徒们对此争论不休，都想抢先弄清它的底细。",
+   "use": {
+    "act": "捣碎敷于伤口",
+    "eff": "有一定止血效果，具体药性尚待验证，过量使用后果不明"
+   }
+  },
+  {
+   "k": "e12_templum_purified_mana_stone",
+   "cn": "净化魔石",
+   "la": "GEMMA MANAE PVRGATA",
+   "cat": "魔具",
+   "price": 50,
+   "ic": "crystal",
+   "spec": "各地冒险者收集所得 · 送至生命教团净化 · 回收其中黑暗碎片后流入市面",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "神座空位.(4)",
+   "lore": "世界各地冒险者收集来的魔石送至生命教团「净化」，明面上是涤去邪气，实则暗中回收其中的黑暗碎片。净化后的魔石重新流入市面出售，价格比原石高出不少，买家大多不知这层内情。"
+  },
+  {
+   "k": "e12_templum_healing_tea",
+   "cn": "生命教团药茶",
+   "la": "INFVSVM TEMPLI VITAE",
+   "cat": "药",
+   "price": 12,
+   "ic": "potion",
+   "spec": "小罐装 · 教团配方 · 温和调理体虚 · 各地分坛皆有出售",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "生命教团各地分坛都有出售的调理药茶，配方温和不烈，专治长途跋涉后的体虚气弱，价钱不算便宜，但胜在信誉过硬，商旅出远门前常备一罐。",
+   "use": {
+    "act": "温热冲泡饮下",
+    "eff": "缓解体虚与疲劳，效果温和见效较慢"
+   }
+  },
+  {
+   "k": "e12_life_tree_wand_offering",
+   "cn": "献供小木杖",
+   "la": "BACVLVM OBLATVM ARBORIS VITAE",
+   "cat": "杂物",
+   "price": 9,
+   "ic": "vine",
+   "spec": "细木杖一支 · 仿庭院生命之树魔杖所制 · 信众献给教团庭院的供品",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "生命教团信众仿庭院中那根生命之树魔杖所制的小木杖，作为供品献入庭院。那根真正的魔杖在庭院里静静扎根，等待着龙族巫女归来，教团上下对此讳莫如深，信众所知的也只是些零星传闻。"
+  },
+  {
+   "k": "e12_templum_round_table_token",
+   "cn": "圆桌代表令牌",
+   "la": "TESSERA CONCILII",
+   "cat": "杂物",
+   "price": 25,
+   "ic": "tag",
+   "spec": "木制令牌 · 刻代表国徽 · 大陆西侧诸国代表团圆桌议事凭证",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：地点条目",
+   "lore": "大陆西侧诸国代表团围坐生命教团总部圆桌议事时所持的令牌，凭此确认发言与投票的资格。战乱年间各国代表往来频繁，这枚令牌一度成了身份最硬的通行证之一。"
+  },
+  {
+   "k": "e12_paradisus_rainbow_thread",
+   "cn": "彩虹隧道丝线",
+   "la": "FILVM TVBI IRIDIS",
+   "cat": "魔具",
+   "price": 60,
+   "ic": "ribbon",
+   "spec": "七彩丝线一缕 · 据传取自奥丁开辟的彩虹隧道边缘 · 极为罕见",
+   "stack": 1,
+   "at": [
+    "PARADISUS",
+    "AESIR"
+   ],
+   "src": "推定：地点条目",
+   "lore": "奥丁后来以彩虹隧道与彩虹桥在天堂开辟出正常入口之外的异常通道，传闻边缘偶有丝线状的痕迹脱落，被埃西尔工匠小心收集。天堂本是蒂雅所创的广阔异空间，正常入口只在冥界，这丝线的真伪始终无人能证实。"
+  },
+  {
+   "k": "e12_paradisus_pure_feather",
+   "cn": "天堂圣羽",
+   "la": "PENNA PARADISI",
+   "cat": "魔具",
+   "price": null,
+   "ic": "feather",
+   "spec": "洁白羽毛一片 · 天堂异空间所落 · 极罕见 · 不见于寻常市集",
+   "stack": 1,
+   "at": [
+    "PARADISUS"
+   ],
+   "src": "推定：地点条目",
+   "lore": "据传自天堂那处异空间飘落至人间的羽毛，通体洁白不染尘。天堂正常入口只在冥界，凡人几乎不可能亲身抵达，这羽毛的来历也就更加扑朔迷离，坊间传言居多，见过实物的人寥寥无几。"
+  },
+  {
+   "k": "e12_common_dagger",
+   "cn": "旅人短剑",
+   "la": "PVGIO VIATORIS",
+   "cat": "武器",
+   "price": 6,
+   "ic": "dagger",
+   "spec": "刃长约 20 厘米 · 皮鞘随身 · 削切防身两用 · 各地铁匠皆能打造",
+   "stack": 0,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地都能买到的普通短剑，削切绳索、拆解包裹、削果皮、必要时防身，样样用得上。查阅精灵典籍那晚，就是这样一柄短剑撬开了黏合的双层羊皮纸，揭出了藏在下面的更古老记载。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_travel_waterskin",
+   "cn": "行旅水囊",
+   "la": "VTER VIATORIS",
+   "cat": "器物",
+   "price": 5,
+   "ic": "pail",
+   "spec": "皮革缝制 · 容约 1.5 升 · 各地通行 · 需定期涂脂防漏",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地商旅通用的普通水囊，不比蜥蜴人换来的精灵净水囊那般讲究，装的也是寻常井水河水，胜在便宜易得，走到哪儿续水都方便。",
+   "use": {
+    "act": "拧开囊口喝水",
+    "eff": "解除口渴，需定期补充清水"
+   }
+  },
+  {
+   "k": "e12_travel_bread_loaf",
+   "cn": "硬面包",
+   "la": "PANIS DVRVS VIATORIS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bread",
+   "spec": "一条约 400 克 · 烘至半干 · 可存十余日 · 各地旅人常备干粮",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地都在卖的旅行干粮，烘得半干耐嚼耐放，配水啃下去能顶一阵饥饿。阿斯忒里俄斯出发周游世界前，行囊里被塞进的干粮多半就是这一类。",
+   "use": {
+    "act": "掰开就水食用",
+    "eff": "饱腹一顿，干硬需配水下咽"
+   }
+  },
+  {
+   "k": "e12_bandage_roll_common",
+   "cn": "绷带卷",
+   "la": "FASCIA COMMVNIS",
+   "cat": "药",
+   "price": 3,
+   "ic": "band",
+   "spec": "一卷约 3 米 · 亚麻布条 · 各地通用外伤处理用品",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(2)",
+   "lore": "各地都能买到的普通绷带，行军作战、赶路摔伤都用得上，诸神之战期间各城铁匠铺连同布庄一起加班加点供应，需求量比往年翻了几番。",
+   "use": {
+    "act": "缠裹伤口止血",
+    "eff": "止住外伤出血并降低感染风险，重伤仍需专门医治"
+   }
+  },
+  {
+   "k": "e12_herbal_wound_paste",
+   "cn": "草药伤膏",
+   "la": "PASTA HERBARVM VVLNERARIA",
+   "cat": "药",
+   "price": 9,
+   "ic": "paste",
+   "spec": "小罐装 · 数种草药捣制 · 涂抹外伤 · 各地郎中常备配方",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(2)",
+   "lore": "各地郎中大同小异的外伤膏方，捣烂数种常见草药调制而成，涂在伤口上能减轻疼痛并加速结痂。战乱年间需求暴增，不少药铺的存货一度断了货。",
+   "use": {
+    "act": "涂抹于伤口处",
+    "eff": "减轻疼痛并加速轻度外伤愈合"
+   }
+  },
+  {
+   "k": "e12_antidote_herb_dried",
+   "cn": "解毒草干",
+   "la": "HERBA ANTITOXICA SICCA",
+   "cat": "药",
+   "price": 11,
+   "ic": "herb",
+   "spec": "一小捆 · 阴干保存 · 对付常见植物与蛇虫毒素 · 郎中随身必备",
+   "stack": 1,
+   "at": [],
+   "src": "推定：熊与虎.(2)",
+   "lore": "各地郎中随身携带的解毒草，对付常见的植物或蛇虫毒素颇为有效，熊族部落处理蕨菜之类有毒山菜的手艺据传也源自类似的草药知识。",
+   "use": {
+    "act": "嚼碎服下或煮水饮用",
+    "eff": "缓解轻中度毒素反应，剧毒仍需专门救治"
+   }
+  },
+  {
+   "k": "e12_fever_reducing_bark",
+   "cn": "退热树皮",
+   "la": "CORTEX ANTIPYRETICVS",
+   "cat": "药",
+   "price": 8,
+   "ic": "herb",
+   "spec": "干燥树皮碎片 · 煎水服用 · 各地行军郎中常备",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(2)",
+   "lore": "行军途中常见的退热树皮，煎成苦水灌下去，虽不算灵丹妙药，好歹能压住一时的高烧，让伤病员撑到能被送去正经郎中处医治。",
+   "use": {
+    "act": "煎水服用",
+    "eff": "缓解发热症状，效果温和需持续服用数次"
+   }
+  },
+  {
+   "k": "e12_sleep_calming_herb",
+   "cn": "安神草",
+   "la": "HERBA SOPORIFICA",
+   "cat": "药",
+   "price": 10,
+   "ic": "herb",
+   "spec": "干花瓣一小袋 · 泡水或焚烧皆可 · 助眠安神 · 各地药铺常见",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(2)",
+   "lore": "各地药铺常见的安神草，战乱年间人心惶惶，不少人家夜里靠这个才能勉强睡个安稳觉。深林贤者所在的森林里也偶有采药人误闯，多半就是为了寻这类草药。",
+   "use": {
+    "act": "泡水饮用或点燃嗅闻",
+    "eff": "助人入眠，减轻焦躁与惊惧情绪"
+   }
+  },
+  {
+   "k": "e12_torch_common",
+   "cn": "火把",
+   "la": "FAX COMMVNIS",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "torch",
+   "spec": "松脂裹麻布 · 可燃约两个时辰 · 各地通行照明与防兽用具",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地都能买到的普通火把，照明防兽两不误，无尽迷宫与冥界长堤这类幽暗之地尤其少不了它。",
+   "use": {
+    "act": "点燃火把",
+    "eff": "持续照明数个时辰，亦可用于驱赶怕火的野兽"
+   }
+  },
+  {
+   "k": "e12_rope_coil_common",
+   "cn": "麻绳卷",
+   "la": "RVDENS COMMVNIS",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "rope",
+   "spec": "一卷约 15 米 · 各地通用 · 攀爬、捆绑、系船皆可用",
+   "stack": 1,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地都少不了的一卷麻绳，翻山、渡河、扎营、捆行李，样样都用得上，是几乎每个长途旅人行囊里的标配。"
+  },
+  {
+   "k": "e12_simple_tunic",
+   "cn": "粗布短衫",
+   "la": "TVNICA SIMPLEX",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "tunic",
+   "spec": "麻布缝制 · 宽松适体 · 各地日常穿着 · 便宜耐用",
+   "stack": 0,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地日常穿的粗布短衫，样式简单便宜耐用，从神殿信众到山野旅人都能穿上一件不显突兀。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_leather_travel_boots",
+   "cn": "行路皮靴",
+   "la": "CALCEI VIATORIS",
+   "cat": "衣物",
+   "price": 8,
+   "ic": "boot",
+   "spec": "皮革缝制 · 底部加厚 · 各地长途旅行常用鞋履",
+   "stack": 0,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地都能买到的行路皮靴，底部加厚耐磨，适合长途跋涉，比湿地芦苇履结实，却不如后者在泥沼里灵便，各有取舍。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_leather_belt_common",
+   "cn": "皮革腰带",
+   "la": "CINGVLVM PELLICEVM",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "belt",
+   "spec": "皮革制 · 可挂系水囊与小刀 · 各地通行款式",
+   "stack": 0,
+   "at": [],
+   "src": "推定：诸神之战.(1)",
+   "lore": "各地通行的简单皮革腰带，挂水囊、别小刀，出门在外几乎人人都要系一条，样式朴素却称手。",
+   "slot": "cing"
+  },
+  {
+   "k": "e12_travel_wool_bedding",
+   "cn": "毛毡寝具",
+   "la": "STRAGVLVM LANEVM",
+   "cat": "杂物",
+   "price": 16,
+   "ic": "felt",
+   "spec": "皮革包裹羊毛缝制 · 卷起可背负 · 露宿御寒必备",
+   "stack": 1,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "皮革里塞满羊毛缝成的寝具，卷起来能背在身上，是长途旅行露宿必备的行装之一。阿斯忒里俄斯离开迷宫周游世界前，行囊里备的头一件东西便是这个。",
+   "use": {
+    "act": "展开寝具就地休息",
+    "eff": "抵御夜间寒气，让露宿时的睡眠质量不至太差"
+   }
+  },
+  {
+   "k": "e12_travel_cook_pot",
+   "cn": "行军小锅",
+   "la": "OLLA VIATORIS",
+   "cat": "器物",
+   "price": 12,
+   "ic": "soup",
+   "spec": "铜锡合金 · 附提梁 · 可煮可炖 · 配一副木勺木铲",
+   "stack": 1,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "适合随身携带的小号锅具，配着木勺木铲一起卖，路上支个火就能煮点热食。阿斯忒里俄斯出发前，蒂雅特意让他带上这么一套，还让他自己练手做饭。",
+   "use": {
+    "act": "架火烹煮随身食材",
+    "eff": "将生食加工为热食，长途跋涉中可暖身兼调剂口味"
+   }
+  },
+  {
+   "k": "e12_large_travel_sack",
+   "cn": "大布袋",
+   "la": "SACCVS MAGNVS",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "wrap",
+   "spec": "厚麻布缝制 · 容量可观 · 这个时代还没有像样的背包 · 只能随手塞进去背着走",
+   "stack": 1,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "这个年代还没有像样的背包，长途出行的人多半就是找条厚麻布袋，把寝具、干粮、锅具一股脑塞进去背着走。阿斯忒里俄斯出发前的行李就是这样一个大袋子加几个小袋子，堆得他自己都觉得多。"
+  },
+  {
+   "k": "e12_asterius_labrys",
+   "cn": "青铜双刃巨斧",
+   "la": "LABRYS AENEA MAGNA",
+   "cat": "武器",
+   "price": null,
+   "ic": "axe",
+   "spec": "青铜双刃 · 重逾常人可负 · 迷宫遗物 · 后经矮人重新锻造 · 唯阿斯忒里俄斯挥得动",
+   "stack": 0,
+   "at": [
+    "MINOA"
+   ],
+   "src": "向东.(1)",
+   "lore": "阿斯忒里俄斯在迷宫里救下一名断臂之人后得到的双刃巨斧，比普通成年人还沉。周游世界途中，受过恩惠的矮人重新为其锻造过一次，如今刃口比初得时更加锋利，寻常人连举起都困难。",
+   "slot": "dext",
+   "use": {
+    "act": "双手抡起巨斧劈砍",
+    "eff": "一击可将寻常怪物劈成两半，动作大而笨重，狭窄之地施展不开"
+   }
+  },
+  {
+   "k": "e12_asterius_white_tunic",
+   "cn": "宽松白衫",
+   "la": "TVNICA ALBA LAXA",
+   "cat": "衣物",
+   "price": null,
+   "ic": "tunic",
+   "spec": "宽松剪裁 · 蒂雅亲手变出 · 遮住过于暴露的岛屿装束",
+   "stack": 0,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "阿斯忒里俄斯离开米诺亚时只穿一条短裤，蒂雅嫌这身打扮太过暴露，打了个响指便变出这件宽松白衫给他套上，算是周游世界前的第一份「礼物」。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_asterius_shoulder_chest_guard",
+   "cn": "肩胸铁皮甲",
+   "la": "THORAX MIXTVS FERRI ET PELLIS",
+   "cat": "防具",
+   "price": null,
+   "ic": "chest",
+   "spec": "肩胸部分嵌钢铁 · 其余以皮革缝制 · 蒂雅亲手打造 · 兼顾灵活与防护",
+   "stack": 0,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "蒂雅为阿斯忒里俄斯打了个响指变出的护具，肩膀和胸口部分用钢铁加固，其余以皮革缝制，既护住要害又不至于像整套铁甲那样拖累这个大块头的行动。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_asterius_leg_guard",
+   "cn": "护腿与护腕",
+   "la": "OCREAE ET MANICAE",
+   "cat": "防具",
+   "price": null,
+   "ic": "boot",
+   "spec": "皮革与薄铁混制 · 护小腿与手腕至手肘 · 蒂雅亲手打造 · 一套两件",
+   "stack": 0,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "配合肩胸铁皮甲一同变出的护具，护住小腿和从手腕到手肘的部位。阿斯忒里俄斯起初对这身突然出现的装备手足无措，但很快就习惯了蒂雅这般说变就变的作风。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_asterius_leather_cloak",
+   "cn": "皮革斗篷",
+   "la": "PALLIVM PELLICEVM ASTERII",
+   "cat": "衣物",
+   "price": null,
+   "ic": "cloak",
+   "spec": "皮革制 · 蒂雅亲手变出 · 收尾整套装束 · 遮盖大半身形",
+   "stack": 0,
+   "at": [],
+   "src": "向东.(1)",
+   "lore": "蒂雅为阿斯忒里俄斯整套行装收尾时披上的皮革斗篷，配着宽松白衫与护甲，总算比先前只穿短裤的模样体面许多，尽管那条短裤其实还穿在里面。",
+   "slot": "hum"
+  },
+  {
+   "k": "e12_leather_thong_sandal",
+   "cn": "皮革绳凉鞋",
+   "la": "SOLEA LOREA",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "slipper",
+   "spec": "皮绳交叉系缚 · 米诺亚岛屿常见样式 · 轻便透气",
+   "stack": 0,
+   "at": [
+    "MINOA",
+    "BETELGEUSE"
+   ],
+   "src": "向东.(1)",
+   "lore": "米诺亚一带常见的凉鞋样式，皮绳交叉系在脚背上，轻便透气。阿斯忒里俄斯出发前，蒂雅看了看他平时穿的这双，觉得凑合着穿也够用，便没有另外置办。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_tiya_dachi",
+   "cn": "随身太刀",
+   "la": "ENSIS TIYAE",
+   "cat": "武器",
+   "price": null,
+   "ic": "sword2",
+   "spec": "刃身修长 · 蒂雅随身佩带 · 曾随手斩落主神级神明头颅 · 独一无二",
+   "stack": 0,
+   "at": [],
+   "src": "弑神之法.(2)",
+   "lore": "蒂雅随身佩带的长刀，在巴尔神殿前不过随手一挥，就将纠缠尼克斯的金发男神——宙斯的分灵之一——斩下头颅。那男神身首分离片刻后又若无其事地接了回去，倒教旁观众神更清楚认清了这位归来者的分量。",
+   "slot": "dext"
+  },
+  {
+   "k": "e12_tiya_prying_shortknife",
+   "cn": "拆页短刀",
+   "la": "CVLTELLVS SCISSOR",
+   "cat": "器物",
+   "price": 7,
+   "ic": "dagger",
+   "spec": "刃薄而窄 · 便于插入黏合书页缝隙 · 学者与古籍商常备",
+   "stack": 1,
+   "at": [],
+   "src": "诸神之战.(1)",
+   "lore": "专为撬开黏合书页而设计的薄刃短刀，刃口窄而不厚，插入羊皮纸夹层慢慢移动才不至于撕坏内页。查阅精灵典籍时，正是靠这样一柄短刀才发现了黏合双层纸下藏着的更古老记载。",
+   "slot": "dext",
+   "use": {
+    "act": "将薄刃小心插入黏合纸页间移动",
+    "eff": "分离黏合的双层书页而不损毁内容，手法生涩者仍有撕坏原件的风险"
+   }
+  },
+  {
+   "k": "e12_pantheon_scroll_of_names",
+   "cn": "万神录",
+   "la": "VOLVMEN NOMINVM DEORVM",
+   "cat": "书卷",
+   "price": null,
+   "ic": "scroll",
+   "spec": "纸莎草卷轴 · 记录历代所有神明名讳 · 长度无止境 · 独一无二",
+   "stack": 1,
+   "at": [
+    "PANTHEON"
+   ],
+   "src": "神座空位.(4)",
+   "lore": "记录所有曾存在过的神明名讳的纸莎草卷轴，原是给巴尔制作的物品之一，尼克斯代为保管多年。展开时无止境地向前延伸，希尔芙第一次见到这卷轴的长度时曾茫然失色，足见神明数量之庞杂。"
+  },
+  {
+   "k": "e12_tiya_pocket_clock",
+   "cn": "随身时钟",
+   "la": "HOROLOGIVM PORTATILE",
+   "cat": "器物",
+   "price": null,
+   "ic": "clock",
+   "spec": "小巧精致 · 蒂雅自身携带之物 · 此世此代绝无仅有 · 从不离身",
+   "stack": 1,
+   "at": [],
+   "src": "熊与虎.(2)",
+   "lore": "蒂雅从怀中取出确认时辰用的小巧时钟，这个年代的世界根本没有这般精细的计时器物，寻常人对时间大多只能凭日头模糊估算。熊虎两族比拼耐力时，正是靠这时钟才定下了「见到烟花归位」的规则。"
+  },
+  {
+   "k": "e12_baal_heart_silver_box",
+   "cn": "装心银盒",
+   "la": "ARCA ARGENTEA CORDIS",
+   "cat": "魔具",
+   "price": null,
+   "ic": "chest",
+   "spec": "银制小箱 · 内藏巴尔之心 · 因陀罗献祭所得 · 蒂雅贴身保管",
+   "stack": 1,
+   "at": [],
+   "src": "供养.(2)",
+   "lore": "蒂雅打造的银制小箱，用来收纳因陀罗掏心献祭后留下的那颗发光心脏——巴尔的感情与记忆碎片。蒂雅说要等巴尔哪天真正想通归位时，再把这颗心脏还给他，在那之前只由自己贴身保管。"
+  },
+  {
+   "k": "e12_athena_true_aegis",
+   "cn": "埃癸斯圣盾",
+   "la": "AEGIS VERA MINERVAE",
+   "cat": "防具",
+   "price": null,
+   "ic": "shield",
+   "spec": "蛇发女怪皮革蒙面 · 雅典娜真身佩戴之盾 · 诸神之战中曾被阿蒙劈裂",
+   "stack": 0,
+   "at": [],
+   "src": "诸神之战.(2)",
+   "lore": "雅典娜真正持有的埃癸斯圣盾，与市面上那些仿纹样打的小盾毫无可比性。诸神之战里阿蒙的双剑硬生生劈裂了这面圣盾，那一战之后，仿制这面盾的仪仗品反倒在市面上卖得更好了。",
+   "slot": "sin"
+  },
+  {
+   "k": "e12_athena_war_helm",
+   "cn": "雅典娜战盔",
+   "la": "GALEA MINERVAE",
+   "cat": "防具",
+   "price": null,
+   "ic": "helm",
+   "spec": "黄金打造 · 雅典娜出战必佩 · 与凡人所购青铜鬃盔样式不同",
+   "stack": 0,
+   "at": [],
+   "src": "诸神之战.(1)",
+   "lore": "雅典娜出战时必戴的黄金头盔，与凡人市面上能买到的青铜鬃盔样式相仿却材质悬殊。诸神之战爆发前，她将这顶头盔郑重戴上，随即率先驾车冲锋。",
+   "slot": "cap"
+  },
+  {
+   "k": "e12_hermes_winged_sandals",
+   "cn": "信使飞翼凉鞋",
+   "la": "TALARIA MERCVRII",
+   "cat": "衣物",
+   "price": null,
+   "ic": "slipper",
+   "spec": "鞋踝缀羽翼 · 赫尔墨斯专属 · 助其成为孩子们中除沙玛什外最快者",
+   "stack": 0,
+   "at": [],
+   "src": "神座空位.(2)",
+   "lore": "赫尔墨斯脚踝那双缀着羽翼的飞鞋，助他在诸子之中除沙玛什外跑得最快，宙斯派他去追阿瑞斯、去深林贤者处打探消息，用的都是这双鞋子踩出来的速度。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_hermes_caduceus",
+   "cn": "信使权杖",
+   "la": "CADVCEVS MERCVRII",
+   "cat": "魔具",
+   "price": null,
+   "ic": "staff",
+   "spec": "双蛇缠绕短杖 · 赫尔墨斯信使身份的凭证 · 传讯与调解两用",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神座空位.(4)",
+   "lore": "赫尔墨斯作为奥林匹斯信使的凭证权杖，双蛇缠绕杖身，出使传讯时持此杖以示身份。宙斯派他前往深林贤者处、埃西尔领地打探消息时，这权杖便是通行各方的信物。",
+   "slot": "dext",
+   "use": {
+    "act": "持杖表明信使身份",
+    "eff": "获得对方基本的接见与不设伏的礼遇，无法强制对方配合"
+   }
+  },
+  {
+   "k": "e12_messenger_light_satchel",
+   "cn": "信使轻挎包",
+   "la": "MARSVPIVM NVNTII",
+   "cat": "衣物",
+   "price": 10,
+   "ic": "pouch",
+   "spec": "皮革缝制 · 轻便贴身 · 各地信使与跑腿人常用",
+   "stack": 0,
+   "at": [
+    "PANTHEON",
+    "SIRIUS",
+    "PROCYON"
+   ],
+   "src": "推定：神座空位.(4)",
+   "lore": "各地信使跑腿常备的轻便挎包，装文书、干粮与零碎物件都方便，不像行军的大布袋那般笨重，适合需要随时飞奔的人。",
+   "slot": "hum"
+  },
+  {
+   "k": "e12_deep_sage_stone_tablet",
+   "cn": "预言石板",
+   "la": "TABVLA VATICINII",
+   "cat": "魔具",
+   "price": null,
+   "ic": "tablet",
+   "spec": "石制平板 · 轻叩生微光图案 · 深林贤者据此讲述未来 · 独一无二",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "深林贤者.(2)",
+   "lore": "深林贤者用来讲述预言的石板，轻叩桌面便会浮现用微光描绘的图案，或是首尾相衔的长蛇，或是四等分的圆环。贤者本身是蒂雅远程操控的石魔像，森林由世界树协助建成，房屋与魔像则得萨加玛塔相助。",
+   "slot": "sin",
+   "use": {
+    "act": "轻叩石板请示未来图景",
+    "eff": "浮现与来意相关的一段隐晦图像，解读全凭来者自身的智慧"
+   }
+  },
+  {
+   "k": "e12_deep_sage_thick_wrap",
+   "cn": "厚布裹身",
+   "la": "INVOLVCRVM CRASSVM",
+   "cat": "衣物",
+   "price": null,
+   "ic": "robe",
+   "spec": "厚布层层缠裹 · 遮掩魔像躯体 · 深林贤者唯一「衣着」",
+   "stack": 0,
+   "at": [],
+   "src": "深林贤者.(1)",
+   "lore": "深林贤者用来遮掩自身魔像躯体的厚布，层层缠裹得不见一丝石质的痕迹，赫尔墨斯第一次见到时甚至疑心那底下是不是真藏着一具活物。",
+   "slot": "corp"
+  },
+  {
+   "k": "e12_researcher_ink_quill_set",
+   "cn": "羽管笔墨水套装",
+   "la": "CALAMVS ET ATRAMENTVM",
+   "cat": "杂物",
+   "price": 9,
+   "ic": "needle",
+   "spec": "羽管削尖蘸墨 · 附小墨水瓶 · 学者考据必备文具",
+   "stack": 1,
+   "at": [
+    "SIRIUS",
+    "PROCYON",
+    "SHENGDU"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "考据历史的学者随身必带的文具，羽管削尖蘸墨书写，配一小瓶墨水。整理众神之王线索那段日子，墙上贴满的备忘便签，多半都是靠这套东西一张张写出来的。"
+  },
+  {
+   "k": "e12_researcher_notebook_stack",
+   "cn": "笔记本册",
+   "la": "QVATERNIONES NOTARVM",
+   "cat": "书卷",
+   "price": 6,
+   "ic": "book",
+   "spec": "数本装订成册 · 空白待写 · 记录调查心得与线索",
+   "stack": 1,
+   "at": [
+    "SIRIUS",
+    "PROCYON",
+    "SHENGDU"
+   ],
+   "src": "推定：诸神之战.(1)",
+   "lore": "考据学者随身携带的空白笔记本，用来记下调查途中的心得与线索。串联便签、追踪神明名讳的那一个月里，这样的本子往往用掉好几本，字迹越写越潦草。",
+   "use": {
+    "act": "翻开本子记下心得",
+    "eff": "将当下的发现整理记录，便于日后串联线索"
+   }
+  },
+  {
+   "k": "e12_bronze_mirror_relic",
+   "cn": "黄铜镜",
+   "la": "SPECVLVM AENEVM ANTIQVVM",
+   "cat": "器物",
+   "price": null,
+   "ic": "mirror",
+   "spec": "黄铜打磨 · 据传能提供房间与人手协助调查者 · 具体来历讳莫如深",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "诸神之战.(1)",
+   "lore": "为调查众神之王提供房间与人手的神秘存在，众人只以「黄铜镜」相称，其真实身份从未公开。它曾感叹「拜托精灵崽子们办事挺让人不爽的」，却还是设法弄来了大批精灵典籍供调查者查阅，行事挥霍却讲信用。"
+  },
+  {
+   "k": "e12_gao_ma_bear_fur_boots",
+   "cn": "熊掌皮靴",
+   "la": "CALCEI VNGVLAE VRSI",
+   "cat": "衣物",
+   "price": null,
+   "ic": "boot",
+   "spec": "熊掌皮毛缝制 · 高马本人所穿 · 部落匠人手艺",
+   "stack": 0,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(1)",
+   "lore": "高马自己部落匠人缝制的熊皮靴，取熊掌部位的皮毛为料，走山路又稳又不易打滑。高马体型健壮，寻常鞋履未必合脚，这双还是量身特制的。",
+   "slot": "ped"
+  },
+  {
+   "k": "e12_hu_huan_tiger_stripe_wrap",
+   "cn": "虎纹缠腰布",
+   "la": "CINGVLVM STRIATVM TIGRIS",
+   "cat": "衣物",
+   "price": null,
+   "ic": "sash",
+   "spec": "虎皮条纹缠身 · 虎幻本人所系 · 老虎部落传统装束",
+   "stack": 0,
+   "at": [
+    "ARBOR ORIENTIS"
+   ],
+   "src": "熊与虎.(1)",
+   "lore": "老虎部落传统的缠腰装束，用带条纹的虎皮裁条缠在腰间，既是装束也是身份的证明。虎幻本名取自这道菜的别称，父亲连给女儿取名都随意至此，这条缠腰布倒是她自己精心打理的少数几样东西之一。",
+   "slot": "cing"
+  }
+ ]
+}
