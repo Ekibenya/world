@@ -235,6 +235,7 @@ function esRender(){
 }
 function esGo(n){
   if(n<0)n=0;if(n>ES.rows.length-1)n=ES.rows.length-1;
+  if(n!==ES.i){try{if(window.SX)SX('slide');}catch(_){}}
   ES.i=n;esRender();
 }
 function esOpen(line){
@@ -252,6 +253,7 @@ function esClose(){
 }
 function esEngage(){
   if(!ES.on)return;
+  try{if(window.SX)SX('intro');}catch(_){}
   var d=ES.rows[ES.i];
 
   if(!d||d.i==null||d.i<=0)return;

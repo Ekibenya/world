@@ -119,6 +119,7 @@ function enterStep(stage) {
   }));
 }
 function setStep(next, backwards = false, instant = false) {
+  try { if (window.SX && state.step && next !== state.step) SX('slide'); } catch (_) {}
   const stage = $('#feStage'); if (!stage) { applyStep(next); return; }
   if (state._tmr) { clearTimeout(state._tmr); state._tmr = 0; }
   if (state._btmr) { clearTimeout(state._btmr); state._btmr = 0; }
@@ -303,10 +304,10 @@ async function terraform(report) {
 async function sendMessage() { const input = $('#gIn'); const text = input.value.trim(); if (!text || state.busy) return; input.value = ''; await sendMessageText(text); }
 
 document.addEventListener('click', (event) => {
-  const route = event.target.closest('[data-route]'); if (route) { state.route = route.dataset.route; renderRoute(); return; }
-  const site = event.target.closest('[data-site]'); if (site) { planet()?.select(site.dataset.site); return; }
-  const persona = event.target.closest('[data-card]'); if (persona) { selectCard(persona.dataset.card); $('#feWrap').classList.add('artOn'); return; }
-  const companion = event.target.closest('[data-companion]'); if (companion) { const id = companion.dataset.companion; state.companionFocusId = id; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); $('#feWrap').classList.add('artOn'); return; }
+  const route = event.target.closest('[data-route]'); if (route) { try { if (window.SX) SX('click'); } catch (_) {} state.route = route.dataset.route; renderRoute(); return; }
+  const site = event.target.closest('[data-site]'); if (site) { try { if (window.SX) SX('site'); } catch (_) {} planet()?.select(site.dataset.site); return; }
+  const persona = event.target.closest('[data-card]'); if (persona) { try { if (window.SX) SX('slide'); } catch (_) {} selectCard(persona.dataset.card); $('#feWrap').classList.add('artOn'); return; }
+  const companion = event.target.closest('[data-companion]'); if (companion) { try { if (window.SX) SX('pick'); } catch (_) {} const id = companion.dataset.companion; state.companionFocusId = id; if (state.companions.has(id)) state.companions.delete(id); else if (state.companions.size < 5) state.companions.set(id, '希望争取同行'); renderCompanions(); $('#feWrap').classList.add('artOn'); return; }
 });
 $('#feArtX').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));
 $('#feArtOk').addEventListener('pointerup', () => $('#feWrap').classList.remove('artOn'));

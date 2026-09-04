@@ -9,7 +9,7 @@
   --ena:#14221c;--ena2:#1b2d26;--ena0:#0f1a15;--verdigris:#5f8a72;
   --vellum:#ece3cd;--vellum2:#e2d7bb;
   --dispf:'Metropolitain',var(--mono);
-  --frame-txt:#efe4c8;--frame-mut:#a89d80;
+  --frame-txt:#efe4c8;--frame-mut:#b6ab90;
   --whip:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 40'><g fill='none' stroke='%23f1d28c' stroke-width='1.4' stroke-linecap='round'><path d='M0 30 C90 30 120 8 170 12 C220 16 240 32 300 32 C360 32 380 16 430 12 C480 8 510 30 600 30'/><path d='M300 32 c-10 -12 -2 -22 8 -18 c8 4 4 14 -4 12' opacity='.9'/><path d='M130 14 c-8 -10 -22 -4 -18 6 c3 7 12 5 12 -1' opacity='.7'/><path d='M470 14 c8 -10 22 -4 18 6 c-3 7 -12 5 -12 -1' opacity='.7'/></g><circle cx='300' cy='34' r='2.2' fill='%23ffb257'/></svg>");--corner:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'><g fill='none' stroke='%23f1d28c' stroke-width='1.3' stroke-linecap='round'><path d='M3 77 C3 30 30 3 77 3'/><path d='M9 70 C10 40 40 10 70 9' opacity='.55'/><path d='M14 36 c-7 -10 6 -22 15 -12 c6 7 -3 14 -9 9' /><path d='M36 14 c-10 -7 -22 6 -12 15 c7 6 14 -3 9 -9'/></g><circle cx='22' cy='22' r='2' fill='%23ffb257'/></svg>");--corner-br:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'><g transform='rotate(180 40 40)' fill='none' stroke='%23f1d28c' stroke-width='1.3' stroke-linecap='round'><path d='M3 77 C3 30 30 3 77 3'/><path d='M9 70 C10 40 40 10 70 9' opacity='.55'/><path d='M14 36 c-7 -10 6 -22 15 -12 c6 7 -3 14 -9 9'/><path d='M36 14 c-10 -7 -22 6 -12 15 c7 6 14 -3 9 -9'/></g><circle cx='58' cy='58' r='2' fill='%23ffb257'/></svg>");
 }
 #game,.gDlg,#dlgSave{color-scheme:dark}
@@ -227,7 +227,7 @@ html:has(#game.show) body{background:var(--sky)}
 #game .gTools .gt{border-radius:50%;background:radial-gradient(circle at 40% 30%,#2e4d3f,#0f1a15 65%);box-shadow:inset 0 2px 3px rgba(255,255,255,.08),inset 0 -3px 6px rgba(0,0,0,.6),0 3px 10px rgba(0,0,0,.55),0 0 0 2px #0f1a15,0 0 0 3px rgba(241,210,140,.35)}
 #game .gTools .gt:hover,#game .gTools .gt.on{background:radial-gradient(circle at 40% 30%,#fff1cf,#ffb862 55%,#c96d18);box-shadow:0 0 22px rgba(255,178,87,.7),0 0 0 2px #0f1a15,0 0 0 3px var(--star)}
 /* 情报台分节标题：右侧一枝藤 */
-#game .gMfd .mHead{background:var(--divider) right center/auto 12px no-repeat;padding-right:8px;text-shadow:0 0 10px rgba(241,210,140,.3)}
+#game .gMfd .mHead{text-shadow:0 0 10px rgba(241,210,140,.3)}
 .gDlg h2,#dlgBook .cxBody h3,#feHead b,#esBrand b,#svCoreT{text-shadow:0 0 12px rgba(241,210,140,.28)}
 /* 弹窗标签牌与按钮：金珐琅，两端珠饰 */
 .tag{position:relative;border-radius:14px 4px 14px 4px}
@@ -274,16 +274,15 @@ html:has(#game.show) body{background:var(--sky)}
   --ena-grad:linear-gradient(180deg,rgba(27,45,38,.92),rgba(15,26,21,.95))}
 /* 鞭形花边框（OpenClipart 新艺术框）——正文、抽屉、情报窗、菜单、铸局板 */
 #game .gNarr,#pnMap,#pnArm,#pnShop,.gMfd.mvDeck .mvWin,.gMfd.mvDeck .mvCard .cfr,#game .gmMenu,.feGl{
-  border:1px solid rgba(241,210,140,.5);border-image:var(--frame) 32% 22% / 34px 48px / 0 stretch;
-  background-size:256px 256px,100% 100% !important}
-#game .gNarr{border-image-width:40px 56px}
-.gMfd.mvDeck .mvWin{border-image-width:14px 18px}
-.gMfd.mvDeck .mvCard .cfr{border-image-width:12px 16px}
-#game .gmMenu{border-image-width:10px 14px}
-.feGl{border-image-width:26px 36px}
-#pnMap,#pnArm,#pnShop{border-image-width:22px 30px}
+  border:1px solid rgba(241,210,140,.5);border-image:var(--frame) 46% 30% / 44px 56px / 14px stretch;
+  background-size:384px 384px,100% 100% !important;box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16)}
+#game .gNarr{border-image-width:42px 54px;border-image-outset:6px}
+.gMfd.mvDeck .mvWin{border-image:var(--frame) 46% 30% / 26px 33px / 10px stretch;border:1px solid rgba(241,210,140,.5);box-shadow:inset 0 0 0 3px transparent,inset 0 0 0 4px rgba(241,210,140,.16),0 20px 60px rgba(0,0,0,.55)}
+.gMfd.mvDeck .mvCard .cfr,#game .gmMenu{border-image:none;border:1px solid rgba(241,210,140,.5);box-shadow:inset 0 0 0 3px transparent,inset 0 0 0 4px rgba(241,210,140,.16),0 20px 60px rgba(0,0,0,.55)}
+.feGl{border-image-width:36px 46px;border-image-outset:12px}
+#pnMap,#pnArm,#pnShop{border-image-width:36px 46px;border-image-outset:12px}
 /* 郁金香角花框（Jugendstil）——所有弹窗 */
-.gDlg .box,#dlgBook .box{border-image:var(--frame) 32% 22% / 28px 38px / 0 stretch;
+.gDlg .box,#dlgBook .box{border-image:var(--frame) 46% 30% / 46px 60px / 16px stretch;box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.7);
   background-image:var(--rosette),var(--tile),var(--ena-grad) !important;
   background-position:center 58%,center top,0 0 !important;background-size:min(72%,560px) auto,256px 256px,100% 100% !important;background-repeat:no-repeat,repeat,no-repeat !important}
 #dlgExit .box,#dlgEra .box,#dlgVoc .box,#dlgBgm .box{background-image:var(--dragon),var(--tile),var(--ena-grad) !important;
@@ -298,9 +297,10 @@ html:has(#game.show) body{background:var(--sky)}
 /* 段末尾饰：叶与花 */
 #game .gEot{background:var(--tail) center top/auto 42px no-repeat;padding-top:50px}
 /* 情报台分节：蓓蕾分隔纹 */
-#game .gMfd .mHead{background:var(--divider) right center/auto 14px no-repeat;padding-right:10px}
+#game .gMfd .mHead{background:none;padding-right:0}
 /* 弹窗标题下压一道鞭形分隔纹 */
-.gDlg h2{background:var(--sep) left bottom/260px auto no-repeat;padding-bottom:20px}
+.gDlg h2{background:var(--sep) left bottom/220px auto no-repeat;padding-bottom:28px}
+#dlgExit h2,#dlgEra h2{background-position:center bottom}
 /* 档案馆中央：守护龙纹章 */
 #svCore{background:var(--dragon2) center 42%/min(420px,60vw) auto no-repeat}
 /* 纪年插画页右下：斯芬克斯守着卷宗（融在底色里） */
@@ -368,3 +368,22 @@ html:has(#game.show) body{background:var(--sky)}
 .feLoc,.feCard{border:1px solid transparent;border-radius:3px}
 .feLoc.on,.feCard.on{border-color:var(--ln-hi) !important;background:var(--haze) !important}
 .feLoc:hover,.feCard:hover{border-color:var(--ln) !important;background:var(--haze) !important}
+
+/* 次级文字在花纹底上要读得清 */
+.gDlg .sub,#dlgBook .cxSearchBar span,#game .gMfd .mRow,.feCard span,#feSum,.world-evidence,#worldMapDetail p{color:#cdc1a4 !important}
+.gDlg .sRow>span:first-child,.gDlg label{color:var(--frame-txt)}
+.shRow .nm i,.shRow.no .pr{color:#b6ab90 !important}
+.mvWin .mTop,.mvWin .mSig,#game .gMfd .mSec>i{color:#b6ab90}
+#game .gNarr .sys{color:#b6ab90}
+.gArr .t{color:#cdb87a}
+.feLoc span,.feCard i{color:var(--star)}
+#feSteps{color:#8f8570}
+
+/* 铸局四步：左右面板不再撕边，改成与设置弹窗一模一样的花边框 */
+#feWrap .fePan,#feWrap .feGl,#feWrap[data-step="loc"] #fePanL,#feWrap .feIn{-webkit-mask-image:none !important;mask-image:none !important}
+#feWrap .fePan{filter:none !important}
+.feGl{border:1px solid rgba(241,210,140,.5) !important;border-image:var(--frame) 46% 30% / 46px 60px / 16px stretch !important;border-radius:0;
+  box-shadow:inset 0 0 0 4px transparent,inset 0 0 0 5px rgba(241,210,140,.16),0 30px 90px rgba(0,0,0,.7) !important}
+#feWrap[data-step="loc"] #fePanR.locPlanet .feGl{border:1px solid rgba(241,210,140,.5) !important}
+/* 纪年插画页：时间轴不再压住插画 */
+#esReel{top:4vh;height:min(70vh,calc(100vh - 240px))}
