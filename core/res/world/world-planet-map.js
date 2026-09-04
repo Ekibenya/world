@@ -47,8 +47,8 @@ function ridged(x,y,z,oct){var a=.5,s=0,w=1,i,r;for(i=0;i<oct;i++){r=1-Math.abs(
 
 /* ---------- 泛大陆轮廓 ---------- */
 var BLOBS=[[-75,38,62,24],[-112,56,26,14],[-118,30,22,12],[-45,12,34,16],[-55,63,42,10],[-10,35,22,38],[-30,70,20,8],[-95,48,20,10],
- [45,30,52,26],[70,4,28,16],[85,48,26,12],[108,20,14,9],[20,40,16,14],[-42,83,5,3],[-125,17,4.2,3]];
-var BLOB_CAUSE=[-42,77,1.1,5.4],BLOB_NC=[[165,-15,26,20],[178,-4,14,10]];
+ [45,30,52,26],[70,4,28,16],[85,48,26,12],[108,20,14,9],[20,40,16,14],[-42,83,24,3.2],[-125,17,4.2,3]];
+var BLOB_CAUSE=[-42,77,4,5.4],BLOB_NC=[[165,-15,26,20],[178,-4,14,10]];
 function blobF(b,lon,lat){var dl=wrapLon(lon-b[0])/b[2],dy=(lat-b[1])/b[3];return 1-Math.sqrt(dl*dl+dy*dy);}
 function maskAt(lon,lat,nc,cause){
   var f=-9,i,v;for(i=0;i<BLOBS.length;i++){v=blobF(BLOBS[i],lon,lat);if(v>f)f=v;}
@@ -70,7 +70,7 @@ function eraFlags(o){return {nc:o>=12,cause:o>=6,crater:o>=23,pit:o>=20,blight:o
 /* ---------- 纹理 ---------- */
 var MOBILE=Math.min(window.innerWidth,window.innerHeight)<=760||(navigator.deviceMemory&&navigator.deviceMemory<4);
 var FULLW=MOBILE?1024:2048,PREVW=256,W=PREVW,H=W/2;   /* 先用 256 宽的预览版即刻上屏，再在后台并行烘焙全精度版本替换 */
-var GEN_VERSION='g3';   /* 烘焙算法有改动时递增，本地缓存随之失效 */
+var GEN_VERSION='g4';   /* 烘焙算法有改动时递增，本地缓存随之失效 */
 var HGT,HPRE,LAND,RIV,RNG,ALB,NRM,RGH,EMI0,EMI,DSP,FILL,CW=256,CH=128,CLD,LW,LH,DIST;
 function setRes(w,cw){W=w;H=w/2;CW=cw;CH=cw/2;patchedFor=-1;}
 var BF,BHL,BON,BT,BM,BDET,EF,EH,ET,EW,EDT;   /* 基底缓存（烘焙一次）与玩家编辑层（Δ陆地、Δ高度、地貌类型与权重） */
@@ -187,6 +187,7 @@ function composeSurface(x,y,F){
     if(F.akk===1){var cw=k.wa*sstep(.2,.9,k.wa+.3);c=mix3(c,COL.curse,Math.min(1,cw*1.3)*(.8+.2*det),c1);}
     if(k.wk>.03)c=mix3(c,COL.scorch,Math.min(1,k.wk*1.2),c1);
     if(ew>0&&ET[idx]===5)c=mix3(c,COL.scorch,ew*.9,c1);
+    if(F.cause&&lat>70&&lat<85){var pc=sph(lon,lat,v3),cwx=n3(pc[0]*1.7+3.1,pc[1]*1.7,pc[2]*1.7),cwy=n3(pc[0]*1.7,pc[1]*1.7+7.3,pc[2]*1.7),cb=blobF(BLOB_CAUSE,lon+10*cwx+3*n3(pc[0]*5+1,pc[1]*5,pc[2]*5),lat+8*cwy+2.5*n3(pc[0]*5,pc[1]*5+2,pc[2]*5));if(cb>-.4)c=mix3(c,COL.lava,sstep(-.4,-.08,cb)*sstep(81.5,79.5,lat)*.92,c1);}
     if(F.blight)c=mix3(c,COL.ash,gauss(lon,lat,-35,64,5)*.75,c1);
     if(F.pit){var dp=degDist(lon,lat,-35,64);if(dp<1.6)c=mix3(c,COL.rock,sstep(1.6,.6,dp)*.8,c1);}
     if(F.crater){var dc=degDist(lon,lat,-72,40);if(dc<2.2)c=mix3(c,COL.scree,sstep(2.2,1,dc)*.7,c1);}
@@ -532,7 +533,7 @@ function swapTextures(){
   m.map=t.mAlb;m.normalMap=t.mNrm;m.roughnessMap=t.mRgh;m.emissiveMap=t.mEmi;m.displacementMap=t.mDsp;if(SHU){SHU.uHgt.value=t.mDsp;SHU.uEdit.value=t.mEdt;}
   if(clouds){clouds.material.map=t.mCld;clouds.material.needsUpdate=true;}
   old.forEach(function(x){x.dispose();});if(oc)oc.dispose();
-  pins.forEach(function(s){if(s.lat!=null)s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(s.id==='isle'?1.135:surfaceR(s.lon,s.lat)+.008);});
+  pins.forEach(function(s){if(s.lat!=null)s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(s.id==='isle'?1.19:surfaceR(s.lon,s.lat)+.008);});
   if(rail){group.remove(rail);rail=makeArc(-92,44,-8,33,0xd6a64e);rail.visible=!!eraFlags(VIEW.ord).rail;group.add(rail);}
 }
 function initPlanet(){
@@ -587,9 +588,32 @@ function initPlanet(){
 function hAt(lon,lat){if(!HGT)return 0;var x=Math.floor((wrapLon(lon)+180)/360*W)%W,y=clamp(Math.floor((lat+90)/180*H),0,H-1);return HGT[y*W+x];}
 function surfaceR(lon,lat){return 1+DISP*Math.max(0,hAt(lon,lat))/1.15;}
 function makeArc(lo1,la1,lo2,la2,color){var a=new T.Vector3().fromArray(sph(lo1,la1)),b=new T.Vector3().fromArray(sph(lo2,la2)),pts=[],n=96,i;for(i=0;i<=n;i++){var v=new T.Vector3().copy(a).lerp(b,i/n).normalize(),lat=Math.asin(v.y)/D2R,lon=Math.atan2(-v.z,v.x)/D2R;v.multiplyScalar(surfaceR(lon,lat)+.004);pts.push(v);}return new T.Line(new T.BufferGeometry().setFromPoints(pts),new T.LineBasicMaterial({color:color,transparent:true,opacity:.9}));}
-function makeIsle(lon,lat){var g=new T.CylinderGeometry(.022,.004,.026,14,3),p=g.attributes.position,i;for(i=0;i<p.count;i++){var x=p.getX(i),y=p.getY(i),z=p.getZ(i),j=.006*n3(x*90,y*90,z*90);if(y>.012)p.setXYZ(i,x*(1+j*20),y,z*(1+j*20));else p.setXYZ(i,x+j,y+j*.5,z+j);}g.computeVertexNormals();
-  var m=new T.Mesh(g,new T.MeshStandardMaterial({color:0x4b433d,roughness:.95,flatShading:true})),keep=new T.Mesh(new T.BoxGeometry(.008,.014,.008),new T.MeshStandardMaterial({color:0x2a2526,roughness:.8}));keep.position.y=.019;m.add(keep);
-  var nrm=new T.Vector3().fromArray(sph(lon,lat));m.position.copy(nrm).multiplyScalar(1.105);m.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),nrm);return m;}
+function makeIsle(lon,lat){
+  var R=.042,root=new T.Group(),fly=new T.Group(),i,x,y,z,r,t,k,a;
+  var sc=function(h){return new T.Color(h).convertSRGBToLinear();},rockM=new T.MeshStandardMaterial({color:sc(0x6a5646),roughness:.95,flatShading:true}),grassM=new T.MeshStandardMaterial({color:sc(0x5c8a3a),roughness:.9,flatShading:true}),
+      wallM=new T.MeshStandardMaterial({color:sc(0x3a3136),roughness:.85,emissive:sc(0x4a1018),emissiveIntensity:.22}),roofM=new T.MeshStandardMaterial({color:sc(0x5e3448),roughness:.8});
+  /* 岩体：上宽下尖的倒锥，按方位角起伏，顶面为草甸（柱体的三个材质组：侧面/顶/底） */
+  var g=new T.CylinderGeometry(R,.003,.062,24,6),p=g.attributes.position;
+  for(i=0;i<p.count;i++){x=p.getX(i);y=p.getY(i);z=p.getZ(i);r=Math.hypot(x,z);if(r<1e-6)continue;a=Math.atan2(z,x);t=(y+.031)/.062;
+    k=(.003+(R-.003)*Math.pow(t,.55))/(.003+(R-.003)*t);k*=1+.24*n3(Math.cos(a)*2.3,Math.sin(a)*2.3,y*40+1.7)+.07*n3(x*500,y*500,z*500);
+    p.setXYZ(i,x*k,y+(t>.99?.0025*n3(x*600,3,z*600):.003*n3(x*400,y*400,z*400)),z*k);}
+  g.computeVertexNormals();var body=new T.Mesh(g,[rockM,grassM,rockM]);body.position.y=-.031;fly.add(body);
+  /* 魔王城：主堡、中央高塔与四角塔楼 */
+  var keep=new T.Mesh(new T.BoxGeometry(.014,.012,.014),wallM);keep.position.y=.006;fly.add(keep);
+  var tower=new T.Mesh(new T.CylinderGeometry(.0034,.0042,.028,8),wallM);tower.position.y=.014;fly.add(tower);
+  var spire=new T.Mesh(new T.ConeGeometry(.0052,.009,8),roofM);spire.position.y=.0325;fly.add(spire);
+  [[1,1],[1,-1],[-1,1],[-1,-1]].forEach(function(c){var tw=new T.Mesh(new T.CylinderGeometry(.002,.0026,.016,6),wallM);tw.position.set(c[0]*.0064,.008,c[1]*.0064);fly.add(tw);
+    var rf=new T.Mesh(new T.ConeGeometry(.0032,.0055,6),roofM);rf.position.set(c[0]*.0064,.0187,c[1]*.0064);fly.add(rf);});
+  /* 随岛漂浮的碎岩 */
+  var debris=[];for(i=0;i<6;i++){var d=new T.Mesh(new T.TetrahedronGeometry(.0028+.0022*((i*7)%3)/2,0),rockM),o={m:d,a:i*1.05,r:R+.016+.012*((i*5)%3)/2,y:-.026+.01*((i*3)%4),v:.05+.03*((i*2)%3)};debris.push(o);fly.add(d);}
+  fly.position.y=.1;root.add(fly);
+  /* 地表投影 */
+  var shadow=new T.Mesh(new T.CircleGeometry(R*1.1,24),new T.MeshBasicMaterial({color:0x000000,transparent:true,opacity:.38,depthWrite:false}));
+  shadow.rotation.x=-PI/2;shadow.position.y=surfaceR(lon,lat)-1+.0035;root.add(shadow);
+  var nrm=new T.Vector3().fromArray(sph(lon,lat));root.position.copy(nrm);root.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),nrm);
+  root.userData={fly:fly,debris:debris};return root;}
+function animIsle(t,dt){if(!isle||!isle.visible||window.REDUCED)return;var u=isle.userData;if(!u.fly)return;u.fly.position.y=.1+.004*Math.sin(t*.0009);u.fly.rotation.y=t*.00003;
+  u.debris.forEach(function(d){d.a+=dt*d.v;d.m.position.set(Math.cos(d.a)*d.r,d.y+.003*Math.sin(t*.0012+d.a),Math.sin(d.a)*d.r);d.m.rotation.x+=dt*.6;d.m.rotation.z+=dt*.4;});}
 
 /* ---------- 地点 ---------- */
 var PLACE={site:'自定地点',city:'城市',village:'村庄'};
@@ -608,7 +632,7 @@ function buildPins(){
   DATA.sites.forEach(function(s){if(s.unplaced||s.lat==null)return;var d=document.createElement('div');d.className='wpmPin t'+(s.t||s.tier||2)+(s.layer==='gateway'?' k-gate':/禁地/.test(s.kind)?' k-forbid':/神/.test(s.kind)?' k-god':/海|洋/.test(s.kind)?' k-sea':/圣|信仰/.test(s.kind)?' k-sacred':/都|之城|首都/.test(s.kind)?' k-cap':'');
     d.innerHTML='<i></i><span>'+esc(s.name)+'</span>';d.setAttribute('role','button');d.tabIndex=0;
     d.addEventListener('pointerdown',function(e){e.stopPropagation();});d.addEventListener('click',function(e){e.stopPropagation();choose(s.id,true);});d.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();choose(s.id,true);}});
-    pinLayer.appendChild(d);var lift=s.id==='isle'?1.135:surfaceR(s.lon,s.lat)+.008;s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(lift);s.el=d;pins.push(s);});
+    pinLayer.appendChild(d);var lift=s.id==='isle'?1.19:surfaceR(s.lon,s.lat)+.008;s.local=new T.Vector3().fromArray(sph(s.lon,s.lat)).multiplyScalar(lift);s.el=d;pins.push(s);});
   var f=document.createElement('div');f.className='wpmPin k-free';f.innerHTML='<i></i><span></span>';pinLayer.appendChild(f);freePin=f;
 }
 var freePin=null;
@@ -723,7 +747,7 @@ function loop(t){
     cosmos.children.forEach(function(o){var a=o.userData.at;if(!a)return;o.position.copy(camera.position).addScaledVector(rt,a[0]).addScaledVector(upv,a[1]).addScaledVector(fw,a[2]);
       if(o.userData.tilt){o.quaternion.copy(camera.quaternion);o.rotateX(-.55);o.rotateZ(.32);o.rotateY(t*.00004);}});}
   sunView.copy(sunDir).transformDirection(camera.matrixWorldInverse);if(clouds)clouds.rotation.y=spinAngle*.06+t*.000012;if(proto)proto.rotation.y=spinAngle;
-  if(SHU){SHU.uTime.value=t*.001;SHU.uBump.value=.0007*sstep(4.6,1.7,cam.r);}
+  if(SHU){SHU.uTime.value=t*.001;SHU.uBump.value=.0007*sstep(4.6,1.7,cam.r);}animIsle(t,dt);
   renderer.render(scene,camera);if(hostMode!=='menu'&&!EDIT.on)updatePins();if(mctx&&(t|0)%6===0)drawMini();
 }
 function drawMini(){
