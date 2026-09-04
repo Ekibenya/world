@@ -420,6 +420,23 @@ html:has(#game.show) body{background:var(--sky)}
    墨迹只占边带外侧的 46%（左右 71px）与 37%（上下 38px），内边距给到 50/82 就压不到字。 */
 #dlgEra .box{border-image:url(/core/res/img/nouveau/frame-whiplash.svg) 26% 21% / 102px 154px / 0 stretch !important;
   padding:50px 82px !important}
+/* 手机上这副框要收：102/154 是按八百多宽的桌面弹窗算的，搬到 390 宽的屏上
+   左右两条边就吃掉 308px，正文只剩两百出头。花边宽度按屏收，内边距跟着收到
+   刚好压住墨迹（左右 46%、上下 37%），比例仍是 1.51，角上的花照旧不变形。 */
+@media (max-width:760px){
+  #dlgEra .box{border-image-width:44px 66px !important;padding:34px 38px !important}
+}
+@media (max-width:430px){
+  #dlgEra .box{border-image-width:32px 48px !important;padding:26px 30px !important}
+}
+/* 窄屏上「第一次看也能懂 / 此前完整历史」这些标目不再占一列：
+   两栏网格在三百来像素宽的屏上，正文那一栏只剩一百八，一行挤不下十个字。
+   改成标目自己一行、正文另起一行。行内样式是 world-era-intro.js 写的，得 !important。 */
+@media (max-width:600px){
+  #dlgEra #erDl{grid-template-columns:1fr !important;gap:4px 0 !important;padding-right:4px !important}
+  #dlgEra #erDl dt{margin-top:14px}
+  #dlgEra #erDl dt:first-of-type{margin-top:0}
+}
 
 /* 纪年简介：壳样式里的撕边遮罩与 border:0 会吃掉花边框，正文字色也要亮 */
 #dlgEra .box{border-width:1px !important;border-style:solid !important;border-color:rgba(241,210,140,.5) !important;-webkit-mask-image:none !important;mask-image:none !important;filter:none !important}
