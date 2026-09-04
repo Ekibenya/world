@@ -405,7 +405,13 @@ html:has(#game.show) body{background:var(--sky)}
 #gmMap .wpmHost{background:#05070c !important}
 
 /* 纪年简介弹窗与其他弹窗同一副框（覆盖最早那条 fill 规则） */
-#dlgEra .box{border-image:url(/core/res/img/nouveau/frame-whiplash.svg) 26% 21% / 54px 84px / 0 round !important}
+/* 纪年简介弹窗的复杂款花边。原来那张 frame-whiplash.svg 的左右两侧不能平铺：
+   26%/21% 切出来的侧边中段，上边界是三股线、下边界是另一副样子，两端对不上，
+   round 每铺一格就断一次。frame-vine.svg 是照着 border-image 的规矩画的——
+   正方图、25% 切片、四条边是同一段花彩转过去；波用 cos 起收，两端都落在波峰、
+   切线与边平行，所以接缝处位置同、切线同，线是接上的；转角只是把水平切线
+   拧成垂直切线的一段四分之一弧，也不会打折。四边等宽，四条边长得一模一样。 */
+#dlgEra .box{border-image:url(/core/res/img/nouveau/frame-vine.svg) 25% / 60px / 0 round !important}
 
 /* 纪年简介：壳样式里的撕边遮罩与 border:0 会吃掉花边框，正文字色也要亮 */
 #dlgEra .box{border-width:1px !important;border-style:solid !important;border-color:rgba(241,210,140,.5) !important;-webkit-mask-image:none !important;mask-image:none !important;filter:none !important}
