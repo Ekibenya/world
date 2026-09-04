@@ -245,10 +245,15 @@ function turnPortrait(src, alt, capText) {
   const preload = new Image(); preload.onload = () => { loaded = true; done(); }; preload.onerror = () => { if (box._run !== run) return; img.removeAttribute('src'); img.classList.remove('ready'); if (cap) cap.textContent = capText; box.classList.remove('pTurn', 'pEnter'); };
   box.classList.add('pTurn'); box._t = setTimeout(() => { box._t = 0; turned = true; done(); }, FE_PTURN); box._g = setTimeout(() => { box._g = 0; if (box._run === run && !loaded) box.classList.remove('pTurn', 'pEnter'); }, 2600); preload.src = src;
 }
-function evidence(items, limit = 4) { return (items || []).slice(0, limit).map((item) => esc(item.text ?? item)).join(''); }
+function evidence(items, limit = 4) { return (items || []).slice(0, limit).map((item) => `<span>${esc(item.text ?? item)}</span>`).join(''); }
+function profileEvidence(item, field, fallback, limit = 5) {
+  const values = item.characterProfile?.[field] || [];
+  return values.length ? evidence(values, limit) : `<span>${esc(fallback)}</span>`;
+}
 function cardDossier(item) {
   const dialogue = item.eraSafeDialogueSamples?.slice(0, 4) || []; const thoughts = item.eraSafeInnerThoughtSamples?.slice(0, 3) || [];
-  return `<b>身份与处境</b><div class="world-evidence">${evidence(item.canonIdentityEvidence)}</div><b>判断与行动方式</b><div class="world-evidence">${evidence(item.thoughtEngine.privateEngineEvidence)}</div><b>对白声口样本</b><div class="world-evidence">${dialogue.length ? evidence(dialogue) : '本时代无可直接归属的对白，不伪造。'}</div><b>直接心声样本</b><div class="world-evidence">${thoughts.length ? evidence(thoughts) : esc(item.thoughtEngine.absenceRule)}</div>`;
+  const name = item.name;
+  return `<b>人物简介</b><div class="world-evidence">${profileEvidence(item, 'overview', `${name}在本时代确实出现，但原文没有留下更完整的生平概括。`)}</div><b>身份与职责</b><div class="world-evidence">${profileEvidence(item, 'roleAndOccupation', `原文未明确${name}更具体的职业、职责或社会位置。`)}</div><b>出身与经历</b><div class="world-evidence">${profileEvidence(item, 'originAndBackground', `原文未明确${name}的出生地、家系或早年经历。`)}</div><b>年龄</b><div class="world-evidence">${profileEvidence(item, 'age', `原文未明确${name}的具体年龄或年龄阶段。`)}</div><b>外貌与身体</b><div class="world-evidence">${profileEvidence(item, 'appearance', `原文未明确${name}可稳定辨认的外貌或身体形态。`)}</div><b>性格与行动发动机</b><div class="world-evidence">${profileEvidence(item, 'personality', `原文不足以把${name}固定成完整性格模板。`)}</div><b>能力与限制</b><div class="world-evidence">${profileEvidence(item, 'abilitiesAndLimits', `原文未明确${name}独有的能力、代价或上限。`)}</div><b>关系位置</b><div class="world-evidence">${profileEvidence(item, 'relationships', `原文未明确${name}可稳定延续的既有关系。`)}</div><b>判断与行动方式</b><div class="world-evidence">${evidence(item.thoughtEngine.privateEngineEvidence)}</div><b>原文对白样本</b><div class="world-evidence">${dialogue.length ? evidence(dialogue) : '<span>本时代无可直接归属的对白，不伪造。</span>'}</div><b>原文心声样本</b><div class="world-evidence">${thoughts.length ? evidence(thoughts) : `<span>${esc(item.thoughtEngine.absenceRule)}</span>`}</div>`;
 }
 function customFields() {
   const c = state.custom;
@@ -264,7 +269,7 @@ function renderCompanions() {
   const selected = card(); const others = state.era.cards.filter((item) => item.id !== selected.id);
   if (!others.some((item) => item.id === state.companionFocusId)) state.companionFocusId = others[0]?.id || null;
   const focused = card(state.companionFocusId) || others[0] || selected;
-  $('#feSocList').innerHTML = others.map((item) => `<button class="feCard ${state.companions.has(item.id) ? 'on' : ''} ${item.id === focused.id ? 'focus' : ''}" data-companion="${esc(item.id)}"><b>${esc(item.name)}</b><i>${state.companions.get(item.id) || '希望争取同行'}</i><span>${esc(item.canonIdentityEvidence?.[0]?.text || '本时代正典人物')}</span></button>`).join('');
+  $('#feSocList').innerHTML = others.map((item) => `<button class="feCard ${state.companions.has(item.id) ? 'on' : ''} ${item.id === focused.id ? 'focus' : ''}" data-companion="${esc(item.id)}"><b>${esc(item.name)}</b><i>${state.companions.get(item.id) || '希望争取同行'}</i><span>${esc(item.characterProfile?.overview?.[0]?.text || item.canonIdentityEvidence?.[0]?.text || '本时代正典人物')}</span></button>`).join('');
   turnPortrait(cardPortrait(focused), focused.name, focused.name);
   $('#feDoss').innerHTML = `${cardDossier(focused)}<b>同行状态</b><div class="world-evidence">${state.companions.has(focused.id) ? '已选择带进本局。' : '尚未选择。'}目前已选择 ${state.companions.size} / 5。同行选择只是本局希望同行、求助、追踪或避免的意向，不自动写成旧交、血缘或恋爱。</div>`;
 }
@@ -353,6 +358,18 @@ function compactCard(item) {
   if (!item) return null;
   return {
     name: item.name,
+    characterProfile: {
+      overview: runtimeTexts(item.characterProfile?.overview, 4),
+      roleAndOccupation: runtimeTexts(item.characterProfile?.roleAndOccupation, 4),
+      originAndBackground: runtimeTexts(item.characterProfile?.originAndBackground, 4),
+      age: runtimeTexts(item.characterProfile?.age, 3),
+      appearance: runtimeTexts(item.characterProfile?.appearance, 4),
+      personality: runtimeTexts(item.characterProfile?.personality, 5),
+      abilitiesAndLimits: runtimeTexts(item.characterProfile?.abilitiesAndLimits, 5),
+      relationships: runtimeTexts(item.characterProfile?.relationships, 5),
+      unknownFields: item.characterProfile?.unknownFields || [],
+      canonRule: item.characterProfile?.canonRule,
+    },
     identityAndSituation: runtimeTexts(item.canonIdentityEvidence, 6),
     decisionPatterns: runtimeTexts(item.thoughtEngine?.sourceDerivedDecisionPatterns ?? item.thoughtEngine?.privateEngineEvidence, 6),
     currentForms: runtimeTexts(item.eraDragonChronology?.formEvidence, 3),
