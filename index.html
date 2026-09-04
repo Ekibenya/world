@@ -441,13 +441,13 @@
       <div style="display:flex;gap:12px;margin-top:14px;align-items:center;flex-wrap:wrap"><span class="eBtn" id="reDefaults" style="margin-top:0">恢复引擎默认</span><span class="sub" id="reStatus">改动即时保存，下一次请求生效。</span></div>
     </div>
     <div class="cfgPane" id="cp_preset" style="display:none">
-      <div class="sub">支持&nbsp;SillyTavern&nbsp;聊天补全预设&nbsp;JSON（读取&nbsp;prompts，自动跳过占位条目），也可直接粘贴纯文本提示词。启用后每一轮都会按原顺序注入系统提示：位于对话历史之前的条目前置，之后的（如&nbsp;jailbreak）末位注入。预设存于本浏览器，刷新不丢。</div>
+      <div class="sub">「上传预设」认四种文件：SillyTavern&nbsp;聊天补全预设&nbsp;JSON（读&nbsp;prompts&nbsp;与&nbsp;prompt_order，自动跳过占位条目）、本页导出的预设&nbsp;JSON、纯文本提示词，以及内核原生预设。导入后逐条落进下面的列表，可单独开关、改名、改注入位置。启用后每一轮都按原顺序注入系统提示：位于对话历史之前的条目前置，之后的（如&nbsp;jailbreak）末位注入。预设存于本浏览器，刷新不丢。</div>
       <div id="preList" style="margin-top:12px;max-height:180px;overflow-y:auto"></div>
       <div style="display:flex;gap:12px;margin-top:12px">
         <span class="eBtn" id="preNew" style="margin-top:0">新建</span>
         <span class="eBtn" id="preImp" style="margin-top:0">上传预设</span>
         <span class="eBtn" id="preExp" style="margin-top:0">导出</span>
-        <input type="file" id="preFile" accept=".json,.txt" style="display:none"><span class="sub" id="preMsg"></span>
+        <input type="file" id="preFile" accept=".json,.txt,.risupreset,.risup" style="display:none"><span class="sub" id="preMsg"></span>
       </div>
       <div id="preForm" style="display:none;margin-top:12px;border:1px solid rgba(132,88,0,.35);padding:12px">
         <div class="sRow"><span>名称</span><input class="aIn" id="pfName" style="width:200px"></div>
@@ -809,7 +809,7 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=43"></script>
-  <script src="/core/res/world/engine.js?v=14"></script>
+  <script src="/core/res/world/engine.js?v=15"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/visual-novel.js?v=14"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>
