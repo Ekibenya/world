@@ -6,7 +6,7 @@
   <link rel="icon" href="data:,"><link rel="manifest" href="/manifest.webmanifest">
   <link rel="preload" href="/core/res/font/metropolitain.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="/core/res/font/world-fonts.css?v=10">
-  <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=14">
+  <link rel="stylesheet" href="/core/res/world/interface-shell.css?v=15">
   <link rel="stylesheet" href="/core/res/world/visual-novel.css?v=11">
   <link rel="stylesheet" href="/core/res/world/app.css?v=37">
   <link rel="stylesheet" href="/core/res/world/nouveau-base.css?v=2">
@@ -510,10 +510,11 @@
       <div class="cxEnts" id="cxEnts"></div>
       <div class="cxBody"><h3 id="cxTtl"></h3><p id="cxTxt"></p></div>
     </div>
-    <div style="display:flex;gap:12px;margin-top:12px;align-items:baseline">
+    <div style="display:flex;gap:12px;margin-top:12px;align-items:baseline;flex-wrap:wrap">
       <span class="eBtn" id="cxAdd" style="margin-top:0">自写条目</span>
       <span class="eBtn" id="cxImp" style="margin-top:0">汇入JSON</span>
       <input type="file" id="cxFile" accept=".json" style="display:none">
+      <span id="cxOps" style="display:flex;gap:12px;align-items:baseline;flex-wrap:wrap"></span>
       <span class="sub" id="cxMsg"></span>
     </div>
     <div id="cxForm" style="display:none;margin-top:12px;border:1px solid rgba(132,88,0,.35);padding:14px">
@@ -816,7 +817,7 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=45"></script>
-  <script src="/core/res/world/engine.js?v=22"></script>
+  <script src="/core/res/world/engine.js?v=23"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/cosmos.js?v=4"></script>
   <script src="/core/res/world/visual-novel.js?v=14"></script>

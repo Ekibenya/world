@@ -834,6 +834,9 @@ input[type=range]:disabled{opacity:.4;cursor:default}
 .cxCat:not(.on):hover{color:var(--txt)}
 .cxEnts{width:236px;flex:none;border-right:1px solid rgba(19,18,13,.14);overflow-y:auto;padding:0 4px}
 .cxEnt{font-size:11px;letter-spacing:.06em;line-height:1.7;color:var(--mut);padding:8px 9px;cursor:pointer}
+.cxEnt.cxMine{display:flex;align-items:center;gap:8px}
+.cxEnt .cxChk{flex:none;margin:0;width:13px;height:13px;accent-color:var(--gold);cursor:pointer}
+#cxOps .eBtn.warn{color:#ff9b82 !important;border-color:rgba(255,127,99,.55) !important}
 .cxEnt.on{color:var(--gold-hi);background:rgba(132,88,0,.10)}
 .cxEnt:not(.on):hover{color:var(--txt)}
 .cxBody{flex:1;padding:2px 0 2px 20px;overflow-y:auto}

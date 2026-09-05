@@ -5457,7 +5457,7 @@ var CARDS={luzhi:window.__GAME_LUZHI__||{openings:[],lorebook:[]}};
    进提示词走 felRisuPrepare 的 localLore（每回合按当前清单重发），
    世界书面板则在渲染时现拼（见 bookList）。 */
 var ACTIVE='luzhi';                       /* which card drives the running game session */
-var BOOK={side:'luzhi',top:0,cat:0,ent:0};
+var BOOK={side:'luzhi',top:0,cat:0,ent:0,sel:{},armed:null};
 /* 左边那一列原来只有「类目」一层，而类目是按条目自己的 cat 分的：
    一百六十八个人、四十一代、三十四个横断门类、通史、研究册、通则、文字六组，
    两百五十多行并成一列，翻到底也找不到东西。现在先分大母项，再分类目。
@@ -5547,9 +5547,36 @@ function bookCatLabel(c){
 /* 正典条目 + 当前启用的自写条目。现拼，不留副本：增删改在同一拍就反映出来。 */
 function loreCustomLive(){
   try{
-    return (JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[])
-      .filter(function(e){return e&&e.title&&e.content&&e.on!==false;});
+    var a=JSON.parse(localStorage.getItem('guardianDragonLoreCustom')||'[]')||[],out=[],i;
+    for(i=0;i<a.length;i++){var e=a[i];if(e&&e.title&&e.content&&e.on!==false){e._ci=i;out.push(e);}}   /* _ci：在自写数组里的下标，世界书弹窗按它删 */
+    return out;
   }catch(_){return [];}
+}
+/* 世界书弹窗里直接删自写条目：单条，或勾选多条一起删。第一次点先变成“确认”，再点才真删。 */
+function bookDelete(cis){
+  var arr=loreCustomGet(),s={};cis.forEach(function(i){s[i]=1;});
+  arr=arr.filter(function(_,i){return !s[i];});
+  BOOK.sel={};BOOK.armed=null;BOOK.ent=0;
+  loreCustomPut(arr);try{loreRender();}catch(_){}
+  bookRender();var m=$('#cxMsg');if(m)m.textContent='已删除 '+cis.length+' 条自写条目';
+}
+function bookOps(cur,lb,ids){
+  var host=$('#cxOps');if(!host)return;host.innerHTML='';
+  var selN=Object.keys(BOOK.sel).length,mineHere=ids.filter(function(li){return lb[li]._ci!=null;});
+  function btn(txt,cls,fn){var b=document.createElement('span');b.className='eBtn'+(cls?' '+cls:'');b.style.marginTop='0';b.textContent=txt;b.addEventListener('click',fn);host.appendChild(b);return b;}
+  if(BOOK.armed){
+    var n=BOOK.armed==='sel'?selN:1;
+    btn('确认删除 '+n+' 条','warn',function(){bookDelete(BOOK.armed==='sel'?Object.keys(BOOK.sel).map(Number):[BOOK.armed.ci]);});
+    btn('取消','',function(){BOOK.armed=null;bookRender();});
+    return;
+  }
+  if(cur&&cur._ci!=null&&!selN)btn('删除此条','warn',function(){BOOK.armed={ci:cur._ci};bookRender();});
+  if(selN){
+    btn('删除勾选 '+selN+' 条','warn',function(){BOOK.armed='sel';bookRender();});
+    btn('清空勾选','',function(){BOOK.sel={};bookRender();});
+  }
+  if(mineHere.length>1&&mineHere.some(function(li){return !BOOK.sel[lb[li]._ci];}))
+    btn('全选本类自写','',function(){mineHere.forEach(function(li){BOOK.sel[lb[li]._ci]=1;});bookRender();});
 }
 function bookList(side){
   var lb=(CARDS[side]&&CARDS[side].lorebook)||[];
@@ -5576,6 +5603,7 @@ function bookRender(){
   var topsEl=$('#cxTops'),catsEl=$('#cxCats'),entsEl=$('#cxEnts');
   if(topsEl)topsEl.innerHTML='';
   catsEl.innerHTML='';entsEl.innerHTML='';
+  var opsEl=$('#cxOps');if(opsEl)opsEl.innerHTML='';
   if(!lb.length){
     $('#cxTtl').textContent='陆之卷';
     $('#cxTxt').textContent='—— 本卷writing中，正在灌注。 ——';
@@ -5606,14 +5634,19 @@ function bookRender(){
   if(BOOK.ent>=ids.length)BOOK.ent=0;
   ids.forEach(function(li,ei){
     var e=lb[li],d=document.createElement('div');
-    d.className='cxEnt'+(ei===BOOK.ent?' on':'');
-    d.textContent=bookLabel(e.title,e.cat);
-    d.addEventListener('click',function(){BOOK.ent=ei;bookRender();});
+    d.className='cxEnt'+(ei===BOOK.ent?' on':'')+(e._ci!=null?' cxMine':'');
+    if(e._ci!=null){   /* 自写条目：前面带勾选框，勾多条可以一起删 */
+      var ck=document.createElement('input');ck.type='checkbox';ck.className='cxChk';ck.checked=!!BOOK.sel[e._ci];ck.title='勾选后可一起删除';
+      ck.addEventListener('click',function(ev){ev.stopPropagation();if(ck.checked)BOOK.sel[e._ci]=1;else delete BOOK.sel[e._ci];BOOK.armed=null;bookRender();});
+      d.appendChild(ck);var sp=document.createElement('span');sp.textContent=bookLabel(e.title,e.cat);d.appendChild(sp);
+    }else d.textContent=bookLabel(e.title,e.cat);
+    d.addEventListener('click',function(){BOOK.ent=ei;BOOK.armed=null;bookRender();});
     entsEl.appendChild(d);
   });
   var cur=lb[ids[BOOK.ent]];
   $('#cxTtl').textContent=cur.title;
   $('#cxTxt').textContent=bookText(cur);
+  bookOps(cur,lb,ids);
   /* 手机上这两栏是横滑的胶囊行：选中项若落在可视范围外（换类目后条目重排、
      或读回上次的选择），玩家只看得见开头几颗，不知道自己停在哪一条。滚到眼前来。
      正文也要回到顶部，否则换条目后还停在上一条读到的位置。 */
