@@ -4750,6 +4750,7 @@ function apPaneLoad(){
   $('#apFormat').value=felRisuFormat(API.format);
   $('#subFormat').value=felRisuFormat(SET.sub.format);
   $('#subBase').value=SET.sub.base;$('#subKey').value=SET.sub.key;$('#subModel').value=SET.sub.model;
+  $('#subMsg').textContent=subReady()?'已保存 · '+SET.sub.model:'尚未连接';
   $('#apTemp').value=SET.samp.temp;$('#apTopP').value=SET.samp.topp;
   $('#apMaxT').value=SET.samp.maxt;$('#apMinC').value=SET.samp.minc;
   setSeg('#sgReason',SET.samp.reason==null?1:SET.samp.reason);
@@ -4848,7 +4849,7 @@ $('#semBudget').addEventListener('input',function(){
 });
 $('#semGpu').addEventListener('change',function(){SET.semantic.gpu=this.checked?1:0;setStore();});
 $('#apFormat').addEventListener('change',function(){API.format=felRisuFormat(this.value);apiStore();});
-$('#subFormat').addEventListener('change',function(){SET.sub.format=felRisuFormat(this.value);setStore();});
+$('#subFormat').addEventListener('change',function(){SET.sub.format=felRisuFormat(this.value);setStore();subStatus('已保存，尚未测试',0);});
 $('#apProfSave').addEventListener('click',function(){
   var n=prompt('档案名（如：主力deepseek）');if(!n)return;
   SET.profs[n]={format:felRisuFormat(API.format),base:API.base,key:API.key,model:API.model,img:API.img};
@@ -4864,7 +4865,7 @@ $('#apProfDel').addEventListener('click',function(){
 });
 $('#apOpen').addEventListener('click',function(){apiOpen();});
 ['subBase','subKey','subModel'].forEach(function(id){
-  $('#'+id).addEventListener('input',function(){SET.sub[id.slice(3).toLowerCase()]=this.value.trim();setStore();});
+  $('#'+id).addEventListener('input',function(){SET.sub[id.slice(3).toLowerCase()]=this.value.trim();setStore();subStatus('已自动保存，尚未测试',0);});
 });
 ['apTemp','apTopP','apMaxT','apMinC'].forEach(function(id,ix){
   var k=['temp','topp','maxt','minc'][ix];
@@ -4880,6 +4881,42 @@ $('#apOpen').addEventListener('click',function(){apiOpen();});
   });
 });
 function subReady(){return !!(SET.sub.base&&SET.sub.model);}
+function subStatus(text,bad){var el=$('#subMsg');if(el){el.textContent=text;el.style.color=bad?'#a74432':'';}}
+function subForm(){return {format:felRisuFormat($('#subFormat').value),base:$('#subBase').value.trim(),key:$('#subKey').value.trim(),model:$('#subModel').value.trim()};}
+function subSaveForm(){var v=subForm();SET.sub=v;setStore();return v;}
+function subBusy(button,on){if(!button)return;if(on){button.setAttribute('aria-busy','true');button.style.pointerEvents='none';}else{button.removeAttribute('aria-busy');button.style.pointerEvents='';}}
+function subProbe(button,saveFirst){
+  if(button.getAttribute('aria-busy')==='true')return;
+  var source=saveFirst?subSaveForm():subForm();
+  if(!source.base||!source.model){subStatus('BASE 与副模型必填',1);return;}
+  subBusy(button,1);subStatus(saveFirst?'正在保存并连接…':'正在测试副模型…',0);
+  var prov=felRisuProvider(source);
+  felRisuBoot().then(function(risu){return risu.request({provider:Object.assign({},prov,{maxTokens:8,stream:false}),messages:[{role:'user',content:'Reply only: pong'}],maxTokens:8});})
+  .then(function(){subStatus('✓ 副模型已连接 · '+source.model,0);})
+  .catch(function(e){
+    var message=String((e&&e.message)||e||'');
+    if(!/本纪资料|No FELINIA era/i.test(message)){subStatus('✕ 连接失败：'+felPublicError(e),1);return;}
+    return felRisuLoad().then(function(risu){return risu.listModels(prov);}).then(function(list){
+      subStatus('✓ 副接口已连接（列到 '+list.length+' 个模型）',0);
+    }).catch(function(e2){subStatus('✕ 连接失败：'+felPublicError(e2),1);});
+  }).finally(function(){subBusy(button,0);});
+}
+$('#subPull').addEventListener('click',function(){
+  var button=this,source=subForm();
+  if(button.getAttribute('aria-busy')==='true')return;
+  if(!source.base){subStatus('先填副 BASE',1);return;}
+  subBusy(button,1);subStatus('正在拉取副模型…',0);
+  felRisuLoad().then(function(risu){return risu.listModels(felRisuProvider(Object.assign({},source,{model:source.model||'model-list'})));}).then(function(list){
+    if(!list.length)throw new Error('空列表');
+    var select=$('#subModels');select.innerHTML='';
+    list.forEach(function(id){var option=document.createElement('option');option.value=option.textContent=id;select.appendChild(option);});
+    $('#subModelsRow').style.display='';subStatus('拉到 '+list.length+' 个模型，从下拉拣选',0);
+  }).catch(function(e){subStatus('拉取失败：'+felPublicError(e),1);})
+  .finally(function(){subBusy(button,0);});
+});
+$('#subModels').addEventListener('change',function(){$('#subModel').value=this.value;SET.sub.model=this.value;setStore();subStatus('已选择 '+this.value+'，尚未测试',0);});
+$('#subTest').addEventListener('click',function(){subProbe(this,false);});
+$('#subSave').addEventListener('click',function(){subProbe(this,true);});
 function risuAuxInvoke(messages,cb,err){
   risuInvoke(messages,cb,err,{aux:1,noStream:true,max_tokens:800});
 }

@@ -332,6 +332,8 @@
       <div class="sRow"><span>副&nbsp;BASE</span><input class="aIn" id="subBase" style="width:240px"></div>
       <div class="sRow"><span>副密钥</span><input class="aIn" id="subKey" type="password" style="width:200px"></div>
       <div class="sRow"><span>副模型</span><input class="aIn" id="subModel" placeholder="留空全走主模型" style="width:200px"></div>
+      <div class="sRow" id="subModelsRow" style="display:none"><span>可用副模型</span><select id="subModels" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"></select></div>
+      <div style="display:flex;gap:10px;margin-top:10px;align-items:center;flex-wrap:wrap"><span class="eBtn" id="subPull" style="margin-top:0">拉取模型</span><span class="eBtn" id="subTest" style="margin-top:0">测试副模型</span><span class="eBtn" id="subSave" style="margin-top:0">保存并连接</span><span class="sub" id="subMsg" style="margin:0"></span></div>
       <div class="sub" style="margin-top:14px">高级采样（可选，留空用接口默认）：温度＝越高越放飞；采样核&nbsp;top_p＝一般不与温度同调；单轮输出上限＝最大回复长度；最低字数＝每回正文的篇幅下限（以写作指令约束）；推理强度可选关闭／低／中／高，默认使用低（推理模型开启后可能忽略温度/top_p）。</div>
       <div class="sRow"><span>温度</span><input class="aIn" id="apTemp" placeholder="0.9" style="width:70px"></div>
       <div class="sRow"><span>top_p</span><input class="aIn" id="apTopP" placeholder="—" style="width:70px"></div>
