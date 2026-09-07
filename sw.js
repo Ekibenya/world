@@ -5,7 +5,7 @@ const CORE = [
   '/core/res/font/world-fonts.css?v=10',
   '/core/res/font/metropolitain.ttf',
   '/core/res/font/zcool-kuaile-menu.ttf',
-  '/core/res/world/interface-shell.css?v=13',
+  '/core/res/world/interface-shell.css?v=14',
   '/core/res/world/visual-novel.css?v=10',
   '/core/res/world/app.css?v=36',
   '/core/res/world/nouveau-base.css?v=2',
