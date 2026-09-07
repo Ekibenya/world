@@ -9309,6 +9309,11 @@ try{var _bs=document.getElementById('buildStamp');if(_bs)_bs.textContent='BUILD 
 /* ═══════════════ [world] 守护龙纪事 · 适配层 ═══════════════
    引擎本体来自同一套叙事内核；这一层把它接到本作的正典资料（32 个纪年、角色卡、
    世界书、星球地图）与 app.js 的开局流程上。后文凡是同名函数，以这里的为准。 */
+/* [world] 左舷四枚缩略窗（视觉小说·地图·商店·装备）原本由 cat 的封面主循环
+   每 700 毫秒叫一次 railSync()。本作没有那个循环，缩略窗于是一直空着——
+   单独给它一根心跳；railSync 内部本来就有「内容没变就不重画」的短路。 */
+setInterval(function(){if(!GAME.on)return;try{railSync();}catch(_){}},700);
+
 FE_MEOW_ZH='';MEOW_RULE='';FELINIA_VOICE_EXAMPLE='';
 function felNormalizeMeowText(t){return String(t==null?'':t);}
 function felStripLegacyMeowRule(s){return String(s||'');}
