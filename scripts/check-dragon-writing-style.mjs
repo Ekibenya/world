@@ -16,7 +16,7 @@ const paths={database:'database.svelte-FgK7m0Ym',modules:'modules-BJS9D8ea',plug
 const load=k=>import('../core/res/runtime/risu/'+paths[k]+'.js');
 const database=await load('database'),fel=(await import('../core/res/runtime/risu/feliniaGame-Do_6xMRR.js')).FeliniaRisu;
 const {createNativeSettings,clone}=await import('../core/res/world/risu-native-settings.mjs');
-const {STYLE_SCOPE,STYLE_PROMPT}=await import('../core/res/world/dragon-writing-style.mjs');
+const {STYLE_SCOPE,STYLE_PROMPT,WORD_COUNT_PROMPT}=await import('../core/res/world/dragon-writing-style.mjs');
 const data=(await import('../core/res/world/dragon-writing-style-data.mjs')).default;
 const {createHash}=await import('node:crypto');
 const {runInNewContext}=await import('node:vm');
@@ -92,7 +92,7 @@ try {
   // survive without an automatic 900-character retry. No external LLM is used.
   const requests=[];
   globalThis.fetch=window.fetch=async(url,init={})=>{
-    const body=JSON.parse(init.body||'{}');requests.push(body);
+    const body=JSON.parse(typeof init.body==='string'?init.body:init.body?new TextDecoder().decode(init.body):'{}');requests.push(body);
     const planning=body.messages?.some(m=>m.content?.includes('【FELINIA 隐藏剧情规划器】'));
     const content=planning?JSON.stringify({v:1,beat:'等待玩家回答',focus:'Era Two'}):'我盯着杯沿。只是放下了，别的还没有说。\n「……还要吗？」';
     return new Response(JSON.stringify({choices:[{message:{content},finish_reason:'stop'}]}),{status:200,headers:{'Content-Type':'application/json'}});
@@ -103,6 +103,9 @@ try {
   assert.ok(requests[0].messages[0].content.indexOf(STYLE_SCOPE)>requests[0].messages[0].content.indexOf('【FELINIA 隐藏剧情规划器】'));
   assert.ok(!requests[0].messages[0].content.includes('本回必须推进关系、风险、决定、发现或代价；'));
   assert.ok(!requests[0].messages[0].content.includes('按“感知到的新证据 → 暂时解释'));
+  assert.equal(requests[1].messages[0].role,'system');
+  assert.ok(requests[1].messages[0].content.startsWith(WORD_COUNT_PROMPT),'word count is first in actual request');
+  assert.ok(!JSON.stringify(requests[0]).includes('**字数要求**'),'planner has no narrative length requirement');
   assert.ok(requests[1].messages.at(-1).content.includes(STYLE_SCOPE));
   assert.ok(requests[1].messages.some(m=>m.content.includes('WORLD_RULES')));
   // A repeated line may have new meaning. Mechanical rejection is optional.
@@ -144,5 +147,33 @@ try {
   assert.equal(reloaded.worldWritingRuleEnabled('minLength'),false);
   toggle.checked=false;toggle.dispatchEvent(new window.Event('change',{bubbles:true}));
   assert.equal(native.writingStyleEnabled(),false);assert.ok(saved>0);
+  // Real provider serializers: verify the first system text for all three APIs,
+  // with a template that omits main/author prompts and with style disabled.
+  const responseText='我盯着杯沿。只是放下了，别的还没有说。';
+  for(const format of ['openai','anthropic','gemini']){
+    const bodies=[];
+    globalThis.fetch=window.fetch=async(url,init={})=>{
+      const body=JSON.parse(typeof init.body==='string'?init.body:init.body?new TextDecoder().decode(init.body):'{}');bodies.push(body);
+      const planning=JSON.stringify(body).includes('【FELINIA 隐藏剧情规划器】');
+      const text=planning?JSON.stringify({v:1,beat:'等待玩家回答',focus:'Era Two'}):responseText;
+      const payload=format==='anthropic'?{id:'fixture',type:'message',role:'assistant',content:[{type:'text',text}],stop_reason:'end_turn',usage:{input_tokens:1,output_tokens:1}}:
+        format==='gemini'?{candidates:[{content:{role:'model',parts:[{text}]},finishReason:'STOP'}],usageMetadata:{promptTokenCount:1,candidatesTokenCount:1}}:
+        {choices:[{message:{content:text},finish_reason:'stop'}]};
+      return new Response(JSON.stringify(payload),{status:200,headers:{'Content-Type':'application/json'}});
+    };
+    const p={...provider,format,model:format==='anthropic'?'claude-sonnet-4':format==='gemini'?'gemini-2.5-pro':'gpt-4o',afterConfigure:d=>{native.afterProvider(d);d.promptTemplate=clone(template);}};
+    for(let turn=0;turn<2;turn++){
+      bodies.length=0;await fel.setHistory([{role:'user',content:'我把杯子放下。'}]);
+      const result=await fel.generate({provider:p,...native.generationOptions(900)});
+      assert.ok(result.text.includes(responseText),format+' displays short response');
+      assert.equal(bodies.length,2,format+' planning + final; no length retry');
+      const body=bodies[1];
+      const first=format==='anthropic'?(typeof body.system==='string'?body.system:body.system?.[0]?.text):format==='gemini'?(body.systemInstruction||body.system_instruction)?.parts?.[0]?.text:body.messages?.[0]?.content;
+      assert.ok(first?.startsWith(WORD_COUNT_PROMPT),format+' first system text');
+      assert.equal(JSON.stringify(body).split('**字数要求**').length-1,1,format+' no duplication');
+      assert.ok(!JSON.stringify(bodies[0]).includes('**字数要求**'),format+' planner unchanged');
+    }
+  }
+  log('WORD COUNT PASS: first system text in OpenAI/Claude/Gemini HTTP bodies; repeated turns, template omission, style off, short output preserved, planner excluded');
   log('DRAGON STYLE PASS: default/legacy/template order, era switch, real HTTP, short/repeated replies; all 7 conflict checkboxes -> persistence -> native prompt, independent enable/disable and reload');
 } finally {console.log=log;dom.window.close();}

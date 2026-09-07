@@ -1,4 +1,4 @@
-import {clone,TASKS} from './risu-native-settings.mjs?v=world-rules-1';
+import {clone,TASKS} from './risu-native-settings.mjs?v=word-count-1';
 const types={plain:'文本',jailbreak:'NSFW',cot:'思考',description:'角色描述',persona:'用户设定',lorebook:'世界书',chat:'聊天记录',authornote:'作者注释',memory:'记忆',postEverything:'末尾',chatML:'ChatML',cache:'缓存点'};
 const triggerModes={start:'生成前',input:'用户输入',output:'模型输出',manual:'手动',display:'显示',request:'请求'};
 function el(tag,text,attrs={}){const n=document.createElement(tag);if(text!=null)n.textContent=text;Object.assign(n,attrs);return n;}
@@ -42,6 +42,8 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
  const refresh=key=>render(key);
  function changed(){persist();onPresetChanged?.();refresh('preset');}
  function presetPane(host){
+  const length=section(host,'正文篇幅 · 1000～3000 字','每轮默认生效，置于发送给 AI 的预设指令首位，优先于其他篇幅要求。状态栏不计入正文；此项不会因字数不足而拦截或重写回复。');
+  length.append(el('p',native.wordCountPrompt,{className:'sub'}));
   const writing=section(host,'韩文文风','采用第一人称、心声、对白与节奏的韩文文风。文风冲突时优先采用，World 世界规则与游戏机制继续生效。');
   field(writing,'韩文文风',native.writingStyleEnabled(),v=>native.setWritingStyle(v),'checkbox');
   writing.append(el('p','默认开启。下方仅列出与此文风冲突的 World 写作条目；其余 World 规则照常生效。',{className:'sub'}));

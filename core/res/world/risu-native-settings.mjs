@@ -1,7 +1,7 @@
 /* World settings host for Risu 2026.8.250 (upstream e565563a).
  * Imports, execution, permissions and prompt parsing remain in the native engine.
  */
-import {applyWritingStyle,writingGenerationOptions,writingStyleSource} from './dragon-writing-style.mjs?v=world-rules-1';
+import {applyWritingStyle,writingGenerationOptions,writingStyleSource,WORD_COUNT_PROMPT} from './dragon-writing-style.mjs?v=word-count-1';
 import {WORLD_WRITING_RULES,worldRuleEnabled,filterWorldWriting,worldRuleOverrides} from './world-writing-rules.mjs?v=world-rules-1';
 export const clone = value => value == null ? value : JSON.parse(JSON.stringify(value));
 export const TASKS = {memory:'记忆摘要', translate:'翻译', emotion:'表情判断', otherAx:'其他辅助任务与剧情规划'};
@@ -26,6 +26,19 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   const db = () => database.getDatabase();
   const state = () => (getSettings().nativeState ||= {});
   const session = () => getSession?.();
+  // Native hook runs after legacy/template assembly and before provider formatting.
+  // Scope to World narrative requests; planners, translation and memory stay intact.
+  const hookKey=Symbol.for('world.wordCountRequestHook');
+  function installWordCount(){
+    const process=plugins.pluginV2,hooks=process.replacerbeforeRequest;
+    if(process[hookKey])hooks.delete(process[hookKey]);
+    const hook=(messages,task)=>{
+      if(task!=='model'||!database.getCurrentCharacter()?.extentions?.felinia)return messages;
+      return [{role:'system',content:WORD_COUNT_PROMPT},...messages.filter(m=>!(m.role==='system'&&m.content===WORD_COUNT_PROMPT))];
+    };
+    process[hookKey]=hook;hooks.add(hook);
+  }
+  installWordCount();
   const writingStyleEnabled = () => state().dragonWritingStyle !== false;
   const worldWritingText = text => filterWorldWriting(text,state());
   const worldWritingRuleEnabled = id => worldRuleEnabled(state(),id);
@@ -89,6 +102,7 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
     d.subModel=state().subModel||'reverse_proxy';
   }
   function afterProvider(d) {
+    installWordCount();
     // configureProvider owns endpoint/protocol; native setPreset owns every preset field.
     if(getSettings().nativePreset && parameterSource()==='preset'){
       const connection=Object.fromEntries(CONNECTION.map(key=>[key,clone(d[key])]));
@@ -169,7 +183,7 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
     saveSession();return result;
   }
   return {database,modules,plugins,stores,triggers,db,state,preset,capture,restore,afterProvider,startPlugins,
-    writingStyleEnabled,setWritingStyle,prepareWritingStyle,generationOptions,writingStyleSource,
+    writingStyleEnabled,setWritingStyle,prepareWritingStyle,generationOptions,writingStyleSource,wordCountPrompt:WORD_COUNT_PROMPT,
     worldWritingRules:WORLD_WRITING_RULES,worldWritingText,worldWritingRuleEnabled,setWorldWritingRule,
     changePreset,editPreset,addPreset,deletePreset,exportPreset,parameterSource,setParameterSource,options,getVar,setVar,setLocal,unpin,
     applySession,saveSession,memorySettings,runManual,applyModels,composeSystemPrompt};
