@@ -18,6 +18,9 @@ image/**/.DS_Store
 # 静态站点构建输出及桌面同步产生的同名副本，不入库
 /_site*/
 
+# Node.js dependencies
+/node_modules/
+
 # Local source corpus and extraction evidence; never publish the supplied novel files.
 _work/
 
