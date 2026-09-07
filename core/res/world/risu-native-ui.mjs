@@ -1,9 +1,10 @@
-import {clone,TASKS} from './risu-native-settings.mjs?v=word-count-1';
+import {clone,TASKS} from './risu-native-settings.mjs?v=public-labels-1';
 const types={plain:'文本',jailbreak:'NSFW',cot:'思考',description:'角色描述',persona:'用户设定',lorebook:'世界书',chat:'聊天记录',authornote:'作者注释',memory:'记忆',postEverything:'末尾',chatML:'ChatML',cache:'缓存点'};
 const triggerModes={start:'生成前',input:'用户输入',output:'模型输出',manual:'手动',display:'显示',request:'请求'};
-function el(tag,text,attrs={}){const n=document.createElement(tag);if(text!=null)n.textContent=text;Object.assign(n,attrs);return n;}
+const publicText=value=>String(value??'').replace(/risu/gi,'内置AI');
+function el(tag,text,attrs={}){const n=document.createElement(tag);if(text!=null)n.textContent=publicText(text);Object.assign(n,attrs);return n;}
 function button(text,fn){const b=el('button',text,{type:'button',className:'eBtn'});b.addEventListener('click',async()=>{b.disabled=true;try{await fn();}catch(e){report(e);}finally{b.disabled=false;}});return b;}
-function report(e){const host=Array.from(document.querySelectorAll('[data-native-status]')).find(n=>n.closest('.cfgPane')?.style.display!=='none')||document.querySelector('[data-native-status]');if(host){host.textContent=e?.message||String(e);host.setAttribute('role','alert');}else console.error(e);}
+function report(e){const host=Array.from(document.querySelectorAll('[data-native-status]')).find(n=>n.closest('.cfgPane')?.style.display!=='none')||document.querySelector('[data-native-status]');if(host){host.textContent=publicText(e?.message||String(e));host.setAttribute('role','alert');}else console.error(e);}
 function field(host,label,value,change,kind='text',choices){const row=el('label',null,{className:'sRow'});row.append(el('span',label));let input;
  if(choices){input=el('select',null,{className:'aIn'});for(const [v,l] of Object.entries(choices))input.append(el('option',l,{value:v}));input.value=String(value??'');}
  else if(kind==='textarea'){input=el('textarea',null,{className:'aIn',rows:5,value:String(value??'')});}
@@ -52,18 +53,18 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
     field(conflicts,rule.label,native.worldWritingRuleEnabled(rule.id),v=>native.setWorldWritingRule(rule.id,v),'checkbox');
     conflicts.append(el('p',rule.description,{className:'sub'}));
   }
-  const manager=section(host,'Risu 原生预设','首次进入自动使用 Default，与 World 游戏规则共同生效；重复的生成参数默认使用 World 设置。');
+  const manager=section(host,'内置 AI 预设','首次进入自动使用 Default，与 World 游戏规则共同生效；重复的生成参数默认使用 World 设置。');
   const list=native.db().botPresets||[];
   field(manager,'当前预设',native.db().botPresetsId,v=>{native.changePreset(Number(v));onPresetChanged?.();refresh('preset');},'text',Object.fromEntries(list.map((p,i)=>[i,p.name||`预设 ${i+1}`])));
-  manager.append(button('新建',()=>{native.addPreset();refresh('preset');}),button('复制当前预设',()=>{native.addPreset({...clone(native.preset()),name:(native.preset()?.name||'预设')+' Copy'});refresh('preset');}),button('删除当前预设',()=>{if(confirm('删除当前原生预设？')){native.deletePreset(native.db().botPresetsId);refresh('preset');}}),button('导出 .risup',async()=>{const p=await native.exportPreset();download((p.data.name||'preset')+'.risup',p.buf);}));
+  manager.append(button('新建',()=>{native.addPreset();refresh('preset');}),button('复制当前预设',()=>{native.addPreset({...clone(native.preset()),name:(native.preset()?.name||'预设')+' Copy'});refresh('preset');}),button('删除当前预设',()=>{if(confirm('删除当前原生预设？')){native.deletePreset(native.db().botPresetsId);refresh('preset');}}),button('导出预设',async()=>{const p=await native.exportPreset();download((p.data.name||'preset')+'.preset',p.buf);}));
   fileButton(manager,'导入原生预设','.json,.preset,.risup,.risupreset',async f=>{await native.database.importPreset({name:f.name,data:new Uint8Array(await f.arrayBuffer())});native.changePreset(native.db().botPresets.length-1);onPresetChanged?.();refresh('preset');});
   const options=section(host,'预设与模块选项');renderOptions(options);
-  const p=clone(native.preset());if(!p){manager.append(el('p','尚未导入原生预设，可新建或导入后编辑模板。',{className:'sub'}));manager.querySelector('select').disabled=true;for(const b of manager.querySelectorAll('button'))if(['复制当前预设','删除当前预设','导出 .risup'].includes(b.textContent))b.disabled=true;return;}
+  const p=clone(native.preset());if(!p){manager.append(el('p','尚未导入原生预设，可新建或导入后编辑模板。',{className:'sub'}));manager.querySelector('select').disabled=true;for(const b of manager.querySelectorAll('button'))if(['复制当前预设','删除当前预设','导出预设'].includes(b.textContent))b.disabled=true;return;}
   field(manager,'名称',p.name,v=>{p.name=v;native.editPreset(p);changed();});
   field(manager,'生成参数来源',native.parameterSource(),v=>{native.setParameterSource(v);},'text',{preset:'使用当前原生预设',world:'使用 World 生成引擎设置'});
   field(manager,'叠加原生主提示词',!!native.state().combineWorldPrompt,v=>{native.state().combineWorldPrompt=v;persist();},'checkbox');
   manager.append(el('p',p.promptTemplate?'当前使用自定义模板，提示词按模板内容和顺序执行；主提示词叠加仅用于非模板预设。':'开启后，原生主提示词在前，World 游戏规则和玩家指令在后。NSFW 由连接 AI 中的 YES / NO 单独控制。',{className:'sub'}));
-  const template=section(host,'提示模板','条目顺序就是执行顺序；条件使用 Risu 原生宏。修改后点击保存模板。');
+  const template=section(host,'提示模板','条目顺序就是执行顺序；条件使用内置宏。修改后点击保存模板。');
   const draft=clone(p);draft.promptTemplate??=[];
   field(template,'使用提示模板',p.promptTemplate!=null,v=>{p.promptTemplate=v?draft.promptTemplate:null;native.editPreset(p);changed();},'checkbox');
   const listHost=el('div');template.append(listHost);
@@ -101,7 +102,7 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
   field(host,'选项只保存到当前游戏',native.database.getCurrentChat()?.useLocallySetGlobalVariables,v=>native.setLocal(v),'checkbox').disabled=!native.database.getCurrentChat();
  }
  function modulesPane(host){
-  const block=section(host,'Risu 模块','模块可同时包含世界书、正则、触发器、选项和资源。');
+  const block=section(host,'内容模块','模块可同时包含世界书、正则、触发器、选项和资源。');
   block.append(button('导入模块',async()=>{await native.modules.importModule();persist();native.modules.refreshModules();refresh('lore');}));
   for(const m of native.db().modules||[]){
    if(!m)continue;
@@ -115,7 +116,7 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
   }
  }
  function pluginsPane(host){
-  const block=section(host,'Risu 原生插件','支持当前内核的 API 3.0 插件。原生权限询问会在使用相应功能时显示。');
+  const block=section(host,'内置 AI 插件','支持当前内核的 API 3.0 插件。权限询问会在使用相应功能时显示。');
   fileButton(block,'导入插件','.js,.ts',async f=>{await native.plugins.importPlugin(await f.text(),{isTypescript:f.name.endsWith('.ts')});persist();refresh('js');});
   block.append(button('重新加载插件',async()=>{await native.plugins.loadPlugins();persist();refresh('js');}));
   const source=section(block,'从源码安装插件');source.open=false;const sourceText=el('textarea',null,{className:'aIn',rows:10});sourceText.setAttribute('aria-label','插件源码');source.append(sourceText,button('安装源码插件',async()=>{if(!sourceText.value.trim())throw Error('请先粘贴插件源码');await native.plugins.importPlugin(sourceText.value);persist();refresh('js');}));
@@ -131,7 +132,7 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
   block.append(button('刷新插件操作',drawMenus));
  }
  async function triggersPane(host){
-  const schemas=await schema(),block=section(host,'Risu 触发器','条件和动作由原生执行器运行。编辑后保存；显示与请求触发器仍受原生动作限制。');
+  const schemas=await schema(),block=section(host,'自动触发器','条件和动作由内置执行器运行。编辑后保存；显示与请求触发器仍受内置动作限制。');
   const list=clone(getTriggers()||[]),rows=el('div');block.append(rows);
   const commit=()=>{setTriggers(clone(list));save();};
   function typedList(host,list,title){const container=section(host,title);for(let i=0;i<list.length;i++){
@@ -156,8 +157,8 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
    reorder(row,list,i,draw);
   });}
   draw();block.append(button('新建触发器',()=>{list.push({comment:'新触发器',type:'start',conditions:[],effect:[]});draw();}),button('保存触发器',()=>{commit();report('触发器已保存');}));
-  fileButton(block,'导入触发器','.json',async f=>{const v=JSON.parse(await f.text()),items=Array.isArray(v)?v:v.triggerscript||v.trigger;if(!Array.isArray(items)||items.some(t=>!t.type||!Array.isArray(t.effect)))throw Error('不是有效的 Risu 触发器数组');list.push(...items);draw();commit();});
-  block.append(button('导出触发器',()=>download('risu-triggers.json',JSON.stringify(list,null,2),'application/json')));
+  fileButton(block,'导入触发器','.json',async f=>{const v=JSON.parse(await f.text()),items=Array.isArray(v)?v:v.triggerscript||v.trigger;if(!Array.isArray(items)||items.some(t=>!t.type||!Array.isArray(t.effect)))throw Error('不是有效的触发器数组');list.push(...items);draw();commit();});
+  block.append(button('导出触发器',()=>download('world-triggers.json',JSON.stringify(list,null,2),'application/json')));
   field(block,'允许当前角色使用低级访问功能',native.state().triggerLowLevelAccess,v=>{if(v&&!confirm('允许当前角色触发器使用原生低级访问功能？')){refresh('js');return;}native.state().triggerLowLevelAccess=v;persist();},'checkbox');
   jsonEditor(block,'完整触发器数组',list,v=>{if(!Array.isArray(v)||v.some(t=>!t.type||!Array.isArray(t.effect)))throw Error('触发器必须包含 type 和 effect 数组');setTriggers(v);save();refresh('js');});
  }

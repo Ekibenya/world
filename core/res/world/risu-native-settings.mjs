@@ -1,7 +1,7 @@
 /* World settings host for Risu 2026.8.250 (upstream e565563a).
  * Imports, execution, permissions and prompt parsing remain in the native engine.
  */
-import {applyWritingStyle,writingGenerationOptions,writingStyleSource,WORD_COUNT_PROMPT} from './dragon-writing-style.mjs?v=word-count-1';
+import {applyWritingStyle,writingGenerationOptions,writingStyleSource,WORD_COUNT_PROMPT} from './dragon-writing-style.mjs?v=public-labels-1';
 import {WORLD_WRITING_RULES,worldRuleEnabled,filterWorldWriting,worldRuleOverrides} from './world-writing-rules.mjs?v=world-rules-1';
 export const clone = value => value == null ? value : JSON.parse(JSON.stringify(value));
 export const TASKS = {memory:'记忆摘要', translate:'翻译', emotion:'表情判断', otherAx:'其他辅助任务与剧情规划'};

@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v97';
+const CACHE = 'guardian-dragon-art-v98';
 const CORE = [
   '/',
   '/index.html',
@@ -17,18 +17,18 @@ const CORE = [
   '/core/res/world/world-planet-map.js?v=46',
   '/core/res/world/visual-novel.js?v=14',
   '/core/res/world/app.js?v=33',
-  '/core/res/world/engine.js?v=30',
+  '/core/res/world/engine.js?v=31',
   '/core/res/world/storage-wipe.js?v=1',
   '/core/res/world/sonus.js?v=1',
   '/core/res/world/cosmos.js?v=4',
   '/core/res/world/lore-retrieval.mjs',
   '/core/res/world/runtime.mjs',
   '/core/res/world/risu-prompt-settings.mjs',
-  '/core/res/world/risu-native-settings.mjs?v=word-count-1',
-  '/core/res/world/dragon-writing-style.mjs?v=word-count-1',
+  '/core/res/world/risu-native-settings.mjs?v=public-labels-1',
+  '/core/res/world/dragon-writing-style.mjs?v=public-labels-1',
   '/core/res/world/world-writing-rules.mjs?v=world-rules-1',
   '/core/res/world/dragon-writing-style-data.mjs?v=world-rules-1',
-  '/core/res/world/risu-native-ui.mjs?v=word-count-1',
+  '/core/res/world/risu-native-ui.mjs?v=public-labels-1',
   '/core/res/runtime/risu/risu-headless.js?v=38',
   '/core/res/runtime/risu/feliniaGame-Do_6xMRR.js?v=world-rules-1',
   '/core/res/world/risu-trigger-schema.json',
