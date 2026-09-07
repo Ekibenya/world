@@ -26,8 +26,14 @@ World 仍设置自己的系统提示、作者注释、正典、NPC、玩家主�
 ```sh
 WORLD_QA_MODULES=/path/to/node_modules node scripts/check-risu-native.mjs
 WORLD_QA_MODULES=/path/to/node_modules node scripts/check-dragon-writing-style.mjs
+node scripts/check-writing-style-cache.mjs
 ```
 
 文风测试运行真实 Risu 内核和 World 准备函数，并用本地响应替身捕获 HTTP 请求：
 覆盖原文哈希、末位顺序、模板遗漏 authornote、重复回合、时代切换、关闭/恢复/重载、
 界面开关、规划约束及短回复不重试。没有调用付费模型，也没有做实际文风 A/B 评分。
+
+缓存升级：设置模块、界面模块、文风模块及其数据、headless 入口和 Felinia 适配器
+使用一致的新版本 URL。World 代码与两个可变入口响应改为 revalidate；Service Worker
+对代码请求显式使用 cache: no-cache，避免“网络优先”实际仍命中一年前端 HTTP 缓存。
+缓存测试从 HTML 遍历上述依赖链，并模拟保留旧 immutable 响应的浏览器升级。

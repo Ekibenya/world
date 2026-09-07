@@ -3551,7 +3551,7 @@ var FEL_RISU_NATIVE=null,FEL_RISU_NATIVE_READY=null,FEL_RISU_NATIVE_UI=null;
 function felRisuNative(){
   if(FEL_RISU_NATIVE_READY)return FEL_RISU_NATIVE_READY;
   FEL_RISU_NATIVE_READY=felRisuPrompts().then(function(){return Promise.all([
-    import('./risu-native-settings.mjs'),import('./risu-native-ui.mjs')
+    import('./risu-native-settings.mjs?v=dragon-style-2'),import('./risu-native-ui.mjs?v=dragon-style-2')
   ]);}).then(function(parts){
     return parts[0].createNativeSettings({load:function(name){return window.RisuHeadless.load(name);},
       getSettings:function(){return SET.risu;},save:function(){if(!lsSet('guardianDragonSet',JSON.stringify(SET)))throw new Error('设置未能保存：本机存储已满');if(typeof autoSave==='function')autoSave(true);},

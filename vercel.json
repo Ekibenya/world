@@ -49,6 +49,33 @@
       ]
     },
     {
+      "source": "/core/res/world/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/core/res/runtime/risu/risu-headless.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/core/res/runtime/risu/feliniaGame-Do_6xMRR.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
       "source": "/core/res/data/(.*)",
       "headers": [
         {

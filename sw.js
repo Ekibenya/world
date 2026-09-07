@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v90';
+const CACHE = 'guardian-dragon-art-v91';
 const CORE = [
   '/',
   '/index.html',
@@ -17,16 +17,18 @@ const CORE = [
   '/core/res/world/world-planet-map.js?v=45',
   '/core/res/world/visual-novel.js?v=14',
   '/core/res/world/app.js?v=33',
-  '/core/res/world/engine.js?v=24',
+  '/core/res/world/engine.js?v=25',
   '/core/res/world/sonus.js?v=1',
   '/core/res/world/cosmos.js?v=4',
   '/core/res/world/lore-retrieval.mjs',
   '/core/res/world/runtime.mjs',
   '/core/res/world/risu-prompt-settings.mjs',
-  '/core/res/world/risu-native-settings.mjs',
-  '/core/res/world/dragon-writing-style.mjs',
-  '/core/res/world/dragon-writing-style-data.mjs',
-  '/core/res/world/risu-native-ui.mjs',
+  '/core/res/world/risu-native-settings.mjs?v=dragon-style-2',
+  '/core/res/world/dragon-writing-style.mjs?v=dragon-style-2',
+  '/core/res/world/dragon-writing-style-data.mjs?v=dragon-style-2',
+  '/core/res/world/risu-native-ui.mjs?v=dragon-style-2',
+  '/core/res/runtime/risu/risu-headless.js?v=37',
+  '/core/res/runtime/risu/feliniaGame-Do_6xMRR.js?v=dragon-style-2',
   '/core/res/world/risu-trigger-schema.json',
   '/core/res/world/risu-model-list.json',
   '/core/res/data/world/index.json',
@@ -63,7 +65,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== location.origin) return;
   if (url.pathname.startsWith('/_vercel/') || url.pathname.startsWith('/cdn-cgi/')) return;
   if (request.mode === 'navigate' || /\.(js|mjs|json|webmanifest|html|css)$/i.test(url.pathname)) {
-    event.respondWith(fetch(request).then((response) => {
+    event.respondWith(fetch(request, {cache: 'no-cache'}).then((response) => {
       if (response && response.ok && response.type === 'basic') {
         const copy = response.clone();
         caches.open(CACHE).then((cache) => cache.put(request, copy).catch(() => {}));

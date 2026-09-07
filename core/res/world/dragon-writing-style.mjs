@@ -1,4 +1,4 @@
-import data from './dragon-writing-style-data.mjs';
+import data from './dragon-writing-style-data.mjs?v=dragon-style-2';
 // Risu database values may be Svelte proxies, which structuredClone rejects.
 const copy=value=>value==null?value:JSON.parse(JSON.stringify(value));
 
