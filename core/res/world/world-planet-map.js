@@ -276,7 +276,11 @@ function applyStamp(op,clip){
     else if(op.t==='lower'){EF[idx]=Math.max(-.6,EF[idx]-.3*sv);EH[idx]=Math.max(-.9,EH[idx]-.06*sv);}
     else if(op.t==='mount'){var p=sph(lon,lat,v3),rg=.6*(1-Math.abs(n3(p[0]*11+2,p[1]*11,p[2]*11)))+.4*(1-Math.abs(n3(p[0]*23,p[1]*23+1,p[2]*23)));EH[idx]=Math.min(.9,EH[idx]+.15*sv*(.25+.75*rg));if(Math.max(BF[idx],-.35)+EF[idx]<.05)EF[idx]=Math.min(.6,EF[idx]+.14*sv);}
     else if(op.t==='flat'){if(LAND[idx])EH[idx]-=(HGT[idx]-.06)*Math.min(1,sv*.8);}
-    else if(op.t==='type'){if(ET[idx]!==op.k){if(sv>EW[idx]*.6){ET[idx]=op.k;EW[idx]=Math.min(1,sv*1.5);}}else EW[idx]=Math.min(1,EW[idx]+sv*1.5);}
+    else if(op.t==='type'){
+      /* 新笔触替换旧类型；权重从新笔刷累积，不能用旧权重锁住覆盖。 */
+      if(ET[idx]!==op.k){ET[idx]=op.k;EW[idx]=0;}
+      EW[idx]=Math.min(1,EW[idx]+sv*1.5);
+    }
     composeHeight(idx,F);
   }
   return r;
