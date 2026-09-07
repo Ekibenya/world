@@ -15,20 +15,58 @@
    ]
   },
   "洛伦／生命女神／主角龙": {
-   "eq": {},
-   "bag": []
-  },
-  "阿谢拉特": {
-   "eq": {},
+   "eq": {
+    "dext": "e29_templu_gear71",
+    "sin": "e29_mare_gear23",
+    "corp": "e29_arbor_gear27",
+    "cap": "e29_sirius_gear51",
+    "hum": "e29_semeri_gear83",
+    "cing": "e29_terra_gear67",
+    "ped": "e29_yggdra_gear7"
+   },
    "bag": [
     {
-     "k": "e29_hero_betting_ticket",
-     "n": 3
+     "k": "e29_postal_seal_stamp",
+     "n": 1
+    }
+   ]
+  },
+  "阿谢拉特": {
+   "eq": {
+    "dext": "e29_steppa_gear79",
+    "sin": "e29_sadalm_gear95",
+    "corp": "e29_procyo_gear43",
+    "cap": "e29_labyri_gear59",
+    "cing": "e29_palus_gear19",
+    "ped": "e29_mons_gear11"
+   },
+   "bag": [
+    {
+     "k": "e29_academy_tram_ledger",
+     "n": 1
     }
    ]
   },
   "露西亚": {
-   "eq": {},
+   "eq": {
+    "dext": "e29_teocal_gear91",
+    "sin": "e29_insula_gear99",
+    "corp": "e29_glacie_gear31",
+    "cap": "e29_rubero_gear103",
+    "cing": "e29_porta_gear39",
+    "ped": "e29_betelg_gear47"
+   },
+   "bag": []
+  },
+  "伽拉忒亚II": {
+   "eq": {
+    "dext": "e29_minoa_gear55",
+    "sin": "e29_mare_gear23",
+    "corp": "e29_utgard_gear87",
+    "cap": "e29_desert_gear15",
+    "cing": "e29_terra_gear67",
+    "ped": "e29_bestia_gear75"
+   },
    "bag": [
     {
      "k": "e29_galatea_library_link",
@@ -36,20 +74,39 @@
     }
    ]
   },
-  "伽拉忒亚II": {
-   "eq": {},
-   "bag": []
-  },
   "魔贤者／洛基": {
-   "eq": {},
+   "eq": {
+    "dext": "e29_regnum_gear107",
+    "sin": "e29_sadalm_gear95",
+    "corp": "e29_arbor_gear27",
+    "cap": "e29_labyri_gear59",
+    "hum": "e29_semeri_gear83",
+    "cing": "e29_porta_gear39",
+    "ped": "e29_mons_gear11"
+   },
    "bag": []
   },
   "忒提斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e29_nox_gear35",
+    "sin": "e29_mare_gear23",
+    "corp": "e29_glacie_gear31",
+    "cap": "e29_sirius_gear51",
+    "cing": "e29_palus_gear19",
+    "ped": "e29_yggdra_gear7"
+   },
    "bag": []
   },
   "沙玛什": {
-   "eq": {},
+   "eq": {
+    "dext": "e29_sagarm_gear3",
+    "sin": "e29_hero_clan_crest",
+    "corp": "e29_procyo_gear43",
+    "cap": "e29_desert_gear15",
+    "hum": "e29_semeri_gear83",
+    "cing": "e29_terra_gear67",
+    "ped": "e29_betelg_gear47"
+   },
    "bag": [
     {
      "k": "e29_sazama_judge_token",

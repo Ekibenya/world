@@ -10,41 +10,84 @@
    "bag": []
   },
   "洛伦／旅行中的主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e28_templu_gear71",
+    "sin": "e28_life_ornament",
+    "corp": "e28_yggdra_gear7",
+    "cap": "e28_mare_gear23",
+    "hum": "e28_palus_gear19",
+    "cing": "e28_sirius_gear51",
+    "ped": "e28_nox_gear35"
+   },
    "bag": [
     {
-     "k": "e28_folded_space_gate_token",
+     "k": "e28_guardian_pact_token",
      "n": 1
-    }
-   ]
-  },
-  "德莫尼卡／魔贤者": {
-   "eq": {},
-   "bag": [
+    },
     {
      "k": "e28_dragon_made_item",
      "n": 1
     }
    ]
   },
-  "帝国二皇子": {
-   "eq": {},
+  "德莫尼卡／魔贤者": {
+   "eq": {
+    "dext": "e28_regnum_gear107",
+    "sin": "e28_labyri_gear59",
+    "corp": "e28_letkin_gear63",
+    "cap": "e28_betelg_gear47",
+    "hum": "e28_procyo_gear43",
+    "cing": "e28_porta_gear39",
+    "ped": "e28_terra_gear67"
+   },
    "bag": [
     {
-     "k": "e28_life_ornament",
+     "k": "e28_folded_space_gate_token",
+     "n": 1
+    },
+    {
+     "k": "e28_dwarf_firestone_bomb",
      "n": 1
     }
    ]
   },
+  "帝国二皇子": {
+   "eq": {
+    "dext": "e28_rubero_gear103",
+    "sin": "e28_teocal_gear91",
+    "corp": "e28_sagarm_gear3",
+    "cap": "e28_bestia_gear75",
+    "hum": "e28_semeri_gear83",
+    "cing": "e28_desert_gear15",
+    "ped": "e28_nox_gear35"
+   },
+   "bag": []
+  },
   "西蒙": {
-   "eq": {},
+   "eq": {
+    "dext": "e28_mons_gear11",
+    "sin": "e28_sadalm_gear95",
+    "corp": "e28_arbor_gear27",
+    "cap": "e28_mare_gear23",
+    "hum": "e28_utgard_gear87",
+    "cing": "e28_minoa_gear55",
+    "ped": "e28_terra_gear67"
+   },
    "bag": []
   },
   "新皇": {
-   "eq": {},
+   "eq": {
+    "dext": "e28_steppa_gear79",
+    "sin": "e28_insula_gear99",
+    "corp": "e28_sagarm_gear3",
+    "cap": "e28_betelg_gear47",
+    "hum": "e28_palus_gear19",
+    "cing": "e28_sirius_gear51",
+    "ped": "e28_nox_gear35"
+   },
    "bag": [
     {
-     "k": "e28_guardian_pact_token",
+     "k": "e28_demon_nation_contract_good",
      "n": 1
     }
    ]
@@ -56,10 +99,18 @@
    "bag": []
   },
   "垂老皇帝": {
-   "eq": {},
+   "eq": {
+    "dext": "e28_glacie_gear31",
+    "sin": "e28_teocal_gear91",
+    "corp": "e28_letkin_gear63",
+    "cap": "e28_bestia_gear75",
+    "hum": "e28_procyo_gear43",
+    "cing": "e28_porta_gear39",
+    "ped": "e28_terra_gear67"
+   },
    "bag": [
     {
-     "k": "e28_guardian_pact_token",
+     "k": "e28_dwarf_info_terminal",
      "n": 1
     }
    ]

@@ -206,43 +206,72 @@
    ]
   },
   "西娅蒂雅": {
-   "eq": {},
+   "eq": {
+    "dext": "e16_elemental_wand_basic",
+    "sin": "e16_ring_school_mage",
+    "corp": "e16_mage_robe_common",
+    "cap": "e16_scholar_kerchief",
+    "hum": "e16_pilgrim_hooded_cloak",
+    "cing": "e16_court_silk_sash",
+    "ped": "e16_slipper_court"
+   },
    "bag": [
     {
-     "k": "e16_scientia_revised_edition",
+     "k": "e16_element_research_badge",
      "n": 1
     },
     {
-     "k": "e16_purified_magic_stone",
-     "n": 2
-    },
-    {
-     "k": "e16_heart_anatomy_sketch",
+     "k": "e16_starting_mage_certificate",
      "n": 1
     },
     {
-     "k": "e16_mana_crystal_counter",
-     "n": 1
-    },
-    {
-     "k": "e16_pantheon_register",
+     "k": "e16_mage_tower_key",
      "n": 1
     }
    ]
   },
   "希尔芙": {
-   "eq": {},
+   "eq": {
+    "dext": "e16_obsidian_dagger_spirit",
+    "sin": "e16_gauntlet_leather",
+    "corp": "e16_adventurer_tunic",
+    "hum": "e16_bird_folk_wing_wrap",
+    "cing": "e16_leather_belt_pouch",
+    "ped": "e16_boar_hide_boots"
+   },
    "bag": [
     {
-     "k": "e16_windgoddess_idol",
+     "k": "e16_prophet_alliance_token",
+     "n": 1
+    }
+   ]
+  },
+  "蒂雅／主角龙": {
+   "eq": {
+    "dext": "e16_common_dagger",
+    "sin": "e16_scrying_hand_mirror",
+    "corp": "e16_leather_armor_adventurer",
+    "cap": "e16_wide_brim_hat_travel",
+    "hum": "e16_wool_travel_cloak",
+    "cing": "e16_leather_belt_pouch",
+    "ped": "e16_leather_travel_boots",
+    "terg": "e16_backpack_canvas"
+   },
+   "bag": [
+    {
+     "k": "e16_guild_registration_tag",
      "n": 1
     },
     {
-     "k": "e16_bird_folk_lift_charm",
-     "n": 2
+     "k": "e16_guild_library_card",
+     "n": 1
     },
     {
-     "k": "e16_message_feather_tube",
+     "k": "e16_smith_discount_chit",
+     "n": 1
+    },
+    {
+     "k": "e16_pantheon_register",
      "n": 1
     }
    ]

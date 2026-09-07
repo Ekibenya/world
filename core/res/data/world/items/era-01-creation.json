@@ -7,41 +7,25 @@
  "kits": {
   "default": {
    "eq": {
-    "dext": "e1_flint_shard"
+    "dext": "e1_flint_shard",
+    "corp": "e1_megabeast_hide_wrap",
+    "cap": "e1_hide_kerchief",
+    "ped": "e1_hide_boots"
    },
-   "bag": [
-    {
-     "k": "e1_moss_cake",
-     "n": 2
-    },
-    {
-     "k": "e1_puddle_water_vial",
-     "n": 1
-    },
-    {
-     "k": "e1_shed_scale",
-     "n": 2
-    },
-    {
-     "k": "e1_herb_pouch_wrap",
-     "n": 1
-    }
-   ]
+   "bag": []
   },
   "主角龙": {
    "eq": {
+    "dext": "e1_megabeast_claw",
+    "corp": "e1_megabeast_hide_wrap",
     "hum": "e1_pocketwatch",
-    "terg": "e1_woven_satchel",
     "cing": "e1_world_window_charm",
-    "dext": "e1_dext_stone_pick"
+    "ped": "e1_hide_boots",
+    "terg": "e1_woven_satchel"
    },
    "bag": [
     {
-     "k": "e1_creation_letter",
-     "n": 1
-    },
-    {
-     "k": "e1_naming_ledger",
+     "k": "e1_shed_scale",
      "n": 1
     },
     {
@@ -49,11 +33,28 @@
      "n": 1
     },
     {
-     "k": "e1_shed_scale",
-     "n": 3
+     "k": "e1_time_dust",
+     "n": 1
+    }
+   ]
+  },
+  "无名创世神": {
+   "eq": {
+    "dext": "e1_dext_stone_pick",
+    "hum": "e1_everlit_pendant",
+    "terg": "e1_bone_hook_carrier"
+   },
+   "bag": [
+    {
+     "k": "e1_creation_letter",
+     "n": 1
     },
     {
-     "k": "e1_evolution_notes",
+     "k": "e1_life_seed",
+     "n": 1
+    },
+    {
+     "k": "e1_naming_ledger",
      "n": 1
     },
     {
@@ -62,155 +63,110 @@
     }
    ]
   },
-  "无名创世神": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e1_creation_letter",
-     "n": 1
-    },
-    {
-     "k": "e1_world_window_charm",
-     "n": 1
-    },
-    {
-     "k": "e1_life_seed",
-     "n": 3
-    }
-   ]
-  },
   "西尔菲德": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_driftwood_club",
+    "hum": "e1_wind_chime_shell",
+    "cing": "e1_bird_free_silence_bell",
+    "ped": "e1_reed_wrap"
+   },
    "bag": [
     {
      "k": "e1_sylph_wisp",
      "n": 1
-    },
-    {
-     "k": "e1_wind_chime_shell",
-     "n": 1
-    },
-    {
-     "k": "e1_wind_breath_bottle",
-     "n": 2
     }
    ]
   },
   "伊弗利特": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_obsidian_edge",
+    "corp": "e1_fire_walker_hide",
+    "cap": "e1_horn_ring_ornament",
+    "terg": "e1_ember_lantern"
+   },
    "bag": [
     {
      "k": "e1_ifrit_ember",
      "n": 1
-    },
-    {
-     "k": "e1_ember_lantern",
-     "n": 1
-    },
-    {
-     "k": "e1_holy_flame_ash",
-     "n": 2
-    },
-    {
-     "k": "e1_lava_slime_coal",
-     "n": 2
     }
    ]
   },
   "伊格德拉西尔": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_megabeast_bone_spike",
+    "cing": "e1_vine_sash",
+    "terg": "e1_woven_satchel"
+   },
    "bag": [
     {
      "k": "e1_yggdrasil_leaf",
      "n": 1
     },
     {
-     "k": "e1_root_binding_cord",
-     "n": 1
-    },
-    {
-     "k": "e1_world_tree_bark",
-     "n": 1
-    },
-    {
-     "k": "e1_sap_honey",
-     "n": 2
-    },
-    {
-     "k": "e1_world_tree_sap_tonic",
+     "k": "e1_mutation_dust",
      "n": 1
     }
    ]
   },
   "沙玛什": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_flint_shard",
+    "hum": "e1_everlit_pendant",
+    "ped": "e1_bone_greave"
+   },
    "bag": [
     {
      "k": "e1_shamash_light",
      "n": 1
     },
     {
-     "k": "e1_everlit_pendant",
+     "k": "e1_evolution_notes",
      "n": 1
-    },
-    {
-     "k": "e1_light_crystal_bead",
-     "n": 2
     }
    ]
   },
   "萨加玛塔": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_megabeast_horn",
+    "sin": "e1_frost_breath_charm",
+    "corp": "e1_stone_slime_husk",
+    "cap": "e1_summit_frost_charm"
+   },
    "bag": [
     {
      "k": "e1_sagarmatha_ice",
-     "n": 1
-    },
-    {
-     "k": "e1_summit_frost_charm",
-     "n": 1
-    },
-    {
-     "k": "e1_mountain_pebble",
-     "n": 2
-    },
-    {
-     "k": "e1_summit_snow_bottle",
      "n": 1
     }
    ]
   },
   "忒提斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_coral_spear",
+    "sin": "e1_scrying_shell",
+    "corp": "e1_shell_plate_guard",
+    "cap": "e1_coral_helm",
+    "hum": "e1_kelp_cloak",
+    "cing": "e1_current_compass_shell",
+    "ped": "e1_claw_guard_shell"
+   },
    "bag": [
     {
      "k": "e1_tethys_pearl",
-     "n": 1
-    },
-    {
-     "k": "e1_current_compass_shell",
-     "n": 1
-    },
-    {
-     "k": "e1_whirlpool_kelp_rope",
      "n": 1
     }
    ]
   },
   "厄瑞玻斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e1_shark_tooth_shard",
+    "hum": "e1_shadow_wrap",
+    "cing": "e1_tail_band_cord",
+    "ped": "e1_gel_membrane_wrap"
+   },
    "bag": [
     {
      "k": "e1_erebus_shard",
      "n": 1
-    },
-    {
-     "k": "e1_shadow_wrap",
-     "n": 1
-    },
-    {
-     "k": "e1_luminous_moss_bundle",
-     "n": 2
     }
    ]
   }

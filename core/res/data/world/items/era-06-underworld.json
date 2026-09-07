@@ -35,30 +35,22 @@
    ]
   },
   "主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e6_bronze_sword_short",
+    "sin": "e6_bronze_round_shield",
+    "corp": "e6_thick_leather_armor",
+    "cap": "e6_leather_helm_simple",
+    "cing": "e6_scholar_leather_sash",
+    "ped": "e6_bone_greaves",
+    "terg": "e6_arctic_fur_cloak"
+   },
    "bag": [
     {
-     "k": "e6_black_diamond_erebus",
+     "k": "e6_dragon_spring_water",
      "n": 1
     },
     {
-     "k": "e6_dark_fishing_line",
-     "n": 1
-    },
-    {
-     "k": "e6_detection_shovel",
-     "n": 1
-    },
-    {
-     "k": "e6_monster_stone_common",
-     "n": 3
-    },
-    {
-     "k": "e6_soul_jade_pendant",
-     "n": 1
-    },
-    {
-     "k": "e6_waterskin_common",
+     "k": "e6_forest_sage_travel_pouch",
      "n": 1
     }
    ]
@@ -174,15 +166,13 @@
    ]
   },
   "云鲸": {
-   "eq": {},
+   "eq": {
+    "terg": "e6_elf_leaf_cloak"
+   },
    "bag": [
     {
-     "k": "e6_white_bird_feather",
-     "n": 5
-    },
-    {
-     "k": "e6_cloud_whale_prayer_tablet",
-     "n": 3
+     "k": "e6_dark_fishing_line",
+     "n": 1
     }
    ]
   },
@@ -221,11 +211,51 @@
    ]
   },
   "厄瑞玻斯核心残片": {
-   "eq": {},
+   "eq": {
+    "cap": "e6_dark_veil_headwear"
+   },
    "bag": [
     {
-     "k": "e6_monster_stone_elite",
-     "n": 2
+     "k": "e6_black_diamond_erebus",
+     "n": 1
+    },
+    {
+     "k": "e6_son_soul_jade_square",
+     "n": 1
+    }
+   ]
+  },
+  "塞雷斯／刻瑞斯": {
+   "eq": {
+    "corp": "e6_priest_white_robe",
+    "cap": "e6_akkad_royal_crown_replica",
+    "cing": "e6_life_bringer_sash",
+    "ped": "e6_papyrus_woven_sandals",
+    "terg": "e6_elf_leaf_cloak"
+   },
+   "bag": [
+    {
+     "k": "e6_wife_soul_jade_round",
+     "n": 1
+    }
+   ]
+  },
+  "阎魔／摩罗斯": {
+   "eq": {
+    "dext": "e6_scale_of_sins",
+    "corp": "e6_mage_grey_robe",
+    "cap": "e6_dark_veil_headwear",
+    "cing": "e6_scholar_leather_sash",
+    "ped": "e6_bone_greaves"
+   },
+   "bag": [
+    {
+     "k": "e6_book_of_life_death",
+     "n": 1
+    },
+    {
+     "k": "e6_mirror_of_karma",
+     "n": 1
     }
    ]
   }

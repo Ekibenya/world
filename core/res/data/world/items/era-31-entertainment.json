@@ -15,7 +15,15 @@
    ]
   },
   "洛伦／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e31_templu_gear71",
+    "sin": "e31_nox_gear35",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_minoa_gear55",
+    "hum": "e31_arbor_gear27",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_desert_gear15"
+   },
    "bag": [
     {
      "k": "e31_literacy_school_token",
@@ -24,77 +32,144 @@
    ]
   },
   "希尔芙": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e31_chess_set_elf",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e31_labyri_gear59",
+    "sin": "e31_terra_gear67",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_letkin_gear63",
+    "hum": "e31_betelg_gear47",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_mare_gear23"
+   },
+   "bag": []
   },
   "忒提斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e31_glacie_gear31",
+    "sin": "e31_nox_gear35",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_minoa_gear55",
+    "hum": "e31_steppa_gear79",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_mare_gear23"
+   },
    "bag": []
   },
   "生命教团祭司长": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e31_rail_medicine_package",
-     "n": 2
-    }
-   ]
-  },
-  "伊格德拉西尔": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e31_chess_set_elf",
-     "n": 1
-    }
-   ]
-  },
-  "萨加玛塔": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e31_chess_set_dwarf",
-     "n": 1
-    }
-   ]
-  },
-  "阿谢拉特": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e31_casino_resort_ticket",
-     "n": 1
-    }
-   ]
-  },
-  "哈迪斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e31_templu_gear71",
+    "sin": "e31_utgard_gear87",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_letkin_gear63",
+    "hum": "e31_teocal_gear91",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_porta_gear39"
+   },
    "bag": []
   },
-  "沙玛什": {
-   "eq": {},
+  "伊格德拉西尔": {
+   "eq": {
+    "dext": "e31_sagarm_gear3",
+    "sin": "e31_terra_gear67",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_minoa_gear55",
+    "hum": "e31_arbor_gear27",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_bestia_gear75"
+   },
+   "bag": []
+  },
+  "萨加玛塔": {
+   "eq": {
+    "dext": "e31_sagarm_gear3",
+    "sin": "e31_utgard_gear87",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_regnum_gear107",
+    "hum": "e31_insula_gear99",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_rubero_gear103"
+   },
+   "bag": []
+  },
+  "阿谢拉特": {
+   "eq": {
+    "dext": "e31_sadalm_gear95",
+    "sin": "e31_nox_gear35",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_letkin_gear63",
+    "hum": "e31_betelg_gear47",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_desert_gear15"
+   },
    "bag": [
+    {
+     "k": "e31_literacy_school_token",
+     "n": 1
+    },
     {
      "k": "e31_bank_passbook",
      "n": 1
     }
    ]
   },
+  "哈迪斯": {
+   "eq": {
+    "dext": "e31_labyri_gear59",
+    "sin": "e31_utgard_gear87",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_regnum_gear107",
+    "hum": "e31_teocal_gear91",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_porta_gear39"
+   },
+   "bag": []
+  },
+  "沙玛什": {
+   "eq": {
+    "dext": "e31_procyo_gear43",
+    "sin": "e31_terra_gear67",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_minoa_gear55",
+    "hum": "e31_steppa_gear79",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_bestia_gear75"
+   },
+   "bag": []
+  },
   "伊弗利特": {
-   "eq": {},
+   "eq": {
+    "dext": "e31_mons_gear11",
+    "sin": "e31_nox_gear35",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_regnum_gear107",
+    "hum": "e31_insula_gear99",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_desert_gear15"
+   },
    "bag": []
   },
   "奥西里斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e31_glacie_gear31",
+    "sin": "e31_utgard_gear87",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_letkin_gear63",
+    "hum": "e31_teocal_gear91",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_porta_gear39"
+   },
    "bag": []
   },
   "年轻帝国皇帝": {
-   "eq": {},
+   "eq": {
+    "dext": "e31_procyo_gear43",
+    "sin": "e31_terra_gear67",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_minoa_gear55",
+    "hum": "e31_arbor_gear27",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_rubero_gear103"
+   },
    "bag": [
     {
      "k": "e31_bank_passbook",
@@ -103,13 +178,28 @@
    ]
   },
   "现任国际象棋特级大师": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e31_chess_set_human",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e31_sadalm_gear95",
+    "sin": "e31_nox_gear35",
+    "corp": "e31_yggdra_gear7",
+    "cap": "e31_letkin_gear63",
+    "hum": "e31_betelg_gear47",
+    "cing": "e31_sirius_gear51",
+    "ped": "e31_bestia_gear75"
+   },
+   "bag": []
+  },
+  "艺术家公会女接待员": {
+   "eq": {
+    "dext": "e31_mons_gear11",
+    "sin": "e31_terra_gear67",
+    "corp": "e31_palus_gear19",
+    "cap": "e31_regnum_gear107",
+    "hum": "e31_steppa_gear79",
+    "cing": "e31_semeri_gear83",
+    "ped": "e31_mare_gear23"
+   },
+   "bag": []
   }
  },
  "items": [

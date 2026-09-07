@@ -235,20 +235,11 @@
    ]
   },
   "原初之兽": {
-   "bag": [
-    {
-     "k": "e9_beastgod_treat_bone",
-     "n": 3
-    },
-    {
-     "k": "e9_potato_baked",
-     "n": 2
-    },
-    {
-     "k": "e9_bee_queen_snack",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "cap": "e9_reaper_skull_mask",
+    "corp": "e9_frost_resist_wrap"
+   },
+   "bag": []
   },
   "刻瑞斯": {
    "eq": {
@@ -304,6 +295,61 @@
      "n": 1
     }
    ]
+  },
+  "约哈南／首位英雄": {
+   "eq": {
+    "dext": "e9_hero_sword_claussolas",
+    "sin": "e9_simple_shield",
+    "corp": "e9_leather_armor",
+    "cap": "e9_bronze_helm",
+    "hum": "e9_battle_standard_badge",
+    "cing": "e9_belt_pouch",
+    "ped": "e9_travel_boots",
+    "terg": "e9_quiver_leather"
+   },
+   "bag": []
+  },
+  "塞班村女孩／村长": {
+   "eq": {
+    "dext": "e9_shepherd_crook",
+    "corp": "e9_village_dress",
+    "cap": "e9_beekeeper_veil",
+    "hum": "e9_village_head_sash",
+    "cing": "e9_shepherd_belt_pouch",
+    "ped": "e9_sandals"
+   },
+   "bag": []
+  },
+  "阿卡德二王子／受诅者": {
+   "eq": {
+    "dext": "e9_blood_blade",
+    "corp": "e9_ragged_black_cloak",
+    "cap": "e9_sunshade_hood",
+    "cing": "e9_power_seal_charm",
+    "ped": "e9_nomad_boots"
+   },
+   "bag": []
+  },
+  "玛凯罗杜斯／什图尔": {
+   "eq": {
+    "dext": "e9_keres_greatsword",
+    "corp": "e9_lizardfolk_scale_wrap",
+    "cap": "e9_wolf_tribe_headband",
+    "hum": "e9_horsehide_cloak",
+    "cing": "e9_belt_pouch",
+    "ped": "e9_furlined_boots_south"
+   },
+   "bag": []
+  },
+  "阎魔／摩罗斯": {
+   "eq": {
+    "dext": "e9_yama_mirror",
+    "sin": "e9_yama_scroll",
+    "corp": "e9_reaper_robe",
+    "cap": "e9_reaper_skull_mask",
+    "ped": "e9_furlined_boots_south"
+   },
+   "bag": []
   }
  },
  "items": [

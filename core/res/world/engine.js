@@ -9364,12 +9364,40 @@ function worldCoinStart(){
   var n=NaN;try{n=parseInt(WITEMS&&WITEMS.start,10);}catch(_){}
   return isNaN(n)?0:n;
 }
+/* 本纪货单的 kits 是按人分的：本局扮谁，就发谁那一份行头。
+   名字取自装好的卡（worldStart 在 loadOpening 之前已写好 heroName），
+   自定义身份或对不上名字的，退回 default 那一份。 */
+function worldKitName(){
+  var who='';
+  try{who=(CARDS[ACTIVE]&&CARDS[ACTIVE].heroName)||'';}catch(_){}
+  return String(who||'').trim();
+}
+function worldKitPick(){
+  var kits=null;
+  try{kits=WITEMS&&WITEMS.kits;}catch(_){}
+  if(!kits)return null;
+  var who=worldKitName();
+  if(who){
+    if(kits[who])return kits[who];
+    /* 卡名写作「洛伦／主角龙」，货单里若只记了「洛伦」，按斜杠前后各试一次。 */
+    var parts=who.split(/[／\/]/);
+    for(var i=0;i<parts.length;i++){
+      var p=parts[i].trim();
+      if(p&&kits[p])return kits[p];
+    }
+  }
+  return kits['default']||kits._||null;
+}
 function worldKitInv(){
-  var kit=null;
-  try{kit=WITEMS&&WITEMS.kits&&(WITEMS.kits['default']||WITEMS.kits._);}catch(_){}
+  var kit=worldKitPick();
   if(!kit)return {eq:{},bag:[]};
   var eq={},bag=[],i;
-  for(i in (kit.eq||{}))if(ARMDB[kit.eq[i]])eq[i]=kit.eq[i];
+  /* 槽位以物件自己写明的 slot 为准：kits 里若把剑记在了左手，
+     装备栏会画出一把「左手的剑」，而卸下时又按 slot 找回右手，那一件就丢了。 */
+  for(i in (kit.eq||{})){
+    var id=kit.eq[i],it=ARMDB[id];
+    if(it)eq[it.slot||i]=id;
+  }
   (kit.bag||[]).forEach(function(b){
     var id=b.k||b.id;if(ARMDB[id])bag.push({id:id,n:b.n||1});});
   return {eq:eq,bag:bag};

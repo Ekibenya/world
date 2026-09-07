@@ -19,14 +19,25 @@
    ]
   },
   "蒂雅／龙族巫女／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e17_daen",
+    "sin": "e17_wal_silver_dagger",
+    "corp": "e17_dragon_priest_robe",
+    "cap": "e17_sem_sun_hat",
+    "hum": "e17_wal_noble_cape",
+    "ped": "e17_wal_mountain_boot"
+   },
    "bag": [
+    {
+     "k": "e17_mage_pocket_watch",
+     "n": 1
+    },
     {
      "k": "e17_grand_library_card",
      "n": 1
     },
     {
-     "k": "e17_mage_pocket_watch",
+     "k": "e17_temple_blessing_ring",
      "n": 1
     }
    ]
@@ -89,19 +100,21 @@
    ]
   },
   "西娅": {
-   "eq": {},
+   "eq": {
+    "dext": "e17_steppa_knife",
+    "sin": "e17_sir_noble_ring",
+    "corp": "e17_semerim_linen",
+    "cap": "e17_sem_sun_hat",
+    "ped": "e17_sem_straw_sandals"
+   },
    "bag": [
     {
-     "k": "e17_scribe_quill",
+     "k": "e17_qin_banliang",
      "n": 1
     },
     {
-     "k": "e17_procyon_ink",
+     "k": "e17_courier_badge",
      "n": 1
-    },
-    {
-     "k": "e17_tree_paper",
-     "n": 3
     }
    ]
   },
@@ -143,10 +156,25 @@
    ]
   },
   "阿谢拉特": {
-   "eq": {},
+   "eq": {
+    "dext": "e17_wal_hunting_bow",
+    "sin": "e17_wal_silver_dagger",
+    "corp": "e17_scholar_robe",
+    "cap": "e17_elf_envoy_circlet",
+    "hum": "e17_wal_noble_cape",
+    "ped": "e17_wal_mountain_boot"
+   },
    "bag": [
     {
-     "k": "e17_temple_donation_box",
+     "k": "e17_grand_library_card",
+     "n": 1
+    },
+    {
+     "k": "e17_lottery_token",
+     "n": 1
+    },
+    {
+     "k": "e17_law_codex",
      "n": 1
     }
    ]

@@ -10,10 +10,22 @@
    "bag": []
   },
   "蒂雅／创世龙神／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e19_lawman_scale_sword",
+    "sin": "e19_harmony_branch",
+    "corp": "e19_vh_silver_armor2",
+    "cap": "e19_desert_gear15",
+    "hum": "e19_sirius_gear51",
+    "cing": "e19_templu_gear71",
+    "ped": "e19_wallac_gear87"
+   },
    "bag": [
     {
-     "k": "e19_teocalli_sugar",
+     "k": "e19_dragon_priestess_statue_token",
+     "n": 1
+    },
+    {
+     "k": "e19_mermaid_guide_pearl",
      "n": 1
     }
    ]
@@ -30,16 +42,27 @@
    ]
   },
   "埃里克": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e19_utgard_giant_market_token",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e19_palus_gear19",
+    "sin": "e19_sagarm_gear3",
+    "corp": "e19_nox_gear35",
+    "cap": "e19_arbor_gear27",
+    "hum": "e19_procyo_gear43",
+    "cing": "e19_mons_gear11",
+    "ped": "e19_betelg_gear47"
+   },
+   "bag": []
   },
   "库茨": {
-   "eq": {},
+   "eq": {
+    "dext": "e19_terra_gear67",
+    "sin": "e19_sagarm_gear3",
+    "corp": "e19_labyri_gear59",
+    "cap": "e19_porta_gear39",
+    "hum": "e19_steppa_gear79",
+    "cing": "e19_letkin_gear63",
+    "ped": "e19_wallac_gear87"
+   },
    "bag": [
     {
      "k": "e19_kuts_lizard_travel_gear",
@@ -68,35 +91,43 @@
    "bag": []
   },
   "佩尔": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e19_teocalli_reed_boat_ticket",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e19_bestia_gear75",
+    "corp": "e19_sadalm_gear103",
+    "cap": "e19_desert_gear15",
+    "hum": "e19_yggdra_gear7",
+    "cing": "e19_teocal_gear99",
+    "ped": "e19_betelg_gear47"
+   },
+   "bag": []
   },
   "忒提斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e19_semeri_gear83",
+    "sin": "e19_harmony_branch",
+    "corp": "e19_nox_gear35",
+    "hum": "e19_sirius_gear51",
+    "cing": "e19_mare_gear23",
+    "ped": "e19_wallac_gear87"
+   },
    "bag": [
     {
      "k": "e19_mermaid_guide_pearl",
-     "n": 1
-    },
-    {
-     "k": "e19_melik_temple_token",
      "n": 1
     }
    ]
   },
   "亚哈": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e19_utgard_giant_market_token",
-     "n": 1
-    }
-   ]
+   "eq": {
+    "dext": "e19_utgard_gear95",
+    "sin": "e19_sagarm_gear3",
+    "corp": "e19_labyri_gear59",
+    "cap": "e19_porta_gear39",
+    "hum": "e19_steppa_gear79",
+    "cing": "e19_arx_gear91",
+    "ped": "e19_betelg_gear47"
+   },
+   "bag": []
   },
   "沙玛什": {
    "eq": {
@@ -105,14 +136,17 @@
    "bag": []
   },
   "阿尔伯特": {
-   "eq": {},
+   "eq": {
+    "dext": "e19_minoa_gear55",
+    "corp": "e19_sadalm_gear103",
+    "cap": "e19_arbor_gear27",
+    "hum": "e19_procyo_gear43",
+    "cing": "e19_letkin_gear63",
+    "ped": "e19_wallac_gear87"
+   },
    "bag": [
     {
-     "k": "e19_north_relief_marker",
-     "n": 1
-    },
-    {
-     "k": "e19_dragon_priestess_statue_token",
+     "k": "e19_melik_temple_token",
      "n": 1
     }
    ]

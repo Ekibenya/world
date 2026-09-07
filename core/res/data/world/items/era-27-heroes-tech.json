@@ -10,11 +10,31 @@
    "bag": []
   },
   "洛伦／生命女神／主角龙": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e27_templu_gear71",
+    "sin": "e27_sirius_gear51",
+    "hum": "e27_rubero_gear103",
+    "cing": "e27_mare_gear23",
+    "ped": "e27_yggdra_gear7"
+   },
+   "bag": [
+    {
+     "k": "e27_sealed_book_device",
+     "n": 1
+    },
+    {
+     "k": "e27_mana_reader_prototype",
+     "n": 1
+    }
+   ]
   },
   "露西亚·马格努斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e27_labyri_gear59",
+    "sin": "e27_nox_gear35",
+    "cing": "e27_bestia_gear75",
+    "ped": "e27_desert_gear15"
+   },
    "bag": [
     {
      "k": "e27_mana_reader_prototype",
@@ -27,24 +47,12 @@
    ]
   },
   "伽拉忒亚II": {
-   "eq": {},
-   "bag": []
-  },
-  "阿谢拉特": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e27_nectar_experience_log",
-     "n": 1
-    }
-   ]
-  },
-  "睡眼惺忪少女": {
-   "eq": {},
-   "bag": []
-  },
-  "转生者A": {
-   "eq": {},
+   "eq": {
+    "dext": "e27_betelg_gear47",
+    "sin": "e27_procyo_gear43",
+    "cing": "e27_steppa_gear79",
+    "ped": "e27_glacie_gear31"
+   },
    "bag": [
     {
      "k": "e27_mana_line_cable",
@@ -52,8 +60,13 @@
     }
    ]
   },
-  "贝尔穆特伯爵": {
-   "eq": {},
+  "阿谢拉特": {
+   "eq": {
+    "dext": "e27_arbor_gear27",
+    "sin": "e27_mons_gear11",
+    "cing": "e27_sadalm_gear95",
+    "ped": "e27_minoa_gear55"
+   },
    "bag": [
     {
      "k": "e27_society_club_badge",
@@ -61,17 +74,60 @@
     }
    ]
   },
-  "西娅蒂雅／希雅": {
-   "eq": {},
+  "睡眼惺忪少女": {
+   "eq": {
+    "dext": "e27_porta_gear39",
+    "sin": "e27_nox_gear35",
+    "cing": "e27_mare_gear23",
+    "ped": "e27_letkin_gear63"
+   },
    "bag": [
     {
-     "k": "e27_sealed_book_device",
+     "k": "e27_nectar_experience_log",
      "n": 1
     }
    ]
   },
+  "转生者A": {
+   "eq": {
+    "dext": "e27_terra_gear67",
+    "sin": "e27_procyo_gear43",
+    "cing": "e27_bestia_gear75",
+    "ped": "e27_semeri_gear83"
+   },
+   "bag": [
+    {
+     "k": "e27_nectar_experience_log",
+     "n": 1
+    }
+   ]
+  },
+  "贝尔穆特伯爵": {
+   "eq": {
+    "dext": "e27_utgard_gear87",
+    "sin": "e27_sirius_gear51",
+    "hum": "e27_rubero_gear103",
+    "cing": "e27_steppa_gear79",
+    "ped": "e27_insula_gear99"
+   },
+   "bag": []
+  },
+  "西娅蒂雅／希雅": {
+   "eq": {
+    "dext": "e27_palus_gear19",
+    "sin": "e27_mons_gear11",
+    "cing": "e27_sadalm_gear95",
+    "ped": "e27_yggdra_gear7"
+   },
+   "bag": []
+  },
   "赤塔新教授": {
-   "eq": {},
+   "eq": {
+    "dext": "e27_sagarm_gear3",
+    "sin": "e27_nox_gear35",
+    "cing": "e27_mare_gear23",
+    "ped": "e27_desert_gear15"
+   },
    "bag": [
     {
      "k": "e27_sagarmatha_lost_history",

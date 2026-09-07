@@ -10,14 +10,22 @@
    "bag": []
   },
   "洛伦／蒂雅／生命女神／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e23_templu_gear71",
+    "sin": "e23_letkin_gear63",
+    "corp": "e23_sirius_gear51",
+    "cap": "e23_minoa_gear55",
+    "hum": "e23_arbor_gear27",
+    "cing": "e23_palus_gear19",
+    "ped": "e23_yggdra_gear7"
+   },
    "bag": [
     {
-     "k": "e23_soul_bead_artemisia",
+     "k": "e23_goddess_statue_fragment",
      "n": 1
     },
     {
-     "k": "e23_soul_bead_jeria",
+     "k": "e23_embalm_scroll",
      "n": 1
     }
    ]
@@ -29,7 +37,15 @@
    "bag": []
   },
   "诺亚·德拉格玛·伊德里斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e23_nox_gear35",
+    "sin": "e23_desert_gear15",
+    "corp": "e23_rubero_elite_armor",
+    "cap": "e23_sagarm_gear3",
+    "hum": "e23_steppa_gear79",
+    "cing": "e23_betelg_gear47",
+    "ped": "e23_mare_gear23"
+   },
    "bag": [
     {
      "k": "e23_noah_succession_seal",
@@ -38,43 +54,76 @@
    ]
   },
   "阿谢拉特": {
-   "eq": {},
+   "eq": {
+    "dext": "e23_templu_gear71",
+    "sin": "e23_letkin_gear63",
+    "corp": "e23_wallac_gear87",
+    "cap": "e23_labyri_gear59",
+    "hum": "e23_glacie_gear31",
+    "cing": "e23_sadalm_gear99",
+    "ped": "e23_yggdra_gear7"
+   },
    "bag": [
     {
-     "k": "e23_embalm_scroll",
+     "k": "e23_dwarf_beer_token",
      "n": 1
     }
    ]
   },
   "伊格尼斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e23_procyo_gear43",
+    "sin": "e23_desert_gear15",
+    "corp": "e23_porta_gear39",
+    "cap": "e23_mons_gear11",
+    "hum": "e23_arbor_gear27",
+    "cing": "e23_palus_gear19",
+    "ped": "e23_mare_gear23"
+   },
    "bag": []
   },
   "德林格伯爵": {
-   "eq": {},
-   "bag": [
-    {
-     "k": "e23_dwarf_beer_token",
-     "n": 2
-    }
-   ]
+   "eq": {
+    "dext": "e23_terra_gear67",
+    "sin": "e23_letkin_gear63",
+    "corp": "e23_rubero_gear107",
+    "cap": "e23_bestia_gear75",
+    "hum": "e23_steppa_gear79",
+    "cing": "e23_betelg_gear47",
+    "ped": "e23_yggdra_gear7"
+   },
+   "bag": []
   },
   "泽斯特祭司": {
-   "eq": {},
+   "eq": {
+    "dext": "e23_templu_gear71",
+    "corp": "e23_sirius_gear51",
+    "cap": "e23_semeri_gear83",
+    "hum": "e23_glacie_gear31",
+    "cing": "e23_sadalm_gear99",
+    "ped": "e23_mare_gear23"
+   },
    "bag": [
     {
      "k": "e23_fake_death_token",
+     "n": 1
+    },
+    {
+     "k": "e23_soul_bead_artemisia",
      "n": 1
     }
    ]
   },
   "未具名青年": {
-   "eq": {},
+   "eq": {
+    "dext": "e23_utgard_gear91",
+    "sin": "e23_desert_gear15",
+    "corp": "e23_wallac_gear87",
+    "cap": "e23_minoa_gear55",
+    "cing": "e23_palus_gear19",
+    "ped": "e23_yggdra_gear7"
+   },
    "bag": [
-    {
-     "k": "e23_goddess_statue_fragment",
-     "n": 1
-    },
     {
      "k": "e23_migration_relief_pack",
      "n": 1

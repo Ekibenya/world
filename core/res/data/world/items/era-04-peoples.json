@@ -68,55 +68,42 @@
    ]
   },
   "伊格德拉西尔": {
-   "eq": {},
+   "eq": {
+    "dext": "e4_living_wood_bow",
+    "sin": "e4_elf_woven_bark_guard",
+    "corp": "e4_elf_leaf_cloak",
+    "cap": "e4_branch_crown",
+    "ped": "e4_woven_sandals"
+   },
    "bag": [
-    {
-     "k": "e4_living_wood_bow",
-     "n": 1
-    },
-    {
-     "k": "e4_living_wood_arrow",
-     "n": 5
-    },
-    {
-     "k": "e4_vine_bowstring",
-     "n": 2
-    },
     {
      "k": "e4_harmony_branch",
      "n": 1
     },
     {
-     "k": "e4_elemental_spirit_gem",
-     "n": 2
-    },
-    {
-     "k": "e4_yggdrasil_fruit",
-     "n": 4
-    },
-    {
-     "k": "e4_elf_healing_herb",
-     "n": 3
+     "k": "e4_living_wood_arrow",
+     "n": 6
     }
    ]
   },
   "龙领主": {
-   "eq": {},
+   "eq": {
+    "dext": "e4_dwarf_steel_hammer",
+    "sin": "e4_bronze_buckler",
+    "corp": "e4_thick_hide_armor",
+    "cap": "e4_silver_crown_unique",
+    "hum": "e4_giant_hide_pauldron",
+    "cing": "e4_hide_belt",
+    "ped": "e4_hide_boots",
+    "terg": "e4_travelers_satchel"
+   },
    "bag": [
     {
-     "k": "e4_white_flower_bundle",
-     "n": 2
-    },
-    {
-     "k": "e4_raw_obsidian",
-     "n": 2
-    },
-    {
-     "k": "e4_rock_salt_chunk",
+     "k": "e4_stone_tablet_chronicle",
      "n": 1
     },
     {
-     "k": "e4_bronze_ingot",
+     "k": "e4_dwarf_silver_vein_sample",
      "n": 1
     }
    ]

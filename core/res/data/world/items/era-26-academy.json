@@ -15,28 +15,55 @@
    ]
   },
   "洛伦／守护龙／主角龙": {
-   "eq": {},
-   "bag": []
+   "eq": {
+    "dext": "e26_sagarm_gear3",
+    "sin": "e26_arbor_gear27",
+    "corp": "e26_templu_gear71",
+    "cap": "e26_mons_gear11",
+    "hum": "e26_rubero_gear103",
+    "cing": "e26_sirius_gear51",
+    "ped": "e26_yggdra_gear7"
+   },
+   "bag": [
+    {
+     "k": "e26_academy_admission_token",
+     "n": 1
+    },
+    {
+     "k": "e26_otherworld_monocle",
+     "n": 1
+    }
+   ]
   },
   "露西亚·马格努斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e26_procyo_gear43",
+    "sin": "e26_glacie_gear31",
+    "corp": "e26_mare_gear23",
+    "cap": "e26_nox_gear35",
+    "cing": "e26_terra_gear67",
+    "ped": "e26_minoa_gear55"
+   },
    "bag": [
     {
      "k": "e26_philosophers_stone",
      "n": 1
     },
     {
-     "k": "e26_otherworld_monocle",
-     "n": 1
-    },
-    {
-     "k": "e26_lucia_fan_letter",
+     "k": "e26_society_charter",
      "n": 1
     }
    ]
   },
   "伽拉忒亚II": {
-   "eq": {},
+   "eq": {
+    "dext": "e26_porta_gear39",
+    "sin": "e26_semeri_gear83",
+    "corp": "e26_templu_gear71",
+    "cap": "e26_teocal_gear91",
+    "cing": "e26_sirius_gear51",
+    "ped": "e26_letkin_gear63"
+   },
    "bag": [
     {
      "k": "e26_galatea_ii_token",
@@ -45,11 +72,14 @@
    ]
   },
   "转生者A": {
-   "eq": {},
-   "bag": []
-  },
-  "贝尔穆特伯爵": {
-   "eq": {},
+   "eq": {
+    "dext": "e26_desert_gear15",
+    "sin": "e26_insula_gear99",
+    "corp": "e26_mare_gear23",
+    "cap": "e26_mons_gear11",
+    "cing": "e26_terra_gear67",
+    "ped": "e26_yggdra_gear7"
+   },
    "bag": [
     {
      "k": "e26_academy_admission_token",
@@ -57,17 +87,48 @@
     }
    ]
   },
+  "贝尔穆特伯爵": {
+   "eq": {
+    "dext": "e26_betelg_gear47",
+    "sin": "e26_arbor_gear27",
+    "corp": "e26_templu_gear71",
+    "cap": "e26_nox_gear35",
+    "hum": "e26_rubero_gear103",
+    "cing": "e26_sirius_gear51",
+    "ped": "e26_minoa_gear55"
+   },
+   "bag": []
+  },
   "老皇帝／学院创办者": {
-   "eq": {},
+   "eq": {
+    "dext": "e26_sadalm_gear95",
+    "sin": "e26_glacie_gear31",
+    "corp": "e26_mare_gear23",
+    "cap": "e26_teocal_gear91",
+    "hum": "e26_rubero_gear103",
+    "cing": "e26_terra_gear67",
+    "ped": "e26_letkin_gear63"
+   },
    "bag": [
     {
      "k": "e26_academy_admission_token",
+     "n": 1
+    },
+    {
+     "k": "e26_lucia_fan_letter",
      "n": 1
     }
    ]
   },
   "洛希安·艾尔梅斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e26_labyri_gear59",
+    "sin": "e26_semeri_gear83",
+    "corp": "e26_templu_gear71",
+    "cap": "e26_mons_gear11",
+    "cing": "e26_sirius_gear51",
+    "ped": "e26_yggdra_gear7"
+   },
    "bag": [
     {
      "k": "e26_society_charter",
@@ -76,10 +137,17 @@
    ]
   },
   "帕拉塞尔苏斯·霍恩海姆": {
-   "eq": {},
+   "eq": {
+    "dext": "e26_steppa_gear79",
+    "sin": "e26_insula_gear99",
+    "corp": "e26_mare_gear23",
+    "cap": "e26_nox_gear35",
+    "cing": "e26_terra_gear67",
+    "ped": "e26_minoa_gear55"
+   },
    "bag": [
     {
-     "k": "e26_bounty_goddess_relic",
+     "k": "e26_philosophers_stone",
      "n": 1
     }
    ]

@@ -36,35 +36,24 @@
    ]
   },
   "主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e5_heart_of_earth_relic",
+    "sin": "e5_reed_woven_shield",
+    "corp": "e5_flax_tunic",
+    "cap": "e5_woven_leaf_veil",
+    "hum": "e5_shamash_sunburst_amulet",
+    "cing": "e5_hide_pouch_belt",
+    "ped": "e5_woven_sandal_common",
+    "terg": "e5_hide_quiver"
+   },
    "bag": [
+    {
+     "k": "e5_dragonkin_blessing_shard",
+     "n": 1
+    },
     {
      "k": "e5_shamash_law_codex",
      "n": 1
-    },
-    {
-     "k": "e5_pictograph_slate",
-     "n": 3
-    },
-    {
-     "k": "e5_law_tablet_copy",
-     "n": 2
-    },
-    {
-     "k": "e5_meditation_focus_stone",
-     "n": 2
-    },
-    {
-     "k": "e5_elemental_kinship_bead",
-     "n": 2
-    },
-    {
-     "k": "e5_frost_light_shard",
-     "n": 1
-    },
-    {
-     "k": "e5_honeyed_flower_candy",
-     "n": 3
     }
    ]
   },

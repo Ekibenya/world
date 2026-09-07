@@ -10,10 +10,22 @@
    "bag": []
   },
   "洛伦／主角龙": {
-   "eq": {},
+   "eq": {
+    "dext": "e32_templu_gear71",
+    "sin": "e32_letkin_gear63",
+    "corp": "e32_labyri_gear59",
+    "cap": "e32_arbor_gear27",
+    "hum": "e32_sadalm_gear95",
+    "cing": "e32_sirius_gear51",
+    "ped": "e32_minoa_gear55"
+   },
    "bag": [
     {
      "k": "e32_erebus_nightlight",
+     "n": 1
+    },
+    {
+     "k": "e32_asherat_novel_stack",
      "n": 1
     }
    ]
@@ -30,7 +42,15 @@
    ]
   },
   "沙利文": {
-   "eq": {},
+   "eq": {
+    "dext": "e32_betelg_gear47",
+    "sin": "e32_procyo_gear43",
+    "corp": "e32_desert_gear15",
+    "cap": "e32_arbor_gear27",
+    "hum": "e32_mons_gear11",
+    "cing": "e32_yggdra_gear7",
+    "ped": "e32_nox_gear35"
+   },
    "bag": [
     {
      "k": "e32_sullivan_token",
@@ -50,7 +70,14 @@
    ]
   },
   "忒提斯": {
-   "eq": {},
+   "eq": {
+    "dext": "e32_mare_gear23",
+    "sin": "e32_steppa_gear79",
+    "corp": "e32_palus_gear19",
+    "hum": "e32_sadalm_gear95",
+    "cing": "e32_sirius_gear51",
+    "ped": "e32_teocal_gear91"
+   },
    "bag": []
   }
  },
