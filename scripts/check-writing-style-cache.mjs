@@ -33,8 +33,8 @@ const handlers={},cached='old settings module';let cacheMode;
 runInNewContext(sw,{
  self:{addEventListener:(name,fn)=>handlers[name]=fn,skipWaiting(){},clients:{claim(){}}},
  location:{origin:'https://world.test'},URL,Response,
- caches:{match:async()=>new Response(cached),open:async()=>({put:async()=>{}})},
- fetch:async(request,options)=>{cacheMode=options?.cache;return new Response(cacheMode==='no-cache'?'fresh settings module':cached);}
+ caches:{match:async()=>new Response(cached,{headers:{'content-type':'text/javascript'}}),open:async()=>({put:async()=>{}})},
+ fetch:async(request,options)=>{cacheMode=options?.cache;return new Response(cacheMode==='no-cache'?'fresh settings module':cached,{headers:{'content-type':'text/javascript'}});}
 });
 let response;handlers.fetch({request:{method:'GET',url:'https://world.test/core/res/world/risu-native-settings.mjs',mode:'cors'},respondWith:p=>response=p});
 assert.equal(await(await response).text(),'fresh settings module');
