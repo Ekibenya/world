@@ -2651,7 +2651,7 @@ function risuInvoke(messages,cb,err,opt){
     var ei=_eraNow()||1;return felRisuPrompts().then(function(controls){controls.apply(SET.risu);
       return risu.activateEra(ei,felRisuNpcKeys(ei));
     }).then(function(){return risu;});
-  }):felRisuPrepare(messages,{firstMessage:opening?'':undefined})).then(function(risu){
+  }):felRisuPrepare(messages,{firstMessage:opening?'':undefined,opening:opening})).then(function(risu){
     return risu.configureTranslation(felTrCfg()).then(function(){return risu;});
   }).then(function(risu){
     var source=(aux&&SET.sub&&SET.sub.base&&SET.sub.model)?SET.sub:API;
@@ -3551,7 +3551,7 @@ var FEL_RISU_NATIVE=null,FEL_RISU_NATIVE_READY=null,FEL_RISU_NATIVE_UI=null;
 function felRisuNative(){
   if(FEL_RISU_NATIVE_READY)return FEL_RISU_NATIVE_READY;
   FEL_RISU_NATIVE_READY=felRisuPrompts().then(function(){return Promise.all([
-    import('./risu-native-settings.mjs?v=dragon-style-2'),import('./risu-native-ui.mjs?v=dragon-style-2')
+    import('./risu-native-settings.mjs?v=world-rules-1'),import('./risu-native-ui.mjs?v=world-rules-1')
   ]);}).then(function(parts){
     return parts[0].createNativeSettings({load:function(name){return window.RisuHeadless.load(name);},
       getSettings:function(){return SET.risu;},save:function(){if(!lsSet('guardianDragonSet',JSON.stringify(SET)))throw new Error('设置未能保存：本机存储已满');if(typeof autoSave==='function')autoSave(true);},
@@ -3683,7 +3683,7 @@ function felRisuPrepare(messages,options){
     var ei=_eraNow()||1,system='',history=[];
     (messages||[]).forEach(function(message){
       if(message.role==='system'&&!system)system=String(message.content||'');
-      else history.push({role:message.role,content:String(message.content||''),
+      else history.push({role:message.role,content:options&&options.opening&&message.role==='user'?FEL_RISU_NATIVE.worldWritingText(message.content):String(message.content||''),
         scanContent:message.scanContent==null?undefined:String(message.scanContent),name:message.name,
         memoryIndex:Number.isFinite(message.memoryIndex)?message.memoryIndex:undefined});
     });
@@ -3694,7 +3694,7 @@ function felRisuPrepare(messages,options){
     return felRisuPrompts().then(function(controls){controls.apply(SET.risu);
       return risu.activateEra(ei,felRisuNpcKeys(ei));
     }).then(function(){
-      return risu.setSessionContent({systemPrompt:FEL_RISU_NATIVE.composeSystemPrompt(system),authorNote:FELINIA_AUTHOR_NOTE,firstMessage:first,
+      return risu.setSessionContent({systemPrompt:FEL_RISU_NATIVE.composeSystemPrompt(system),authorNote:FEL_RISU_NATIVE.worldWritingText(FELINIA_AUTHOR_NOTE),firstMessage:first,
         localLore:loreCustomGet().filter(function(e){return e&&e.on!==false;}),
         loreTokenBudget:Math.max(64,Math.round((parseInt(SET.loreBud,10)||20000)*1.1)),
         loreScanDepth:parseInt((SET.risu||{}).loreDepth,10)||5,

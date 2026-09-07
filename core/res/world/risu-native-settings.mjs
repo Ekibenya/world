@@ -1,7 +1,8 @@
 /* World settings host for Risu 2026.8.250 (upstream e565563a).
  * Imports, execution, permissions and prompt parsing remain in the native engine.
  */
-import {applyWritingStyle,writingGenerationOptions,writingStyleSource} from './dragon-writing-style.mjs?v=dragon-style-2';
+import {applyWritingStyle,writingGenerationOptions,writingStyleSource} from './dragon-writing-style.mjs?v=world-rules-1';
+import {WORLD_WRITING_RULES,worldRuleEnabled,filterWorldWriting,worldRuleOverrides} from './world-writing-rules.mjs?v=world-rules-1';
 export const clone = value => value == null ? value : JSON.parse(JSON.stringify(value));
 export const TASKS = {memory:'记忆摘要', translate:'翻译', emotion:'表情判断', otherAx:'其他辅助任务与剧情规划'};
 const CONNECTION = ['aiModel','subModel','proxyRequestModel','customProxyRequestModel','forceReplaceUrl','proxyKey','customAPIFormat','usePlainFetch','autofillRequestUrl'];
@@ -26,14 +27,20 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   const state = () => (getSettings().nativeState ||= {});
   const session = () => getSession?.();
   const writingStyleEnabled = () => state().dragonWritingStyle !== false;
+  const worldWritingText = text => filterWorldWriting(text,state());
+  const worldWritingRuleEnabled = id => worldRuleEnabled(state(),id);
+  function setWorldWritingRule(id,value){
+    if(!WORLD_WRITING_RULES.some(rule=>rule.id===id))throw Error('未知写作条目');
+    (state().worldWritingRules||={})[id]=!!value;prepareWritingStyle();capture();
+  }
   function prepareWritingStyle(){
     const character=database.getCurrentCharacter();
     if(!character)return;
-    applyWritingStyle(character,writingStyleEnabled());
+    applyWritingStyle(character,writingStyleEnabled(),worldRuleOverrides(state()));
     database.setCurrentCharacter(character);
   }
   function setWritingStyle(value){state().dragonWritingStyle=!!value;prepareWritingStyle();capture();}
-  function generationOptions(minChars){return writingGenerationOptions(writingStyleEnabled(),minChars);}
+  function generationOptions(minChars){return {...writingGenerationOptions(writingStyleEnabled(),minChars,state()),filterPlanning:worldWritingText};}
   let loadedPlugins = false;
   function preset() {return db().botPresets?.[db().botPresetsId];}
   function parameterSource(){return state().parameterSource||(getSettings().nativePreset?'preset':'world');}
@@ -69,6 +76,7 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
     if(seed)capture();
   }
   function composeSystemPrompt(worldPrompt='') {
+    worldPrompt=worldWritingText(worldPrompt);
     // Native legacy assembly expands {{original}} itself. Template presets
     // retain their author's order and fields, without an extra injected block.
     if(!state().combineWorldPrompt||db().promptTemplate||worldPrompt.includes('{{original}}'))return worldPrompt;
@@ -162,6 +170,7 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   }
   return {database,modules,plugins,stores,triggers,db,state,preset,capture,restore,afterProvider,startPlugins,
     writingStyleEnabled,setWritingStyle,prepareWritingStyle,generationOptions,writingStyleSource,
+    worldWritingRules:WORLD_WRITING_RULES,worldWritingText,worldWritingRuleEnabled,setWorldWritingRule,
     changePreset,editPreset,addPreset,deletePreset,exportPreset,parameterSource,setParameterSource,options,getVar,setVar,setLocal,unpin,
     applySession,saveSession,memorySettings,runManual,applyModels,composeSystemPrompt};
 }

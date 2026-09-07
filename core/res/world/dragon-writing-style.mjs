@@ -1,4 +1,5 @@
-import data from './dragon-writing-style-data.mjs?v=dragon-style-2';
+import data from './dragon-writing-style-data.mjs?v=world-rules-1';
+import {worldRuleEnabled,worldRuleOverrides} from './world-writing-rules.mjs?v=world-rules-1';
 // Risu database values may be Svelte proxies, which structuredClone rejects.
 const copy=value=>value==null?value:JSON.parse(JSON.stringify(value));
 
@@ -18,7 +19,7 @@ export const STYLE_PROMPT = [STYLE_SCOPE,
 
 // Native Risu inserts depth_prompt after both legacy and template assembly.
 // Keep a pre-existing depth prompt recoverable and avoid stacking each turn.
-export function applyWritingStyle(character,enabled=true) {
+export function applyWritingStyle(character,enabled=true,overrides='') {
   if(!character||character.type==='group')return;
   const ext=character.extentions||={},saved=ext.worldWritingStyle;
   if(!enabled){
@@ -32,11 +33,12 @@ export function applyWritingStyle(character,enabled=true) {
   if(!saved)ext.worldWritingStyle={originalDepth:character.depth_prompt?copy(character.depth_prompt):null};
   character.extentions=ext;
   const original=ext.worldWritingStyle.originalDepth?.prompt;
-  character.depth_prompt={depth:0,prompt:[original,STYLE_PROMPT].filter(Boolean).join('\n\n')};
+  character.depth_prompt={depth:0,prompt:[original,STYLE_PROMPT,overrides].filter(Boolean).join('\n\n')};
 }
 
-export function writingGenerationOptions(enabled,minChars) {
-  return enabled?{minChars:0,planningNote:STYLE_SCOPE+'\n规划仍只输出规定 JSON；beat 可以是一次尚未解决的判断或等待玩家回答，不必强造事件或完成全部意识阶段。'}:{minChars:Math.round(minChars)};
+export function writingGenerationOptions(enabled,minChars,settings={}) {
+  const planningNote=[enabled?STYLE_SCOPE:'',worldRuleOverrides(settings)].filter(Boolean).join('\n\n');
+  return {minChars:worldRuleEnabled(settings,'minLength')?Math.round(minChars):0,repeatGuard:worldRuleEnabled(settings,'repeatGuard'),...(planningNote?{planningNote}:{})};
 }
 
 export const writingStyleSource=data.source;

@@ -67,7 +67,8 @@ try {
   assert.equal(joined.split(STYLE_SCOPE).length-1,1);
   assert.deepEqual(native.db().promptTemplate,template);
   native.db().promptTemplate=null;
-  // Opt-out restores both the original native depth prompt and the length rule.
+  // Dragon opt-out restores the native depth prompt. World conflict switches
+  // are independent, and minimum-length retries require their own opt-in.
   native.setWritingStyle(false);assert.equal(database.getCurrentCharacter().depth_prompt,undefined);
   database.getCurrentCharacter().depth_prompt={depth:3,prompt:'ORIGINAL_DEPTH'};
   native.setWritingStyle(true);native.prepareWritingStyle();native.prepareWritingStyle();
@@ -75,8 +76,11 @@ try {
   assert.ok(database.getCurrentCharacter().depth_prompt.prompt.startsWith('ORIGINAL_DEPTH'));
   native.setWritingStyle(false);
   assert.deepEqual(database.getCurrentCharacter().depth_prompt,{depth:3,prompt:'ORIGINAL_DEPTH'});
-  assert.equal(native.generationOptions(900).minChars,900);
+  assert.equal(native.generationOptions(900).minChars,0);
   assert.equal(native.generationOptions(900).planningNote,undefined);
+  native.setWorldWritingRule('minLength',true);
+  assert.equal(native.generationOptions(900).minChars,900);
+  native.setWorldWritingRule('minLength',false);
   settings=JSON.parse(JSON.stringify(settings));
   native=await createNativeSettings({load,getSettings:()=>settings,save:()=>saved++});native.restore();
   assert.equal(native.writingStyleEnabled(),false);
@@ -97,13 +101,48 @@ try {
   assert.ok(result.text.includes('我盯着杯沿'));
   assert.equal(requests.length,2,'one planning request and one final request; no length retry');
   assert.ok(requests[0].messages[0].content.indexOf(STYLE_SCOPE)>requests[0].messages[0].content.indexOf('【FELINIA 隐藏剧情规划器】'));
+  assert.ok(!requests[0].messages[0].content.includes('本回必须推进关系、风险、决定、发现或代价；'));
+  assert.ok(!requests[0].messages[0].content.includes('按“感知到的新证据 → 暂时解释'));
   assert.ok(requests[1].messages.at(-1).content.includes(STYLE_SCOPE));
   assert.ok(requests[1].messages.some(m=>m.content.includes('WORLD_RULES')));
+  // A repeated line may have new meaning. Mechanical rejection is optional.
+  const repeated='我盯着杯沿。只是放下了，别的还没有说。\n「……还要吗？」';
+  const history=[{role:'assistant',content:repeated},{role:'user',content:'我仍然没有回答。'}];
+  requests.length=0;await fel.setHistory(history);
+  await fel.generate({provider,...native.generationOptions(900),maxShortRetries:1});
+  assert.equal(requests.length,2,'repeat check disabled: planning + one response');
+  native.setWorldWritingRule('repeatGuard',true);requests.length=0;await fel.setHistory(history);
+  await fel.generate({provider,...native.generationOptions(900),maxShortRetries:1});
+  assert.equal(requests.length,3,'repeat check enabled: planning + response + retry');
+  native.setWorldWritingRule('repeatGuard',false);
   const {createNativeUI}=await import('../core/res/world/risu-native-ui.mjs');
   const ui=createNativeUI(native,{save:()=>saved++,getTriggers:()=>[],setTriggers(){},prepareSession:async()=>{}});
   await ui.render('preset');
   const toggle=document.querySelector('[aria-label="《粉》文风优先"]');
-  assert.ok(toggle.checked);toggle.checked=false;toggle.dispatchEvent(new window.Event('change',{bubbles:true}));
+  assert.ok(toggle.checked);
+  // Exercise each real checkbox -> saved state -> production preparation ->
+  // native request assembly, rather than testing only labels or the filter.
+  runInNewContext(engine.slice(engine.indexOf('var FELINIA_AUTHOR_NOTE='),engine.indexOf('var FELINIA_VOICE_EXAMPLE=')),ctx);
+  for(const rule of native.worldWritingRules){
+    const input=document.querySelector('[aria-label="'+rule.label+'"]');
+    assert.ok(input);assert.equal(input.checked,false,rule.id+' default off');
+    input.checked=true;input.dispatchEvent(new window.Event('change',{bubbles:true}));
+    await ctx.felRisuPrepare(worldMessages,{});
+    let prompt=(await preview()).map(m=>m.content).join('\n');
+    assert.ok(prompt.includes(rule.prompt),'manual exception is sent: '+rule.id);
+    assert.ok(prompt.lastIndexOf(rule.prompt)>prompt.indexOf('【本轮末位文风指令】'));
+    for(const other of native.worldWritingRules)if(other.id!==rule.id)assert.equal(native.worldWritingRuleEnabled(other.id),false);
+    input.checked=false;input.dispatchEvent(new window.Event('change',{bubbles:true}));
+    await ctx.felRisuPrepare(worldMessages,{});
+    prompt=(await preview()).map(m=>m.content).join('\n');
+    assert.ok(!prompt.includes(rule.prompt),'disabled exception absent: '+rule.id);
+  }
+  native.setWorldWritingRule('brackets',true);
+  settings=JSON.parse(JSON.stringify(settings));
+  const reloaded=await createNativeSettings({load,getSettings:()=>settings,save:()=>{}});reloaded.restore();
+  assert.equal(reloaded.worldWritingRuleEnabled('brackets'),true);
+  assert.equal(reloaded.worldWritingRuleEnabled('minLength'),false);
+  toggle.checked=false;toggle.dispatchEvent(new window.Event('change',{bubbles:true}));
   assert.equal(native.writingStyleEnabled(),false);assert.ok(saved>0);
-  log('DRAGON STYLE PASS: 16 exact sections, 6 examples, default/legacy/template order, no stacking, era switch, opt-out/reload/UI, real HTTP placement, short reply without retry');
+  log('DRAGON STYLE PASS: default/legacy/template order, era switch, real HTTP, short/repeated replies; all 7 conflict checkboxes -> persistence -> native prompt, independent enable/disable and reload');
 } finally {console.log=log;dom.window.close();}

@@ -1011,7 +1011,7 @@ async function Q(e = {}) {
 			n.replaceGlobalNote ? `【落笔后置规则】\n${n.replaceGlobalNote}` : "",
 			l ? `【本回实际触发的世界书】\n${l}` : "",
 			c.text,
-			Oe(e.cognition),
+			e.filterPlanning ? e.filterPlanning(Oe(e.cognition)) : Oe(e.cognition),
 			e.planningNote
 		].filter(Boolean).join("\n\n")
 	}, ...r.message.slice(-10).map((e) => ({
@@ -1064,7 +1064,7 @@ async function Q(e = {}) {
 			l = p.cognition;
 			let b = o?.eraYear == null ? [] : D(d.data, o.eraYear);
 			!b.length && (!c || X(d.data) > X(c.message.data)) && (c = g);
-			let x = Ne(d.data, v);
+			let x = e.repeatGuard === !1 ? [] : Ne(d.data, v);
 			!b.length && !x.length && (!a || X(d.data) > X(a.message.data)) && (a = g);
 			let ee = !!h && X(d.data) < h, S = !String(d.data || "").trim();
 			if (!b.length && !x.length && !ee && !(S && t.database.getDatabase().fallbackWhenBlankResponse)) break;
