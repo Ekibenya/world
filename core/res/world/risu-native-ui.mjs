@@ -42,10 +42,10 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
  const refresh=key=>render(key);
  function changed(){persist();onPresetChanged?.();refresh('preset');}
  function presetPane(host){
-  const writing=section(host,'《粉》文风','采用角色卡《粉 v10》的第一人称、心声、对白与节奏。文风冲突时优先采用，World 世界规则与游戏机制继续生效。');
-  field(writing,'《粉》文风优先',native.writingStyleEnabled(),v=>native.setWritingStyle(v),'checkbox');
+  const writing=section(host,'韩文文风','采用第一人称、心声、对白与节奏的韩文文风。文风冲突时优先采用，World 世界规则与游戏机制继续生效。');
+  field(writing,'韩文文风',native.writingStyleEnabled(),v=>native.setWritingStyle(v),'checkbox');
   writing.append(el('p','默认开启。下方仅列出与此文风冲突的 World 写作条目；其余 World 规则照常生效。',{className:'sub'}));
-  const conflicts=section(host,'World 写作条目 · 与 Dragon 文风冲突','以下条目默认关闭，不发送其中的冲突要求。勾选后从下一次生成生效，并作为你对 Dragon 文风的对应例外保存。');
+  const conflicts=section(host,'World 写作条目 · 与 韩文文风冲突','以下条目默认关闭，不发送其中的冲突要求。勾选后从下一次生成生效，并作为你对 韩文文风的对应例外保存。');
   for(const rule of native.worldWritingRules){
     field(conflicts,rule.label,native.worldWritingRuleEnabled(rule.id),v=>native.setWorldWritingRule(rule.id,v),'checkbox');
     conflicts.append(el('p',rule.description,{className:'sub'}));

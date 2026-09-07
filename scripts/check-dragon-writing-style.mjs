@@ -118,7 +118,7 @@ try {
   const {createNativeUI}=await import('../core/res/world/risu-native-ui.mjs');
   const ui=createNativeUI(native,{save:()=>saved++,getTriggers:()=>[],setTriggers(){},prepareSession:async()=>{}});
   await ui.render('preset');
-  const toggle=document.querySelector('[aria-label="《粉》文风优先"]');
+  const toggle=document.querySelector('[aria-label="韩文文风"]');
   assert.ok(toggle.checked);
   // Exercise each real checkbox -> saved state -> production preparation ->
   // native request assembly, rather than testing only labels or the filter.
