@@ -383,7 +383,8 @@
       <div class="sRow"><span>检索方式</span><select id="semMode" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:5px;max-width:220px"><option value="hybrid">多语言本地混合（推荐）</option><option value="bge-ko">本地向量精确</option><option value="api">玩家接口 Embeddings</option><option value="lexical">本地词义检索（最快）</option></select></div>
       <div class="sRow"><span>Embeddings&nbsp;模型</span><input class="aIn" id="semModel" placeholder="text-embedding-3-small" style="width:220px"></div>
       <div class="sRow"><span>记忆注入预算</span><input class="aIn" id="semBudget" inputmode="numeric" placeholder="3000" style="width:80px"></div>
-      <div class="sRow"><span>优先使用显卡</span><input type="checkbox" id="semGpu"></div>
+      <div class="sRow"><span>显卡加速向量（WebGPU）</span><input type="checkbox" id="semGpu"></div>
+      <div class="sub">默认关闭，走 CPU 计算。Chrome 里用显卡跑本地向量模型可能让整页崩溃刷新；确认自己的设备扛得住再打开。</div>
       <div class="sub" id="semStatus">两套记忆按存档隔离；本地模型按需下载并由浏览器缓存，任一记忆失败都不会阻断正常回复。</div>
     </div>
     <div class="cfgPane" id="cp_engine" style="display:none">
@@ -829,7 +830,7 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=46"></script>
-  <script src="/core/res/world/engine.js?v=32"></script>
+  <script src="/core/res/world/engine.js?v=33"></script>
   <script src="/core/res/world/storage-wipe.js?v=1"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/cosmos.js?v=4"></script>

@@ -3448,7 +3448,7 @@ var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,
   img:{on:0,base:'',key:'',model:'',size:0,style:0},   /* style 0 ＝ NovelAI，见 IMGSTY */
   sub:{format:'openai',base:'',key:'',model:''},
   trans:{provider:'off',showRaw:0,deeplKey:'',deeplFree:1,deeplxUrl:'http://localhost:1188',deeplxToken:'',nativeDefaultV1:1,chineseDefaultV1:1},
-  semantic:{on:1,mode:'hybrid',model:'',budget:3000,topK:8,gpu:1},
+  semantic:{on:1,mode:'hybrid',model:'',budget:3000,topK:8,gpu:0},
   vars:{},gvars:{},
   samp:{temp:'',topp:'',maxt:'',minc:'',reason:1,reasonDefaultV1:1},
   risu:{freq:'',pres:'',topk:'',rep:'',minp:'',topa:'',seed:'-1',verbosity:1,
@@ -3472,7 +3472,7 @@ try{var _s=JSON.parse(localStorage.getItem('guardianDragonSet')||'{}');
          steps:'',cfg:'',w:'',h:'',seed:'',workflow:''},
     sub:{format:'openai',base:'',key:'',model:''},
     trans:{provider:'off',showRaw:0,deeplKey:'',deeplFree:1,deeplxUrl:'http://localhost:1188',deeplxToken:'',nativeDefaultV1:1,chineseDefaultV1:0},
-    semantic:{on:1,mode:'hybrid',model:'',budget:3000,topK:8,gpu:1},
+    semantic:{on:1,mode:'hybrid',model:'',budget:3000,topK:8,gpu:0},
     vars:{},gvars:{},
     samp:{temp:'',topp:'',maxt:'',minc:'',reason:1,reasonDefaultV1:0},
     risu:{freq:'',pres:'',topk:'',rep:'',minp:'',topa:'',seed:'-1',verbosity:1,
@@ -3492,6 +3492,10 @@ try{var _s=JSON.parse(localStorage.getItem('guardianDragonSet')||'{}');
   if(!Array.isArray(SET.img.ilore))SET.img.ilore=[];
   if(!SET.profs||typeof SET.profs!=='object')SET.profs={};
   if(!SET.loreState||typeof SET.loreState!=='object')SET.loreState={};
+  /* 记忆向量默认改走 CPU：Chrome 里用 WebGPU 跑本地 embedding 模型会把整个渲染进程压崩，
+     表现是「发一句话页面就自己刷新」。旧存量设置里 gpu 是 1，这里一次性归零；
+     玩家之后在设置里自己勾上（gpuV2 置 1）就不再动它。 */
+  if(SET.semantic&&SET.semantic.gpuV2!==1){SET.semantic.gpu=0;SET.semantic.gpuV2=1;}
 })();
 function setStore(){lsSet('guardianDragonSet',JSON.stringify(SET))}
 /* Chinese-first release: translation, Korean examples and Korean originals all
@@ -4847,7 +4851,7 @@ $('#semBudget').addEventListener('input',function(){
   var v=this.value.replace(/[^0-9]/g,'');if(v!==this.value)this.value=v;
   SET.semantic.budget=Math.max(400,parseInt(v,10)||3000);setStore();
 });
-$('#semGpu').addEventListener('change',function(){SET.semantic.gpu=this.checked?1:0;setStore();});
+$('#semGpu').addEventListener('change',function(){SET.semantic.gpu=this.checked?1:0;SET.semantic.gpuV2=1;setStore();});
 $('#apFormat').addEventListener('change',function(){API.format=felRisuFormat(this.value);apiStore();});
 $('#subFormat').addEventListener('change',function(){SET.sub.format=felRisuFormat(this.value);setStore();subStatus('已保存，尚未测试',0);});
 $('#apProfSave').addEventListener('click',function(){
