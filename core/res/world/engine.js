@@ -6069,7 +6069,7 @@ function graphInner(){
     +'<text x="0" y="28" text-anchor="middle" font-size="13.5" style="fill:#523000;font-family:var(--mono);letter-spacing:.05em;pointer-events:none">本体│'+esc(zjSelf())+'</text></g>';
   var hid=(S.graphHidden||[]).length;
   var resetLine=hid?'<div style="text-align:right;margin-top:6px"><span class="btn" data-act="npcUnhide" style="cursor:pointer;font-size:12px;color:var(--mut)">已移除 '+hid+' 人 · 还原全部</span></div>':'';
-  return '<div class="gph-hint">人物图谱：常现之人系于本体、结成一张网——节点=人物名牌（状态灯示好感 <span style="color:#523000">金亲</span>·<span style="color:#845800">褐平</span>·<span style="color:#ff7f63">赤疏</span>），同幕共处者细线互连（虚线=仅一面之缘），孤身偶现者外环漂浮。名牌可拖拽、轻点开人物档案——手机双指、电脑 Ctrl+滚轮放大细看，拖背景平移。</div>'
+  return '<div class="gph-hint">人物图谱：常现之人系于本体、结成一张网——节点=人物名牌（状态灯示好感 <span style="color:#ffe9b8">金亲</span>·<span style="color:#f1d28c">褐平</span>·<span style="color:#ff7f63">赤疏</span>），同幕共处者细线互连（虚线=仅一面之缘），孤身偶现者外环漂浮。名牌可拖拽、轻点开人物档案——手机双指、电脑 Ctrl+滚轮放大细看，拖背景平移。</div>'
     +'<div id="zjGraphWrap" style="position:relative;overflow:hidden">'
     +'<svg id="zjGraphSvg" data-bw="'+W+'" data-bh="'+H+'" viewBox="0 0 '+W+' '+H+'" style="width:100%;height:auto;display:block;touch-action:none">'+lines+center+nodes+'</svg>'
     +'<span data-act="graphZoomReset" class="btn" style="position:absolute;right:8px;bottom:8px;font-size:11px;letter-spacing:.15em;color:var(--mut);background:rgba(237,231,217,.85);border:1px solid rgba(19,18,13,.25);padding:3px 10px;cursor:pointer">复位</span>'
@@ -6378,8 +6378,8 @@ function palaceAxisInner(){
       +'<div style="position:absolute;left:4px;top:9px;bottom:-3px;width:1px;background:rgba(19,18,13,.14)"></div>'
       +'<div style="position:absolute;left:1px;top:6px;width:7px;height:7px;background:var(--gold)"></div>'
       +'<div style="font-size:10.5px;color:var(--mut);letter-spacing:.12em">'+turn+' · 宫殿原文</div>'
-      +(p.u?'<div style="font-size:11.5px;color:#34332a;margin-top:3px;letter-spacing:.04em">我：'+esc(p.u.replace(/\s+/g,' ').slice(0,100))+'</div>':'')
-      +(world?'<div style="font-size:12px;color:#25241d;line-height:1.8;margin-top:3px;letter-spacing:.04em">'+esc(world)+'</div>':'')
+      +(p.u?'<div style="font-size:11.5px;color:#cdc1a4;margin-top:3px;letter-spacing:.04em">我：'+esc(p.u.replace(/\s+/g,' ').slice(0,100))+'</div>':'')
+      +(world?'<div style="font-size:12px;color:#e8dcc0;line-height:1.8;margin-top:3px;letter-spacing:.04em">'+esc(world)+'</div>':'')
       +'</div>';
   }).join('');
   return '<div style="display:flex;align-items:center;gap:10px;margin:10px 0 12px"><div style="flex:none;font-size:11.5px;color:var(--gold2);letter-spacing:.16em;border:1px solid rgba(132,88,0,.45);padding:3px 12px 2px;background:rgba(132,88,0,.08)">'+esc(era)+'</div><div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(132,88,0,.4),transparent)"></div></div>'
@@ -6404,8 +6404,8 @@ function axisInner(){
       +'<div style="position:absolute;left:4px;top:9px;bottom:-3px;width:1px;background:rgba(19,18,13,.14)"></div>'
       +'<div style="position:absolute;left:1px;top:6px;width:7px;height:7px;background:'+(m.manual?'#13120d':'var(--gold)')+'"></div>'
       +'<div style="font-size:10.5px;color:var(--mut);letter-spacing:.12em">第'+(i+1)+'笔'+(m.d?(' · '+esc(m.d)):'')+(m.manual?' · <span style="color:var(--gold2)">手记</span>':'')+'</div>'
-      +(m.a?'<div style="font-size:11.5px;color:#34332a;margin-top:3px;letter-spacing:.06em">我：'+esc(m.a)+'</div>':'')
-      +(m.s?'<div style="font-size:12px;color:#25241d;line-height:1.8;margin-top:3px;letter-spacing:.05em">'+esc(m.s)+'</div>':'')
+      +(m.a?'<div style="font-size:11.5px;color:#cdc1a4;margin-top:3px;letter-spacing:.06em">我：'+esc(m.a)+'</div>':'')
+      +(m.s?'<div style="font-size:12px;color:#e8dcc0;line-height:1.8;margin-top:3px;letter-spacing:.05em">'+esc(m.s)+'</div>':'')
       +'</div>';
   }).join('');
   return '<div style="max-height:420px;overflow-y:auto;padding:4px 2px 0">'+items+'</div>';
@@ -6425,7 +6425,7 @@ function palaceMemPaneInner(compact){
   else if(PALACE_UI.error)rows='<div style="text-align:center;padding:30px 0;font-size:11.5px;letter-spacing:.12em;color:#a74432">宫殿暂不可读 · 原生语义记忆仍在兜底</div>';
   else if(!rows)rows='<div style="text-align:center;padding:30px 0;font-size:11.5px;letter-spacing:.2em;color:var(--mut)">宫殿尚空 · 完成一轮后存入原文抽屉</div>';
   var manual=[];(S.mem||[]).forEach(function(m,i){if(m&&m.manual)manual.push({m:m,i:i});});
-  var min='width:100%;background:rgba(19,18,13,.03);border:1px solid rgba(19,18,13,.22);color:var(--ink);padding:7px 10px;font-size:12px;font-family:var(--mono)';
+  var min='width:100%;background:rgba(0,0,0,.28);border:1px solid rgba(19,18,13,.22);color:var(--ink);padding:7px 10px;font-size:12px;font-family:var(--mono)';
   var notes=manual.slice().reverse().map(function(x){var m=x.m,i=x.i;
     if(S.memEdit===i)return '<div style="border:1px solid rgba(132,88,0,.6);padding:11px 12px;margin-bottom:6px;background:rgba(19,18,13,.02)">'
       +'<div style="display:flex;gap:8px"><input id="zjMeE" value="'+esc(m.e||'')+'" placeholder="纪年" style="'+min+';flex:1"><input id="zjMeD" value="'+esc(m.d||'')+'" placeholder="时地" style="'+min+';flex:1"></div>'
@@ -6449,7 +6449,7 @@ function palaceMemPaneInner(compact){
     +'<div style="border-top:1px solid rgba(19,18,13,.12);margin-top:14px;padding-top:12px">'
     +'<div style="display:flex;gap:10px;align-items:center;margin-bottom:9px"><b style="font-size:11px;letter-spacing:.14em;color:var(--gold2)">玩家长期手记</b>'
     +'<div class="btn" data-act="memToggle" style="cursor:pointer;padding:4px 9px;font-size:10.5px;letter-spacing:.1em;border:1px solid '+(on?'rgba(132,88,0,.45)':'rgba(19,18,13,.2)')+';color:'+(on?'var(--gold2)':'var(--mut)')+'">'+(on?'✓ 注入中':'已停用')+'</div></div>'
-    +'<div style="display:flex;gap:8px;margin-bottom:10px"><input id="zjMemAdd" placeholder="手记一笔（设定、约定或伏笔）…" style="flex:1;background:rgba(19,18,13,.03);border:1px solid rgba(19,18,13,.2);color:#13120d;font-size:12px;padding:9px 12px;font-family:var(--mono)" autocomplete="off"><button data-act="memAdd" class="obtn btn" style="flex:none;font-size:11.5px;letter-spacing:.2em;padding:0 16px">记 入</button></div>'
+    +'<div style="display:flex;gap:8px;margin-bottom:10px"><input id="zjMemAdd" placeholder="手记一笔（设定、约定或伏笔）…" style="flex:1;background:rgba(0,0,0,.28);border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-size:12px;padding:9px 12px;font-family:var(--mono)" autocomplete="off"><button data-act="memAdd" class="obtn btn" style="flex:none;font-size:11.5px;letter-spacing:.2em;padding:0 16px">记 入</button></div>'
     +(notes||'<div style="font-size:10.5px;color:var(--mut);padding-bottom:3px">尚无玩家手记</div>')+'</div>';
 }
 function memPaneInner(compact){
@@ -6457,7 +6457,7 @@ function memPaneInner(compact){
   var n=S.mem?S.mem.length:0;
   var chars=0;S.mem.forEach(function(m){chars+=(m.a||'').length+(m.s||'').length+(m.e||'').length;});
   var on=S.memOn!==false;
-  var min='width:100%;background:rgba(19,18,13,.03);border:1px solid rgba(19,18,13,.22);color:var(--ink);padding:7px 10px;font-size:12px;font-family:var(--mono)';
+  var min='width:100%;background:rgba(0,0,0,.28);border:1px solid rgba(19,18,13,.22);color:var(--ink);padding:7px 10px;font-size:12px;font-family:var(--mono)';
   /* 同上：记忆列表也只渲最近 60 笔 */
   var _mAll=S.mem||[],_MCAP=60,_mUse=_mAll.length>_MCAP?_mAll.slice(-_MCAP):_mAll;
   var rows=_mUse.slice().reverse().map(function(m,ri){
@@ -6472,7 +6472,7 @@ function memPaneInner(compact){
     return '<div style="display:flex;gap:10px;align-items:flex-start;border:1px solid rgba(19,18,13,.12);padding:9px 12px;margin-bottom:6px;background:rgba(19,18,13,.015)">'
       +'<div style="flex:none;font-size:11px;color:var(--mut);min-width:26px;text-align:right;padding-top:2px">'+(i+1)+'</div>'
       +'<div style="flex:1;min-width:0"><div style="font-size:11.5px;color:var(--gold);letter-spacing:.08em">'+esc((m.e||'')+(m.d?('·'+m.d):''))+(m.manual?' · <span style="color:var(--gold2)">手记</span>':'')+'</div>'
-      +(m.a?'<div style="font-size:11.5px;color:#34332a;margin-top:3px;letter-spacing:.06em">我：'+esc(m.a)+'</div>':'')
+      +(m.a?'<div style="font-size:11.5px;color:#cdc1a4;margin-top:3px;letter-spacing:.06em">我：'+esc(m.a)+'</div>':'')
       +(m.s?'<div style="font-size:12px;color:var(--ink2);line-height:1.8;margin-top:3px;letter-spacing:.05em">'+esc(m.s)+'</div>':'')+'</div>'
       +'<div class="btn" data-medit="'+(i+1)+'" style="flex:none;cursor:pointer;font-size:11px;color:var(--gold);border:1px solid rgba(132,88,0,.4);padding:2px 8px">编辑</div>'
       +'<div class="btn" data-mdel="'+i+'" style="flex:none;cursor:pointer;font-size:11px;color:#ff7f63;border:1px solid rgba(255,127,99,.4);padding:2px 8px">删</div></div>';
@@ -6487,7 +6487,7 @@ function memPaneInner(compact){
     +'<div style="font-size:11px;letter-spacing:.08em;color:var(--mut)">'+n+' 条 · 约'+chars+'字'+(chars>7000?'（超长部分自动中略，首尾保留）':'')+'</div>'
     +'<div class="btn" data-act="memExport" style="cursor:pointer;margin-left:auto;font-size:11.5px;letter-spacing:.15em;color:var(--gold2);border:1px solid rgba(132,88,0,.4);padding:6px 12px">导出长卷</div>'
     +'<div class="btn" data-act="memClear" style="cursor:pointer;font-size:11.5px;letter-spacing:.15em;color:#ff7f63;border:1px solid rgba(255,127,99,.4);padding:6px 12px">清空长卷</div></div>'
-    +'<div style="display:flex;gap:8px;margin-bottom:14px"><input id="zjMemAdd" placeholder="手记一笔（重要设定/约定/伏笔，AI 会永远记住）…" style="flex:1;background:rgba(19,18,13,.03);border:1px solid rgba(19,18,13,.2);color:#13120d;font-size:12px;padding:9px 12px;font-family:var(--mono)" autocomplete="off"><button data-act="memAdd" class="obtn btn" style="flex:none;font-size:11.5px;letter-spacing:.2em;padding:0 16px">记 入</button></div>'
+    +'<div style="display:flex;gap:8px;margin-bottom:14px"><input id="zjMemAdd" placeholder="手记一笔（重要设定/约定/伏笔，AI 会永远记住）…" style="flex:1;background:rgba(0,0,0,.28);border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-size:12px;padding:9px 12px;font-family:var(--mono)" autocomplete="off"><button data-act="memAdd" class="obtn btn" style="flex:none;font-size:11.5px;letter-spacing:.2em;padding:0 16px">记 入</button></div>'
     +(compact?'<div style="max-height:340px;overflow-y:auto">'+rows+'</div>':rows);
 }
 /* 折叠节头（Ghost 侧栏 head() 同款） */
@@ -7323,7 +7323,7 @@ MODCITY.setTravel(function(name,isPoi,wx,wz){
       +'padding:12px 16px 10px;font-family:var(--mono);backdrop-filter:blur(4px)';
     d.innerHTML='<div style="font-size:12.5px;letter-spacing:.22em;color:var(--gold-hi)">'
       +(isPoi?'◇ ':'· ')+cityCN+' · '+name+'</div>'
-      +'<div style="font-size:11.5px;line-height:1.85;color:#34332a;margin-top:7px;letter-spacing:.05em">'+intro+'</div>'
+      +'<div style="font-size:11.5px;line-height:1.85;color:#cdc1a4;margin-top:7px;letter-spacing:.05em">'+intro+'</div>'
       +'<div style="display:flex;gap:10px;justify-content:flex-end;margin-top:10px">'
       +'<span id="mcDlgNo" class="btn" style="cursor:pointer;font-size:11px;letter-spacing:.2em;color:var(--mut);border:1px solid rgba(19,18,13,.25);padding:5px 12px">返 回</span>'
       +'<span id="mcDlgGo" class="btn" style="cursor:pointer;font-size:11px;letter-spacing:.24em;color:#e9e3d6;background:var(--gold);padding:5px 14px">移 动 ⏎</span></div>';
