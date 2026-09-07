@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v95';
+const CACHE = 'guardian-dragon-art-v96';
 const CORE = [
   '/',
   '/index.html',
@@ -17,7 +17,7 @@ const CORE = [
   '/core/res/world/world-planet-map.js?v=46',
   '/core/res/world/visual-novel.js?v=14',
   '/core/res/world/app.js?v=33',
-  '/core/res/world/engine.js?v=28',
+  '/core/res/world/engine.js?v=29',
   '/core/res/world/sonus.js?v=1',
   '/core/res/world/cosmos.js?v=4',
   '/core/res/world/lore-retrieval.mjs',
@@ -58,6 +58,27 @@ function cacheable(response) {
   if (isNaN(n)) return false;
   return n <= MAXB;
 }
+// Recover script transport failures before the browser caches a failed module import.
+function validScript(response) {
+  return response && response.ok && /(?:javascript|ecmascript)/i.test(response.headers.get('content-type') || '');
+}
+async function loadScript(request) {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const response = await fetch(request, {cache: attempt ? 'reload' : 'no-cache'});
+      if (validScript(response)) {
+        const copy = response.clone();
+        caches.open(CACHE).then(cache => cache.put(request, copy)).catch(() => {});
+        return response;
+      }
+    } catch (_) {}
+    try {
+      const hit = await caches.match(request);
+      if (validScript(hit)) return hit;
+    } catch (_) {}
+  }
+  return Response.error();
+}
 self.addEventListener('fetch', (event) => {
   const request = event.request;
   if (request.method !== 'GET') return;
@@ -65,6 +86,10 @@ self.addEventListener('fetch', (event) => {
   try { url = new URL(request.url); } catch (_) { return; }
   if (url.origin !== location.origin) return;
   if (url.pathname.startsWith('/_vercel/') || url.pathname.startsWith('/cdn-cgi/')) return;
+  if (url.pathname.startsWith('/core/') && /\.(js|mjs)$/i.test(url.pathname)) {
+    event.respondWith(loadScript(request));
+    return;
+  }
   if (request.mode === 'navigate' || /\.(js|mjs|json|webmanifest|html|css)$/i.test(url.pathname)) {
     event.respondWith(fetch(request, {cache: 'no-cache'}).then((response) => {
       if (response && response.ok && response.type === 'basic') {

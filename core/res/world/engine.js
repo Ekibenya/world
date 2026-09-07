@@ -3516,6 +3516,8 @@ if(!SET.samp.reasonDefaultV1){
 var FEL_RISU=null,FEL_RISU_BOOT=null;
 function felPublicError(e){
   var message=String((e&&e.message)||e||'未知错误');
+  if(/importing a module script failed|failed to fetch dynamically imported module|error loading dynamically imported module|failed to load module script/i.test(message))
+    return '游戏脚本加载失败：请先刷新游戏，再点「重新生成本回」。这是游戏资源加载问题，无需修改 API 或增加 token 上限';
   if(/failed to fetch|networkerror|load failed/i.test(message))
     return '浏览器直连失败：接口未允许跨域（CORS）、HTTPS 页面连接了 HTTP 接口，或地址不可达';
   return message
