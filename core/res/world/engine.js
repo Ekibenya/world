@@ -2658,9 +2658,10 @@ function risuInvoke(messages,cb,err,opt){
     var provider=felRisuProvider(source);provider.maxTokens=Math.round(mt);
     if(aux)return risu.request({messages:messages,provider:provider,signal:ac?ac.signal:undefined,
       maxTokens:Math.round(mt),onDelta:noStream?undefined:onDelta});
-    return risu.generate({provider:provider,signal:ac?ac.signal:undefined,
+    return risu.generate(Object.assign({provider:provider,signal:ac?ac.signal:undefined,
       minChars:Math.round(minChars),maxShortRetries:1,cognition:GAME.cognition,
-      onPhase:onPhase,onDelta:noStream?undefined:onDelta});
+      onPhase:onPhase,onDelta:noStream?undefined:onDelta},
+      FEL_RISU_NATIVE?FEL_RISU_NATIVE.generationOptions(minChars):{}));
   }).then(function(result){
     if(fired)return;fired=true;clearTimeout(timer);
     if(FEL_RISU_NATIVE)FEL_RISU_NATIVE.saveSession();
@@ -3702,7 +3703,7 @@ function felRisuPrepare(messages,options){
         regexScripts:felRisuRegexScripts(),
         triggerScripts:(SET.triggers||[]).filter(function(t){return t.worldEnabled!==false;}),
         defaultVariables:Object.assign({},SET.gvars||{},SET.vars||{})});
-    }).then(function(){var sm=SET.semantic||{};return risu.configureMemory({enabled:sm.on!==0,
+    }).then(function(){FEL_RISU_NATIVE.prepareWritingStyle();var sm=SET.semantic||{};return risu.configureMemory({enabled:sm.on!==0,
         mode:sm.mode||'hybrid',apiKey:(sm.mode==='api'?(API.key||''):undefined),
         sessionId:felMemoryId(),budgetChars:sm.budget||3000,topK:sm.topK||8,gpu:sm.gpu!==0});
     }).then(function(){if(FEL_RISU_NATIVE){FEL_RISU_NATIVE.memorySettings();FEL_RISU_NATIVE.applySession();}return risu.setHistory(history);}).then(function(){return risu;});

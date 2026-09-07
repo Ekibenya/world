@@ -1011,7 +1011,8 @@ async function Q(e = {}) {
 			n.replaceGlobalNote ? `【落笔后置规则】\n${n.replaceGlobalNote}` : "",
 			l ? `【本回实际触发的世界书】\n${l}` : "",
 			c.text,
-			Oe(e.cognition)
+			Oe(e.cognition),
+			e.planningNote
 		].filter(Boolean).join("\n\n")
 	}, ...r.message.slice(-10).map((e) => ({
 		role: e.role === "char" ? "assistant" : "user",

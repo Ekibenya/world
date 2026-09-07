@@ -42,6 +42,9 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
  const refresh=key=>render(key);
  function changed(){persist();onPresetChanged?.();refresh('preset');}
  function presetPane(host){
+  const writing=section(host,'《粉》文风','采用角色卡《粉 v10》的第一人称、心声、对白与节奏。文风冲突时优先采用，World 世界规则与游戏机制继续生效。');
+  field(writing,'《粉》文风优先',native.writingStyleEnabled(),v=>native.setWritingStyle(v),'checkbox');
+  writing.append(el('p','默认开启。每轮长短随场景决定，不为凑字数自动重写；关闭后恢复 World 原有篇幅要求。',{className:'sub'}));
   const manager=section(host,'Risu 原生预设','首次进入自动使用 Default，与 World 游戏规则共同生效；重复的生成参数默认使用 World 设置。');
   const list=native.db().botPresets||[];
   field(manager,'当前预设',native.db().botPresetsId,v=>{native.changePreset(Number(v));onPresetChanged?.();refresh('preset');},'text',Object.fromEntries(list.map((p,i)=>[i,p.name||`预设 ${i+1}`])));

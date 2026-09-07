@@ -1,6 +1,7 @@
 /* World settings host for Risu 2026.8.250 (upstream e565563a).
  * Imports, execution, permissions and prompt parsing remain in the native engine.
  */
+import {applyWritingStyle,writingGenerationOptions,writingStyleSource} from './dragon-writing-style.mjs';
 export const clone = value => value == null ? value : JSON.parse(JSON.stringify(value));
 export const TASKS = {memory:'记忆摘要', translate:'翻译', emotion:'表情判断', otherAx:'其他辅助任务与剧情规划'};
 const CONNECTION = ['aiModel','subModel','proxyRequestModel','customProxyRequestModel','forceReplaceUrl','proxyKey','customAPIFormat','usePlainFetch','autofillRequestUrl'];
@@ -24,6 +25,15 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
   const db = () => database.getDatabase();
   const state = () => (getSettings().nativeState ||= {});
   const session = () => getSession?.();
+  const writingStyleEnabled = () => state().dragonWritingStyle !== false;
+  function prepareWritingStyle(){
+    const character=database.getCurrentCharacter();
+    if(!character)return;
+    applyWritingStyle(character,writingStyleEnabled());
+    database.setCurrentCharacter(character);
+  }
+  function setWritingStyle(value){state().dragonWritingStyle=!!value;prepareWritingStyle();capture();}
+  function generationOptions(minChars){return writingGenerationOptions(writingStyleEnabled(),minChars);}
   let loadedPlugins = false;
   function preset() {return db().botPresets?.[db().botPresetsId];}
   function parameterSource(){return state().parameterSource||(getSettings().nativePreset?'preset':'world');}
@@ -151,6 +161,7 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
     saveSession();return result;
   }
   return {database,modules,plugins,stores,triggers,db,state,preset,capture,restore,afterProvider,startPlugins,
+    writingStyleEnabled,setWritingStyle,prepareWritingStyle,generationOptions,writingStyleSource,
     changePreset,editPreset,addPreset,deletePreset,exportPreset,parameterSource,setParameterSource,options,getVar,setVar,setLocal,unpin,
     applySession,saveSession,memorySettings,runManual,applyModels,composeSystemPrompt};
 }
