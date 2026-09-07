@@ -16,3 +16,4 @@ All pieces below are public-domain / CC0 works, recoloured to the theme gold and
 | sphinx.svg (+ sphinx-faint.svg) | OpenClipart #326109 "Art Nouveau sphinx" | CC0 / Public Domain |
 | tile-seamless.png, tile-faint.png | OpenClipart #237840 "Art Nouveau ornament seamless pattern" (rasterised) | CC0 / Public Domain |
 | separator-seroes.svg | Wikimedia Commons "Art Nouveau separator, Serões, 1901" (Portuguese magazine, 1901) | Public Domain (published 1901) |
+| frame-corners.png | rasterised from frame-whiplash-corners.svg (OpenClipart #140395) | CC0 / Public Domain |

@@ -666,13 +666,13 @@ function ensureDom(){
 function mount(el,mode){
   if(!el)return;ensureDom();if(EDIT.on&&mode!=='panel')cancelEdit();host=el;hostMode=mode;VIEW.mode=mode;
   var wrap=el.querySelector('.wpmHost');if(!wrap){wrap=document.createElement('div');wrap.className='wpmHost';el.appendChild(wrap);}
-  wrap.appendChild(canvas);wrap.appendChild(pinLayer);wrap.classList.toggle('space',mode==='forge'||mode==='menu');wrap.classList.toggle('menu',mode==='menu');pinLayer.style.display=mode==='menu'?'none':'';
+  wrap.appendChild(canvas);wrap.appendChild(pinLayer);wrap.classList.toggle('space',mode==='forge'||mode==='menu'||mode==='panel');wrap.classList.toggle('menu',mode==='menu');pinLayer.style.display=mode==='menu'?'none':'';
   if(resizeObs)resizeObs.disconnect();if(window.ResizeObserver){resizeObs=new ResizeObserver(function(){resize();});resizeObs.observe(wrap);}
   initSpace();if(!READY)build();else{if(DATA&&!pins.length)buildPins();}
   applyMode();resize();if(renderer&&camera)try{renderer.render(scene,camera);}catch(_){}   /* 换宿主后立刻画一帧，避免空白 */
   mini=document.querySelector('#arrMap .mmap');mctx=mini&&mini.getContext('2d');
 }
-function applyMode(){if(!renderer)return;var space=hostMode==='forge'||hostMode==='menu';if(stars)stars.visible=space;if(nebula)nebula.visible=space;if(cosmos)cosmos.visible=hostMode==='menu';if(sunGlow)sunGlow.visible=space;
+function applyMode(){if(!renderer)return;var space=hostMode==='forge'||hostMode==='menu'||hostMode==='panel';if(stars)stars.visible=space;if(nebula)nebula.visible=space;if(cosmos)cosmos.visible=hostMode==='menu';if(sunGlow)sunGlow.visible=space;
   renderer.setClearColor(space?0x05070c:0x000000,space?1:0);cam.tr=hostMode==='menu'?6.1:hostMode==='forge'?Math.max(cam.tr,3.4):4.8;if(hostMode==='menu'){cam.tt=cam.tp=null;cam.phi=1.22;}}
 function resize(){
   if(!renderer||!canvas)return;var w=canvas.clientWidth||host.clientWidth||300,h=canvas.clientHeight||host.clientHeight||200;if(w<4||h<4)return;
