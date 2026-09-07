@@ -1,0 +1,2296 @@
+{
+ "eraId": "era-05-gods-law",
+ "ordinal": 5,
+ "unit": "枚黑曜石",
+ "start": 8,
+ "note": "这一代还没有铸币，各地仍按黑曜石论价：蜥蜴人首领说族里有几件黑曜石工具就算得上体面，商旅、神殿供奉与法典抄本也都折算成黑曜石原石来议价。侏儒山城、精灵森林与人类村落各有各的行情，不必强求一致。供奉神明的圣物、历代相传的信物与独一之物一概不标价，只在开局行囊里能见到，官方也不承认私下买卖。",
+ "kits": {
+  "default": {
+   "eq": {
+    "dext": "e5_obsidian_tipped_spear",
+    "corp": "e5_flax_tunic",
+    "cing": "e5_hide_pouch_belt",
+    "ped": "e5_woven_sandal_common"
+   },
+   "bag": [
+    {
+     "k": "e5_barley_flatbread",
+     "n": 2
+    },
+    {
+     "k": "e5_clay_tablet_blank",
+     "n": 2
+    },
+    {
+     "k": "e5_scribe_stylus_bone",
+     "n": 1
+    },
+    {
+     "k": "e5_temple_incense_bundle",
+     "n": 1
+    },
+    {
+     "k": "e5_willow_bark_powder",
+     "n": 1
+    }
+   ]
+  },
+  "主角龙": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e5_shamash_law_codex",
+     "n": 1
+    },
+    {
+     "k": "e5_pictograph_slate",
+     "n": 3
+    },
+    {
+     "k": "e5_law_tablet_copy",
+     "n": 2
+    },
+    {
+     "k": "e5_meditation_focus_stone",
+     "n": 2
+    },
+    {
+     "k": "e5_elemental_kinship_bead",
+     "n": 2
+    },
+    {
+     "k": "e5_frost_light_shard",
+     "n": 1
+    },
+    {
+     "k": "e5_honeyed_flower_candy",
+     "n": 3
+    }
+   ]
+  },
+  "沙玛什": {
+   "eq": {
+    "cap": "e5_light_temple_veil",
+    "hum": "e5_shamash_sunburst_amulet"
+   },
+   "bag": [
+    {
+     "k": "e5_moonlit_incense",
+     "n": 3
+    },
+    {
+     "k": "e5_courtroom_judgment_token",
+     "n": 5
+    },
+    {
+     "k": "e5_judgment_seal_wax",
+     "n": 1
+    },
+    {
+     "k": "e5_ten_precepts_fragment",
+     "n": 2
+    },
+    {
+     "k": "e5_dawnless_clay_lantern",
+     "n": 1
+    }
+   ]
+  },
+  "伊格德拉西尔": {
+   "eq": {
+    "hum": "e5_yggdrasil_leaf_cloak"
+   },
+   "bag": [
+    {
+     "k": "e5_yggdrasil_fruit_e5",
+     "n": 6
+    },
+    {
+     "k": "e5_spirit_pact_cord",
+     "n": 2
+    },
+    {
+     "k": "e5_elven_healing_herb",
+     "n": 4
+    },
+    {
+     "k": "e5_woven_leaf_veil",
+     "n": 1
+    },
+    {
+     "k": "e5_elven_bowstring_vine",
+     "n": 3
+    },
+    {
+     "k": "e5_living_wood_bow",
+     "n": 1
+    }
+   ]
+  },
+  "当代蜥蜴人伟大首领": {
+   "eq": {
+    "dext": "e5_chief_spear_relic",
+    "corp": "e5_dyed_hide_wrap",
+    "cing": "e5_lizard_wrap_kilt"
+   },
+   "bag": [
+    {
+     "k": "e5_great_chief_seal_stone",
+     "n": 1
+    },
+    {
+     "k": "e5_pictograph_slate",
+     "n": 2
+    },
+    {
+     "k": "e5_offering_clay_bowl",
+     "n": 1
+    },
+    {
+     "k": "e5_honeyed_flower_candy",
+     "n": 2
+    },
+    {
+     "k": "e5_votive_stone_figurine",
+     "n": 2
+    }
+   ]
+  },
+  "首届大萨满": {
+   "eq": {
+    "hum": "e5_elemental_kinship_bead",
+    "corp": "e5_dyed_hide_wrap"
+   },
+   "bag": [
+    {
+     "k": "e5_greatshaman_hearing_shell",
+     "n": 1
+    },
+    {
+     "k": "e5_meditation_focus_stone",
+     "n": 2
+    },
+    {
+     "k": "e5_water_blessed_reed_flute",
+     "n": 1
+    },
+    {
+     "k": "e5_wind_gathered_feather",
+     "n": 2
+    },
+    {
+     "k": "e5_fire_spirit_ember_jar",
+     "n": 1
+    },
+    {
+     "k": "e5_lizard_totem_charm",
+     "n": 1
+    }
+   ]
+  },
+  "首届伟大战士": {
+   "eq": {
+    "dext": "e5_obsidian_broadblade",
+    "corp": "e5_lizard_scale_cuirass",
+    "cing": "e5_tournament_champion_sash",
+    "cap": "e5_bone_headguard"
+   },
+   "bag": [
+    {
+     "k": "e5_dragonkin_blessing_shard",
+     "n": 1
+    },
+    {
+     "k": "e5_swamp_turtle_soup",
+     "n": 2
+    },
+    {
+     "k": "e5_grilled_marsh_lizard_skewer",
+     "n": 3
+    },
+    {
+     "k": "e5_champion_tournament_wristband",
+     "n": 1
+    }
+   ]
+  },
+  "未来女蜥蜴人首席魔法师兼祭司": {
+   "eq": {
+    "hum": "e5_elemental_kinship_bead",
+    "cap": "e5_white_flower_garland",
+    "corp": "e5_dyed_hide_wrap"
+   },
+   "bag": [
+    {
+     "k": "e5_water_blessed_reed_flute",
+     "n": 1
+    },
+    {
+     "k": "e5_wind_gathered_feather",
+     "n": 1
+    },
+    {
+     "k": "e5_fire_spirit_ember_jar",
+     "n": 1
+    },
+    {
+     "k": "e5_honeyed_flower_candy",
+     "n": 3
+    },
+    {
+     "k": "e5_lizard_totem_charm",
+     "n": 1
+    },
+    {
+     "k": "e5_pictograph_slate",
+     "n": 1
+    }
+   ]
+  }
+ },
+ "items": [
+  {
+   "k": "e5_obsidian_war_axe",
+   "cn": "黑曜石战斧",
+   "la": "SECVRIS OBSIDIANA",
+   "cat": "武器",
+   "price": 9,
+   "ic": "axe",
+   "spec": "刃长约20厘米 · 黑曜石打磨嵌木柄 · 藤条绑缚固定 · 刃口极脆忌硬砸 · 湿地佩戴不生锈",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "蜥蜴人锦标赛规定不得用魔法，只许用身体与武器，这是赛场上最常见的一件。湿地铁器易锈，蜥蜴人早年便弃用铁，转而将黑曜石打磨出锋利刃口嵌进木柄，劈砍力道虽猛，但边缘一碰硬物就崩口，需要常年备用替换。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_obsidian_broadblade",
+   "cn": "黑曜石阔刃刀",
+   "la": "GLADIVS OBSIDIANVS",
+   "cat": "武器",
+   "price": 11,
+   "ic": "sword2",
+   "spec": "刃长约35厘米 · 双面开刃 · 兽筋缠柄防滑 · 忌摔忌敲 · 收纳时须裹皮防潮碎",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "首领继承来的长矛之外，普通蜥蜴人比武多用这种阔刃刀。石片一体成型磨出双刃，劈砍效果不逊金属，只是稍一磕碰就可能崩裂，赛前赛后都要仔细检查刃口。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_bound_stone_mace",
+   "cn": "缚石重锤",
+   "la": "MALLEVS LIGATVS",
+   "cat": "武器",
+   "price": 8,
+   "ic": "hammer",
+   "spec": "石锤头约2千克 · 硬木柄以藤条缚紧 · 挥砸型武器 · 不惧磕碰 · 保养只需擦去泥污",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "把河床里挑出的圆润硬石绑在木柄一端做成的钝器，专克带壳的对手，也是锦标赛里力气型选手爱用的一种。不开刃，不怕缺口，比黑曜石武器耐用得多。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_obsidian_tipped_spear",
+   "cn": "黑曜石矛",
+   "la": "HASTA OBSIDIANA",
+   "cat": "武器",
+   "price": 10,
+   "ic": "spear",
+   "spec": "杆长约2米 · 木杆藤条缠握手处 · 矛头黑曜石打制 · 刺击专用 · 不可当撬棍使",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "普通蜥蜴人族人使用的制式长矛，矛头用黑曜石打制而成，刺得深但很脆，横向发力容易崩断。与首领手中那支创世龙亲手修好的长矛不同，这种矛坏了只能再打一支新的。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_bone_edged_dagger",
+   "cn": "骨刃短刀",
+   "la": "SICA OSSEA",
+   "cat": "武器",
+   "price": 5,
+   "ic": "dagger",
+   "spec": "刃长约15厘米 · 大型沼兽腿骨磨制 · 骨柄天然防滑 · 轻便贴身 · 不宜久泡水中",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "用沼泽里猎获的大型爬兽腿骨磨出的贴身短刀，蜥蜴人平时下水摸鱼、切割兽皮都用它，比黑曜石轻，不易在泥地里丢失，但泡水太久骨质会发脆。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_reed_woven_shield",
+   "cn": "芦苇编盾",
+   "la": "SCVTVM ARVNDINIS",
+   "cat": "防具",
+   "price": 6,
+   "ic": "shield",
+   "spec": "径约60厘米 · 密编芦苇夹兽皮 · 中心木框加固 · 挡打不挡刺 · 淋雨后须晾干",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "沼泽边随处可取的芦苇密编而成，中间加一块木框撑住形状，蒙一层兽皮防扎穿。挡钝器击打很管用，但尖锐的黑曜石矛头一戳就透，只能算个入门护具。",
+   "slot": "sin"
+  },
+  {
+   "k": "e5_lizard_scale_cuirass",
+   "cn": "鳞甲胸兜",
+   "la": "LORICA SQVAMATA",
+   "cat": "防具",
+   "price": 12,
+   "ic": "armor",
+   "spec": "覆盖躯干正面 · 大型沼蜥鳞片缝缀皮衬 · 硬度接近黑曜石 · 忌久晒开裂 · 重约3千克",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "把捕获的大型沼蜥的背鳞一片片缝在皮衬上做成的胸甲，硬度不输黑曜石武器，挡刺挡砍都还行，是锦标赛选手里少数买得起的正经护具，价钱不便宜。",
+   "slot": "corp"
+  },
+  {
+   "k": "e5_swamp_leather_greaves",
+   "cn": "沼皮护胫",
+   "la": "OCREAE PALVSTRES",
+   "cat": "防具",
+   "price": 4,
+   "ic": "boot",
+   "spec": "长及膝下 · 鞣制沼兽皮 · 内衬芦絮防磨 · 防荆棘防蚊虫 · 潮湿环境专用",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "鞣好的沼兽皮裹在小腿上，防的不是刀剑，是沼泽里的荆棘、蚂蟥和藏在水草下的尖石。蜥蜴人本身皮糙肉厚，这东西更多是给外来商旅和年轻族人穿的。",
+   "slot": "ped"
+  },
+  {
+   "k": "e5_bone_headguard",
+   "cn": "骨制额甲",
+   "la": "GALEA OSSEA",
+   "cat": "防具",
+   "price": 5,
+   "ic": "helm",
+   "spec": "覆额至头顶 · 大型头骨打磨而成 · 皮带束颌固定 · 挡钝击 · 不挡刺穿",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "把沼泽猛兽的头骨打磨掉尖角、削薄内壁做成的额甲，锦标赛规则不许伤人性命，选手们头上多少要护一护，免得钝器一记闷棍真的敲出人命。",
+   "slot": "cap"
+  },
+  {
+   "k": "e5_tournament_champion_sash",
+   "cn": "锦标赛胜者腰封",
+   "la": "CINCTVS VICTORIS",
+   "cat": "衣物",
+   "price": null,
+   "ic": "sash",
+   "spec": "白花编织缠腰一圈 · 只授当届胜者 · 次年归还部落 · 不得转赠 · 仿制品无效",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(9)",
+   "lore": "白花节锦标赛夺冠者当场系上的腰封，用白花编成，象征这一年他是创世之龙祝福的伟大战士。任期一满就要交还部落收好，来年传给下一位胜者，私自仿制会被族人耻笑。",
+   "slot": "cing"
+  },
+  {
+   "k": "e5_chief_spear_relic",
+   "cn": "首领长矛",
+   "la": "HASTA PRINCIPIS",
+   "cat": "武器",
+   "price": null,
+   "ic": "spear",
+   "spec": "杆长逾两米 · 创世之龙亲手修复 · 矛身永不锈蚀 · 世代由首领持有 · 不外借不出售",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "多年前折损后由创世之龙亲手修好的长矛，是历代蜥蜴人伟大首领继承权力的凭证之一。矛身据说带着不会损坏的祝福，首领换人时随权柄一并传下，从不曾流入民间。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_lizard_wrap_kilt",
+   "cn": "蜥蜴人缠裙",
+   "la": "SVBLIGACVLVM",
+   "cat": "衣物",
+   "price": 2,
+   "ic": "wrap",
+   "spec": "腰围通用 · 鞣制兽皮一整块 · 腰间绳结固定 · 下地劳作耐磨 · 湿透需晾干防臭",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "蜥蜴人常年在沼泽里活动，鳞片本身就是最好的防护，衣物只图遮体和方便，一块兽皮缠腰打结就是全部。族人下水摸鱼前都会先把它解下卷好。",
+   "slot": "cing"
+  },
+  {
+   "k": "e5_reed_sandals",
+   "cn": "芦苇编凉鞋",
+   "la": "SOLEA ARVNDINIS",
+   "cat": "衣物",
+   "price": 1,
+   "ic": "slipper",
+   "spec": "鞋底芦苇密编 · 脚背皮条系束 · 透水快干 · 单只寿命约一季 · 泥地防滑一般",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "芦苇编成鞋底，皮条系在脚背上，湿地里走多久都能很快沥干，不像皮靴那样闷出脚气。蜥蜴人脚掌本就厚实，这更多是给来往的人类商旅穿的。",
+   "slot": "ped"
+  },
+  {
+   "k": "e5_hide_pouch_belt",
+   "cn": "皮腰囊带",
+   "la": "MARSVPIVM CINCTVM",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "pouch",
+   "spec": "腰间系挂 · 鞣皮缝制两格 · 容小件杂物 · 系带可调松紧 · 防水一般",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "缝出两个小格挂在腰上的皮囊，猎人和游商都爱用来装火石、干粮之类的零碎，蜥蜴人自己也常拿它装比武用的裹手皮条。",
+   "slot": "cing"
+  },
+  {
+   "k": "e5_festival_feather_mantle",
+   "cn": "节庆羽饰肩帔",
+   "la": "PALLIVM PLVMARVM",
+   "cat": "衣物",
+   "price": 6,
+   "ic": "cloak",
+   "spec": "披挂双肩 · 涉禽羽毛缝缀 · 仅节庆穿着 · 遇雨须收起 · 平日收纳避潮",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "白花节游行时族老与祭司披的羽饰肩帔，用沼泽涉禽的羽毛一根根缝在皮衬上，颜色越鲜亮身份越尊贵，平日锁在干燥的箱笼里，怕受潮掉毛。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_white_flower_garland",
+   "cn": "白花节花环",
+   "la": "SERTVM FLORIS ALBI",
+   "cat": "衣物",
+   "price": 1,
+   "ic": "band",
+   "spec": "鲜花现采现编 · 一日之内枯萎 · 节日当天佩戴 · 不可隔夜使用 · 花期决定节期",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "白花节因满地盛开的白花而得名，族人在节日当天现采现编成环戴在头上，花一枯就要摘下扔掉，第二年再采新的，节期本身也是跟着这种花的花期定的。",
+   "slot": "cap"
+  },
+  {
+   "k": "e5_dyed_hide_wrap",
+   "cn": "染色兽皮缠布",
+   "la": "PANNVS TINCTVS",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "wrap",
+   "spec": "长约两米 · 矿粉草汁染色 · 缠身多层保暖 · 图案标记身份 · 洗涤会褪色",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "用矿粉和草汁把兽皮布染出赭红、靛青几种颜色，缠在身上做礼服，不同的缠法和颜色搭配能看出是首领一系、萨满一系还是普通族人。",
+   "slot": "corp"
+  },
+  {
+   "k": "e5_honeyed_flower_candy",
+   "cn": "蜂蜜花蜜糖",
+   "la": "MEL FLORIS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "candy",
+   "spec": "拇指大小一粒 · 白花花蜜熬制 · 拌野蜂蜜定形 · 常温存放十日 · 一次不宜多吃",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(2)",
+   "lore": "用白花的花蜜混着野蜂蜜熬成，是蜥蜴人待客的甜食，据说连生命教会的圣女都爱吃。族里长辈常叮嘱孩子别一次吃太多，免得耽误正餐。",
+   "use": {
+    "act": "剥开叶包咬一口糖块",
+    "eff": "解一时馋意，这一幕心情稍好转但不解决饥饿"
+   }
+  },
+  {
+   "k": "e5_smoked_swamp_fish",
+   "cn": "熏沼泽鱼",
+   "la": "PISCIS FVMATVS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "fish",
+   "spec": "整条约300克 · 篝火慢熏一夜 · 阴凉可存十日 · 不去骨 · 食前需细拆",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(3)",
+   "lore": "沼泽里最常见的口粮，用篝火烟熏一整夜去掉腥气水分，能存放不短的时日，是蜥蜴人和往来商旅路上都爱带的干粮。",
+   "use": {
+    "act": "拆开鱼骨吃净鱼肉",
+    "eff": "填饱肚子，这一幕不再因饥饿减损体力"
+   }
+  },
+  {
+   "k": "e5_grilled_marsh_lizard_skewer",
+   "cn": "炙烤沼蜥肉串",
+   "la": "CARO LACERTAE ASSA",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "skewer",
+   "spec": "三块一串 · 篝火明火炙烤 · 现烤现吃最佳 · 冷后腥味转重 · 不宜久放",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(3)",
+   "lore": "借助火之精灵的力量烤熟，是蜥蜴人平日最常见的一餐。趁热吃肉质紧实，放凉了腥气会重上不少，商旅路过多半会当场买一串吃掉，不带上路。",
+   "use": {
+    "act": "就着炭火趁热吃完",
+    "eff": "恢复一定体力，冷食后效果会打折扣"
+   }
+  },
+  {
+   "k": "e5_swamp_root_mash",
+   "cn": "沼根薯泥",
+   "la": "PVLS RADICIS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "taro",
+   "spec": "块茎捣成泥 · 沼泽块根挖取 · 蒸熟去涩 · 当日食用为佳 · 隔夜发酸",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "沼泽边生长的块根蒸熟捣成泥，是农业兴起后蜥蜴人和沿岸人类都会种的主食之一，做法简单，隔夜就容易发酸，通常当天现做现吃。",
+   "use": {
+    "act": "用手捏一团送入口中",
+    "eff": "填腹充饥，效果平稳但持续不久"
+   }
+  },
+  {
+   "k": "e5_reed_shoot_greens",
+   "cn": "芦苇嫩茎",
+   "la": "GERMEN ARVNDINIS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "greens",
+   "spec": "掐取嫩芽部分 · 生食或水煮 · 略带甜味 · 春夏产量最丰 · 不耐存放",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "沼泽边芦苇春夏抽出的嫩茎，掐下来生吃带点甜味，也可以水煮当配菜，是蜥蜴人日常最便宜的一口蔬菜。",
+   "use": {
+    "act": "掐一把嫩茎生嚼",
+    "eff": "略微缓解饥饿，几乎不占分量"
+   }
+  },
+  {
+   "k": "e5_salted_shellfish",
+   "cn": "盐渍贝肉",
+   "la": "CONCHA SALITA",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "sashimi",
+   "spec": "去壳取肉 · 粗盐腌渍半日 · 可存半月 · 咸重不宜多食 · 忌与生水同存",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "MARE TETHYS"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人从海滩一带的族人那里换来的贝肉，用粗盐腌过能存放半个月，是内陆蜥蜴人聚落难得的海味，咸得重，吃前多要用清水泡一泡。",
+   "use": {
+    "act": "泡水去咸后食用",
+    "eff": "补充体力，咸味重，一次不宜吃太多"
+   }
+  },
+  {
+   "k": "e5_tournament_feast_bread",
+   "cn": "锦标赛庆典饼",
+   "la": "PANIS CERTAMINIS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "bread",
+   "spec": "掌心大小圆饼 · 谷粉沼蜜和面 · 节日限量烤制 · 现烤现分 · 隔日变硬难嚼",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(9)",
+   "lore": "白花节锦标赛当天才烤的圆饼，掺了沼地采来的野蜜，全族一起分食，图个吉利。过了节日就不再做，隔天的饼硬得能当石头用。",
+   "use": {
+    "act": "分食一块庆典圆饼",
+    "eff": "恢复少量体力，同时提振士气"
+   }
+  },
+  {
+   "k": "e5_swamp_turtle_soup",
+   "cn": "沼龟浓汤",
+   "la": "IVS TESTVDINIS",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "soup",
+   "spec": "一碗约500毫升 · 龟肉慢炖半日 · 加根菜提味 · 趁热食用 · 放凉腥腻加重",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(3)",
+   "lore": "把沼泽里捕来的大龟连壳慢炖大半天，炖出的浓汤是蜥蜴人待贵客的一道菜，比赛前夕族老也常给年轻选手灌上一碗补身子。",
+   "use": {
+    "act": "趁热喝下一整碗",
+    "eff": "较大幅度恢复体力，凉透后效果减半"
+   }
+  },
+  {
+   "k": "e5_dried_fern_root_cake",
+   "cn": "蕨根干饼",
+   "la": "OFFA RADICIS FILICIS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bread",
+   "spec": "手掌大小一块 · 蕨根粉压制 · 晒干可存月余 · 味淡耐饥 · 需就水吞咽",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "把沼泽蕨类的根磨成粉压成饼晒干，味道很淡但存得久，是蜥蜴人远行或荒年时的备用口粮，干硬得需要就着水才咽得下去。",
+   "use": {
+    "act": "掰碎就水吞下",
+    "eff": "长时间抵饥，口感差但保存久远"
+   }
+  },
+  {
+   "k": "e5_obsidian_tool_kit",
+   "cn": "黑曜石工具囊",
+   "la": "INSTRVMENTA OBSIDIANA",
+   "cat": "器物",
+   "price": 5,
+   "ic": "pouch",
+   "spec": "皮囊一只 · 内含刮刀凿子各一 · 打制修补随身工具 · 蜥蜴人视为体面家当 · 丢失需另打",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(3)",
+   "lore": "蜥蜴人首领曾说，族人拥有黑曜石工具就已经算是够体面的发展。这套随身工具囊装着打制、修补黑曜石器物用的刮刀凿子，是普通族人最基本的家当。"
+  },
+  {
+   "k": "e5_stone_carving_chisel",
+   "cn": "石刻凿",
+   "la": "CELTIS LAPIDARIA",
+   "cat": "器物",
+   "price": 3,
+   "ic": "pick",
+   "spec": "刃宽约1厘米 · 硬石打磨而成 · 配木柄手握 · 专刻石板 · 刃口需常年磨新",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "SAGARMATHA"
+   ],
+   "src": "神明.(6)",
+   "lore": "最早的文字就是蜥蜴人用这种凿子在石板上一笔一笔刻出来的象形图。图画渐渐简化，成了最早的记录，也是后来人类文字的源头。刻久了刃口会钝，需要不时重新打磨。"
+  },
+  {
+   "k": "e5_pictograph_slate",
+   "cn": "象形石板",
+   "la": "TABVLA PICTA",
+   "cat": "书卷",
+   "price": 4,
+   "ic": "tablet",
+   "spec": "宽约30厘米 · 单面刻满图画符号 · 一符一意 · 不可折叠 · 存放避免摔碎",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(6)",
+   "lore": "蜥蜴人最早的记录方式，石板上刻着一个个代表具体事物的图画，一个符号只有一个意思，学起来虽不难，但符号数量太多，学会使用并不容易，因此始终没能广泛传开。"
+  },
+  {
+   "k": "e5_lizard_totem_charm",
+   "cn": "蜥蜴图腾符",
+   "la": "SIGNVM TOTEMICVM",
+   "cat": "魔具",
+   "price": 6,
+   "ic": "amulet",
+   "spec": "掌心大小一枚 · 骨料刻纹染色 · 随身佩戴 · 象征创世之龙庇佑 · 遗失被视为不吉",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "刻着简化蜥蜴纹样的骨制小符，佩戴者相信它能让创世之龙认出自己是虔诚的信徒。族人出远门前都要摸一摸胸前这枚符，图个心安。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_meditation_focus_stone",
+   "cn": "凝气冥想石",
+   "la": "LAPIS MEDITATIONIS",
+   "cat": "魔具",
+   "price": 7,
+   "ic": "stone",
+   "spec": "掌心可握的圆润石子 · 闭目静坐时摩挲 · 助力收拢魔力 · 需长期练习方见效 · 转赠无用",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(6)",
+   "lore": "创世之龙教给蜥蜴人的简单收力法门用的辅助物，闭眼摩挲这块光滑石子能帮着把散乱的魔力收拢起来，蜥蜴人魔法天赋有限，全靠这种笨办法慢慢练。",
+   "use": {
+    "act": "闭目摩挲石面静心聚力",
+    "eff": "缓慢积攒少量施法所需的魔力"
+   }
+  },
+  {
+   "k": "e5_elemental_kinship_bead",
+   "cn": "精灵契心珠",
+   "la": "GEMMA AMICITIAE",
+   "cat": "魔具",
+   "price": 12,
+   "ic": "gem",
+   "spec": "指节大小 · 内隐微光随附身精灵变色 · 长期佩戴培养默契 · 破碎则关系归零 · 不与他人共用",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(6)",
+   "lore": "蜥蜴人相信把这枚珠子长期贴身佩戴，能让常互动的元素精灵记住自己的气息，慢慢培养出信任。与精灵那种明文契约不同，蜥蜴人讲究的是这种模糊的友谊，珠子碎了就得重新交朋友。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_fire_spirit_ember_jar",
+   "cn": "火精灵种火罐",
+   "la": "OLLA IGNIS FAMILIARIS",
+   "cat": "器物",
+   "price": 5,
+   "ic": "jar",
+   "spec": "陶罐带盖 · 罐内养一撮驯服炭火 · 借火精灵之力不灭 · 摔碎则火种散逸 · 需时常添薪",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "YGGDRASIL"
+   ],
+   "src": "推定：神明.(6)",
+   "lore": "蜥蜴人和精灵都会用这种陶罐养一撮小火，靠与火之精灵的默契让炭火不易熄灭，出门在外用来引火比钻木取火省事得多。",
+   "use": {
+    "act": "打开罐盖引出火种",
+    "eff": "快速点燃篝火或火把，无需从头取火"
+   }
+  },
+  {
+   "k": "e5_wind_gathered_feather",
+   "cn": "集风羽",
+   "la": "PENNA VENTI",
+   "cat": "魔具",
+   "price": 6,
+   "ic": "feather",
+   "spec": "长约20厘米 · 涉禽羽毛 · 借风精灵之力轻若无物 · 贴身携带助力敏捷 · 折断即失效",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL",
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(6)",
+   "lore": "被风之精灵短暂眷顾过的一根羽毛，贴身带着据说能让借用风之力的蜥蜴人动作更利落一些，效果轻微，折断了就没用了，得再去求精灵帮忙加持。"
+  },
+  {
+   "k": "e5_water_blessed_reed_flute",
+   "cn": "水佑芦笛",
+   "la": "FISTVLA AQVAE",
+   "cat": "魔具",
+   "price": 5,
+   "ic": "vine",
+   "spec": "长约25厘米 · 芦苇挖孔制成 · 吹奏可安抚水精灵 · 湿地萨满常用 · 干裂后失灵",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(6)",
+   "lore": "蜥蜴人萨满吹奏用来安抚水精灵情绪的一支芦笛，声音低沉婉转，据说能让性子急躁的水精灵安静下来，方便借力游泳或调水。",
+   "use": {
+    "act": "吹奏一段安抚曲调",
+    "eff": "使附近水系精灵情绪平稳，短暂便于借力"
+   }
+  },
+  {
+   "k": "e5_dragonkin_blessing_shard",
+   "cn": "龙裔祝福符片",
+   "la": "SCHEDVLA BENEDICTIONIS",
+   "cat": "魔具",
+   "price": null,
+   "ic": "amulet",
+   "spec": "指甲大小一片 · 从伟大战士鳞片剥落 · 只在祝福年限内有效 · 逾期化为齑粉 · 不得转赠",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(9)",
+   "lore": "锦标赛胜者获得创世之龙祝福、化为龙裔一年间，偶有鳞片剥落，族人会捡起收好，相信它还留着一丝祝福余韵，只是这符片过了那一年就会自行碎成粉末。",
+   "ban": "独一之物·仅胜者所有"
+  },
+  {
+   "k": "e5_greatshaman_hearing_shell",
+   "cn": "大萨满听讯螺",
+   "la": "CONCHA AVDIENTIS",
+   "cat": "魔具",
+   "price": null,
+   "ic": "horn",
+   "spec": "掌心大小海螺 · 唯首届大萨满可闻其中回响 · 象征聆听创世之龙之声 · 不可交易 · 遗失另择贤者",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(9)",
+   "lore": "首届大萨满就任那日，族人替他寻来的一枚海螺，据说贴耳能听见细微回响，被当作神选萨满能直接聆听创世之龙声音这件事的象征物，其实螺声人人能听见，只是族人愿意相信只有他听得懂。"
+  },
+  {
+   "k": "e5_great_chief_seal_stone",
+   "cn": "首领印石",
+   "la": "SIGILLVM PRINCIPIS",
+   "cat": "杂物",
+   "price": null,
+   "ic": "seal",
+   "spec": "拳头大小卵石 · 底面刻首领纹样 · 蘸赭泥盖印 · 用于认可族中大事 · 遗失须重刻",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "历代蜥蜴人伟大首领用来在重要事务上盖印认可的石印，底面刻着代代相传的首领纹样，蘸上赭红泥浆按在皮革或泥板上，是首领权柄之外另一件看得见的凭证。"
+  },
+  {
+   "k": "e5_champion_tournament_wristband",
+   "cn": "比武护腕",
+   "la": "ARMILLA CERTAMINIS",
+   "cat": "防具",
+   "price": 4,
+   "ic": "band",
+   "spec": "缠绕前臂两圈 · 硬皮加芦苇内衬 · 挡钝击擦伤 · 赛前统一发放 · 赛后归还",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "神明.(3)",
+   "lore": "锦标赛裁判发给每位选手的统一护具，缠在前臂上防止格挡时擦伤，规则规定不许伤人性命，这类护具能让比武看起来更像技艺切磋而非真的拼命。",
+   "slot": "cing"
+  },
+  {
+   "k": "e5_shamash_law_codex",
+   "cn": "沙玛什法典晶碑",
+   "la": "STELA LEGIS",
+   "cat": "书卷",
+   "price": null,
+   "ic": "tablet",
+   "spec": "高逾人身 · 通体纯白晶石 · 坚不可摧 · 刻满十诫与刑律 · 供奉光之神殿深处",
+   "stack": 0,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "神明.(9)",
+   "lore": "创世之龙造出的一块纯白晶碑，赐给光明与正义之神沙玛什以其名义颁布，刻着最早的十诫与刑律，是人类第一部成文法典。碑身坚不可摧，被抄录传遍各地，如今供奉在光之神殿最深处，无人能带走原碑。",
+   "ban": "供奉之物·不可买卖"
+  },
+  {
+   "k": "e5_law_tablet_copy",
+   "cn": "法典泥板抄本",
+   "la": "TABVLA LEGIS EXSCRIPTA",
+   "cat": "书卷",
+   "price": 8,
+   "ic": "tablet",
+   "spec": "长约25厘米 · 湿泥板刻录后晒干 · 摘录十诫要目 · 携带易碎 · 破损可再抄",
+   "stack": 0,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM",
+    "SAGARMATHA",
+    "YGGDRASIL"
+   ],
+   "src": "神明.(9)",
+   "lore": "沙玛什法典颁布后，各地首领命人把内容抄刻在泥板上，随人类活动传遍世界各处，连蜥蜴人、精灵、侏儒的地界也能见到，虽然这些种族更信自己的神明，法典对他们只是人类世界的规矩。"
+  },
+  {
+   "k": "e5_ten_precepts_fragment",
+   "cn": "十诫刻板残片",
+   "la": "FRAGMENTVM DECEM",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "stone",
+   "spec": "巴掌大小一角 · 破损泥板碎片 · 隐约可辨一两条戒律 · 朝圣者常年拾取 · 不具法效",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "各地抄刻的法典泥板年久破损后留下的碎片，上面往往只能辨认出一两条戒律，被朝圣者当作沾了神意的纪念物随身带走，本身没有任何法律效力。"
+  },
+  {
+   "k": "e5_scribe_stylus_bone",
+   "cn": "刻字骨笔",
+   "la": "STILVS OSSEVS",
+   "cat": "器物",
+   "price": 3,
+   "ic": "needle",
+   "spec": "长约12厘米 · 兽骨削尖打磨 · 专用于泥板刻字 · 笔尖易钝 · 备用数支为宜",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "削尖的兽骨制成的刻字工具，是抄录法典、记录祈祷的书吏随身必备之物。泥板软的时候刻起来省力，笔尖用久了会钝，抄写量大的书吏常常一次带好几支备用。"
+  },
+  {
+   "k": "e5_clay_tablet_blank",
+   "cn": "生泥板",
+   "la": "TABVLA CRVDA",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "tablet",
+   "spec": "长约20厘米 · 湿黏土压平未晒 · 可刻写涂改 · 需当日用完 · 干后不可再改",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "刚从河泥里取出压平的湿泥板，趁软的时候可以刻字，写错了还能抹平重来，一旦风干定形就再也改不了，是抄写法典、记账的人日常要用的耗材。",
+   "use": {
+    "act": "趁湿刻下文字或图画",
+    "eff": "留下一份可随身携带的记录，风干后不可再改"
+   }
+  },
+  {
+   "k": "e5_fired_clay_tablet",
+   "cn": "烧制泥板",
+   "la": "TABVLA COCTA",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "tablet",
+   "spec": "长约20厘米 · 窑火烧硬定形 · 刻痕永久保存 · 不惧潮湿 · 摔碎则无法复原",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "把刻好字的泥板放进火里烧硬，文字就能永久保存，不再怕水泡受潮，重要的判决和法典条文多用这种方式留档，只是烧硬后就再也改不了，也摔不得。"
+  },
+  {
+   "k": "e5_judgment_seal_wax",
+   "cn": "判决封泥印",
+   "la": "SIGILLVM IVDICII",
+   "cat": "器物",
+   "price": 6,
+   "ic": "seal",
+   "spec": "印面刻裁决纹样 · 蘸赭泥或蜂蜡按印 · 认证判决文书 · 一地首领各执一枚 · 仿刻视同伪造",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "各地首领依法典裁决案件后，用来在泥板或皮革文书上盖印确认的工具，印面刻着专属纹样，防止判决被人随意篡改或假冒，私自仿刻会被当作重罪处置。"
+  },
+  {
+   "k": "e5_oath_swearing_stone",
+   "cn": "誓言石",
+   "la": "LAPIS IVRAMENTI",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "stone",
+   "spec": "拳头大小卵石 · 常年置于神殿门前 · 起誓时手按石面 · 传说说谎者掌心会发烫 · 实为心理震慑",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "放在神殿门前的一块卵石，按法典规定不可说谎，出庭作证前要手按此石起誓，据说说谎的人掌心会发烫，其实多半是心理作用，但确实吓住了不少想撒谎的人。"
+  },
+  {
+   "k": "e5_temple_incense_bundle",
+   "cn": "神殿熏香束",
+   "la": "FASCIS THVRIS",
+   "cat": "消耗",
+   "price": 3,
+   "ic": "leaf",
+   "spec": "十余支一束 · 干香草捆扎 · 点燃供于神像前 · 一支约燃半炷时辰 · 受潮难引燃",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM",
+    "YGGDRASIL"
+   ],
+   "src": "推定：神明.(4)",
+   "lore": "用晒干的香草捆成一束，点燃后插在神像或祭坛前，是各地神殿最常见的供奉品，烟气袅袅被认为能把心意带到神明面前，受潮了就很难点着。",
+   "use": {
+    "act": "取一支点燃插入香炉",
+    "eff": "供奉神明，短暂安抚祈愿者的心绪"
+   }
+  },
+  {
+   "k": "e5_offering_clay_bowl",
+   "cn": "祭祀陶钵",
+   "la": "PATERA SACRA",
+   "cat": "器物",
+   "price": 4,
+   "ic": "bowl",
+   "spec": "口径约20厘米 · 素陶烧制 · 盛放供品谷物或果实 · 不作日常餐具 · 破损即弃",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM",
+    "YGGDRASIL",
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(4)",
+   "lore": "专门用来盛放供品的素陶钵，摆在神像或圣物前，装谷物、果实或酒水，各族神殿都有类似的器皿，破了就要另换新的，不会拿来当日常餐具用。"
+  },
+  {
+   "k": "e5_votive_stone_figurine",
+   "cn": "还愿石像",
+   "la": "SIMVLACRVM VOTIVVM",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "stone",
+   "spec": "掌心大小人形 · 粗刻五官轮廓 · 许愿还愿所立 · 常年堆积神殿角落 · 不具法力",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(2)",
+   "lore": "信众许愿应验后按习俗刻一尊粗糙的小石像还愿，堆在神殿角落里，年深日久能堆成小山。蜥蜴人首领曾提议要为创世之龙立石碑，被婉拒后这类小像仍在民间流传。"
+  },
+  {
+   "k": "e5_pilgrim_clay_lamp",
+   "cn": "朝圣陶灯",
+   "la": "LVCERNA PEREGRINI",
+   "cat": "器物",
+   "price": 3,
+   "ic": "lamp",
+   "spec": "掌心大小浅碟 · 盛兽脂或植物油 · 灯芯麻线 · 单次可燃一夜 · 需常年添油",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM",
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(4)",
+   "lore": "朝圣者夜里赶路或在神殿守夜时用的小油灯，浅碟里倒上兽脂，插一根麻线灯芯，添一次油大约能亮一夜，光芒虽小却是黑夜里最要紧的东西。",
+   "use": {
+    "act": "点燃灯芯照明",
+    "eff": "驱散周围黑暗，可持续照明一段时间"
+   }
+  },
+  {
+   "k": "e5_temple_pine_torch",
+   "cn": "神殿松脂火把",
+   "la": "FAX RESINAE",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "torch",
+   "spec": "长约50厘米 · 松木浸松脂 · 燃烧持久少烟 · 神殿祭仪常用 · 湿雨中难点燃",
+   "stack": 1,
+   "at": [
+    "NOX ALBA",
+    "PALUS LACERTARUM",
+    "YGGDRASIL",
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(4)",
+   "lore": "浸过松脂的木把，比普通柴火燃烧更持久也更亮，各地神殿祭仪、夜巡的守卫都爱用这种火把，只是雨天湿透了就很难再点着。",
+   "use": {
+    "act": "以火种点燃火把",
+    "eff": "获得持久明亮的光源，可用于夜行或祭仪"
+   }
+  },
+  {
+   "k": "e5_light_temple_veil",
+   "cn": "光之神殿面纱",
+   "la": "VELVM TEMPLI LVCIS",
+   "cat": "衣物",
+   "price": 7,
+   "ic": "veil",
+   "spec": "薄纱及肩 · 白夜产亮丝织成 · 遮面见神像 · 婚丧祭仪均可用 · 忌染色",
+   "stack": 0,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(4)",
+   "lore": "用白夜一带特产的亮丝织成的薄纱，信众进入光之神殿深处瞻仰法典时按习俗要遮面，以示对光明之神的敬重，素白不染色，染了色便失了本意。",
+   "slot": "cap"
+  },
+  {
+   "k": "e5_shamash_sunburst_amulet",
+   "cn": "沙玛什日轮护符",
+   "la": "AMVLETVM SOLIS",
+   "cat": "魔具",
+   "price": 15,
+   "ic": "amulet",
+   "spec": "圆片大小 · 光滑石片刻日纹 · 佩戴者称心神安定 · 夜行照明极微弱 · 遇强光会发烫",
+   "stack": 0,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(7)",
+   "lore": "刻着日轮纹样的护符，信众相信佩戴它能得光明与正义之神庇佑，遇上强烈日光或近距离火焰会微微发烫，被当作神明感应的证据，其实多半只是石片受热。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_moonlit_incense",
+   "cn": "月光熏香",
+   "la": "THVS LVNARE",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "leaf",
+   "spec": "十余支一束 · 只于夜间点燃 · 烟色泛白 · 用于夜间祈愿 · 白日点燃无效",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(6)",
+   "lore": "沙玛什最初只是把月光星光调亮一些，人类就开始崇拜她，各地渐渐兴起夜间点这种熏香祈愿的习俗，烟色泛白，据说白日里点了也没什么用。",
+   "use": {
+    "act": "夜间点燃并对天祈愿",
+    "eff": "略微安定心神，据信更易被光明之神听见"
+   }
+  },
+  {
+   "k": "e5_courtroom_judgment_token",
+   "cn": "公堂裁决木签",
+   "la": "TESSERA IVDICII",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "tag",
+   "spec": "长约10厘米 · 硬木削制刻号 · 抽签定案件次序 · 判后收回 · 私藏视为不敬",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "法典颁布后各地开始有了较为正式的公堂，等候裁决的人抽这种木签排定次序，免得像从前那样谁嗓门大谁先审。判决一出木签就要收回，不许私自留存。"
+  },
+  {
+   "k": "e5_frost_light_shard",
+   "cn": "冷光晶",
+   "la": "CRYSTALLVM FRIGIDVM",
+   "cat": "魔具",
+   "price": 10,
+   "ic": "crystal",
+   "spec": "拳头大小 · 白夜冰原产 · 常年自发微光 · 不惧严寒 · 远离白夜光渐暗淡",
+   "stack": 0,
+   "at": [
+    "NOX ALBA",
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "在白夜一带冰原上采到的会自己发出微光的晶石，据说是光元素精灵长年停留浸润所致，带离白夜地界越远，光芒就越暗淡，最终归于平常石头。"
+  },
+  {
+   "k": "e5_dawnless_clay_lantern",
+   "cn": "不夜陶灯",
+   "la": "LANTERNA SINE NOCTE",
+   "cat": "器物",
+   "price": 6,
+   "ic": "lantern",
+   "spec": "带孔陶罩防风 · 内置油碟 · 白夜地界常年不灭 · 携出该地需勤添油 · 摔碎罩壳难修",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "在永昼平原白夜边缘制作的带孔陶罩油灯，因为当地光元素精灵活跃，灯芯格外耐烧，据说在白夜地界内几乎不用添油，带出这片地界就得像普通灯一样勤加照看。",
+   "use": {
+    "act": "点燃罩内灯芯",
+    "eff": "获得防风的持久光源，白夜地界内耗油极慢"
+   }
+  },
+  {
+   "k": "e5_founder_crown_relic",
+   "cn": "创龙授王冠",
+   "la": "CORONA FVNDATORIS",
+   "cat": "衣物",
+   "price": null,
+   "ic": "band",
+   "spec": "薄金环嵌铜片 · 创世之龙亲授 · 由最大城邦首领世代相传 · 不可分割赠人 · 唯一一顶",
+   "stack": 0,
+   "at": [],
+   "src": "神明.(1)",
+   "lore": "最初由创世之龙授予某位有魅力的人类首领的一顶王冠，象征着最初几座城市里最大最繁盛那座的统治权。这顶冠冕据说是往后诸多王权传说的源头之一，从不曾离开过那座城市。",
+   "slot": "cap",
+   "ban": "独一之物·不可买卖"
+  },
+  {
+   "k": "e5_flax_tunic",
+   "cn": "亚麻短衫",
+   "la": "TVNICA LINEA",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "tunic",
+   "spec": "长及膝上 · 原始亚麻织布 · 简单缝合无扣 · 遮体保暖 · 洗后需晾晒变形",
+   "stack": 0,
+   "at": [],
+   "src": "神明.(1)",
+   "lore": "有了原始的织物以后，人类各地村落都开始穿这种简单缝合的亚麻短衫，比兽皮轻便，也是农业发展带来生活条件改善的一个标志。",
+   "slot": "corp"
+  },
+  {
+   "k": "e5_hide_cloak_common",
+   "cn": "兽皮斗篷",
+   "la": "PALLIVM PELLIS",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "cloak",
+   "spec": "披肩长及腰 · 粗鞣兽皮 · 御寒挡风 · 系带固定 · 久雨易发霉",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "村落人家最常见的御寒外衣，粗略鞣制的兽皮披在肩上用皮带系紧，做工谈不上精细，图的就是挡风保暖，久雨天不收好容易发霉生虫。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_woven_sandal_common",
+   "cn": "编织草鞋",
+   "la": "SOLEA TEXTA",
+   "cat": "衣物",
+   "price": 1,
+   "ic": "slipper",
+   "spec": "草绳编底 · 麻绳系束 · 轻便廉价 · 农忙劳作常穿 · 磨损快需常换",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "用干草绳编成鞋底、麻绳系在脚背上的廉价鞋子，村落里种地、放牧的人家人人都有几双，磨损得快，是农忙时节消耗量最大的一样东西。",
+   "slot": "ped"
+  },
+  {
+   "k": "e5_barley_flatbread",
+   "cn": "大麦薄饼",
+   "la": "PANIS HORDEACEVS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bread",
+   "spec": "掌心大小一张 · 大麦粉加水烙制 · 当日食用最佳 · 隔夜发硬 · 村落常见主食",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "农业进一步发展后村落里最常见的主食，大麦磨粉加水和面，摊在烧热的石板上烙熟，做法简单，是人口能够爆发式增长背后最基础的一样口粮。",
+   "use": {
+    "act": "掰开薄饼卷菜食用",
+    "eff": "填饱肚子，恢复少量体力"
+   }
+  },
+  {
+   "k": "e5_root_vegetable_stew",
+   "cn": "根菜炖羹",
+   "la": "PVLMENTVM RADICVM",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "soup",
+   "spec": "一碗约400毫升 · 根菜杂谷同炖 · 加盐调味 · 趁热食用 · 隔夜需回锅",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "把地里收的根菜和杂谷放在一起炖煮，是村落人家最普通的一顿饭，隔夜的羹要重新回锅热过才好吃，没有火的人家只能就着冷羹啃硬饼。",
+   "use": {
+    "act": "盛一碗趁热喝下",
+    "eff": "较好地填饱肚子，恢复一定体力"
+   }
+  },
+  {
+   "k": "e5_dried_berries_string",
+   "cn": "干浆果串",
+   "la": "VVA PASSA FILATA",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "candy",
+   "spec": "十余颗一串 · 阳光晒干 · 穿绳挂晒风干 · 可存整个冬季 · 受潮易发霉",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL",
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "把野生浆果穿成一串挂在通风处晒干，是过冬时难得能吃到的一点甜味，晒得好的能存一整个冬天，一旦受潮就容易长毛，得赶紧挑出来吃掉。",
+   "use": {
+    "act": "摘下几颗浆果嚼食",
+    "eff": "补充少量体力，带来一点甜味调剂"
+   }
+  },
+  {
+   "k": "e5_goat_cheese_wheel",
+   "cn": "山羊乳酪饼",
+   "la": "CASEVS CAPRINVS",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "cheese",
+   "spec": "一饼约500克 · 羊乳凝乳压制 · 阴凉存放可达月余 · 表皮渐硬 · 切开后尽快食用",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "把羊乳凝结压制成饼状晾干的乳酪，是驯化牲畜之后人类多出来的一样耐存食物，放得越久外皮越硬味道越浓，山地村落尤其常见。",
+   "use": {
+    "act": "切下一角乳酪食用",
+    "eff": "补充体力，味道浓烈，久放后风味更重"
+   }
+  },
+  {
+   "k": "e5_clay_winejar",
+   "cn": "陶制酒罐",
+   "la": "AMPHORA VINARIA",
+   "cat": "器物",
+   "price": 5,
+   "ic": "winejar",
+   "spec": "容约3升 · 素陶烧制 · 泥封瓶口防漏 · 存放阴凉处 · 破损即漏酒",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "用来存放村落自酿浊酒的陶罐，瓶口用湿泥封住防止跑气漏酒，是农业和定居生活带来的一样新东西，破了就只能拿去装别的杂物。"
+  },
+  {
+   "k": "e5_barley_beer",
+   "cn": "大麦浊酒",
+   "la": "CEREVISIA HORDEACEA",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "winejar",
+   "spec": "一壶约500毫升 · 大麦发酵自酿 · 酒味浑浊偏酸 · 节庆聚会常饮 · 存放过久变质",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "村落里用大麦自然发酵酿出的浊酒，味道谈不上讲究，节庆和聚会时人人都要喝上一碗，是农业发展之后人类新学会的一样享受。",
+   "use": {
+    "act": "倒出一碗一饮而尽",
+    "eff": "微醺放松，短暂提振士气但影响手脚灵活"
+   }
+  },
+  {
+   "k": "e5_hunting_bow_wood",
+   "cn": "猎弓",
+   "la": "ARCVS VENATORIVS",
+   "cat": "武器",
+   "price": 6,
+   "ic": "bow",
+   "spec": "弓长约1.3米 · 硬木弯制 · 兽筋为弦 · 射猎专用 · 受潮弦松需重绷",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "村落猎人常用的木弓，弓身用硬木弯烤定形，弦是晒干搓紧的兽筋，配合箭矢用来猎取野味，是人类各地村落发展壮大离不开的一样工具。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_flint_arrow_bundle",
+   "cn": "燧石箭束",
+   "la": "SAGITTAE SILICEAE",
+   "cat": "消耗",
+   "price": 3,
+   "ic": "arrow",
+   "spec": "十支一束 · 燧石打磨箭头 · 木杆羽尾 · 配猎弓使用 · 箭头易折需备用",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "打磨燧石做箭头、木杆配羽尾做成的箭矢，射出去命中硬物容易崩断箭头，猎人出门总要多备几束，配着猎弓使用。",
+   "use": {
+    "act": "搭箭拉弓射出",
+    "eff": "配合弓具命中猎物或目标，箭矢每次消耗一支"
+   }
+  },
+  {
+   "k": "e5_stone_headed_spear",
+   "cn": "石矛",
+   "la": "HASTA LAPIDEA",
+   "cat": "武器",
+   "price": 5,
+   "ic": "spear",
+   "spec": "杆长约1.8米 · 燧石矛头绑缚 · 刺猎兼防身 · 矛头易松 · 需定期紧固",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "村落男丁常备的一件武器，燧石打磨的矛头用藤条绑在木杆上，平时打猎防身两用，绑缚久了会松动，需要时常检查加固。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_hide_quiver",
+   "cn": "兽皮箭袋",
+   "la": "PHARETRA PELLIS",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "quiver",
+   "spec": "背负式 · 鞣皮缝制 · 容箭约十五支 · 配肩带斜背 · 破损处需及时缝补",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "背在身后装箭矢的皮袋，配合猎弓使用，缝制得再结实也架不住常年摩擦，猎人隔一阵就要检查缝线，免得箭矢半路漏光。",
+   "slot": "terg"
+  },
+  {
+   "k": "e5_stone_sickle",
+   "cn": "石镰",
+   "la": "FALX LAPIDEA",
+   "cat": "器物",
+   "price": 3,
+   "ic": "sword",
+   "spec": "刃长约20厘米 · 燧石片嵌木柄 · 弧形刃口 · 收割谷物专用 · 刃钝需更换石片",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "把打磨过的燧石片嵌进弯曲木柄做成的收割工具，是农业发展带来的一件重要农具，钝了就换一片新石头，不必整把丢弃。"
+  },
+  {
+   "k": "e5_stone_hoe",
+   "cn": "石锄",
+   "la": "SARCVLVM LAPIDEVM",
+   "cat": "器物",
+   "price": 3,
+   "ic": "stone",
+   "spec": "锄头石制 · 木柄绑缚 · 翻整田垄专用 · 沉重需双手使用 · 磕碎石头刃易崩",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "石头打磨出刃口绑在木柄上做成的锄头，村落人家用来翻整田地，是原始农业里最基础的一件农具，用力过猛磕到石头刃口容易崩裂。"
+  },
+  {
+   "k": "e5_woven_fish_trap",
+   "cn": "编织鱼笱",
+   "la": "NASSA TEXTA",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "vine",
+   "spec": "长筒状 · 藤条密编 · 沉入水中诱鱼 · 定期起获 · 破损处鱼易逃脱",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "YGGDRASIL"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "用藤条编成的长筒状陷阱，一头留个只进不出的口子，沉在浅水里诱鱼进去，是沿河沿湖村落常见的捕鱼方式，编得不密鱼就容易从缝里溜走。"
+  },
+  {
+   "k": "e5_reed_woven_basket",
+   "cn": "芦苇编篮",
+   "la": "COPHINVS ARVNDINIS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "vine",
+   "spec": "容约5升 · 芦苇密编成形 · 搬运谷物果实 · 不防水 · 长年使用会松散",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "村落人家用来搬运谷物、果实的编篮，芦苇密编成形，不防水，用久了编条会松散变形，是家家户户都有的一样日用杂物。"
+  },
+  {
+   "k": "e5_grain_storage_sack",
+   "cn": "谷物麻袋",
+   "la": "SACCVS FRVMENTI",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "wrap",
+   "spec": "容约10升 · 粗麻布缝制 · 谷仓储粮专用 · 防鼠效果一般 · 破口需及时缝补",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "农业进一步发展后村落谷仓里常见的储粮麻袋，粗麻布缝制，防鼠效果一般，破了口谷子会漏得到处都是，需要及时缝补。"
+  },
+  {
+   "k": "e5_heart_of_earth_relic",
+   "cn": "大地之心",
+   "la": "COR TERRAE",
+   "cat": "武器",
+   "price": null,
+   "ic": "hammer",
+   "spec": "锤头纯黑金刚石制 · 敲击声如心跳 · 五年一届比赛争夺 · 胜者代掌五年 · 能击碎巨龙鳞片之说未证实",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "神明.(1)",
+   "lore": "由世上最坚硬的金刚石打制的巨锤，是侏儒伟大工匠的象征，因敲打烧红的铁时声音酷似心跳而得名。侏儒每五年举办一次比赛争夺它，胜者代掌五年并获伟大工匠之名，某种意义上它就是统治侏儒的王冠，据传还能击碎巨龙鳞片，真假无人验证。",
+   "slot": "dext",
+   "ban": "独一之物·唯比赛可得"
+  },
+  {
+   "k": "e5_dwarven_pickaxe",
+   "cn": "侏儒镐",
+   "la": "DOLABRA MONTANA",
+   "cat": "器物",
+   "price": 6,
+   "ic": "pick",
+   "spec": "镐头硬石打磨 · 木柄手工缠握 · 挖掘专用 · 不宜当武器使 · 用久需换镐头",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒在山体深处挖掘新金属时人手一把的工具，镐头是打磨过的硬石，柄上缠了防滑的皮条。侏儒们连创世之龙送去加工金属的大锤都拿来挖山洞，可见这份对挖掘的执念。"
+  },
+  {
+   "k": "e5_ore_sample_bag",
+   "cn": "矿石样本袋",
+   "la": "SACCVLVS MINERALIS",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "pouch",
+   "spec": "容约2升 · 粗布缝制 · 分格盛不同矿样 · 侏儒随身携带 · 潮湿处矿样易变色",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒深入山体挖掘新金属时随身带的分格布袋，用来装采到的各种矿石样本，回去比对成色，判断值不值得大规模开采。"
+  },
+  {
+   "k": "e5_bronze_ingot_e5",
+   "cn": "青铜锭",
+   "la": "MASSA AENEA",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "chest",
+   "spec": "一锭约1千克 · 铜锡合炼 · 表面微绿光泽 · 冶炼交易通用 · 受潮生锈变色",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒深入山中寻找新金属炼出的合金锭，比纯铜更硬更耐用，各地铁匠和工匠都愿意用它打造器物，是侏儒对外贸易的重要出产。"
+  },
+  {
+   "k": "e5_raw_iron_ore",
+   "cn": "生铁矿石",
+   "la": "MINERA FERRI CRVDA",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "stone",
+   "spec": "拳头大小一块 · 表面暗红锈斑 · 侏儒深挖所得 · 尚未冶炼 · 蜥蜴人湿地拒收此物",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒在山体更深处挖到的新矿石，冶炼后就是后来广泛使用的铁器原料，只是眼下侏儒仍在摸索炼法，多数还只当作矿石样本收着。蜥蜴人湿地潮气重，铁器易锈，族人从不肯收这东西。"
+  },
+  {
+   "k": "e5_dwarven_stone_tunic",
+   "cn": "岩尘工装",
+   "la": "TVNICA PVLVERIS",
+   "cat": "衣物",
+   "price": 5,
+   "ic": "tunic",
+   "spec": "厚粗布缝制 · 耐磨抗刮 · 矿工日常穿着 · 洗不净常年沾灰 · 破损处补丁常见",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒下矿挖掘时穿的厚实工装，耐磨抗刮，常年沾满岩尘石粉，洗也洗不太干净，补丁摞补丁是侏儒工匠间常见的光景，反倒被视为勤劳的象征。",
+   "slot": "corp"
+  },
+  {
+   "k": "e5_dwarven_ironshod_boots",
+   "cn": "镶铁工靴",
+   "la": "CALCEI FERRATI",
+   "cat": "防具",
+   "price": 8,
+   "ic": "boot",
+   "spec": "厚底加铁片 · 防砸防滑 · 山道矿洞专用 · 沉重不宜远行 · 铁片锈蚀需更换",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "鞋底嵌了薄铁片的厚重工靴，专为在崎岖山道和矿洞里行走设计，防砸防滑，只是分量不轻，不适合长途跋涉，铁片锈了要及时更换。",
+   "slot": "ped"
+  },
+  {
+   "k": "e5_dwarven_ore_lantern",
+   "cn": "矿工提灯",
+   "la": "LANTERNA FODINAE",
+   "cat": "器物",
+   "price": 6,
+   "ic": "lantern",
+   "spec": "带铁网罩防风 · 内置油碟 · 深挖时随身携带 · 照见幽深洞窟 · 缺氧处易熄灭",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒深入山体挖掘时带的防风提灯，铁网罩着灯焰不易被穿堂风吹灭，是他们越挖越深、连创世之龙都难以看穿地底的那份执着背后的一样必需品。",
+   "use": {
+    "act": "点燃灯芯提灯照明",
+    "eff": "在幽暗洞窟中获得持续光源"
+   }
+  },
+  {
+   "k": "e5_stonecutter_chisel",
+   "cn": "凿石刀",
+   "la": "SCALPRVM LAPIDARIVM",
+   "cat": "器物",
+   "price": 4,
+   "ic": "pick",
+   "spec": "刃宽约2厘米 · 硬金属打制 · 配木槌敲击使用 · 精细凿刻专用 · 刃口需定期打磨",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒工匠用来精细凿刻石料的小凿子，配合木槌一敲一凿地雕出纹路，是矿镐之外另一样几乎人手一把的工具，做工精细的凿子本身也算一件像样的手艺展示。"
+  },
+  {
+   "k": "e5_dwarven_root_ale",
+   "cn": "根块烈酒",
+   "la": "MERVM RADICIS",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "winejar",
+   "spec": "一壶约300毫升 · 山中块根蒸馏 · 酒性烈重 · 矿工收工必饮 · 存放愈久愈烈",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒用山里挖来的块根蒸馏出的烈酒，酒性比人类的浊酒重得多，是矿工们一天挖掘下来解乏的东西，存得越久酒味越冲。",
+   "use": {
+    "act": "仰头饮下一小盅",
+    "eff": "驱散疲劳并短暂提振精神，酒性较烈"
+   }
+  },
+  {
+   "k": "e5_hard_tack_biscuit",
+   "cn": "硬饼干粮",
+   "la": "BVCCELLATVM",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "bread",
+   "spec": "一块约150克 · 谷粉压制烤硬 · 存放数月不坏 · 需泡水或就汤食用 · 干嚼易崩牙",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "烤得极硬的干粮饼，能存放数月不坏，是侏儒深入山体挖掘时带的口粮，干嚼费牙，通常要泡进汤水或酒里才好下咽。",
+   "use": {
+    "act": "泡水软化后食用",
+    "eff": "长时间抵饥，未经泡软直接嚼食效果打折"
+   }
+  },
+  {
+   "k": "e5_smoked_mountain_goat",
+   "cn": "熏山羊肉",
+   "la": "CARO CAPRINA FVMATA",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "meat",
+   "spec": "一条约400克 · 山羊肉篝火慢熏 · 可存半月 · 咸香耐嚼 · 山地聚落常见",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "把猎来的山羊肉慢慢熏干，是萨加玛塔一带山地聚落常见的存肉法，咸香耐嚼，能存放半个月，是侏儒和往来商旅路上都爱带的干粮。",
+   "use": {
+    "act": "撕下一条熏肉咀嚼",
+    "eff": "恢复体力，耐嚼耐存，适合远行携带"
+   }
+  },
+  {
+   "k": "e5_living_wood_bow",
+   "cn": "活木弓",
+   "la": "ARCVS LIGNI VIVI",
+   "cat": "武器",
+   "price": 9,
+   "ic": "bow",
+   "spec": "弓长约1.4米 · 世界树周边取材 · 藤纤为弦 · 弹力持久 · 离树太远弹性渐失",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "精灵用世界树周围生长的树木制成的弓，是他们狩猎的主要武器，配合火之精灵的力量烹熟猎物，是精灵纯粹食肉的生活方式里最要紧的一件工具。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_elven_hunting_dagger",
+   "cn": "精灵猎刀",
+   "la": "CVLTER SILVANVS",
+   "cat": "武器",
+   "price": 6,
+   "ic": "dagger",
+   "spec": "刃长约18厘米 · 硬木刃口 · 兽骨柄 · 近身猎杀专用 · 不宜劈砍硬物",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "精灵猎手随身带的近身用刀，木质刃口经过特殊硬化处理，配合弓箭在近距离补杀受伤的猎物，不适合用来劈砍坚硬的东西。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_yggdrasil_leaf_cloak",
+   "cn": "世界树叶斗篷",
+   "la": "PALLIVM FOLIORVM",
+   "cat": "衣物",
+   "price": 8,
+   "ic": "cloak",
+   "spec": "披肩长及腰 · 世界树落叶缝缀 · 林中隐蔽效果佳 · 离树越久叶片越脆 · 不可水洗",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "用世界树飘落的叶片一片片缝在皮衬上做成的斗篷，穿着在林间几乎与草木融为一体，是精灵猎手的常备行头，离开大森林太久叶片会渐渐变脆易碎。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_yggdrasil_fruit_e5",
+   "cn": "世界树果",
+   "la": "FRVCTVS ARBORIS MVNDI",
+   "cat": "吃食",
+   "price": 6,
+   "ic": "leaf",
+   "spec": "拳头大小一枚 · 世界树亲结 · 汁多味甘 · 略助恢复气力 · 摘下三日内食用最佳",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：神明.(6)",
+   "lore": "伊格德拉希尔亲自结出的果实，如今精灵孩子狩猎顺利，倒也不必总劳烦她频繁结果。果肉汁水丰沛，据说吃下去比普通果子更能恢复气力，摘下超过三日风味就会打折扣。",
+   "use": {
+    "act": "剥皮咬下一口果肉",
+    "eff": "较明显地恢复体力，效果略胜寻常果实"
+   }
+  },
+  {
+   "k": "e5_elven_meat_jerky",
+   "cn": "精灵风干肉",
+   "la": "CARO SILVANA SICCATA",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "jerky",
+   "spec": "一条约200克 · 猎物肉条风干 · 借火精灵之力烘制 · 可存数周 · 精灵行猎必带",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "精灵猎手借助火之精灵的力量把猎物肉条烘干制成的口粮，精灵几乎不吃蔬菜，行猎路上全靠这类肉干果腹，能存放数周不坏。",
+   "use": {
+    "act": "撕开肉干直接嚼食",
+    "eff": "恢复体力，久存不坏，适合行猎途中果腹"
+   }
+  },
+  {
+   "k": "e5_fire_spirit_cookpot",
+   "cn": "火精烹肉釜",
+   "la": "OLLA IGNIS SILVANA",
+   "cat": "器物",
+   "price": 7,
+   "ic": "bowl",
+   "spec": "陶釜带盖 · 借火之精灵烹煮肉类 · 无需明火即可加热 · 需精灵在场 · 独立使用无效",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "精灵借助火之精灵的力量烹煮肉类用的陶釜，只要有相熟的火精灵在场，无需明火就能把肉煮熟，若身边没有精灵相助，这釜也就是个普通陶罐。"
+  },
+  {
+   "k": "e5_spirit_pact_cord",
+   "cn": "契灵绳结",
+   "la": "NODVS PACTI",
+   "cat": "魔具",
+   "price": 14,
+   "ic": "rope",
+   "spec": "长约30厘米 · 藤纤编成特定绳结 · 缔约元素精灵所用 · 解开即视为毁约 · 精灵郑重收藏",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "神明.(6)",
+   "lore": "精灵与元素精灵缔结契约时用的绳结信物，精灵讲究明确的契约仪式，与蜥蜴人靠模糊友谊交朋友的路数截然不同。绳结一旦被解开，就被视为毁约，精灵会郑重地把它收好，不许随意示人。"
+  },
+  {
+   "k": "e5_elven_healing_herb",
+   "cn": "精灵愈伤草",
+   "la": "HERBA SANATIONIS",
+   "cat": "药",
+   "price": 8,
+   "ic": "herb",
+   "spec": "一把约5株 · 世界树周边采集 · 捣碎敷伤口 · 采后两日内使用 · 久放药力尽失",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "只在世界树周边生长的草药，捣碎敷在伤口上有不错的止血愈伤效果，是精灵猎手行猎受伤时的常备药，采下超过两日药力就会大打折扣。",
+   "use": {
+    "act": "捣碎敷于伤口并包扎",
+    "eff": "止血并加速伤口愈合，减轻外伤造成的持续影响"
+   }
+  },
+  {
+   "k": "e5_elven_bowstring_vine",
+   "cn": "藤纤弓弦",
+   "la": "NERVVS EX VITE",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "vine",
+   "spec": "长约1.5米 · 韧藤搓制 · 配活木弓使用 · 备用替换弦 · 受潮松弛需重搓",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "用韧性藤条搓制而成的弓弦，是活木弓的常用配件，猎手出门总要多带几根备用，受潮后会松弛，需要重新搓紧或更换。"
+  },
+  {
+   "k": "e5_woven_leaf_veil",
+   "cn": "编叶面纱",
+   "la": "VELVM FOLIORVM",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "veil",
+   "spec": "遮面薄纱 · 细密树叶编织 · 林间狩猎防蚊虫 · 也作礼节遮面 · 破损难修补",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：人类生命的曙光.(3)",
+   "lore": "用细密的树叶编成的薄面纱，精灵在林间狩猎时用来防蚊虫叮咬，一些场合也当作礼节性的遮面之物，编工细密，破了很难原样修补。",
+   "slot": "cap"
+  },
+  {
+   "k": "e5_skyfather_bone_totem",
+   "cn": "苍穹之父骨柱像",
+   "la": "SIMVLACRVM PATRIS CAELI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "bone",
+   "spec": "高及腰 · 巨人腿骨雕刻 · 立于部落中央 · 雷雨天族人环绕俯卧 · 不可移出部落领地",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "神明.(1)",
+   "lore": "巨人部落用同族的遗骨雕成的图腾，立在营地中央，象征他们因惧怕雷电而生的信仰对象苍穹之父。每逢雷暴来临，巨人们便围着骨柱俯卧在地，以免惹怒雷声大作的天空。",
+   "ban": "部落圣物·不可买卖"
+  },
+  {
+   "k": "e5_giant_hide_bundle",
+   "cn": "巨人兽皮捆",
+   "la": "FASCIS PELLIS GIGANTIS",
+   "cat": "杂物",
+   "price": 12,
+   "ic": "chest",
+   "spec": "一捆约10千克 · 巨型猛兽皮 · 巨人部落猎获 · 质地极厚 · 需专门工具裁剪",
+   "stack": 1,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "巨人部落猎杀的大型猛兽剥下的整张皮，质地极厚，寻常工具很难裁剪，偶尔会经由人类商旅辗转换到南边村落，做成的护具异常结实。"
+  },
+  {
+   "k": "e5_thunder_ward_charm",
+   "cn": "避雷符石",
+   "la": "AMVLETVM CONTRA FVLGVR",
+   "cat": "魔具",
+   "price": 9,
+   "ic": "amulet",
+   "spec": "掌心大小 · 焦黑落雷石打磨 · 巨人相信可分薄怒气 · 携带者称心安 · 无实证效力",
+   "stack": 0,
+   "at": [
+    "NOX ALBA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "用被雷劈过的焦黑石头打磨成的护符，巨人相信随身带着能分薄苍穹之父的怒气，减少被闪电击中的几率，携带者多半只是求个心安，并无实证效力。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_orc_forged_cleaver",
+   "cn": "兽人重劈刀",
+   "la": "ENSIS ORCVS GRAVIS",
+   "cat": "武器",
+   "price": 10,
+   "ic": "sword2",
+   "spec": "刃长约40厘米 · 厚背单刃 · 双手握柄 · 劈砍力道极猛 · 保养简单粗放",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "兽人与人类混居后融合出的一种厚重劈刀，刀背极厚，全凭蛮力挥砍，保养起来不像精细兵器那样讲究，是兽人融入人类聚落后常见的自制武器。",
+   "slot": "dext"
+  },
+  {
+   "k": "e5_orc_hide_vest",
+   "cn": "兽人皮甲背心",
+   "la": "THORAX ORCVS",
+   "cat": "防具",
+   "price": 7,
+   "ic": "armor",
+   "spec": "无袖背心式 · 多层兽皮缝制 · 露出手臂便于发力 · 挡钝击一般 · 不挡箭矢",
+   "stack": 0,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "兽人融入人类村落后常穿的护具，多层兽皮缝成无袖背心，露出手臂方便发力干活或打斗，挡得住钝器擦碰，箭矢近距离射来就没什么用了。",
+   "slot": "corp"
+  },
+  {
+   "k": "e5_pirate_tribute_shell",
+   "cn": "献祭珠贝",
+   "la": "CONCHA OBLATIONIS",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "jar",
+   "spec": "掌心大小一枚 · 深海产珠贝 · 出航前抛入海中 · 求忒提丝庇佑航路 · 未献者据传易遇风浪",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "早期海上讨生活的人出航前会抛入海中献给忒提丝的珠贝，换取一路平安。海神领域比任何神明都广，触怒她的人据说曾遭整片海域的暴风雨封锁，没人敢不献这份薄礼。"
+  },
+  {
+   "k": "e5_lashed_log_raft_kit",
+   "cn": "缚木筏具",
+   "la": "INSTRVMENTA RATIS",
+   "cat": "器物",
+   "price": 8,
+   "ic": "rope",
+   "spec": "藤绳数捆 · 配简易木桨 · 用于捆扎原木成筏 · 仅供近海航行 · 遇大浪易散架",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "把粗藤绳和简易木桨配成一套，用来把原木捆扎成简陋木筏，是眼下人类航海技术唯一能拿得出手的东西，也就够在近海打转，真遇上大风浪很容易散架。"
+  },
+  {
+   "k": "e5_saltwater_water_jug",
+   "cn": "海航淡水罐",
+   "la": "AMPHORA AQVAE MARINAE",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "pail",
+   "spec": "容约2升 · 陶罐加木塞 · 出海前灌满淡水 · 防止海水渗入 · 破损即报废",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "出海前灌满淡水随身带的陶罐，木塞封口防止海水渗进去，是简陋木筏出航时不可少的一样东西，罐子一破就得赶紧靠岸补给。",
+   "use": {
+    "act": "拔塞饮下罐中淡水",
+    "eff": "解除口渴，短途航行必备"
+   }
+  },
+  {
+   "k": "e5_shark_tooth_necklace",
+   "cn": "鲨牙项饰",
+   "la": "MONILE DENTIS",
+   "cat": "衣物",
+   "price": 6,
+   "ic": "chain",
+   "spec": "十余枚鲨齿串联 · 皮绳穿系 · 近海渔猎者佩戴 · 象征捕鲨经历 · 不宜与人争抢",
+   "stack": 0,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：神明.(9)",
+   "lore": "近海讨生活的渔民把捕获鲨鱼的牙齿穿成项饰佩戴，既是护身符也是身份的证明，谁项饰上的牙齿越多，说明他出海的经验越丰富，其他渔民轻易不敢来抢这份体面。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_purifying_ash_pouch",
+   "cn": "净火灰烬囊",
+   "la": "CINIS PVRIFICATIONIS",
+   "cat": "消耗",
+   "price": 6,
+   "ic": "powder",
+   "spec": "小皮囊一只 · 火焰山圣火余烬 · 用于净罪仪式 · 撒于逝者遗物 · 用尽需重新求取",
+   "stack": 1,
+   "at": [
+    "MONS IGNIS"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "取自火焰山永恒圣火的一撮灰烬，装在小皮囊里，人类相信这圣火能净化死者的罪孽，办丧事时会把灰烬撒在逝者的遗物上，用完了得再去火焰山边缘求取，谁也不敢真的走进火山中心。",
+   "use": {
+    "act": "撒一撮灰烬于遗物之上",
+    "eff": "完成一次净罪仪式，安抚生者的心绪"
+   }
+  },
+  {
+   "k": "e5_windforce_sand",
+   "cn": "强风砂",
+   "la": "ARENA VENTI",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "powder",
+   "spec": "一袋约1千克 · 灼热沙漠采集 · 蕴含南方热风之力 · 用于强化风元素精灵 · 离开沙漠力量渐弱",
+   "stack": 1,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：地图·灼热沙漠",
+   "lore": "从灼热沙漠深处采来的细砂，蕴含着南方热风的力量，蜥蜴人萨满和精灵魔法师都知道把它撒在附身仪式的地面上，能让风之精灵的力量更容易发挥，带出沙漠太久效力会渐渐减弱。"
+  },
+  {
+   "k": "e5_desert_wanderer_wrap",
+   "cn": "沙漠行者缠巾",
+   "la": "AMICVLVM DESERTI",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "kerchief",
+   "spec": "长约2米 · 粗麻布浸盐水晒干 · 缠头护颈防砂 · 灼热沙漠穿行必备 · 不缠者易中暑",
+   "stack": 0,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：地图·灼热沙漠",
+   "lore": "用粗麻布浸盐水晒干后制成的缠巾，穿越灼热沙漠时缠在头颈上防砂防晒，据说准备不足的人连沙漠都穿不过，这条缠巾是最基本的一样准备。",
+   "slot": "cap"
+  },
+  {
+   "k": "e5_heatproof_waterskin",
+   "cn": "抗热水囊",
+   "la": "VTER RESISTENS CALORI",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "pail",
+   "spec": "容约2升 · 双层兽皮加沙漠矿粉涂层 · 减缓水温上升 · 沙漠一人一日需两囊 · 涂层磨损需重涂",
+   "stack": 1,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：地图·灼热沙漠",
+   "lore": "在普通水囊外层涂上一层沙漠矿粉浆制成，能减缓囊内水在酷热中升温的速度，穿越沙漠的商旅一人一天至少要备两囊，涂层磨光了就得重新涂一遍。",
+   "use": {
+    "act": "拧开囊口喝一口水",
+    "eff": "解除口渴，沙漠环境中降温效果优于普通水囊"
+   }
+  },
+  {
+   "k": "e5_ifrit_ember_charm",
+   "cn": "伊芙利特余烬符",
+   "la": "AMVLETVM PRVNAE",
+   "cat": "魔具",
+   "price": 16,
+   "ic": "amulet",
+   "spec": "指节大小 · 火山边缘拾取的焦石 · 据传可减轻灼伤 · 靠近圣火中心仍会自燃 · 极为稀少",
+   "stack": 0,
+   "at": [
+    "MONS IGNIS"
+   ],
+   "src": "推定：地图·神圣的火焰山",
+   "lore": "在火焰山外围拾取的一块焦石打磨而成，沙漠商旅相信随身携带能减轻被灼伤的程度，但越靠近圣火中心的禁地，任何东西都会自己燃烧起来，这符也保不住命，因此极为稀少难得。",
+   "slot": "hum"
+  },
+  {
+   "k": "e5_funeral_purification_incense",
+   "cn": "净罪熏香",
+   "la": "THVS EXPIATIONIS",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "leaf",
+   "spec": "十余支一束 · 沙漠耐热香草制成 · 燃于火焰山周边圣所 · 为逝者祈求净化 · 烟色赤红",
+   "stack": 1,
+   "at": [
+    "MONS IGNIS",
+    "DESERTUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "用沙漠里少数耐热的香草制成的熏香，专门在火焰山周边的圣所燃烧，为逝者祈求圣火净化罪孽，燃烧时烟色赤红，与神殿常用的白烟熏香不同。",
+   "use": {
+    "act": "在圣所点燃并祈祷",
+    "eff": "完成净罪祈祷仪式，安抚失去亲人者的心绪"
+   }
+  },
+  {
+   "k": "e5_frost_walker_boots",
+   "cn": "踏雪靴",
+   "la": "CALCEI NIVEI",
+   "cat": "防具",
+   "price": 9,
+   "ic": "boot",
+   "spec": "厚底加宽 · 兽皮内衬保温 · 防陷雪防滑 · 南极冰盖远征专用 · 离开雪原易闷热",
+   "stack": 0,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地图·南极冰盖",
+   "lore": "为在世界最南端的冰封之地行走特制的宽底靴，内里加厚兽皮保温防陷雪，远征者若没有火神相助，恐怕要跑遍南北两极，这双靴子是他们最基本的装备之一，穿离雪原太久反而闷热难受。",
+   "slot": "ped"
+  },
+  {
+   "k": "e5_sealskin_parka",
+   "cn": "海兽皮袄",
+   "la": "PARCA PELLIS PHOCAE",
+   "cat": "衣物",
+   "price": 11,
+   "ic": "cloak",
+   "spec": "连帽长袄 · 海兽皮双层缝制 · 极寒防风 · 南极远征专用 · 携带笨重",
+   "stack": 0,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地图·南极冰盖",
+   "lore": "用南极附近海域猎获的海兽皮双层缝制的连帽长袄，防风保暖效果极佳，是远征世界最南端的人必备的一件衣物，只是分量沉重，不适合寻常场合穿着。",
+   "slot": "corp"
+  },
+  {
+   "k": "e5_ice_core_sample",
+   "cn": "冰芯样本",
+   "la": "SPECIMEN GLACIEI",
+   "cat": "杂物",
+   "price": 7,
+   "ic": "crystal",
+   "spec": "圆柱状一段 · 南极冰盖凿取 · 需持续低温保存 · 离开寒地渐渐融化 · 学者视若珍宝",
+   "stack": 1,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地图·南极冰盖",
+   "lore": "从南极冰盖深处凿取的一段透明冰柱，据说封存着极为久远的空气与尘埃，只是离开严寒环境就会慢慢融化，能带回来的极少，是远征者带回文明世界最稀罕的战利品之一。"
+  },
+  {
+   "k": "e5_swamp_antivenom_paste",
+   "cn": "沼蛇解毒膏",
+   "la": "PASTA CONTRA VENENVM",
+   "cat": "药",
+   "price": 6,
+   "ic": "paste",
+   "spec": "一罐约50克 · 沼地草药捣制 · 敷伤口或含服 · 对付常见沼蛇毒 · 开罐后半月内用完",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "蜥蜴人用沼泽草药捣制的解毒膏，对付本地常见的毒蛇咬伤最管用，敷在伤口上或者含一点在嘴里都行，开罐之后要尽快用完，放久了药效会减弱。",
+   "use": {
+    "act": "敷于伤口或含服少许",
+    "eff": "缓解常见蛇毒的症状，减轻中毒造成的持续伤害"
+   }
+  },
+  {
+   "k": "e5_willow_bark_powder",
+   "cn": "柳皮止痛粉",
+   "la": "PVLVIS CORTICIS SALICIS",
+   "cat": "药",
+   "price": 4,
+   "ic": "powder",
+   "spec": "一包约20克 · 柳树皮研磨而成 · 冲水服下 · 缓解头痛与低热 · 孕期慎用",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "把柳树皮刮下磨成粉末冲水服下，是各地村落都会用的一种土方，能缓解头痛和轻微发热，村里的老人常备着这个，只是叮嘱怀孕的妇人不要随便用。",
+   "use": {
+    "act": "冲水服下一包药粉",
+    "eff": "缓解头痛与低热，效果温和但持续短暂"
+   }
+  },
+  {
+   "k": "e5_dwarven_mineral_salve",
+   "cn": "矿物疗伤膏",
+   "la": "VNGVENTVM MINERALE",
+   "cat": "药",
+   "price": 7,
+   "ic": "paste",
+   "spec": "一罐约60克 · 矿脂混草药熬制 · 敷跌打损伤处 · 矿工常备 · 开罐避免混入杂质",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：神明.(1)",
+   "lore": "侏儒用山中特有的矿脂混合草药熬制的药膏，专治矿洞里常见的跌打损伤，是挖掘时人人随身带的东西，开罐之后要注意别混进灰尘杂质，否则容易感染。",
+   "use": {
+    "act": "涂抹于跌打损伤处",
+    "eff": "缓解淤肿疼痛，加快轻微外伤的恢复"
+   }
+  },
+  {
+   "k": "e5_desert_burn_balm",
+   "cn": "沙漠灼伤膏",
+   "la": "VNGVENTVM CONTRA AMBVSTIONEM",
+   "cat": "药",
+   "price": 8,
+   "ic": "paste",
+   "spec": "一罐约40克 · 沙漠耐热草脂调制 · 涂抹灼伤处 · 高温环境专用 · 存放阴凉避晒",
+   "stack": 1,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：地图·灼热沙漠",
+   "lore": "用灼热沙漠里少数耐热植物的汁脂调制的药膏，专门涂抹被烈日或余烬灼伤的皮肤，是穿越沙漠靠近火焰山一带的商旅必备之物，要放在阴凉处避免自己先被晒坏。",
+   "use": {
+    "act": "涂抹于灼伤部位",
+    "eff": "缓解灼伤引起的刺痛，减轻高温环境的持续伤害"
+   }
+  },
+  {
+   "k": "e5_frostbite_ointment",
+   "cn": "冻伤油膏",
+   "la": "VNGVENTVM CONTRA GELV",
+   "cat": "药",
+   "price": 8,
+   "ic": "paste",
+   "spec": "一罐约40克 · 海兽脂混草药 · 涂抹冻伤部位 · 南极远征专用 · 遇热融化需低温存放",
+   "stack": 1,
+   "at": [
+    "GLACIES AUSTRALIS"
+   ],
+   "src": "推定：地图·南极冰盖",
+   "lore": "用海兽脂混合草药调制的油膏，专治远征世界最南端时常见的冻伤，涂在手脚上能缓解刺痛，因为遇热容易融化，需要一直放在低温处保存。",
+   "use": {
+    "act": "涂抹于冻伤部位",
+    "eff": "缓解冻伤引起的麻木刺痛，减轻严寒环境的持续伤害"
+   }
+  },
+  {
+   "k": "e5_fever_reducing_tea",
+   "cn": "退热药汤",
+   "la": "POTIO FEBRIFVGA",
+   "cat": "药",
+   "price": 3,
+   "ic": "soup",
+   "spec": "一碗约300毫升 · 草药水煎而成 · 趁温热服下 · 缓解发热与倦怠 · 隔夜变质",
+   "stack": 1,
+   "at": [],
+   "src": "推定：神明.(1)",
+   "lore": "各地村落都会煎的一种草药汤，趁温热服下能缓解发热和身体倦怠，是家中常备的土方药，隔了夜的药汤就不新鲜了，最好当天煎当天喝。",
+   "use": {
+    "act": "趁温热喝下一碗",
+    "eff": "缓解发热与倦怠，帮助较快恢复精神"
+   }
+  }
+ ]
+}

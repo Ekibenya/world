@@ -1,0 +1,4051 @@
+{
+ "eraId": "era-16-magic-god",
+ "ordinal": 16,
+ "unit": "银币",
+ "start": 22,
+ "note": "罗马尼亚帝国铸银币计价，天狼星、普罗西亚一带的市集、公会与教团账目都折算成它，冒险家公会的月费、委托赏钱、处理商收货全按银币结算。蜥蜴人湿地和精灵大森林多半仍守以物易物的旧俗，标价只供外人参考。教团净化魔石、皇室三件宝物、龙族与神明的私物概不标价，只在开局行囊或世界书中出现。",
+ "kits": {
+  "default": {
+   "eq": {
+    "dext": "e16_common_dagger",
+    "corp": "e16_simple_tunic_common",
+    "cing": "e16_leather_belt_pouch",
+    "ped": "e16_leather_travel_boots"
+   },
+   "bag": [
+    {
+     "k": "e16_bread_loaf_common",
+     "n": 2
+    },
+    {
+     "k": "e16_spirit_pure_water",
+     "n": 1
+    },
+    {
+     "k": "e16_bandage_roll",
+     "n": 1
+    },
+    {
+     "k": "e16_rope_coil_common",
+     "n": 1
+    },
+    {
+     "k": "e16_torch_common",
+     "n": 1
+    }
+   ]
+  },
+  "蒂雅": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e16_purified_magic_stone",
+     "n": 1
+    },
+    {
+     "k": "e16_scientia_first_edition",
+     "n": 1
+    },
+    {
+     "k": "e16_silver_dragon_shrine_statue",
+     "n": 1
+    }
+   ]
+  },
+  "安西娅": {
+   "eq": {
+    "dext": "e16_wizard_staff_wood",
+    "corp": "e16_mage_robe_common"
+   },
+   "bag": [
+    {
+     "k": "e16_motion_memory_quill",
+     "n": 1
+    },
+    {
+     "k": "e16_scientia_revised_edition",
+     "n": 1
+    },
+    {
+     "k": "e16_black_ink_bottle",
+     "n": 1
+    },
+    {
+     "k": "e16_clean_paper_stack",
+     "n": 1
+    },
+    {
+     "k": "e16_purified_magic_stone",
+     "n": 1
+    }
+   ]
+  },
+  "塞西尔": {
+   "eq": {
+    "dext": "e16_elemental_wand_basic",
+    "corp": "e16_apprentice_robe"
+   },
+   "bag": [
+    {
+     "k": "e16_element_spellbook",
+     "n": 1
+    },
+    {
+     "k": "e16_mana_crystal_counter",
+     "n": 1
+    },
+    {
+     "k": "e16_common_feather_quill",
+     "n": 1
+    },
+    {
+     "k": "e16_bread_loaf_common",
+     "n": 2
+    }
+   ]
+  },
+  "亚瑟": {
+   "eq": {
+    "dext": "e16_royal_knight_sword",
+    "corp": "e16_knight_plate_armor",
+    "sin": "e16_knight_round_shield"
+   },
+   "bag": [
+    {
+     "k": "e16_imperial_parade_banner",
+     "n": 1
+    },
+    {
+     "k": "e16_bread_loaf_common",
+     "n": 2
+    }
+   ]
+  },
+  "尤利乌斯": {
+   "eq": {
+    "cap": "e16_unbroken_crown",
+    "dext": "e16_dansleif_sword",
+    "cing": "e16_court_silk_sash"
+   },
+   "bag": [
+    {
+     "k": "e16_wine_jar_common",
+     "n": 1
+    },
+    {
+     "k": "e16_honey_jar_small",
+     "n": 1
+    },
+    {
+     "k": "e16_romania_road_map",
+     "n": 1
+    }
+   ]
+  },
+  "奎奥·特兰": {
+   "eq": {
+    "corp": "e16_lizard_sailor_jawguard",
+    "dext": "e16_islet_stone_axe"
+   },
+   "bag": [
+    {
+     "k": "e16_papyrus_blank_roll",
+     "n": 2
+    },
+    {
+     "k": "e16_dried_fish_string",
+     "n": 2
+    },
+    {
+     "k": "e16_carved_claw_pick",
+     "n": 1
+    },
+    {
+     "k": "e16_lizard_waterskin_empty",
+     "n": 1
+    }
+   ]
+  },
+  "困倦少女": {
+   "eq": {
+    "corp": "e16_simple_tunic_common"
+   },
+   "bag": [
+    {
+     "k": "e16_scientia_first_edition",
+     "n": 1
+    },
+    {
+     "k": "e16_lead_pencil",
+     "n": 1
+    },
+    {
+     "k": "e16_heart_anatomy_sketch",
+     "n": 1
+    },
+    {
+     "k": "e16_clean_paper_stack",
+     "n": 1
+    }
+   ]
+  },
+  "卢克": {
+   "eq": {
+    "dext": "e16_plain_longsword",
+    "corp": "e16_rock_armor_arthur"
+   },
+   "bag": [
+    {
+     "k": "e16_rock_helm_carried",
+     "n": 1
+    },
+    {
+     "k": "e16_temple_healing_draught",
+     "n": 1
+    }
+   ]
+  },
+  "西娅蒂雅": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e16_scientia_revised_edition",
+     "n": 1
+    },
+    {
+     "k": "e16_purified_magic_stone",
+     "n": 2
+    },
+    {
+     "k": "e16_heart_anatomy_sketch",
+     "n": 1
+    },
+    {
+     "k": "e16_mana_crystal_counter",
+     "n": 1
+    },
+    {
+     "k": "e16_pantheon_register",
+     "n": 1
+    }
+   ]
+  },
+  "希尔芙": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e16_windgoddess_idol",
+     "n": 1
+    },
+    {
+     "k": "e16_bird_folk_lift_charm",
+     "n": 2
+    },
+    {
+     "k": "e16_message_feather_tube",
+     "n": 1
+    }
+   ]
+  }
+ },
+ "items": [
+  {
+   "k": "e16_lizard_scale_token",
+   "cn": "蜥蜴人换水鳞",
+   "la": "SQVAMA MVTATORIA",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "tag",
+   "spec": "净重不足 1 克 · 蜥蜴人自颈部撕下的活鳞 · 三日内不干枯 · 只认献鳞者本人的气味",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人颈部鳞片再生极快，撕下一枚也不伤身，专用来向水精灵换净水。精灵认味不认人手，鳞片一旦离手太久就换不到水，所以蜥蜴人从不预先囤积，都是现撕现换。"
+  },
+  {
+   "k": "e16_lizard_waterskin_empty",
+   "cn": "蜥蜴人皮水囊",
+   "la": "VTER LACERTAE",
+   "cat": "器物",
+   "price": 3,
+   "ic": "pail",
+   "spec": "容约 2 升 · 蜥蜴人鞣制皮革缝制 · 囊口涂脂防漏 · 空囊需自行盛水",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人用自家鞣好的皮子缝成的水囊，囊口拿油脂涂过防止渗漏。沙漠商队爱买空囊自己灌河水凑合用，讲究点的才会花额外的钱换鳞片，请蜥蜴人商人代为求一囊精灵净水。"
+  },
+  {
+   "k": "e16_spirit_pure_water",
+   "cn": "精灵净水囊",
+   "la": "AQVA SPIRITVS",
+   "cat": "消耗",
+   "price": 6,
+   "ic": "flask",
+   "spec": "容约 2 升 · 水精灵以蜥蜴人鳞片换来的净水 · 三日不腥 · 沙漠一人一日约需两囊",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "DESERTUM"
+   ],
+   "src": "蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人拿鳞片向水精灵换来的水，经精灵之手化过，装囊三天都不发腥变味。旅行者过沙漠常靠它续命，只是这水认换水的精灵，囊子转手卖给陌生人，水的净化效力就说不准还剩几分。",
+   "use": {
+    "act": "拧开囊口喝一口",
+    "eff": "解除口渴，这一幕不再因缺水扣体力"
+   }
+  },
+  {
+   "k": "e16_lizard_sailor_jawguard",
+   "cn": "航海蜥蜴人颌胸甲",
+   "la": "LORICA MAXILLAE",
+   "cat": "防具",
+   "price": 14,
+   "ic": "armor",
+   "spec": "皮革整片缝制 · 护住下颌颈部与前胸 · 内衬吸汗麻布 · 不含铁件",
+   "stack": 0,
+   "at": [
+    "MARE TETHYS",
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "出海的蜥蜴人下颌颈胸一带鳞片最薄，海水又比河水夺水更凶，所以专门做了这种皮甲护住要害。湿地蜥蜴人一向不喜铁器——潮气一沾就锈——这甲通身不用一根铁钉。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_papyrus_blank_roll",
+   "cn": "纸莎草纸卷",
+   "la": "PAPYRVS NVDA",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "scroll",
+   "spec": "长约 4 米一卷 · 湿地芦苇捶打压制 · 干后易脆 · 不宜久卷",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "湿地芦苇捶打晒干做成的纸卷，普罗西亚的抄写工场和学徒都靠它。比羊皮纸便宜，但久放会脆裂，写坏的废卷也常被撕开当引火用。"
+  },
+  {
+   "k": "e16_obsidian_dagger_spirit",
+   "cn": "精灵附魔黑曜匕",
+   "la": "PVGIO OBSIDIANI",
+   "cat": "武器",
+   "price": 22,
+   "ic": "dagger",
+   "spec": "黑曜石打磨刃 · 长约 20 厘米 · 元素精灵短暂附魔加持 · 附魔消散后仍锋利",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(2)",
+   "lore": "蜥蜴人与元素精灵交好时，精灵会短暂附身在武器上试炼锋刃，附魔散去后石刃仍比寻常黑曜石耐用。湿地一带的猎人爱用它凿开硬壳猎物，铁匠却学不来这门手艺。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_islet_stone_axe",
+   "cn": "岛民石斧",
+   "la": "SECVRIS LAPIDEA",
+   "cat": "武器",
+   "price": 6,
+   "ic": "axe",
+   "spec": "石斧头绑木柄 · 藤条缠紧 · 刃口需常年磨石打磨 · 不入水久泡",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM",
+    "MARE TETHYS"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "海上孤岛的蜥蜴人就地取材，拿石头磨出斧刃绑上木柄，砍柴劈果都靠它。做工粗糙但耐用，湿地商人偶尔收几把带回去卖给图新鲜的旅人。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_dried_fish_string",
+   "cn": "穿绳鱼干",
+   "la": "PISCIS SICCVS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "jerky",
+   "spec": "五六条一串 · 溪鱼盐渍风干 · 阴凉可存半月 · 直接撕食",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "湿地蜥蜴人把溪里捕的小鱼开膛盐渍，穿成一串挂在帐篷下风干，是他们随身带的干粮，也拿来跟过路商队换东西。",
+   "use": {
+    "act": "撕下一条鱼干嚼食",
+    "eff": "垫饥半日，短途赶路不掉体力"
+   }
+  },
+  {
+   "k": "e16_bark_tent_roll",
+   "cn": "树皮卷帐",
+   "la": "TABERNACVLVM CORTICIS",
+   "cat": "器物",
+   "price": 5,
+   "ic": "felt",
+   "spec": "整张树皮剥制 · 卷起可负 · 撑开约容两人 · 防雨不防寒",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "岛上蜥蜴人剥大树的整张树皮撑起当帐篷，比织物耐磨也更快搭好，卷起来背着走就行，只是挡不住夜里的寒气。"
+  },
+  {
+   "k": "e16_woven_grass_rope",
+   "cn": "晒草编绳",
+   "la": "FVNIS GRAMINIS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "rope",
+   "spec": "长约 10 米 · 湿地长草晒干编成 · 耐拉但不耐火 · 受潮需重新晒",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "湿地长草晒干后编成的绳，蜥蜴人用它捆木筏、缠身泅水、系鱼干，随处可见。比麻绳便宜得多，就是受潮容易发霉，得常晒。"
+  },
+  {
+   "k": "e16_wetland_fruit_basket",
+   "cn": "湿地果篮",
+   "la": "POMA PALVSTRIA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "leaf",
+   "spec": "一篮约十枚 · 沼泽野果现摘 · 两日内食用 · 表皮涩需剥皮",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "湿地岛屿上现摘的野果，剥皮才能吃，甜里带涩。蜥蜴人自己不太爱吃，多是摘来喂客人或换东西，路过的商队倒觉得新鲜。",
+   "use": {
+    "act": "剥皮吃一枚果子",
+    "eff": "略解饥渴，无其他效果"
+   }
+  },
+  {
+   "k": "e16_river_fish_grilled",
+   "cn": "溪鱼烤串",
+   "la": "PISCIS ASSVS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "skewer",
+   "spec": "两条一串 · 溪鱼现钓现烤 · 竹签穿制 · 趁热吃",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "溪边现钓的鱼用竹签穿好架在火上烤，是湿地岛屿最常见的一顿饭，蜥蜴人靠摩擦树枝生的火来烤，皮焦肉嫩就着盐粒吃。",
+   "use": {
+    "act": "就着火烤热吃下",
+    "eff": "饱腹一顿，短暂恢复些体力"
+   }
+  },
+  {
+   "k": "e16_silver_dragon_shrine_statue",
+   "cn": "矮人纯银龙神像",
+   "la": "SIMVLACRVM ARGENTEVM",
+   "cat": "魔具",
+   "price": 120,
+   "ic": "stone",
+   "spec": "高约 30 厘米 · 纯银锻打 · 木箱盛装运输 · 矮人名匠手工，工期数月",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "矮人名匠用纯银锻造的创世龙神像，鳞片纹路一丝不苟，是蜥蜴人聚落最常求购的信物，装在特制木箱里由商队运去湿地。造一尊耗时数月，寻常人家攒不起这笔钱，多是聚落合力凑钱订做。"
+  },
+  {
+   "k": "e16_carved_claw_pick",
+   "cn": "蜥蜴人爪型工具",
+   "la": "VNGVLA SCVLPTA",
+   "cat": "器物",
+   "price": 4,
+   "ic": "pick",
+   "spec": "长约 12 厘米 · 硬木仿爪雕刻 · 尖端可撬可挑 · 柄端缠皮防滑",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "仿照蜥蜴人自己指甲的形状雕出来的小工具，撬贝壳、挑鱼刺、削细枝都能用。蜥蜴人本用自己的爪甲当万能工具，这是给没有那副爪子的旅人做的替代品，湿地手艺人闲时刻了拿去卖。"
+  },
+  {
+   "k": "e16_adventurer_party_log_scroll",
+   "cn": "冒险者小队记录卷",
+   "la": "COMMENTARIVS ITINERIS",
+   "cat": "书卷",
+   "price": 8,
+   "ic": "scroll",
+   "spec": "长约 2 米一卷 · 随行文书手笔 · 记沿途见闻与损耗 · 字迹潦草",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "蜥蜴人与大海.(4)",
+   "lore": "冒险小队出行常带一名记事的人，把沿途见闻、损耗、分账都记在卷上，任务完了交公会存档。这类记录卷偶尔在旧货摊上能淘到，写得生动的还被人当故事传抄。"
+  },
+  {
+   "k": "e16_tribute_offering_plate",
+   "cn": "海神献贡盘",
+   "la": "DONVM TETHYOS",
+   "cat": "消耗",
+   "price": 6,
+   "ic": "bowl",
+   "spec": "陶盘一只 · 盛干果或碎银 · 出海前抛入海中 · 一次性",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS"
+   ],
+   "src": "推定：蜥蜴人与大海.(3)",
+   "lore": "出海的人照老规矩拿一盘干果或碎银抛进忒提丝之洋，求她别翻脸。海盗尤其信这套，都说触怒她的人曾遇上整片海洋被暴风雨封锁的下场。",
+   "use": {
+    "act": "起航前将盘中物抛入海中",
+    "eff": "这一幕出海途中不触发海神迁怒的暴风事件"
+   }
+  },
+  {
+   "k": "e16_tarred_ship_rope",
+   "cn": "涂沥青船缆",
+   "la": "FVNIS PICATVS",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "rope",
+   "spec": "长约 15 米 · 麻绳外涂沥青防水 · 耐盐蚀 · 比湿地草绳贵三倍",
+   "stack": 1,
+   "at": [
+    "MARE TETHYS",
+    "BESTIA"
+   ],
+   "src": "推定：蜥蜴人与大海.(4)",
+   "lore": "出海船只专用的缆绳，外头刷一层沥青防海水泡烂，比湿地那种晒草绳结实得多，价钱也贵得多。比斯蒂亚的水手兽人一船总要备好几卷。"
+  },
+  {
+   "k": "e16_captains_star_chart",
+   "cn": "领航星图",
+   "la": "CHARTA STELLARVM",
+   "cat": "书卷",
+   "price": 10,
+   "ic": "map",
+   "spec": "羊皮纸绘制 · 标注沿岸星位 · 卷轴装 · 雨天需防潮",
+   "stack": 0,
+   "at": [
+    "MARE TETHYS",
+    "BESTIA"
+   ],
+   "src": "推定：蜥蜴人与大海.(4)",
+   "lore": "老水手凭经验绘的星位图，标出沿岸能认的星象，供夜航定向用。比斯蒂亚的兽人水手感官敏锐，出海最合适，这类图多半出自他们之手，代代添改。"
+  },
+  {
+   "k": "e16_sailor_oil_cloak",
+   "cn": "水手防水斗篷",
+   "la": "PALLA OLEATA",
+   "cat": "衣物",
+   "price": 9,
+   "ic": "cloak",
+   "spec": "粗布浸油制成 · 及膝长 · 防泼溅但不透气 · 久晒会发脆",
+   "stack": 0,
+   "at": [
+    "MARE TETHYS",
+    "BESTIA"
+   ],
+   "src": "推定：蜥蜴人与大海.(4)",
+   "lore": "粗布浸过油脂做成的斗篷，甲板上溅起的海水沾不透，出海的人几乎人手一件，就是不透气，久了闷得慌，晒久了还容易脆裂。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_guild_registration_tag",
+   "cn": "冒险者注册木牌",
+   "la": "TABVLA REGISTRI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "tag",
+   "spec": "手掌大小硬木牌 · 刻姓名与编号 · 公会登记时发放 · 遗失需补办",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "在冒险家公会登记时发的身份木牌，刻着姓名与编号，酒馆报酬、公会福利都认这块牌子，丢了要重新登记补办，外面市面上买不到。"
+  },
+  {
+   "k": "e16_guild_quest_numbered_chit",
+   "cn": "委托素材编号木牌",
+   "la": "TESSERA NVMERATA",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "tag",
+   "spec": "拇指大小 · 烧刻编号 · 领取委托时随素材袋发放 · 交回处理商核销",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "接讨伐委托时公会发的小木牌，编号对应这单委托，猎回素材连牌子一起交给处理商核销领钱，牌子本身不值钱，丢了这单委托就作废。"
+  },
+  {
+   "k": "e16_small_stone_pouch",
+   "cn": "魔石小皮袋",
+   "la": "CRVMENA LAPIDVM",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "pouch",
+   "spec": "掌心大小 · 双层皮革缝制 · 系口绳收紧 · 防止魔石互相磕碰",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS",
+    "PROCYON"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "冒险者剥怪物魔石随身装的小皮袋，双层皮子缝的，系紧口绳防止魔石路上磕碎。老手都爱备两三个，分开装不同成色的魔石好卖价钱。"
+  },
+  {
+   "k": "e16_raw_magic_stone",
+   "cn": "未净化魔石",
+   "la": "LAPIS MAGICVS CRVDVS",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "stone",
+   "spec": "拳心大小 · 剥自怪物心脏附近 · 表面带血渍未处理 · 需教团净化",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "从怪物心脏附近剖出来的魔石，带着血渍没经处理，是冒险者最主要的进账来源。处理商按行情收，但真正值钱的净化环节要送去生命教团，普通商人做不了。"
+  },
+  {
+   "k": "e16_purified_magic_stone",
+   "cn": "教团净化魔石",
+   "la": "LAPIS PVRGATVS",
+   "cat": "魔具",
+   "price": 15,
+   "ic": "gem",
+   "spec": "拳心大小 · 生命教团净化打磨 · 可注魔力一次性使用 · 用尽即碎",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE",
+    "SIRIUS",
+    "PROCYON"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "生命教团把冒险者送来的粗魔石净化打磨过后卖出的成品，能当法器或魔具的一次性动力用。教团嘴上说净化是为了洗净怪物身上的邪祟，实际收走的黑暗碎片去处，外人不清楚。",
+   "use": {
+    "act": "注入魔力驱动随身魔具或术式",
+    "eff": "提供一次性魔力，供无法自行储魔的人施展一次法术或驱动一件魔具，用后碎裂"
+   }
+  },
+  {
+   "k": "e16_wolf_hide_bundle",
+   "cn": "狼怪毛皮",
+   "la": "PELLIS LVPI",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "felt",
+   "spec": "一整张 · 群狼型怪物剥皮 · 需晾晒去腥 · 皮匠收购原料",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(2)",
+   "lore": "冒险者猎杀成群出没的狼型怪物后剥下的皮，带股腥气得先晾晒处理，皮匠按张收，做冬衣斗篷的料子。"
+  },
+  {
+   "k": "e16_hard_monster_bone",
+   "cn": "怪物硬骨",
+   "la": "OS DVRVM",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "bone",
+   "spec": "一根约 30 厘米 · 质地远硬于普通兽骨 · 可磨制或入药 · 处理商按行情收",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(2)",
+   "lore": "怪物的骨头比寻常野兽硬得多，磨成器具或箭镞都比铁便宜耐用，也有药铺收去入药。冒险者打完大型怪物总要顺手锯几根带回去卖。"
+  },
+  {
+   "k": "e16_antler_blade_trophy",
+   "cn": "刀刃鹿角",
+   "la": "CORNV LAMINATVM",
+   "cat": "杂物",
+   "price": 7,
+   "ic": "horn",
+   "spec": "一对约 40 厘米 · 边缘天然如刃 · 刀刃鹿角怪头部 · 可安柄做武器",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(2)",
+   "lore": "刀刃鹿角怪头上那对天生带刃的角，猎到就是一笔好进账，铁匠拿它安柄磨刃，做出来的角刀比寻常铁刀更利，就是产量稀少。"
+  },
+  {
+   "k": "e16_boar_tusk_trophy",
+   "cn": "野猪怪獠牙",
+   "la": "DENS APRI",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "bone",
+   "spec": "一对约 15 厘米 · 猎野猪怪拔取 · 可做装饰或磨粉入药 · 处理商收购",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "野猪怪的獠牙又粗又硬，猎人打完顺手拔下来，磨成粉能入药，整只留着也能做腰间挂饰，是新手冒险者最常带回去的战利品。"
+  },
+  {
+   "k": "e16_mosquito_proboscis",
+   "cn": "蚊怪吸血口器",
+   "la": "ROSTRVM CVLICIS",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "needle",
+   "spec": "一根约 8 厘米 · 中空细尖 · 蚊型怪物取自口部 · 药铺收购制药",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "吸血蚊怪口部那根细长中空的口器，药铺专门收去炼制止血或麻醉的药材，价钱不算高，但这类怪物群聚出没，一趟能收不少。"
+  },
+  {
+   "k": "e16_woodcutter_axe",
+   "cn": "樵夫斧",
+   "la": "SECVRIS LIGNATORIS",
+   "cat": "武器",
+   "price": 9,
+   "ic": "axe",
+   "spec": "单刃阔斧 · 木柄铁头 · 砍柴亦可猎树精 · 需定期磨刃",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(2)",
+   "lore": "樵夫伐木用的阔刃斧，也是猎树精怪物的常用武器——树精惧斧不惧剑箭，火攻又怕殃及领主森林，樵夫和冒险者只能靠这把斧头硬碰硬。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_hunting_bow",
+   "cn": "猎弓",
+   "la": "ARCVS VENATORIVS",
+   "cat": "武器",
+   "price": 12,
+   "ic": "bow",
+   "spec": "单体木弓 · 拉力适中 · 配麻绳弓弦 · 需防潮上油",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "冒险家公会里靠弓箭吃饭的人不少，配陷阱打猎比正面砍杀省力气，这类弓在铁匠铺和公会附属商行都能买到，价钱比剑便宜。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_arrow_bundle",
+   "cn": "箭矢一束",
+   "la": "SAGITTAE FASCIS",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "arrow",
+   "spec": "一束二十支 · 木杆铁镞 · 布袋收纳 · 断镞需拔出重装",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "普通铁镞箭，弓手冒险者随身带一束，猎物越大耗箭越多，公会附属商行按束卖，用完了得回城补货。",
+   "use": {
+    "act": "取一支搭弓射出",
+    "eff": "消耗一支箭，对普通猎物造成有效伤害"
+   }
+  },
+  {
+   "k": "e16_snare_trap_kit",
+   "cn": "陷阱套索",
+   "la": "LAQVEVS VENATORIS",
+   "cat": "器物",
+   "price": 4,
+   "ic": "rope",
+   "spec": "绳套加木楔 · 收纳成卷 · 布设需半刻钟 · 一次性触发",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "靠陷阱狩猎的冒险者常用的一套绳套木楔，布在猎物路径上等它自投罗网，比正面追猎省力，就是布一次只能用一次，触发后要重新收拾。",
+   "use": {
+    "act": "在猎物路径上布设诱捕",
+    "eff": "这一幕内自动捕获一次经过的小型猎物，无需正面战斗"
+   }
+  },
+  {
+   "k": "e16_common_dagger",
+   "cn": "新手匕首",
+   "la": "PVGIO VVLGARIS",
+   "cat": "武器",
+   "price": 5,
+   "ic": "dagger",
+   "spec": "单刃短刀 · 长约 25 厘米 · 铁匠铺量产 · 冒险者最常见的第一件武器",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "铁匠铺量产的普通短匕，价钱最便宜，几乎是每个新入行冒险者手里的第一件武器，够用但称不上趁手。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_greataxe_monster",
+   "cn": "讨伐大斧",
+   "la": "BIPENNIS VENATORIA",
+   "cat": "武器",
+   "price": 28,
+   "ic": "axe",
+   "spec": "双手持 · 阔刃加重 · 专为大型怪物设计 · 非力壮者难以挥动",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "对付熊怪、大型狼群这类难缠的猎物，普通武器伤不到要害，非得用这种加重阔斧才能一击见效。分量沉，不是人人使得动，是老练猎手才会配的家伙。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_leather_armor_adventurer",
+   "cn": "冒险者皮甲",
+   "la": "LORICA CORIACEA",
+   "cat": "防具",
+   "price": 16,
+   "ic": "armor",
+   "spec": "皮革缝制 · 护胸背 · 内衬麻布 · 公会签约铁匠铺代工",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "公会签约铁匠铺量产的标准皮甲，登记满一定等级的冒险者能凭牌子打折买，护住胸背要害，穿脱都方便，是最常见的冒险装束。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_iron_helm_guild",
+   "cn": "公会铁盔",
+   "la": "CASSIS FERREA",
+   "cat": "防具",
+   "price": 11,
+   "ic": "helm",
+   "spec": "铁片捶制 · 半覆式 · 留出视野 · 内衬皮垫",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "公会签约铁匠铺打的半覆式铁盔，护住头顶又不挡视野，是标准装束的一部分，价钱不贵，登记冒险者常常一次买齐全套。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_wool_travel_cloak",
+   "cn": "羊毛旅行斗篷",
+   "la": "PALLIVM LANEVM",
+   "cat": "衣物",
+   "price": 8,
+   "ic": "cloak",
+   "spec": "粗纺羊毛 · 及膝长 · 保暖不防雨 · 野营时可当铺盖",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "赶路野营用的粗毛斗篷，白天披着挡风，夜里铺开当薄被，是冒险者和商旅都会备的一件。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_adventurer_tunic",
+   "cn": "冒险者束衣",
+   "la": "TVNICA VENATORIA",
+   "cat": "衣物",
+   "price": 6,
+   "ic": "tunic",
+   "spec": "粗布收腰 · 便于奔跑攀爬 · 耐磨耐脏 · 公会附属商行常年供货",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "冒险者常穿的收腰粗布短衣，方便奔跑攀爬，耐磨耐脏，公会附属的商行常年供货，价钱亲民。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_leather_travel_boots",
+   "cn": "皮制旅行靴",
+   "la": "CALIGA VIATORIS",
+   "cat": "衣物",
+   "price": 5,
+   "ic": "boot",
+   "spec": "牛皮缝制 · 高至小腿 · 鞋底加厚 · 适合长途跋涉",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "牛皮缝的高帮靴，鞋底加厚耐磨，是冒险者和赶路商旅通用的鞋子，公会附属商行常年有货。",
+   "slot": "ped"
+  },
+  {
+   "k": "e16_leather_belt_pouch",
+   "cn": "皮腰带",
+   "la": "CINGVLVM CORIACEVM",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "belt",
+   "spec": "牛皮制 · 附小挂钩 · 可系匕首鞘或小袋 · 常年供货",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "普通牛皮腰带，带几个小挂钩，能挂匕首鞘或零碎小袋，冒险者人手一条，公会附属商行常年供货，几乎是登记入会第一天就要置办的东西。",
+   "slot": "cing"
+  },
+  {
+   "k": "e16_bandage_roll",
+   "cn": "绷带卷",
+   "la": "FASCIA",
+   "cat": "药",
+   "price": 2,
+   "ic": "wrap",
+   "spec": "一卷约 3 米 · 煮沸消毒麻布 · 可反复缠绕 · 受伤即用",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS",
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "煮沸消毒过的麻布绷带，冒险者行囊里必备的东西，受伤当场缠上止血，公会附属商铺和教团药房都有卖。",
+   "use": {
+    "act": "缠紧伤口止血包扎",
+    "eff": "止住轻伤出血，防止伤势在这一幕内恶化"
+   }
+  },
+  {
+   "k": "e16_temple_healing_draught",
+   "cn": "教团速愈药水",
+   "la": "POTIO SANATIONIS",
+   "cat": "药",
+   "price": 9,
+   "ic": "potion",
+   "spec": "小玻瓶装 · 教团配方 · 味苦回甘 · 保存不宜超过一月",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团配的伤药，装在小玻瓶里，冒险者受重伤又赶时间时会咬牙买一瓶救急，价钱不便宜，教团折扣券能省下不少。",
+   "use": {
+    "act": "一口喝下整瓶药水",
+    "eff": "较快恢复一处外伤，可支撑继续行动"
+   }
+  },
+  {
+   "k": "e16_organ_medicine_paste",
+   "cn": "怪物脏器药膏",
+   "la": "VNGVENTVM VISCERVM",
+   "cat": "药",
+   "price": 6,
+   "ic": "paste",
+   "spec": "小罐装 · 怪物内脏熬制 · 敷伤口消肿 · 味腥需捏鼻涂抹",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "药铺收了冒险者交来的怪物内脏熬制的药膏，敷在瘀伤肿处见效快，就是味道腥得很，涂的时候得捏着鼻子。",
+   "use": {
+    "act": "挖一指药膏涂抹患处",
+    "eff": "消退瘀伤肿胀，稍缓疼痛"
+   }
+  },
+  {
+   "k": "e16_rope_coil_common",
+   "cn": "麻绳一卷",
+   "la": "FVNIS VVLGARIS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "rope",
+   "spec": "长约 12 米 · 普通麻绳 · 捆物攀爬两用 · 受潮需晾晒",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "随处能买到的普通麻绳，捆行李、绑猎物、攀岩都靠它，冒险者行囊里几乎都会带一卷，处理商收购大型怪物时也常问猎人借来倒挂放血。"
+  },
+  {
+   "k": "e16_torch_common",
+   "cn": "火把",
+   "la": "FAX",
+   "cat": "消耗",
+   "price": 1,
+   "ic": "torch",
+   "spec": "长约 40 厘米 · 麻布浸油裹木杆 · 燃约一刻钟 · 遇水即熄",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "麻布浸油裹在木杆上做成的火把，点起来能撑一刻钟左右照亮夜路或洞窟，遇水就熄，冒险者常常一次买好几支。",
+   "use": {
+    "act": "就着火石点燃火把",
+    "eff": "照亮周围一段路，持续约一刻钟"
+   }
+  },
+  {
+   "k": "e16_tavern_meat_stew",
+   "cn": "酒馆炖肉汤",
+   "la": "PVLS CARNIS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "soup",
+   "spec": "一碗份量 · 怪物肉与根菜同炖 · 现点现煮 · 趁热吃",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "冒险家公会附近酒馆的招牌菜，用冒险者卖来的怪物肉配根菜炖一大锅，讲究口味的老板会用不同肉调不同风味，一碗下肚浑身暖和。",
+   "use": {
+    "act": "就着面包吃完一碗炖汤",
+    "eff": "饱腹一顿，恢复些许体力"
+   }
+  },
+  {
+   "k": "e16_tavern_ale_mug",
+   "cn": "酒馆麦酒",
+   "la": "CEREVISIA",
+   "cat": "消耗",
+   "price": 1,
+   "ic": "winejar",
+   "spec": "一大杯 · 麦芽发酵 · 现酿现卖 · 后劲不算大",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "冒险家酒馆里最便宜的麦酒，冒险者收工回来交怪物情报换一杯，边喝边跟老板讲今天猎的东西，图个热闹。",
+   "use": {
+    "act": "一饮而尽",
+    "eff": "消解疲惫，短暂提振精神"
+   }
+  },
+  {
+   "k": "e16_guild_canteen_bread",
+   "cn": "公会食堂面包",
+   "la": "PANIS COLLEGII",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bread",
+   "spec": "一个约半斤 · 公会附属食堂供应 · 讲究口味 · 登记者可打折",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "冒险家公会附属餐厅供应的面包，公会特意讲究口味留住会员，登记满等级的还能打折，比外头小摊买的便宜些。",
+   "use": {
+    "act": "掰开就着汤吃",
+    "eff": "垫饥一顿，恢复些许体力"
+   }
+  },
+  {
+   "k": "e16_travel_ration_hardtack",
+   "cn": "旅行硬饼",
+   "la": "BVCELLATVM",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bread",
+   "spec": "巴掌大小 · 反复烘烤而成 · 可存数月不坏 · 需泡水或就汤食用",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "反复烘烤到极干的硬饼，放几个月都不坏，出远门讨伐的冒险者常备几块，硬得能硌牙，得泡水或就着汤才啃得动。",
+   "use": {
+    "act": "泡水或就汤吃下",
+    "eff": "垫饥一顿，长途携带不易变质"
+   }
+  },
+  {
+   "k": "e16_campfire_cook_pot",
+   "cn": "行军小锅",
+   "la": "OLLA CASTRENSIS",
+   "cat": "器物",
+   "price": 4,
+   "ic": "soup",
+   "spec": "生铁铸造 · 容约 2 升 · 附提梁 · 野营煮汤用",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "生铁铸的小锅，带个提梁方便挂在火上，野营的冒险者靠它煮汤热饭，虽沉但结实耐用，公会附属商行和寻常杂货铺都能买到。"
+  },
+  {
+   "k": "e16_smith_discount_chit",
+   "cn": "签约铁匠折扣木牌",
+   "la": "TESSERA FABRI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "tag",
+   "spec": "掌心大小 · 公会福利凭证 · 随登记发放 · 遗失不补",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "登记入会的冒险者能领一块折扣木牌，凭它去公会签约的铁匠铺买装备能省一笔钱，是公会拉拢会员的福利之一，市面上不流通。"
+  },
+  {
+   "k": "e16_guild_library_card",
+   "cn": "公会图书馆借阅牌",
+   "la": "TESSERA BIBLIOTHECAE",
+   "cat": "杂物",
+   "price": null,
+   "ic": "card",
+   "spec": "薄木片 · 刻会员编号 · 凭牌借阅公会藏书 · 逾期需赔付",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(5)",
+   "lore": "冒险家公会内部藏书不算多但也够用，凭这块借阅牌能借书回去看，逾期不还或损毁要按价赔付，是登记会员才有的福利。"
+  },
+  {
+   "k": "e16_royal_knight_sword",
+   "cn": "皇家骑士团制式剑",
+   "la": "GLADIVS EQVITVM REGALIVM",
+   "cat": "武器",
+   "price": 24,
+   "ic": "sword",
+   "spec": "长约 90 厘米 · 矮人锻造工坊代工 · 剑身刻皇室徽纹 · 只授予正式骑士",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "皇家骑士团制式长剑，剑身刻着皇室徽纹，由矮人锻造工坊按统一规格打造。只有正式受封的骑士才能领用，寻常人就算有钱也买不到这种刻纹的版本。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_epona_lance",
+   "cn": "艾波那骑士团长枪",
+   "la": "HASTA EQVITVM EPONAE",
+   "cat": "武器",
+   "price": 26,
+   "ic": "spear",
+   "spec": "长约 2.5 米 · 骑乘冲锋用 · 枪缨系皇家蓝 · 步战亦可用作长兵",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "艾波那骑士团骑乘冲锋所用的制式长枪，枪缨染成皇家蓝色，是天狼星城内两支主要骑士团之一的标志兵装。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_knight_plate_armor",
+   "cn": "骑士板甲",
+   "la": "LORICA EQVITIS",
+   "cat": "防具",
+   "price": 40,
+   "ic": "armor",
+   "spec": "全身覆甲 · 矮人锻造 · 关节处活铰接 · 需专人协助穿卸",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "天狼星骑士团制式的全身板甲，关节处做了活铰接方便活动，出自矮人锻造工坊之手，一套价钱不菲，寻常冒险者穿不起也扛不动。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_knight_round_shield",
+   "cn": "骑士圆盾",
+   "la": "SCVTVM EQVITIS",
+   "cat": "防具",
+   "price": 20,
+   "ic": "shield",
+   "spec": "木芯包铁边 · 直径约 70 厘米 · 内侧皮带固定前臂 · 正面绘骑士团纹章",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "骑士团制式圆盾，木芯外包铁边，正面绘着所属骑士团的纹章，内侧皮带固定前臂，格挡冲锋和劈砍都够用。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_knight_mana_belt",
+   "cn": "骑士储魔腰带",
+   "la": "CINGVLVM MANAE",
+   "cat": "防具",
+   "price": 18,
+   "ic": "belt",
+   "spec": "宽幅皮带 · 内衬吸魔织物 · 助骑士在下腹聚魔 · 需配合呼吸法修炼",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(1)",
+   "lore": "骑士储魔在下腹而非心脏附近，那一带本没有储魔的部位，全靠硬生生开辟出的路径。这条腰带内衬吸魔织物，能替新手骑士托一把，稳住聚魔的感觉，练熟了便不再依赖它。",
+   "slot": "cing"
+  },
+  {
+   "k": "e16_breathing_technique_manual",
+   "cn": "骑士呼吸法手札",
+   "la": "LIBELLVS RESPIRATIONIS",
+   "cat": "书卷",
+   "price": 14,
+   "ic": "book",
+   "spec": "薄册装订 · 图文并茂 · 骑士团内部教材 · 源出魔法师的呼吸法",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "骑士团教新兵在下腹开辟魔力循环路径的教材，图文并茂讲解呼吸法门。据说这套呼吸法本源自魔法师的修炼法门，只是被骑士们改得更死板固执。"
+  },
+  {
+   "k": "e16_swordmage_manual_rare",
+   "cn": "魔剑士秘传手记",
+   "la": "LIBER GLADIOMAGI",
+   "cat": "书卷",
+   "price": 60,
+   "ic": "book",
+   "spec": "手抄孤本 · 记融合骑士与法师修炼要领 · 存世极少 · 高价难求",
+   "stack": 0,
+   "at": [
+    "SIRIUS",
+    "PROCYON"
+   ],
+   "src": "魔法基础.(3)",
+   "lore": "记述如何同时修成骑士的呼吸法与法师的魔力操控的秘传手记，因为两条路子截然不同，魔剑士自古就稀少，这类手记更是千金难求。"
+  },
+  {
+   "k": "e16_imperial_parade_banner",
+   "cn": "帝国游行旗",
+   "la": "VEXILLVM TRIVMPHALE",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "ribbon",
+   "spec": "长约 2 米 · 皇室纹章刺绣 · 庆典游行沿街悬挂 · 平日收入库房",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "尤利乌斯百岁诞辰庆典那日，天狼星主干道两侧挂满了绣着皇室纹章的旗帜，巨型马车游行一整轮，百姓夹道欢呼。庆典过后旗子多半收进库房，偶有流出到旧货摊上。"
+  },
+  {
+   "k": "e16_festival_ribbon_bundle",
+   "cn": "庆典彩带",
+   "la": "LEMNISCI FESTI",
+   "cat": "消耗",
+   "price": 1,
+   "ic": "ribbon",
+   "spec": "一束十余条 · 染色麻布条 · 系于门前或衣袖 · 庆典专卖",
+   "stack": 1,
+   "at": [
+    "SIRIUS",
+    "ROMANIA"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "染色麻布条做的彩带，逢皇室庆典百姓会买来系在门前或衣袖上凑热闹，寻常时候摊贩也少摆这个，多是大典前才应景卖开。",
+   "use": {
+    "act": "系在门前或衣袖上",
+    "eff": "庆典场景中的应景装饰，无战斗效果"
+   }
+  },
+  {
+   "k": "e16_unbroken_crown",
+   "cn": "不朽之冠",
+   "la": "CORONA IMMORTALIS",
+   "cat": "魔具",
+   "price": null,
+   "ic": "headband",
+   "spec": "皇帝专属王冠 · 功效之一为延长生命力 · 历代皇帝传承 · 绝不外流",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "罗马尼亚帝国皇帝代代相传的宝物，戴上能将生命力最大化从而延寿，历代皇帝多能高寿，多半得益于此冠。只在皇位交接时传承，从不曾流入市面。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_dansleif_sword",
+   "cn": "不出鞘之剑丹因斯莱夫",
+   "la": "GLADIVS DANSLEIF",
+   "cat": "武器",
+   "price": null,
+   "ic": "sword2",
+   "spec": "剑身长约 1 米 · 皇室宝物之一 · 传说中不曾出鞘 · 只作皇权象征佩戴",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "剑皇一脉传下的宝剑，与不朽之冠、旗帜同列皇室三件宝物，传说这剑从未真正出鞘过，只作皇权象征佩在腰间，历代皇帝都只挂不用。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_plain_longsword",
+   "cn": "普通长剑",
+   "la": "GLADIVS SIMPLEX",
+   "cat": "武器",
+   "price": 15,
+   "ic": "sword",
+   "spec": "长约 85 厘米 · 打磨朴素无纹饰 · 佩戴不显眼 · 实战够用",
+   "stack": 0,
+   "at": [
+    "SIRIUS",
+    "ROMANIA"
+   ],
+   "src": "重逢.(1)",
+   "lore": "没有任何纹饰的普通长剑，佩着不惹眼，却也削铁够用。据说有位来历不明、总穿着奇异岩甲的骑士就爱佩这么一把，取代了本该佩在腰间的皇室宝剑。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_rock_armor_arthur",
+   "cn": "岩肤铠甲",
+   "la": "LORICA PETRAE",
+   "cat": "防具",
+   "price": null,
+   "ic": "armor",
+   "spec": "看似岩石实为坚硬异质 · 轻便远胜同重量金属甲 · 独一无二 · 来历不便声张",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "重逢.(1)",
+   "lore": "用某种曾经是活物躯体剥落的碎片打造的铠甲，矮人工匠一试之下惊为天人——轻便坚硬，连金属都刮不出痕迹——便擅自打造成了甲胄。穿它的人对来历讳莫如深，只说是老熟人留下的念想。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_rock_helm_carried",
+   "cn": "岩肤盔",
+   "la": "GALEA PETRAE",
+   "cat": "防具",
+   "price": null,
+   "ic": "helm",
+   "spec": "配套岩肤铠甲的头盔 · 常年夹在左臂下不戴 · 材质同样坚硬轻便",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(3)",
+   "lore": "与岩肤铠甲配套的头盔，那位穿甲的骑士却总爱把它夹在左臂下不戴，任由无气息的脚步悄无声息地出现在人身后。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_slave_registry_seal",
+   "cn": "奴隶市场登记印",
+   "la": "SIGILLVM MANCIPII",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "seal",
+   "spec": "铜制小印 · 押在买卖契约上 · 奴隶商人自备 · 教团公开谴责此物",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法师的弟子.(1)",
+   "lore": "奴隶商人交易时用来押契约的铜印，天狼星的奴隶市场藏在人迹罕至的偏僻角落——生命教团讲众生平等，这门生意在教团眼皮底下抬不起头，只能低调经营。",
+   "ban": "生命教团公开谴责，教团辖区内不得张扬交易"
+  },
+  {
+   "k": "e16_slave_iron_collar",
+   "cn": "奴隶铁项圈",
+   "la": "COLLARE FERREVM",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "collar",
+   "spec": "铁制 · 内衬皮垫防磨 · 刻商号标记 · 奴隶市场惯用之物",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法师的弟子.(1)",
+   "lore": "奴隶市场里给待售者戴的铁项圈，内衬一层皮垫免得磨破皮肤，刻着商号标记方便认领。这门生意为主流所不齿，只在市场角落低调流通。",
+   "ban": "生命教团公开谴责，教团辖区内不得张扬交易"
+  },
+  {
+   "k": "e16_temple_purification_token",
+   "cn": "净化服务凭条",
+   "la": "SYMBOLVM PVRGATIONIS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "tag",
+   "spec": "薄木片 · 教团登记凭证 · 交魔石换取 · 净化完成后凭条取货",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "把粗魔石交给生命教团净化时领到的凭条，写明数量与预计取货日子，各地冒险者收集来的魔石都送到教团总部这里处理，是教团一项稳定的进项。"
+  },
+  {
+   "k": "e16_temple_priest_robe",
+   "cn": "教团祭袍",
+   "la": "VESTIS SACERDOTALIS",
+   "cat": "衣物",
+   "price": 12,
+   "ic": "robe",
+   "spec": "白麻布长袍 · 领口绣生命之树纹 · 教团内部制式 · 外人亦可购置素色款",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团祭司常穿的白麻长袍，领口绣着生命之树的纹样，正式的绣纹款只授予受戒祭司，但素色款外人也能在教团商铺买到。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_holy_water_vial",
+   "cn": "圣水瓶",
+   "la": "AQVA SACRA",
+   "cat": "药",
+   "price": 4,
+   "ic": "potion",
+   "spec": "小玻瓶 · 教团圣泉汲取 · 祝祷后封瓶 · 保存不宜过久",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团圣泉汲取后经祭司祝祷封瓶的水，信众常求一瓶随身，说是能护佑平安，实际功效有限，多半图个心安。",
+   "use": {
+    "act": "滴几滴在伤处或饮下",
+    "eff": "轻微安神，稍缓紧张与轻度不适"
+   }
+  },
+  {
+   "k": "e16_temple_incense_stick",
+   "cn": "教团熏香",
+   "la": "TVS TEMPLI",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "herb",
+   "spec": "一束十支 · 教团配方香料 · 祈祷时点燃 · 燃尽约一刻钟",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团祈祷仪式上点的香，配方是教团秘传，信众也能自己买回去在家中小祭坛点燃，燃尽约一刻钟的工夫。",
+   "use": {
+    "act": "点燃插入香炉",
+    "eff": "营造祈祷氛围，无实际战斗效果"
+   }
+  },
+  {
+   "k": "e16_pilgrim_walking_staff",
+   "cn": "朝圣者手杖",
+   "la": "BACVLVM PEREGRINI",
+   "cat": "器物",
+   "price": 4,
+   "ic": "staff",
+   "spec": "木制 · 顶端刻生命之树纹 · 长途步行助力 · 朝圣者常备",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE",
+    "ROMANIA"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "朝圣者远路投奔生命教团总部时常拄的木杖，顶端刻着生命之树的纹样，走山路省不少力气，教团门口的小摊常年有卖。"
+  },
+  {
+   "k": "e16_temple_donation_bowl",
+   "cn": "献金钵",
+   "la": "PATERA OBLATIONIS",
+   "cat": "器物",
+   "price": 3,
+   "ic": "bowl",
+   "spec": "陶制 · 边缘刻教团纹章 · 供信众投币 · 教团统一制式",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "教团各处祭坛摆的陶钵，边缘刻着教团纹章，信众路过投几枚银币，收上来的钱补贴教团各地的补助金与抚恤金。"
+  },
+  {
+   "k": "e16_templar_bandage_kit",
+   "cn": "教团急救包",
+   "la": "SARCINA MEDICA",
+   "cat": "药",
+   "price": 7,
+   "ic": "wrap",
+   "spec": "布卷加小瓶药膏 · 教团标准配置 · 附简易使用说明 · 冒险者折扣可购",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(3)",
+   "lore": "生命教团配的标准急救包，一卷绷带加一小瓶消肿药膏，附一张简易说明，登记冒险者凭折扣券能便宜不少，比单买绷带和药膏划算。",
+   "use": {
+    "act": "按说明包扎并涂药",
+    "eff": "处理中度外伤，防止伤势恶化并稍缓疼痛"
+   }
+  },
+  {
+   "k": "e16_windsand_pouch",
+   "cn": "风砂袋",
+   "la": "ARENA VENTI",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "powder",
+   "spec": "小布袋一份 · 沙漠中心砂砾 · 强化风之精灵的材料 · 遇水结块作废",
+   "stack": 1,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "灼热沙漠深处特有的砂砾，蕴含南方热风的性子，是强化风之精灵的材料，普罗西亚的精灵术士常托商队去沙漠边缘收购，遇水就结块失效，得干燥保存。"
+  },
+  {
+   "k": "e16_desert_travel_veil",
+   "cn": "沙漠面纱",
+   "la": "VELVM DESERTI",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "veil",
+   "spec": "轻纱缠头 · 遮口鼻防砂 · 浅色反光 · 沙漠商旅必备",
+   "stack": 0,
+   "at": [
+    "DESERTUM",
+    "PROCYON"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "穿越灼热沙漠的商旅都要缠一条轻纱护住口鼻，浅色料子能反些热光，没这个准备的人连沙漠都穿不过去，更别提靠近火焰山。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_double_layer_waterskin",
+   "cn": "双层沙漠水囊",
+   "la": "VTER DVPLEX",
+   "cat": "器物",
+   "price": 6,
+   "ic": "pail",
+   "spec": "内外两层皮革 · 夹层隔热 · 容约 3 升 · 比单层囊贵一倍",
+   "stack": 0,
+   "at": [
+    "DESERTUM",
+    "PROCYON"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "沙漠商队专用的双层水囊，夹层能隔一点热气，水在里头不至于晒得发烫，比湿地那种单层皮囊贵，但穿沙漠的人都愿意多花这个钱。"
+  },
+  {
+   "k": "e16_sacred_flame_incense",
+   "cn": "圣焰祈祷香",
+   "la": "TVS FLAMMAE SACRAE",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "herb",
+   "spec": "一束五支 · 广场专卖 · 献予神圣火焰 · 需在祈祷广场点燃",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "DESERTUM"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "普罗西亚广场巨大的火焰祈祷仪式上，信众都会买一束这样的香献给火神伊芙利特，据说圣火在灼热沙漠中心永恒燃烧，净化死者罪孽，广场边的小摊常年卖这个。",
+   "use": {
+    "act": "在祈祷广场点燃献祭",
+    "eff": "完成一次向火神的祈祷，无实际战斗效果"
+   }
+  },
+  {
+   "k": "e16_scientia_first_edition",
+   "cn": "西娅蒂雅基础魔法理论·初版",
+   "la": "SCIENTIA EDITIO PRIMA",
+   "cat": "书卷",
+   "price": 20,
+   "ic": "book",
+   "spec": "厚重一册 · 手抄本 · 封面易破 · 记基础魔力冥想与操控法门",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法师的弟子.(3)",
+   "lore": "安西娅执笔写下的第一版魔法理论，从冥想感知魔力讲到操控外放，颠覆了只凭本能施法的旧式法师的认知。初版存世量少，封面多半破损积灰，如今学院里反倒故意找这种旧版给学生用。"
+  },
+  {
+   "k": "e16_scientia_revised_edition",
+   "cn": "西娅蒂雅基础魔法理论·修订版",
+   "la": "SCIENTIA EDITIO RECOGNITA",
+   "cat": "书卷",
+   "price": 24,
+   "ic": "book",
+   "spec": "厚重一册 · 木版印刷 · 新增祈祷段落 · 普罗西亚魔法师人手一本",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(2)",
+   "lore": "在初版基础上修订加印的版本，内容大体相同，只是多了几段向魔法之神祈祷的文字。一经推出便脱销，魔法师们哪怕已有初版也争相多买一本，理由五花八门。"
+  },
+  {
+   "k": "e16_motion_memory_quill",
+   "cn": "动作记忆羽毛笔",
+   "la": "PENNA MEMORIAE",
+   "cat": "魔具",
+   "price": 55,
+   "ic": "feather",
+   "spec": "羽毛笔嵌小型魔石 · 记录一页运笔轨迹 · 注魔力可复现 · 记录后无法修改",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(3)",
+   "lore": "安西娅为解决抄写员劳累而做的魔具，笔杆嵌一小块魔石，先让抄写员运笔写一遍，笔便记下轨迹，日后注入魔力就能自动复现同一页字迹。固定纸墨位置是死规矩，记录一旦完成便无法修改，是普罗西亚少见的稀罕魔具。",
+   "slot": "dext",
+   "use": {
+    "act": "固定纸墨位置后注入魔力",
+    "eff": "自动复现记录过的一页笔迹，无需人工抄写"
+   }
+  },
+  {
+   "k": "e16_common_feather_quill",
+   "cn": "普通羽毛笔",
+   "la": "PENNA VVLGARIS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "feather",
+   "spec": "鹅羽削尖 · 需常修笔尖 · 普罗西亚文具摊常卖 · 配黑墨水使用",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(1)",
+   "lore": "普罗西亚随处能买到的普通羽毛笔，鹅羽削尖蘸墨书写，写久了笔尖会秃，得常修，是学徒和抄写员案头最基本的东西。"
+  },
+  {
+   "k": "e16_black_ink_bottle",
+   "cn": "黑墨水瓶",
+   "la": "ATRAMENTVM",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "jar",
+   "spec": "小瓶装 · 漆黑浓稠 · 蘸笔即用 · 打翻难以擦净",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(1)",
+   "lore": "普罗西亚文具摊常卖的黑墨水，浓稠漆黑，蘸一笔能写不少字，就是瓶口松，打翻了在纸上和桌面都很难擦干净，安西娅那张旧书桌上的斑驳墨渍就是这么留下的。"
+  },
+  {
+   "k": "e16_worn_pen_holder",
+   "cn": "旧笔筒",
+   "la": "THECA PENNARVM",
+   "cat": "器物",
+   "price": 2,
+   "ic": "jar",
+   "spec": "陶制 · 边缘磨圆 · 用久起包浆 · 插放数支羽毛笔",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(2)",
+   "lore": "陶制的旧笔筒，用久了边缘都磨圆了，泛着一层包浆，是案头常见的小物件，学者和抄写员桌上都少不了一个。"
+  },
+  {
+   "k": "e16_lead_pencil",
+   "cn": "铅笔",
+   "la": "STILVS PLVMBEVS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "stone",
+   "spec": "木杆嵌铅芯 · 削尖使用 · 便于打草稿 · 不用蘸墨",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "木杆里嵌铅芯的笔，不用蘸墨随手就能画，普罗西亚的魔法师爱拿它打草稿、画解剖图，省得反复蘸墨弄脏纸面。"
+  },
+  {
+   "k": "e16_clean_paper_stack",
+   "cn": "干净纸叠",
+   "la": "CHARTA MVNDA",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "card",
+   "spec": "一叠约五十张 · 纸莎草纸压制 · 边缘齐整 · 供学徒练字或作图",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "裁得整整齐齐的一叠白纸，学徒练字、画魔力循环图都用它，比零散的纸莎草纸卷更方便随取随用，价钱也比羊皮纸便宜得多。"
+  },
+  {
+   "k": "e16_heart_anatomy_sketch",
+   "cn": "心脏解剖图",
+   "la": "TABVLA CORDIS",
+   "cat": "书卷",
+   "price": 5,
+   "ic": "tablet",
+   "spec": "一张手绘 · 心脏结构与魔环走向 · 笔触逼真略显怪异 · 出自年幼画者之手",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "一张画得相当逼真的心脏解剖图，标出魔法环缠绕的走向，是教魔力储存位置时常用的教具。据说执笔的是位年纪不大却知识渊博得反常的少女，画风带着股说不清的写实劲儿。"
+  },
+  {
+   "k": "e16_papyrus_scroll_blank",
+   "cn": "空白纸莎草卷",
+   "la": "PAPYRVS VACVA",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "scroll",
+   "spec": "一卷未写 · 湿地进货 · 抄书学徒常用 · 久放易脆",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "从湿地蜥蜴人那里进货的纸莎草纸卷，抄书学徒常用，价钱比羊皮纸便宜不少，但久放易脆，写坏的卷子也不能像羊皮纸那样刮了重写。"
+  },
+  {
+   "k": "e16_parchment_sheet",
+   "cn": "羊皮纸",
+   "la": "PERGAMENA",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "tablet",
+   "spec": "一张整羊皮 · 处理去毛打磨 · 可刮除重写 · 价高但耐久",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "SIRIUS"
+   ],
+   "src": "变革之风.(1)",
+   "lore": "整张羊皮鞣制打磨而成的书写材料，比纸莎草纸贵得多，胜在能刮除重写又耐久放，重要文书和贵重典籍都用它，安西娅为收书发愁的正是这东西的价钱。"
+  },
+  {
+   "k": "e16_element_spellbook",
+   "cn": "元素学派咒语书",
+   "la": "LIBER ELEMENTORVM",
+   "cat": "书卷",
+   "price": 30,
+   "ic": "book",
+   "spec": "厚册 · 收录常见元素咒语 · 需背诵成条件反射 · 元素学派入门教材",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "元素学派发给弟子的入门咒语书，收录各类点火、造风、结冰的咒语。咒语是凝聚意志的专用语句，念错一个字都可能施法失败，学徒得把整本硬背下来。"
+  },
+  {
+   "k": "e16_ritual_chalk_stick",
+   "cn": "魔法阵粉笔",
+   "la": "CRETA CIRCVLI",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "powder",
+   "spec": "一支约 10 厘米 · 特制矿粉压制 · 绘制魔法阵专用 · 普通粉笔画不出效力",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(5)",
+   "lore": "绘制仪式魔法阵专用的特制粉笔，混了矿粉压制，画出的线条才带得住魔力，普通粉笔画出来的阵形不了不发挥效力，仪式法师案头常备一整盒。",
+   "use": {
+    "act": "绘制一处仪式魔法阵",
+    "eff": "配合催化剂完成一次仪式魔法的准备"
+   }
+  },
+  {
+   "k": "e16_ritual_catalyst_powder",
+   "cn": "仪式催化粉",
+   "la": "PVLVIS CATALYTICVS",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "powder",
+   "spec": "一包约一次用量 · 矿石与魔石粉混合 · 撒于魔法阵内 · 引动仪式魔法",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(5)",
+   "lore": "仪式魔法必需的催化材料，矿石粉混着碾碎的魔石粉，撒在画好的魔法阵里能引动更强的效力，媲美单靠自身魔力难以施展的大型法术。",
+   "use": {
+    "act": "撒入已绘好的魔法阵",
+    "eff": "引动仪式魔法生效，威力媲美自身难以独力施展的大型法术"
+   }
+  },
+  {
+   "k": "e16_mana_crystal_counter",
+   "cn": "计数魔力结晶",
+   "la": "CRYSTALLVM NVMERANS",
+   "cat": "魔具",
+   "price": 18,
+   "ic": "crystal",
+   "spec": "拳心大小 · 随储魔量变色变形 · 环系法师的替代记数法 · 需定期校准",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "除了魔法环，也有法师选择用这种结晶来计数自己储存的魔力，随储魔量增加而变色变大，是环系之外另一种流派的记数方式，需定期请人校准免得看走眼。",
+   "use": {
+    "act": "贴身携带并定期注入魔力",
+    "eff": "辅助感知自身储魔量，避免施法时用力过猛而失控"
+   }
+  },
+  {
+   "k": "e16_mana_rope_school_cord",
+   "cn": "绳系魔力绳索",
+   "la": "FVNIS MANAE",
+   "cat": "魔具",
+   "price": 18,
+   "ic": "rope",
+   "spec": "一段特制丝绳 · 缠绕储魔 · 结数即魔力量 · 绳系法师标志物",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "绳系法师储魔用的特制丝绳，把魔力打结储存在绳上，结数越多代表储魔越厚。比起魔法环更少见，是普罗西亚众多学派里较冷门的一支。",
+   "use": {
+    "act": "缠于腕间并注入魔力",
+    "eff": "辅助储存与释放魔力，效果因个人流派熟练度而异"
+   }
+  },
+  {
+   "k": "e16_mage_robe_common",
+   "cn": "法师长袍",
+   "la": "TOGA MAGICA",
+   "cat": "衣物",
+   "price": 15,
+   "ic": "robe",
+   "spec": "长及脚踝 · 深色厚料 · 内藏多个暗袋 · 普罗西亚正式法师标志装束",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法师的弟子.(1)",
+   "lore": "普罗西亚正式法师常穿的长袍，深色厚料及踝，内里缝了不少暗袋放随身魔石和小物件。奴隶市场的人一见这身衣裳，都不敢招惹，怕稍一冒犯就挨个火球。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_apprentice_robe",
+   "cn": "学徒长袍",
+   "la": "TOGA DISCIPVLI",
+   "cat": "衣物",
+   "price": 7,
+   "ic": "robe",
+   "spec": "浅色薄料 · 剪裁宽松 · 未受正式认证者穿着 · 价钱亲民",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法师的弟子.(2)",
+   "lore": "尚未通过普罗西亚长老会认证的学徒穿的长袍，剪裁比正式法师袍宽松随意，颜色也浅淡不少，价钱便宜，是初入门弟子最先置办的行头。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_wizard_staff_wood",
+   "cn": "木制法杖",
+   "la": "BACVLVM MAGICVM",
+   "cat": "武器",
+   "price": 20,
+   "ic": "staff",
+   "spec": "长约 1.2 米 · 硬木削制 · 顶端嵌小魔石 · 助聚魔更省力",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(3)",
+   "lore": "硬木削成的法杖，顶端嵌一小块魔石，施法时能助聚魔更省力，是有些资历的法师常配的兵装，比空手施法体面也稳妥。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_elemental_wand_basic",
+   "cn": "元素短杖",
+   "la": "VIRGA ELEMENTI",
+   "cat": "武器",
+   "price": 14,
+   "ic": "wand",
+   "spec": "长约 30 厘米 · 单手持握 · 引导元素咒语 · 元素学派学徒常用",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "单手持握的短杖，专为引导元素咒语设计，元素学派的学徒几乎人手一支，比法杖轻便，就是威力也相应小一些。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_apprentice_practice_wand",
+   "cn": "学徒练习杖",
+   "la": "VIRGA EXERCITII",
+   "cat": "武器",
+   "price": 4,
+   "ic": "wand",
+   "spec": "廉价木料 · 不嵌魔石 · 供初学者练习手势 · 易折断",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(4)",
+   "lore": "不嵌魔石的廉价练习杖，专供刚入门、连魔法环都还没成形的学徒摆弄手势用，折了也不心疼，是普罗西亚文具摊上最便宜的一类杖。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_magic_scroll_market",
+   "cn": "市集魔法卷轴",
+   "la": "SCHEDVLA MAGICA",
+   "cat": "书卷",
+   "price": 12,
+   "ic": "scroll",
+   "spec": "一卷 · 记单个咒语 · 广场卷轴商人贩卖 · 学徒常按需购买",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "为了年幼的魔法师.(2)",
+   "lore": "普罗西亚广场上卷轴商人贩卖的单咒语卷轴，学徒缺哪个咒语就买哪一卷现学，比整本咒语书便宜，就是内容零散，学得不成体系。"
+  },
+  {
+   "k": "e16_element_research_badge",
+   "cn": "元素研究会徽章",
+   "la": "INSIGNE ELEMENTI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "pin",
+   "spec": "银质小徽 · 会员专属 · 别在衣领 · 非会员不得佩戴",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "元素研究会会员才有的银质徽章，别在衣领上表明身份，这类按魔法类型抱团的研究会正逐渐转型成正规组织，徽章也渐渐成了身份的象征，不对外发售。"
+  },
+  {
+   "k": "e16_prophet_alliance_token",
+   "cn": "预言者联盟令牌",
+   "la": "TESSERA VATVM",
+   "cat": "杂物",
+   "price": null,
+   "ic": "pin",
+   "spec": "骨制小牌 · 联盟内部凭证 · 供出入议事场所 · 不外传",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "预言者联盟成员凭以出入议事场所的骨制小牌，普罗西亚城内实力相当的研究势力各有一套这样的凭证，外人插不进去也买不到。"
+  },
+  {
+   "k": "e16_mage_tower_key",
+   "cn": "魔塔寓所钥匙",
+   "la": "CLAVIS TVRRIS",
+   "cat": "杂物",
+   "price": null,
+   "ic": "key",
+   "spec": "铜制 · 对应塔内某间寓所 · 加入研究会方可领取 · 遗失需重新申请",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(4)",
+   "lore": "普罗西亚复兴期间新建的魔塔宿舍钥匙，加入相应研究会才能领一把，对应塔内一间专属寓所。安西娅当年就被这样的房间诱惑过，最终还是拒绝了，觉得懒得跟人打交道。"
+  },
+  {
+   "k": "e16_magic_stone_lamp",
+   "cn": "魔石灯",
+   "la": "LVCERNA LAPIDIS",
+   "cat": "器物",
+   "price": 10,
+   "ic": "lamp",
+   "spec": "陶罩内嵌小魔石 · 不用灯油 · 可反复充能 · 光线偏冷白",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(3)",
+   "lore": "陶罩里嵌一小块魔石做灯芯的灯具，不用灯油，魔石耗尽了拿去教团或魔石商行充能就行，普罗西亚魔法师家里常见这种灯，光偏冷白，跟油灯的暖黄不太一样。",
+   "use": {
+    "act": "注入少量魔力点亮",
+    "eff": "提供一段时间照明，无需灯油"
+   }
+  },
+  {
+   "k": "e16_woodblock_print_plate",
+   "cn": "木版印刷版",
+   "la": "TABVLA XYLOGRAPHICA",
+   "cat": "器物",
+   "price": 25,
+   "ic": "tablet",
+   "spec": "整块硬木雕版 · 反刻文字 · 蘸墨压印成书 · 一版可印数百册",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(3)",
+   "lore": "整块硬木反刻出文字的雕版，蘸墨压印能批量印书，是普罗西亚初版基础魔法理论最先采用的印法，只是产量还是比不过后来聘来的抄写员大军。"
+  },
+  {
+   "k": "e16_magic_theory_notes",
+   "cn": "学徒魔法笔记",
+   "la": "ADVERSARIA MAGICA",
+   "cat": "书卷",
+   "price": 6,
+   "ic": "book",
+   "spec": "手写数十页 · 记个人心得与试错 · 装订简陋 · 常在学徒间转手",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法师的弟子.(4)",
+   "lore": "学徒自己记的魔法笔记，写满了修炼时的心得与试错教训，装订简陋却比正规教材更贴近初学者的困惑，常在师兄弟间借来借去，磨损厉害。"
+  },
+  {
+   "k": "e16_prophecy_scroll",
+   "cn": "预言卷轴",
+   "la": "ORACVLVM SCRIPTVM",
+   "cat": "书卷",
+   "price": 16,
+   "ic": "scroll",
+   "spec": "一卷 · 预言者联盟成员书写 · 措辞含糊多解 · 真伪难辨",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：为了年幼的魔法师.(3)",
+   "lore": "预言者联盟成员写的预言卷轴，措辞多半含糊其辞，可作多种解读，信的人视若珍宝，不信的人只当是江湖话术，价钱不便宜，买卖全凭一份信任。"
+  },
+  {
+   "k": "e16_divination_bone_dice",
+   "cn": "占卜骨骰",
+   "la": "TESSERAE DIVINATORIAE",
+   "cat": "魔具",
+   "price": 9,
+   "ic": "dice",
+   "spec": "一副五枚 · 兽骨刻符文 · 掷出组合对照占书 · 需搭配占书使用",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：为了年幼的魔法师.(3)",
+   "lore": "刻着符文的兽骨骰子，掷出的组合对照占卜书解读吉凶，普罗西亚一些预言者和寻常百姓都爱用这个图个心安，准不准全看解读的人怎么说。",
+   "use": {
+    "act": "掷出五枚骰子对照占书",
+    "eff": "得到一次含糊的占卜结果，供剧情参考而非确凿信息"
+   }
+  },
+  {
+   "k": "e16_scrying_hand_mirror",
+   "cn": "占视小镜",
+   "la": "SPECVLVM DIVINANS",
+   "cat": "魔具",
+   "price": 22,
+   "ic": "mirror",
+   "spec": "巴掌大小 · 镀银玻璃 · 注魔可映远处影像 · 效果不稳定",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(4)",
+   "lore": "镀银玻璃打磨的小镜子，注入魔力偶尔能映出远处的模糊影像，效果全看使用者的魔力和运气，算不上可靠的侦察手段，倒是好奇心重的学徒都想试一试。",
+   "slot": "sin",
+   "use": {
+    "act": "注入魔力凝视镜面",
+    "eff": "小概率映出远处某地的模糊影像，效果不稳定"
+   }
+  },
+  {
+   "k": "e16_elemental_pact_charm",
+   "cn": "精灵契约符",
+   "la": "SYMBOLVM PACTI",
+   "cat": "魔具",
+   "price": 20,
+   "ic": "amulet",
+   "spec": "指节大小护符 · 需元素精灵认可方能生效 · 佩戴者可短暂沟通精灵",
+   "stack": 0,
+   "at": [
+    "PROCYON",
+    "YGGDRASIL"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "与元素精灵沟通用的护符，需先取得精灵认可才生效，精灵向来排斥传统咒术师的强硬态度，佩符者得先摆出诚意才能借到一点精灵之力。",
+   "use": {
+    "act": "握符向附近的元素精灵示意",
+    "eff": "短暂获得与元素精灵沟通的机会，成败视精灵态度而定"
+   }
+  },
+  {
+   "k": "e16_ring_school_mage",
+   "cn": "魔法环学派徽戒",
+   "la": "ANVLVS ORDINIS",
+   "cat": "魔具",
+   "price": 16,
+   "ic": "ring",
+   "spec": "银戒素面 · 戒面刻环数 · 环系法师身份标志 · 随修为增刻",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "环系法师佩戴的素银戒指，戒面刻着自己心脏周围魔法环的层数，是这一流派最直观的身份标志，修为长进了就再刻一道，故事里的魔法师多半都是这一派的。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_starting_mage_certificate",
+   "cn": "起始魔法师认证书",
+   "la": "DIPLOMA MAGISTRI",
+   "cat": "书卷",
+   "price": null,
+   "ic": "tablet",
+   "spec": "羊皮纸手书 · 普罗基昂长老会盖印 · 独一份荣誉凭证 · 非卖品",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(4)",
+   "lore": "普罗基昂长老会授予安西娅的荣誉认证，写明她开创魔法师新时代的功绩，盖着长老会的印，独一份，从未有过第二份同等认证。"
+  },
+  {
+   "k": "e16_pantheon_register",
+   "cn": "万神录",
+   "la": "LIBER DEORVM",
+   "cat": "书卷",
+   "price": null,
+   "ic": "book",
+   "spec": "厚重古卷 · 记诸神名录 · 内容并不完整 · 凡人可查阅不可增删",
+   "stack": 0,
+   "at": [
+    "PROCYON",
+    "TEMPLUM VITAE"
+   ],
+   "src": "变革之风.(2)",
+   "lore": "记载诸神名字的古老名录，人类持有的版本并不完整，能查阅但不能增删。想在其中留名的神明多如过江之鲫，唯独有位神明主动要求把自己的名字从上面除去。"
+  },
+  {
+   "k": "e16_windgoddess_idol",
+   "cn": "六翼女神小像",
+   "la": "SIMVLACRVM SEX ALARVM",
+   "cat": "魔具",
+   "price": 8,
+   "ic": "amulet",
+   "spec": "巴掌大小 · 六片羽翼包裹自身的女性雕像 · 鸟人聚落供奉 · 木料雕刻",
+   "stack": 0,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "有翼者种.(2)",
+   "lore": "鸟人聚落供奉的风之神具现化雕像，六片羽翼把自身裹住，摆在桌上朝夕祈祷。年长的鸟人常提醒孩子，若非这位神明庇佑，凭自身力量永远飞不起来。"
+  },
+  {
+   "k": "e16_bird_folk_lift_charm",
+   "cn": "借风符",
+   "la": "SYMBOLVM VENTI",
+   "cat": "魔具",
+   "price": 12,
+   "ic": "feather",
+   "spec": "羽毛与麻绳编成 · 佩戴者可借风神之力短暂减重 · 需怀虔诚之心方能生效",
+   "stack": 0,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "有翼者种.(2)",
+   "lore": "鸟人聚落信众佩戴的借风符，编符的羽毛取自成年鸟人自然脱落的羽片。信仰虔诚的佩符者祈祷时，风神会应许分出一点力量托举飞行，力道给多给少全凭神明拿捏。",
+   "use": {
+    "act": "张开双臂虔诚祈祷",
+    "eff": "短暂获得风力托举，减轻自身在这一幕内的坠落或飞行消耗"
+   }
+  },
+  {
+   "k": "e16_bird_courier_satchel",
+   "cn": "信使轻挎包",
+   "la": "SACCVLVS NVNTII",
+   "cat": "器物",
+   "price": 6,
+   "ic": "pouch",
+   "spec": "轻质皮革 · 容量小但够轻 · 单肩斜挎 · 鸟人信使专用",
+   "stack": 0,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "有翼者种.(3)",
+   "lore": "特意做得极轻的斜挎小包，专给受雇于生命教团充当信使的鸟人用，装不下多少东西，胜在飞行时几乎感觉不到分量，适合快速送递紧急文书。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_message_feather_tube",
+   "cn": "羽管信筒",
+   "la": "TVBVS NVNTII",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "feather",
+   "spec": "中空鸟骨制 · 一端软塞封口 · 可塞入一张纸条 · 系于信使腿间",
+   "stack": 1,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "推定：有翼者种.(3)",
+   "lore": "中空鸟骨做的小信筒，塞一张折好的纸条进去，一端软塞封口，系在信使腿间随飞行送到远方，是鸟人当差传令时最常用的东西。"
+  },
+  {
+   "k": "e16_dwarven_silver_ingot",
+   "cn": "矮人纯银锭",
+   "la": "LAMINA ARGENTI",
+   "cat": "杂物",
+   "price": 12,
+   "ic": "stone",
+   "spec": "一条约 1 公斤 · 矮人矿脉提炼 · 用于打造精细器物 · 交易凭矮人商行开的凭据",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "萨加玛塔矿脉里提炼出的纯银锭，矮人名匠用来锻造精细神像与器物，寻常铁匠铺不经手，得直接找矮人商行买。"
+  },
+  {
+   "k": "e16_dwarven_forge_hammer",
+   "cn": "矮人锻锤",
+   "la": "MALLEVS FABRILIS",
+   "cat": "武器",
+   "price": 18,
+   "ic": "hammer",
+   "spec": "单手锻打锤 · 矮人锻造工坊常见工具 · 亦可作近战武器 · 分量沉手",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA",
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "矮人锻造工坊常见的单手锤，本是打铁的工具，分量沉手，抡起来也能当武器用，矮人锻匠和一些力气大的冒险者都爱备一把。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_dwarven_stone_carving_tool",
+   "cn": "矮人雕石工具",
+   "la": "INSTRVMENTVM SCVLPTORIS",
+   "cat": "器物",
+   "price": 8,
+   "ic": "pick",
+   "spec": "一套凿刀与小锤 · 矮人石匠专用 · 可雕琢坚硬岩料 · 需定期磨刃",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：魔法基础.(3)",
+   "lore": "矮人石匠雕琢坚硬岩料专用的一套凿刀小锤，据说连异质坚硬的岩石也能凿出精细纹路，天狼星皇城后花园里那些石桌石椅，据说就出自这类工具之手。"
+  },
+  {
+   "k": "e16_dryad_bark_charm",
+   "cn": "树精树皮护符",
+   "la": "AMVLETVM CORTICIS",
+   "cat": "魔具",
+   "price": 9,
+   "ic": "amulet",
+   "spec": "巴掌大小树皮 · 阵亡树精遗留 · 惧斧不惧剑箭的诡异特性依附其上 · 数量稀少",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "创建冒险家公会的方法.(1)",
+   "lore": "从伐倒的树精身上取下的一块树皮做成的护符，树精生前惧斧不惧剑箭，这层诡异特性似乎多少依附在树皮上，据说佩戴者面对利斧时会生出一丝莫名的迟疑。",
+   "use": {
+    "act": "佩戴于胸前",
+    "eff": "面对斧类攻击时获得一瞬间的直觉预警，剑箭类攻击无此效果"
+   }
+  },
+  {
+   "k": "e16_elf_moss_lamp",
+   "cn": "精灵苔藓灯",
+   "la": "LVCERNA MVSCI",
+   "cat": "器物",
+   "price": 14,
+   "ic": "lamp",
+   "spec": "陶罐盛发光苔藓 · 微光柔和 · 苔藓需定期换水 · 黑暗精灵培育技法",
+   "stack": 0,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：蜥蜴人与大海.(3)",
+   "lore": "陶罐里养着发光苔藓做成的灯，黑暗精灵守护树根时靠这种微光照明，苔藓要定期换水才不枯萎。世界树大森林之外也有商人辗转弄到几株，做成灯卖给好奇的旅人。",
+   "use": {
+    "act": "揭开罐盖露出苔藓",
+    "eff": "提供一段柔和微光，比油灯更省心但亮度有限"
+   }
+  },
+  {
+   "k": "e16_travel_bedroll",
+   "cn": "行军铺盖",
+   "la": "STRAGVLVM VIATORIS",
+   "cat": "器物",
+   "price": 3,
+   "ic": "felt",
+   "spec": "毛毡卷 · 可卷起负背 · 野营铺地隔潮 · 不甚保暖",
+   "stack": 0,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "赶路野营用的毛毡卷，铺在地上隔潮气，卷起来背着走，冒险者和商旅都少不了一卷，就是保暖有限，冬天还得另加斗篷。"
+  },
+  {
+   "k": "e16_flint_striker",
+   "cn": "火石打火具",
+   "la": "IGNIARIVM",
+   "cat": "器物",
+   "price": 2,
+   "ic": "stone",
+   "spec": "燧石加铁片 · 配麻絮引火 · 反复使用不耗损 · 潮天难点燃",
+   "stack": 0,
+   "at": [],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "燧石与铁片相击引火的老法子，配一小撮麻絮做引子，是几乎人人都会带的取火工具，只是碰上潮天要多试几次才能点着。",
+   "use": {
+    "act": "擦击燧石与铁片",
+    "eff": "点燃随身的火把或篝火，潮湿天气成功率较低"
+   }
+  },
+  {
+   "k": "e16_backpack_canvas",
+   "cn": "帆布行囊",
+   "la": "PERA VIATORIS",
+   "cat": "器物",
+   "price": 5,
+   "ic": "pouch",
+   "spec": "帆布缝制 · 容量不小 · 双肩背带 · 长途跋涉常备",
+   "stack": 0,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "帆布缝的双肩行囊，容量比腰间小袋大得多，长途跋涉的冒险者和商旅都爱背一个，装干粮、绳索、换洗衣物都够用。",
+   "slot": "terg"
+  },
+  {
+   "k": "e16_wooden_bowl_common",
+   "cn": "木碗",
+   "la": "SCVTELLA LIGNEA",
+   "cat": "器物",
+   "price": 1,
+   "ic": "bowl",
+   "spec": "整木挖制 · 耐摔 · 村落人家常备 · 也接雨水应急",
+   "stack": 0,
+   "at": [],
+   "src": "推定：为了年幼的魔法师.(1)",
+   "lore": "整块木头挖出来的粗碗，村落人家吃饭用它，雨天也拿来接屋檐滴水，摔了也不心疼，是最不起眼却最常见的家什。"
+  },
+  {
+   "k": "e16_rain_bucket",
+   "cn": "接雨木桶",
+   "la": "SITVLA PLVVIALIS",
+   "cat": "器物",
+   "price": 2,
+   "ic": "pail",
+   "spec": "木板箍制 · 容约 10 升 · 摆屋檐下接雨 · 久晒会漏水需泡水回箍",
+   "stack": 0,
+   "at": [],
+   "src": "为了年幼的魔法师.(1)",
+   "lore": "村落人家摆在屋檐下接雨水用的木桶，干旱年月靠它多攒一点水，久晒会缝隙漏水，得泡水让木板重新胀开箍紧。"
+  },
+  {
+   "k": "e16_muddy_drinking_water",
+   "cn": "泥浆饮水",
+   "la": "AQVA LVTOSA",
+   "cat": "消耗",
+   "price": 0,
+   "ic": "flask",
+   "spec": "浑浊带泥沙 · 村落枯水期常见 · 需澄清或煮沸再饮 · 不值钱",
+   "stack": 1,
+   "at": [],
+   "src": "为了年幼的魔法师.(1)",
+   "lore": "枯水期村落里能弄到的水多半浑浊带泥沙，得澄清或煮沸才敢喝，穷苦人家没得挑，安西娅出生前当地村庄常年为这个发愁，直到收成和降雨都渐渐好转。",
+   "use": {
+    "act": "澄清或煮沸后饮用",
+    "eff": "勉强解渴，不如干净水解渴充分"
+   }
+  },
+  {
+   "k": "e16_grain_sack_small",
+   "cn": "谷物小袋",
+   "la": "SACCVS FRVMENTI",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "greens",
+   "spec": "一袋约 2 公斤 · 村落自产 · 需自行磨碎烹煮 · 保存需防潮防虫",
+   "stack": 1,
+   "at": [],
+   "src": "为了年幼的魔法师.(1)",
+   "lore": "村落人家自己种出来的谷物，装成小袋卖给过路商人或流浪朝圣者，得自己磨碎烹煮，防潮防虫是最要紧的保存诀窍。",
+   "use": {
+    "act": "磨碎煮成粥食用",
+    "eff": "饱腹一顿，需先加工不能直接吃"
+   }
+  },
+  {
+   "k": "e16_bread_loaf_common",
+   "cn": "家常面包",
+   "la": "PANIS DOMESTICVS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bread",
+   "spec": "一个约半斤 · 自家烤制 · 隔日略硬 · 就汤吃更佳",
+   "stack": 1,
+   "at": [],
+   "src": "推定：为了年幼的魔法师.(1)",
+   "lore": "村落人家自己烤的面包，隔天就发硬，就着汤或水泡软了吃更顺口，是最普通不过的口粮。",
+   "use": {
+    "act": "掰开吃下",
+    "eff": "垫饥一顿，恢复些许体力"
+   }
+  },
+  {
+   "k": "e16_dried_meat_strip",
+   "cn": "风干肉条",
+   "la": "CARO SICCA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "jerky",
+   "spec": "一把约十条 · 盐渍风干 · 耐存放 · 嚼劲十足",
+   "stack": 1,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(2)",
+   "lore": "盐渍风干的肉条，耐放又顶饱，冒险者和商旅出远门都爱备一把，嚼起来费劲但撑得住时间长。",
+   "use": {
+    "act": "撕下一条嚼食",
+    "eff": "垫饥半日，长途赶路耐嚼耐放"
+   }
+  },
+  {
+   "k": "e16_cheese_wheel_small",
+   "cn": "小圆奶酪",
+   "la": "CASEVS",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "cheese",
+   "spec": "一轮约半斤 · 牧户自制 · 蜡皮封存 · 切片即食",
+   "stack": 1,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(2)",
+   "lore": "牧户自家制的小圆奶酪，外头封一层蜡皮防干裂，切片就能吃，配面包和麦酒是酒馆里常见的搭法。",
+   "use": {
+    "act": "切片食用",
+    "eff": "垫饥，风味浓郁"
+   }
+  },
+  {
+   "k": "e16_honey_jar_small",
+   "cn": "蜂蜜罐",
+   "la": "MEL",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "jar",
+   "spec": "小陶罐一份 · 野蜂巢熬取 · 久存不坏 · 治小伤亦可涂抹",
+   "stack": 1,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "野蜂巢熬取的蜂蜜，装在小陶罐里久存不坏，除了当甜食，也有人拿它涂小伤口，公会餐厅讲究口味，甜点里常放这个提味。",
+   "use": {
+    "act": "舀一勺食用",
+    "eff": "补充体力，风味香甜"
+   }
+  },
+  {
+   "k": "e16_wine_jar_common",
+   "cn": "家酿酒罐",
+   "la": "VINVM DOMESTICVM",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "winejar",
+   "spec": "一罐约 1 升 · 村落自酿 · 度数不高 · 开封需尽快喝完",
+   "stack": 1,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "村落人家自家酿的酒，度数不算高，开封后放不了几天就得喝完，商队路过常拿这个跟村民换些吃食，图个便宜实惠。",
+   "use": {
+    "act": "倒一碗饮下",
+    "eff": "微醺放松，短暂消解疲惫"
+   }
+  },
+  {
+   "k": "e16_candle_stub",
+   "cn": "蜡烛头",
+   "la": "CANDELA",
+   "cat": "器物",
+   "price": 1,
+   "ic": "lamp",
+   "spec": "蜂蜡制 · 燃约半个时辰 · 便宜易得 · 遇风易灭",
+   "stack": 0,
+   "at": [],
+   "src": "推定：魔法基础.(1)",
+   "lore": "蜂蜡做的普通蜡烛，燃半个时辰左右，便宜易得，就是遇风就灭，安西娅书桌上那盏灯多半也是这种，写书写到深夜总要备上好几根。"
+  },
+  {
+   "k": "e16_lantern_oil_flask",
+   "cn": "灯油瓶",
+   "la": "OLEVM LVCERNAE",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "flask",
+   "spec": "一瓶约半升 · 兽脂提炼 · 供油灯照明 · 燃烧有烟味",
+   "stack": 1,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "兽脂提炼的灯油，装满一瓶能撑不少个夜晚，燃起来有点烟味，比蜡烛耐烧，商队和守夜的人常备着。",
+   "use": {
+    "act": "倒入灯盏点燃",
+    "eff": "提供长时间照明"
+   }
+  },
+  {
+   "k": "e16_sewing_kit_needle",
+   "cn": "针线包",
+   "la": "ACVS ET FILVM",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "needle",
+   "spec": "布卷收纳 · 铁针数枚配麻线 · 修补衣物行囊 · 出门必备",
+   "stack": 1,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "布卷收着几枚铁针和一卷麻线，出门在外衣物行囊破了随时能补，是再普通不过的随身小物件。"
+  },
+  {
+   "k": "e16_bone_comb",
+   "cn": "骨梳",
+   "la": "PECTEN OSSEVS",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "comb",
+   "spec": "兽骨打磨 · 齿密梳理长发 · 随身携带 · 断齿不能修复",
+   "stack": 1,
+   "at": [],
+   "src": "推定：魔法师的弟子.(1)",
+   "lore": "兽骨打磨出来的梳子，齿密适合梳理长发，安西娅这样的银发法师最在意仪容，行囊里总少不了一把，断了齿就只能换新的。"
+  },
+  {
+   "k": "e16_bronze_hand_mirror",
+   "cn": "铜手镜",
+   "la": "SPECVLVM AENEVM",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "mirror",
+   "spec": "铜面打磨 · 木柄 · 映像略模糊 · 需常擦拭防氧化发暗",
+   "stack": 1,
+   "at": [],
+   "src": "推定：魔法师的弟子.(1)",
+   "lore": "铜面打磨出来的手镜，映出的影像总有点模糊发暗，得常擦才不氧化，是普通人家和冒险者都能负担的照容工具，比魔法师那种占视小镜便宜得多。"
+  },
+  {
+   "k": "e16_romania_road_map",
+   "cn": "罗马尼亚驿路图",
+   "la": "CHARTA VIARVM",
+   "cat": "书卷",
+   "price": 7,
+   "ic": "map",
+   "spec": "羊皮纸绘制 · 标注主要驿站与城镇 · 商旅常备 · 边远地带标注含糊",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：重逢.(2)",
+   "lore": "标出罗马尼亚帝国境内主要驿站与城镇的路线图，商队和旅人常备一份好找落脚点，越靠边远的地带标注得越含糊，毕竟没多少人愿意去核实。"
+  },
+  {
+   "k": "e16_bone_dice_set",
+   "cn": "骨骰一副",
+   "la": "TESSERAE OSSEAE",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "dice",
+   "spec": "六枚一副 · 兽骨打磨 · 岛民打赌常用 · 磨损后点数难辨",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "蜥蜴人与大海.(1)",
+   "lore": "兽骨打磨的骰子，岛上蜥蜴人闲来无事爱拿它打赌解闷，磨损久了点数模糊，输赢全凭手感和运气。"
+  },
+  {
+   "k": "e16_fishing_hook_line",
+   "cn": "鱼钩鱼线",
+   "la": "HAMVS ET LINEA",
+   "cat": "器物",
+   "price": 2,
+   "ic": "needle",
+   "spec": "铁钩配麻线 · 卷成小盘 · 溪边垂钓 · 断线需自行接补",
+   "stack": 0,
+   "at": [],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "铁钩配一卷麻线的简易钓具，溪边随处能用，断了线接补一下还能继续用，是湿地和内陆村落都常见的东西。"
+  },
+  {
+   "k": "e16_short_sword_iron",
+   "cn": "铁制短剑",
+   "la": "GLADIVS FERREVS",
+   "cat": "武器",
+   "price": 10,
+   "ic": "sword",
+   "spec": "长约 50 厘米 · 铁匠铺量产 · 单手持握 · 轻便易挥",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "铁匠铺量产的短剑，比匕首长又比长剑轻便，价钱适中，是不少冒险者升级装备时的第一选择。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_spear_common",
+   "cn": "普通长矛",
+   "la": "HASTA VVLGARIS",
+   "cat": "武器",
+   "price": 8,
+   "ic": "spear",
+   "spec": "长约 2 米 · 木杆铁尖 · 保持距离刺击 · 训练门槛低",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "木杆铁尖的普通长矛，保持距离刺击大型猎物比近身砍杀安全，上手门槛也低，是不少新手冒险者的选择。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_crossbow_hand",
+   "cn": "手弩",
+   "la": "BALLISTA MANVALIS",
+   "cat": "武器",
+   "price": 16,
+   "ic": "crossbow",
+   "spec": "单手上弦 · 射程逊于长弓 · 上手快 · 需配专用弩箭",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "单手就能上弦的小型弩，射程比不上长弓，但不需要长期练臂力，很多半路转行的冒险者会选这个练手。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_sling_shepherd",
+   "cn": "牧民投石索",
+   "la": "FVNDA PASTORIS",
+   "cat": "武器",
+   "price": 3,
+   "ic": "sling",
+   "spec": "皮条编成 · 配石弹 · 牧民驱兽随手用具 · 训练门槛最低",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "STEPPA"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "皮条编的投石索，牧民放牧时驱赶野兽随手就用，捡地上的石子当弹药，是最便宜也最容易上手的远程兵装。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_warhammer_guild",
+   "cn": "讨伐战锤",
+   "la": "MALLEVS BELLICVS",
+   "cat": "武器",
+   "price": 22,
+   "ic": "hammer",
+   "spec": "双手持 · 锤头加重铁箍 · 破甲效果好 · 挥动费力",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "锤头包铁箍加重的双手战锤，对付带硬壳或骨甲的大型怪物效果不错，就是挥起来费力气，配得动的冒险者不算多。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_throwing_knife_set",
+   "cn": "投掷小刀一套",
+   "la": "CVLTELLI IACTVS",
+   "cat": "武器",
+   "price": 6,
+   "ic": "dagger",
+   "spec": "一套五柄 · 皮鞘束于小腿 · 可远可近 · 用尽需一一拾回",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "束在小腿皮鞘里的一套投掷小刀，近战不占地方，远处能投掷牵制，是不少身手灵活的冒险者偏爱的副武器。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_quarterstaff_wood",
+   "cn": "木棍",
+   "la": "CONTVS LIGNEVS",
+   "cat": "武器",
+   "price": 3,
+   "ic": "pole",
+   "spec": "硬木削制 · 长约 1.8 米 · 双手挥舞 · 新手练手常用",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "硬木削出来的长棍，最便宜的双手兵装，练手用挨不了几下也不心疼，也有些穷困的旅人靠它防身。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_mage_dagger_ritual",
+   "cn": "仪式短刀",
+   "la": "PVGIO RITVALIS",
+   "cat": "武器",
+   "price": 12,
+   "ic": "dagger",
+   "spec": "刀身刻符文 · 用于仪式献祭材料 · 亦可防身 · 普罗西亚法师常备",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法之神.(5)",
+   "lore": "刀身刻着符文的短刀，仪式法师用它切割祭品或催化材料，也能当防身兵器，普罗西亚做仪式魔法的法师案头常摆一把。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_broadsword_sirius",
+   "cn": "天狼星阔剑",
+   "la": "SPATHA SIRII",
+   "cat": "武器",
+   "price": 30,
+   "ic": "sword2",
+   "spec": "长约 1 米 · 双刃阔身 · 天狼星铁匠铺出品 · 皇城守卫制式兵装之一",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "天狼星铁匠铺出品的双刃阔剑，剑身比公会常见的短剑宽厚不少，是皇城守卫和部分骑士的制式兵装之一，价钱不便宜。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_epona_practice_lance",
+   "cn": "骑士团练习枪",
+   "la": "HASTA EXERCITII",
+   "cat": "武器",
+   "price": 9,
+   "ic": "spear",
+   "spec": "木杆包皮 · 无杀伤刃口 · 骑士团新兵训练用 · 折损率高",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "骑士团新兵训练冲锋用的练习枪，木杆外包一层皮子磨钝，折损率极高，训练场上常年要补新的。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_iron_mace",
+   "cn": "铁锤",
+   "la": "CLAVA FERREA",
+   "cat": "武器",
+   "price": 12,
+   "ic": "hammer",
+   "spec": "单手持 · 锤头多棱 · 破甲优于劈砍 · 分量适中",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "单手持握的多棱铁锤，破甲效果比刀剑好，分量比双手战锤轻，是些偏爱钝器的冒险者的选择。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_recurve_bow",
+   "cn": "复合弓",
+   "la": "ARCVS COMPOSITVS",
+   "cat": "武器",
+   "price": 20,
+   "ic": "bow",
+   "spec": "反曲弓身 · 木料与筋腱复合 · 拉力大射程远 · 造价高于单体弓",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "木料与筋腱复合而成的反曲弓，拉力和射程都胜过普通单体弓，造价也贵不少，是资深弓手升级装备的目标。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_guild_issue_dagger",
+   "cn": "公会配给短刀",
+   "la": "PVGIO COLLEGII",
+   "cat": "武器",
+   "price": 4,
+   "ic": "dagger",
+   "spec": "刀柄刻公会徽记 · 新会员登记随赠 · 做工普通 · 常作备用兵装",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "新会员登记时随赠的一把小刀，刀柄刻着公会徽记，做工谈不上精良，多数人拿它当备用兵装，真正上阵还是另配趁手的家伙。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_studded_leather_vest",
+   "cn": "铆钉皮背心",
+   "la": "THORAX CORIACEVS",
+   "cat": "防具",
+   "price": 13,
+   "ic": "armor",
+   "spec": "皮革缝制 · 表面铆铁钉加固 · 护胸背 · 比全甲轻便",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "皮背心表面铆了一排铁钉加固，比全套皮甲轻便，护胸背要害够用，是不少弓手和轻装冒险者的选择。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_chainmail_shirt",
+   "cn": "锁子甲衫",
+   "la": "LORICA HAMATA",
+   "cat": "防具",
+   "price": 26,
+   "ic": "armor",
+   "spec": "铁环相扣 · 护胸背及臂 · 分量沉但防护全面 · 潮湿地带需常擦油防锈",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "铁环一环扣一环织成的锁甲衫，护得比皮甲全面，分量也沉得多，在潮湿地带得常擦油防锈——这也是蜥蜴人湿地至今拒用铁器的缘由之一。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_buckler_small",
+   "cn": "小圆盾",
+   "la": "PARMA",
+   "cat": "防具",
+   "price": 9,
+   "ic": "shield",
+   "spec": "直径约 40 厘米 · 皮革包木芯 · 轻便利于灵活格挡 · 防护面积有限",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "皮革包木芯的小圆盾，比骑士团那种大盾轻便得多，利于灵活格挡，就是防护面积有限，适合身手灵活的冒险者。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_greaves_iron",
+   "cn": "铁护胫",
+   "la": "OCREAE FERREAE",
+   "cat": "防具",
+   "price": 10,
+   "ic": "boot",
+   "spec": "铁片弯曲成形 · 护小腿正面 · 皮带固定 · 配靴穿戴",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "弯成小腿形状的铁片，皮带固定在腿前，专护小腿正面不被兽爪或利器划伤，配靴子一起穿，是全套装备里常被忽略又实用的一件。",
+   "slot": "ped"
+  },
+  {
+   "k": "e16_gauntlet_leather",
+   "cn": "皮护手",
+   "la": "MANICA CORIACEA",
+   "cat": "防具",
+   "price": 5,
+   "ic": "band",
+   "spec": "皮革缝制 · 护手背及腕 · 便于持握兵器 · 不影响手指灵活",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "皮革缝的护手，护住手背和手腕，又不影响手指灵活持握兵器，是弓手和使刀剑者都爱配的一件小防具。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_pauldron_shoulder",
+   "cn": "护肩甲",
+   "la": "HVMERALE",
+   "cat": "防具",
+   "price": 8,
+   "ic": "armor",
+   "spec": "铁片压制 · 护单侧肩头 · 皮带固定于胸背 · 轻装冒险者常配",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "压制出来的铁片护肩，皮带固定在胸背上护住持械那侧的肩头，轻装冒险者不想穿全甲时常单配这一件。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_guild_issue_helm_leather",
+   "cn": "皮制盔帽",
+   "la": "CASSIS CORIACEA",
+   "cat": "防具",
+   "price": 6,
+   "ic": "helm",
+   "spec": "硬皮压制 · 轻便透气 · 护顶不护面 · 价钱低于铁盔",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "硬皮压制的盔帽，比铁盔轻便透气得多，护顶不护面，价钱也便宜不少，很多新人冒险者先买这个凑合。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_knight_visor_helm",
+   "cn": "骑士面盔",
+   "la": "GALEA EQVITIS",
+   "cat": "防具",
+   "price": 22,
+   "ic": "helm",
+   "spec": "全覆式 · 带活动面甲 · 护住整个头部 · 视野受限",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "护住整个头部的全覆式头盔，带一片能掀起的活动面甲，防护周全但视野受限，是天狼星骑士团正式装束的一部分。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_temple_guard_robe_armor",
+   "cn": "教团护卫甲袍",
+   "la": "LORICA CVSTODIS",
+   "cat": "防具",
+   "price": 17,
+   "ic": "robe",
+   "spec": "袍甲一体 · 内衬软甲片 · 教团护卫制式 · 外观仍似祭袍",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团护卫穿的袍甲一体装束，外观看着还像祭袍，内里却缝了软甲片，既不失教团庄重的形象，又能护得住要害。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_traveling_shield_wood",
+   "cn": "木制旅行盾",
+   "la": "SCVTVM LIGNEVM",
+   "cat": "防具",
+   "price": 7,
+   "ic": "shield",
+   "spec": "木板拼合 · 表面无纹饰 · 轻便廉价 · 耐久有限",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(4)",
+   "lore": "几块木板拼合成的盾，没有纹饰也不结实，胜在便宜，是不少囊中羞涩的新人冒险者第一件防具。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_boar_hide_boots",
+   "cn": "野猪皮靴",
+   "la": "CALIGA APRINA",
+   "cat": "防具",
+   "price": 6,
+   "ic": "boot",
+   "spec": "野猪皮鞣制 · 鞋底厚实 · 防滑耐磨 · 处理商附带贩售",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(5)",
+   "lore": "猎到的野猪皮鞣制成靴子，鞋底厚实防滑，处理商收了猪皮加工后顺带贩卖，价钱比牛皮靴便宜，就是不如牛皮耐久。",
+   "slot": "ped"
+  },
+  {
+   "k": "e16_lizard_scale_bracer",
+   "cn": "蜥蜴鳞护腕",
+   "la": "BRACHIALE SQVAMOSVM",
+   "cat": "防具",
+   "price": 9,
+   "ic": "band",
+   "spec": "蜥蜴人自然脱落之鳞缝制 · 轻便有韧性 · 湿地商队贩售 · 非铁器",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "用蜥蜴人自然脱落再生的鳞片缝制的护腕，轻便又有韧性，湿地商队常拿来贩售给往来的旅人。鳞片是自然脱落所得，并非取自活体，蜥蜴人自己也不忌讳卖这个。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_simple_tunic_common",
+   "cn": "粗布短衣",
+   "la": "TVNICA SIMPLEX",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "tunic",
+   "spec": "粗麻布缝制 · 剪裁简单 · 各地通用 · 价钱最便宜的一件",
+   "stack": 0,
+   "at": [],
+   "src": "推定：为了年幼的魔法师.(1)",
+   "lore": "粗麻布缝的简单短衣，剪裁没什么讲究，各地摊贩都有卖，是最普通、最便宜的一件贴身衣裳。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_leather_gloves_common",
+   "cn": "皮手套",
+   "la": "CHIROTHECAE CORIACEAE",
+   "cat": "衣物",
+   "price": 3,
+   "ic": "band",
+   "spec": "薄皮缝制 · 护手掌不影响持物 · 各地通用 · 冬日兼保暖",
+   "stack": 0,
+   "at": [],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "薄皮缝的手套，护手掌又不影响持物做事，冬天还能兼着保暖，是各地都能买到的寻常物件。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_wide_brim_hat_travel",
+   "cn": "阔边旅行帽",
+   "la": "PETASVS VIATORIS",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "headband",
+   "spec": "毡料制 · 帽檐宽阔遮阳 · 商旅常戴 · 遇强风易吹落",
+   "stack": 0,
+   "at": [
+    "ROMANIA"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "毡料做的宽檐帽，遮阳挡雨都还行，商旅赶路常戴，就是风一大就容易吹落，得用带子系紧才稳妥。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_scholar_kerchief",
+   "cn": "学者头巾",
+   "la": "SVDARIVM ERVDITI",
+   "cat": "衣物",
+   "price": 2,
+   "ic": "kerchief",
+   "spec": "薄布包头 · 束发防汗 · 学徒与抄写员常戴 · 素色为主",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "薄布包头束发的头巾，防汗又不遮视野，普罗西亚的学徒和抄写员长时间伏案时常戴，素色为主，不算讲究。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_court_silk_sash",
+   "cn": "宫廷丝腰带",
+   "la": "CINGVLVM SERICVM",
+   "cat": "衣物",
+   "price": 10,
+   "ic": "sash",
+   "spec": "丝绸织成 · 缀小银穗 · 宫廷侍从常系 · 不宜沾水",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "丝绸织成缀着小银穗的腰带，天狼星宫廷侍从常系这个，看着体面，就是娇贵不宜沾水，不适合在外头风吹日晒。",
+   "slot": "cing"
+  },
+  {
+   "k": "e16_lizardfolk_woven_skirt",
+   "cn": "蜥蜴人编织裙",
+   "la": "TVNICA TEXTA",
+   "cat": "衣物",
+   "price": 4,
+   "ic": "skirt",
+   "spec": "湿地草料编织 · 透气耐潮 · 蜥蜴人日常穿着 · 不惧水浸",
+   "stack": 0,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "湿地长草编织的短裙，透气又不怕水泡，是蜥蜴人聚落日常的穿着，偶有旅人图新鲜买一件，穿惯了倒也凉快合身。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_fur_lined_cloak_north",
+   "cn": "北地裘皮斗篷",
+   "la": "PALLIVM PELLITVM",
+   "cat": "衣物",
+   "price": 15,
+   "ic": "cloak",
+   "spec": "内衬裘皮 · 极保暖 · 北方草原商队贩售 · 分量较沉",
+   "stack": 0,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "推定：重逢.(2)",
+   "lore": "内衬裘皮的厚斗篷，北方草原刺骨的寒风吹不透它，草原商队常年贩售给往来的旅人，就是分量沉，不适合长途轻装赶路。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_temple_pilgrim_sandals",
+   "cn": "朝圣草鞋",
+   "la": "SOLEA PEREGRINI",
+   "cat": "衣物",
+   "price": 2,
+   "ic": "slipper",
+   "spec": "草编 · 轻便透气 · 磨损快 · 朝圣者常备数双",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE",
+    "ROMANIA"
+   ],
+   "src": "推定：创建冒险家公会的方法.(1)",
+   "lore": "草编的凉鞋，轻便透气，长途朝圣磨损得快，朝圣者常常一次备好几双换着穿，教团门口的小摊常年供货。",
+   "slot": "ped"
+  },
+  {
+   "k": "e16_slipper_court",
+   "cn": "宫廷软鞋",
+   "la": "SOLEA AVLICA",
+   "cat": "衣物",
+   "price": 6,
+   "ic": "slipper",
+   "spec": "软皮缝制 · 鞋底薄 · 室内穿着 · 不宜远行",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "软皮缝的室内鞋，鞋底薄，只适合宫廷或宅邸内穿，天狼星城内的富裕人家常备，出远门可不能指望它。",
+   "slot": "ped"
+  },
+  {
+   "k": "e16_apprentice_kerchief_practice",
+   "cn": "学徒束发巾",
+   "la": "VITTA DISCIPVLI",
+   "cat": "衣物",
+   "price": 1,
+   "ic": "kerchief",
+   "spec": "粗布条 · 束起长发防遮眼 · 学徒练习时常用 · 价钱低廉",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(4)",
+   "lore": "一条粗布束发巾，练习魔法时把长发束起免得遮眼，普罗西亚的学徒案头常备一条，价钱低廉，湿透了就换一条。",
+   "slot": "cap"
+  },
+  {
+   "k": "e16_dwarven_work_apron",
+   "cn": "矮人工匠围裙",
+   "la": "SVBLIGACVLVM FABRI",
+   "cat": "衣物",
+   "price": 5,
+   "ic": "tunic",
+   "spec": "厚皮革制 · 护胸腹 · 矮人锻造与雕石工匠常穿 · 耐火星溅射",
+   "stack": 0,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：魔法基础.(3)",
+   "lore": "厚皮革做的围裙，护住胸腹不被锻打时溅起的火星烫伤，矮人锻造工坊和雕石匠人都常年穿着，别处的铁匠铺偶尔也进货。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_bird_folk_wing_wrap",
+   "cn": "鸟人护翼束带",
+   "la": "FASCIA ALARVM",
+   "cat": "衣物",
+   "price": 5,
+   "ic": "wrap",
+   "spec": "轻质布条 · 缠束翅膀根部 · 防止飞行时用力过猛拉伤 · 鸟人聚落自制",
+   "stack": 0,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "有翼者种.(2)",
+   "lore": "缠在翅膀根部的轻质布条，防止初学飞行时用力过猛拉伤肌肉，鸟人聚落里练飞的年幼者几乎都要缠一条，练熟了才敢摘掉。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_smoked_lizard_jerky",
+   "cn": "蜥蜴人熏肉",
+   "la": "CARO FVMATA",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "jerky",
+   "spec": "一条约二两 · 湿地烟熏制法 · 风味独特 · 保存约半月",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM"
+   ],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "湿地蜥蜴人用烟熏法处理的肉条，风味跟寻常风干肉不太一样，带股烟熏香气，是他们拿去跟商队交换的常见货品之一。",
+   "use": {
+    "act": "撕下嚼食",
+    "eff": "垫饥半日，风味独特"
+   }
+  },
+  {
+   "k": "e16_desert_date_bundle",
+   "cn": "沙漠椰枣束",
+   "la": "PALMVLAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "一束约十枚 · 沙漠边缘作物 · 甜度高耐存放 · 商队常备干粮",
+   "stack": 1,
+   "at": [
+    "DESERTUM",
+    "PROCYON"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "沙漠边缘绿洲产的椰枣，晒干后耐存放又顶饱，甜度高，穿越沙漠的商队常备一束，累了就摘一颗补充体力。",
+   "use": {
+    "act": "摘一枚食用",
+    "eff": "快速补充体力，甜度较高"
+   }
+  },
+  {
+   "k": "e16_temple_blessed_bread",
+   "cn": "教团祝福面包",
+   "la": "PANIS BENEDICTVS",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "bread",
+   "spec": "一个约半斤 · 祭司祝祷后烘制 · 分发给朝圣者 · 味道与普通面包无异",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团祭司祝祷过后烘的面包，逢祭典分发给远道而来的朝圣者，味道其实跟普通面包没什么两样，图的是那份心意。",
+   "use": {
+    "act": "食用",
+    "eff": "垫饥一顿，朝圣者视其为庇佑"
+   }
+  },
+  {
+   "k": "e16_mage_energy_biscuit",
+   "cn": "法师提神干粮",
+   "la": "BVCCELLA MAGICA",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "cake",
+   "spec": "一块约巴掌大 · 加蜜与坚果烘烤 · 补充耗魔后的体力 · 普罗西亚法师常备",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法之神.(4)",
+   "lore": "加了蜂蜜和坚果烤的干粮，普罗西亚法师熬夜研究或大耗魔力后常吃一块补体力，弟子替师父准备这个是常有的事。",
+   "use": {
+    "act": "食用",
+    "eff": "较快恢复因耗魔而流失的体力"
+   }
+  },
+  {
+   "k": "e16_festival_honey_cake",
+   "cn": "庆典蜜糕",
+   "la": "LIBVM MELLITVM",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "cake",
+   "spec": "一块 · 蜂蜜与面粉烤制 · 庆典专卖 · 平日少见",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "蜂蜜面粉烤的甜糕，尤利乌斯百岁诞辰那样的大庆典上，天狼星街边小摊会特意卖这个应景，平日倒不常见。",
+   "use": {
+    "act": "食用",
+    "eff": "垫饥，风味香甜"
+   }
+  },
+  {
+   "k": "e16_antidote_herb_pouch",
+   "cn": "解毒草药包",
+   "la": "HERBA ANTIDOTI",
+   "cat": "药",
+   "price": 5,
+   "ic": "herb",
+   "spec": "一小包 · 晒干药草研磨 · 冲水服用 · 对付毒虫叮咬有效",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "晒干药草研磨的解毒粉，冲水服下对付蚊怪一类毒虫叮咬还算有效，冒险者猎物越危险，行囊里越少不了这个。",
+   "use": {
+    "act": "冲水服下",
+    "eff": "缓解轻度中毒症状"
+   }
+  },
+  {
+   "k": "e16_stamina_tonic",
+   "cn": "体力药剂",
+   "la": "POTIO VIRIVM",
+   "cat": "药",
+   "price": 6,
+   "ic": "potion",
+   "spec": "小玻瓶装 · 药草熬制 · 短暂提振体力 · 不宜连服",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "药草熬制的体力药剂，喝下能短暂提振精神体力，撑过一段硬仗，但接连服用效果会打折扣，得隔一段时间才管用。",
+   "use": {
+    "act": "一口喝下",
+    "eff": "短暂恢复体力，支撑继续行动"
+   }
+  },
+  {
+   "k": "e16_mana_recovery_stone_dust",
+   "cn": "魔力恢复石粉",
+   "la": "PVLVIS RECREATIONIS",
+   "cat": "药",
+   "price": 8,
+   "ic": "powder",
+   "spec": "一小包 · 磨碎的低品级魔石 · 兑水服下 · 法师耗魔过度时应急",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(4)",
+   "lore": "把品级不高的魔石磨成粉，兑水服下能稍微缓一口魔力，法师耗魔过度眼前发黑时常靠这个应急，比等自然恢复快得多。",
+   "use": {
+    "act": "兑水服下",
+    "eff": "小幅恢复魔力，避免耗魔过度昏厥"
+   }
+  },
+  {
+   "k": "e16_burn_salve_desert",
+   "cn": "沙漠灼伤药膏",
+   "la": "VNGVENTVM ADVSTIONIS",
+   "cat": "药",
+   "price": 5,
+   "ic": "paste",
+   "spec": "小罐装 · 沙漠特产药草熬制 · 涂抹晒伤灼伤处 · 清凉见效快",
+   "stack": 1,
+   "at": [
+    "DESERTUM",
+    "PROCYON"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "沙漠特产药草熬的药膏，涂在晒伤灼伤的地方清凉见效快，穿越灼热沙漠或靠近火焰山周边的旅人都会随身带一罐。",
+   "use": {
+    "act": "涂抹于灼伤处",
+    "eff": "缓解灼伤疼痛，稍加速恢复"
+   }
+  },
+  {
+   "k": "e16_water_bomb_practice_orb",
+   "cn": "水炸弹练习球",
+   "la": "GLOBVLVS AQVAE",
+   "cat": "消耗",
+   "price": 3,
+   "ic": "flask",
+   "spec": "掌心大小水球 · 学徒练习用 · 破裂即散不伤人 · 初学元素魔法常用教具",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "为了年幼的魔法师.(2)",
+   "lore": "凝聚魔力包裹的水球，是教初学者练习外放魔力最常用的教具，破裂时只散一滩水不伤人，练熟了才敢换成真正的元素咒语。",
+   "use": {
+    "act": "凝聚魔力捏出水球并掷出",
+    "eff": "练习魔力外放与成形，命中目标只溅水无杀伤"
+   }
+  },
+  {
+   "k": "e16_meditation_cushion",
+   "cn": "冥想蒲团",
+   "la": "PVLVINVS MEDITATIONIS",
+   "cat": "器物",
+   "price": 3,
+   "ic": "felt",
+   "spec": "麻布填草芯 · 盘坐冥想专用 · 普罗西亚学徒人手一个 · 久坐变形需拍打",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法基础.(1)",
+   "lore": "学徒练习冥想感知魔力时盘坐用的蒲团，麻布填草芯，坐久了会塌陷变形，得时常拍打恢复蓬松，是普罗西亚学徒案头旁必备的一件。"
+  },
+  {
+   "k": "e16_detective_novel_homalos",
+   "cn": "魔法侦探荷马罗斯",
+   "la": "FABVLA HOMALOS",
+   "cat": "书卷",
+   "price": 7,
+   "ic": "book",
+   "spec": "一册通俗小说 · 讲述以魔力追踪罪犯的故事 · 学徒间广为流传 · 情节夸张",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "ROMANIA"
+   ],
+   "src": "魔法基础.(4)",
+   "lore": "一本讲魔法侦探靠魔力痕迹追踪犯人的通俗小说，情节夸张但读来过瘾，普罗西亚的年轻学徒几乎人手一本，闲聊时也常拿书里的桥段打趣。"
+  },
+  {
+   "k": "e16_out_of_body_training_manual",
+   "cn": "高等魔法师训练手册",
+   "la": "LIBER EXCESSVS ANIMAE",
+   "cat": "书卷",
+   "price": 45,
+   "ic": "book",
+   "spec": "厚册 · 记灵魂出窍与魔力体制作要领 · 附风险警示 · 非专业指导下不建议自行尝试",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(5)",
+   "lore": "教导如何制作魔力体、进行灵魂出窍训练的高阶教材，书中反复警示需在实力高超的魔法师监督下、于元素精灵无法接近的环境中进行，否则轻则失控，重则被野生元素精灵夺去肉体。"
+  },
+  {
+   "k": "e16_bird_observation_record",
+   "cn": "关于鸟人的观察记录",
+   "la": "LIBER ALITVM",
+   "cat": "书卷",
+   "price": 11,
+   "ic": "book",
+   "spec": "一册 · 与鸟人共同生活数十年所著 · 记飞行原理与习俗 · 附简易滑翼图样",
+   "stack": 0,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "有翼者种.(3)",
+   "lore": "一位与鸟人共同生活数十年的学者写的观察记录，试图解开鸟人违反常理飞行的秘密，还因使用模仿鸟人翅膀的工具短暂飞行而闻名，书里连滑翼图样都画了出来。"
+  },
+  {
+   "k": "e16_monster_intel_parchment",
+   "cn": "怪物情报羊皮",
+   "la": "SCHEDA MONSTRI",
+   "cat": "书卷",
+   "price": 4,
+   "ic": "tablet",
+   "spec": "一小张 · 记怪物出没地点与习性 · 酒馆老板收购转卖 · 情报新旧影响价钱",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "冒险者归来把打探到的怪物出没情报写在小羊皮片上，卖给酒馆老板换酒食，老板再转手卖给需要的人，情报越新鲜越值钱，过时了就一文不值。"
+  },
+  {
+   "k": "e16_shadow_wolf_pelt",
+   "cn": "拟影狼皮",
+   "la": "PELLIS VMBRAE",
+   "cat": "杂物",
+   "price": 5,
+   "ic": "felt",
+   "spec": "毛色黯淡如影 · 触感与普通狼皮无异 · 剥自拟态阴影的狼型怪物 · 处理商单独定价",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(2)",
+   "lore": "毛色黯淡得像影子一样的狼皮，剥自那种能拟态成阴影偷袭猎物的狼型怪物，处理商见了都要多看两眼，单独定价，比普通狼皮贵一些。"
+  },
+  {
+   "k": "e16_bear_claw_trophy",
+   "cn": "熊怪爪",
+   "la": "VNGVIS VRSI",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "bone",
+   "spec": "一对约 15 厘米 · 猎熊怪拔取 · 边缘锋利 · 可安柄做小型兵器",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(2)",
+   "lore": "熊怪的爪子边缘锋利，猎人打完顺手拔下来卖给处理商，铁匠偶尔拿它安柄做成小型兵器，算是熊怪身上比皮肉更值钱的部分。"
+  },
+  {
+   "k": "e16_goblin_ear_token",
+   "cn": "哥布林耳凭",
+   "la": "AVRICVLA GOBLINI",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "tag",
+   "spec": "一对 · 讨伐哥布林的证明 · 交回公会核销委托 · 处理商不另行收购",
+   "stack": 1,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "创建冒险家公会的方法.(4)",
+   "lore": "讨伐哥布林一类小型怪物委托的证明，冒险者割下耳朵交回公会核销，不值什么钱，纯粹是核实委托完成用的凭证。"
+  },
+  {
+   "k": "e16_letkinia_grain_sack",
+   "cn": "莱特基尼亚谷袋",
+   "la": "FRVMENTVM LETKINIAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "一袋约 3 公斤 · 西大陆最西端产 · 颗粒饱满耐存 · 经商队远销罗马尼亚",
+   "stack": 1,
+   "at": [
+    "ROMANIA"
+   ],
+   "src": "重逢.(2)",
+   "lore": "莱特基尼亚鼠兽人聚落产出的谷物，颗粒饱满、粮食产量可观，经商队一路运到罗马尼亚贩卖，价钱比本地谷物略贵，图的是耐存放。",
+   "use": {
+    "act": "磨碎煮食",
+    "eff": "饱腹一顿，耐存放"
+   }
+  },
+  {
+   "k": "e16_letkinia_shield_legion_tower_shield",
+   "cn": "盾牌军团巨盾",
+   "la": "SCVTVM MAXIMVM",
+   "cat": "防具",
+   "price": 32,
+   "ic": "shield",
+   "spec": "高及胸口 · 厚木包铁边 · 莱特基尼亚盾牌军团制式 · 分量极沉",
+   "stack": 0,
+   "at": [
+    "ROMANIA"
+   ],
+   "src": "重逢.(2)",
+   "lore": "莱特基尼亚盾牌军团闻名的制式巨盾，高及胸口，厚木包铁边，分量极沉，非受过专门训练者难以持稳，偶有商队带几面到罗马尼亚贩卖给猎大型怪物的冒险者。",
+   "slot": "sin"
+  },
+  {
+   "k": "e16_bestia_fishing_spear",
+   "cn": "比斯蒂亚渔叉",
+   "la": "TRIDENS PISCATORIS",
+   "cat": "武器",
+   "price": 9,
+   "ic": "spear",
+   "spec": "三齿铁叉 · 长约 1.8 米 · 比斯蒂亚水手常用 · 亦可陆上防身",
+   "stack": 0,
+   "at": [
+    "BESTIA",
+    "MARE TETHYS"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "比斯蒂亚兽人水手常用的三齿渔叉，出海叉鱼趁手，陆上防身也不含糊，比斯蒂亚水手多为感官敏锐的兽人，用惯了这种兵装。",
+   "slot": "dext"
+  },
+  {
+   "k": "e16_arena_ticket_betelgeuse",
+   "cn": "参宿四竞技入场牌",
+   "la": "TESSERA ARENAE",
+   "cat": "杂物",
+   "price": 3,
+   "ic": "ticket",
+   "spec": "薄木牌 · 标明看台区位 · 凭牌入场 · 大赛期间供不应求",
+   "stack": 1,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "进参宿四竞技场看台用的入场木牌，标着区位，寻常场次不难买，赶上四年一度的种族大战决定统治权那阵子，一牌难求，价钱能翻好几倍。"
+  },
+  {
+   "k": "e16_arena_healing_draught",
+   "cn": "竞技场速愈药水",
+   "la": "POTIO ARENAE",
+   "cat": "药",
+   "price": 9,
+   "ic": "potion",
+   "spec": "小玻瓶 · 流血却不死的竞技之城特配 · 见效极快 · 只压制表面伤势",
+   "stack": 1,
+   "at": [
+    "BETELGEUSE"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "参宿四竞技场特配的速效药水，专为流血却不轻易致死的竞技场设计，见效极快能让人立刻再战，但只压得住表面伤势，内伤还是得靠事后慢慢养。",
+   "use": {
+    "act": "一口喝下",
+    "eff": "迅速止血并压制表面伤势，可支撑短时间内继续战斗"
+   }
+  },
+  {
+   "k": "e16_apprentice_notebook_bundle",
+   "cn": "学徒笔记本一叠",
+   "la": "PVGILLARES",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "card",
+   "spec": "数本装订 · 空白待填 · 供学徒分门别类记录 · 普罗西亚文具摊常卖",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "装订好的空白笔记本，学徒买回去分门别类记冥想心得、咒语要点、试错教训，普罗西亚文具摊常年有卖，是仅次于纸叠的常见文具。"
+  },
+  {
+   "k": "e16_prayer_bell_small",
+   "cn": "小祈祷铃",
+   "la": "TINTINNABVLVM",
+   "cat": "器物",
+   "price": 3,
+   "ic": "bell",
+   "spec": "铜制小铃 · 摇动示意祈祷开始 · 教团仪式常用 · 声音清脆",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "生命教团仪式上摇动示意祈祷开始的小铜铃，声音清脆，信众听到铃声便知该收声肃立，教团门口的小摊也卖给想在家中设小祭坛的信众。"
+  },
+  {
+   "k": "e16_temple_pilgrim_badge",
+   "cn": "朝圣徽章",
+   "la": "INSIGNE PEREGRINI",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "pin",
+   "spec": "薄铜片 · 刻生命之树纹 · 朝圣者完成参拜后领取 · 别在衣领作纪念",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "远道而来的朝圣者完成参拜后能领一枚薄铜徽章，刻着生命之树的纹样，别在衣领上算个念想，也算证明自己走完了这趟朝圣路。"
+  },
+  {
+   "k": "e16_desert_sunstone_amulet",
+   "cn": "沙漠晒石护符",
+   "la": "AMVLETVM SOLIS",
+   "cat": "魔具",
+   "price": 13,
+   "ic": "amulet",
+   "spec": "掌心大小赤色石 · 沙漠深处采集 · 佩戴略缓灼热感 · 非火焰山圣物",
+   "stack": 0,
+   "at": [
+    "DESERTUM"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "灼热沙漠深处采到的赤色石头打磨成的护符，佩戴着走沙漠能略微缓解那种令人窒息的灼热感，商队里没这个准备的人往往走不到一半就撑不住。",
+   "use": {
+    "act": "贴身佩戴",
+    "eff": "穿越沙漠时缓解灼热带来的体力消耗"
+   }
+  },
+  {
+   "k": "e16_fire_ash_relic_vial",
+   "cn": "圣焰灰烬瓶",
+   "la": "CINIS SACER",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "flask",
+   "spec": "小瓶装 · 神圣火焰祈祷广场取来的灰烬 · 信众视为庇佑之物 · 不可久放",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "DESERTUM"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "从广场巨大的火焰祈祷仪式后收集的灰烬，装在小瓶里贩卖给信众，都说是圣火净化过的庇佑之物，实际不过是些寻常灰烬，图的还是心安。",
+   "use": {
+    "act": "撒于门槛或随身携带",
+    "eff": "信众心理上的庇佑，无实际战斗效果"
+   }
+  },
+  {
+   "k": "e16_wandering_merchant_pack",
+   "cn": "流浪商人货担",
+   "la": "SARCINA MERCATORIS",
+   "cat": "器物",
+   "price": 7,
+   "ic": "pouch",
+   "spec": "扁担加两只藤篮 · 可挑可背 · 流浪商人走村串户常用 · 容量大但笨重",
+   "stack": 0,
+   "at": [
+    "ROMANIA"
+   ],
+   "src": "为了年幼的魔法师.(1)",
+   "lore": "流浪商人走村串户常用的挑担，两只藤篮分装货物，容量比背囊大得多，就是笨重，村落人家最盼的就是这担子进村，能换些外头的新鲜物件。"
+  },
+  {
+   "k": "e16_pilgrim_donation_purse",
+   "cn": "朝圣者布施袋",
+   "la": "CRVMENA ELEEMOSYNAE",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "pouch",
+   "spec": "小布袋 · 系于腰间 · 沿途布施用 · 教团鼓励朝圣者随身携带",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE",
+    "ROMANIA"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "朝圣者系在腰间装零钱布施用的小布袋，沿途遇上穷苦人家或教团募捐随手就能掏，教团鼓励朝圣者随身带着，算是修行的一部分。"
+  },
+  {
+   "k": "e16_tower_dorm_bedding",
+   "cn": "魔塔宿舍寝具",
+   "la": "STRAGVLVM TVRRIS",
+   "cat": "器物",
+   "price": 6,
+   "ic": "felt",
+   "spec": "厚毛毯一套 · 魔塔宿舍统一配发 · 加入研究会的法师才有 · 质地优于旅行铺盖",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "魔法之神.(4)",
+   "lore": "普罗西亚新建魔塔宿舍统一配发的厚毛毯，质地比旅行铺盖好得多，只有加入研究会、分到寓所的法师才用得上，安西娅当年拒绝了这份福利，宁可自己在家将就。"
+  },
+  {
+   "k": "e16_scale_research_journal",
+   "cn": "元素研究会期刊",
+   "la": "EPHEMERIS ELEMENTI",
+   "cat": "书卷",
+   "price": 9,
+   "ic": "book",
+   "spec": "薄册定期刊行 · 记研究会最新进展 · 只在会员间流通 · 外人偶得也能读",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "为了年幼的魔法师.(3)",
+   "lore": "元素研究会定期刊行的内部期刊，记录会里最新的研究进展，正规发行只在会员间流通，市面上偶尔也能淘到几本旧刊，外人读起来大半也是看个热闹。"
+  },
+  {
+   "k": "e16_silver_dragon_pendant_common",
+   "cn": "银龙小坠饰",
+   "la": "BVLLA DRACONIS",
+   "cat": "杂物",
+   "price": 9,
+   "ic": "gem",
+   "spec": "指节大小 · 银制或银皮镶嵌 · 廉价版本的龙神信物 · 蜥蜴人聚落常戴",
+   "stack": 1,
+   "at": [
+    "PALUS LACERTARUM",
+    "SAGARMATHA"
+   ],
+   "src": "推定：蜥蜴人与大海.(1)",
+   "lore": "买不起整尊纯银神像的普通蜥蜴人家庭，会退而求其次买这种小坠饰挂在脖子上，同样是矮人工匠制的，只是分量和工艺都简化了不少，价钱亲民得多。"
+  },
+  {
+   "k": "e16_traveling_merchant_scale",
+   "cn": "商队小秤",
+   "la": "STATERA MERCATORIS",
+   "cat": "器物",
+   "price": 5,
+   "ic": "tag",
+   "spec": "铜杆配秤砣 · 称量魔石与谷物 · 处理商与商队常备 · 需定期校准",
+   "stack": 0,
+   "at": [
+    "ROMANIA",
+    "SIRIUS"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "处理商和商队称量魔石、谷物用的小秤，铜杆配秤砣，用久了秤星会磨损，得定期找工匠校准，不然容易在交易时惹出纠纷。"
+  },
+  {
+   "k": "e16_apprentice_wax_tablet",
+   "cn": "蜡板",
+   "la": "TABVLA CERATA",
+   "cat": "杂物",
+   "price": 2,
+   "ic": "tablet",
+   "spec": "木框嵌蜡 · 可反复刮平重写 · 比纸便宜 · 学徒练字打草稿常用",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "木框里嵌一层蜡的写字板，用木蜡笔划字，刮平了还能重写，比纸莎草纸便宜得多，学徒平日练字打草稿多用这个，正式誊抄才舍得用纸。"
+  },
+  {
+   "k": "e16_stylus_wood",
+   "cn": "木蜡笔",
+   "la": "STILVS LIGNEVS",
+   "cat": "杂物",
+   "price": 1,
+   "ic": "stone",
+   "spec": "一端尖一端平 · 配蜡板使用 · 尖端划字平端抹平 · 磨损后削尖再用",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "配蜡板用的木笔，一端削尖用来划字，另一端磨平用来抹掉重写，是学徒案头最基础的一件文具，磨秃了削一削还能接着用。"
+  },
+  {
+   "k": "e16_lion_mane_ornament",
+   "cn": "罗马尼亚狮鬃饰",
+   "la": "IVBA LEONIS",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "ribbon",
+   "spec": "鬃毛编成 · 随行骑士队伍装饰 · 象征帝室威仪 · 非战斗用途",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "魔法基础.(2)",
+   "lore": "用随行护卫的罗马尼亚狮鬃毛编成的装饰，系在骑士队伍的旗杆或马具上，象征帝室威仪，是天狼星城内贵族出行常见的排场物件。"
+  },
+  {
+   "k": "e16_epona_knight_cloak",
+   "cn": "艾波那骑士团披风",
+   "la": "PALLIVM EPONAE",
+   "cat": "衣物",
+   "price": 11,
+   "ic": "cloak",
+   "spec": "深蓝染色 · 绣骑士团纹章 · 骑士团正式装束 · 非团员不得随意穿着",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "艾波那骑士团的正式披风，染成深蓝色绣着团纹，只授予正式团员，市面上偶有仿制的素色款出售，但绣纹版本非团员不得随意穿着。",
+   "slot": "hum"
+  },
+  {
+   "k": "e16_royal_guard_tabard",
+   "cn": "皇家骑士团战袍",
+   "la": "TABARDVM REGALE",
+   "cat": "衣物",
+   "price": 13,
+   "ic": "tunic",
+   "spec": "无袖罩袍 · 绣皇室纹章 · 套穿于铠甲之外 · 皇家骑士团制式",
+   "stack": 0,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "套在铠甲外的无袖罩袍，绣着皇室纹章，皇家骑士团巡游庆典时人人穿着，庄重气派，寻常人穿了绣纹版本会被当街盘问。",
+   "slot": "corp"
+  },
+  {
+   "k": "e16_dwarven_ale_stein",
+   "cn": "矮人烈酒杯",
+   "la": "CANTHARVS NANORVM",
+   "cat": "消耗",
+   "price": 3,
+   "ic": "winejar",
+   "spec": "陶制厚壁 · 矮人烈酒专用 · 容量大 · 酒劲远胜寻常麦酒",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：魔法基础.(3)",
+   "lore": "矮人喝自酿烈酒专用的厚壁陶杯，容量比寻常酒杯大不少，酒劲也远胜普通麦酒，外族客人常被劝上一杯就撂倒，是萨加玛塔待客的老规矩。",
+   "use": {
+    "act": "一饮而尽",
+    "eff": "强烈醺意，短暂消解疲惫但影响行动灵活"
+   }
+  },
+  {
+   "k": "e16_dwarven_pickled_root",
+   "cn": "矮人腌根菜",
+   "la": "RADIX CONDITA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "taro",
+   "spec": "一罐份量 · 山脉地窖腌渍 · 可存整年 · 味道浓重",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "推定：魔法基础.(3)",
+   "lore": "矮人山脉地窖里腌渍的根菜，能存上整整一年，味道浓重下饭，是矮人聚落过冬的常备口粮，外族客人头一回吃常被那股咸酸味呛到。",
+   "use": {
+    "act": "食用",
+    "eff": "垫饥一顿，味道浓重耐存放"
+   }
+  },
+  {
+   "k": "e16_yggdrasil_leaf_tea",
+   "cn": "世界树叶茶",
+   "la": "HERBA ARBORIS",
+   "cat": "消耗",
+   "price": 7,
+   "ic": "herb",
+   "spec": "一小包干叶 · 世界树落叶采集 · 冲泡饮用 · 精灵聚落偶尔外售",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：本时代地图点位",
+   "lore": "世界树自然飘落的叶子晒干后冲泡的茶，精灵聚落偶尔拿出一些跟外来商队交换东西，喝起来清苦回甘，据说常饮能让人心绪安定。",
+   "use": {
+    "act": "冲泡饮用",
+    "eff": "安神定气，稍缓紧张情绪"
+   }
+  },
+  {
+   "k": "e16_elf_silver_needle",
+   "cn": "精灵银针",
+   "la": "ACVS ARGENTEA",
+   "cat": "杂物",
+   "price": 8,
+   "ic": "needle",
+   "spec": "银制细针 · 精灵手工打制 · 用于精细缝补或施法辅助 · 极易折断",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "推定：蜥蜴人与大海.(2)",
+   "lore": "精灵手工打制的银针，比寻常铁针细得多，用来缝补精细的织物或辅助小型法术都合适，就是极易折断，价钱比铁针贵上不少。"
+  },
+  {
+   "k": "e16_weather_flag_kit",
+   "cn": "测风旗组",
+   "la": "VEXILLA VENTI",
+   "cat": "器物",
+   "price": 4,
+   "ic": "pole",
+   "spec": "三面小旗配木杆 · 插地观察风向 · 天气魔法师常用工具 · 携带方便",
+   "stack": 0,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "推定：变革之风.(1)",
+   "lore": "插在地上观察风向风力的小旗组，操控天气的魔法师出行常带着，先看清风势再动手施法，比凭感觉施法稳妥得多。"
+  },
+  {
+   "k": "e16_apprentice_travel_lantern",
+   "cn": "学徒行灯",
+   "la": "LANTERNA DISCIPVLI",
+   "cat": "器物",
+   "price": 6,
+   "ic": "lantern",
+   "spec": "铁框玻璃罩 · 内置烛座 · 可提可挂 · 夜行学徒常用",
+   "stack": 0,
+   "at": [
+    "PROCYON",
+    "ROMANIA"
+   ],
+   "src": "推定：魔法基础.(2)",
+   "lore": "铁框玻璃罩做的行灯，内里插一支蜡烛，风吹不灭，比单纯的蜡烛头方便夜行，普罗西亚熬夜赶路的学徒常提这个。",
+   "use": {
+    "act": "点燃内置蜡烛",
+    "eff": "提供防风照明，持续至蜡烛燃尽"
+   }
+  },
+  {
+   "k": "e16_romania_grain_tithe_sack",
+   "cn": "罗马尼亚贡粮袋",
+   "la": "TRIBVTVM FRVMENTI",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "greens",
+   "spec": "一袋约 5 公斤 · 罗马尼亚丰饶之地所产 · 缴纳赋税用规格 · 民间亦按此规格售卖",
+   "stack": 1,
+   "at": [
+    "ROMANIA"
+   ],
+   "src": "推定：魔法基础.(1)",
+   "lore": "罗马尼亚帝国土地受祝福，播种什么都能茁壮成长，百姓按统一规格缴纳贡粮，民间粮商也照这个规格分装售卖，是这片丰饶之地最寻常的口粮单位。",
+   "use": {
+    "act": "磨碎煮食",
+    "eff": "饱腹一顿，产地丰饶价钱亲民"
+   }
+  },
+  {
+   "k": "e16_pilgrim_hooded_cloak",
+   "cn": "朝圣兜帽斗篷",
+   "la": "CVCVLLVS PEREGRINI",
+   "cat": "衣物",
+   "price": 7,
+   "ic": "cloak",
+   "spec": "粗麻带兜帽 · 遮阳挡尘 · 朝圣者标志装束 · 教团门口常年有售",
+   "stack": 0,
+   "at": [
+    "TEMPLUM VITAE",
+    "ROMANIA"
+   ],
+   "src": "推定：创建冒险家公会的方法.(3)",
+   "lore": "带兜帽的粗麻斗篷，遮阳挡尘，是远道而来的朝圣者标志性的装束，教团门口的小摊常年有售，价钱不贵，图的是这份朴素的心意。",
+   "slot": "hum"
+  }
+ ]
+}

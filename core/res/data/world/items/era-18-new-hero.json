@@ -1,0 +1,1838 @@
+{
+ "eraId": "era-18-new-hero",
+ "ordinal": 18,
+ "unit": "银币",
+ "start": 15,
+ "note": "大陆西侧诸国通用银币，圆桌会议召开期间生命教团总部另设储粮核算，不计入日常银钱交易；北方战乱地带以物易物与教团配给渐渐取代了银币流通。",
+ "kits": {
+  "default": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_erik_jerky",
+     "n": 2
+    }
+   ]
+  },
+  "蒂雅／萝蕾娜／主角龙": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_grain_report_scroll",
+     "n": 1
+    }
+   ]
+  },
+  "爱丽丝／龙族巫女": {
+   "eq": {
+    "corp": "e18_vh_silver_armor",
+    "hum": "e18_vh_wing_cloak"
+   },
+   "bag": [
+    {
+     "k": "e18_alice_red_pill",
+     "n": 2
+    },
+    {
+     "k": "e18_vh_recall_whistle",
+     "n": 1
+    }
+   ]
+  },
+  "埃里克": {
+   "eq": {
+    "dext": "e18_clau_solas"
+   },
+   "bag": [
+    {
+     "k": "e18_erik_jerky",
+     "n": 2
+    },
+    {
+     "k": "e18_temple_antidote",
+     "n": 1
+    }
+   ]
+  },
+  "阿谢拉特": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_temple_calm_tea",
+     "n": 1
+    }
+   ]
+  },
+  "魔王": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_demon_territory_map",
+     "n": 1
+    }
+   ]
+  },
+  "龙祭司长": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_temple_round_table_seal",
+     "n": 1
+    }
+   ]
+  },
+  "黄金哥布林": {
+   "eq": {
+    "dext": "e18_gold_goblin_spear"
+   },
+   "bag": [
+    {
+     "k": "e18_demon_army_badge",
+     "n": 1
+    }
+   ]
+  },
+  "别西卜": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_beelzebub_wing_shard",
+     "n": 1
+    }
+   ]
+  },
+  "黑暗骑士": {
+   "eq": {
+    "corp": "e18_black_knight_armor"
+   },
+   "bag": []
+  },
+  "魔贤者": {
+   "eq": {},
+   "bag": [
+    {
+     "k": "e18_demon_sage_tome",
+     "n": 1
+    }
+   ]
+  }
+ },
+ "items": [
+  {
+   "k": "e18_clau_solas",
+   "cn": "克拉乌·索拉斯",
+   "la": "CLADH SOLAS",
+   "cat": "武器",
+   "price": null,
+   "ic": "sword2",
+   "spec": "历代无人持有的英雄之剑 · 大剑形态可变形 · 只对全人类之敌显威 · 持有者须达一定实力方能激发全力",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx世界书·setting-object",
+   "lore": "长久无人持有、静置于生命教团总部的英雄之剑，蒂雅将其视为勇者现世的准备条件。剑身认得持有者的觉悟与实力，实力不足者纵然拔出也难以激发全力。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_alice_red_pill",
+   "cn": "爱丽丝的红药丸",
+   "la": "PILVLA RVBRA ALICIAE",
+   "cat": "药",
+   "price": null,
+   "ic": "powder",
+   "spec": "龙族巫女特制丹丸 · 短时间内大幅提振体力与专注 · 药效过后极度虚脱 · 不外传配方",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "原文·红药段落",
+   "lore": "龙族巫女爱丽丝特制的红色药丸，服下后能在短时间内大幅提振体力与专注力，只是药效一过便会陷入极度虚脱，因此她从不轻易拿出，配方也秘不外传。",
+   "use": {
+    "act": "吞服一枚",
+    "eff": "短时间内大幅提振体力与专注力，药效过后会陷入极度虚脱"
+   }
+  },
+  {
+   "k": "e18_gold_goblin_spear",
+   "cn": "黄金哥布林雷枪",
+   "la": "HASTA FVLGVRIS AVREI GOBLINI",
+   "cat": "武器",
+   "price": null,
+   "ic": "spear",
+   "spec": "黄金哥布林专属兵刃 · 挥动带出雷电 · 统率新军团时手持此物 · 缴获者难以驾驭其中雷属魔力",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS"
+   ],
+   "src": "ctx世界书·setting-species",
+   "lore": "统率不含兽人的新军团、会操使雷电的黄金哥布林专属兵刃，挥动时带出雷光，是这支纯哥布林系军团里最醒目的存在，缴获者往往因驾驭不了其中魔力而作罢。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_mantis_scorpion_tail",
+   "cn": "螳螂镰刀怪蝎尾",
+   "la": "CAVDA SCORPIONIS MANTIDIS",
+   "cat": "器物",
+   "price": null,
+   "ic": "stone",
+   "spec": "中型犬体型群居怪物的蝎尾 · 尾端剧毒针可提炼毒液 · 甲壳坚硬难以破开 · 处理需专业猎人",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS",
+    "STEPPA"
+   ],
+   "src": "ctx世界书·setting-species",
+   "lore": "体型如中型犬的群居怪物，以螳螂镰刀代替蝎钳、以剧毒蝎尾防身，甲壳坚硬难以破开，处理这具尸体需要专业猎人才敢下手，尾端的毒针能提炼出烈性毒液。"
+  },
+  {
+   "k": "e18_beelzebub_wing_shard",
+   "cn": "别西卜之翼碎片",
+   "la": "FRAGMENTVM ALAE BEELZEBVB",
+   "cat": "魔具",
+   "price": null,
+   "ic": "crystal",
+   "spec": "别西卜脱落的甲翼碎片 · 蕴含虫群王者的威压残余 · 携带者身周虫豸自然回避 · 极为罕见",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS"
+   ],
+   "src": "原文·别西卜",
+   "lore": "别西卜偶尔脱落的甲翼碎片，蕴含着虫群王者的威压残余，据说携带者身周的虫豸都会自然回避，只是这般怪物的碎片极为罕见，几乎从未流入市面。"
+  },
+  {
+   "k": "e18_black_knight_armor",
+   "cn": "黑暗骑士铠甲",
+   "la": "LORICA EQVITIS NIGRI",
+   "cat": "防具",
+   "price": null,
+   "ic": "armor",
+   "spec": "通体乌黑重甲 · 魔王军黑暗骑士专属 · 吸收微量光线 · 缴获者需专人拆卸方能穿戴",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS"
+   ],
+   "src": "原文·黑暗骑士",
+   "lore": "魔王军黑暗骑士专属的通体乌黑重甲，甲面能吸收微量光线，因此即便在明处也显得格外阴沉，构造复杂，缴获后需要专人拆卸调整才能勉强让人类穿戴。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_demon_sage_tome",
+   "cn": "魔贤者秘卷",
+   "la": "LIBER SAPIENTIS DAEMONIS",
+   "cat": "书卷",
+   "price": null,
+   "ic": "scroll",
+   "spec": "魔王军魔贤者所著咒法秘卷 · 记录多种禁忌咒法 · 缴获后由生命教团封存 · 不对外公开",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS",
+    "TEMPLUM VITAE"
+   ],
+   "src": "原文·魔贤者",
+   "lore": "魔王军魔贤者所著的咒法秘卷，记录着多种被生命教团列为禁忌的咒法，一旦缴获便会立刻封存，绝不对外公开，以免落入不当之人手中造成灾祸。"
+  },
+  {
+   "k": "e18_temple_round_table_seal",
+   "cn": "圆桌会议席位牌",
+   "la": "TESSERA CONSILII ROTVNDI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "seal",
+   "spec": "木牌刻各国纹章 · 生命教团总部圆桌会议专用 · 依代表身份对号入座 · 会后收回保管",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx世界书·setting-place",
+   "lore": "生命教团总部召开诸国代表圆桌会议时使用的席位牌，木牌上刻着各国纹章，依代表身份对号入座，会议结束后统一收回保管，以备下次再用。"
+  },
+  {
+   "k": "e18_grain_report_scroll",
+   "cn": "储粮报告卷",
+   "la": "VOLVMEN RELATIONIS FRVMENTI",
+   "cat": "书卷",
+   "price": null,
+   "ic": "scroll",
+   "spec": "各国代表呈交的储粮数目卷宗 · 供圆桌会议核算余粮调度 · 涉及机密不得外传",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "原文·储备粮段落",
+   "lore": "圆桌会议上各国代表呈交的储粮数目卷宗，用来核算各地余粮该如何调度支援受灾最重的北方，涉及各国储备机密，会议结束后也不得带离总部。"
+  },
+  {
+   "k": "e18_let_grain_vault_key",
+   "cn": "地下粮仓钥匙",
+   "la": "CLAVIS HORREI SVBTERRANEI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "seal",
+   "spec": "铁制长钥 · 莱特基尼亚地下温湿度仓库专用 · 可存粮一年至近五年 · 由粮官保管",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx世界书·setting-economy",
+   "lore": "莱特基尼亚地下温湿度仓库的专用钥匙，这套仓库能让粮食储存一年到近五年之久，支撑着鼠兽人爆炸性的人口增长，钥匙一向由专职粮官保管。"
+  },
+  {
+   "k": "e18_north_refugee_pass",
+   "cn": "北境难民通行牌",
+   "la": "TESSERA PROFVGI SEPTENTRIONALIS",
+   "cat": "杂物",
+   "price": null,
+   "ic": "tag",
+   "spec": "木牌记难民姓名与来处 · 因北方灭国大领主阵亡而大量发放 · 凭牌可入南方诸国领粮避难",
+   "stack": 1,
+   "at": [
+    "SEMERIM",
+    "SIRIUS"
+   ],
+   "src": "原文·北方出现灭国",
+   "lore": "因北方战事灭国、大领主阵亡而大量发放的难民通行牌，木牌上记着难民姓名与来处，凭此可在南方诸国领取粮食并寻求避难安置。"
+  },
+  {
+   "k": "e18_erik_training_sword",
+   "cn": "埃里克练习剑",
+   "la": "GLADIVS EXERCITII ERICI",
+   "cat": "武器",
+   "price": 5,
+   "ic": "sword",
+   "spec": "普通铁剑 · 埃里克成为勇者前的练习之物 · 无特殊之处 · 后由同乡少年接手使用",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "埃里克尚未被选为勇者、拿起英雄之剑之前用惯的普通铁剑，没有任何特殊之处，后来他动身前往教团后，这把剑便由同乡的少年接手继续练习。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_vh_silver_armor",
+   "cn": "银甲",
+   "la": "LORICA ARGENTEA",
+   "cat": "防具",
+   "price": 45,
+   "ic": "armor",
+   "spec": "银白色轻甲 · 护胸镶嵌小魔石 · 龙族巫女侍从骑士标配 · 抗魔性优于寻常铁甲",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE",
+    "SIRIUS"
+   ],
+   "src": "原文·银甲",
+   "lore": "龙族巫女近身侍从骑士所穿的银白色轻甲，护胸嵌着小颗魔石，抗魔性比寻常铁甲更好，是生命教团为守护圣女特意打造的一批装备。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_vh_wing_cloak",
+   "cn": "疾风斗篷",
+   "la": "PALLIVM VENTI CELERIS",
+   "cat": "衣物",
+   "price": null,
+   "ic": "cloak",
+   "spec": "经龙族巫女御风之力祝福 · 披挂者奔跑略快 · 仅授予随行护卫 · 归还教团后祝福自然消散",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx世界书·setting-species 推定",
+   "lore": "经龙族巫女以御风之力祝福过的斗篷，披挂者奔跑速度会略微加快，只授予随行护卫使用，一旦归还教团，斗篷上的祝福便会自然消散。",
+   "slot": "hum"
+  },
+  {
+   "k": "e18_temple_sentry_spear",
+   "cn": "教团卫队长枪",
+   "la": "HASTA CVSTODIAE TEMPLI",
+   "cat": "武器",
+   "price": 16,
+   "ic": "spear",
+   "spec": "铁矛头配长杆 · 生命教团总部卫队制式 · 圆桌会议期间加派人手值守",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团总部卫队人手一杆的长枪，圆桌会议召开期间总部加派了不少人手值守，这批长枪就是那时候统一配发下去的。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_demon_army_badge",
+   "cn": "魔王军哥布林徽",
+   "la": "SIGNVM LEGIONIS GOBLINORVM",
+   "cat": "杂物",
+   "price": null,
+   "ic": "tag",
+   "spec": "骨制小徽 · 新军团哥布林士兵佩戴以示所属 · 战场上缴获者常作战利品收藏",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS"
+   ],
+   "src": "ctx世界书·setting-species",
+   "lore": "新组建的哥布林军团士兵佩戴的骨制小徽，用以区分所属，战场上人类士兵缴获后常当作战利品带回收藏，是这支纯哥布林军团存在过的一点证据。"
+  },
+  {
+   "k": "e18_sirius_envoy_robe",
+   "cn": "帝都代表礼袍",
+   "la": "TOGA LEGATI SIRII",
+   "cat": "衣物",
+   "price": 24,
+   "ic": "robe",
+   "spec": "深紫长袍绣星纹 · 天狼星帝都代表出席圆桌会议专用 · 需专人熨烫收纳",
+   "stack": 1,
+   "at": [
+    "SIRIUS",
+    "TEMPLUM VITAE"
+   ],
+   "src": "原文·各国代表",
+   "lore": "天狼星帝都代表出席生命教团圆桌会议时穿的深紫长袍，绣着星纹，平日收纳都要专人小心熨烫，是这座千年古都对外代表体面的讲究。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_sem_envoy_fan",
+   "cn": "南境代表折扇",
+   "la": "FLABELLVM LEGATI MERIDIONALIS",
+   "cat": "杂物",
+   "price": 4,
+   "ic": "fan",
+   "spec": "竹骨绢面 · 南罗马尼亚代表随身携带 · 议事间隙扇风解暑 · 亦可代替礼节性挥手示意",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "原文·南罗马尼亚代表",
+   "lore": "南罗马尼亚代表随身携带的竹骨绢面折扇，圆桌会议议事间隙扇风解暑，有时也拿来代替礼节性的挥手示意，是这位来自炎热南方的代表随身不离的物件。"
+  },
+  {
+   "k": "e18_bes_envoy_necklace",
+   "cn": "兽人国代表贝饰",
+   "la": "MONILE LEGATI BESTIAE",
+   "cat": "杂物",
+   "price": null,
+   "ic": "pouch",
+   "spec": "贝壳与兽骨串成的项饰 · 比斯蒂亚代表出席正式场合佩戴 · 象征海陆两族联合的国体",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "原文·兽人国的代表",
+   "lore": "比斯蒂亚联合王国代表出席正式场合佩戴的贝壳兽骨项饰，一半取自海产一半取自陆兽，象征着这个不分种族的联合国体海陆并重的立国之本。"
+  },
+  {
+   "k": "e18_let_envoy_shield_badge",
+   "cn": "莱特基尼亚代表盾徽",
+   "la": "SIGNVM LEGATI SCVTATAE",
+   "cat": "杂物",
+   "price": null,
+   "ic": "seal",
+   "spec": "小型铁盾造型徽记 · 莱特基尼亚代表专属 · 与盾牌军团徽记同源不同款",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚代表出席邦交场合佩戴的小型铁盾造型徽记，与盾牌军团士兵的徽记同源却款式不同，专供外交代表使用，以区分军民身份。"
+  },
+  {
+   "k": "e18_pro_envoy_staff",
+   "cn": "普罗西亚代表法杖",
+   "la": "BACVLVM LEGATI PROCYONIS",
+   "cat": "魔具",
+   "price": null,
+   "ic": "staff",
+   "spec": "七塔轮流选派的代表所持法杖 · 杖头嵌各塔标志色魔石 · 会议期间兼作身份凭证",
+   "stack": 1,
+   "at": [
+    "PROCYON",
+    "TEMPLUM VITAE"
+   ],
+   "src": "原文·普罗西亚的代表",
+   "lore": "普罗西亚七座魔塔轮流选派代表出席圆桌会议时所持的法杖，杖头嵌着代表当届出席塔的标志色魔石，会议期间兼作身份凭证使用，会后归还所属魔塔。",
+   "slot": "sin"
+  },
+  {
+   "k": "e18_sem_rice_porridge",
+   "cn": "南境米粥",
+   "la": "PVLS ORYZAE MERIDIONALIS",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bowl",
+   "spec": "稻米熬煮 · 南罗马尼亚因远离战火粮产稳定 · 分粮支援北方难民时常见 · 味道清淡",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "南罗马尼亚百姓熬煮的稻米粥，因这座都城远离魔王军战火而粮产稳定，圆桌会议决定分粮支援北方难民时，这样一碗清淡米粥便是最常见的赈济吃食。",
+   "use": {
+    "act": "盛碗食用",
+    "eff": "解一时饥饿，是南境支援北方难民时最常见的赈济吃食"
+   }
+  },
+  {
+   "k": "e18_let_emergency_grain",
+   "cn": "应急储备粮",
+   "la": "FRVMENTVM SVBSIDII LETKINIAE",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "jar",
+   "spec": "莱特基尼亚地下仓库存粮 · 近五年地窖囤积 · 圆桌会议决议调拨支援北方 · 陶罐密封",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "原文·应急储备粮",
+   "lore": "莱特基尼亚地下温湿度仓库囤积近五年的储备粮，圆桌会议决议调拨一部分支援北方难民，陶罐密封运出仓库，是这场大规模粮食调度里最关键的一批物资。",
+   "use": {
+    "act": "倒出煮食",
+    "eff": "解数日饥饿，是莱特基尼亚地下仓库多年囤积后调拨支援北方的储粮"
+   }
+  },
+  {
+   "k": "e18_sirius_honey_wine",
+   "cn": "天狼星蜜酒",
+   "la": "MVLSVM SIRII",
+   "cat": "消耗",
+   "price": 5,
+   "ic": "winejar",
+   "spec": "蜂蜜发酵酿造 · 帝都宴饮常见 · 度数适中 · 圆桌会议闭幕宴上也曾摆上桌",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星帝都用蜂蜜发酵酿造的蜜酒，度数适中，是宴饮场合常见的酒水，圆桌会议闭幕那日的宴席上，据说也摆上了几坛助兴。",
+   "use": {
+    "act": "斟入酒杯饮用",
+    "eff": "微醺提神，是帝都宴会与外交场合常见的助兴之物"
+   }
+  },
+  {
+   "k": "e18_temple_antidote",
+   "cn": "净化解毒剂",
+   "la": "ANTIDOTVM PVRGATIONIS TEMPLI",
+   "cat": "药",
+   "price": 8,
+   "ic": "flask",
+   "spec": "生命教团特制 · 专治怪物毒素 · 对蝎尾一类剧毒尤为对症 · 冒险者出征前常购备",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团特制的解毒剂，专治各类怪物毒素，对螳螂镰刀怪那种蝎尾剧毒尤为对症，是冒险者出征魔王军战线前必定要购备的一样药。",
+   "use": {
+    "act": "伤口涂抹并小口饮下",
+    "eff": "中和怪物毒素，对蝎尾一类的剧毒尤为对症"
+   }
+  },
+  {
+   "k": "e18_erik_jerky",
+   "cn": "旅人肉干",
+   "la": "CARO SICCATA PEREGRINI",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "jerky",
+   "spec": "腌制风干 · 埃里克与爱丽丝出发前乡里所赠 · 耐存放 · 长途跋涉常备口粮",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "腌制风干的肉干，是埃里克与爱丽丝启程前往教团时乡里长辈所赠的送行之物，耐存放又顶饱，是这个时代远行者最常见的长途口粮。",
+   "use": {
+    "act": "撕开分食",
+    "eff": "解饥耐嚼，是远行者出发前乡亲最常准备的送行口粮"
+   }
+  },
+  {
+   "k": "e18_bes_fish_broth",
+   "cn": "兽人鱼骨汤",
+   "la": "IVS OSSIVM PISCIS BESTIAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "soup",
+   "spec": "鱼骨与海菜同煮 · 比斯蒂亚渔家日常汤品 · 熬制耗时但滋味浓郁",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚渔家用鱼骨与海菜同煮的浓汤，熬制费些时辰却滋味浓郁，是渔家不舍得浪费任何一点鱼获、物尽其用的智慧。",
+   "use": {
+    "act": "盛出趁热食用",
+    "eff": "解饥暖身，滋味浓郁是渔家舍不得浪费鱼骨的智慧"
+   }
+  },
+  {
+   "k": "e18_temple_calm_tea",
+   "cn": "安神静心茶",
+   "la": "POTIO TRANQVILLITATIS TEMPLI",
+   "cat": "药",
+   "price": 4,
+   "ic": "jar",
+   "spec": "数味草药煮制 · 供圆桌会议代表议事间隙饮用 · 缓解议事紧张情绪 · 需当日饮完",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团为圆桌会议代表准备的安神茶，几味草药煮制而成，供代表们在唇枪舌剑的议事间隙饮用缓神，需当日饮完，隔夜药效便会流失。",
+   "use": {
+    "act": "趁热饮下",
+    "eff": "缓解议事紧张情绪，需当日饮完否则药效流失"
+   }
+  },
+  {
+   "k": "e18_demon_territory_map",
+   "cn": "魔王领地图",
+   "la": "TABVLA TERRITORII DAEMONIS",
+   "cat": "杂物",
+   "price": null,
+   "ic": "map",
+   "spec": "标注魔王城周边已知怪物出没区域 · 由各国斥候多年拼凑绘制 · 圆桌会议核心机密",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "标注魔王城周边已知怪物出没区域的地图，由各国斥候多年侦察拼凑绘制而成，是圆桌会议上讨论如何调度兵力对抗魔王军时最核心的一份机密。"
+  },
+  {
+   "k": "e18_sag_envoy_axe",
+   "cn": "矮人代表护卫短斧",
+   "la": "SECVRIS COMITIS NANORVM",
+   "cat": "武器",
+   "price": 17,
+   "ic": "axe",
+   "spec": "单手短柄斧 · 矮人代表随行护卫标配 · 比战斧轻便利于室内护卫",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA",
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人代表随行护卫所用的单手短柄斧，比正规战斧轻便许多，更适合在生命教团总部这样的室内场合贴身护卫代表安全。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_vh_recall_whistle",
+   "cn": "龙族巫女召集哨",
+   "la": "FISTVLA VOCATIONIS VIVI",
+   "cat": "魔具",
+   "price": null,
+   "ic": "horn",
+   "spec": "骨制小哨 · 特定音频只有龙族巫女侍从能听清 · 危急时召集护卫用 · 极少制作",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "用特殊骨料制成的小哨，吹出的音频只有经过训练的龙族巫女侍从才能听清，是危急时刻紧急召集护卫的信物，教团只极少数几支，从不外传。"
+  },
+  {
+   "k": "e18_sag_mil_mail",
+   "cn": "矮人重锁甲",
+   "la": "LORICA HAMATA GRAVIS NANORVM",
+   "cat": "防具",
+   "price": 32,
+   "ic": "chain",
+   "spec": "双层铁环套接 · 矮人正规军标配 · 重达16公斤 · 抗打击优于普通锁甲",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人正规军的双层锁甲，铁环套接得比寻常锁甲更密，抗打击效果更好，只是重量也随之增加，需要长期训练才能负重自如。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_sag_mil_helm",
+   "cn": "矮人战盔",
+   "la": "CASSIS BELLICA NANORVM",
+   "cat": "防具",
+   "price": 13,
+   "ic": "helm",
+   "spec": "全罩式铁盔 · 护脸挡片可翻起 · 矿道战斗与地表两用",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人战盔为全罩式设计，护脸挡片能视情况翻起，是矮人军队在矿道战斗与地表作战两种场合都能通用的头部防护。",
+   "slot": "cap"
+  },
+  {
+   "k": "e18_ygg_scout_leather",
+   "cn": "精灵斥候皮甲",
+   "la": "LORICA LEVIS EXPLORATORIS",
+   "cat": "防具",
+   "price": 19,
+   "ic": "armor",
+   "spec": "轻薄鞣皮 · 便于快速穿行密林 · 精灵斥候标配 · 不耐重击",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "ctx推定",
+   "lore": "精灵斥候穿的轻薄鞣皮甲，便于在密林间快速穿行，只是防御力有限，经不起重击，全靠斥候本身的敏捷来弥补。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_ygg_scout_boot",
+   "cn": "精灵斥候软靴",
+   "la": "CALCEVS EXPLORATORIS SILVANI",
+   "cat": "衣物",
+   "price": 9,
+   "ic": "boot",
+   "spec": "软皮无声底 · 密林潜行标配 · 不耐硬地磨损",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "ctx推定",
+   "lore": "精灵斥候在密林潜行时穿的软皮靴，踩在落叶与苔藓上几乎无声，只是出了森林在硬地上走久了便容易磨穿。",
+   "slot": "ped"
+  },
+  {
+   "k": "e18_bes_marine_armor",
+   "cn": "兽人海战甲",
+   "la": "LORICA NAVALIS BESTIAE",
+   "cat": "防具",
+   "price": 21,
+   "ic": "armor",
+   "spec": "浸油皮革缀铁片 · 防水耐盐蚀 · 比斯蒂亚水兵标配 · 不阻碍划桨与游泳",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚水兵的制式护甲，浸油皮革缀着铁片，防水耐盐蚀，剪裁上特意保证不妨碍划桨与游泳。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_let_legion_shield",
+   "cn": "盾牌军团制式巨盾",
+   "la": "SCVTVM LEGIONIS LETKINIAE",
+   "cat": "防具",
+   "price": 28,
+   "ic": "shield",
+   "spec": "硬木包铁边 · 直径近一人高 · 数人列阵可挡骑兵冲锋 · 莱特基尼亚看家本领",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚盾牌军团人手一面的巨盾，列阵摆开足以挡下骑兵冲锋，是这个鼠兽人国度最引以为傲的军事传统。",
+   "slot": "sin"
+  },
+  {
+   "k": "e18_steppa_nomad_bow",
+   "cn": "游牧复合弓",
+   "la": "ARCVS COMPOSITVS NOMADVM",
+   "cat": "武器",
+   "price": 18,
+   "ic": "bow",
+   "spec": "兽角木片复合弯弓 · 马上拉弓专用 · 北方草原游牧民标配 · 需常年练习",
+   "stack": 1,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "ctx推定",
+   "lore": "北方草原游牧民骑在马上拉弓专用的复合弓，兽角与木片层层复合，弓力强劲，非常年练习不能拉满。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_wal_guard_sword",
+   "cn": "瓦拉几亚卫队剑",
+   "la": "GLADIVS CVSTODIS WALLACHIAE",
+   "cat": "武器",
+   "price": 16,
+   "ic": "sword",
+   "spec": "直刃配银质剑格 · 瓦拉几亚王室卫队标配 · 剑格镶小块银片",
+   "stack": 1,
+   "at": [
+    "WALLACHIA"
+   ],
+   "src": "ctx推定",
+   "lore": "瓦拉几亚王室卫队佩戴的直刃剑，剑格上特意镶了几片银，是这个古怪小国对邪物传闻的一贯讲究。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_sirius_guard_helm",
+   "cn": "天狼星卫队盔",
+   "la": "CASSIS CVSTODIS SIRII",
+   "cat": "防具",
+   "price": 11,
+   "ic": "helm",
+   "spec": "半开面钢盔 · 顶饰蓝色缨穗 · 帝都卫队标配",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星帝都卫队所戴的半开面钢盔，顶上一撮蓝色缨穗在城墙上格外醒目，历经数百年仍是卫队制式头盔的样式。",
+   "slot": "cap"
+  },
+  {
+   "k": "e18_sem_guard_armor",
+   "cn": "塞梅里姆卫戍甲",
+   "la": "LORICA CVSTODIAE SEMERIMENSIS",
+   "cat": "防具",
+   "price": 18,
+   "ic": "armor",
+   "spec": "轻便皮甲 · 适应南方湿热 · 塞梅里姆城防标配",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "塞梅里姆城防军所穿的轻便皮甲，特意为适应南方湿热气候而设计，比北方厚重铁甲透气得多。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_temple_guard_mace",
+   "cn": "教团卫队钉锤",
+   "la": "CLAVA CVSTODIAE TEMPLI",
+   "cat": "武器",
+   "price": 14,
+   "ic": "hammer",
+   "spec": "铁钉锤头配木柄 · 生命教团卫队圆桌会议期间加派配备 · 重击优于长剑",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团卫队所用的钉锤，圆桌会议期间总部加派人手值守时统一配发，重击效果优于长剑，更适合对付重甲之敌。",
+   "slot": "dext"
+  },
+  {
+   "k": "e18_pro_mage_boot",
+   "cn": "法师软底靴",
+   "la": "CALCEVS MOLLIS MAGI",
+   "cat": "衣物",
+   "price": 8,
+   "ic": "boot",
+   "spec": "软皮薄底 · 便于施法时脚步移动 · 普罗西亚魔塔学徒标配",
+   "stack": 1,
+   "at": [
+    "PROCYON"
+   ],
+   "src": "ctx推定",
+   "lore": "普罗西亚魔塔学徒穿的软皮薄底靴，方便施法时随时调整脚步，是魔塔训练场上最常见的鞋履。",
+   "slot": "ped"
+  },
+  {
+   "k": "e18_let_scout_vest",
+   "cn": "鼠兽人斥候背心",
+   "la": "THORAX EXPLORATORIS LETKINIAE",
+   "cat": "防具",
+   "price": 7,
+   "ic": "armor",
+   "spec": "轻薄皮革 · 多口袋设计 · 莱特基尼亚斥候标配 · 便于携带各类侦察工具",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚斥候穿的轻薄多口袋背心，便于随身携带各类侦察工具，是配合盾牌军团正面列阵作战的侦察兵标配。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_north_refugee_coat",
+   "cn": "难民御寒外套",
+   "la": "PALLIVM PROFVGI SEPTENTRIONALIS",
+   "cat": "衣物",
+   "price": 6,
+   "ic": "cloak",
+   "spec": "粗布填旧棉 · 教团大量赶制发放 · 北方难民南迁必备 · 保暖有限但聊胜于无",
+   "stack": 1,
+   "at": [
+    "SEMERIM",
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团为南迁的北方难民大量赶制的粗布棉衣，保暖效果有限，却是这些流离失所的人们过冬时唯一能指望的东西。",
+   "slot": "hum"
+  },
+  {
+   "k": "e18_demon_warg_collar",
+   "cn": "魔狼颈环",
+   "la": "TORQVES LVPI DAEMONII",
+   "cat": "衣物",
+   "price": null,
+   "ic": "chain",
+   "spec": "魔王军驯化魔狼所用颈环 · 缴获后仍残留驯化魔力痕迹 · 佩戴人类身上无实际效用",
+   "stack": 1,
+   "at": [
+    "ARX DAEMONIS"
+   ],
+   "src": "ctx推定",
+   "lore": "魔王军用来驯化魔狼的颈环，缴获后残留着一丝驯化魔力的痕迹，佩戴在人类身上却毫无实际效用，多被当作战利品收藏。",
+   "slot": "cing"
+  },
+  {
+   "k": "e18_vh_companion_ring",
+   "cn": "侍从誓约戒",
+   "la": "ANVLVS IVRAMENTI COMITIS",
+   "cat": "衣物",
+   "price": null,
+   "ic": "ring",
+   "spec": "银戒刻教团纹样 · 龙族巫女侍从骑士入职誓约信物 · 卸任交还教团",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "龙族巫女侍从骑士入职时领受的银戒，刻着教团纹样，是誓约的信物，卸任时须交还教团，不得私自留存。",
+   "slot": "sin"
+  },
+  {
+   "k": "e18_sag_hearty_stew",
+   "cn": "矮人浓汤",
+   "la": "PVLS ROBVSTA NANORVM",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "soup",
+   "spec": "肉块骨汤同煮 · 矮人矿工体力消耗大常吃此菜 · 味道厚重",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人矿工体力消耗极大，肉块与骨汤同煮的浓汤是他们收工后常吃的一餐，味道厚重顶饱，寻常人吃一碗就够撑一天。",
+   "use": {
+    "act": "盛出趁热食用",
+    "eff": "解饥并补充体力，是矿工重体力劳作后常吃的一餐"
+   }
+  },
+  {
+   "k": "e18_ygg_forest_berry",
+   "cn": "精灵森林浆果",
+   "la": "BACCA SILVANA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "大森林野生浆果 · 现摘现食风味最佳 · 精灵采集贩售部分予旅人",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "ctx推定",
+   "lore": "伊格德拉希尔大森林里野生的浆果，现摘现食风味最佳，精灵偶尔会采集一些贩售给路过的旅人，算是森林对外贸易里最不起眼的一项。",
+   "use": {
+    "act": "直接食用",
+    "eff": "补充体力并解渴，现摘现食风味最佳"
+   }
+  },
+  {
+   "k": "e18_bes_shellfish_plate",
+   "cn": "兽人贝类拼盘",
+   "la": "FERCVLVM CONCHARVM BESTIAE",
+   "cat": "吃食",
+   "price": 5,
+   "ic": "soup",
+   "spec": "多种贝类蒸煮 · 比斯蒂亚港口宴客菜 · 佐海盐食用",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚港口用多种贝类蒸煮而成的拼盘，剥壳蘸海盐吃，是渔家宴客时常摆上桌的一道菜，材料全靠出海时顺手捞回。",
+   "use": {
+    "act": "剥壳趁热食用",
+    "eff": "解饥并补充体力，是港口宴客时常见的一道菜"
+   }
+  },
+  {
+   "k": "e18_let_fried_rice_cake",
+   "cn": "鼠兽人炸米饼",
+   "la": "LIBVM ORYZAE FRIXVM",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "cake",
+   "spec": "糯米捣制油炸 · 莱特基尼亚节庆小食 · 外酥内软",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚节庆时才做的炸米饼，糯米捣制后下油锅炸至外酥内软，是这个粮产丰饶的国度逢年过节才舍得的一道小食。",
+   "use": {
+    "act": "趁热食用",
+    "eff": "解馋提神，外酥内软是节庆时才有的一道小食"
+   }
+  },
+  {
+   "k": "e18_steppa_butter_tea",
+   "cn": "游牧酥油茶",
+   "la": "POTIO BVTYRI NOMADVM",
+   "cat": "消耗",
+   "price": 3,
+   "ic": "jar",
+   "spec": "茶砖混酥油捶打 · 抵御草原严寒 · 游牧民日常饮品",
+   "stack": 1,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "ctx推定",
+   "lore": "草原游牧民用茶砖混酥油反复捶打而成的酥油茶，趁热喝下能驱散刺骨寒风带来的寒意，是他们日常离不开的饮品。",
+   "use": {
+    "act": "趁热饮下",
+    "eff": "驱寒暖身，是草原游牧民抵御严寒的日常饮品"
+   }
+  },
+  {
+   "k": "e18_wal_mountain_stew",
+   "cn": "山地炖肉",
+   "la": "CARO ELIXA MONTANA",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "soup",
+   "spec": "野味与根茎同炖 · 瓦拉几亚山地家常菜 · 慢火炖煮数个时辰",
+   "stack": 1,
+   "at": [
+    "WALLACHIA"
+   ],
+   "src": "ctx推定",
+   "lore": "瓦拉几亚山地人家用野味与根茎同炖的家常菜，慢火炖上数个时辰，滋味浓郁，是这个多山小国抵御严寒的寻常一餐。",
+   "use": {
+    "act": "盛出趁热食用",
+    "eff": "解饥暖身，慢火炖煮数个时辰后滋味浓郁"
+   }
+  },
+  {
+   "k": "e18_sirius_market_bun",
+   "cn": "天狼星肉包",
+   "la": "OFFA CARNIS SIRII",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "bread",
+   "spec": "面皮包肉馅蒸制 · 帝都市集寻常小吃 · 现蒸现卖",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星市集现蒸现卖的肉包，面皮包着肉馅，趁热咬开还冒着热气，是往来商旅与本地百姓都爱买的寻常小吃。",
+   "use": {
+    "act": "趁热食用",
+    "eff": "解饥，是帝都市集里现蒸现卖的寻常小吃"
+   }
+  },
+  {
+   "k": "e18_sem_tropical_fruit",
+   "cn": "南境热带果盘",
+   "la": "FERCVLVM FRVCTVVM MERIDIONALIVM",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "jar",
+   "spec": "数种时令鲜果拼盘 · 塞梅里姆物产丰饶 · 消暑解渴",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "塞梅里姆物产丰饶，市集上时常能见到几种时令鲜果拼在一起卖，消暑解渴，是这座远离战火的南方都市市民寻常的享受。",
+   "use": {
+    "act": "直接食用",
+    "eff": "解暑解渴，塞梅里姆物产丰饶四季鲜果不断"
+   }
+  },
+  {
+   "k": "e18_temple_relief_porridge",
+   "cn": "教团赈灾粥",
+   "la": "PVLS SVBSIDII TEMPLI",
+   "cat": "吃食",
+   "price": 1,
+   "ic": "bowl",
+   "spec": "谷米杂粮同煮 · 圆桌会议决议后大量分发北方难民 · 味道清淡",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE",
+    "SEMERIM",
+    "SIRIUS"
+   ],
+   "src": "原文·应急储备粮 推定",
+   "lore": "圆桌会议决议调拨南方余粮支援北方后，生命教团各驿站大量分发的赈灾粥，谷米掺着杂粮同煮，味道清淡，却是许多难民当时唯一的口粮。",
+   "use": {
+    "act": "盛碗分发",
+    "eff": "解一时饥饿，是圆桌会议决议后大规模分发北方难民的赈灾粥"
+   }
+  },
+  {
+   "k": "e18_sag_fortress_cheese",
+   "cn": "矮人要塞奶酪",
+   "la": "CASEVS ARCIS NANORVM",
+   "cat": "吃食",
+   "price": 5,
+   "ic": "cheese",
+   "spec": "地下饲养山羊乳制成 · 窖藏数月 · 矮人要塞特产",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人要塞地下饲养的山羊产乳制成的奶酪，窖藏数月后风味浓郁，是要塞对外贸易里少数能出口的乳制品。",
+   "use": {
+    "act": "切片食用",
+    "eff": "解饥并补充体力，窖藏数月后风味浓郁"
+   }
+  },
+  {
+   "k": "e18_temple_battle_med",
+   "cn": "战场急救药",
+   "la": "MEDICAMENTVM PVGNAE TEMPLI",
+   "cat": "药",
+   "price": 9,
+   "ic": "flask",
+   "spec": "生命教团特制 · 快速止血并缓解剧痛 · 冒险者与士兵出征前购备 · 一瓶仅够一次重伤",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团特制的战场急救药，能快速止血并缓解剧痛，一瓶只够应付一次重伤，是奔赴魔王军战线的冒险者与士兵出征前必买的东西。",
+   "use": {
+    "act": "倒于伤口或饮下",
+    "eff": "快速止血并缓解剧痛，仅够应付一次重伤，需尽快寻求正式医治"
+   }
+  },
+  {
+   "k": "e18_sag_frost_balm",
+   "cn": "矮人抗寒膏",
+   "la": "VNGVENTVM CONTRA FRIGVS NANORVM",
+   "cat": "药",
+   "price": 5,
+   "ic": "paste",
+   "spec": "兽脂混矿物粉调制 · 涂抹肢体防冻伤 · 北境作战矮人士兵常备",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人用兽脂混矿物粉调制的抗寒膏，涂在手脚等易冻伤处，是北境战线上矮人士兵人手一盒的防冻装备。",
+   "use": {
+    "act": "涂抹于手脚等易冻伤处",
+    "eff": "防止冻伤，北境作战时矮人士兵人手一盒"
+   }
+  },
+  {
+   "k": "e18_ygg_elf_antidote",
+   "cn": "精灵解毒露",
+   "la": "GVTTA ANTIDOTA SILVANA",
+   "cat": "药",
+   "price": 7,
+   "ic": "flask",
+   "spec": "活木树液混草药提炼 · 专治森林毒虫与部分怪物毒素 · 精灵斥候随身携带",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "ctx推定",
+   "lore": "精灵以活木树液混草药提炼的解毒露，专治森林毒虫与部分怪物的毒素，是精灵斥候深入密林侦察时随身携带的应急药物。",
+   "use": {
+    "act": "滴入伤口或饮下几滴",
+    "eff": "中和森林毒虫与部分怪物毒素，需当日新鲜提炼方有效力"
+   }
+  },
+  {
+   "k": "e18_bes_sea_med",
+   "cn": "兽人海疾药",
+   "la": "MEDICAMENTVM MORBORVM MARIS",
+   "cat": "药",
+   "price": 6,
+   "ic": "powder",
+   "spec": "海藻草药研末 · 治渔家常见风湿与关节痛 · 比斯蒂亚渔村家家常备",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚渔村用海藻混草药研磨成的药粉，专治渔民常年出海落下的风湿与关节疼痛，家家户户都备着一小罐。",
+   "use": {
+    "act": "以温水冲服",
+    "eff": "缓解长年出海引起的风湿与关节疼痛"
+   }
+  },
+  {
+   "k": "e18_let_plague_med",
+   "cn": "鼠疫防治散",
+   "la": "PVLVIS CONTRA PESTEM LETKINIAE",
+   "cat": "药",
+   "price": null,
+   "ic": "powder",
+   "spec": "莱特基尼亚特制 · 人口密集地带防疫必备 · 配方由教团认证 · 战乱时期紧缺",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚人口密集，历来重视防疫，这味特制药粉的配方经生命教团认证，只是战乱时期物资紧张，格外难得。",
+   "use": {
+    "act": "以水冲服",
+    "eff": "预防人口密集处易发的疫病，战乱时期这味药格外紧缺"
+   }
+  },
+  {
+   "k": "e18_wal_blood_tonic",
+   "cn": "补血汤药",
+   "la": "POTIO SANGVINIS WALLACHIAE",
+   "cat": "药",
+   "price": 6,
+   "ic": "jar",
+   "spec": "草药混动物内脏熬煮 · 瓦拉几亚纳血税后常见滋补方 · 补充体力",
+   "stack": 1,
+   "at": [
+    "WALLACHIA"
+   ],
+   "src": "ctx推定",
+   "lore": "瓦拉几亚百姓纳过血税后常喝的滋补汤药，草药混着动物内脏熬煮，补充流失的体力，是这个古怪小国民间流传已久的偏方。",
+   "use": {
+    "act": "趁热饮下",
+    "eff": "补充纳血税后流失的体力，是瓦拉几亚民间常见的滋补方"
+   }
+  },
+  {
+   "k": "e18_vh_fireproof_cloth",
+   "cn": "抗火布匹",
+   "la": "TEXTVM IGNIFVGVM",
+   "cat": "器物",
+   "price": 22,
+   "ic": "wrap",
+   "spec": "特殊纤维织成 · 短暂抵御火焰灼烧 · 教团配发对抗魔王军火系怪物 · 数量有限",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "用特殊纤维织成的抗火布匹，短暂能抵御火焰灼烧，生命教团配发给要面对魔王军火系怪物的冒险者与士兵，数量有限并不常见。"
+  },
+  {
+   "k": "e18_temple_message_tube",
+   "cn": "传信筒",
+   "la": "FISTVLA NVNTII",
+   "cat": "器物",
+   "price": 6,
+   "ic": "tag",
+   "spec": "皮革卷筒密封 · 圆桌会议期间各国代表间传递紧急消息专用 · 需专人骑马传送",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "圆桌会议期间各国代表间传递紧急消息用的密封皮革筒，仍需专人骑马传送，是这个时代最快也最原始的紧急通讯方式。"
+  },
+  {
+   "k": "e18_sag_lantern_mine",
+   "cn": "矿用魔石灯",
+   "la": "LVCERNA MAGICA FODIENDI",
+   "cat": "器物",
+   "price": 20,
+   "ic": "lamp",
+   "spec": "小魔石驱动 · 矮人矿道专用照明 · 不惧风吹熄灭 · 一颗魔石可用数月",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "用小颗魔石驱动的矿用照明灯，不怕矿道深处的穿堂风吹熄，一颗魔石能维持数月照明，是矮人矿工离不开的工具。"
+  },
+  {
+   "k": "e18_temple_donation_ledger",
+   "cn": "捐赠登记册",
+   "la": "LIBER DONATIONIS TEMPLI",
+   "cat": "杂物",
+   "price": null,
+   "ic": "tablet",
+   "spec": "记各国捐粮捐物明细 · 圆桌会议核算余粮支援时的凭证 · 定期呈报教团总部核销",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "圆桌会议期间记录各国捐粮捐物明细的登记册，是核算余粮该如何支援北方难民时最重要的凭证，定期呈报教团总部核销。"
+  },
+  {
+   "k": "e18_north_relic_shard",
+   "cn": "北境遗物碎片",
+   "la": "FRAGMENTVM RELIQVIAE SEPTENTRIONALIS",
+   "cat": "杂物",
+   "price": null,
+   "ic": "stone",
+   "spec": "北方灭国废墟中拾得的器物碎片 · 来历不明 · 难民随身携带的最后念想",
+   "stack": 1,
+   "at": [
+    "SEMERIM",
+    "SIRIUS"
+   ],
+   "src": "原文·北方出现灭国 推定",
+   "lore": "北方灭国废墟中拾得的器物碎片，来历大多已无从考证，是许多南迁难民随身携带、舍不得丢弃的最后一点念想。"
+  },
+  {
+   "k": "e18_sirius_noble_boot",
+   "cn": "帝都贵族皮靴",
+   "la": "CALCEVS NOBILIS SIRII",
+   "cat": "衣物",
+   "price": 16,
+   "ic": "boot",
+   "spec": "软皮精制 · 鞋面缀小铜扣 · 帝都贵族日常穿着 · 不宜远行泥地",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星帝都贵族日常穿着的软皮靴，鞋面缀着几枚小铜扣，做工精细却不宜穿去泥泞的远行路上。",
+   "slot": "ped"
+  },
+  {
+   "k": "e18_sem_linen_robe",
+   "cn": "南境麻布长袍",
+   "la": "TOGA LINEA MERIDIONALIS",
+   "cat": "衣物",
+   "price": 10,
+   "ic": "robe",
+   "spec": "轻薄麻布 · 塞梅里姆百姓日常穿着 · 适应湿热气候 · 易皱需常打理",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "塞梅里姆百姓日常穿的轻薄麻布长袍，适应南方湿热气候，只是容易起皱，讲究人家要常拿熨斗打理。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_wal_fur_hat",
+   "cn": "山地毛皮帽",
+   "la": "PILEVS PELLICEVS MONTANVS",
+   "cat": "衣物",
+   "price": 7,
+   "ic": "headband",
+   "spec": "兽皮内衬绒毛 · 瓦拉几亚山民冬季标配 · 护耳设计",
+   "stack": 1,
+   "at": [
+    "WALLACHIA"
+   ],
+   "src": "ctx推定",
+   "lore": "瓦拉几亚山民冬季戴的毛皮帽，兽皮内衬绒毛还带护耳设计，是这个多山小国抵御严寒的寻常行头。",
+   "slot": "cap"
+  },
+  {
+   "k": "e18_steppa_felt_boot",
+   "cn": "游牧毡靴",
+   "la": "CALCEVS FELTATVS NOMADVM",
+   "cat": "衣物",
+   "price": 9,
+   "ic": "boot",
+   "spec": "厚毛毡缝制 · 草原游牧民防寒标配 · 不透水需勤晾晒",
+   "stack": 1,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "ctx推定",
+   "lore": "草原游牧民穿的厚毛毡靴，防寒效果极好，只是不透水，淋了雨雪要及时晾晒，否则容易发霉变形。",
+   "slot": "ped"
+  },
+  {
+   "k": "e18_let_bamboo_armor",
+   "cn": "鼠兽人竹甲",
+   "la": "LORICA HARVNDINEA LETKINIAE",
+   "cat": "防具",
+   "price": 12,
+   "ic": "armor",
+   "spec": "竹片编缀 · 轻便廉价 · 莱特基尼亚民兵标配 · 防御力有限",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚民兵所穿的竹片铠甲，轻便又廉价，防御力虽比不上正规军的鳞甲，胜在人人都能装备得起。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_bes_coral_ring",
+   "cn": "珊瑚戒",
+   "la": "ANVLVS CORALLINVS",
+   "cat": "衣物",
+   "price": 8,
+   "ic": "ring",
+   "spec": "海底珊瑚打磨 · 比斯蒂亚水手常见饰物 · 传说佩戴者不易溺水",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚水手常戴的珊瑚戒，海底珊瑚打磨而成，民间相传佩戴者不易溺水，实际效用无人细究，图的就是个心安。",
+   "slot": "sin"
+  },
+  {
+   "k": "e18_sag_work_gloves",
+   "cn": "矮人劳作手套",
+   "la": "CHIROTHECAE LABORIS NANORVM",
+   "cat": "衣物",
+   "price": 5,
+   "ic": "band",
+   "spec": "厚皮革缝制 · 矿道劳作防磨手 · 矮人人手一副",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人矿工劳作时戴的厚皮革手套，防止长年凿石磨破手掌，是矮人不论男女老少人手一副的基本装备。",
+   "slot": "sin"
+  },
+  {
+   "k": "e18_temple_acolyte_robe",
+   "cn": "教团见习祭袍",
+   "la": "VESTIS NOVITII TEMPLI",
+   "cat": "衣物",
+   "price": 9,
+   "ic": "robe",
+   "spec": "素白粗布 · 见习祭司标配 · 需通过考核方可换正式祭袍",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团见习祭司穿的素白粗布祭袍，需通过教团考核才能换上正式的祭袍，是许多年轻信众入教后的第一件衣物。",
+   "slot": "corp"
+  },
+  {
+   "k": "e18_sirius_street_lamp",
+   "cn": "街灯",
+   "la": "LVCERNA VICI SIRII",
+   "cat": "器物",
+   "price": 4,
+   "ic": "lamp",
+   "spec": "陶制油灯 · 帝都夜市悬挂照明 · 一次加满燃约四小时",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星帝都夜市悬挂用的陶制油灯，一次加满能燃四个时辰，是这座千年古都夜里最寻常的照明物件。"
+  },
+  {
+   "k": "e18_sem_parasol",
+   "cn": "遮阳伞",
+   "la": "VMBELLA SEMERIMENSIS",
+   "cat": "器物",
+   "price": 6,
+   "ic": "fan",
+   "spec": "油纸伞面竹骨 · 塞梅里姆百姓正午出门必备 · 亦可挡雨",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "塞梅里姆百姓出门必备的油纸伞，正午挡太阳，下雨天也能凑合挡雨，是这座南方都市家家户户都有的物件。"
+  },
+  {
+   "k": "e18_let_water_wheel_part",
+   "cn": "水车零件",
+   "la": "PARS RVOTAE AQVARIAE LETKINIAE",
+   "cat": "器物",
+   "price": null,
+   "ic": "gem",
+   "spec": "莱特基尼亚灌溉水车传动零件 · 损坏需专人修理 · 关乎水田灌溉效率",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚水田灌溉水车的传动零件，损坏了必须找专门的匠人修理，关系着大片水田的灌溉效率，是这个粮产丰饶国度背后的功臣。"
+  },
+  {
+   "k": "e18_bes_anchor_charm",
+   "cn": "船锚护符",
+   "la": "AMVLETVM ANCORAE",
+   "cat": "杂物",
+   "price": 6,
+   "ic": "pouch",
+   "spec": "小型铁锚造型护符 · 比斯蒂亚水手出海必戴 · 求航行平安",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚水手出海前必戴的小铁锚护符，图的是航行平安的彩头，是这个航海联合国最普遍的信俗。"
+  },
+  {
+   "k": "e18_sirius_town_bell",
+   "cn": "市政铜铃",
+   "la": "TINTINNABVLVM VRBIS",
+   "cat": "器物",
+   "price": null,
+   "ic": "bell",
+   "spec": "青铜铸造 · 市政通报紧急事态专用 · 平日不得随意敲响",
+   "stack": 1,
+   "at": [
+    "SIRIUS",
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星与塞梅里姆两地市政通报紧急事态时才敲响的青铜铃，平日绝不得随意敲动，一旦响起全城百姓都知道出了大事。"
+  },
+  {
+   "k": "e18_sag_root_veg",
+   "cn": "矿道根茎菜",
+   "la": "RADIX FODINALIS NANORVM",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "要塞地下阴湿处培育的根茎类作物 · 矮人日常蔬食 · 需煮熟食用",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人要塞地下阴湿处培育的根茎类作物，是他们日常难得的蔬食来源，生吃味道苦涩，需煮熟才好入口。",
+   "use": {
+    "act": "煮熟食用",
+    "eff": "解饥并补充维生素，是矮人要塞地下少有的蔬食来源"
+   }
+  },
+  {
+   "k": "e18_ygg_nut_porridge",
+   "cn": "精灵坚果粥",
+   "la": "PVLS NVCIS SILVANAE",
+   "cat": "吃食",
+   "price": 3,
+   "ic": "bowl",
+   "spec": "橡实磨粉煮粥 · 精灵森林日常主食之一 · 略带回甘",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "ctx推定",
+   "lore": "精灵用橡实磨粉煮成的粥，是伊格德拉希尔大森林日常主食之一，略带一点回甘，游侠远行前也常喝一碗垫肚子。",
+   "use": {
+    "act": "盛碗食用",
+    "eff": "解饥并带来回甘余味，是精灵森林日常主食之一"
+   }
+  },
+  {
+   "k": "e18_steppa_roast_mutton",
+   "cn": "草原烤羊肉",
+   "la": "CARO OVINA ASSA NOMADVM",
+   "cat": "吃食",
+   "price": 5,
+   "ic": "meat",
+   "spec": "整只羊架火慢烤 · 游牧部落宴客大菜 · 需数人分食",
+   "stack": 1,
+   "at": [
+    "STEPPA"
+   ],
+   "src": "ctx推定",
+   "lore": "草原游牧部落宴客时的大菜，整只羊架在火上慢烤，香气能飘出老远，通常需要好几个人才能分食完。",
+   "use": {
+    "act": "切下分食",
+    "eff": "解饥并补充大量体力，是游牧部落宴客时的大菜"
+   }
+  },
+  {
+   "k": "e18_wal_bean_stew",
+   "cn": "山地豆汤",
+   "la": "PVLS FABARVM MONTANA",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "soup",
+   "spec": "豆类与腌肉同煮 · 瓦拉几亚山地家常主食 · 耐存放可反复加热",
+   "stack": 1,
+   "at": [
+    "WALLACHIA"
+   ],
+   "src": "ctx推定",
+   "lore": "瓦拉几亚山地人家用豆类与腌肉同煮的浓汤，一锅能吃好几顿，反复加热也不坏味，是节省柴火的过日子智慧。",
+   "use": {
+    "act": "盛出加热食用",
+    "eff": "解饥暖身，可反复加热是山地人家节省柴火的智慧"
+   }
+  },
+  {
+   "k": "e18_sirius_fruit_tart",
+   "cn": "帝都果馅饼",
+   "la": "LIBVM FRVCTVOSVM SIRII",
+   "cat": "吃食",
+   "price": 4,
+   "ic": "cake",
+   "spec": "酥皮包裹时令果酱 · 帝都点心铺常见 · 价钱不菲",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星点心铺常见的果馅饼，酥皮包裹着时令果酱，价钱不算便宜，是寻常百姓家逢年过节才舍得买的一道甜点。",
+   "use": {
+    "act": "切块食用",
+    "eff": "解馋，是帝都点心铺里价钱不菲的一道甜点"
+   }
+  },
+  {
+   "k": "e18_bes_kelp_salad",
+   "cn": "兽人海藻凉拌",
+   "la": "FERCVLVM ALGARVM BESTIAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "greens",
+   "spec": "海藻焯水凉拌 · 比斯蒂亚渔家开胃小菜 · 佐醋食用",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚渔家用海藻焯水凉拌的小菜，佐一点醋提味，是渔家饭桌上常见的开胃菜，做法简单却百吃不厌。",
+   "use": {
+    "act": "佐醋食用",
+    "eff": "开胃解腻，是渔家饭桌上常见的一道小菜"
+   }
+  },
+  {
+   "k": "e18_sag_envoy_poultice",
+   "cn": "矮人跌打膏",
+   "la": "EMPLASTRVM CONTVSIONIS NANORVM",
+   "cat": "药",
+   "price": 5,
+   "ic": "paste",
+   "spec": "草药混矿物粉调制 · 矿道摔伤磕碰常用 · 矮人家家常备",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人用草药混矿物粉调制的跌打膏，矿道里摔伤磕碰是家常便饭，几乎每户矮人家里都常备这么一小盒。",
+   "use": {
+    "act": "涂抹于淤青处",
+    "eff": "消肿散瘀，是矮人矿工磕碰摔伤后最常用的药膏"
+   }
+  },
+  {
+   "k": "e18_ygg_sleep_herb",
+   "cn": "精灵安神香草",
+   "la": "HERBA SOPORIFERA SILVANA",
+   "cat": "药",
+   "price": 6,
+   "ic": "herb",
+   "spec": "森林特有香草晒干 · 燃烧助眠 · 精灵长夜静修常用 · 过量易致嗜睡",
+   "stack": 1,
+   "at": [
+    "YGGDRASIL"
+   ],
+   "src": "ctx推定",
+   "lore": "伊格德拉希尔大森林特有的香草晒干后燃烧能助眠安神，是精灵长夜静修时常用的东西，只是用多了容易嗜睡不醒。",
+   "use": {
+    "act": "晒干后小火燃烧",
+    "eff": "助眠安神，过量燃烧会导致嗜睡不易醒来"
+   }
+  },
+  {
+   "k": "e18_temple_eye_wash",
+   "cn": "净目药水",
+   "la": "COLLYRIVM TEMPLI",
+   "cat": "药",
+   "price": 3,
+   "ic": "flask",
+   "spec": "生命教团特制 · 缓解风沙入眼与轻微眼疾 · 各地驿站常备",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE",
+    "DESERTUM"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团特制的净目药水，缓解风沙入眼或轻微眼疾带来的不适，各地驿站常备，是沙漠商队与远行者最常求领的一味小药。",
+   "use": {
+    "act": "滴入眼中",
+    "eff": "缓解风沙入眼与轻微眼疾造成的不适"
+   }
+  },
+  {
+   "k": "e18_temple_bandage_roll",
+   "cn": "教团急救绷带",
+   "la": "FASCIA PRIMI AVXILII TEMPLI",
+   "cat": "消耗",
+   "price": 2,
+   "ic": "band",
+   "spec": "亚麻布煮沸消毒卷成条 · 生命教团各驿站常备 · 一卷可裹一处伤口",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团各地驿站常备的消毒绷带，亚麻布煮沸后卷成条状，是这个战乱频仍的时代最基础也最常用的医疗物资。",
+   "use": {
+    "act": "缠绕包扎伤口",
+    "eff": "止血并防止污物沾染，重伤仍需正式医治"
+   }
+  },
+  {
+   "k": "e18_sirius_firestarter",
+   "cn": "帝都火折子",
+   "la": "IGNITABVLVM SIRII",
+   "cat": "器物",
+   "price": 3,
+   "ic": "stone",
+   "spec": "硫磺浸纸卷筒 · 吹气即可复燃 · 帝都市集常见货品",
+   "stack": 1,
+   "at": [
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "天狼星市集常见的硫磺浸纸火折子，吹一口气便能复燃引火，是寻常百姓家中都备着的小物件。",
+   "use": {
+    "act": "吹气使其复燃引火",
+    "eff": "快速点燃灯烛或火把，受潮后需重新晒干"
+   }
+  },
+  {
+   "k": "e18_wal_warm_wine",
+   "cn": "山地暖酒",
+   "la": "VINVM CALIDVM WALLACHIAE",
+   "cat": "消耗",
+   "price": 4,
+   "ic": "winejar",
+   "spec": "葡萄酒加香料温煮 · 瓦拉几亚冬季常见 · 驱寒暖身",
+   "stack": 1,
+   "at": [
+    "WALLACHIA"
+   ],
+   "src": "ctx推定",
+   "lore": "瓦拉几亚冬季常见的暖酒，葡萄酒加香料温煮而成，驱寒暖身，是这个多山小国抵御严寒的寻常饮品。",
+   "use": {
+    "act": "温热饮用",
+    "eff": "驱寒暖身，是瓦拉几亚山地小国冬季常见的饮品"
+   }
+  },
+  {
+   "k": "e18_let_tea_cake",
+   "cn": "鼠兽人茶点",
+   "la": "LIBVM POTIONIS LETKINIAE",
+   "cat": "吃食",
+   "price": 2,
+   "ic": "cake",
+   "spec": "米粉混豆沙蒸制 · 莱特基尼亚午后茶点 · 甜而不腻",
+   "stack": 1,
+   "at": [
+    "LETKINIA"
+   ],
+   "src": "ctx推定",
+   "lore": "莱特基尼亚用米粉混豆沙蒸制的茶点，甜而不腻，是当地百姓午后小憩时常配茶吃的一道点心。",
+   "use": {
+    "act": "趁热食用",
+    "eff": "解馋提神，是莱特基尼亚百姓午后常吃的一道茶点"
+   }
+  },
+  {
+   "k": "e18_bes_conch_horn_oil",
+   "cn": "兽人号角润油",
+   "la": "OLEVM CORNV BESTIAE",
+   "cat": "器物",
+   "price": 3,
+   "ic": "flask",
+   "spec": "鱼油混蜂蜡调制 · 保养海螺号角防干裂 · 比斯蒂亚水手随身携带",
+   "stack": 1,
+   "at": [
+    "BESTIA"
+   ],
+   "src": "ctx推定",
+   "lore": "比斯蒂亚水手用来保养海螺号角的润油，鱼油混蜂蜡调制而成，防止号角在海风里干裂，是出海必带的小罐子。",
+   "use": {
+    "act": "涂抹于号角表面",
+    "eff": "防止海螺号角干裂受损，延长使用寿命"
+   }
+  },
+  {
+   "k": "e18_temple_healing_salve",
+   "cn": "教团愈伤膏",
+   "la": "VNGVENTVM SANATIONIS TEMPLI",
+   "cat": "药",
+   "price": 6,
+   "ic": "paste",
+   "spec": "草药混教团圣水调制 · 加速伤口愈合 · 各驿站常备分发",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团用草药混圣水调制的愈伤膏，涂抹伤口能加速愈合，是各地驿站分发赈济时最常搭配的一味药。",
+   "use": {
+    "act": "涂抹于伤口",
+    "eff": "加速伤口愈合，是生命教团各驿站常备分发的常用药"
+   }
+  },
+  {
+   "k": "e18_sag_mine_torch",
+   "cn": "矿用火把",
+   "la": "FAX FODINALIS NANORVM",
+   "cat": "器物",
+   "price": 3,
+   "ic": "torch",
+   "spec": "松脂浸透麻布卷 · 矿道照明专用 · 燃烧时烟雾较小",
+   "stack": 1,
+   "at": [
+    "SAGARMATHA"
+   ],
+   "src": "ctx推定",
+   "lore": "矮人矿道专用的火把，松脂浸透麻布卷成，特意调配过配方令燃烧时烟雾较小，免得在狭窄矿道里呛到作业的矿工。",
+   "use": {
+    "act": "点燃后插入岩缝",
+    "eff": "提供矿道照明，特意调配燃烧时烟雾较小以免呛人"
+   }
+  },
+  {
+   "k": "e18_sem_cool_fan_med",
+   "cn": "消暑药扇",
+   "la": "FLABELLVM MEDICATVM SEMERIMENSE",
+   "cat": "药",
+   "price": 4,
+   "ic": "fan",
+   "spec": "扇骨浸薄荷油 · 摇动时散发凉意 · 塞梅里姆百姓正午必备",
+   "stack": 1,
+   "at": [
+    "SEMERIM"
+   ],
+   "src": "ctx推定",
+   "lore": "塞梅里姆百姓正午外出必带的药扇，扇骨浸过薄荷油，摇动间便散出阵阵凉意，缓解南方正午的暑热难当。",
+   "use": {
+    "act": "摇动扇风",
+    "eff": "散发薄荷凉意缓解暑热，正午户外劳作时格外管用"
+   }
+  },
+  {
+   "k": "e18_north_cold_med",
+   "cn": "驱寒姜汤包",
+   "la": "FASCICVLVS ZINGIBERIS SEPTENTRIONALIS",
+   "cat": "药",
+   "price": 2,
+   "ic": "jar",
+   "spec": "干姜草药包 · 教团随赈灾粮附送 · 煮水饮用驱寒",
+   "stack": 1,
+   "at": [
+    "SEMERIM",
+    "SIRIUS"
+   ],
+   "src": "ctx推定",
+   "lore": "教团随赈灾粮一并发放给南迁难民的驱寒姜汤包，煮水饮下能驱散旅途风寒，是那段颠沛流离的日子里一点小小的温暖。",
+   "use": {
+    "act": "煮水饮用",
+    "eff": "驱散风寒，是教团随赈灾粮一并发放给北方难民的常用药"
+   }
+  },
+  {
+   "k": "e18_temple_scholar_lamp",
+   "cn": "教团抄经灯",
+   "la": "LVCERNA SCRIPTORII TEMPLI",
+   "cat": "器物",
+   "price": 5,
+   "ic": "lamp",
+   "spec": "陶灯配长灯芯 · 生命教团抄经房专用 · 光线柔和护眼 · 一次加满燃约五小时",
+   "stack": 1,
+   "at": [
+    "TEMPLUM VITAE"
+   ],
+   "src": "ctx推定",
+   "lore": "生命教团抄经房里用的陶灯，灯芯特意做长，光线柔和不刺眼，是教士与见习祭司夜里抄写经文时离不开的照明。"
+  }
+ ]
+}
