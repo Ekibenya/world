@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v102';
+const CACHE = 'guardian-dragon-art-v103';
 const CORE = [
   '/',
   '/index.html',
@@ -88,7 +88,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== location.origin) return;
   if (url.pathname.startsWith('/_vercel/') || url.pathname.startsWith('/cdn-cgi/')) return;
   // Media streams (range requests, mp3) go straight to the network: the cache layer cannot serve partial content.
-  if (/\.(mp3|ogg|m4a|wav|flac|mp4|webm)$/i.test(url.pathname) || request.headers.get('range')) return;
+  if (/\.(mp3|ogg|m4a|wav|flac|mp4|webm)$/i.test(url.pathname) || (request.headers && typeof request.headers.get === 'function' && request.headers.get('range'))) return;
   if (url.pathname.startsWith('/core/') && /\.(js|mjs)$/i.test(url.pathname)) {
     event.respondWith(loadScript(request));
     return;
