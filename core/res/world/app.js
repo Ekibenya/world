@@ -439,6 +439,11 @@ async function init() {
     window.WORLD_ANNALS = annalsRows();
     window.WORLD_UI = {
       enterEra(row) { state.eraIndex = Math.max(0, Number(row.i) - 1); chooseEra(); },
+      async ensureEra(ordinal) {
+        const idx = Math.max(0, Number(ordinal) - 1); const chosen = state.index?.eras?.[idx]; if (!chosen) throw new Error(`第 ${ordinal} 纪资料不存在。`);
+        const response = await fetch(`${DATA_ROOT}${chosen.bundle}`); if (!response.ok) throw new Error(`第 ${ordinal} 纪资料读取失败（${response.status}）`);
+        state.eraIndex = idx; state.era = await response.json(); state.era.image = chosen.image; await engineSetEra();
+      },
       showMenu, hideAll, systemCore, mountPanel: () => mountPlanet('panel'),
       snapshotExtra() { return { eraIndex: state.eraIndex, route: state.route, loc: state.loc, terrain: planet()?.strokes() || [], sites: planet()?.userSites?.() || [], cardId: state.cardId, companions: [...state.companions], custom: state.custom, player: state.player }; },
       async restoreExtra(extra) { const meta = state.index.eras[extra.eraIndex]; if (!meta) throw new Error('存档时代不存在。'); const response = await fetch(`${DATA_ROOT}${meta.bundle}`); if (!response.ok) throw new Error('存档时代资料读取失败。'); state.eraIndex = extra.eraIndex; state.era = await response.json(); state.era.image = meta.image; state.route = extra.route || 'preset'; state.loc = extra.loc || null; state.terrain = extra.terrain || null; state.sites = extra.sites || []; state.cardId = extra.cardId; state.companions = new Map(extra.companions || []); state.custom = extra.custom || {}; state.player = extra.player; state.error = ''; await engineSetEra(); },

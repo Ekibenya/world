@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v101';
+const CACHE = 'guardian-dragon-art-v102';
 const CORE = [
   '/',
   '/index.html',
@@ -16,8 +16,8 @@ const CORE = [
   '/core/res/vendor/three.r128.min.js',
   '/core/res/world/world-planet-map.js?v=46',
   '/core/res/world/visual-novel.js?v=14',
-  '/core/res/world/app.js?v=33',
-  '/core/res/world/engine.js?v=33',
+  '/core/res/world/app.js?v=34',
+  '/core/res/world/engine.js?v=34',
   '/core/res/world/storage-wipe.js?v=1',
   '/core/res/world/sonus.js?v=1',
   '/core/res/world/cosmos.js?v=4',
@@ -87,6 +87,8 @@ self.addEventListener('fetch', (event) => {
   try { url = new URL(request.url); } catch (_) { return; }
   if (url.origin !== location.origin) return;
   if (url.pathname.startsWith('/_vercel/') || url.pathname.startsWith('/cdn-cgi/')) return;
+  // Media streams (range requests, mp3) go straight to the network: the cache layer cannot serve partial content.
+  if (/\.(mp3|ogg|m4a|wav|flac|mp4|webm)$/i.test(url.pathname) || request.headers.get('range')) return;
   if (url.pathname.startsWith('/core/') && /\.(js|mjs)$/i.test(url.pathname)) {
     event.respondWith(loadScript(request));
     return;
@@ -101,7 +103,7 @@ self.addEventListener('fetch', (event) => {
     }).catch(() => caches.match(request).then((hit) => hit || Response.error())));
     return;
   }
-  event.respondWith(caches.match(request).then((hit) => {
+  event.respondWith(caches.match(request).catch(() => undefined).then((hit) => {
     const net = fetch(request).then((response) => {
       if (response && response.ok && response.type === 'basic' && cacheable(response)) {
         const copy = response.clone();

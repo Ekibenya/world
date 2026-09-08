@@ -2647,7 +2647,7 @@ function risuInvoke(messages,cb,err,opt){
     onPhase=function(ph){if(!fired)armTimer();if(_p)return _p(ph);};})();
   function fail(e){if(fired)return;fired=true;clearTimeout(timer);
     err(timedOut?('接口 '+Math.round(timeoutMs/1000)+' 秒没有动静，已中断'):felPublicError(e));}
-  (aux?felRisuBoot().then(function(risu){
+  (aux?felEnsureEra(_eraNow()||1).then(function(){return felRisuBoot();}).then(function(risu){
     var ei=_eraNow()||1;return felRisuPrompts().then(function(controls){controls.apply(SET.risu);
       return risu.activateEra(ei,felRisuNpcKeys(ei));
     }).then(function(){return risu;});
@@ -3582,6 +3582,15 @@ function felRisuPromptRender(view){
   $('#apiNsfwYes').disabled=false;$('#apiNsfwNo').disabled=false;
 }
 function felRisuPromptError(e){$('#apiMsg').textContent='NSFW 模式设置失败：'+felPublicError(e);}
+/* 请求哪一纪就得装着哪一纪。读老档、或在编年里逛过别的纪年再「继续」，装着的本纪和存档的
+   本纪就对不上，内核会报「FELINIA era N is not installed」。这里在激活前自检，不对就让壳层
+   按存档的纪年重新装一遍再走。 */
+function felEraInstalled(ei){ei=ei|0;if(!ei)return false;return !!(FE&&FE.eras&&FE.eras.some(function(e){return e&&(e.i|0)===ei;}));}
+function felEnsureEra(ei){
+  ei=ei|0;if(!ei||felEraInstalled(ei))return Promise.resolve();
+  if(window.WORLD_UI&&typeof WORLD_UI.ensureEra==='function')return Promise.resolve(WORLD_UI.ensureEra(ei));
+  return Promise.reject(new Error('第 '+ei+' 纪资料没有载入'));
+}
 function felRisuBoot(){
   if(FEL_RISU_BOOT)return FEL_RISU_BOOT;
   /* 失败的那一份不留：本纪资料是选定纪年之后才装的，开页时装不上是正常的。
@@ -3685,7 +3694,7 @@ function felRisuRegexScripts(){
   });
 }
 function felRisuPrepare(messages,options){
-  return felRisuBoot().then(function(risu){
+  return felEnsureEra(_eraNow()||1).then(function(){return felRisuBoot();}).then(function(risu){
     var ei=_eraNow()||1,system='',history=[];
     (messages||[]).forEach(function(message){
       if(message.role==='system'&&!system)system=String(message.content||'');
@@ -9705,12 +9714,17 @@ function gameExit(){
 }
 function gmapRefresh(){try{if(GAME.on&&GAME.mapOpen&&window.WORLD_UI&&window.WORLD_UI.mountPanel)window.WORLD_UI.mountPanel();}catch(_){}}
 function svLoad(v){
-  var w=v&&v.world;
+  var w=v&&v.world,fail=function(e){try{var m=$('#svCoreSub');if(m)m.textContent='读档失败：'+((e&&e.message)||e);}catch(_){}};
   if(w&&window.WORLD_UI&&window.WORLD_UI.restoreExtra){
-    window.WORLD_UI.restoreExtra(w).then(function(){svLoadCore(v);},function(e){
-      try{var m=$('#svCoreSub');if(m)m.textContent='读档失败：'+((e&&e.message)||e);}catch(_){}
-    });
-  }else svLoadCore(v);
+    window.WORLD_UI.restoreExtra(w).then(function(){svLoadCore(v);},fail);
+    return;
+  }
+  /* 没带壳层快照的老档：至少按它记的纪年把本纪资料装上，否则内核只认菜单里最后逛过的那一纪 */
+  var ei=(v&&v.op&&v.op.ei)|0;
+  if(ei&&!felEraInstalled(ei)&&window.WORLD_UI&&typeof WORLD_UI.ensureEra==='function'){
+    Promise.resolve(WORLD_UI.ensureEra(ei)).then(function(){svLoadCore(v);},fail);return;
+  }
+  svLoadCore(v);
 }
 /* 幕间乐：Desert Music Pack 六首完整曲目，按列表顺序连播 */
 BGM_LIST.splice(0,BGM_LIST.length,
