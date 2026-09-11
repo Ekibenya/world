@@ -219,6 +219,28 @@ function heroRule(name){
     ?(name+'的对白与心声可以由你代写来推动剧情：写她顺着眼前局面会说的话、会有的念头，严格贴合玩家已写出的人设与口吻，不得写成冷酷、装腔之类的刻板印象；她的重要决定、表态、承诺、去留仍归玩家，需要她做重要决定时停笔交还。玩家本回自己写了的话与 ~ 独白照抄，不改写。')
     :(name+'的台词、动作、决定，一个字都不许你写。');
 }
+/* 「AI代替我说话」开启后，散落在正典说明、状态栏协议、写作规则、卡片档案里的
+   各条「不得替玩家说话」也得跟着让路，否则模型仍以最严的那条为准。发请求前统一改写。 */
+var SPEAK_EDITS=[
+  ['不得替玩家说话、思考、接受关系、原谅、服从、杀人或作不可逆决定。','可代写玩家角色贴合人设的对白与心声；不得替玩家接受关系、原谅、服从、杀人或作不可逆决定。'],
+  ['并在玩家必须回应处停下','并在玩家必须做重要决定处停下'],
+  ['7. 正文绝不代替玩家角色说话、行动、决定或思考。','7. 正文可代写玩家角色贴合人设的对白与心声，但不得替她做重要决定。'],
+  ['不得替玩家角色说话、决定关系','可代写玩家角色贴合人设的对白与心声，但不得替其决定关系'],
+  ['不得越过需要玩家决定的位置或代写玩家','不得越过需要玩家决定的位置'],
+  ['或代写玩家来凑字数','来凑字数'],
+  ['不代写玩家，',''],
+  ['也不扩大代写玩家的权限','也不替玩家做重要决定'],
+  ['{{user}}控制角色没有被代写对白、心声、意图或后续选择','{{user}}控制角色的对白与心声贴合其人设，没有被代做重要决定'],
+  ['没有补写玩家未写的任何言行或内心','代写的玩家对白与心声贴合其人设与口吻，且没有替她做任何重要决定'],
+  ['她的性格由玩家在正文里一句一句写出来，你不得预设。','她的性格以玩家在正文里写出来的为准，代写时须贴合。'],
+  ['不得替玩家角色说话或描写玩家未输入的内心决定','可代写玩家角色贴合人设的对白与心声，不得替其做未输入的重要决定']
+];
+function speakFilter(t){
+  if(!speakMode())return t;
+  t=String(t==null?'':t);
+  SPEAK_EDITS.forEach(function(p){t=t.split(p[0]).join(p[1]);});
+  return t.replace(/绝不代替(.{1,16}?)说话、行动、决定、写内心。/g,'可代写$1贴合人设的对白与心声，但不得替她做重要决定。');
+}
 function felFinalCheck(){
   if(!speakMode())return FELINIA_FINAL_CHECK;
   return FELINIA_FINAL_CHECK.replace('一，是否逐字承接玩家本轮输入，没有补写玩家未写的任何言行或内心？','一，是否逐字承接玩家本轮输入，代写的玩家对白与心声是否贴合其人设与口吻，且没有替她做任何重要决定？');
@@ -2679,7 +2701,7 @@ function risuInvoke(messages,cb,err,opt){
     return risu.generate(Object.assign({provider:provider,signal:ac?ac.signal:undefined,
       minChars:Math.round(minChars),maxShortRetries:1,cognition:GAME.cognition,
       onPhase:onPhase,onDelta:noStream?undefined:onDelta},
-      FEL_RISU_NATIVE?FEL_RISU_NATIVE.generationOptions(minChars):{}));
+      (function(){var g=FEL_RISU_NATIVE?FEL_RISU_NATIVE.generationOptions(minChars):{};if(g&&g.planningNote)g.planningNote=speakFilter(g.planningNote);return g;})()));
   }).then(function(result){
     if(fired)return;fired=true;clearTimeout(timer);
     if(FEL_RISU_NATIVE)FEL_RISU_NATIVE.saveSession();
@@ -3578,7 +3600,7 @@ var FEL_RISU_NATIVE=null,FEL_RISU_NATIVE_READY=null,FEL_RISU_NATIVE_UI=null;
 function felRisuNative(){
   if(FEL_RISU_NATIVE_READY)return FEL_RISU_NATIVE_READY;
   FEL_RISU_NATIVE_READY=felRisuPrompts().then(function(){return Promise.all([
-    import('./risu-native-settings.mjs?v=public-labels-1'),import('./risu-native-ui.mjs?v=public-labels-2')
+    import('./risu-native-settings.mjs?v=public-labels-2'),import('./risu-native-ui.mjs?v=public-labels-3')
   ]);}).then(function(parts){
     return parts[0].createNativeSettings({load:function(name){return window.RisuHeadless.load(name);},
       getSettings:function(){return SET.risu;},save:function(){if(!lsSet('guardianDragonSet',JSON.stringify(SET)))throw new Error('设置未能保存：本机存储已满');if(typeof autoSave==='function')autoSave(true);},
@@ -3718,8 +3740,8 @@ function felRisuPrepare(messages,options){
   return felEnsureEra(_eraNow()||1).then(function(){return felRisuBoot();}).then(function(risu){
     var ei=_eraNow()||1,system='',history=[];
     (messages||[]).forEach(function(message){
-      if(message.role==='system'&&!system)system=String(message.content||'');
-      else history.push({role:message.role,content:options&&options.opening&&message.role==='user'?FEL_RISU_NATIVE.worldWritingText(message.content):String(message.content||''),
+      if(message.role==='system'&&!system)system=speakFilter(String(message.content||''));
+      else history.push({role:message.role,content:message.role==='system'?speakFilter(String(message.content||'')):(options&&options.opening&&message.role==='user'?speakFilter(FEL_RISU_NATIVE.worldWritingText(message.content)):String(message.content||'')),
         scanContent:message.scanContent==null?undefined:String(message.scanContent),name:message.name,
         memoryIndex:Number.isFinite(message.memoryIndex)?message.memoryIndex:undefined});
     });
@@ -5343,7 +5365,9 @@ $('#qkImg').addEventListener('click',function(){
 });
 (function(){var y=$('#apiSpeakYes'),n=$('#apiSpeakNo');if(!y||!n)return;
   y.checked=!!SET.speak;n.checked=!SET.speak;
-  [y,n].forEach(function(r){r.addEventListener('change',function(){if(!this.checked)return;SET.speak=this.value==='yes'?1:0;setStore();});});})();
+  [y,n].forEach(function(r){r.addEventListener('change',function(){if(!this.checked)return;SET.speak=this.value==='yes'?1:0;setStore();
+    /* 文风段写在角色的 depth_prompt 里，装局时才生成；切开关后当场重写一遍 */
+    try{if(FEL_RISU_NATIVE&&FEL_RISU_NATIVE.prepareWritingStyle)FEL_RISU_NATIVE.prepareWritingStyle();}catch(_){}});});})();
 ['#apiNsfwYes','#apiNsfwNo'].forEach(function(selector){
   $(selector).addEventListener('change',function(){
     if(!this.checked)return;
@@ -9819,6 +9843,7 @@ window.WORLD_ENGINE={
   openApi:apiOpen,openSaves:svOpen,exitDialog:function(){gDlgShow('#dlgExit');},
   apiReady:apiReady,apiMsg:function(m){var el=$('#apiMsg');if(el)el.textContent=m||'';},
   lore:function(){return (CARDS.luzhi&&CARDS.luzhi.lorebook)||[];},
+  speakMode:speakMode,speakFilter:speakFilter,
   panelRender:function(){try{if(GAME.lastPanel)renderMvu(GAME.lastPanel);}catch(_){}}
 };
 

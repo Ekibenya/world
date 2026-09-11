@@ -1,4 +1,4 @@
-import {clone,TASKS} from './risu-native-settings.mjs?v=public-labels-1';
+import {clone,TASKS} from './risu-native-settings.mjs?v=public-labels-2';
 const types={plain:'文本',jailbreak:'NSFW',cot:'思考',description:'角色描述',persona:'用户设定',lorebook:'世界书',chat:'聊天记录',authornote:'作者注释',memory:'记忆',postEverything:'末尾',chatML:'ChatML',cache:'缓存点'};
 const triggerModes={start:'生成前',input:'用户输入',output:'模型输出',manual:'手动',display:'显示',request:'请求'};
 const publicText=value=>String(value??'').replace(/risu/gi,'内置AI');

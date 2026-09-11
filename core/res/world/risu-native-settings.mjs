@@ -1,7 +1,7 @@
 /* World settings host for Risu 2026.8.250 (upstream e565563a).
  * Imports, execution, permissions and prompt parsing remain in the native engine.
  */
-import {applyWritingStyle,writingGenerationOptions,writingStyleSource,WORD_COUNT_PROMPT} from './dragon-writing-style.mjs?v=public-labels-1';
+import {applyWritingStyle,writingGenerationOptions,writingStyleSource,WORD_COUNT_PROMPT} from './dragon-writing-style.mjs?v=public-labels-2';
 import {WORLD_WRITING_RULES,worldRuleEnabled,filterWorldWriting,worldRuleOverrides} from './world-writing-rules.mjs?v=world-rules-1';
 export const clone = value => value == null ? value : JSON.parse(JSON.stringify(value));
 export const TASKS = {memory:'记忆摘要', translate:'翻译', emotion:'表情判断', otherAx:'其他辅助任务与剧情规划'};
@@ -34,7 +34,10 @@ export async function createNativeSettings({load,getSettings,save,getSession}) {
     if(process[hookKey])hooks.delete(process[hookKey]);
     const hook=(messages,task)=>{
       if(task!=='model'||!database.getCurrentCharacter()?.extentions?.felinia)return messages;
-      return [{role:'system',content:WORD_COUNT_PROMPT},...messages.filter(m=>!(m.role==='system'&&m.content===WORD_COUNT_PROMPT))];
+      // 「AI代替我说话」开启时，字数段里那句「不代写玩家」也要让路；引擎不在就原样用。
+      const filter=(typeof window!=='undefined'&&window.WORLD_ENGINE&&typeof window.WORLD_ENGINE.speakFilter==='function')?window.WORLD_ENGINE.speakFilter:(t=>t);
+      const prompt=filter(WORD_COUNT_PROMPT);
+      return [{role:'system',content:prompt},...messages.filter(m=>!(m.role==='system'&&(m.content===WORD_COUNT_PROMPT||m.content===prompt)))];
     };
     process[hookKey]=hook;hooks.add(hook);
   }

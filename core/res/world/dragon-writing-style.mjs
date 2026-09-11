@@ -42,7 +42,10 @@ export function applyWritingStyle(character,enabled=true,overrides='') {
   if(!saved)ext.worldWritingStyle={originalDepth:character.depth_prompt?copy(character.depth_prompt):null};
   character.extentions=ext;
   const original=ext.worldWritingStyle.originalDepth?.prompt;
-  character.depth_prompt={depth:0,prompt:[original,STYLE_PROMPT,overrides].filter(Boolean).join('\n\n')};
+  const text=[original,STYLE_PROMPT,overrides].filter(Boolean).join('\n\n');
+  // 「AI代替我说话」开启时，引擎会把文风里的「不代写玩家」等句改写；没有引擎就原样写入。
+  const filter=(typeof window!=='undefined'&&window.WORLD_ENGINE&&typeof window.WORLD_ENGINE.speakFilter==='function')?window.WORLD_ENGINE.speakFilter:(t=>t);
+  character.depth_prompt={depth:0,prompt:filter(text)};
 }
 
 export function writingGenerationOptions(enabled,minChars,settings={}) {
