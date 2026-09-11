@@ -406,7 +406,7 @@
         <div class="sRow"><span>严格&nbsp;OpenAI&nbsp;兼容</span><input type="checkbox" id="reStrict"></div>
         <div class="sRow"><span>自动补全请求路径</span><input type="checkbox" id="reAutoUrl"></div>
         <div class="sRow"><span>失败重试次数</span><input class="aIn" id="reRetries" inputmode="numeric" style="width:80px"></div>
-        <div class="sRow"><span>超时（秒）</span><input class="aIn" id="reTimeout" inputmode="numeric" style="width:80px"></div>
+        <div class="sRow"><span>无动静超时（秒·正式回合最低 120）</span><input class="aIn" id="reTimeout" inputmode="numeric" style="width:80px"></div>
         <div class="sRow"><span>停止字符串</span><textarea id="reStops" rows="3" placeholder="每行一个；不含在最终正文里"></textarea></div>
         <div class="sRow"><span>自动续写未完句</span><input type="checkbox" id="reAutoCont"></div>
         <div class="sRow"><span>少于多少&nbsp;tokens&nbsp;自动续写</span><input class="aIn" id="reAutoMin" inputmode="numeric" style="width:80px"></div>
@@ -830,11 +830,11 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=46"></script>
-  <script src="/core/res/world/engine.js?v=34"></script>
+  <script src="/core/res/world/engine.js?v=35"></script>
   <script src="/core/res/world/storage-wipe.js?v=1"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/cosmos.js?v=4"></script>
-  <script src="/core/res/world/visual-novel.js?v=14"></script>
+  <script src="/core/res/world/visual-novel.js?v=15"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>
   <script type="module" src="/core/res/runtime/risu/risu-headless.js?v=38"></script>
   <script type="module" src="/core/res/world/app.js?v=34"></script>

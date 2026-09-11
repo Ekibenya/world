@@ -8,12 +8,24 @@
     cv.width=im.naturalWidth||im.width;cv.height=im.naturalHeight||im.height;
     var g=cv.getContext('2d');if(g)g.drawImage(im,0,0);
   }
+  /* 立绘一张一两兆，走不稳的网络时常常一次拉不下来。原来没接 onerror：拉失败就留一块
+     什么都没画的空画布杵在台上。现在失败了隔一会儿换个查询串再拉，最多三次；
+     三次都不行就把这块画布收起来，宁可少一个人也不摆一块白板。 */
   function plate(cls,src,onload){
-    var cv=document.createElement('canvas');
+    var cv=document.createElement('canvas'),tries=0;
     if(cls)cv.className=cls;
-    var im=new Image();
-    im.onload=function(){pix(cv,im);if(onload)onload();};
-    im.src=src;
+    cv.width=0;cv.height=0;cv.style.visibility='hidden';
+    function attempt(){
+      var im=new Image();im.decoding='async';
+      im.onload=function(){pix(cv,im);cv.style.visibility='';if(onload)onload();};
+      im.onerror=function(){
+        tries++;
+        if(tries>=3){cv.style.display='none';try{console.warn('[visual-novel] 立绘加载失败',src);}catch(_){}return;}
+        setTimeout(attempt,900*tries);
+      };
+      im.src=tries?(src+(src.indexOf('?')>=0?'&':'?')+'r='+tries+'_'+Date.now()):src;
+    }
+    attempt();
     return cv;
   }
   var CAT_RX=/龙|龙鳞|龙翼|龙尾|龙角/;
