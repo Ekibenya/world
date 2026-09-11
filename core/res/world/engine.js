@@ -216,7 +216,7 @@ var REGIONS=[],CULT={},MODN={},MODROLES=[],QUIRKS=[];function regionAt(){return 
 function speakMode(){try{return !!(SET&&SET.speak);}catch(_){return false;}}
 function heroRule(name){
   return speakMode()
-    ?('你必须主动为'+name+'代写，不必等玩家先写：每一回正文里都要有她至少一句开口说的话和至少一段心声，写她顺着眼前局面会说的话、会有的念头，别人问她就答，严格贴合玩家已写出的人设与口吻，不得写成冷酷、装腔之类的刻板印象；她的重要决定、表态、承诺、去留仍归玩家，需要她做重要决定时停笔交还。玩家本回自己写了的话与 ~ 独白照抄不改，在其基础上续写她的反应。')
+    ?('你必须主动为'+name+'代写，不必等玩家先写：每一回正文里都要有她至少一句开口说的话和至少一段心声，写她顺着眼前局面会说的话、会有的念头，别人问她就答，严格贴合玩家已写出的人设与口吻，不得写成冷酷、装腔之类的刻板印象；她的重要决定、表态、承诺、去留仍归玩家，需要她做重要决定时停笔交还。玩家本回自己写了的话与 ~ 独白照抄不改，在其基础上续写她的反应。她是在场的行动者，与非玩家焦点当场交锋：别人说完她当场答，事情发生她当场反应或动手，并主动提出自己的打算与下一步；不许让任何人物在脑海里回放她刚才说过的话、对着记忆里的她说话——她就在场，直接对她说。')
     :(name+'的台词、动作、决定，一个字都不许你写。');
 }
 /* 「AI代替我说话」开启后，散落在正典说明、状态栏协议、写作规则、卡片档案里的
@@ -233,7 +233,11 @@ var SPEAK_EDITS=[
   ['{{user}}控制角色没有被代写对白、心声、意图或后续选择','{{user}}控制角色的对白与心声贴合其人设，没有被代做重要决定'],
   ['没有补写玩家未写的任何言行或内心','代写的玩家对白与心声贴合其人设与口吻，且没有替她做任何重要决定'],
   ['她的性格由玩家在正文里一句一句写出来，你不得预设。','她的性格以玩家在正文里写出来的为准，代写时须贴合。'],
-  ['不得替玩家角色说话或描写玩家未输入的内心决定','须主动代写玩家角色贴合人设的对白与心声，不得替其做未输入的重要决定']
+  ['不得替玩家角色说话或描写玩家未输入的内心决定','须主动代写玩家角色贴合人设的对白与心声，不得替其做未输入的重要决定'],
+  ['二，是否只有一个可直接显露内心的非玩家焦点','二，除玩家角色的心声外，是否只有一个可直接显露内心的非玩家焦点'],
+  ['先让此地正在发生的事碰到一名非玩家焦点','让玩家角色主动开口、行动、回应，与一名非玩家焦点当场交锋'],
+  ['先逐字承接玩家最后一句','先逐字承接玩家最后一句，并为玩家角色安排她本回主动说的话与主动做的事'],
+  ['beat 必须直接回应玩家最后一句','beat 必须直接回应玩家最后一句，并包含玩家角色本回主动的一句话与一个行动，不许人物在脑中回放她说过的话']
 ];
 function speakFilter(t){
   if(!speakMode())return t;
@@ -2701,7 +2705,8 @@ function risuInvoke(messages,cb,err,opt){
     return risu.generate(Object.assign({provider:provider,signal:ac?ac.signal:undefined,
       minChars:Math.round(minChars),maxShortRetries:1,cognition:GAME.cognition,
       onPhase:onPhase,onDelta:noStream?undefined:onDelta},
-      (function(){var g=FEL_RISU_NATIVE?FEL_RISU_NATIVE.generationOptions(minChars):{};if(g&&g.planningNote)g.planningNote=speakFilter(g.planningNote);return g;})()));
+      (function(){var g=FEL_RISU_NATIVE?FEL_RISU_NATIVE.generationOptions(minChars):{};if(g&&g.planningNote)g.planningNote=speakFilter(g.planningNote);
+        if(g&&typeof g.filterPlanning==='function'){var _fp=g.filterPlanning;g.filterPlanning=function(t){return speakFilter(_fp(t));};}return g;})()));
   }).then(function(result){
     if(fired)return;fired=true;clearTimeout(timer);
     if(FEL_RISU_NATIVE)FEL_RISU_NATIVE.saveSession();
