@@ -211,6 +211,18 @@ function eraExit(){ERA.on=false;mOv.classList.remove('era');menuScatter();MENU.t
 /* ============ 弱AI·NPC 生成器（无API，程序化）：年代+坐标 → 文化区 → 一批合时地的人物 ============ */
 /* 区域判定：按顺序首个命中的经纬盒；c=文化键 */
 var REGIONS=[],CULT={},MODN={},MODROLES=[],QUIRKS=[];function regionAt(){return null;}function genNPCs(){return [];}
+/* 「抢话」开关（连接 AI 弹窗）：不抢话＝玩家角色只由玩家说话（默认）；
+   抢话＝允许神谕代写玩家角色的对白与心声来推动剧情，但重要决定仍交还玩家。 */
+function speakMode(){try{return !!(SET&&SET.speak);}catch(_){return false;}}
+function heroRule(name){
+  return speakMode()
+    ?(name+'的对白与心声可以由你代写来推动剧情：写她顺着眼前局面会说的话、会有的念头，严格贴合玩家已写出的人设与口吻，不得写成冷酷、装腔之类的刻板印象；她的重要决定、表态、承诺、去留仍归玩家，需要她做重要决定时停笔交还。玩家本回自己写了的话与 ~ 独白照抄，不改写。')
+    :(name+'的台词、动作、决定，一个字都不许你写。');
+}
+function felFinalCheck(){
+  if(!speakMode())return FELINIA_FINAL_CHECK;
+  return FELINIA_FINAL_CHECK.replace('一，是否逐字承接玩家本轮输入，没有补写玩家未写的任何言行或内心？','一，是否逐字承接玩家本轮输入，代写的玩家对白与心声是否贴合其人设与口吻，且没有替她做任何重要决定？');
+}
 function heroName(){
   try{if(GAME.hero&&GAME.hero.n)return GAME.hero.n;}catch(_){}
   return opHeroName();
@@ -270,7 +282,7 @@ function heroSheet(){
       +'· 这张卡没有固定的主角。每一局的主角都是玩家在开局时立的，'
       +'世界书里那些有名有姓的人是这个世界里的别人，不是她的前身、真身或化名。\n'
       +'· 她的性格由玩家在正文里一句一句写出来，你不得预设。\n'
-      +'· 铁则一照旧：'+h.n+'的台词、动作、决定，一个字都不许你写。\n';
+      +'· 铁则一照旧：'+heroRule(h.n)+'\n';
   return '【本局主角·以此为准，压过卡中原有的主角设定】'
     +'玩家这一局扮演的不是'+C+'，而是「'+h.n+'」'
     +(h.g?('，出身'+h.g):'')+(h.a?('，'+h.a+'岁'):'')+(h.o?('，'+h.o):'')
@@ -279,7 +291,7 @@ function heroSheet(){
     +'这是一个普通人的故事，没有神格、没有隐藏身份，除非玩家自己写出来。\n'
     +'· 卡中【玩家角色档案】所述的容貌、性情、称谓、口头禅一概不适用于'+h.n
     +'；她的性格由玩家在正文里一句一句写出来，你不得预设。\n'
-    +'· 铁则一照旧：'+h.n+'的台词、动作、决定，一个字都不许你写。\n';
+    +'· 铁则一照旧：'+heroRule(h.n)+'\n';
 }
 /* 同一件事在结尾再钉一遍。【本局主角】那段排在最前，可它后面还压着一万多字
    关于卡中本尊的档案、世界书与文体铁则；模型对结尾的权重最高，只在开头说一次
@@ -303,12 +315,12 @@ function heroTail(){
     return '【落笔前最后一遍·本局主角】本局主角是「'+h.n+'」。'
       +'世界书里出现的人名都是这个世界里的别人，与她无关，也不是她的前身或真身。'
       +'镜头跟着'+h.n+'走，其余人等都是这个世界里的普通人。'
-      +h.n+'的台词、动作、决定，一个字都不许你写。';
+      +heroRule(h.n);
   return '【落笔前最后一遍·本局主角】本局主角是「'+h.n+'」，不是'+C+'。'
     +'上文一切关于'+C+'的档案、化名、口头禅、神格、专属自称（如「本座」）一概不适用于'+h.n+'；'
     +C+'不在本局登场，也不是'+h.n+'的前身或真身。'
     +'镜头跟着'+h.n+'走，其余人等都是这个世界里的普通人。'
-    +h.n+'的台词、动作、决定，一个字都不许你写。';
+    +heroRule(h.n);
 }
 var PSNPC={list:[],sel:-1};function psRenderNpcs(){}function psFieldsClear(){}function psShow(){}function psDocFill(){}function psOpenSite(){}function psOpenFree(){}function psOpenCustom(){}function eraPinchDist(){return 0;}
 function linesEnabled(){return ['world'];}
@@ -631,7 +643,7 @@ function gameEnter(lineOverride){
   }
   risuInvoke(
     [{role:'system',content:FELINIA_AUTHOR_NOTE+'\n\n'+FELINIA_NPC_ENGINE+'\n\n'+FELINIA_VOICE_EXAMPLE+'\n\n'
-       +condereSys(line,yl+' '+cn+' '+nm)+'\n\n'+FELINIA_FINAL_CHECK},
+       +condereSys(line,yl+' '+cn+' '+nm)+'\n\n'+felFinalCheck()},
      {role:'user',content:condereAsk(line,y,nm,cn)}],
     function(reply,meta){
       BUSY=false;genClose();
@@ -2339,7 +2351,7 @@ function povBind(){
     +'话里多出来或者少掉的一个字。她想什么，只许出现在状态栏 ◈行 的「心声」一格里。\n'
     +'· 卡中「'+C+'嘴上端庄、括号里脏」那一条，本局改成：'
     +'那层落差只写在她的言行外观上，不写进正文的括号里。\n'
-    +'· 铁则一照旧：'+H+'的台词、动作、决定，一个字都不许你写。\n';
+    +'· 铁则一照旧：'+heroRule(H)+'\n';
 }
 function povTail(){
   var H=povHero();if(!H)return '';
@@ -2347,7 +2359,7 @@ function povTail(){
   return '【落笔前最后一遍·本局视点】本局是'+H+'的视点，不是'+C+'的。'
     +'（）与【】只属于'+H+'；'+C+'与其余所有人一概只从外面写——看得见、听得见、闻得见的那一部分。'
     +'一幕里出现第二个人的内心独白，就是写错了。'
-    +H+'的台词、动作、决定，一个字都不许你写。';
+    +heroRule(H);
 }
 /* ── 纪年闸门 ────────────────────────────────────────────────
    铁则五、六把金链、四丈、焚书、沙丘一并当作既成事实讲给模型听，可是这张卡的开局
@@ -2598,7 +2610,7 @@ function sysPrompt(){
     abacusBand(),                      /* 她标价的单位跟着位置走，不是一路数到底 */
     mvuSpec(),
     modeSpec(),
-    ACTIVE==='luzhi'?FELINIA_FINAL_CHECK:
+    ACTIVE==='luzhi'?felFinalCheck():
       ('【每回自查】'+heroRebind(felStripLegacyMeowRule(G.post_history_instructions||''))),
     minc,
     presetHead(),
@@ -2734,12 +2746,15 @@ function buildOracleMsgs(){
       hist[_i].scanContent=stripMvu(hist[_i].scanContent);
     }
   var finalCheck='【本回合不可侵犯的游戏边界】'
-    +'\n【铁则一·压倒一切，高于任何文体规范】'+(heroName())
-    +'的台词、动作、决定，一个字都不许你写。需要她表态时，把场面推到她面前，停笔，交还玩家。'
-    +'\n唯一例外：状态栏 <mvu_panel> 里的 ◆心声 那一行——玩家这回写了 ~ 独白就照抄，'
-    +'没写就据本幕处境写一句新的（每幕不同，不许照抄上一幕）。'
-    +'正文里依旧不许出现她的内心独白，那一句只能待在状态栏那一行里。'
-    +'\n'+MEOW_RULE+'\n'+FELINIA_FINAL_CHECK;
+    +(speakMode()
+      ?('\n【铁则一·压倒一切，高于任何文体规范】玩家已开启「抢话」：'+heroRule(heroName())
+        +'\n状态栏 <mvu_panel> 里的 ◆心声 那一行照旧：玩家这回写了 ~ 独白就照抄，没写就据本幕处境写一句新的（每幕不同，不许照抄上一幕）。')
+      :('\n【铁则一·压倒一切，高于任何文体规范】'+(heroName())
+        +'的台词、动作、决定，一个字都不许你写。需要她表态时，把场面推到她面前，停笔，交还玩家。'
+        +'\n唯一例外：状态栏 <mvu_panel> 里的 ◆心声 那一行——玩家这回写了 ~ 独白就照抄，'
+        +'没写就据本幕处境写一句新的（每幕不同，不许照抄上一幕）。'
+        +'正文里依旧不许出现她的内心独白，那一句只能待在状态栏那一行里。'))
+    +'\n'+MEOW_RULE+'\n'+felFinalCheck();
   /* 所有 system 内容都放在第一条。兼容接口常要求最后一条必须是 user；旧代码在玩家
      输入后又塞一条 system，部分中转会忽略玩家输入或只回三行。 */
   var msgs=[{role:'system',content:sysPrompt()+'\n\n'+finalCheck}];
@@ -3449,7 +3464,7 @@ $('#gtFull').addEventListener('click',function(){
   else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();
 });
 /* ============ 设置·控制中枢（12页签，代码级对齐 Ghost setBody） ============ */
-var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,
+var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,speak:0,
   tts:{src:0,base:'',key:'',model:'tts-1',voice:'',rate:105,scope:0,auto:0},
   img:{on:0,base:'',key:'',model:'',size:0,style:0},   /* style 0 ＝ NovelAI，见 IMGSTY */
   sub:{format:'openai',base:'',key:'',model:''},
@@ -3472,7 +3487,7 @@ try{var _s=JSON.parse(localStorage.getItem('guardianDragonSet')||'{}');
    「绘此幕」点了整个函数当场中断、毫无反应；cam/disp 为 undefined 则查表得 undefined，
    提示词里混进字面量「undefined」、图片显示宽度失效。这就是「设置里某些项目不作用」。 */
 (function(){
-  var D={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,
+  var D={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,speak:0,
     tts:{src:0,base:'',key:'',model:'tts-1',voice:'',rate:105,scope:0,auto:0},
     img:{on:0,auto:0,count:0,cam:0,disp:2,base:'',key:'',model:'',size:0,style:0,
          steps:'',cfg:'',w:'',h:'',seed:'',workflow:''},
@@ -5326,6 +5341,9 @@ $('#qkImg').addEventListener('click',function(){
   applyCfg();gDlgShow('#dlgCfg');
   var tb=document.querySelector('#cfgTabs span[data-cp="img"]');if(tb)tb.click();
 });
+(function(){var y=$('#apiSpeakYes'),n=$('#apiSpeakNo');if(!y||!n)return;
+  y.checked=!!SET.speak;n.checked=!SET.speak;
+  [y,n].forEach(function(r){r.addEventListener('change',function(){if(!this.checked)return;SET.speak=this.value==='yes'?1:0;setStore();});});})();
 ['#apiNsfwYes','#apiNsfwNo'].forEach(function(selector){
   $(selector).addEventListener('change',function(){
     if(!this.checked)return;
@@ -9678,7 +9696,7 @@ function sysPrompt(){
     (function(){if(typeof npcFavorDigest!=='function')return '';var _fd=npcFavorDigest();return _fd?('【人物好感·续记（不得健忘）】以下为曾登场人物最近一次的好感度与近况。他们即便暂时离场，好感与关系也须延续：\n'+_fd):'';})(),
     mvuSpec(),
     modeSpec(),
-    FELINIA_FINAL_CHECK,
+    felFinalCheck(),
     minc,
     presetHead(),
     heroTail(),
