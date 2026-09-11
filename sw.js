@@ -1,4 +1,4 @@
-const CACHE = 'guardian-dragon-art-v106';
+const CACHE = 'guardian-dragon-art-v107';
 const CORE = [
   '/',
   '/index.html',
@@ -29,8 +29,8 @@ const CORE = [
   '/core/res/world/world-writing-rules.mjs?v=world-rules-1',
   '/core/res/world/dragon-writing-style-data.mjs?v=world-rules-1',
   '/core/res/world/risu-native-ui.mjs?v=public-labels-2',
-  '/core/res/runtime/risu/risu-headless.js?v=38',
-  '/core/res/runtime/risu/feliniaGame-Do_6xMRR.js?v=world-rules-1',
+  '/core/res/runtime/risu/risu-headless.js?v=39',
+  '/core/res/runtime/risu/feliniaGame-Do_6xMRR.js?v=world-rules-2',
   '/core/res/world/risu-trigger-schema.json',
   '/core/res/world/risu-model-list.json',
   '/core/res/data/world/index.json',

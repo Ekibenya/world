@@ -17,7 +17,7 @@ var e = {
 	stores: () => import("./stores.svelte-MIgqTXU-.js"),
 	prompt: () => import("./prompt-tJGLppwO.js"),
 	translator: () => import("./translator-ZJudJtf-.js"),
-	feliniaGame: () => import("./feliniaGame-Do_6xMRR.js?v=world-rules-1")
+	feliniaGame: () => import("./feliniaGame-Do_6xMRR.js?v=world-rules-2")
 }, t = /* @__PURE__ */ new Map();
 function n(n) {
 	let r = t.get(n);

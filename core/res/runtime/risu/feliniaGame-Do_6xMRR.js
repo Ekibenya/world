@@ -1031,6 +1031,8 @@ async function Q(e = {}) {
 	f ||= Ae(e.cognition, d), e.onPhase?.("writing");
 	let p = ke(f), m = c.text ? `${a}\n\n${c.text}\n\n${p}` : `${a}\n\n${p}`;
 	n.systemPrompt = m, t.database.setCurrentCharacter(n);
+	let $db = t.database.getDatabase(), $tplBackup = $db.promptTemplate;
+	Array.isArray($tplBackup) && ($db.promptTemplate = felTemplateWithRules($tplBackup, m));
 	let h = Math.max(0, Math.round(e.minChars || 0)), g = Math.max(0, Math.min(1, Math.round(e.maxShortRetries ?? 1))), _ = Math.max(1, g), v = r.message.slice(0, i).filter((e) => e.role === "char").slice(-3).map((e) => q(e.data));
 	t.process.doingChat.set(!1);
 	let y = q(n.chats[n.chatPage].message.at(-1)?.data || ""), b;
@@ -1043,7 +1045,7 @@ async function Q(e = {}) {
 	try {
 		let a, c, l = f, u = "";
 		for (let s = 0; s <= _; s++) {
-			if (s > 0 && (r.message = r.message.slice(0, i), n.systemPrompt = `${m}\n\n${u}`, t.database.setCurrentCharacter(n), y = q(r.message.at(-1)?.data || "")), t.process.doingChat.set(!1), !await t.process.sendChat(-1, {
+			if (s > 0 && (r.message = r.message.slice(0, i), n.systemPrompt = `${m}\n\n${u}`, t.database.setCurrentCharacter(n), Array.isArray($tplBackup) && ($db.promptTemplate = felTemplateWithRules($tplBackup, n.systemPrompt)), y = q(r.message.at(-1)?.data || "")), t.process.doingChat.set(!1), !await t.process.sendChat(-1, {
 				signal: e.signal,
 				preview: e.preview
 			})) {
@@ -1099,8 +1101,26 @@ async function Q(e = {}) {
 			cognition: l
 		};
 	} finally {
-		n.systemPrompt = a, o && (o.palaceRecallActive = !1, n.extentions.felinia = o), t.database.setCurrentCharacter(n), b && clearInterval(b), t.process.doingChat.set(!1);
+		Array.isArray($tplBackup) && ($db.promptTemplate = $tplBackup), n.systemPrompt = a, o && (o.palaceRecallActive = !1, n.extentions.felinia = o), t.database.setCurrentCharacter(n), b && clearInterval(b), t.process.doingChat.set(!1);
 	}
+}
+/* 提示模板模式下运行时只按模板条目拼提示词，从不读角色的 systemPrompt——也就是整套游戏规则。
+   这里每次请求临时派生一份模板：把规则填进第一条「主提示词」（有 {{original}} 就替换，
+   有文字就放在其前，空的就直接填），没有这条就补在最前。请求结束恢复原模板，不写回预设。 */
+function felTemplateWithRules(list, rules) {
+	let out = [], done = !1;
+	for (let raw of list) {
+		if (!raw || raw.felAdded) continue;
+		let item = { ...raw };
+		if (item.felText !== void 0) item.text = item.felText, delete item.felText;
+		if (!done && item.type === "plain" && item.type2 === "main") {
+			let text = String(item.text || "");
+			item.felText = text, item.text = text.includes("{{original}}") ? text.replaceAll("{{original}}", rules) : text.trim() ? `${rules}\n\n${text}` : rules, done = !0;
+		}
+		out.push(item);
+	}
+	done || out.unshift({ type: "plain", type2: "main", role: "system", text: rules, felAdded: !0 });
+	return out;
 }
 async function $(e) {
 	let t = await L();
