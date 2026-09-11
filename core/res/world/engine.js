@@ -211,8 +211,8 @@ function eraExit(){ERA.on=false;mOv.classList.remove('era');menuScatter();MENU.t
 /* ============ 弱AI·NPC 生成器（无API，程序化）：年代+坐标 → 文化区 → 一批合时地的人物 ============ */
 /* 区域判定：按顺序首个命中的经纬盒；c=文化键 */
 var REGIONS=[],CULT={},MODN={},MODROLES=[],QUIRKS=[];function regionAt(){return null;}function genNPCs(){return [];}
-/* 「抢话」开关（连接 AI 弹窗）：不抢话＝玩家角色只由玩家说话（默认）；
-   抢话＝允许AI代写玩家角色的对白与心声来推动剧情，但重要决定仍交还玩家。 */
+/* 「AI代替我说话」开关（连接 AI 弹窗）：禁止＝玩家角色只由玩家说话（默认）；
+   允许＝允许AI代写玩家角色的对白与心声来推动剧情，但重要决定仍交还玩家。 */
 function speakMode(){try{return !!(SET&&SET.speak);}catch(_){return false;}}
 function heroRule(name){
   return speakMode()
@@ -2747,7 +2747,7 @@ function buildOracleMsgs(){
     }
   var finalCheck='【本回合不可侵犯的游戏边界】'
     +(speakMode()
-      ?('\n【铁则一·压倒一切，高于任何文体规范】玩家已开启「抢话」：'+heroRule(heroName())
+      ?('\n【铁则一·压倒一切，高于任何文体规范】玩家已开启「AI代替我说话」：'+heroRule(heroName())
         +'\n状态栏 <mvu_panel> 里的 ◆心声 那一行照旧：玩家这回写了 ~ 独白就照抄，没写就据本幕处境写一句新的（每幕不同，不许照抄上一幕）。')
       :('\n【铁则一·压倒一切，高于任何文体规范】'+(heroName())
         +'的台词、动作、决定，一个字都不许你写。需要她表态时，把场面推到她面前，停笔，交还玩家。'

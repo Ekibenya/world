@@ -570,8 +570,8 @@
     <div class="sRow" id="apiModelsRow" style="display:none"><span>可用模型</span><select id="apiModels" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"></select></div>
     <div class="sRow"><span>推理强度</span><select id="apiReason" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"><option value="0">关闭</option><option value="1" selected>低（默认）</option><option value="2">中</option><option value="3">高</option></select></div>
     <div class="sRow"><span id="apiNsfwLabel">是否开启NSFW模式？</span><span role="group" aria-labelledby="apiNsfwLabel" style="display:flex;gap:18px"><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiNsfw" id="apiNsfwYes" value="yes" disabled>YES</label><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiNsfw" id="apiNsfwNo" value="no" checked disabled>NO</label></span></div>
-    <div class="sRow"><span id="apiSpeakLabel">AI替玩家角色说话？</span><span role="group" aria-labelledby="apiSpeakLabel" style="display:flex;gap:18px"><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakNo" value="no" checked>不抢话</label><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakYes" value="yes">抢话</label></span></div>
-    <div class="sub">不抢话：玩家角色的台词、动作、决定只由玩家写。抢话：允许AI代写玩家角色的对白与心声来推动剧情，须贴合玩家写出的人设，重要决定仍交还玩家。</div>
+    <div class="sRow"><span id="apiSpeakLabel">AI替玩家角色说话？</span><span role="group" aria-labelledby="apiSpeakLabel" style="display:flex;gap:18px"><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakNo" value="no" checked>禁止AI代替我说话</label><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakYes" value="yes">AI代替我说话</label></span></div>
+    <div class="sub">禁止AI代替我说话：玩家角色的台词、动作、决定只由玩家写。AI代替我说话：允许AI代写玩家角色的对白与心声来推动剧情，须贴合玩家写出的人设，重要决定仍交还玩家。</div>
     <div class="sRow"><span>生图接口（可选）</span><input class="aIn" id="apiImg" placeholder="https://…（暂存配置）" style="width:280px"></div>
     <div style="display:flex;gap:12px;margin-top:22px">
       <span class="eBtn" id="apiTest">PROBARE&nbsp;测试</span>
@@ -832,7 +832,7 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=46"></script>
-  <script src="/core/res/world/engine.js?v=39"></script>
+  <script src="/core/res/world/engine.js?v=40"></script>
   <script src="/core/res/world/storage-wipe.js?v=1"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/cosmos.js?v=4"></script>
