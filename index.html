@@ -98,7 +98,7 @@
   <div class="gTop">
     <span class="gLoc" id="gLoc"></span>
     <span class="gTools">
-      <span class="gt" id="gtSnd" title="MVSICA · 幕间乐 播放/暂停"><svg viewBox="0 0 24 24"><path d="M9 18V5.5L19 4v12.5"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg></span><span class="gt" id="gtVoc" title="VOCES · 密语频道"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-4 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span><span class="gt" id="gtApi" title="ORACVLVM · 接入神谕（AI）"><svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6z"/><circle cx="12" cy="12" r="2.6"/></svg></span><span class="gt" id="gtCfg" title="CFG · 设置"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2"/><circle cx="15.5" cy="12" r="2"/><circle cx="7" cy="17" r="2"/></svg></span><span class="gt" id="gtBook" title="LIBER · 世界书"><svg viewBox="0 0 24 24"><path d="M12 6c-2-1.6-4.6-2-8-2v14c3.4 0 6 .4 8 2 2-1.6 4.6-2 8-2V4c-3.4 0-6 .4-8 2z"/><path d="M12 6v14"/></svg></span><span class="gt" id="gtSave" title="SERVA · 存档"><svg viewBox="0 0 24 24"><path d="M4 4h13l3 3v13H4z"/><path d="M8 4v5h8V4M8 20v-6h8v6"/></svg></span><span class="gt" id="gtFull" title="全屏"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg></span><span class="gt" id="gtExit" title="EXIT · 离开棋局"><svg viewBox="0 0 24 24"><path d="M14 4H5v16h9"/><path d="M10 12h11M17 8l4 4-4 4"/></svg></span>
+      <span class="gt" id="gtSnd" title="MVSICA · 幕间乐 播放/暂停"><svg viewBox="0 0 24 24"><path d="M9 18V5.5L19 4v12.5"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/></svg></span><span class="gt" id="gtVoc" title="VOCES · 密语频道"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-4 4z"/><path d="M8 9.5h8M8 12.5h5"/></svg></span><span class="gt" id="gtApi" title="ORACVLVM · 接入AI"><svg viewBox="0 0 24 24"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6z"/><circle cx="12" cy="12" r="2.6"/></svg></span><span class="gt" id="gtCfg" title="CFG · 设置"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/><circle cx="9" cy="7" r="2"/><circle cx="15.5" cy="12" r="2"/><circle cx="7" cy="17" r="2"/></svg></span><span class="gt" id="gtBook" title="LIBER · 世界书"><svg viewBox="0 0 24 24"><path d="M12 6c-2-1.6-4.6-2-8-2v14c3.4 0 6 .4 8 2 2-1.6 4.6-2 8-2V4c-3.4 0-6 .4-8 2z"/><path d="M12 6v14"/></svg></span><span class="gt" id="gtSave" title="SERVA · 存档"><svg viewBox="0 0 24 24"><path d="M4 4h13l3 3v13H4z"/><path d="M8 4v5h8V4M8 20v-6h8v6"/></svg></span><span class="gt" id="gtFull" title="全屏"><svg viewBox="0 0 24 24"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg></span><span class="gt" id="gtExit" title="EXIT · 离开棋局"><svg viewBox="0 0 24 24"><path d="M14 4H5v16h9"/><path d="M10 12h11M17 8l4 4-4 4"/></svg></span>
     </span>
   </div>
 
@@ -173,7 +173,7 @@
           <div class="wmRow wmSliders"><label>笔刷<input id="wmSize" type="range" min="0" max="100" step="1" value="35"><b id="wmSizeV"></b></label><label>力度<input id="wmStr" type="range" min="1" max="10" step="1" value="5"><b id="wmStrV"></b></label></div>
           <div id="wmStats"></div>
           <div class="wmRow wmActs"><button type="button" id="wmUndo">撤销</button><button type="button" id="wmReset">全部还原</button><button type="button" id="wmCancel">取消</button><button type="button" id="wmApply">确认修改地形</button></div>
-          <div class="wmHint">拖动雕刻 · 右键或双指转动 · 滚轮缩放 · [ ] 调笔刷 · 确认后改动会作为世界事件交给神谕</div>
+          <div class="wmHint">拖动雕刻 · 右键或双指转动 · 滚轮缩放 · [ ] 调笔刷 · 确认后改动会作为世界事件交给AI</div>
         </div>
         <div id="worldMapStatus">同一世界 · 正典地理载入中</div>
         <div id="worldMapDetail"><b>世界地图</b><p>正在读取本书的大陆、国家与地点。</p></div>
@@ -315,7 +315,7 @@
         <div class="sRow"><span>次级关键词（可选·须同时命中）</span><input class="aIn" id="lfKeys2" style="width:180px"></div>
         <div class="sRow"><span>顺序&nbsp;/&nbsp;概率%</span><span style="display:flex;gap:8px"><input class="aIn" id="lfOrd" value="100" style="width:60px"><input class="aIn" id="lfProb" value="100" style="width:60px"></span></div>
         <div class="sRow"><span>常驻（每轮必注入）</span><span class="sSeg" id="sgLfConst"><span class="on">否</span><span>是</span></span></div>
-        <textarea id="lfTxt" rows="4" placeholder="写给神谕看的背景资料…" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
+        <textarea id="lfTxt" rows="4" placeholder="写给AI看的背景资料…" style="width:100%;margin-top:8px;background:transparent;border:1px solid rgba(19,18,13,.2);color:#efe4c8;font-family:inherit;font-size:10px;line-height:1.9;padding:8px;outline:none"></textarea>
         <div style="display:flex;gap:12px;margin-top:10px"><span class="eBtn" id="lfSave" style="margin-top:0">保存</span><span class="eBtn" id="lfCancel" style="margin-top:0">取消</span></div>
       </div>
     </div>
@@ -561,7 +561,7 @@
 <div class="gDlg" id="dlgApi">
   <div class="box">
     <span class="tag">ORACVLVM</span>
-    <h2>接入神谕&nbsp;·&nbsp;连接AI</h2>
+    <h2>接入AI&nbsp;·&nbsp;连接模型</h2>
     <div class="sub">选择接口协议&nbsp;·&nbsp;配置只存在本浏览器</div>
     <div class="sRow"><span>接口类型</span><select id="apiFormat" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"><option value="openai">OpenAI&nbsp;兼容（含&nbsp;Gemini&nbsp;CLI）</option><option value="responses">OpenAI&nbsp;Responses</option><option value="anthropic">Anthropic&nbsp;原生</option><option value="gemini">Google&nbsp;Gemini&nbsp;原生</option><option value="mistral">Mistral&nbsp;原生</option><option value="ollama">Ollama&nbsp;原生</option></select></div>
     <div class="sRow"><span>BASE&nbsp;URL</span><input class="aIn" id="apiBase" placeholder="https://api.example.com/v1" style="width:280px"></div>
@@ -570,8 +570,8 @@
     <div class="sRow" id="apiModelsRow" style="display:none"><span>可用模型</span><select id="apiModels" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"></select></div>
     <div class="sRow"><span>推理强度</span><select id="apiReason" style="background:#e9e3d6;border:1px solid rgba(19,18,13,.2);color:var(--gold-hi);font-family:inherit;font-size:10px;padding:6px;max-width:280px"><option value="0">关闭</option><option value="1" selected>低（默认）</option><option value="2">中</option><option value="3">高</option></select></div>
     <div class="sRow"><span id="apiNsfwLabel">是否开启NSFW模式？</span><span role="group" aria-labelledby="apiNsfwLabel" style="display:flex;gap:18px"><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiNsfw" id="apiNsfwYes" value="yes" disabled>YES</label><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiNsfw" id="apiNsfwNo" value="no" checked disabled>NO</label></span></div>
-    <div class="sRow"><span id="apiSpeakLabel">神谕替玩家角色说话？</span><span role="group" aria-labelledby="apiSpeakLabel" style="display:flex;gap:18px"><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakNo" value="no" checked>不抢话</label><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakYes" value="yes">抢话</label></span></div>
-    <div class="sub">不抢话：玩家角色的台词、动作、决定只由玩家写。抢话：允许神谕代写玩家角色的对白与心声来推动剧情，须贴合玩家写出的人设，重要决定仍交还玩家。</div>
+    <div class="sRow"><span id="apiSpeakLabel">AI替玩家角色说话？</span><span role="group" aria-labelledby="apiSpeakLabel" style="display:flex;gap:18px"><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakNo" value="no" checked>不抢话</label><label style="display:flex;align-items:center;gap:5px;cursor:pointer"><input type="radio" name="apiSpeak" id="apiSpeakYes" value="yes">抢话</label></span></div>
+    <div class="sub">不抢话：玩家角色的台词、动作、决定只由玩家写。抢话：允许AI代写玩家角色的对白与心声来推动剧情，须贴合玩家写出的人设，重要决定仍交还玩家。</div>
     <div class="sRow"><span>生图接口（可选）</span><input class="aIn" id="apiImg" placeholder="https://…（暂存配置）" style="width:280px"></div>
     <div style="display:flex;gap:12px;margin-top:22px">
       <span class="eBtn" id="apiTest">PROBARE&nbsp;测试</span>
@@ -695,7 +695,7 @@
     <h2>此刻的场面</h2>
     <div class="sub" id="prSub"></div>
     <div class="prNote">开局那一幕从哪儿起？谁在场、正在发生什么、你刚做了什么、或刚被卷进什么。<br>
-      留空亦可——神谕会按你选的年代与地点自拟一幕。</div>
+      留空亦可——AI会按你选的年代与地点自拟一幕。</div>
     <textarea id="pfScene" placeholder="例：城门刚闭，我押着一车军粮被守门的百人队长拦下，他要看通行木牍——而我没有。"></textarea>
     <div class="prBtns">
       <span class="eBtn" id="prGo">INCIPERE&nbsp;·&nbsp;铸局</span>
@@ -751,8 +751,8 @@
         <div class="feSec" data-s="sit">
           <div class="feColH">此刻的场面</div>
           <div class="sub">开局那一幕从哪儿起？几时、在哪儿、谁在场、你刚做了什么或刚被卷进什么。<br><br>
-            只写看得见的。别写来龙去脉，也别写这一幕怎么收——那是神谕的事。<br><br>
-            留空亦可，神谕会按你选的年代、地点与人自拟一幕。</div>
+            只写看得见的。别写来龙去脉，也别写这一幕怎么收——那是AI的事。<br><br>
+            留空亦可，AI会按你选的年代、地点与人自拟一幕。</div>
         </div>
       </div>
     </div>
@@ -832,14 +832,14 @@
   <script src="/core/res/world/world-era-intro.js?v=20"></script>
   <script src="/core/res/vendor/three.r128.min.js"></script>
   <script src="/core/res/world/world-planet-map.js?v=46"></script>
-  <script src="/core/res/world/engine.js?v=38"></script>
+  <script src="/core/res/world/engine.js?v=39"></script>
   <script src="/core/res/world/storage-wipe.js?v=1"></script>
   <script src="/core/res/world/sonus.js?v=1"></script>
   <script src="/core/res/world/cosmos.js?v=4"></script>
   <script src="/core/res/world/visual-novel.js?v=15"></script>
   <script type="importmap">{"imports":{"@huggingface/transformers":"/core/res/runtime/risu/vendor/transformers.web.min.js","onnxruntime-common":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs","onnxruntime-web":"/core/res/runtime/risu/vendor/ort.webgpu.min.mjs"}}</script>
   <script type="module" src="/core/res/runtime/risu/risu-headless.js?v=39"></script>
-  <script type="module" src="/core/res/world/app.js?v=34"></script>
+  <script type="module" src="/core/res/world/app.js?v=35"></script>
   <script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));}</script>
   <div id="wmPlaceScrim" hidden></div>
   <div id="wmPlaceForm" hidden role="dialog" aria-modal="true" aria-labelledby="wmPlaceTitle">

@@ -224,8 +224,8 @@ function renderRoute() {
   const loc = state.loc;
   $('#feLocN').textContent = loc ? (loc.free ? 'LOCVS' : String(Math.max(1, sites.findIndex((site) => site.id === loc.id) + 1)).padStart(2, '0')) : '—';
   $('#feLocCn').textContent = loc ? loc.name : '在星球上拣一处';
-  $('#feLocD').textContent = loc ? loc.summary : '转动星球，点一处地名落脚；也可以点任意座标，神谕会按那里的地貌铺陈场面。留空则由默认开局决定。';
-  $('#feLocW').innerHTML = loc ? `${esc([loc.region, loc.biome, loc.elev].filter(Boolean).join(' · '))}${loc.coord ? ' · ' + esc(loc.coord) : ''}${loc.ref ? `<br>原文 · ${esc(loc.ref)}` : ''}<br>${state.route === 'preset' ? `开局仍按《${esc(state.era.opening.chapterTitle)}》原文逐字进入；地点写进玩家档案，供之后的对话取用。` : '自定义开局会把这一处的地貌与出处交给神谕。'}` : (state.route === 'preset' ? `连续正典正文 · 无需 API` : '不得新增人物、国家、历史、能力、私交、秘密或后世知识。');
+  $('#feLocD').textContent = loc ? loc.summary : '转动星球，点一处地名落脚；也可以点任意座标，AI会按那里的地貌铺陈场面。留空则由默认开局决定。';
+  $('#feLocW').innerHTML = loc ? `${esc([loc.region, loc.biome, loc.elev].filter(Boolean).join(' · '))}${loc.coord ? ' · ' + esc(loc.coord) : ''}${loc.ref ? `<br>原文 · ${esc(loc.ref)}` : ''}<br>${state.route === 'preset' ? `开局仍按《${esc(state.era.opening.chapterTitle)}》原文逐字进入；地点写进玩家档案，供之后的对话取用。` : '自定义开局会把这一处的地貌与出处交给AI。'}` : (state.route === 'preset' ? `连续正典正文 · 无需 API` : '不得新增人物、国家、历史、能力、私交、秘密或后世知识。');
 }
 function selectCard(id) { state.cardId = id; renderPersona(); }
 function renderPersona() {
@@ -307,7 +307,7 @@ async function beginGame() {
   state.player = { mode: 'custom', anchor: card(), custom, agency, companions: companionPacket() }; state.history = [];
   if (eng) {
     const packet = engineStartPacket(''); packet.scene_text = $('#feSit').value.trim();
-    $('#feSum').innerHTML = eng.apiReady() ? '<b>ORACVLVM</b> 神谕正在铸写开局…' : '<b>ORACVLVM 未接线</b> 以你写的场面作为程序化开局；接入 AI 后自定义开局将由神谕现场铸写。';
+    $('#feSum').innerHTML = eng.apiReady() ? '<b>ORACVLVM</b> AI正在铸写开局…' : '<b>ORACVLVM 未接线</b> 以你写的场面作为程序化开局；接入 AI 后自定义开局将由AI现场铸写。';
     eng.forge(packet, (opening) => { state.history = [{ role: 'assistant', content: opening, label: '自定义开局' }]; eng.start(engineStartPacket(opening)); }, (message) => { $('#feSum').innerHTML = `<b>铸局失败</b> ${esc(message)}`; });
     return;
   }

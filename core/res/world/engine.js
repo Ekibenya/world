@@ -212,7 +212,7 @@ function eraExit(){ERA.on=false;mOv.classList.remove('era');menuScatter();MENU.t
 /* 区域判定：按顺序首个命中的经纬盒；c=文化键 */
 var REGIONS=[],CULT={},MODN={},MODROLES=[],QUIRKS=[];function regionAt(){return null;}function genNPCs(){return [];}
 /* 「抢话」开关（连接 AI 弹窗）：不抢话＝玩家角色只由玩家说话（默认）；
-   抢话＝允许神谕代写玩家角色的对白与心声来推动剧情，但重要决定仍交还玩家。 */
+   抢话＝允许AI代写玩家角色的对白与心声来推动剧情，但重要决定仍交还玩家。 */
 function speakMode(){try{return !!(SET&&SET.speak);}catch(_){return false;}}
 function heroRule(name){
   return speakMode()
@@ -613,8 +613,8 @@ function gameEnter(lineOverride){
   loadOpening(line,draft,loc);
   GAME.hero=_hero;
   gameShow();
-  if(!apiReady()){                       /* 未接神谕：程序化开局即为终稿 */
-    narrAdd('sys','…&nbsp;ORACVLVM&nbsp;未接线&nbsp;·&nbsp;此为程序化开局；接入&nbsp;AI&nbsp;后自定义开局将由神谕现场铸写&nbsp;…',null);
+  if(!apiReady()){                       /* 未接AI：程序化开局即为终稿 */
+    narrAdd('sys','…&nbsp;ORACVLVM&nbsp;未接线&nbsp;·&nbsp;此为程序化开局；接入&nbsp;AI&nbsp;后自定义开局将由AI现场铸写&nbsp;…',null);
     return;
   }
   BUSY=true;genOpen('forge');
@@ -652,7 +652,7 @@ function gameEnter(lineOverride){
          的正文与 TURNS 整个盖掉（loadOpening 会清空两者）。 */
       if(fGen!==TYPE_GEN)return;
       var txt=String(reply||'').trim();
-      if(!/<mvu_panel>/.test(txt)){        /* 神谕漏了面板：补上底稿的面板，保证情报台不空 */
+      if(!/<mvu_panel>/.test(txt)){        /* AI漏了面板：补上底稿的面板，保证情报台不空 */
         var mv=(String(draft.text).match(/<mvu_panel>[\s\S]*<\/mvu_panel>/)||[''])[0];
         txt=txt+'\n\n'+mv;
       }
@@ -670,7 +670,7 @@ function gameEnter(lineOverride){
 }
 function gameExit(){
   TYPE_GEN++;
-  /* 在途的神谕请求要掐掉：不掐的话它会一直跑到超时，既浪费 token，
+  /* 在途的AI请求要掐掉：不掐的话它会一直跑到超时，既浪费 token，
      回调里的代际守卫虽然拦得住，但进度条与 BUSY 会挂在半路。 */
   try{if(GENAC)GENAC.abort();}catch(_){}
   BUSY=false;try{genClose();}catch(_){}
@@ -1423,7 +1423,7 @@ invRender();
     },{passive:true});
   }
 })();
-/* ============ 引擎：回合史 / 打字机 / 神谕(AI) / 重演·回溯 / 语音 ============ */
+/* ============ 引擎：回合史 / 打字机 / AI / 重演·回溯 / 语音 ============ */
 var TURNS=[],TURNI=0,BUSY=false;
 var CFGS={velo:1,font:1,narrPx:17,preset:''};
 try{Object.assign(CFGS,JSON.parse(localStorage.getItem('guardianDragonCfg')||'{}'));}catch(_){}
@@ -1656,7 +1656,7 @@ function genLabel(){
   if(GEN.phase==='planning')return 'ORACVLVM · '+(GEN.mode==='forge'?'铸局推演':'推演人物与局势')+'…… '+bar+' '+sec+'s';
   if(GEN.mode==='forge')return 'ORACVLVM · 铸局中…… '+bar+' '+sec+'s';
   if(GEN.phase==='writing'&&!GEN.chars)return 'ORACVLVM · 推演完成 · 等待落笔…… '+bar+' '+sec+'s';
-  if(GEN.chars>0)return 'ORACVLVM · 神谕落笔…… '+bar+' '+GEN.chars+' 字';
+  if(GEN.chars>0)return 'ORACVLVM · AI落笔…… '+bar+' '+GEN.chars+' 字';
   if(GEN.est&&el>GEN.est*1.6)return 'ORACVLVM · 建立链路…… '+bar+' '+sec+'s · 回线拥堵';
   return 'ORACVLVM · 建立链路…… '+bar+' '+(GEN.est?(Math.round(genPct())+'%'):(sec+'s'));
 }
@@ -1694,7 +1694,7 @@ function genClose(){
   if(GEN.tmr){clearTimeout(GEN.tmr);GEN.tmr=null;}
   if(GEN.el){try{GEN.el.remove();}catch(_){}GEN.el=null;GEN.fill=null;GEN.txt=null;}
 }
-/* —— 神谕（AI）接入 —— */
+/* —— AI接入 —— */
 var API={format:'openai',base:'',key:'',model:'',img:''};
 try{Object.assign(API,JSON.parse(localStorage.getItem('guardianDragonApi2')||'{}'));}catch(_){}
 function apiStore(){lsSet('guardianDragonApi2',JSON.stringify(API))}
@@ -1807,7 +1807,7 @@ window.__FELINIA_WRITING__={version:3,authorNote:FELINIA_AUTHOR_NOTE,
 
 /* ============================================================================
    GENIVS · 本地弱AI（纯规则 · 零网络 · 不需要任何 API）
-   职责是把三样东西缝起来：三维引擎的账实、云端神谕写的正文、情报台的状态栏。
+   职责是把三样东西缝起来：三维引擎的账实、云端AI写的正文、情报台的状态栏。
      brief()       —— 读三维世界，生成摘要塞进 prompt，让 AI 知道城里到底有什么
      absorb()      —— 读 AI 正文，抽出可执行意图，驱动三维（建、拆、来、去）
      completeMvu() —— 补全 AI 漏写的状态栏栏位，保证每轮每栏每行都有值
@@ -2844,7 +2844,7 @@ function askOracleSend(msgs){
     genClose();BUSY=false;
     if(live){try{live.remove();}catch(_){}live=null;}
     if(gen0!==TYPE_GEN)return;
-    oracleRetryNotice('神谕断连',msg);
+    oracleRetryNotice('AI断连',msg);
   },{onDelta:onDelta,onPhase:function(phase){GEN.phase=phase;},wantTag:'</mvu_panel>'});
 }
 /* ── CONSILIVM · 浅字提示 ──────────────────────────────────────────────
@@ -2900,7 +2900,7 @@ function suggLoose(t){
 function suggGen(){
   suggClear();
   if(!suggOn()||!GAME.on)return;
-  /* 正在出文时不求策：进游戏会先落一版程序化底稿开局、再由神谕铸写正式开局，
+  /* 正在出文时不求策：进游戏会先落一版程序化底稿开局、再由AI铸写正式开局，
      两次都会走到这里——底稿那次纯属白烧一次接口调用。铸局期间 BUSY 为真，跳过即可，
      正式开局落定后自然会再叫一次。 */
   if(BUSY)return;
@@ -3173,7 +3173,7 @@ function touchy(){
       if(TURNS[ci].role==='assistant'&&TURNS[ci].cognition){GAME.cognition=TURNS[ci].cognition;break;}
     }
   }
-  /* 重新演绎：丢掉最后一条神谕回复重取 */
+  /* 重新演绎：丢掉最后一条AI回复重取 */
   $('#gRedo').addEventListener('click',function(){
     if(BUSY)return;TYPE_GEN++;
     var last=TURNS[TURNS.length-1];
@@ -5276,7 +5276,7 @@ $('#gtVoc').addEventListener('click',function(){gDlgShow('#dlgVoc');});
 $('#exSave').addEventListener('click',function(){
   /* 存档后离开：优先写入空槽，无空槽则覆写最旧的一格 */
   var btn=this;if(btn.dataset.busy)return;
-  if(BUSY){$('#exMsg').textContent='神谕落笔中，请等本回写完再存档';return;}
+  if(BUSY){$('#exMsg').textContent='AI落笔中，请等本回写完再存档';return;}
   btn.dataset.busy='1';
   try{
     var slot=0,oldest=null;
@@ -5407,7 +5407,7 @@ $('#apiSave').addEventListener('click',function(){
   API.model=$('#apiModel').value.trim();API.img=$('#apiImg').value.trim();
   SET.samp.reason=Math.max(0,Math.min(3,parseInt($('#apiReason').value,10)||0));setStore();
   apiStore();
-  $('#apiMsg').textContent=apiReady()?'已储存 · 神谕在线':'已储存（尚缺必填项）';
+  $('#apiMsg').textContent=apiReady()?'已储存 · AI在线':'已储存（尚缺必填项）';
 });
 $('#apiClear').addEventListener('click',function(){
   API={format:'openai',base:'',key:'',model:'',img:''};apiStore();apiOpen();
@@ -5600,7 +5600,7 @@ function bookLabel(t,c){
    玩家自己写的和请入的角色卡一律照显，不动人家的东西。 */
 var BOOK_HIDE={'〔通则〕这个世界不是那样的 · 八条常错':1,
                '〔母本〕两部书的读法与本卡的取用规矩':1};
-var BOOK_META=/禁止|不许|不要|不得|玩家|正文|剧情|写成|怎么写|的用法：|钩子|场面里|场面上|游戏内|取用规矩|不是设定|这一条|本条|写这一段|写他们时|写政治时|写任何一代|触发时|一行一件事|条目|世界书|神谕|提示词/;
+var BOOK_META=/禁止|不许|不要|不得|玩家|正文|剧情|写成|怎么写|的用法：|钩子|场面里|场面上|游戏内|取用规矩|不是设定|这一条|本条|写这一段|写他们时|写政治时|写任何一代|触发时|一行一件事|条目|世界书|神谕|AI|提示词/;
 function bookHide(e){
   if(!e||e.custom)return false;
   if(e.lay==='style')return true;
@@ -6873,7 +6873,7 @@ function playerLoc(){
   for(var i=0;i<ZJ_LOCS.length;i++){if(td.indexOf(ZJ_LOCS[i].name)>=0)return ZJ_LOCS[i];}
   return ZJ_LOCS[0];
 }
-function sendText(text){ /* 宿主发送管线：ROME 神谕（三维敕令/移驾通报由此入正史） */
+function sendText(text){ /* 宿主发送管线：ROME AI（三维敕令/移驾通报由此入正史） */
   if(BUSY||!GAME.on)return;
   var idx=TURNI++;
   TURNS.push({role:'user',content:text,t:idx});
@@ -6888,7 +6888,7 @@ function movePlayerTo(name){
   var cur=playerLoc();
   if(L.name===cur.name){render();return;}
   S.overlay=null;
-  GAME.dest3d=L.name;                               /* 三维即刻随行：不必等神谕回话 */
+  GAME.dest3d=L.name;                               /* 三维即刻随行：不必等AI回话 */
   try{zj3dTick();}catch(_){}
   var _zd=null;try{_zd=zjDoc(L.name);}catch(_){}
   sendText('（御驾起行——孤自'+cur.name+'移驾前往'+L.name+'，'+L.note+'。'
@@ -6970,7 +6970,7 @@ function worldCommand(raw){
 }
 /* 三维营造模式的敕令通报入口：AI 忙时排队重试 */
 /* 三维里的动作（营造、拆毁、纵火、与人对话、出手）全靠这条通道上报给正文。
-   原来是各自重试 8 次≈12.8 秒就把文本丢掉——而一次神谕通常要跑 20 到 60 秒，
+   原来是各自重试 8 次≈12.8 秒就把文本丢掉——而一次AI通常要跑 20 到 60 秒，
    也正是玩家最爱去三维画面里点点看的时段。结果是三维里房子起来了、人死了，
    正文一个字都不知道；下一回合 brief() 又用「引擎账实·最高可信」把这些列给 AI，
    AI 只能凭空补叙或干脆忽略。改成真队列：等多久都不丢，按顺序一条条发。 */
@@ -9611,7 +9611,7 @@ function worldItemLore(era){
   });
   return out;
 }
-/* 货单是异步取的，而世界书「物品」与神谕的开局提示词都要用它，
+/* 货单是异步取的，而世界书「物品」与AI的开局提示词都要用它，
    所以先把它取回来再装卡；取不到就照旧只摆世界书里的正典物件，不拦着入局。 */
 function worldSetEra(era,meta){
   return worldItemsBundle(era).then(function(bundle){
@@ -9660,7 +9660,7 @@ function worldStart(o){
   GAME.risuNpcKeys=keys;
   gameShow();
 }
-/* 自定义开局：交给神谕现场铸写；未接线时以玩家写的场面为开场。 */
+/* 自定义开局：交给AI现场铸写；未接线时以玩家写的场面为开场。 */
 function worldForge(o,done,fail){
   var name=o.player&&o.player.name||'玩家';
   if(CARDS.luzhi)CARDS.luzhi.heroName=name;
