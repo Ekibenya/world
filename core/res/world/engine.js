@@ -452,8 +452,9 @@ function felNewMemoryId(){
   return 'fel-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2);
 }
 function felMemoryId(){
-  if(!GAME.memoryId)GAME.risuNative={};
-  GAME.memoryId=felNewMemoryId();
+  /* 只在本局还没有钥匙时铸一把；原来每次调用都重新生成，于是每一回都把抽屉写进一座新宫殿，
+     面板按最新那把钥匙去找永远是空的，存档里记的也对不上。 */
+  if(!GAME.memoryId){GAME.risuNative={};GAME.memoryId=felNewMemoryId();}
   return GAME.memoryId;
 }
 function buildActs(y){
