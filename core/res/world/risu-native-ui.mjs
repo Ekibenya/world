@@ -65,8 +65,9 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
   field(manager,'叠加原生主提示词',!!native.state().combineWorldPrompt,v=>{native.state().combineWorldPrompt=v;persist();},'checkbox');
   manager.append(el('p',p.promptTemplate?'当前使用自定义模板，提示词按模板内容和顺序执行；主提示词叠加仅用于非模板预设。':'开启后，原生主提示词在前，World 游戏规则和玩家指令在后。NSFW 由连接 AI 中的 YES / NO 单独控制。',{className:'sub'}));
   const template=section(host,'提示模板','条目顺序就是执行顺序；条件使用内置宏。修改后点击保存模板。');
-  const draft=clone(p);draft.promptTemplate??=[];
-  field(template,'使用提示模板',p.promptTemplate!=null,v=>{p.promptTemplate=v?draft.promptTemplate:null;native.editPreset(p);changed();},'checkbox');
+  template.append(el('p','「主提示词」条目携带整套游戏规则（正典边界、状态栏格式、写法），「聊天记录」条目携带对话历史。模板里缺了它们，模型就只看得到你加的那几条，正文会完全失控；开启和保存时会自动补齐。另外 {{setvar::名::…}} 这类宏只写入变量、不会输出任何文字，写在里面的规则模型看不到。',{className:'sub'}));
+  const draft=clone(p);draft.promptTemplate=ensureCoreTemplate(draft.promptTemplate);
+  field(template,'使用提示模板',p.promptTemplate!=null,v=>{p.promptTemplate=v?ensureCoreTemplate(draft.promptTemplate):null;native.editPreset(p);changed();},'checkbox');
   const listHost=el('div');template.append(listHost);
   function draw(){listHost.replaceChildren();draft.promptTemplate.forEach((item,i)=>{
    const row=section(listHost,`${i+1}. ${item.name||types[item.type]||item.type}`);row.open=false;
@@ -80,11 +81,32 @@ export function createNativeUI(native,{save,getTriggers,setTriggers,prepareSessi
    if(item.type==='cache'){field(row,'深度',item.depth||0,v=>item.depth=v,'number');field(row,'缓存角色',item.role||'all',v=>item.role=v,'text',{all:'全部',system:'System',user:'User',assistant:'Assistant'});}
    jsonEditor(row,'完整条目字段',item,v=>{if(!v||typeof v.type!=='string')throw Error('缺少条目 type');draft.promptTemplate[i]=v;draw();});reorder(row,draft.promptTemplate,i,draw);
   });}
-  draw();template.append(button('添加条目',()=>{draft.promptTemplate.push({type:'plain',type2:'normal',role:'system',text:''});draw();}),button('保存模板',()=>{native.editPreset({...clone(native.preset()),promptTemplate:draft.promptTemplate});changed();}));
+  draw();template.append(button('添加条目',()=>{draft.promptTemplate.push({type:'plain',type2:'normal',role:'system',text:''});draw();}),button('保存模板',()=>{draft.promptTemplate=ensureCoreTemplate(draft.promptTemplate);native.editPreset({...clone(native.preset()),promptTemplate:draft.promptTemplate});changed();draw();}));
   field(template,'模板默认变量',p.templateDefaultVariables||'',v=>{p.templateDefaultVariables=v;native.editPreset(p);persist();},'textarea');
   field(template,'选项定义',p.customPromptTemplateToggle||'',v=>{p.customPromptTemplateToggle=v;native.editPreset(p);changed();},'textarea');
   field(template,'关联模块',p.moduleIntergration||'',v=>{p.moduleIntergration=v;native.editPreset(p);changed();},'textarea');
   jsonEditor(template,'完整预设字段',p,v=>{native.editPreset(v);changed();});
+ }
+ /* 模板骨架：玩家从零建模板时最容易把承载游戏规则的「主提示词」和承载历史的「聊天记录」漏掉，
+    结果模型只看到自己加的那几条、正文随机乱写。空模板按原生默认骨架起草；已有模板缺哪条补哪条。 */
+ const CORE_TEMPLATE=[
+  {name:'游戏规则 · 主提示词',type:'plain',type2:'main',role:'system',text:''},
+  {name:'角色描述',type:'description'},
+  {name:'用户设定',type:'persona'},
+  {name:'世界书',type:'lorebook'},
+  {name:'聊天记录',type:'chat',rangeStart:0,rangeEnd:'end'},
+  {name:'作者注释',type:'authornote'},
+  {name:'全局注释',type:'plain',type2:'globalNote',role:'system',text:''},
+  {name:'末尾',type:'postEverything'}
+ ];
+ function ensureCoreTemplate(list){
+  if(!Array.isArray(list)||!list.length)return clone(CORE_TEMPLATE);
+  const out=list.slice();
+  const has=(pred)=>out.some(pred);
+  if(!has(i=>i&&i.type==='plain'&&i.type2==='main'))out.unshift(clone(CORE_TEMPLATE[0]));
+  if(!has(i=>i&&i.type==='lorebook'))out.splice(1,0,clone(CORE_TEMPLATE[3]));
+  if(!has(i=>i&&i.type==='chat')){const at=out.findIndex(i=>i&&(i.type==='postEverything'||i.type2==='globalNote'));out.splice(at<0?out.length:at,0,clone(CORE_TEMPLATE[4]));}
+  return out;
  }
  function renderOptions(host){
   const options=native.options();if(!options.length)host.append(el('p','当前预设与模块未定义额外选项。',{className:'sub'}));
