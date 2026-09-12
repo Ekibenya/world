@@ -1541,9 +1541,9 @@ function applyCfg(){
 }
 applyCfg();
 /* 正文窗口：几十回之后 #gNarr 里有上千个节点，每次重绘、每一帧毛玻璃都要拖着它们，
-   打字点击就开始卡。只在页面上留最近 NARR_KEEP 条（玩家句与回复各算一条，约三十回），
+   打字点击就开始卡。只在页面上留最近 NARR_KEEP 条（玩家句与回复各算一条，约十回），
    更早的原样收进 NARR_ARCH，顶上留一个「展开更早」按钮；存档照旧写全量。 */
-var NARR_KEEP=60,NARR_ARCH=[];
+var NARR_KEEP=20,NARR_ARCH=[];
 function narrTrim(){
   var nr=$('#gNarr');if(!nr)return;
   var kids=[].slice.call(nr.children),ts=[],seen={};
