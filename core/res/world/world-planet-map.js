@@ -621,7 +621,8 @@ function makeVolcano(lon,lat){
   var rockM=new T.MeshStandardMaterial({color:sc(0x3b312d),roughness:.96,flatShading:true}),lavaM=new T.MeshStandardMaterial({color:sc(0x2a1512),emissive:sc(0xff5a12),emissiveIntensity:1.6,roughness:.7});
   /* 锥体：底部埋进地表，锥顶留出火口；按方位角起伏，下半段更宽 */
   var g=new T.CylinderGeometry(.014,.082,.1,28,7,true),p=g.attributes.position;
-  for(i=0;i<p.count;i++){x=p.getX(i);y=p.getY(i);z=p.getZ(i);r=Math.hypot(x,z);if(r<1e-6)continue;a=Math.atan2(z,x);t=(y+.05)/.1;
+  for(i=0;i<p.count;i++){x=p.getX(i);y=p.getY(i);z=p.getZ(i);r=Math.hypot(x,z);if(r<1e-6)continue;a=Math.atan2(z,x);t=Math.min(1,Math.max(0,(y+.05)/.1));
+    /* t 夹在 [0,1]：顶环的 1-t 会算出 -1e-17 之类的负零头，pow(负数,1.5) 是 NaN，整个锥体的包围球就坏了 */
     k=(.014+(.082-.014)*Math.pow(1-t,1.5))/(.014+(.082-.014)*(1-t));k*=1+.16*(1-t*.6)*n3(Math.cos(a)*2.6+9,Math.sin(a)*2.6,y*30)+.05*n3(x*300,y*300,z*300);
     p.setXYZ(i,x*k,y+.004*n3(x*220,y*220+4,z*220)*(1-t),z*k);}
   g.computeVertexNormals();var cone=new T.Mesh(g,rockM);cone.position.y=.05-.03;root.add(cone);
