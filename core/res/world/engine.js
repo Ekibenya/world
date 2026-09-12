@@ -1543,12 +1543,13 @@ applyCfg();
 /* 正文窗口：几十回之后 #gNarr 里有上千个节点，每次重绘、每一帧毛玻璃都要拖着它们，
    打字点击就开始卡。只在页面上留最近 NARR_KEEP 条（玩家句与回复各算一条，约十回），
    更早的原样收进 NARR_ARCH，顶上留一个「展开更早」按钮；存档照旧写全量。 */
-var NARR_KEEP=20,NARR_ARCH=[];
+var NARR_ARCH=[];
+function narrKeepN(){var n=parseInt((typeof SET!=='undefined'&&SET.narrKeep!=null)?SET.narrKeep:20,10);return isNaN(n)||n<0?20:n;}
 function narrTrim(){
   var nr=$('#gNarr');if(!nr)return;
   var kids=[].slice.call(nr.children),ts=[],seen={};
   kids.forEach(function(k){var t=k.getAttribute&&k.getAttribute('data-t');if(t!=null&&t!==''&&!seen[t]){seen[t]=1;ts.push(t);}});
-  if(ts.length<=NARR_KEEP)return;
+  var NARR_KEEP=narrKeepN();if(!NARR_KEEP||ts.length<=NARR_KEEP)return;
   var keepFrom=ts[ts.length-NARR_KEEP],cut=[];
   for(var i=0;i<kids.length;i++){var k=kids[i];
     if(k.getAttribute&&k.getAttribute('data-t')===keepFrom)break;
@@ -3538,7 +3539,7 @@ $('#gtFull').addEventListener('click',function(){
   else document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();
 });
 /* ============ 设置·控制中枢（12页签，代码级对齐 Ghost setBody） ============ */
-var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,speak:0,
+var SET={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,speak:0,narrKeep:20,
   tts:{src:0,base:'',key:'',model:'tts-1',voice:'',rate:105,scope:0,auto:0},
   img:{on:0,base:'',key:'',model:'',size:0,style:0},   /* style 0 ＝ NovelAI，见 IMGSTY */
   sub:{format:'openai',base:'',key:'',model:''},
@@ -3561,7 +3562,7 @@ try{var _s=JSON.parse(localStorage.getItem('guardianDragonSet')||'{}');
    「绘此幕」点了整个函数当场中断、毫无反应；cam/disp 为 undefined 则查表得 undefined，
    提示词里混进字面量「undefined」、图片显示宽度失效。这就是「设置里某些项目不作用」。 */
 (function(){
-  var D={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,speak:0,
+  var D={glass:80,forma:0,face:0,mvuRing:1,loreBud:20000,context:65536,speak:0,narrKeep:20,
     tts:{src:0,base:'',key:'',model:'tts-1',voice:'',rate:105,scope:0,auto:0},
     img:{on:0,auto:0,count:0,cam:0,disp:2,base:'',key:'',model:'',size:0,style:0,
          steps:'',cfg:'',w:'',h:'',seed:'',workflow:''},
@@ -4181,6 +4182,9 @@ if(/[?&]perf=1/.test(location.search))(function(){
   all();ivl(all,1200);
 })();
 $('#cfgGlass').value=SET.glass;
+(function(){var el=$('#cfgNarrKeep');if(!el)return;el.value=SET.narrKeep;
+  el.addEventListener('change',function(){var n=parseInt(this.value,10);if(isNaN(n)||n<0)n=20;this.value=n;SET.narrKeep=n;setStore();
+    try{if(!n)narrRestore(NARR_ARCH.length);else{narrRestore(NARR_ARCH.length);narrTrim();}}catch(_){}});})();
 var glassRaf=0;
 $('#cfgGlass').addEventListener('input',function(){SET.glass=+this.value;
   if(!glassRaf)glassRaf=requestAnimationFrame(function(){glassRaf=0;applyGlass();setStore();});});
