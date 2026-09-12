@@ -99,6 +99,10 @@
     X.globalAlpha = 1;
   }
 
+  var typingUntil = 0;
+  document.addEventListener('keydown', function (e) {
+    var el = e.target; if (el && (el.tagName === 'TEXTAREA' || el.tagName === 'INPUT')) typingUntil = performance.now() + 1500;
+  }, true);
   function frame(t) {
     var el = document.getElementById('game');
     var on = el && el.classList.contains('show') && document.visibilityState === 'visible';
@@ -114,7 +118,10 @@
     var dt = Math.min(66, t - last || 16); last = t;
     /* 三十帧足够：这是一片慢慢飘的底，多画的每一帧都在跟正文抢主线程。 */
     acc += dt;
-    if (acc < 33 && drawnOnce) { raf = requestAnimationFrame(frame); return; }
+    /* 玩家正在输入时整片底停住：每画一帧，压在上面的毛玻璃正文层都要整层重合成一遍，
+       几十回的正文叠上去就是打字卡顿的来源。停一秒半，手一停就接着飘。 */
+    if (t < typingUntil && drawnOnce) { raf = requestAnimationFrame(frame); last = t; return; }
+    if (acc < 41 && drawnOnce) { raf = requestAnimationFrame(frame); return; }
     acc = 0;
     if (t - nebAt > 500) { paintNebula(t); nebAt = t; }
     X.fillStyle = '#05070c';

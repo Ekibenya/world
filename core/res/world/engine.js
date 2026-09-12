@@ -1540,6 +1540,48 @@ function applyCfg(){
   }
 }
 applyCfg();
+/* 正文窗口：几十回之后 #gNarr 里有上千个节点，每次重绘、每一帧毛玻璃都要拖着它们，
+   打字点击就开始卡。只在页面上留最近 NARR_KEEP 条（玩家句与回复各算一条，约三十回），
+   更早的原样收进 NARR_ARCH，顶上留一个「展开更早」按钮；存档照旧写全量。 */
+var NARR_KEEP=60,NARR_ARCH=[];
+function narrTrim(){
+  var nr=$('#gNarr');if(!nr)return;
+  var kids=[].slice.call(nr.children),ts=[],seen={};
+  kids.forEach(function(k){var t=k.getAttribute&&k.getAttribute('data-t');if(t!=null&&t!==''&&!seen[t]){seen[t]=1;ts.push(t);}});
+  if(ts.length<=NARR_KEEP)return;
+  var keepFrom=ts[ts.length-NARR_KEEP],cut=[];
+  for(var i=0;i<kids.length;i++){var k=kids[i];
+    if(k.getAttribute&&k.getAttribute('data-t')===keepFrom)break;
+    if(k.classList&&(k.classList.contains('gEot')||k.classList.contains('genBar')||k.classList.contains('liveWrap')||k.classList.contains('narrMore')))continue;
+    cut.push(k);}
+  if(!cut.length)return;
+  var stuck=nr.scrollHeight-nr.scrollTop-nr.clientHeight<90,h0=nr.scrollHeight;
+  cut.forEach(function(k){NARR_ARCH.push(k.outerHTML);k.remove();});
+  narrMoreBtn();
+  if(stuck)nr.scrollTop=nr.scrollHeight;else nr.scrollTop=Math.max(0,nr.scrollTop-(h0-nr.scrollHeight));
+}
+function narrMoreBtn(){
+  var nr=$('#gNarr');if(!nr)return;var b=nr.querySelector('.narrMore');
+  if(!NARR_ARCH.length){if(b)b.remove();return;}
+  if(!b){b=document.createElement('div');b.className='sys narrMore';b.style.cssText='text-align:center;margin:0 0 18px';
+    b.innerHTML='<span class="eBtn" style="margin-top:0;font-size:11px;padding:8px 22px 7px"></span>';
+    b.querySelector('.eBtn').addEventListener('click',function(){narrRestore(20);});
+    nr.insertBefore(b,nr.firstChild);}
+  b.querySelector('.eBtn').textContent='展开更早的正文（还有 '+NARR_ARCH.length+' 段）';
+}
+function narrRestore(n){
+  var nr=$('#gNarr'),b=nr&&nr.querySelector('.narrMore');if(!nr)return;
+  var chunk=NARR_ARCH.splice(Math.max(0,NARR_ARCH.length-n),n),h0=nr.scrollHeight,tmp=document.createElement('div');
+  tmp.innerHTML=chunk.join('');var anchor=b?b.nextSibling:nr.firstChild;
+  while(tmp.firstChild)nr.insertBefore(tmp.firstChild,anchor);
+  try{ensureTurnTranslateOps(nr);}catch(_){}
+  narrMoreBtn();nr.scrollTop+=nr.scrollHeight-h0;
+}
+function narrFullHtml(){
+  var _nr=$('#gNarr').cloneNode(true);
+  _nr.querySelectorAll('.genBar,.liveWrap,.narrMore').forEach(function(n){n.remove();});
+  return NARR_ARCH.join('')+_nr.innerHTML;
+}
 function narrAdd(cls,html,tIdx){
   var nr=$('#gNarr'),p=document.createElement('p');
   if(cls)p.className=cls;
@@ -1651,6 +1693,7 @@ function renderReply(text,tIdx,instant){
   var after=function(finalText){
     typeParas(finalText.split(/\n{2,}/),tIdx,function(){
       if(tIdx!=null)turnOps(tIdx,finalText);
+      try{narrTrim();}catch(_){}
       if(typeof SET!=='undefined'&&SET.tts.auto===1)speakText(finalText);
       if(typeof SET!=='undefined'&&SET.img.on===1&&SET.img.auto===1)drawScene();
       /* 这一幕落定了，就该把下一步那一句浅字提出来 */
@@ -8024,7 +8067,7 @@ function loadOpening(side,op,locOverride){
     savePref();
   }catch(_){}
   var body=stripMvu(op.text),panel=parseMvu(op.text);
-  var nr=$('#gNarr');nr.innerHTML='';
+  var nr=$('#gNarr');NARR_ARCH=[];nr.innerHTML='';
   body.split(/\n{2,}/).forEach(function(par){
     var p=document.createElement('p');
     if(felNarrClass(par))p.className='heart';
@@ -8165,11 +8208,7 @@ function svSnap(){
        一起写进去，读档后正文里永久卡着一条走不完的进度条（序列化丢事件，✕ 中断
        变成死按钮）外加一段半截文。先克隆一份、摘掉这两类临时节点再序列化。 */
     html:(function(){
-      try{
-        var _nr=$('#gNarr').cloneNode(true);
-        _nr.querySelectorAll('.genBar,.liveWrap').forEach(function(n){n.remove();});
-        return _nr.innerHTML;
-      }catch(_){return $('#gNarr').innerHTML;}
+      try{return narrFullHtml();}catch(_){return $('#gNarr').innerHTML;}
     })(),
     mfd:document.querySelector('#game .gMfd').innerHTML,
     inv:JSON.parse(JSON.stringify(INV)),place:GAME.place,
@@ -8236,8 +8275,9 @@ function svLoadCore(v){
   GAME.cognition=v.cognition||null;
   ERA.act=buildActs(ERA.year);ERA.sel=null;
   gLocSet(v.loc||'');
-  $('#gNarr').innerHTML=v.html||'';
+  NARR_ARCH=[];$('#gNarr').innerHTML=v.html||'';
   ensureTurnTranslateOps($('#gNarr'));
+  try{narrTrim();}catch(_){}
   document.querySelector('#game .gMfd').innerHTML=v.mfd||'';
   try{mvRingMount();}catch(_){}
   TURNS=v.turns||[];TURNI=TURNS.length?(Math.max.apply(null,TURNS.map(function(t){return t.t||0;}))+1):0;
